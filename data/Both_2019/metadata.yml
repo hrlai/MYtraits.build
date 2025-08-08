@@ -1,0 +1,576 @@
+source:
+  primary:
+    key: Both_2019
+    bibtype: Misc
+    year: '2019'
+    author: Sabine Both and David F. R. P. Burslem and Terhi Riutta and Yadvinder
+      Malhi and Noreen Majalap and Yit Arn Teh
+    title: Functional traits of tree species in old-growth and selectively logged
+      forest
+    doi: 10.5281/zenodo.3247631
+    publisher: Zenodo
+    keywords: trees and functional traits and leaf traits and old-growth forest and
+      selectively logged forest
+    copyright: Creative Commons Attribution 4.0 International
+  secondary:
+    key: Both_2018
+    bibtype: Article
+    year: '2018'
+    author: Sabine Both and Terhi Riutta and C. E. Timothy Paine and Dafydd M. O.
+      Elias and R. S. Cruz and Annuar Jain and David Johnson and Ully H. Kritzler
+      and Marianne Kuntz and Noreen Majalap‐Lee and Nora Mielke and Milenka X. Montoya
+      Pilco and Nicholas J. Ostle and Yit Arn Teh and Yadvinder Malhi and David F.
+      R. P. Burslem
+    journal: New Phytologist
+    title: Logging and soil nutrients independently explain plant trait expression
+      in tropical forests
+    volume: '221'
+    number: '4'
+    pages: 1853–1865
+    doi: 10.1111/nph.15444
+    issn: 1469-8137
+contributors:
+  data_collectors:
+  - last_name: Both
+    given_name: Sabine
+    ORCID: 0000-0003-4437-5106
+    affiliation: University of New England and Australia
+    additional_role: contact
+  assistants: Dafydd M. O. Elias and Terhi Riutta and Ully H. Kritzler and R. S. Cruz
+    and Milenka X. Montoya Pilco and Laura Kruitbos and Unding Jami and Lisa P. Bentley
+    and Benjamin Blonder and Puikiat Hoo and Palasiah Jotan and Alexander Shenkin
+    and Chun Xing Wong and Bernadus Bala Ola and Bill McDonald and Alexander Karolus
+    and MinSheng Khoo
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: no
+  custom_R_code: .na
+  collection_date: sampling_date
+  taxon_name: taxon_name
+  location_name: location
+  individual_id: tree_id
+  description: Traits matrix for tree species in selectively logged forest at SAFE
+    and in old-growth forest in Danum Valley and Maliau Basin. Sampled during the
+    BALI project traits campaign.
+  basis_of_record: field
+  life_stage: adult
+  sampling_strategy: From each target tree, we attempted to sample a fully sunlit
+    canopy branch and a fully shaded branch; however, branches of only one type were
+    available for most trees (91%) because it was uncommon for large-canopy trees
+    to possess fully shaded branches and for small understorey trees to have fully
+    sunlit branches. Branch samples were collected by tree climbing or by cutting
+    from the ground with telescopic branch cutters. Target tree height ranged from
+    2.3 to 78.1 m, and sample height ranged from 2.3 to 53 m. Branches were c. 2--4
+    cm in diameter and provided sufficient leaf material for all analyses. Photosynthetic
+    activity was only measured on trees selected by the basal area sampling strategy
+    as a result of time constraints (n = 298), whereas all other functional traits
+    were determined on all trees. Undamaged mature leaves were collected and cleaned
+    with water for subsequent analyses. Fresh and dry leaf weight, (specific) leaf
+    area, leaf thickness, leaf dry matter content (LDMC), (specific) force to punch
+    and branch wood density were determined in a field laboratory. Dried bulked and
+    milled leaf material was used for determination of Ca, K, Mg, P, C and N concentrations,
+    δ13C and δ15N stable isotope composition, cellulose, hemicellulose and lignin
+    concentrations. Analyses of pigments (Chla, Chlb and carotenoids), phenols and
+    tannins were conducted on 0.7-cm-diameter leaf discs punched from fresh leaves
+    immediately after field collection and frozen in liquid N. Herbarium voucher specimens
+    were taken for identification of trees and were deposited in the herbarium at
+    Danum Valley Field Centre. All trait measurements follow standardized protocols
+    (Pérez-Harguindeguy et al., 2013).
+  original_file: raw/Both_tree_functional_traits.xlsx
+  notes: unknown
+identifiers: .na
+locations: .na
+contexts: .na
+traits:
+- var_in: total_K_mg.g
+  unit_in: mg/g
+  trait_name: leaf_K_per_dry_mass
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: unknown
+  methods: Atomic absorption spectroscopy (AAS)
+- var_in: total_Ca_mg.g
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: Atomic absorption spectroscopy (AAS)
+- var_in: total_Mg_mg.g
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: total_P_mg.g
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: N_perc
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: 15N_per_mil
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: C_perc
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: 13C_per_mil
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: CN
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: DR_mean
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: DR_sd
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: Asat_cons_mean
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: Asat_cons_sd
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: Amax_cons_mean
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: Amax_cons_sd
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: Asat_mean
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: Asat_sd
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: Amax_mean
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: Amax_sd
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: LA_cm2_mean
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: LA_cm2_sd
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: leaf_thickness_mm_mean
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: fresh_weight_g_mean
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: dry_weight_g_mean
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: dry_weight_mg_mean
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: LDMC_mg.g_mean
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: leaf_thickness_mm_sd
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: fresh_weight_g_sd
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: dry_weight_g_sd
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: dry_weight_mg_sd
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: LDMC_mg.g_sd
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: branch_height_m
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: chla_mg.g
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: chlb_mg.g
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: carot_mg.g
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: Fp_N_mm_mean
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: Fp_N_mm_sd
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: specific_Fp_mean
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: specific_Fp_sd
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: WD_B
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: WD_NB
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: hemicellulose_perc
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: cellulose_perc
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: lignin_recalcitrants_perc
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: Total_tannin_mg.g
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: Total_phenol_mg.g
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: SLA_mm2.mg_mean
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: total_K_mg.mm2
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: total_Ca_mg.mm2
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: total_Mg_mg.mm2
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: total_P_mg.mm2
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: chla_mg.mm2
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: chlb_mg.mm2
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: carot_mg.mm2
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: tannin_mg.mm2
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: phenol_mg_mm2
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: N_mg.mm2
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: C_mg.mm2
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: hemicellulose_mg.mm2
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: cellulose_mg.mm2
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+- var_in: lignin_recalcitrants_mg.mm2
+  unit_in: unknown
+  trait_name: unknown
+  entity_type: unknown
+  value_type: unknown
+  basis_of_value: unknown
+  replicates: unknown
+  methods: unknown
+substitutions: .na
+taxonomic_updates: .na
+exclude_observations: .na
+questions: .na
