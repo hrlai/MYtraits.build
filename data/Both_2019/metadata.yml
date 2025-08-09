@@ -18,7 +18,7 @@ source:
     year: '2018'
     author: Sabine Both and Terhi Riutta and C. E. Timothy Paine and Dafydd M. O.
       Elias and R. S. Cruz and Annuar Jain and David Johnson and Ully H. Kritzler
-      and Marianne Kuntz and Noreen Majalap‐Lee and Nora Mielke and Milenka X. Montoya
+      and Marianne Kuntz and Noreen Majalap-Lee and Nora Mielke and Milenka X. Montoya
       Pilco and Nicholas J. Ostle and Yit Arn Teh and Yadvinder Malhi and David F.
       R. P. Burslem
     journal: New Phytologist
@@ -45,10 +45,10 @@ contributors:
 dataset:
   data_is_long_format: no
   custom_R_code: .na
-  collection_date: sampling_date
+  collection_date: 2014-05-01/2018-09-01
   taxon_name: taxon_name
   location_name: location
-  individual_id: tree_id
+  individual_id: uid
   description: Traits matrix for tree species in selectively logged forest at SAFE
     and in old-growth forest in Danum Valley and Maliau Basin. Sampled during the
     BALI project traits campaign.
@@ -69,18 +69,52 @@ dataset:
     area, leaf thickness, leaf dry matter content (LDMC), (specific) force to punch
     and branch wood density were determined in a field laboratory. Dried bulked and
     milled leaf material was used for determination of Ca, K, Mg, P, C and N concentrations,
-    δ13C and δ15N stable isotope composition, cellulose, hemicellulose and lignin
-    concentrations. Analyses of pigments (Chla, Chlb and carotenoids), phenols and
-    tannins were conducted on 0.7-cm-diameter leaf discs punched from fresh leaves
+    delta13C and delta15N stable isotope composition, cellulose, hemicellulose and
+    lignin concentrations. Analyses of pigments (Chla, Chlb and carotenoids), phenols
+    and tannins were conducted on 0.7-cm-diameter leaf discs punched from fresh leaves
     immediately after field collection and frozen in liquid N. Herbarium voucher specimens
     were taken for identification of trees and were deposited in the herbarium at
     Danum Valley Field Centre. All trait measurements follow standardized protocols
     (Pérez-Harguindeguy et al., 2013).
   original_file: raw/Both_tree_functional_traits.xlsx
   notes: For precise replicate numbers, see columns with _n suffix in the original
-    file
+    file. The original data measured some tree individual multiple times by taking
+    sun and shade branches. HR Lai aggregated these to individual means because 
+    this is the lowest hierarchy that is accepted by traits.build standards.
 identifiers: .na
-locations: .na
+locations:
+  Car_Bel:
+    longitude (deg): 116.9699975
+    latitude (deg): 4.7473747
+    description: Carbon plot
+  Car_BN:
+    longitude (deg): 117.6175294
+    latitude (deg): 4.7392668
+    description: Carbon plot
+  Car_BS:
+    longitude (deg): 117.6184687
+    latitude (deg): 4.7318392
+    description: Carbon plot
+  Car_D1:
+    longitude (deg): 117.7960833
+    latitude (deg): 4.9520229
+    description: Carbon plot
+  Car_D2:
+    longitude (deg): 117.7937446
+    latitude (deg): 4.9534308
+    description: Carbon plot
+  Car_E:
+    longitude (deg): 117.5876906
+    latitude (deg): 4.692003
+    description: Carbon plot
+  Car_LF:
+    longitude (deg): 117.7000449
+    latitude (deg): 4.7650386
+    description: Carbon plot
+  Car_Ser:
+    longitude (deg): 116.95018
+    latitude (deg): 4.7535351
+    description: Carbon plot
 contexts: .na
 traits:
 - var_in: total_K_mg.g
@@ -116,7 +150,7 @@ traits:
   replicates: unknown
   methods: Acid digestion
 - var_in: N_perc
-  unit_in: %
+  unit_in: '%'
   trait_name: leaf_N_per_dry_mass
   entity_type: individual
   value_type: mean
@@ -132,7 +166,7 @@ traits:
   replicates: unknown
   methods: Combustion analysis
 - var_in: C_perc
-  unit_in: %
+  unit_in: '%'
   trait_name: leaf_C_per_dry_mass
   entity_type: individual
   value_type: mean
@@ -162,10 +196,10 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: 3
-  methods: Mean dark respiration measured on leaf of a branch that is cut under 
-    water and remains in water, calculated from replicated leaves per branch
-    Measured with Portable LiCor XT6400 Gas Exchange machine and the settings 
-    CO2R = 400 Pa, PARi = 0
+  methods: Mean dark respiration measured on leaf of a branch that is cut under water
+    and remains in water, calculated from replicated leaves per branch Measured with
+    Portable LiCor XT6400 Gas Exchange machine and the settings CO2R = 400 Pa, PARi
+    = 0
 - var_in: DR_sd
   unit_in: umol{CO2}/m2/s
   trait_name: leaf_dark_respiration_per_area
@@ -173,10 +207,10 @@ traits:
   value_type: standard_error
   basis_of_value: measurement
   replicates: 3
-  methods: SD of dark respiration measured on leaf of a branch that is cut under 
-    water and remains in water, calculated from replicated leaves per branch
-    Measured with Portable LiCor XT6400 Gas Exchange machine and the settings 
-    CO2R = 400 Pa, PARi = 0
+  methods: SD of dark respiration measured on leaf of a branch that is cut under water
+    and remains in water, calculated from replicated leaves per branch Measured with
+    Portable LiCor XT6400 Gas Exchange machine and the settings CO2R = 400 Pa, PARi
+    = 0
 - var_in: Asat_cons_mean
   unit_in: umol{CO2}/m2/s
   trait_name: leaf_photosynthetic_rate_per_area_saturated
@@ -184,12 +218,12 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: 1-3
-  methods: Mean light-saturated net photosynthesis measured on leaf of a branch 
-    that is cut under water and remains in water, calculated from replicated 
-    leaves per branch. Data cleaning very conservative, subset of values only 
-    with conductance higher 0.04, Ci between 150 - 300, and PS higher than 1, 
-    leading to fewer data points. Measured with Portable LiCor XT6400 Gas Exchange 
-    machine and the settings CO2R = 400 Pa, PARi = 2000
+  methods: Mean light-saturated net photosynthesis measured on leaf of a branch that
+    is cut under water and remains in water, calculated from replicated leaves per
+    branch. Data cleaning very conservative, subset of values only with conductance
+    higher 0.04, Ci between 150 - 300, and PS higher than 1, leading to fewer data
+    points. Measured with Portable LiCor XT6400 Gas Exchange machine and the settings
+    CO2R = 400 Pa, PARi = 2000
 - var_in: Asat_cons_sd
   unit_in: umol{CO2}/m2/s
   trait_name: leaf_photosynthetic_rate_per_area_saturated
@@ -197,12 +231,12 @@ traits:
   value_type: standard_error
   basis_of_value: measurement
   replicates: 1-3
-  methods: SD of light-saturated net photosynthesis measured on leaf of a branch 
-    that is cut under water and remains in water, calculated from replicated 
-    leaves per branch. Data cleaning very conservative, subset of values only 
-    with conductance higher 0.04, Ci between 150 - 300, and PS higher than 1, 
-    leading to fewer data points. Measured with Portable LiCor XT6400 Gas Exchange 
-    machine and the settings CO2R = 400 Pa, PARi = 2000
+  methods: SD of light-saturated net photosynthesis measured on leaf of a branch that
+    is cut under water and remains in water, calculated from replicated leaves per
+    branch. Data cleaning very conservative, subset of values only with conductance
+    higher 0.04, Ci between 150 - 300, and PS higher than 1, leading to fewer data
+    points. Measured with Portable LiCor XT6400 Gas Exchange machine and the settings
+    CO2R = 400 Pa, PARi = 2000
 - var_in: Amax_cons_mean
   unit_in: umol{CO2}/m2/s
   trait_name: leaf_photosynthetic_rate_per_area_maximum
@@ -210,12 +244,12 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: 1-3
-  methods: Mean maximum photosynthetic capacity measured on leaf of a branch that 
-    is cut under water and remains in water, calculated from replicated leaves per 
-    branch. Data cleaning very conservative, subset of values only with conductance 
-    higher 0.04, Ci between 150 - 300, and PS higher than 1, leading to fewer data 
-    points. Measured with Portable LiCor XT6400 Gas Exchange machine and the 
-    settings CO2R = 2000 Pa, PARi = 2000
+  methods: Mean maximum photosynthetic capacity measured on leaf of a branch that
+    is cut under water and remains in water, calculated from replicated leaves per
+    branch. Data cleaning very conservative, subset of values only with conductance
+    higher 0.04, Ci between 150 - 300, and PS higher than 1, leading to fewer data
+    points. Measured with Portable LiCor XT6400 Gas Exchange machine and the settings
+    CO2R = 2000 Pa, PARi = 2000
 - var_in: Amax_cons_sd
   unit_in: umol{CO2}/m2/s
   trait_name: leaf_photosynthetic_rate_per_area_maximum
@@ -223,12 +257,12 @@ traits:
   value_type: standard_error
   basis_of_value: measurement
   replicates: 1-3
-  methods: SD of maximum photosynthetic capacity measured on leaf of a branch that 
-    is cut under water and remains in water, calculated from replicated leaves per 
-    branch. Data cleaning very conservative, subset of values only with conductance 
-    higher 0.04, Ci between 150 - 300, and PS higher than 1, leading to fewer data 
-    points. Measured with Portable LiCor XT6400 Gas Exchange machine and the 
-    settings CO2R = 2000 Pa, PARi = 2000
+  methods: SD of maximum photosynthetic capacity measured on leaf of a branch that
+    is cut under water and remains in water, calculated from replicated leaves per
+    branch. Data cleaning very conservative, subset of values only with conductance
+    higher 0.04, Ci between 150 - 300, and PS higher than 1, leading to fewer data
+    points. Measured with Portable LiCor XT6400 Gas Exchange machine and the settings
+    CO2R = 2000 Pa, PARi = 2000
 - var_in: Asat_mean
   unit_in: umol{CO2}/m2/s
   trait_name: leaf_photosynthetic_rate_per_area_saturated
@@ -236,10 +270,10 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: 3
-  methods: Mean light-saturated net photosynthesis measured on leaf of a branch 
-    that is cut under water and remains in water, calculated from replicated 
-    leaves per branch. Measured with Portable LiCor XT6400 Gas Exchange machine
-    and the settings CO2R = 400 Pa, PARi = 2000
+  methods: Mean light-saturated net photosynthesis measured on leaf of a branch that
+    is cut under water and remains in water, calculated from replicated leaves per
+    branch. Measured with Portable LiCor XT6400 Gas Exchange machine and the settings
+    CO2R = 400 Pa, PARi = 2000
 - var_in: Asat_sd
   unit_in: umol{CO2}/m2/s
   trait_name: leaf_photosynthetic_rate_per_area_saturated
@@ -247,10 +281,10 @@ traits:
   value_type: standard_error
   basis_of_value: measurement
   replicates: 3
-  methods: SD of light-saturated net photosynthesis measured on leaf of a branch 
-    that is cut under water and remains in water, calculated from replicated 
-    leaves per branch. Measured with Portable LiCor XT6400 Gas Exchange machine
-    and the settings CO2R = 400 Pa, PARi = 2000
+  methods: SD of light-saturated net photosynthesis measured on leaf of a branch that
+    is cut under water and remains in water, calculated from replicated leaves per
+    branch. Measured with Portable LiCor XT6400 Gas Exchange machine and the settings
+    CO2R = 400 Pa, PARi = 2000
 - var_in: Amax_mean
   unit_in: umol{CO2}/m2/s
   trait_name: leaf_photosynthetic_rate_per_area_maximum
@@ -258,10 +292,10 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: 3
-  methods: Mean maximum photosynthetic capacity measured on leaf of a branch 
-    that is cut under water and remains in water, calculated from replicated 
-    leaves per branch. Measured with Portable LiCor XT6400 Gas Exchange machine
-    and the settings CO2R = 2000 Pa, PARi = 2000
+  methods: Mean maximum photosynthetic capacity measured on leaf of a branch that
+    is cut under water and remains in water, calculated from replicated leaves per
+    branch. Measured with Portable LiCor XT6400 Gas Exchange machine and the settings
+    CO2R = 2000 Pa, PARi = 2000
 - var_in: Amax_sd
   unit_in: umol{CO2}/m2/s
   trait_name: leaf_photosynthetic_rate_per_area_maximum
@@ -269,10 +303,10 @@ traits:
   value_type: standard_error
   basis_of_value: measurement
   replicates: 3
-  methods: SD of maximum photosynthetic capacity measured on leaf of a branch 
-    that is cut under water and remains in water, calculated from replicated 
-    leaves per branch. Measured with Portable LiCor XT6400 Gas Exchange machine
-    and the settings CO2R = 2000 Pa, PARi = 2000
+  methods: SD of maximum photosynthetic capacity measured on leaf of a branch that
+    is cut under water and remains in water, calculated from replicated leaves per
+    branch. Measured with Portable LiCor XT6400 Gas Exchange machine and the settings
+    CO2R = 2000 Pa, PARi = 2000
 - var_in: LA_cm2_mean
   unit_in: cm2
   trait_name: leaf_area
@@ -280,7 +314,7 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: 3-13
-  methods: Mean leaf area (LA) calculated from fresh leaves collected from branches, 
+  methods: Mean leaf area (LA) calculated from fresh leaves collected from branches,
     scanned immediately with Canon flatbed scanner
 - var_in: LA_cm2_sd
   unit_in: cm2
@@ -289,7 +323,7 @@ traits:
   value_type: standard_error
   basis_of_value: measurement
   replicates: 3-13
-  methods: Standard deviation of leaf area calculated from fresh leaves collected 
+  methods: Standard deviation of leaf area calculated from fresh leaves collected
     from branches, scanned immediately with Canon flatbed scanner
 - var_in: leaf_thickness_mm_mean
   unit_in: mm
@@ -322,8 +356,8 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: 3-13
-  methods: Leaf dry-matter content (LDMC) is the oven-dry mass (mg) of a leaf, 
-    divided by its water-saturated fresh mass (g)
+  methods: Leaf dry-matter content (LDMC) is the oven-dry mass (mg) of a leaf, divided
+    by its water-saturated fresh mass (g)
 - var_in: leaf_thickness_mm_sd
   unit_in: mm
   trait_name: leaf_thickness
@@ -355,8 +389,8 @@ traits:
   value_type: standard_error
   basis_of_value: measurement
   replicates: 3-13
-  methods: Leaf dry-matter content (LDMC) is the oven-dry mass (mg) of a leaf, 
-    divided by its water-saturated fresh mass (g)
+  methods: Leaf dry-matter content (LDMC) is the oven-dry mass (mg) of a leaf, divided
+    by its water-saturated fresh mass (g)
 - var_in: chla_mg.g
   unit_in: mg/g
   trait_name: leaf_chlorophyll_A_per_dry_mass
@@ -364,10 +398,10 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: 2
-  methods: Analyses of pigments (Chla, Chlb and carotenoids), phenols and 
-    tannins were conducted on 0.7-cm-diameter leaf discs punched from fresh leaves 
-    immediately after field collection and frozen in liquid N. See also 
-    CSP_protocol_Chlorophyll_and_Carotenoids.pdf on https://zenodo.org/records/3247631
+  methods: Analyses of pigments (Chla, Chlb and carotenoids), phenols and tannins
+    were conducted on 0.7-cm-diameter leaf discs punched from fresh leaves immediately
+    after field collection and frozen in liquid N. See also CSP_protocol_Chlorophyll_and_Carotenoids.pdf
+    on https://zenodo.org/records/3247631
 - var_in: chlb_mg.g
   unit_in: mg/g
   trait_name: leaf_chlorophyll_B_per_dry_mass
@@ -375,10 +409,10 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: 2
-  methods: Analyses of pigments (Chla, Chlb and carotenoids), phenols and 
-    tannins were conducted on 0.7-cm-diameter leaf discs punched from fresh leaves 
-    immediately after field collection and frozen in liquid N. See also 
-    CSP_protocol_Chlorophyll_and_Carotenoids.pdf on https://zenodo.org/records/3247631
+  methods: Analyses of pigments (Chla, Chlb and carotenoids), phenols and tannins
+    were conducted on 0.7-cm-diameter leaf discs punched from fresh leaves immediately
+    after field collection and frozen in liquid N. See also CSP_protocol_Chlorophyll_and_Carotenoids.pdf
+    on https://zenodo.org/records/3247631
 - var_in: carot_mg.g
   unit_in: mg/g
   trait_name: leaf_carotenoid_per_dry_mass
@@ -386,10 +420,10 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: 2
-  methods: Analyses of pigments (Chla, Chlb and carotenoids), phenols and 
-    tannins were conducted on 0.7-cm-diameter leaf discs punched from fresh leaves 
-    immediately after field collection and frozen in liquid N. See also 
-    CSP_protocol_Chlorophyll_and_Carotenoids.pdf on https://zenodo.org/records/3247631
+  methods: Analyses of pigments (Chla, Chlb and carotenoids), phenols and tannins
+    were conducted on 0.7-cm-diameter leaf discs punched from fresh leaves immediately
+    after field collection and frozen in liquid N. See also CSP_protocol_Chlorophyll_and_Carotenoids.pdf
+    on https://zenodo.org/records/3247631
 - var_in: Fp_N_mm_mean
   unit_in: N/mm
   trait_name: leaf_work_to_punch
@@ -397,7 +431,7 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: 5 or 10
-  methods: Chatillon punchometer 
+  methods: Chatillon punchometer
 - var_in: Fp_N_mm_sd
   unit_in: N/mm
   trait_name: leaf_work_to_punch
@@ -405,7 +439,7 @@ traits:
   value_type: standard_error
   basis_of_value: measurement
   replicates: 5 or 10
-  methods: Chatillon punchometer 
+  methods: Chatillon punchometer
 - var_in: specific_Fp_mean
   unit_in: N/mm2
   trait_name: leaf_work_to_punch_adjusted
@@ -429,10 +463,10 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: unknown
-  methods: Branch wood density from branch segment without bark 
-    (bark removed prior measurement)
+  methods: Branch wood density from branch segment without bark (bark removed prior
+    measurement)
 - var_in: hemicellulose_perc
-  unit_in: %
+  unit_in: '%'
   trait_name: .na
   entity_type: individual
   value_type: mean
@@ -440,7 +474,7 @@ traits:
   replicates: unknown
   methods: Foliar hemicellulose concentration measured with ANKOM
 - var_in: cellulose_perc
-  unit_in: %
+  unit_in: '%'
   trait_name: leaf_cellulose_per_dry_mass
   entity_type: individual
   value_type: mean
@@ -448,7 +482,7 @@ traits:
   replicates: ANKOM
   methods: unknown
 - var_in: lignin_recalcitrants_perc
-  unit_in: %
+  unit_in: '%'
   trait_name: leaf_lignin_per_dry_mass
   entity_type: individual
   value_type: mean
@@ -462,8 +496,7 @@ traits:
   value_type: raw
   basis_of_value: measurement
   replicates: 1
-  methods: See CSP_protocol_Phenols_Tannins_Analysis.pdf on 
-    https://zenodo.org/records/3247631
+  methods: See CSP_protocol_Phenols_Tannins_Analysis.pdf on https://zenodo.org/records/3247631
 - var_in: Total_phenol_mg.g
   unit_in: mg/g
   trait_name: leaf_phenol_per_dry_mass
@@ -471,8 +504,7 @@ traits:
   value_type: raw
   basis_of_value: measurement
   replicates: 1
-  methods: See CSP_protocol_Phenols_Tannins_Analysis.pdf on 
-    https://zenodo.org/records/3247631
+  methods: See CSP_protocol_Phenols_Tannins_Analysis.pdf on https://zenodo.org/records/3247631
 - var_in: SLA_mm2.mg_mean
   unit_in: mm2/mg
   trait_name: leaf_mass_per_area
@@ -520,10 +552,10 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: 2
-  methods: Analyses of pigments (Chla, Chlb and carotenoids), phenols and 
-    tannins were conducted on 0.7-cm-diameter leaf discs punched from fresh leaves 
-    immediately after field collection and frozen in liquid N. See also 
-    CSP_protocol_Chlorophyll_and_Carotenoids.pdf on https://zenodo.org/records/3247631
+  methods: Analyses of pigments (Chla, Chlb and carotenoids), phenols and tannins
+    were conducted on 0.7-cm-diameter leaf discs punched from fresh leaves immediately
+    after field collection and frozen in liquid N. See also CSP_protocol_Chlorophyll_and_Carotenoids.pdf
+    on https://zenodo.org/records/3247631
 - var_in: chlb_mg.mm2
   unit_in: mg/mm2
   trait_name: leaf_chlorophyll_B_per_area
@@ -531,10 +563,10 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: 2
-  methods: Analyses of pigments (Chla, Chlb and carotenoids), phenols and 
-    tannins were conducted on 0.7-cm-diameter leaf discs punched from fresh leaves 
-    immediately after field collection and frozen in liquid N. See also 
-    CSP_protocol_Chlorophyll_and_Carotenoids.pdf on https://zenodo.org/records/3247631
+  methods: Analyses of pigments (Chla, Chlb and carotenoids), phenols and tannins
+    were conducted on 0.7-cm-diameter leaf discs punched from fresh leaves immediately
+    after field collection and frozen in liquid N. See also CSP_protocol_Chlorophyll_and_Carotenoids.pdf
+    on https://zenodo.org/records/3247631
 - var_in: carot_mg.mm2
   unit_in: mg/mm2
   trait_name: leaf_carotenoid_per_area
@@ -542,10 +574,10 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: 2
-  methods: Analyses of pigments (Chla, Chlb and carotenoids), phenols and 
-    tannins were conducted on 0.7-cm-diameter leaf discs punched from fresh leaves 
-    immediately after field collection and frozen in liquid N. See also 
-    CSP_protocol_Chlorophyll_and_Carotenoids.pdf on https://zenodo.org/records/3247631
+  methods: Analyses of pigments (Chla, Chlb and carotenoids), phenols and tannins
+    were conducted on 0.7-cm-diameter leaf discs punched from fresh leaves immediately
+    after field collection and frozen in liquid N. See also CSP_protocol_Chlorophyll_and_Carotenoids.pdf
+    on https://zenodo.org/records/3247631
 - var_in: tannin_mg.mm2
   unit_in: mg/mm2
   trait_name: .na
@@ -553,8 +585,7 @@ traits:
   value_type: raw
   basis_of_value: measurement
   replicates: 1
-  methods: See CSP_protocol_Phenols_Tannins_Analysis.pdf on 
-    https://zenodo.org/records/3247631
+  methods: See CSP_protocol_Phenols_Tannins_Analysis.pdf on https://zenodo.org/records/3247631
 - var_in: phenol_mg_mm2
   unit_in: mg/mm2
   trait_name: .na
@@ -562,8 +593,7 @@ traits:
   value_type: raw
   basis_of_value: measurement
   replicates: 1
-  methods: See CSP_protocol_Phenols_Tannins_Analysis.pdf on 
-    https://zenodo.org/records/3247631
+  methods: See CSP_protocol_Phenols_Tannins_Analysis.pdf on https://zenodo.org/records/3247631
 - var_in: N_mg.mm2
   unit_in: mg/mm2
   trait_name: leaf_N_per_area
