@@ -1,0 +1,143 @@
+source:
+  primary:
+    key: Both_2021
+    bibtype: Misc
+    year: '2021'
+    author: Sabine Both and Palasiah Jotan and Colin Maycock and David F. R. P. Burslem
+    title: Anatomical wood traits of tree species in old-growth and selectively logged
+      forest
+    doi: 10.5281/ZENODO.5513918
+    publisher: Zenodo
+    keywords: wood traits, anatomical traits, trees, old-growth forest, selectively
+      logged forest
+    copyright: Creative Commons Attribution 4.0 International
+contributors:
+  data_collectors:
+  - last_name: Both
+    given_name: Sabine
+    ORCID: 0000-0003-4437-5106
+    affiliation: University of New England and Australia
+    additional_role: contact
+  assistants: unknown
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: no
+  custom_R_code: .na
+  collection_date: 2014-05-01/2018-09-01
+  taxon_name: taxon_name
+  location_name: location
+  individual_id: uid
+  description: Traits matrix of wood anatomical characteristics for tree species in
+    selectively logged forest at SAFE and in old-growth forest in Danum Valley and
+    Maliau Basin. Sampled during the BALI project traits campaign
+  basis_of_record: field
+  life_stage: adult
+  sampling_strategy: unknown
+  original_file: raw/Both_wood_anatomical_traits_complete_dataset.xlsx
+  notes: The original data contain multiple measurements per tree individuals from
+    sun and shade branches, and with or without bark removed. HR Lai aggregated the
+    data to individual means because this is the lowest hierarchy allowed in traits.build
+identifiers: .na
+locations:
+  Car_Bel:
+    longitude (deg): 116.9699975
+    latitude (deg): 4.7473747
+    description: Carbon plot
+  Car_BN:
+    longitude (deg): 117.6175294
+    latitude (deg): 4.7392668
+    description: Carbon plot
+  Car_BS:
+    longitude (deg): 117.6184687
+    latitude (deg): 4.7318392
+    description: Carbon plot
+  Car_D1:
+    longitude (deg): 117.7960833
+    latitude (deg): 4.9520229
+    description: Carbon plot
+  Car_D2:
+    longitude (deg): 117.7937446
+    latitude (deg): 4.9534308
+    description: Carbon plot
+  Car_E:
+    longitude (deg): 117.5876906
+    latitude (deg): 4.692003
+    description: Carbon plot
+  Car_LF:
+    longitude (deg): 117.7000449
+    latitude (deg): 4.7650386
+    description: Carbon plot
+  Car_Ser:
+    longitude (deg): 116.95018
+    latitude (deg): 4.7535351
+    description: Carbon plot
+contexts: .na
+traits:
+- var_in: stem_vessel_density
+  unit_in: '{count}/um2'
+  trait_name: stem_vessel_density
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: unknown
+  methods: Count of vessels in the respective wedge area from microtome slice
+- var_in: Vessel.diameter.micron
+  unit_in: um
+  trait_name: stem_vessel_diameter
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: unknown
+  methods: Mean vessel diameter. Vessel diameter is determined as the mean of 
+    the maximum and minimum (lumen) diameters.
+- var_in: Median.vessel.diameter.micron
+  unit_in: um
+  trait_name: stem_vessel_diameter
+  entity_type: individual
+  value_type: median
+  basis_of_value: measurement
+  replicates: unknown
+  methods: The middle value of the vessel diameter data set.
+- var_in: Hydraulically.weighted.diameter.micron
+  unit_in: um
+  trait_name: stem_vessel_diameter_hydraulic
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: unknown
+  methods: Hydraulically weighted mean diameter. Calculated as (sum diameter^5) / 
+    (sum diameter^4).
+- var_in: Vessel.area.micron2
+  unit_in: um2
+  trait_name: .na
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: unknown
+  methods: Mean vessel area. Vessel area is determined by the average cross-sectional 
+    area of all vessel lumens (excluding vessel walls) in the wedge-shaped transect 
+    of the branch wood cross-section.
+- var_in: Median.vessel.area.micron2
+  unit_in: um2
+  trait_name: .na
+  entity_type: individual
+  value_type: median
+  basis_of_value: measurement
+  replicates: unknown
+  methods: Mean vessel area. Vessel area is determined by the average cross-sectional 
+    area of all vessel lumens (excluding vessel walls) in the wedge-shaped transect 
+    of the branch wood cross-section.
+- var_in: vessel.lumen.f.wedge
+  unit_in: um2/um2
+  trait_name: stem_vessel_lumen_fraction
+  entity_type: individual
+  value_type: median
+  basis_of_value: measurement
+  replicates: unknown
+  methods: Vessel lumen fraction. From the vessel areas and transect areas, vessel 
+    lumen fraction is calculated as the fraction of transect area filled by vessel 
+    lumens.
+substitutions: .na
+taxonomic_updates: .na
+exclude_observations: .na
+questions: Need to double check any publication from this dataset

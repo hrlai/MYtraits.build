@@ -21,10 +21,15 @@ Both_2019_2_config <- dataset_configure("data/Both_2019_2/metadata.yml", definit
 Both_2019_2_raw <- dataset_process("data/Both_2019_2/data.csv", Both_2019_2_config, schema, resource_metadata, unit_conversions)
 Both_2019_2 <- dataset_update_taxonomy(Both_2019_2_raw, taxon_list)
 
+Both_2021_config <- dataset_configure("data/Both_2021/metadata.yml", definitions)
+Both_2021_raw <- dataset_process("data/Both_2021/data.csv", Both_2021_config, schema, resource_metadata, unit_conversions)
+Both_2021 <- dataset_update_taxonomy(Both_2021_raw, taxon_list)
+
 
 MYtraits_raw <- austraits::bind_databases(
   Both_2019,
   Both_2019_2,
+  Both_2021,
   NULL)
 
 # Version information
