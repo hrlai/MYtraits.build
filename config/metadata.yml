@@ -1,15 +1,15 @@
 metadata:
-  title: 'SGtraits: a living trait database for the Singapore flora'
+  title: 'MYtraits: a living trait database for the Malaysia flora'
   description: "Work in progress"
-  version: "0.0.2"
-  doi: https://doi.org/10.5281/zenodo.16249456
+  version: "0.0.1"
+  doi: unknown
   geo_location:
-    geo_location_place: Singapore
+    geo_location_place: Malaysia
     geodetic_datum: EPSG:4326
   language: en
   related_identifiers:
-  - related_identifier_type: url 
-    identifier: https://github.com/hrlai/SGtraits.build
+  - related_identifier_type: url
+    identifier: https://github.com/hrlai/MYtraits.build
     relation_type: Compiles
     resource_type: dataset
   - related_identifier_type: doi
@@ -28,7 +28,12 @@ metadata:
     rights: CC-BY-4.0    
     rights_holder: Lai, Hao Ran
     rights_URI: https://creativecommons.org/licenses/by/4.0/
-    description: Under this license, the material can be copied and redistributed in any medium or format. It can be remixed, transformed, and built upon for any purpose, even commercially. Re-users must give appropriate credit, provide a link to the license, and indicate if changes were made. Re-users may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+    description: Under this license, the material can be copied and redistributed 
+      in any medium or format. It can be remixed, transformed, and built upon for 
+      any purpose, even commercially. Re-users must give appropriate credit, 
+      provide a link to the license, and indicate if changes were made. Re-users 
+      may not apply legal terms or technological measures that legally restrict 
+      others from doing anything the license permits.
   funding_reference:
   - funder_name: unknown
     award_IRI: unknown
