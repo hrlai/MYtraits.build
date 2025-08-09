@@ -15,7 +15,7 @@ both <-
              sheet = 4,
              skip = 6) %>% 
   # generate unique tree ID
-  mutate(uid = paste(location, tree_id, "_")) %>% 
+  mutate(uid = paste(location, tree_id, sep = "_")) %>% 
   mutate_at(vars(height.m:lignin_recalcitrants_mg.mm2),
             as.numeric) %>% 
   # aggregated these to individual means because this is the lowest hierarchy 

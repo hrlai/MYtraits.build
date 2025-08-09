@@ -1,0 +1,97 @@
+source:
+  primary:
+    key: Both_2019_2
+    bibtype: Misc
+    year: '2019'
+    author: Sabine Both and David F. R. P. Burslem and Yadvinder Malhi and Noreen
+      Majalap and Norma Salinas
+    title: Branch wood chemistry of tree species in old-growth and selectively logged
+      forest
+    doi: 10.5281/zenodo.3402748
+    publisher: Zenodo
+    keywords: trees, branch wood chemistry, functional traits, old-growth forest,
+      selectively logged forest
+    copyright: Creative Commons Attribution 4.0 International
+contributors:
+  data_collectors:
+  - last_name: Both
+    given_name: Sabine
+    ORCID: 0000-0003-4437-5106
+    affiliation: University of New England and Australia
+    additional_role: contact
+  assistants: unknown
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: no
+  custom_R_code: .na
+  collection_date: 2014-05-01/2018-09-01
+  taxon_name: taxon_name
+  location_name: location
+  individual_id: uid
+  description: Carbon and nitrogen concentration of branch wood, analysed with and
+    without bark, for tree species in selectively logged forest at SAFE and in old-growth
+    forest in Danum Valley and Maliau Basin. Sampled during the BALI project traits
+    campaign. Analysed in the laboratory of Dr Norma Salinas, Lima, Peru.
+  basis_of_record: field
+  life_stage: adult
+  sampling_strategy: unknown
+  original_file: raw/Both_wood_chemistry.xlsx
+  notes: The original data contain multiple measurements per tree individuals from
+    sun and shade branches, and with or without bark removed. HR Lai aggregated the
+    data to individual means because this is the lowest hierarchy allowed in traits.build
+identifiers: .na
+locations:
+  Car_Bel:
+    longitude (deg): 116.9699975
+    latitude (deg): 4.7473747
+    description: Carbon plot
+  Car_BN:
+    longitude (deg): 117.6175294
+    latitude (deg): 4.7392668
+    description: Carbon plot
+  Car_BS:
+    longitude (deg): 117.6184687
+    latitude (deg): 4.7318392
+    description: Carbon plot
+  Car_D1:
+    longitude (deg): 117.7960833
+    latitude (deg): 4.9520229
+    description: Carbon plot
+  Car_D2:
+    longitude (deg): 117.7937446
+    latitude (deg): 4.9534308
+    description: Carbon plot
+  Car_E:
+    longitude (deg): 117.5876906
+    latitude (deg): 4.692003
+    description: Carbon plot
+  Car_LF:
+    longitude (deg): 117.7000449
+    latitude (deg): 4.7650386
+    description: Carbon plot
+  Car_Ser:
+    longitude (deg): 116.95018
+    latitude (deg): 4.7535351
+    description: Carbon plot
+contexts: .na
+traits:
+- var_in: N_perc
+  unit_in: '%'
+  trait_name: wood_N_per_dry_mass
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: See the replicate column in the original file
+  methods: Combustion analysis
+- var_in: C_perc
+  unit_in: '%'
+  trait_name: wood_C_per_dry_mass
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: See the replicate column in the original file
+  methods: Combustion analysis
+substitutions: .na
+taxonomic_updates: .na
+exclude_observations: .na
+questions: Need to double check any publication from this dataset
