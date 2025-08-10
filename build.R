@@ -25,11 +25,21 @@ Both_2021_config <- dataset_configure("data/Both_2021/metadata.yml", definitions
 Both_2021_raw <- dataset_process("data/Both_2021/data.csv", Both_2021_config, schema, resource_metadata, unit_conversions)
 Both_2021 <- dataset_update_taxonomy(Both_2021_raw, taxon_list)
 
+Burslem_2022_config <- dataset_configure("data/Burslem_2022/metadata.yml", definitions)
+Burslem_2022_raw <- dataset_process("data/Burslem_2022/data.csv", Burslem_2022_config, schema, resource_metadata, unit_conversions)
+Burslem_2022 <- dataset_update_taxonomy(Burslem_2022_raw, taxon_list)
+
+Burslem_2022_2_config <- dataset_configure("data/Burslem_2022_2/metadata.yml", definitions)
+Burslem_2022_2_raw <- dataset_process("data/Burslem_2022_2/data.csv", Burslem_2022_2_config, schema, resource_metadata, unit_conversions)
+Burslem_2022_2 <- dataset_update_taxonomy(Burslem_2022_2_raw, taxon_list)
+
 
 MYtraits_raw <- austraits::bind_databases(
   Both_2019,
   Both_2019_2,
   Both_2021,
+  Burslem_2022,
+  Burslem_2022_2,
   NULL)
 
 # Version information

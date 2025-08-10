@@ -1,0 +1,131 @@
+Date,Forest,Management,Species,Family,Seedling.Plot,Leaf.N,Leaf.P,Leaf.Ca,Leaf.K,Leaf.Mg,Leaf.N:P
+01/02/2020,logged,Active Restoration,Pterospermum javanicum,Malvaceae,117,22.783,3.833,7.583,13.995,2.684,5.94390816592747
+01/02/2020,logged,Active Restoration,Pterospermum javanicum,Malvaceae,118,20.965,4.391,7.125,15.482,2.801,4.77453882942382
+01/02/2020,logged,Active Restoration,Pterospermum javanicum,Malvaceae,119,23.565,3.996,7.656,13.637,2.435,5.89714714714715
+01/02/2020,logged,Active Restoration,Pterospermum javanicum,Malvaceae,120,20.741,4.911,7.623,16.881,2.913,4.22337609448178
+03/02/2020,logged,Natural Regeneration,Shorea johorensis,Dipterocarpaceae,143,15.914,1.764,4.12,10.92,2.646,9.02154195011338
+03/02/2020,logged,Natural Regeneration,Shorea parvifolia,Dipterocarpaceae,145,19.43,1.268,4.964,11.536,3.108,15.3233438485804
+03/02/2020,logged,logged,Shorea fallax,Dipterocarpaceae,OUT,20.504,1.724,3.548,11.28,2.977,11.8932714617169
+03/02/2020,logged,logged,Shorea johorensis,Dipterocarpaceae,OUT,15.914,1.764,4.12,10.92,2.646,9.02154195011338
+04/02/2020,logged,Active Restoration,Buchanania sessilifolia,Anacardiaceae,100,21.507,2.299,9.207,20.193,7.54,9.35493692909961
+04/02/2020,logged,Active Restoration,Buchanania sessilifolia,Anacardiaceae,113,23.31,2.643,9.285,20.678,7.376,8.81952326901249
+04/02/2020,logged,Active Restoration,Buchanania sessilifolia,Anacardiaceae,199,22.307,2.938,9.228,22.607,7.506,7.59257998638529
+04/02/2020,logged,Active Restoration,Dryobalanops lanceolata,Dipterocarpaceae,100,15.734,1.678,1.972,9.918,2.087,9.37663885578069
+04/02/2020,logged,Active Restoration,Dryobalanops lanceolata,Dipterocarpaceae,113,15.701,1.453,1.958,9.271,2.029,10.805918788713
+04/02/2020,logged,Active Restoration,Dryobalanops lanceolata,Dipterocarpaceae,199,15.129,1.608,1.113,10.75,2.175,9.40858208955224
+04/02/2020,logged,Active Restoration,Shorea johorensis,Dipterocarpaceae,113,18.61,1.625,2.442,10.208,2.516,11.4523076923077
+04/02/2020,logged,Active Restoration,Shorea johorensis,Dipterocarpaceae,199,19.31,1.74,2.521,12.306,2.85,11.0977011494253
+04/02/2020,logged,Active Restoration,Shorea leprosula,Dipterocarpaceae,100,21.665,1.391,10.677,9.749,3.34,15.5751258087707
+04/02/2020,logged,Active Restoration,Shorea leprosula,Dipterocarpaceae,113,20.915,1.495,4.473,8.535,2.796,13.9899665551839
+04/02/2020,logged,Active Restoration,Shorea leprosula,Dipterocarpaceae,115,21.773,1.834,3.871,10.914,2.855,11.8718647764449
+04/02/2020,logged,Active Restoration,Shorea leprosula,Dipterocarpaceae,116,21.345,1.681,4.596,9.674,2.941,12.6977989292088
+04/02/2020,logged,Active Restoration,Shorea leprosula,Dipterocarpaceae,199,21.585,1.634,3.563,10.791,2.65,13.2099143206854
+04/02/2020,logged,Active Restoration,Shorea parvifolia,Dipterocarpaceae,113,19.386,1.178,3.436,9.538,2.996,16.4567062818336
+04/02/2020,logged,Active Restoration,Shorea parvifolia,Dipterocarpaceae,119,19.616,1.252,3.218,11.138,3.472,15.667731629393
+04/02/2020,logged,logged,Koompassia excelsa,Fabaceae,OUT,31.227,1.28,6.77,19.261,5.359,24.39609375
+05/02/2020,primary,Primary Forest,Agelaea sp.,Connaraceae,2,37.27,2.48,3.717,21.939,2.76,15.0282258064516
+05/02/2020,primary,Primary Forest,Koompassia excelsa,Fabaceae,1,33.718,1.819,9.056,16.712,5.046,18.5365585486531
+05/02/2020,primary,Primary Forest,Koompassia excelsa,Fabaceae,2,35.469,1.731,7.475,19.094,4.906,20.4904679376083
+05/02/2020,primary,Primary Forest,Koompassia excelsa,Fabaceae,5,37.592,1.796,10.088,20.688,3.948,20.9309576837416
+05/02/2020,primary,Primary Forest,Parashorea tomentella,Dipterocarpaceae,66,19.251,1.956,7.205,9.87,1.862,9.8420245398773
+05/02/2020,primary,Primary Forest,Parashorea tomentella,Dipterocarpaceae,67,18.721,2.065,7.501,9.329,1.696,9.06585956416465
+05/02/2020,primary,Primary Forest,Shorea leprosula,Dipterocarpaceae,24,22.07,1.756,5.199,11.374,2.828,12.5683371298405
+05/02/2020,primary,Primary Forest,Shorea leprosula,Dipterocarpaceae,25,21.819,1.653,6.603,11.403,2.742,13.1996370235935
+05/02/2020,primary,Primary Forest,Shorea parvifolia,Dipterocarpaceae,23,20.781,1.478,5.074,11.667,3.475,14.0602165087957
+06/02/2020,logged,Natural Regeneration,Buchanania sessilifolia,Anacardiaceae,135,29.612,2.283,5.313,19.434,7.033,12.9706526500219
+06/02/2020,logged,Natural Regeneration,Shorea macrophylla,Dipterocarpaceae,205,16.332,1.236,1.95,7.145,1.856,13.2135922330097
+06/02/2020,logged,Natural Regeneration,Shorea macrophylla,Dipterocarpaceae,206,16.587,1.199,2.418,7.693,1.802,13.8340283569641
+06/02/2020,logged,logged,Parashorea malaanonan,Dipterocarpaceae,OUT2,19.508,1.978,6.726,10.141,1.471,9.86248736097068
+06/02/2020,logged,logged,Shorea macrophylla,Dipterocarpaceae,FAR1,15.724,1.217,3.022,8.398,1.91,12.9202958093673
+06/02/2020,logged,logged,Shorea macrophylla,Dipterocarpaceae,FAR2,16.797,1.332,2.295,8.584,1.964,12.6103603603604
+06/02/2020,logged,logged,Shorea macrophylla,Dipterocarpaceae,OUT1,17.261,1.332,3.12,9.433,2.042,12.9587087087087
+06/02/2020,logged,logged,Shorea macrophylla,Dipterocarpaceae,OUT2,NA,NA,NA,NA,NA,NA
+07/02/2020,logged,Active Restoration,Buchanania sessilifolia,Anacardiaceae,115,21.463,2.437,9.229,20.34,7.507,8.8071399261387
+07/02/2020,logged,Active Restoration,Buchanania sessilifolia,Anacardiaceae,116,21.293,2.207,8.882,18.523,7.142,9.64793837788854
+07/02/2020,logged,Active Restoration,Dryobalanops lanceolata,Dipterocarpaceae,115,15.64,1.65,1.524,9.864,2.266,9.47878787878788
+07/02/2020,logged,Active Restoration,Dryobalanops lanceolata,Dipterocarpaceae,116,15.969,1.634,1.055,10.788,2.205,9.77294981640147
+07/02/2020,logged,logged,Buchanania sessilifolia,Anacardiaceae,FAR2,19.767,2,17.434,17.95,4.299,9.8835
+07/02/2020,logged,logged,Pterospermum javanicum,Malvaceae,FAR2,20.414,3.15,12.367,14.621,2.129,6.48063492063492
+07/02/2020,logged,logged,Pterospermum javanicum,Malvaceae,FAR3,25.208,5.557,8.734,16.654,2.143,4.53626057225121
+08/02/2020,primary,Primary Forest,Parashorea tomentella,Dipterocarpaceae,OUTP1-1,18.753,1.876,5.919,9.915,1.737,9.99626865671642
+08/02/2020,primary,Primary Forest,Parashorea tomentella,Dipterocarpaceae,OUTP1-2,NA,NA,NA,NA,NA,NA
+08/02/2020,primary,Primary Forest,Shorea seminis,Dipterocarpaceae,69,20.307,1.678,3.808,7.538,2.318,12.1019070321812
+08/02/2020,primary,Primary Forest,Shorea seminis,Dipterocarpaceae,81,18.781,1.552,2.657,7.813,1.45,12.1011597938144
+08/02/2020,primary,Primary Forest,Spatholobus sp.,Fabaceae,55,34.264,2.246,4.671,19.653,3.491,15.2555654496883
+10/02/2020,primary,Primary Forest,Koompassia excelsa,Fabaceae,15,37.623,1.931,7.214,20.45,3.84,19.4836872087002
+10/02/2020,primary,Primary Forest,Koompassia excelsa,Fabaceae,6,34.056,1.683,7.599,19.962,4.281,20.2352941176471
+10/02/2020,primary,Primary Forest,Koompassia excelsa,Fabaceae,65,40.835,1.76,4.761,21.34,4.121,23.2017045454545
+10/02/2020,primary,Primary Forest,Parashorea tomentella,Dipterocarpaceae,1,16.171,1.899,9.649,8.131,2.03,8.51553449183781
+10/02/2020,primary,Primary Forest,Parashorea tomentella,Dipterocarpaceae,5,17.747,1.835,6.821,9.375,1.842,9.67138964577657
+10/02/2020,primary,Primary Forest,Shorea johorensis,Dipterocarpaceae,12,17.442,1.686,3.764,11.716,2.463,10.3451957295374
+10/02/2020,primary,Primary Forest,Shorea johorensis,Dipterocarpaceae,65,18.563,1.606,3.975,10.675,2.524,11.5585305105853
+11/02/2020,primary,Primary Forest,Shorea johorensis,Dipterocarpaceae,13,18.253,1.69,3.696,12.577,3.298,10.8005917159763
+11/02/2020,primary,Primary Forest,Shorea johorensis,Dipterocarpaceae,18,20.011,1.675,4.316,11.327,3.649,11.9468656716418
+11/02/2020,primary,Primary Forest,Shorea johorensis,Dipterocarpaceae,86,18.755,1.61,4.093,12.139,2.711,11.6490683229814
+11/02/2020,primary,Primary Forest,Shorea leprosula,Dipterocarpaceae,13,21.496,1.557,5.305,9.663,2.936,13.806037251124
+11/02/2020,primary,Primary Forest,Shorea leprosula,Dipterocarpaceae,20,20.885,1.594,7.386,8.866,3.175,13.1022584692597
+11/02/2020,primary,Primary Forest,Shorea leprosula,Dipterocarpaceae,83,21.457,1.56,7.365,9.027,2.631,13.7544871794872
+11/02/2020,primary,Primary Forest,Shorea parvifolia,Dipterocarpaceae,61,19.157,1.358,4.241,12.085,3.265,14.1067746686303
+11/02/2020,primary,Primary Forest,Shorea parvifolia,Dipterocarpaceae,65,20.618,1.238,4.351,11.954,2.713,16.654281098546
+11/02/2020,primary,Primary Forest,Shorea parvifolia,Dipterocarpaceae,79,21.188,1.248,6.431,9.828,3.137,16.9775641025641
+12/02/2020,logged,Active Restoration,Agelaea sp.,Connaraceae,90,30.692,1.083,1.886,11.624,1.832,28.3397968605725
+12/02/2020,logged,Active Restoration,Agelaea sp.,Connaraceae,91,22.832,0.95,4.196,10.856,1.881,24.0336842105263
+12/02/2020,logged,Active Restoration,Parashorea malaanonan,Dipterocarpaceae,90,18.927,1.855,3.426,9.304,1.877,10.2032345013477
+12/02/2020,logged,Active Restoration,Parashorea malaanonan,Dipterocarpaceae,91,13.806,1.032,4.818,6.539,1.15,13.3779069767442
+12/02/2020,logged,Active Restoration,Shorea johorensis,Dipterocarpaceae,125,17.051,1.617,3.971,11.472,2.606,10.5448361162647
+12/02/2020,logged,Active Restoration,Shorea johorensis,Dipterocarpaceae,127,15.125,1.557,4.205,11.863,2.65,9.71419396274888
+12/02/2020,logged,Active Restoration,Shorea parvifolia,Dipterocarpaceae,125,19.178,1.287,5.043,10.538,3.411,14.9013209013209
+12/02/2020,logged,Active Restoration,Shorea parvifolia,Dipterocarpaceae,127,18.21,1.311,4.488,11.18,3.325,13.8901601830664
+12/02/2020,logged,Active Restoration,Shorea parvifolia,Dipterocarpaceae,90,19.5,1.146,5.152,10.03,2.872,17.0157068062827
+12/02/2020,logged,Active Restoration,Shorea parvifolia,Dipterocarpaceae,91,17.858,1.152,2.42,10.022,2.895,15.5017361111111
+24/01/2020,primary,Primary Forest,Agelaea sp.,Connaraceae,39,31.05,2.761,3.776,19.569,2.741,11.2459253893517
+24/01/2020,primary,Primary Forest,Agelaea sp.,Connaraceae,71,40.302,2.132,4.167,16.245,2.323,18.9033771106942
+24/01/2020,primary,Primary Forest,Parashorea malaanonan,Dipterocarpaceae,45,21.385,1.997,5.652,11.323,2.286,10.7085628442664
+24/01/2020,primary,Primary Forest,Parashorea malaanonan,Dipterocarpaceae,46,21.028,2.022,4.703,10.063,1.852,10.3996043521266
+24/01/2020,primary,Primary Forest,Parashorea malaanonan,Dipterocarpaceae,71,19.858,2.04,4.78,12.096,1.855,9.7343137254902
+24/01/2020,primary,Primary Forest,Shorea johorensis,Dipterocarpaceae,70,17.171,1.498,3.837,10.206,2.179,11.4626168224299
+24/01/2020,primary,Primary Forest,Shorea leprosula,Dipterocarpaceae,75,21.369,1.492,5.167,10.856,2.743,14.3223860589812
+24/01/2020,primary,Primary Forest,Shorea parvifolia,Dipterocarpaceae,75,20.855,1.558,3.678,11.056,3.394,13.3857509627728
+25/01/2020,primary,Primary Forest,Koompassia excelsa,Fabaceae,17,37.064,1.727,8.153,19.154,5.055,21.4614939200926
+25/01/2020,primary,Primary Forest,Koompassia excelsa,Fabaceae,44,31.572,1.447,8.146,17.038,5.451,21.8189357290947
+25/01/2020,primary,Primary Forest,Parashorea malaanonan,Dipterocarpaceae,26,18.2,1.641,5.776,9.568,1.855,11.0907982937233
+25/01/2020,primary,Primary Forest,Parashorea malaanonan,Dipterocarpaceae,35,19.337,1.729,6.789,9.671,1.861,11.1839213418161
+25/01/2020,primary,Primary Forest,Parashorea malaanonan,Dipterocarpaceae,43,19.824,1.927,4.315,9.881,2.16,10.287493513233
+25/01/2020,primary,Primary Forest,Shorea leprosula,Dipterocarpaceae,17,20.849,1.836,6.662,10.899,3.837,11.3556644880174
+25/01/2020,primary,Primary Forest,Shorea leprosula,Dipterocarpaceae,44,20.533,1.386,5.636,9.129,3.193,14.8145743145743
+25/01/2020,primary,Primary Forest,Shorea parvifolia,Dipterocarpaceae,49,20.014,1.333,5.894,11.107,4.321,15.0142535633908
+27/01/2020,logged,Active Restoration,Parashorea malaanonan,Dipterocarpaceae,121,22.213,2.14,4.046,11.642,1.978,10.3799065420561
+27/01/2020,logged,Active Restoration,Parashorea malaanonan,Dipterocarpaceae,123,22.882,2.12,3.622,10.996,1.767,10.7933962264151
+27/01/2020,logged,Active Restoration,Shorea leprosula,Dipterocarpaceae,121,19.695,1.538,4.972,9.686,2.946,12.8055916775033
+27/01/2020,logged,Active Restoration,Shorea leprosula,Dipterocarpaceae,124,21.752,1.693,4.112,11.328,3.02,12.8481984642646
+27/01/2020,logged,Natural Regeneration,Parashorea malaanonan,Dipterocarpaceae,133,16.452,1.642,3.518,9.87,1.396,10.0194884287454
+27/01/2020,logged,logged,Parashorea malaanonan,Dipterocarpaceae,OUT,16.912,1.504,6.278,8.15,1.609,11.2446808510638
+27/01/2020,logged,logged,Shorea johorensis,Dipterocarpaceae,OUT,17.026,1.44,4.042,10.365,3.264,11.8236111111111
+27/01/2020,logged,logged,Shorea parvifolia,Dipterocarpaceae,OUT,17.521,1.203,3.35,11.668,2.649,14.5644222776392
+28/01/2020,logged,Natural Regeneration,Agelaea sp.,Connaraceae,154,34.174,2.532,6.175,21.058,3.332,13.4968404423381
+28/01/2020,logged,Natural Regeneration,Agelaea sp.,Connaraceae,155,31.491,2.077,7.368,20.083,2.852,15.1617717862301
+28/01/2020,logged,Natural Regeneration,Agelaea sp.,Connaraceae,200,39.248,1.69,2.192,14.28,1.952,23.2236686390533
+28/01/2020,logged,Natural Regeneration,Agelaea sp.,Connaraceae,202,36.053,1.917,1.939,16.052,1.849,18.8069900886802
+28/01/2020,logged,Natural Regeneration,Agelaea sp.,Connaraceae,203,36.014,1.752,1.625,13.898,1.702,20.5559360730594
+28/01/2020,logged,Natural Regeneration,Shorea leprosula,Dipterocarpaceae,154,19.494,1.715,5.1,9.824,4.616,11.3667638483965
+28/01/2020,logged,Natural Regeneration,Shorea leprosula,Dipterocarpaceae,155,22.019,1.774,7.417,8.864,3.376,12.4120631341601
+29/01/2020,logged,Active Restoration,Intsia bijuga,Fabaceae,112,38.661,4.524,0.93,20.82,2.071,8.54575596816976
+29/01/2020,logged,Active Restoration,Intsia bijuga,Fabaceae,148,38.661,4.524,0.93,20.82,2.071,8.54575596816976
+29/01/2020,logged,Active Restoration,Shorea parvifolia,Dipterocarpaceae,147,19.887,1.259,4.221,11.522,3.042,15.7958697378872
+29/01/2020,logged,Active Restoration,Shorea parvifolia,Dipterocarpaceae,148,16.565,1.153,4.517,10,2.845,14.366869037294
+29/01/2020,logged,logged,Intsia bijuga,Fabaceae,OUT,38.661,4.524,0.93,20.82,2.071,8.54575596816976
+29/01/2020,logged,logged,Shorea johorensis,Dipterocarpaceae,OUT,20.771,1.554,3.046,12.957,3.062,13.3661518661519
+30/01/2020,primary,Primary Forest,Parashorea malaanonan,Dipterocarpaceae,56,19.533,1.922,7.596,10.194,2.553,10.1628511966701
+30/01/2020,primary,Primary Forest,Shorea johorensis,Dipterocarpaceae,58,17.854,1.679,3.723,11.8,2.89,10.6337105419893
+30/01/2020,primary,Primary Forest,Shorea johorensis,Dipterocarpaceae,80,17.208,1.71,5.173,11.204,2.58,10.0631578947368
+30/01/2020,primary,Primary Forest,Shorea parvifolia,Dipterocarpaceae,63,21.009,1.327,4.283,11.808,3.6,15.8319517709118
+30/01/2020,primary,Primary Forest,Shorea parvifolia,Dipterocarpaceae,82,20.603,1.329,5.03,10.258,2.559,15.502633559067
+30/01/2020,primary,Primary Forest,Shorea parvifolia,Dipterocarpaceae,87,18.691,1.348,5.413,11.024,3.364,13.8657270029674
+31/01/2020,primary,Primary Forest,Agelaea sp.,Connaraceae,33,40.58,2.018,2.924,16.386,2.001,20.1090188305253
+31/01/2020,primary,Primary Forest,Koompassia excelsa,Fabaceae,16,36.508,1.691,6.963,19.028,4.855,21.5895919574216
+31/01/2020,primary,Primary Forest,Koompassia excelsa,Fabaceae,36,34.851,1.484,7.923,20.465,4.412,23.4845013477089
+31/01/2020,primary,Primary Forest,Shorea johorensis,Dipterocarpaceae,16,19.34,1.547,4.339,11.989,3.114,12.5016160310278
+31/01/2020,primary,Primary Forest,Shorea johorensis,Dipterocarpaceae,59,18.064,1.614,3.89,10.438,2.513,11.1920693928129
+31/01/2020,primary,Primary Forest,Shorea leprosula,Dipterocarpaceae,29,22.143,1.665,5.879,9.953,2.669,13.2990990990991
+31/01/2020,primary,Primary Forest,Shorea leprosula,Dipterocarpaceae,38,21.185,1.447,5.887,8.466,2.216,14.6406357982032
+31/01/2020,primary,Primary Forest,Shorea parvifolia,Dipterocarpaceae,36,20.258,1.323,4.873,12.098,3.118,15.3121693121693
