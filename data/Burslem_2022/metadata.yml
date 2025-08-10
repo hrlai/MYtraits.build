@@ -15,6 +15,21 @@ source:
       seedling
     language: en
     copyright: Open Government Licence v3.0
+  secondary:
+    key: Bartholomew_2024
+    bibtype: Article
+    year: '2024'
+    author: David C. Bartholomew and Robin Hayward and David F. R. P. Burslem and
+      Paulo R. L. Bittencourt and Daniel Chapman and Mohd. Aminur Faiz Bin Suis and
+      Reuben Nilus and Michael J. O’brien and Glen Reynolds and Lucy Rowland and Lindsay
+      F. Banin and Daisy Dent
+    journal: Global Change Biology
+    title: Bornean tropical forests recovering from logging at risk of regeneration
+      failure
+    volume: '30'
+    number: '3'
+    doi: 10.1111/gcb.17209
+    issn: 1365-2486
 contributors:
   data_collectors:
   - last_name: Burslem
@@ -67,8 +82,8 @@ dataset:
     shoot length and specific maximum root length by dividing maximum root length
     by dry root mass.
   original_file: raw/danum_valley_seedling_traits.csv
-  notes: The leaf force to punch was provided in unit N, so HR Lai divided it by
-    the punch rod diameter to obtain N/mm
+  notes: The leaf force to punch was provided in unit N, so HR Lai divided it by the
+    punch rod diameter to obtain N/mm
 identifiers: .na
 locations: .na
 contexts: .na
@@ -80,9 +95,9 @@ traits:
   value_type: raw
   basis_of_value: measurement
   replicates: 1
-  methods: For each seedling, the length of the longest root and shoot length 
-    were measured using a ruler and shoot diameter was measured just below the 
-    first branch using precision callipers.
+  methods: For each seedling, the length of the longest root and shoot length were
+    measured using a ruler and shoot diameter was measured just below the first branch
+    using precision callipers.
 - var_in: LMF
   unit_in: g/g
   trait_name: leaf_mass_fraction
@@ -90,9 +105,9 @@ traits:
   value_type: raw
   basis_of_value: measurement
   replicates: 1
-  methods: LMF and RMF were calculated by dividing dry leaf and dry root mass by 
-    total dry mass, respectively. dried to constant weight in an oven at 50C 
-    before being weighed
+  methods: LMF and RMF were calculated by dividing dry leaf and dry root mass by total
+    dry mass, respectively. dried to constant weight in an oven at 50C before being
+    weighed
 - var_in: RMF
   unit_in: g/g
   trait_name: root_mass_fraction
@@ -100,9 +115,9 @@ traits:
   value_type: raw
   basis_of_value: measurement
   replicates: 1
-  methods: LMF and RMF were calculated by dividing dry leaf and dry root mass by 
-    total dry mass, respectively. dried to constant weight in an oven at 50C 
-    before being weighed
+  methods: LMF and RMF were calculated by dividing dry leaf and dry root mass by total
+    dry mass, respectively. dried to constant weight in an oven at 50C before being
+    weighed
 - var_in: LMA
   unit_in: g/m2
   trait_name: leaf_mass_per_area
@@ -110,10 +125,10 @@ traits:
   value_type: raw
   basis_of_value: measurement
   replicates: 1
-  methods: Leaves were scanned using a flatbed scanner and the area was calculated 
-    using ImageJ software. Leaves were subsequently dried in an oven at 50C for
-    48 hours before being weighed. LMA was calculated by dividing dry leaf mass
-    by leaf area.
+  methods: Leaves were scanned using a flatbed scanner and the area was calculated
+    using ImageJ software. Leaves were subsequently dried in an oven at 50C for 48
+    hours before being weighed. LMA was calculated by dividing dry leaf mass by leaf
+    area.
 - var_in: Leaf.Thickness
   unit_in: mm
   trait_name: leaf_thickness
@@ -121,9 +136,9 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: 3
-  methods: Leaf thickness was measured at three locations on three leaves (or all 
-    leaves if fewer than three available) using digital callipers and avoiding
-    any major veins. A mean of means was subsequently calculated.
+  methods: Leaf thickness was measured at three locations on three leaves (or all
+    leaves if fewer than three available) using digital callipers and avoiding any
+    major veins. A mean of means was subsequently calculated.
 - var_in: leaf_work_to_punch
   unit_in: N/mm
   trait_name: leaf_work_to_punch
@@ -131,9 +146,9 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: 3
-  methods: LFP was measured at three points on the leaf using a Chantillon DFXII 
-    Digital Force Gauge with a 1 mm2 flat head rod (AMETEK Sensors, New York, USA) 
-    and the mean was calculated.
+  methods: LFP was measured at three points on the leaf using a Chantillon DFXII Digital
+    Force Gauge with a 1 mm2 flat head rod (AMETEK Sensors, New York, USA) and the
+    mean was calculated.
 - var_in: LA:SA
   unit_in: cm2/mm2
   trait_name: .na
@@ -141,10 +156,9 @@ traits:
   value_type: raw
   basis_of_value: measurement
   replicates: 1
-  methods: Total leaf area was calculated as described above. Shoot area was
-    calculated by measuring the diameter of the shoot immediately below the 
-    leaves assuming a perfect circle. LA:SA was calculated by dividing leaf area
-    by shoot area.
+  methods: Total leaf area was calculated as described above. Shoot area was calculated
+    by measuring the diameter of the shoot immediately below the leaves assuming a
+    perfect circle. LA:SA was calculated by dividing leaf area by shoot area.
 - var_in: SMRL
   unit_in: mm/g
   trait_name: root_specific_root_length
@@ -152,8 +166,8 @@ traits:
   value_type: raw
   basis_of_value: measurement
   replicates: 1
-  methods: SMRL was calculated by dividing the length of the longest root by dry 
-    root mass
+  methods: SMRL was calculated by dividing the length of the longest root by dry root
+    mass
 substitutions: .na
 taxonomic_updates: .na
 exclude_observations: .na

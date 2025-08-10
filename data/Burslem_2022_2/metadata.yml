@@ -15,6 +15,21 @@ source:
       seedling
     language: en
     copyright: Open Government Licence v3.0
+  secondary:
+    key: Bartholomew_2024
+    bibtype: Article
+    year: '2024'
+    author: David C. Bartholomew and Robin Hayward and David F. R. P. Burslem and
+      Paulo R. L. Bittencourt and Daniel Chapman and Mohd. Aminur Faiz Bin Suis and
+      Reuben Nilus and Michael J. O’brien and Glen Reynolds and Lucy Rowland and Lindsay
+      F. Banin and Daisy Dent
+    journal: Global Change Biology
+    title: Bornean tropical forests recovering from logging at risk of regeneration
+      failure
+    volume: '30'
+    number: '3'
+    doi: 10.1111/gcb.17209
+    issn: 1365-2486
 contributors:
   data_collectors:
   - last_name: Burslem
@@ -47,9 +62,9 @@ dataset:
   life_stage: seedling
   sampling_strategy: Trait data were collected by direct sampling of seedlings adjacent
     to 75, 1 m2 seedling plots (46 in unlogged primary forest; 26 in logged forest).
-    The leaves of the sampled seedlings were combined with additional sample 
-    material from the same plot before being analysed for foliar nutrient concentrations
-    at the Forest Research Centre, Sepilok. Leaves were ground using a SM2000 Heavy-duty
+    The leaves of the sampled seedlings were combined with additional sample material
+    from the same plot before being analysed for foliar nutrient concentrations at
+    the Forest Research Centre, Sepilok. Leaves were ground using a SM2000 Heavy-duty
     Cutting Mill (Retsch, Haan, Germany) to pass through a 100-mesh (212 micron) sieve.
     The ground material was digested using a hydrogen peroxide-sulfuric acid digestion
     (Allen, 1989). Nleaf and Pleaf were measured colorimetrically using an Astoria-Pacific
@@ -61,8 +76,8 @@ dataset:
   original_file: Burslem_2022/raw/danum_valley_seedling_traits.csv
   notes: The original data duplicated population mean nutrient values to individual
     seedlings, HR Lai aggregated them back to population mean to avoid duplication.
-    The original data and scripts are stored in Burslem_2022 and not copied to 
-    this Burslem_2022_2 folder
+    The original data and scripts are stored in Burslem_2022 and not copied to this
+    Burslem_2022_2 folder
 identifiers: .na
 locations: .na
 contexts: .na
@@ -74,9 +89,8 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: unknown
-  methods: Measured colorimetrically using an Astoria-Pacific Flow Analyzer on 
-    ground material that was digested using a hydrogen peroxide-sulfuric acid 
-    digestion.
+  methods: Measured colorimetrically using an Astoria-Pacific Flow Analyzer on ground
+    material that was digested using a hydrogen peroxide-sulfuric acid digestion.
 - var_in: Leaf.P
   unit_in: mg/g
   trait_name: leaf_P_per_dry_mass
@@ -84,9 +98,8 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: unknown
-  methods: Measured colorimetrically using an Astoria-Pacific Flow Analyzer on 
-    ground material that was digested using a hydrogen peroxide-sulfuric acid 
-    digestion.
+  methods: Measured colorimetrically using an Astoria-Pacific Flow Analyzer on ground
+    material that was digested using a hydrogen peroxide-sulfuric acid digestion.
 - var_in: Leaf.Ca
   unit_in: mg/g
   trait_name: leaf_Ca_per_dry_mass
@@ -94,8 +107,8 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: unknown
-  methods: Measured spectrometrically using a SpectroArcos FHX22 on ground 
-    material that was digested using a hydrogen peroxide-sulfuric acid digestion.
+  methods: Measured spectrometrically using a SpectroArcos FHX22 on ground material
+    that was digested using a hydrogen peroxide-sulfuric acid digestion.
 - var_in: Leaf.K
   unit_in: mg/g
   trait_name: leaf_K_per_dry_mass
@@ -103,8 +116,8 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: unknown
-  methods: Measured spectrometrically using a SpectroArcos FHX22 on ground 
-    material that was digested using a hydrogen peroxide-sulfuric acid digestion.
+  methods: Measured spectrometrically using a SpectroArcos FHX22 on ground material
+    that was digested using a hydrogen peroxide-sulfuric acid digestion.
 - var_in: Leaf.Mg
   unit_in: mg/g
   trait_name: leaf_Mg_per_dry_mass
@@ -112,8 +125,8 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: unknown
-  methods: Measured spectrometrically using a SpectroArcos FHX22 on ground 
-    material that was digested using a hydrogen peroxide-sulfuric acid digestion.
+  methods: Measured spectrometrically using a SpectroArcos FHX22 on ground material
+    that was digested using a hydrogen peroxide-sulfuric acid digestion.
 - var_in: Leaf.N:P
   unit_in: g/g
   trait_name: leaf_NP_ratio
@@ -121,8 +134,7 @@ traits:
   value_type: mean
   basis_of_value: measurement
   replicates: unknown
-  methods: Calculated by dividing leaf nitrogen concentration by leaf phosphorus 
-    concentration
+  methods: Calculated by dividing leaf nitrogen concentration by leaf phosphorus concentration
 substitutions: .na
 taxonomic_updates: .na
 exclude_observations: .na
