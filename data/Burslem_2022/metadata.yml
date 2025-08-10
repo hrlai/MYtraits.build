@@ -1,0 +1,160 @@
+source:
+  primary:
+    key: Burslem_2022
+    bibtype: Misc
+    year: '2022'
+    author: D.f.r.p. Burslem and L.f. Banin and D.c. Bartholomew and M.a.f. Bin Suis
+      and P.r.l. Bittencourt and D. Chapman and D.h. Dent and R.m. Hayward and M.j.
+      O'brien and L.m. Rowland
+    title: Tropical forest seedling trait data collected in Danum Valley, Sabah, Malaysia,
+      in February 2020
+    doi: 10.5285/E738E8AF-554A-4940-BB56-267C7377D74D
+    publisher: NERC EDS Environmental Information Data Centre
+    keywords: Southeast Asia, Malaysia, Sabah, dipterocarp, logging, global change,
+      mast fruiting, plant functional trait, biodiversity, tropical forest, demography,
+      seedling
+    language: en
+    copyright: Open Government Licence v3.0
+contributors:
+  data_collectors:
+  - last_name: Burslem
+    given_name: David F. R. P.
+    ORCID: 0000-0001-6033-0990
+    affiliation: University of Aberdeen
+    additional_role: contact
+  assistants: unknown
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: no
+  custom_R_code: .na
+  collection_date: Date
+  taxon_name: Species
+  location_name: Seedling.Plot
+  individual_id: uid
+  description: This dataset includes values of 15 traits (total dry mass; root length
+    to shoot length ratio; leaf mass fraction; root mass fraction; shoot mass fraction;
+    leaf thickness; leaf force to punch; leaf area to shoot area ratio; leaf concentrations
+    of N, P, K, Ca and Mg; leaf NP concentration ratio; specific maximum root length)
+    measured in February 2020 on 394 seedlings of 15 woody plant species growing in
+    logged in the Ulu Segama Forest Reserve or unlogged forest in the Danum Valley
+    Conservation Area, Malaysia. The purpose of this data collection was to determine
+    whether the expression of plant functional traits differed between tree seedlings
+    recruited into logged and unlogged forests. This information is important for
+    understanding the drivers of variation in seedling growth and survival in response
+    to logging disturbance, and to uncover the mechanisms giving rise to differentiation
+    in tree seedling composition in response to logging.
+  basis_of_record: field
+  life_stage: seedling
+  sampling_strategy: Trait data were collected by direct sampling of seedlings adjacent
+    to 75, 1 m2 seedling plots (46 in unlogged primary forest; 26 in logged forest).
+    The length of the longest root and shoot length were measured using a ruler and
+    shoot diameter was measured just below the first branch using precision callipers.
+    Shoot diameter was converted into shoot cross-sectional area based on the assumption
+    that all shoots were circular. To calculate leaf area, all leaves were scanned
+    using a flatbed scanner (CanoScan LiDE 120, Canon Inc., Tokyo, Japan) and analysed
+    using ImageJ software in the R package LeafArea (Katabuchi, 2015). Leaf thickness
+    was measured on three leaves, where available, using precision callipers avoiding
+    any major veins and a mean was calculated. Leaf force to punch was measured at
+    three points on the leaf using a Chantillon DFXII Digital Force Gauge with a 1
+    mm2 flat head rod (AMETEK Sensors, New York, USA) and the mean was calculated.
+    Leaves, shoots and roots were air-dried before being transferred to the Forest
+    Research Centre, Sepilok, where they were dried to constant weight in an oven
+    at 50 degC before being weighed. Leaf mass fraction and root mass fraction were
+    calculated by dividing dry leaf and dry root mass by total dry mass, respectively.
+    Leaf mass area was calculated by dividing dry leaf mass by leaf area. Leaf area
+    to shoot area ratio was calculated by dividing leaf area by the cross-sectional
+    area of the shoot, root length to shoot length ratio by dividing root length by
+    shoot length and specific maximum root length by dividing maximum root length
+    by dry root mass.
+  original_file: raw/danum_valley_seedling_traits.csv
+  notes: The leaf force to punch was provided in unit N, so HR Lai divided it by
+    the punch rod diameter to obtain N/mm
+identifiers: .na
+locations: .na
+contexts: .na
+traits:
+- var_in: RL:SL
+  unit_in: mm{root}/mm{shoot}
+  trait_name: root_shoot_ratio
+  entity_type: individual
+  value_type: raw
+  basis_of_value: measurement
+  replicates: 1
+  methods: For each seedling, the length of the longest root and shoot length 
+    were measured using a ruler and shoot diameter was measured just below the 
+    first branch using precision callipers.
+- var_in: LMF
+  unit_in: g/g
+  trait_name: leaf_mass_fraction
+  entity_type: individual
+  value_type: raw
+  basis_of_value: measurement
+  replicates: 1
+  methods: LMF and RMF were calculated by dividing dry leaf and dry root mass by 
+    total dry mass, respectively. dried to constant weight in an oven at 50C 
+    before being weighed
+- var_in: RMF
+  unit_in: g/g
+  trait_name: root_mass_fraction
+  entity_type: individual
+  value_type: raw
+  basis_of_value: measurement
+  replicates: 1
+  methods: LMF and RMF were calculated by dividing dry leaf and dry root mass by 
+    total dry mass, respectively. dried to constant weight in an oven at 50C 
+    before being weighed
+- var_in: LMA
+  unit_in: g/m2
+  trait_name: leaf_mass_per_area
+  entity_type: individual
+  value_type: raw
+  basis_of_value: measurement
+  replicates: 1
+  methods: Leaves were scanned using a flatbed scanner and the area was calculated 
+    using ImageJ software. Leaves were subsequently dried in an oven at 50C for
+    48 hours before being weighed. LMA was calculated by dividing dry leaf mass
+    by leaf area.
+- var_in: Leaf.Thickness
+  unit_in: mm
+  trait_name: leaf_thickness
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: 3
+  methods: Leaf thickness was measured at three locations on three leaves (or all 
+    leaves if fewer than three available) using digital callipers and avoiding
+    any major veins. A mean of means was subsequently calculated.
+- var_in: leaf_work_to_punch
+  unit_in: N/mm
+  trait_name: leaf_work_to_punch
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: 3
+  methods: LFP was measured at three points on the leaf using a Chantillon DFXII 
+    Digital Force Gauge with a 1 mm2 flat head rod (AMETEK Sensors, New York, USA) 
+    and the mean was calculated.
+- var_in: LA:SA
+  unit_in: cm2/mm2
+  trait_name: .na
+  entity_type: individual
+  value_type: raw
+  basis_of_value: measurement
+  replicates: 1
+  methods: Total leaf area was calculated as described above. Shoot area was
+    calculated by measuring the diameter of the shoot immediately below the 
+    leaves assuming a perfect circle. LA:SA was calculated by dividing leaf area
+    by shoot area.
+- var_in: SMRL
+  unit_in: mm/g
+  trait_name: root_specific_root_length
+  entity_type: individual
+  value_type: raw
+  basis_of_value: measurement
+  replicates: 1
+  methods: SMRL was calculated by dividing the length of the longest root by dry 
+    root mass
+substitutions: .na
+taxonomic_updates: .na
+exclude_observations: .na
+questions: .na
