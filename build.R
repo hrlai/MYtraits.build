@@ -13,6 +13,10 @@ unit_conversions <- get_unit_conversions("config/unit_conversions.csv")
 taxon_list <- read_csv_char("config/taxon_list.csv")
 
 # Build each source
+Bartholomew_2022_config <- dataset_configure("data/Bartholomew_2022/metadata.yml", definitions)
+Bartholomew_2022_raw <- dataset_process("data/Bartholomew_2022/data.csv", Bartholomew_2022_config, schema, resource_metadata, unit_conversions)
+Bartholomew_2022 <- dataset_update_taxonomy(Bartholomew_2022_raw, taxon_list)
+
 Both_2019_config <- dataset_configure("data/Both_2019/metadata.yml", definitions)
 Both_2019_raw <- dataset_process("data/Both_2019/data.csv", Both_2019_config, schema, resource_metadata, unit_conversions)
 Both_2019 <- dataset_update_taxonomy(Both_2019_raw, taxon_list)
@@ -35,6 +39,7 @@ Burslem_2022_2 <- dataset_update_taxonomy(Burslem_2022_2_raw, taxon_list)
 
 
 MYtraits_raw <- austraits::bind_databases(
+  Bartholomew_2022,
   Both_2019,
   Both_2019_2,
   Both_2021,
