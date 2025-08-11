@@ -37,6 +37,14 @@ Burslem_2022_2_config <- dataset_configure("data/Burslem_2022_2/metadata.yml", d
 Burslem_2022_2_raw <- dataset_process("data/Burslem_2022_2/data.csv", Burslem_2022_2_config, schema, resource_metadata, unit_conversions)
 Burslem_2022_2 <- dataset_update_taxonomy(Burslem_2022_2_raw, taxon_list)
 
+Wright_2024_config <- dataset_configure("data/Wright_2024/metadata.yml", definitions)
+Wright_2024_raw <- dataset_process("data/Wright_2024/data.csv", Wright_2024_config, schema, resource_metadata, unit_conversions)
+Wright_2024 <- dataset_update_taxonomy(Wright_2024_raw, taxon_list)
+
+Wright_2024_2_config <- dataset_configure("data/Wright_2024_2/metadata.yml", definitions)
+Wright_2024_2_raw <- dataset_process("data/Wright_2024_2/data.csv", Wright_2024_2_config, schema, resource_metadata, unit_conversions)
+Wright_2024_2 <- dataset_update_taxonomy(Wright_2024_2_raw, taxon_list)
+
 
 MYtraits_raw <- austraits::bind_databases(
   Bartholomew_2022,
@@ -45,6 +53,8 @@ MYtraits_raw <- austraits::bind_databases(
   Both_2021,
   Burslem_2022,
   Burslem_2022_2,
+  Wright_2024,
+  Wright_2024_2,
   NULL)
 
 # Version information
