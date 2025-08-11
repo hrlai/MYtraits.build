@@ -1,0 +1,187 @@
+source:
+  primary:
+    key: Wright_2024
+    bibtype: Misc
+    year: '2024'
+    author: Joseph S. Wright and Tze Leong Yao
+    title: Plant functional traits of the 100 most abundant species in the Pasoh forest
+      reserve 50-ha forest dynamics plot, Malaysia
+    doi: 10.5061/DRYAD.Q2BVQ83V7
+    publisher: Dryad
+    language: en
+    copyright: Creative Commons Zero v1.0 Universal
+  secondary:
+    key: Kambach_2025
+    bibtype: Article
+    year: '2025'
+    author: Stephan Kambach and Helge Bruelheide and Liza S. Comita and Richard Condit
+      and S. Joseph Wright and Salomón Aguilar and Chia-Hao Chang-Yang and Yu-Yun
+      Chen and Nancy C. Garwood and Stephen P. Hubbell and Pei-Jen Luo and Margaret
+      R. Metz and Musalmah Bt. Nasardin and Rolando Pérez and Simon A. Queenborough
+      and I-Fang Sun and Nathan G. Swenson and Jill Thompson and María Uriarte and
+      Renato Valencia and Tze Leong Yao and Jess K. Zimmerman and Nadja Rüger
+    journal: Ecology
+    title: 'Putting seedlings on the map: Trade-offs in demographic rates between
+      ontogenetic size classes in five tropical forests'
+    volume: '106'
+    number: '1'
+    doi: 10.1002/ecy.4527
+    issn: 1939-9170
+contributors:
+  data_collectors:
+  - last_name: Wright
+    given_name: S. Joseph
+    ORCID: 0000-0003-4260-5676
+    affiliation: Smithsonian Tropical Research Institute
+    additional_role: contact
+  assistants: Tze Leong Yao and Ranger Shari and Mr. Abu
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: 2005/2005
+  taxon_name: taxon_name
+  trait_name: trait_name
+  value: trait_value
+  location_name: unknown
+  individual_id: tag
+  description: We determined crown traits, leaf traits, and wood density in for tree
+    species from the 50-ha Forest Dynamics Plot in the Pasoh Forest Reserve. The Pasoh
+    Forest Reserve is administered by the Forestry Research Institute Malaysia (FRIM)
+    and is located near the village of Sempang Pertang in Negeri Sembilan state in
+    Peninsular Malaysia (2.92N, 102.31E). Elevation ranges from 70 to 90 m above sea
+    level across the 50-ha plot. Temperatures average 26.3C, annual rainfall averages
+    1,896 mm, and minimum mean monthly rainfall is 96 mm in January. The reserve supports
+    species-rich, dipterocarp forest, and 862 tree species have been recorded in the
+    50-ha plot (https://forestgeo.si.edu/sites/asia/pasoh). The 50-ha plot was first
+    censused between 1986 and 1988 and was recensused in 1990/91 and approximately
+    every fifth year thereafter. At each census every free-standing tree is permanently
+    tagged, measured for diameter at breast height (DBH), identified to species, and
+    mapped to the nearest 0.5 m following protocols described by Condit (1998). Manokaran
+    et al. (1992) describe the first census in detail.
+  basis_of_record: field
+  life_stage: adult
+  sampling_strategy: We determined crown traits, leaf traits, and wood density for
+    tree species from the 50-ha Forest Dynamics Plot in the Pasoh Forest Reserve (2.92N,
+    102.31E). We targeted the six largest individuals by DBH of the 100 most abundant
+    species in the 2005 census of the 50-ha plot. We obtained crown and leaf trait
+    data for 436 of the targeted trees and all 100 targeted species. Crown traits
+    included height and mean crown diameter. Leaf traits included number of leaflets
+    for compound leaves, leaf area, leaf fresh mass, leaf dry mass, leaf dry matter
+    content, leaf dry mass per area, leaf lamina thickness, leaf dry tissue density,
+    and leaf nitrogen and phosphorus concentrations. We also determined wood density
+    for 73 of the most abundant species in the 50-ha plot that previously lacked wood
+    density data. We targeted the six largest individuals by DBH of the 100 most abundant
+    species in the 2005 census of the 50-ha plot. Unfortunately, 70 of these large
+    trees were duplicated in the 2005 census data and our field data forms. So, we
+    only targeted 530 individuals. We obtained leaf and crown trait data for 436 trees
+    because 92 trees had died and two trees had broken off above breast height.
+    For much more information, see https://datadryad.org/dataset/doi:10.5061/dryad.q2bvq83v7#methods
+  original_file: txt files with Pasoh_ prefix in the raw folder
+  notes: HR Lai separated individual- and species-level traits; the former is this
+    dataset Wright_2024, whereas the latter is cleaned and stored as Wright_2024_2
+identifiers: .na
+locations: .na
+contexts: .na
+traits:
+- var_in: leaf.area
+  unit_in: cm2
+  trait_name: leaf_area
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: 2
+  methods: Area of simple leaves (cm2) and missing for compound leaves. Excludes petiole.
+- var_in: leaf.mass.dry
+  unit_in: g
+  trait_name: leaf_dry_mass
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: 2
+  methods: Oven-dry (60C) mass of the leaf for simple leaves (units are g). 
+    Excludes petiole.
+- var_in: LDMC
+  unit_in: g/g
+  trait_name: leaf_dry_matter_content
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: 2
+  methods: Leaf dry matter content (a proportion). 
+    Calculated as mass.dry / mass.fresh.
+- var_in: LMA
+  unit_in: g/m2
+  trait_name: leaf_mass_per_area
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: 2
+  methods: Leaf mass per area (g m-2). Calculated as mass.dry / leaf.area for 
+    simple leaves and as mass.dry / leaflet.area for compound leaves.
+- var_in: lamina.thickness
+  unit_in: um
+  trait_name: leaf_thickness
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: 2
+  methods: Thickness of the lamina of the leaf or leaflet (units are microns).
+- var_in: lamina.density
+  unit_in: g/cm3
+  trait_name: leaf_density
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: 2
+  methods: Leaf lamina tissue density (g cm-3). Calculated as
+    LMA / lamina.thickness and correcting units.
+- var_in: leaflet.area
+  unit_in: cm2
+  trait_name: leaflet_area
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: 2
+  methods: The area of one leaflet for compound leaves (cm2) and missing for 
+    simple leaves. Excludes petiolule.
+- var_in: leaflet.mass.dry
+  unit_in: g
+  trait_name: leaflet_dry_mass
+  entity_type: individual
+  value_type: mean
+  basis_of_value: measurement
+  replicates: 2
+  methods: Oven-dry (60C) mass of the leaf for one leaflet for compound leaves 
+    (units are g). Excludes petiole and petiolule.
+- var_in: wood.density
+  unit_in: g/cm3
+  trait_name: wood_density
+  entity_type: individual
+  value_type: raw
+  basis_of_value: measurement
+  replicates: 1
+  methods: We targeted the 100 most abundant species in the 2005 census of the 
+    50-ha plot that lacked wood density values but collected wood samples outside 
+    the 50-ha plot. We systematically searched forest near the Pasoh Field Station 
+    with FRIM botanists Ranger Shari and especially Mr. Abu to locate target 
+    species. For shrubs and treelets that rarely reach 10 cm DBH, we collected 
+    one 5-cm segment of an approximately 10-mm diameter branch. For larger 
+    species, we collected one core from individuals larger than 10-cm DBH with 
+    a 5-mm diameter increment borer. We sealed freshly collected samples in 
+    ZipLock bags; placed them on ice; transported them back to the laboratory; 
+    measured fresh volume by water displacement within 24 hours (usually within 
+    six hours), and then dried the samples to constant mass at 60C before 
+    measuring dry mass. We broke cores into pieces less than 5 cm long, calculated 
+    the specific gravity of each piece as oven-dried mass divided by fresh 
+    volume, and estimated wood density as an area-weighted average, where area 
+    refers to the annulus represented by each piece, assuming a circular trunk 
+    (Wright et al. 2010).
+substitutions: .na
+taxonomic_updates: .na
+exclude_observations: .na
+questions: The README and notes repeatedly mention that the traits were collected
+  during the 2005 plot census, but the beginning of Methods online section (https://datadryad.org/dataset/doi:10.5061/dryad.q2bvq83v7#methods)
+  mentioned "We determined crown traits, leaf traits, and wood density in 2008"; HR
+  Lai entered collection_date as 2005 since this is the more frequently mentioned
+  year.
