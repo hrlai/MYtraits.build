@@ -1,0 +1,415 @@
+Species,trait_name,value
+Parashorea stellata,Max Vessel_mean,150
+Parashorea stellata,Max Vessel_se,52
+Parashorea stellata,Vessel fraction_mean,0.033
+Parashorea stellata,Vessel fraction_se,0.009
+Parashorea stellata,Density_mean,0.47
+Parashorea stellata,Density_se,0.07
+Parashorea stellata,(t/b)2_mean,0.104
+Parashorea stellata,(t/b)2_se,0.014
+Parashorea stellata,Hydraulic  mean_mean,3.50
+Parashorea stellata,Hydraulic  mean_se,0.61
+Parashorea stellata,Aarea_mean,2.2
+Parashorea stellata,Aarea_se,0.4
+Parashorea stellata,Rarea_mean,0.46
+Parashorea stellata,Rarea_se,0.12
+Parashorea stellata,gs_mean,0.02
+Parashorea stellata,gs_se,0.01
+Parashorea stellata,LMA_mean,0.0037
+Parashorea stellata,LMA_se,0.0003
+Parashorea densiflora,Max Vessel_mean,78
+Parashorea densiflora,Max Vessel_se,2
+Parashorea densiflora,Vessel fraction_mean,0.021
+Parashorea densiflora,Vessel fraction_se,0.002
+Parashorea densiflora,Density_mean,0.37
+Parashorea densiflora,Density_se,0.06
+Parashorea densiflora,(t/b)2_mean,0.066
+Parashorea densiflora,(t/b)2_se,0.018
+Parashorea densiflora,Hydraulic  mean_mean,2.38
+Parashorea densiflora,Hydraulic  mean_se,0.08
+Parashorea densiflora,Aarea_mean,5.3
+Parashorea densiflora,Aarea_se,0.3
+Parashorea densiflora,Rarea_mean,0.86
+Parashorea densiflora,Rarea_se,0.08
+Parashorea densiflora,gs_mean,0.07
+Parashorea densiflora,gs_se,0.01
+Parashorea densiflora,LMA_mean,0.0046 
+Parashorea densiflora,LMA_se,0.0003
+Shorea guiso,Max Vessel_mean,110
+Shorea guiso,Max Vessel_se,11
+Shorea guiso,Vessel fraction_mean,0.035
+Shorea guiso,Vessel fraction_se,0.002
+Shorea guiso,Density_mean,0.55
+Shorea guiso,Density_se,0.02
+Shorea guiso,(t/b)2_mean,0.124
+Shorea guiso,(t/b)2_se,0.015
+Shorea guiso,Hydraulic  mean_mean,2.94
+Shorea guiso,Hydraulic  mean_se,0.15
+Shorea guiso,Aarea_mean,4.7
+Shorea guiso,Aarea_se,0.4
+Shorea guiso,Rarea_mean,0.47
+Shorea guiso,Rarea_se,0.08
+Shorea guiso,gs_mean,0.06
+Shorea guiso,gs_se,0.01
+Shorea guiso,LMA_mean,0.0048
+Shorea guiso,LMA_se,0.0009
+Shorea lepidota,Max Vessel_mean,174
+Shorea lepidota,Max Vessel_se,32
+Shorea lepidota,Vessel fraction_mean,0.046
+Shorea lepidota,Vessel fraction_se,0.004
+Shorea lepidota,Density_mean,0.53
+Shorea lepidota,Density_se,0.07
+Shorea lepidota,(t/b)2_mean,0.106
+Shorea lepidota,(t/b)2_se,0.002
+Shorea lepidota,Hydraulic  mean_mean,3.65
+Shorea lepidota,Hydraulic  mean_se,0.24
+Shorea lepidota,Aarea_mean,5.3
+Shorea lepidota,Aarea_se,0.8
+Shorea lepidota,Rarea_mean,0.62
+Shorea lepidota,Rarea_se,0.04
+Shorea lepidota,gs_mean,0.07
+Shorea lepidota,gs_se,0.02
+Shorea lepidota,LMA_mean,0.0055
+Shorea lepidota,LMA_se,0.0005
+Shorea macroptera,Max Vessel_mean,183
+Shorea macroptera,Max Vessel_se,15
+Shorea macroptera,Vessel fraction_mean,0.044
+Shorea macroptera,Vessel fraction_se,0.007
+Shorea macroptera,Density_mean,0.35
+Shorea macroptera,Density_se,0.05
+Shorea macroptera,(t/b)2_mean,0.087
+Shorea macroptera,(t/b)2_se,0.008
+Shorea macroptera,Hydraulic  mean_mean,3.71
+Shorea macroptera,Hydraulic  mean_se,0.12
+Shorea macroptera,Aarea_mean,7.4
+Shorea macroptera,Aarea_se,0.2
+Shorea macroptera,Rarea_mean,0.86
+Shorea macroptera,Rarea_se,0.08
+Shorea macroptera,gs_mean,0.06
+Shorea macroptera,gs_se,0.01
+Shorea macroptera,LMA_mean,0.0069
+Shorea macroptera,LMA_se,0.0005
+Shorea parvifolia,Max Vessel_mean,129
+Shorea parvifolia,Max Vessel_se,32
+Shorea parvifolia,Vessel fraction_mean,0.048
+Shorea parvifolia,Vessel fraction_se,0.011
+Shorea parvifolia,Density_mean,0.46
+Shorea parvifolia,Density_se,0.04
+Shorea parvifolia,(t/b)2_mean,0.104
+Shorea parvifolia,(t/b)2_se,0.009
+Shorea parvifolia,Hydraulic  mean_mean,3.09
+Shorea parvifolia,Hydraulic  mean_se,0.15
+Shorea parvifolia,Aarea_mean,4.9
+Shorea parvifolia,Aarea_se,0.2
+Shorea parvifolia,Rarea_mean,0.62
+Shorea parvifolia,Rarea_se,0.08
+Shorea parvifolia,gs_mean,0.10
+Shorea parvifolia,gs_se,0.01
+Shorea parvifolia,LMA_mean,0.0046
+Shorea parvifolia,LMA_se,0.0005
+Mallotus penangensis,Max Vessel_mean,93
+Mallotus penangensis,Max Vessel_se,11
+Mallotus penangensis,Vessel fraction_mean,0.017
+Mallotus penangensis,Vessel fraction_se,0.003
+Mallotus penangensis,Density_mean,0.55
+Mallotus penangensis,Density_se,0.03
+Mallotus penangensis,(t/b)2_mean,0.081
+Mallotus penangensis,(t/b)2_se,0.013
+Mallotus penangensis,Hydraulic  mean_mean,3.04
+Mallotus penangensis,Hydraulic  mean_se,0.09
+Mallotus penangensis,Aarea_mean,4.1
+Mallotus penangensis,Aarea_se,0.4
+Mallotus penangensis,Rarea_mean,0.70
+Mallotus penangensis,Rarea_se,0.08
+Mallotus penangensis,gs_mean,0.06
+Mallotus penangensis,gs_se,0.01
+Mallotus penangensis,LMA_mean,0.0047
+Mallotus penangensis,LMA_se,0.0003
+Neoscortechenia kingii,Max Vessel_mean,81
+Neoscortechenia kingii,Max Vessel_se,18
+Neoscortechenia kingii,Vessel fraction_mean,0.023
+Neoscortechenia kingii,Vessel fraction_se,0.008
+Neoscortechenia kingii,Density_mean,0.55
+Neoscortechenia kingii,Density_se,0.05
+Neoscortechenia kingii,(t/b)2_mean,0.104
+Neoscortechenia kingii,(t/b)2_se,0.010
+Neoscortechenia kingii,Hydraulic  mean_mean,2.53
+Neoscortechenia kingii,Hydraulic  mean_se,0.17
+Neoscortechenia kingii,Aarea_mean,5.3
+Neoscortechenia kingii,Aarea_se,0.4
+Neoscortechenia kingii,Rarea_mean,0.69
+Neoscortechenia kingii,Rarea_se,0.04
+Neoscortechenia kingii,gs_mean,0.11
+Neoscortechenia kingii,gs_se,0.01
+Neoscortechenia kingii,LMA_mean,0.0066
+Neoscortechenia kingii,LMA_se,0.0003
+Millettia atropurpurea(m),Max Vessel_mean,280
+Millettia atropurpurea(m),Max Vessel_se,12
+Millettia atropurpurea(m),Vessel fraction_mean,0.043
+Millettia atropurpurea(m),Vessel fraction_se,0.008
+Millettia atropurpurea(m),Density_mean,0.45
+Millettia atropurpurea(m),Density_se,0.05
+Millettia atropurpurea(m),(t/b)2_mean,0.086
+Millettia atropurpurea(m),(t/b)2_se,0.001
+Millettia atropurpurea(m),Hydraulic  mean_mean,4.86
+Millettia atropurpurea(m),Hydraulic  mean_se,0.11
+Millettia atropurpurea(m),Aarea_mean,4.2
+Millettia atropurpurea(m),Aarea_se,0.4
+Millettia atropurpurea(m),Rarea_mean,0.74
+Millettia atropurpurea(m),Rarea_se,0.08
+Millettia atropurpurea(m),gs_mean,0.06
+Millettia atropurpurea(m),gs_se,0.01
+Millettia atropurpurea(m),LMA_mean,0.0048
+Millettia atropurpurea(m),LMA_se,0.0003
+Millettia atropurpurea (t),Max Vessel_mean,340
+Millettia atropurpurea (t),Max Vessel_se,46
+Millettia atropurpurea (t),Vessel fraction_mean,0.042
+Millettia atropurpurea (t),Vessel fraction_se,0.001
+Millettia atropurpurea (t),Density_mean,0.20
+Millettia atropurpurea (t),Density_se,0.04
+Millettia atropurpurea (t),(t/b)2_mean,0.132
+Millettia atropurpurea (t),(t/b)2_se,0.010
+Millettia atropurpurea (t),Hydraulic  mean_mean,5.31
+Millettia atropurpurea (t),Hydraulic  mean_se,0.29
+Millettia atropurpurea (t),Aarea_mean,5.8
+Millettia atropurpurea (t),Aarea_se,0.7
+Millettia atropurpurea (t),Rarea_mean,1.33
+Millettia atropurpurea (t),Rarea_se,0.12
+Millettia atropurpurea (t),gs_mean,0.08
+Millettia atropurpurea (t),gs_se,0.02
+Millettia atropurpurea (t),LMA_mean,0.0041
+Millettia atropurpurea (t),LMA_se,0.0003
+Sindora coriacea (m),Max Vessel_mean,101
+Sindora coriacea (m),Max Vessel_se,26
+Sindora coriacea (m),Vessel fraction_mean,0.021
+Sindora coriacea (m),Vessel fraction_se,0.004
+Sindora coriacea (m),Density_mean,0.59
+Sindora coriacea (m),Density_se,0.07
+Sindora coriacea (m),(t/b)2_mean,0.066
+Sindora coriacea (m),(t/b)2_se,0.012
+Sindora coriacea (m),Hydraulic  mean_mean,2.81
+Sindora coriacea (m),Hydraulic  mean_se,0.22
+Sindora coriacea (m),Aarea_mean,5.2
+Sindora coriacea (m),Aarea_se,0.5
+Sindora coriacea (m),Rarea_mean,0.96
+Sindora coriacea (m),Rarea_se,0.08
+Sindora coriacea (m),gs_mean,0.08
+Sindora coriacea (m),gs_se,0.01
+Sindora coriacea (m),LMA_mean,0.0056
+Sindora coriacea (m),LMA_se,0.0009
+Sindora coriacea (t),Max Vessel_mean,102
+Sindora coriacea (t),Max Vessel_se,19
+Sindora coriacea (t),Vessel fraction_mean,0.023
+Sindora coriacea (t),Vessel fraction_se,0.003
+Sindora coriacea (t),Density_mean,0.52
+Sindora coriacea (t),Density_se,0.07
+Sindora coriacea (t),(t/b)2_mean,0.113
+Sindora coriacea (t),(t/b)2_se,0.016
+Sindora coriacea (t),Hydraulic  mean_mean,2.89
+Sindora coriacea (t),Hydraulic  mean_se,0.15
+Sindora coriacea (t),Aarea_mean,3.9
+Sindora coriacea (t),Aarea_se,1.1
+Sindora coriacea (t),Rarea_mean,0.94
+Sindora coriacea (t),Rarea_se,0.19
+Sindora coriacea (t),gs_mean,0.06
+Sindora coriacea (t),gs_se,0.02
+Sindora coriacea (t),LMA_mean,0.0060
+Sindora coriacea (t),LMA_se,0.0009
+Sindora wallichii,Max Vessel_mean,96
+Sindora wallichii,Max Vessel_se,14
+Sindora wallichii,Vessel fraction_mean,0.020
+Sindora wallichii,Vessel fraction_se,0.004
+Sindora wallichii,Density_mean,0.55
+Sindora wallichii,Density_se,0.03
+Sindora wallichii,(t/b)2_mean,0.075
+Sindora wallichii,(t/b)2_se,0.008
+Sindora wallichii,Hydraulic  mean_mean,2.75
+Sindora wallichii,Hydraulic  mean_se,0.14
+Sindora wallichii,Aarea_mean,5.7
+Sindora wallichii,Aarea_se,0.4
+Sindora wallichii,Rarea_mean,1.05
+Sindora wallichii,Rarea_se,0.04
+Sindora wallichii,gs_mean,0.09
+Sindora wallichii,gs_se,0.01
+Sindora wallichii,LMA_mean,0.0052
+Sindora wallichii,LMA_se,0.0001
+Lithocarpus wrayii,Max Vessel_mean,87
+Lithocarpus wrayii,Max Vessel_se,11
+Lithocarpus wrayii,Vessel fraction_mean,0.021
+Lithocarpus wrayii,Vessel fraction_se,0.001
+Lithocarpus wrayii,Density_mean,0.55
+Lithocarpus wrayii,Density_se,0.04
+Lithocarpus wrayii,(t/b)2_mean,0.094
+Lithocarpus wrayii,(t/b)2_se,0.001
+Lithocarpus wrayii,Hydraulic  mean_mean,2.62
+Lithocarpus wrayii,Hydraulic  mean_se,0.15
+Lithocarpus wrayii,Aarea_mean,2.1
+Lithocarpus wrayii,Aarea_se,0.2
+Lithocarpus wrayii,Rarea_mean,1.00
+Lithocarpus wrayii,Rarea_se,0.67
+Lithocarpus wrayii,gs_mean,0.04
+Lithocarpus wrayii,gs_se,0.01
+Lithocarpus wrayii,LMA_mean,0.0038
+Lithocarpus wrayii,LMA_se,0.0003
+Quercus semiserrata,Max Vessel_mean,77
+Quercus semiserrata,Max Vessel_se,8
+Quercus semiserrata,Vessel fraction_mean,0.007
+Quercus semiserrata,Vessel fraction_se,0.002
+Quercus semiserrata,Density_mean,0.70
+Quercus semiserrata,Density_se,0.01
+Quercus semiserrata,(t/b)2_mean,0.137
+Quercus semiserrata,(t/b)2_se,0.024
+Quercus semiserrata,Hydraulic  mean_mean,2.56
+Quercus semiserrata,Hydraulic  mean_se,0.14
+Quercus semiserrata,Aarea_mean,2.6
+Quercus semiserrata,Aarea_se,0.2
+Quercus semiserrata,Rarea_mean,0.47
+Quercus semiserrata,Rarea_se,0.04
+Quercus semiserrata,gs_mean,0.04
+Quercus semiserrata,gs_se,0.01
+Quercus semiserrata,LMA_mean,0.0057
+Quercus semiserrata,LMA_se,0.0003
+Aporosa globifera,Max Vessel_mean,100
+Aporosa globifera,Max Vessel_se,4
+Aporosa globifera,Vessel fraction_mean,0.030
+Aporosa globifera,Vessel fraction_se,0.001
+Aporosa globifera,Density_mean,0.52
+Aporosa globifera,Density_se,0.05
+Aporosa globifera,(t/b)2_mean,0.091
+Aporosa globifera,(t/b)2_se,0.012
+Aporosa globifera,Hydraulic  mean_mean,2.67
+Aporosa globifera,Hydraulic  mean_se,0.06
+Aporosa globifera,Aarea_mean,5.6
+Aporosa globifera,Aarea_se,0.8
+Aporosa globifera,Rarea_mean,0.49
+Aporosa globifera,Rarea_se,0.08
+Aporosa globifera,gs_mean,0.12
+Aporosa globifera,gs_se,0.01
+Aporosa globifera,LMA_mean,0.0034
+Aporosa globifera,LMA_se,0.0003
+Aporosa microstachya,Max Vessel_mean,64
+Aporosa microstachya,Max Vessel_se,2
+Aporosa microstachya,Vessel fraction_mean,0.024
+Aporosa microstachya,Vessel fraction_se,0.002
+Aporosa microstachya,Density_mean,0.72
+Aporosa microstachya,Density_se,0.02
+Aporosa microstachya,(t/b)2_mean,0.187
+Aporosa microstachya,(t/b)2_se,0.017
+Aporosa microstachya,Hydraulic  mean_mean,2.10
+Aporosa microstachya,Hydraulic  mean_se,0.08
+Aporosa microstachya,Aarea_mean,4.1
+Aporosa microstachya,Aarea_se,0.2
+Aporosa microstachya,Rarea_mean,0.43
+Aporosa microstachya,Rarea_se,0.04
+Aporosa microstachya,gs_mean,0.06
+Aporosa microstachya,gs_se,0.01
+Aporosa microstachya,LMA_mean,0.0045
+Aporosa microstachya,LMA_se,0.0002
+Aporosa symplocoides,Max Vessel_mean,48
+Aporosa symplocoides,Max Vessel_se,4
+Aporosa symplocoides,Vessel fraction_mean,0.031
+Aporosa symplocoides,Vessel fraction_se,0.004
+Aporosa symplocoides,Density_mean,0.56
+Aporosa symplocoides,Density_se,0.04
+Aporosa symplocoides,(t/b)2_mean,0.067
+Aporosa symplocoides,(t/b)2_se,0.004
+Aporosa symplocoides,Hydraulic  mean_mean,1.86
+Aporosa symplocoides,Hydraulic  mean_se,0.05
+Aporosa symplocoides,Aarea_mean,3.0
+Aporosa symplocoides,Aarea_se,0.8
+Aporosa symplocoides,Rarea_mean,0.51
+Aporosa symplocoides,Rarea_se,0.15
+Aporosa symplocoides,gs_mean,0.06
+Aporosa symplocoides,gs_se,0.01
+Aporosa symplocoides,LMA_mean,0.0043
+Aporosa symplocoides,LMA_se,0.0003
+Xanthophyllum affine,Max Vessel_mean,70
+Xanthophyllum affine,Max Vessel_se,14
+Xanthophyllum affine,Vessel fraction_mean,0.015
+Xanthophyllum affine,Vessel fraction_se,0.003
+Xanthophyllum affine,Density_mean,0.59
+Xanthophyllum affine,Density_se,0.06
+Xanthophyllum affine,(t/b)2_mean,0.138
+Xanthophyllum affine,(t/b)2_se,0.009
+Xanthophyllum affine,Hydraulic  mean_mean,2.26
+Xanthophyllum affine,Hydraulic  mean_se,0.22
+Xanthophyllum affine,Aarea_mean,3.5
+Xanthophyllum affine,Aarea_se,0.5
+Xanthophyllum affine,Rarea_mean,0.47
+Xanthophyllum affine,Rarea_se,0.04
+Xanthophyllum affine,gs_mean,0.11
+Xanthophyllum affine,gs_se,0.03
+Xanthophyllum affine,LMA_mean,0.0054
+Xanthophyllum affine,LMA_se,0.0001
+Palaquium maingayi,Max Vessel_mean,98
+Palaquium maingayi,Max Vessel_se,7
+Palaquium maingayi,Vessel fraction_mean,0.031
+Palaquium maingayi,Vessel fraction_se,0.003
+Palaquium maingayi,Density_mean,0.54
+Palaquium maingayi,Density_se,0.01
+Palaquium maingayi,(t/b)2_mean,0.067
+Palaquium maingayi,(t/b)2_se,0.012
+Palaquium maingayi,Hydraulic  mean_mean,2.53
+Palaquium maingayi,Hydraulic  mean_se,0.10
+Palaquium maingayi,Aarea_mean,7.7
+Palaquium maingayi,Aarea_se,0.2
+Palaquium maingayi,Rarea_mean,0.73
+Palaquium maingayi,Rarea_se,0.04
+Palaquium maingayi,gs_mean,0.15
+Palaquium maingayi,gs_se,0.01
+Palaquium maingayi,LMA_mean,0.0064
+Palaquium maingayi,LMA_se,0.0005
+Palaquium sumatrana,Max Vessel_mean,88
+Palaquium sumatrana,Max Vessel_se,25
+Palaquium sumatrana,Vessel fraction_mean,0.016
+Palaquium sumatrana,Vessel fraction_se,0.005
+Palaquium sumatrana,Density_mean,0.62
+Palaquium sumatrana,Density_se,0.02
+Palaquium sumatrana,(t/b)2_mean,0.075
+Palaquium sumatrana,(t/b)2_se,0.015
+Palaquium sumatrana,Hydraulic  mean_mean,2.60
+Palaquium sumatrana,Hydraulic  mean_se,0.22
+Palaquium sumatrana,Aarea_mean,4.1
+Palaquium sumatrana,Aarea_se,0.2
+Palaquium sumatrana,Rarea_mean,0.69
+Palaquium sumatrana,Rarea_se,0.08
+Palaquium sumatrana,gs_mean,0.11
+Palaquium sumatrana,gs_se,0.01
+Palaquium sumatrana,LMA_mean,0.0058
+Palaquium sumatrana,LMA_se,0.0004
+Payena lucida,Max Vessel_mean,40
+Payena lucida,Max Vessel_se,9
+Payena lucida,Vessel fraction_mean,0.016
+Payena lucida,Vessel fraction_se,0.005
+Payena lucida,Density_mean,0.50
+Payena lucida,Density_se,0.05
+Payena lucida,(t/b)2_mean,0.109
+Payena lucida,(t/b)2_se,0.008
+Payena lucida,Hydraulic  mean_mean,1.68
+Payena lucida,Hydraulic  mean_se,0.10
+Payena lucida,Aarea_mean,7.8
+Payena lucida,Aarea_se,0.2
+Payena lucida,Rarea_mean,0.65
+Payena lucida,Rarea_se,0.04
+Payena lucida,gs_mean,0.11
+Payena lucida,gs_se,0.02
+Payena lucida,LMA_mean,0.0073
+Payena lucida,LMA_se,0.0001
+Rinorea anguifera,Max Vessel_mean,44
+Rinorea anguifera,Max Vessel_se,4
+Rinorea anguifera,Vessel fraction_mean,0.034
+Rinorea anguifera,Vessel fraction_se,0.004
+Rinorea anguifera,Density_mean,0.52
+Rinorea anguifera,Density_se,0.05
+Rinorea anguifera,(t/b)2_mean,0.122
+Rinorea anguifera,(t/b)2_se,0.013
+Rinorea anguifera,Hydraulic  mean_mean,1.65
+Rinorea anguifera,Hydraulic  mean_se,0.03
+Rinorea anguifera,Aarea_mean,3.0
+Rinorea anguifera,Aarea_se,0.8
+Rinorea anguifera,Rarea_mean,0.27
+Rinorea anguifera,Rarea_se,0.04
+Rinorea anguifera,gs_mean,0.06
+Rinorea anguifera,gs_se,0.01
+Rinorea anguifera,LMA_mean,0.0038
+Rinorea anguifera,LMA_se,0.0003

@@ -1,0 +1,187 @@
+source:
+  primary:
+    key: Baltzer_2009
+    bibtype: Article
+    year: '2009'
+    author: Jennifer L. Baltzer and Dorthea M. Grégoire and Sarayudh Bunyavejchewin and N. Supardi M. Noor and Stuart J. Davies
+    journal: American Journal of Botany
+    title: Coordination of foliar and wood anatomical traits contributes to tropical tree distributions and productivity along the Malay-Thai Peninsula
+    volume: '96'
+    number: '12'
+    pages: 2214–2223
+    doi: 10.3732/ajb.0800414
+    issn: 1537-2197
+contributors:
+  data_collectors:
+    - last_name: Baltzer
+      given_name: Jennifer L.
+      ORCID: 0000-0001-7476-5928
+      affiliation: Mount Allison University
+  assistants: S. Thomas and M. Schneider and S. Phillips and F. Abidin and S. Nishimura
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: 2006/2006
+  taxon_name: Species
+  trait_name: trait_name
+  value: value
+  location_name: unknown
+  description: We used a common garden approach to quantify inherent differences in wood anatomical and foliar physiological traits in 21 tropical tree species with either widespread (occupying both seasonal and aseasonal climates) or southern (restricted to aseasonal forests) distributions with respect to rainfall seasonality. Use of congeneric species pairs and phylogenetically independent contrast analyses allowed examination of this question in a phylogenetic framework. Widespread species opted for wood traits that provide biomechanical support and prevent xylem cavitation and showed associated reductions in canopy productivity and consequently growth rates compared with southern species.
+  basis_of_record: captive_cultivated
+  life_stage: sapling
+  sampling_strategy: After 1 year of growth, stems and leaves were harvested from the saplings. The stems were stored in 70% ethanol for processing at a later date. Using a LI-6400 gas-exchange system (Licor, Lincoln, Nebraska, USA) we measured gas exchange on recent, fully expanded leaves of four individuals per species (and provenance where seeds of multiple provenances were collected). Measurements were made from 9 to 16 July 2006 before noon with cuvette conditions maintained at 370 ppm CO2 and 60–80% relative humidity (RH) and leaf temperatures between 25 and 30C. Gas-exchange measurements were made at light levels of 0 and 1500 umol  m-2 s-1. Stability of gas-exchange values was determined visually using graphics available in the LI-6400 programming. Maximum stomatal conductance to water (gs) corresponding to Amax was used to characterize stomatal response across species and distribution. Gas-exchange leaves were harvested, measured for fresh leaf area, dried at 60C, and weighed for calculation of leaf mass per area (LMA). Stem sections from three specimens of each species were used to characterize anatomical traits. Stem cross and tangential sections were made for each sample using a sliding microtome at 20 um and 5 um thickness, respectively. All sections were wet mounted and digital images obtained using a Carl Zeiss Photomicroscope I (Oberkochen, Germany) combined with a PixeLink PL-A662 Camera Kit (Prague, Czech Republic). Photographic scale was calibrated using a standard ocular micrometer slide. All vessels in each image (~100 vessels) were measured. The diameter and total area of every vessel in each cross-sectional image was measured, as was total xylem area. From these measurements, maximum vessel diameter and vessel fraction (vessel area/xylem area) were determined. Hydraulically weighted mean diameter was calculated following 55. This weights the proportional importance of radii to the estimated hydraulic conductance of the conduits and corresponds closely with hydraulic conductance. The double wall thickness of adjacent conduits (t) was quantified from the tangential sections and the maximum conduit span (b) estimated; these two metrics allow for the calculation of conduit reinforcement as (t/b)2. Wood density was calculated as the oven-dried mass of the wood sample divided by the green volume measured following removal of bark and pith. Perforation plate type and vesture presence were also determined from the tangential sections.
+  original_file: raw/ajb22214-sup-0001.doc
+  notes: HR Lai copied the MS Word doc table into MS Excel.
+identifiers: .na
+locations: .na
+contexts: .na
+traits:
+  - var_in: Max Vessel_mean
+    unit_in: um
+    trait_name: stem_vessel_diameter
+    entity_type: population
+    value_type: maximum
+    basis_of_value: measurement
+    replicates: 3
+    methods: Stem sections from three specimens of each species were used to characterize anatomical traits. Stem cross and tangential sections were made for each sample using a sliding microtome at 20 um and 5 um thickness, respectively. All sections were wet mounted and digital images obtained using a Carl Zeiss Photomicroscope I (Oberkochen, Germany) combined with a PixeLink PL-A662 Camera Kit (Prague, Czech Republic). Photographic scale was calibrated using a standard ocular micrometer slide. All vessels in each image (∼100 vessels) were measured. The diameter and total area of every vessel in each cross-sectional image was measured, as was total xylem area. From these measurements, maximum vessel diameter and vessel fraction (vessel area/xylem area) were determined.
+  - var_in: Max Vessel_se
+    unit_in: um
+    trait_name: stem_vessel_diameter
+    entity_type: population
+    value_type: standard_error
+    basis_of_value: measurement
+    replicates: 3
+    methods: Stem sections from three specimens of each species were used to characterize anatomical traits. Stem cross and tangential sections were made for each sample using a sliding microtome at 20 um and 5 um thickness, respectively. All sections were wet mounted and digital images obtained using a Carl Zeiss Photomicroscope I (Oberkochen, Germany) combined with a PixeLink PL-A662 Camera Kit (Prague, Czech Republic). Photographic scale was calibrated using a standard ocular micrometer slide. All vessels in each image (∼100 vessels) were measured. The diameter and total area of every vessel in each cross-sectional image was measured, as was total xylem area. From these measurements, maximum vessel diameter and vessel fraction (vessel area/xylem area) were determined.
+  - var_in: Vessel fraction_mean
+    unit_in: mm2/mm2
+    trait_name: .na
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 3
+    methods: Stem sections from three specimens of each species were used to characterize anatomical traits. Stem cross and tangential sections were made for each sample using a sliding microtome at 20 um and 5 um thickness, respectively. All sections were wet mounted and digital images obtained using a Carl Zeiss Photomicroscope I (Oberkochen, Germany) combined with a PixeLink PL-A662 Camera Kit (Prague, Czech Republic). Photographic scale was calibrated using a standard ocular micrometer slide. All vessels in each image (∼100 vessels) were measured. The diameter and total area of every vessel in each cross-sectional image was measured, as was total xylem area. From these measurements, maximum vessel diameter and vessel fraction (vessel area/xylem area) were determined.
+  - var_in: Vessel fraction_se
+    unit_in: mm2/mm2
+    trait_name: .na
+    entity_type: population
+    value_type: standard_error
+    basis_of_value: measurement
+    replicates: 3
+    methods: Stem sections from three specimens of each species were used to characterize anatomical traits. Stem cross and tangential sections were made for each sample using a sliding microtome at 20 um and 5 um thickness, respectively. All sections were wet mounted and digital images obtained using a Carl Zeiss Photomicroscope I (Oberkochen, Germany) combined with a PixeLink PL-A662 Camera Kit (Prague, Czech Republic). Photographic scale was calibrated using a standard ocular micrometer slide. All vessels in each image (∼100 vessels) were measured. The diameter and total area of every vessel in each cross-sectional image was measured, as was total xylem area. From these measurements, maximum vessel diameter and vessel fraction (vessel area/xylem area) were determined.
+  - var_in: Density_mean
+    unit_in: g/cm3
+    trait_name: wood_density
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 3
+    methods: Wood density was calculated as the oven-dried mass of the wood sample divided by the green volume measured following removal of bark and pith
+  - var_in: Density_se
+    unit_in: g/cm3
+    trait_name: wood_density
+    entity_type: population
+    value_type: standard_error
+    basis_of_value: measurement
+    replicates: 3
+    methods: Wood density was calculated as the oven-dried mass of the wood sample divided by the green volume measured following removal of bark and pith
+  - var_in: (t/b)2_mean
+    unit_in: unknown
+    trait_name: .na
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 3
+    methods: The double wall thickness of adjacent conduits (t) was quantified from the tangential sections and the maximum conduit span (b) estimated; these two metrics allow for the calculation of conduit reinforcement as (t/b)2
+  - var_in: (t/b)2_se
+    unit_in: unknown
+    trait_name: .na
+    entity_type: population
+    value_type: standard_error
+    basis_of_value: measurement
+    replicates: 3
+    methods: The double wall thickness of adjacent conduits (t) was quantified from the tangential sections and the maximum conduit span (b) estimated; these two metrics allow for the calculation of conduit reinforcement as (t/b)2
+  - var_in: Hydraulic  mean_mean
+    unit_in: um
+    trait_name: stem_vessel_diameter_hydraulic
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 3
+    methods: Hydraulically weighted mean diameter was calculated as:image following 55.
+  - var_in: Hydraulic  mean_se
+    unit_in: um
+    trait_name: stem_vessel_diameter_hydraulic
+    entity_type: population
+    value_type: standard_error
+    basis_of_value: measurement
+    replicates: 3
+    methods: Hydraulically weighted mean diameter was calculated as:image following 55.
+  - var_in: Aarea_mean
+    unit_in: umol{CO2}/m2/s
+    trait_name: leaf_photosynthetic_rate_per_area_saturated
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 4
+    methods: Using a LI-6400 gas-exchange system (Licor, Lincoln, Nebraska, USA) we measured gas exchange on recent, fully expanded leaves of four individuals per species (and provenance where seeds of multiple provenances were collected). Measurements were made from 9 to 16 July 2006 before noon with cuvette conditions maintained at 370 ppm CO2 and 60–80% relative humidity (RH) and leaf temperatures between 25 and 30 C. Gas-exchange measurements were made at light levels of 0 and 1500 umol  m-2 s-1.
+  - var_in: Aarea_se
+    unit_in: umol{CO2}/m2/s
+    trait_name: leaf_photosynthetic_rate_per_area_saturated
+    entity_type: population
+    value_type: standard_error
+    basis_of_value: measurement
+    replicates: 4
+    methods: Using a LI-6400 gas-exchange system (Licor, Lincoln, Nebraska, USA) we measured gas exchange on recent, fully expanded leaves of four individuals per species (and provenance where seeds of multiple provenances were collected). Measurements were made from 9 to 16 July 2006 before noon with cuvette conditions maintained at 370 ppm CO2 and 60–80% relative humidity (RH) and leaf temperatures between 25 and 30 C. Gas-exchange measurements were made at light levels of 0 and 1500 umol  m-2 s-1.
+  - var_in: Rarea_mean
+    unit_in: umol{CO2}/m2/s
+    trait_name: leaf_dark_respiration_per_area
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 4
+    methods: Using a LI-6400 gas-exchange system (Licor, Lincoln, Nebraska, USA) we measured gas exchange on recent, fully expanded leaves of four individuals per species (and provenance where seeds of multiple provenances were collected). Measurements were made from 9 to 16 July 2006 before noon with cuvette conditions maintained at 370 ppm CO2 and 60–80% relative humidity (RH) and leaf temperatures between 25 and 30 C. Gas-exchange measurements were made at light levels of 0 and 1500 umol  m-2 s-1
+  - var_in: Rarea_se
+    unit_in: umol{CO2}/m2/s
+    trait_name: leaf_dark_respiration_per_area
+    entity_type: population
+    value_type: standard_error
+    basis_of_value: measurement
+    replicates: 4
+    methods: Using a LI-6400 gas-exchange system (Licor, Lincoln, Nebraska, USA) we measured gas exchange on recent, fully expanded leaves of four individuals per species (and provenance where seeds of multiple provenances were collected). Measurements were made from 9 to 16 July 2006 before noon with cuvette conditions maintained at 370 ppm CO2 and 60–80% relative humidity (RH) and leaf temperatures between 25 and 30 C. Gas-exchange measurements were made at light levels of 0 and 1500 umol  m-2 s-1
+  - var_in: gs_mean
+    unit_in: mol{H2O}/m2/s
+    trait_name: leaf_stomatal_conductance_per_area_at_Asat
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 4
+    methods: Using a LI-6400 gas-exchange system (Licor, Lincoln, Nebraska, USA) we measured gas exchange on recent, fully expanded leaves of four individuals per species (and provenance where seeds of multiple provenances were collected). Measurements were made from 9 to 16 July 2006 before noon with cuvette conditions maintained at 370 ppm CO2 and 60–80% relative humidity (RH) and leaf temperatures between 25 and 30 C. Gas-exchange measurements were made at light levels of 0 and 1500 umol m-2  s-1. Maximum stomatal conductance to water (gs) corresponding to Amax was used to characterize stomatal response across species and distribution.
+  - var_in: gs_se
+    unit_in: mol{H2O}/m2/s
+    trait_name: leaf_stomatal_conductance_per_area_at_Asat
+    entity_type: population
+    value_type: standard_error
+    basis_of_value: measurement
+    replicates: 4
+    methods: Using a LI-6400 gas-exchange system (Licor, Lincoln, Nebraska, USA) we measured gas exchange on recent, fully expanded leaves of four individuals per species (and provenance where seeds of multiple provenances were collected). Measurements were made from 9 to 16 July 2006 before noon with cuvette conditions maintained at 370 ppm CO2 and 60–80% relative humidity (RH) and leaf temperatures between 25 and 30 C. Gas-exchange measurements were made at light levels of 0 and 1500 umol m-2  s-1. Maximum stomatal conductance to water (gs) corresponding to Amax was used to characterize stomatal response across species and distribution.
+  - var_in: LMA_mean
+    unit_in: g/cm2
+    trait_name: leaf_mass_per_area
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 4
+    methods: Gas-exchange leaves were harvested, measured for fresh leaf area, dried at 60 C, and weighed for calculation of leaf mass per area (LMA).
+  - var_in: LMA_se
+    unit_in: g/cm2
+    trait_name: leaf_mass_per_area
+    entity_type: population
+    value_type: standard_error
+    basis_of_value: measurement
+    replicates: 4
+    methods: Gas-exchange leaves were harvested, measured for fresh leaf area, dried at 60 C, and weighed for calculation of leaf mass per area (LMA).
+substitutions: .na
+taxonomic_updates: .na
+exclude_observations: .na
+questions: .na

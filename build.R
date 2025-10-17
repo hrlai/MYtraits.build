@@ -13,6 +13,10 @@ unit_conversions <- get_unit_conversions("config/unit_conversions.csv")
 taxon_list <- read_csv_char("config/taxon_list.csv")
 
 # Build each source
+Baltzer_2009_config <- dataset_configure("data/Baltzer_2009/metadata.yml", definitions)
+Baltzer_2009_raw <- dataset_process("data/Baltzer_2009/data.csv", Baltzer_2009_config, schema, resource_metadata, unit_conversions)
+Baltzer_2009 <- dataset_update_taxonomy(Baltzer_2009_raw, taxon_list)
+
 Bartholomew_2022_config <- dataset_configure("data/Bartholomew_2022/metadata.yml", definitions)
 Bartholomew_2022_raw <- dataset_process("data/Bartholomew_2022/data.csv", Bartholomew_2022_config, schema, resource_metadata, unit_conversions)
 Bartholomew_2022 <- dataset_update_taxonomy(Bartholomew_2022_raw, taxon_list)
@@ -47,6 +51,7 @@ Wright_2024_2 <- dataset_update_taxonomy(Wright_2024_2_raw, taxon_list)
 
 
 MYtraits_raw <- austraits::bind_databases(
+  Baltzer_2009,
   Bartholomew_2022,
   Both_2019,
   Both_2019_2,
