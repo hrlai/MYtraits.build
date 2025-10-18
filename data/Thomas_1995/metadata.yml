@@ -1,0 +1,57 @@
+source:
+  primary:
+    key: Thomas_1995
+    bibtype: Article
+    year: '1995'
+    author: Sean C. Thomas and Kalan Ickes
+    journal: Biotropica
+    title: Ontogenetic Changes in Leaf Size in Malaysian Rain Forest Trees
+    volume: '27'
+    number: '4'
+    pages: '427'
+    doi: 10.2307/2388954
+    issn: 0006-3606
+contributors:
+  data_collectors:
+    - last_name: Thomas
+      given_name: Sean C.
+      ORCID: unknown
+      affiliation: Harvard University
+  assistants: S. K. Yap
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: no
+  custom_R_code: .na
+  collection_date: 1995/1995
+  taxon_name: species
+  location_name: unknown
+  description: The species investigated include a wide range of primary forest species, but focus on five genera that indude sympatric species ranging in stature from understory treelets to canopy trees---Aporusa (Euphorbiaceae), Baccaurea (Euphorbiaceae), Diospyros (Ebenaceae), Garcinia (Clusiaceae), and Ixora (Rubiaceae).
+  basis_of_record: field
+  life_stage: sapling
+  sampling_strategy: Leaf length and width were measured for 8 randomly sampled fully expanded leaves from each of 3 saplings and 3 adult trees for each species studied. Leaves were considered to be fully expanded if they had attained the color and texture characteristic of mature leaves of a given species (cf. Kursar & Coley 1992). To locate saplings of each species we selected undamaged individuals falling within the 1.0 cm diameter size class and less than 4 m in height, where possible. For some larger and uncommon tree species we included saplings up to 2.5 cm in diameter, and for the smallest-statured tree species we located smaller saplings (approx. 0.5 cm diameter and 1-2 m in height) in order that all individuals considered as saplings were below estimated reproductive size thresholds for the species in question. Measurements on adult trees generally made use of the largest individuals found within the 50 ha plot; we used trees above estimated reproductive size thresholds where such estimates were available (based on Thomas 1993). Some adult trees showed signs of previous damage, usually scars from broken limbs, but all were outwardly healthy. Individuals in gaps were avoided---all trees sampled were under shaded conditions with the exception of adult individuals of several large canopy species (Dipterocarpus cornutus, Shorea macroptera, Diospyros maingayi, and some individuals of Aporusa swamp sp nov, Garcinia nervosa and Lithocarpus wrayi). For saplings, eight leaves were randomly selected for measurement among the subset of undamaged fully expanded leaves on each individual. For adult trees, fallen leaves were collected from beneath the crown, and eight leaves were randomly chosen from those found. We avoided adult trees with dose conspecific neighbors, so that the source of fallen leaves was unambiguous. The species sampled all possess simple, entire leaves.
+  original_file: unknown
+  notes: Collection date was not stated in the original paper, HR Lai put it down as 1995, the published date.
+identifiers: .na
+locations: .na
+contexts: .na
+traits:
+  - var_in: area_sapling_mean
+    unit_in: cm2
+    trait_name: leaf_area
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: '3'
+    methods: A subset of leaves from each species was collected and dried flat at 50C to constant weight. For some of these leaves length and width measurements were made to the nearest mm before drying, to quantify leaf shrinkage. Similar measurements were subsequently made on dried leaf samples from all species in the main study genera, in conjunction with leaf area measurements using an electronic leaf area meter (LI-3100 Li-Cor Inc., Lincoln, Nebraska, U.S.A.).
+  - var_in: area_sapling_sd
+    unit_in: cm2
+    trait_name: leaf_area
+    entity_type: population
+    value_type: standard_deviation
+    basis_of_value: measurement
+    replicates: '3'
+    methods: A subset of leaves from each species was collected and dried flat at 50C to constant weight. For some of these leaves length and width measurements were made to the nearest mm before drying, to quantify leaf shrinkage. Similar measurements were subsequently made on dried leaf samples from all species in the main study genera, in conjunction with leaf area measurements using an electronic leaf area meter (LI-3100 Li-Cor Inc., Lincoln, Nebraska, U.S.A.).
+substitutions: .na
+taxonomic_updates: .na
+exclude_observations: .na
+questions: .na
