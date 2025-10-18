@@ -1,0 +1,205 @@
+species,trait_name,value
+Polyalthia glauca,area_sapling_mean,80.4
+Polyalthia glauca,area_sapling_sd,23.9
+Polyalthia glauca,area_adult_mean,58.0
+Polyalthia glauca,area_adult_sd,16.8
+Polyalthia laterifolia,area_sapling_mean,263.4
+Polyalthia laterifolia,area_sapling_sd,80.8
+Polyalthia laterifolia,area_adult_mean,129.5
+Polyalthia laterifolia,area_adult_sd,33.2
+Pseuduvaria macrophylla,area_sapling_mean,141.6
+Pseuduvaria macrophylla,area_sapling_sd,63.0
+Pseuduvaria macrophylla,area_adult_mean,100.7
+Pseuduvaria macrophylla,area_adult_sd,39.5
+"Garcinia ""small"" sp nov",area_sapling_mean,12.6
+"Garcinia ""small"" sp nov",area_sapling_sd,4.2
+"Garcinia ""small"" sp nov",area_adult_mean,11.4
+"Garcinia ""small"" sp nov",area_adult_sd,4.5
+Garcinia malaccensis,area_sapling_mean,81.8
+Garcinia malaccensis,area_sapling_sd,27.4
+Garcinia malaccensis,area_adult_mean,47.3
+Garcinia malaccensis,area_adult_sd,20.9
+Garcinia nervosa,area_sapling_mean,133.8
+Garcinia nervosa,area_sapling_sd,65.4
+Garcinia nervosa,area_adult_mean,486.9
+Garcinia nervosa,area_adult_sd,245.5
+"Garcinia ""dark"" sp nov",area_sapling_mean,27.0
+"Garcinia ""dark"" sp nov",area_sapling_sd,10.2
+"Garcinia ""dark"" sp nov",area_adult_mean,15.0
+"Garcinia ""dark"" sp nov",area_adult_sd,5.8
+Garcinia scortechinii,area_sapling_mean,78.6
+Garcinia scortechinii,area_sapling_sd,26.5
+Garcinia scortechinii,area_adult_mean,64.8
+Garcinia scortechinii,area_adult_sd,15.7
+Dipterocarpus cornutus,area_sapling_mean,456.3
+Dipterocarpus cornutus,area_sapling_sd,203.5
+Dipterocarpus cornutus,area_adult_mean,309.4
+Dipterocarpus cornutus,area_adult_sd,118.0
+Shorea macroptera,area_sapling_mean,89.3
+Shorea macroptera,area_sapling_sd,37.8
+Shorea macroptera,area_adult_mean,47.5
+Shorea macroptera,area_adult_sd,14.3
+Diospyros adenophora,area_sapling_mean,62.8
+Diospyros adenophora,area_sapling_sd,19.6
+Diospyros adenophora,area_adult_mean,76.1
+Diospyros adenophora,area_adult_sd,23.6
+Diospyros andamanica,area_sapling_mean,60.5
+Diospyros andamanica,area_sapling_sd,20.9
+Diospyros andamanica,area_adult_mean,103.6
+Diospyros andamanica,area_adult_sd,33.6
+Diospyros apiculata,area_sapling_mean,49.4
+Diospyros apiculata,area_sapling_sd,20.2
+Diospyros apiculata,area_adult_mean,68.3
+Diospyros apiculata,area_adult_sd,27.7
+Diospyros argentea,area_sapling_mean,87.9
+Diospyros argentea,area_sapling_sd,24.1
+Diospyros argentea,area_adult_mean,92.8
+Diospyros argentea,area_adult_sd,18.5
+"Diospyros ""brown-barked"" sp nov",area_sapling_mean,41.5
+"Diospyros ""brown-barked"" sp nov",area_sapling_sd,18.2
+"Diospyros ""brown-barked"" sp nov",area_adult_mean,47.5
+"Diospyros ""brown-barked"" sp nov",area_adult_sd,24.4
+Diospyros buxifolia,area_sapling_mean,1.8
+Diospyros buxifolia,area_sapling_sd,0.9
+Diospyros buxifolia,area_adult_mean,3.5
+Diospyros buxifolia,area_adult_sd,1.6
+Diospyros cauliflora,area_sapling_mean,225.3
+Diospyros cauliflora,area_sapling_sd,85.5
+Diospyros cauliflora,area_adult_mean,258.6
+Diospyros cauliflora,area_adult_sd,100.7
+Diospyros confertiflora,area_sapling_mean,8.9
+Diospyros confertiflora,area_sapling_sd,3.2
+Diospyros confertiflora,area_adult_mean,16.7
+Diospyros confertiflora,area_adult_sd,4.3
+Diospyros latisepala,area_sapling_mean,190.4
+Diospyros latisepala,area_sapling_sd,62.3
+Diospyros latisepala,area_adult_mean,112.9
+Diospyros latisepala,area_adult_sd,31.6
+Diospyros maingayi,area_sapling_mean,116.3
+Diospyros maingayi,area_sapling_sd,25.1
+Diospyros maingayi,area_adult_mean,43.1
+Diospyros maingayi,area_adult_sd,11.6
+Diospyros nutans,area_sapling_mean,40.8
+Diospyros nutans,area_sapling_sd,11.6
+Diospyros nutans,area_adult_mean,42.6
+Diospyros nutans,area_adult_sd,15.1
+Diospyros scortechinii,area_sapling_mean,38.6
+Diospyros scortechinii,area_sapling_sd,14.6
+Diospyros scortechinii,area_adult_mean,41.6
+Diospyros scortechinii,area_adult_sd,22.8
+Diospyros singaporensis,area_sapling_mean,8.7
+Diospyros singaporensis,area_sapling_sd,4.1
+Diospyros singaporensis,area_adult_mean,7.5
+Diospyros singaporensis,area_adult_sd,2.9
+Diospyros venosa,area_sapling_mean,55.5
+Diospyros venosa,area_sapling_sd,23.5
+Diospyros venosa,area_adult_mean,34.9
+Diospyros venosa,area_adult_sd,16.6
+Diospyros wallichii,area_sapling_mean,142.7
+Diospyros wallichii,area_sapling_sd,60.6
+Diospyros wallichii,area_adult_mean,148.3
+Diospyros wallichii,area_adult_sd,57.1
+Aporusa aurea,area_sapling_mean,93.8
+Aporusa aurea,area_sapling_sd,30.8
+Aporusa aurea,area_adult_mean,78.8
+Aporusa aurea,area_adult_sd,28.7
+Aporusa bracteosa,area_sapling_mean,44.1
+Aporusa bracteosa,area_sapling_sd,13.9
+Aporusa bracteosa,area_adult_mean,37.6
+Aporusa bracteosa,area_adult_sd,10.1
+Aporusa falcifera,area_sapling_mean,54.2
+Aporusa falcifera,area_sapling_sd,17.3
+Aporusa falcifera,area_adult_mean,51.7
+Aporusa falcifera,area_adult_sd,12.9
+Aporusa globifera,area_sapling_mean,49.3
+Aporusa globifera,area_sapling_sd,13.4
+Aporusa globifera,area_adult_mean,39.9
+Aporusa globifera,area_adult_sd,15.0
+Aporusa lunata,area_sapling_mean,176.9
+Aporusa lunata,area_sapling_sd,46.6
+Aporusa lunata,area_adult_mean,112.2
+Aporusa lunata,area_adult_sd,41.5
+Aporusa microstachya,area_sapling_mean,26.3
+Aporusa microstachya,area_sapling_sd,9.1
+Aporusa microstachya,area_adult_mean,23.1
+Aporusa microstachya,area_adult_sd,7.7
+Aporusa nigricans,area_sapling_mean,97.3
+Aporusa nigricans,area_sapling_sd,32.3
+Aporusa nigricans,area_adult_mean,96.6
+Aporusa nigricans,area_adult_sd,18.9
+Aporusa prainiana,area_sapling_mean,59.7
+Aporusa prainiana,area_sapling_sd,12.6
+Aporusa prainiana,area_adult_mean,50.0
+Aporusa prainiana,area_adult_sd,13.5
+"Aporusa ""sessile-flowered"" sp nov",area_sapling_mean,17.9
+"Aporusa ""sessile-flowered"" sp nov",area_sapling_sd,8.5
+"Aporusa ""sessile-flowered"" sp nov",area_adult_mean,16.8
+"Aporusa ""sessile-flowered"" sp nov",area_adult_sd,5.2
+"Aporusa ""swamp"" sp nov",area_sapling_mean,54.5
+"Aporusa ""swamp"" sp nov",area_sapling_sd,15.9
+"Aporusa ""swamp"" sp nov",area_adult_mean,51.6
+"Aporusa ""swamp"" sp nov",area_adult_sd,17.8
+Aporusa symplocoides,area_sapling_mean,18.8
+Aporusa symplocoides,area_sapling_sd,5.7
+Aporusa symplocoides,area_adult_mean,19.5
+Aporusa symplocoides,area_adult_sd,4.7
+Baccaurea parviflora,area_sapling_mean,28.9
+Baccaurea parviflora,area_sapling_sd,7.0
+Baccaurea parviflora,area_adult_mean,31.6
+Baccaurea parviflora,area_adult_sd,12.7
+Baccaurea racemosa,area_sapling_mean,56.4
+Baccaurea racemosa,area_sapling_sd,21.6
+Baccaurea racemosa,area_adult_mean,50.2
+Baccaurea racemosa,area_adult_sd,12.0
+Baccaurea reticulata,area_sapling_mean,74.5
+Baccaurea reticulata,area_sapling_sd,28.3
+Baccaurea reticulata,area_adult_mean,57.0
+Baccaurea reticulata,area_adult_sd,19.3
+Baccaurea sumatrana,area_sapling_mean,66.7
+Baccaurea sumatrana,area_sapling_sd,21.9
+Baccaurea sumatrana,area_adult_mean,28.6
+Baccaurea sumatrana,area_adult_sd,10.4
+Lithocarpus wrayi,area_sapling_mean,96.7
+Lithocarpus wrayi,area_sapling_sd,38.8
+Lithocarpus wrayi,area_adult_mean,99.3
+Lithocarpus wrayi,area_adult_sd,29.0
+Ixonanthes icosandra,area_sapling_mean,91.0
+Ixonanthes icosandra,area_sapling_sd,30.3
+Ixonanthes icosandra,area_adult_mean,56.6
+Ixonanthes icosandra,area_adult_sd,19.9
+Pternandra coerulescens,area_sapling_mean,59.6
+Pternandra coerulescens,area_sapling_sd,27.6
+Pternandra coerulescens,area_adult_mean,34.8
+Pternandra coerulescens,area_adult_sd,11.9
+Gymnacranthera forbesii,area_sapling_mean,80.0
+Gymnacranthera forbesii,area_sapling_sd,17.2
+Gymnacranthera forbesii,area_adult_mean,102.6
+Gymnacranthera forbesii,area_adult_sd,34.9
+Ixora concinna,area_sapling_mean,22.5
+Ixora concinna,area_sapling_sd,12.6
+Ixora concinna,area_adult_mean,18.4
+Ixora concinna,area_adult_sd,7.2
+Ixora congesta,area_sapling_mean,105.9
+Ixora congesta,area_sapling_sd,42.3
+Ixora congesta,area_adult_mean,133.8
+Ixora congesta,area_adult_sd,46.0
+Ixora grandifolia,area_sapling_mean,115.3
+Ixora grandifolia,area_sapling_sd,53.3
+Ixora grandifolia,area_adult_mean,104.5
+Ixora grandifolia,area_adult_sd,31.8
+Ixora kingstonii,area_sapling_mean,112.8
+Ixora kingstonii,area_sapling_sd,32.8
+Ixora kingstonii,area_adult_mean,96.7
+Ixora kingstonii,area_adult_sd,34.6
+"Ixora ""lanceolate-leaved"" sp nov",area_sapling_mean,70.0
+"Ixora ""lanceolate-leaved"" sp nov",area_sapling_sd,19.4
+"Ixora ""lanceolate-leaved"" sp nov",area_adult_mean,120.6
+"Ixora ""lanceolate-leaved"" sp nov",area_adult_sd,65.2
+Ixora lobbii,area_sapling_mean,35.3
+Ixora lobbii,area_sapling_sd,11.7
+Ixora lobbii,area_adult_mean,50.6
+Ixora lobbii,area_adult_sd,17.5
+Ixora pendula,area_sapling_mean,67.3
+Ixora pendula,area_sapling_sd,19.0
+Ixora pendula,area_adult_mean,107.7
+Ixora pendula,area_adult_sd,40.4
