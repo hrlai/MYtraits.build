@@ -1,0 +1,89 @@
+source:
+  primary:
+    key: Numata_2000
+    bibtype: Article
+    year: '2000'
+    author: Shinya Numata and Naoki Kachi and Toshinori Okuda and N. Manokaran
+    journal: Tropics
+    title: Leaf Dmage and Traits of Dipterocarp Seedings in a Lowland Rain Forest in Peninsular Malaysia.
+    volume: '9'
+    number: '4'
+    pages: 237–243
+    doi: 10.3759/tropics.9.237
+    issn: 1882-5729
+contributors:
+  data_collectors:
+    - last_name: Numata
+      given_name: Shinya
+      ORCID: 0000-0002-4673-0485
+      affiliation: Tokyo Metropolitan University
+  assistants: S. Ohara and Wang, L. and S. Ichikawa and M. Yasuda and N. asawa and N. Osada and K. Miyamoto and S. M. Wong
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: no
+  custom_R_code: .na
+  collection_date: 09-1996
+  taxon_name: species
+  location_name: unknown
+  description: We examined the relationships between leaf damage caused by insects and pathogens and three leaf traits (leaf toughness, total phenol contents, and nitrogen contents) of five dipterocarp species in a lowland rain forest in peninsular Malaysia. The measurements were made on all leaves of 9-month-old dipterocarp seedlings that emerged at mast fruiting in September 1996.
+  basis_of_record: field
+  life_stage: seedling
+  sampling_strategy: Ten seedlings of each species were sampled randomly in the forest near the 2-ha plot under canopy.
+  original_file: unknown
+  notes: HR Lai extracted data directly from Table 2 of the original paper.
+identifiers: .na
+locations: .na
+contexts: .na
+traits:
+  - var_in: toughness
+    unit_in: N/mm
+    trait_name: leaf_work_to_punch
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 20
+    methods: Leaf toughness was measured for fresh leaves by using a digital force gauge (FGC-O.5 Shimpo, Japan), which indicates the force (in newtons) necessary to punch a rod 0.5 mm in diameter through the leaf (Sands & Brancatini, 1991). Twenty leaves of each species were perforated three times, and the mean of the three measurements was used for statistical analyses
+  - var_in: toughness_sd
+    unit_in: N/mm
+    trait_name: leaf_work_to_punch
+    entity_type: population
+    value_type: standard_deviation
+    basis_of_value: measurement
+    replicates: 20
+    methods: Leaf toughness was measured for fresh leaves by using a digital force gauge (FGC-O.5 Shimpo, Japan), which indicates the force (in newtons) necessary to punch a rod 0.5 mm in diameter through the leaf (Sands & Brancatini, 1991). Twenty leaves of each species were perforated three times, and the mean of the three measurements was used for statistical analyses
+  - var_in: phenol
+    unit_in: mg/g
+    trait_name: leaf_phenol_per_dry_mass
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 3
+    methods: The sampled seedlings were dried at 80C for 3 days in an electric oven before leaf dry weight was measured. The dried leaves were powdered for measurements of the total phenol and nitrogen contents. The powdered samples from 9 - 12 leaves were mixed to a single lot to obtain appropriate amounts of samples for chemical analyses. Extraction and centrifugation were repeated four times, and all extracts were combined for each leaf sample. Total phenol contents in the extracts were measured by Folin-Denis assay (Waterman and Mole, 1994). Nitrogen and carbon contents were determined by using a C/N Analyzer (Sumigraph NC-90, Sumitomo Chemical Industries, Japan). These procedures were repeated three times
+  - var_in: phenol_sd
+    unit_in: mg/g
+    trait_name: leaf_phenol_per_dry_mass
+    entity_type: population
+    value_type: standard_deviation
+    basis_of_value: measurement
+    replicates: 3
+    methods: The sampled seedlings were dried at 80C for 3 days in an electric oven before leaf dry weight was measured. The dried leaves were powdered for measurements of the total phenol and nitrogen contents. The powdered samples from 9 - 12 leaves were mixed to a single lot to obtain appropriate amounts of samples for chemical analyses. Extraction and centrifugation were repeated four times, and all extracts were combined for each leaf sample. Total phenol contents in the extracts were measured by Folin-Denis assay (Waterman and Mole, 1994). Nitrogen and carbon contents were determined by using a C/N Analyzer (Sumigraph NC-90, Sumitomo Chemical Industries, Japan). These procedures were repeated three times
+  - var_in: nitrogen
+    unit_in: mg/g
+    trait_name: leaf_N_per_dry_mass
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 3
+    methods: The sampled seedlings were dried at 80C for 3 days in an electric oven before leaf dry weight was measured. The dried leaves were powdered for measurements of the total phenol and nitrogen contents. The powdered samples from 9 - 12 leaves were mixed to a single lot to obtain appropriate amounts of samples for chemical analyses. Extraction and centrifugation were repeated four times, and all extracts were combined for each leaf sample. Total phenol contents in the extracts were measured by Folin-Denis assay (Waterman and Mole, 1994). Nitrogen and carbon contents were determined by using a C/N Analyzer (Sumigraph NC-90, Sumitomo Chemical Industries, Japan). These procedures were repeated three times
+  - var_in: nitrogen_sd
+    unit_in: mg/g
+    trait_name: leaf_N_per_dry_mass
+    entity_type: population
+    value_type: standard_deviation
+    basis_of_value: measurement
+    replicates: 3
+    methods: The sampled seedlings were dried at 80C for 3 days in an electric oven before leaf dry weight was measured. The dried leaves were powdered for measurements of the total phenol and nitrogen contents. The powdered samples from 9 - 12 leaves were mixed to a single lot to obtain appropriate amounts of samples for chemical analyses. Extraction and centrifugation were repeated four times, and all extracts were combined for each leaf sample. Total phenol contents in the extracts were measured by Folin-Denis assay (Waterman and Mole, 1994). Nitrogen and carbon contents were determined by using a C/N Analyzer (Sumigraph NC-90, Sumitomo Chemical Industries, Japan). These procedures were repeated three times
+substitutions: .na
+taxonomic_updates: .na
+exclude_observations: .na
+questions: .na
