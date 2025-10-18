@@ -5,13 +5,12 @@ library(tidyverse)
 # then clean up
 dat <-
   read_csv("data/Thomas_1995/raw/data_llm_extract.csv") %>%
-  pivot_longer(cols = starts_with("area_"),
-               names_to = "trait_name") %>%
-  separate(value, c("mean", "sd"), sep = " ± ") %>%
-  pivot_longer(cols = c(mean, sd),
-               names_to = "value_type") %>%
-  mutate(trait_name = paste(trait_name, value_type, sep = "_"),
-         .keep = "unused")
+  separate(area_sapling, c("area_sapling_mean", "area_sapling_sd"), sep = " ± ") %>%
+  separate(area_adult, c("area_adult_mean", "area_adult_sd"), sep = " ± ")
 
 # save cleaned data
+# this will be used for sapling traits
 write_csv(dat, "data/Thomas_1995/data.csv")
+
+# save another copy to a sister directory for adult traits
+write_csv(dat, "data/Thomas_1995_2/data.csv")
