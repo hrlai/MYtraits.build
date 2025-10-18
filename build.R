@@ -41,6 +41,10 @@ Burslem_2022_2_config <- dataset_configure("data/Burslem_2022_2/metadata.yml", d
 Burslem_2022_2_raw <- dataset_process("data/Burslem_2022_2/data.csv", Burslem_2022_2_config, schema, resource_metadata, unit_conversions)
 Burslem_2022_2 <- dataset_update_taxonomy(Burslem_2022_2_raw, taxon_list)
 
+Iida_2011_config <- dataset_configure("data/Iida_2011/metadata.yml", definitions)
+Iida_2011_raw <- dataset_process("data/Iida_2011/data.csv", Iida_2011_config, schema, resource_metadata, unit_conversions)
+Iida_2011 <- dataset_update_taxonomy(Iida_2011_raw, taxon_list)
+
 Thomas_1995_config <- dataset_configure("data/Thomas_1995/metadata.yml", definitions)
 Thomas_1995_raw <- dataset_process("data/Thomas_1995/data.csv", Thomas_1995_config, schema, resource_metadata, unit_conversions)
 Thomas_1995 <- dataset_update_taxonomy(Thomas_1995_raw, taxon_list)
@@ -66,6 +70,7 @@ MYtraits_raw <- austraits::bind_databases(
   Both_2021,
   Burslem_2022,
   Burslem_2022_2,
+  Iida_2011,
   Thomas_1995,
   Thomas_1995_2,
   Wright_2024,
