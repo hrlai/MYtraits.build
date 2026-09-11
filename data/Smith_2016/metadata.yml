@@ -1,0 +1,104 @@
+source:
+  primary:
+    key: Smith_2016
+    bibtype: Article
+    year: "2016"
+    author:
+      James R. Smith and Robert Bagchi and Chris J. Kettle and Colin Maycock and
+      Eyen Khoo and Jaboury Ghazoul
+    journal: Biotropica
+    title: Predicting the terminal velocity of dipterocarp fruit
+    volume: "48"
+    number: "2"
+    pages: 154–158
+    doi: 10.1111/btp.12316
+    issn: 1744-7429
+contributors:
+  data_collectors:
+    - last_name: Smith
+      given_name: James R.
+      ORCID: unknown
+      affiliation: ETH Zurich
+      additional_role: contact
+    - last_name: Bagchi
+      given_name: Robert
+      ORCID: unknown
+      affiliation: University of Connecticut
+    - last_name: Kettle
+      given_name: Chris J.
+      ORCID: unknown
+      affiliation: ETH Zurich
+    - last_name: Maycock
+      given_name: Colin
+      ORCID: unknown
+      affiliation: Universiti Malaysia Sabah
+    - last_name: Khoo
+      given_name: Eyen
+      ORCID: unknown
+      affiliation: Sabah Forestry Department
+    - last_name: Ghazoul
+      given_name: Jaboury
+      ORCID: unknown
+      affiliation: ETH Zurich
+  assistants: M. J. O'Brien and R. B. Sebastian
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: no
+  custom_R_code: .na
+  collection_date: 07-2014/09-2014
+  taxon_name: species
+  location_name: unknown
+  description:
+    We measured the terminal velocity of helicopter-like fruit from the
+    Dipterocarpaceae family and present a model predicting the terminal
+    velocities for all dipterocarp species in the Malesiana region. A ballistic
+    model of seed dispersal using the observed terminal velocities predicted
+    dispersal distances of 17–77 m under normal atmospheric conditions. These
+    data are of applied use in parametizing models of species coexistence,
+    forest regeneration and habitat connectivity in Southeast Asian tropical
+    forests.
+  basis_of_record: field
+  life_stage: adult
+  sampling_strategy:
+    Dipterocarp fruit have between zero and five elongated sepals which act as
+    wings to disperse the fruit via gravity or gyration (Suzuki & Ashton 1996,
+    Smith et al. 2015). We collected mature fruit belonging to 16 dipterocarp
+    species from five genera (one Dipterocarpus, one Dryobalanops, three Hopea,
+    two Parashorea, and nine Shorea) (Table 1) found in the Sepilok Forest
+    Reserve (SFR)(5°51′ N 117°56′ E) or the Danum Valley Conservation Area
+    (DVCA), Sabah, Malaysian Borneo. SFR is a 4420 ha fragment of primarily
+    tropical lowland dipterocarp forest, ranging in altitude 0–170 m asl (Fox
+    1973). DVCA is a 438 km2 area of uninhabited primary lowland dipterocarp
+    forest (Marsh & Greer 1992). Fruit were collected from the ground during the
+    2014 community-wide mast fruiting event occurring between July and
+    September.
+  original_file: unknown
+  notes:
+    The paper also predicted fruit traits but I did not include them because the
+    field-measured traits are the focus of this study. The predicted traits are
+    based on Flora Malesiana, which we will digitise one day, so I want to avoid
+    duplication pre-emptively now.
+identifiers: .na
+locations: .na
+contexts: .na
+traits:
+  - var_in: fruit_mass_mean
+    unit_in: g
+    trait_name: fruit_dry_mass
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: See the 'n' column
+    methods: The fruit fresh mass were measured for each fruit.
+  - var_in: fruit_mass_se
+    unit_in: g
+    trait_name: fruit_dry_mass
+    entity_type: population
+    value_type: standard_error
+    basis_of_value: measurement
+    replicates: See the 'n' column
+    methods: The fruit fresh mass were measured for each fruit.
+substitutions: .na
+taxonomic_updates: .na
+exclude_observations: .na
+questions: .na
