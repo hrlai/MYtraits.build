@@ -2,7 +2,7 @@ library(ellmer)
 
 
 # Upload journal article (a PDF) to Google
-# This PDF is not gitignored to avoid copyright issue
+# This PDF is gitignored to avoid copyright issue
 # Please download it from the DOI stated in the metadata
 file <- google_upload(
   "data/Thomas_1995/raw/Thomas-OntogeneticChangesLeaf-1995.pdf"

@@ -1,0 +1,102 @@
+source:
+  primary:
+    key: Sterck_2001
+    bibtype: Article
+    year: "2001"
+    author: Frank J. Sterck and Frans Bongers and David M. Newbery
+    journal: Plant Ecology
+    title:
+      "Tree architecture in a Bornean lowland rain forest: intraspecific and
+      interspecific patterns"
+    volume: "153"
+    number: 1-2
+    pages: 279–292
+    doi: 10.1023/a:1017507723365
+    issn: 1573-5052
+contributors:
+  data_collectors:
+    - last_name: Sterck
+      given_name: Frank J.
+      ORCID: unknown
+      affiliation: Wageningen University
+    - last_name: Bongers
+      given_name: Frans
+      ORCID: unknown
+      affiliation: Wageningen University
+    - last_name: Newbery
+      given_name: David
+      ORCID: unknown
+      affiliation: Bern University
+  assistants: Reinier Hille Ris Lambers and Donald Kennedy and Hubert Petol
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: no
+  custom_R_code: .na
+  collection_date: 10-1996/10-1996
+  taxon_name: species
+  location_name: unknown
+  description:
+    Life-history traits for the eight study species using data of populations of
+    each species from two 4-ha plots of a tropical rain forest, Danum Valley
+    Field Centre, Sabah, Malaysia (Newbery et al. 1999). Maximum sizes were
+    derived for the populations, and growth rates (dbh increments between 1986
+    and 1996) for all trees with a dbh between 3.1 and 19.0 cm. These dbh limits
+    correspond with the height limit of 5-19 m (see method section). n is given
+    for trees <=19 m
+  basis_of_record: field
+  life_stage: adult
+  sampling_strategy:
+    Tree architectural characters were studied for eight co-existing species of
+    a Bornean lowland rain forest near to the Danum Valley Field Centre,
+    Sabah,Malaysia (4deg 58' N, 117deg 48' E, Marsh & Greer 1992). This site is
+    characterized by humid warm climate with temperatures between 18 (morning)
+    and 35 degC (after-noon), and with average annual rainfall of 2669 mm in
+    1985–1998 (Walsh & Newbery 1999). The forest was classified as a Parashorea
+    malaanonan type following Fox (1972). Two 4-ha plots were used for this
+    study. Both plots were inventoried in 1985–1986, and again in 1995–1996, and
+    ca. 18.000 trees ≥ 10 cm girth at breast height (dbh ≥ 3.1 cm) were tagged,
+    measured, sampled, and identified to species. The plots have been described
+    for their structure, composition (Newbery et al. 1992), associated
+    topography and soils (Newbery et al. 1996), and for their dynamics 1986-1996
+    (Newbery et al. 1999). The canopy dominants in the two plots reach 60 m in
+    height (Table 1), and the canopy surface is open and rough although ground
+    level gaps are very scarce (Newbery et al. 1992). The eight species studied
+    belong to two families, and differ in adult stature, maximum growth rates,
+    population mortality rate, and type of branch architecture (Table 1). The
+    short adult stature species belong to the Euphorbiaceae, and the tall ones
+    to the Dipterocarpaceae. These two plant families dominate, and are strongly
+    representative of, the understorey and overstorey of the Danum Valley forest
+    respectively (Newbery et al. 1992, 1996).
+  original_file: unknown
+  notes:
+    Derived data from Table 1 cited Newbery et al. 1999, but the cited paper
+    does not contain raw data.
+identifiers: .na
+locations: .na
+contexts: .na
+traits:
+  - var_in: height
+    unit_in: m
+    trait_name: plant_height
+    entity_type: population
+    value_type: maximum
+    basis_of_value: measurement
+    replicates: See column 'n'
+    methods:
+      Tree height and the height of the lowest crown leaf were measured with a
+      telescopic measuring pole (for trees ≤ 16 m) or range finder (for trees
+      taller than 16 m).
+  - var_in: dbh
+    unit_in: cm
+    trait_name: plant_diameter_breast_height
+    entity_type: population
+    value_type: maximum
+    basis_of_value: measurement
+    replicates: See column 'n'
+    methods:
+      Trees ≥ 10 cm girth at breast height (dbh ≥ 3.1 cm) were tagged, measured,
+      sampled, and identified to species
+substitutions: .na
+taxonomic_updates: .na
+exclude_observations: .na
+questions: .na
