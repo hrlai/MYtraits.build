@@ -1,0 +1,284 @@
+source:
+  primary:
+    key: Inagawa_2023
+    bibtype: Article
+    year: "2023"
+    author:
+      Takeshi Inagawa and Terhi Riutta and Noreen Majalap-Lee and Reuben Nilus
+      and James Josue and Yadvinder Malhi
+    journal: Biotropica
+    title:
+      Radial and vertical variation of wood nutrients in Bornean tropical forest
+      trees
+    volume: "55"
+    number: "5"
+    pages: 1019–1032
+    doi: 10.1111/btp.13250
+    issn: 1744-7429
+  secondary:
+    key: Inagawa_2023_2
+    bibtype: Misc
+    year: "2023"
+    author:
+      Takeshi Inagawa and Terhi Riutta and Yadvinder Malhi and Noreen Majalap
+      and Reuben Nilus and James Josue
+    title:
+      Nutrients and wood density in coarse root, trunk and branches in Bornean
+      tree species
+    doi: 10.5281/ZENODO.8158811
+    publisher: Zenodo
+    keywords:
+      wood traits, bark, sapwood, heartwood, coarse root, branch, carbon,
+      nitrogen, phosphorus, potassium, calcium, magnesium, wood specific
+      gravity, nutrient cycling, wood resorption, wood density
+    copyright: Creative Commons Attribution 4.0 International
+contributors:
+  data_collectors:
+    - last_name: Inagawa
+      given_name: Takeshi
+      ORCID: 0000-0001-8446-0423
+      affiliation: University of Oxford
+    - last_name: Riutta
+      given_name: Terhi
+      ORCID: 0000-0001-8446-0423
+      affiliation: University of Oxford, Imperial College London
+    - last_name: Malhi
+      given_name: Yadvinder
+      ORCID: unknown
+      affiliation: University of Oxford
+    - last_name: Majalap
+      given_name: Noreen
+      ORCID: unknown
+      affiliation: Sabah Forest Research Centre
+    - last_name: Nilus
+      given_name: Reuben
+      ORCID: unknown
+      affiliation: Sabah Forest Research Centre
+    - last_name: Josue
+      given_name: James
+      ORCID: unknown
+      affiliation: Sabah Forest Research Centre
+  assistants: unknown
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: no
+  custom_R_code: .na
+  collection_date: 01-08-2014/30-11-2015
+  taxon_name: Species
+  location_name: location
+  individual_id: TreeNumber
+  description:
+    Carbon (C), nitrogen (N), phosphorus (P), potassium (K), calcium (Ca), and
+    magnesium (Mg) concentrations in woody tissue and bark, and wood density,
+    were quantified for ten common Bornean tree species. The study took
+    advantage of the ongoing logging in August 2014, sampling trees felled in
+    the logging sites (near D Matrix, exact locations of the sampled trees not
+    recorded).
+  basis_of_record: field
+  life_stage: adult
+  sampling_strategy:
+    Each tree species had three replicates. The diameter of the sampled trees
+    ranged from 12 cm to 44 cm. Sampled trees had no visible damage (e.g. no
+    insect damage, chlorotic leaves and bent stems). The species IDs of the
+    sampled trees were confirmed at the herbarium of the Forest Research Centre
+    in Sepilok, Sandakan. Several points along the length of the tree were
+    sampled coarse root; trunk bottom, trunk middle and trunk top (highest point
+    of the main stem); and the lowest branch of the tree, from branch bottom,
+    branch middle and branch tip. The sampled components were cut directly after
+    felling using a chainsaw. The samples were then transported to the chemistry
+    laboratory of the Forest Research Centre in Sepilok, Sandakan.Bark (both the
+    outer bark and phloem) was separated from the wood, except for the trunk top
+    and branch tip samples, where the bark layer was too thin. Wood samples were
+    divided into sapwood and heartwood if possible, based on a distinguishable
+    colour difference after mechanical sanding. Sapwood and heartwood for most
+    branch and coarse root samples were not separated due to the absence of
+    colour boundary, but they probably consists mostly of sapwood.For chemical
+    analyses, all samples were oven dried at 50°C to constant weight for five
+    days and ground with a Thomas Wiley Mill to pass through a 100-mush (212-µm)
+    sieve. Each sample was digested following the sulphuric acid-hydrogen
+    peroxide-lithium sulphate digest procedure for vegetation described in Allen
+    (1989). Phosphorus in the digest was determined using the molybdenum-blue
+    method described in Anderson and Ingram (1993) and read at 880 nm on a
+    spectrophotometer (HITACHI UV-VIS, Tokyo, Japan), while K, Ca and Mg
+    contents were measured on an atomic absorption spectrophotometer (GBC
+    Scientific Equipment, Victoria, Australia). Total C and N contents (as total
+    element contents) were determined by a dry combustion method at 900°C using
+    an Elementar Vario Max CN analyzer (Elementar Analysensysteme, Hanau,
+    Germany). Analysis protocols are described in more detail in Majalap and Chu
+    (1992).Wood density was quantified for trunk bottom and trunk middle
+    samples. A strip, running through the wood disk slightly off centre,
+    proportionally covering both sapwood and heartwood, was cut, and three
+    (minimum of two, maximum of five, depending on the lenght of the strip)
+    cubes (tangent 20 mm x axial 20 mm x radial 20 mm length, exact dimensions
+    recorded) were cut for wood density measurements, following the procedure
+    ISO 3131:1975 (E) Wood -- Determination of Density for Physical and
+    Mechanical Tests. Wood density was defined as the oven-dry mass per unit
+    volume of fresh wood cube. Dry mass was measured after oven drying the
+    samples at 103±2°C until the dry mass was stabilised.
+  original_file: unknown
+  notes:
+    There is another wood + bark nutrient column, but I used the wood column for
+    wood nutrient traits.
+identifiers: .na
+locations:
+  LoggingSite_NearDmatrix_August2014:
+    latitude (deg): 4.183
+    longitude (deg): 114.022
+contexts: .na
+traits:
+  - var_in: K_total_Bark
+    unit_in: mg/g
+    trait_name: bark_K_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates:
+      Unequal number of sampling points were taken along the length of the tree
+      of each species.
+    methods:
+      Atomic absorption spectrophotometer (GBC Scientific Equipment, Victoria,
+      Australia)
+  - var_in: K_total_Wood
+    unit_in: mg/g
+    trait_name: wood_K_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates:
+      Unequal number of sampling points were taken along the length of the tree
+      of each species.
+    methods: unknown
+  - var_in: Ca_total_Bark
+    unit_in: mg/g
+    trait_name: bark_Ca_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates:
+      Unequal number of sampling points were taken along the length of the tree
+      of each species.
+    methods:
+      Atomic absorption spectrophotometer (GBC Scientific Equipment, Victoria,
+      Australia)
+  - var_in: Ca_total_Wood
+    unit_in: mg/g
+    trait_name: wood_Ca_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates:
+      Unequal number of sampling points were taken along the length of the tree
+      of each species.
+    methods:
+      Atomic absorption spectrophotometer (GBC Scientific Equipment, Victoria,
+      Australia)
+  - var_in: Mg_total_Bark
+    unit_in: mg/g
+    trait_name: bark_Mg_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates:
+      Unequal number of sampling points were taken along the length of the tree
+      of each species.
+    methods:
+      Atomic absorption spectrophotometer (GBC Scientific Equipment, Victoria,
+      Australia)
+  - var_in: Mg_total_Wood
+    unit_in: mg/g
+    trait_name: wood_Mg_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates:
+      Unequal number of sampling points were taken along the length of the tree
+      of each species.
+    methods:
+      Atomic absorption spectrophotometer (GBC Scientific Equipment, Victoria,
+      Australia)
+  - var_in: P_total_Bark
+    unit_in: mg/g
+    trait_name: bark_P_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates:
+      Unequal number of sampling points were taken along the length of the tree
+      of each species.
+    methods:
+      Molybdenum-blue method described in Anderson and Ingram (1993) and read at
+      880 nm on a spectrophotometer (HITACHI UV-VIS, Tokyo, Japan)
+  - var_in: P_total_Wood
+    unit_in: mg/g
+    trait_name: wood_P_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates:
+      Unequal number of sampling points were taken along the length of the tree
+      of each species.
+    methods:
+      Molybdenum-blue method described in Anderson and Ingram (1993) and read at
+      880 nm on a spectrophotometer (HITACHI UV-VIS, Tokyo, Japan)
+  - var_in: N_total_Bark
+    unit_in: "%"
+    trait_name: bark_N_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates:
+      Unequal number of sampling points were taken along the length of the tree
+      of each species.
+    methods:
+      Dry combustion method at 900°C using an Elementar Vario Max CN analyzer
+      (Elementar Analysensysteme, Hanau, Germany)
+  - var_in: N_total_Wood
+    unit_in: "%"
+    trait_name: wood_N_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates:
+      Unequal number of sampling points were taken along the length of the tree
+      of each species.
+    methods:
+      Dry combustion method at 900°C using an Elementar Vario Max CN analyzer
+      (Elementar Analysensysteme, Hanau, Germany)
+  - var_in: C_total_Bark
+    unit_in: "%"
+    trait_name: bark_C_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates:
+      Unequal number of sampling points were taken along the length of the tree
+      of each species.
+    methods:
+      Dry combustion method at 900°C using an Elementar Vario Max CN analyzer
+      (Elementar Analysensysteme, Hanau, Germany)
+  - var_in: C_total_Wood
+    unit_in: "%"
+    trait_name: wood_C_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates:
+      Unequal number of sampling points were taken along the length of the tree
+      of each species.
+    methods:
+      Dry combustion method at 900°C using an Elementar Vario Max CN analyzer
+      (Elementar Analysensysteme, Hanau, Germany)
+  - var_in: WoodDensity
+    unit_in: g/cm3
+    trait_name: wood_density
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 3
+    methods:
+      ISO 3131:1975 (E) Wood - Determination of Density for Physical and
+      Mechanical Tests. Dry mass divided by fresh volume.
+substitutions: .na
+taxonomic_updates: .na
+exclude_observations: .na
+questions: .na
