@@ -1,0 +1,249 @@
+source:
+  primary:
+    key: Carle_2025
+    bibtype: Article
+    year: "2026"
+    author:
+      Hannah J. Carle and Timothée Bonnett and Adrienne B. Nicotra and Elia
+      Godoong and Andrew Hector and Patrick Meir and Michael J. O'brien
+    journal: Functional Ecology
+    title:
+      Trait variation driven by tree size more than environment and shows
+      limited translation to species vital rates
+    doi: 10.1111/1365-2435.70427
+    issn: 1365-2435
+  secondary:
+    key: Carle_2025_2
+    bibtype: Misc
+    year: "2025"
+    author: Hannah Carle and Elia Godoong and Patrick Meir and Michael O'brien
+    title:
+      Traits from reciprocal transplanted seedlings of 6 species of
+      Dipterocarpaceae
+    doi: 10.5281/ZENODO.17189187
+    publisher: Zenodo
+    keywords:
+      dipterocarp, functional trait, hierarchical models, intraspecific
+      variation, ontogeny
+    copyright: Creative Commons Attribution 4.0 International
+contributors:
+  data_collectors:
+    - last_name: Carle
+      given_name: Hannah
+      ORCID: 0000-0003-2893-6081
+      affiliation: Western Sydney University
+    - last_name: Godoong
+      given_name: Elia
+      ORCID: 0000-0002-2446-8199
+      affiliation: Universiti Malaysia Sabah
+    - last_name: Meir
+      given_name: Patrick
+      ORCID: 0000-0002-2362-0398
+      affiliation: The Australian National University
+    - last_name: O'Brien
+      given_name: Michael
+      ORCID: 0000-0003-0943-8423
+      affiliation: Southeast Asia Rainforest Research Partnership (SEARPP)
+  assistants: Malua Field Station field research assistants
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: 1-1-2020/1-6-2020
+  taxon_name: species
+  trait_name: trait
+  value: value
+  location_name: site
+  individual_id: tag_no
+  description:
+    The dataset consists of plant seedling functional traits and environmental
+    covariates collected from 36 plots established in the Malua forest near the
+    Sabah Biodiversity Experiment (SBE) study site. Physiological traits were
+    only collected at 12 plots. Growth data was collected between 2016-2020
+    where censuses were conducted every 6 months. Physiological and
+    morphological trait data were collected between January and June of 2020.
+  basis_of_record: field
+  life_stage: seedling
+  sampling_strategy:
+    In early 2020, roughly 5 years after trees were originally planted, we
+    sampled all trees in the high- and low-density treatments for a suite of
+    traits that would indicate tree responses to light, water availability and
+    topography.
+  original_file: unknown
+  notes: unknown
+identifiers: .na
+locations:
+  atas:
+    latitude (deg): 5.089376
+    longitude (deg): 117.641776
+  bawah:
+    latitude (deg): 5.089376
+    longitude (deg): 117.641776
+  sungai:
+    latitude (deg): 5.089376
+    longitude (deg): 117.641776
+contexts: .na
+traits:
+  - var_in: chl_mean
+    unit_in: mg/m2
+    trait_name: leaf_chlorophyll_per_area
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Chlorophyll measurements were then taken using a CCM-300 chlorophyll
+      fluorescence meter (OptiSciences), on the opposing side of the midvein to
+      the leaf core. We checked the reliability of individual chlorophyll
+      estimates from the CCM-300 meter by measuring leaf nitrogen content to
+      high precision using mass spectroscopy for a subset of 96 trees. This
+      produced the expected tight, linear relationship between chlorophyll
+      estimates and leaf nitrogen, confirming the accuracy of the CCM-300 for
+      these species.
+  - var_in: d13c
+    unit_in: "%"
+    trait_name: leaf_delta13C
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 4
+    methods:
+      For carbon isotope analysis, a single leaf disk (7 mm) was sampled from
+      the mid-laminar of four fully expanded, non-senescent leaves in the upper
+      canopy of each focal tree. Samples were pooled at tree-level, dried on
+      silicon for three months, ground and homogenised. Isotopic analysis was
+      conducted using a continuous flow stable isotope ratio mass spectrometer
+      (CR-RRMS, Isoprime, England) and samples were calibrated for 13C against
+      standards of C3 Beet sucrose and C4 cane sucrose, and against Glyceine and
+      Cysteine standards for nitrogen content (Farqhar lab, Australian National
+      University). delta13C of the plant material (delta13Cplant) was calculated
+      from ratios of heavy to light carbon isotopes relative to Vienna PDB.
+  - var_in: wuei
+    unit_in: umol{CO2}/mol{H2O}
+    trait_name: leaf_water_use_efficiency_intrinsic
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 4
+    methods:
+      Calculated intrinsic water-use efficiency (WUEi) from d13C, adjusting for
+      decoupling of subcanopy air from the troposphere and an assumed gradient
+      in d13air with height above the forest floor.
+  - var_in: nest
+    unit_in: "%"
+    trait_name: leaf_N_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Leaf nitrogen content for all trees was estimated to from the mass
+      spectroscopy CCM-300 chlorophyll fluorescence meter (OptiSciences) N
+      amplitudes (uncorrected using standards) and estimates were found to fall
+      within error of the high precision measurements.
+  - var_in: osmpot
+    unit_in: MPa
+    trait_name: osmotic_potential
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 1
+    methods:
+      For osmotic potential measurements, two leaves were cut from each tree at
+      the petiole base while submerged underwater. The petiole was placed in a
+      water-filled test tube and we sealed the gap between the top of the tube
+      and the petiole using parafilm. Test tubes were kept upright in a humid
+      container and shaded to still photosynthesis, allowing rehydration of the
+      leaves for a minimum of 24 h. Leaf rehydration was tested with a pressure
+      bomb for one leaf from each pair and leaves with water potentials less
+      than -0.5 MPa were excluded from the analysis. We then took a laminar core
+      from the second leaf, placed this in an Eppendorf and froze it on dry ice
+      for at least 10 min. Samples were then equilibrated back to ambient
+      temperature, pierced 20-30 times, and placed in the chamber of a PSY1 Stem
+      Psychrometer (ICT International). Each sample was equilibrated in chamber
+      for at least 20 min. We then took replicate measurements at 10-15 min
+      intervals until consecutive measures differed by less than 0.1 MPa.
+  - var_in: slamean
+    unit_in: cm2/g
+    trait_name: leaf_mass_per_area
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 2
+    methods:
+      Specific leaf area (SLA) were calculated from photographs using ImageJ and
+      measurements of leaf dry mass (g).
+  - var_in: amean
+    unit_in: cm2
+    trait_name: leaf_area
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 2
+    methods: Calculated from photographs using ImageJ.
+  - var_in: wd
+    unit_in: g/cm3
+    trait_name: wood_density
+    entity_type: individual
+    value_type: raw
+    basis_of_value: measurement
+    replicates: 1
+    methods:
+      Wood density was measured for a 10 cm section of basal stem using the
+      water displacement method. Trees excavated for wood density and biomass
+      measurements were carefully removed from the soil to retain the majority
+      of the root system. To isolate leaf, stem and root tissues, leaves were
+      plucked from the stem and roots were cut from the stem at the collar.
+  - var_in: root_shoot_ratio
+    unit_in: g/g
+    trait_name: root_shoot_ratio
+    entity_type: individual
+    value_type: raw
+    basis_of_value: measurement
+    replicates: 1
+    methods:
+      Trees excavated for wood density and biomass measurements were carefully
+      removed from the soil to retain the majority of the root system. To
+      isolate leaf, stem and root tissues, leaves were plucked from the stem and
+      roots were cut from the stem at the collar.
+  - var_in: leaf_mass_to_stem_mass_ratio
+    unit_in: g/g
+    trait_name: leaf_mass_to_stem_mass_ratio
+    entity_type: individual
+    value_type: raw
+    basis_of_value: measurement
+    replicates: 1
+    methods:
+      Trees excavated for wood density and biomass measurements were carefully
+      removed from the soil to retain the majority of the root system. To
+      isolate leaf, stem and root tissues, leaves were plucked from the stem and
+      roots were cut from the stem at the collar.
+  - var_in: stem_mass_to_shoot_mass_ratio
+    unit_in: g/g
+    trait_name: stem_mass_to_shoot_mass_ratio
+    entity_type: individual
+    value_type: raw
+    basis_of_value: measurement
+    replicates: 1
+    methods:
+      Trees excavated for wood density and biomass measurements were carefully
+      removed from the soil to retain the majority of the root system. To
+      isolate leaf, stem and root tissues, leaves were plucked from the stem and
+      roots were cut from the stem at the collar.
+  - var_in: rmf
+    unit_in: g/g
+    trait_name: root_mass_fraction
+    entity_type: individual
+    value_type: raw
+    basis_of_value: measurement
+    replicates: 1
+    methods:
+      Calculated root mass fraction (RMF) as root dry mass divided by total
+      plant dry mass. Trees excavated for wood density and biomass measurements
+      were carefully removed from the soil to retain the majority of the root
+      system. To isolate leaf, stem and root tissues, leaves were plucked from
+      the stem and roots were cut from the stem at the collar.
+substitutions: .na
+taxonomic_updates: .na
+exclude_observations: .na
+questions: .na

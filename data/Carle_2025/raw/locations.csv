@@ -1,0 +1,4 @@
+location,New,latitude (deg),longitude (deg),Type,WKT
+sungai,Yes,5.089376,117.641776,POINT,NA
+atas,Yes,5.089376,117.641776,POINT,NA
+bawah,Yes,5.089376,117.641776,POINT,NA
