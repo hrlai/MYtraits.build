@@ -2,10 +2,11 @@ source:
   primary:
     key: Wright_2024
     bibtype: Misc
-    year: '2024'
+    year: "2024"
     author: Joseph S. Wright and Tze Leong Yao
-    title: Plant functional traits of the 100 most abundant species in the Pasoh forest
-      reserve 50-ha forest dynamics plot, Malaysia
+    title:
+      Plant functional traits of the 100 most abundant species in the Pasoh
+      forest reserve 50-ha forest dynamics plot, Malaysia
     doi: 10.5061/DRYAD.Q2BVQ83V7
     publisher: Dryad
     language: en
@@ -13,27 +14,30 @@ source:
   secondary:
     key: Kambach_2025
     bibtype: Article
-    year: '2025'
-    author: Stephan Kambach and Helge Bruelheide and Liza S. Comita and Richard Condit
-      and S. Joseph Wright and Salomón Aguilar and Chia-Hao Chang-Yang and Yu-Yun
-      Chen and Nancy C. Garwood and Stephen P. Hubbell and Pei-Jen Luo and Margaret
-      R. Metz and Musalmah Bt. Nasardin and Rolando Pérez and Simon A. Queenborough
-      and I-Fang Sun and Nathan G. Swenson and Jill Thompson and María Uriarte and
-      Renato Valencia and Tze Leong Yao and Jess K. Zimmerman and Nadja Rüger
+    year: "2025"
+    author:
+      Stephan Kambach and Helge Bruelheide and Liza S. Comita and Richard Condit
+      and S. Joseph Wright and Salomón Aguilar and Chia-Hao Chang-Yang and
+      Yu-Yun Chen and Nancy C. Garwood and Stephen P. Hubbell and Pei-Jen Luo
+      and Margaret R. Metz and Musalmah Bt. Nasardin and Rolando Pérez and Simon
+      A. Queenborough and I-Fang Sun and Nathan G. Swenson and Jill Thompson and
+      María Uriarte and Renato Valencia and Tze Leong Yao and Jess K. Zimmerman
+      and Nadja Rüger
     journal: Ecology
-    title: 'Putting seedlings on the map: Trade-offs in demographic rates between
-      ontogenetic size classes in five tropical forests'
-    volume: '106'
-    number: '1'
+    title:
+      "Putting seedlings on the map: Trade-offs in demographic rates between
+      ontogenetic size classes in five tropical forests"
+    volume: "106"
+    number: "1"
     doi: 10.1002/ecy.4527
     issn: 1939-9170
 contributors:
   data_collectors:
-  - last_name: Wright
-    given_name: S. Joseph
-    ORCID: 0000-0003-4260-5676
-    affiliation: Smithsonian Tropical Research Institute
-    additional_role: contact
+    - last_name: Wright
+      given_name: S. Joseph
+      ORCID: 0000-0003-4260-5676
+      affiliation: Smithsonian Tropical Research Institute
+      additional_role: contact
   assistants: Tze Leong Yao and Ranger Shari and Mr. Abu
   dataset_curators: Hao Ran Lai
 dataset:
@@ -44,118 +48,131 @@ dataset:
   trait_name: trait_name
   value: trait_value
   location_name: unknown
-  description: We determined crown traits, leaf traits, and wood density in for tree
-    species from the 50-ha Forest Dynamics Plot in the Pasoh Forest Reserve. The Pasoh
-    Forest Reserve is administered by the Forestry Research Institute Malaysia (FRIM)
-    and is located near the village of Sempang Pertang in Negeri Sembilan state in
-    Peninsular Malaysia (2.92N, 102.31E). Elevation ranges from 70 to 90 m above sea
-    level across the 50-ha plot. Temperatures average 26.3C, annual rainfall averages
-    1,896 mm, and minimum mean monthly rainfall is 96 mm in January. The reserve supports
-    species-rich, dipterocarp forest, and 862 tree species have been recorded in the
-    50-ha plot (https://forestgeo.si.edu/sites/asia/pasoh). The 50-ha plot was first
-    censused between 1986 and 1988 and was recensused in 1990/91 and approximately
-    every fifth year thereafter. At each census every free-standing tree is permanently
-    tagged, measured for diameter at breast height (DBH), identified to species, and
-    mapped to the nearest 0.5 m following protocols described by Condit (1998). Manokaran
-    et al. (1992) describe the first census in detail.
+  description:
+    We determined crown traits, leaf traits, and wood density in for tree
+    species from the 50-ha Forest Dynamics Plot in the Pasoh Forest Reserve. The
+    Pasoh Forest Reserve is administered by the Forestry Research Institute
+    Malaysia (FRIM) and is located near the village of Sempang Pertang in Negeri
+    Sembilan state in Peninsular Malaysia (2.92N, 102.31E). Elevation ranges
+    from 70 to 90 m above sea level across the 50-ha plot. Temperatures average
+    26.3C, annual rainfall averages 1,896 mm, and minimum mean monthly rainfall
+    is 96 mm in January. The reserve supports species-rich, dipterocarp forest,
+    and 862 tree species have been recorded in the 50-ha plot
+    (https://forestgeo.si.edu/sites/asia/pasoh). The 50-ha plot was first
+    censused between 1986 and 1988 and was recensused in 1990/91 and
+    approximately every fifth year thereafter. At each census every
+    free-standing tree is permanently tagged, measured for diameter at breast
+    height (DBH), identified to species, and mapped to the nearest 0.5 m
+    following protocols described by Condit (1998). Manokaran et al. (1992)
+    describe the first census in detail.
   basis_of_record: field
   life_stage: adult
-  sampling_strategy: We determined crown traits, leaf traits, and wood density for
-    tree species from the 50-ha Forest Dynamics Plot in the Pasoh Forest Reserve (2.92N,
-    102.31E). We targeted the six largest individuals by DBH of the 100 most abundant
-    species in the 2005 census of the 50-ha plot. We obtained crown and leaf trait
-    data for 436 of the targeted trees and all 100 targeted species. Crown traits
-    included height and mean crown diameter. Leaf traits included number of leaflets
-    for compound leaves, leaf area, leaf fresh mass, leaf dry mass, leaf dry matter
-    content, leaf dry mass per area, leaf lamina thickness, leaf dry tissue density,
-    and leaf nitrogen and phosphorus concentrations. We also determined wood density
-    for 73 of the most abundant species in the 50-ha plot that previously lacked wood
-    density data. We targeted the six largest individuals by DBH of the 100 most abundant
-    species in the 2005 census of the 50-ha plot. Unfortunately, 70 of these large
-    trees were duplicated in the 2005 census data and our field data forms. So, we
-    only targeted 530 individuals. We obtained leaf and crown trait data for 436 trees
-    because 92 trees had died and two trees had broken off above breast height. For
-    much more information, see https://datadryad.org/dataset/doi:10.5061/dryad.q2bvq83v7#methods
+  sampling_strategy:
+    We determined crown traits, leaf traits, and wood density for tree species
+    from the 50-ha Forest Dynamics Plot in the Pasoh Forest Reserve (2.92N,
+    102.31E). We targeted the six largest individuals by DBH of the 100 most
+    abundant species in the 2005 census of the 50-ha plot. We obtained crown and
+    leaf trait data for 436 of the targeted trees and all 100 targeted species.
+    Crown traits included height and mean crown diameter. Leaf traits included
+    number of leaflets for compound leaves, leaf area, leaf fresh mass, leaf dry
+    mass, leaf dry matter content, leaf dry mass per area, leaf lamina
+    thickness, leaf dry tissue density, and leaf nitrogen and phosphorus
+    concentrations. We also determined wood density for 73 of the most abundant
+    species in the 50-ha plot that previously lacked wood density data. We
+    targeted the six largest individuals by DBH of the 100 most abundant species
+    in the 2005 census of the 50-ha plot. Unfortunately, 70 of these large trees
+    were duplicated in the 2005 census data and our field data forms. So, we
+    only targeted 530 individuals. We obtained leaf and crown trait data for 436
+    trees because 92 trees had died and two trees had broken off above breast
+    height. For much more information, see
+    https://datadryad.org/dataset/doi:10.5061/dryad.q2bvq83v7#methods
   original_file: txt files with Pasoh_ prefix in the Wright_2024/raw folder
-  notes: HR Lai separated individual- and species-level traits; the former is stored
+  notes:
+    HR Lai separated individual- and species-level traits; the former is stored
     as Wright_2024, whereas the latter is this dataset as Wright_2024_2
 identifiers: .na
 locations: .na
 contexts: .na
 traits:
-- var_in: dbh
-  unit_in: cm
-  trait_name: plant_diameter_breast_height
-  entity_type: population
-  value_type: maximum
-  basis_of_value: measurement
-  replicates: see number of rows in the original file
-  methods: Diameter at breast height during the 2005 census of the 50-ha plot.
-- var_in: diameter
-  unit_in: m
-  trait_name: plant_width
-  entity_type: population
-  value_type: maximum
-  basis_of_value: measurement
-  replicates: see number of rows in the original file
-  methods: We measured crown diameters as the mean distance between the center 
-    and the edge of the crown in the four cardinal directions. Note, the center 
-    of the crown was projected onto the ground and was often displaced from the 
-    tree’s trunk. Heights and crown diameters approach species-level maximum 
-    values because (1) we targeted the six largest individuals of the 100 most 
-    abundant species in the 50-ha plot and (2) there were 894 individuals of the 
-    100th most abundant species in the 2005 census.
-- var_in: height
-  unit_in: m
-  trait_name: plant_height
-  entity_type: population
-  value_type: maximum
-  basis_of_value: measurement
-  replicates: see number of rows in the original file
-  methods: We measured height with a telescoping pole for trees less than 15.2 m 
-    tall and with a laser range finder and clinometer for taller trees. We 
-    calculated the heights of taller trees as the sum of the height of the
-    observer’s eye and the product of the distance and the sine of the angle to 
-    the uppermost leaves. 
-- var_in: 'N'
-  unit_in: g/g
-  trait_name: leaf_N_per_dry_mass
-  entity_type: population
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: We determined mean species-level leaf tissue nitrogen (%) and leaf 
-    tissue phosphorus concentrations (%) for sun leaves exposed to direct 
-    sunlight and shaded leaves with minimal exposure to direct sunlight. Sun 
-    leaves had exposure values of 3, 4, or 5 (see previous paragraph). Shade 
-    leaves had exposure values of 1 or 2 (see previous paragraph). To determine 
-    mean values for each species and exposure category, we pooled equal masses 
-    of oven-dried leaf tissue from the appropriate trees. FRIM laboratory 
-    protocols for nitrogen and phosphorus determinations can be found at the 
-    end of this document. Unfortunately, the original laboratory report includes 
-    just one significant digit for many phosphorus concentrations.
-- var_in: P
-  unit_in: g/g
-  trait_name: leaf_P_per_dry_mass
-  entity_type: population
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: We determined mean species-level leaf tissue nitrogen (%) and leaf 
-    tissue phosphorus concentrations (%) for sun leaves exposed to direct 
-    sunlight and shaded leaves with minimal exposure to direct sunlight. Sun 
-    leaves had exposure values of 3, 4, or 5 (see previous paragraph). Shade 
-    leaves had exposure values of 1 or 2 (see previous paragraph). To determine 
-    mean values for each species and exposure category, we pooled equal masses 
-    of oven-dried leaf tissue from the appropriate trees. FRIM laboratory 
-    protocols for nitrogen and phosphorus determinations can be found at the 
-    end of this document. Unfortunately, the original laboratory report includes 
-    just one significant digit for many phosphorus concentrations.
+  - var_in: dbh
+    unit_in: cm
+    trait_name: plant_diameter_breast_height
+    entity_type: population
+    value_type: maximum
+    basis_of_value: measurement
+    replicates: see number of rows in the original file
+    methods: Diameter at breast height during the 2005 census of the 50-ha plot.
+  - var_in: diameter
+    unit_in: m
+    trait_name: plant_width
+    entity_type: population
+    value_type: maximum
+    basis_of_value: measurement
+    replicates: see number of rows in the original file
+    methods:
+      We measured crown diameters as the mean distance between the center and
+      the edge of the crown in the four cardinal directions. Note, the center of
+      the crown was projected onto the ground and was often displaced from the
+      tree’s trunk. Heights and crown diameters approach species-level maximum
+      values because (1) we targeted the six largest individuals of the 100 most
+      abundant species in the 50-ha plot and (2) there were 894 individuals of
+      the 100th most abundant species in the 2005 census.
+  - var_in: height
+    unit_in: m
+    trait_name: plant_height
+    entity_type: population
+    value_type: maximum
+    basis_of_value: measurement
+    replicates: see number of rows in the original file
+    methods:
+      We measured height with a telescoping pole for trees less than 15.2 m tall
+      and with a laser range finder and clinometer for taller trees. We
+      calculated the heights of taller trees as the sum of the height of the
+      observer’s eye and the product of the distance and the sine of the angle
+      to the uppermost leaves.
+  - var_in: "N"
+    unit_in: g/g
+    trait_name: leaf_N_per_dry_mass
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      We determined mean species-level leaf tissue nitrogen (%) and leaf tissue
+      phosphorus concentrations (%) for sun leaves exposed to direct sunlight
+      and shaded leaves with minimal exposure to direct sunlight. Sun leaves had
+      exposure values of 3, 4, or 5 (see previous paragraph). Shade leaves had
+      exposure values of 1 or 2 (see previous paragraph). To determine mean
+      values for each species and exposure category, we pooled equal masses of
+      oven-dried leaf tissue from the appropriate trees. FRIM laboratory
+      protocols for nitrogen and phosphorus determinations can be found at the
+      end of this document. Unfortunately, the original laboratory report
+      includes just one significant digit for many phosphorus concentrations.
+  - var_in: P
+    unit_in: g/g
+    trait_name: leaf_P_per_dry_mass
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      We determined mean species-level leaf tissue nitrogen (%) and leaf tissue
+      phosphorus concentrations (%) for sun leaves exposed to direct sunlight
+      and shaded leaves with minimal exposure to direct sunlight. Sun leaves had
+      exposure values of 3, 4, or 5 (see previous paragraph). Shade leaves had
+      exposure values of 1 or 2 (see previous paragraph). To determine mean
+      values for each species and exposure category, we pooled equal masses of
+      oven-dried leaf tissue from the appropriate trees. FRIM laboratory
+      protocols for nitrogen and phosphorus determinations can be found at the
+      end of this document. Unfortunately, the original laboratory report
+      includes just one significant digit for many phosphorus concentrations.
 substitutions: .na
 taxonomic_updates: .na
 exclude_observations: .na
-questions: The README and notes repeatedly mention that the traits were collected
-  during the 2005 plot census, but the beginning of Methods online section (https://datadryad.org/dataset/doi:10.5061/dryad.q2bvq83v7#methods)
-  mentioned "We determined crown traits, leaf traits, and wood density in 2008"; HR
-  Lai entered collection_date as 2005 since this is the more frequently mentioned
+questions:
+  The README and notes repeatedly mention that the traits were collected during
+  the 2005 plot census, but the beginning of Methods online section
+  (https://datadryad.org/dataset/doi:10.5061/dryad.q2bvq83v7#methods) mentioned
+  "We determined crown traits, leaf traits, and wood density in 2008"; HR Lai
+  entered collection_date as 2005 since this is the more frequently mentioned
   year.

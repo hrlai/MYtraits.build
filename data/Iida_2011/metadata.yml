@@ -2,12 +2,16 @@ source:
   primary:
     key: Iida_2011
     bibtype: Article
-    year: '2011'
-    author: Yoshiko Iida and Takashi S. Kohyama and Takuya Kubo and Abd Rahman Kassim and Lourens Poorter and Frank Sterck and Matthew D. Potts
+    year: "2011"
+    author:
+      Yoshiko Iida and Takashi S. Kohyama and Takuya Kubo and Abd Rahman Kassim
+      and Lourens Poorter and Frank Sterck and Matthew D. Potts
     journal: Functional Ecology
-    title: Tree architecture and life-history strategies across 200 co-occurring tropical tree species
-    volume: '25'
-    number: '6'
+    title:
+      Tree architecture and life-history strategies across 200 co-occurring
+      tropical tree species
+    volume: "25"
+    number: "6"
     pages: 1260–1268
     doi: 10.1111/j.1365-2435.2011.01884.x
     issn: 1365-2435
@@ -25,12 +29,33 @@ dataset:
   collection_date: 11-2006/7-2007
   taxon_name: Species
   location_name: unknown
-  description: We examined the relationship between stem diameter, tree height, foliage height, crown width and life-history strategy over a broad size range of 200 randomly selected, co-occurring tree species in a lowland rainforest in Peninsular Malaysia. We developed a hierarchical Bayesian model to account for both intra- and interspecific variation and describe the relationships among tree architectural variables. We analysed interspecific variation in tree architectural variables in relation to adult stature and light requirement for species regeneration as a function of tree size.
+  description:
+    We examined the relationship between stem diameter, tree height, foliage
+    height, crown width and life-history strategy over a broad size range of 200
+    randomly selected, co-occurring tree species in a lowland rainforest in
+    Peninsular Malaysia. We developed a hierarchical Bayesian model to account
+    for both intra- and interspecific variation and describe the relationships
+    among tree architectural variables. We analysed interspecific variation in
+    tree architectural variables in relation to adult stature and light
+    requirement for species regeneration as a function of tree size.
   basis_of_record: field
   life_stage: adult
-  sampling_strategy: For each of the 4000 chosen individuals, we measured stem diameter at 1.3m above the stem-base (D), tree height (H), height of the lowest foliage (F) and two perpendicular crown widths of projected area (W1 and W2, where W1>W2). Heights <15m were measured using a fibreglass splicing pole and all others using a handheld laser range finder (LaserAce 300 or LaserAce Hypsometer; MDL York, England). Crown widths were determined using a steel tape, after the crown peripheral points were identified using a level. We recorded whether trees had damaged stems, crown breakage or re-sprouted. In total, 3679 trees, including 405 trees with damage, were measured. In total, 321 of the pre-selected individuals were not encountered and were probably dead. On average, 18 individuals were measured per species (see Table S1).
+  sampling_strategy:
+    For each of the 4000 chosen individuals, we measured stem diameter at 1.3m
+    above the stem-base (D), tree height (H), height of the lowest foliage (F)
+    and two perpendicular crown widths of projected area (W1 and W2, where
+    W1>W2). Heights <15m were measured using a fibreglass splicing pole and all
+    others using a handheld laser range finder (LaserAce 300 or LaserAce
+    Hypsometer; MDL York, England). Crown widths were determined using a steel
+    tape, after the crown peripheral points were identified using a level. We
+    recorded whether trees had damaged stems, crown breakage or re-sprouted. In
+    total, 3679 trees, including 405 trees with damage, were measured. In total,
+    321 of the pre-selected individuals were not encountered and were probably
+    dead. On average, 18 individuals were measured per species (see Table S1).
   original_file: raw/fec_1884_sm_tables1.xls
-  notes: The authors measured multiple size dimensions but only max diameter was provided with the open data.
+  notes:
+    The authors measured multiple size dimensions but only max diameter was
+    provided with the open data.
 identifiers: .na
 locations: .na
 contexts: .na
@@ -41,8 +66,13 @@ traits:
     entity_type: population
     value_type: maximum
     basis_of_value: measurement
-    replicates: 18 on average, see the column 'measured trees' in the raw data file
-    methods: The upper-diameter (D*) was defined as the upper 95-percentile size in stem diameter for a subpopulation of trees whose diameter was ≥10% of the maximum diameter of a population (King, Davies & Noor 2006). We used the stem diameter data set of the 50-ha plot in 2000 to obtain upper-diameter.
+    replicates:
+      18 on average, see the column 'measured trees' in the raw data file
+    methods:
+      The upper-diameter (D*) was defined as the upper 95-percentile size in
+      stem diameter for a subpopulation of trees whose diameter was ≥10% of the
+      maximum diameter of a population (King, Davies & Noor 2006). We used the
+      stem diameter data set of the 50-ha plot in 2000 to obtain upper-diameter.
 substitutions: .na
 taxonomic_updates: .na
 exclude_observations: .na

@@ -2,41 +2,46 @@ source:
   primary:
     key: Burslem_2022
     bibtype: Misc
-    year: '2022'
-    author: D.f.r.p. Burslem and L.f. Banin and D.c. Bartholomew and M.a.f. Bin Suis
-      and P.r.l. Bittencourt and D. Chapman and D.h. Dent and R.m. Hayward and M.j.
-      O'brien and L.m. Rowland
-    title: Tropical forest seedling trait data collected in Danum Valley, Sabah, Malaysia,
-      in February 2020
+    year: "2022"
+    author:
+      D.f.r.p. Burslem and L.f. Banin and D.c. Bartholomew and M.a.f. Bin Suis
+      and P.r.l. Bittencourt and D. Chapman and D.h. Dent and R.m. Hayward and
+      M.j. O'brien and L.m. Rowland
+    title:
+      Tropical forest seedling trait data collected in Danum Valley, Sabah,
+      Malaysia, in February 2020
     doi: 10.5285/E738E8AF-554A-4940-BB56-267C7377D74D
     publisher: NERC EDS Environmental Information Data Centre
-    keywords: Southeast Asia, Malaysia, Sabah, dipterocarp, logging, global change,
-      mast fruiting, plant functional trait, biodiversity, tropical forest, demography,
-      seedling
+    keywords:
+      Southeast Asia, Malaysia, Sabah, dipterocarp, logging, global change, mast
+      fruiting, plant functional trait, biodiversity, tropical forest,
+      demography, seedling
     language: en
     copyright: Open Government Licence v3.0
   secondary:
     key: Bartholomew_2024
     bibtype: Article
-    year: '2024'
-    author: David C. Bartholomew and Robin Hayward and David F. R. P. Burslem and
-      Paulo R. L. Bittencourt and Daniel Chapman and Mohd. Aminur Faiz Bin Suis and
-      Reuben Nilus and Michael J. O’brien and Glen Reynolds and Lucy Rowland and Lindsay
-      F. Banin and Daisy Dent
+    year: "2024"
+    author:
+      David C. Bartholomew and Robin Hayward and David F. R. P. Burslem and
+      Paulo R. L. Bittencourt and Daniel Chapman and Mohd. Aminur Faiz Bin Suis
+      and Reuben Nilus and Michael J. O’brien and Glen Reynolds and Lucy Rowland
+      and Lindsay F. Banin and Daisy Dent
     journal: Global Change Biology
-    title: Bornean tropical forests recovering from logging at risk of regeneration
+    title:
+      Bornean tropical forests recovering from logging at risk of regeneration
       failure
-    volume: '30'
-    number: '3'
+    volume: "30"
+    number: "3"
     doi: 10.1111/gcb.17209
     issn: 1365-2486
 contributors:
   data_collectors:
-  - last_name: Burslem
-    given_name: David F. R. P.
-    ORCID: 0000-0001-6033-0990
-    affiliation: University of Aberdeen
-    additional_role: contact
+    - last_name: Burslem
+      given_name: David F. R. P.
+      ORCID: 0000-0001-6033-0990
+      affiliation: University of Aberdeen
+      additional_role: contact
   assistants: unknown
   dataset_curators: Hao Ran Lai
 dataset:
@@ -46,95 +51,110 @@ dataset:
   taxon_name: Species
   location_name: Seedling.Plot
   individual_id: uid
-  description: This dataset includes values of 15 traits (total dry mass; root length
-    to shoot length ratio; leaf mass fraction; root mass fraction; shoot mass fraction;
-    leaf thickness; leaf force to punch; leaf area to shoot area ratio; leaf concentrations
-    of N, P, K, Ca and Mg; leaf NP concentration ratio; specific maximum root length)
-    measured in February 2020 on 394 seedlings of 15 woody plant species growing in
-    logged in the Ulu Segama Forest Reserve or unlogged forest in the Danum Valley
-    Conservation Area, Malaysia. The purpose of this data collection was to determine
-    whether the expression of plant functional traits differed between tree seedlings
-    recruited into logged and unlogged forests. This information is important for
-    understanding the drivers of variation in seedling growth and survival in response
-    to logging disturbance, and to uncover the mechanisms giving rise to differentiation
-    in tree seedling composition in response to logging.
+  description:
+    This dataset includes values of 15 traits (total dry mass; root length to
+    shoot length ratio; leaf mass fraction; root mass fraction; shoot mass
+    fraction; leaf thickness; leaf force to punch; leaf area to shoot area
+    ratio; leaf concentrations of N, P, K, Ca and Mg; leaf NP concentration
+    ratio; specific maximum root length) measured in February 2020 on 394
+    seedlings of 15 woody plant species growing in logged in the Ulu Segama
+    Forest Reserve or unlogged forest in the Danum Valley Conservation Area,
+    Malaysia. The purpose of this data collection was to determine whether the
+    expression of plant functional traits differed between tree seedlings
+    recruited into logged and unlogged forests. This information is important
+    for understanding the drivers of variation in seedling growth and survival
+    in response to logging disturbance, and to uncover the mechanisms giving
+    rise to differentiation in tree seedling composition in response to logging.
   basis_of_record: field
   life_stage: seedling
-  sampling_strategy: Trait data were collected by direct sampling of seedlings adjacent
-    to 75, 1 m2 seedling plots (46 in unlogged primary forest; 26 in logged forest).
-    The leaves of the sampled seedlings were combined with additional sample material
-    from the same plot before being analysed for foliar nutrient concentrations at
-    the Forest Research Centre, Sepilok. Leaves were ground using a SM2000 Heavy-duty
-    Cutting Mill (Retsch, Haan, Germany) to pass through a 100-mesh (212 micron) sieve.
-    The ground material was digested using a hydrogen peroxide-sulfuric acid digestion
-    (Allen, 1989). Nleaf and Pleaf were measured colorimetrically using an Astoria-Pacific
-    Flow Analyzer (Astoria-Pacific, OR, USA). Caleaf, Kleaf and Mgleaf were measured
-    spectrometrically using a SpectroArcos FHX22 (Spectro Analytical Instruments,
-    Kleve, Germany). A subsample of the leaves was dried at 105 degC to constant weight
-    to calculate the percentage moisture content and to correct laboratory analyses
-    to an oven dry basis. N:P was calculated by dividing Nleaf by Pleaf.
+  sampling_strategy:
+    Trait data were collected by direct sampling of seedlings adjacent to 75, 1
+    m2 seedling plots (46 in unlogged primary forest; 26 in logged forest). The
+    leaves of the sampled seedlings were combined with additional sample
+    material from the same plot before being analysed for foliar nutrient
+    concentrations at the Forest Research Centre, Sepilok. Leaves were ground
+    using a SM2000 Heavy-duty Cutting Mill (Retsch, Haan, Germany) to pass
+    through a 100-mesh (212 micron) sieve. The ground material was digested
+    using a hydrogen peroxide-sulfuric acid digestion (Allen, 1989). Nleaf and
+    Pleaf were measured colorimetrically using an Astoria-Pacific Flow Analyzer
+    (Astoria-Pacific, OR, USA). Caleaf, Kleaf and Mgleaf were measured
+    spectrometrically using a SpectroArcos FHX22 (Spectro Analytical
+    Instruments, Kleve, Germany). A subsample of the leaves was dried at 105
+    degC to constant weight to calculate the percentage moisture content and to
+    correct laboratory analyses to an oven dry basis. N:P was calculated by
+    dividing Nleaf by Pleaf.
   original_file: Burslem_2022/raw/danum_valley_seedling_traits.csv
-  notes: The original data duplicated population mean nutrient values to individual
-    seedlings, HR Lai aggregated them back to population mean to avoid duplication.
-    The original data and scripts are stored in Burslem_2022 and not copied to this
-    Burslem_2022_2 folder
+  notes:
+    The original data duplicated population mean nutrient values to individual
+    seedlings, HR Lai aggregated them back to population mean to avoid
+    duplication. The original data and scripts are stored in Burslem_2022 and
+    not copied to this Burslem_2022_2 folder
 identifiers: .na
 locations: .na
 contexts: .na
 traits:
-- var_in: Leaf.N
-  unit_in: mg/g
-  trait_name: leaf_N_per_dry_mass
-  entity_type: population
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Measured colorimetrically using an Astoria-Pacific Flow Analyzer on ground
-    material that was digested using a hydrogen peroxide-sulfuric acid digestion.
-- var_in: Leaf.P
-  unit_in: mg/g
-  trait_name: leaf_P_per_dry_mass
-  entity_type: population
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Measured colorimetrically using an Astoria-Pacific Flow Analyzer on ground
-    material that was digested using a hydrogen peroxide-sulfuric acid digestion.
-- var_in: Leaf.Ca
-  unit_in: mg/g
-  trait_name: leaf_Ca_per_dry_mass
-  entity_type: population
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Measured spectrometrically using a SpectroArcos FHX22 on ground material
-    that was digested using a hydrogen peroxide-sulfuric acid digestion.
-- var_in: Leaf.K
-  unit_in: mg/g
-  trait_name: leaf_K_per_dry_mass
-  entity_type: population
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Measured spectrometrically using a SpectroArcos FHX22 on ground material
-    that was digested using a hydrogen peroxide-sulfuric acid digestion.
-- var_in: Leaf.Mg
-  unit_in: mg/g
-  trait_name: leaf_Mg_per_dry_mass
-  entity_type: population
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Measured spectrometrically using a SpectroArcos FHX22 on ground material
-    that was digested using a hydrogen peroxide-sulfuric acid digestion.
-- var_in: Leaf.N:P
-  unit_in: g/g
-  trait_name: leaf_NP_ratio
-  entity_type: population
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Calculated by dividing leaf nitrogen concentration by leaf phosphorus concentration
+  - var_in: Leaf.N
+    unit_in: mg/g
+    trait_name: leaf_N_per_dry_mass
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Measured colorimetrically using an Astoria-Pacific Flow Analyzer on ground
+      material that was digested using a hydrogen peroxide-sulfuric acid
+      digestion.
+  - var_in: Leaf.P
+    unit_in: mg/g
+    trait_name: leaf_P_per_dry_mass
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Measured colorimetrically using an Astoria-Pacific Flow Analyzer on ground
+      material that was digested using a hydrogen peroxide-sulfuric acid
+      digestion.
+  - var_in: Leaf.Ca
+    unit_in: mg/g
+    trait_name: leaf_Ca_per_dry_mass
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Measured spectrometrically using a SpectroArcos FHX22 on ground material
+      that was digested using a hydrogen peroxide-sulfuric acid digestion.
+  - var_in: Leaf.K
+    unit_in: mg/g
+    trait_name: leaf_K_per_dry_mass
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Measured spectrometrically using a SpectroArcos FHX22 on ground material
+      that was digested using a hydrogen peroxide-sulfuric acid digestion.
+  - var_in: Leaf.Mg
+    unit_in: mg/g
+    trait_name: leaf_Mg_per_dry_mass
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Measured spectrometrically using a SpectroArcos FHX22 on ground material
+      that was digested using a hydrogen peroxide-sulfuric acid digestion.
+  - var_in: Leaf.N:P
+    unit_in: g/g
+    trait_name: leaf_NP_ratio
+    entity_type: population
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Calculated by dividing leaf nitrogen concentration by leaf phosphorus
+      concentration
 substitutions: .na
 taxonomic_updates: .na
 exclude_observations: .na

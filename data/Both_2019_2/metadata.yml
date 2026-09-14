@@ -2,23 +2,26 @@ source:
   primary:
     key: Both_2019_2
     bibtype: Misc
-    year: '2019'
-    author: Sabine Both and David F. R. P. Burslem and Yadvinder Malhi and Noreen
+    year: "2019"
+    author:
+      Sabine Both and David F. R. P. Burslem and Yadvinder Malhi and Noreen
       Majalap and Norma Salinas
-    title: Branch wood chemistry of tree species in old-growth and selectively logged
+    title:
+      Branch wood chemistry of tree species in old-growth and selectively logged
       forest
     doi: 10.5281/zenodo.3402748
     publisher: Zenodo
-    keywords: trees, branch wood chemistry, functional traits, old-growth forest,
+    keywords:
+      trees, branch wood chemistry, functional traits, old-growth forest,
       selectively logged forest
     copyright: Creative Commons Attribution 4.0 International
 contributors:
   data_collectors:
-  - last_name: Both
-    given_name: Sabine
-    ORCID: 0000-0003-4437-5106
-    affiliation: University of New England and Australia
-    additional_role: contact
+    - last_name: Both
+      given_name: Sabine
+      ORCID: 0000-0003-4437-5106
+      affiliation: University of New England and Australia
+      additional_role: contact
   assistants: unknown
   dataset_curators: Hao Ran Lai
 dataset:
@@ -28,17 +31,21 @@ dataset:
   taxon_name: taxon_name
   location_name: location
   individual_id: uid
-  description: Carbon and nitrogen concentration of branch wood, analysed with and
-    without bark, for tree species in selectively logged forest at SAFE and in old-growth
-    forest in Danum Valley and Maliau Basin. Sampled during the BALI project traits
-    campaign. Analysed in the laboratory of Dr Norma Salinas, Lima, Peru.
+  description:
+    Carbon and nitrogen concentration of branch wood, analysed with and without
+    bark, for tree species in selectively logged forest at SAFE and in
+    old-growth forest in Danum Valley and Maliau Basin. Sampled during the BALI
+    project traits campaign. Analysed in the laboratory of Dr Norma Salinas,
+    Lima, Peru.
   basis_of_record: field
   life_stage: adult
   sampling_strategy: unknown
   original_file: raw/Both_wood_chemistry.xlsx
-  notes: The original data contain multiple measurements per tree individuals from
-    sun and shade branches, and with or without bark removed. HR Lai aggregated the
-    data to individual means because this is the lowest hierarchy allowed in traits.build
+  notes:
+    The original data contain multiple measurements per tree individuals from
+    sun and shade branches, and with or without bark removed. HR Lai aggregated
+    the data to individual means because this is the lowest hierarchy allowed in
+    traits.build
 identifiers: .na
 locations:
   Car_Bel:
@@ -75,22 +82,22 @@ locations:
     description: Carbon plot
 contexts: .na
 traits:
-- var_in: N_perc
-  unit_in: '%'
-  trait_name: wood_N_per_dry_mass
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: See the replicate column in the original file
-  methods: Combustion analysis
-- var_in: C_perc
-  unit_in: '%'
-  trait_name: wood_C_per_dry_mass
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: See the replicate column in the original file
-  methods: Combustion analysis
+  - var_in: N_perc
+    unit_in: "%"
+    trait_name: wood_N_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: See the replicate column in the original file
+    methods: Combustion analysis
+  - var_in: C_perc
+    unit_in: "%"
+    trait_name: wood_C_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: See the replicate column in the original file
+    methods: Combustion analysis
 substitutions: .na
 taxonomic_updates: .na
 exclude_observations: .na

@@ -2,45 +2,51 @@ source:
   primary:
     key: Bartholomew_2022
     bibtype: Misc
-    year: '2022'
-    author: David Bartholomew and Lindsay Banin and Paulo Bittencourt and Mohammed
-      Aminur Bin Suis and Lina Mercado and Reuben Nilus and David Burslem and Lucy
-      Rowland
-    title: Differential nutrient limitation and tree height control leaf physiology,
+    year: "2022"
+    author:
+      David Bartholomew and Lindsay Banin and Paulo Bittencourt and Mohammed
+      Aminur Bin Suis and Lina Mercado and Reuben Nilus and David Burslem and
+      Lucy Rowland
+    title:
+      Differential nutrient limitation and tree height control leaf physiology,
       supporting niche partitioning in tropical dipterocarp forests
     doi: 10.5061/DRYAD.W6M905QRS
     publisher: Dryad
-    keywords: 'FOS: Earth and related environmental sciences, FOS: Earth and related
-      environmental sciences, Borneo, generalist, Leaf traits, leaf respiration, Photosynthetic
-      Capacity, rainforest, trait plasticity'
+    keywords:
+      "FOS: Earth and related environmental sciences, FOS: Earth and related
+      environmental sciences, Borneo, generalist, Leaf traits, leaf respiration,
+      Photosynthetic Capacity, rainforest, trait plasticity"
     language: en
     copyright: Creative Commons Zero v1.0 Universal
   secondary:
     key: Bartholomew_2022_2
     bibtype: Article
-    year: '2022'
-    author: David C. Bartholomew and Lindsay F. Banin and Paulo R. L. Bittencourt
-      and Mohd Aminur Faiz Suis and Lina M. Mercado and Reuben Nilus and David F.
-      R. P. Burslem and Lucy Rowland
+    year: "2022"
+    author:
+      David C. Bartholomew and Lindsay F. Banin and Paulo R. L. Bittencourt and
+      Mohd Aminur Faiz Suis and Lina M. Mercado and Reuben Nilus and David F. R.
+      P. Burslem and Lucy Rowland
     journal: Functional Ecology
-    title: Differential nutrient limitation and tree height control leaf physiology,
+    title:
+      Differential nutrient limitation and tree height control leaf physiology,
       supporting niche partitioning in tropical dipterocarp forests
-    volume: '36'
-    number: '8'
+    volume: "36"
+    number: "8"
     pages: 2084–2103
     doi: 10.1111/1365-2435.14094
     issn: 1365-2435
 contributors:
   data_collectors:
-  - last_name: Bartholomew
-    given_name: David C.
-    ORCID: 0000-0002-8123-1817
-    affiliation: Botanic Gardens Conservation International
-  - last_name: Bittencourt
-    given_name: Paulo R. L.
-    ORCID: 0000-0002-1618-9077
-    affiliation: University of Exeter
-  assistants: Noreen Majalap and Eyen Khoo and Viviannye Paul and Roland Robert and
+    - last_name: Bartholomew
+      given_name: David C.
+      ORCID: 0000-0002-8123-1817
+      affiliation: Botanic Gardens Conservation International
+    - last_name: Bittencourt
+      given_name: Paulo R. L.
+      ORCID: 0000-0002-1618-9077
+      affiliation: University of Exeter
+  assistants:
+    Noreen Majalap and Eyen Khoo and Viviannye Paul and Roland Robert and
     Sharveen Pillai
   dataset_curators: Hao Ran Lai
 dataset:
@@ -50,471 +56,506 @@ dataset:
   taxon_name: species
   location_name: plot
   individual_id: id
-  description: This study evaluated how leaf physiological function changes with nutrient
-    availability across a fine-scale edaphic gradient and whether these relationships
-    vary according to tree height. Furthermore, we tested whether intraspecific leaf
-    trait variation allows generalist species to populate a wider range of environments.
-    We measured leaf traits of 218 trees ranging in height from 4 to 66 m from 13
-    dipterocarp species within four tropical forest types (alluvial, mudstone, sandstone,
-    kerangas) occurring along an <5km edaphic gradient in North Borneo. The traits
-    measured included saturating photosynthesis (Asat), maximum photosynthetic capacity
-    (Vcmax), leaf dark respiration (Rleaf), leaf mass per area (LMA), leaf thickness,
-    minimum stomatal conductance (gdark) and leaf nutrient concentrations (N, P, Ca,
-    K, Mg).
+  description:
+    This study evaluated how leaf physiological function changes with nutrient
+    availability across a fine-scale edaphic gradient and whether these
+    relationships vary according to tree height. Furthermore, we tested whether
+    intraspecific leaf trait variation allows generalist species to populate a
+    wider range of environments. We measured leaf traits of 218 trees ranging in
+    height from 4 to 66 m from 13 dipterocarp species within four tropical
+    forest types (alluvial, mudstone, sandstone, kerangas) occurring along an
+    <5km edaphic gradient in North Borneo. The traits measured included
+    saturating photosynthesis (Asat), maximum photosynthetic capacity (Vcmax),
+    leaf dark respiration (Rleaf), leaf mass per area (LMA), leaf thickness,
+    minimum stomatal conductance (gdark) and leaf nutrient concentrations (N, P,
+    Ca, K, Mg).
   basis_of_record: field
   life_stage: adult
-  sampling_strategy: Leaves were sampled from a sunlit branch, or a branch from the
-    top of the crown for understorey trees, using rope-climbing canopy access. Leaves
-    from cut branches were used to measure 14 leaf traits--- saturating photosynthesis
-    (Asat), maximum photosynthetic capacity (Vcmax) and leaf dark respiration (Rleaf)
-    standardised to 25 degC, abaxial leaf conductance after 30 min of dark adaptation
-    (gdark), leaf mass per area (LMA), leaf thickness and leaf nutrient concentrations
-    ([N]leaf, [P]leaf, [Ca]leaf, [K]leaf, [Mg]leaf). We present both mass-based and
-    area-based measures of Asat, Vcmax and Rleaf. For each tree, we collected a 
-    sunlit branch, or a branch from the top of the crown for understory trees, 
-    of approximately 1-2 m length and 1-2 cm diameter. All trees, or neighbouring 
-    trees, were climbed using single and double-rope climbing techniques to access 
-    the canopy. Branches were cut between 0900 and 1400, except when logistical 
-    challenges associated with tree climbing delayed branch harvesting. Following 
-    branch harvesting, the branch was trimmed to a length of approximately 1 m for 
-    gas exchange measurements, placed in water and cut twice underwater to restore
-    water supply to the leaves (Domingues et al., 2010). For leaf nutrient samples, 
-    an additional branch of 60-80 cm length was collected, placed in a large, 
-    black plastic bag with wet tissue paper and transported back to the Forest 
+  sampling_strategy:
+    Leaves were sampled from a sunlit branch, or a branch from the top of the
+    crown for understorey trees, using rope-climbing canopy access. Leaves from
+    cut branches were used to measure 14 leaf traits--- saturating
+    photosynthesis (Asat), maximum photosynthetic capacity (Vcmax) and leaf dark
+    respiration (Rleaf) standardised to 25 degC, abaxial leaf conductance after
+    30 min of dark adaptation (gdark), leaf mass per area (LMA), leaf thickness
+    and leaf nutrient concentrations ([N]leaf, [P]leaf, [Ca]leaf, [K]leaf,
+    [Mg]leaf). We present both mass-based and area-based measures of Asat, Vcmax
+    and Rleaf. For each tree, we collected a sunlit branch, or a branch from the
+    top of the crown for understory trees, of approximately 1-2 m length and 1-2
+    cm diameter. All trees, or neighbouring trees, were climbed using single and
+    double-rope climbing techniques to access the canopy. Branches were cut
+    between 0900 and 1400, except when logistical challenges associated with
+    tree climbing delayed branch harvesting. Following branch harvesting, the
+    branch was trimmed to a length of approximately 1 m for gas exchange
+    measurements, placed in water and cut twice underwater to restore water
+    supply to the leaves (Domingues et al., 2010). For leaf nutrient samples, an
+    additional branch of 60-80 cm length was collected, placed in a large, black
+    plastic bag with wet tissue paper and transported back to the Forest
     Research Centre, Sepilok, for further processing on the day of collection.
   original_file: raw/Bartholomew_2022_FunEcol_data.xlsx
-  notes: This dataset contains stomatal conductance at dark respiration, but this
+  notes:
+    This dataset contains stomatal conductance at dark respiration, but this
     trait is not available in the traits.build dictionary
 identifiers: .na
 locations: .na
 contexts: .na
 traits:
-- var_in: Asat_area
-  unit_in: umol{CO2}/m2/s
-  trait_name: leaf_photosynthetic_rate_per_area_saturated
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: We measured Asat, Vcmax and Rleaf on non-senescing, fully formed 
-    leaves using two cross-calibrated portable photosynthesis systems 
-    (LI-6400XT and LI-6800, LI-COR, Nebraska, USA). For measurements of Asat and 
-    Vcmax, leaves were allowed to stabilise for a minimum of 20 minutes in full 
-    sunlight before being placed within the leaf chamber of the LI-6800 
-    (Verryckt et al., 2020). Inside the leaf chamber, a CO2 concentration of 
-    400 ppm, photosynthetically active radiation (PAR) of 1500 umol m-2 s-1, 
-    a temperature of 28C and relative humidity of 60-70 % was set. We measured 
-    net photosynthetic assimilation under these conditions to estimate 
-    photosynthesis under saturating light (Asat) and used the one-point method 
-    to estimate maximum rates of rubisco carboxylation (Vcmax) standardised to 
-    25C following the equations of De Kauwe et al. (2016), using measured 
-    Rleaf values (see below). In order to maintain data quality, photosynthesis 
-    measurements were only taken if stomatal conductance exceeded 
-    0.05 mol m-2 s-1 (Rowland et al., 2015). 
-- var_in: Asat_mass
-  unit_in: umol{CO2}/kg/s
-  trait_name: leaf_photosynthetic_rate_per_dry_mass_saturated
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: We measured Asat, Vcmax and Rleaf on non-senescing, fully formed 
-    leaves using two cross-calibrated portable photosynthesis systems 
-    (LI-6400XT and LI-6800, LI-COR, Nebraska, USA). For measurements of Asat and 
-    Vcmax, leaves were allowed to stabilise for a minimum of 20 minutes in full 
-    sunlight before being placed within the leaf chamber of the LI-6800 
-    (Verryckt et al., 2020). Inside the leaf chamber, a CO2 concentration of 
-    400 ppm, photosynthetically active radiation (PAR) of 1500 umol m-2 s-1, 
-    a temperature of 28C and relative humidity of 60-70 % was set. We measured 
-    net photosynthetic assimilation under these conditions to estimate 
-    photosynthesis under saturating light (Asat) and used the one-point method 
-    to estimate maximum rates of rubisco carboxylation (Vcmax) standardised to 
-    25C following the equations of De Kauwe et al. (2016), using measured 
-    Rleaf values (see below). In order to maintain data quality, photosynthesis 
-    measurements were only taken if stomatal conductance exceeded 
-    0.05 mol m-2 s-1 (Rowland et al., 2015). 
-- var_in: Vcmax_area
-  unit_in: umol{CO2}/m2/s
-  trait_name: leaf_photosynthesis_Vcmax_per_area
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: We measured Asat, Vcmax and Rleaf on non-senescing, fully formed 
-    leaves using two cross-calibrated portable photosynthesis systems 
-    (LI-6400XT and LI-6800, LI-COR, Nebraska, USA). For measurements of Asat and 
-    Vcmax, leaves were allowed to stabilise for a minimum of 20 minutes in full 
-    sunlight before being placed within the leaf chamber of the LI-6800 
-    (Verryckt et al., 2020). Inside the leaf chamber, a CO2 concentration of 
-    400 ppm, photosynthetically active radiation (PAR) of 1500 umol m-2 s-1, 
-    a temperature of 28C and relative humidity of 60-70 % was set. We measured 
-    net photosynthetic assimilation under these conditions to estimate 
-    photosynthesis under saturating light (Asat) and used the one-point method 
-    to estimate maximum rates of rubisco carboxylation (Vcmax) standardised to 
-    25C following the equations of De Kauwe et al. (2016), using measured 
-    Rleaf values (see below). In order to maintain data quality, photosynthesis 
-    measurements were only taken if stomatal conductance exceeded 
-    0.05 mol m-2 s-1 (Rowland et al., 2015). 
-- var_in: Vcmax_mass
-  unit_in: umol{CO2}/kg/s
-  trait_name: leaf_photosynthesis_Vcmax_per_mass
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: We measured Asat, Vcmax and Rleaf on non-senescing, fully formed 
-    leaves using two cross-calibrated portable photosynthesis systems 
-    (LI-6400XT and LI-6800, LI-COR, Nebraska, USA). For measurements of Asat and 
-    Vcmax, leaves were allowed to stabilise for a minimum of 20 minutes in full 
-    sunlight before being placed within the leaf chamber of the LI-6800 
-    (Verryckt et al., 2020). Inside the leaf chamber, a CO2 concentration of 
-    400 ppm, photosynthetically active radiation (PAR) of 1500 umol m-2 s-1, 
-    a temperature of 28C and relative humidity of 60-70 % was set. We measured 
-    net photosynthetic assimilation under these conditions to estimate 
-    photosynthesis under saturating light (Asat) and used the one-point method 
-    to estimate maximum rates of rubisco carboxylation (Vcmax) standardised to 
-    25C following the equations of De Kauwe et al. (2016), using measured 
-    Rleaf values (see below). In order to maintain data quality, photosynthesis 
-    measurements were only taken if stomatal conductance exceeded 
-    0.05 mol m-2 s-1 (Rowland et al., 2015). 
-- var_in: Rleaf_area
-  unit_in: umol{CO2}/m2/s
-  trait_name: leaf_dark_respiration_per_area
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Rleaf was measured on a leaf adjacent to that used to measure 
-    photosynthetic capacity using a LI-6400XT. We wrapped these leaves inside 
-    aluminium foil for a minimum of 30 minutes to adapt them to the dark before 
-    placing them inside the leaf chamber. Rleaf measurements were taken directly 
-    after photosynthesis measurements. Leaf chamber conditions were maintained 
-    at 400 ppm CO2, 0 umol m-2 s-1 PAR, 28C and 60-70 % relative humidity. 
-    Five measurements of Rleaf were recorded at 5 second intervals, and 
-    subsequently standardised to 25C following Rowland et al. (2015), and the 
-    mean calculated. We use the stomatal conductance from the Rleaf measurement 
-    as a measure of gdark, with lower values an indicator of greater resource 
-    conservation. Steady state conditions within the leaf chamber were reached 
-    before all gas exchange measurements were recorded.
-- var_in: Rleaf_mass
-  unit_in: umol{CO2}/kg/s
-  trait_name: leaf_dark_respiration_per_dry_mass
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Rleaf was measured on a leaf adjacent to that used to measure 
-    photosynthetic capacity using a LI-6400XT. We wrapped these leaves inside 
-    aluminium foil for a minimum of 30 minutes to adapt them to the dark before 
-    placing them inside the leaf chamber. Rleaf measurements were taken directly 
-    after photosynthesis measurements. Leaf chamber conditions were maintained 
-    at 400 ppm CO2, 0 umol m-2 s-1 PAR, 28C and 60-70 % relative humidity. 
-    Five measurements of Rleaf were recorded at 5 second intervals, and 
-    subsequently standardised to 25C following Rowland et al. (2015), and the 
-    mean calculated.
-- var_in: LMA
-  unit_in: g/m2
-  trait_name: leaf_mass_per_area
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Once leaf gas exchange measurements were complete, we removed both 
-    the photosynthesis and respiration leaves and placed them in an airtight 
-    ziplock bag. Moist cotton wool was used to maintain humidity inside the bag 
-    and prevent water loss from the leaves. Leaves were weighed immediately on 
-    return to the lab and scanned using a flatbed scanner (CanoScan LiDE 120, 
-    Canon Inc., Tokyo, Japan). Leaf area was calculated using ImageJ software 
-    (Schneider et al., 2012). Leaves were subsequently placed in an oven at 50C and 
-    dried to a constant mass for 48-72 hours, before being re-weighed. LMA for 
-    the Vcmax and Rleaf leaves was calculated by dividing dry leaf mass by leaf 
-    area, allowing gas exchange measurements to be expressed on both an area 
-    and mass basis. The mean of these leaves was used for LMA estimates. 
-- var_in: leaf.thickness
-  unit_in: mm
-  trait_name: leaf_thickness
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Once leaf gas exchange measurements were complete, we removed both 
-    the photosynthesis and respiration leaves and placed them in an airtight 
-    ziplock bag. Moist cotton wool was used to maintain humidity inside the bag 
-    and prevent water loss from the leaves. Leaf thickness was measured at three 
-    points on both the Vcmax and Rleaf leaves using precision digital callipers 
-    avoiding major veins. A mean of means was calculated to generate an estimate 
-    of branch level leaf thickness.
-- var_in: gdark
-  unit_in: mol/m2/s
-  trait_name: .na
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: We use the stomatal conductance from the Rleaf measurement 
-    as a measure of gdark, with lower values an indicator of greater resource 
-    conservation. Steady state conditions within the leaf chamber were reached 
-    before all gas exchange measurements were recorded.
-- var_in: n.leaf
-  unit_in: g/kg
-  trait_name: leaf_N_per_dry_mass
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Leaves from the additional harvested branch were analysed to quantify 
-    [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves were 
-    dried in a lab oven to constant weight and then ground using a Wiley Mill 
-    ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each sample 
-    was further dried at 105C to determine the moisture content, which was 
-    used to convert all data (based on air-dry values) to oven-dry values. 
-    Subsamples of the ground leaves were analysed for total N, P, Ca, K, and 
-    Mg concentrations. Leaves were digested following the Kjeldahl method using 
-    concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf was 
-    measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific, Oregon, USA). 
-    For the determination of [P]leaf, [Ca]leaf, [K]leaf, and [Mg]leaf, the ground 
-    samples were digested using the sulphuric acid-hydrogen peroxide method 
-    (Allen, 1989). [P]leaf was determined colorimetrically using the 
-    molybdenum-blue method (Anderson and Ingram, 1993) by measuring the 
-    absorbance at 880 nm on a Spectrophotometer (Hitachi U-2900 UV/Vis , Tokyo, 
-    Japan). [Ca]leaf, [K]leaf and [Mg]leaf were measured spectrophotometrically 
-    on a Spectro Arcos ICP-OES (Spectro Analytical Instruments, Kleve, Germany). 
-    Leaf nutrient concentrations were multiplied by LMA (see above) to convert 
-    concentrations from a mass- to area-basis.
-- var_in: p.leaf
-  unit_in: g/kg
-  trait_name: leaf_P_per_dry_mass
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Leaves from the additional harvested branch were analysed to quantify 
-    [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves were 
-    dried in a lab oven to constant weight and then ground using a Wiley Mill 
-    ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each sample 
-    was further dried at 105C to determine the moisture content, which was 
-    used to convert all data (based on air-dry values) to oven-dry values. 
-    Subsamples of the ground leaves were analysed for total N, P, Ca, K, and 
-    Mg concentrations. Leaves were digested following the Kjeldahl method using 
-    concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf was 
-    measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific, Oregon, USA). 
-    For the determination of [P]leaf, [Ca]leaf, [K]leaf, and [Mg]leaf, the ground 
-    samples were digested using the sulphuric acid-hydrogen peroxide method 
-    (Allen, 1989). [P]leaf was determined colorimetrically using the 
-    molybdenum-blue method (Anderson and Ingram, 1993) by measuring the 
-    absorbance at 880 nm on a Spectrophotometer (Hitachi U-2900 UV/Vis , Tokyo, 
-    Japan). [Ca]leaf, [K]leaf and [Mg]leaf were measured spectrophotometrically 
-    on a Spectro Arcos ICP-OES (Spectro Analytical Instruments, Kleve, Germany). 
-    Leaf nutrient concentrations were multiplied by LMA (see above) to convert 
-    concentrations from a mass- to area-basis.
-- var_in: ca.leaf
-  unit_in: g/kg
-  trait_name: leaf_Ca_per_dry_mass
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Leaves from the additional harvested branch were analysed to quantify 
-    [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves were 
-    dried in a lab oven to constant weight and then ground using a Wiley Mill 
-    ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each sample 
-    was further dried at 105C to determine the moisture content, which was 
-    used to convert all data (based on air-dry values) to oven-dry values. 
-    Subsamples of the ground leaves were analysed for total N, P, Ca, K, and 
-    Mg concentrations. Leaves were digested following the Kjeldahl method using 
-    concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf was 
-    measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific, Oregon, USA). 
-    For the determination of [P]leaf, [Ca]leaf, [K]leaf, and [Mg]leaf, the ground 
-    samples were digested using the sulphuric acid-hydrogen peroxide method 
-    (Allen, 1989). [P]leaf was determined colorimetrically using the 
-    molybdenum-blue method (Anderson and Ingram, 1993) by measuring the 
-    absorbance at 880 nm on a Spectrophotometer (Hitachi U-2900 UV/Vis , Tokyo, 
-    Japan). [Ca]leaf, [K]leaf and [Mg]leaf were measured spectrophotometrically 
-    on a Spectro Arcos ICP-OES (Spectro Analytical Instruments, Kleve, Germany). 
-    Leaf nutrient concentrations were multiplied by LMA (see above) to convert 
-    concentrations from a mass- to area-basis.
-- var_in: k.leaf
-  unit_in: g/kg
-  trait_name: leaf_K_per_dry_mass
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Leaves from the additional harvested branch were analysed to quantify 
-    [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves were 
-    dried in a lab oven to constant weight and then ground using a Wiley Mill 
-    ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each sample 
-    was further dried at 105C to determine the moisture content, which was 
-    used to convert all data (based on air-dry values) to oven-dry values. 
-    Subsamples of the ground leaves were analysed for total N, P, Ca, K, and 
-    Mg concentrations. Leaves were digested following the Kjeldahl method using 
-    concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf was 
-    measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific, Oregon, USA). 
-    For the determination of [P]leaf, [Ca]leaf, [K]leaf, and [Mg]leaf, the ground 
-    samples were digested using the sulphuric acid-hydrogen peroxide method 
-    (Allen, 1989). [P]leaf was determined colorimetrically using the 
-    molybdenum-blue method (Anderson and Ingram, 1993) by measuring the 
-    absorbance at 880 nm on a Spectrophotometer (Hitachi U-2900 UV/Vis , Tokyo, 
-    Japan). [Ca]leaf, [K]leaf and [Mg]leaf were measured spectrophotometrically 
-    on a Spectro Arcos ICP-OES (Spectro Analytical Instruments, Kleve, Germany). 
-    Leaf nutrient concentrations were multiplied by LMA (see above) to convert 
-    concentrations from a mass- to area-basis.
-- var_in: mg.leaf
-  unit_in: g/kg
-  trait_name: leaf_Mg_per_dry_mass
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Leaves from the additional harvested branch were analysed to quantify 
-    [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves were 
-    dried in a lab oven to constant weight and then ground using a Wiley Mill 
-    ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each sample 
-    was further dried at 105C to determine the moisture content, which was 
-    used to convert all data (based on air-dry values) to oven-dry values. 
-    Subsamples of the ground leaves were analysed for total N, P, Ca, K, and 
-    Mg concentrations. Leaves were digested following the Kjeldahl method using 
-    concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf was 
-    measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific, Oregon, USA). 
-    For the determination of [P]leaf, [Ca]leaf, [K]leaf, and [Mg]leaf, the ground 
-    samples were digested using the sulphuric acid-hydrogen peroxide method 
-    (Allen, 1989). [P]leaf was determined colorimetrically using the 
-    molybdenum-blue method (Anderson and Ingram, 1993) by measuring the 
-    absorbance at 880 nm on a Spectrophotometer (Hitachi U-2900 UV/Vis , Tokyo, 
-    Japan). [Ca]leaf, [K]leaf and [Mg]leaf were measured spectrophotometrically 
-    on a Spectro Arcos ICP-OES (Spectro Analytical Instruments, Kleve, Germany). 
-    Leaf nutrient concentrations were multiplied by LMA (see above) to convert 
-    concentrations from a mass- to area-basis.
-- var_in: n.area
-  unit_in: g/m2
-  trait_name: leaf_N_per_area
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Leaves from the additional harvested branch were analysed to quantify 
-    [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves were 
-    dried in a lab oven to constant weight and then ground using a Wiley Mill 
-    ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each sample 
-    was further dried at 105C to determine the moisture content, which was 
-    used to convert all data (based on air-dry values) to oven-dry values. 
-    Subsamples of the ground leaves were analysed for total N, P, Ca, K, and 
-    Mg concentrations. Leaves were digested following the Kjeldahl method using 
-    concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf was 
-    measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific, Oregon, USA). 
-    For the determination of [P]leaf, [Ca]leaf, [K]leaf, and [Mg]leaf, the ground 
-    samples were digested using the sulphuric acid-hydrogen peroxide method 
-    (Allen, 1989). [P]leaf was determined colorimetrically using the 
-    molybdenum-blue method (Anderson and Ingram, 1993) by measuring the 
-    absorbance at 880 nm on a Spectrophotometer (Hitachi U-2900 UV/Vis , Tokyo, 
-    Japan). [Ca]leaf, [K]leaf and [Mg]leaf were measured spectrophotometrically 
-    on a Spectro Arcos ICP-OES (Spectro Analytical Instruments, Kleve, Germany). 
-    Leaf nutrient concentrations were multiplied by LMA (see above) to convert 
-    concentrations from a mass- to area-basis.
-- var_in: p.area
-  unit_in: g/m2
-  trait_name: leaf_P_per_area
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Leaves from the additional harvested branch were analysed to quantify 
-    [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves were 
-    dried in a lab oven to constant weight and then ground using a Wiley Mill 
-    ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each sample 
-    was further dried at 105C to determine the moisture content, which was 
-    used to convert all data (based on air-dry values) to oven-dry values. 
-    Subsamples of the ground leaves were analysed for total N, P, Ca, K, and 
-    Mg concentrations. Leaves were digested following the Kjeldahl method using 
-    concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf was 
-    measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific, Oregon, USA). 
-    For the determination of [P]leaf, [Ca]leaf, [K]leaf, and [Mg]leaf, the ground 
-    samples were digested using the sulphuric acid-hydrogen peroxide method 
-    (Allen, 1989). [P]leaf was determined colorimetrically using the 
-    molybdenum-blue method (Anderson and Ingram, 1993) by measuring the 
-    absorbance at 880 nm on a Spectrophotometer (Hitachi U-2900 UV/Vis , Tokyo, 
-    Japan). [Ca]leaf, [K]leaf and [Mg]leaf were measured spectrophotometrically 
-    on a Spectro Arcos ICP-OES (Spectro Analytical Instruments, Kleve, Germany). 
-    Leaf nutrient concentrations were multiplied by LMA (see above) to convert 
-    concentrations from a mass- to area-basis.
-- var_in: ca.area
-  unit_in: g/m2
-  trait_name: .na
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Leaves from the additional harvested branch were analysed to quantify 
-    [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves were 
-    dried in a lab oven to constant weight and then ground using a Wiley Mill 
-    ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each sample 
-    was further dried at 105C to determine the moisture content, which was 
-    used to convert all data (based on air-dry values) to oven-dry values. 
-    Subsamples of the ground leaves were analysed for total N, P, Ca, K, and 
-    Mg concentrations. Leaves were digested following the Kjeldahl method using 
-    concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf was 
-    measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific, Oregon, USA). 
-    For the determination of [P]leaf, [Ca]leaf, [K]leaf, and [Mg]leaf, the ground 
-    samples were digested using the sulphuric acid-hydrogen peroxide method 
-    (Allen, 1989). [P]leaf was determined colorimetrically using the 
-    molybdenum-blue method (Anderson and Ingram, 1993) by measuring the 
-    absorbance at 880 nm on a Spectrophotometer (Hitachi U-2900 UV/Vis , Tokyo, 
-    Japan). [Ca]leaf, [K]leaf and [Mg]leaf were measured spectrophotometrically 
-    on a Spectro Arcos ICP-OES (Spectro Analytical Instruments, Kleve, Germany). 
-    Leaf nutrient concentrations were multiplied by LMA (see above) to convert 
-    concentrations from a mass- to area-basis.
-- var_in: k.area
-  unit_in: g/m2
-  trait_name: leaf_K_per_area
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Leaves from the additional harvested branch were analysed to quantify 
-    [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves were 
-    dried in a lab oven to constant weight and then ground using a Wiley Mill 
-    ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each sample 
-    was further dried at 105C to determine the moisture content, which was 
-    used to convert all data (based on air-dry values) to oven-dry values. 
-    Subsamples of the ground leaves were analysed for total N, P, Ca, K, and 
-    Mg concentrations. Leaves were digested following the Kjeldahl method using 
-    concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf was 
-    measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific, Oregon, USA). 
-    For the determination of [P]leaf, [Ca]leaf, [K]leaf, and [Mg]leaf, the ground 
-    samples were digested using the sulphuric acid-hydrogen peroxide method 
-    (Allen, 1989). [P]leaf was determined colorimetrically using the 
-    molybdenum-blue method (Anderson and Ingram, 1993) by measuring the 
-    absorbance at 880 nm on a Spectrophotometer (Hitachi U-2900 UV/Vis , Tokyo, 
-    Japan). [Ca]leaf, [K]leaf and [Mg]leaf were measured spectrophotometrically 
-    on a Spectro Arcos ICP-OES (Spectro Analytical Instruments, Kleve, Germany). 
-    Leaf nutrient concentrations were multiplied by LMA (see above) to convert 
-    concentrations from a mass- to area-basis.
-- var_in: mg.area
-  unit_in: g/m2
-  trait_name: .na
-  entity_type: individual
-  value_type: mean
-  basis_of_value: measurement
-  replicates: unknown
-  methods: Leaves from the additional harvested branch were analysed to quantify 
-    [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves were 
-    dried in a lab oven to constant weight and then ground using a Wiley Mill 
-    ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each sample 
-    was further dried at 105C to determine the moisture content, which was 
-    used to convert all data (based on air-dry values) to oven-dry values. 
-    Subsamples of the ground leaves were analysed for total N, P, Ca, K, and 
-    Mg concentrations. Leaves were digested following the Kjeldahl method using 
-    concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf was 
-    measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific, Oregon, USA). 
-    For the determination of [P]leaf, [Ca]leaf, [K]leaf, and [Mg]leaf, the ground 
-    samples were digested using the sulphuric acid-hydrogen peroxide method 
-    (Allen, 1989). [P]leaf was determined colorimetrically using the 
-    molybdenum-blue method (Anderson and Ingram, 1993) by measuring the 
-    absorbance at 880 nm on a Spectrophotometer (Hitachi U-2900 UV/Vis , Tokyo, 
-    Japan). [Ca]leaf, [K]leaf and [Mg]leaf were measured spectrophotometrically 
-    on a Spectro Arcos ICP-OES (Spectro Analytical Instruments, Kleve, Germany). 
-    Leaf nutrient concentrations were multiplied by LMA (see above) to convert 
-    concentrations from a mass- to area-basis.
+  - var_in: Asat_area
+    unit_in: umol{CO2}/m2/s
+    trait_name: leaf_photosynthetic_rate_per_area_saturated
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      We measured Asat, Vcmax and Rleaf on non-senescing, fully formed leaves
+      using two cross-calibrated portable photosynthesis systems (LI-6400XT and
+      LI-6800, LI-COR, Nebraska, USA). For measurements of Asat and Vcmax,
+      leaves were allowed to stabilise for a minimum of 20 minutes in full
+      sunlight before being placed within the leaf chamber of the LI-6800
+      (Verryckt et al., 2020). Inside the leaf chamber, a CO2 concentration of
+      400 ppm, photosynthetically active radiation (PAR) of 1500 umol m-2 s-1, a
+      temperature of 28C and relative humidity of 60-70 % was set. We measured
+      net photosynthetic assimilation under these conditions to estimate
+      photosynthesis under saturating light (Asat) and used the one-point method
+      to estimate maximum rates of rubisco carboxylation (Vcmax) standardised to
+      25C following the equations of De Kauwe et al. (2016), using measured
+      Rleaf values (see below). In order to maintain data quality,
+      photosynthesis measurements were only taken if stomatal conductance
+      exceeded 0.05 mol m-2 s-1 (Rowland et al., 2015).
+  - var_in: Asat_mass
+    unit_in: umol{CO2}/kg/s
+    trait_name: leaf_photosynthetic_rate_per_dry_mass_saturated
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      We measured Asat, Vcmax and Rleaf on non-senescing, fully formed leaves
+      using two cross-calibrated portable photosynthesis systems (LI-6400XT and
+      LI-6800, LI-COR, Nebraska, USA). For measurements of Asat and Vcmax,
+      leaves were allowed to stabilise for a minimum of 20 minutes in full
+      sunlight before being placed within the leaf chamber of the LI-6800
+      (Verryckt et al., 2020). Inside the leaf chamber, a CO2 concentration of
+      400 ppm, photosynthetically active radiation (PAR) of 1500 umol m-2 s-1, a
+      temperature of 28C and relative humidity of 60-70 % was set. We measured
+      net photosynthetic assimilation under these conditions to estimate
+      photosynthesis under saturating light (Asat) and used the one-point method
+      to estimate maximum rates of rubisco carboxylation (Vcmax) standardised to
+      25C following the equations of De Kauwe et al. (2016), using measured
+      Rleaf values (see below). In order to maintain data quality,
+      photosynthesis measurements were only taken if stomatal conductance
+      exceeded 0.05 mol m-2 s-1 (Rowland et al., 2015).
+  - var_in: Vcmax_area
+    unit_in: umol{CO2}/m2/s
+    trait_name: leaf_photosynthesis_Vcmax_per_area
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      We measured Asat, Vcmax and Rleaf on non-senescing, fully formed leaves
+      using two cross-calibrated portable photosynthesis systems (LI-6400XT and
+      LI-6800, LI-COR, Nebraska, USA). For measurements of Asat and Vcmax,
+      leaves were allowed to stabilise for a minimum of 20 minutes in full
+      sunlight before being placed within the leaf chamber of the LI-6800
+      (Verryckt et al., 2020). Inside the leaf chamber, a CO2 concentration of
+      400 ppm, photosynthetically active radiation (PAR) of 1500 umol m-2 s-1, a
+      temperature of 28C and relative humidity of 60-70 % was set. We measured
+      net photosynthetic assimilation under these conditions to estimate
+      photosynthesis under saturating light (Asat) and used the one-point method
+      to estimate maximum rates of rubisco carboxylation (Vcmax) standardised to
+      25C following the equations of De Kauwe et al. (2016), using measured
+      Rleaf values (see below). In order to maintain data quality,
+      photosynthesis measurements were only taken if stomatal conductance
+      exceeded 0.05 mol m-2 s-1 (Rowland et al., 2015).
+  - var_in: Vcmax_mass
+    unit_in: umol{CO2}/kg/s
+    trait_name: leaf_photosynthesis_Vcmax_per_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      We measured Asat, Vcmax and Rleaf on non-senescing, fully formed leaves
+      using two cross-calibrated portable photosynthesis systems (LI-6400XT and
+      LI-6800, LI-COR, Nebraska, USA). For measurements of Asat and Vcmax,
+      leaves were allowed to stabilise for a minimum of 20 minutes in full
+      sunlight before being placed within the leaf chamber of the LI-6800
+      (Verryckt et al., 2020). Inside the leaf chamber, a CO2 concentration of
+      400 ppm, photosynthetically active radiation (PAR) of 1500 umol m-2 s-1, a
+      temperature of 28C and relative humidity of 60-70 % was set. We measured
+      net photosynthetic assimilation under these conditions to estimate
+      photosynthesis under saturating light (Asat) and used the one-point method
+      to estimate maximum rates of rubisco carboxylation (Vcmax) standardised to
+      25C following the equations of De Kauwe et al. (2016), using measured
+      Rleaf values (see below). In order to maintain data quality,
+      photosynthesis measurements were only taken if stomatal conductance
+      exceeded 0.05 mol m-2 s-1 (Rowland et al., 2015).
+  - var_in: Rleaf_area
+    unit_in: umol{CO2}/m2/s
+    trait_name: leaf_dark_respiration_per_area
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Rleaf was measured on a leaf adjacent to that used to measure
+      photosynthetic capacity using a LI-6400XT. We wrapped these leaves inside
+      aluminium foil for a minimum of 30 minutes to adapt them to the dark
+      before placing them inside the leaf chamber. Rleaf measurements were taken
+      directly after photosynthesis measurements. Leaf chamber conditions were
+      maintained at 400 ppm CO2, 0 umol m-2 s-1 PAR, 28C and 60-70 % relative
+      humidity. Five measurements of Rleaf were recorded at 5 second intervals,
+      and subsequently standardised to 25C following Rowland et al. (2015), and
+      the mean calculated. We use the stomatal conductance from the Rleaf
+      measurement as a measure of gdark, with lower values an indicator of
+      greater resource conservation. Steady state conditions within the leaf
+      chamber were reached before all gas exchange measurements were recorded.
+  - var_in: Rleaf_mass
+    unit_in: umol{CO2}/kg/s
+    trait_name: leaf_dark_respiration_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Rleaf was measured on a leaf adjacent to that used to measure
+      photosynthetic capacity using a LI-6400XT. We wrapped these leaves inside
+      aluminium foil for a minimum of 30 minutes to adapt them to the dark
+      before placing them inside the leaf chamber. Rleaf measurements were taken
+      directly after photosynthesis measurements. Leaf chamber conditions were
+      maintained at 400 ppm CO2, 0 umol m-2 s-1 PAR, 28C and 60-70 % relative
+      humidity. Five measurements of Rleaf were recorded at 5 second intervals,
+      and subsequently standardised to 25C following Rowland et al. (2015), and
+      the mean calculated.
+  - var_in: LMA
+    unit_in: g/m2
+    trait_name: leaf_mass_per_area
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Once leaf gas exchange measurements were complete, we removed both the
+      photosynthesis and respiration leaves and placed them in an airtight
+      ziplock bag. Moist cotton wool was used to maintain humidity inside the
+      bag and prevent water loss from the leaves. Leaves were weighed
+      immediately on return to the lab and scanned using a flatbed scanner
+      (CanoScan LiDE 120, Canon Inc., Tokyo, Japan). Leaf area was calculated
+      using ImageJ software (Schneider et al., 2012). Leaves were subsequently
+      placed in an oven at 50C and dried to a constant mass for 48-72 hours,
+      before being re-weighed. LMA for the Vcmax and Rleaf leaves was calculated
+      by dividing dry leaf mass by leaf area, allowing gas exchange measurements
+      to be expressed on both an area and mass basis. The mean of these leaves
+      was used for LMA estimates.
+  - var_in: leaf.thickness
+    unit_in: mm
+    trait_name: leaf_thickness
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Once leaf gas exchange measurements were complete, we removed both the
+      photosynthesis and respiration leaves and placed them in an airtight
+      ziplock bag. Moist cotton wool was used to maintain humidity inside the
+      bag and prevent water loss from the leaves. Leaf thickness was measured at
+      three points on both the Vcmax and Rleaf leaves using precision digital
+      callipers avoiding major veins. A mean of means was calculated to generate
+      an estimate of branch level leaf thickness.
+  - var_in: gdark
+    unit_in: mol/m2/s
+    trait_name: .na
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      We use the stomatal conductance from the Rleaf measurement as a measure of
+      gdark, with lower values an indicator of greater resource conservation.
+      Steady state conditions within the leaf chamber were reached before all
+      gas exchange measurements were recorded.
+  - var_in: n.leaf
+    unit_in: g/kg
+    trait_name: leaf_N_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Leaves from the additional harvested branch were analysed to quantify
+      [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves
+      were dried in a lab oven to constant weight and then ground using a Wiley
+      Mill ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each
+      sample was further dried at 105C to determine the moisture content, which
+      was used to convert all data (based on air-dry values) to oven-dry values.
+      Subsamples of the ground leaves were analysed for total N, P, Ca, K, and
+      Mg concentrations. Leaves were digested following the Kjeldahl method
+      using concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf
+      was measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific,
+      Oregon, USA). For the determination of [P]leaf, [Ca]leaf, [K]leaf, and
+      [Mg]leaf, the ground samples were digested using the sulphuric
+      acid-hydrogen peroxide method (Allen, 1989). [P]leaf was determined
+      colorimetrically using the molybdenum-blue method (Anderson and Ingram,
+      1993) by measuring the absorbance at 880 nm on a Spectrophotometer
+      (Hitachi U-2900 UV/Vis , Tokyo, Japan). [Ca]leaf, [K]leaf and [Mg]leaf
+      were measured spectrophotometrically on a Spectro Arcos ICP-OES (Spectro
+      Analytical Instruments, Kleve, Germany). Leaf nutrient concentrations were
+      multiplied by LMA (see above) to convert concentrations from a mass- to
+      area-basis.
+  - var_in: p.leaf
+    unit_in: g/kg
+    trait_name: leaf_P_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Leaves from the additional harvested branch were analysed to quantify
+      [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves
+      were dried in a lab oven to constant weight and then ground using a Wiley
+      Mill ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each
+      sample was further dried at 105C to determine the moisture content, which
+      was used to convert all data (based on air-dry values) to oven-dry values.
+      Subsamples of the ground leaves were analysed for total N, P, Ca, K, and
+      Mg concentrations. Leaves were digested following the Kjeldahl method
+      using concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf
+      was measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific,
+      Oregon, USA). For the determination of [P]leaf, [Ca]leaf, [K]leaf, and
+      [Mg]leaf, the ground samples were digested using the sulphuric
+      acid-hydrogen peroxide method (Allen, 1989). [P]leaf was determined
+      colorimetrically using the molybdenum-blue method (Anderson and Ingram,
+      1993) by measuring the absorbance at 880 nm on a Spectrophotometer
+      (Hitachi U-2900 UV/Vis , Tokyo, Japan). [Ca]leaf, [K]leaf and [Mg]leaf
+      were measured spectrophotometrically on a Spectro Arcos ICP-OES (Spectro
+      Analytical Instruments, Kleve, Germany). Leaf nutrient concentrations were
+      multiplied by LMA (see above) to convert concentrations from a mass- to
+      area-basis.
+  - var_in: ca.leaf
+    unit_in: g/kg
+    trait_name: leaf_Ca_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Leaves from the additional harvested branch were analysed to quantify
+      [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves
+      were dried in a lab oven to constant weight and then ground using a Wiley
+      Mill ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each
+      sample was further dried at 105C to determine the moisture content, which
+      was used to convert all data (based on air-dry values) to oven-dry values.
+      Subsamples of the ground leaves were analysed for total N, P, Ca, K, and
+      Mg concentrations. Leaves were digested following the Kjeldahl method
+      using concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf
+      was measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific,
+      Oregon, USA). For the determination of [P]leaf, [Ca]leaf, [K]leaf, and
+      [Mg]leaf, the ground samples were digested using the sulphuric
+      acid-hydrogen peroxide method (Allen, 1989). [P]leaf was determined
+      colorimetrically using the molybdenum-blue method (Anderson and Ingram,
+      1993) by measuring the absorbance at 880 nm on a Spectrophotometer
+      (Hitachi U-2900 UV/Vis , Tokyo, Japan). [Ca]leaf, [K]leaf and [Mg]leaf
+      were measured spectrophotometrically on a Spectro Arcos ICP-OES (Spectro
+      Analytical Instruments, Kleve, Germany). Leaf nutrient concentrations were
+      multiplied by LMA (see above) to convert concentrations from a mass- to
+      area-basis.
+  - var_in: k.leaf
+    unit_in: g/kg
+    trait_name: leaf_K_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Leaves from the additional harvested branch were analysed to quantify
+      [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves
+      were dried in a lab oven to constant weight and then ground using a Wiley
+      Mill ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each
+      sample was further dried at 105C to determine the moisture content, which
+      was used to convert all data (based on air-dry values) to oven-dry values.
+      Subsamples of the ground leaves were analysed for total N, P, Ca, K, and
+      Mg concentrations. Leaves were digested following the Kjeldahl method
+      using concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf
+      was measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific,
+      Oregon, USA). For the determination of [P]leaf, [Ca]leaf, [K]leaf, and
+      [Mg]leaf, the ground samples were digested using the sulphuric
+      acid-hydrogen peroxide method (Allen, 1989). [P]leaf was determined
+      colorimetrically using the molybdenum-blue method (Anderson and Ingram,
+      1993) by measuring the absorbance at 880 nm on a Spectrophotometer
+      (Hitachi U-2900 UV/Vis , Tokyo, Japan). [Ca]leaf, [K]leaf and [Mg]leaf
+      were measured spectrophotometrically on a Spectro Arcos ICP-OES (Spectro
+      Analytical Instruments, Kleve, Germany). Leaf nutrient concentrations were
+      multiplied by LMA (see above) to convert concentrations from a mass- to
+      area-basis.
+  - var_in: mg.leaf
+    unit_in: g/kg
+    trait_name: leaf_Mg_per_dry_mass
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Leaves from the additional harvested branch were analysed to quantify
+      [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves
+      were dried in a lab oven to constant weight and then ground using a Wiley
+      Mill ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each
+      sample was further dried at 105C to determine the moisture content, which
+      was used to convert all data (based on air-dry values) to oven-dry values.
+      Subsamples of the ground leaves were analysed for total N, P, Ca, K, and
+      Mg concentrations. Leaves were digested following the Kjeldahl method
+      using concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf
+      was measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific,
+      Oregon, USA). For the determination of [P]leaf, [Ca]leaf, [K]leaf, and
+      [Mg]leaf, the ground samples were digested using the sulphuric
+      acid-hydrogen peroxide method (Allen, 1989). [P]leaf was determined
+      colorimetrically using the molybdenum-blue method (Anderson and Ingram,
+      1993) by measuring the absorbance at 880 nm on a Spectrophotometer
+      (Hitachi U-2900 UV/Vis , Tokyo, Japan). [Ca]leaf, [K]leaf and [Mg]leaf
+      were measured spectrophotometrically on a Spectro Arcos ICP-OES (Spectro
+      Analytical Instruments, Kleve, Germany). Leaf nutrient concentrations were
+      multiplied by LMA (see above) to convert concentrations from a mass- to
+      area-basis.
+  - var_in: n.area
+    unit_in: g/m2
+    trait_name: leaf_N_per_area
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Leaves from the additional harvested branch were analysed to quantify
+      [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves
+      were dried in a lab oven to constant weight and then ground using a Wiley
+      Mill ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each
+      sample was further dried at 105C to determine the moisture content, which
+      was used to convert all data (based on air-dry values) to oven-dry values.
+      Subsamples of the ground leaves were analysed for total N, P, Ca, K, and
+      Mg concentrations. Leaves were digested following the Kjeldahl method
+      using concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf
+      was measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific,
+      Oregon, USA). For the determination of [P]leaf, [Ca]leaf, [K]leaf, and
+      [Mg]leaf, the ground samples were digested using the sulphuric
+      acid-hydrogen peroxide method (Allen, 1989). [P]leaf was determined
+      colorimetrically using the molybdenum-blue method (Anderson and Ingram,
+      1993) by measuring the absorbance at 880 nm on a Spectrophotometer
+      (Hitachi U-2900 UV/Vis , Tokyo, Japan). [Ca]leaf, [K]leaf and [Mg]leaf
+      were measured spectrophotometrically on a Spectro Arcos ICP-OES (Spectro
+      Analytical Instruments, Kleve, Germany). Leaf nutrient concentrations were
+      multiplied by LMA (see above) to convert concentrations from a mass- to
+      area-basis.
+  - var_in: p.area
+    unit_in: g/m2
+    trait_name: leaf_P_per_area
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Leaves from the additional harvested branch were analysed to quantify
+      [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves
+      were dried in a lab oven to constant weight and then ground using a Wiley
+      Mill ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each
+      sample was further dried at 105C to determine the moisture content, which
+      was used to convert all data (based on air-dry values) to oven-dry values.
+      Subsamples of the ground leaves were analysed for total N, P, Ca, K, and
+      Mg concentrations. Leaves were digested following the Kjeldahl method
+      using concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf
+      was measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific,
+      Oregon, USA). For the determination of [P]leaf, [Ca]leaf, [K]leaf, and
+      [Mg]leaf, the ground samples were digested using the sulphuric
+      acid-hydrogen peroxide method (Allen, 1989). [P]leaf was determined
+      colorimetrically using the molybdenum-blue method (Anderson and Ingram,
+      1993) by measuring the absorbance at 880 nm on a Spectrophotometer
+      (Hitachi U-2900 UV/Vis , Tokyo, Japan). [Ca]leaf, [K]leaf and [Mg]leaf
+      were measured spectrophotometrically on a Spectro Arcos ICP-OES (Spectro
+      Analytical Instruments, Kleve, Germany). Leaf nutrient concentrations were
+      multiplied by LMA (see above) to convert concentrations from a mass- to
+      area-basis.
+  - var_in: ca.area
+    unit_in: g/m2
+    trait_name: .na
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Leaves from the additional harvested branch were analysed to quantify
+      [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves
+      were dried in a lab oven to constant weight and then ground using a Wiley
+      Mill ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each
+      sample was further dried at 105C to determine the moisture content, which
+      was used to convert all data (based on air-dry values) to oven-dry values.
+      Subsamples of the ground leaves were analysed for total N, P, Ca, K, and
+      Mg concentrations. Leaves were digested following the Kjeldahl method
+      using concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf
+      was measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific,
+      Oregon, USA). For the determination of [P]leaf, [Ca]leaf, [K]leaf, and
+      [Mg]leaf, the ground samples were digested using the sulphuric
+      acid-hydrogen peroxide method (Allen, 1989). [P]leaf was determined
+      colorimetrically using the molybdenum-blue method (Anderson and Ingram,
+      1993) by measuring the absorbance at 880 nm on a Spectrophotometer
+      (Hitachi U-2900 UV/Vis , Tokyo, Japan). [Ca]leaf, [K]leaf and [Mg]leaf
+      were measured spectrophotometrically on a Spectro Arcos ICP-OES (Spectro
+      Analytical Instruments, Kleve, Germany). Leaf nutrient concentrations were
+      multiplied by LMA (see above) to convert concentrations from a mass- to
+      area-basis.
+  - var_in: k.area
+    unit_in: g/m2
+    trait_name: leaf_K_per_area
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Leaves from the additional harvested branch were analysed to quantify
+      [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves
+      were dried in a lab oven to constant weight and then ground using a Wiley
+      Mill ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each
+      sample was further dried at 105C to determine the moisture content, which
+      was used to convert all data (based on air-dry values) to oven-dry values.
+      Subsamples of the ground leaves were analysed for total N, P, Ca, K, and
+      Mg concentrations. Leaves were digested following the Kjeldahl method
+      using concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf
+      was measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific,
+      Oregon, USA). For the determination of [P]leaf, [Ca]leaf, [K]leaf, and
+      [Mg]leaf, the ground samples were digested using the sulphuric
+      acid-hydrogen peroxide method (Allen, 1989). [P]leaf was determined
+      colorimetrically using the molybdenum-blue method (Anderson and Ingram,
+      1993) by measuring the absorbance at 880 nm on a Spectrophotometer
+      (Hitachi U-2900 UV/Vis , Tokyo, Japan). [Ca]leaf, [K]leaf and [Mg]leaf
+      were measured spectrophotometrically on a Spectro Arcos ICP-OES (Spectro
+      Analytical Instruments, Kleve, Germany). Leaf nutrient concentrations were
+      multiplied by LMA (see above) to convert concentrations from a mass- to
+      area-basis.
+  - var_in: mg.area
+    unit_in: g/m2
+    trait_name: .na
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: unknown
+    methods:
+      Leaves from the additional harvested branch were analysed to quantify
+      [N]leaf, [P]leaf, [Ca]leaf, [K]leaf and [Mg]leaf concentrations. Leaves
+      were dried in a lab oven to constant weight and then ground using a Wiley
+      Mill ED-5 (Thomas Scientific, USA) to pass a 2-mm sieve. A portion of each
+      sample was further dried at 105C to determine the moisture content, which
+      was used to convert all data (based on air-dry values) to oven-dry values.
+      Subsamples of the ground leaves were analysed for total N, P, Ca, K, and
+      Mg concentrations. Leaves were digested following the Kjeldahl method
+      using concentrated sulphuric acid (Anderson and Ingram, 1993) and [N]leaf
+      was measured using a micro-SFA (Astoria2 Analyzer, Astoria Pacific,
+      Oregon, USA). For the determination of [P]leaf, [Ca]leaf, [K]leaf, and
+      [Mg]leaf, the ground samples were digested using the sulphuric
+      acid-hydrogen peroxide method (Allen, 1989). [P]leaf was determined
+      colorimetrically using the molybdenum-blue method (Anderson and Ingram,
+      1993) by measuring the absorbance at 880 nm on a Spectrophotometer
+      (Hitachi U-2900 UV/Vis , Tokyo, Japan). [Ca]leaf, [K]leaf and [Mg]leaf
+      were measured spectrophotometrically on a Spectro Arcos ICP-OES (Spectro
+      Analytical Instruments, Kleve, Germany). Leaf nutrient concentrations were
+      multiplied by LMA (see above) to convert concentrations from a mass- to
+      area-basis.
 substitutions: .na
 taxonomic_updates: .na
 exclude_observations: .na
