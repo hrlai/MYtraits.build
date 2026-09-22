@@ -5,6 +5,10 @@ data/Kaye_2013/raw
 data/Thomas_1995/raw/Thomas-OntogeneticChangesLeaf-1995.pdf
 data/Sterck_2001/raw/A_1017507723365.pdf
 
+# large flora or backbone datasets
+# World Flora Online
+inst/extdata/classification.csv  
+
 # History files
 .Rhistory
 .Rapp.history
