@@ -64,7 +64,9 @@ dataset:
     Original data provided pressure to puncture in Newton, but did not specify
     the punch circumference. Hao Ran assumed that the same a 1-mm2 flat head rod
     Chatillon puncher was used as Burslem_2022, since the lead author was
-    supervised by David Burslem.
+    supervised by David Burslem. Observations with conflicting species
+    assignments (same individual with multiple species/genus combinations) were
+    removed from the raw data as data entry errors.
 identifiers: .na
 locations: .na
 contexts: .na
@@ -128,5 +130,8 @@ traits:
       dry mass (g).
 substitutions: .na
 taxonomic_updates: .na
-exclude_observations: .na
+exclude_observations:
+  - variable: individual_id
+    find: "62614, 70034, 140138"
+    reason: Conflicting species/genus assignments (likely data entry errors)
 questions: .na
