@@ -69,24 +69,28 @@ align_to_wfo <- function(
   format_candidate_table <- function(all_candidates, x, strategy) {
     preferred <- all_candidates |>
       as.data.frame() |>
-      WorldFlora::WFO.one(spec.name = "aligned_name", verbose = FALSE) |>
+      WorldFlora::WFO.one(spec.name = "spec.name.ORIG", verbose = FALSE) |>
       tibble::as_tibble() |>
       dplyr::select(
-        aligned_name,
+        spec.name.ORIG,
         preferred_taxon_id = taxonID,
         one_reason = One.Reason
       ) |>
       dplyr::distinct()
 
     candidate_counts <- all_candidates |>
-      dplyr::count(aligned_name, name = "candidate_count")
+      dplyr::count(spec.name.ORIG, name = "candidate_count")
 
     candidate_table <- all_candidates |>
-      dplyr::left_join(x, by = "aligned_name") |>
-      dplyr::left_join(candidate_counts, by = "aligned_name") |>
+      dplyr::left_join(
+        x,
+        by = c("spec.name.ORIG" = "aligned_name"),
+        relationship = "many-to-one"
+      ) |>
+      dplyr::left_join(candidate_counts, by = "spec.name.ORIG") |>
       dplyr::left_join(
         preferred,
-        by = "aligned_name",
+        by = "spec.name.ORIG",
         relationship = "many-to-one"
       ) |>
       dplyr::mutate(
@@ -102,21 +106,21 @@ align_to_wfo <- function(
 
     preferred_rows <- candidate_table |>
       dplyr::filter(Matched, taxonID == preferred_taxon_id) |>
-      dplyr::group_by(aligned_name) |>
+      dplyr::group_by(spec.name.ORIG) |>
       dplyr::mutate(preferred_row = dplyr::row_number() == 1) |>
       dplyr::ungroup() |>
-      dplyr::select(aligned_name, taxonID, preferred_row)
+      dplyr::select(spec.name.ORIG, taxonID, preferred_row)
 
     candidate_table |>
       dplyr::left_join(
         preferred_rows,
-        by = c("aligned_name", "taxonID"),
+        by = c("spec.name.ORIG", "taxonID"),
         relationship = "many-to-many"
       ) |>
       dplyr::mutate(wfo_preferred = dplyr::coalesce(preferred_row, FALSE)) |>
       dplyr::select(-preferred_row) |>
       dplyr::transmute(
-        aligned_name,
+        aligned_name = spec.name.ORIG,
         original_name,
         n_datasets,
         datasets,
@@ -165,8 +169,7 @@ align_to_wfo <- function(
       Fuzzy = fuzzy,
       verbose = FALSE
     ) |>
-      tibble::as_tibble() |>
-      dplyr::rename(aligned_name = spec.name)
+      tibble::as_tibble()
 
     format_candidate_table(
       all_candidates = all_candidates,
