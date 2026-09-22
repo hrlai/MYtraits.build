@@ -1,0 +1,16 @@
+[project]
+name = "MYtraits.build"
+
+[dependencies]
+WorldFlora = "*"
+ellmer = "*"
+hexSticker = "*"
+readxl = "*"
+rlang = "*"
+sf = "*"
+stringr = "*"
+tidyr = "*"
+tidyverse = "*"
+
+[dependencies."traits.build"]
+git = "traitecoevo/traits.build"

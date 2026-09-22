@@ -59,3 +59,7 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# uvr files
+/.uvr/library/
+/.uvr/activate*
