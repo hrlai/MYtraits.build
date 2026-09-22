@@ -46,6 +46,8 @@ Repository version evidence is limited. Be conservative.
 - Do not assume newest R or package features are acceptable.
 - If a change needs a new package, a new structure, or newer API, keep the
   change small and state the dependency explicitly.
+- A `uvr` dependency workflow is in place; use it for environment,
+  package updates or CI when relevant instead of ad hoc installation steps.
 
 ## R Code Style
 
