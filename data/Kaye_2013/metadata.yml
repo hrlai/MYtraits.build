@@ -1,0 +1,129 @@
+source:
+  primary:
+    key: Kaye_2013
+    bibtype: Draft
+    year: 2013
+    author:
+      Maria E. Kaye and Berhaman Ahmad and William J. F. McDonald and Glen
+      Reynolds and David F. R. P. Burslem
+    title:
+      Environment determines tree community assembly and mean functional traits
+      in a lowland tropical forest in Borneo
+contributors:
+  data_collectors:
+    - last_name: Kaye
+      given_name: Maria E.
+      affiliation: University of Aberdeen
+  assistants: unknown
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: no
+  custom_R_code: .na
+  collection_date: Date
+  taxon_name: taxon_name
+  location_name: unknown
+  individual_id: number
+  description:
+    This investigation seeks to determine whether community composition and
+    functional diversity vary along fine-scale environmental gradients and if
+    communities are randomly assembled with respect to functional traits in
+    Danum valley, Sabah. Measurements of leaf traits were obtained for 320 tree
+    species growing on the 50ha census plot and combined with metrics of soil
+    nutrient availability and topographic variables. Non-metric
+    multi-dimensional scaling was used to investigate community composition and
+    a null model approach was taken to determine whether communities were
+    randomly assembled with respect to functional diversity. The analyses
+    uncovered an elevation gradient of 57.5 m that co-varied with soil Ca, Mg, K
+    and Al concentrations and correlated with community composition and
+    functional diversity.
+  basis_of_record: field
+  life_stage: sapling
+  sampling_strategy:
+    Leaf traits were measured on two leaves collected from five trees per
+    species for 320 species (69% of all species representing 89% of all stems)
+    represented on these 80 quadrats, to give a sample of 10 leaves per species.
+    In some instances, where leaves were disproportionately large or a tree was
+    particularly small, we collected only one leaf to reduce damage to the tree.
+    Sub-canopy trees (where the underside of the crown was 6m or less above the
+    ground) were selected for sampling at random from within the 76 quadrats
+    where possible, but for 75% of species, there were fewer than five
+    individuals on the selected quadrats and so samples were collected from
+    additional trees outside the quadrats for calculating mean values. For the
+    1623 individuals identified for sampling, we collected shade leaves between
+    1.5 and 6 m above the ground using a pole pruner. Shade rather than sun
+    leaves were selected in order to compare individuals within the size classes
+    where we infer that competition and filtering are actively taking place,
+    rather than from the largest (and most well-lit) trees that comprise the
+    canopy, and because many species at our study site are understorey and
+    sub-canopy trees that never reach the canopy at maturity.
+  original_file: data/Kaye_2013/raw/All leaves.xlsx
+  notes:
+    Original data provided pressure to puncture in Newton, but did not specify
+    the punch circumference. Hao Ran assumed that the same a 1-mm2 flat head rod
+    Chatillon puncher was used as Burslem_2022, since the lead author was
+    supervised by David Burslem.
+identifiers: .na
+locations: .na
+contexts: .na
+traits:
+  - var_in: leaf_work_to_punch
+    unit_in: N/mm
+    trait_name: leaf_work_to_punch
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 2
+    methods:
+      We measured leaf toughness on the same leaves using a hand-held
+      penetrometer (DFX-050 force gauge, Chatillon, AMETEK) to puncture the leaf
+      surface and record peak resistance.
+  - var_in: area (mm2)
+    unit_in: mm2
+    trait_name: leaf_area
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 2
+    methods:
+      We measured leaf surface area by scanning leaves directly with a CanoScan
+      LiDE 110 scanner (Canon, UK) for 2230 samples and by photographing leaves
+      pressed flat beneath a sheet of glass using a Panasonic DMC-FT10 camera
+      for the remaining 1040 samples. For both methods, we calculated surface
+      area by counting the pixels comprising leaf area on the digital images
+      using ImageJ (1040 v1.47, Rasband, W.S., ImageJ, U. S. National Institutes
+      of Health, Bethesda, Maryland, USA,).
+  - var_in: LDMC
+    unit_in: g/g
+    trait_name: leaf_dry_matter_content
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 2
+    methods:
+      We recorded the mass of each leaf before and after drying for a minimum of
+      68 hours at 55C. We calculated LDMC as the dry mass divided by the fresh
+      mass.
+  - var_in: SLA
+    unit_in: cm2/g
+    trait_name: leaf_mass_per_area
+    entity_type: individual
+    value_type: mean
+    basis_of_value: measurement
+    replicates: 2
+    methods:
+      For SLA, we removed the petiole of simple leaves and the rachis below the
+      first leaflet in compound leaves and cleaned the leaves to remove any
+      remaining epiphylls. We measured leaf surface area by scanning leaves
+      directly with a CanoScan LiDE 110 scanner (Canon, UK) for 2230 samples and
+      by photographing leaves pressed flat beneath a sheet of glass using a
+      Panasonic DMC-FT10 camera for the remaining 1040 samples. For both
+      methods, we calculated surface area by counting the pixels comprising leaf
+      area on the digital images using ImageJ (1040 v1.47, Rasband, W.S.,
+      ImageJ, U. S. National Institutes of Health, Bethesda, Maryland, USA,). We
+      recorded the mass of each leaf before and after drying for a minimum of 68
+      hours at 55oC. We calculated SLA as leaf surface area (cm2) divided by the
+      dry mass (g).
+substitutions: .na
+taxonomic_updates: .na
+exclude_observations: .na
+questions: .na
