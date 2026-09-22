@@ -1,5 +1,6 @@
 # data not yet ready to publicise
-data/Kaye_2013/raw
+data/Kaye_2013/raw/*.xlsx
+data/Kaye_2013/raw/*.docx
 
 # original articles that contained data
 data/Thomas_1995/raw/Thomas-OntogeneticChangesLeaf-1995.pdf
