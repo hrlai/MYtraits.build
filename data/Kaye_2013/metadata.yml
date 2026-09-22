@@ -1,7 +1,7 @@
 source:
   primary:
     key: Kaye_2013
-    bibtype: Draft
+    bibtype: misc
     year: 2013
     author:
       Maria E. Kaye and Berhaman Ahmad and William J. F. McDonald and Glen
@@ -13,6 +13,7 @@ contributors:
   data_collectors:
     - last_name: Kaye
       given_name: Maria E.
+      ORCID: unknown
       affiliation: University of Aberdeen
   assistants: unknown
   dataset_curators: Hao Ran Lai
@@ -55,7 +56,9 @@ dataset:
     where we infer that competition and filtering are actively taking place,
     rather than from the largest (and most well-lit) trees that comprise the
     canopy, and because many species at our study site are understorey and
-    sub-canopy trees that never reach the canopy at maturity.
+    sub-canopy trees that never reach the canopy at maturity. Some individuals
+    were measured on multiple collection dates; only the earliest measurement
+    per individual is retained in this dataset.
   original_file: data/Kaye_2013/raw/All leaves.xlsx
   notes:
     Original data provided pressure to puncture in Newton, but did not specify
