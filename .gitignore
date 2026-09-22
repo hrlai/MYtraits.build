@@ -1,6 +1,14 @@
+# data not yet ready to publicise
+data/Kaye_2013/raw/*.xlsx
+data/Kaye_2013/raw/*.docx
+
 # original articles that contained data
 data/Thomas_1995/raw/Thomas-OntogeneticChangesLeaf-1995.pdf
 data/Sterck_2001/raw/A_1017507723365.pdf
+
+# large flora or backbone datasets
+# World Flora Online
+inst/extdata/classification.csv  
 
 # History files
 .Rhistory
