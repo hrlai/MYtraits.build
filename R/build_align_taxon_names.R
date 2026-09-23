@@ -15,32 +15,6 @@ assert_unique_key <- function(x, key, object_name) {
   }
 }
 
-refresh_review_table <- function(review_table, review_output_path) {
-  template <- review_table |>
-    dplyr::transmute(
-      aligned_name,
-      name_class,
-      review_reason,
-      match_strategy,
-      current_taxon_name = scientificName,
-      current_taxon_id = taxonID,
-      current_taxon_rank = taxonRank,
-      current_taxonomic_status = taxonomicStatus,
-      decision = NA_character_,
-      manual_taxon_id = NA_character_,
-      notes = NA_character_
-    ) |>
-    dplyr::arrange(aligned_name)
-
-  dir.create(
-    dirname(review_output_path),
-    recursive = TRUE,
-    showWarnings = FALSE
-  )
-  readr::write_csv(template, review_output_path, na = "")
-  template
-}
-
 lookup_aligned_name_status <- function(x, wfo_backbone) {
   candidates <- x |>
     dplyr::select(aligned_name, taxon_id) |>
@@ -90,27 +64,60 @@ lookup_aligned_name_status <- function(x, wfo_backbone) {
 
 #' Build a MYtraits taxon list from Step 2 WFO alignment output.
 #'
-#' Creates or refreshes the user-facing review file for names that still
-#' require explicit review. A replacement taxon list is written only when every
-#' unresolved name is covered by a manual decision.
+#' Treats Step 2 as the review checkpoint. This function builds
+#' `config/taxon_list.csv` from the preferred Step 2 matches and stops whenever
+#' unresolved Step 2 review rows remain or any name lacks a preferred match.
 #'
 #' @param candidate_output_path Path to `data/MYtraits_taxon_alignment_detail.csv`.
+#' @param review_output_path Path to `data/MYtraits_alignment_review_needed.csv`.
 #' @param wfo_backbone_path Path to the WFO backbone file.
-#' @param review_output_path Path to the user-facing review CSV.
 #' @param output_path Path for the final `config/taxon_list.csv` output.
-#' @param strict If `TRUE`, stop when unresolved names remain after applying
-#'   manual decisions.
 #'
 #' @return Invisibly returns a list with the final `taxon_list`, the current
-#'   `review_table`, and any `remaining_unresolved` names.
+#'   `review_table`, and the `preferred_matches` used to build the output.
 build_mytraits_taxon_list <- function(
   candidate_output_path = "data/MYtraits_taxon_alignment_detail.csv",
-  wfo_backbone_path = "inst/extdata/classification.csv",
   review_output_path = "data/MYtraits_alignment_review_needed.csv",
-  output_path = "config/taxon_list.csv",
-  strict = TRUE
+  wfo_backbone_path = "inst/extdata/classification.csv",
+  output_path = "config/taxon_list.csv"
 ) {
   alignment <- readr::read_csv(candidate_output_path, show_col_types = FALSE)
+
+  required_cols <- c(
+    "original_name",
+    "wfo_preferred",
+    "taxonID",
+    "acceptedNameUsageID"
+  )
+
+  missing_cols <- setdiff(required_cols, names(alignment))
+  if (length(missing_cols) > 0) {
+    stop(
+      "Step 2 candidate table is missing required columns: ",
+      paste(missing_cols, collapse = ", ")
+    )
+  }
+
+  if (!file.exists(review_output_path)) {
+    stop(
+      "Step 2 review file is missing: `",
+      review_output_path,
+      "`. Run Step 2 before running Step 3."
+    )
+  }
+
+  review_table <- readr::read_csv(review_output_path, show_col_types = FALSE)
+
+  if (nrow(review_table) > 0) {
+    stop(
+      "Taxon list not written. ",
+      nrow(review_table),
+      " Step 2 review row(s) remain in `",
+      review_output_path,
+      "`. Resolve them in Step 2 before running Step 3."
+    )
+  }
+
   WorldFlora::WFO.remember(wfo_backbone_path)
   wfo_backbone <- tibble::as_tibble(WFO.data)
 
@@ -129,21 +136,74 @@ build_mytraits_taxon_list <- function(
 
   assert_unique_key(accepted_taxa, "taxon_id", "Accepted WFO taxa")
 
-  review_table <- alignment |>
-    dplyr::filter(!is.na(review_reason)) |>
-    dplyr::arrange(aligned_name)
-
-  unresolved <- alignment |>
-    dplyr::filter(
-      is.na(taxonID) |
-        is.na(scientificName)
+  preferred_matches <- alignment |>
+    dplyr::filter(isTRUE(wfo_preferred)) |>
+    dplyr::mutate(
+      dplyr::across(
+        c(taxonID, acceptedNameUsageID),
+        ~ dplyr::na_if(.x, "")
+      )
     ) |>
-    dplyr::arrange(aligned_name)
+    dplyr::arrange(original_name)
+
+  assert_unique_key(
+    preferred_matches,
+    "original_name",
+    "Preferred Step 2 matches"
+  )
+
+  names_without_preferred_match <- alignment |>
+    dplyr::distinct(original_name) |>
+    dplyr::anti_join(
+      preferred_matches |>
+        dplyr::select(original_name),
+      by = "original_name"
+    )
+
+  if (nrow(names_without_preferred_match) > 0) {
+    stop(
+      "Taxon list not written. No preferred Step 2 match exists for: ",
+      paste(names_without_preferred_match$original_name, collapse = ", ")
+    )
+  }
+
+  preferred_matches <- preferred_matches |>
+    dplyr::transmute(
+      aligned_name = original_name,
+      taxon_id = dplyr::coalesce(acceptedNameUsageID, taxonID)
+    )
+
+  unresolved_preferred_matches <- preferred_matches |>
+    dplyr::filter(is.na(taxon_id))
+
+  if (nrow(unresolved_preferred_matches) > 0) {
+    stop(
+      "Taxon list not written. Preferred Step 2 matches lacked an accepted taxon ID for: ",
+      paste(unresolved_preferred_matches$aligned_name, collapse = ", ")
+    )
+  }
+
+  taxon_list <- preferred_matches |>
+    dplyr::left_join(
+      accepted_taxa,
+      by = "taxon_id",
+      relationship = "many-to-one"
+    )
+
+  missing_backbone_rows <- taxon_list |>
+    dplyr::filter(is.na(taxon_name) | is.na(taxon_rank))
+
+  if (nrow(missing_backbone_rows) > 0) {
+    stop(
+      "Preferred Step 2 matches did not resolve to accepted WFO taxa: ",
+      paste(sort(unique(missing_backbone_rows$taxon_id)), collapse = ", ")
+    )
+  }
 
   genus_ids <- accepted_taxa |>
     dplyr::filter(taxon_rank == "genus") |>
     dplyr::semi_join(
-      alignment |>
+      taxon_list |>
         dplyr::filter(!is.na(genus)) |>
         dplyr::distinct(genus),
       by = c("taxon_name" = "genus")
@@ -153,7 +213,7 @@ build_mytraits_taxon_list <- function(
   family_ids <- accepted_taxa |>
     dplyr::filter(taxon_rank == "family") |>
     dplyr::semi_join(
-      alignment |>
+      taxon_list |>
         dplyr::filter(!is.na(family)) |>
         dplyr::distinct(family),
       by = c("taxon_name" = "family")
@@ -167,116 +227,10 @@ build_mytraits_taxon_list <- function(
     "Accepted WFO families used in MYtraits"
   )
 
-  review_table <- refresh_review_table(
-    review_table = review_table,
-    review_output_path = review_output_path
+  aligned_name_status <- lookup_aligned_name_status(
+    x = taxon_list,
+    wfo_backbone = wfo_backbone
   )
-
-  manual_decisions_path <- review_output_path
-  manual_decisions <- review_table
-
-  valid_decisions <- c(NA_character_, "use_step2_match", "use_manual_taxon_id")
-  invalid_decisions <- review_table |>
-    dplyr::filter(!is.na(decision) & !decision %in% valid_decisions)
-
-  if (nrow(invalid_decisions) > 0) {
-    stop(
-      "Invalid manual decision values found: ",
-      paste(sort(unique(invalid_decisions$decision)), collapse = ", "),
-      ". Use `use_step2_match` or `use_manual_taxon_id`."
-    )
-  }
-
-  auto_resolved <- alignment |>
-    dplyr::anti_join(
-      unresolved |>
-        dplyr::select(aligned_name),
-      by = "aligned_name"
-    ) |>
-    dplyr::transmute(
-      aligned_name,
-      taxon_id,
-      submitted_wfo_name,
-      submitted_wfo_status
-    )
-
-  approved_step2 <- unresolved |>
-    dplyr::inner_join(
-      manual_decisions |>
-        dplyr::filter(decision == "use_step2_match") |>
-        dplyr::select(aligned_name),
-      by = "aligned_name"
-    )
-
-  unusable_step2 <- approved_step2 |>
-    dplyr::filter(is.na(taxon_id) | is.na(wfo_scientific_name))
-
-  if (nrow(unusable_step2) > 0) {
-    stop(
-      "`use_step2_match` was selected for names without a usable Step 2 match: ",
-      paste(unusable_step2$aligned_name, collapse = ", ")
-    )
-  }
-
-  approved_step2 <- approved_step2 |>
-    dplyr::transmute(
-      aligned_name,
-      taxon_id,
-      submitted_wfo_name,
-      submitted_wfo_status
-    )
-
-  manual_taxa <- unresolved |>
-    dplyr::inner_join(
-      manual_decisions |>
-        dplyr::filter(decision == "use_manual_taxon_id") |>
-        dplyr::select(aligned_name, manual_taxon_id),
-      by = "aligned_name"
-    ) |>
-    dplyr::transmute(
-      aligned_name,
-      taxon_id = manual_taxon_id,
-      submitted_wfo_name = NA_character_,
-      submitted_wfo_status = NA_character_
-    )
-
-  resolved_names <- dplyr::bind_rows(auto_resolved, approved_step2, manual_taxa)
-
-  remaining_unresolved <- unresolved |>
-    dplyr::anti_join(
-      resolved_names |>
-        dplyr::select(aligned_name),
-      by = "aligned_name"
-    )
-
-  if (isTRUE(strict) && nrow(remaining_unresolved) > 0) {
-    stop(
-      "Taxon list not written. ",
-      nrow(remaining_unresolved),
-      " names still need decisions in `",
-      review_output_path,
-      "`."
-    )
-  }
-
-  taxon_list <- resolved_names |>
-    dplyr::left_join(
-      accepted_taxa,
-      by = "taxon_id",
-      relationship = "many-to-one"
-    )
-
-  missing_backbone_rows <- taxon_list |>
-    dplyr::filter(is.na(taxon_name) | is.na(taxon_rank))
-
-  if (nrow(missing_backbone_rows) > 0) {
-    stop(
-      "Manual taxon IDs were not found as accepted WFO taxa: ",
-      paste(sort(unique(missing_backbone_rows$taxon_id)), collapse = ", ")
-    )
-  }
-
-  aligned_name_status <- lookup_aligned_name_status(taxon_list, wfo_backbone)
 
   taxon_list <- taxon_list |>
     dplyr::left_join(
@@ -358,22 +312,22 @@ build_mytraits_taxon_list <- function(
 
   assert_unique_key(taxon_list, "aligned_name", "Final taxon list")
 
+  dir.create(dirname(output_path), recursive = TRUE, showWarnings = FALSE)
   readr::write_csv(taxon_list, output_path, na = "")
 
   invisible(list(
     taxon_list = taxon_list,
     review_table = review_table,
-    remaining_unresolved = remaining_unresolved
+    preferred_matches = preferred_matches
   ))
 }
 
 #' Align submitted taxon names to a taxon list.
 #'
-#' Detects a submitted-name column in `dataset`, matches it against
-#' `taxon_list$aligned_name`, and returns the original data with a populated
-#' `taxon_name` column.
+#' Matches `dataset$original_name` against `taxon_list$aligned_name` and returns
+#' the original data with a populated `taxon_name` column.
 #'
-#' @param dataset A data frame containing a submitted taxon-name column.
+#' @param dataset A data frame containing an `original_name` column.
 #' @param taxon_list A data frame or path to `config/taxon_list.csv`.
 #' @param strict If `TRUE`, stop when any submitted names are not found.
 #'
@@ -383,40 +337,31 @@ align_taxon_names <- function(dataset, taxon_list, strict = TRUE) {
     taxon_list <- readr::read_csv(taxon_list, show_col_types = FALSE)
   }
 
-  required_cols <- c("aligned_name", "taxon_name")
-  missing_cols <- setdiff(required_cols, names(taxon_list))
-  if (length(missing_cols) > 0) {
-    stop(
-      "Taxon list is missing required columns: ",
-      paste(missing_cols, collapse = ", ")
-    )
+  if (!"original_name" %in% names(dataset)) {
+    stop("Dataset must contain an `original_name` column.")
   }
 
-  name_column <- dplyr::case_when(
-    "species" %in% names(dataset) ~ "species",
-    "aligned_name" %in% names(dataset) ~ "aligned_name",
-    "taxon_name" %in% names(dataset) ~ "taxon_name",
-    .default = NA_character_
-  )
-
-  if (is.na(name_column)) {
-    stop("Dataset must contain one of: species, aligned_name, taxon_name.")
+  if (!"taxon_name" %in% names(taxon_list)) {
+    stop("Taxon list must contain a `taxon_name` column.")
   }
 
   matched_names <- tibble::tibble(
-    aligned_name = normalize_taxon_name(dataset[[name_column]])
+    original_name = normalize_taxon_name(dataset$original_name)
   ) |>
     dplyr::left_join(
       taxon_list |>
-        dplyr::select(aligned_name, taxon_name),
-      by = "aligned_name",
+        dplyr::transmute(
+          original_name = normalize_taxon_name(aligned_name),
+          taxon_name
+        ),
+      by = "original_name",
       relationship = "many-to-one"
     )
 
   unmatched <- matched_names |>
     dplyr::filter(is.na(taxon_name)) |>
-    dplyr::distinct(aligned_name) |>
-    dplyr::pull(aligned_name)
+    dplyr::distinct(original_name) |>
+    dplyr::pull(original_name)
 
   if (length(unmatched) > 0 && isTRUE(strict)) {
     stop(

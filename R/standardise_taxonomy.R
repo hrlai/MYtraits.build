@@ -1,13 +1,29 @@
 source("R/extract_species_list.R")
+source("R/align_to_wfo.R")
+source("R/build_align_taxon_names.R")
 
-standardise_taxonomy <- function(
-  database_path = "export/data/curr/MYtraits.rds",
-  species_output = "data/MYtraits_raw_species_list.csv"
-) {
-  extract_species_list(
-    database_path = database_path,
-    output_path = species_output
-  )
-}
+database_path <- "export/data/curr/MYtraits.rds"
+species_output_path <- "data/MYtraits_raw_species_list.csv"
+candidate_output_path <- "data/MYtraits_taxon_alignment_detail.csv"
+review_output_path <- "data/MYtraits_alignment_review_needed.csv"
+wfo_backbone_path <- "inst/extdata/classification.csv"
+taxon_list_output_path <- "config/taxon_list.csv"
 
-standardise_taxonomy()
+extract_species_list(
+  database_path = database_path,
+  output_path = species_output_path
+)
+
+align_to_wfo(
+  species_list_path = species_output_path,
+  wfo_backbone_path = wfo_backbone_path,
+  candidate_output_path = candidate_output_path,
+  review_output_path = review_output_path
+)
+
+build_mytraits_taxon_list(
+  candidate_output_path = candidate_output_path,
+  review_output_path = review_output_path,
+  wfo_backbone_path = wfo_backbone_path,
+  output_path = taxon_list_output_path
+)
