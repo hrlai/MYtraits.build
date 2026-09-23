@@ -1,0 +1,786 @@
+aligned_name,original_name,n_datasets,datasets,n_records,name_class
+Acranthera frutescens,Acranthera frutescens,1,Kaye_2013,1,species
+Actinodaphne,Actinodaphne,3,Both_2019; Both_2019_2; Both_2021,3,genus
+Actinodaphne glomerata,Actinodaphne glomerata,1,Kaye_2013,1,species
+Adinandra dumosa,Adinandra dumosa,3,Both_2019; Both_2019_2; Both_2021,3,species
+Agelaea sp.,Agelaea sp.,2,Burslem_2022; Burslem_2022_2,2,genus
+Aglaia,Aglaia,1,Kaye_2013,1,genus
+Aglaia angustifolia,Aglaia angustifolia,1,Kaye_2013,1,species
+Aglaia argentea,Aglaia argentea,1,Kaye_2013,1,species
+Aglaia aspera,Aglaia aspera,1,Iida_2011,1,species
+Aglaia crassinervia,Aglaia crassinervia,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Aglaia elliptica,Aglaia elliptica,1,Kaye_2013,1,species
+Aglaia exstipulata,Aglaia exstipulata,1,Iida_2011,1,species
+Aglaia forbesii,Aglaia forbesii,1,Iida_2011,1,species
+Aglaia grandis,Aglaia grandis,2,Iida_2011; Kaye_2013,2,species
+Aglaia lawii,Aglaia lawii,1,Iida_2011,1,species
+Aglaia leptantha,Aglaia leptantha,3,Both_2019; Both_2019_2; Both_2021,3,species
+Aglaia luzoniensis,Aglaia luzoniensis,1,Kaye_2013,1,species
+Aglaia macrocarpa,Aglaia macrocarpa,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Aglaia odoratissima,Aglaia odoratissima,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Aglaia oligophylla,Aglaia oligophylla,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Aglaia silvestris,Aglaia silvestris,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Aglaia tomentosa,Aglaia tomentosa,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Aidia densiflora,Aidia densiflora,2,Wright_2024; Wright_2024_2,2,species
+Aidia wallichiana,Aidia wallichiana,1,Iida_2011,1,species
+Alangium ebenaceum,Alangium ebenaceum,2,Wright_2024; Wright_2024_2,2,species
+Alangium javanica,Alangium javanica,1,Kaye_2013,1,species
+Alangium javanicum,Alangium javanicum,3,Both_2019; Both_2019_2; Both_2021,3,species
+Alangium ridleyi,Alangium ridleyi,1,Iida_2011,1,species
+Allophylus cobbe,Allophylus cobbe,1,Kaye_2013,1,species
+Alphonsea elliptica,Alphonsea elliptica,1,Iida_2011,1,species
+Alphonsea maingayi,Alphonsea maingayi,2,Wright_2024; Wright_2024_2,2,species
+Alseodaphne bancana,Alseodaphne bancana,1,Kaye_2013,1,species
+Alstonia angustifolia,Alstonia angustifolia,1,Kaye_2013,1,species
+Alstonia angustiloba,Alstonia angustiloba,3,Both_2019; Both_2019_2; Both_2021,3,species
+Anacolosa frutescens,Anacolosa frutescens,2,Iida_2011; Wright_2024,2,species
+Anaxagorea javanica,Anaxagorea javanica,3,Kaye_2013; Wright_2024; Wright_2024_2,3,species
+Anisophylla corneri,Anisophylla corneri,1,Wright_2024,1,species
+Anisophyllea beccarianum,Anisophyllea beccarianum,1,Kaye_2013,1,species
+Anisophyllea corneri,Anisophyllea corneri,1,Iida_2011,1,species
+Anisoptera costata,Anisoptera costata,1,Kaye_2013,1,species
+Antiaris toxicaria,Antiaris toxicaria,3,Both_2019; Both_2019_2; Both_2021,3,species
+Antidesma,Antidesma,3,Both_2019; Both_2019_2; Kaye_2013,3,genus
+Antidesma coriaceum,Antidesma coriaceum,1,Iida_2011,1,species
+Antidesma cuspidatum,Antidesma cuspidatum,1,Iida_2011,1,species
+Antidesma neurocarpum,Antidesma neurocarpum,1,Kaye_2013,1,species
+Antidesma pendulum,Antidesma pendulum,1,Wright_2024,1,species
+Antidesma tomentosum,Antidesma tomentosum,1,Kaye_2013,1,species
+Aphanamixis borneensis,Aphanamixis borneensis,1,Kaye_2013,1,species
+Aphanamixis polystachya,Aphanamixis polystachya,3,Both_2019; Both_2019_2; Both_2021,3,species
+Aphanamixis sumatrana,Aphanamixis sumatrana,1,Iida_2011,1,species
+Aporosa,Aporosa,1,Kaye_2013,1,genus
+Aporosa aurea,Aporosa aurea,2,Wright_2024; Wright_2024_2,2,species
+Aporosa benthamiana,Aporosa benthamiana,1,Kaye_2013,1,species
+Aporosa bracteosa,Aporosa bracteosa,2,Wright_2024; Wright_2024_2,2,species
+Aporosa confusa,Aporosa confusa,3,Both_2019; Both_2019_2; Both_2021,3,species
+Aporosa elmeri,Aporosa elmeri,1,Kaye_2013,1,species
+Aporosa falcifera,Aporosa falcifera,7,Both_2019; Both_2019_2; Both_2021; Kaye_2013; Sterck_2001; Wright_2024; Wright_2024_2,7,species
+Aporosa frutescens,Aporosa frutescens,1,Kaye_2013,1,species
+Aporosa globifera,Aporosa globifera,3,Baltzer_2009; Wright_2024; Wright_2024_2,3,species
+Aporosa grandistipula,Aporosa grandistipula,1,Kaye_2013,1,species
+Aporosa illustris,Aporosa illustris,1,Kaye_2013,1,species
+Aporosa lunata,Aporosa lunata,1,Kaye_2013,1,species
+Aporosa microstachya,Aporosa microstachya,3,Baltzer_2009; Wright_2024; Wright_2024_2,3,species
+Aporosa miqueliana,Aporosa miqueliana,1,Wright_2024,1,species
+Aporosa nigricans,Aporosa nigricans,2,Wright_2024; Wright_2024_2,2,species
+Aporosa nitida,Aporosa nitida,1,Kaye_2013,1,species
+Aporosa prainiana,Aporosa prainiana,2,Wright_2024; Wright_2024_2,2,species
+Aporosa symplocoides,Aporosa symplocoides,1,Baltzer_2009,1,species
+Aporusa,Aporusa,3,Both_2019; Both_2019_2; Both_2021,3,genus
+"Aporusa ""sessile-flowered"" sp nov","Aporusa ""sessile-flowered"" sp nov",2,Thomas_1995; Thomas_1995_2,2,informal
+"Aporusa ""swamp"" sp nov","Aporusa ""swamp"" sp nov",2,Thomas_1995; Thomas_1995_2,2,informal
+Aporusa aurea,Aporusa aurea,2,Thomas_1995; Thomas_1995_2,2,species
+Aporusa bracteosa,Aporusa bracteosa,2,Thomas_1995; Thomas_1995_2,2,species
+Aporusa falcifera,Aporusa falcifera,2,Thomas_1995; Thomas_1995_2,2,species
+Aporusa globifera,Aporusa globifera,3,Iida_2011; Thomas_1995; Thomas_1995_2,3,species
+Aporusa lunata,Aporusa lunata,2,Thomas_1995; Thomas_1995_2,2,species
+Aporusa microstachya,Aporusa microstachya,2,Thomas_1995; Thomas_1995_2,2,species
+Aporusa nigricans,Aporusa nigricans,3,Iida_2011; Thomas_1995; Thomas_1995_2,3,species
+Aporusa prainiana,Aporusa prainiana,2,Thomas_1995; Thomas_1995_2,2,species
+Aporusa symplocoides,Aporusa symplocoides,3,Iida_2011; Thomas_1995; Thomas_1995_2,3,species
+Aquilaria beccariana,Aquilaria beccariana,3,Both_2019; Both_2019_2; Both_2021,3,species
+Aquilaria malaccensis,Aquilaria malaccensis,1,Iida_2011,1,species
+Archidendron bubalinum,Archidendron bubalinum,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Archidendron clypearia,Archidendron clypearia,3,Both_2019; Both_2019_2; Both_2021,3,species
+Archidendron microcarpum,Archidendron microcarpum,1,Kaye_2013,1,species
+Ardisia colorata,Ardisia colorata,1,Kaye_2013,1,species
+Ardisia crassa,Ardisia crassa,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Ardisia elliptica,Ardisia elliptica,1,Kaye_2013,1,species
+Ardisia hulettia,Ardisia hulettia,2,Wright_2024; Wright_2024_2,2,species
+Ardisia kunstleri,Ardisia kunstleri,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Ardisia macrophylla,Ardisia macrophylla,3,Both_2019; Both_2019_2; Both_2021,3,species
+Ardisia pachysandra,Ardisia pachysandra,3,Iida_2011; Kaye_2013; Wright_2024,3,species
+Artocarpus anisophyllus,Artocarpus anisophyllus,3,Both_2019; Both_2019_2; Both_2021,3,species
+Artocarpus glaucus,Artocarpus glaucus,3,Both_2019; Both_2019_2; Both_2021,3,species
+Artocarpus integer,Artocarpus integer,3,Both_2019; Both_2019_2; Both_2021,3,species
+Artocarpus lowii,Artocarpus lowii,1,Iida_2011,1,species
+Artocarpus maingayi,Artocarpus maingayi,1,Iida_2011,1,species
+Artocarpus odoratissimus,Artocarpus odoratissimus,3,Both_2019; Both_2019_2; Both_2021,3,species
+Artocarpus scortechinii,Artocarpus scortechinii,1,Iida_2011,1,species
+Artocarpus tamaran,Artocarpus tamaran,3,Both_2019; Both_2019_2; Both_2021,3,species
+Asteraceae,Asteraceae,1,Both_2019_2,1,genus
+Atuna racemosa,Atuna racemosa,3,Both_2019; Both_2019_2; Kaye_2013,3,species
+Azadirachta excelsa,Azadirachta excelsa,1,Kaye_2013,1,species
+Baccaurea,Baccaurea,1,Kaye_2013,1,genus
+Baccaurea lanceolata,Baccaurea lanceolata,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Baccaurea latifolia,Baccaurea latifolia,2,Both_2019; Both_2019_2,2,species
+Baccaurea macrocarpa,Baccaurea macrocarpa,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Baccaurea parviflora,Baccaurea parviflora,5,Kaye_2013; Thomas_1995; Thomas_1995_2; Wright_2024; Wright_2024_2,5,species
+Baccaurea racemosa,Baccaurea racemosa,4,Thomas_1995; Thomas_1995_2; Wright_2024; Wright_2024_2,4,species
+Baccaurea reticulata,Baccaurea reticulata,3,Iida_2011; Thomas_1995; Thomas_1995_2,3,species
+Baccaurea stipulata,Baccaurea stipulata,1,Sterck_2001,1,species
+Baccaurea sumatrana,Baccaurea sumatrana,2,Thomas_1995; Thomas_1995_2,2,species
+Baccaurea tetrandra,Baccaurea tetrandra,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Barringtonia lanceolata,Barringtonia lanceolata,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Barringtonia macrostachya,Barringtonia macrostachya,5,Both_2019; Both_2019_2; Both_2021; Iida_2011; Kaye_2013,5,species
+Barringtonia macrostaychya,Barringtonia macrostaychya,2,Wright_2024; Wright_2024_2,2,species
+Barringtonia pendula,Barringtonia pendula,1,Iida_2011,1,species
+Barringtonia sarcostachys,Barringtonia sarcostachys,3,Both_2019; Both_2019_2; Both_2021,3,species
+Beilschmiedia,Beilschmiedia,3,Both_2019; Both_2019_2; Both_2021,3,genus
+Beilschmiedia cuadrae,Beilschmiedia cuadrae,1,Kaye_2013,1,species
+Beilschmiedia lucidula,Beilschmiedia lucidula,1,Iida_2011,1,species
+Beilschmiedia madang,Beilschmiedia madang,1,Iida_2011,1,species
+Beilschmiedia micrantha,Beilschmiedia micrantha,3,Both_2019_2; Both_2021; Kaye_2013,3,species
+Beilschmiedia palembanica,Beilschmiedia palembanica,1,Iida_2011,1,species
+Beilschmiedia tawaensis,Beilschmiedia tawaensis,1,Kaye_2013,1,species
+Bhesa paniculata,Bhesa paniculata,4,Both_2019; Both_2019_2; Both_2021; Iida_2011,4,species
+Blumeodendron kurzii,Blumeodendron kurzii,3,Both_2019; Both_2019_2; Both_2021,3,species
+Blumeodendron subrotundifolium,Blumeodendron subrotundifolium,1,Iida_2011,1,species
+Blumeodendron tokbrai,Blumeodendron tokbrai,5,Both_2019; Both_2019_2; Both_2021; Iida_2011; Kaye_2013,5,species
+Bouea macrophylla,Bouea macrophylla,1,Iida_2011,1,species
+Bouea oppositifolia,Bouea oppositifolia,1,Iida_2011,1,species
+Brownlowia peltata,Brownlowia peltata,1,Kaye_2013,1,species
+Buchanania sessifolia,Buchanania sessifolia,1,Iida_2011,1,species
+Buchanania sessilifolia,Buchanania sessilifolia,3,Burslem_2022; Burslem_2022_2; Kaye_2013,3,species
+Callerya atropurpurea,Callerya atropurpurea,2,Wright_2024; Wright_2024_2,2,species
+Callicarpa longifolia,Callicarpa longifolia,1,Kaye_2013,1,species
+Callicarpa pentandra,Callicarpa pentandra,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Calophyllum,Calophyllum,1,Kaye_2013,1,genus
+Calophyllum blancoi,Calophyllum blancoi,1,Kaye_2013,1,species
+Calophyllum dioscurii,Calophyllum dioscurii,2,Iida_2011; Wright_2024,2,species
+Calophyllum gracilipes,Calophyllum gracilipes,1,Kaye_2013,1,species
+Calophyllum soulattri,Calophyllum soulattri,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Calophyllum tetrapterum,Calophyllum tetrapterum,1,Iida_2011,1,species
+Calophyllum woodii,Calophyllum woodii,2,Both_2019; Both_2019_2,2,species
+Canarium decumanum,Canarium decumanum,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Canarium denticulatum,Canarium denticulatum,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Canarium littorale var.tomentosa,Canarium littorale var.tomentosa,1,Iida_2011,1,infraspecific
+Canarium odontophyllum,Canarium odontophyllum,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Canarium pilosum,Canarium pilosum,4,Both_2019; Both_2019_2; Both_2021; Iida_2011,4,species
+Canarrium littorale var. littorale,Canarrium littorale var. littorale,2,Wright_2024; Wright_2024_2,2,infraspecific
+Canarrium littorale var. rufum,Canarrium littorale var. rufum,2,Wright_2024; Wright_2024_2,2,infraspecific
+Canthium confertus,Canthium confertus,1,Kaye_2013,1,species
+Carallia brachiata,Carallia brachiata,1,Iida_2011,1,species
+Caryodaphnopsis tonkinensis,Caryodaphnopsis tonkinensis,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Casearia grewiaefolia,Casearia grewiaefolia,1,Kaye_2013,1,species
+Castanopsis hypophoenicea,Castanopsis hypophoenicea,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Castanopsis schefferiana,Castanopsis schefferiana,1,Wright_2024,1,species
+Champereia manillana,Champereia manillana,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Chasalia curviflora,Chasalia curviflora,1,Iida_2011,1,species
+Chionanthus,Chionanthus,1,Kaye_2013,1,genus
+Chionanthus macrocarpus,Chionanthus macrocarpus,3,Both_2019; Both_2019_2; Both_2021,3,species
+Chionanthus pluriflorus,Chionanthus pluriflorus,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Chisocheton,Chisocheton,3,Both_2019; Both_2019_2; Both_2021,3,genus
+Chisocheton ceramicus,Chisocheton ceramicus,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Chisocheton macranthus,Chisocheton macranthus,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Chisocheton patens,Chisocheton patens,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Chisocheton sarawakensis,Chisocheton sarawakensis,1,Kaye_2013,1,species
+Chisocheton tomentosus,Chisocheton tomentosus,1,Iida_2011,1,species
+Chrysobalanaceae,Chrysobalanaceae,3,Both_2019; Both_2019_2; Both_2021,3,genus
+Cinnamomum griffithii,Cinnamomum griffithii,1,Kaye_2013,1,species
+Cinnamomum javanicum,Cinnamomum javanicum,1,Iida_2011,1,species
+Cinnamomum racemosum,Cinnamomum racemosum,1,Kaye_2013,1,species
+Clausena excavata,Clausena excavata,1,Kaye_2013,1,species
+Cleistanthus,Cleistanthus,3,Both_2019; Both_2019_2; Both_2021,3,genus
+Cleistanthus hirsutulus,Cleistanthus hirsutulus,3,Both_2019; Both_2019_2; Both_2021,3,species
+Cleistanthus hirsutus,Cleistanthus hirsutus,1,Kaye_2013,1,species
+Cleistanthus hylandii,Cleistanthus hylandii,3,Both_2019; Both_2019_2; Both_2021,3,species
+Cleistanthus maingayi,Cleistanthus maingayi,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Cleistanthus myrianthus,Cleistanthus myrianthus,3,Both_2019; Both_2019_2; Both_2021,3,species
+Cleistanthus paxii,Cleistanthus paxii,2,Both_2019; Both_2019_2,2,species
+Cleistanthus pubens,Cleistanthus pubens,2,Both_2019; Both_2019_2,2,species
+Coelostegia griffithii,Coelostegia griffithii,1,Iida_2011,1,species
+Cotylelobium melanoxylon,Cotylelobium melanoxylon,1,Bartholomew_2022,1,species
+Cowiea borneensis,Cowiea borneensis,1,Kaye_2013,1,species
+Crateva cochinchinense,Crateva cochinchinense,1,Kaye_2013,1,species
+Cratoxylum,Cratoxylum,2,Both_2019; Both_2021,2,genus
+Croton argyratus,Croton argyratus,2,Wright_2024; Wright_2024_2,2,species
+Croton laevifolius,Croton laevifolius,1,Iida_2011,1,species
+Croton oblongus,Croton oblongus,1,Kaye_2013,1,species
+Crudia reticulata,Crudia reticulata,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Crudia tenuipes,Crudia tenuipes,3,Both_2019; Both_2019_2; Kaye_2013,3,species
+Crypteronia griffithii,Crypteronia griffithii,1,Kaye_2013,1,species
+Crypteronia pulchrinervia,Crypteronia pulchrinervia,1,Kaye_2013,1,species
+Cryptocarya infectoria,Cryptocarya infectoria,1,Wright_2024,1,species
+Cryptocarya kurzii,Cryptocarya kurzii,1,Iida_2011,1,species
+Cryptocarya nigra,Cryptocarya nigra,3,Both_2019; Both_2019_2; Both_2021,3,species
+Cryptocarya nitens,Cryptocarya nitens,3,Both_2019; Both_2019_2; Both_2021,3,species
+Ctenolophon parvifolius,Ctenolophon parvifolius,1,Iida_2011,1,species
+Cyathocalyx,Cyathocalyx,3,Both_2019; Both_2019_2; Both_2021,3,genus
+Cynometra elmeri,Cynometra elmeri,1,Kaye_2013,1,species
+Cynometra malaccensis,Cynometra malaccensis,2,Wright_2024; Wright_2024_2,2,species
+Cynometra mirabilis,Cynometra mirabilis,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Dacryodes laxa,Dacryodes laxa,2,Wright_2024; Wright_2024_2,2,species
+Dacryodes longifolia,Dacryodes longifolia,1,Iida_2011,1,species
+Dacryodes rostrata,Dacryodes rostrata,6,Both_2019; Both_2019_2; Both_2021; Iida_2011; Wright_2024; Wright_2024_2,6,species
+Dacryodes rubiginosa,Dacryodes rubiginosa,1,Iida_2011,1,species
+Dacryodes rugosa,Dacryodes rugosa,7,Both_2019; Both_2019_2; Both_2021; Iida_2011; Kaye_2013; Wright_2024; Wright_2024_2,7,species
+Dehaasia,Dehaasia,1,Kaye_2013,1,genus
+Dehaasia caesia,Dehaasia caesia,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Dehaasia incrassata,Dehaasia incrassata,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Dendrocnide,Dendrocnide,1,Kaye_2013,1,genus
+Dendrocnide elliptica,Dendrocnide elliptica,3,Both_2019; Both_2019_2; Both_2021,3,species
+Dendrokingstonia nervosa,Dendrokingstonia nervosa,1,Iida_2011,1,species
+Dialium indum,Dialium indum,3,Both_2019; Both_2019_2; Both_2021,3,species
+Dialium kunstleri,Dialium kunstleri,3,Both_2019; Both_2019_2; Both_2021,3,species
+Dialium platysepalum,Dialium platysepalum,2,Wright_2024; Wright_2024_2,2,species
+Dialium procerum,Dialium procerum,1,Iida_2011,1,species
+Dillenia excelsa,Dillenia excelsa,1,Kaye_2013,1,species
+Dillenia sumatrana,Dillenia sumatrana,1,Iida_2011,1,species
+Dimocarpus dentatus,Dimocarpus dentatus,1,Kaye_2013,1,species
+Dimocarpus longan,Dimocarpus longan,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Dimorphocalyx murinus,Dimorphocalyx murinus,1,Kaye_2013,1,species
+Diospyros,Diospyros,1,Kaye_2013,1,genus
+"Diospyros ""brown-barked"" sp nov","Diospyros ""brown-barked"" sp nov",2,Thomas_1995; Thomas_1995_2,2,informal
+Diospyros adenophora,Diospyros adenophora,3,Iida_2011; Thomas_1995; Thomas_1995_2,3,species
+Diospyros andamanica,Diospyros andamanica,7,Both_2019; Both_2019_2; Both_2021; Iida_2011; Kaye_2013; Thomas_1995; Thomas_1995_2,7,species
+Diospyros apiculata,Diospyros apiculata,5,Iida_2011; Thomas_1995; Thomas_1995_2; Wright_2024; Wright_2024_2,5,species
+Diospyros argentea,Diospyros argentea,3,Iida_2011; Thomas_1995; Thomas_1995_2,3,species
+Diospyros buxifolia,Diospyros buxifolia,3,Iida_2011; Thomas_1995; Thomas_1995_2,3,species
+Diospyros cauliflora,Diospyros cauliflora,3,Kaye_2013; Thomas_1995; Thomas_1995_2,3,species
+Diospyros confertiflora,Diospyros confertiflora,2,Thomas_1995; Thomas_1995_2,2,species
+Diospyros curranii,Diospyros curranii,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Diospyros daemona,Diospyros daemona,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Diospyros dictyoneura,Diospyros dictyoneura,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Diospyros diepenhorstii,Diospyros diepenhorstii,1,Kaye_2013,1,species
+Diospyros elliptifolia,Diospyros elliptifolia,1,Kaye_2013,1,species
+Diospyros frutescens,Diospyros frutescens,1,Kaye_2013,1,species
+Diospyros latisepala,Diospyros latisepala,2,Thomas_1995; Thomas_1995_2,2,species
+Diospyros macrophylla,Diospyros macrophylla,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Diospyros maingayi,Diospyros maingayi,2,Thomas_1995; Thomas_1995_2,2,species
+Diospyros muricata,Diospyros muricata,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Diospyros nutans,Diospyros nutans,4,Thomas_1995; Thomas_1995_2; Wright_2024; Wright_2024_2,4,species
+Diospyros pendula,Diospyros pendula,1,Iida_2011,1,species
+Diospyros pilosanthera,Diospyros pilosanthera,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Diospyros rufa,Diospyros rufa,1,Iida_2011,1,species
+Diospyros scortechinii,Diospyros scortechinii,5,Iida_2011; Thomas_1995; Thomas_1995_2; Wright_2024; Wright_2024_2,5,species
+Diospyros singaporensis,Diospyros singaporensis,4,Iida_2011; Thomas_1995; Thomas_1995_2; Wright_2024,4,species
+Diospyros sumatrana,Diospyros sumatrana,1,Iida_2011,1,species
+Diospyros toposia,Diospyros toposia,3,Both_2019; Both_2019_2; Kaye_2013,3,species
+Diospyros tuberculata,Diospyros tuberculata,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Diospyros venosa,Diospyros venosa,5,Iida_2011; Thomas_1995; Thomas_1995_2; Wright_2024; Wright_2024_2,5,species
+Diospyros wallichii,Diospyros wallichii,2,Thomas_1995; Thomas_1995_2,2,species
+Diplospora malaccensis,Diplospora malaccensis,4,Iida_2011; Kaye_2013; Wright_2024; Wright_2024_2,4,species
+Dipterocarpus acutangulus,Dipterocarpus acutangulus,1,Bartholomew_2022,1,species
+Dipterocarpus caudiferus,Dipterocarpus caudiferus,4,Bartholomew_2022; Both_2019; Both_2019_2; Both_2021,4,species
+Dipterocarpus cornutus,Dipterocarpus cornutus,5,Numata_2000; Thomas_1995; Thomas_1995_2; Wright_2024; Wright_2024_2,5,species
+Dipterocarpus costulatus,Dipterocarpus costulatus,1,Iida_2011,1,species
+Dipterocarpus crinitus,Dipterocarpus crinitus,1,Iida_2011,1,species
+Dipterocarpus grandiflorus,Dipterocarpus grandiflorus,2,Bartholomew_2022; Smith_2016,2,species
+Dipterocarpus kunstleri,Dipterocarpus kunstleri,1,Bartholomew_2022,1,species
+Dipterocarpus sublamellatus,Dipterocarpus sublamellatus,1,Numata_2000,1,species
+Dryobalanops lanceolata,Dryobalanops lanceolata,8,Both_2019; Both_2019_2; Both_2021; Burslem_2022; Burslem_2022_2; Carle_2025; Kaye_2013; Smith_2016,8,species
+Drypetes castilloi,Drypetes castilloi,1,Kaye_2013,1,species
+Drypetes laevis,Drypetes laevis,1,Iida_2011,1,species
+Drypetes longifolia,Drypetes longifolia,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Drypetes pendula,Drypetes pendula,1,Iida_2011,1,species
+Drypetes polyneura,Drypetes polyneura,1,Iida_2011,1,species
+Duabanga moluccana,Duabanga moluccana,3,Both_2019; Both_2019_2; Both_2021,3,species
+Durio grandiflorus,Durio grandiflorus,3,Both_2019; Both_2019_2; Both_2021,3,species
+Durio graveolens,Durio graveolens,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Dyera costulata,Dyera costulata,1,Iida_2011,1,species
+Dysoxylum,Dysoxylum,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,genus
+Dysoxylum alliaceum,Dysoxylum alliaceum,1,Kaye_2013,1,species
+Dysoxylum cauliflorum,Dysoxylum cauliflorum,1,Kaye_2013,1,species
+Dysoxylum cyrtobotryum,Dysoxylum cyrtobotryum,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Dysoxylum densiflorum,Dysoxylum densiflorum,3,Both_2019; Both_2019_2; Both_2021,3,species
+Dysoxylum excelsium,Dysoxylum excelsium,1,Kaye_2013,1,species
+Dysoxylum grande,Dysoxylum grande,1,Kaye_2013,1,species
+Dysoxylum patens,Dysoxylum patens,1,Kaye_2013,1,species
+Dysoxylum rigidum,Dysoxylum rigidum,1,Kaye_2013,1,species
+Elaeocarpus,Elaeocarpus,1,Kaye_2013,1,genus
+Elaeocarpus floribundus,Elaeocarpus floribundus,3,Both_2019; Both_2019_2; Both_2021,3,species
+Elaeocarpus pedunculatus,Elaeocarpus pedunculatus,3,Both_2019; Both_2019_2; Both_2021,3,species
+Elaeocarpus stipularis,Elaeocarpus stipularis,3,Both_2019; Both_2019_2; Both_2021,3,species
+Elateriospermum tapos,Elateriospermum tapos,1,Iida_2011,1,species
+Enicosanthum,Enicosanthum,1,Kaye_2013,1,genus
+Enicosanthum erianthoides,Enicosanthum erianthoides,1,Kaye_2013,1,species
+Enicosanthum fuscum,Enicosanthum fuscum,2,Wright_2024; Wright_2024_2,2,species
+Enicosanthum grandiflorum,Enicosanthum grandiflorum,1,Kaye_2013,1,species
+Epiprinus malayanus,Epiprinus malayanus,2,Wright_2024; Wright_2024_2,2,species
+Erycibe borneensis,Erycibe borneensis,1,Kaye_2013,1,species
+Eugenia chlorantha,Eugenia chlorantha,1,Iida_2011,1,species
+Eugenia cumingiana,Eugenia cumingiana,1,Iida_2011,1,species
+Eugenia densiflora,Eugenia densiflora,1,Iida_2011,1,species
+Eugenia filiformis,Eugenia filiformis,1,Iida_2011,1,species
+Eugenia pseudocrenulata,Eugenia pseudocrenulata,1,Iida_2011,1,species
+Eugenia pseudosubtilis,Eugenia pseudosubtilis,1,Iida_2011,1,species
+Eugenia pustulata,Eugenia pustulata,1,Iida_2011,1,species
+Eugenia ridleyi,Eugenia ridleyi,1,Iida_2011,1,species
+Eugenia syzygioides,Eugenia syzygioides,1,Iida_2011,1,species
+Eugenia tumida,Eugenia tumida,1,Iida_2011,1,species
+Eugenia variolosa,Eugenia variolosa,1,Iida_2011,1,species
+Eurycoma longifolia,Eurycoma longifolia,2,Iida_2011; Kaye_2013,2,species
+Eusideroxylon zwageri,Eusideroxylon zwageri,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Fagraea cuspidata,Fagraea cuspidata,1,Kaye_2013,1,species
+Ficus beccarii,Ficus beccarii,1,Kaye_2013,1,species
+Ficus hispida,Ficus hispida,3,Both_2019; Both_2019_2; Both_2021,3,species
+Ficus lepicarpa,Ficus lepicarpa,1,Kaye_2013,1,species
+Ficus obscura,Ficus obscura,1,Kaye_2013,1,species
+Ficus septica,Ficus septica,3,Both_2019; Both_2019_2; Both_2021,3,species
+Ficus uncinata,Ficus uncinata,3,Both_2019; Both_2019_2; Both_2021,3,species
+Ficus variegata,Ficus variegata,3,Both_2019; Both_2019_2; Both_2021,3,species
+Flacourtia rukam,Flacourtia rukam,2,Both_2019; Both_2019_2,2,species
+Fordia brachybotrys,Fordia brachybotrys,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Fordia splendidissima,Fordia splendidissima,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Gaertnera oblanceolata,Gaertnera oblanceolata,1,Iida_2011,1,species
+Gaertnera oblanceollata,Gaertnera oblanceollata,1,Wright_2024,1,species
+Galearia fulva,Galearia fulva,3,Kaye_2013; Wright_2024; Wright_2024_2,3,species
+"Garcinia ""dark"" sp nov","Garcinia ""dark"" sp nov",2,Thomas_1995; Thomas_1995_2,2,informal
+"Garcinia ""small"" sp nov","Garcinia ""small"" sp nov",2,Thomas_1995; Thomas_1995_2,2,informal
+Garcinia benthamiana,Garcinia benthamiana,3,Both_2019; Both_2019_2; Both_2021,3,species
+Garcinia eugeniiefolia,Garcinia eugeniiefolia,1,Wright_2024,1,species
+Garcinia forbesii,Garcinia forbesii,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Garcinia malaccensis,Garcinia malaccensis,4,Thomas_1995; Thomas_1995_2; Wright_2024; Wright_2024_2,4,species
+Garcinia nervosa,Garcinia nervosa,4,Both_2019; Both_2019_2; Thomas_1995; Thomas_1995_2,4,species
+Garcinia nigrolineata,Garcinia nigrolineata,1,Iida_2011,1,species
+Garcinia opaca,Garcinia opaca,1,Iida_2011,1,species
+Garcinia parvifolia,Garcinia parvifolia,3,Both_2019; Both_2019_2; Both_2021,3,species
+Garcinia scortechinii,Garcinia scortechinii,2,Thomas_1995; Thomas_1995_2,2,species
+Gironniera nervosa,Gironniera nervosa,2,Both_2019; Both_2019_2,2,species
+Gironniera parvifolia,Gironniera parvifolia,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Glochidion,Glochidion,3,Both_2019; Both_2019_2; Both_2021,3,genus
+Glochidion borneensis,Glochidion borneensis,2,Both_2019; Both_2019_2,2,species
+Glochidion lanceisepalum,Glochidion lanceisepalum,1,Kaye_2013,1,species
+Glochidion lutescens,Glochidion lutescens,3,Both_2019; Both_2019_2; Both_2021,3,species
+Glochidion rubrum,Glochidion rubrum,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Glochidion wallichiana,Glochidion wallichiana,1,Iida_2011,1,species
+Gluta aptera,Gluta aptera,3,Both_2019; Both_2019_2; Both_2021,3,species
+Gluta malayana,Gluta malayana,1,Iida_2011,1,species
+Gluta wallichii,Gluta wallichii,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Glycosmis chlorosperma,Glycosmis chlorosperma,3,Iida_2011; Kaye_2013; Wright_2024,3,species
+Glycosmis macrantha,Glycosmis macrantha,1,Kaye_2013,1,species
+Gnetum gnemon,Gnetum gnemon,1,Iida_2011,1,species
+Gomphandra ovalifolia,Gomphandra ovalifolia,1,Iida_2011,1,species
+Gomphandra quadrifida,Gomphandra quadrifida,1,Kaye_2013,1,species
+Goniothalamus,Goniothalamus,1,Kaye_2013,1,genus
+Goniothalamus tortilipetalum,Goniothalamus tortilipetalum,1,Wright_2024,1,species
+Goniothalamus tortilipetalus,Goniothalamus tortilipetalus,1,Iida_2011,1,species
+Goniothalamus uvarioides,Goniothalamus uvarioides,1,Kaye_2013,1,species
+Goniothalamus woodii,Goniothalamus woodii,1,Kaye_2013,1,species
+Gonocaryum calleryanum,Gonocaryum calleryanum,1,Kaye_2013,1,species
+Gonocaryum gracile,Gonocaryum gracile,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Gonocaryum macrophyllum,Gonocaryum macrophyllum,1,Kaye_2013,1,species
+Gonystylus keithii,Gonystylus keithii,1,Kaye_2013,1,species
+Gonystylus maingayi,Gonystylus maingayi,1,Iida_2011,1,species
+Guioa pleuropteris,Guioa pleuropteris,1,Kaye_2013,1,species
+Gymnacranthera forbesii,Gymnacranthera forbesii,4,Thomas_1995; Thomas_1995_2; Wright_2024; Wright_2024_2,4,species
+Gynotroches axillaris,Gynotroches axillaris,1,Iida_2011,1,species
+Harpullia arborea,Harpullia arborea,1,Kaye_2013,1,species
+Heliciopsis artocarpoides,Heliciopsis artocarpoides,1,Kaye_2013,1,species
+Heliciopsis velutina,Heliciopsis velutina,1,Iida_2011,1,species
+Heritiera elata,Heritiera elata,3,Both_2019; Both_2019_2; Both_2021,3,species
+Heritiera simplicifolia,Heritiera simplicifolia,1,Iida_2011,1,species
+Homalium dictyoneurum,Homalium dictyoneurum,2,Iida_2011; Wright_2024,2,species
+Homalium foetidum,Homalium foetidum,3,Both_2019; Both_2019_2; Both_2021,3,species
+Hopea beccariana,Hopea beccariana,1,Bartholomew_2022,1,species
+Hopea dryobalanoides,Hopea dryobalanoides,2,Wright_2024; Wright_2024_2,2,species
+Hopea ferruginea,Hopea ferruginea,2,Kaye_2013; Smith_2016,2,species
+Hopea mengarawan,Hopea mengarawan,1,Iida_2011,1,species
+Hopea nervosa,Hopea nervosa,2,Carle_2025; Smith_2016,2,species
+Hopea plagata,Hopea plagata,3,Both_2019; Both_2019_2; Both_2021,3,species
+Hopea sangal,Hopea sangal,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Hopea sp.,Hopea sp.,1,Smith_2016,1,genus
+Horsfieldia crassifolia,Horsfieldia crassifolia,3,Both_2019; Both_2019_2; Both_2021,3,species
+Horsfieldia polyspherula,Horsfieldia polyspherula,1,Iida_2011,1,species
+Horsfieldia sucosa,Horsfieldia sucosa,1,Iida_2011,1,species
+Hunteria zeylanica,Hunteria zeylanica,1,Iida_2011,1,species
+Hydnocarpus,Hydnocarpus,3,Both_2019; Both_2019_2; Both_2021,3,genus
+Hydnocarpus anomalus,Hydnocarpus anomalus,1,Kaye_2013,1,species
+Hydnocarpus borneensis,Hydnocarpus borneensis,1,Kaye_2013,1,species
+Hydnocarpus woodii,Hydnocarpus woodii,2,Both_2019; Both_2019_2,2,species
+Ilex macrophylla,Ilex macrophylla,1,Iida_2011,1,species
+Intsia bijuga,Intsia bijuga,2,Burslem_2022; Burslem_2022_2,2,species
+Irvingia malayana,Irvingia malayana,3,Both_2019; Both_2019_2; Both_2021,3,species
+Ixonanthes icosandra,Ixonanthes icosandra,4,Thomas_1995; Thomas_1995_2; Wright_2024; Wright_2024_2,4,species
+"Ixora ""lanceolate-leaved"" sp nov","Ixora ""lanceolate-leaved"" sp nov",2,Thomas_1995; Thomas_1995_2,2,informal
+Ixora concinna,Ixora concinna,4,Iida_2011; Thomas_1995; Thomas_1995_2; Wright_2024,4,species
+Ixora congesta,Ixora congesta,3,Thomas_1995; Thomas_1995_2; Wright_2024,3,species
+Ixora grandifolia,Ixora grandifolia,4,Iida_2011; Kaye_2013; Thomas_1995; Thomas_1995_2,4,species
+Ixora kingstonii,Ixora kingstonii,2,Thomas_1995; Thomas_1995_2,2,species
+Ixora lobbii,Ixora lobbii,4,Thomas_1995; Thomas_1995_2; Wright_2024; Wright_2024_2,4,species
+Ixora pendula,Ixora pendula,2,Thomas_1995; Thomas_1995_2,2,species
+Kayea grandis,Kayea grandis,1,Iida_2011,1,species
+Kayea kunstleri,Kayea kunstleri,1,Iida_2011,1,species
+Kayea oblongifolia,Kayea oblongifolia,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Kibatalia maingayi,Kibatalia maingayi,1,Iida_2011,1,species
+Knema,Knema,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,genus
+Knema elmeri,Knema elmeri,1,Kaye_2013,1,species
+Knema furfuracea,Knema furfuracea,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Knema glauca,Knema glauca,3,Both_2019; Both_2019_2; Both_2021,3,species
+Knema glomerata,Knema glomerata,1,Kaye_2013,1,species
+Knema hookeriana,Knema hookeriana,1,Iida_2011,1,species
+Knema latericia,Knema latericia,1,Kaye_2013,1,species
+Knema latifolia,Knema latifolia,3,Both_2019; Both_2019_2; Both_2021,3,species
+Knema laurina,Knema laurina,7,Both_2019; Both_2019_2; Both_2021; Iida_2011; Kaye_2013; Wright_2024; Wright_2024_2,7,species
+Knema oblongata,Knema oblongata,3,Both_2019; Both_2019_2; Both_2021,3,species
+Knema patentinervia,Knema patentinervia,2,Wright_2024; Wright_2024_2,2,species
+Knema pulchra,Knema pulchra,1,Kaye_2013,1,species
+Knema scortechinii,Knema scortechinii,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Knema stenophylla,Knema stenophylla,1,Iida_2011,1,species
+Koilodepas longifolium,Koilodepas longifolium,1,Iida_2011,1,species
+Kokoona reflexa,Kokoona reflexa,1,Iida_2011,1,species
+Koompassia excelsa,Koompassia excelsa,3,Burslem_2022; Burslem_2022_2; Kaye_2013,3,species
+Kopsia pauciflora,Kopsia pauciflora,1,Kaye_2013,1,species
+Lansium domesticum,Lansium domesticum,6,Both_2019; Both_2019_2; Both_2021; Kaye_2013; Wright_2024; Wright_2024_2,6,species
+Leea aculeata,Leea aculeata,1,Kaye_2013,1,species
+Leea indica,Leea indica,1,Kaye_2013,1,species
+Lepisanthes,Lepisanthes,1,Kaye_2013,1,genus
+Lepisanthes fruticosa,Lepisanthes fruticosa,1,Iida_2011,1,species
+Lepisanthes senegalensis,Lepisanthes senegalensis,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Lepisanthes tetraphylla,Lepisanthes tetraphylla,3,Kaye_2013; Wright_2024; Wright_2024_2,3,species
+Licania splendens,Licania splendens,3,Both_2019; Both_2019_2; Both_2021,3,species
+Lindera lucida,Lindera lucida,3,Both_2019; Both_2019_2; Both_2021,3,species
+Lithocarpus,Lithocarpus,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,genus
+Lithocarpus blumeanus,Lithocarpus blumeanus,3,Both_2019; Both_2019_2; Both_2021,3,species
+Lithocarpus conocarpus,Lithocarpus conocarpus,2,Both_2019; Both_2021,2,species
+Lithocarpus curtisii,Lithocarpus curtisii,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Lithocarpus echinifer,Lithocarpus echinifer,3,Both_2019; Both_2019_2; Both_2021,3,species
+Lithocarpus gracilis,Lithocarpus gracilis,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Lithocarpus leptogyne,Lithocarpus leptogyne,5,Both_2019; Both_2019_2; Both_2021; Inagawa_2023; Kaye_2013,5,species
+Lithocarpus nieuwenhuisii,Lithocarpus nieuwenhuisii,1,Kaye_2013,1,species
+Lithocarpus sundaicus,Lithocarpus sundaicus,3,Both_2019; Both_2019_2; Both_2021,3,species
+Lithocarpus wallichianus,Lithocarpus wallichianus,1,Iida_2011,1,species
+Lithocarpus wrayi,Lithocarpus wrayi,2,Thomas_1995; Thomas_1995_2,2,species
+Lithocarpus wrayii,Lithocarpus wrayii,1,Baltzer_2009,1,species
+Litsea,Litsea,1,Kaye_2013,1,genus
+Litsea accedens,Litsea accedens,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Litsea angulata,Litsea angulata,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Litsea castanea,Litsea castanea,1,Iida_2011,1,species
+Litsea caulocarpa,Litsea caulocarpa,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Litsea cuprea,Litsea cuprea,1,Kaye_2013,1,species
+Litsea elliptica,Litsea elliptica,1,Kaye_2013,1,species
+Litsea ferruginea,Litsea ferruginea,1,Kaye_2013,1,species
+Litsea garciae,Litsea garciae,3,Both_2019; Both_2019_2; Both_2021,3,species
+Litsea grandis,Litsea grandis,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Litsea machilifolia,Litsea machilifolia,1,Kaye_2013,1,species
+Litsea magnifica,Litsea magnifica,1,Iida_2011,1,species
+Litsea mangnifica,Litsea mangnifica,2,Wright_2024; Wright_2024_2,2,species
+Litsea mappacea,Litsea mappacea,3,Both_2019; Both_2019_2; Both_2021,3,species
+Litsea oppositifolia,Litsea oppositifolia,1,Kaye_2013,1,species
+Litsea rubiginosa,Litsea rubiginosa,3,Both_2019; Both_2019_2; Both_2021,3,species
+Lophopetalum beccarianum,Lophopetalum beccarianum,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Lophopetalum glabrum,Lophopetalum glabrum,2,Both_2019; Both_2019_2,2,species
+Lophopetalum javanicum,Lophopetalum javanicum,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Ludekia borneensis,Ludekia borneensis,3,Both_2019; Both_2019_2; Both_2021,3,species
+Maasia sumatrana,Maasia sumatrana,3,Both_2019; Both_2019_2; Both_2021,3,species
+Macaranga conifera,Macaranga conifera,3,Both_2019; Both_2019_2; Both_2021,3,species
+Macaranga gigantea,Macaranga gigantea,3,Both_2019; Both_2019_2; Both_2021,3,species
+Macaranga hypoleuca,Macaranga hypoleuca,3,Both_2019; Both_2019_2; Both_2021,3,species
+Macaranga lowii,Macaranga lowii,2,Wright_2024; Wright_2024_2,2,species
+Macaranga pearsonii,Macaranga pearsonii,4,Both_2019; Both_2019_2; Both_2021; Inagawa_2023,4,species
+Macaranga winkleri,Macaranga winkleri,3,Both_2019; Both_2019_2; Both_2021,3,species
+Maclurodendron porteri,Maclurodendron porteri,1,Iida_2011,1,species
+Madhuca dubardii,Madhuca dubardii,3,Both_2019; Both_2019_2; Both_2021,3,species
+Madhuca elmeri,Madhuca elmeri,1,Kaye_2013,1,species
+Madhuca kingiana,Madhuca kingiana,1,Kaye_2013,1,species
+Madhuca korthalsii,Madhuca korthalsii,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Madhuca malaccensis,Madhuca malaccensis,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Magnolia,Magnolia,1,Kaye_2013,1,genus
+Magnolia borneensis,Magnolia borneensis,3,Both_2019; Both_2019_2; Both_2021,3,species
+Magnolia candolii,Magnolia candolii,1,Kaye_2013,1,species
+Magnolia gigantifolia,Magnolia gigantifolia,1,Kaye_2013,1,species
+Magnolia liliifera,Magnolia liliifera,3,Both_2019; Both_2019_2; Both_2021,3,species
+Magnolia tsiampacca,Magnolia tsiampacca,3,Both_2019; Both_2019_2; Both_2021,3,species
+Mallotus korthalsii,Mallotus korthalsii,1,Kaye_2013,1,species
+Mallotus lackeyi,Mallotus lackeyi,1,Kaye_2013,1,species
+Mallotus leocodermis,Mallotus leocodermis,1,Wright_2024,1,species
+Mallotus leucodermis,Mallotus leucodermis,3,Both_2019; Both_2019_2; Both_2021,3,species
+Mallotus miquelianus,Mallotus miquelianus,3,Both_2019_2; Both_2021; Kaye_2013,3,species
+Mallotus mollissimus,Mallotus mollissimus,3,Both_2019; Both_2019_2; Both_2021,3,species
+Mallotus penangensis,Mallotus penangensis,7,Baltzer_2009; Both_2019; Both_2019_2; Both_2021; Sterck_2001; Wright_2024; Wright_2024_2,7,species
+Mallotus wrayi,Mallotus wrayi,5,Both_2019; Both_2019_2; Both_2021; Kaye_2013; Sterck_2001,5,species
+Mangifera foetida,Mangifera foetida,1,Kaye_2013,1,species
+Mangifera odorata,Mangifera odorata,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Mangifera quadrifida,Mangifera quadrifida,1,Iida_2011,1,species
+Mangifera rufocostata,Mangifera rufocostata,1,Kaye_2013,1,species
+Marsypopetalum pallidum,Marsypopetalum pallidum,1,Kaye_2013,1,species
+Mastixia trichotoma,Mastixia trichotoma,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Medusanthera gracilis,Medusanthera gracilis,1,Iida_2011,1,species
+Meiogyne monosperma,Meiogyne monosperma,2,Wright_2024; Wright_2024_2,2,species
+Meiogyne virgata,Meiogyne virgata,1,Kaye_2013,1,species
+Melanochyla,Melanochyla,1,Kaye_2013,1,genus
+Melanochyla beccariana,Melanochyla beccariana,1,Kaye_2013,1,species
+Melanochyla bullata,Melanochyla bullata,3,Both_2019; Both_2019_2; Both_2021,3,species
+Melanochyla tomentosa,Melanochyla tomentosa,4,Both_2019; Both_2019_2; Both_2021; Wright_2024,4,species
+Melastoma malabathricum,Melastoma malabathricum,1,Kaye_2013,1,species
+Melicope confusa,Melicope confusa,3,Both_2019; Both_2019_2; Both_2021,3,species
+Meliosma sumatrana,Meliosma sumatrana,1,Kaye_2013,1,species
+Memecylon amplexicaule,Memecylon amplexicaule,1,Iida_2011,1,species
+Memecylon cantleyi,Memecylon cantleyi,1,Wright_2024,1,species
+Memecylon laevigatum,Memecylon laevigatum,1,Kaye_2013,1,species
+Memecylon lilacinum,Memecylon lilacinum,1,Iida_2011,1,species
+Memecylon megacarpum,Memecylon megacarpum,1,Wright_2024,1,species
+Memecylon minutiflorum,Memecylon minutiflorum,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Memecylon oleifolium,Memecylon oleifolium,3,Both_2021; Iida_2011; Kaye_2013,3,species
+Memecylon paniculatum,Memecylon paniculatum,1,Kaye_2013,1,species
+Memecylon pubescens,Memecylon pubescens,1,Iida_2011,1,species
+Memecylon sichotomum,Memecylon sichotomum,1,Wright_2024,1,species
+Memecylon wallichii,Memecylon wallichii,1,Iida_2011,1,species
+Merremia borneensis,Merremia borneensis,1,Both_2019,1,species
+Mesua borneensis,Mesua borneensis,2,Both_2019; Both_2019_2,2,species
+Mesua cornerii,Mesua cornerii,2,Wright_2024; Wright_2024_2,2,species
+Mesua ferrea,Mesua ferrea,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Mesua macrantha,Mesua macrantha,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Mezzettia leptopoda,Mezzettia leptopoda,1,Iida_2011,1,species
+Microcos,Microcos,1,Kaye_2013,1,genus
+Microcos blattaefolia,Microcos blattaefolia,1,Iida_2011,1,species
+Microcos crassifolia,Microcos crassifolia,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Microcos fibrocarpa,Microcos fibrocarpa,1,Kaye_2013,1,species
+Microcos lanceolata,Microcos lanceolata,2,Wright_2024; Wright_2024_2,2,species
+Microcos latifolia,Microcos latifolia,1,Wright_2024,1,species
+Microdesmis casearifolia,Microdesmis casearifolia,2,Wright_2024; Wright_2024_2,2,species
+Microdesmis caseariifolia,Microdesmis caseariifolia,1,Iida_2011,1,species
+Miliusa macropoda,Miliusa macropoda,3,Both_2019; Both_2019_2; Both_2021,3,species
+Millettia atropurpurea,Millettia atropurpurea,1,Iida_2011,1,species
+Millettia atropurpurea (t),Millettia atropurpurea (t),1,Baltzer_2009,1,species
+Millettia atropurpurea(m),Millettia atropurpurea(m),1,Baltzer_2009,1,species
+Mitrephora maingayi,Mitrephora maingayi,1,Iida_2011,1,species
+Monocarpia marginalis,Monocarpia marginalis,2,Wright_2024; Wright_2024_2,2,species
+Monoon,Monoon,3,Both_2019; Both_2019_2; Both_2021,3,genus
+Myristica cinnamomea,Myristica cinnamomea,1,Iida_2011,1,species
+Myristica smythiesii,Myristica smythiesii,3,Both_2019; Both_2019_2; Both_2021,3,species
+Nauclea,Nauclea,1,Kaye_2013,1,genus
+Nauclea officinalis,Nauclea officinalis,4,Both_2019; Both_2019_2; Iida_2011; Wright_2024,4,species
+Nauclea subdita,Nauclea subdita,3,Both_2019; Both_2019_2; Both_2021,3,species
+Neesia synandra,Neesia synandra,1,Kaye_2013,1,species
+Neo-uvaria acuminatissima,Neo-uvaria acuminatissima,3,Both_2019; Both_2019_2; Both_2021,3,species
+Neobalanocarpus Heimii,Neobalanocarpus Heimii,2,Wright_2024; Wright_2024_2,2,species
+Neobalanocarpus heimii,Neobalanocarpus heimii,1,Iida_2011,1,species
+Neolamarckia cadamba,Neolamarckia cadamba,4,Both_2019; Both_2019_2; Both_2021; Inagawa_2023,4,species
+Neonauclea gigantea,Neonauclea gigantea,3,Both_2019; Both_2019_2; Both_2021,3,species
+Neoscortechenia kingii,Neoscortechenia kingii,1,Baltzer_2009,1,species
+Neoscortechinia kingii,Neoscortechinia kingii,7,Both_2019; Both_2019_2; Both_2021; Iida_2011; Kaye_2013; Wright_2024; Wright_2024_2,7,species
+Neoscortechinia nocobarica,Neoscortechinia nocobarica,1,Wright_2024,1,species
+Neoscortechinia philippinensis,Neoscortechinia philippinensis,3,Both_2019; Both_2019_2; Both_2021,3,species
+Neouvaria acuminatissima,Neouvaria acuminatissima,1,Kaye_2013,1,species
+Nephelium,Nephelium,3,Both_2019; Both_2019_2; Both_2021,3,genus
+Nephelium costatum,Nephelium costatum,2,Wright_2024; Wright_2024_2,2,species
+Nephelium cuspidatum,Nephelium cuspidatum,2,Both_2019; Both_2019_2,2,species
+Nephelium maingayi,Nephelium maingayi,1,Kaye_2013,1,species
+Nephelium ramboutan-ake,Nephelium ramboutan-ake,1,Kaye_2013,1,species
+Nothaphoebe umbelliflora,Nothaphoebe umbelliflora,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Ochanostachys amentacea,Ochanostachys amentacea,7,Both_2019; Both_2019_2; Both_2021; Iida_2011; Kaye_2013; Wright_2024; Wright_2024_2,7,species
+Oncosperma horridum,Oncosperma horridum,1,Iida_2011,1,species
+Ormosia bancana,Ormosia bancana,1,Kaye_2013,1,species
+Ormosia sumatrana,Ormosia sumatrana,1,Kaye_2013,1,species
+Orophea myriantha,Orophea myriantha,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Palaquium,Palaquium,1,Kaye_2013,1,genus
+Palaquium dasyphyllum,Palaquium dasyphyllum,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Palaquium maingayi,Palaquium maingayi,1,Baltzer_2009,1,species
+Palaquium obovatum,Palaquium obovatum,2,Both_2019; Both_2019_2,2,species
+Palaquium sericeum,Palaquium sericeum,3,Both_2019; Both_2019_2; Both_2021,3,species
+Palaquium sumatrana,Palaquium sumatrana,1,Baltzer_2009,1,species
+Paranephelium macrophyllum,Paranephelium macrophyllum,3,Both_2019; Both_2019_2; Both_2021,3,species
+Paranephelium xestophyllum,Paranephelium xestophyllum,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Parashorea densiflora,Parashorea densiflora,2,Baltzer_2009; Iida_2011,2,species
+Parashorea malaanonan,Parashorea malaanonan,10,Both_2019; Both_2019_2; Both_2021; Burslem_2022; Burslem_2022_2; Carle_2025; Inagawa_2023; Kaye_2013; Smith_2016; Sterck_2001,10,species
+Parashorea smythiesii,Parashorea smythiesii,3,Both_2019; Both_2019_2; Both_2021,3,species
+Parashorea stellata,Parashorea stellata,1,Baltzer_2009,1,species
+Parashorea tomentella,Parashorea tomentella,8,Bartholomew_2022; Both_2019; Both_2019_2; Both_2021; Burslem_2022; Burslem_2022_2; Kaye_2013; Smith_2016,8,species
+Parinari oblongifolia,Parinari oblongifolia,1,Kaye_2013,1,species
+Parishia insignis,Parishia insignis,4,Both_2019; Both_2019_2; Both_2021; Iida_2011,4,species
+Paropsia vareciformis,Paropsia vareciformis,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Pavetta graciliflora,Pavetta graciliflora,1,Iida_2011,1,species
+Pavetta sp1,Pavetta sp1,1,Wright_2024,1,species
+Pavetta species 1',Pavetta species 1',1,Iida_2011,1,species
+Pavetta wallichiana,Pavetta wallichiana,1,Kaye_2013,1,species
+Payena,Payena,3,Both_2019; Both_2019_2; Both_2021,3,genus
+Payena acuminata,Payena acuminata,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Payena lucida,Payena lucida,4,Baltzer_2009; Iida_2011; Wright_2024; Wright_2024_2,4,species
+Payena microphylla,Payena microphylla,1,Kaye_2013,1,species
+Pentace adenophora,Pentace adenophora,1,Kaye_2013,1,species
+Pentace laxiflora,Pentace laxiflora,5,Both_2019; Both_2019_2; Both_2021; Inagawa_2023; Kaye_2013,5,species
+Pentace strychnoidea,Pentace strychnoidea,1,Iida_2011,1,species
+Pentaspadon motleyi,Pentaspadon motleyi,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Phaeanthus ophthalamicus,Phaeanthus ophthalamicus,2,Wright_2024; Wright_2024_2,2,species
+Phaeanthus splendens,Phaeanthus splendens,3,Both_2019; Both_2019_2; Both_2021,3,species
+Phaleria capitata,Phaleria capitata,1,Kaye_2013,1,species
+Phoebe grandis,Phoebe grandis,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Phoebe miquelianus,Phoebe miquelianus,1,Kaye_2013,1,species
+Pimelodendron griffithianum,Pimelodendron griffithianum,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Planchonia brevistipitata,Planchonia brevistipitata,3,Both_2019; Both_2019_2; Both_2021,3,species
+Planchonia valida,Planchonia valida,1,Kaye_2013,1,species
+Pleiocarpidia polyneura,Pleiocarpidia polyneura,3,Both_2019; Both_2019_2; Both_2021,3,species
+Pleiocarpidia sandakanica,Pleiocarpidia sandakanica,1,Kaye_2013,1,species
+Polyalthia borneensis,Polyalthia borneensis,1,Kaye_2013,1,species
+Polyalthia cauliflora,Polyalthia cauliflora,1,Kaye_2013,1,species
+Polyalthia glauca,Polyalthia glauca,3,Iida_2011; Thomas_1995; Thomas_1995_2,3,species
+Polyalthia insignis,Polyalthia insignis,1,Kaye_2013,1,species
+Polyalthia laterifolia,Polyalthia laterifolia,2,Thomas_1995; Thomas_1995_2,2,species
+Polyalthia microtus,Polyalthia microtus,1,Kaye_2013,1,species
+Polyalthia obliqua,Polyalthia obliqua,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Polyalthia rumphii,Polyalthia rumphii,2,Iida_2011; Kaye_2013,2,species
+Polyalthia stenopetala,Polyalthia stenopetala,1,Iida_2011,1,species
+Polyalthia sumatrana,Polyalthia sumatrana,1,Kaye_2013,1,species
+Pometia pinnata,Pometia pinnata,5,Both_2019; Both_2019_2; Both_2021; Iida_2011; Kaye_2013,5,species
+Popowia hirtum,Popowia hirtum,1,Kaye_2013,1,species
+Popowia odoardoi,Popowia odoardoi,1,Kaye_2013,1,species
+Popowia pisocarpa,Popowia pisocarpa,4,Iida_2011; Kaye_2013; Wright_2024; Wright_2024_2,4,species
+Popowia tomentosa,Popowia tomentosa,1,Iida_2011,1,species
+Porterandia anisophylla,Porterandia anisophylla,2,Wright_2024; Wright_2024_2,2,species
+Praravinia borneensis,Praravinia borneensis,1,Kaye_2013,1,species
+Praravinia suberosa,Praravinia suberosa,1,Kaye_2013,1,species
+Prismatomeris beccariana,Prismatomeris beccariana,1,Kaye_2013,1,species
+Prismatomeris species 1',Prismatomeris species 1',1,Iida_2011,1,species
+Prunus arborea,Prunus arborea,1,Iida_2011,1,species
+Prunus beccarii,Prunus beccarii,3,Both_2019; Both_2019_2; Both_2021,3,species
+Prunus grisea,Prunus grisea,1,Iida_2011,1,species
+Prunus javanica,Prunus javanica,3,Both_2019; Both_2019_2; Both_2021,3,species
+Pseudoclausena chrysogyne,Pseudoclausena chrysogyne,1,Iida_2011,1,species
+Pseudoeugenia singaporensis,Pseudoeugenia singaporensis,1,Iida_2011,1,species
+Pseudovaria macrophylla,Pseudovaria macrophylla,2,Wright_2024; Wright_2024_2,2,species
+Pseuduvaria borneensis,Pseuduvaria borneensis,3,Both_2019; Both_2019_2; Both_2021,3,species
+Pseuduvaria macrophylla,Pseuduvaria macrophylla,2,Thomas_1995; Thomas_1995_2,2,species
+Pseuduvaria pamattonis,Pseuduvaria pamattonis,1,Kaye_2013,1,species
+Pseuduvaria reticulata,Pseuduvaria reticulata,1,Kaye_2013,1,species
+Psydrax dicoccos,Psydrax dicoccos,3,Both_2019; Both_2019_2; Both_2021,3,species
+Psydrax species 8,Psydrax species 8,1,Iida_2011,1,species
+Pternandra coerulescens,Pternandra coerulescens,4,Iida_2011; Kaye_2013; Thomas_1995; Thomas_1995_2,4,species
+Pterospermum javanicum,Pterospermum javanicum,2,Burslem_2022; Burslem_2022_2,2,species
+Pterygota alata,Pterygota alata,3,Both_2019; Both_2019_2; Both_2021,3,species
+Ptychopyxis arborea,Ptychopyxis arborea,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Ptychopyxis costata,Ptychopyxis costata,2,Wright_2024; Wright_2024_2,2,species
+Pyrenaria acuminata,Pyrenaria acuminata,1,Kaye_2013,1,species
+Pyrenaria tawauensis,Pyrenaria tawauensis,3,Both_2019; Both_2019_2; Both_2021,3,species
+Quercus argentata,Quercus argentata,4,Both_2019; Both_2019_2; Both_2021; Iida_2011,4,species
+Quercus lowii,Quercus lowii,3,Both_2019; Both_2019_2; Both_2021,3,species
+Quercus merrillii,Quercus merrillii,3,Both_2019; Both_2019_2; Both_2021,3,species
+Quercus semiserrata,Quercus semiserrata,1,Baltzer_2009,1,species
+Reinwardtiodendron cinereum,Reinwardtiodendron cinereum,1,Iida_2011,1,species
+Reinwardtiodendron cinerum,Reinwardtiodendron cinerum,1,Wright_2024,1,species
+Reinwardtiodendron humile,Reinwardtiodendron humile,3,Both_2019; Both_2019_2; Kaye_2013,3,species
+Rinorea anguifera,Rinorea anguifera,3,Baltzer_2009; Wright_2024; Wright_2024_2,3,species
+Rinorea bengalensis,Rinorea bengalensis,1,Kaye_2013,1,species
+Rothmannia macrophylla,Rothmannia macrophylla,2,Wright_2024; Wright_2024_2,2,species
+Ryparosa acuminata,Ryparosa acuminata,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Ryparosa hullettii,Ryparosa hullettii,1,Kaye_2013,1,species
+Sageraea elliptica,Sageraea elliptica,3,Both_2019; Both_2021; Kaye_2013,3,species
+Sandoricum koetjape,Sandoricum koetjape,1,Iida_2011,1,species
+Santiria apiculata,Santiria apiculata,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Santiria griffithii,Santiria griffithii,1,Iida_2011,1,species
+Santiria laevigata,Santiria laevigata,4,Both_2019; Both_2019_2; Both_2021; Iida_2011,4,species
+Saraca declinata,Saraca declinata,1,Kaye_2013,1,species
+Sarprosma scortechinii,Sarprosma scortechinii,1,Wright_2024,1,species
+Saurauia,Saurauia,1,Kaye_2013,1,genus
+Scaphium macropodum,Scaphium macropodum,4,Both_2019; Both_2021; Iida_2011; Kaye_2013,4,species
+Scaphocalyx spathacea,Scaphocalyx spathacea,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Schoutenia accrescens,Schoutenia accrescens,1,Iida_2011,1,species
+Scolopia spinosa,Scolopia spinosa,1,Iida_2011,1,species
+Scorodocarpus borneensis,Scorodocarpus borneensis,2,Both_2019; Both_2019_2,2,species
+Semecarpus bunburyana,Semecarpus bunburyana,1,Kaye_2013,1,species
+Shorea,Shorea,3,Both_2019; Both_2019_2; Both_2021,3,genus
+Shorea acuminata,Shorea acuminata,2,Wright_2024; Wright_2024_2,2,species
+Shorea agamii,Shorea agamii,1,Kaye_2013,1,species
+Shorea almon,Shorea almon,3,Both_2019; Both_2019_2; Both_2021,3,species
+Shorea angustifolia,Shorea angustifolia,3,Both_2019; Both_2019_2; Both_2021,3,species
+Shorea argentifolia,Shorea argentifolia,4,Both_2019; Both_2019_2; Both_2021; Smith_2016,4,species
+Shorea atrinervosa,Shorea atrinervosa,1,Kaye_2013,1,species
+Shorea beccariana,Shorea beccariana,4,Both_2019; Both_2019_2; Both_2021; Smith_2016,4,species
+Shorea bracteolata,Shorea bracteolata,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Shorea faguetiana,Shorea faguetiana,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Shorea falciferoides,Shorea falciferoides,2,Both_2019; Both_2021,2,species
+Shorea fallax,Shorea fallax,6,Both_2019; Both_2019_2; Both_2021; Burslem_2022; Burslem_2022_2; Sterck_2001,6,species
+Shorea gibbosa,Shorea gibbosa,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Shorea guiso,Shorea guiso,4,Baltzer_2009; Both_2019; Both_2019_2; Both_2021,4,species
+Shorea johorensis,Shorea johorensis,11,Bartholomew_2022; Both_2019; Both_2019_2; Both_2021; Burslem_2022; Burslem_2022_2; Carle_2025; Inagawa_2023; Kaye_2013; Smith_2016; Sterck_2001,11,species
+Shorea laevis,Shorea laevis,2,Both_2019; Both_2019_2,2,species
+Shorea lepidota,Shorea lepidota,3,Baltzer_2009; Wright_2024; Wright_2024_2,3,species
+Shorea leprosula,Shorea leprosula,12,Both_2019; Both_2019_2; Both_2021; Burslem_2022; Burslem_2022_2; Carle_2025; Inagawa_2023; Kaye_2013; Numata_2000; Smith_2016; Wright_2024; Wright_2024_2,12,species
+Shorea leptoderma,Shorea leptoderma,3,Both_2019; Both_2019_2; Both_2021,3,species
+Shorea macrophylla,Shorea macrophylla,6,Both_2019; Both_2019_2; Both_2021; Burslem_2022; Burslem_2022_2; Smith_2016,6,species
+Shorea macroptera,Shorea macroptera,10,Baltzer_2009; Bartholomew_2022; Both_2019; Both_2019_2; Both_2021; Iida_2011; Thomas_1995; Thomas_1995_2; Wright_2024; Wright_2024_2,10,species
+Shorea maxwelliana,Shorea maxwelliana,2,Wright_2024; Wright_2024_2,2,species
+Shorea mexistopteryx,Shorea mexistopteryx,1,Smith_2016,1,species
+Shorea micans,Shorea micans,1,Inagawa_2023,1,species
+Shorea multiflora,Shorea multiflora,2,Bartholomew_2022; Numata_2000,2,species
+Shorea ochrophloia,Shorea ochrophloia,1,Iida_2011,1,species
+Shorea ovalis,Shorea ovalis,5,Both_2019; Both_2019_2; Both_2021; Wright_2024; Wright_2024_2,5,species
+Shorea ovata,Shorea ovata,3,Both_2019; Both_2019_2; Both_2021,3,species
+Shorea parviflora,Shorea parviflora,1,Both_2021,1,species
+Shorea parvifolia,Shorea parvifolia,11,Baltzer_2009; Both_2019; Both_2019_2; Both_2021; Burslem_2022; Burslem_2022_2; Carle_2025; Inagawa_2023; Kaye_2013; Smith_2016; Sterck_2001,11,species
+Shorea parvistipulata,Shorea parvistipulata,3,Both_2019; Both_2019_2; Both_2021,3,species
+Shorea pauciflora,Shorea pauciflora,7,Both_2019; Both_2019_2; Both_2021; Kaye_2013; Numata_2000; Wright_2024; Wright_2024_2,7,species
+Shorea pinanga,Shorea pinanga,1,Both_2021,1,species
+Shorea seminis,Shorea seminis,4,Burslem_2022; Burslem_2022_2; Kaye_2013; Smith_2016,4,species
+Shorea smithiana,Shorea smithiana,2,Bartholomew_2022; Smith_2016,2,species
+Shorea superba,Shorea superba,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Shorea symingtonii,Shorea symingtonii,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Shorea xanthophylla,Shorea xanthophylla,4,Bartholomew_2022; Both_2019; Both_2019_2; Both_2021,4,species
+Sindora,Sindora,3,Both_2019; Both_2019_2; Both_2021,3,genus
+Sindora coriacea,Sindora coriacea,1,Iida_2011,1,species
+Sindora coriacea (m),Sindora coriacea (m),1,Baltzer_2009,1,species
+Sindora coriacea (t),Sindora coriacea (t),1,Baltzer_2009,1,species
+Sindora coroacea,Sindora coroacea,2,Wright_2024; Wright_2024_2,2,species
+Sindora irpicina,Sindora irpicina,1,Kaye_2013,1,species
+Sindora wallichii,Sindora wallichii,1,Baltzer_2009,1,species
+Sloanea javanica,Sloanea javanica,3,Both_2019; Both_2019_2; Both_2021,3,species
+Spathiostemon,Spathiostemon,3,Both_2019; Both_2019_2; Both_2021,3,genus
+Spathiostemon javensis,Spathiostemon javensis,1,Kaye_2013,1,species
+Spatholobus sp.,Spatholobus sp.,2,Burslem_2022; Burslem_2022_2,2,genus
+Stelechocarpus cauliflorus,Stelechocarpus cauliflorus,3,Both_2019; Both_2019_2; Both_2021,3,species
+Stemonurus scorpiodes,Stemonurus scorpiodes,1,Kaye_2013,1,species
+Sterculia,Sterculia,1,Kaye_2013,1,genus
+Sterculia coccinia,Sterculia coccinia,1,Kaye_2013,1,species
+Sterculia parviflora,Sterculia parviflora,1,Iida_2011,1,species
+Sterculia rubiginosa,Sterculia rubiginosa,4,Both_2019; Both_2019_2; Iida_2011; Kaye_2013,4,species
+Sterculia stipulata,Sterculia stipulata,3,Both_2019; Both_2019_2; Both_2021,3,species
+Symplocos crassipes,Symplocos crassipes,1,Iida_2011,1,species
+Symplocos crassipes var. penangiana,Symplocos crassipes var. penangiana,1,Wright_2024,1,infraspecific
+Symplocos fasciculata,Symplocos fasciculata,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Symplocos odoratissima,Symplocos odoratissima,1,Kaye_2013,1,species
+Syzygium,Syzygium,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,genus
+Syzygium caudatilimbum,Syzygium caudatilimbum,2,Both_2019; Both_2019_2,2,species
+Syzygium cerasiforme,Syzygium cerasiforme,1,Wright_2024,1,species
+Syzygium chloranthum,Syzygium chloranthum,4,Both_2019; Both_2019_2; Both_2021; Wright_2024,4,species
+Syzygium christmannii,Syzygium christmannii,1,Kaye_2013,1,species
+Syzygium creaghii,Syzygium creaghii,1,Kaye_2013,1,species
+Syzygium elopurae,Syzygium elopurae,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Syzygium fastigiatum,Syzygium fastigiatum,1,Kaye_2013,1,species
+Syzygium grande,Syzygium grande,3,Both_2019; Both_2019_2; Both_2021,3,species
+Syzygium griffithii,Syzygium griffithii,3,Both_2019; Both_2019_2; Both_2021,3,species
+Syzygium hirtum,Syzygium hirtum,1,Kaye_2013,1,species
+Syzygium kunstleri,Syzygium kunstleri,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Syzygium leptostemon,Syzygium leptostemon,1,Kaye_2013,1,species
+Syzygium lineatum,Syzygium lineatum,3,Both_2019; Both_2021; Kaye_2013,3,species
+Syzygium pancheri,Syzygium pancheri,1,Both_2019,1,species
+Syzygium panzeri,Syzygium panzeri,3,Both_2019_2; Both_2021; Kaye_2013,3,species
+Syzygium penibukanense,Syzygium penibukanense,1,Kaye_2013,1,species
+Syzygium peregrinum,Syzygium peregrinum,1,Kaye_2013,1,species
+Syzygium perpuncticulatum,Syzygium perpuncticulatum,3,Both_2019; Both_2019_2; Both_2021,3,species
+Syzygium pustulatum,Syzygium pustulatum,1,Wright_2024,1,species
+Syzygium racemosum,Syzygium racemosum,3,Both_2019; Both_2019_2; Both_2021,3,species
+Syzygium rheophyticum,Syzygium rheophyticum,3,Both_2019; Both_2019_2; Both_2021,3,species
+Syzygium scortechinii,Syzygium scortechinii,3,Kaye_2013; Wright_2024; Wright_2024_2,3,species
+Syzygium variolosum,Syzygium variolosum,1,Wright_2024,1,species
+Tarenna sp8,Tarenna sp8,2,Wright_2024; Wright_2024_2,2,species
+Teijsmanniodendron coriaceum,Teijsmanniodendron coriaceum,1,Iida_2011,1,species
+Terminalia citrina,Terminalia citrina,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Terminalia foetidissima,Terminalia foetidissima,3,Both_2019; Both_2019_2; Both_2021,3,species
+Tetrardisia porosa,Tetrardisia porosa,1,Iida_2011,1,species
+Timonius wallichianus,Timonius wallichianus,1,Iida_2011,1,species
+Trema orientalis,Trema orientalis,4,Both_2019; Both_2019_2; Both_2021; Inagawa_2023,4,species
+Trigonobalanus verticillata,Trigonobalanus verticillata,3,Both_2019; Both_2019_2; Both_2021,3,species
+Trigonostemon laevigatus,Trigonostemon laevigatus,1,Iida_2011,1,species
+Trigonostemon malaccanus,Trigonostemon malaccanus,2,Wright_2024; Wright_2024_2,2,species
+Tristaniopsis whiteana,Tristaniopsis whiteana,2,Both_2019; Both_2019_2,2,species
+Tristiropsis acutangula,Tristiropsis acutangula,3,Both_2019; Both_2019_2; Both_2021,3,species
+Urophyllum glabrum,Urophyllum glabrum,4,Iida_2011; Kaye_2013; Wright_2024; Wright_2024_2,4,species
+Urophyllum griffithianum,Urophyllum griffithianum,1,Kaye_2013,1,species
+Urophyllum hirsutum,Urophyllum hirsutum,2,Wright_2024; Wright_2024_2,2,species
+Vatica albiramis,Vatica albiramis,1,Kaye_2013,1,species
+Vatica bella,Vatica bella,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Vatica dulitensis,Vatica dulitensis,3,Both_2019; Both_2019_2; Both_2021,3,species
+Vatica micrantha,Vatica micrantha,1,Bartholomew_2022,1,species
+Vatica odorata,Vatica odorata,3,Both_2019; Both_2019_2; Both_2021,3,species
+Vitex pinnata,Vitex pinnata,1,Kaye_2013,1,species
+Walsura,Walsura,1,Kaye_2013,1,genus
+Walsura pinnata,Walsura pinnata,4,Both_2019; Both_2019_2; Iida_2011; Kaye_2013,4,species
+Xanthophyllum,Xanthophyllum,1,Kaye_2013,1,genus
+Xanthophyllum adenotus,Xanthophyllum adenotus,1,Kaye_2013,1,species
+Xanthophyllum affine,Xanthophyllum affine,2,Baltzer_2009; Kaye_2013,2,species
+Xanthophyllum chartaceum,Xanthophyllum chartaceum,1,Iida_2011,1,species
+Xanthophyllum eurhynchum,Xanthophyllum eurhynchum,3,Iida_2011; Wright_2024; Wright_2024_2,3,species
+Xanthophyllum flavescens,Xanthophyllum flavescens,3,Both_2019; Both_2019_2; Kaye_2013,3,species
+Xanthophyllum grffithii,Xanthophyllum grffithii,2,Wright_2024; Wright_2024_2,2,species
+Xanthophyllum griffithii,Xanthophyllum griffithii,1,Iida_2011,1,species
+Xanthophyllum vitellinum,Xanthophyllum vitellinum,1,Kaye_2013,1,species
+Xerospermum noronhianum,Xerospermum noronhianum,2,Wright_2024; Wright_2024_2,2,species
+Xylopia ferruginea,Xylopia ferruginea,4,Both_2019; Both_2019_2; Both_2021; Kaye_2013,4,species
+Xylopia magna,Xylopia magna,1,Iida_2011,1,species
+Xylopia malayana,Xylopia malayana,1,Iida_2011,1,species
+Xylopia malayana var. malayana,Xylopia malayana var. malayana,2,Wright_2024; Wright_2024_2,2,infraspecific
+Xylopia stenopetala,Xylopia stenopetala,3,Both_2019; Both_2019_2; Both_2021,3,species
+Zizyphus angustifolius,Zizyphus angustifolius,1,Kaye_2013,1,species
+,,2,Both_2019_2; Both_2021,2,missing
