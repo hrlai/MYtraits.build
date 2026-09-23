@@ -137,8 +137,9 @@ align_to_wfo <- function(
     dplyr::mutate(
       review_reason = dplyr::case_when(
         !matched ~ "genus_no_wfo_match",
+        taxonRank == "family" ~ "original_name_is_family_rank",
         taxonRank != "genus" ~ "genus_input_not_matched_to_genus_rank",
-        .default = review_reason
+        .default = NA_character_
       )
     )
 
