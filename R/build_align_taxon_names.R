@@ -15,82 +15,29 @@ assert_unique_key <- function(x, key, object_name) {
   }
 }
 
-refresh_manual_taxonomy_decisions <- function(
-  unresolved,
-  manual_decisions_path
-) {
-  template <- unresolved |>
+refresh_review_table <- function(review_table, review_output_path) {
+  template <- review_table |>
     dplyr::transmute(
       aligned_name,
       name_class,
-      review_reason = dplyr::coalesce(review_reason, "no_wfo_match"),
-      candidate_count,
+      review_reason,
       match_strategy,
-      one_reason,
-      current_taxon_name = wfo_scientific_name,
-      current_taxon_id = taxon_id,
-      current_taxon_rank = taxon_rank,
-      current_taxonomic_status = taxonomic_status,
+      current_taxon_name = scientificName,
+      current_taxon_id = taxonID,
+      current_taxon_rank = taxonRank,
+      current_taxonomic_status = taxonomicStatus,
       decision = NA_character_,
       manual_taxon_id = NA_character_,
       notes = NA_character_
     ) |>
     dplyr::arrange(aligned_name)
 
-  if (file.exists(manual_decisions_path)) {
-    existing <- readr::read_csv(manual_decisions_path, show_col_types = FALSE)
-
-    template <- template |>
-      dplyr::full_join(
-        existing,
-        by = "aligned_name",
-        suffix = c("", ".existing")
-      ) |>
-      dplyr::transmute(
-        aligned_name,
-        name_class = dplyr::coalesce(name_class, name_class.existing),
-        review_reason = dplyr::coalesce(review_reason, review_reason.existing),
-        candidate_count = dplyr::coalesce(
-          candidate_count,
-          candidate_count.existing
-        ),
-        match_strategy = dplyr::coalesce(
-          match_strategy,
-          match_strategy.existing
-        ),
-        one_reason = dplyr::coalesce(one_reason, one_reason.existing),
-        current_taxon_name = dplyr::coalesce(
-          current_taxon_name,
-          current_taxon_name.existing
-        ),
-        current_taxon_id = dplyr::coalesce(
-          current_taxon_id,
-          current_taxon_id.existing
-        ),
-        current_taxon_rank = dplyr::coalesce(
-          current_taxon_rank,
-          current_taxon_rank.existing
-        ),
-        current_taxonomic_status = dplyr::coalesce(
-          current_taxonomic_status,
-          current_taxonomic_status.existing
-        ),
-        decision = dplyr::coalesce(decision.existing, decision),
-        manual_taxon_id = dplyr::coalesce(
-          manual_taxon_id.existing,
-          manual_taxon_id
-        ),
-        notes = dplyr::coalesce(notes.existing, notes)
-      ) |>
-      dplyr::arrange(aligned_name)
-  }
-
   dir.create(
-    dirname(manual_decisions_path),
+    dirname(review_output_path),
     recursive = TRUE,
     showWarnings = FALSE
   )
-  readr::write_csv(template, manual_decisions_path, na = "")
+  readr::write_csv(template, review_output_path, na = "")
   template
 }
 
@@ -143,23 +90,23 @@ lookup_aligned_name_status <- function(x, wfo_backbone) {
 
 #' Build a MYtraits taxon list from Step 2 WFO alignment output.
 #'
-#' Creates or refreshes `inst/data/manual_taxonomy_decisions.csv` for names that
-#' still require explicit review. A replacement taxon list is written only when
-#' every unresolved name is covered by a manual decision.
+#' Creates or refreshes the user-facing review file for names that still
+#' require explicit review. A replacement taxon list is written only when every
+#' unresolved name is covered by a manual decision.
 #'
 #' @param candidate_output_path Path to `data/MYtraits_taxon_alignment_detail.csv`.
 #' @param wfo_backbone_path Path to the WFO backbone file.
-#' @param manual_decisions_path Path to manual taxonomy decisions CSV.
+#' @param review_output_path Path to the user-facing review CSV.
 #' @param output_path Path for the final `config/taxon_list.csv` output.
 #' @param strict If `TRUE`, stop when unresolved names remain after applying
 #'   manual decisions.
 #'
 #' @return Invisibly returns a list with the final `taxon_list`, the current
-#'   `manual_decisions`, and any `remaining_unresolved` names.
+#'   `review_table`, and any `remaining_unresolved` names.
 build_mytraits_taxon_list <- function(
   candidate_output_path = "data/MYtraits_taxon_alignment_detail.csv",
   wfo_backbone_path = "inst/extdata/classification.csv",
-  manual_decisions_path = "inst/data/manual_taxonomy_decisions.csv",
+  review_output_path = "data/MYtraits_alignment_review_needed.csv",
   output_path = "config/taxon_list.csv",
   strict = TRUE
 ) {
@@ -182,11 +129,14 @@ build_mytraits_taxon_list <- function(
 
   assert_unique_key(accepted_taxa, "taxon_id", "Accepted WFO taxa")
 
+  review_table <- alignment |>
+    dplyr::filter(!is.na(review_reason)) |>
+    dplyr::arrange(aligned_name)
+
   unresolved <- alignment |>
     dplyr::filter(
-      review_reason == "multiple_wfo_candidates" |
-        is.na(taxon_id) |
-        is.na(wfo_scientific_name)
+      is.na(taxonID) |
+        is.na(scientificName)
     ) |>
     dplyr::arrange(aligned_name)
 
@@ -217,14 +167,17 @@ build_mytraits_taxon_list <- function(
     "Accepted WFO families used in MYtraits"
   )
 
-  manual_decisions <- refresh_manual_taxonomy_decisions(
-    unresolved = unresolved,
-    manual_decisions_path = manual_decisions_path
+  review_table <- refresh_review_table(
+    review_table = review_table,
+    review_output_path = review_output_path
   )
 
+  manual_decisions_path <- review_output_path
+  manual_decisions <- review_table
+
   valid_decisions <- c(NA_character_, "use_step2_match", "use_manual_taxon_id")
-  invalid_decisions <- manual_decisions |>
-    dplyr::filter(!decision %in% valid_decisions)
+  invalid_decisions <- review_table |>
+    dplyr::filter(!is.na(decision) & !decision %in% valid_decisions)
 
   if (nrow(invalid_decisions) > 0) {
     stop(
@@ -301,7 +254,7 @@ build_mytraits_taxon_list <- function(
       "Taxon list not written. ",
       nrow(remaining_unresolved),
       " names still need decisions in `",
-      manual_decisions_path,
+      review_output_path,
       "`."
     )
   }
@@ -409,7 +362,7 @@ build_mytraits_taxon_list <- function(
 
   invisible(list(
     taxon_list = taxon_list,
-    manual_decisions = manual_decisions,
+    review_table = review_table,
     remaining_unresolved = remaining_unresolved
   ))
 }

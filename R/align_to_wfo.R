@@ -32,7 +32,6 @@ align_to_wfo <- function(
 
     x |>
       dplyr::mutate(
-        candidate_count = 0L,
         raw_candidate_rows = 0L,
         spec.name = aligned_name,
         spec.name.ORIG = aligned_name,
@@ -51,17 +50,16 @@ align_to_wfo <- function(
       WorldFlora::WFO.one(spec.name = "spec.name.ORIG", verbose = FALSE) |>
       tibble::as_tibble()
 
-    candidate_counts <- all_candidates |>
+    raw_candidate_rows <- all_candidates |>
       dplyr::group_by(spec.name.ORIG) |>
       dplyr::summarise(
-        candidate_count = dplyr::n_distinct(taxonID),
         raw_candidate_rows = dplyr::n(),
         .groups = "drop"
       )
 
     x |>
       dplyr::left_join(
-        candidate_counts,
+        raw_candidate_rows,
         by = c("aligned_name" = "spec.name.ORIG"),
         relationship = "many-to-one"
       ) |>
@@ -76,9 +74,8 @@ align_to_wfo <- function(
         wfo_preferred = !is.na(taxonID),
         review_reason = dplyr::case_when(
           is.na(taxonID) ~ "no_wfo_match",
-          candidate_count > 1 ~ "multiple_wfo_candidates",
+          taxonRank == "family" ~ "original_name_is_family_rank",
           taxonRank == "genus" & name_class == "genus" ~ NA_character_,
-          `Old.status` == "Synonym" ~ "submitted_name_is_synonym",
           .default = NA_character_
         ),
         matched = !is.na(taxonID),
@@ -141,7 +138,6 @@ align_to_wfo <- function(
       review_reason = dplyr::case_when(
         !matched ~ "genus_no_wfo_match",
         taxonRank != "genus" ~ "genus_input_not_matched_to_genus_rank",
-        candidate_count > 1 ~ "multiple_wfo_candidates",
         .default = review_reason
       )
     )
