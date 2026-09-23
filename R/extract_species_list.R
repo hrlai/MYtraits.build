@@ -46,22 +46,20 @@ extract_species_list <- function(
   database <- read_rds(database_path)
 
   inventory <-
-    database$taxonomic_updates |>
+    database$traits |>
+    dplyr::select(dataset_id, original_name) |>
     dplyr::mutate(
-      original_name = normalize_taxon_name(original_name),
-      aligned_name = normalize_taxon_name(aligned_name)
+      original_name = normalize_taxon_name(original_name)
     ) |>
-    dplyr::distinct(dataset_id, original_name, aligned_name) |>
-    dplyr::group_by(aligned_name) |>
+    dplyr::group_by(original_name) |>
     dplyr::summarise(
-      original_name = dplyr::first(original_name),
       n_datasets = dplyr::n_distinct(dataset_id),
       datasets = paste(sort(unique(dataset_id)), collapse = "; "),
       n_records = dplyr::n(),
-      name_class = dplyr::first(classify_taxon_name(aligned_name)),
+      name_class = dplyr::first(classify_taxon_name(original_name)),
       .groups = "drop"
     ) |>
-    dplyr::arrange(aligned_name)
+    dplyr::arrange(original_name)
 
   readr::write_csv(inventory, output_path, na = "")
   inventory

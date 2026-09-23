@@ -7,7 +7,6 @@ align_to_wfo <- function(
   species_list <- readr::read_csv(species_list_path, show_col_types = FALSE)
 
   required_cols <- c(
-    "aligned_name",
     "original_name",
     "n_datasets",
     "datasets",
@@ -33,8 +32,8 @@ align_to_wfo <- function(
     x |>
       dplyr::mutate(
         raw_candidate_rows = 0L,
-        spec.name = aligned_name,
-        spec.name.ORIG = aligned_name,
+        spec.name = original_name,
+        spec.name.ORIG = original_name,
         match_strategy = strategy,
         wfo_preferred = FALSE,
         review_reason = review_reason,
@@ -60,12 +59,12 @@ align_to_wfo <- function(
     x |>
       dplyr::left_join(
         raw_candidate_rows,
-        by = c("aligned_name" = "spec.name.ORIG"),
+        by = c("original_name" = "spec.name.ORIG"),
         relationship = "many-to-one"
       ) |>
       dplyr::left_join(
         preferred,
-        by = c("aligned_name" = "spec.name.ORIG"),
+        by = c("original_name" = "spec.name.ORIG"),
         relationship = "one-to-one",
         keep = TRUE
       ) |>
@@ -91,7 +90,7 @@ align_to_wfo <- function(
 
     all_candidates <- WorldFlora::WFO.match(
       spec.data = data.frame(
-        spec.name = x$aligned_name,
+        spec.name = x$original_name,
         stringsAsFactors = FALSE
       ),
       WFO.data = WFO.data,
@@ -117,11 +116,11 @@ align_to_wfo <- function(
   )
 
   unresolved_species <- species_exact |>
-    dplyr::group_by(aligned_name) |>
+    dplyr::group_by(original_name) |>
     dplyr::summarise(any_matched = any(matched), .groups = "drop") |>
     dplyr::filter(!any_matched) |>
-    dplyr::select(aligned_name) |>
-    dplyr::inner_join(species_input, by = "aligned_name")
+    dplyr::select(original_name) |>
+    dplyr::inner_join(species_input, by = "original_name")
 
   species_fuzzy <- match_wfo_names(
     x = unresolved_species,
@@ -168,14 +167,14 @@ align_to_wfo <- function(
     purrr::keep(~ nrow(.x) > 0) |>
     dplyr::bind_rows() |>
     dplyr::arrange(
-      aligned_name,
+      original_name,
       dplyr::desc(wfo_preferred),
       scientificName
     )
 
   review_table <- candidate_table |>
     dplyr::filter(!is.na(review_reason)) |>
-    dplyr::arrange(aligned_name)
+    dplyr::arrange(original_name)
 
   readr::write_csv(candidate_table, candidate_output_path, na = "")
   readr::write_csv(review_table, review_output_path, na = "")
