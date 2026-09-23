@@ -23,9 +23,8 @@ align_to_wfo <- function(
   }
 
   WorldFlora::WFO.remember(wfo_backbone_path)
-  wfo_backbone <- tibble::as_tibble(WFO.data)
 
-  accepted_taxa <- wfo_backbone |>
+  accepted_taxa <- WFO.data |>
     dplyr::filter(taxonomicStatus == "Accepted") |>
     dplyr::transmute(
       taxon_id = taxonID,
@@ -101,58 +100,51 @@ align_to_wfo <- function(
         taxonRank,
         aligned_name_taxon_id,
         aligned_name_taxonomic_status,
-        taxon_id
+        taxon_id,
+        matched = Matched,
+        fuzzy = Fuzzy,
+        fuzzy_distance = Fuzzy.dist,
+        fuzzy_one = Fuzzy.one,
+        fuzzy_two = Fuzzy.two
       ) |>
-      dplyr::left_join(
-        accepted_taxa,
-        by = "taxon_id",
-        relationship = "many-to-one"
-      ) |>
-      dplyr::left_join(
-        genus_ids,
-        by = "genus",
-        relationship = "many-to-one"
-      ) |>
-      dplyr::left_join(
-        family_ids,
-        by = "family",
-        relationship = "many-to-one"
-      )
-
-    raw_candidate_rows <- all_candidates |>
-      dplyr::group_by(spec.name.ORIG) |>
-      dplyr::summarise(
-        raw_candidate_rows = dplyr::n(),
-        .groups = "drop"
-      )
+      dplyr::left_join(accepted_taxa, by = join_by(taxon_id)) |>
+      dplyr::left_join(genus_ids, by = join_by(genus)) |>
+      dplyr::left_join(family_ids, by = join_by(family))
 
     x |>
-      dplyr::left_join(
-        raw_candidate_rows,
-        by = c("original_name" = "spec.name.ORIG"),
-        relationship = "many-to-one"
-      ) |>
       dplyr::left_join(
         preferred,
         by = "original_name",
         relationship = "one-to-one"
       ) |>
       dplyr::mutate(
-        match_strategy = strategy,
+        matched = dplyr::coalesce(matched, FALSE),
+        fuzzy = dplyr::coalesce(fuzzy, FALSE),
+        fuzzy_distance = as.numeric(fuzzy_distance),
+        fuzzy_one = dplyr::coalesce(fuzzy_one, FALSE),
+        fuzzy_two = dplyr::coalesce(fuzzy_two, FALSE),
+        match_strategy = dplyr::case_when(
+          !matched ~ paste0(strategy, "_unmatched"),
+          fuzzy ~ paste0(strategy, "_fuzzy"),
+          .default = paste0(strategy, "_exact")
+        ),
         wfo_preferred = !is.na(aligned_name_taxon_id),
         review_reason = dplyr::case_when(
           is.na(aligned_name_taxon_id) ~ "no_wfo_match",
           taxonRank == "family" ~ "original_name_is_family_rank",
           taxonRank == "genus" & name_class == "genus" ~ NA_character_,
           .default = NA_character_
-        ),
-        matched = !is.na(aligned_name_taxon_id),
-        fuzzy = identical(strategy, "species_fuzzy"),
-        fuzzy_distance = NA_real_
+        )
       )
   }
 
-  match_wfo_names <- function(x, strategy, fuzzy = 0) {
+  match_wfo_names <- function(
+    x,
+    strategy,
+    fuzzy = 0,
+    fuzzy_one = FALSE,
+    fuzzy_two = TRUE
+  ) {
     if (nrow(x) == 0) {
       return(tibble::tibble())
     }
@@ -164,6 +156,8 @@ align_to_wfo <- function(
       ),
       WFO.data = WFO.data,
       Fuzzy = fuzzy,
+      Fuzzy.one = fuzzy_one,
+      Fuzzy.two = fuzzy_two,
       verbose = FALSE
     ) |>
       tibble::as_tibble()
@@ -180,28 +174,46 @@ align_to_wfo <- function(
 
   species_exact <- match_wfo_names(
     x = species_input,
-    strategy = "species_exact",
-    fuzzy = 0
+    strategy = "species",
+    fuzzy = 0,
+    fuzzy_one = FALSE,
+    fuzzy_two = FALSE
   )
+  gc(verbose = FALSE)
 
-  unresolved_species <- species_exact |>
-    dplyr::group_by(original_name) |>
-    dplyr::summarise(any_matched = any(matched), .groups = "drop") |>
-    dplyr::filter(!any_matched) |>
-    dplyr::select(original_name) |>
-    dplyr::inner_join(species_input, by = "original_name")
+  species_unresolved <- species_exact |>
+    dplyr::filter(!matched) |>
+    dplyr::select(original_name)
 
-  species_fuzzy <- match_wfo_names(
-    x = unresolved_species,
-    strategy = "species_fuzzy",
-    fuzzy = 0.1
-  )
+  if (nrow(species_unresolved) > 0) {
+    species_fuzzy <- match_wfo_names(
+      x = species_unresolved |>
+        dplyr::left_join(
+          species_input,
+          by = "original_name",
+          relationship = "one-to-one"
+        ),
+      strategy = "species",
+      fuzzy = 0.1,
+      fuzzy_one = FALSE,
+      fuzzy_two = FALSE
+    )
+    gc(verbose = FALSE)
 
-  species_candidates <- dplyr::bind_rows(species_exact, species_fuzzy)
+    species_candidates <- species_exact |>
+      dplyr::anti_join(
+        species_unresolved,
+        by = "original_name"
+      ) |>
+      dplyr::bind_rows(species_fuzzy) |>
+      dplyr::distinct(original_name, .keep_all = TRUE)
+  } else {
+    species_candidates <- species_exact
+  }
 
   genus_candidates <- species_list |>
     dplyr::filter(name_class == "genus") |>
-    match_wfo_names(strategy = "genus_exact", fuzzy = 0) |>
+    match_wfo_names(strategy = "genus", fuzzy = 0) |>
     dplyr::mutate(
       review_reason = dplyr::case_when(
         !matched ~ "genus_no_wfo_match",
@@ -210,6 +222,7 @@ align_to_wfo <- function(
         .default = NA_character_
       )
     )
+  gc(verbose = FALSE)
 
   informal_candidates <- species_list |>
     dplyr::filter(name_class == "informal") |>

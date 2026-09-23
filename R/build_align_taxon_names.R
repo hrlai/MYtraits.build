@@ -1,5 +1,3 @@
-source("R/extract_species_list.R")
-
 assert_unique_key <- function(x, key, object_name) {
   duplicates <- x |>
     dplyr::count(dplyr::across(dplyr::all_of(key))) |>
@@ -33,40 +31,6 @@ build_mytraits_taxon_list <- function(
   output_path = "config/taxon_list.csv"
 ) {
   alignment <- readr::read_csv(candidate_output_path, show_col_types = FALSE)
-
-  required_cols <- c(
-    "original_name",
-    "wfo_preferred",
-    "taxon_id",
-    "scientific_name_id",
-    "taxon_name",
-    "taxon_rank",
-    "scientific_name_authorship",
-    "genus",
-    "family",
-    "taxonomic_status",
-    "taxon_id_genus",
-    "taxon_id_family",
-    "aligned_name_taxon_id",
-    "aligned_name_taxonomic_status"
-  )
-
-  missing_cols <- setdiff(required_cols, names(alignment))
-  if (length(missing_cols) > 0) {
-    stop(
-      "Step 2 candidate table is missing required columns: ",
-      paste(missing_cols, collapse = ", ")
-    )
-  }
-
-  if (!file.exists(review_output_path)) {
-    stop(
-      "Step 2 review file is missing: `",
-      review_output_path,
-      "`. Run Step 2 before running Step 3."
-    )
-  }
-
   review_table <- readr::read_csv(review_output_path, show_col_types = FALSE)
 
   if (nrow(review_table) > 0) {
@@ -124,7 +88,7 @@ build_mytraits_taxon_list <- function(
   }
 
   preferred_matches <- preferred_matches |>
-    dplyr::transmute(
+    dplyr::select(
       aligned_name = original_name,
       taxon_name,
       taxon_rank,
