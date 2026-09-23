@@ -24,6 +24,5 @@ align_to_wfo(
 build_mytraits_taxon_list(
   candidate_output_path = candidate_output_path,
   review_output_path = review_output_path,
-  wfo_backbone_path = wfo_backbone_path,
   output_path = taxon_list_output_path
 )

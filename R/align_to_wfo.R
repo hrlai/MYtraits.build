@@ -23,6 +23,28 @@ align_to_wfo <- function(
   }
 
   WorldFlora::WFO.remember(wfo_backbone_path)
+  wfo_backbone <- tibble::as_tibble(WFO.data)
+
+  accepted_taxa <- wfo_backbone |>
+    dplyr::filter(taxonomicStatus == "Accepted") |>
+    dplyr::transmute(
+      taxon_id = taxonID,
+      scientific_name_id = scientificNameID,
+      taxon_name = scientificName,
+      taxon_rank = taxonRank,
+      scientific_name_authorship = scientificNameAuthorship,
+      genus,
+      family,
+      taxonomic_status = stringr::str_to_lower(taxonomicStatus)
+    )
+
+  genus_ids <- accepted_taxa |>
+    dplyr::filter(taxon_rank == "genus") |>
+    dplyr::transmute(genus = taxon_name, taxon_id_genus = taxon_id)
+
+  family_ids <- accepted_taxa |>
+    dplyr::filter(taxon_rank == "family") |>
+    dplyr::transmute(family = taxon_name, taxon_id_family = taxon_id)
 
   build_unmatched_rows <- function(x, review_reason, strategy) {
     if (nrow(x) == 0) {
@@ -39,7 +61,19 @@ align_to_wfo <- function(
         review_reason = review_reason,
         matched = FALSE,
         fuzzy = FALSE,
-        fuzzy_distance = NA_real_
+        fuzzy_distance = NA_real_,
+        taxon_id = NA_character_,
+        scientific_name_id = NA_character_,
+        taxon_name = NA_character_,
+        taxon_rank = NA_character_,
+        scientific_name_authorship = NA_character_,
+        genus = NA_character_,
+        family = NA_character_,
+        taxonomic_status = NA_character_,
+        taxon_id_genus = NA_character_,
+        taxon_id_family = NA_character_,
+        aligned_name_taxon_id = NA_character_,
+        aligned_name_taxonomic_status = NA_character_
       )
   }
 
@@ -47,7 +81,43 @@ align_to_wfo <- function(
     preferred <- all_candidates |>
       as.data.frame() |>
       WorldFlora::WFO.one(spec.name = "spec.name.ORIG", verbose = FALSE) |>
-      tibble::as_tibble()
+      tibble::as_tibble() |>
+      dplyr::mutate(
+        dplyr::across(
+          c(taxonID, acceptedNameUsageID),
+          ~ dplyr::na_if(.x, "")
+        ),
+        aligned_name_taxon_id = taxonID,
+        aligned_name_taxonomic_status = dplyr::if_else(
+          is.na(taxonID),
+          NA_character_,
+          stringr::str_to_lower(taxonomicStatus)
+        ),
+        taxon_id = dplyr::coalesce(acceptedNameUsageID, taxonID)
+      ) |>
+      dplyr::select(
+        original_name = spec.name.ORIG,
+        scientificName,
+        taxonRank,
+        aligned_name_taxon_id,
+        aligned_name_taxonomic_status,
+        taxon_id
+      ) |>
+      dplyr::left_join(
+        accepted_taxa,
+        by = "taxon_id",
+        relationship = "many-to-one"
+      ) |>
+      dplyr::left_join(
+        genus_ids,
+        by = "genus",
+        relationship = "many-to-one"
+      ) |>
+      dplyr::left_join(
+        family_ids,
+        by = "family",
+        relationship = "many-to-one"
+      )
 
     raw_candidate_rows <- all_candidates |>
       dplyr::group_by(spec.name.ORIG) |>
@@ -64,20 +134,19 @@ align_to_wfo <- function(
       ) |>
       dplyr::left_join(
         preferred,
-        by = c("original_name" = "spec.name.ORIG"),
-        relationship = "one-to-one",
-        keep = TRUE
+        by = "original_name",
+        relationship = "one-to-one"
       ) |>
       dplyr::mutate(
         match_strategy = strategy,
-        wfo_preferred = !is.na(taxonID),
+        wfo_preferred = !is.na(aligned_name_taxon_id),
         review_reason = dplyr::case_when(
-          is.na(taxonID) ~ "no_wfo_match",
+          is.na(aligned_name_taxon_id) ~ "no_wfo_match",
           taxonRank == "family" ~ "original_name_is_family_rank",
           taxonRank == "genus" & name_class == "genus" ~ NA_character_,
           .default = NA_character_
         ),
-        matched = !is.na(taxonID),
+        matched = !is.na(aligned_name_taxon_id),
         fuzzy = identical(strategy, "species_fuzzy"),
         fuzzy_distance = NA_real_
       )
