@@ -11,6 +11,7 @@ both <-
     skip = 6
   ) |>
   mutate(species = str_replace(species, "\\.", " ")) |>
+  filter(species != "NA") |>
   # generate unique tree ID
   mutate(uid = paste(location, tree_id, sep = "_")) |>
   mutate_at(vars(height.m:lignin_recalcitrants_mg.mm2), as.numeric) |>

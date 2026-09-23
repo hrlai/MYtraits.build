@@ -683,5 +683,8 @@ traits:
     methods: ANKOM
 substitutions: .na
 taxonomic_updates: .na
-exclude_observations: .na
+exclude_observations:
+  - variable: taxon_name
+    find: Cleistanthus indet
+    reason: Identify undetermined.
 questions: .na

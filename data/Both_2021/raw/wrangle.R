@@ -11,6 +11,7 @@ traits <-
     skip = 6
   ) |>
   mutate(species = str_replace(species, "\\.", " ")) |>
+  filter(species != "NA") |>
   # generate unique tree ID
   mutate(uid = paste(location, tree_id, sep = "_")) |>
   # aggregated repeated measurements to individual means because this is the
