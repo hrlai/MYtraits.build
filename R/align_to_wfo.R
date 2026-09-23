@@ -185,6 +185,11 @@ align_to_wfo <- function(
       "x" = "{nrow(review_table)} row{?s} in {.file {review_output_path}} require attention before next step.",
       "i" = "Fix the upstream metadata schema, especially the {.code exclude_observations} section in source metadata files."
     ))
+  } else {
+    cli::cli_inform(c(
+      "{.code align_to_wfo} found no unresolved taxon review entries.",
+      "i" = "Nothing needs manual review before the next step."
+    ))
   }
 
   invisible(list(
