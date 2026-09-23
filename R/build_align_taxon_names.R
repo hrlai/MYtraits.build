@@ -1,23 +1,29 @@
+normalize_taxon_name <- function(x) {
+  x |>
+    stringr::str_replace_all("[\r\n\t]", " ") |>
+    stringr::str_squish()
+}
+
 assert_unique_key <- function(x, key, object_name) {
   duplicates <- x |>
     dplyr::count(dplyr::across(dplyr::all_of(key))) |>
     dplyr::filter(n > 1)
 
   if (nrow(duplicates) > 0) {
-    stop(
-      object_name,
-      " is not unique on ",
-      paste(key, collapse = ", "),
-      "."
-    )
+    cli::cli_abort(c(
+      "{.strong {object_name}} is not unique on {.code {paste(key, collapse = ', ')}}.",
+      "x" = "Duplicate keys: {paste(duplicates[[key[1]]], collapse = ', ')}",
+      "i" = "Review the duplicate names before continuing."
+    ))
   }
 }
 
-#' Build a MYtraits taxon list from Step 2 WFO alignment output.
+#' Build a MYtraits taxon list from `align_to_wfo()` output.
 #'
-#' Treats Step 2 as the review checkpoint. This function builds
-#' `config/taxon_list.csv` from the preferred Step 2 matches and stops whenever
-#' unresolved Step 2 review rows remain or any name lacks a preferred match.
+#' Treats the `align_to_wfo()` review checkpoint as the gate for final output.
+#' This function builds `config/taxon_list.csv` from the preferred WFO matches
+#' and stops whenever unresolved review rows remain or any name lacks a
+#' preferred match.
 #'
 #' @param candidate_output_path Path to `data/MYtraits_taxon_alignment_detail.csv`.
 #' @param review_output_path Path to `data/MYtraits_alignment_review_needed.csv`.
@@ -34,18 +40,17 @@ build_mytraits_taxon_list <- function(
   review_table <- readr::read_csv(review_output_path, show_col_types = FALSE)
 
   if (nrow(review_table) > 0) {
-    stop(
-      "Taxon list not written. ",
-      nrow(review_table),
-      " Step 2 review row(s) remain in `",
-      review_output_path,
-      "`. Resolve them in Step 2 before running Step 3."
-    )
+    cli::cli_abort(c(
+      "Taxon list not written.",
+      "x" = "{nrow(review_table)} review row{?s} remain in {.file {review_output_path}}.",
+      "i" = "Resolve them in {.code align_to_wfo()} before running {.code build_mytraits_taxon_list()}."
+    ))
   }
 
   preferred_matches <- alignment |>
-    dplyr::filter(isTRUE(wfo_preferred)) |>
+    dplyr::filter(wfo_preferred) |>
     dplyr::mutate(
+      original_name = normalize_taxon_name(original_name),
       dplyr::across(
         c(
           taxon_id,
@@ -69,7 +74,7 @@ build_mytraits_taxon_list <- function(
   assert_unique_key(
     preferred_matches,
     "original_name",
-    "Preferred Step 2 matches"
+    "Preferred `align_to_wfo()` matches"
   )
 
   names_without_preferred_match <- alignment |>
@@ -81,10 +86,11 @@ build_mytraits_taxon_list <- function(
     )
 
   if (nrow(names_without_preferred_match) > 0) {
-    stop(
-      "Taxon list not written. No preferred Step 2 match exists for: ",
-      paste(names_without_preferred_match$original_name, collapse = ", ")
-    )
+    cli::cli_abort(c(
+      "Taxon list not written.",
+      "x" = "No preferred {.code align_to_wfo()} match exists for: {paste(names_without_preferred_match$original_name, collapse = ', ')}",
+      "i" = "Resolve or exclude the unmatched names before building the final taxon list."
+    ))
   }
 
   preferred_matches <- preferred_matches |>
@@ -102,6 +108,9 @@ build_mytraits_taxon_list <- function(
       scientific_name_id,
       aligned_name_taxon_id,
       aligned_name_taxonomic_status
+    ) |>
+    dplyr::mutate(
+      aligned_name = normalize_taxon_name(aligned_name)
     )
 
   unresolved_preferred_matches <- preferred_matches |>
@@ -113,10 +122,11 @@ build_mytraits_taxon_list <- function(
     )
 
   if (nrow(unresolved_preferred_matches) > 0) {
-    stop(
-      "Taxon list not written. Preferred Step 2 matches lacked accepted-taxon fields for: ",
-      paste(unresolved_preferred_matches$aligned_name, collapse = ", ")
-    )
+    cli::cli_abort(c(
+      "Taxon list not written.",
+      "x" = "Preferred {.code align_to_wfo()} matches are missing accepted-taxon fields for: {paste(unresolved_preferred_matches$aligned_name, collapse = ', ')}",
+      "i" = "Inspect the WFO match output and resolve the missing accepted-name metadata."
+    ))
   }
 
   taxon_list <- preferred_matches |>
@@ -201,20 +211,32 @@ align_taxon_names <- function(dataset, taxon_list, strict = TRUE) {
   }
 
   if (!"original_name" %in% names(dataset)) {
-    stop("Dataset must contain an `original_name` column.")
+    cli::cli_abort(c(
+      "Dataset is missing the required {.code original_name} column.",
+      "i" = "Check the input data frame before calling {.code align_taxon_names()}."
+    ))
   }
 
   if (!"taxon_name" %in% names(taxon_list)) {
-    stop("Taxon list must contain a `taxon_name` column.")
+    cli::cli_abort(c(
+      "Taxon list is missing the required {.code taxon_name} column.",
+      "i" = "Use a taxon table with the expected schema before matching names."
+    ))
   }
 
+  dataset_normalized <- dataset |>
+    dplyr::mutate(original_name = normalize_taxon_name(original_name))
+
   matched_names <- tibble::tibble(
-    original_name = normalize_taxon_name(dataset$original_name)
+    original_name = dataset_normalized$original_name
   ) |>
     dplyr::left_join(
       taxon_list |>
+        dplyr::mutate(
+          aligned_name = normalize_taxon_name(aligned_name)
+        ) |>
         dplyr::transmute(
-          original_name = normalize_taxon_name(aligned_name),
+          original_name = aligned_name,
           taxon_name
         ),
       by = "original_name",
@@ -227,19 +249,21 @@ align_taxon_names <- function(dataset, taxon_list, strict = TRUE) {
     dplyr::pull(original_name)
 
   if (length(unmatched) > 0 && isTRUE(strict)) {
-    stop(
-      "Unmatched taxon names: ",
-      paste(unmatched, collapse = ", ")
-    )
+    cli::cli_abort(c(
+      "Unmatched taxon names remain after alignment.",
+      "x" = "{paste(unmatched, collapse = ', ')}",
+      "i" = "Inspect the source names or set {.code strict = FALSE} to continue with warnings only."
+    ))
   }
 
   if (length(unmatched) > 0 && !isTRUE(strict)) {
-    warning(
-      "Unmatched taxon names: ",
-      paste(unmatched, collapse = ", ")
-    )
+    cli::cli_warn(c(
+      "Unmatched taxon names remain after alignment.",
+      "x" = "{paste(unmatched, collapse = ', ')}",
+      "i" = "These rows were left unmatched; review them before downstream use."
+    ))
   }
 
-  dataset$taxon_name <- matched_names$taxon_name
-  dataset
+  dataset_normalized$taxon_name <- matched_names$taxon_name
+  dataset_normalized
 }

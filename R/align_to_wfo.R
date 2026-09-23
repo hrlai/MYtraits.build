@@ -16,10 +16,11 @@ align_to_wfo <- function(
 
   missing_cols <- setdiff(required_cols, names(species_list))
   if (length(missing_cols) > 0) {
-    stop(
-      "Species list is missing required columns: ",
-      paste(missing_cols, collapse = ", ")
-    )
+    cli::cli_abort(c(
+      "Species list is missing required columns.",
+      "x" = "Missing: {paste(missing_cols, collapse = ', ')}",
+      "i" = "Check the input file for the expected schema before running {.code align_to_wfo}."
+    ))
   }
 
   WorldFlora::WFO.remember(wfo_backbone_path)
