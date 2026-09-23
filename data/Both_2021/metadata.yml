@@ -28,7 +28,7 @@ dataset:
   data_is_long_format: no
   custom_R_code: .na
   collection_date: 2014-05-01/2018-09-01
-  taxon_name: taxon_name
+  taxon_name: species
   location_name: location
   individual_id: uid
   description:
