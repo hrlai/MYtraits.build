@@ -180,6 +180,14 @@ align_to_wfo <- function(
   readr::write_csv(candidate_table, candidate_output_path, na = "")
   readr::write_csv(review_table, review_output_path, na = "")
 
+  if (nrow(review_table) > 0) {
+    cli::cli_warn(c(
+      "{.code align_to_wfo} produced unresolved taxon review entries.",
+      "x" = "{nrow(review_table)} row{?s} in {.file {review_output_path}} require attention before next step.",
+      "i" = "Fix the upstream metadata schema, especially the {.code exclude_observations} section in source metadata files."
+    ))
+  }
+
   invisible(list(
     candidate_table = candidate_table,
     review_table = review_table
