@@ -30,41 +30,19 @@ align_to_wfo <- function(
       return(tibble::tibble())
     }
 
-    tibble::tibble(
-      aligned_name = x$aligned_name,
-      original_name = x$original_name,
-      n_datasets = x$n_datasets,
-      datasets = x$datasets,
-      n_records = x$n_records,
-      name_class = x$name_class,
-      candidate_count = 0L,
-      raw_candidate_rows = 0L,
-      spec.name = x$aligned_name,
-      spec.name.ORIG = x$aligned_name,
-      taxonID = NA_character_,
-      scientificNameID = NA_character_,
-      scientificName = NA_character_,
-      taxonRank = NA_character_,
-      family = NA_character_,
-      genus = NA_character_,
-      taxonomicStatus = NA_character_,
-      acceptedNameUsageID = NA_character_,
-      parentNameUsageID = NA_character_,
-      nomenclaturalStatus = NA_character_,
-      scientificNameAuthorship = NA_character_,
-      Old.name = NA_character_,
-      Old.status = NA_character_,
-      New.accepted = NA,
-      references = NA_character_,
-      source = NA_character_,
-      One.Reason = NA_character_,
-      match_strategy = strategy,
-      wfo_preferred = FALSE,
-      review_reason = review_reason,
-      matched = FALSE,
-      fuzzy = FALSE,
-      fuzzy_distance = NA_real_
-    )
+    x |>
+      dplyr::mutate(
+        candidate_count = 0L,
+        raw_candidate_rows = 0L,
+        spec.name = aligned_name,
+        spec.name.ORIG = aligned_name,
+        match_strategy = strategy,
+        wfo_preferred = FALSE,
+        review_reason = review_reason,
+        matched = FALSE,
+        fuzzy = FALSE,
+        fuzzy_distance = NA_real_
+      )
   }
 
   format_candidate_table <- function(all_candidates, x, strategy) {
@@ -154,8 +132,7 @@ align_to_wfo <- function(
     fuzzy = 0.1
   )
 
-  species_candidates <- species_exact |>
-    dplyr::bind_rows(species_fuzzy)
+  species_candidates <- dplyr::bind_rows(species_exact, species_fuzzy)
 
   genus_candidates <- species_list |>
     dplyr::filter(name_class == "genus") |>
@@ -183,12 +160,16 @@ align_to_wfo <- function(
       strategy = "missing_skipped"
     )
 
-  candidate_table <- dplyr::bind_rows(
+  candidate_inputs <- list(
     species_candidates,
     genus_candidates,
     informal_candidates,
     missing_candidates
-  ) |>
+  )
+
+  candidate_table <- candidate_inputs |>
+    purrr::keep(~ nrow(.x) > 0) |>
+    dplyr::bind_rows() |>
     dplyr::arrange(
       aligned_name,
       dplyr::desc(wfo_preferred),

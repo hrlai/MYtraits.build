@@ -12,13 +12,18 @@ classify_taxon_name <- function(x) {
   dplyr::case_when(
     # NA and empty names
     is.na(cleaned) | cleaned == "" ~ "missing",
-    # Flag informal names such as quoted morphotypes, `sp.`, `sp nov`,
-    # `indet.`, `cf.`, and `aff.`; `\\b` marks word boundaries and
+    # Treat `Genus sp.` and `Genus spp.` as genus-level placeholders.
+    stringr::str_detect(
+      cleaned,
+      stringr::regex("^[[:alpha:]-]+ spp?\\.$", ignore_case = TRUE)
+    ) ~ "genus",
+    # Flag informal names such as quoted morphotypes, `sp nov`, `indet.`,
+    # `cf.`, and `aff.`; `\\b` marks word boundaries and
     # `ignore_case = TRUE` makes the check case-insensitive.
     stringr::str_detect(
       cleaned,
       stringr::regex(
-        '"|\\bsp\\b|sp\\.|spp\\.|\\bnov\\b|nov\\.|indet\\.|\\bindet\\b|\\bcf\\.?\\b|\\baff\\.?\\b',
+        '"|\\bnov\\b|nov\\.|indet\\.|\\bindet\\b|\\bcf\\.?\\b|\\baff\\.?\\b',
         ignore_case = TRUE
       )
     ) ~ "informal",
@@ -30,7 +35,7 @@ classify_taxon_name <- function(x) {
       cleaned,
       stringr::regex(" subsp\\.| var\\.| forma | f\\.", ignore_case = TRUE)
     ) ~ "infraspecific",
-    .default ~ "species"
+    .default = "species"
   )
 }
 
