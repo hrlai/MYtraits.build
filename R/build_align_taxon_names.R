@@ -34,7 +34,8 @@ assert_unique_key <- function(x, key, object_name) {
 build_mytraits_taxon_list <- function(
   candidate_output_path = "data/MYtraits_taxon_alignment_detail.csv",
   review_output_path = "data/MYtraits_alignment_review_needed.csv",
-  output_path = "config/taxon_list.csv"
+  output_path = "config/taxon_list.csv",
+  allow_unchecked_species = FALSE
 ) {
   alignment <- readr::read_csv(candidate_output_path, show_col_types = FALSE)
   review_table <- readr::read_csv(review_output_path, show_col_types = FALSE)
@@ -67,6 +68,34 @@ build_mytraits_taxon_list <- function(
           aligned_name_taxonomic_status
         ),
         ~ dplyr::na_if(.x, "")
+      ),
+      taxon_name = dplyr::if_else(
+        allow_unchecked_species &
+          aligned_name_taxonomic_status == "unchecked" &
+          is.na(taxon_name),
+        scientificName,
+        taxon_name
+      ),
+      taxon_rank = dplyr::if_else(
+        allow_unchecked_species &
+          aligned_name_taxonomic_status == "unchecked" &
+          is.na(taxon_rank),
+        taxonRank,
+        taxon_rank
+      ),
+      taxonomic_status = dplyr::if_else(
+        allow_unchecked_species &
+          aligned_name_taxonomic_status == "unchecked" &
+          is.na(taxonomic_status),
+        aligned_name_taxonomic_status,
+        taxonomic_status
+      ),
+      genus = dplyr::if_else(
+        allow_unchecked_species &
+          aligned_name_taxonomic_status == "unchecked" &
+          is.na(genus),
+        stringr::word(scientificName, 1),
+        genus
       )
     ) |>
     dplyr::arrange(original_name)
@@ -119,6 +148,9 @@ build_mytraits_taxon_list <- function(
         is.na(taxon_name) |
         is.na(taxon_rank) |
         is.na(taxonomic_status)
+    ) |>
+    dplyr::filter(
+      !(allow_unchecked_species & aligned_name_taxonomic_status == "unchecked")
     )
 
   if (nrow(unresolved_preferred_matches) > 0) {

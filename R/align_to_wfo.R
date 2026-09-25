@@ -2,7 +2,8 @@ align_to_wfo <- function(
   species_list_path = "data/MYtraits_raw_species_list.csv",
   wfo_backbone_path = "inst/extdata/classification.csv",
   candidate_output_path = "data/MYtraits_taxon_alignment_detail.csv",
-  review_output_path = "data/MYtraits_alignment_review_needed.csv"
+  review_output_path = "data/MYtraits_alignment_review_needed.csv",
+  allow_unchecked_species = FALSE
 ) {
   species_list <- readr::read_csv(species_list_path, show_col_types = FALSE)
 
@@ -133,6 +134,9 @@ align_to_wfo <- function(
         review_reason = dplyr::case_when(
           is.na(aligned_name_taxon_id) ~ "no_wfo_match",
           taxonRank == "family" ~ "original_name_is_family_rank",
+          taxonRank == "species" &
+            aligned_name_taxonomic_status == "unchecked" &
+            !allow_unchecked_species ~ "unchecked_wfo_match_manual_review",
           taxonRank == "genus" & name_class == "genus" ~ NA_character_,
           .default = NA_character_
         )
