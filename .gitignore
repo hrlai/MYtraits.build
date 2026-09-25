@@ -9,6 +9,8 @@ data/Sterck_2001/raw/A_1017507723365.pdf
 # large flora or backbone datasets
 # World Flora Online
 inst/extdata/classification.csv  
+# intermediate files
+inst/taxonomy/
 
 # History files
 .Rhistory

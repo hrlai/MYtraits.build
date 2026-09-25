@@ -3,9 +3,9 @@ source("R/align_to_wfo.R")
 source("R/build_align_taxon_names.R")
 
 database_path <- "export/data/curr/MYtraits.rds"
-species_output_path <- "data/MYtraits_raw_species_list.csv"
-candidate_output_path <- "data/MYtraits_taxon_alignment_detail.csv"
-review_output_path <- "data/MYtraits_alignment_review_needed.csv"
+species_output_path <- "inst/taxonomy/MYtraits_raw_species_list.csv"
+candidate_output_path <- "inst/taxonomy/MYtraits_taxon_alignment_detail.csv"
+review_output_path <- "inst/taxonomy/MYtraits_alignment_review_needed.csv"
 wfo_backbone_path <- "inst/extdata/classification.csv"
 taxon_list_output_path <- "config/taxon_list.csv"
 allow_unchecked_species <- TRUE

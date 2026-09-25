@@ -41,7 +41,7 @@ classify_taxon_name <- function(x) {
 
 extract_species_list <- function(
   database_path = "export/data/curr/MYtraits.rds",
-  output_path = "data/MYtraits_raw_species_list.csv"
+  output_path = "inst/taxonomy/MYtraits_raw_species_list.csv"
 ) {
   database <- read_rds(database_path)
 

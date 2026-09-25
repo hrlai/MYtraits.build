@@ -25,15 +25,15 @@ assert_unique_key <- function(x, key, object_name) {
 #' and stops whenever unresolved review rows remain or any name lacks a
 #' preferred match.
 #'
-#' @param candidate_output_path Path to `data/MYtraits_taxon_alignment_detail.csv`.
-#' @param review_output_path Path to `data/MYtraits_alignment_review_needed.csv`.
+#' @param candidate_output_path Path to `inst/taxonomy/MYtraits_taxon_alignment_detail.csv`.
+#' @param review_output_path Path to `inst/taxonomy/MYtraits_alignment_review_needed.csv`.
 #' @param output_path Path for the final `config/taxon_list.csv` output.
 #'
 #' @return Invisibly returns a list with the final `taxon_list`, the current
 #'   `review_table`, and the `preferred_matches` used to build the output.
 build_mytraits_taxon_list <- function(
-  candidate_output_path = "data/MYtraits_taxon_alignment_detail.csv",
-  review_output_path = "data/MYtraits_alignment_review_needed.csv",
+  candidate_output_path = "inst/taxonomy/MYtraits_taxon_alignment_detail.csv",
+  review_output_path = "inst/taxonomy/MYtraits_alignment_review_needed.csv",
   output_path = "config/taxon_list.csv",
   allow_unchecked_species = FALSE
 ) {
@@ -219,6 +219,7 @@ build_mytraits_taxon_list <- function(
 
   dir.create(dirname(output_path), recursive = TRUE, showWarnings = FALSE)
   readr::write_csv(taxon_list, output_path, na = "")
+  cli::cli_inform("Wrote MYtraits taxon list to {.file {output_path}}.")
 
   invisible(list(
     taxon_list = taxon_list,
@@ -233,7 +234,7 @@ build_mytraits_taxon_list <- function(
 #' the original data with a populated `taxon_name` column.
 #'
 #' @param dataset A data frame containing an `original_name` column.
-#' @param taxon_list A data frame or path to `config/taxon_list.csv`.
+#' @param taxon_list A data frame or path to `inst/taxonomy/taxon_list.csv`.
 #' @param strict If `TRUE`, stop when any submitted names are not found.
 #'
 #' @return The input `dataset` with a `taxon_name` column.

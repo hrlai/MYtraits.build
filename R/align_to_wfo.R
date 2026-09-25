@@ -1,8 +1,8 @@
 align_to_wfo <- function(
-  species_list_path = "data/MYtraits_raw_species_list.csv",
+  species_list_path = "inst/taxonomy/MYtraits_raw_species_list.csv",
   wfo_backbone_path = "inst/extdata/classification.csv",
-  candidate_output_path = "data/MYtraits_taxon_alignment_detail.csv",
-  review_output_path = "data/MYtraits_alignment_review_needed.csv",
+  candidate_output_path = "inst/taxonomy/MYtraits_taxon_alignment_detail.csv",
+  review_output_path = "inst/taxonomy/MYtraits_alignment_review_needed.csv",
   allow_unchecked_species = FALSE
 ) {
   species_list <- readr::read_csv(species_list_path, show_col_types = FALSE)
