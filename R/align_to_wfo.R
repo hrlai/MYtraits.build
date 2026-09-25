@@ -1,3 +1,18 @@
+#' Align MYtraits names to the World Flora Online backbone.
+#'
+#' Runs an exact-first WFO match on the submitted name inventory, retries only
+#' unresolved names with a narrow fuzzy pass, and writes both the candidate table
+#' and the manual-review subset to disk.
+#'
+#' @param species_list_path Path to the raw species list CSV.
+#' @param wfo_backbone_path Path to the local WFO backbone CSV used by WorldFlora.
+#' @param candidate_output_path Path for the full alignment candidate table.
+#' @param review_output_path Path for the unresolved review table.
+#' @param allow_unchecked_species If `TRUE`, allow species-level unchecked WFO
+#'   matches to pass through without manual review.
+#'
+#' @return A list containing `candidate_table` and `review_table`, invisibly.
+#' @export
 align_to_wfo <- function(
   species_list_path = "inst/taxonomy/MYtraits_raw_species_list.csv",
   wfo_backbone_path = "inst/extdata/classification.csv",

@@ -1,3 +1,12 @@
+#' Normalize taxon names for comparison and classification.
+#'
+#' Replaces control whitespace with single spaces and squishes repeated spaces so
+#' downstream matching works on a consistent name form.
+#'
+#' @param x A character vector of taxon names.
+#'
+#' @return A character vector with normalized whitespace.
+#' @keywords internal
 normalize_taxon_name <- function(x) {
   x |>
     # Replace line breaks and tabs with spaces so each name is on one line.
@@ -6,6 +15,15 @@ normalize_taxon_name <- function(x) {
     stringr::str_squish()
 }
 
+#' Classify submitted taxon names by taxonomic form.
+#'
+#' Distinguishes missing names, genus placeholders, informal names,
+#' infraspecific names, and standard species names.
+#'
+#' @param x A character vector of taxon names.
+#'
+#' @return A character vector of name classes.
+#' @keywords internal
 classify_taxon_name <- function(x) {
   cleaned <- normalize_taxon_name(x)
 
@@ -39,6 +57,17 @@ classify_taxon_name <- function(x) {
   )
 }
 
+#' Extract a reviewable species inventory from the MYtraits database.
+#'
+#' Collapses the exported traits table to one row per unique `original_name`,
+#' counts dataset coverage and record counts, and classifies each submitted name
+#' before writing the raw inventory for taxonomic review.
+#'
+#' @param database_path Path to `export/data/curr/MYtraits.rds`.
+#' @param output_path Path for `inst/taxonomy/MYtraits_raw_species_list.csv`.
+#'
+#' @return The extracted inventory as a data frame, invisibly written to disk.
+#' @export
 extract_species_list <- function(
   database_path = "export/data/curr/MYtraits.rds",
   output_path = "inst/taxonomy/MYtraits_raw_species_list.csv"

@@ -28,9 +28,12 @@ assert_unique_key <- function(x, key, object_name) {
 #' @param candidate_output_path Path to `inst/taxonomy/MYtraits_taxon_alignment_detail.csv`.
 #' @param review_output_path Path to `inst/taxonomy/MYtraits_alignment_review_needed.csv`.
 #' @param output_path Path for the final `config/taxon_list.csv` output.
+#' @param allow_unchecked_species If `TRUE`, let unchecked WFO species matches
+#'   fill missing accepted fields when building the final taxon list.
 #'
 #' @return Invisibly returns a list with the final `taxon_list`, the current
 #'   `review_table`, and the `preferred_matches` used to build the output.
+#' @export
 build_mytraits_taxon_list <- function(
   candidate_output_path = "inst/taxonomy/MYtraits_taxon_alignment_detail.csv",
   review_output_path = "inst/taxonomy/MYtraits_alignment_review_needed.csv",

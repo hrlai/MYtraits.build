@@ -2,6 +2,7 @@ source("R/extract_species_list.R")
 source("R/align_to_wfo.R")
 source("R/build_align_taxon_names.R")
 
+# Step 1: build the raw, reviewable name inventory.
 database_path <- "export/data/curr/MYtraits.rds"
 species_output_path <- "inst/taxonomy/MYtraits_raw_species_list.csv"
 candidate_output_path <- "inst/taxonomy/MYtraits_taxon_alignment_detail.csv"
@@ -15,6 +16,7 @@ extract_species_list(
   output_path = species_output_path
 )
 
+# Step 2: align names to World Flora Online and write the review tables.
 align_to_wfo(
   species_list_path = species_output_path,
   wfo_backbone_path = wfo_backbone_path,
@@ -23,6 +25,7 @@ align_to_wfo(
   allow_unchecked_species = allow_unchecked_species
 )
 
+# Step 3: build the final taxon list only after review rows are cleared.
 build_mytraits_taxon_list(
   candidate_output_path = candidate_output_path,
   review_output_path = review_output_path,
