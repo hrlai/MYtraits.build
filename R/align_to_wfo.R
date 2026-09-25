@@ -20,6 +20,7 @@ align_to_wfo <- function(
   review_output_path = "inst/taxonomy/MYtraits_alignment_review_needed.csv",
   allow_unchecked_species = FALSE
 ) {
+  # Read the raw inventory produced by the species-extraction step.
   species_list <- readr::read_csv(species_list_path, show_col_types = FALSE)
 
   required_cols <- c(
@@ -30,6 +31,7 @@ align_to_wfo <- function(
     "name_class"
   )
 
+  # Stop early if the upstream inventory schema is not what this step expects.
   missing_cols <- setdiff(required_cols, names(species_list))
   if (length(missing_cols) > 0) {
     cli::cli_abort(c(
@@ -39,8 +41,10 @@ align_to_wfo <- function(
     ))
   }
 
+  # Load the local WFO backbone into the WorldFlora lookup objects.
   WorldFlora::WFO.remember(wfo_backbone_path)
 
+  # Keep only accepted WFO taxa for the final preferred-match lookup.
   accepted_taxa <- WFO.data |>
     dplyr::filter(taxonomicStatus == "Accepted") |>
     dplyr::transmute(
@@ -54,6 +58,7 @@ align_to_wfo <- function(
       taxonomic_status = stringr::str_to_lower(taxonomicStatus)
     )
 
+  # Precompute accepted genus and family ids for later enrichment.
   genus_ids <- accepted_taxa |>
     dplyr::filter(taxon_rank == "genus") |>
     dplyr::transmute(genus = taxon_name, taxon_id_genus = taxon_id)
@@ -62,6 +67,7 @@ align_to_wfo <- function(
     dplyr::filter(taxon_rank == "family") |>
     dplyr::transmute(family = taxon_name, taxon_id_family = taxon_id)
 
+  # Build a placeholder row set for names that should bypass WFO matching.
   build_unmatched_rows <- function(x, review_reason, strategy) {
     if (nrow(x) == 0) {
       return(tibble::tibble())
@@ -93,6 +99,7 @@ align_to_wfo <- function(
       )
   }
 
+  # Reduce each WFO match set to the preferred interpretation for each name.
   format_candidate_table <- function(all_candidates, x, strategy) {
     preferred <- all_candidates |>
       as.data.frame() |>
@@ -128,6 +135,7 @@ align_to_wfo <- function(
       dplyr::left_join(genus_ids, by = join_by(genus)) |>
       dplyr::left_join(family_ids, by = join_by(family))
 
+    # Join the preferred WFO row back onto the original input inventory.
     x |>
       dplyr::left_join(
         preferred,
@@ -140,12 +148,15 @@ align_to_wfo <- function(
         fuzzy_distance = as.numeric(fuzzy_distance),
         fuzzy_one = dplyr::coalesce(fuzzy_one, FALSE),
         fuzzy_two = dplyr::coalesce(fuzzy_two, FALSE),
+        # Keep a simple label for how this row was resolved.
         match_strategy = dplyr::case_when(
           !matched ~ paste0(strategy, "_unmatched"),
           fuzzy ~ paste0(strategy, "_fuzzy"),
           .default = paste0(strategy, "_exact")
         ),
+        # Flag rows that resolved to a visible WFO preferred record.
         wfo_preferred = !is.na(aligned_name_taxon_id),
+        # Mark rows that still need manual attention after matching.
         review_reason = dplyr::case_when(
           is.na(aligned_name_taxon_id) ~ "no_wfo_match",
           taxonRank == "family" ~ "original_name_is_family_rank",
@@ -158,6 +169,7 @@ align_to_wfo <- function(
       )
   }
 
+  # Wrapper for exact and fuzzy WorldFlora matching.
   match_wfo_names <- function(
     x,
     strategy,
@@ -169,6 +181,7 @@ align_to_wfo <- function(
       return(tibble::tibble())
     }
 
+    # Run the WFO match for the supplied subset only.
     all_candidates <- WorldFlora::WFO.match(
       spec.data = data.frame(
         spec.name = x$original_name,
@@ -189,9 +202,11 @@ align_to_wfo <- function(
     )
   }
 
+  # Exact/fuzzy matching is only applied to standard species and infraspecific names.
   species_input <- species_list |>
     dplyr::filter(name_class %in% c("species", "infraspecific"))
 
+  # First pass: exact matching only.
   species_exact <- match_wfo_names(
     x = species_input,
     strategy = "species",
@@ -201,11 +216,13 @@ align_to_wfo <- function(
   )
   gc(verbose = FALSE)
 
+  # Collect only the names that still need a second pass.
   species_unresolved <- species_exact |>
     dplyr::filter(!matched) |>
     dplyr::select(original_name)
 
   if (nrow(species_unresolved) > 0) {
+    # Second pass: apply a narrow fuzzy search only to unresolved names.
     species_fuzzy <- match_wfo_names(
       x = species_unresolved |>
         dplyr::left_join(
@@ -220,6 +237,7 @@ align_to_wfo <- function(
     )
     gc(verbose = FALSE)
 
+    # Keep one row per original name after combining exact and fuzzy results.
     species_candidates <- species_exact |>
       dplyr::anti_join(
         species_unresolved,
@@ -231,6 +249,7 @@ align_to_wfo <- function(
     species_candidates <- species_exact
   }
 
+  # Genus names follow a separate exact-match path.
   genus_candidates <- species_list |>
     dplyr::filter(name_class == "genus") |>
     match_wfo_names(strategy = "genus", fuzzy = 0) |>
@@ -244,6 +263,7 @@ align_to_wfo <- function(
     )
   gc(verbose = FALSE)
 
+  # Informal names are carried through as explicit manual-review rows.
   informal_candidates <- species_list |>
     dplyr::filter(name_class == "informal") |>
     build_unmatched_rows(
@@ -251,6 +271,7 @@ align_to_wfo <- function(
       strategy = "informal_skipped"
     )
 
+  # Missing names are also kept as explicit manual-review rows.
   missing_candidates <- species_list |>
     dplyr::filter(name_class == "missing") |>
     build_unmatched_rows(
@@ -258,6 +279,7 @@ align_to_wfo <- function(
       strategy = "missing_skipped"
     )
 
+  # Stack the matched and manual-review candidates into one output table.
   candidate_inputs <- list(
     species_candidates,
     genus_candidates,

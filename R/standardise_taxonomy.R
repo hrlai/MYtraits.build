@@ -1,3 +1,13 @@
+# Taxonomic harmonisation workflow:
+# 1. Extract a raw, reviewable inventory of submitted names from MYtraits.
+# 2. Match those names to the World Flora Online backbone, using exact matching
+#    first and a narrow fuzzy retry only for unresolved names.
+# 3. Stop for manual review where WFO has no defensible match or where records
+#    need curation, then build the final taxon list only from preferred matches.
+#
+# The workflow is intentionally stepwise so each artefact can be inspected before
+# the next step runs.
+
 source("R/extract_species_list.R")
 source("R/align_to_wfo.R")
 source("R/build_align_taxon_names.R")

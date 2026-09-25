@@ -72,24 +72,34 @@ extract_species_list <- function(
   database_path = "export/data/curr/MYtraits.rds",
   output_path = "inst/taxonomy/MYtraits_raw_species_list.csv"
 ) {
+  # Load the exported MYtraits database that still contains all submitted names.
   database <- read_rds(database_path)
 
   inventory <-
     database$traits |>
+    # Keep only the fields needed to count names and track dataset coverage.
     dplyr::select(dataset_id, original_name) |>
+    # Normalize names before grouping so whitespace-only differences collapse.
     dplyr::mutate(
       original_name = normalize_taxon_name(original_name)
     ) |>
+    # Reduce the traits table to one row per submitted name.
     dplyr::group_by(original_name) |>
     dplyr::summarise(
+      # Count how many distinct datasets used the name.
       n_datasets = dplyr::n_distinct(dataset_id),
+      # Preserve the contributing dataset ids for quick review.
       datasets = paste(sort(unique(dataset_id)), collapse = "; "),
+      # Keep the raw record count behind each submitted name.
       n_records = dplyr::n(),
+      # Classify the name once so later steps know how to handle it.
       name_class = dplyr::first(classify_taxon_name(original_name)),
       .groups = "drop"
     ) |>
+    # Sort for stable output and easier manual inspection.
     dplyr::arrange(original_name)
 
+  # Write the reviewable raw inventory for the alignment step.
   readr::write_csv(inventory, output_path, na = "")
   inventory
 }

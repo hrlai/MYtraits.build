@@ -40,9 +40,11 @@ build_mytraits_taxon_list <- function(
   output_path = "config/taxon_list.csv",
   allow_unchecked_species = FALSE
 ) {
+  # Read the detailed alignment output and the manual-review table.
   alignment <- readr::read_csv(candidate_output_path, show_col_types = FALSE)
   review_table <- readr::read_csv(review_output_path, show_col_types = FALSE)
 
+  # Do not write a final taxon list until the review queue is empty.
   if (nrow(review_table) > 0) {
     cli::cli_abort(c(
       "Taxon list not written.",
@@ -51,9 +53,11 @@ build_mytraits_taxon_list <- function(
     ))
   }
 
+  # Keep only the rows that WFO marked as the preferred match.
   preferred_matches <- alignment |>
     dplyr::filter(wfo_preferred) |>
     dplyr::mutate(
+      # Re-normalize the original name so the output stays consistent.
       original_name = normalize_taxon_name(original_name),
       dplyr::across(
         c(
@@ -72,6 +76,7 @@ build_mytraits_taxon_list <- function(
         ),
         ~ dplyr::na_if(.x, "")
       ),
+      # Allow unchecked WFO species to fill a few missing accepted fields.
       taxon_name = dplyr::if_else(
         allow_unchecked_species &
           aligned_name_taxonomic_status == "unchecked" &
@@ -103,12 +108,14 @@ build_mytraits_taxon_list <- function(
     ) |>
     dplyr::arrange(original_name)
 
+  # Confirm each submitted name still maps to one preferred row only.
   assert_unique_key(
     preferred_matches,
     "original_name",
     "Preferred `align_to_wfo()` matches"
   )
 
+  # Catch any names that never produced a preferred match at all.
   names_without_preferred_match <- alignment |>
     dplyr::distinct(original_name) |>
     dplyr::anti_join(
@@ -125,6 +132,7 @@ build_mytraits_taxon_list <- function(
     ))
   }
 
+  # Reshape the preferred rows into the final taxon-list schema.
   preferred_matches <- preferred_matches |>
     dplyr::select(
       aligned_name = original_name,
@@ -145,6 +153,7 @@ build_mytraits_taxon_list <- function(
       aligned_name = normalize_taxon_name(aligned_name)
     )
 
+  # Check for any preferred row that is still missing accepted-taxon metadata.
   unresolved_preferred_matches <- preferred_matches |>
     dplyr::filter(
       is.na(taxon_id) |
@@ -164,6 +173,7 @@ build_mytraits_taxon_list <- function(
     ))
   }
 
+  # Add the final fields expected by downstream traits.build tooling.
   taxon_list <- preferred_matches |>
     dplyr::mutate(
       taxonomic_dataset = "WFO",
@@ -187,6 +197,7 @@ build_mytraits_taxon_list <- function(
           scientific_name_authorship == "" ~ taxon_name,
         .default = paste(taxon_name, scientific_name_authorship)
       ),
+      # Genus rows keep their own id as the genus id.
       taxon_id_genus = dplyr::case_when(
         taxon_rank == "genus" ~ taxon_id,
         .default = taxon_id_genus
@@ -218,8 +229,10 @@ build_mytraits_taxon_list <- function(
       aligned_name_taxonomic_status
     )
 
+  # Keep the final key stable before writing the CSV.
   assert_unique_key(taxon_list, "aligned_name", "Final taxon list")
 
+  # Write the finished taxon list for downstream use.
   dir.create(dirname(output_path), recursive = TRUE, showWarnings = FALSE)
   readr::write_csv(taxon_list, output_path, na = "")
   cli::cli_inform("Wrote MYtraits taxon list to {.file {output_path}}.")
