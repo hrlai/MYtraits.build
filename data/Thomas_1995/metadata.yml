@@ -100,5 +100,11 @@ traits:
       Lincoln, Nebraska, U.S.A.).
 substitutions: .na
 taxonomic_updates: .na
-exclude_observations: .na
+exclude_observations:
+  - variable: taxon_name
+    find:
+      Aporusa "sessile-flowered" sp nov, Aporusa "swamp" sp nov, Diospyros
+      "brown-barked" sp nov, Garcinia "dark" sp nov, Garcinia "small" sp nov,
+      Ixora "lanceolate-leaved" sp nov
+    reason: informal names
 questions: .na

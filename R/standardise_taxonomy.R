@@ -1,0 +1,44 @@
+# Taxonomic harmonisation workflow:
+# 1. Extract a raw, reviewable inventory of submitted names from MYtraits.
+# 2. Match those names to the World Flora Online backbone, using exact matching
+#    first and a narrow fuzzy retry only for unresolved names.
+# 3. Stop for manual review where WFO has no defensible match or where records
+#    need curation, then build the final taxon list only from preferred matches.
+#
+# The workflow is intentionally stepwise so each artefact can be inspected before
+# the next step runs.
+
+source("R/extract_species_list.R")
+source("R/align_to_wfo.R")
+source("R/build_align_taxon_names.R")
+
+# Build the raw, reviewable name inventory.
+database_path <- "export/data/curr/MYtraits.rds"
+species_output_path <- "inst/taxonomy/MYtraits_raw_species_list.csv"
+candidate_output_path <- "inst/taxonomy/MYtraits_taxon_alignment_detail.csv"
+review_output_path <- "inst/taxonomy/MYtraits_alignment_review_needed.csv"
+wfo_backbone_path <- "inst/extdata/classification.csv"
+taxon_list_output_path <- "config/taxon_list.csv"
+allow_unchecked_species <- TRUE
+
+extract_species_list(
+  database_path = database_path,
+  output_path = species_output_path
+)
+
+# Align names to World Flora Online and write the review tables.
+align_to_wfo(
+  species_list_path = species_output_path,
+  wfo_backbone_path = wfo_backbone_path,
+  candidate_output_path = candidate_output_path,
+  review_output_path = review_output_path,
+  allow_unchecked_species = allow_unchecked_species
+)
+
+# Build the final taxon list only after review rows are cleared.
+build_mytraits_taxon_list(
+  candidate_output_path = candidate_output_path,
+  review_output_path = review_output_path,
+  output_path = taxon_list_output_path,
+  allow_unchecked_species = allow_unchecked_species
+)
