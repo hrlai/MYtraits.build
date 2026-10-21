@@ -2,7 +2,7 @@ source:
   primary:
     key: Carle_2025
     bibtype: Article
-    year: "2026"
+    year: '2026'
     author:
       Hannah J. Carle and Timothée Bonnett and Adrienne B. Nicotra and Elia
       Godoong and Andrew Hector and Patrick Meir and Michael J. O'brien
@@ -15,7 +15,7 @@ source:
   secondary:
     key: Carle_2025_2
     bibtype: Misc
-    year: "2025"
+    year: '2025'
     author: Hannah Carle and Elia Godoong and Patrick Meir and Michael O'brien
     title:
       Traits from reciprocal transplanted seedlings of 6 species of
@@ -101,7 +101,7 @@ traits:
       estimates and leaf nitrogen, confirming the accuracy of the CCM-300 for
       these species.
   - var_in: d13c
-    unit_in: "%"
+    unit_in: '%'
     trait_name: leaf_delta13C
     entity_type: individual
     value_type: mean
@@ -130,7 +130,7 @@ traits:
       decoupling of subcanopy air from the troposphere and an assumed gradient
       in d13air with height above the forest floor.
   - var_in: nest
-    unit_in: "%"
+    unit_in: '%'
     trait_name: leaf_N_per_dry_mass
     entity_type: individual
     value_type: mean
@@ -195,7 +195,7 @@ traits:
       of the root system. To isolate leaf, stem and root tissues, leaves were
       plucked from the stem and roots were cut from the stem at the collar.
   - var_in: root_shoot_ratio
-    unit_in: g/g
+    unit_in: g{root}/g{shoot}
     trait_name: root_shoot_ratio
     entity_type: individual
     value_type: raw
@@ -246,4 +246,5 @@ traits:
 substitutions: .na
 taxonomic_updates: .na
 exclude_observations: .na
-questions: .na
+questions:
+  leaf_delta13C should be in ppth? Why was it percentage in the raw data?
