@@ -65,3 +65,4 @@ rsconnect/
 # uvr files
 /.uvr/library/
 /.uvr/activate*
+inst/extdata/sid/*.csv
