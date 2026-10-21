@@ -49,7 +49,7 @@ contributors:
 dataset:
   data_is_long_format: yes
   custom_R_code: .na
-  collection_date: 1-1-2020/1-6-2020
+  collection_date: 2020-01-01/2020-06-01
   taxon_name: species
   trait_name: trait
   value: value
