@@ -116,6 +116,76 @@ to `excluded_data` at build.
   names; `unmapped_values.csv` was only used for Lim_2010 and is not the
   preferred format going forward.
 
+### Pentaphylacaceae-specific lessons (Yao_2010, FPM vol. 1, pp. 161--164)
+
+Result: 1 accepted taxon (*Pentaphylax euryoides*), 112 rows in
+`trait_data.csv` (71 mapped, 41 unmapped), 69 rows and 46 traits in `data.csv`;
+`dataset_test()` passed (314 tests). `dataset_process()` was not run.
+
+- **Tiny families: hand-write the rows, no segmenter.** One species and four
+  pages did not justify `segment_source.R`. `raw/build_trait_data.R` is a list
+  of `row()` / `un()` / `tri()` / `rng()` calls with page and verbatim clause.
+  Still transcribe from page images first (vol. 1 is scanned). Transcribe only
+  the text pages; the Figure page holds only a caption.
+- **OCR errors seen in vol. 1** (compare against the image): `SFNJ 1332` for
+  SFN11332, `(0.5}-1` for (0.5)–1, `(--6)` for (–6), `lJy` for by, `Vase.` for
+  Vasc., `fig.I` for fig.1. Collector numbers and parenthetical extremes are
+  the usual victims.
+- **Helpers for `(a–)b(–c)` values.** `tri()` writes `usually` mean plus two
+  `extreme_range` rows; `rng()` writes min and max. Convert en dashes to `--`
+  in `trait_value_raw`.
+- **Monogeneric family.** Family and genus statements are both copied down
+  (`rank_scored_from` = genus or family). Genus-level text on stamens, ovary and
+  fruit supplies most flower and fruit traits because the species description
+  does not repeat them.
+- **Merge alternatives that map to the same trait and context.** The first
+  `dataset_test()` failed with "duplicate rows ... cannot pivot wider". Cause:
+  two rows with the same taxon, trait, commonness qualifier, context and
+  value type (bark texture from two clauses; "rarely ovate or falcate" split in
+  two). Merge them into one space-delimited value in text order. Check
+  duplicates on `taxon_name, trait, commonness_qualifier, population_region,
+  entity_measured, trait_scoring_method, value_type` before testing.
+- **Qualifier mismatches.** A clause with `usually` plus `rarely` plus
+  `sometimes` alternatives (leaf apex, leaf shape) is fine as separate rows,
+  but the qualified alternatives must each be a single row per trait.
+- **Dimension pairs `L × W`.** Score the length trait; record the width as an
+  unmapped row (`UNMAPPED: flower_sepal_width (candidate) ...`) when no width
+  trait exists. Note the "first dimension is length" assumption in a metadata
+  question.
+- **Negative phrases** ("without stipules", "without buttresses") are not scored
+  when the trait has no `absent` level. List them in unmapped rows and ask.
+- **Hedged Ecology statements.** "suggest wind dispersal" and "more-or-less
+  continuously throughout the year": the user accepted both (anemochory;
+  `yyyyyyyyyyyy` with `population_region = Peninsular Malaysia`). Keep the
+  hedge in `notes` and in a metadata question.
+- **Levels that do not fit.** `actinomorphic` maps to `actinomorphic_general`;
+  `spirally arranged` goes to `leaf_arrangement: spiral` (no `spiral` in
+  `leaf_phyllotaxis`); `rugose` to `rough`; `subglabrous` to `glabrous`;
+  `reddish brown` to `brown`; fruit or bud "diameter" to `fruit_width` /
+  `bud_width`; spike-like to `spike`. List every such mapping as one metadata
+  question. Check units too: `plant_diameter_breast_height` is mm, `bud_width`
+  cm, `petiole_length` cm, `leaf_length` mm; `data.csv` keeps source units and
+  `unit_in: unit` converts.
+- **Unmapped rows stay out of `data.csv`.** `extra_R_code_Yao_2010.R` filters
+  blank `trait`. `unmapped_terms.csv` is a summary (organ, character, example,
+  page). Unmapped rows carry `rank_scored_from` (family/genus) and the section
+  (Genus Distribution, Genus Note, Family Taxonomy) so they can be mapped later.
+- **Ambiguous sentences.** "glossy above, sparsely minutely pubescent,
+  subglabrous beneath" could put the hairs on either surface; scored adaxial
+  hairy, abaxial glabrous, and flagged.
+- **`metadata.yml` generation.** I generated the `traits:` and `substitutions:`
+  blocks once from `data.csv` in the console and pasted them, as these notes
+  advise; no generator script is kept. Pitfall: YAML plain scalars cannot
+  contain `:` or begin with a quote, so quote every `questions:` and
+  `methods:` string (single quotes, doubled inside). `yaml::read_yaml()` catches
+  this before `dataset_test()`.
+- **Testing in a session.** `traits.build::dataset_test()` prints a huge
+  progress log; pass `reporter = testthat::ListReporter$new()` and sum
+  `failed` / `passed`, and read failure messages from `rep$get_results()`.
+- **The editor (air) reformats R files on save.** A scripted string replace
+  failed because `row(...)` calls were split over lines. Re-read the lines and
+  edit by line number.
+
 ## Most challenging tasks
 
 1. **Segmenting text into blocks.** Most of the time went here.
