@@ -1,0 +1,8 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Pentaphylax euryoides,lectotype,K,K000364422,Champion,s.n.,,Hong Kong,,China,"Type, p.162","Barcode as printed; 'here designated'."
+Pentaphylax euryoides,isolectotype,K,,Champion,s.n.,,Hong Kong,,China,"Type, p.162","'isolectotypes K, 4 sheets'; one row, 4 sheets."
+Pentaphylax malayana,holotype,BM,BM000603110,Wray & Robinson,5405,,G. Tahan,Pahang,Peninsular Malaysia,"Type of synonym, p.162","Synonym of P. euryoides."
+Pentaphylax arborea,holotype,K,,Mohd. Nur,SFN 11332,,Fraser's Hills,Pahang,Peninsular Malaysia,"Type of synonym, p.162","Synonym of P. euryoides. OCR read 'SFNJ 1332'; image shows SFN11332."
+Pentaphylax arborea,isotype,KEP,,Mohd. Nur,SFN 11332,,Fraser's Hills,Pahang,Peninsular Malaysia,"Type of synonym, p.162",
+Pentaphylax arborea,isotype,SING,,Mohd. Nur,SFN 11332,,Fraser's Hills,Pahang,Peninsular Malaysia,"Type of synonym, p.162",
+Pentaphylax euryoides,figure specimen,,,,FRI 3307; FRI 41667; FRI 40415; FRI 12218,,,,Peninsular Malaysia,"Figure 1 caption, p.163","A from FRI 3307; B, K-N from FRI 41667; C, D-F, I, J from FRI 40415; G & H from FRI 12218. Institution FRI as printed."

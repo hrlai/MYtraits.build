@@ -1,0 +1,44 @@
+"organ","character","n_taxa","example_taxon","example_text","printed_page"
+"stipules absent (negative phrase, not scored)","stipules absent (negative phrase, not scored)",1,"Pentaphylax euryoides","Without stipules.",161
+"venation: pinnately veined","venation: pinnately veined",1,"Pentaphylax euryoides","Leaves simple, spirally arranged, pinnately veined.",161
+"bracts/bracteoles presence, count (1--2), persistence","bracts/bracteoles presence, count (1--2), persistence",1,"Pentaphylax euryoides","Inflorescences axillary, spike-like, often developing into foliate twigs, or with only solitary flowers along foliate twigs; bracteate, bracteoles 1--2, persistent.",161
+"pedicel length (qualitative)","pedicel length (qualitative)",1,"Pentaphylax euryoides","pedicel short or absent",161
+"sepal and petal count, aestivation, adnation to stamens","sepal and petal count, aestivation, adnation to stamens",1,"Pentaphylax euryoides","sepals 5, imbricate; petals 5, imbricate, adnate with the stamens at the base",161
+"filament shape","filament shape; anther locule count",1,"Pentaphylax euryoides","filaments broadest at the base, narrowing towards the anther, anther 2-locular",161
+"ovule count per locule","ovule count per locule; ovule orientation",1,"Pentaphylax euryoides","ovules 2 per locule, pendulous on axile placentas",162
+"capsule valve count (5), columella, septum, wood texture","capsule valve count (5), columella, septum, wood texture",1,"Pentaphylax euryoides","splitting loculicidally in the upper half or down to the base into 5 valves detaching from a persistent central column, each valve bearing a woody septum down the centre",162
+"seed flattening","seed flattening; wing texture; embryo shape; endosperm amount",1,"Pentaphylax euryoides","Seeds laterally flattened, with a membranous wing at one end; embryo horseshoe-shaped, endosperm scarce.",162
+"family circumscription","family circumscription; no trait",1,"Pentaphylax euryoides","Monogeneric family.",161
+"taxonomic argument","taxonomic argument; repeats genus characters (leaf arrangement, anther count/dehiscence); small lids on pores",1,"Pentaphylax euryoides","Engler (1897) described Pentaphylacaceae as a family distinct from Ternstroemiaceae based on its spirally arranged leaves and five anthers with terminal pores opening with small lids",161
+"global distribution","global distribution",1,"Pentaphylax euryoides","A genus with one widely distributed species, extending from SE China (including Hainan and Hong Kong, where it is a dominant species in montane evergreen forest), to Vietnam, N and C Sumatra, and Peninsular Malaysia.",162
+"use: ornamental (qualified 'sometimes')","use: ornamental (qualified 'sometimes')",1,"Pentaphylax euryoides","It is sometimes cultivated as an ornamental.",162
+"aluminium accumulator (qualitative","aluminium accumulator (qualitative; cf. leaf_Al_per_dry_mass, no value given); dried leaf colour",1,"Pentaphylax euryoides","Pentaphylax is an aluminium accumulator and its leaves dry yellowish green due to their high aluminium content (Chenery, Kew Bull. (1948) 176).",162
+"size at first flowering (height 60 cm)","size at first flowering (height 60 cm); not plant_height",1,"Pentaphylax euryoides","beginning to flower at 60 cm",162
+"bole surface and shape","bole surface and shape",1,"Pentaphylax euryoides","bole smooth, columnar",162
+"buttresses absent (negative phrase","buttresses absent (negative phrase; stem_base_form has no 'absent' level)",1,"Pentaphylax euryoides","without buttresses",162
+"sapwood colour","sapwood colour",1,"Pentaphylax euryoides","Sapwood pale yellow to yellow and pink-tinged.",162
+"lenticels","lenticels; inner bark texture",1,"Pentaphylax euryoides","Bark ... with lenticels; inner bark ... granular, brittle",162
+"twig colour and surface","twig colour and surface",1,"Pentaphylax euryoides","Twigs black when dry, ridged lengthwise",162
+"leaf colour in life/dried/young","leaf colour in life/dried/young; ambiguous which part is dark green",1,"Pentaphylax euryoides","Leaves in life with lateral and intercostal veins dark green contrasting pale yellowish green beneath, drying khaki, young leaves red",162
+"petiole shape, grooving, hairs","petiole shape, grooving, hairs",1,"Pentaphylax euryoides","petioles slender, ... grooved above, sparsely minutely pubescent or glabrous",162
+"lamina texture","lamina texture",1,"Pentaphylax euryoides","chartaceous to thickly coriaceous",162
+"leaf margin ciliation","leaf margin ciliation",1,"Pentaphylax euryoides","margin ... sometimes minutely ciliate",162
+"apex tip shape","apex tip shape",1,"Pentaphylax euryoides","tip minutely retuse",162
+"midrib hairs/relief","midrib hairs/relief; lateral vein count (7--12 pairs); venation",1,"Pentaphylax euryoides","midrib sparsely minutely pubescent, in the lower half grooved above, prominent beneath; lateral veins 7--12 pairs, fine, raised above, prominent beneath; intercostal veins finely reticulate, conspicuous, sometimes faint",162
+"rachis surface/hairs","rachis surface/hairs; inflorescence mixing",1,"Pentaphylax euryoides","rachis ridged, minutely pubescent, rarely both inflorescences and solitary flowers on the same shoot",162
+"bract shape, keel, hairs, margin","bract shape, keel, hairs, margin",1,"Pentaphylax euryoides","bracts and bracteoles deltoid, keeled, ... minutely pubescent, margin ciliate",162
+"bud colour and shape","bud colour and shape",1,"Pentaphylax euryoides","buds light green to green, globular",162
+"sepal shape, width, inequality, hairs, keel, margin","sepal shape, width, inequality, hairs, keel, margin",1,"Pentaphylax euryoides","sepals deltoid, ... c. 1 mm, unequal, outside minutely pubescent, inside keeled, glabrous, margin ciliate",162
+"petal shape, width, hairs, margin, apex","petal shape, width, hairs, margin, apex",1,"Pentaphylax euryoides","petals ... obovate to oblong, ... (0.5)--1.5 mm, glabrous, margin entire, apex rounded to slightly retuse",162
+"flower_sepal_width (candidate): c. 1 mm","flower_sepal_width (candidate): c. 1 mm; length read as first dimension, see metadata question",1,"Pentaphylax euryoides","sepals deltoid, (0.5)--1 x c. 1 mm",162
+"flower_petal_width (candidate): (0.5)--1.5 mm","flower_petal_width (candidate): (0.5)--1.5 mm",1,"Pentaphylax euryoides","petals ... obovate to oblong, c. 2--3 x (0.5)--1.5 mm",162
+"anther width (across)","anther width (across); pore lid",1,"Pentaphylax euryoides","anthers c. 0.5 mm across, pores opening by a minute beaked lid, attached at the lower end of the pore aperture",164
+"ovary shape and size","ovary shape and size",1,"Pentaphylax euryoides","ovary ovoid, c. 0.5 mm long, 0.5 mm diameter",164
+"stigma lobes and shape","stigma lobes and shape",1,"Pentaphylax euryoides","stigma 5-lobed and star-shaped",164
+"unripe fruit colour, striping","unripe fruit colour, striping",1,"Pentaphylax euryoides","Fruits green, sometimes with longitudinal light green lines",164
+"fruit shape, apex/base, style persistence","fruit shape, apex/base, style persistence",1,"Pentaphylax euryoides","ellipsoid, rounded at both ends, ... style persistent",164
+"seeds per locule (not per plant","seeds per locule (not per plant; seed_count not applicable)",1,"Pentaphylax euryoides","Seeds 1--2 per locule",164
+"seed wing shape and size (no wing traits","seed wing shape and size (no wing traits; seed_length not scored from wing)",1,"Pentaphylax euryoides","wing linear-oblong, 5--6 mm long, 1--2 mm wide",164
+"state-level distribution","state-level distribution",1,"Pentaphylax euryoides","in Peninsular Malaysia recorded in Kedah, Perak, Kelantan, Pahang, Selangor, and Johor.",164
+"conservation status","conservation status",1,"Pentaphylax euryoides","Least concern.",164
+"habitat (forest type, ridge tops) and elevation 900--2000 m","habitat (forest type, ridge tops) and elevation 900--2000 m; no traits",1,"Pentaphylax euryoides","it grows in lower to upper montane forest between 900--2000 m, mainly on rocky ridge tops.",164
