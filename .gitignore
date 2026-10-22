@@ -1,3 +1,7 @@
+inst/extdata/sid/*.csv
+inst/extdata/FPM/*.pdf
+inst/extdata/TFSS/*.pdf
+
 # data not yet ready to publicise
 data/Kaye_2013/raw/*.xlsx
 data/Kaye_2013/raw/*.docx
@@ -65,4 +69,3 @@ rsconnect/
 # uvr files
 /.uvr/library/
 /.uvr/activate*
-inst/extdata/sid/*.csv
