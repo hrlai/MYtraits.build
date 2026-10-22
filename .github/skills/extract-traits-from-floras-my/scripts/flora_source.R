@@ -141,11 +141,17 @@ flora_read_pdf_lines <- function(
     select(-text)
 }
 
-# Compare the multiset of numbers per pdf page in a transcription with the PDF
-# text layer. Differences are page numbers, running heads and layer misreads
-# unless a measurement differs; read every other difference from the page image.
-# Returns only differing numbers.
-flora_compare_numbers <- function(transcription_file, pdf_file) {
+# Compare measurements (default) or all numbers per PDF page in a transcription
+# with the PDF text layer. `measurements_only = TRUE` ignores citations, page
+# numbers and running heads, so it is appropriate for partial transcriptions.
+# Use `FALSE` only when the transcription includes the complete page text.
+# Read every difference from the page image; this is a review aid, not a pass/fail
+# test. Returns only differing values or measurement strings.
+flora_compare_numbers <- function(
+  transcription_file,
+  pdf_file,
+  measurements_only = TRUE
+) {
   tr <- flora_read_transcription(transcription_file) |>
     group_by(pdf_page) |>
     summarise(text = paste(t, collapse = " "), .groups = "drop")
@@ -153,20 +159,29 @@ flora_compare_numbers <- function(transcription_file, pdf_file) {
     pdf_page = seq_along(pdftools::pdf_text(pdf_file)),
     text = pdftools::pdf_text(pdf_file)
   )
-  nums <- \(d, nm) {
+  values <- \(d, nm) {
     d |>
       filter(pdf_page %in% tr$pdf_page) |>
-      mutate(number = str_extract_all(text, "\\d+(?:\\.\\d+)?")) |>
-      select(pdf_page, number) |>
-      unnest(number) |>
-      count(pdf_page, number, name = nm)
+      mutate(
+        value = if (measurements_only) {
+          str_extract_all(
+            text,
+            "\\d+(?:\\.\\d+)?(?:\\s?[–-]\\s?\\d+(?:\\.\\d+)?)?(?:\\s?[×x]\\s?\\d+(?:\\.\\d+)?(?:\\s?[–-]\\s?\\d+(?:\\.\\d+)?)?)?\\s?(?:mm|cm|m)\\b"
+          )
+        } else {
+          str_extract_all(text, "\\d+(?:\\.\\d+)?")
+        }
+      ) |>
+      select(pdf_page, value) |>
+      unnest(value) |>
+      count(pdf_page, value, name = nm)
   }
   full_join(
-    nums(tr, "n_transcription"),
-    nums(layer, "n_layer"),
-    by = c("pdf_page", "number")
+    values(tr, "n_transcription"),
+    values(layer, "n_layer"),
+    by = c("pdf_page", "value")
   ) |>
     mutate(across(starts_with("n_"), \(x) coalesce(x, 0L))) |>
     filter(n_transcription != n_layer) |>
-    arrange(pdf_page, as.numeric(number))
+    arrange(pdf_page, value)
 }

@@ -3,7 +3,8 @@
 # order, and the trait_data.csv -> data.csv step.
 #
 # Use: source(".github/skills/extract-traits-from-floras-my/scripts/flora_assemble.R")
-# Run from the repository root.
+# Run from the repository root. This script loads flora_parse.R because
+# flora_finalise() uses its text-normalisation helpers.
 #
 # Row tables use the column names of the family parsers:
 #   block, rank, trait, trait_value, trait_value_clean, value_type, unit, cq
@@ -13,6 +14,7 @@
 # variety, informal_form.
 
 suppressPackageStartupMessages(library(tidyverse))
+source(".github/skills/extract-traits-from-floras-my/scripts/flora_parse.R")
 
 # Standard order of columns in raw/trait_data.csv (all three FPM datasets).
 flora_trait_data_cols <- c(
@@ -321,12 +323,22 @@ flora_unmapped_summary <- function(trait_data) {
 flora_drop_redundant_ranks <- function(d) {
   order_rank <- c("own", "species", "species_group", "genus", "family")
   d |>
-    mutate(.lvl = match(coalesce(na_if(rank_scored_from, ""), "own"), order_rank)) |>
-    group_by(
-      taxon_name, trait, commonness_qualifier, population_region, form,
-      entity_measured, value_type, trait_value_clean
+    mutate(
+      .lvl = match(coalesce(na_if(rank_scored_from, ""), "own"), order_rank)
     ) |>
-    filter(is.na(trait) | trait == "" | value_type != "mode" | .lvl == min(.lvl)) |>
+    group_by(
+      taxon_name,
+      trait,
+      commonness_qualifier,
+      population_region,
+      form,
+      entity_measured,
+      value_type,
+      trait_value_clean
+    ) |>
+    filter(
+      is.na(trait) | trait == "" | value_type != "mode" | .lvl == min(.lvl)
+    ) |>
     ungroup() |>
     select(-.lvl)
 }
