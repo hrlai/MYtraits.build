@@ -1,0 +1,35 @@
+# Nor-Ezzawanis (2010), Cibotiaceae, transcribed from rendered PDF page images.
+# Text pages are PDF pp. 7--8 and 10 (printed pp. 119--120 and 122).
+# PDF p. 9 is Figure 1 and is excluded except for its specimen caption.
+@page 7 119
+CIBOTIACEAE
+A.T. Nor-Ezzawanis
+Forest Research Institute Malaysia, Kepong, Malaysia
+
+Monogeneric family.
+
+Taxonomy. Cibotium was previously included in Dicksoniaceae (Holttum, Rev. Fl. Malaya 2 (1968) 112; Kramer, Fam. Gen. Vasc. Pl. 1 (1990) 94; Parris & Latiff, Malay. Nat. J. 50 (1997) 247) or in Cyatheaceae (Piggott, Ferns Malay. (1988) 90). Korall (2006) recognised Cibotiaceae as a distinct family based on spore morphology, molecular data and chromosome number.
+
+CIBOTIUM Kaulf.
+
+Large to very large terrestrial ferns. Rhizomes erect or prostrate (elsewhere some are tree-ferns), the apex thickly covered with yellowish to dark brown hairs, young parts without scales, bearing spirally arranged fronds. Stipes stout, smooth, the base densely hairy. Laminae large, with all axes more or less hairy, glabrous when mature; deeply tripinnatifid (elsewhere from bipinnatifid, bipinnate, tripinnatifid to tripinnate), each lobe with a mid-vein bearing simple or forked lateral veins, veins raised on upper surface. Sori rounded, terminal at the ends of veins, protected by an abaxial (“inner”) indusium and a hardly to strongly modified lobe of the frond segment (“outer” indusium), indusia inferior, cup-shaped (elsewhere box-shaped), entire; indusia with similar texture to that of the green frond but much paler, the two indusia surrounding numerous sporangia and long paraphyses, the inner indusium (when mature) deflexed towards the veinlet; sporangia with short to long stalks, sporangium with longitudinal, vertical or slightly oblique annulus; spores tetrahedral. Gametophyte: above ground, green, broadly-cordate.
+
+Distribution. Cibotium comprises c. 9 species: 4 in the Hawaiian Islands, 2 in Mexico and N Central America, and 3 in Asia from NE India, S China and the Ryukyu Islands (Japan) to Malesia. Only Cibotium barometz occurs in Peninsular Malaysia.
+@page 8 120
+Uses. The golden hairs on the rhizome and young parts of several Cibotium species have long been used in China and SE Asia as a styptic to stop bleeding (Praptosuwiryo, PROSEA 15, 2 (2003) 79). All Cibotium species have ornamental value.
+
+Cibotium barometz (L.) J.Sm.
+
+Large terrestrial fern. Rhizomes prostrate, 77–100 cm long, 10–32 cm diameter, young parts with dense brown shining hairs, to 5 cm long. Stipes green when young, reddish brown when mature, 80–225 cm long, 1–2 cm diameter, base densely hairy for 1/5 to 2/5 of stipe length, softly short-hairy when young, glabrescent when old. Laminae mid-green above, glaucous beneath, young plants covered all over by soft, pale brown hairs, lower surface of veins and veinlets of mature plants more or less densely covered with pale brown appressed hairs, when dry papery, ovate (in outline), 110–220 × 120–170 cm, deeply tripinnatifid; pinnae pairs 12–22, arranged more or less alternately, ovate (in outline), largest pinnae at or near base to c. 94 × 33 cm; the largest pinnules 5–20 × 3–4 mm, the proximal pinnules with short stalk 1–4 mm long, the distal pinnules sessile, all pinnules lobed almost to the vein, lobes slightly oblique, 2–5 mm apart, margin shallowly toothed and more deeply so towards apex, apex broadly pointed; veins oblique, usually dichotomously branched but basal soriferous veins often unbranched. Sori 1–10 pairs on each pinnule, at the ends of basal veins on each lobe; indusia 0.5–0.8 × 0.5–0.8 mm, pale green, stiff, outer indusium round, inner elongating (at maturity) becoming more or less oblong.
+
+Distribution. NE India, S China, and Taiwan, Ryukyu Islands, Sumatra, Peninsular Malaysia, Java, Borneo (Kalimantan and Sarawak), Maluku and New Guinea. In Peninsular Malaysia, all states except Perlis, Negeri Sembilan, Melaka and Terengganu.
+
+Conservation status. Least Concern.
+
+Ecology. On slopes and stream banks in lowland rain forest from 60 m altitude to lower montane forest up to 1670 m or in rocky places on quartzite ridges, sandstone and granite cliffs (but not on calcareous soils), and on open, bare earth banks and paths recently cut through forest. Holttum (1963) stated that the species probably spreads by invading landslides.
+@page 10 122
+Uses. Lowry (Malay. Nat. J. 23 (1970) 174) recorded trade of golden chicken plants (the apex of rhizome with rolled croziers and long brown hairs resembles a chicken) in Kuala Lumpur and Petaling Jaya, Selangor, in the late 1960s when the Genting Highlands development began. Currently, golden chicken plants are sold at several roadside stalls from Tapah to Cameron Highlands (Pahang). Golden chicken plants are sold either in dry form as table ornaments or fresh for home gardening because the cut apex will grow when planted in the ground (Temiar collector, pers. comm.). Collection of this plant for sale does not so far seem to impact on the population because, according to the Temiar collector, plants can still easily be found in sufficient quantity close by.
+
+In Asia, including Peninsular Malaysia, the hairs on the rhizome have long been used to staunch bleeding wounds (Praptosuwiryo, 2003). Bidin (Paku-pakis Ubatan di Semenanjung Malaysia (1985) 58) stated that the young leaves are eaten as ulam (raw leaves eaten with pounded chillies and taken with rice).
+
+Notes. It is not certain whether this species is completely trunkless. The specimen label of Ridley 5176 from G. Jerai reported the plant had a trunk ‘four feet tall’ and in Java, Backer & Posthumus (Varenflora voor Java (1939) 23, fig. 7) described the species as having a trunk. However, none of the wild plants observed by Holttum had a trunk, nor did the very old cultivated plants in Singapore Botanic Garden (Holttum, 1968). All living plants and herbarium specimens collected since in Peninsular Malaysia have not been reported as having a trunk.
