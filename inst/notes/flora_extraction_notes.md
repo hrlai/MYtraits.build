@@ -42,6 +42,24 @@ to `excluded_data` at build.
 - **Copy-down and inheritance** with explicit rules (unqualified single level,
   every member that describes the trait agrees) were simple to script and audit.
 
+## Scanned PDFs (Lim_2010, FPM vol. 1)
+
+- Some FPM PDFs are scans with an OCR text layer added later (Acrobat Pro DC,
+  2020; check `pdftools::pdf_info()` and look for typos such as "Salish.",
+  "1. 7-", "x" for ×). Elaeocarpaceae (vol. 7) is born-digital; Araucariaceae
+  and Pentaphylacaceae (vol. 1) are not.
+- User rule: do not use an OCR layer of unknown origin. Render pages
+  (`pdftools::pdf_convert`, 220 dpi, top and bottom halves), transcribe to
+  `raw/<Family>_transcription.txt` (one paragraph per line, `@page <pdf>
+  <printed>` markers, verbatim text with true en dashes and ×), and point
+  `segment_source.R` at that file. The parser then needs no OCR repairs.
+- Check: compare the multiset of numbers per page between the transcription
+  and the OCR layer. Read any difference again from the image. For
+  Araucariaceae, all differences were page numbers, running heads and OCR
+  misreads in citations; no measurement differed.
+- Cost: about one read per half page. Fine for small families; for large ones
+  ask for a born-digital PDF first.
+
 ## Most challenging tasks
 
 1. **Segmenting text into blocks.** Most of the time went here.
