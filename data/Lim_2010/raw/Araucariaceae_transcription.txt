@@ -1,0 +1,85 @@
+# Lim_2010: transcription of C.L. Lim (2010) Araucariaceae, Flora of Peninsular
+# Malaysia Series II vol. 1: 61--66 (inst/extdata/FPM/Araucariaceae.pdf).
+# Read from page images rendered at 220 dpi (pdftools::pdf_convert); the PDF's
+# OCR text layer was not used. One paragraph per line; a "@page" line marks
+# each page turn (pdf page, printed page). Running heads, the map and Figure 1
+# (pdf p. 12, printed 65) are omitted; their captions are not used. En dashes
+# and the multiplication sign are as printed; italics are not kept. Text is
+# verbatim, including source slips ("The main difference them", "diameter
+# Inner bark" with no full stop, "megaporophylls").
+@page 8 61
+ARAUCARIACEAE
+C.L. Lim
+Forest Research Institute Malaysia, Kepong, Malaysia
+
+Henkel & W.Hochst., Synop. Nadelhölzer 17 (1865) 1; Whitmore, Tr. Fl. Malaya 1 (1972) 41; Keng, Order Fam. Malay. Seed Pl., 3rd ed. (1983) 12; de Laubenfels, Fl. Malesiana 1, 10 (1988) 419; Page, Fam. Gen. Vasc. Pl. 1 (1990) 294; Yii, Tr. Fl. Sabah & Sarawak 1 (1995) 27; Mabberley, Pl. Book, 3rd ed. (2008) 62.
+
+Small to large, sometimes emergent tree, monoecious or dioecious, monoecious taxa with pollen and seed cones on separate branches. Bole columnar, monopodial (elsewhere, e.g., Wollemia, producing multiple trunks from coppices at the base). Side branches branched or unbranched. Bark dippled, scaly or knobbly. Exudate resinous. Leaves simple, spiral, opposite or subopposite; petioles broadly or narrowly attached to twig or absent; laminas broad (elsewhere scale- or needle-like) with many faint parallel veins. Pollen cones solitary or clustered, terminal or axillary on lateral shoots, cylindric, subtended by several pairs of basal scales; microsporophylls spirally arranged with pollen sacs distal on the lower surface. Seed cones solitary, more-or-less globose, larger than pollen cones, terminal on side shoots; peduncle stout, disintegrating when seeds mature; megasporophylls spirally arranged, bearing a single ovule on the upper surface, apex with or without an appendage. Seeds winged; cotyledons 2, sometimes deeply split.
+
+Distribution. Three genera (Agathis, Araucaria Juss. and Wollemia W.G.Jones, K.D.Hill & J.M.Allen) with 41 species worldwide, largely in the southern hemisphere and concentrated in the Malesian region (13 species) and countries around the Pacific Ocean (Australia, New Zealand and S America). In Peninsular Malaysia represented by two species of Agathis.
+
+Ecology. In Peninsular Malaysia, medium-sized to emergent trees in lowland to upper montane forest; in peat swamp or on limestone, igneous or sedimentary rocks. Sometimes dominant and, in Borneo, sometimes forming pure stands. All species are wind-pollinated and their winged seeds wind-dispersed. Leaves are produced in flushes.
+
+Uses. Some species of Agathis, e.g., kauri (A. australis (D.Don) Steud.), are major commercial lightweight softwoods in the Malesian and Australasian regions (PROSEA 5, 1 (1993) 73). A few species are well-known ornamental trees, such as the monkey puzzle tree (Araucaria araucana (Molina) K.Koch), A. bidwillii Hook., A. cunninghamii Aiton ex D.Don, A. heterophylla (Salisb.) Franco and Wollemia nobilis W.G.Jones, K.D.Hill & J.M.Allen. Seeds of Araucaria angustifolia (Bertol.) Kuntze, A. araucana, A. bidwillii and A. cunninghamii are edible (PROSEA, 5, 1 (1993) 108). Resin of Araucaria bidwillii is used in the manufacture of perfume and incense (PROSEA 18 (2000) 120).
+@page 9 62
+
+Taxonomy. Araucariaceae is included in class Pinopsida. In Peninsular Malaysia, Pinopsida is also represented by Podocarpaceae. The main difference them is that the Araucariaceae produces seed cones, whereas Podocarpaceae bears a single seed on a fleshy stalk, i.e., the seeds are not produced in cones. Vegetatively, the shape of the terminal bud is different; Araucariaceae has a hemispherical bud while that of Podocarpaceae is acute.
+
+1. AGATHIS Salisb.
+(Greek, agathis= a clew, corner of a sail; presumably referring to the leaf shape)
+
+Damar minyak (Malay)
+
+Trans. Linn. Soc. 8 (1807) 311; Hooker f., Fl. Brit. India 5 (1890) 650; Warburg, Monsunia 1 (1900) 182; Ridley, Fl. Malay Pen. 5 (1925) 277; Meijer Drees, Bull. Jard. Bot. Buitenz. 3, 16 (1940) 455; Whitmore, Tr. Fl. Malaya 1 (1972) 41, Pl. Syst. Evol. 135 (1980) 46, fig. 1–5; Corner, Wayside Tr. Malaya, 3rd ed. (1988) 762; de Laubenfels, Fl. Malesiana 1, 10 (1988) 429; Page, Fam. Gen. Vasc. Pl. 1 (1990) 297; Sorianegara et al., PROSEA 5, 1 (1993) 73; 18 (2000) 49; Yii, Tr. Fl. Sabah & Sarawak 1 (1995) 27.
+
+Bole with large, swollen, superficial roots; without buttresses. Bark light grey to greyish brown, sometimes reddish brown, rarely purplish brown, when young smooth and lenticellate, gradually forming irregularly rounded scales, when scales flake off, dippled with small lenticels. Twigs glabrous; terminal buds globulose, closely covered with several layers of scales. Leaves opposite to subopposite or decussate; petioles short, narrowly attached to twig, decurrent, hardly different from the lamina; laminas broad, margin entire; without a distinct midrib, veins parallel, resin canals single or in pairs between the vascular bundles; juvenile leaves distinctly larger and more pointed. Male cones axillary, rarely terminal, sessile or with a short peduncle; microsporophylls with a narrow base and more-or-less peltate apex. Female cones ovoid to globose; megasporophylls laterally flattened, without an apical appendage. Seeds flattened, oblong, with chartaceous wings, one side forming a large wing.
+
+Distribution. Worldwide 22 species. Throughout Malesia except for Java and the Lesser Sunda Islands, in Malesia 11 species, 2 in Peninsular Malaysia.
+
+Ecology. Medium-sized to emergent tree, in peat swamp, heath forest, lowland to montane forest on a wide range of soil types, including limestone- and quartzite-derived soils.
+
+Uses. Wood density for agathis timber is one of the lightest. Kauri (Agathis australis) is a valuable timber. The once famous Manila copal (A. philippinensis Warb.) is used in making varnish and linoleum (Soerianegara et al., 1993).
+@page 10 63
+
+Key to Agathis species
+
+Leaves (4–)7.2–11.3(–14.5) cm long, apex narrowly attenuate to broadly acute (rarely rounded), resin canals between vascular bundles in pairs. Mature pollen cones more than 1.7 cm wide, foliose bracts absent; microsporophyll spoon-shaped, more than 3 mm wide. ..... 1. A. borneensis
+
+Leaves 3–5.5(–5.9) cm long, apex rounded, (rarely narrowly acute), resin canals between vascular bundles single. Mature pollen cones less than 1.2 cm wide; foliose bracts 2; microsporophyll helmet-shaped, less than 3 mm wide. ..... 2. A. flavescens
+
+1. Agathis borneensis Warb. Fig. 1G–M, Plate 9A&B, Map 1
+(from Borneo)
+
+Monsunia 1 (1900) 184, t. 8, fig. D; Meijer Drees, Bull. Jard. Bot. Buitenz. 3, 16 (1940) 459; de Laubenfels, Blumea 25 (1979) 532, fig. 1; Whitmore, Pl. Syst. Evol. 135 (1980) 59, fig. 1 & 4; Veldkamp & de Laubenfels, Taxon 33 (1984) 345; de Laubenfels, Fl. Malesiana 1, 10 (1988) 433; Yii, Tr. Fl. Sabah & Sarawak 1 (1995) 29, fig.1. Type: Beccari PB 491, Borneo (holotype B†; isotypes BM, BO, FI, K). Synonyms: Agathis loranthifolia Salisb., Trans. Linn. Soc. 8 (1807) 312, t. 15, nom. inv., Hooker f., Fl. Brit. India 5 (1890) 650, Ridley, Fl. Malay Pen. 5 (1925) 278; A. dammara (Lamb.) Rich., Comm. Bot. Conif. Cycad. 83 (1826) 83, fig. 19, nom. inv., Whitmore, Tr. Fl. Malaya 1 (1972) 41, fig. 1, Corner, Wayside Tr. Malaya, 3rd ed. (1988) 763, fig. 260, Farjon, World Checkl. Bibliog. Conifers, 2nd ed. (2001) 20; A. alba (Lamb.) Foxw., Philip. J. Sci. 5, A (1910) 173, Malay. For. Rec. 3 (1927) 183, 3 plates. Type: Chr. Smith in Herb. Banks (holotype BM).
+
+Big tree, to 42 m tall and c. 95 cm diameter. Inner bark light red to reddish brown, rarely purple, fibrous, soft, brittle; resin fast-flowing, translucent to yellowish white, sticky, turning milky white, sometimes dark grey or black, when hardened. Sapwood pale red to yellowish brown; heartwood white to light yellow. Leaves opposite, occasionally subopposite; petioles (5–)7–12(–15) mm long, flattened, sometimes slightly darker than the lamina when dry; laminas narrowly to broadly elliptic, sometimes narrowly ovate, very variable in size and shape even on a single shoot, (4–)7.2–11.3(–14.5) × (2–)2.5–4(–5.5) cm, in life glossy dark green on both surfaces, drying glossy pale yellowish brown to glossy dark reddish brown, coriaceous or thinly coriaceous, sometimes brittle, base narrowly to broadly attenuate, sometimes broadly rounded, decurrent and then hardly differentiated from the petiole, margin entire, slightly thickened, recurved, apex narrowly attenuate to broadly acute, rarely rounded; veins closely parallel, distinct above, indistinct below; intercostal veins very faint on both surfaces; resin canals between vascular bundles frequently in pairs, one canal above the other; juvenile leaves oblanceolate, 8.5–15 × 2–4.5 cm, thinly coriaceous, apex narrowly attenuate. Pollen cones axillary, rarely terminal on side shoots, in life glossy green, drying glossy reddish brown to glossy dark brown, oblong, at anthesis (3–)3.9–6.9(–8.6) cm long, (1.7–)1.8–2.3(–2.9) cm diameter; peduncles short and stout, (2–)2.5–3.5(–5) mm long, (2.3–)2.9–3.5(–4.7) mm thick or sometimes almost sessile, foliose bracts absent; basal scales 4 pairs, decussate, sessile arranged in two rings, largest pair triangular, 3–8 mm wide, smallest pair concave, 2–3 mm wide; microsporophylls spoon-shaped, 4.9–7 × (3–)4–6(–7) mm, apex semicircular. Seed cones terminal on side shoots, dark reddish brown to black, ovoid to ellipsoid, (3.5–)4.4–5.3(–8.3) cm long, (2.5–)3.5–4.2(–6.7) cm diameter; peduncles stout, 16–30 mm long, 6–9.3 mm thick; basal scales elliptic, c. 24 × 6–12 mm; megasporophylls
+@page 11 64
+broadly obovate, to 25 × 33 mm, rounded at the apex, narrowed to base usually with a sharply angled lobe on one side only. Seeds oblique, obovate, c. 5.5 × 3.5 mm, wing decurrent, membranous, c. 15 × 12 mm, one side longer than broad.
+
+Vernacular name. Damar minyak (Malay).
+
+Distribution. Sumatra, Peninsular Malaysia and throughout Borneo. In Peninsular Malaysia, found in all states except Perlis, Melaka and Johor.
+
+Conservation status. Near Threatened. The timber is sought after in international trade and the trees are often found in production areas of forest reserves.
+
+Ecology. In Peninsular Malaysia, this species is found from 10–1200 m in lowland to lower montane forest, where it is common on mountain ridges. Formerly found in coastal padang formation on BRIS soil in Pak Kanchil F.R., Terengganu, but was burnt (Salleh Endut, pers. comm.). In Borneo, it grows to greater height and size, i.e., 55 m tall and 1 m diameter (Yii, 1995) and often forms pure stands in sandy heath forest over podzols (Whitmore, Trop. Rain For. Far East (1975) 172).
+
+Uses. Soerianegara et al. (1993) consider it a major lightweight softwood suitable for planks and boats and indoor use such as doors, window frames, panelling, musical instruments, rulers, etc., and as a good choice for enrichment planting.
+
+Taxonomy. The confusion over the species name of this taxon was resolved by Veldkamp & Laubenfels (1984) who showed that Agathis loranthifolia Salisb. and A. dammara (Lamb.) Rich. were invalidly published and that the correct name for this taxon is Agathis borneensis Warb. even though it is a more recent name.
+@page 13 66
+
+2. Agathis flavescens Ridl. Fig. 1A–F, Map 1
+(Latin, flavescens= turning yellow; referring to the foliage)
+
+Bull. Misc. Inform. Kew (1914) 332, J. Fed. Malay. St. Mus. 6 (1915) 196, Fl. Malay Pen. 5 (1925) 278; Meijer Drees, Bull. Jard. Bot. Buitenz., 3, 16 (1940) 464; Whitmore, Tr. Fl. Malaya 1 (1972) 43, fig. 1; de Laubenfels, Fl. Malesiana 1, 10 (1988) 438, fig. 70; Lim, Blumea 52 (2007) 563, fig.1. Synonyms: Agathis dammara (Lamb.) Rich. subsp. flavescens (Ridl.) Whitmore, Pl. Syst. Evol. 135 (1980) 59; A. celebica (Koord.) Warb. subsp. flavescens (Ridl.) Veldkamp & Whitmore, Taxon 33 (1984) 346. Type: Ridley 16023, Peninsular Malaysia, Pahang, G. Tahan (holotype K; isotype SING).
+
+Small to medium-sized tree, to 21 m tall and c. 50 cm diameter Inner bark reddish brown, resin scant, white, translucent. Sapwood light brown. Leaves opposite; petioles 2–4 mm long, slightly flattened, drying darker than the lamina; laminas elliptic-oblong to obovate, 3–5.5(–5.9) × (1–)2.5–3 cm, thickly coriaceous, in life glossy yellow to green, drying yellowish brown to dark reddish brown above and light yellowish brown to dark reddish brown beneath, base sharply attenuate, decurrent and hardly differentiated from the petiole, margin entire, recurved, apex rounded, rarely narrowly acute; veins closely parallel, distinct above, indistinct beneath; intercostal veins very faint on both surfaces, sometimes almost invisible; resin canals between vascular bundles single; juvenile leaves elliptic, c. 7 × 3 cm, thinly coriaceous, apex narrowly attenuate. Pollen cones terminal on side shoots, in life glossy dark green, drying glossy light yellowish brown, oblong to cylindric, at anthesis (1.3–)2.4–2.7(–3) cm long, (0.8–)1–1.2 cm diameter; peduncles short, slender, (3.5–)10–15(–28) mm long, c. 3 mm thick, stalks c. 2 mm long; foliose bracts 2, c. 25 × 5 mm, margin recurved, microsporophylls c. 3–4 × (1.3–)1.6–2.5(–3) mm, apex helmet-shaped, basal scales decussate, 4 pairs, club-shaped, sessile, largest pair triangular, c. 8 mm wide, smallest pair rounded, c. 2 mm wide. Seed cones terminal, dark reddish brown to black, ovoid, c. 7.5 cm long, 6.2 cm diameter; peduncles stout, 25–41 mm long, 8–13 mm thick; basal scales not known; megaporophylls broadly obovate, c. 30 × 20–44 mm, broadly obovate, apex with thick round apical ridge, base rounded with a lobe on both sides, one deeper than the other. Seeds flattened, ovoid, c. 6 × 3 mm, wing slightly decurrent, thinly papery, one side longer than broad; c. 17 × 13 mm.
+
+Distribution. Endemic to Peninsular Malaysia; recorded only from G. Tahan, Pahang, and G. Rabong, Kelantan.
+
+Conservation status. Least concern. Its habitats are in Totally Protected Areas.
+
+Ecology. Restricted to lower and upper montane forest on quartzite-derived soils at 1200–2100 m altitude. Plants in shaded areas attain greater height and have greener leaves than those in exposed conditions, which have distinctly yellow foliage.
+
+Taxonomy. Whitmore (1980) and Veldkamp & Whitmore (1984) reduced Agathis flavescens to a subspecies of A. borneensis. However, Lim (2007) showed conclusively that A. flavescens is a distinct species, which can be readily distinguished by the characters given in the key.
