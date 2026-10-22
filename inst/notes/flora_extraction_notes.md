@@ -13,7 +13,7 @@ last section.
 | File | Role |
 | --- | --- |
 | `raw/segment_source.R` | PDF -> paragraphs tagged with block (family, genus, group, species, infraspecific taxon, form), section and page |
-| `raw/build_trait_data.R` | Clause parser, copy-down, inheritance; writes `trait_data.csv`, `unmapped_terms.csv`, `taxon_flags.csv` |
+| `raw/build_trait_data.R` | Clause parser, copy-down, inheritance; writes `trait_data.csv`, `unmapped_terms.csv`, `unmapped_values.csv`, `taxon_flags.csv` |
 | `raw/manual_rows.csv` | Hand-checked values from Ecology / Notes / differential paragraphs |
 | `raw/Coode_2018_vouchers.csv` | Types, types of synonyms, figure specimens (transcribed by hand) |
 | `raw/extra_R_code_Coode_2018.R` | `trait_data.csv` -> `data.csv` (adds `value`, `trait_scoring_method`, `source_id`) |
@@ -59,6 +59,62 @@ to `excluded_data` at build.
   misreads in citations; no measurement differed.
 - Cost: about one read per half page. Fine for small families; for large ones
   ask for a born-digital PDF first.
+- **Next time, keep mapped and unmapped trait records together in
+  `trait_data.csv`.** Use the same long-format file, marking unmapped rows
+  clearly and leaving trait names/levels unassigned. Keep `unmapped_terms.csv`
+  as a summary only; do not create a separate `unmapped_values.csv`. Preserve
+  verbatim clauses, taxon rank and page, including whole Ecology and
+  Distribution text when no mapped trait applies. This will make it easy to
+  include the unmapped traits when traits.yml is updated with new traits.
+
+### Araucariaceae-specific lessons
+
+- **Keep source transcription separate from parsing.** Lim 2010's PDF has an
+  OCR text layer, but the extraction uses `raw/Araucariaceae_transcription.txt`
+  transcribed from rendered page images. `segment_source.R` reads the
+  transcription, not `pdftools::pdf_text()`. Keep printed slips verbatim in the
+  transcription; document justified repairs in `norm()` and `metadata.yml`.
+- **Treat taxon-specific phrases as labeled runs.** In "base attenuate,
+  sometimes rounded, margin entire, recurved, apex ...", unlabelled alternatives
+  remain attached to the preceding base, margin or apex until a new label or
+  measurement begins. Otherwise they are scored against the wrong character.
+- **Separate adjacent organs and entities.** Conifer descriptions discuss
+  pollen cones, seed cones, sporophylls, scales and seed wings in one long
+  paragraph. Parse the explicit organ shifts; keep seed-cone measurements under
+  fruit traits with `entity_measured = seed cone`. Record young and mature bark
+  separately where stated. Do not score a phrase beginning "without" as a
+  positive character.
+- **Resolve higher-rank conflicts by specificity.** When family and genus
+  descriptions both state a trait, prefer the genus value over the family
+  value. Do not copy both alternatives to species. Keep qualified values
+  ("sometimes", "rarely", etc.) out of higher-rank copy-down.
+- **Keep unsplittable characters.** For future families, store mapped and
+  unmapped records together in `trait_data.csv`. Mark unmapped rows without
+  assigning trait names or levels. Preserve the full source clause and page;
+  do not split compound text into guessed values. Keep family/genus clauses at
+  their source rank, not copied to each species. Retain whole Ecology and
+  Distribution paragraphs when no mapped trait applies. `unmapped_terms.csv`
+  remains a summary, not the value store.
+- **Preserve provenance and scope in Ecology records.** Manually scored values
+  need verbatim text, page, population region and `source_id` where the flora
+  cites another work. The author accepts Borneo records for *A. borneensis*;
+  keep the cited height and diameter with `population_region = Borneo` and
+  `source_id = Yii_1995`, even though Borneo is not resolved to Sabah or Sarawak
+  (but Yii_1995 ). Do not apply a blanket region filter when the author's
+  treatment justifies the record.
+- **Audit metadata against the final data.** Add every context used in the CSV
+  (including `population_region`) and every cited secondary source to
+  `metadata.yml`. Run `dataset_test()` and `dataset_process()` after metadata
+  changes; inspect exclusions, since allowed-value mismatches remain even when
+  schema checks pass. For Lim 2010, 271 tests pass; processing kept 91 values
+  and excluded four unsupported categorical values.
+- The earlier hand-coded Lim_2010 file had 334 rows, including 228 rows for
+  traits not in `traits.yml`. Do not compare that count directly with the
+  rebuilt `data.csv` (93 rows, 33 mapped traits). The candidate rows were not
+  carried forward. For future extractions, keep unmapped source clauses in
+  `trait_data.csv` alongside mapped records, without assigning invented trait
+  names; `unmapped_values.csv` was only used for Lim_2010 and is not the
+  preferred format going forward.
 
 ## Most challenging tasks
 
@@ -170,7 +226,8 @@ family-specific settings only:
    paragraphs), `source_fixes.csv` (typos with page and reason), group
    membership table.
 6. Outputs per family are identical: `trait_data.csv`, `unmapped_terms.csv`,
-   `taxon_flags.csv`, `vouchers.csv`, then `data.csv` + `metadata.yml`.
+   `unmapped_values.csv`, `taxon_flags.csv`, `vouchers.csv`, then `data.csv` +
+   `metadata.yml`.
 
 TFSS will need its own heading config (it is a tree flora with a different
 layout); check one TFSS PDF first before generalising.
