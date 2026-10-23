@@ -1,24 +1,26 @@
-organ,character,n_taxa,example_taxon,example_text
-pollen_cones,"pollen cone, sporophyll and cone scale characters (size, shape, position, colour)",4,Agathis,"Male cones axillary, rarely terminal, sessile or with a short peduncle"
-seed cones,seed cone shape / position / arrangement,4,Agathis,Female cones ovoid to globose
-seeds,seed wing size / texture / attachment,4,Agathis,"Seeds flattened, oblong, with chartaceous wings, one side forming a large wing"
-sporophylls,"pollen cone, sporophyll and cone scale characters (size, shape, position, colour)",4,Agathis,microsporophylls with a narrow base and more-or-less peltate apex
-juvenile_leaves,juvenile leaves characters,3,Agathis,juvenile leaves distinctly larger and more pointed
-peduncle,peduncle characters,3,Agathis borneensis,"peduncles short and stout, (2–)2.5–3.5(–5) mm long, (2.3–)2.9–3.5(–4.7) mm thick or sometimes almost sessile, foliose bracts absent"
-cone_scales,"pollen cone, sporophyll and cone scale characters (size, shape, position, colour)",2,Agathis borneensis,"basal scales 4 pairs, decussate, sessile arranged in two rings, largest pair triangular, 3–8 mm wide, smallest pair concave, 2–3 mm wide"
-inner_bark,inner bark characters,2,Agathis borneensis,"Inner bark light red to reddish brown, rarely purple, fibrous, soft, brittle"
-lamina,leaf texture,2,Agathis borneensis,coriaceous or thinly coriaceous
-resin,resin characters,2,Agathis borneensis,"resin fast-flowing, translucent to yellowish white, sticky, turning milky white, sometimes dark grey or black, when hardened"
-resin_canals,resin canals characters,2,Agathis borneensis,"resin canals between vascular bundles frequently in pairs, one canal above the other"
-sapwood,sapwood characters,2,Agathis borneensis,Sapwood pale red to yellowish brown
-veins,lateral vein count / prominence,2,Agathis borneensis,"veins closely parallel, distinct above, indistinct below"
-bole,absence statements (without ...),1,Agathis,without buttresses
-bole,bole shape,1,Araucariaceae,"Bole columnar, monopodial"
-buds,buds characters,1,Agathis,"terminal buds globulose, closely covered with several layers of scales"
-cotyledons,cotyledons characters,1,Araucariaceae,"cotyledons 2, sometimes deeply split"
-foliose_bracts,"pollen cone, sporophyll and cone scale characters (size, shape, position, colour)",1,Agathis flavescens,"foliose bracts 2, c. 25 × 5 mm, margin recurved, microsporophylls c. 3–4 × (1.3–)1.6–2.5(–3) mm, apex helmet-shaped, basal scales decussate, 4 pairs, club-shaped, sessile, largest pair triangular, ..."
-heartwood,heartwood characters,1,Agathis borneensis,heartwood white to light yellow
-leaves,absence statements (without ...),1,Agathis,"without a distinct midrib, veins parallel, resin canals single or in pairs between the vascular bundles"
-side_branches,side branches characters,1,Araucariaceae,Side branches branched or unbranched
-sporophylls,absence statements (without ...),1,Agathis,"megasporophylls laterally flattened, without an apical appendage"
-twigs,twig thickness / colour / shape,1,Agathis,Twigs glabrous
+organ,character,n_taxa,example_taxon,example_text,printed_page
+pollen_cones,"pollen cone, sporophyll and cone scale characters (size, shape, position, colour)",4,Agathis,"Male cones axillary, rarely terminal, sessile or with a short peduncle",62
+seed cones,seed cone shape / position / arrangement,4,Agathis,Female cones ovoid to globose,62
+seeds,seed wing size / texture / attachment,4,Agathis,"Seeds flattened, oblong, with chartaceous wings, one side forming a large wing",62
+sporophylls,"pollen cone, sporophyll and cone scale characters (size, shape, position, colour)",4,Agathis,microsporophylls with a narrow base and more-or-less peltate apex,62
+text,distribution text,4,Agathis,"Worldwide 22 species. Throughout Malesia except for Java and the Lesser Sunda Islands, in Malesia 11 species, 2 in Peninsular Malaysia.",62
+text,ecology text,4,Agathis,"Medium-sized to emergent tree, in peat swamp, heath forest, lowland to montane forest on a wide range of soil types, including limestone- and quartzite-derived soils.",62
+juvenile_leaves,juvenile leaves characters,3,Agathis,juvenile leaves distinctly larger and more pointed,62
+peduncle,peduncle characters,3,Agathis borneensis,"peduncles short and stout, (2--)2.5--3.5(--5) mm long, (2.3--)2.9--3.5(--4.7) mm thick or sometimes almost sessile, foliose bracts absent",63
+cone_scales,"pollen cone, sporophyll and cone scale characters (size, shape, position, colour)",2,Agathis borneensis,"basal scales 4 pairs, decussate, sessile arranged in two rings, largest pair triangular, 3--8 mm wide, smallest pair concave, 2--3 mm wide",63
+inner_bark,inner bark characters,2,Agathis borneensis,"Inner bark light red to reddish brown, rarely purple, fibrous, soft, brittle",63
+lamina,leaf texture,2,Agathis borneensis,"laminas narrowly elliptic to broadly elliptic, sometimes narrowly ovate, very variable in size and shape even on a single shoot, (4--)7.2--11.3(--14.5) x (2--)2.5--4(--5.5) cm, in life glossy dark ...",63
+resin,resin characters,2,Agathis borneensis,"resin fast-flowing, translucent to yellowish white, sticky, turning milky white, sometimes dark grey or black, when hardened",63
+resin_canals,resin canals characters,2,Agathis borneensis,"resin canals between vascular bundles frequently in pairs, one canal above the other",63
+sapwood,sapwood characters,2,Agathis borneensis,Sapwood pale red to yellowish brown,63
+veins,lateral vein count / prominence,2,Agathis borneensis,"veins closely parallel, distinct above, indistinct below",63
+bole,absence statements (without ...),1,Agathis,without buttresses,62
+bole,bole shape,1,Araucariaceae,"Bole columnar, monopodial",61
+buds,buds characters,1,Agathis,"terminal buds globulose, closely covered with several layers of scales",62
+cotyledons,cotyledons characters,1,Araucariaceae,"cotyledons 2, sometimes deeply split",61
+foliose_bracts,"pollen cone, sporophyll and cone scale characters (size, shape, position, colour)",1,Agathis flavescens,"foliose bracts 2, c. 25 x 5 mm, margin recurved, microsporophylls c. 3--4 x (1.3--)1.6--2.5(--3) mm, apex helmet-shaped, basal scales decussate, 4 pairs, club-shaped, sessile, largest pair triangul...",66
+heartwood,heartwood characters,1,Agathis borneensis,heartwood white to light yellow,63
+leaves,absence statements (without ...),1,Agathis,"without a distinct midrib, veins parallel, resin canals single or in pairs between the vascular bundles",62
+side_branches,side branches characters,1,Araucariaceae,Side branches branched or unbranched,61
+sporophylls,absence statements (without ...),1,Agathis,"megasporophylls laterally flattened, without an apical appendage",62
+twigs,twig thickness / colour / shape,1,Agathis,Twigs glabrous,62

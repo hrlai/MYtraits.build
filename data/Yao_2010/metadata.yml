@@ -54,7 +54,7 @@ dataset:
     1, pp. 161--164)
   notes:
     'data.csv is raw/trait_data.csv (written by raw/build_trait_data.R), without
-    unmapped rows, with three columns added by raw/extra_R_code_Yao_2010.R:
+    unmapped rows, with three columns added by flora_make_data():
     value (the build column; the source term for categorical traits, mapped with
     substitutions), trait_scoring_method (from rank_scored_from) and source_id.
     Taxon names are as printed. Type and figure specimens are listed in

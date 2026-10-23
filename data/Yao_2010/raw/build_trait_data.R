@@ -6,7 +6,9 @@
 library(dplyr)
 
 tx <- "Pentaphylax euryoides"
-traits <- yaml::read_yaml("config/traits.yml")$traits$elements |> names()
+source(".github/skills/extract-traits-from-floras-my/scripts/flora_hand.R")
+source(".github/skills/extract-traits-from-floras-my/scripts/flora_assemble.R")
+traits <- yaml::read_yaml("config/traits.yml")$traits$elements
 
 # pdf/printed page by source section
 pg <- list(
@@ -18,60 +20,13 @@ pg <- list(
   eco = c(11, 164)
 )
 
-row <- function(
-  trait,
-  raw,
-  value = "",
-  clean = "",
-  vt = "mode",
-  unit = "",
-  q = "",
-  em = "",
-  rank = "",
-  sec = "Description",
-  p = "sp1",
-  region = "",
-  notes = ""
-) {
-  tibble(
-    taxon_name = tx,
-    taxon_rank = "species",
-    entity_type = "species",
-    rank_scored_from = rank,
-    commonness_qualifier = q,
-    population_region = region,
-    form = "",
-    entity_measured = em,
-    trait = trait,
-    trait_value_raw = raw,
-    trait_value = value,
-    trait_value_clean = clean,
-    value_type = vt,
-    unit = unit,
-    source_section = paste0(sec, ", p.", pg[[p]][2]),
-    pdf_page = pg[[p]][1],
-    printed_page = pg[[p]][2],
-    notes = notes
-  )
-}
-# Unmapped clause: no trait, no level
-un <- function(raw, what, ...) {
-  row("", raw, notes = paste0("UNMAPPED: ", what), ...)
-}
-# Typical (a-)b(-c): mean on `usually`, extremes on `extreme_range`
-tri <- function(trait, raw, lo, mid, hi, unit, ...) {
-  bind_rows(
-    row(trait, raw, mid, mid, "mean", unit, "usually", ...),
-    row(trait, raw, lo, lo, "minimum", unit, "extreme_range", ...),
-    row(trait, raw, hi, hi, "maximum", unit, "extreme_range", ...)
-  )
-}
-rng <- function(trait, raw, lo, hi, unit, ...) {
-  bind_rows(
-    row(trait, raw, lo, lo, "minimum", unit, ...),
-    row(trait, raw, hi, hi, "maximum", unit, ...)
-  )
-}
+h <- flora_hand(tx, pg)
+# Keep this file's short argument names: rank = rank scored from, p defaults to sp1.
+fix <- function(f) function(..., rank = "", p = "sp1") f(..., rank_from = rank, p = p)
+row <- fix(h$row)
+un <- fix(h$un)
+tri <- fix(h$tri)
+rng <- fix(h$rng)
 
 dd <- function(x) gsub("\u2013", "--", x, fixed = TRUE)
 G1 <- "Genus description"
@@ -780,28 +735,11 @@ d <- bind_rows(
     region = "Peninsular Malaysia"
   )
 ) |>
-  mutate(
-    in_traits.yml = ifelse(trait %in% traits, "x", ""),
-    form = NULL
-  ) |>
-  mutate(form = "", .after = population_region) |>
-  relocate(in_traits.yml, .after = trait)
+  flora_finalise(traits)
 
-stopifnot(all(d$trait[d$trait != ""] %in% traits))
-
-write.csv(d, "data/Yao_2010/raw/trait_data.csv", row.names = FALSE, na = "")
-
-d |>
-  filter(trait == "") |>
-  transmute(
-    organ = sub(";.*", "", sub("^UNMAPPED: ", "", notes)),
-    character = sub("^UNMAPPED: ", "", notes),
-    n_taxa = 1,
-    example_taxon = taxon_name,
-    example_text = trait_value_raw,
-    printed_page
-  ) |>
-  write.csv("data/Yao_2010/raw/unmapped_terms.csv", row.names = FALSE)
+stopifnot(all(d$trait[d$trait != ""] %in% names(traits)))
+write_csv(d, "data/Yao_2010/raw/trait_data.csv", na = "")
+write_csv(flora_unmapped_summary(d), "data/Yao_2010/raw/unmapped_terms.csv", na = "")
 
 tibble(
   taxon_name = tx,
@@ -810,4 +748,4 @@ tibble(
   n_rows = nrow(d),
   flag = "Synonyms P. malayana, P. arborea listed under accepted name; type of P. euryoides is Hong Kong (lectotype)"
 ) |>
-  write.csv("data/Yao_2010/raw/taxon_flags.csv", row.names = FALSE)
+  write_csv("data/Yao_2010/raw/taxon_flags.csv", na = "")

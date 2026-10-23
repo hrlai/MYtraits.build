@@ -1966,69 +1966,37 @@ trait_data <- out |>
     source_section,
     pdf_page,
     printed_page,
-    notes
+    notes,
+    source_id
   ) |>
   distinct()
 
 stopifnot(all(trait_data$in_traits.yml == "x"))
-write_csv(trait_data, "data/Lim_2010/raw/trait_data.csv", na = "")
-
-# ---- unmapped characters (suggestions, not traits) -----------------------------------------------
-
-unmapped_terms <- bind_rows(unmapped) |>
-  filter(character != "unparsed clause") |>
-  group_by(organ, character) |>
-  summarise(
-    n_taxa = n_distinct(block),
-    example_taxon = first(block),
-    example_text = str_trunc(first(text), 200),
-    .groups = "drop"
-  ) |>
-  arrange(desc(n_taxa))
-write_csv(unmapped_terms, "data/Lim_2010/raw/unmapped_terms.csv", na = "")
-
-# ---- unmapped values (verbatim, one row per clause and character) -----------------------------
-# Characters with no trait in traits.yml, kept as the source wrote them so
-# traits.yml can be extended later without re-reading the PDF. Not copied down:
-# family and genus statements stay on their own block. Ecology and
-# Distribution paragraphs are kept whole (altitude, habitat, soil, range).
-
+# ---- unmapped rows and summary -------------------------------------------------------------------
+source(".github/skills/extract-traits-from-floras-my/scripts/flora_assemble.R")
 rank_of <- paras |> distinct(block, rank)
-unmapped_values <- bind_rows(
+unmapped_rows <- bind_rows(
   bind_rows(unmapped) |>
     filter(character != "unparsed clause") |>
     mutate(source_section = "Description"),
   paras |>
-    filter(
-      section %in% c("Ecology", "Distribution"),
-      rank %in% c("family", "genus", "species")
-    ) |>
-    transmute(
-      block,
-      organ = NA_character_,
-      character = paste(str_to_lower(section), "text"),
-      text,
-      clause = text,
-      pdf_page,
-      printed_page,
-      source_section = section
-    )
+    filter(section %in% c("Ecology", "Distribution"), rank %in% c("family", "genus", "species")) |>
+    transmute(block, organ = NA_character_, character = paste(str_to_lower(section), "text"), clause = text, pdf_page, printed_page, source_section = section)
 ) |>
   left_join(rank_of, by = "block") |>
   transmute(
-    taxon_name = block,
-    taxon_rank = rank,
-    organ,
-    character,
-    text_verbatim = str_replace_all(text, "\u00d7", "x"),
-    clause_verbatim = str_replace_all(clause, "\u00d7", "x"),
-    source_section = paste0(source_section, ", p.", printed_page),
-    pdf_page,
-    printed_page
+    taxon_name = block, taxon_rank = rank, rank_scored_from = NA_character_,
+    commonness_qualifier = NA_character_, population_region = NA_character_, form = NA_character_,
+    entity_measured = NA_character_, trait = NA_character_, trait_value_raw = coalesce(clause, text),
+    trait_value = NA_character_, trait_value_clean = NA_character_, value_type = NA_character_, unit = NA_character_,
+    source_section, pdf_page = as.character(pdf_page), printed_page = as.character(printed_page),
+    notes = paste0("UNMAPPED: ", coalesce(organ, "text"), " | ", character), source_id = NA_character_
   ) |>
   distinct() |>
-  arrange(taxon_name, source_section, organ, character)
-write_csv(unmapped_values, "data/Lim_2010/raw/unmapped_values.csv", na = "")
+  flora_finalise(traits)
+trait_data <- bind_rows(mutate(trait_data, across(everything(), as.character)), unmapped_rows)
+write_csv(trait_data, "data/Lim_2010/raw/trait_data.csv", na = "")
+write_csv(flora_unmapped_summary(trait_data), "data/Lim_2010/raw/unmapped_terms.csv", na = "")
 
 # ---- taxon flags ------------------------------------------------------------------------------------
 

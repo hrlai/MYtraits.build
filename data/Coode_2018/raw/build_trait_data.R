@@ -23,12 +23,23 @@ checked <- "Candidate trait, not in config/traits.yml (checked 2026-10)."
 norm <- function(x) {
   x |>
     # Source fix (p. 68, E. fraseri): lamina "14–18.5 × (7–)9–12" lacks its unit; cm as in every other lamina.
-    str_replace_all("14\u2013 ?18\\.5 \u00d7 \\(7\u2013\\)9\u201312,", "14\u201318.5 \u00d7 (7\u2013)9\u201312 cm,") |>
-    str_replace_all("\\) by \\(|(?<=\\d) by (?=[\\d(])", function(m) if (str_detect(m, "^\\)")) ") \u00d7 (" else " \u00d7 ") |>
+    str_replace_all(
+      "14\u2013 ?18\\.5 \u00d7 \\(7\u2013\\)9\u201312,",
+      "14\u201318.5 \u00d7 (7\u2013)9\u201312 cm,"
+    ) |>
+    str_replace_all("\\) by \\(|(?<=\\d) by (?=[\\d(])", function(m) {
+      if (str_detect(m, "^\\)")) ") \u00d7 (" else " \u00d7 "
+    }) |>
     str_replace_all("\\s*\\(including acumen\\)", "") |>
-    str_replace_all("\\(\u2013(\\d+(?:\\.\\d+)?) (cm|mm)\\) long", "(\u2013\\1) \\2 long") |>
+    str_replace_all(
+      "\\(\u2013(\\d+(?:\\.\\d+)?) (cm|mm)\\) long",
+      "(\u2013\\1) \\2 long"
+    ) |>
     str_replace_all("\\(\u2013(\\d+(?:\\.\\d+)?) (cm|mm)\\)", "(\u2013\\1)") |>
-    str_replace_all("^leaves sessile or petioles|(?<=; )leaves sessile or petioles", "petioles") |>
+    str_replace_all(
+      "^leaves sessile or petioles|(?<=; )leaves sessile or petioles",
+      "petioles"
+    ) |>
     str_replace_all("\u00ad", "") |>
     str_replace_all("\u2013 ", "\u2013") |> # "elliptic– obovate"
     str_replace_all("(?<=\\d)\\s?\u2013\\s?(?=\\d)", "\u2013") |>
@@ -263,7 +274,8 @@ dict <- list(
     "terminal" = "terminal"
   ),
   flower_structural_sex_type = c(
-    "bisexual" = "bisexual", "unisexual" = "unisexual",
+    "bisexual" = "bisexual",
+    "unisexual" = "unisexual",
     "\\bmale\\b" = "unisexual"
   ),
   flower_colour = c(
@@ -399,30 +411,54 @@ organ_traits <- list(
 
 # ---- categorical scoring with commonness rows ----------------------------------
 
-
 score_cat <- function(txt, trait) {
   d <- dict[[trait]]
   # Commas and "or/and/to <qualifier>" separate alternatives.
-  chunks <- unlist(str_split(txt, paste0(",\\s*|\\s(?=(or|and|to) (", paste(qual_words, collapse = "|"), ")\\b)")))
+  chunks <- unlist(str_split(
+    txt,
+    paste0(
+      ",\\s*|\\s(?=(or|and|to) (",
+      paste(qual_words, collapse = "|"),
+      ")\\b)"
+    )
+  ))
   out <- list()
   for (ci in seq_along(chunks)) {
     ch <- chunks[ci]
-    if (str_detect(ch, hedge_re)) next
+    if (str_detect(ch, hedge_re)) {
+      next
+    }
     q <- str_match(ch, qual_re)[, 2]
     work <- ch
     for (k in seq_along(d)) {
       repeat {
         loc <- str_locate(work, regex(names(d)[k], ignore_case = TRUE))
-        if (is.na(loc[1, 1])) break
-        out[[length(out) + 1]] <- tibble(ci = ci, pos = loc[1, 1], term = str_sub(work, loc[1, 1], loc[1, 2]), level = d[[k]], cq = q)
-        str_sub(work, loc[1, 1], loc[1, 2]) <- strrep("#", loc[1, 2] - loc[1, 1] + 1)
+        if (is.na(loc[1, 1])) {
+          break
+        }
+        out[[length(out) + 1]] <- tibble(
+          ci = ci,
+          pos = loc[1, 1],
+          term = str_sub(work, loc[1, 1], loc[1, 2]),
+          level = d[[k]],
+          cq = q
+        )
+        str_sub(work, loc[1, 1], loc[1, 2]) <- strrep(
+          "#",
+          loc[1, 2] - loc[1, 1] + 1
+        )
       }
     }
   }
-  if (!length(out)) return(NULL)
+  if (!length(out)) {
+    return(NULL)
+  }
   r <- bind_rows(out) |>
     arrange(ci, pos) |>
-    mutate(term = str_replace_all(str_to_lower(term), " ", "_"), cq = if (any(!is.na(cq))) coalesce(cq, "usually") else cq)
+    mutate(
+      term = str_replace_all(str_to_lower(term), " ", "_"),
+      cq = if (any(!is.na(cq))) coalesce(cq, "usually") else cq
+    )
   r |>
     group_by(cq) |>
     summarise(
@@ -439,11 +475,26 @@ score_cat <- function(txt, trait) {
 # Mesocarp thickness: "mesocarp usually 2-4 mm thick", "2 mm thick or less",
 # "to 2 mm thick". "or less" / "to" give a maximum; "usually" a usually row.
 meso_rows <- function(s) {
-  m <- str_match(s, paste0("(?i)mesocarp[^,;]*?(usually )?((?:to |c\\. )?", num, "(?:\u2013", num, ")?)\\s?mm thick( or less| or more)?"))
-  if (is.na(m[1, 1])) return(NULL)
+  m <- str_match(
+    s,
+    paste0(
+      "(?i)mesocarp[^,;]*?(usually )?((?:to |c\\. )?",
+      num,
+      "(?:\u2013",
+      num,
+      ")?)\\s?mm thick( or less| or more)?"
+    )
+  )
+  if (is.na(m[1, 1])) {
+    return(NULL)
+  }
   r <- num_rows(parse_range(paste(m[1, 3], "mm")))
-  if (!is.na(m[1, 4]) && nrow(r) == 1) r$value_type <- if (str_detect(m[1, 4], "less")) "maximum" else "minimum"
-  if (!is.na(m[1, 2])) r$cq <- "usually"
+  if (!is.na(m[1, 4]) && nrow(r) == 1) {
+    r$value_type <- if (str_detect(m[1, 4], "less")) "maximum" else "minimum"
+  }
+  if (!is.na(m[1, 2])) {
+    r$cq <- "usually"
+  }
   r
 }
 
@@ -451,24 +502,41 @@ meso_rows <- function(s) {
 # naming another organ, and keep only the final state of "X ripening Y".
 colour_scope <- function(s) {
   p <- str_split(s, ",\\s*")[[1]]
-  stop_at <- which(str_detect(str_to_lower(p), "inside|valves?|mesocarp|stone|aril|calyx|sepals?|anthers?|filaments?"))
+  stop_at <- which(str_detect(
+    str_to_lower(p),
+    "inside|valves?|mesocarp|stone|aril|calyx|sepals?|anthers?|filaments?"
+  ))
   stop_at <- stop_at[stop_at > 1]
-  if (length(stop_at)) p <- p[seq_len(min(stop_at) - 1)]
-  p |> paste(collapse = ", ") |>
+  if (length(stop_at)) {
+    p <- p[seq_len(min(stop_at) - 1)]
+  }
+  p |>
+    paste(collapse = ", ") |>
     str_replace("(?i).*\\bripen(ing|s)?( a)?\\s", "") |>
     # "yellowish or greenish white" and "greenish white": head colour only
-    str_replace_all("(?i)\\b[a-z]+ish or (?=[a-z]+ish[ -](white|grey|green|blue|black)\\b)", "") |>
-    str_replace_all("(?i)\\b(yellowish|greenish|creamy|bluish|reddish)[ -](?=(white|grey|green|blue|black)\\b)", "")
+    str_replace_all(
+      "(?i)\\b[a-z]+ish or (?=[a-z]+ish[ -](white|grey|green|blue|black)\\b)",
+      ""
+    ) |>
+    str_replace_all(
+      "(?i)\\b(yellowish|greenish|creamy|bluish|reddish)[ -](?=(white|grey|green|blue|black)\\b)",
+      ""
+    )
 }
 # ---- clause parser -----------------------------------------------------------------
 
 unmapped <- list()
+cur_clause <- NA_character_
+cur_page <- c(pdf = NA_integer_, printed = NA_integer_)
 note_unmapped <- function(block, organ, character, text) {
   unmapped[[length(unmapped) + 1]] <<- tibble(
     block = block,
     organ = organ,
     character = character,
-    text = text
+    text = text,
+    clause = cur_clause,
+    pdf_page = cur_page[["pdf"]],
+    printed_page = cur_page[["printed"]]
   )
 }
 
@@ -478,7 +546,9 @@ parse_description <- function(par_row) {
   rows <- list()
   add <- function(trait, value_df, raw, entity = NA, note = NA, pos = 1) {
     pg <- page_at(par_row, pos)
-    if (is.na(entity) && !is.na(flower_sex)) entity <- paste(str_to_lower(flower_sex), "flowers")
+    if (is.na(entity) && !is.na(flower_sex)) {
+      entity <- paste(str_to_lower(flower_sex), "flowers")
+    }
     rows[[length(rows) + 1]] <<- value_df |>
       mutate(
         trait = trait,
@@ -556,6 +626,8 @@ parse_description <- function(par_row) {
       )
       flower_sex <- str_match(sen, "^(Male|Female) flowers:")[, 2]
       cl <- str_remove(cl, "^((Male|Female) flowers|Flowers|Leaf|Leaves):\\s*")
+      cur_clause <<- cl
+      cur_page <<- page_at(par_row, cl_pos)
       org <- coalesce(detect_organ(cl), sen_organ)
       if (is.na(org)) {
         note_unmapped(block, NA, "unparsed clause", cl)
@@ -564,7 +636,9 @@ parse_description <- function(par_row) {
       raw <- cl
       if (str_detect(cl, hedge_re)) {
         # hedged clause: score only the unhedged comma pieces
-        cl_scoring <- str_split(str_remove_all(cl, "\\([^()]*\\)"), ",\\s*")[[1]] |>
+        cl_scoring <- str_split(str_remove_all(cl, "\\([^()]*\\)"), ",\\s*")[[
+          1
+        ]] |>
           discard(\(p) str_detect(p, hedge_re)) |>
           paste(collapse = ", ")
       } else {
@@ -582,11 +656,56 @@ parse_description <- function(par_row) {
 
       # categorical traits for the organ
       for (tr_name in organ_traits[[org]] %||% character()) {
-        if (tr_name == "flower_structural_sex_type" && !str_detect(cl, "^Flowers?\\b")) next
-        if (tr_name == "seed_colour" && str_detect(cl, "testa [a-z ]*(brown|black|red)") && !str_detect(cl, "^Seeds [a-z]+,")) { add_cat(tr_name, str_extract(cl, "testa [a-z ]*(brown|black|red)[a-z ]*"), raw, cl_pos); next }
-        if (tr_name == "seed_colour" && str_detect(cl, "aril")) cl_scoring <- str_remove(cl_scoring, "(?i),?\\s*[a-z ]*(enclosed|covered)\\b.*$")
-        if (tr_name == "stem_hairs") { if (!str_detect(cl, "^Twigs")) next; add_cat(tr_name, str_remove_all(cl_scoring, "(?i)(,\\s*)?(with |and )?[^,]*\\b(buds?|leaf[- ]scars?)\\b[^,]*"), raw, cl_pos); next }
-        add_cat(tr_name, if (str_detect(tr_name, "colour")) colour_scope(cl_scoring) else cl_scoring, raw, cl_pos)
+        if (
+          tr_name == "flower_structural_sex_type" &&
+            !str_detect(cl, "^Flowers?\\b")
+        ) {
+          next
+        }
+        if (
+          tr_name == "seed_colour" &&
+            str_detect(cl, "testa [a-z ]*(brown|black|red)") &&
+            !str_detect(cl, "^Seeds [a-z]+,")
+        ) {
+          add_cat(
+            tr_name,
+            str_extract(cl, "testa [a-z ]*(brown|black|red)[a-z ]*"),
+            raw,
+            cl_pos
+          )
+          next
+        }
+        if (tr_name == "seed_colour" && str_detect(cl, "aril")) {
+          cl_scoring <- str_remove(
+            cl_scoring,
+            "(?i),?\\s*[a-z ]*(enclosed|covered)\\b.*$"
+          )
+        }
+        if (tr_name == "stem_hairs") {
+          if (!str_detect(cl, "^Twigs")) {
+            next
+          }
+          add_cat(
+            tr_name,
+            str_remove_all(
+              cl_scoring,
+              "(?i)(,\\s*)?(with |and )?[^,]*\\b(buds?|leaf[- ]scars?)\\b[^,]*"
+            ),
+            raw,
+            cl_pos
+          )
+          next
+        }
+        add_cat(
+          tr_name,
+          if (str_detect(tr_name, "colour")) {
+            colour_scope(cl_scoring)
+          } else {
+            cl_scoring
+          },
+          raw,
+          cl_pos
+        )
       }
 
       # numeric traits
@@ -620,14 +739,18 @@ parse_description <- function(par_row) {
       }
       usually_par <- str_match(
         cl_scoring,
-        paste0("\\((usually|mostly) (c\\. )?(",
-        num,
-        ")\\s?(mm|cm)?\\)")
+        paste0("\\((usually|mostly) (c\\. )?(", num, ")\\s?(mm|cm)?\\)")
       )
 
-      if (org == "habit" || (sen_organ %in% "habit" && str_detect(cl, "beginning to flower"))) {
+      if (
+        org == "habit" ||
+          (sen_organ %in% "habit" && str_detect(cl, "beginning to flower"))
+      ) {
         h <- str_extract(
-          str_remove(str_replace(mp, "(?<=\\d)\u2013c\\. ", "\u2013"), "(?i)beginning to flower.*$"),
+          str_remove(
+            str_replace(mp, "(?<=\\d)\u2013c\\. ", "\u2013"),
+            "(?i)beginning to flower.*$"
+          ),
           paste0(
             "(?:\\(",
             num,
@@ -769,10 +892,16 @@ parse_description <- function(par_row) {
             }
           }
           if (str_detect(pl, "^apex\\b")) {
-            ap_tip <- paste(c(p, pieces[str_detect(str_to_lower(pieces), "^tip\\b")]), collapse = ", ")
+            ap_tip <- paste(
+              c(p, pieces[str_detect(str_to_lower(pieces), "^tip\\b")]),
+              collapse = ", "
+            )
             add_cat("leaf_apex_shape", ap_tip, raw, cl_pos)
           }
-          if (str_detect(pl, "^tip\\b") && !any(str_detect(str_to_lower(pieces), "^apex\\b"))) {
+          if (
+            str_detect(pl, "^tip\\b") &&
+              !any(str_detect(str_to_lower(pieces), "^apex\\b"))
+          ) {
             add_cat("leaf_apex_shape", p, raw, cl_pos)
           }
           if (str_detect(pl, "\\b(dull|glossy|shiny|shining)\\b")) {
@@ -870,7 +999,8 @@ parse_description <- function(par_row) {
         note_unmapped(block, "bracts", "bract persistence / shape", cl)
       }
       if (org == "pedicels") {
-        mp <- str_remove_all(mp, "\\([^)]*in fruit[^)]*\\)"); low <- str_to_lower(mp)
+        mp <- str_remove_all(mp, "\\([^)]*in fruit[^)]*\\)")
+        low <- str_to_lower(mp)
         if (!str_detect(low, "in fruit")) {
           add_num("pedicel_length", get_len("long"), raw, pos = cl_pos)
         }
@@ -1281,7 +1411,13 @@ parse_description <- function(par_row) {
             pos = cl_pos
           )
         }
-        add_num("fruit_wall_thickness", meso_rows(cl_scoring), raw, pos = cl_pos, note = "Mesocarp thickness.")
+        add_num(
+          "fruit_wall_thickness",
+          meso_rows(cl_scoring),
+          raw,
+          pos = cl_pos,
+          note = "Mesocarp thickness."
+        )
         shp <- str_extract(
           pieces[1],
           "(?i)(round|globose|ellipsoid|ovoid|obovoid|fusiform|oblong|subglobose)[a-z -]*"
@@ -1294,7 +1430,13 @@ parse_description <- function(par_row) {
         }
       }
       if (org == "mesocarp") {
-        add_num("fruit_wall_thickness", meso_rows(cl_scoring), raw, pos = cl_pos, note = "Mesocarp thickness.")
+        add_num(
+          "fruit_wall_thickness",
+          meso_rows(cl_scoring),
+          raw,
+          pos = cl_pos,
+          note = "Mesocarp thickness."
+        )
         if (str_detect(low, "fleshy|oily")) {
           note_unmapped(block, "mesocarp", "mesocarp texture", cl)
         }
@@ -1375,7 +1517,11 @@ desc_rows <- desc |>
 desc_rows <- desc_rows |>
   distinct() |>
   # female-flower filaments/anthers belong to staminodes, not fertile stamens
-  filter(!(entity_measured %in% "female flowers" & trait %in% c("flower_filament_length", "flower_anther_length")))
+  filter(
+    !(entity_measured %in%
+      "female flowers" &
+      trait %in% c("flower_filament_length", "flower_anther_length"))
+  )
 
 
 # ---- taxa ----------------------------------------------------------------------------
@@ -1384,16 +1530,19 @@ desc_rows <- desc_rows |>
 # is placed in Monocera "still not certain" and E. sp. nov. only "suggested"
 # for Coilopetalum: neither receives group copy-down.
 groups <- tribble(
-  ~group, ~species,
-  "Acronodia", "acronodia ferrugineus knuthii mastersii nanus reticosus",
-  "Coilopetalum", "griffithii palembanicus pedunculatus petiolatus pseudopaniculatus symingtonii",
-  "Elaeocarpus", "acmosepalus eriobotryoides floribundus fraseri glaber nitidus robustus salicifolius sallehianus stipularis submonoceras tahanensis valetonii wrayi",
-  "Ganitrus", "angustifolius",
-  "Monocera", "cruciatus grandiflorus macrocerus ngii obtusus",
-  "Polystachyus", "cupreus polystachyus"
+  ~group         , ~species                                                                                                                                             ,
+  "Acronodia"    , "acronodia ferrugineus knuthii mastersii nanus reticosus"                                                                                            ,
+  "Coilopetalum" , "griffithii palembanicus pedunculatus petiolatus pseudopaniculatus symingtonii"                                                                      ,
+  "Elaeocarpus"  , "acmosepalus eriobotryoides floribundus fraseri glaber nitidus robustus salicifolius sallehianus stipularis submonoceras tahanensis valetonii wrayi" ,
+  "Ganitrus"     , "angustifolius"                                                                                                                                      ,
+  "Monocera"     , "cruciatus grandiflorus macrocerus ngii obtusus"                                                                                                     ,
+  "Polystachyus" , "cupreus polystachyus"
 ) |>
   separate_longer_delim(species, " ") |>
-  mutate(group = paste("Elaeocarpus", group, "Group"), species = paste("Elaeocarpus", species))
+  mutate(
+    group = paste("Elaeocarpus", group, "Group"),
+    species = paste("Elaeocarpus", species)
+  )
 
 taxa <- paras |>
   filter(rank %in% c("species", "subspecies", "variety", "informal_form")) |>
@@ -1408,7 +1557,8 @@ taxa <- paras |>
 # Taxa scored: species and infraspecific taxa recorded for Peninsular Malaysia.
 # Species with infraspecific taxa treated here keep their own description rows.
 # Excluded and incompletely known names are listed in taxon_flags.csv only.
-scored_taxa <- taxa |> filter(status %in% c("accepted", "unnamed")) |>
+scored_taxa <- taxa |>
+  filter(status %in% c("accepted", "unnamed")) |>
   # "intermediate" form: synonym only, no description; ovalis form: not yet collected in Peninsular Malaysia
   filter(!str_detect(block, "\\((intermediate|ovalis form)\\)"))
 
@@ -1419,43 +1569,97 @@ scored_taxa <- taxa |> filter(status %in% c("accepted", "unnamed")) |>
 # itself includes that level. Never numbers. Applied only to taxa silent on the trait.
 
 higher <- desc_rows |>
-  filter(rank %in% c("family", "genus", "infrageneric_group"), value_type == "mode", is.na(cq),
-         trait_value_clean != "", !str_detect(trait_value_clean, " "),
-         # parenthetical-genus or species-scoped statements
-         !str_detect(trait_value_raw, "\\((Elaeocarpus|Sloanea)\\)|\\bin some\\b|\\bmost\\b|\\bmany\\b"))
+  filter(
+    rank %in% c("family", "genus", "infrageneric_group"),
+    value_type == "mode",
+    is.na(cq),
+    trait_value_clean != "",
+    !str_detect(trait_value_clean, " "),
+    # parenthetical-genus or species-scoped statements
+    !str_detect(
+      trait_value_raw,
+      "\\((Elaeocarpus|Sloanea)\\)|\\bin some\\b|\\bmost\\b|\\bmany\\b"
+    )
+  )
 
 members_of <- function(b, r) {
-  if (r == "family") return(scored_taxa$block)
-  if (r == "genus") return(scored_taxa$block[scored_taxa$genus == b])
+  if (r == "family") {
+    return(scored_taxa$block)
+  }
+  if (r == "genus") {
+    return(scored_taxa$block[scored_taxa$genus == b])
+  }
   scored_taxa$block[scored_taxa$group %in% b]
 }
 
-own <- desc_rows |> filter(rank %in% c("species", "subspecies", "variety", "informal_form"))
+own <- desc_rows |>
+  filter(rank %in% c("species", "subspecies", "variety", "informal_form"))
 
 copy_rows <- higher |>
   pmap_dfr(\(...) {
     h <- list(...)
     mem <- members_of(h$block, h$rank)
     scored <- own |> filter(block %in% mem, trait == h$trait)
-    ok <- all(map_lgl(split(scored$trait_value_clean, scored$block), \(v) any(str_detect(v, paste0("\\b", h$trait_value_clean, "\\b")))))
+    ok <- all(map_lgl(split(scored$trait_value_clean, scored$block), \(v) {
+      any(str_detect(v, paste0("\\b", h$trait_value_clean, "\\b")))
+    }))
     if (!ok) {
-      return(tibble(trait = h$trait, value = h$trait_value_clean, from = h$block, copied_to = NA_character_, rejected = TRUE))
+      return(tibble(
+        trait = h$trait,
+        value = h$trait_value_clean,
+        from = h$block,
+        copied_to = NA_character_,
+        rejected = TRUE
+      ))
     }
-    tibble(trait = h$trait, value = h$trait_value_clean, from = h$block,
-           copied_to = setdiff(mem, unique(scored$block)), rejected = FALSE)
+    tibble(
+      trait = h$trait,
+      value = h$trait_value_clean,
+      from = h$block,
+      copied_to = setdiff(mem, unique(scored$block)),
+      rejected = FALSE
+    )
   })
 
 copied <- copy_rows |>
   filter(!rejected) |>
-  left_join(higher |> select(from = block, trait, value = trait_value_clean, trait_value, trait_value_raw, printed_page, pdf_page, from_rank = rank),
-            by = c("from", "trait", "value")) |>
+  left_join(
+    higher |>
+      select(
+        from = block,
+        trait,
+        value = trait_value_clean,
+        trait_value,
+        trait_value_raw,
+        printed_page,
+        pdf_page,
+        from_rank = rank
+      ),
+    by = c("from", "trait", "value")
+  ) |>
   transmute(
-    block = copied_to, trait, cq = NA_character_, trait_value, trait_value_clean = value,
-    value_type = "mode", unit = NA_character_, trait_value_raw, entity_measured = NA_character_,
+    block = copied_to,
+    trait,
+    cq = NA_character_,
+    trait_value,
+    trait_value_clean = value,
+    value_type = "mode",
+    unit = NA_character_,
+    trait_value_raw,
+    entity_measured = NA_character_,
     notes = paste0("Copied from the ", from, " description."),
-    pdf_page, printed_page,
+    pdf_page,
+    printed_page,
     rank_scored_from = recode(from_rank, infrageneric_group = "species_group"),
-    source_section = paste(recode(from_rank, family = "Family", genus = "Genus", infrageneric_group = "Group"), "description")
+    source_section = paste(
+      recode(
+        from_rank,
+        family = "Family",
+        genus = "Genus",
+        infrageneric_group = "Group"
+      ),
+      "description"
+    )
   )
 
 # ---- species -> infraspecific inheritance -----------------------------------------------
@@ -1464,18 +1668,33 @@ copied <- copy_rows |>
 infra <- scored_taxa |> filter(rank != "species")
 inherited <- infra |>
   select(block, species) |>
-  inner_join(own |> filter(rank == "species") |> rename(species = block), by = "species", relationship = "many-to-many") |>
+  inner_join(
+    own |> filter(rank == "species") |> rename(species = block),
+    by = "species",
+    relationship = "many-to-many"
+  ) |>
   anti_join(own |> distinct(block, trait), by = c("block", "trait")) |>
-  mutate(rank_scored_from = "species", source_section = "Species description",
-         notes = coalesce(paste(notes, "Inherited from the species description."), "Inherited from the species description.")) |>
+  mutate(
+    rank_scored_from = "species",
+    source_section = "Species description",
+    notes = coalesce(
+      paste(notes, "Inherited from the species description."),
+      "Inherited from the species description."
+    )
+  ) |>
   select(-species)
 
 # ---- manual (vetted) rows ---------------------------------------------------------------------
 
-manual <- read_csv("data/Coode_2018/raw/manual_rows.csv", col_types = cols(.default = "c")) |>
+manual <- read_csv(
+  "data/Coode_2018/raw/manual_rows.csv",
+  col_types = cols(.default = "c")
+) |>
   rename(cq = commonness_qualifier) |>
   mutate(printed_page = as.integer(printed_page))
-pdf_of_printed <- lines |> distinct(printed_page, pdf_page) |> filter(!is.na(printed_page))
+pdf_of_printed <- lines |>
+  distinct(printed_page, pdf_page) |>
+  filter(!is.na(printed_page))
 manual <- manual |> left_join(pdf_of_printed, by = "printed_page")
 
 # ---- assemble ------------------------------------------------------------------------------------
@@ -1487,63 +1706,133 @@ out <- bind_rows(
   manual
 ) |>
   filter(block %in% scored_taxa$block) |>
-  left_join(scored_taxa |> select(block, taxon_rank = rank, status), by = "block") |>
+  left_join(
+    scored_taxa |> select(block, taxon_rank = rank, status),
+    by = "block"
+  ) |>
   # Informal forms (E. angustifolius) are merged into the species with a form
   # context (user, 2026-10-22): keep only their own values, not the species
   # values inherited or copied down to them.
   filter(!(taxon_rank %in% "informal_form" & !is.na(rank_scored_from))) |>
   mutate(
-    form = coalesce(if ("form" %in% names(pick(everything()))) form else NA_character_,
-                    str_match(block, "\\((.*form)\\)$")[, 2]),
+    form = coalesce(
+      if ("form" %in% names(pick(everything()))) form else NA_character_,
+      str_match(block, "\\((.*form)\\)$")[, 2]
+    ),
     taxon_name = str_remove(block, " \\(.*form\\)$"),
     taxon_rank = if_else(taxon_rank == "informal_form", "species", taxon_rank),
     entity_type = "species",
     commonness_qualifier = cq,
     in_traits.yml = if_else(trait %in% names(traits), "x", ""),
     value_type = coalesce(value_type, "mode"),
-    source_section = paste0(coalesce(source_section, "Description"), ", p.", printed_page),
+    source_section = paste0(
+      coalesce(source_section, "Description"),
+      ", p.",
+      printed_page
+    ),
     # ranges as a--b so spreadsheets don't read dates
-    across(c(trait_value_raw, trait_value, notes), \(x) str_replace_all(x, "(?<=\\d)\\s?[\u2013-]\\s?(?=\\d)", "--")),
+    across(c(trait_value_raw, trait_value, notes), \(x) {
+      str_replace_all(x, "(?<=\\d)\\s?[\u2013-]\\s?(?=\\d)", "--")
+    }),
     trait_value_raw = str_replace_all(trait_value_raw, "\u00d7", "x")
   )
-if (!"population_region" %in% names(out)) out$population_region <- NA_character_
+if (!"population_region" %in% names(out)) {
+  out$population_region <- NA_character_
+}
 
 trait_data <- out |>
-  arrange(taxon_name, trait, factor(commonness_qualifier, levels = unique(c(NA, "usually", qual_words, "extreme_range")), exclude = NULL), value_type) |>
+  arrange(
+    taxon_name,
+    trait,
+    factor(
+      commonness_qualifier,
+      levels = unique(c(NA, "usually", qual_words, "extreme_range")),
+      exclude = NULL
+    ),
+    value_type
+  ) |>
   transmute(
-    taxon_name, taxon_rank, entity_type, rank_scored_from, commonness_qualifier, population_region, form,
-    entity_measured, trait, in_traits.yml, trait_value_raw, trait_value, trait_value_clean,
-    value_type, unit, source_section, pdf_page, printed_page, notes
+    taxon_name,
+    taxon_rank,
+    entity_type,
+    rank_scored_from,
+    commonness_qualifier,
+    population_region,
+    form,
+    entity_measured,
+    trait,
+    in_traits.yml,
+    trait_value_raw,
+    trait_value,
+    trait_value_clean,
+    value_type,
+    unit,
+    source_section,
+    pdf_page,
+    printed_page,
+    notes,
+    source_id
   ) |>
   distinct()
 
 stopifnot(all(trait_data$in_traits.yml == "x"))
+# ---- unmapped rows and summary -------------------------------------------------------------------
+source(".github/skills/extract-traits-from-floras-my/scripts/flora_assemble.R")
+rank_of <- paras |> distinct(block, rank)
+unmapped_rows <- bind_rows(
+  bind_rows(unmapped) |>
+    filter(character != "unparsed clause") |>
+    mutate(source_section = "Description"),
+  paras |>
+    filter(section %in% c("Ecology", "Distribution"), rank %in% c("family", "genus", "species")) |>
+    transmute(block, organ = NA_character_, character = paste(str_to_lower(section), "text"), clause = text, pdf_page, printed_page, source_section = section)
+) |>
+  left_join(rank_of, by = "block") |>
+  transmute(
+    taxon_name = block, taxon_rank = rank, rank_scored_from = NA_character_,
+    commonness_qualifier = NA_character_, population_region = NA_character_, form = NA_character_,
+    entity_measured = NA_character_, trait = NA_character_, trait_value_raw = coalesce(clause, text),
+    trait_value = NA_character_, trait_value_clean = NA_character_, value_type = NA_character_, unit = NA_character_,
+    source_section, pdf_page = as.character(pdf_page), printed_page = as.character(printed_page),
+    notes = paste0("UNMAPPED: ", coalesce(organ, "text"), " | ", character), source_id = NA_character_
+  ) |>
+  distinct() |>
+  flora_finalise(traits)
+trait_data <- bind_rows(mutate(trait_data, across(everything(), as.character)), unmapped_rows)
 write_csv(trait_data, "data/Coode_2018/raw/trait_data.csv", na = "")
-
-# ---- unmapped characters (suggestions, not traits) -----------------------------------------------
-
-unmapped_terms <- bind_rows(unmapped) |>
-  filter(character != "unparsed clause") |>
-  group_by(organ, character) |>
-  summarise(n_taxa = n_distinct(block), example_taxon = first(block),
-            example_text = str_trunc(first(text), 200), .groups = "drop") |>
-  arrange(desc(n_taxa))
-write_csv(unmapped_terms, "data/Coode_2018/raw/unmapped_terms.csv", na = "")
+write_csv(flora_unmapped_summary(trait_data), "data/Coode_2018/raw/unmapped_terms.csv", na = "")
 
 # ---- taxon flags ------------------------------------------------------------------------------------
 
 flags <- taxa |>
-  left_join(trait_data |> count(taxon_name, name = "n_rows"), by = c("block" = "taxon_name")) |>
+  left_join(
+    trait_data |> count(taxon_name, name = "n_rows"),
+    by = c("block" = "taxon_name")
+  ) |>
   transmute(
-    taxon_name = block, taxon_rank = rank, status, n_rows = coalesce(n_rows, 0L),
+    taxon_name = block,
+    taxon_rank = rank,
+    status,
+    n_rows = coalesce(n_rows, 0L),
     flag = case_when(
-      status == "unnamed" ~ "Unnamed taxon (sp. nov., material inadequate for naming); kept with its printed label.",
+      status ==
+        "unnamed" ~ "Unnamed taxon (sp. nov., material inadequate for naming); kept with its printed label.",
       status == "excluded" ~ "Excluded species; not scored.",
-      status == "incompletely_known" ~ "Incompletely known species; not scored.",
-      str_detect(block, "intermediate\\)") ~ "Informal form with no description (synonym E. cyanocarpus only); not scored.",
-      str_detect(block, "ovalis form") ~ "Informal form not yet collected in Peninsular Malaysia; not scored.",
-      rank == "informal_form" ~ "Informal form; merged into the species with a form context (own values only).",
-      !has_description & rank == "species" ~ "Species heading only; description given at infraspecific rank.",
+      status ==
+        "incompletely_known" ~ "Incompletely known species; not scored.",
+      str_detect(
+        block,
+        "intermediate\\)"
+      ) ~ "Informal form with no description (synonym E. cyanocarpus only); not scored.",
+      str_detect(
+        block,
+        "ovalis form"
+      ) ~ "Informal form not yet collected in Peninsular Malaysia; not scored.",
+      rank ==
+        "informal_form" ~ "Informal form; merged into the species with a form context (own values only).",
+      !has_description &
+        rank ==
+          "species" ~ "Species heading only; description given at infraspecific rank.",
       !has_description ~ "No description; values inherited from species or taken from notes only.",
       TRUE ~ ""
     )

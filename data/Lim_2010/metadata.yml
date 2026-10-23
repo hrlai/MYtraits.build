@@ -68,7 +68,7 @@ dataset:
     pp. 61--66)
   notes: |
     data.csv is raw/trait_data.csv (written by raw/build_trait_data.R) with
-    three columns added by raw/extra_R_code_Lim_2010.R: value (the build column;
+    three columns added by flora_make_data(): value (the build column;
     the source term for categorical traits, mapped with substitutions),
     trait_scoring_method (from rank_scored_from) and source_id. Taxon names are
     as printed. Seed cones are treated as fruit (fruit_type strobilus; seed cone
@@ -78,7 +78,7 @@ dataset:
     with population region = Borneo and source_id = Yii_1995. Type
     and figure specimens are listed in raw/Lim_2010_vouchers.csv; per-taxon
     flags in raw/taxon_flags.csv. Characters with no trait in traits.yml are
-    listed in raw/unmapped_terms.csv, with the verbatim clauses and pages in raw/unmapped_values.csv (not extracted as candidate traits): pollen
+    listed in raw/unmapped_terms.csv; verbatim unmapped clauses are rows in raw/trait_data.csv: pollen
     cones, sporophylls, cone scales and foliose bracts; seed cone shape and
     position; seed wing size and texture; juvenile leaves; inner bark, resin,
     sapwood and heartwood; resin canals; leaf texture; venation; terminal buds;

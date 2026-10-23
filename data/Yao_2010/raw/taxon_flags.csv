@@ -1,2 +1,2 @@
-"taxon_name","taxon_rank","status","n_rows","flag"
-"Pentaphylax euryoides","species","accepted",112,"Synonyms P. malayana, P. arborea listed under accepted name; type of P. euryoides is Hong Kong (lectotype)"
+taxon_name,taxon_rank,status,n_rows,flag
+Pentaphylax euryoides,species,accepted,112,"Synonyms P. malayana, P. arborea listed under accepted name; type of P. euryoides is Hong Kong (lectotype)"

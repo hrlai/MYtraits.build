@@ -294,7 +294,10 @@ extract_taxon <- function(x) {
   }
   fruit_clause <- last_match(z, "(?i)fruit(?:s)?[^.;]{0,300}")
   if (!is.na(fruit_clause)) {
-    if (str_detect(fruit_clause, "(?i)\\bglabrous\\b")) {
+    if (
+      str_detect(fruit_clause, "(?i)\\bglabrous\\b") &&
+        !str_detect(fruit_clause, "(?i)glabrous (?:inside|within|internally)")
+    ) {
       add(categorical_row(
         x,
         "fruit_surface_hairs",
