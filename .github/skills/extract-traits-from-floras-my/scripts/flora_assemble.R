@@ -273,6 +273,7 @@ flora_make_data <- function(
         trait_value
       ),
       trait_scoring_method = case_when(
+        rank_scored_from == "own" ~ "inferred_from_species",
         rank_scored_from == "family" ~ "inferred_from_family",
         rank_scored_from == "genus" ~ "inferred_from_genus",
         rank_scored_from == "species_group" ~ "inferred_from_species_group",

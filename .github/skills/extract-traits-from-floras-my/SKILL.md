@@ -1,13 +1,13 @@
 ---
 name: extract-traits-from-floras-my
-description: Extract trait data from Malaysian Flora family treatments (Flora of Peninsular Malaysia, FPM; Tree Flora of Sabah and Sarawak, TFSS) and from single taxon-description papers into a long-format `data/<Author_Year>/raw/trait_data.csv`, a vouchers file, `data.csv` and `metadata.yml`. Covers source-text checks and transcription, segmenting treatments, clause parsing, copy-down from family/genus/group, QA and build checks. Use when the user hands over an FPM or TFSS family PDF (or a taxon-description paper) and asks to "extract traits from floras", "process the next family", or "extract traits from taxon description". Replaces the AusTraits skills `extract-traits-from-floras` and `extract-traits-from-taxon-description` for Malaysian sources.
+description: Extract trait data from Malaysian Flora family treatments (Flora of Peninsular Malaysia, FPM; Tree Flora of Sabah and Sarawak, TFSS) and from single taxon-description papers into a long-format `data/<Author_Year>/raw/trait_data.csv`, a vouchers file, `data.csv` and `metadata.yml`. Covers source-text checks and transcription, segmenting treatments, clause parsing, copy-down from family/genus/group, QA and build checks. Use when the user hands over an FPM or TFSS family PDF (or a taxon-description paper) and asks to "extract traits from floras", "process the next family", or "extract traits from taxon description".
 ---
 
-# Extract traits from Malaysian floras (-my)
+# Extract traits from Malaysian floras
 
 One family treatment (or one taxon-description paper) becomes one dataset
 `data/<Author_Year>/`. Treat FPM and TFSS treatments as separate sources and
-datasets, including when they cover the same family: different authors require
+datasets, even when they cover the same family: different authors require
 distinct source citations. Use each treatment's own author and year as its
 dataset ID; if IDs collide, agree on distinct IDs before writing data. Process
 one family at a time and stop for review after each. Worked examples, all in
@@ -17,7 +17,7 @@ this repository:
 | --- | --- | --- | --- |
 | `data/Coode_2018` | Elaeocarpaceae, FPM vol. 7 | born-digital PDF, 59 taxa | scripted parser, groups, infraspecific taxa, informal forms, excluded species |
 | `data/Lim_2010` | Araucariaceae, FPM vol. 1 | scanned PDF, hand transcription, 2 taxa | transcription workflow, conifer organs, genus over family |
-| `data/Yao_2010` | Pentaphylacaceae, FPM vol. 1 | scanned PDF, hand transcription, 1 taxon | hand-written rows, unmapped rows kept in `trait_data.csv` |
+| `data/Yao_2010` | Pentaphylacaceae, FPM vol. 1 | scanned PDF, 1 taxon | manual rows, unmapped rows kept in `trait_data.csv` |
 
 Treat these three as precedents, not as templates to copy. They were left
 unstandardised on purpose; the "Known inconsistencies" section lists what to
@@ -45,13 +45,12 @@ writes `data/<id>/data.csv`.
 
 ## Standing rules (user decisions)
 
-- **Names as printed.** Do not match to APC, WFO or any backbone during
-  extraction (none of these taxa are in APC); alignment is a separate step.
-  Keep `sp. nov.` under its printed label and flag it.
+- **Names as printed.** Do not match to a taxonomic backbone during extraction;
+  alignment is a separate step. Keep `sp. nov.` under its printed label and
+  flag it.
 - **Do not invent traits.** Only traits in `config/traits.yml` (MYtraits' own
   copy; re-read it each time) get a `trait`. Everything else is an unmapped
-  row (below). Several traits used in the AusTraits skills do not exist here
-  (`elevation`, `leaf_count`).
+  row (below).
 - **Score only what the text states.** No pollinator, dispersal or
   `inferred` typical values from morphology. Negative phrases ("without
   stipules") are not scored when the trait has no `absent` level; list them as
@@ -62,13 +61,15 @@ writes `data/<id>/data.csv`.
   and scope in `notes`. Do not assume an unspecified Borneo locality is in
   Malaysia. Exclude records explicitly located outside Malaysia, such as India
   or Thailand.
+- **Regional counterparts.** Do not score a value borrowed from another FPM or
+  TFSS treatment, even when quoted in the current treatment. That flora will be
+  ingested as its own source; retaining the borrowed value would duplicate it.
 - **Informal forms** are merged into the species with a `form` context.
 - **"sometimes"** is accepted in species treatments, never copied down from
   genus or family.
 - **Tropical, aseasonal.** Never convert seasons to months; months only when
   the text gives them ("flowers throughout the year" -> `yyyyyyyyyyyy`, noted).
-- **No fire block**, no southern-hemisphere seasons, no orchid or geophyte
-  conventions from the AusTraits skills.
+- **No fire block** and no southern-hemisphere, orchid or geophyte conventions.
 - **Source units** stay in `unit`; metadata `unit_in: unit` converts. Ranges in
   text columns are written `a--b`.
 - **Mapped and unmapped records live together** in `raw/trait_data.csv`.
@@ -140,13 +141,56 @@ running heads, first and last page. Checklist for the bespoke part:
 - Check the output: the number of blocks, each block's sections, and that every
   scored taxon has a Description.
 
+#### TFSS segmentation
+
+TFSS layout and text layers vary by volume and scan. Configure and inspect each
+treatment; do not reuse a page range, heading regex, or page-number offset from
+another family. Sapindaceae is evidence for the checks below, not a template:
+its treatment occupied PDF pages 7--118, had 60 species-level headings, and
+contained infraspecific headings.
+
+- Establish the treatment's first and last **PDF** page from page images before
+  reading text. Separately verify the printed-page mapping; do not derive it
+  from a fixed offset unless checked at both ends.
+- Inspect at least the first, middle and last treatment pages, then render any
+  page where a heading, number, or clause is doubtful. A usable prose layer can
+  still contain OCR slips, lost characters, reordered lines, or wrong
+  measurements. Use a transcription and `flora_compare_numbers()` when the
+  layer is not demonstrably reliable. Record repairs in `raw/source_fixes.csv`.
+- Set `running_head_re` for the volume header and pass it to
+  `flora_read_pdf_lines()`. Also review standalone printed page numbers. Do not
+  let either become a taxon paragraph or description text.
+- Treat figure and map captions as non-treatment text unless they supply a
+  separately transcribed voucher. Configure `caption_re`, `side_caption_re`,
+  and `side_indent`, then inspect their dropped lines. Caption fragments beside
+  figures can resemble `subsp.` or `var.` headings.
+- Define separate header specifications for species, subspecies, variety and
+  forma headings. Species headers set the current species; infraspecific
+  headers must retain that parent so `flora_inherit_infraspecific()` can run.
+  Count accepted species blocks and infraspecific blocks against the treatment
+  before parsing.
+- Review every candidate heading in its rendered page context. Keys, running
+  text, citations, figure labels, and wrapped lines can match a heading regex.
+  Use `cancel_header` or `ignore_header` for verified false matches, rather
+  than narrowing a pattern until genuine headings disappear.
+- Segment with `flora_segment()` rather than flattening all treatment pages into
+  one text string and slicing between species matches. Its line/page provenance
+  and section handling preserve page turns and permit clauses in Ecology or
+  other later sections to receive their actual page.
+- Before parsing, save or inspect the paragraph table. Check every block has
+  the intended rank and parent, captions and running heads are dropped, and
+  Description, Ecology, Distribution and other labelled sections start and end
+  correctly. Sample blocks at both page boundaries and near figures.
+
 ### 4. Parse descriptions (B, with G helpers)
 
-Tiny family (about 1 to 3 taxa) or one taxon paper: hand-write rows with
-`flora_hand()` (Yao_2010 pattern) after transcribing from page images. Larger
-family: write `raw/build_trait_data.R` using `flora_parse.R` and the
-dictionary CSV. The parser itself (organ detection, clause rules) is bespoke
-because families differ; keep it short by reusing the helpers.
+Tiny family (about 1 to 3 taxa) or one taxon paper: create rows directly with
+`flora_hand()` (Yao_2010 pattern), using the verified text source chosen in step
+2. A one-species family does not require hand transcription when its PDF text
+layer is reliable. Larger family: write `raw/build_trait_data.R` using
+`flora_parse.R` and the dictionary CSV. The parser itself (organ detection,
+clause rules) is bespoke because families differ; keep it short by reusing the
+helpers.
 
 Bespoke checklist (decisions that changed per family):
 
@@ -174,7 +218,11 @@ Bespoke checklist (decisions that changed per family):
   clause by default (`flora_hedge_re` covers the first five). If the user
   accepts a hedged statement (Yao_2010: "suggest wind dispersal"; "more-or-less
   continuously throughout the year"), keep the hedge in `notes` and add a
-  metadata question. See open question 3.
+  metadata question.
+
+  **Open decision — hedged statements.** Do not score them by default. Ask the
+  user before retaining one; record the exact wording, affected trait and
+  taxon, and the user's decision in `metadata.yml` `questions:`.
 - **Parentheses.** Drop non-extreme asides before splitting
   (`flora_drop_asides()`); never split on a comma inside parentheses.
 - **Commonness rows.** Any commonness word splits the trait into rows
@@ -200,9 +248,9 @@ Bespoke checklist (decisions that changed per family):
   record is not localised to Sabah or Sarawak.
 - **Excluded and incompletely known species** are not scored; list them in
   `taxon_flags.csv`.
-- **Ferns** (first Malaysian fern family forthcoming). Treat AusTraits rules
-  as hypotheses, not defaults: stipe = petiole, frond or lamina = leaf, pinnae
-  and segments = leaflets, division in `leaf_type`, pinna counts in pairs, and
+- **Ferns** (first Malaysian fern family forthcoming). Treat these mappings as
+  hypotheses, not defaults: stipe = petiole, frond or lamina = leaf, pinnae and
+  segments = leaflets, division in `leaf_type`, pinna counts in pairs, and
   growth form `fern` or `lycophyte`. When the user provides the first family,
   inspect its treatment and `config/traits.yml` before scoring these mappings;
   flag uncertain ones for review. Add tested fern guidance only after that pass.
@@ -264,13 +312,14 @@ figure caption that contradicts the heading, as in Coode_2018 question 8).
 `value` is `trait_value_clean` for numeric traits and the `y/n` calendars, else
 the source term (`trait_value`) mapped by `substitutions:` in metadata;
 `trait_scoring_method` comes from `rank_scored_from`
-(`inferred_from_family|genus|species_group|species`). Unmapped rows stay out.
+(`inferred_from_family|genus|species_group|species`). Verify that own rows are
+also mapped to `inferred_from_species`; an empty scoring-method context can
+make `dataset_test()` fail with an unnamed-column error. Unmapped rows stay out.
 Do not use `convert-raw-data-file-into-data-csv`: floras stay long.
 
 ### 10. `metadata.yml` (B)
 
-Edit directly. Start from `traits.build::metadata_create_template()` or copy
-`data/Lim_2010/metadata.yml`, and change:
+Edit directly. Start from `traits.build::metadata_create_template()` and change:
 
 - `source.primary`: `bibtype: InBook`, the actual treatment author, `booktitle`
   (FPM Series II vol. N or TFSS vol. N), editors, series, publisher, pages.
@@ -279,20 +328,30 @@ Edit directly. Start from `traits.build::metadata_create_template()` or copy
   `source.secondary`.
 - `dataset`: `data_is_long_format: yes`, `basis_of_record: preserved_specimen`,
   `life_stage: adult`, `entity_type: species`, and a `sampling_strategy`
-  describing the extraction (floras have no Methods text; say so in a
-  question).
+  describing the extraction.
 - `contexts`: `commonness_qualifier`, `population_region`, `entity_measured`,
   `trait_scoring_method`, plus `form` when forms are merged. Declare every
   context actually used in `data.csv`.
 - `traits:` entries with `unit_in: unit`, `basis_of_value: expert_score`.
   Generate a draft once in the console from `data.csv`, paste it, keep no
-  script. Quote every `questions:` and `methods:` string (YAML plain scalars
-  cannot contain `:` or start with a quote); `yaml::read_yaml()` catches this
-  before `dataset_test()`.
+  script. Use a literal block scalar for long free-flow fields, especially
+  `notes: |` and `sampling_strategy: |`. Quote short `questions:` and `methods:`
+  strings (YAML plain scalars cannot contain `:` or start with a quote);
+  `yaml::read_yaml()` catches this before `dataset_test()`.
 - `substitutions:` map source terms to levels (`trait_value` -> clean level),
   so mappings can change without re-extracting.
-- `questions:` every judgement call, unmapped-term summary, source fix, value
-  outside the allowed range, name-alignment note, and author without ORCID.
+- `questions:` records only items requiring a curator or user decision, or an
+  explicit confirmation. Do not add routine extraction facts, name-backbone
+  status, or the absence of a field sampling design. Use consecutive keys
+  (`question1`, `question2`, ...). Each question must state: the source wording
+  or precise issue; affected taxon, trait and rows where relevant; the current
+  treatment; and the decision requested. Include a source fix, uncertain
+  mapping, accepted hedge, unresolved unmapped term, or out-of-range value only
+  when it needs review. Keep a factual unmapped summary in `notes` or
+  `raw/unmapped_terms.csv` instead.
+- Use unquoted `.na` for absent optional metadata fields, not the literal string
+  `'.na'`. The latter is data, not YAML null, and can make
+  `process_flag_excluded_observations()` fail with an unnamed-column error.
 
 ### 11. QA and build checks (G)
 
@@ -305,7 +364,8 @@ Edit directly. Start from `traits.build::metadata_create_template()` or copy
    `traits.build::dataset_test()`.
 3. `traits.build::dataset_process()` (see `build.R` for the call): inspect
    `excluded_data`. Schema tests pass even when allowed-value mismatches exist.
-   Yao_2010 was never processed.
+   It also catches build failures after the schema checks. Yao_2010 was never
+   processed.
 4. Report: taxa, rows by mapped and unmapped, rows by `rank_scored_from`,
    exclusions, numbered questions.
 
@@ -326,6 +386,7 @@ Edit directly. Start from `traits.build::metadata_create_template()` or copy
 | Values outside `traits.yml` levels or ranges reach `excluded_data` (Coode 6 terms and 2 ranges, Lim 3 terms) | QA lists them before the build; record as questions, change `traits.yml` centrally |
 | One trait with mixed units (Coode `fruit_length` cm/mm; Lim DBH cm/m) | expected; check `unit` per row, QA lists them |
 | `dataset_process()` not run (Yao) | step 11 |
+| Optional metadata used quoted `'.na'`, so it was parsed as a literal string and broke exclusion handling | use unquoted `.na`; run `dataset_process()` as well as `dataset_test()` |
 
 ## Single taxon-description papers
 
@@ -350,4 +411,4 @@ keep `config/traits.yml` changes out of family branches.
 
 ## Open question for the user
 
-Hedged statements: default to skip, or default to score with a note?
+Hedged statements: default to score with a note
