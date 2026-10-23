@@ -11,7 +11,7 @@ sepals,sepal hairs,41,Elaeocarpus acmosepalus,"sepals persistent after petals an
 petals,petal keel / basal pockets,40,Elaeocarpus,"petals expanded or sepaloid, usually with apical divisions (rarely entire), with or without keels and basal pockets inside",34
 stipules,stipule presence / persistence / shape / length,40,Elaeocarpaceae,"Stipules present, though often caducous",33
 petals,petal width,39,Elaeocarpus acmosepalus,"petals obovate, clawed or at least narrowed in lower third, 5--6 mm long, 2.5--3 mm wide at widest point of limb, rounded at apex, with 23--29 linear apical divisions 2--3 mm long, unequal and grou...",52
-lamina,leaf texture,38,Elaeocarpus acmosepalus,"lamina coriaceous, ovate to elliptic, 2--2.8 times as long as wide, 8--19 x 3--9 cm, base narrowly to broadly cuneate, margin entire to more-or-less entire, apex narrowly acute to acute, tip acumin...",52
+lamina,leaf texture,38,Elaeocarpus acmosepalus,"lamina coriaceous, ovate to elliptic, 2--2.8 times as long as wide, 8--19 x 3--9 cm, base narrowly cuneate to broadly cuneate, margin entire to more-or-less entire, apex narrowly acute to acute, ti...",52
 ovary,ovary hairs,38,Elaeocarpus Elaeocarpus Group,"ovary 3--5-locular, ovules 2 per locule, styles tapering to a point, if hairy at base then glabrous distally",36
 bracts,bract persistence / shape,37,Elaeocarpus acmosepalus,"bracts early caducous, narrow-oblong to oblanceolate, slightly V-channelled, 2--3 mm long, entire",52
 fruit stalk,fruit stalk length,37,Elaeocarpus acmosepalus,stalk 9--14 mm long,52
@@ -34,7 +34,7 @@ seeds,seeds per locule,4,Elaeocarpus,Seeds 1 per locule,34
 sapwood,sapwood characters,3,Elaeocarpus,Sapwood pale,34
 capsule valves,valve count / spines,2,Sloanea javanica,"valves 4, usually unequal, wall c. 9 mm thick, not or scarcely channelled on the back",121
 bole,bole shape,1,Elaeocarpus angustifolius,bole columnar with plank buttresses to 1.2 m high,55
-fruits,fruit spines,1,Sloanea,"Fruit a woody loculicidal capsule with persistent valves, spiny outside or smooth (elsewhere densely coated with irritant bristle-spines), inner surface of locules sometimes coloured",120
+fruits,fruit spines,1,Sloanea,"Fruit a woody loculicidal capsule with persistent valves, spiny outside or smooth, inner surface of locules sometimes coloured",120
 indumentum,indumentum characters,1,Elaeocarpaceae,Indumentum of simple hairs,33
 lamina,leaf tooth spacing,1,Elaeocarpus ngii subsp. curtisii,"lamina narrowly cuneate at base, margins with teeth 10 mm apart",84
 peduncle,peduncle characters,1,Sloanea javanica,"peduncle (2--)3--5 cm long, rarely 1-flowered with a distinct articulation at the tip of the peduncle, or with a pair of flowers, more usually a 3-flowered cyme bracteate at the flower insertion (t...",121

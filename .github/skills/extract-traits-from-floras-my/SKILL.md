@@ -218,9 +218,9 @@ contained infraspecific headings.
 ### 4. Parse descriptions (B, with G helpers)
 
 Tiny family (about 1 to 3 taxa) or one taxon paper: create rows directly with
-`flora_hand()` (Yao_2010 pattern), using the verified text source chosen in step
-2. A one-species family does not require hand transcription when its PDF text
-layer is reliable. Larger family: write `raw/build_trait_data.R` using
+`flora_hand()` (Yao_2010 pattern), using the verified text source chosen in
+step 2. A one-species family does not require hand transcription when its PDF
+text layer is reliable. Larger family: write `raw/build_trait_data.R` using
 `flora_parse.R` and the dictionary CSV. The parser itself (organ detection,
 clause rules) is bespoke because families differ; keep it short by reusing the
 helpers.

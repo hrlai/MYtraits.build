@@ -11,16 +11,28 @@ suppressPackageStartupMessages(library(tidyverse))
 
 # ---- source fixes and normalisation -------------------------------------------
 
-# Dated, per-family typo repairs live in raw/source_fixes.csv
-# (pattern, replacement, page, reason); never inside the parser. Apply them once
-# to the whole paragraph table. A fix that matches nothing is reported, because
-# it means the pattern is stale or the transcription already changed.
-flora_apply_fixes <- function(x, fixes) {
+# Per-family source repairs live in raw/source_fixes.csv
+# (pattern, replacement, page, reason). Apply once to description paragraphs,
+# using the printed page to scope each fix. Unmatched patterns are reported.
+flora_apply_fixes <- function(x, fixes, page = NULL) {
   if (is.null(fixes) || !nrow(fixes)) {
     return(x)
   }
+  if (!is.null(page) && length(page) != length(x)) {
+    stop("`page` must have the same length as `x`.")
+  }
+  if (anyNA(fixes$pattern) || anyNA(fixes$replacement)) {
+    stop("Source fixes require non-missing patterns and replacements.")
+  }
   for (i in seq_len(nrow(fixes))) {
-    hit <- str_detect(x, fixes$pattern[i])
+    applicable <- if (
+      is.null(page) || is.na(fixes$page[i]) || fixes$page[i] == ""
+    ) {
+      rep(TRUE, length(x))
+    } else {
+      !is.na(page) & page == fixes$page[i]
+    }
+    hit <- applicable & !is.na(x) & str_detect(x, fixes$pattern[i])
     if (!any(hit, na.rm = TRUE)) {
       warning(
         "Source fix matched nothing: ",
@@ -30,7 +42,11 @@ flora_apply_fixes <- function(x, fixes) {
         ")"
       )
     }
-    x <- str_replace_all(x, fixes$pattern[i], fixes$replacement[i])
+    x[!is.na(hit) & hit] <- str_replace_all(
+      x[!is.na(hit) & hit],
+      fixes$pattern[i],
+      fixes$replacement[i]
+    )
   }
   x
 }
@@ -39,6 +55,10 @@ flora_apply_fixes <- function(x, fixes) {
 # dashes between digits, "14 by 7" -> "14 x 7". Keep true en dashes and x signs.
 flora_norm <- function(x) {
   x |>
+    str_replace_all(
+      "\\b(narrowly|broadly) to (narrowly|broadly) ([a-z]+)",
+      "\\1 \\3 to \\2 \\3"
+    ) |>
     str_replace_all("\u00ad", "") |>
     str_replace_all("\u2013 ", "\u2013") |>
     str_replace_all("(?<=\\d)\\s?\u2013\\s?(?=\\d)", "\u2013") |>
@@ -219,10 +239,8 @@ flora_parse_dims <- function(s) {
 
 # ---- categorical dictionary ------------------------------------------------------------
 
-# Dictionary CSV columns: trait, term_regex, level, note. Row order is priority
-# within a trait. level "" = term recorded, no traits.yml level. Returns a named
-# list of named character vectors (names = regex), the shape flora_score_cat()
-# reads. The dictionary grows across families; edit the CSV, not the parser.
+# Dictionary CSV columns: trait, term_regex, level, source, note. Row order is
+# priority within a trait. Filter the seed by family before loading it.
 flora_load_dict <- function(file) {
   d <- read_csv(file, col_types = cols(.default = "c"), na = character())
   split(d, factor(d$trait, levels = unique(d$trait))) |>

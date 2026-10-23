@@ -14,319 +14,32 @@
 
 library(tidyverse)
 source("data/Coode_2018/raw/segment_source.R")
+source(".github/skills/extract-traits-from-floras-my/scripts/flora_assemble.R")
+fixes <- read_csv(
+  "data/Coode_2018/raw/source_fixes.csv",
+  col_types = cols(.default = "c"),
+  na = character()
+)
 
 traits <- yaml::read_yaml("config/traits.yml")$traits$elements
 checked <- "Candidate trait, not in config/traits.yml (checked 2026-10)."
 
 # ---- text helpers -----------------------------------------------------------
 
-norm <- function(x) {
-  x |>
-    # Source fix (p. 68, E. fraseri): lamina "14–18.5 × (7–)9–12" lacks its unit; cm as in every other lamina.
-    str_replace_all(
-      "14\u2013 ?18\\.5 \u00d7 \\(7\u2013\\)9\u201312,",
-      "14\u201318.5 \u00d7 (7\u2013)9\u201312 cm,"
-    ) |>
-    str_replace_all("\\) by \\(|(?<=\\d) by (?=[\\d(])", function(m) {
-      if (str_detect(m, "^\\)")) ") \u00d7 (" else " \u00d7 "
-    }) |>
-    str_replace_all("\\s*\\(including acumen\\)", "") |>
-    str_replace_all(
-      "\\(\u2013(\\d+(?:\\.\\d+)?) (cm|mm)\\) long",
-      "(\u2013\\1) \\2 long"
-    ) |>
-    str_replace_all("\\(\u2013(\\d+(?:\\.\\d+)?) (cm|mm)\\)", "(\u2013\\1)") |>
-    str_replace_all(
-      "^leaves sessile or petioles|(?<=; )leaves sessile or petioles",
-      "petioles"
-    ) |>
-    str_replace_all("\u00ad", "") |>
-    str_replace_all("\u2013 ", "\u2013") |> # "elliptic– obovate"
-    str_replace_all("(?<=\\d)\\s?\u2013\\s?(?=\\d)", "\u2013") |>
-    str_replace_all("\\bs ize\\b", "size") |>
-    str_replace_all("axi1s", "axils") |>
-    str_squish()
-}
-
-# Sentence split protecting abbreviations ("c. 2", "E. glaber", "e.g.").
-split_sentences <- function(x) {
-  str_split(
-    x,
-    "(?<!\\bc|\\b[A-Z]|e\\.g|\\bsp|subsp|var|Fig|\\bca)\\.\\s+(?=[A-Z])"
-  )[[1]]
-}
-
-qual_words <- c(
-  "usually",
-  "often",
-  "sometimes",
-  "rarely",
-  "occasionally",
-  "mostly",
-  "generally",
-  "frequently",
-  "less often",
-  "very rarely"
-)
-qual_re <- paste0("\\b(", paste(qual_words, collapse = "|"), ")\\b")
-hedge_re <- "\\b(probably|perhaps|apparently|possibly|presumably)\\b"
+norm <- flora_norm
+split_sentences <- flora_split_sentences
+qual_words <- flora_qual_words
+hedge_re <- flora_hedge_re
 
 # ---- numbers ----------------------------------------------------------------
 
-num <- "\\d+(?:\\.\\d+)?"
-# (a–)b–c(–d) with optional "c." and an optional unit
-range_re <- paste0(
-  "(?:\\((",
-  num,
-  ")\u2013\\)\\s?)?", # 1 extreme min
-  "(c\\.\\s?|to\\s)?", # 2 c. / to
-  "(",
-  num,
-  ")", # 3 low
-  "(?:\u2013(",
-  num,
-  "))?", # 4 high
-  "(?:\\s?\\(\u2013(",
-  num,
-  ")\\))?", # 5 extreme max
-  "\\s?(mm|cm|m)?\\b" # 6 unit
-)
+num <- .flora_num
+parse_range <- flora_parse_range
+num_rows <- flora_num_rows
+parse_dims <- flora_parse_dims
 
-parse_range <- function(s) {
-  m <- str_match(s, range_re)
-  if (is.na(m[1, 1])) {
-    return(NULL)
-  }
-  tibble(
-    xmin = as.numeric(m[, 2]),
-    approx = m[, 3],
-    lo = as.numeric(m[, 4]),
-    hi = as.numeric(m[, 5]),
-    xmax = as.numeric(m[, 6]),
-    unit = m[, 7]
-  )
-}
-
-# Rows for one numeric value: typical range, extremes, "c." means, "to" maxima.
-num_rows <- function(r, unit = r$unit) {
-  out <- list()
-  ap <- coalesce(str_trim(r$approx), "")
-  if (ap == "c.") {
-    out[[1]] <- tibble(value = r$lo, value_type = "mean", cq = NA_character_)
-  } else if (ap == "to") {
-    out[[1]] <- tibble(value = r$lo, value_type = "maximum", cq = NA_character_)
-  } else if (is.na(r$hi)) {
-    # single typical value, with or without extremes: one mean row
-    out[[1]] <- tibble(value = r$lo, value_type = "mean", cq = NA_character_)
-  } else {
-    out[[1]] <- tibble(
-      value = c(r$lo, r$hi),
-      value_type = c("minimum", "maximum"),
-      cq = NA_character_
-    )
-  }
-  ext <- !is.na(r$xmin) || !is.na(r$xmax)
-  if (ext) {
-    out[[1]]$cq <- "usually"
-    if (!is.na(r$xmin)) {
-      out[[2]] <- tibble(
-        value = r$xmin,
-        value_type = "minimum",
-        cq = "extreme_range"
-      )
-    }
-    if (!is.na(r$xmax)) {
-      out[[3]] <- tibble(
-        value = r$xmax,
-        value_type = "maximum",
-        cq = "extreme_range"
-      )
-    }
-  }
-  bind_rows(out) |> mutate(unit = unit)
-}
-
-# Dimensions "a–b × c–d cm" (extremes allowed on each side; unit from the end).
-parse_dims <- function(s) {
-  s2 <- str_remove_all(s, "\\((?![\u2013\\d])[^)]*\\)") # drop "(including acumen)"
-  m <- str_match(
-    s2,
-    paste0(
-      "(\\(?[\\d.\u2013()c ]+?)\\s?\u00d7\\s?(\\(?[\\d.\u2013()c ]+?)\\s?(mm|cm|m)\\b"
-    )
-  )
-  if (is.na(m[1, 1])) {
-    return(NULL)
-  }
-  a <- parse_range(paste0(str_squish(m[, 2]), " ", m[, 4]))
-  b <- parse_range(paste0(str_squish(m[, 3]), " ", m[, 4]))
-  if (is.null(a) || is.null(b)) {
-    return(NULL)
-  }
-  list(len = num_rows(a, m[, 4]), wid = num_rows(b, m[, 4]))
-}
-
-# ---- categorical dictionaries -------------------------------------------------
-# term regex -> traits.yml level ("" = recorded, no level). Order = priority.
-
-dict <- list(
-  plant_growth_form = c(
-    "\\btrees?\\b|\\btreelets?\\b" = "tree",
-    "\\bshrubs?\\b" = "shrub"
-  ),
-  stem_base_form = c("buttress" = "buttressed", "\\bfluted\\b" = "fluted"),
-  root_system_type = c("stilt[ -]root" = "stilt_roots"),
-  bark_texture = c(
-    "\\bsmooth\\b" = "smooth",
-    "\\brough\\b" = "rough",
-    "\\bfissured\\b|\\bfurrowed\\b" = "furrowed",
-    "\\bflaky\\b|\\bflaking\\b" = "flaky",
-    "\\bcorky\\b" = "corky",
-    "\\blenticellate\\b" = "",
-    "\\bgranular\\b" = ""
-  ),
-  bark_colour = c(
-    "dark brown" = "brown_dark",
-    "\\bbrown\\b" = "brown",
-    "\\bgrey\\b|\\bgray\\b" = "grey",
-    "\\bwhitish\\b|\\bwhite\\b" = "white"
-  ),
-  stem_hairs = c(
-    "\\bglabrous\\b|\\bglabrescent\\b" = "glabrous",
-    "hairy|pubescent|puberulous|puberulent|velvety|tomentose|silky|villous|hirsute|felty" = "hairy"
-  ),
-  leaf_arrangement = c(
-    "spiral" = "spiral",
-    "crowded" = "crowded",
-    "scattered" = "scattered",
-    "grouped|clustered|bunches" = "clustered"
-  ),
-  leaf_phyllotaxis = c(
-    "subopposite" = "",
-    "\\balternate\\b" = "alternate",
-    "\\bopposite\\b" = "opposite"
-  ),
-  leaf_shape = c(
-    "narrow(ly)?[- ]elliptic" = "narrowly_elliptical",
-    "broad(ly)?[- ]elliptic" = "widely_elliptical",
-    "narrow(ly)?[- ]obovate" = "narrowly_obovate",
-    "broad(ly)?[- ]obovate" = "widely_obovate",
-    "narrow(ly)?[- ]ovate" = "narrowly_ovate",
-    "broad(ly)?[- ]ovate" = "widely_ovate",
-    "narrow(ly)?[- ]oblong" = "narrowly_oblong",
-    "ovate-elliptic|elliptic-ovate|obovate-elliptic|elliptic[- ]obovate|oblong-elliptic|elliptic-oblong|obovate-oblong|oblong-obovate|obovate-panduriform|ovate-panduriform|ovate-lanceolate" = "",
-    "oblanceolate" = "oblanceolate",
-    "lanceolate" = "lanceolate",
-    "obovate" = "obovate",
-    "ovate" = "ovate",
-    "elliptic" = "elliptical",
-    "oblong" = "oblong",
-    "orbicular|round" = "orbicular",
-    "spathulate" = "spathulate",
-    "linear" = "linear",
-    "panduriform" = ""
-  ),
-  leaf_base_shape = c(
-    "cuneate" = "cuneate",
-    "rounded" = "rounded",
-    "cordate" = "cordate",
-    "truncate" = "truncate",
-    "attenuate" = "attenuate",
-    "obtuse" = "obtuse",
-    "\\bacute\\b" = "acute",
-    "decurrent" = "",
-    "oblique|asymmetric" = "oblique",
-    "peltate" = ""
-  ),
-  leaf_margin = c(
-    "subentire|more-or-less entire|nearly entire" = "",
-    "\\bentire\\b" = "entire",
-    "serrate|serrulate" = "toothed_serrate",
-    "crenate|crenulate" = "toothed_crenate",
-    "dentate|denticulate" = "toothed_dentate",
-    "toothed" = "toothed",
-    "sinuate|undulate" = ""
-  ),
-  leaf_apex_shape = c(
-    "acuminate|acumen" = "acuminate",
-    "\\bacute\\b|subacute" = "acute",
-    "obtuse" = "obtuse",
-    "rounded" = "rounded",
-    "apiculate" = "apiculate",
-    "emarginate|retuse" = "",
-    "cuspidate" = ""
-  ),
-  leaf_surface_reflectivity = c(
-    "\\bdull\\b" = "dull",
-    "glossy|shiny|shining" = "shiny"
-  ),
-  leaf_hairs_adult_leaves = c(
-    "\\bglabrous\\b|\\bglabrescent\\b" = "glabrous",
-    "hairy|pubescent|puberulous|puberulent|velvety|tomentose|silky|villous|felty|adpressed-hairy" = "hairy"
-  ),
-  inflorescence_type = c(
-    "raceme|racemose" = "raceme",
-    "cyme|cymose" = "cyme",
-    "panicle|paniculate" = "panicle",
-    "fascicle|fasciculate" = "",
-    "solitary" = "solitary",
-    "axillary" = "axillary",
-    "terminal" = "terminal"
-  ),
-  flower_structural_sex_type = c(
-    "bisexual" = "bisexual",
-    "unisexual" = "unisexual",
-    "\\bmale\\b" = "unisexual"
-  ),
-  flower_colour = c(
-    "(?<![a-z])(white|whitish|cream|creamy)\\b" = "white_cream",
-    "(?<![a-z])(yellow|yellowish)(?![a-z-]*\\s?white)" = "yellow_orange",
-    "(?<![a-z])(green|greenish)(?![a-z-]*\\s?white)" = "green",
-    "(?<![a-z])(pink|pinkish)\\b" = "pink",
-    "(?<![a-z])(red|reddish)\\b" = "red_brown"
-  ),
-  flower_scent_production = c("fragrant|scented|perfumed" = "scent_produced"),
-  flower_orientation = c(
-    "face[- ]down|pendent|pendulous" = "down",
-    "face[- ]up" = "up"
-  ),
-  flower_perianth_fusion_categorical = c(
-    "^sepals free|^petals free" = "perianth_parts_unfused"
-  ),
-  flower_anther_attachment = c("basifixed" = "basifixed"),
-  flower_anther_dehiscence = c(
-    "apical pores" = "poricidal",
-    "slits" = "short_apical_slits"
-  ),
-  flower_ovary_position = c("superior" = "superior"),
-  fruit_type = c("drupe" = "drupe", "capsule" = "capsule"),
-  fruit_dehiscence = c(
-    "dehiscent|loculicidal" = "dehiscent",
-    "indehiscent" = "indehiscent"
-  ),
-  fruit_colour = c(
-    "(?<![a-z])(blue|bluish)" = "blue",
-    "(?<![a-z])(green|greenish)" = "green",
-    "(?<![a-z])(red|reddish)" = "red",
-    "(?<![a-z])black" = "black",
-    "(?<![a-z])(yellow|yellowish)" = "yellow",
-    "(?<![a-z])(purple|purplish)" = "purple",
-    "(?<![a-z])brown" = "brown",
-    "(?<![a-z])(orange)" = "orange"
-  ),
-  fruit_surface_hairs = c(
-    "\\bglabrous\\b" = "glabrous",
-    "hairy|pubescent|puberulous|velvety|tomentose|silky" = "hairy"
-  ),
-  seed_colour = c(
-    "(?<![a-z])black" = "black",
-    "(?<![a-z])(brown|red|reddish)" = "red_brown"
-  ),
-  dispersal_appendage = c(
-    "\\baril\\b|arillate" = "aril",
-    "sarcotesta" = "sarcotesta"
-  )
-)
+# ---- categorical dictionary --------------------------------------------------
+dict <- flora_load_dict("data/Coode_2018/raw/dictionary.csv")
 
 # ---- organ detection -----------------------------------------------------------
 
@@ -411,66 +124,7 @@ organ_traits <- list(
 
 # ---- categorical scoring with commonness rows ----------------------------------
 
-score_cat <- function(txt, trait) {
-  d <- dict[[trait]]
-  # Commas and "or/and/to <qualifier>" separate alternatives.
-  chunks <- unlist(str_split(
-    txt,
-    paste0(
-      ",\\s*|\\s(?=(or|and|to) (",
-      paste(qual_words, collapse = "|"),
-      ")\\b)"
-    )
-  ))
-  out <- list()
-  for (ci in seq_along(chunks)) {
-    ch <- chunks[ci]
-    if (str_detect(ch, hedge_re)) {
-      next
-    }
-    q <- str_match(ch, qual_re)[, 2]
-    work <- ch
-    for (k in seq_along(d)) {
-      repeat {
-        loc <- str_locate(work, regex(names(d)[k], ignore_case = TRUE))
-        if (is.na(loc[1, 1])) {
-          break
-        }
-        out[[length(out) + 1]] <- tibble(
-          ci = ci,
-          pos = loc[1, 1],
-          term = str_sub(work, loc[1, 1], loc[1, 2]),
-          level = d[[k]],
-          cq = q
-        )
-        str_sub(work, loc[1, 1], loc[1, 2]) <- strrep(
-          "#",
-          loc[1, 2] - loc[1, 1] + 1
-        )
-      }
-    }
-  }
-  if (!length(out)) {
-    return(NULL)
-  }
-  r <- bind_rows(out) |>
-    arrange(ci, pos) |>
-    mutate(
-      term = str_replace_all(str_to_lower(term), " ", "_"),
-      cq = if (any(!is.na(cq))) coalesce(cq, "usually") else cq
-    )
-  r |>
-    group_by(cq) |>
-    summarise(
-      trait_value = paste(unique(term), collapse = " "),
-      trait_value_clean = paste(unique(level[level != ""]), collapse = " "),
-      first = min(ci * 1000 + pos),
-      .groups = "drop"
-    ) |>
-    arrange(cq != "usually" | is.na(cq), first) |>
-    mutate(trait = trait) |>
-    select(-first)
-}
+score_cat <- \(txt, trait) flora_score_cat(txt, trait, dict)
 
 # Mesocarp thickness: "mesocarp usually 2-4 mm thick", "2 mm thick or less",
 # "to 2 mm thick". "or less" / "to" give a maximum; "usually" a usually row.
@@ -1496,6 +1150,7 @@ parse_description <- function(par_row) {
 # ---- run over descriptions ---------------------------------------------------------
 
 desc <- paras |> filter(section == "Description")
+desc$text <- flora_apply_fixes(desc$text, fixes, desc$printed_page)
 desc_rows <- desc |>
   mutate(row = row_number()) |>
   group_split(row) |>
@@ -1663,26 +1318,10 @@ copied <- copy_rows |>
   )
 
 # ---- species -> infraspecific inheritance -----------------------------------------------
-# A subspecies / variety / form silent on a trait inherits its species' own values.
-
-infra <- scored_taxa |> filter(rank != "species")
-inherited <- infra |>
-  select(block, species) |>
-  inner_join(
-    own |> filter(rank == "species") |> rename(species = block),
-    by = "species",
-    relationship = "many-to-many"
-  ) |>
-  anti_join(own |> distinct(block, trait), by = c("block", "trait")) |>
-  mutate(
-    rank_scored_from = "species",
-    source_section = "Species description",
-    notes = coalesce(
-      paste(notes, "Inherited from the species description."),
-      "Inherited from the species description."
-    )
-  ) |>
-  select(-species)
+inherited <- flora_inherit_infraspecific(
+  own,
+  scored_taxa |> select(block, species, rank)
+)
 
 # ---- manual (vetted) rows ---------------------------------------------------------------------
 
@@ -1721,20 +1360,7 @@ out <- bind_rows(
     ),
     taxon_name = str_remove(block, " \\(.*form\\)$"),
     taxon_rank = if_else(taxon_rank == "informal_form", "species", taxon_rank),
-    entity_type = "species",
-    commonness_qualifier = cq,
-    in_traits.yml = if_else(trait %in% names(traits), "x", ""),
-    value_type = coalesce(value_type, "mode"),
-    source_section = paste0(
-      coalesce(source_section, "Description"),
-      ", p.",
-      printed_page
-    ),
-    # ranges as a--b so spreadsheets don't read dates
-    across(c(trait_value_raw, trait_value, notes), \(x) {
-      str_replace_all(x, "(?<=\\d)\\s?[\u2013-]\\s?(?=\\d)", "--")
-    }),
-    trait_value_raw = str_replace_all(trait_value_raw, "\u00d7", "x")
+    commonness_qualifier = cq
   )
 if (!"population_region" %in% names(out)) {
   out$population_region <- NA_character_
@@ -1751,56 +1377,66 @@ trait_data <- out |>
     ),
     value_type
   ) |>
-  transmute(
-    taxon_name,
-    taxon_rank,
-    entity_type,
-    rank_scored_from,
-    commonness_qualifier,
-    population_region,
-    form,
-    entity_measured,
-    trait,
-    in_traits.yml,
-    trait_value_raw,
-    trait_value,
-    trait_value_clean,
-    value_type,
-    unit,
-    source_section,
-    pdf_page,
-    printed_page,
-    notes,
-    source_id
-  ) |>
-  distinct()
+  distinct() |>
+  mutate(source_section = coalesce(source_section, "Description")) |>
+  flora_finalise(traits)
+
 
 stopifnot(all(trait_data$in_traits.yml == "x"))
 # ---- unmapped rows and summary -------------------------------------------------------------------
-source(".github/skills/extract-traits-from-floras-my/scripts/flora_assemble.R")
 rank_of <- paras |> distinct(block, rank)
 unmapped_rows <- bind_rows(
   bind_rows(unmapped) |>
     filter(character != "unparsed clause") |>
     mutate(source_section = "Description"),
   paras |>
-    filter(section %in% c("Ecology", "Distribution"), rank %in% c("family", "genus", "species")) |>
-    transmute(block, organ = NA_character_, character = paste(str_to_lower(section), "text"), clause = text, pdf_page, printed_page, source_section = section)
+    filter(
+      section %in% c("Ecology", "Distribution"),
+      rank %in% c("family", "genus", "species")
+    ) |>
+    transmute(
+      block,
+      organ = NA_character_,
+      character = paste(str_to_lower(section), "text"),
+      clause = text,
+      pdf_page,
+      printed_page,
+      source_section = section
+    )
 ) |>
   left_join(rank_of, by = "block") |>
   transmute(
-    taxon_name = block, taxon_rank = rank, rank_scored_from = NA_character_,
-    commonness_qualifier = NA_character_, population_region = NA_character_, form = NA_character_,
-    entity_measured = NA_character_, trait = NA_character_, trait_value_raw = coalesce(clause, text),
-    trait_value = NA_character_, trait_value_clean = NA_character_, value_type = NA_character_, unit = NA_character_,
-    source_section, pdf_page = as.character(pdf_page), printed_page = as.character(printed_page),
-    notes = paste0("UNMAPPED: ", coalesce(organ, "text"), " | ", character), source_id = NA_character_
+    taxon_name = block,
+    taxon_rank = rank,
+    rank_scored_from = NA_character_,
+    commonness_qualifier = NA_character_,
+    population_region = NA_character_,
+    form = NA_character_,
+    entity_measured = NA_character_,
+    trait = NA_character_,
+    trait_value_raw = coalesce(clause, text),
+    trait_value = NA_character_,
+    trait_value_clean = NA_character_,
+    value_type = NA_character_,
+    unit = NA_character_,
+    source_section,
+    pdf_page = as.character(pdf_page),
+    printed_page = as.character(printed_page),
+    notes = paste0("UNMAPPED: ", coalesce(organ, "text"), " | ", character),
+    source_id = NA_character_
   ) |>
   distinct() |>
   flora_finalise(traits)
-trait_data <- bind_rows(mutate(trait_data, across(everything(), as.character)), unmapped_rows)
+trait_data <- bind_rows(
+  mutate(trait_data, across(everything(), as.character)),
+  unmapped_rows
+)
 write_csv(trait_data, "data/Coode_2018/raw/trait_data.csv", na = "")
-write_csv(flora_unmapped_summary(trait_data), "data/Coode_2018/raw/unmapped_terms.csv", na = "")
+write_csv(
+  flora_unmapped_summary(trait_data),
+  "data/Coode_2018/raw/unmapped_terms.csv",
+  na = ""
+)
 
 # ---- taxon flags ------------------------------------------------------------------------------------
 
