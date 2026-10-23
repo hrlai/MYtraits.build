@@ -189,11 +189,6 @@ questions:
   question2:
     'Leaflet dimensions combine pinnae (cm) and pinnules (mm), distinguished by
     entity measured. Confirm acceptable treatment.'
-  question3:
-    'Author is given only as A. T. Nor-Ezzawanis; full given name and ORCID not
-    located.'
-  question4:
-    'Flora has no Methods text; sampling_strategy documents extraction practice.'
   question5:
     '`leaf_type` does not represent fern frond division: its allowed levels are
     broadleaf, leafless, needle and scale. Deeply tripinnatifid is provisionally
