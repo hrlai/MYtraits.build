@@ -210,7 +210,7 @@ flora_merge_duplicate_keys <- function(d) {
         \(x) paste(unique(unlist(str_split(x[!is.na(x)], " "))), collapse = " ")
       ),
       trait_value_raw = paste(unique(trait_value_raw), collapse = " | "),
-      across(everything(), first),
+      across(everything(), dplyr::first),
       .groups = "drop"
     )
   bind_rows(keyed, d[!mergeable, ]) |>
@@ -257,7 +257,7 @@ flora_make_data <- function(
     col_types = cols(.default = "c"),
     na = ""
   ) |>
-    filter(!is.na(trait))
+    filter(!is.na(trait), trait != "")
   stopifnot(all(td$trait %in% names(traits)))
   numeric_trait <- map_lgl(td$trait, \(t) {
     identical(traits[[t]]$type, "numeric")
@@ -273,7 +273,8 @@ flora_make_data <- function(
         trait_value
       ),
       trait_scoring_method = case_when(
-        rank_scored_from == "own" ~ "inferred_from_species",
+        is.na(rank_scored_from) |
+          rank_scored_from %in% c("", "own") ~ "inferred_from_species",
         rank_scored_from == "family" ~ "inferred_from_family",
         rank_scored_from == "genus" ~ "inferred_from_genus",
         rank_scored_from == "species_group" ~ "inferred_from_species_group",

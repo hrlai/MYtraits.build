@@ -296,7 +296,10 @@ extract_taxon <- function(x) {
   if (!is.na(fruit_clause)) {
     if (
       str_detect(fruit_clause, "(?i)\\bglabrous\\b") &&
-        !str_detect(fruit_clause, "(?i)glabrous (?:inside|within|internally)")
+        !str_detect(
+          fruit_clause,
+          "(?i)glabrous (?:inside|within|internally)|fruit appendages[^.;]*glabrous"
+        )
     ) {
       add(categorical_row(
         x,
@@ -310,7 +313,7 @@ extract_taxon <- function(x) {
     if (
       str_detect(
         fruit_clause,
-        "(?i)dehiscent|loculicidal|septicidal|septifragal"
+        "(?i)(?<!in)dehiscent|loculicidal|septicidal|septifragal"
       )
     ) {
       add(categorical_row(

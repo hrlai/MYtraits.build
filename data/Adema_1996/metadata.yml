@@ -29,25 +29,31 @@ dataset:
   value: value
   source_id: source_id
   description:
-    Morphological and phenological traits for Sapindaceae occurring in Sabah and
+    UNDONE, not release-ready. Provisional, incomplete species-only extraction
+    of morphological and phenological traits for Sapindaceae in Sabah and
     Sarawak.
   basis_of_record: preserved_specimen
   life_stage: adult
   sampling_strategy:
-    Trait values were extracted from the PDF text layer with
-    raw/build_trait_data.R. Rendered pages were checked for treatment layout and
-    selected OCR slips. Measurements and mapped categorical terms come from
-    species descriptions. Phenology values come from species Ecology paragraphs.
-    Keys, figures, synonymy and generic descriptions were not scored.
+    Preliminary species-only pass using the scanner-produced PDF text layer and
+    raw/build_trait_data.R. Selected layout and OCR slips were checked against
+    rendered pages, but the full treatment has not been transcribed or verified.
+    The script extracts selected terms from flattened species blocks, including
+    phenology from Ecology text. Genus, family and infraspecific descriptions
+    have not been extracted. No born-digital copy is available; completion
+    requires transcription and verification from the scanned page images. This
+    dataset is UNDONE and must not be released as complete.
   original_file:
     Sapindaceae.pdf (Adema, Leenhouts & van Welzen 1996, Tree Flora of Sabah and
     Sarawak vol. 2, pp. 263--374)
   notes:
-    Taxon names are kept as printed. The treatment contains 60 species-level
-    headings, including Trigonachras sp. A and sp. B. Subspecies and varieties
-    require a later dedicated extraction pass. Leaflet measurements and
-    categorical leaflet traits require review because the treatment describes
-    compound leaves. Dimensions are interpreted as length x width.
+    Taxon names are kept as printed. This preliminary pass detected 60
+    species-level headings, including Trigonachras sp. A and sp. B. It does not
+    cover subspecies, varieties, most described characters or unmapped clauses.
+    The voucher file is a header-only placeholder. Reported PDF pages for
+    Ecology values and some description values are species-heading pages, not
+    verified clause pages. Leaflet measurements and categorical traits need
+    organ-level review; dimensions were read as length x width.
 identifiers: .na
 locations: .na
 contexts:
@@ -70,7 +76,7 @@ traits:
     entity_type: species
     value_type: value_type
     basis_of_value: measurement
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
@@ -80,7 +86,7 @@ traits:
     entity_type: species
     value_type: value_type
     basis_of_value: measurement
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
@@ -90,7 +96,7 @@ traits:
     entity_type: species
     value_type: value_type
     basis_of_value: measurement
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
@@ -100,27 +106,27 @@ traits:
     entity_type: species
     value_type: value_type
     basis_of_value: measurement
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
   - var_in: flowering_time
-    unit_in: '.na'
+    unit_in: .na
     trait_name: flowering_time
     entity_type: species
     value_type: value_type
     basis_of_value: expert_score
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
   - var_in: fruit_dehiscence
-    unit_in: '.na'
+    unit_in: .na
     trait_name: fruit_dehiscence
     entity_type: species
     value_type: value_type
     basis_of_value: expert_score
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
@@ -130,27 +136,27 @@ traits:
     entity_type: species
     value_type: value_type
     basis_of_value: measurement
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
   - var_in: fruit_surface_hairs
-    unit_in: '.na'
+    unit_in: .na
     trait_name: fruit_surface_hairs
     entity_type: species
     value_type: value_type
     basis_of_value: expert_score
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
   - var_in: fruit_type
-    unit_in: '.na'
+    unit_in: .na
     trait_name: fruit_type
     entity_type: species
     value_type: value_type
     basis_of_value: expert_score
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
@@ -160,17 +166,17 @@ traits:
     entity_type: species
     value_type: value_type
     basis_of_value: measurement
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
   - var_in: fruiting_time
-    unit_in: '.na'
+    unit_in: .na
     trait_name: fruiting_time
     entity_type: species
     value_type: value_type
     basis_of_value: expert_score
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
@@ -180,67 +186,67 @@ traits:
     entity_type: species
     value_type: value_type
     basis_of_value: measurement
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
   - var_in: leaf_apex_shape
-    unit_in: '.na'
+    unit_in: .na
     trait_name: leaf_apex_shape
     entity_type: species
     value_type: value_type
     basis_of_value: expert_score
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
   - var_in: leaf_base_shape
-    unit_in: '.na'
+    unit_in: .na
     trait_name: leaf_base_shape
     entity_type: species
     value_type: value_type
     basis_of_value: expert_score
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
   - var_in: leaf_compoundness
-    unit_in: '.na'
+    unit_in: .na
     trait_name: leaf_compoundness
     entity_type: species
     value_type: value_type
     basis_of_value: expert_score
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
   - var_in: leaf_hairs_adult_leaves
-    unit_in: '.na'
+    unit_in: .na
     trait_name: leaf_hairs_adult_leaves
     entity_type: species
     value_type: value_type
     basis_of_value: expert_score
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
   - var_in: leaf_margin
-    unit_in: '.na'
+    unit_in: .na
     trait_name: leaf_margin
     entity_type: species
     value_type: value_type
     basis_of_value: expert_score
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
   - var_in: leaf_shape
-    unit_in: '.na'
+    unit_in: .na
     trait_name: leaf_shape
     entity_type: species
     value_type: value_type
     basis_of_value: expert_score
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
@@ -250,7 +256,7 @@ traits:
     entity_type: species
     value_type: value_type
     basis_of_value: measurement
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
@@ -260,7 +266,7 @@ traits:
     entity_type: species
     value_type: value_type
     basis_of_value: measurement
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
@@ -270,17 +276,17 @@ traits:
     entity_type: species
     value_type: value_type
     basis_of_value: measurement
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
   - var_in: plant_growth_form
-    unit_in: '.na'
+    unit_in: .na
     trait_name: plant_growth_form
     entity_type: species
     value_type: value_type
     basis_of_value: expert_score
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
@@ -290,7 +296,7 @@ traits:
     entity_type: species
     value_type: value_type
     basis_of_value: measurement
-    replicates: '.na'
+    replicates: .na
     methods:
       Extracted from species descriptions or Ecology paragraphs; see dataset
       sampling strategy.
@@ -301,16 +307,21 @@ substitutions:
 taxonomic_updates: .na
 exclude_observations: .na
 questions:
-  question1:
-    The source text layer is usable for prose but has OCR-like slips. A complete
-    image-based transcription and number comparison have not yet been completed.
-  question2:
-    Subspecies, varieties and forma treatments were detected but are not yet
-    extracted as separate taxa or inherited from species.
-  question3:
-    Manual review is needed for every parsed leaflet and fruit dimension,
-    especially treatments with multi-lobed fruits.
-  question4:
-    Phenology page provenance currently uses the species heading page rather
-    than the exact Ecology page when they differ.
-  question5: No type or figure-specimen vouchers have yet been transcribed.
+  question1: >-
+    Sapindaceae pp. 263--374: the scanner-produced text layer contains OCR-like
+    slips. Transcribe the scanned page images, verify measurements against them,
+    then rerun extraction before accepting any species trait rows.
+  question2: >-
+    Subspecies, varieties and forma headings in Sapindaceae were not extracted.
+    Segment these taxa and confirm parent-species inheritance before release.
+  question3: >-
+    Review every leaflet and fruit dimension against its source clause. The
+    current parser uses broad organ regexes and may capture adjacent organs or
+    miss fruit lobes; confirm affected mapped rows before release.
+  question4: >-
+    Ecology and description rows use the species heading page rather than the
+    clause page after a page turn. Restore clause-level PDF and printed pages
+    before release.
+  question5: >-
+    The Adema_1996 voucher CSV contains only a header. Transcribe types and
+    figure specimens from Sapindaceae before release.

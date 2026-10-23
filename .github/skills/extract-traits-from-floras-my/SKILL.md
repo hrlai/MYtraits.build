@@ -17,11 +17,44 @@ this repository:
 | --- | --- | --- | --- |
 | `data/Coode_2018` | Elaeocarpaceae, FPM vol. 7 | born-digital PDF, 59 taxa | scripted parser, groups, infraspecific taxa, informal forms, excluded species |
 | `data/Lim_2010` | Araucariaceae, FPM vol. 1 | scanned PDF, hand transcription, 2 taxa | transcription workflow, conifer organs, genus over family |
-| `data/Yao_2010` | Pentaphylacaceae, FPM vol. 1 | scanned PDF, 1 taxon | manual rows, unmapped rows kept in `trait_data.csv` |
+| `data/Yao_2010` | Pentaphylacaceae, FPM vol. 1 | scanned PDF, 1 taxon | `flora_hand()`, monogeneric copy-down, hedges |
+| `data/Nor-Ezzawanis_2010` | Cibotiaceae, FPM ferns vol. 1 | scanned PDF, 1 taxon | first fern; provisional fern mappings |
+| `data/Adema_1996` | Sapindaceae, TFSS vol. 2 | scanned PDF; unverified text layer | **UNDONE — not a completed example or release-ready dataset**; partial species-only pass |
 
-Treat these three as precedents, not as templates to copy. They were left
-unstandardised on purpose; the "Known inconsistencies" section lists what to
-do differently.
+Treat the first four as precedents, not templates. They share unmapped-row
+format, hand helpers and `data.csv` builder; Coode and Lim still keep legacy
+copied parsers and inline source fixes (see "Known inconsistencies"). Adema is
+**UNDONE**: its zero-unmapped, header-only voucher output and species-only
+coverage must not be taken as a standard extraction. Complete every item in
+the Adema completion checklist below before marking it done.
+
+## Adema_1996 completion checklist
+
+There is no born-digital copy available. Use the scanned
+`inst/extdata/TFSS/Sapindaceae.pdf` and keep `data/Adema_1996` marked UNDONE
+until all these checks pass:
+
+1. Render every treatment page (PDF pages 7--118); transcribe text from the
+   page images into `raw/Sapindaceae_transcription.txt`. Verify numbers,
+   measurements, headings and printed-page mapping against the images. Record
+   source repairs in `raw/source_fixes.csv`; do not trust the scanner text layer
+   as an approved source.
+2. Segment the verified transcription with `flora_segment()`. Account for every
+   family, genus, species and infraspecific heading, including exclusions and
+   informal forms. Check section boundaries and page turns against the images.
+3. Extract all eligible description and later-section clauses, not only the
+   selected species terms in the current parser. Apply higher-rank copy-down
+   and infraspecific inheritance where justified. Keep every unscored clause
+   as an unmapped row in `raw/trait_data.csv` with its actual clause page;
+   inspect dimensions and organ ownership against each image.
+4. Hand-transcribe type, synonym-type and figure specimens into
+   `raw/Adema_1996_vouchers.csv`; verify names and citations against the images.
+5. Rebuild `raw/trait_data.csv`, `raw/unmapped_terms.csv`, `raw/taxon_flags.csv`
+   and `data.csv`; update `metadata.yml` to describe verified scope and open
+   decisions. Reconcile every accepted heading, section, unmapped clause and
+   voucher against the source. Run `flora_qa("Adema_1996")`,
+   `flora_dataset_test("Adema_1996")` and `dataset_process()`; inspect
+   exclusions. Passing QA alone does not establish completeness.
 
 Shared code lives in `scripts/` (sourced from the repository root, never
 copied into the dataset folder). Do not copy a whole parser from a previous
@@ -366,7 +399,12 @@ Edit directly. Start from `traits.build::metadata_create_template()` and change:
    `excluded_data`. Schema tests pass even when allowed-value mismatches exist.
    It also catches build failures after the schema checks. Yao_2010 was never
    processed.
-4. Report: taxa, rows by mapped and unmapped, rows by `rank_scored_from`,
+4. Check completeness independently of schema tests: compare all accepted
+   species and infraspecific headings, description and later sections, unmapped
+   clauses, and type/figure vouchers against the source. Adema_1996 passed
+   `dataset_test()` and `dataset_process()` with zero exclusions while missing
+   infraspecific taxa, unmapped records and vouchers.
+5. Report: taxa, rows by mapped and unmapped, rows by `rank_scored_from`,
    exclusions, numbered questions.
 
 ## Known inconsistencies in the three datasets (do not repeat)
@@ -377,7 +415,7 @@ Edit directly. Start from `traits.build::metadata_create_template()` and change:
 | Coode and Lim use the layer or a transcription depending on the PDF; the decision was not written down | steps 1 and 2 |
 | Source repairs buried in `norm()` regexes (Coode, Lim) or typed into rows (Yao) | `raw/source_fixes.csv` |
 | Mixed dashes: Coode raw text has 878 en dashes, with `4--6 (–7)` in one cell; Lim 47; Yao none | `flora_finalise()` applies the same `a--b` rule (parenthetical extremes included) to every text column |
-| Unmapped records: Coode summary only, Lim separate `unmapped_values.csv`, Yao in `trait_data.csv` | step 6 (Yao pattern plus summary) |
+| Unmapped records were inconsistent (fixed 2026-10: all four keep rows in `trait_data.csv`) | step 6 |
 | Duplicate keys: 23 Coode pairs (same value from two ranks), Yao failed `dataset_test()` | `flora_drop_redundant_ranks()`, `flora_merge_duplicate_keys()`, QA table |
 | `source_id` set by regex on `notes` (Coode, Lim); Coode cites `Corner_1988`, `Roubik_2006`, `Ng_2014` with no `source.secondary` entry | `source_id` column, QA table, add the sources |
 | `manual_rows.csv` columns differ (Coode has no `rank_scored_from`) | same columns as `trait_data.csv` |
@@ -411,4 +449,5 @@ keep `config/traits.yml` changes out of family branches.
 
 ## Open question for the user
 
-Hedged statements: default to score with a note
+Hedged statements: confirm whether accepted Yao_2010 hedges should remain
+scored; default for new families is not scored.
