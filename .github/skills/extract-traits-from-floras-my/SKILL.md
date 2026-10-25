@@ -10,8 +10,8 @@ One family treatment (or one taxon-description paper) becomes one dataset
 datasets, even when they cover the same family: different authors require
 distinct source citations. Use each treatment's own author and year as its
 dataset ID; if IDs collide, agree on distinct IDs before writing data. Process
-one family at a time and stop for review after each. Worked examples, all in
-this repository:
+one family at a time; report results after each unless the user requests a
+pause. Worked examples, all in this repository:
 
 | Dataset | Family | Source | Shows |
 | --- | --- | --- | --- |
@@ -19,14 +19,16 @@ this repository:
 | `data/Lim_2010` | Araucariaceae, FPM vol. 1 | scanned PDF, hand transcription, 2 taxa | transcription workflow, conifer organs, genus over family |
 | `data/Yao_2010` | Pentaphylacaceae, FPM vol. 1 | scanned PDF, 1 taxon | `flora_hand()`, monogeneric copy-down, hedges |
 | `data/Nor-Ezzawanis_2010` | Cibotiaceae, FPM ferns vol. 1 | scanned PDF, 1 taxon | first fern; provisional fern mappings |
-| `data/Adema_1996` | Sapindaceae, TFSS vol. 2 | scanned PDF; unverified text layer | **UNDONE — not a completed example or release-ready dataset**; partial species-only pass |
+| `data/Hughes_2013` | Memecylaceae, FPM vol. 4 | scanned PDF; OCR-layer parser | **PROVISIONAL**; OCR-derived transcription is not image-checked, and the segmenter still reads the layer |
+| `data/Adema_1996` | Sapindaceae, TFSS vol. 2 | scanned PDF; unverified text layer | **UNDONE — not release-ready**; partial species-only pass |
 
-Treat the first four as precedents, not templates. They share unmapped-row
-format, hand helpers and `data.csv` builder; Coode and Lim still keep legacy
-copied parsers and inline source fixes (see "Known inconsistencies"). Adema is
-**UNDONE**: its zero-unmapped, header-only voucher output and species-only
-coverage must not be taken as a standard extraction. Complete every item in
-the Adema completion checklist below before marking it done.
+Treat the first four as precedents, not completeness benchmarks: the scanned
+examples cover only 1--2 taxa. Coode and Lim still have copied parsers and
+inline source fixes. For Hughes, check the OCR draft against page images and
+switch `raw/segment_source.R` to `flora_read_transcription()` before calling it
+complete; running `raw/transcribe_source.R` only copies the OCR layer. For
+Adema, follow the completion checklist below; do not treat its zero-unmapped
+rows or header-only voucher file as evidence of completeness.
 
 ## Adema_1996 completion checklist
 
@@ -37,8 +39,8 @@ until all these checks pass:
 1. Render every treatment page (PDF pages 7--118); transcribe text from the
    page images into `raw/Sapindaceae_transcription.txt`. Verify numbers,
    measurements, headings and printed-page mapping against the images. Record
-   source repairs in `raw/source_fixes.csv`; do not trust the scanner text layer
-   as an approved source.
+   image-verified source repairs in `raw/source_fixes.csv`; correct headings
+   and page markers in the transcription before segmentation.
 2. Segment the verified transcription with `flora_segment()`. Account for every
    family, genus, species and infraspecific heading, including exclusions and
    informal forms. Check section boundaries and page turns against the images.
@@ -121,38 +123,45 @@ family, guided by the checklist).
   `inst/extdata/TFSS/<Family>.pdf`. If both treat a family, extract each as a
   separate dataset under its own author/year citation; never merge their
   descriptions or attribute one author's values to the other.
-- Run `flora_pdf_check()`. Of 79 FPM PDFs, 66 were saved by Acrobat Pro DC 20.12
-  (the producer seen on the two scanned vol. 1 families) and 13 by InDesign
-  (Elaeocarpaceae is one). Treat Acrobat-saved files as scans with an OCR layer
-  until shown otherwise. TFSS PDFs come from several scanners and tools; read a
-  TFSS page before assuming anything about its layout or layer.
-- `pdftotext -layout` in Git Bash shows `�` for en dash and x; that is the
-  terminal, not the PDF. Use `pdftools::pdf_text()`.
-- The `layer_suspect` flag and `n_ocr_suspects` count are hints only.
+- Run `flora_pdf_check()` for producer and OCR hints, not proof of source type
+  or accuracy. Inspect page images and text for each treatment; FPM Acrobat
+  files and TFSS volumes can have OCR layers. Use `pdftools::pdf_text()` rather
+  than terminal `pdftotext` output to inspect special characters.
 
 ### 2. Decide the text source (B, user rule)
 
-Do not use an OCR layer of unknown origin.
+Do not block extraction while seeking a born-digital copy. Record whether the
+PDF is scanned, OCR-layered, or born-digital; a producer name or readable layer
+does not establish reliability. Use the available OCR layer to draft and locate
+text, but verify each scored clause, number, taxon heading and page assignment
+against the rendered page before accepting it. Rendering alone is not review.
+If verification is incomplete, label the extraction provisional; do not call
+unverified rows complete or release-ready.
 
-- Born-digital: read the layer with `flora_read_pdf_lines()`.
-- Scanned: render pages (`flora_render_pages()`, 220 dpi, top and bottom
-  halves), transcribe to `raw/<Family>_transcription.txt`, and read it with
-  `flora_read_transcription()`. Transcribe only text pages; plate pages hold a
-  caption. Cost is about one read per half page; for a large scanned family ask
-  for a born-digital PDF first.
-- Keep printed slips verbatim in the transcription. Repairs go in
-  `raw/source_fixes.csv` (columns `pattern, replacement, page, reason`) applied
-  with `flora_apply_fixes()`, never in the parser.
-- Check with `flora_compare_numbers()`; read each difference from the page
-  image. Differences seen so far were page numbers, running heads, collector
-  numbers and layer misreads (`SFNJ 1332`, `(0.5}-1`, `(--6)`, `fig.I`).
+- Born-digital with a checked text layer: read with `flora_read_pdf_lines()`.
+- Scanned or OCR-layered: render the treatment pages (`flora_render_pages()`,
+  220 dpi, top and bottom halves). Check the OCR draft against the page images,
+  save corrected, image-checked text in `raw/<Family>_transcription.txt`, and
+  feed `flora_read_transcription()` to `flora_segment()`. Do not discard useful
+  OCR text just because it needs checking. Include text pages and relevant
+  plate captions. `flora_read_pdf_lines()` reads the PDF layer again, not the
+  corrected transcription; do not accidentally segment the unchecked layer.
+- For a large treatment, work page by page and record which pages or clauses
+  remain unchecked. Keep its status provisional until source reconciliation.
+- Keep errors visible in the draft. Record image-verified repairs in
+  `raw/source_fixes.csv` (`pattern, replacement, page, reason`) and apply them
+  with `flora_apply_fixes()` using printed pages. The transcription fed to the
+  segmenter must already have correct headings and page markers: this helper
+  does not repair them or edit the file.
+- Use `flora_compare_numbers()` as a review aid, not a pass/fail test. Check
+  differences and measurements it misses against page images.
 
 ### 3. Segment the treatment (G engine, B headings)
 
-Use `flora_segment()` with a heading configuration
-(`assets/heading_config_examples.R` has the Coode_2018 and Lim_2010 ones). Only
-these differ per family: genus names, group names, form labels, section labels,
-running heads, first and last page. Checklist for the bespoke part:
+Use `flora_segment()` with a family-specific heading configuration; see
+`assets/heading_config_examples.R` for Coode_2018 and Lim_2010. Verify the page
+range, heading patterns, captions, sections and description starts for each
+source. Checklist for the bespoke part:
 
 - Which headings exist: family, genus, infrageneric groups, species,
   `subsp.`/`var.`, informal forms, "Excluded Species" and "Incompletely Known
@@ -171,8 +180,12 @@ running heads, first and last page. Checklist for the bespoke part:
 - Group membership from the group paragraphs. Do not guess: Coode_2018 placed
   *E. kunstleri* "still not certain" and *E. sp. nov.* "suggested" and gave
   neither a group copy-down.
-- Check the output: the number of blocks, each block's sections, and that every
-  scored taxon has a Description.
+- Count accepted species and infraspecific headings against the source before
+  parsing. Numbered varieties may start `2a. var.` or `7b. var.`, and a valid
+  heading need not cite `Fig.` or `Map`; inspect candidate lines in context.
+  Use `cancel_header` or `ignore_header` for false matches rather than requiring
+  a figure or map label. Check each block's sections; document any accepted
+  taxon with no Description instead of silently dropping it.
 
 #### TFSS segmentation
 
@@ -185,27 +198,21 @@ contained infraspecific headings.
 - Establish the treatment's first and last **PDF** page from page images before
   reading text. Separately verify the printed-page mapping; do not derive it
   from a fixed offset unless checked at both ends.
-- Inspect at least the first, middle and last treatment pages, then render any
-  page where a heading, number, or clause is doubtful. A usable prose layer can
-  still contain OCR slips, lost characters, reordered lines, or wrong
-  measurements. Use a transcription and `flora_compare_numbers()` when the
-  layer is not demonstrably reliable. Record repairs in `raw/source_fixes.csv`.
-- Set `running_head_re` for the volume header and pass it to
-  `flora_read_pdf_lines()`. Also review standalone printed page numbers. Do not
-  let either become a taxon paragraph or description text.
+- For an OCR source, use the image-checked transcription from step 2. A
+  readable layer can still lose characters, reorder lines or change numbers.
+- If using `flora_read_pdf_lines()`, set `running_head_re` for the volume
+  header. For a transcription, remove running heads and bare page numbers while
+  checking images. Do not let either become description text.
 - Treat figure and map captions as non-treatment text unless they supply a
-  separately transcribed voucher. Configure `caption_re`, `side_caption_re`,
-  and `side_indent`, then inspect their dropped lines. Caption fragments beside
-  figures can resemble `subsp.` or `var.` headings.
+  separately transcribed voucher. With `flora_read_pdf_lines()`, configure
+  `caption_re`, `side_caption_re` and `side_indent`, and inspect dropped lines;
+  for transcriptions, exclude captions while checking images. Caption fragments
+  can resemble `subsp.` or `var.` headings.
 - Define separate header specifications for species, subspecies, variety and
   forma headings. Species headers set the current species; infraspecific
   headers must retain that parent so `flora_inherit_infraspecific()` can run.
-  Count accepted species blocks and infraspecific blocks against the treatment
-  before parsing.
-- Review every candidate heading in its rendered page context. Keys, running
-  text, citations, figure labels, and wrapped lines can match a heading regex.
-  Use `cancel_header` or `ignore_header` for verified false matches, rather
-  than narrowing a pattern until genuine headings disappear.
+  Count accepted blocks against the images before parsing; check keys, citations
+  and figure labels for false matches as in the general checklist.
 - Segment with `flora_segment()` rather than flattening all treatment pages into
   one text string and slicing between species matches. Its line/page provenance
   and section handling preserve page turns and permit clauses in Ecology or
@@ -247,15 +254,10 @@ Bespoke checklist (decisions that changed per family):
 - **Dimension pairs `L x W`.** First dimension is length (state the assumption
   in a metadata question). Score the length trait; if no width trait exists,
   write the width as an unmapped row ("candidate flower_sepal_width").
-- **Hedges.** Words such as probably, perhaps, possibly and "suggest" void the
-  clause by default (`flora_hedge_re` covers the first five). If the user
-  accepts a hedged statement (Yao_2010: "suggest wind dispersal"; "more-or-less
-  continuously throughout the year"), keep the hedge in `notes` and add a
-  metadata question.
-
-  **Open decision — hedged statements.** Do not score them by default. Ask the
-  user before retaining one; record the exact wording, affected trait and
-  taxon, and the user's decision in `metadata.yml` `questions:`.
+- **Hedges.** Do not score hedged claims by default. `flora_hedge_re` catches
+  common words, not every hedge; inspect wording such as "suggest" and
+  "more-or-less" too. Ask before scoring an exception, then record the wording,
+  taxon, trait and decision in `metadata.yml` `questions:`.
 - **Parentheses.** Drop non-extreme asides before splitting
   (`flora_drop_asides()`); never split on a comma inside parentheses.
 - **Commonness rows.** Any commonness word splits the trait into rows
@@ -272,43 +274,46 @@ Bespoke checklist (decisions that changed per family):
   ovary locules -> carpels (one locule per carpel assumed).
 - **Ambiguous sentences.** "glossy above, sparsely minutely pubescent,
   subglabrous beneath": score one reading, flag it.
-- **Ecology, Distribution, Notes, Phenology** paragraphs are bespoke and
-  hand-checked (`raw/manual_rows.csv`, same columns as `trait_data.csv`). Each
-  manual row needs the verbatim text, page, `population_region`, and `source_id`
-  when the flora cites another work. Exclude explicitly non-Malaysian
-  observations (Coode_2018: India and Thailand). Accept Borneo when the flora
-  uses it without a finer locality (Lim_2010: `Yii_1995`), but flag that the
-  record is not localised to Sabah or Sarawak.
+- **Ecology, Distribution, Notes, Phenology** paragraphs require a reviewed
+  pass. Use `raw/manual_rows.csv` when manual rows help; it has the same columns
+  as `trait_data.csv`. Each row needs the source clause and page; set
+  `population_region` when stated and `source_id` when citing another work.
+  Exclude explicitly non-Malaysian observations (Coode_2018: India and
+  Thailand). Accept Borneo when the flora uses it without a finer locality
+  (Lim_2010: `Yii_1995`), but flag that the record is not localised to Sabah or
+  Sarawak.
 - **Excluded and incompletely known species** are not scored; list them in
   `taxon_flags.csv`.
-- **Ferns** (first Malaysian fern family forthcoming). Treat these mappings as
-  hypotheses, not defaults: stipe = petiole, frond or lamina = leaf, pinnae and
-  segments = leaflets, division in `leaf_type`, pinna counts in pairs, and
-  growth form `fern` or `lycophyte`. When the user provides the first family,
-  inspect its treatment and `config/traits.yml` before scoring these mappings;
-  flag uncertain ones for review. Add tested fern guidance only after that pass.
+- **Ferns.** Cibotiaceae is a provisional example, not a validated mapping
+  template. Check each treatment and `config/traits.yml` before mapping stipe to
+  petiole, lamina to leaf, or pinnae to leaflets; flag uncertain mappings.
 
 ### 5. Higher-rank values (G, with user rules)
 
-- Use `flora_copy_down()`: unqualified, single-level, `mode` rows from the
-  family, genus or group description are copied to members silent on the trait,
+- Review higher-rank descriptions even when species descriptions dominate.
+  Use `flora_copy_down()` when unqualified, single-level `mode` rows from the
+  family, genus or group description apply to members silent on the trait,
   only if every member that scores the trait includes the value. Never numbers.
-  Most specific rank wins (group, genus, family). Rejected candidates are
-  returned in `attr(, "rejected")`; read them.
+  Most specific rank wins (group, genus, family). `attr(, "rejected")` contains
+  agreement-test failures only; inspect it and preserve other ineligible clauses
+  separately in the bespoke parser.
 - Use `flora_inherit_infraspecific()` for `subsp.`/`var.` silent on a trait.
 - Monogeneric family: both family and genus are copied down
   (`rank_scored_from` = `genus` or `family`; Yao_2010).
-- Keep family and genus clauses that are not copied (qualified, numeric,
-  hedged, "most species") as unmapped rows at their own rank.
+- Keep unscored family and genus clauses (qualified, numeric, hedged,
+  "most species") as unmapped rows at their own rank. Preserve scored
+  higher-rank rows even when they fail the copy-down agreement test.
 
 ### 6. Unmapped records (G format, B content)
 
-Every clause that maps to no trait stays in `trait_data.csv` with a blank
+Every unscored description clause stays in `trait_data.csv` with a blank
 `trait`, blank levels, `trait_value_raw` = verbatim clause, page, taxon rank
-and `notes` = `UNMAPPED: <organ> | <character>`. Keep whole Ecology and
-Distribution paragraphs when no mapped trait applies (altitude, habitat, soil,
-range, conservation status, uses). Do not split compound text into guessed
-values. `raw/unmapped_terms.csv` is only the summary
+and `notes` = `UNMAPPED: <organ> | <character>`. A full description paragraph
+is an interim review record, not proof that each clause was assessed: split
+or mark its clauses as reviewed before calling the extraction complete. Keep
+whole Ecology and Distribution paragraphs when no mapped trait applies
+(altitude, habitat, soil, range, conservation status, uses). Do not split
+compound text into guessed values. `raw/unmapped_terms.csv` is only the summary
 (`flora_unmapped_summary()`); there is no `unmapped_values.csv`.
 `config/traits.yml` changes are never made in a family branch: collect the
 summaries and decide traits together.
@@ -317,9 +322,10 @@ summaries and decide traits together.
 
 Order: own rows, copy-down, inheritance, manual rows. Then
 `flora_merge_duplicate_keys()`, optionally `flora_drop_redundant_ranks()`,
-`flora_finalise()` (column order, `a--b` dashes, `x` for the multiplication
-sign, `in_traits.yml` computed from `traits.yml`) and
-`readr::write_csv(na = "")`. Columns:
+`flora_finalise()` (column order, `a--b` dashes in `trait_value_raw`,
+`trait_value` and `notes`; `x` for multiplication in `trait_value_raw`;
+`in_traits.yml` computed from `traits.yml`) and `readr::write_csv(na = "")`.
+Columns:
 `taxon_name, taxon_rank, entity_type, rank_scored_from, commonness_qualifier, population_region, form, entity_measured, trait, in_traits.yml, trait_value_raw, trait_value, trait_value_clean, value_type, unit, source_section, pdf_page, printed_page, notes, source_id`.
 `source_id` is filled for every row that cites another work (never inferred by
 regex from `notes`).
@@ -361,16 +367,23 @@ Edit directly. Start from `traits.build::metadata_create_template()` and change:
   `source.secondary`.
 - `dataset`: `data_is_long_format: yes`, `basis_of_record: preserved_specimen`,
   `life_stage: adult`, `entity_type: species`, and a `sampling_strategy`
-  describing the extraction.
+  describing the extraction. For OCR sources, state in `sampling_strategy`
+  whether rows came from the unchecked layer, an OCR draft checked against page
+  images, or a fully image-checked transcription. In `notes`, identify pages
+  or clauses still unchecked, provisional status, and whether a future
+  born-digital copy could improve text accuracy, coverage or page provenance.
+  Recheck against that copy when available; do not present a hypothetical copy
+  as a prerequisite to using the current scan.
 - `contexts`: `commonness_qualifier`, `population_region`, `entity_measured`,
   `trait_scoring_method`, plus `form` when forms are merged. Declare every
   context actually used in `data.csv`.
-- `traits:` entries with `unit_in: unit`, `basis_of_value: expert_score`.
-  Generate a draft once in the console from `data.csv`, paste it, keep no
-  script. Use a literal block scalar for long free-flow fields, especially
-  `notes: |` and `sampling_strategy: |`. Quote short `questions:` and `methods:`
-  strings (YAML plain scalars cannot contain `:` or start with a quote);
-  `yaml::read_yaml()` catches this before `dataset_test()`.
+- `traits:` entries use `unit_in: unit` for measured values and an appropriate
+  `basis_of_value` (`measurement` for dimensions, `expert_score` for scored
+  categorical values). Generate a draft once in the console from `data.csv`,
+  paste it, keep no script. Use a literal block scalar for long free-flow
+  fields, especially `notes: |` and `sampling_strategy: |`. Quote short
+  `questions:` and `methods:` strings (YAML plain scalars cannot contain `:` or
+  start with a quote); `yaml::read_yaml()` catches this before `dataset_test()`.
 - `substitutions:` map source terms to levels (`trait_value` -> clean level),
   so mappings can change without re-extracting.
 - `questions:` records only items requiring a curator or user decision, or an
@@ -401,20 +414,19 @@ Edit directly. Start from `traits.build::metadata_create_template()` and change:
    processed.
 4. Check completeness independently of schema tests: compare all accepted
    species and infraspecific headings, description and later sections, unmapped
-   clauses, and type/figure vouchers against the source. Adema_1996 passed
-   `dataset_test()` and `dataset_process()` with zero exclusions while missing
-   infraspecific taxa, unmapped records and vouchers.
+   clauses, and type/figure vouchers against the source. For Adema_1996, use
+   the completion checklist above; passing QA does not establish completeness.
 5. Report: taxa, rows by mapped and unmapped, rows by `rank_scored_from`,
    exclusions, numbered questions.
 
-## Known inconsistencies in the three datasets (do not repeat)
+## Known inconsistencies (do not repeat)
 
 | Observed | Do instead |
 | --- | --- |
 | Segmenter, helpers and dictionary copied into each family (Lim 2,068 lines vs Coode 1,551) | source `scripts/`, keep terms in the dictionary CSV |
 | Coode and Lim use the layer or a transcription depending on the PDF; the decision was not written down | steps 1 and 2 |
 | Source repairs buried in `norm()` regexes (Coode, Lim) or typed into rows (Yao) | `raw/source_fixes.csv` |
-| Mixed dashes: Coode raw text has 878 en dashes, with `4--6 (–7)` in one cell; Lim 47; Yao none | `flora_finalise()` applies the same `a--b` rule (parenthetical extremes included) to every text column |
+| Mixed dashes in source text | `flora_finalise()` normalizes numeric ranges in `trait_value_raw`, `trait_value` and `notes`; check other text columns separately |
 | Unmapped records were inconsistent (fixed 2026-10: all four keep rows in `trait_data.csv`) | step 6 |
 | Duplicate keys: 23 Coode pairs (same value from two ranks), Yao failed `dataset_test()` | `flora_drop_redundant_ranks()`, `flora_merge_duplicate_keys()`, QA table |
 | `source_id` set by regex on `notes` (Coode, Lim); Coode cites `Corner_1988`, `Roubik_2006`, `Ng_2014` with no `source.secondary` entry | `source_id` column, QA table, add the sources |
@@ -442,10 +454,11 @@ traits; mention them in the report.
 
 Only after the shared scripts and dictionary are stable. One family per agent,
 one branch per family; issue per family with PDF path, dataset id and these
-standing rules; definition of done is `dataset_test()` passing, QA tables
-attached and a summary of unmapped terms and questions. Start with small
-families to grow the dictionary, merge dictionary additions centrally, and
-keep `config/traits.yml` changes out of family branches.
+standing rules. Completion requires the source reconciliation in step 11, not
+just `dataset_test()` passing; attach QA tables and a summary of unmapped terms
+and questions. Start with small families to grow the dictionary, merge
+dictionary additions centrally, and keep `config/traits.yml` changes out of
+family branches.
 
 ## Open question for the user
 

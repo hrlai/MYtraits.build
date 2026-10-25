@@ -1,13 +1,11 @@
 # Heading configurations for flora_segment(), taken from the two families that
-# were segmented so far. Copy the closer one into the family's
-# raw/segment_source.R and change only the patterns. Both configurations
-# reproduce the `paras` tables of data/Coode_2018 and data/Lim_2010 exactly.
+# were segmented as reference examples. Adapt the closer one in the family's
+# raw/segment_source.R; do not copy its page range, input reader or heading
+# patterns without checking the source images. Both examples reproduce their
+# respective `paras` tables.
 #
-# Check one heading pattern set per family against the actual page text before
-# trusting it: heading lines, group names, form labels and section labels are
-# the only things that differ between families. TFSS has a different layout;
-# read one TFSS page first (running heads, two-column text, citation blocks
-# before the description) and do not assume these patterns hold.
+# Review headings, captions, page numbering, sections and description starts
+# for each family. TFSS layouts vary; do not assume either FPM example fits.
 
 suppressPackageStartupMessages(library(tidyverse))
 source(".github/skills/extract-traits-from-floras-my/scripts/flora_source.R")

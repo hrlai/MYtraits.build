@@ -74,8 +74,9 @@ flora_render_pages <- function(file, pages, outdir, dpi = 220) {
 
 # Transcription format (raw/<Family>_transcription.txt): "#" comment lines, one
 # paragraph per line, blank lines kept, "@page <pdf page> <printed page>" at
-# every page turn. Verbatim text with true en dashes and x signs. Printed slips
-# stay as printed; repairs go in raw/source_fixes.csv.
+# every page turn. Verbatim text with true en dashes and x signs. Correct
+# image-checked headings and page markers here before segmentation; record
+# source repairs in raw/source_fixes.csv and apply them to parsed text.
 flora_read_transcription <- function(file) {
   tx <- read_lines(file)
   tx <- tx[!str_detect(tx, "^#")]
