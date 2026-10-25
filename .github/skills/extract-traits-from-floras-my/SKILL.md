@@ -80,6 +80,14 @@ writes `data/<id>/data.csv`.
 
 ## Standing rules (user decisions)
 
+- **Editorial guides control source interpretation.** For FPM and TFSS, apply
+  the relevant formal guide before any rule below or any pattern inferred from
+  a published family treatment. The extraction workflow is secondary evidence:
+  revise its assumptions when the guide specifies a different treatment
+  structure, scope, description ownership or rank. FPM guidance is *Guide to
+  Preparing Manuscripts for The Flora of Peninsular Malaysia* (Kiew et al.,
+  2006); TFSS guidance is *Guide to Preparing and Editing Manuscripts*
+  (Soepadmo & Wong, 1995). Do not use one guide to interpret the other flora.
 - **Names as printed.** Do not match to a taxonomic backbone during extraction;
   alignment is a separate step. Keep `sp. nov.` under its printed label and
   flag it.
@@ -90,12 +98,13 @@ writes `data/<id>/data.csv`.
   `inferred` typical values from morphology. Negative phrases ("without
   stipules") are not scored when the trait has no `absent` level; list them as
   unmapped.
-- **Regions.** Keep records from Malaysia; accept a source's `Borneo` record
-  even when it cannot be resolved to Sabah or Sarawak. Retain the stated region
-  in `population_region`, the cited work in `source_id`, and the source wording
-  and scope in `notes`. Do not assume an unspecified Borneo locality is in
-  Malaysia. Exclude records explicitly located outside Malaysia, such as India
-  or Thailand.
+- **Regions.** The FPM guide makes a species description Peninsular Malaysian;
+  the TFSS guide makes it Sabah--Sarawak, or Bornean when stated as such.
+  Retain a source's stated regional scope in `population_region` and `notes`.
+  Accept a TFSS `Borneo` record when it cannot be resolved to Sabah or Sarawak,
+  but flag its unresolved locality. Do not treat an unspecified Borneo locality
+  as Malaysian. Exclude observations explicitly outside the source treatment's
+  stated scope, such as India or Thailand.
 - **Regional counterparts.** Do not score a value borrowed from another FPM or
   TFSS treatment, even when quoted in the current treatment. That flora will be
   ingested as its own source; retaining the borrowed value would duplicate it.
@@ -111,6 +120,108 @@ writes `data/<id>/data.csv`.
 - **Metadata is edited by hand** (see step 10); no generator scripts kept.
 - **The editor reformats R files on save** (air). Exact-match edits fail after
   a save: re-read the lines and edit by line number, or rewrite the file.
+
+## Formal flora treatment grammar (primary source context)
+
+Use this section to segment and interpret a treatment. It has priority over
+regularities observed in published FPM or TFSS family PDFs, including examples
+already in this repository. It describes authoring conventions, not a reason to
+invent an unprinted character.
+
+### Shared rules
+
+- A treatment is hierarchically ordered: family; genus; species; and, where
+  present, infraspecific taxon. The family and genus descriptions state their
+  own ranks. A species description supplies states not universal at genus rank;
+  it is not a restatement of universal family or genus states. Treat this as
+  evidence for rank ownership and copy-down review, not automatic proof that a
+  silent species has every higher-rank character.
+- Ignore keys as trait evidence. Their couplets are identification devices,
+  not descriptions. Use them to detect taxon order and boundaries only. Do not
+  parse a key lead, an annotation for a taxon omitted from detailed treatment,
+  or its dotted indicator line into `trait_data.csv`.
+- Identify labelled blocks before parsing: `Distribution.`, `Ecology.`,
+  `Uses.`, and `Taxonomy.` begin on the heading line. Species treatments also
+  contain nomenclatural matter (`Basionym:`, `Type:`, `Synonym:` or
+  `Synonyms:`), vernacular names and sometimes conservation status, maps,
+  figures or notes. These are not Description text. Review the applicable
+  Ecology, Distribution, Uses, and conservation blocks manually for eligible
+  MYtraits observations, retaining provenance and applying standing rules.
+- Description order is an extraction aid. A shift in this order normally marks
+  a new organ, not a continuation of the previous character. Keep wording
+  verbatim if clause ownership remains uncertain and flag the decision.
+- The guides require metric SI abbreviations (`m`, `cm`, `mm`) and British
+  English spelling. Preserve printed units and wording in raw fields; do not
+  "correct" a source to fit an inferred convention.
+
+### Family and genus descriptions
+
+- A family with one genus worldwide has no family description; its `Only one
+  genus.` statement is not a trait. A genus description remains required when
+  that genus is monotypic. Do not infer a missing family description from the
+  genus treatment.
+- Read family and genus descriptions in this sequence: habit; stipules;
+  leaves (arrangement and type); reproductive structures. For flowering plants,
+  continue with inflorescence, flower sexuality, symmetry, merism, fusion,
+  stamens, anthers, filaments, ovary, ovules, placentation, style and stigma;
+  then fruit and seed. FPM additionally directs gymnosperm, fern and fern-ally
+  reproductive structures, and relevant herbaceous stem or root structures.
+- A family description can include distribution, ecology, uses and taxonomy;
+  a genus treatment additionally has its own number of species and key. These
+  sections define scope and taxonomic context. Do not elevate their general
+  prose to a species observation without an explicit, eligible statement.
+
+### Species descriptions and local scope
+
+- Read the species Description in this order: habit; woody bole and
+  buttresses where applicable; bark, inner bark, sap and sapwood; twigs or
+  branches; stipules; leaves; inflorescence; flowers; fruit; seed. For ferns,
+  include rhizome and relevant reproductive structures and spores. For
+  gymnosperms, include cones and seeds. For herbaceous taxa, include relevant
+  stem and root structures. These sequences override an organ order inferred
+  from a particular published treatment.
+- Within leaves, expect arrangement, type, petiole or petiolule, rachis and
+  leaflet counts where compound, then blade or leaflet texture, shape, size,
+  base, margin, apex, venation and indumentum. Within flowers, expect
+  sexuality, symmetry, merism, calyx, corolla, stamens, disc, ovary, carpels,
+  style, stigma and ovules. This prevents dimensions or indumentum from leaking
+  across adjacent organs.
+- FPM descriptions describe the species as known in Peninsular Malaysia. TFSS
+  descriptions describe it as known in Sabah and Sarawak, or Borneo generally.
+  A guide explicitly requires a wider-than-local range to be labelled (for
+  example, `outside Borneo`). Retain that qualifier and do not score it as a
+  local value without a separately stated local value.
+- FPM can include `Conservation status.`. It is a distinct source section, not
+  an ecological or morphological description. Keep it unmapped unless a
+  configured trait explicitly supports it.
+
+### Infraspecific taxa
+
+- For **two or more** infraspecific taxa, both guides place a full species
+  description, including regional variation, before a key. Treat that
+  description as species-rank text. In TFSS, the following infraspecific
+  annotations provide nomenclature, type details, synonyms, vernacular names,
+  distribution and notes; do not assume they contain a separate description.
+  In FPM, each infraspecific treatment may include its own description and
+  later sections; segment and score those statements at infraspecific rank.
+- For **one** infraspecific taxon in the flora region, both guides make its
+  description the description of the taxon representing the species locally.
+  Segment it at infraspecific rank and retain the species parent. Do not create
+  a separate species-level morphological row merely because the heading starts
+  with a species name.
+- Keys to subspecies, varieties or other infraspecific ranks remain keys and
+  are not trait evidence. Their labels establish parentage only.
+
+### Vouchers and figures
+
+- Type details follow `Type:` and can include collector, number or `s.n.`,
+  date, locality, country, state or province, and repository. Extract them by
+  hand under step 8. Retain an uncertain or absent holotype/lectotype
+  designation exactly as printed; do not infer status from repository order.
+- Both guides require published figures to be identified when they are types.
+  A figure caption can also identify the specimen on which an illustration was
+  based. Parse it only as a voucher when separately transcribed and verified;
+  never use caption morphology as a species description.
 
 ## Workflow
 
@@ -278,10 +389,11 @@ Bespoke checklist (decisions that changed per family):
   pass. Use `raw/manual_rows.csv` when manual rows help; it has the same columns
   as `trait_data.csv`. Each row needs the source clause and page; set
   `population_region` when stated and `source_id` when citing another work.
-  Exclude explicitly non-Malaysian observations (Coode_2018: India and
-  Thailand). Accept Borneo when the flora uses it without a finer locality
-  (Lim_2010: `Yii_1995`), but flag that the record is not localised to Sabah or
-  Sarawak.
+  Exclude observations outside the treatment's scope and values borrowed from
+  another FPM or TFSS treatment. In Lim_2010, the Borneo measurements cited
+  from Yii_1995 (TFSS) are not scored; the source text remains in the
+  transcription. For TFSS observations stated only as Borneo, apply the
+  unresolved-locality rule above.
 - **Excluded and incompletely known species** are not scored; list them in
   `taxon_flags.csv`.
 - **Ferns.** Cibotiaceae is a provisional example, not a validated mapping
