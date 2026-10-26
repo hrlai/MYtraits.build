@@ -1,0 +1,225 @@
+source:
+  primary:
+    key: Hughes_2013
+    bibtype: InBook
+    year: 2013
+    author: M. Hughes
+    title: Memecylaceae
+    booktitle: 'Flora of Peninsular Malaysia, Series II: Seed Plants, Volume 4'
+    editor: R. Kiew and R. C. K. Chung and L. G. Saw and E. Soepadmo
+    series: Malayan Forest Records No. 49
+    publisher: Forest Research Institute Malaysia
+    place: Kepong, Selangor, Malaysia
+    pages: 269--324
+contributors:
+  data_collectors:
+    - last_name: Hughes
+      given_name: M.
+      ORCID: .na
+      affiliation: Royal Botanic Garden Edinburgh and Singapore Botanic Gardens
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '2013'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description:
+    Morphological descriptions, distribution and ecology of Memecylaceae in
+    Peninsular Malaysia.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    Treatment pages 269--324 (PDF pages 7--62) were rendered at 220 dpi and
+    checked against a corrected transcription. The segmenter reads
+    raw/Memecylaceae_transcription.txt, not the PDF OCR layer. OCR was used only
+    as a draft and navigation aid. Traits were scored only from directly stated,
+    image-verified description clauses. Ecology, Distribution, Uses, Taxonomy,
+    Notes and Conservation status were reviewed and retained as unmapped source
+    clauses when no configured trait applied. Keys, maps, figures and captions
+    were excluded as trait evidence.
+  original_file:
+    Memecylaceae.pdf (Hughes 2013, FPM Series II vol. 4, pp. 269--324)
+  notes: |
+    The supplied PDF has an OCR text layer of unknown origin. Every treatment
+    page from printed pp. 269--324 was checked against a rendered image, including
+    accepted headings, descriptions, later sections and type or figure vouchers.
+    Image-verified OCR repairs are recorded in raw/source_fixes.csv. The dataset
+    remains provisional, not release-ready: a curator must decide whether fruit
+    diameter should also be represented as fruit length for globose berries, and
+    whether parenthetical measurement extremes require a different data model.
+    Nomenclatural type text and figure specimens are in
+    raw/Hughes_2013_vouchers.csv.
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+  - context_property: value qualifier
+    category: method_context
+    var_in: commonness_qualifier
+traits:
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Directly stated in species descriptions.'
+  - var_in: plant_height
+    unit_in: unit
+    trait_name: plant_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Directly stated height in species descriptions.'
+  - var_in: petiole_length
+    unit_in: unit
+    trait_name: petiole_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Directly stated petiole length.'
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'First dimension of lamina length by width.'
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Second dimension of lamina length by width.'
+  - var_in: leaf_shape
+    unit_in: .na
+    trait_name: leaf_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Directly stated lamina shape.'
+  - var_in: leaf_base_shape
+    unit_in: .na
+    trait_name: leaf_base_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Directly stated lamina base shape.'
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Directly stated lamina apex shape.'
+  - var_in: leaf_hairs_adult_leaves
+    unit_in: .na
+    trait_name: leaf_hairs_adult_leaves
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Directly stated adult leaf indumentum.'
+  - var_in: leaf_phyllotaxis
+    unit_in: .na
+    trait_name: leaf_phyllotaxis
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Directly stated leaf arrangement.'
+  - var_in: inflorescence_type
+    unit_in: .na
+    trait_name: inflorescence_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Directly stated inflorescence type.'
+  - var_in: pedicel_length
+    unit_in: unit
+    trait_name: pedicel_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Directly stated pedicel length.'
+  - var_in: flower_colour
+    unit_in: .na
+    trait_name: flower_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Petal colour.'
+  - var_in: flower_anther_dehiscence
+    unit_in: .na
+    trait_name: flower_anther_dehiscence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Directly stated anther dehiscence.'
+  - var_in: fruit_type
+    unit_in: .na
+    trait_name: fruit_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Directly stated fruit type.'
+  - var_in: fruit_length
+    unit_in: unit
+    trait_name: fruit_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'First dimension of berry length by width.'
+  - var_in: fruit_width
+    unit_in: unit
+    trait_name: fruit_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Fruit diameter or stated width.'
+  - var_in: fruit_colour
+    unit_in: .na
+    trait_name: fruit_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Ripe fruit colour only.'
+substitutions:
+  - trait_name: flower_colour
+    find: white_cream
+    replace: white_cream
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1:
+    'For fruit diameter, raw rows score fruit_width. Confirm whether globose
+    berries should also have fruit_length scored from the same source dimension.'
+  question2:
+    'Parenthetical measurement extremes remain in verbatim raw text but are not
+    scored as separate extreme-range rows. Confirm whether a different
+    representation is required.'

@@ -1,0 +1,2785 @@
+# M. Hughes (2013), Memecylaceae, Flora of Peninsular Malaysia, Series II, vol. 4, pp. 269--324.
+# Image-verified transcription from rendered PDF pages 7--62 (printed pp. 269--324).
+# OCR text was used only as a draft and navigation aid. See source_fixes.csv for verified OCR repairs.
+@page 7 269
+FLORA OF PENINSULAR MALAYSIA
+
+
+
+
+MEMECYLACEAE
+M. Hughes
+
+Royal Botanic Garden Edinburgh,
+Edinburgh, U.K.
+
+and
+
+Singapore Botanic Gardens,
+Singapore
+
+DC., Prodr. 3 (1828) 5; Triana, Trans. Linn. Soc. London 28 (1873) 153; Brummitt & Woodgyer in
+Heywood et al., Flow. Pl. Fam. World (2007) 210. Synonyms: Melastomataceae tribe Mourireae
+Cogn., in A.DC. & C.DC., Monogr. Phan. 7 (1891) 1112; Melastomataceae subfamily Memecyloideae,
+Krasser in Engl. & Prantl, Nat. Pflanzenfam. III (7) (1893) 197.
+
+Shrubs or small trees with hard wood and very soft, thin, smooth or narrowly fissured or
+scaly bark. Twigs winged, grooved or terete, with an interpetiolar line. Stipules absent.
+Leaves opposite, simple, glabrous, without glands, usually pinnately veined or with
+acrodromus venation, main veins conspicuous to obscure, sessile or petiolate, margin
+entire. Inflorescences axillary, many-flowered compound bracteate cymes, thyrsoid to
+very compressed to umbellate, glabrous or occasionally puberulent. Flowers tetramerous,
+bisexual; calyx glabrous, funnel-shaped or campanulate, 4-lobed or truncate, usually ridged
+internally; petals 4, small, simple, ovate to triangular, reflexed, often brightly coloured;
+stamens 8, often colourful, filaments folded in bud, anthers with an elongated connective
+usually with a gland, dehiscing through slits; style filiform, stigma minute, ovary inferior,
+unilocular. Fruits a globose or ellipsoid berry with a thin or thick pulpy or gritty pericarp,
+containing one to few large seeds, cotyledons wrinkled in the embryo and semicircular when
+expanded.
+
+Vernacular names. Nipis kulit, delek (Malay).
+
+Distribution. The family is spread throughout the tropics, containing six genera and c.
+430 species (Renner, Nord. J. Bot. (1993) 519). Two genera are represented in Peninsular
+Malaysia, Lijndenia (1 species) and Memecylon (32 species).
+
+Ecology. In Malaysia, the family is represented by slow-growing understorey trees or shrubs
+conspicuous for their often blue flowers. Memecylon L. is one of the most diverse understorey
+genera in freshwater swamp forest (Corner, Gards. Bull. Sing., Suppl. 1 (1978) 197) and in
+lowland forest (Kochummen, Tr. Fl. Pasoh For. (1997) 306). The flowers are visited by bees,
+although the function of the oil-producing gland on the anther connective remains obscure
+(Renner (1993); Nayak & Davidar, Acta Oecol. 36 (2010) 191). Flowering in some species
+appears to be sporadic, with only one branch bearing inflorescences at any one time. Several
+species (M. cantleyi, M. coeruleum, M. edule, M. ovatum and M. pauciflorum) have been
+
+
+269
+
+
+
+
+SeedPlant4-30072013.indd 269 7/31/13 12:58 PM
+
+@page 8 270
+SEED PLANTS VOL. 4 (2013)
+
+
+
+observed to flower more abundantly. The fruits have a thin fleshy layer. There is one record
+of the fruits of M. lilacinum (Balgooy 2349) being eaten by a musang (Asian palm civet).
+
+Taxonomy. Memecylaceae has been included under Melastomataceae by many authors, for
+example by Clarke, Fl. Brit. India 2 (1879) 513; King, J. Asiat. Soc. Beng. 69, 2 (1900)
+3; Ridley, Fl. Malay Pen. 1 (1922) 810; Corner, Wayside Tr. Malaya, 3rd ed. (1988)
+487); Maxwell, Gard. Bull. Sing. 33 (1980) 34. Airy Shaw (in Willis, Dict. Fl. Pl., ed. 7
+(1966) 712) recognised Memecylaceae as distinct and transitional between Myrtaceae
+and Melastomataceae, and noted the vegetative similarity to Eugenia/Syzygium. Indeed,
+Memecylon was included under Myrtaceae by Blume (Bijdr. Fl. Ned. Ind. 17 (1826) 1093).
+Based on wood anatomy (Vliet, Blumea 27 (1981) 395) and floral and leaf characters (Renner,
+1993), Memecylaceae is considered to be distinct from Melastomataceae: Memecylaceae are
+glabrous, have anthers which dehisce through slits rather than pores, a gland on the anther
+connective, larger embryos, 1–5 seeds per fruit (many-seeded in Melastomataceae), and large
+leaf sclerids (absent in Melastomataceae).
+Molecular studies (Clausing & Renner, Am. J. Bot. 88 (2001) 486; Conti et al. Syst. Bot. 22
+(1997) 629) have placed Memecylaceae as a well supported sister group to Melastomataceae.
+However, the latest angiosperm classification (Stevens, Angiosperm Phylogeny Website,
+updated 12 July 2012) does not recognise Memecylaceae, but includes it in Melastomataceae
+as subfamily Olisbeoideae Burnett (Outlines Bot. (1835) 725). Generic relationships within
+Memecylaceae have been investigated by Stone (Systematic Botany 31 (2006) 107). Both
+Memecylon L. and Lijndenia Zoll. & Moritzi were found to be monophyletic.
+
+
+Key to genera
+
+Venation acrodromus, with 3 primary veins running the length of the leaf. ............ 1. Lijndenia
+
+Venation not acrodromus, with a single midrib and sometimes a less distinct marginal vein. .....
+........................................................................................................................... 2. Memecylon
+
+
+
+1. LIJNDENIA Zoll. & Moritzi
+(after Baron D.W.J.C. van Lijnden, 1813–1852, Holland)
+
+Nipis kulit (Malay)
+
+Syst. Verz. in Moritzi et al. (1845) 10; Bremer, Nord. J. Bot 2 (1982) 121.
+
+Shrubs or small trees, narrowly fissured and scaly bark; Twigs 2-grooved. Leaves with a
+short petiole: venation acrodromus, main veins conspicuous. Inflorescences many-flowered
+compound bracteate cymes, very compressed. Flowers: calyx not ridged internally, anthers
+with an elongated connective without a gland. Fruits globose.
+
+Distribution. 12 species; Africa and Madagascar, Sri Lanka, Peninsular Malaysia, Java,
+Borneo and the Philippines. One species in Peninsular Malaysia.
+
+Taxonomy. Previously considered synonymous with Memecylon, but re-established (Bremer,
+1982) on the basis of leaf venation and calyx ridge characters.
+
+
+
+
+270
+
+
+
+
+SeedPlant4-30072013.indd 270 7/31/13 12:58 PM
+
+@page 9 271
+MEMECYLACEAE (HUGHES)
+
+
+
+1. Lijndenia laurina Zoll. & Moritzi Fig. 1, Map 1
+Syst. Verz. in Moritzi et al. (1846) 10; Bremer, Nord. J. Bot. 2 (1982) 122. Homotypic synonyms:
+Memecylon lijndenia (Zoll. & Moritz) Kuntze, Revis. Gen. Pl. 1 (1891) 247. Memecylon laurinum
+(Zoll. & Moritz) Koord. later homonym, Exkurs.-Fl. Java 2 (1912) 701. Type: Zollinger 1177, Java,
+Tjikoya (lectotype G n.v.; isolectotypes FI n.v., P n.v.). Heterotypic synonym: Memecylon oligoneurum
+Blume, Mus. Bot. Lugd.-Bat. 1 (1851) 353; King, J. Asiat. Soc. Beng. 69, 2 (1900) 73; Ridley, Fl.
+Malay Pen. 1 (1922) 811; Bakhuizen f., Meded. Bot. Mus. Herb. Rijks Univ. Utrecht 91 (1943) 338;
+Maxwell, Gard. Bull. Sing. 33 (1980) 99. Type: Blume s.n., Java (lectotype L).
+
+Tree to 15 m tall; bole 15–30 cm diameter. Twigs pale brown, sometimes drying blackish,
+4-angled or with 2 wide shallow grooves, becoming terete when mature, internodes 2.5–4
+cm apart. Leaves: petioles c. 5 mm long, 1–1.5 mm wide, brown when dry; lamina drying
+dark reddish brown, broadly elliptic lanceolate, 5–14 × 2.5–5.5 cm, base decurrent, apex
+acuminate, acumen extending for c. 8 mm; venation acrodromus with 3 main veins; midrib
+sunken above, prominent below; lateral pair running 3–8 mm from the margin. Inflorescences
+on leafy branches or on bare wood behind the leaves, glomerulate with c. 10 flowers, total
+length less than 1 cm; primary peduncle usually not distinguishable, rarely to 2 mm long,
+individual pedicels usually arising from a woody callus. Flowers: pedicel 1–2 mm long,
+slender, conspicuous bracteoles absent; calyx white or pale green, 2 mm diameter with 4
+shallow lobes; petals white; anthers yellowish, connective triangular, short, gland absent.
+Fruits: stalk 3–4 mm long; berry globose, 5–7 mm diameter, green when immature ripening
+black through blue; calyx remnant raised and slightly lobed; areolus c. 1 mm wide.
+
+Distribution. Peninsular Thailand, Sumatra, Peninsular Malaysia, Singapore, Java, Borneo,
+the Philippines. In Peninsular Malaysia widespread, collected from all states except Perlis
+and Terengganu.
+
+
+
+
+Map 1. Distribution of Lijndenia laurina.
+
+Conservation status. Least Concern.
+
+Ecology. In Peninsular Malaysia in mixed dipterocarp forest, often on hill slopes and ridges,
+from sea level to 1000 m but usually below 400 m altitude.
+
+
+
+271
+
+
+
+
+SeedPlant4-30072013.indd 271 7/31/13 12:58 PM
+
+@page 10 272
+SEED PLANTS VOL. 4 (2013)
+
+
+
+
+Figure 1. Lijndenia laurina. A, leafy twig; B, inflorescence; C, bract; D, flower; E, calyx;
+F, longitudinal section of calyx and ovary; G, petal; H′, stamen side view; H″ stamen dorsal
+view. (A–C from FRI 19815; D–H from FRI 67279.)
+
+
+272
+
+
+
+
+SeedPlant4-30072013.indd 272 7/31/13 12:58 PM
+
+@page 11 273
+MEMECYLACEAE (HUGHES)
+
+
+
+Notes. The only species in the family in Peninsular Malaysia with acrodromus venation.
+When sterile, it can be confused with glabrous Melastomataceae (especially Pternandra,
+although the blackish epidermis on the twigs is absent in Lijndenia and Memecylon) but
+when fertile Pternandra is easily distinguished by its ornamented calyxes, larger flowers and
+many-seeded fruit. Rhodamnia (Myrtaceae) is superficially similar when sterile, but does not
+have glabrous leaves.
+
+
+
+2. MEMECYLON L.
+(Greek, mimaikylon = the fruit of the strawberry tree Arbutus, Ericaceae)
+
+Nipis kulit (Malay)
+
+Sp. Pl. 1 (1753) 349; Blume, Bijdr. Fl. Ned. Ind. 17 (1826) 1093, Mus. Bot. Lugd.-Bat. 1 (1851) 353;
+Miquel, Fl. Ned. Ind. 1 (1855) 572; Clarke, Fl. Brit. India 2 (1879) 553; King, J. Asiat. Soc. Beng. 69,
+2 (1900) 71; Ridley, Fl. Malay Pen. 1 (1922) 810; Bakhuizen f., Meded. Bot. Mus. Herb. Rijks Univ.
+Utrecht 91 (1943) 333; Furtado, Gard. Bull. Sing. 20 (1963) 119; Maxwell, Malay. Nat. J., 34 (1980) 7,
+Gard. Bull. Sing. 33 (1980) 31, Tr. Fl. Malaya 4 (1989) 184; Bremer, Opera Bot. 69 (1983) 7; Corner,
+Wayside Tr. Malaya, 3rd ed. (1988) 487.
+
+Shrubs or small trees with smooth or narrowly fissured bark. Twigs winged, grooved or
+terete. Leaves subsessile or petiolate, pinnately veined, veins conspicuous to obscure.
+Inflorescences many-flowered compound bracteate cymes, thyrsoid to umbellate or very
+compressed. Flowers: calyx ridged internally, anthers with an elongated connective usually
+with a gland. Fruits globose or ellipsoid.
+
+Distribution. Currently 317 species; in tropical Africa and Madagascar, India and Sri Lanka,
+throughout Indo-China and Malesia to Australia. In Peninsular Malaysia 32 species are
+recognised.
+
+Ecology. Lowland to lower montane forest, some species are characteristic of coastal forest
+or rocky or sandy beaches, occasionally on limestone hills or in peat swamp or heath forest.
+
+Uses. The wood is very dense, hard and durable, and used for house posts, tool handles, mortar
+pestles, paddles (M. acuminatum) and anchors (the wood is dense enough to sink in water);
+many species make good charcoal (Burkill, Econ. Prod. Malay Pen. 2 (1935) 1450). Corner
+(1978) noted that the wood of M. garcinioides is ‘hard as iron’. A few species are reported
+by orang asli (indigenous peoples) to have minor medicinal use. Memecylon coeruleum, M.
+edule, M. ovatum and M. pauciflorum are planted as ornamental shrubs.
+
+Notes. Key characters for identification are leaf size and venation prominence, leaf colour
+on drying, prominence of wings or grooves in the twigs, length of the primary peduncle,
+and presence/absence of anther glands and the shape of the anther connective (Fig. 2). The
+descriptions below were prepared almost exclusively from herbarium material. Memecylon
+can easily be separated from the otherwise vegetatively similar Syzygium by the presence of
+an interpetiolar line.
+
+
+
+
+273
+
+
+
+
+SeedPlant4-30072013.indd 273 7/31/13 12:58 PM
+
+@page 12 274
+SEED PLANTS VOL. 4 (2013)
+
+
+
+
+Figure 2. Anthers of selected Memecylon species to illustrate the range of morphology
+present in Peninsular Malaysia.
+
+
+Key to Memecylon species
+
+The key was derived from study of herbarium material and relies on some characters which
+only appear after drying, such as leaf colour and texture. To aid spot identification of sterile
+material, Figs. 3 and 4 show the leaves of selected species with conspicuous and indistinct
+secondary venation, respectively.
+
+1. Leaves with prominent lateral veins on at least on the lower surface. .......................... 2
+Lateral veins indistinct or obscure on both sides. ....................................................... 13
+
+2. Midrib raised or flattened above on most leaves. ......................................................... 3
+Midrib sunken above on all leaves. .............................................................................. 4
+
+3. Leaves lanceolate, petiole 6–10 mm long, inflorescence more than 3 cm long, fruit
+elliptic. ..................................................................................... 1. M. acuminatissimum
+Leaves elliptic, petiole 1–4 mm long, inflorescence less than 1 cm long, fruit globose. ....
+...................................................................................................... 22. M. megacarpum
+
+
+
+
+274
+
+
+
+
+SeedPlant4-30072013.indd 274 7/31/13 12:58 PM
+
+@page 13 275
+MEMECYLACEAE (HUGHES)
+
+
+
+
+4. Twigs terete or with 2 grooves when young. ................................................................ 5
+Twigs distinctly 4 winged or 4-angled when young (wings can be very fragile and wear
+rapidly; look for corky remains). ................................................................................. 9
+
+5. Petioles 6–12 mm long, leaf base decurrent, lamina drying yellowish green on at least
+one side. ....................................................................................................................... 6
+Petioles to 5 mm long, leaf base acute to cordate, lamina drying brownish on both
+sides. ............................................................................................................................ 7
+
+6. Leaves oblong, drying concolorous. Inflorescence axes glabrous. ..... 28. M. perplexum
+Leaves elliptic, drying paler below. Inflorescence axes minutely pubescent. ..................
+........................................................................................................... 29. M. pubescens
+
+7. Leaves elongate oblong-lanceolate, base cordate. Inflorescence 4–7 cm long. ...............
+............................................................................................................... 15. M. hullettii
+Leaves lanceolate or elliptic, base acute to truncate (rarely cordate). Inflorescence less
+than 3 cm long. ............................................................................................................. 8
+
+8. Leaves 13–28 cm long. Inflorescence glomerulate, primary axes indistinguishable. .......
+............................................................................................................. 11. M. excelsum
+Leaves 8–14 cm long. Inflorescence paniculate, primary axes 10–15 mm long. .............
+............................................................................................................. 17. M. kunstleri
+
+9. Most leaves more than 11 cm long. ............................................................................ 10
+Most leaves less than 11 cm long. .............................................................................. 12
+
+10. Inflorescence with primary axes 15–30 mm long. ............................ 26. M. paniculatum
+Inflorescence with primary axes less than 10 mm long or reduced to a woody callus. ... 11
+
+11. Inflorescence on old wood behind the leaves, primary peduncles reduced to a woody
+callus. Anther as in Fig. 1. ................................................................... 7. M. corticosum
+Inflorescence on leafy branches, with a short but distinct primary peduncle. Anther as
+in Fig. 1. ................................................................................................ 32. M. wallichii
+
+12. Stems 4-angled to 4-winged. Leaves drying dark brown. Calyx papillose, bracteoles
+present. ............................................................................................. 8. M. dichotomum
+Stems distinctly 4-winged. Leaves drying mossy green. Calyx smooth, bracteoles
+absent. ............................................................................................... 13. M. fruticosum
+
+13. Midrib raised or flattened above. ................................................ 1. M. acuminatissimum
+Midrib sunken above. ................................................................................................ 14
+
+14. Leaf base rounded or sub-cordate. ............................................................................. 15
+Leaf base decurrent or acute. ..................................................................................... 21
+
+
+
+
+275
+
+
+
+
+SeedPlant4-30072013.indd 275 7/31/13 12:58 PM
+
+@page 14 276
+SEED PLANTS VOL. 4 (2013)
+
+
+
+15. Leaves broadly ovate, petiole more than 8 mm long. .............................. 25. M. ovatum
+Leaves lanceolate to ovate lanceolate, petiole less than 3 mm long. .......................... 16
+
+16. Twigs with 4 wings or sharply 4-angled when young. ............................................... 17
+Twigs without wings when young, 2-grooved or terete. ............................................ 20
+
+17. Stems 4-angled to 4-winged. Calyx papillose, bracteoles present. ..... 8. M. dichotomum
+Stems distinctly 4-winged. Calyx smooth, bracteoles absent. .................................... 18
+
+18. Inflorescences arising from a woody callus on leafless mature wood. .............................
+............................................................................................................ 7. M. corticosum
+Inflorescences with a slender and distinct primary peduncle, on leafy branches or just
+behind. ....................................................................................................................... 19
+
+19. Wings auriculate below the youngest internode. Leaves 5.5–13 cm long. .......................
+.......................................................................................................... 13. M. fruticosum
+Wings not auriculate below the youngest internode. Leaves 3.5–7 cm long. ....................
+......................................................................................................... 21. M. malaccense
+
+20. Fruit globose. Forest tree. ................................................................. 3. M. amplexicaule
+Fruit elliptic. (Usually) coastal shrub. .................................................. 6. M. coeruleum
+
+21. Most leaves less than 4 cm long, most internodes less than 2 cm apart. ..................... 22
+Most leaves more than 4 cm long, most internodes more than 2 cm apart. ................. 23
+
+22. Leaves rhomboid, not succulent. ..................................................... 27. M. pauciflorum
+Leaves obovate, succulent. ................................... 31. M. scutellatum var. brevifolium
+
+23. Leaves drying pale green or yellowish on at least one side. ....................................... 24
+Leaves drying pale to dark brown or black on both sides. .......................................... 30
+
+24. Upper leaf surface drying markedly darker than the lower. ........................................ 25
+Upper leaf surface drying more-or-less concolorous with the lower. ......................... 26
+
+25. Lamina distinctly papery when dry. Calyx not mealy. Anther connective globose with
+the gland on the tip (Fig. 2). Fruit dark brown when dry. ................. 14. M. garcinioides
+Lamina not distinctly papery when dry. Calyx mealy. Anther connective C-shaped with
+a centrally placed gland (Fig. 2). Fruit grey-green when dry. ........ 23. M. minutiflorum
+
+26. Most leaves more than 7 cm long. .............................................................................. 27
+Most leaves less than 7 cm long. ................................................................................ 28
+
+27. Leaves elliptic, papery when dry. ............................................................. 5. M. cantleyi
+Leaves oblong, stiff when dry. ........................................................... 28. M. perplexum
+
+
+
+
+276
+
+
+
+
+SeedPlant4-30072013.indd 276 7/31/13 12:58 PM
+
+@page 15 277
+MEMECYLACEAE (HUGHES)
+
+
+
+
+28. Leaf apex acuminate. Style often persistent. .................................... 18. M. lanceolatum
+Leaf apex elongate acuminate. Style caducous. ......................................................... 29
+
+29. Young twigs quadrangular. Calyx with pronounced internal teeth. Anthers glandless. ....
+............................................................................................................. 12. M. floridum
+Young twigs terete. Calyx without pronounced internal teeth. Anthers with a gland. .......
+......................................................................................................... 2. M. acuminatum
+
+30. Inflorescences 2.5–5 cm long. .................................................................................... 31
+Inflorescences less than 2 cm long. ............................................................................ 32
+
+31. Leaves elongate lanceolate, drying without a reddish blush on the midrib underneath. ....
+......................................................................................................... 19. M. lancifolium
+Leaves elliptic, often drying with a reddish blush on the midrib underneath. ..................
+........................................................................................................... 24. M. oleifolium
+
+32. Anthers without a gland. ............................................................................................ 33
+Anthers with a gland. ................................................................................................. 34
+
+33. Leaves not drying dark, often golden brown. Calyx with shallow triangular lobes. ........
+............................................................................................................. 12. M. floridum
+Leaves usually drying dark, often blackish. Calyx with elongate triangular lobes. ..........
+............................................................................................................ 20. M. lilacinum
+
+34. Inflorescences with 40 or more flowers. ..................................................................... 35
+Inflorescences with 5–20(–30) flowers. ..................................................................... 36
+
+35. Inflorescence very condensed. ...................................................... 4. M. campanulatum
+Inflorescence with distinct axes. ................................................................ 10. M. edule
+
+36. Leaves drying dark blackish brown above, paler below. ............................................ 37
+Leaves drying mid-brown, concolorous. ................................................................... 38
+
+37. Leaves drying very papery, often mottled beneath. Anther connective globose with
+gland at tip (Fig. 2). .......................................................................... 14. M. garcinioides
+Leaves drying stiff, uniform rusty brown beneath. Anther connective J-shaped with
+gland away from tip (Fig. 2). .......................................................... 16. M. intermedium
+
+38. Calyx with a calyptra which tears on bud opening. .................................. 30. M. ruptile
+Calyx without a calyptra, regularly dehiscing between shallow lobes. ...................... 39
+
+39. Calyx less than 4mm diameter, fruit less than 10 mm diameter. ......... 2. M. acuminatum
+Calyx more than 4 mm diameter, fruit c. 15 mm diameter. ......................... 9. M. durum
+
+
+
+
+277
+
+
+
+
+SeedPlant4-30072013.indd 277 7/31/13 12:58 PM
+
+@page 16 278
+SEED PLANTS VOL. 4 (2013)
+
+
+
+
+Figure 3. Leaves of selected Memecylon species with conspicuous venation.
+
+
+278
+
+
+
+
+SeedPlant4-30072013.indd 278 7/31/13 12:58 PM
+
+@page 17 279
+MEMECYLACEAE (HUGHES)
+
+
+
+
+Figure 4. Leaves of selected Memecylon species with inconspicuous or obscure venation.
+
+
+279
+
+
+
+
+SeedPlant4-30072013.indd 279 7/31/13 12:58 PM
+
+@page 18 280
+SEED PLANTS VOL. 4 (2013)
+
+
+
+1. Memecylon acuminatissimum Blume Figs. 3, 5, Map 2
+(Latin, acuminatus = tapering into an extremely narrow point; referring to the leaf apex)
+
+Mus. Bot. Lugd.-Bat. 1 (1851) 360; Bakhuizen f., Meded. Bot. Mus. Herb. Rijks Univ. Utrecht 91
+(1943) 350; Furtado, Gard. Bull. Sing. 20 (1963) 119. Type: Korthals s.n., Sumatra (lectotype L,
+isolectotype K[2]).
+
+Shrub or small slender tree to 5 m tall, more rarely to 10–12(–25) m high; bole to 30 cm
+diameter. Twigs pale brown or brown, terete, internodes 3.5–10 cm apart. Leaves: petioles
+6–10 mm long, 1.5–4 mm wide, blackish when dry; lamina somewhat coriaceous, drying
+brown or dark brown above, rusty brown below, lanceolate to ovate lanceolate, 8.5–27 × 3.5–
+11 cm, base decurrent to (more rarely) truncate in larger leaves, apex distinctly acuminate to
+acuminate, acumen extending for 12–20 mm; midrib flat or slightly raised above, prominent
+below, drying darker than or concolorous with the lamina; venation visible to indistinct (rarely
+obscure) above, prominent to indistinct below, lateral vein c. 12 pairs; marginal vein visible or
+indistinct, running more-or-less parallel 1–3 mm from the margin or looping slightly between
+the main veins. Inflorescences on leafy branches, compound dichasia with 30–100 flowers,
+total length 5–8 cm, glabrous; primary peduncles 1 or 2, 17–32 mm long, secondary axes c.
+5, 10–17 mm long, tertiary much reduced. Flowers: pedicel 2–4 mm, slender, conspicuous
+bracteoles absent; calyx pink or grey blue, 3–4 mm diameter, initially globose and completely
+enclosing the petals, dehiscing somewhat irregularly, becoming truncate, ovary somewhat
+distinct; petals white or pale blue; anther connective blue, J-shaped, with a distinct gland;
+style caducous. Fruits: stalk 4–5 mm long; berry elliptic, 11–13 × 6–8 mm, green when
+immature, cream flushing violet when ripe, blackish when dry, slightly striate or smooth;
+calyx remnant raised; areolus 3–4 mm wide.
+
+Distribution. Sumatra and Peninsular Malaysia. In Peninsular Malaysia known from
+Selangor, Negeri Sembilan, Terengganu, Pahang and Johor.
+
+
+
+
+Map 2. Distribution of Memecylon acuminatissimum
+(●) and M. acuminatum var. flavescens (▲).
+
+
+Conservation status. Least Concern.
+
+
+
+280
+
+
+
+
+SeedPlant4-30072013.indd 280 7/31/13 12:58 PM
+
+@page 19 281
+MEMECYLACEAE (HUGHES)
+
+
+
+
+Figure 5. Memecylon acuminatissimum. A, leafy twig; B, inflorescence; C, infructescence;
+D, flower; E, calyx; F′, anther side view; F″, anther front view. (A from FRI 8773; B from FRI
+38698; C from FRI 10839; D–F from 19885.)
+
+
+281
+
+
+
+
+SeedPlant4-30072013.indd 281 7/31/13 12:58 PM
+
+@page 20 282
+SEED PLANTS VOL. 4 (2013)
+
+
+
+Ecology. In primary lowland mixed dipterocarp forest at 50–550(–900) m altitude.
+
+Uses. Fruits are reported to be stupefying (Gadoh KL 1781).
+
+Notes. Previously considered a synonym of M. oleifolium (Maxwell, Gard. Bull. Sing.
+33 (1980) 95). However, M. acuminatissimum has much larger lanceolate leaves usually
+with more conspicuous venation than M. oleifolium, with a raised or flattened (not sunken)
+midrib. The inflorescence is longer and the fruits are more elongate and dry black with a very
+prominent and thick calyx remnant; those of M. oleifolium are elliptic-globose and usually
+dry paler, sometimes with feint markings, and have a smaller calyx remnant.
+The calyptrate calyx is unusual in Memecylon and appears to be variable in M.
+acuminatissimum as circumscribed here. It is also characteristic of M. ruptile. The only
+other species with a raised mid-vein on the upper lamina surface, M. megacarpum, can be
+distinguished by its shorter petiole and more elliptic (not ovate) leaves. Fertile material can
+be instantly distinguished as M. megacarpum has much larger, globose fruit which are almost
+sessile. Memecylon acuminatissimum has been misapplied to M. beccarianum Cogn. (Bremer,
+1983) which is endemic to Borneo. The latter has longer, more slender inflorescences with
+persistent bracts, and leaves that dry pale grey-green with a depressed midrib above.
+
+
+2. Memecylon acuminatum Sm. Fig. 4
+(Latin, acuminatus = tapering into a narrow point; referring to the leaf apex)
+
+Cycl. (Rees) (1813) 23; Triana, Trans. Linn. Soc. London 28 (1873) 158; Clarke, Fl. Brit. India 2
+(1879) 562; Cogniaux in A.DC. & C.DC., Monogr. Phan. 7 (1891) 1152; King, J. Asiat. Soc. Beng.
+69, 2 (1900) 84; Ridley, Fl. Malay Pen. 1 (1922) 817; Maxwell, Gard. Bull. Sing. 33 (1980) 57, Tr. Fl.
+Malaya 4 (1989) 187; Corner, Wayside Tr. Malaya 3rd ed. (1988) 488 . Type: Collector unknown, s.n.,
+without locality (holotype LINN (herb. Smith)).
+
+Shrub or tree to 10–15 m tall; bole to 15 cm diameter. Twigs brown, terete, internodes 2–3 cm
+apart. Leaves: petioles 4–6 mm long, 1 mm wide; lamina papery or thickish when dry, drying
+brown above, slightly paler below, or pale brown-yellowish on both sides, elliptic lanceolate,
+3.5–8.5 × 1.1–4 cm; base decurrent; apex shortly acuminate or acuminate, acumen extending
+for 7–14 mm; midrib slightly sunken above visible below; venation indistinct to obscure
+above, indistinct or obscure below; marginal vein indistinct, running parallel 1 mm from the
+margin. Inflorescences on leafy branches or behind the leaves, 5(–10)-flowered compound
+dichasia, appearing sub-umbellate, total length 0.8–2.5 cm, glabrous; primary peduncles 1
+to 3, usually 10–15 mm long but occasionally shorter, secondary axes very short. Flowers:
+pedicel 1–2 mm long, slender, conspicuous bracteoles absent; calyx grey-blue, 2–4 mm
+diameter, funnel-shaped, slightly lobed or truncate; petals white with a deep blue base, ovary
+indistinct; anther connective curved, J-shaped, with a distinct gland; style caducous. Fruits:
+stalk 1–2 mm long; berry globose, c. 7 × 6 mm, blackish when dry, smooth; calyx remnant
+raised; areolus 1–2 mm wide.
+
+Distribution. Peninsular Malaysia and Singapore.
+
+Taxonomy. A rather nondescript and not very well understood species which may differ from
+the type as circumscribed here. First attributed to Peninsular Malaysia by Clarke (1879),
+although the type locality remains unknown. Despite the epithet, the leaf shape is not a good
+
+
+282
+
+
+
+
+SeedPlant4-30072013.indd 282 7/31/13 12:58 PM
+
+@page 21 283
+MEMECYLACEAE (HUGHES)
+
+
+
+diagnostic character for this species, because similar long-acuminate leaves are found in
+M. minutiflorum and M. lilacinum among others. The small leaves and inflorescence with
+a distinct primary axis make this species superficially similar to M. floridum, which has
+glandless anthers and a calyx with very pronounced internal teeth.
+Two varieties were recognised by Clarke (1879) based on the differences given in the
+key. While var. acuminatum is widespread, var. flavescens remains poorly known.
+
+
+Key to varieties
+
+Calyx slightly lobed. Leaves drying brownish. ......................................... 2a. var. acuminatum
+Calyx truncate. Leaves drying yellowish. .................................................... 2b. var. flavescens
+
+
+2a. var. acuminatum Map 3
+
+Distribution. Peninsular Malaysia and Singapore. In Peninsular Malaysia known from
+Kedah (Langkawi Is.), Perak, Selangor, Negeri Sembilan, Melaka, Kelantan and Johor.
+
+
+
+
+Map 3. Distribution of Memecylon acuminatum var.
+acuminatum.
+
+
+Conservation status. Least Concern.
+
+Ecology. Not very common, in lowland and hill forest to 1000 m.
+
+
+2b. var. flavescens C.B.Clarke Map 2
+(Latin, flavescens = yellowish; the colour of the leaves on drying)
+
+Fl. Brit. India 2 (1879) 562; Cogniaux in A.DC. & C.DC., Monogr. Phan. 7 (1891) 1153; King, J.
+Asiat. Soc. Beng. 69, 2 (1900) 81; Maxwell, Gard. Bull. Sing. 33 (1980) 58, Tr. Fl. Malaya 4 (1989)
+187. Type: Griffiths 2325/2, Peninsular Malaysia, Melaka [Malacca] (lectotype K here designated;
+isolectotypes GH, L, M n.v., S).
+
+
+
+283
+
+
+
+
+SeedPlant4-30072013.indd 283 7/31/13 12:58 PM
+
+@page 22 284
+SEED PLANTS VOL. 4 (2013)
+
+
+
+Distribution. Endemic in Peninsular Malaysia, collected from Penang, Pahang and Melaka.
+
+Conservation status. Endangered B1ab(ii). Only known from three localities and four
+collections, three of which were made before 1917. Melaka and Western Hill, Penang are
+highly developed areas. Krau Wildlife Reserve is a totally protected area and is pristine.
+
+Ecology. Rare; in tall mixed dipterocarp forest at less than 100 m altitude.
+
+Notes. The true relationship of this poorly known variety with M. acuminatum needs further
+investigation. No flowering material is available. The marked difference in leaf colour on
+drying may reflect underlying biochemical or anatomical differences, and it seems probable
+that var. flavescens may be better recognised at species rank when more material is available
+to furnish a complete description.
+
+
+3. Memecylon amplexicaule Roxb. Fig. 4, Map 4
+(Latin, amplexus = clasping, caule = stem; referring to the leaf base)
+
+Fl. Ind. ed. 1832 (Roxburgh) 2 (1832) 260; Ridley, Fl. Malay Pen. 1 (1922) 815, fig. 65; Maxwell,
+Gard. Bull. Sing. 33 (1980) 58, Tr. Fl. Malaya 4 (1989) 187; Bremer, Opera Bot. 69 (1983) 25; Corner,
+Wayside Tr. Malaya 3rd ed. (1988) 488. Type: Roxburgh, Fl. Ind. ed. 1832 2 (1832) plate 1055
+(lectotype). Synonym: Memecylon microstomum C.B.Clarke, Fl. Brit. India 2 (1879) 557; King, J.
+Asiat. Soc. Beng. 69, 2 (1900) 79. Type: Maingay 1565 (= Kew Distr. No. 821), Peninsular Malaysia,
+Melaka, (lectotype GH here designated; isolectotype L).
+
+Medium-sized tree to 10–20 m high; bole straight, diameter 5–25 cm. Twigs brown, terete,
+internodes 4.5–6 cm apart. Leaves sessile; lamina coriaceous, mottled above when young,
+drying dark brown above rusty brown below, ovate lanceolate, 6–14 × 3–7 cm; lamina base
+cordate to subcordate, often slightly overlapping the stem; apex acute to shortly acuminate;
+midrib sunken above, prominent below; venation indistinct above, indistinct below, lateral
+veins c. 9 pairs; marginal vein obscure or indistinct, 2 mm from margin. Inflorescences
+behind the leaves, glomerulate in pairs from opposite axils with c. 20–30 flowers, total length
+c. 1 cm, glabrous; primary peduncle reduced to a short woody callus. Flowers: pedicel 2–3
+mm long, slender, conspicuous bracteoles absent; calyx campanulate, white, 2 mm diameter,
+slightly lobed, ovary somewhat distinct; petals white; anther connective white or yellowish,
+J-shaped, with a distinct gland; style caducous. Fruits: stalk 2 mm; berry globose and
+sometimes very slightly flattened at the poles, large, c. 17 × 17 mm, green when immature,
+red when ripe; calyx remnant nearly flat; areolus 3–4 mm wide.
+
+Distribution. Peninsular Thailand, Sumatra, Peninsular Malaysia, Singapore and Borneo. In
+Peninsular Malaysia from all states except Perlis.
+
+Conservation status. Least Concern.
+
+Ecology. Common in primary lowland mixed dipterocarp forest on hillsides and ridges and
+persisting in logged forest, at (0–)100–700(–1200) m altitude, occasionally in swamp forest.
+
+Notes. The leaf shape is usually sufficiently distinctive to distinguish this species, but sterile
+specimens can be difficult to separate from some M. coeruleum; however, M. amplexicaule is
+
+
+284
+
+
+
+
+SeedPlant4-30072013.indd 284 7/31/13 12:58 PM
+
+@page 23 285
+MEMECYLACEAE (HUGHES)
+
+
+
+usually a much bigger tree than the shrubby and often coastal M. coeruleum (see also notes
+under that species).
+
+
+
+
+Map 4. Distribution of Memecylon amplexicaule.
+
+
+
+
+4. Memecylon campanulatum C.B.Clarke Fig. 4, Map 5
+(Latin, campanulatus = bell-shaped; referring to the calyx)
+
+Fl. Brit. India 2 (1879) 563; King, J. Asiat. Soc. Beng. 69, 2 (1900) 80; Ridley, Fl. Malay Pen. 1 (1922)
+818; Maxwell, Gard. Bull. Sing. 33 (1980) 63, Tr. Fl. Malaya 4 (1989) 188; Bremer, Opera Bot. 69
+(1983) 31. Type: Griffith 2325, Peninsular Malaysia, Melaka (lectotype K).
+
+Small to sometimes large tree with buttresses, 10–20 m high; bole c. 25 cm diameter. Twigs
+pale to very pale brown or beige, with 2 wide shallow grooves when young, terete when
+mature, internodes 4–8 cm apart. Leaves: petioles 2–3 mm long, c. 2 mm wide; lamina very
+coriaceous, drying blackish or sometimes pale brown above, reddish brown below, elliptic to
+broadly elliptic, 8–12 × 4–6.5 cm; base decurrent, apex rounded or very shortly acuminate;
+midrib sunken above prominent below; venation obscure above and below; marginal vein
+obscure. Inflorescences behind the leaves, glomerulate in pairs from opposite axils with 40+
+flowers, total length c. 1 cm, glabrous; primary peduncle very small and becoming part of a
+woody callus. Flowers: pedicels c. 3 mm long, slender, conspicuous bracteoles absent; calyx
+campanulate, whitish or yellow, 2–3 mm diameter, slightly lobed, ovary somewhat distinct;
+petals whitish; anther connective curved, J-shaped, with a distinct gland; style caducous.
+Fruits: stalk 3–4 mm; berry globose, sometimes slightly flattened at the poles, c. 8 × 10 mm,
+green when immature, red when ripe, brown or grey-green when dry; calyx remnant raised;
+areolus c. 2 mm wide.
+
+Distribution. Sumatra, Peninsular Malaysia and Borneo. Peninsular Malaysia: Kedah,
+Melaka, Terengganu, Pahang and Johor.
+
+
+
+
+285
+
+
+
+
+SeedPlant4-30072013.indd 285 7/31/13 12:58 PM
+
+@page 24 286
+SEED PLANTS VOL. 4 (2013)
+
+
+
+
+Map 5. Distribution of Memecylon campanulatum.
+
+
+Conservation status. Near Threatened.
+
+Ecology. Not common in primary lowland mixed dipterocarp forest on hillsides and ridges
+at altitudes of 80–300 m.
+
+Notes. Maxwell (1980) suggested the possibility of this species being synonymous with M.
+ovatum, but the resemblance appears to be superficial. The two grow in very different habitats.
+Memecylon campanulatum is a much larger tree, and also differs in having white flowers (not
+blue) in much more compact and congested inflorescences, with elliptic rather than ovate
+leaves with much shorter petioles. Sterile material is potentially confusable with M. edule,
+but the petioles are much stouter in M. campanulatum, and the leaves more coriaceous and
+usually larger. The inflorescence in M. edule always has a distinct primary peduncle.
+
+
+5. Memecylon cantleyi Ridl. Fig. 3, Map 6
+(After Nathaniel Cantley, (†1888), Superintendent of the Botanic Gardens, Singapore 1880–
+1888)
+
+J. Str. Br. Roy. Asiat. Soc. 79 (1918) 72., Fl. Malay Pen. 1 (1922) 818; Maxwell, Gard. Bull. Sing.
+33 (1980) 64, Tr. Fl. Malaya 4 (1989) 188; Bremer, Opera Bot. 69 (1983) 33. Type: Ridley 13012,
+Singapore, Gardens Jungle, (lectotype K; isolectotype BM, SING). Synonym: Memecylon dissitum
+Craib, Kew Bull. (1930) 325 syn. nov. Type: Kerr 15408, Thailand, Kao Luang (holotype ABD,
+isotype BISH).
+
+Tree 5–10 m high; bole to 25 cm diameter. Twigs pale brown, slightly flattened on 2 sides
+when young, becoming terete when mature; internodes 2–5 cm apart. Leaves: petioles 2–6
+mm long, 1–2 mm wide; lamina drying olive green above (sometimes brown) and slightly
+paler olive green below, elliptic, 7–15 × 3–7.5 cm, base decurrent, apex distinctly acuminate,
+acumen extending for 10–20 mm; midrib flattish above prominent below drying pale beige
+and much paler than the lamina; venation indistinct to obscure above, indistinct below, lateral
+veins c. 10 pairs; marginal vein indistinct, 1–2 mm from margin. Inflorescences on leafy
+branches, compound dichasia with 5–15 flowers, total length 1–2.5 cm; primary peduncles
+
+
+286
+
+
+
+SeedPlant4-30072013.indd 286 7/31/13 12:58 PM
+
+@page 25 287
+MEMECYLACEAE (HUGHES)
+
+
+
+1–3, 5–15 mm long, secondary axes 1(–3), 2–5 mm long. Flowers: pedicels 2–3 mm,
+slender, conspicuous bracteoles absent; calyx goblet-shaped, pinkish with some blue, 3 mm
+diameter, truncate, ovary indistinct; petals light blue at the tips, darker blue at the base; anther
+connective blue, C-shaped, with a centrally placed gland; style semi-persistent. Fruits: stalk
+3–4 mm; berry urn-shaped at first becoming subglobose, 9–10 × 8–9 mm, white to pinkish
+white when immature, ripening through pinkish to dark blue when fully ripe, drying pale
+brown (immature) or black and often squashed (when ripe), smooth; calyx remnant quite
+wide and prominent in immature fruits becoming less so when mature; areolus 2–3 mm wide.
+
+Distribution. Thailand, Sumatra, Peninsular Malaysia, Singapore and Borneo. Peninsular
+Malaysia widespread, in all states except Perlis.
+
+
+
+
+Map 6. Distribution of Memecylon cantleyi.
+
+
+Conservation status. Least Concern.
+
+Ecology. Not common, in primary lowland mixed dipterocarp forest on undulating land or on
+hillsides from 5–760 m altitude.
+
+Notes. This species is distinctive in having leaves that dry a pale grey-green on both sides
+with a distinctly paler midrib.
+
+
+6. Memecylon coeruleum Jack Figs. 2, 4, Map 7
+(Latin, coeruleus = deep sky blue; the colour of the petals and anthers)
+
+Malayan Misc. 1 (1820) 26; King, J. Asiat. Soc. Beng. 69, 2 (1900) 80; Ridley, Fl. Malay Pen. 1 (1922)
+816; (as M. caeruleum) Maxwell, Gard. Bull. Sing. 33 (1980) 61, Tr. Fl. Malaya 4 (1989) 188; Corner,
+Wayside Tr. Malaya 3rd ed. (1988) 489, fig. 150. Type: Kamarudin FRI34597, Peninsular Malaysia,
+Pulau Pinang (neotype KEP, isoneotype SING here designated). Synonyms: Memecylon floribundum
+Blume, Mus. Bot. Lugd.-Bat. 23 (1851) 361; M. coeruleum var. floribundum (Blume) Kurz, Forest Fl.
+Burma I (1877) 511. Type: Blume s.n. Java (lectotype L [L0009039] here designated).
+
+
+
+
+287
+
+
+
+
+SeedPlant4-30072013.indd 287 7/31/13 12:58 PM
+
+@page 26 288
+SEED PLANTS VOL. 4 (2013)
+
+
+
+Shrub or more rarely a small slender tree, 1.5–4 m high. Twigs brown, terete, internodes 4–5.5
+cm apart. Leaves: petiole 0–4 mm long, 2–3 mm wide; lamina coriaceous, drying dark brown
+above, slightly paler yellowish brown or rusty brown below, elliptic or elliptic-lanceolate,
+7.5–12 × 3.5–5.5 cm; base slightly cordate to rounded; apex acute to shortly acuminate;
+midrib slightly sunken or flattish above, prominent below; venation indistinct above,
+indistinct or obscure below, lateral veins c. 9 pairs; marginal vein obscure. Inflorescences
+on leafy branches, 10–15-flowered, glomerulate, total length c. 1 cm, glabrous; primary
+peduncles 1 or 2, 5 mm long. Flowers: pedicel 2–3 mm long, stout, with 2 conspicuous
+bracteoles at the base; calyx initially globose, becoming truncate with 4 short slits, bright
+pink, 3–4 mm diameter, ovary indistinct; petals deep blue; anthers connective blue, J-shaped,
+with a distinct gland; style caducous. Fruits: stalk 3–4 mm; berry elliptic, c. 12 × 7 mm, pink
+when immature, deep purple-black when ripe; calyx remnant raised; areolus 3–4 mm wide.
+
+Vernacular name. Delek jambu (Malay).
+
+Distribution. Indo-China, Thailand, Sumatra, Peninsular Malaysia and Java. In Peninsular
+Malaysia in all states except Kelantan.
+
+
+
+
+Map 7. Distribution of Memecylon coeruleum.
+
+
+Conservation status. Least Concern.
+
+Ecology. Common in coastal forest on rocky or sandy shores/beaches, occasionally further
+inland and up to 500 m altitude.
+
+Notes. In the herbarium this often coastal shrub vegetatively resembles the forest tree M.
+amplexicaule, in its rounded to cordate leathery leaves with an extremely short petiole.
+Apart from its habit and usually growing in a different habitat, it can be distinguished by its
+bright pink calyx, blue petals, elliptic fruit, and not being ramiflorus. There are three other
+species which are also found in coastal habitats, M. edule, M. ovatum and M. pauciflorum.
+Memecylon edule has smaller leaves with a decurrent base, often with somewhat visible
+veins; M. ovatum differs in having longer petioles and broadly ovate leaves. Memecylon
+pauciflorum has much smaller leaves and quadrangular branches and cannot be confused
+
+
+
+288
+
+
+
+SeedPlant4-30072013.indd 288 7/31/13 12:58 PM
+
+@page 27 289
+MEMECYLACEAE (HUGHES)
+
+
+
+with the other coastal species. Memecylon cordatum Wall. nom. nud., (Num. List 4100) also
+belongs under M. coeruleum in part.
+
+
+7. Memecylon corticosum Ridl. Figs. 2, 3, Map 8
+(Latin, corticosus = with a lot of bark; referring to the corky wings on the twigs)
+
+J. Fed. Malay St. Mus. 10 (1920) 92; Maxwell, Gard. Bull. Sing. 33 (1980) 67, Tr. Fl. Malaya 4 (1989)
+187; Bremer, Opera Bot. 69 (1983) 19; Wijedasa & Hughes, Phytotaxa 66 (2012) 6. Type: Kloss 7027,
+Thailand, Lasau (holotype K).
+
+Shrub or slender tree, to 5 m high. Twigs pale straw-coloured, sometimes drying darker,
+conspicuously 4-winged, wings auriculate below the internodes, wings fragile and rapidly
+becoming worn, twigs becoming terete when very mature but when smaller retaining
+a squarish shape due to the wing remnants, internodes (2–)4–7(–10) cm apart. Leaves:
+petioles c. 2 mm long, slightly pulvinate, 2 mm wide; lamina medium green and glossy
+above, slightly paler below and dull, drying dull olive green or greyish green above and paler
+below, though occasionally darker and brown, lanceolate to elongate- or linear-lanceolate,
+11–23 × (1–)3.5–7(–9) cm; base truncate to subcordate, channelled above near the petiole,
+apex acuminate or gradually acuminate, acumen extending for c. 1 cm; midrib sunken above
+prominent below; venation either distinct or indistinct, vein pairs 10–16; marginal vein
+prominent or indistinct, running 3–7 mm from margin where visible. Inflorescences usually
+behind the leaves on thicker branches, occasionally just behind or with the leaves, 10–30
+flowered, very condensed and arising from a woody callus, total length 1 cm. Flowers:
+pedicles 2.5–4 mm long, slender, conspicuous bracteoles absent; calyx campanulate, pink
+or blue, 3–4 mm diameter, truncate or with 4 shallow rounded lobes, ovary indistinct; petals
+whitish or pink; anther connective purple, J-shaped, with a centrally placed gland; style
+caducous. Fruits: stalk 3–4 mm long; berry globose, c. 8 mm diameter, purple or red when
+ripe, blackish or brown when dry with grey markings, outer texture smooth, pericarp very
+thin when dry; calyx remnant very prominent; areolus 3–4 mm wide.
+
+Distribution. Thailand, Peninsular Malaysia and Borneo (Kalimantan). In Peninsular
+Malaysia collected from Kelantan, Terengganu, Pahang and Johor.
+
+
+
+
+Map 8. Distribution of Memecylon corticosum var..
+corticosum (●) and var. kratense (▲).
+
+
+289
+
+
+
+
+SeedPlant4-30072013.indd 289 7/31/13 12:58 PM
+
+@page 28 290
+SEED PLANTS VOL. 4 (2013)
+
+
+
+Notes. The flowers have been described variously as red (Kochummen 18497) and dark
+crimson (Kloss 7027); more careful observations on Maxwell 86-314 describe the calyx as
+pale pink, the petals whitish to lilac, and the anthers filaments blue (all specimens referring to
+var. corticosum). At the extremes the two varieties are very distinct, particularly in Peninsular
+Malaysia, but some specimens of var. kratense from Thailand (e.g. Middleton et al. 2686)
+appear intermediate.
+
+
+Key to varieties
+
+Leaves lanceolate to elongate-lanceolate, lateral veins sunken above and prominent below. ......
+.................................................................................................................. 7a. var. corticosum
+Leaves elongate-lanceolate to linear-lanceolate, lateral veins indistinct on both surfaces. ........
+...................................................................................................................... 7b. var. kratense
+
+
+7a. var. corticosum Fig. 3
+
+Shrub or slender tree to c. 5 m high. Twigs with internodes (2)–4–6 cm apart. Leaves: lamina
+lanceolate to elongate-lanceolate, 11–18 × 3.5–6 cm, drying papery and brown to dark
+brown above, paler brown or olive green below, base truncate to rounded, apex elongate
+acuminate, acumen extending for 1.5–3 cm; midrib sunken above, prominent below, drying
+paler than the lamina; venation sunken and visible above, prominent below, drying paler than
+the lamina, lateral veins 10–15 pairs; marginal vein distinct, looping between the main veins
+3–6 mm from the margin.
+
+Distribution. Thailand, Peninsular Malaysia and Borneo (Kalimantan). In Peninsular
+Malaysia mostly in the northereast but also in Johor.
+
+Conservation status. Least Concern.
+
+Ecology. In primary lowland mixed dipterocarp forest up to c. 300 m altitude, often in wetter
+valley bottoms near streams but also on hillsides and ridges, persisting in logged forest.
+
+Notes. It can be difficult to distinguish from M. wallichii when sterile; see notes under that
+species. Memecylon fruticosum can be similar, but has smaller leaves and flowers on younger
+leafy branches.
+
+
+7b. var. kratense (Craib) Wijedasa
+Phytotaxa 66 (2012) 8. Basionym: Memecylon kratense Craib, Bull. Misc. Ingo. Kew (1930) 326.
+Type: Put 531, Thailand, Chanthaburi, Krat (lectotype ABD, isolectotypes BK, K).
+
+Shrub or slender tree 3–4 m tall. Twigs with internodes 3–7 cm apart. Leaves: lamina
+elongate-lanceolate to linear lanceolate, 11–21 × 1–2(–6) cm, drying pale greyish brown
+and slightly glossy above, slightly paler and sometimes slightly greener below, occasionally
+drying dark rusty brown on both sides, base truncate to slightly cordate, apex gradually
+
+
+
+290
+
+
+
+
+SeedPlant4-30072013.indd 290 7/31/13 12:58 PM
+
+@page 29 291
+MEMECYLACEAE (HUGHES)
+
+
+
+acuminate; midrib sunken above, prominent below, drying paler than the lamina; venation
+indistinct to obscure above and below; marginal vein indistinct, where visible looping 1–3
+mm from the margin.
+
+Distribution. Myanmar (Mergui), Southern Thailand and Peninsular Malaysia (Terengganu).
+
+Conservation status. Critically Endangered B1ab(iii). Known only from a single specimen
+(Chan FRI023984) from Ulu Setiu FR collected in 1977. The threats and status need checking
+in the field because the locality falls outside the network of Totally Protected Areas.
+Ecology. Ridge top forest.
+
+
+Notes. The single record from Peninsular Malaysia has almost linear leaves.
+
+
+8. Memecylon dichotomum (C.B.Clarke) King Fig. 3
+(Latin, dichotome = branched in pairs; referring to the habit)
+
+King, J. Asiat. Soc. Beng. 69, 2 (1900) 75; Ridley, Fl. Malay Pen. 1 (1922) 812; Maxwell, Gard.
+Bull. Sing. 33 (1980) 69, Tr. Fl. Malaya 4 (1989) 189. Basionym: Memecylon elegans var. dichotoma
+C.B.Clarke, Fl. Brit. India 2 (1879) 554. Type: Griffith 2324, Peninsular Malaysia, Melaka (lectotype
+K here designated). Synonyms: Memecylon eugeniiflora Ridl., J. Str. Br. Roy. Asiat. Soc. 57 (1910) 48;
+Memecylon dichotomum var. eugeniiflorum (Ridl.) Ridl., Fl. Malay Pen. 1 (1922) 812. Type: Ridley
+14695, Peninsular Malaysia, Perak, Temengor [Temengo] (lectotype K here designated; isolectotype
+K). Memecylon ridleyi Cogn. ex Ridl. nom. nud., J. Str. Br. Roy. Asiat. Soc. 30 (1897) 85.
+
+Shrub or small slender tree 2–8 m high; bole 2–3(–12) cm diameter. Twigs brown, 2–grooved
+to 4-angled when young, usually with 4 thin wings toward the upper part of the internode,
+terete when mature, internodes 3–7 cm apart. Leaves: petioles 0–3 mm long, 1–2 mm
+diameter; lamina drying dark brown above paler brown or olive green below, ovate to ovate
+lanceolate, (4–)6–12 × (1.5–)2.5–4.7 cm; base slightly cordate to rounded; apex acuminate,
+acumen extending for 9–13 mm; midrib sunken above, prominent below; venation usually
+distinct above, occasionally indistinct, visible to indistinct or more rarely obscure below,
+lateral vein 6–7 pairs; marginal vein visible, 2–3 mm from margin. Inflorescences on leafy
+branches, glomerulate with (3–)5–10 flowers, total length less than 1 cm, rarely to 3 cm, axes
+sometimes minutely puberulent; primary peduncles 1–5, very reduced, stout, usually less
+than 3 mm long, rarely slender 15–20 mm long, secondary axes 2–3 mm long, unbranched.
+Flowers: pedicel indistinct from the calyx, stout, with 2 persistent triangular bracteoles at
+the base; calyx elongate funnel-shaped, pink, c. 4 mm diameter, when young with four very
+shallow rounded lobes almost completely enclosing the petals, becoming truncate when
+mature, minutely puberulent, ovary indistinct; petals pale pink; anther connective purple,
+C-shaped, with a centrally placed reddish-brown gland; style caducous. Fruits: stalk c. 1
+mm; berry globose, quite large, 9–14 mm diameter, yellowish green when immature, red
+when ripe; calyx remnant prominent and quite wide; areolus 3–4 mm.
+
+Distribution. Peninsular Thailand and Peninsular Malaysia. In Peninsular Malaysia: Kedah,
+Perak, Selangor, Negeri Sembilan, Melaka, Terengganu, Pahang and Johor.
+
+
+
+
+291
+
+
+
+
+SeedPlant4-30072013.indd 291 7/31/13 12:58 PM
+
+@page 30 292
+SEED PLANTS VOL. 4 (2013)
+
+
+
+Uses. To make joints healthy and strong, the Jah Hut dry and burn the leaves and rub the ash
+on the baby’s body or cut the root into fine pieces and add it to the water the baby is bathed
+in (Christensen & Rozidan 2384). The Temuan (Gadoh KL1661) report that the fruits are
+stupefying and the wood is used to make belantek (bows).
+
+Notes. A quite variable species in terms of leaf shape and venation prominence, but distinct
+in terms of the calyx appearance. Two varieties are recognised based on differences in the
+inflorescence (see key).
+
+
+Key to varieties
+
+Primary peduncles 1–5, stout, to 3 mm long. ............................................ 8a. var. dichotomum
+Primary peduncles solitary, slender, 15–20 mm long. ............................... 8b. var. rotundatum
+
+
+8a. var. dichotomum Map 9
+
+Distribution. Peninsular Thailand and Peninsular Malaysia. Throughout Peninsular Malaysia
+except for Perlis and Penang.
+
+
+
+
+Map 9. Distribution of Memecylon dichotomum var.
+dichotomum.
+
+
+Conservation status. Least Concern.
+
+Ecology. Common in primary lowland mixed dipterocarp forest in both swampy areas and
+on ridge tops, less commonly in lower montane forest to 1700 m altitude, occasionally on
+limestone; persisting in logged/secondary forest.
+
+
+
+
+292
+
+
+
+
+SeedPlant4-30072013.indd 292 7/31/13 12:58 PM
+
+@page 31 293
+MEMECYLACEAE (HUGHES)
+
+
+
+8b. var. rotundatum (Craib) J.F. Maxwell Map 10
+Gard. Bull. Sing. 33 (1980) 71. Basionym: Memecylon gracilipes var. rotundatum Craib, Fl. Siam.
+Enum. (1931) 708. Type: Kerr 15766, Thailand, Trang, (lectotype ABD here designated; isolectotype
+BK). Synonyms: Memecylon curtisii Burkill & Hend., Gard. Bull. S.S. 3 (1925) 377; Memecylon
+gracilipes Ridl. later homonym J. Str. Br. Roy. Asiatic Soc. 70 (1918) 72; Memecylon perakense Merr.,
+nom. superfl. Gard. Bull. S.S. 8 (1935) 132. Type: Curtis 1295, Peninsular Malaysia, Perak, Waterloo
+Estate (holotype SING).
+
+Distribution. Peninsular Thailand and Peninsular Malaysia. In Peninsular Malaysia known
+only from Perak.
+
+
+
+
+Map 10. Distribution of Memecylon dichotomum
+var. rotundatum.
+
+
+Conservation status. Data Deficient. Known only from three localities in Perak all within
+100 km2 and which all fall outside the network of Totally Protected Areas and one of which
+(G. Pondok) is a limestone hill that is being totally demolished for cement. It has not been
+recollected for more than 60 years.
+
+Ecology. In lowland forest or in forest on limestone (G. Pondok) at c. 600 m.
+
+
+9. Memecylon durum Cogn. Fig. 4, Map 11
+(Latin duritia = hardness; the dense wood)
+
+In A.DC. & C.DC., Monogr. Phan. 7 (1891) 1152; Bremer, Opera Bot. 63: 28 (1983). Type: Beccari
+2641, Borneo, Sarawak, Matang, (lectotype FI; isolectotype BR). Synonym: Memecylon globosum
+Bakh.f., Meded. Bot. Mus. Herb. Rijks Univ. Utrecht 91 (1943) 355; Maxwell, Gard. Bull. Sing. 33
+(1980) 82, Tr. Fl. Malaya 4 (1989) 186. Type: van Steenis 1265, Indonesia, Natuna [Natoena] Is.
+(holotype L; isotypes A n.v., BO n.v.).
+
+A shrub or medium-sized tree to 5–20 m tall; bole to 25 cm diameter. Twigs drying pale tan,
+terete, slightly grooved just below the nodes, internodes 3–5 cm apart. Leaves: petioles 5–8
+mm long; lamina drying brown to brownish olive green above, paler olive or reddish brown
+
+
+
+293
+
+
+
+
+SeedPlant4-30072013.indd 293 7/31/13 12:58 PM
+
+@page 32 294
+SEED PLANTS VOL. 4 (2013)
+
+
+
+below, broadly elliptic to elliptic lanceolate 5–(6–10) × 3–(5–6) cm; base shortly decurrent;
+apex distinctly acuminate; midrib narrowly sunken above, prominent below, venation
+indistinct to obscure above and below. Inflorescences on leafy branches, sub-umbellate with
+c. 5 large flowers, total length c. 2 cm long, primary peduncles usually 1, to 10 mm long.
+Flowers: pedicel c. 3 mm long, stout, conspicuous bracteoles absent; calyx initially globose,
+fleshy, whitish, c. 5 mm diameter, becoming truncate to broadly lobed, ovary indistinct;
+petals white; anther connective purple, J-shaped, with a large centrally placed gland. Fruits:
+stalk to 10 mm, woody; berry globose, large, c. 15 mm diameter, greenish when immature,
+drying dark brown; areolus flattened, c. 4 mm diameter.
+
+Distribution. Peninsular Malaysia, Singapore, Natuna Islands and Borneo (Sarawak). In
+Peninsular Malaysia: Johor (Gunung Blumut).
+
+
+
+
+Map 11. Distribution of Memecylon durum (●) and
+M. perplexum (▲).
+
+
+Conservation status. Critically Endangered B2ab(iii). In Peninsular Malaysia, known only
+from a single collection (Mohd. Shah & Sanusi MS2173) from G. Belumut at 150 m altitude,
+which at this altitude is likely to fall outside the boundary of the G. Belumut Wildlife Reserve.
+It has not been re-collected for more than 40 years.
+
+Ecology. In primary lowland mixed dipterocarp forest at altitudes of c. 200 m.
+
+Notes. The large fruit is distinctive. In Peninsular Malaysia, it is known from only one
+specimen, which lacks flowers; the description has been augmented from Bremer (1983) and
+Bornean material.
+
+
+10. Memecylon edule Roxb. Fig. 4, Map 12
+(Latin, edulis = edible; referring to the fruits)
+
+Pl. Coromandel 1 (1798) t. 82; Clarke, Fl. Brit. India 2 (1879) 563; King, J. Asiat. Soc. Beng. 69, 2
+(1900) 86; Ridley, Fl. Malay Pen. 1 (1922) 819; Maxwell, Gard. Bull. Sing. 33 (1980) 72, Tr. Fl. Malaya
+4 (1989) 189; Corner, Wayside Tr. Malaya 3rd ed. (1988) 489; Bremer, Opera Bot. 69 (1983) 30. Type:
+Roxburgh 4107A, India (lectotype K-W).
+
+
+294
+
+
+
+
+SeedPlant4-30072013.indd 294 7/31/13 12:58 PM
+
+@page 33 295
+MEMECYLACEAE (HUGHES)
+
+
+
+Small tree 5–10 m tall; boles often numerous and crooked, 5–15 cm diameter. Twigs pale
+brown, 2 grooved, terete when mature, internodes 1.5–4 cm apart. Leaves: petioles 2–5 mm
+long, 1–2 mm wide; lamina somewhat coriaceous, drying greenish or dark brown above
+slightly paler below, often with dark grey lateral veins above which are very slightly prominent,
+elliptic lanceolate, 4–7.5 × 2–3.5 cm; base decurrent; apex acute to shortly acuminate; midrib
+sunken above, prominent below; lateral veins indistinct to obscure above indistinct to obscure
+below, main veins c. 6; marginal vein obscure. Inflorescences just behind the leaves; many-
+flowered compound dichasia (c. 50 flowers); total length 1.5–2–(2.5) cm, glabrous; primary
+peduncles 1 or 2, 5–10 mm long, secondary axes up to 5, 2–4 mm long, tertiary much reduced.
+Flowers: pedicel 1–2 mm long, slender, conspicuous bracteoles absent; calyx campanulate,
+greenish or yellowish, c. 1.5 mm diameter, truncate to shallowly 4-lobed, ovary somewhat
+distinct; petals whitish or pinkish; anther connective lilac, C-shaped with a distinct gland;
+style caducous. Fruits: stalk 1–2 mm long; berry globose often slightly flattened at the poles,
+c. 7 × 8 mm, green when immature ripening to dark blue-purple/black via yellow (never red),
+drying brownish or blackish, calyx remnant slightly raised; areolus 1–2 mm wide.
+
+Vernacular name. Delek ayer, delek putih (Malay).
+
+Distribution. Sri Lanka, India, Indo-China, Thailand, Peninsular Malaysia, Singapore,
+Borneo. Widespread in Peninsular Malaysia, in all states except for Perlis and mainland
+Kedah, Perak and Negeri Sembilan.
+
+
+
+
+Map 12. Distribution of Memecylon edule.
+
+
+Conservation status. Least Concern.
+
+Ecology. Quite common, usually in coastal hill forest, growing near the sea on rocks or cliffs
+or in sandy heath forest, or slightly further inland on ridge tops and occasionally in lowland
+or lower montane forest to 750 m or on limestone hills.
+
+Uses. Extracts of this species have been found to possess some anti-inflammatory, analgesic
+and wound healing properties (Nualkaew et al. J. Ethnopharmacol. 21 (2009) 278). Burnett
+(Outlines Bot. (1835) 720) states that the fruit, although edible, are ‘too astringent to be
+pleasant food’.
+
+
+
+295
+
+
+
+
+SeedPlant4-30072013.indd 295 7/31/13 12:58 PM
+
+@page 34 296
+SEED PLANTS VOL. 4 (2013)
+
+
+
+Notes. Memecylon globiferum Wall. nom. nud. (Num. List 4108) also belongs here. Ridley
+noted that it was a ‘very handsome shrub’. The flowers are ‘very fragrant’ (Corner, 1988).
+See notes under M. ovatum.
+
+
+11. Memecylon excelsum Blume Figs. 2, 3, Map 13
+(Latin, excelsus = tall; referring to the habit)
+
+Bijdr. Fl. Ned. Ind. 17 (1826) 1904; Bakhuizen f., Meded. Bot. Mus. Herb. Rijks Univ. Utrecht 91
+(1943) 350; Maxwell, Gard. Bull. Sing. 33 (1980) 76, Tr. Fl. Malaya 4 (1989) 190, fig. 2; Bremer, Opera
+Bot. 69 (1983) 21; Corner, Wayside Tr. Malaya 3rd ed. (1988) 489. Type: Blume s.n., Java (lectotype
+L). Synonyms: Memecylon heteropleurum Blume, Mus. Bot. Lugd.-Bat. 1 (1851) 362; Ridley, Fl.
+Malay Pen. 1 (1922) 813; Bakhuizen f., Meded. Bot. Mus. Herb. Rijks Univ. Utrecht 91 (1943) 349.
+Type: Korthals, s.n., Sumatra (lectotype L; isolectotypes L, S n.v.). Memecylon maingayi C.B.Clarke,
+Fl. Brit. India 2 (1879) 557; Ridley, Fl. Malay Pen. 1 (1922) 813; Furtado, Gard. Bull. Sing. 20 (1963)
+120; Corner, Wayside Tr. Malaya 3rd ed. (1988) 490. Type: Maingay 1422 (=Kew Distr. No. 814),
+Peninsular Malaysia, Melaka (holotype K). Memecylon heteropleurum var. olivaceum King, J. Asiat.
+Soc. Beng. 69, 2 (1900) 78; Furtado, Gard. Bull. Sing. 20 (1963) 120. Type: Wray 1310, Peninsular
+Malaysia, Perak (lectotype SING; isolectotype SING).
+
+Small and slender tree, 5–10(–15) m tall; bole 5–10 cm diameter. Twigs brown, slightly
+flattened on two sides when young, becoming terete, internodes c. 10 cm apart. Leaves
+sessile or petioles to 3 mm long, stout, to 5 mm wide, drying blackish; lamina drying dark
+brown above and paler brown or olive green beneath, elliptic to elliptic lanceolate, large,
+13–28 × 4–10(–13) cm; base truncate, noticeably indented from above near the petiole; apex
+acuminate to distinctly acuminate, acumen extending for 10–15 mm; midrib indented above,
+prominent below and drying concolorous with the lamina or blackish, venation visible above,
+sometimes indistinct when dry, prominent below, lateral vein c. 12 pairs; marginal vein
+distinct looping broadly between the lateral veins, 3–8 mm from the margin. Inflorescences
+behind the leaves on thickish branches, glomerulate with 10–50 flowers, total length 1–3
+cm, glabrous; primary axis usually indistinguishable, secondary axes arising from a woody
+callus, peduncles becoming woody. Flowers: pedicel c. 3 mm long, stout, conspicuous
+bracteoles absent; calyx pale green, c. 5 mm in diameter, truncate with four small notches
+marking the flat lobes, almost completely enclosing the petals in bud, ovary indistinct; petals
+white or pale blue; anther connective pale blue, large, with a distinct gland; style caducous.
+Fruits: stalk 3–6 mm, woody; berry elliptic to broadly elliptic, 13–16 × 8–11 mm, green
+or white when immature becoming pink to red when ripe, drying blackish; calyx remnant
+prominent, areolus 4–5 mm wide.
+
+Distribution. India (Nicobar islands), Myanmar, Peninsular Thailand, Sumatra, Peninsular
+Malaysia, Singapore, Java and Borneo. Throughout Peninsular Malaysia except for Perlis.
+
+Conservation status. Least Concern.
+
+Ecology. One of the most common species, usually in primary lowland or hill mixed
+dipterocarp forest to 1200 m altitude, persisting in secondary forest.
+
+Notes. See notes under M. megacarpum. Memecylon heteropleurum var. olivaceum King
+was lectotypified under two different taxa in Maxwell (1980); the first one to appear in the
+account is followed here.
+
+
+
+296
+
+
+
+
+SeedPlant4-30072013.indd 296 7/31/13 12:58 PM
+
+@page 35 297
+MEMECYLACEAE (HUGHES)
+
+
+
+
+Map 13. Distribution of Memecylon excelsum.
+
+
+
+
+12. Memecylon floridum Ridl. Fig. 4, Map 14
+(Latin, floridus = profusely flowering)
+
+J. Str. Br. Roy. Asiat. Soc. 79 (1918) 73; Ridley, Fl. Malay Pen. 1 (1922) 816; Maxwell, Gard. Bull.
+Sing. 33 (1980) 78, Tr. Fl. Malaya 4 (1989) 190; Bremer, Opera Bot. 69 (1983) 37. Type: King’s
+collector 3551, Peninsular Malaysia, Perak, Larut (lectotype K).
+
+Medium-sized tree, 10–20 m high; bole to 20 cm diameter. Twigs pale brown, with 2 wide
+shallow grooves or 4-angled when young, soon becoming terete, internodes 1–6 cm apart.
+Leaves: petiole c. 3 mm long, 1–2 mm wide, sometimes indistinct; lamina drying brownish
+green or brown above, paler yellowish green or yellowish brown below, elliptic, 5–7.5 ×
+2–3.5 cm; base decurrent; apex acuminate, acumen to 5–8 mm long; midrib thinly indented
+above, prominent below, venation indistinct above, with very fine lateral veins visible below,
+marginal vein visible but indistinct, running more-or-less parallel 1–2 mm from the margin.
+Inflorescences on leafy branches, sub-umbellate with 5–10 flowers, 1–1.5 cm long, with a
+short (3–10 mm) but usually distinct single primary peduncle. Flowers: pedicel 3–4 mm
+long, slender, conspicuous bracteoles absent; calyx white, funnel-shaped, c. 3 mm diameter,
+with four shallow triangular lobes, internal teeth elongate and surrounding the style, ovary
+somewhat distinct; petals white; anther connective purple, triangular, gland absent; style
+caducous. Fruits: stalk c. 3 mm long; berry globose, c. 12 mm diameter, yellow (when
+mature?); calyx remnant prominent, areolus c. 3 mm wide.
+
+Distribution. Peninsular Malaysia, Singapore and Borneo. In Peninsular Malaysia: Perak,
+Selangor, Negeri Sembilan, Kelantan, Terengganu and Pahang.
+
+Conservation status. Least Concern.
+
+Ecology. Sporadic in lowland or hill mixed dipterocarp forest, often on ridges, to 800 m
+altitude.
+
+
+
+
+297
+
+
+
+
+SeedPlant4-30072013.indd 297 7/31/13 12:58 PM
+
+@page 36 298
+SEED PLANTS VOL. 4 (2013)
+
+
+
+
+Map 14. Distribution of Memecylon floridum.
+
+
+Notes. Superficially most similar to M. acuminatum; fertile specimens of M. floridum can be
+instantly distinguished by the absence of an anther gland. Sterile material can be separated by
+the 2-grooved or 4-angled young twigs, which are terete or faintly grooved in M. acuminatum.
+
+
+13. Memecylon fruticosum King Fig. 3, Map 15
+(Latin, fruticosus = shrubby)
+
+King, J. Asiat. Soc. Beng. 69, 2 (1900) 74; Ridley, Fl. Malay Pen. 1 (1922) 812; Maxwell, Gard. Bull.
+Sing. 33 (1980) 79, Tr. Fl. Malaya 4 (1989) 187; Bremer, Opera Bot. 69 (1983) 35. Type: King’s
+Collector 2971, Peninsular Malaysia, Perak, Larut (lectotype K; isolectotype SING[2]). Synonyms:
+Memecylon epiphyticum King, J. Asiat. Soc. Beng. 69, 2 (1900) 74; Ridley, Fl. Malay Pen. 1 (1922) 811.
+Type: Wray 2727, Peninsular Malaysia, Perak, Sungai Larut (lectotype SING). Memecylon tenuifolium
+Ridl., Fl. Malay Pen. 1 (1922) 812. Type: Kassim 748, Peninsular Malaysia, Pahang, Temerloh, Telok
+Mengkuang (lectotype SING here designated; isolectotype K).
+
+Small slender treelet or shrub, to about 3–4 m tall. Twigs pale brown to reddish brown,
+4-winged becoming auriculate below the internode, wings gradually eroding and twigs
+becoming terete when mature, internodes 1.5–6 cm apart. Leaves: petioles 1–2 mm long,
+1 mm wide; lamina drying dark brown or greenish brown above, usually paler and greenish
+below, drying with a very matt surface, lanceolate, 5.5–10(–15) × 1.5–6 cm; base rounded
+to sub cordate; apex shortly acuminate to acuminate, acumen 8–12 mm long; midrib sunken
+above prominent below, drying slightly paler than or concolorous with the lamina beneath;
+veins indistinct to (less commonly) distinct above, indistinct to (less commonly) distinct
+below, lateral veins c. 10–13 pairs; marginal vein indistinct or visible, looping slightly
+between the lateral veins, 2(–6) mm from margin. Inflorescences just behind the leaves or
+on leafy branches, sub-umbellate with 5–10 flowers, total length 1–2 cm; primary peduncles
+1 or 2, length 1–8(–15) mm. Flowers: pedicel quite long (to 5 mm), slender, conspicuous
+bracteoles absent; calyx whitish or pale blue, campanulate, 2 mm diameter, with 4 shallow
+rounded lobes, ovary somewhat distinct; petals whitish or pale blue; anther connective dark
+blue, C-shaped with a distinct gland, the gland off-centre towards the tip of the connective;
+style caducous. Fruits: stalk 2–3 mm long; berry sub-elliptic to elliptic, 8–10 × 7–8 mm, blue
+when ripe; pedicel length c. 5 mm; calyx remnant prominent; areolus width 3–4 mm wide.
+
+
+
+298
+
+
+
+
+SeedPlant4-30072013.indd 298 7/31/13 12:58 PM
+
+@page 37 299
+MEMECYLACEAE (HUGHES)
+
+
+
+Distribution. Thailand, Sumatra, Peninsular Malaysia, Java, Natuna Islands and Borneo. In
+Peninsular Malaysia: Penang, Perak, Selangor, Negeri Sembilan, Terengganu and Pahang.
+
+
+
+
+Map 15. Distribution of Memecylon fruticosum.
+
+
+Conservation status. Least Concern.
+
+Ecology. In lowland mixed dipterocarp forest to 350 m altitude.
+
+Notes. Memecylon fruticosum is most closely allied to M. corticosum, but can be distinguished
+by its smaller, more ovate leaves, longer peduncles, and being ramiflorus. Material from
+Pasoh FR tends to have larger leaves with more conspicuous venation and hence comes
+closer to M. corticosum; some specimens (e.g. Ogata 10495) have both large and small
+leaves with varying degrees of secondary venation prominence. Further work is required on
+the delimitation of these two species. Memecylon fruticosum is also potentially confusable
+with M. dichotomum, which has 4-angled rather than 4-winged. Twigs and a puberulent,
+larger calyx with conspicuous bracteoles.
+
+
+14. Memecylon garcinioides Blume Figs. 2, 4, Map 16
+(Latin; resembling Garcinia, Guttiferae)
+
+Mus. Bot. Lugd.-Bat. 1 (1851) 358; King, J. Asiat. Soc. Beng. 69, 2 (1900) 85; Ridley, Fl. Malay Pen.
+1 (1922) 818; Bakhuizen f., Meded. Bot. Mus. Herb. Rijks Univ. Utrecht 91 (1943) 359; Maxwell,
+Gard. Bull. Sing. 33 (1980) 81, Tr. Fl. Malaya 4 (1989) 191; Bremer, Opera Bot. 69 (1983) 37; Corner,
+Wayside Tr. Malaya 3rd ed. (1988) 489. Type: Blume 20, Sumatra (lectotype L). Synonym: Memecylon
+hepaticum auct. non Blume: Furtado, Gard. Bull. Sing. 20 (1963) 119.
+
+A straggly shrub or slender tree, to 3–4(–12) m high; bole often leaning, up to 10 cm diameter.
+Twigs pale brown, terete or with 2 indistinct grooves just below the internode, terete when
+mature, internodes c. 4–8 cm apart. Leaves: petiole 2–5 mm long, 1–2 mm wide, sometimes
+indistinct; lamina mottled when young, drying papery, drying dark brown above paler below,
+often greenish or mottled beneath, elliptic to elliptic lanceolate, 5.5–13 × 2.7–5.8 cm; base
+decurrent; apex shape acuminate, acumen extending for 6–12 mm; midrib sunken above
+
+
+299
+
+
+
+
+SeedPlant4-30072013.indd 299 7/31/13 12:58 PM
+
+@page 38 300
+SEED PLANTS VOL. 4 (2013)
+
+
+
+prominent below; veins visible or more usually indistinct above, veins below visible though
+not very prominent, often slightly wrinkled due to the shrinkage of the surrounding lamina
+when dry; marginal vein indistinct, running more-or-less parallel 1 mm from the margin.
+Inflorescences on leafy branches or just behind the leaves, glomerulate with 20–30 flowers,
+total length c. 1 cm, glabrous; primary peduncles 1–3, 2–10 mm long, secondary peduncles
+very reduced and indistinguishable or to c. 2 mm long. Flowers: pedicel 2–3 mm long,
+slender, conspicuous bracteoles absent; calyx campanulate, whitish, 2.5 mm diameter, with
+four shallow lobes, flattened out showing eight conspicuous pale dots after dehiscence of
+petals and anthers, ovary somewhat distinct; petals whitish; anther connective sub-globose
+with a distinct gland, the gland not central but on the connective tip; style caducous. Fruit:
+stalk 2–3 mm long; berry globose, c. 8 mm diameter, ripening through pink to purple; calyx
+remnant slightly raised, areolus 1–1.5 mm wide.
+
+Distribution. Peninsular Thailand, Sumatra, Peninsular Malaysia, Singapore, Java and
+Borneo. Throughout Peninsular Malaysia except for Kedah, Penang,and Kelantan
+
+
+
+
+Map 16. Distribution of Memecylon garcinioides.
+
+
+Conservation status. Least Concern.
+
+Ecology. Quite common in primary lowland or hill dipterocarp forest on hillsides or ridges
+to 1100 m altitude.
+
+Notes. The anther gland at end of connective is distinctive.
+
+
+15. Memecylon hullettii King Figs. 2, 3, 6, Map 17
+(after R.W. Hullet, 1843–1914, headmaster of the Raffles School, Singapore, and an amateur
+plant collector)
+
+King, J. Asiat. Soc. Beng. 69, 2 (1900) 76; Ridley, Fl. Malay Pen. 1 (1922) 813; Maxwell, Gard. Bull.
+Sing. 33 (1980) 83, Tr. Fl. Malaya 4 (1989) 187. Type: King & Hullett 253, Peninsular Malaysia, Johor,
+G. Pulai (lectotype K).
+
+
+300
+
+
+
+
+SeedPlant4-30072013.indd 300 7/31/13 12:58 PM
+
+@page 39 301
+MEMECYLACEAE (HUGHES)
+
+
+
+
+Figure 6. Memecylon hullettii. A, fertile twig; B, infructescence; C, fruit; D, flower; E, calyx
+and style; F, petal; G, anther. (A from FRI 67162; B–E from Mohd. Shah MS 2123; F–G from
+FRI 2182.)
+
+
+
+301
+
+
+
+
+SeedPlant4-30072013.indd 301 7/31/13 12:58 PM
+
+@page 40 302
+SEED PLANTS VOL. 4 (2013)
+
+
+
+Shrub or treelet 1.5–3 m high. Twigs brown, terete, internodes c. 5.5–7 cm apart. Leaves:
+petioles 1–2 mm long, 2 mm wide; lamina subcoriaceous, drying olive green above brown
+below, or drying blackish on both sides, elongate oblong-lanceolate, 13–22 × 4–8 cm; base
+markedly cordate to slightly cordate; apex acuminate, acumen extending for c. 15 mm;
+midrib sunken above prominent below; veins visible above and below, lateral vein c. 14 pairs;
+marginal vein visible, looping between the main veins, 2–3 mm from margin. Inflorescences
+on leafy branches, pendant compound umbels, total length c. 4–7 cm; primary peduncle 1,
+length 3–5 cm; secondary axes absent or up to 7, 1–2 cm long, ending in sub-umbellate
+clusters each with 5–15 flowers, axes papillose towards the nodes. Flowers: pedicels 2–3
+mm long, slender, conspicuous bracteoles absent; calyx campanulate, lilac at the base, 2–3
+mm diameter, with 4 white shallow triangular lobes, ovary somewhat distinct; petals pale
+pink; anther connective curved, quite small in relation to the locules, with a distinct gland
+towards the end of the connective; style caducous. Fruits: stalk 6–7 mm long; berry globose,
+8–9 × 7–9 mm, pinkish white when immature, blue when ripe; calyx remnant raised and
+slightly funnel-shaped, areolus c. 3 mm wide.
+
+Distribution. Endemic in Peninsular Malaysia: known only from Johor.
+
+
+
+
+Map 17. Distribution of Memecylon hullettii.
+
+
+Conservation status. Least Concern.
+
+Ecology. In lowland mixed dipterocarp forest, on slopes or in sheltered valleys to 650 m
+altitude.
+
+Notes. A very distinctive species even when sterile due to its long oblong-lanceolate strap-
+like leaves which are cordate at the base. Allied to M. laruei Merr. from Sumatra, which
+differs mainly in having winged Twigs.
+
+
+
+
+302
+
+
+
+SeedPlant4-30072013.indd 302 7/31/13 12:58 PM
+
+@page 41 303
+MEMECYLACEAE (HUGHES)
+
+
+
+16. Memecylon intermedium Blume Figs. 2, 4, Map 18
+(considered by Blume to be intermediate between Memecylon garcinioides Blume and M.
+laxiflorum DC.)
+
+Mus. Bot. Lugd.-Bat. 1 (1851) 358; King, J. Asiat. Soc. Beng. 69, 2 (1900) 86; Ridley, Fl. Malay Pen. 1
+(1922) 819; Bakhuizen f., Meded. Bot. Mus. Herb. Rijks Univ. Utrecht 91 (1943) 363; Maxwell, Gard.
+Bull. Sing. 33 (1980) 84, Tr. Fl. Malaya 4 (1989) 192; Bremer, Opera Bot. 69 (1983) 38. Type: Blume
+s.n., Java (lectotype L, isolectotype L[2]).
+
+Small tree to 25 m high; bole often leaning, to 25 cm diameter. Twigs brown, terete or with
+an indistinct groove on very young branches, internodes 2–5 cm apart. Leaves: petioles 2–4
+mm long, 1–2 mm wide, sometimes indistinct; lamina drying blackish above reddish brown
+below, elliptic, (5–)6–9(–11) × 1.5–4 cm; base decurrent; apex shortly acuminate, acumen
+extending for 1–1.5 cm; midrib slightly sunken above, visible to prominent below; venation
+obscure or indistinct above and below, marginal vein indistinct, running more-or-less parallel
+1 mm from the margin. Inflorescences on leafy branches or just behind the leaves, sub-
+umbellate with c. 20 flowers, total length c. 1 cm, axes sometimes minutely puberulent;
+primary peduncles distinct, 1–3 in number, 2–7 mm long, secondary shorter, to 2 mm long.
+Flowers: pedicel c. 1.5 mm long, slender, conspicuous bracteoles absent; calyx campanulate,
+1.5–2 mm diameter, with four shallow lobes, ovary somewhat distinct; petals white or
+greenish; anther connective J-shaped, with a distinct gland, the gland towards the tip of the
+connective; style caducous. Fruits: stalk 1–3 mm long; berry globose, c. 8 mm diameter,
+ripening from green through yellow to blue; calyx remnant flattish, c. 2 mm diameter.
+
+Distribution. Peninsular Thailand, Sumatra, Peninsular Malaysia, Java and Borneo.
+Throughout Peninsular Malaysia except for Perlis, Negeri Sembilan and Melaka.
+
+
+
+
+Map 18. Distribution of Memecylon intermedium.
+
+
+
+Conservation status. Least Concern.
+
+Ecology. Common in lowland and hill dipterocarp forest on hill slopes or ridges to 1800 m
+altitude.
+
+
+
+303
+
+
+
+SeedPlant4-30072013.indd 303 7/31/13 12:58 PM
+
+@page 42 304
+SEED PLANTS VOL. 4 (2013)
+
+
+
+Notes. A rather nondescript species thatcan be distinguished from the allied M. garcinioides
+by its smaller and thicker leaves, and anthers with the gland not directly on the tip of the
+connective. Memecylon lilacinum is vegetatively superficially similar, but has relatively
+broader leaves and grooved Twigs, and when fertile a shorter primary peduncle; flowering
+material can instantly be separated on the presence/absence of the anther gland.
+
+
+17. Memecylon kunstleri King Figs. 2, 3, Map 19
+(after H.H. Kunstler, 1837–1887, a German explorer who collected plants in Peninsular
+Malaysia for Sir George King’s Flora of the Malay Peninsula)
+
+King, J. Asiat. Soc. Beng. 69, 2 (1900) 76; Ridley, Fl. Malay Pen. 1 (1922) 814; Maxwell, Gard. Bull.
+Sing. 33 (1980) 86, Tr. Fl. Malaya 4 (1989) 192. Type: King’s Collector 10419, Peninsular Malaysia,
+Perak (lectotype K here designated; isolectotypes KEP, L, SING[2]).
+
+Small tree to 20 m high; bole 15–30 cm diameter. Twigs drying pale brown or grey,
+indistinctly 2-grooved or slightly flattened, becoming terete with age, internodes 2.5–5 cm
+apart. Leaves: petioles distinct, c. 3 mm long, 1 mm wide; lamina drying fairly papery and
+dark brown above, paler reddish brown below, ovate lanceolate, somewhat straight-sided,
+8–14 × 3–6 cm; base truncate to slightly cordate; apex acuminate; midrib sunken above,
+prominent below, drying paler than the lamina below; venation visible above, prominent
+below; marginal vein quite prominent, often double, looping between the main veins, 1–2 and
+3–5 mm from the margin. Inflorescences on leafy branches, compound dichasia appearing
+sub-umbellate, with 20–50 flowers, total length 20–25 mm, glabrous; peduncles drying quite
+pale brown, primary 1 or 2, 10–15 mm long, secondary 3 to 5, c. 3 mm long, tertiary very
+reduced. Flowers: pedicel 2–3 mm long, slender, conspicuous bracteoles absent; calyx green,
+funnel-shaped, c. 2 mm diameter, with four short triangular teeth, ovary somewhat distinct;
+petals white; anther connective C-shaped, dark brown, with a distinct gland; style caducous.
+Fruits: stalk 3 mm long; berry elliptic, c. 7 mm long; calyx remnant prominent with 4 short
+teeth, areolus 2 mm wide.
+
+Distribution. Endemic in Peninsular Malaysia (but see notes): Perak, Selangor and Negeri
+Sembilan.
+
+
+
+
+Map 19. Distribution of Memecylon kunstleri.
+
+
+
+304
+
+
+
+SeedPlant4-30072013.indd 304 7/31/13 12:58 PM
+
+@page 43 305
+MEMECYLACEAE (HUGHES)
+
+
+
+Conservation status. Vulnerable. B2ab(iii). The most recent collection dates from 1940,
+since when several localities have undergone land-use change.
+
+Ecology. Lowland primary forest on limestone or by river banks.
+
+Notes. Possibly a synonym of the earlier described M. micranthum Blume from Java, which
+was previously included under M. oleifolium. However, the type material is too fragmentary
+to fully justify reducing M. kunstleri.
+
+
+18. Memecylon lanceolatum Blanco Fig. 4, Map 20
+(Latin, lanceolatus = lance-shaped; the leaves)
+
+Fl. Filip. (1837) 301. Type: Merrill 975, Philippines, Luzon, Rizal (neotype US here designated).
+Small tree 4–5 m high; bole c. 10 cm diameter. Twigs drying beige to brown, flattened on 2
+sides when young, soon becoming terete, internodes 1.5–4 cm apart. Leaves: petiole c. (2–)
+5(–10) mm long, 1–2 mm wide, slightly grooved on the upper surface; lamina ovate elliptic,
+occasionally with a very slight asymmetry, drying golden-brown on both sides, ovate elliptic,
+drying stiff, 4–7.5 × 1.5–3 cm; base decurrent; apex shortly acuminate; midrib indistinct
+above, sometimes with a thin groove, prominent below, drying slightly paler than the lamina;
+venation indistinct or obscure on both sides. Inflorescences on leafy branches, compound
+dichasia with 10–20 flowers, total length c. 2.5(–5) cm; primary peduncles 1–2, 0.5–1.5 cm,
+secondary and tertiary axes often present, shorter than the primary, branching 3–5 times at
+each node. Flowers: pedicel c. 4 mm long, slender, conspicuous bracteoles absent; calyx
+campanulate, whitish, drying beige, c. 3 mm diameter, subtruncate to slightly lobed, ovary
+somewhat distinct; petals blue; anther connective J-shaped, gland present, nearer to the
+thecae. Fruits: stalk 4–5 mm long; berry urn-shaped at first becoming subglobose, 6–8 × 5–7
+mm, drying pale brown (immature) or black and often squashed (when ripe), smooth; calyx
+remnant quite wide and prominent in immature fruits becoming less so when mature; areolus
+2–3 mm wide; style often persistent due to inner calyx ridges being adnate to the base of the
+style.
+
+Distribution. Thailand, Peninsular Malaysia (Kedah), Vietnam, China, Taiwan and the
+Philippines (Luzon).
+
+Conservation status. Data Deficient. In Peninsular Malaysia, known from two specimens
+collected in 1836 and 1931 both without information on the exact locality, habitat or altitude.
+
+Ecology. In deciduous or evergreen forest from 250–800 m.
+
+Notes. A new record for Peninsular Malaysia. Allied to M. cantleyi, it differs in having
+smaller, thicker leaves.
+
+
+
+
+305
+
+
+
+SeedPlant4-30072013.indd 305 7/31/13 12:58 PM
+
+@page 44 306
+SEED PLANTS VOL. 4 (2013)
+
+
+
+
+Map 20. Distribution of Memecylon lanceolatum
+(●), M. lancifolium (○) and M. malaccense (▲).
+
+
+
+19. Memecylon lancifolium Ridl. Fig. 4, Map 20
+(Latin lanci- = lanceolate, folium = leaf)
+
+Fl. Malay Pen. 5 (1925) 311; Maxwell, Gard. Bull. Sing. 33 (1980) 107. Type: Ridley 3840, Singapore,
+Sungai Morai, (lectotype K ex SING here designated; isolectotype K).
+
+Small tree c. 5 m tall; bole 10 cm diameter. Twigs drying reddish brown, shallowly 2-grooved,
+becoming terete, internodes 3–6 cm apart. Leaves: petioles 8–10 mm long, 1–2 mm wide,
+drying reddish brown; lamina drying dark blackish brown above, reddish brown below and
+more matt than the upper surface, elongate lanceolate, c. 15–17 × 3.4–4.5 cm; base somewhat
+decurrent; apex gradually acuminate; midrib deeply sunken forming a narrow channel on
+the upper surface, prominent below; venation indistinct on both surfaces, marginal vein
+visible to indistinct, running 1–2 mm parallel from the margin or looping very slightly near
+the lateral veins. Inflorescences on leafy branches, compound dichasia with many (c. 50+)
+flowers, total length (1–)3–4 cm, primary peduncles c. 2, to c. 10 mm long, branching 3–4
+times, peduncles becoming shorter, final branching very compressed so the flowers appear
+sub-umbellate. Flowers: pedicels c. 2 mm long, slender, conspicuous bracteoles absent;
+calyx campanulate, drying black, c. 3 mm diameter, with 4 broad lobes; petals blue; anther
+connective C-shaped with a centrally located gland; style caducous. Fruits: stalk 3–4 mm
+long; berry subglobose, c. 7 mm diameter when dry; calyx remnant very prominent, with 4
+thickened triangular lobes, areolus 3 mm wide.
+
+Distribution. Peninsular Malaysia and Singapore. In Peninsular Malaysia known only from
+Kelantan (Ulu Sat FR (Suppiah KEP104585) and Terengganu (Rasau Kerteh VJR (Chan
+FRI16852) and Bt. Bauk (Hou 765; Hisham FRI2154, Suppiah FRI28313).
+
+Conservation status. Critically Endangered CR Bab(iii). Known from three localities; there
+are no habitat details for Ulu Sat FR that lies outside the network of Totally Protected Areas.
+
+Ecology. Tree in primary forest (hillside) up to 450 m altitude.
+
+
+
+306
+
+
+
+
+SeedPlant4-30072013.indd 306 7/31/13 12:58 PM
+
+@page 45 307
+MEMECYLACEAE (HUGHES)
+
+
+
+Notes. Poorly known. The inflorescence size and shape is reminiscent of M. oleifolium, but
+the leaves are much more elongate and dry very dark. The material from Bt. Bauk has much
+shorter inflorescences than the type.
+
+
+20. Memecylon lilacinum Zoll. & Moritz Figs. 2, 4, Map 21
+(Latin, lilacinus = lilac-coloured; referring to the petals)
+
+Syst. Verz. (Zollinger) (1846) 9; Maxwell, Gard. Bull. Sing. 33 (1980) 87, Tr. Fl. Malaya 4 (1989) 192;
+Bremer, Opera Bot. 69 (1983) 39. Homotypic synonym: Memecylon myrsinoides var. lilacina (Zoll.
+& Moritz) King, J. Asiat. Soc. Beng. 69, 2 (1900) 81; Bakhuizen f., Meded. Bot. Mus. Herb. Rijks
+Univ. Utrecht 91 (1943) 342. Type: Zollinger 187, Java (lectotype G; isolectotypes A, BM, K, L[2]).
+Heterotypic synonyms: Memecylon myrsinoides Blume, Mus. Bot. Lugd.-Bat. 1 (1851) 356; King, J.
+Asiat. Soc. Beng. 69, 2 (1900) 81; Ridley, Fl. Malay Pen. 1 (1922) 817; Bakhuizen f., Meded. Bot. Mus.
+Herb. Rijks Univ. Utrecht 91 (1943) 341; Corner, Wayside Tr. Malaya 3rd ed. (1988) 490. Type: Blume
+s.n. (lectotype L). Memecylon laevigatum Blume, Mus. Bot. Lugd.-Bat. 1 (1851) 358; King, J. Asiat.
+Soc. Beng. 69, 2 (1900) 82; Ridley, Fl. Malay Pen. 1 (1922) 817; Bakhuizen f., Meded. Bot. Mus. Herb.
+Rijks Univ. Utrecht 91 (1943) 343. Type: Anon, Sumatra (lectotype L[908130-295] here designated;
+isolectotype L). Memecylon cinereum King J. Asiat. Soc. Beng., 69, 2 (1900) 82 syn. nov.; Ridley, Fl.
+Malay Pen. 1 (1922) 817; Maxwell, Gard. Bull. Sing. 33 (1980) 66, Tr. Fl. Malaya 4 (1989) 192. Type:
+King’s Collector 3143, 1882, Peninsular Malaysia, Perak, Selama (lectotype K).
+
+Tree to 10–20(–25) m high; bole 10(–25) cm diameter. Twigs pale brown or brown, darker
+when young, with two usually narrow grooves or wider grooves becoming 4-angled, terete
+when mature, internodes c. (1–)3(–5) cm apart. Leaves: petioles 3–8 mm long, 1–2 mm
+wide; lamina drying blackish or grey-green above, brown below, elliptic to lanceolate,
+(3–)6–7(–12) × (1.5–)2.5–3.5(–5) cm; base decurrent, rarely sub-truncate; apex acuminate,
+acumen extending for 5–10 mm; midrib sunken above prominent below; venation obscure
+or indistinct above and below. Inflorescences on leafy branches or just behind the leaves,
+glomerulate with 10–20 flowers, to c. 1 cm total length, glabrous; primary peduncles 1 or
+2, short, 1–2 mm long, secondary peduncles shorter. Flowers: pedicels 1–1.5 mm long,
+slender, conspicuous bracteoles absent; calyx funnel-shaped, pale pink or whitish, c. 2.5 mm
+diameter, with four acuminate teeth, ovary somewhat distinct; petals lilac, acuminate, giving
+a distinctive silhouette to the bud; anther connective blue, triangular, without a gland; style
+caducous. Fruits: stalk 1–2 mm long; berry subglobose to globose, slightly flattened at the
+poles, sometimes indented at the base near the pedicel, sometimes very slightly pointed at
+the apex, 7–11 mm diameter, blackish when dry, sometimes with stripy markings running
+from base to apex, slightly rough in texture and sometimes with whitish dots; calyx remnant
+slightly raised or becoming worn forming a pale flat ring; areolus 1.5–2 mm wide.
+
+Vernacular name. Mangas (Malay).
+
+Distribution. Myanmar, Indo-China, Thailand, Sumatra, Peninsular Malaysia, Singapore,
+Java and Borneo. In Peninsular Malaysia in all states.
+
+Conservation status. Least Concern.
+
+Ecology. The most common species in Peninsular Malaysia, in primary lowland and hill
+mixed dipterocarp forest up to 1200 m altitude, often by streams or on ridges, occasionally
+on limestone hills or by the sea.
+
+
+307
+
+
+
+
+SeedPlant4-30072013.indd 307 7/31/13 12:58 PM
+
+@page 46 308
+SEED PLANTS VOL. 4 (2013)
+
+
+
+
+Map 21. Distribution of Memecylon lilacinum.
+
+
+Uses. The Temuan (Gadoh KL 1295) report that the fruits are stupefying.
+
+Notes. Vegetatively a very variable species, united by its short inflorescences of flowers
+with distinctly acuminate petals and glandless anthers (Fig. 2). Memecylon cinereum is here
+reduced because its flowers are indistinguishable from those of M. lilacinum, and it is not
+really possible to maintain this species as separate on vegetative grounds when M. lilacinum
+already encompasses so much variation.
+
+
+21. Memecylon malaccense (C.B.Clarke) Ridl. Fig. 4, Map 20
+(after Melaka, Peninsular Malaysia, the type locality)
+
+J. Str. Br. Roy. Asiat. Soc. 79 (1918) 73; Ridley, Fl. Malay Pen. 1 (1922) 816; Maxwell, Gard. Bull.
+Sing. 33 (1980) 90, Tr. Fl. Malaya 4 (1989) 187. Basionym: Memecylon amabile Bedd. var. malaccensis
+C.B.Clarke, Fl. Brit. India 2 (1879) 555. Type: Maingay 2531 (= Kew Distr. No. 819), Peninsular
+Malaysia, Melaka (lectotype K).
+
+Habit unknown. Twigs pale brown, 4-angled, slightly winged especially below the nodes,
+becoming terete, internodes 2–5 cm apart. Leaves: petioles very short, c. 1 mm long, 1 mm
+wide; lamina drying dark reddish brown above and below, 3.5–7 × 1.5–3 cm; base truncate
+to slightly cordate; apex acute to acuminate, acumen extending for 5–10 mm; venation
+obscure above and below. Inflorescences just behind the leaves or on leafy branches, sub-
+umbellate with c. 5 flowers, less than 1 cm total length; primary peduncles 1 or 2, c. 5 mm
+long, secondary peduncles very reduced, much less than 1 mm long, minute hairs present
+at the branching points. Flowers: pedicels slender, c. 2 m long; calyx funnel-shaped, c. 2
+mm diameter, with 4 shallow triangular lobes, ovary somewhat distinct; petals and anthers
+unknown; style caducous. Fruits unknown.
+
+Distribution. Endemic in Peninsular Malaysia: Melaka
+
+Conservation status. Data Deficient. Known only from two collections (Maingay 2528,
+2531) possibly collected between 1862 and 1868, details of the exact locality, habitat and
+altitude are not specified.
+
+
+308
+
+
+
+
+SeedPlant4-30072013.indd 308 7/31/13 12:59 PM
+
+@page 47 309
+MEMECYLACEAE (HUGHES)
+
+
+
+Ecology. Not known.
+
+Notes. Poorly known. The lectotype unfortunately has only one leaf corresponding to the
+intended taxon; the remainder of the material on the sheet is probably M. floridum Ridl.
+There is better material on Maingay 2528 (syntype), under the same Kew Distr. No. as the
+lectotype.
+
+
+22. Memecylon megacarpum Furtado Fig. 3, Map 22
+(Greek, mega = large, -carpus = fruited)
+
+Gard. Bull. Sing. 20 (1963) 121; Maxwell, Gard. Bull. Sing. 33 (1980) 91, Tr. Fl. Malaya 4 (1989) 193;
+Bremer, Opera Bot. 69 (1983) 21. Homotypic synonym: Memecylon pulchrum Cogn. non Kurz in
+A.DC. & C.DC., Monogr. Phan. 7 (1891) 1141. Type: Beccari 1833, Borneo, Sarawak (lectotype FI;
+isolectotypes K, P n.v.). Memecylon heteropleurum auct. non Blume: King, J. Asiat. Soc. Beng., 69, 2
+(1900) 78.
+
+Shrub to more usually a small to medium-sized tree, to 15 m high; bole to 15 cm diameter.
+Twigs brown, 2-grooved or slightly flattened on 2 sides, becoming terete when mature,
+internodes 3.5–11 cm apart. Leaves: petiole 1–4 mm long, 2 mm wide; lamina glossy green
+above, drying dark brown and slightly paler reddish brown beneath, usually elliptic, sometimes
+elliptic-lanceolate, 10.5–22.5 × 4–9 cm; base slightly decurrent to rounded; apex acuminate
+to shortly acuminate, acumen 15 mm long; midrib flatish or slightly raised above, prominent
+below, more rarely slightly indented; veins visible and slightly sunken, prominent below and
+appearing quite straight and regularly spaced, lateral vein 14–16 pairs; marginal vein distinct,
+looping between the lateral veins, 2–4 mm from margin. Inflorescences behind the leaves
+or on leafy branches, glomerulate with 5–15 flowers, total length c. 1 cm, glabrous; primary
+peduncles very short, 1–2 mm long, often arising from woody tubercles. Flowers: pedicels
+indistinct from the calyx, stout, 2 conspicuous bracteoles sometimes present; calyx initially
+globose, white or pale pink, 3–4 mm diameter, quite fleshy, becoming truncate at maturity
+with 4 short slits, minutely papillose, ovary indistinct; petals white; anther connective blue,
+shallowly C-shaped, with a large and distinct gland; style caducous. Fruits: stalk 2–3 mm
+long; berry large, globose, often very slightly flattened at the poles, 13–17 × 15–18 mm;
+calyx remnant raised; areolus 3–4 mm wide.
+
+Distribution. Peninsular Thailand, Sumatra, Peninsular Malaysia, Singapore and Borneo. In
+Peninsular Malaysia found in all states except Perlis.
+
+Conservation status. Least Concern.
+
+Ecology. Very common in primary or disturbed lowland mixed dipterocarp forest often on
+flat and poorly drained areas on riverbanks and valley bottoms, but also found on hillsides
+and ridges, from low altitudes to occasionally c. 1400 m in hill mixed dipterocarp forest or in
+peat swamp forest or on limestone hills.
+
+Uses. The Jah Hut use the very hard wood in house construction and to make a dippling stick
+for sowing hill padi (Christensen & Rozidan 2356)
+
+
+
+
+309
+
+
+
+
+SeedPlant4-30072013.indd 309 7/31/13 12:59 PM
+
+@page 48 310
+SEED PLANTS VOL. 4 (2013)
+
+
+
+
+Map 22. Distribution of Memecylon megacarpum.
+
+
+Notes. Memecylon megacarpum, along with M. excelsum, is one of the most commonly
+encountered species that have large conspicuously veined leaves and terete or grooved twigs
+(not conspicuously winged). The leaves of M. megacarpum are usually smaller, more elliptic
+and more narrowed toward the base than those of M. excelsum and in the field they appear
+stiffer. However, there is a lot of overlapping variation in leaf size and shape in both these
+species, and the best way to distinguish M. megacarpum in Peninsular Malaysia is by the
+raised or flattened midrib. This character is also found in M. acuminatissimum (see notes
+under that species). The large, globose, sessile fruit is a reliable character. The leaf margin
+of M. megacarpum also curls under on drying much more noticeably than in other species,
+especially near the base.
+The type of this name is from Sarawak, and was first applied to Peninsular Malaysian
+collections by Maxwell (1980). The Bornean material has larger leaves with a sunken midrib
+above; further work is required to see if the Peninsular Malaysian material represents a new
+taxon.
+
+
+23. Memecylon minutiflorum Miq. Figs. 2, 4, Map 23
+(Latin; minutus = small, flos = flower)
+
+Fl. Ned. Ind. Suppl. 1 (1860) 323; King, J. Asiat. Soc. Beng. 69, 2 (1900) 81; Ridley, Fl. Malay Pen.
+1 (1922) 818; Bakhuizen f., Meded. Bot. Mus. Herb. Rijks Univ. Utrecht 91 (1943) 353; Maxwell,
+Gard. Bull. Sing. 33 (1980) 93, Tr. Fl. Malaya 4 (1989) 193; Bremer, Opera Bot. 69 (1983) 40. Type:
+Diepenhorst 2337, Sumatra (lectotype U; isolectotype BO).
+
+A shrub or tree 6–15 m high; bole to 25 cm diameter. Twigs: pale brown, with 2 narrow
+grooves when young opening out into a wider groove later, becoming terete when mature;
+internodes 2–7 cm apart. Leaves: petiole 5–7 mm long, 1–2 mm wide; lamina drying
+dark chocolate brown above, contrasting sharply with the pale olive green undersurface,
+undersurface sometimes mottled, elliptic to elliptic-lanceolate, (5–)8–11(–12.5) × (2.5–)
+3.5–4.5(–6.5) cm; base decurrent; apex acuminate, acumen 8–18 mm long; midrib sunken
+above, prominent below, drying paler than the lamina below; venation indistinct to obscure
+above and below. Inflorescences usually on leafy branches, sometimes just behind the
+
+
+310
+
+
+
+
+SeedPlant4-30072013.indd 310 7/31/13 12:59 PM
+
+@page 49 311
+MEMECYLACEAE (HUGHES)
+
+
+
+leaves, compound dichasia with c. 10 flowers, total length 1–2 cm, glabrous; usually with
+a distinct primary peduncle to 15 mm long, sometimes very reduced, secondary axes 1–2
+mm. Flowers: pedicels c. 1 mm, slender, conspicuous bracteoles absent; calyx campanulate,
+whitish, c. 1.5 mm diameter, minutely puberulent, with four shallow triangular lobes, brown
+or greyish green when dry, ovary very distinct; petals white; anther connective blue, shallowly
+C-shaped with a distinct centrally placed gland; style caducous. Fruits: stalk 1–2 mm long;
+berry globose sometimes slightly flattened at the poles or slightly indented at the top and
+bottom, 7–8 × 7–10 mm, ripening from green to yellow to deep purple, usually grey green
+when dry, sometimes darker brownish, mealy; calyx remnant flattened forming a pale ring;
+areolus c. 1 mm wide.
+
+Distribution. India (Andaman Islands), Peninsular Thailand, Sumatra, Peninsular Malaysia,
+Singapore and Borneo. In Peninsular Malaysia in all states except Perlis and Kelantan.
+
+
+
+
+Map 23. Distribution of Memecylon minutiflorum.
+
+
+Conservation status. Least Concern.
+
+Ecology. A common species of lowland mixed dipterocarp forest to 700 m altitude, occasional
+in coastal hill forest.
+
+Uses. The Temuan (Gadoh KL 1502) report that the fruits are stupefying.
+
+Notes. A quite distinctive species in the herbarium due to the contrasting colour of the upper
+and lower leaf surface when dry.
+
+
+24. Memecylon oleifolium Blume Figs. 2, 4. Map 24
+(Latin; leaves resembling those of the olive tree Olea europaea L., Oleaceae)
+
+Mus. Bot. Lugd.-Bat. 1 (1851) 359; King, J. Asiat. Soc. Beng. 69, 2 (1900) 82; Ridley, Fl. Malay Pen. 1
+(1922) 814; Bakhuizen f., Meded. Bot. Mus. Herb. Rijks Univ. Utrecht 91 (1943) 356; Maxwell, Gard.
+Bull. Sing. 33 (1980) 95, Tr. Fl. Malaya 4 (1989) 193; Bremer, Opera Bot. 69 (1983) 24. Type: Korthals
+s.n., Sumatra (lectotype L; isolectotypes A, L, K n.v.).
+
+
+311
+
+
+
+
+SeedPlant4-30072013.indd 311 7/31/13 12:59 PM
+
+@page 50 312
+SEED PLANTS VOL. 4 (2013)
+
+
+
+Tree to 20 m tall; bole to 25 cm diameter. Twigs: pale brown or beige, darker when young,
+very slightly grooved or flattened at the apex on young material, becoming terete when
+mature; internodes c. 5–7 cm apart. Leaves: petiole (4–)6–9 mm long, 1–2 mm wide;
+lamina drying dark brown above, paler brown or olive green or below often with a reddish
+blush near the midrib, elliptic to elliptic lanceolate, 9–12 × 4–6 cm; base decurrent; apex
+acuminate, acumen extending for c. 10 mm; midrib sunken above, prominent below, venation
+indistinct above and below. Inflorescences on leafy branches, compound dichasia with c.
+80–100 flowers, total length 2.5–5 cm, with a distinct primary peduncle (5–)10–20 mm
+long, peduncles sometimes minutely puberulent. Flowers: pedicel c. 2.5 mm long, slender,
+conspicuous bracteoles absent; calyx campanulate, 1.5 mm diameter, sometimes minutely
+puberulent, truncate with 4 small teeth, ovary somewhat distinct; petals acuminate giving
+a pointed silhouette to the bud; anther connective J-shaped, with a centrally placed gland;
+style caducous. Fruits: stalk 2–3 mm long; berry ellipsoid, c. 10 × 7 mm, drying dark brown
+or blackish often with paler striations running from the base to the apex; calyx remnant
+prominent forming a pale ring; areolus c. 2 mm wide.
+
+Vernacular name. Delek putih (Malay).
+
+Distribution. Myanmar, Peninsular Thailand, Sumatra, Peninsular Malaysia, Singapore,
+Java and Borneo. Widespread in Peninsular Malaysia, known from Kedah, Penang, Perak,
+Negeri Sembilan, Melaka, Pahang and Johor.
+
+
+
+
+Map 24. Distribution of Memecylon oleifolium.
+
+
+Conservation status. Least Concern.
+
+Ecology. Common in lowland dipterocarp forest to 600 m altitude, especially on steep
+hillsides and ridges.
+
+Notes. As circumscribed here, a quite uniform taxon and distinct from the more variable
+M. acuminatissimum (see notes under that species). In the herbarium M. oleifolium can be
+separated by its smaller, elliptic leaves which dry often with a reddish blush around the
+midrib on the leaf underside, and the midrib being sunken on the upper surface. In Borneo, this
+
+
+
+312
+
+
+
+
+SeedPlant4-30072013.indd 312 7/31/13 12:59 PM
+
+@page 51 313
+MEMECYLACEAE (HUGHES)
+
+
+
+species has larger leaves and more globose fruits. The fruit colour of Peninsular Malaysian
+material is not recorded, but from Borneo it is stated to be cream or whitish. A ‘beautiful
+plant’ according to Ridley (1922).
+
+
+25. Memecylon ovatum Sm. Figs. 4, 7, Map 25
+(Latin, ovatus = egg-shaped; referring to the leaves)
+
+Cycl. (Rees) (1813) 23; Bremer, Opera Bot. 69 (1983) 23. Memecylon edule var. ovatum (Sm.)
+C.B.Clarke, Fl. Brit. India 2 (1879) 564; King, J. Asiat. Soc. Beng. 69, 2 (1900) 87; Bakhuizen f.,
+Meded. Bot. Mus. Herb. Rijks Univ. Utrecht 91 (1943) 365; Maxwell, Gard. Bull. Sing. 33 (1980) 74,
+Tr. Fl. Malaya 4 (1989) 190; Corner, Wayside Tr. Malaya 3rd ed. (1988) 490, fig. 151. Type: Collector
+unknown, s.n., without locality (holotype LINN [161.1]). Synonyms: Memecylon laxiflorum Wall. ex
+Ridl., J. Str. Br. Roy. Asiat. Soc. 79 (1918) 74; Ridley, Fl. Malay Pen. 1 (1922) 815. Type: Singapore,
+Wallich 4472 (lectotype K here designated).
+
+Shrub or small often crooked tree to c. 5 m tall; bole to 20 cm diameter. Twigs: pale brown or
+brown, slightly flattened on two sides when young, becoming terete when mature; internodes
+1.5–4(–6) cm apart. Leaves: petioles long, 8–17 mm, 1–2 mm wide; lamina coriaceous,
+drying blackish above or grey-green with blackish patches where bruised, reddish or rusty
+brown below, broadly ovate to ovate, (6–)7–9(–10) × (2.5–)4–5(–7) cm; base truncate to
+slightly acute; apex acute to shortly acuminate; midrib thin and sunken above, prominent
+below, venation indistinct to obscure above, indistinct below. Inflorescences on older
+branches just behind the leaves, compound dichasia with c. 30–50 flowers, total length
+1.5–3.5 cm, glabrous; primary peduncles distinct, quite long, 10–15 mm, 1 to 4 in number,
+secondary peduncles shorter, c. 2–5 mm. Flowers: pedicel 2–4 mm long, slender, conspicuous
+bracteoles absent; calyx campanulate, whitish or pale pink, 2 mm in diameter, subtruncate
+with 4 triangular lobes, ovary somewhat distinct; petals deep purple-blue; anther connective
+deep blue, C-shaped, with a centrally placed gland; style caducous. Fruits: stalk 2–3 mm
+long; berry globose, c. 7–8 mm diameter, ripening through pinkish green through red to deep
+purple-black; calyx remnant slightly raised; areolus c. 1.5 mm diameter.
+
+Distribution. Widespread in tropical Asia. In Peninsular Malaysia in all states except Negeri
+Sembilan.
+
+Conservation status. Least Concern.
+
+Ecology. A common, often gregarious, coastal species, either growing very near the sea on
+exposed rocks or slightly further inland in coastal hill forest on ridge tops to 300 m altitude;
+in Perlis common on limestone hills.
+
+Notes. Previously considered a variety of M. edule, but returned to species status by Bremer
+(1983). This is followed here as a number of characters separate the two species. Memecylon
+ovatum can be distinguished by its deep blue petals (not whitish or pale pink), larger
+inflorescences, longer petioles, and ovate and larger leaves which dry black, particularly
+when young or when bruised. The black colour seems to depend on the speed of drying;
+modern specimens dried quickly stay pale green or dry yellowish. The fruits turn red before
+becoming black, whereas those of M. edule are reported to turn yellow then black (Corner,
+1988); however further observations would be valuable. The flowers are ‘sweet smelling’
+(GAT137).
+
+
+
+313
+
+
+
+
+SeedPlant4-30072013.indd 313 7/31/13 12:59 PM
+
+@page 52 314
+SEED PLANTS VOL. 4 (2013)
+
+
+
+
+Figure 7. Memecylon ovatum. A, leafy twig; B, infructescence; C, flower; D, anther; E, petal;
+F, calyx. (A–B from Gwee et al. SING 2007-390; C–F from Samsuri SA1012.)
+
+
+
+314
+
+
+
+
+SeedPlant4-30072013.indd 314 7/31/13 12:59 PM
+
+@page 53 315
+MEMECYLACEAE (HUGHES)
+
+
+
+
+Map 25. Distribution of Memecylon ovatum.
+
+
+
+26. Memecylon paniculatum Jack Fig. 3, Map 26
+(Latin, paniculatus; referring to the inflorescence type)
+
+Malayan Misc. 2 (1822) 62; Furtado, Gard. Bull. Sing. 20 (1963) 121; Maxwell, Gard. Bull. Sing.
+33 (1980) 101, Tr. Fl. Malaya 4 (1989) 194; Bremer, Opera Bot. 69 (1983) 12. Type: Jack, Sumatra,
+missing, presumed destroyed. Synonyms: Memecylon caloneuron Miq., Fl. Ned. Ind. Suppl. I (1860)
+321; King, J. Asiat. Soc. Beng. 69, 2 (1900) 76; Ridley, Fl. Malay Pen. 1 (1922) 812. Type: Teijsmann
+s.n., Sumatra (lectotype L [L0009083] here designated; isolectotype GH).
+
+Slender tree to 30 m tall; bole to 30 cm diameter, usually somewhat smaller. Twigs drying
+reddish brown or black, with 4 prominent wings becoming wider (2–3 mm) at the apex,
+extending into short curled auricles, rapidly becoming terete as the fragile corky wings
+wear away; internodes (3.5–)5–7(–9) cm apart. Leaves: petiole 2–3 mm long, 2–3 mm
+wide, stout, drying black; lamina drying dark reddish brown above, reddish brown to dark
+reddish brown below, elliptic to elliptic lanceolate, (9–)13–19(–21) × (4–)5.5–7(–9) cm; base
+slightly cordate; apex acuminate, acumen c. 10 mm long; midrib sunken above, prominent
+and drying blackish below; veins reasonably distinct above, prominent below; marginal
+vein distinct, looping slightly 3–8 mm from the margin. Inflorescences behind the leaves
+on thickish branches, many-flowered (100–200 flowers) compound dichasia, total length
+3–10 cm, sometimes minutely puberulent, primary peduncle long, 15–70 mm, 1–2(–5) in
+number, secondary axes 3(–5), 5–10 mm, tertiary 3–5, much reduced. Flowers: pedicel
+1.5–2 mm long, slender, conspicuous bracteoles absent; calyx campanulate, whitish, 2–3
+mm diameter, with 4 very shallow triangular lobes, ovary somewhat distinct; petals whitish
+outside, blue inside; anther connective blue, J-shaped with a distinct centrally placed gland;
+style caducous. Fruits: stalk c. 2 mm long; berry subglobose to elliptic, c. 8 × 7 mm, ripening
+through whitish to purple, drying blackish.
+
+Distribution. Peninsular Thailand, Sumatra, Peninsular Malaysia, Singapore, Java, Borneo,
+Sulawesi, Maluku and the Philippines. In Peninsular Malaysia in all states except Perlis and
+Melaka.
+
+
+
+
+315
+
+
+
+SeedPlant4-30072013.indd 315 7/31/13 12:59 PM
+
+@page 54 316
+SEED PLANTS VOL. 4 (2013)
+
+
+
+
+Map 26. Distribution of Memecylon paniculatum.
+
+
+Conservation status. Least Concern.
+
+Ecology. Common in lowland mixed dipterocarp forest to 800 m altitude, sometimes by
+streams or on ridges.
+
+Notes. Look for a combination of slightly cordate leaves with winged branches auriculate
+below the internodes. The long inflorescence with perfectly globose fruit is also instantly
+distinctive. In leaf shape alone, some forms with large laminas can resemble M. excelsum,
+but the branch and inflorescence characters will distinguish the two.
+
+
+27. Memecylon pauciflorum Blume Fig. 4, Map 27
+(Latin, pauci- = few, flos = flower; the relatively small number of flowers per inflorescence)
+
+Mus. Bot. 1 (1851) 356; King, J. Asiat. Soc. Beng. 69, 2 (1900) 83; Ridley, Fl. Malay Pen. 1 (1922)
+816; Maxwell, Tr. Fl. Malaya 4 (1989) 195. Type: Spanoghe s.n., Timor (lectotype L, isolectotype L).
+Synonyms: Memecylon pulchellum Ridl., J. Str. Br. Roy. Asiat. Soc. 61 (1912) 52. Syntypes: Ridley,
+Thailand, P. Adang (syntype not located); Ridley, Thailand, P. Rawi (syntype not located); Ridley,
+Thailand, P. Butong (type not located). Memecylon geoffrayi Guillaumin, Fl. Indo-Chine 2 (1921) 929
+syn. nov. Type: Geoffray 479, Cambodia, Kep (lectotype P [P00731585] here designated; isolectotypes
+P[2]).
+
+Shrub 1.5–3 m high, with a slightly weeping habit. Twigs pale straw-coloured, squarish
+with 4 narrow wings when young, becoming terete when mature; internodes 0.6–2 cm apart.
+Leaves: petiole 1–2 mm long, 1 mm wide, sometimes indistinct; lamina drying dark brown
+above slightly paler below, small, rhomboid to ovate-rhomboid, 2.2–4.5 × 1.4–2 cm; base
+decurrent; apex rounded; midrib sunken above, prominent below, concolorous with the lamina;
+venation obscure or very indistinct above and below; marginal vein obscure. Inflorescences
+on leafy branches, few-flowered sub-umbels with 5–10 flowers, total length 0.5–1 cm;
+primary peduncles 1–3, c. 4 mm long. Flowers: pedicel 1.5 mm long, slender, conspicuous
+bracteoles absent; calyx funnel-shaped, whitish, c. 2 mm diameter, with 4 triangular teeth,
+ovary indistinct or somewhat distinct; petals blue or purple; anther connective blue, J-shaped
+
+
+
+316
+
+
+
+SeedPlant4-30072013.indd 316 7/31/13 12:59 PM
+
+@page 55 317
+MEMECYLACEAE (HUGHES)
+
+
+
+with a distinct gland; style caducous. Fruits: stalk 2–3 mm long; berry globose, bright green
+when immature, calyx remnant slightly raised, areolus 1–1.5 mm wide.
+
+Distribution. Myanmar, Indo-China, Thailand, Peninsular Malaysia, Timor, Australia. In
+Peninsular Malaysia: Kedah (including Langkawi Is.), Penang and Perak.
+
+
+
+
+Map 27. Distribution of Memecylon pauciflorum.
+
+
+Conservation status. Near Threatened.
+
+Ecology. A shrub in beach forests on sandy soils and in dryer evergreen forests, on sandstone,
+granite or limestone, from sea level to 600 m altitude.
+
+Notes: Ridley (1922) described this species as ‘a lovely shrub when in flower with innumerable
+tufts of blue flowers in the axils’. It has an interesting distribution which is disjunct from
+Indo-China and northern Peninsular Malaysia to Timor and the northern Australian coast,
+being absent from the bulk of the Malesian region.
+
+
+28. Memecylon perplexum M.Hughes Fig. 8, Map 11
+(Latin, perplexus = perplexing; after the confusing nature of the taxon)
+
+Phytotaxa 66 (2012) 10, fig. 2. Type: Ahmad CF5099, Peninsular Malaysia, Pahang, Raub (holotype
+K; isotypes KEP, SING).
+
+Tree c. 10 m in height; bole c. 25 cm diameter. Twigs pale reddish brown, slightly flattened
+on 2 sides when young, becoming terete when mature; internodes 2.5–4.5 cm apart. Leaves:
+petiole 8–12 mm long, 1–2 mm wide, drying yellowish, c. 1.5 mm diameter, with a groove on
+the upper surface; lamina drying stiff and brittle, drying pale slightly yellowish olive green
+above, olive green below, oblong, tapering slightly towards the apex, 11–18 × 3.5–4.5(–5)
+cm; base acute; apex acuminate, acumen c. 1 cm long; midrib sunken above, prominent and
+drying beige below; venation indistinct above and below, lateral veins 10–14 pairs; marginal
+vein indistinct, running 1–1.5 mm from the margin; very edge of margin stiff and curled
+
+
+
+317
+
+
+
+SeedPlant4-30072013.indd 317 7/31/13 12:59 PM
+
+@page 56 318
+SEED PLANTS VOL. 4 (2013)
+
+
+
+
+Figure 8. Memecylon perplexum. A, sterile branch; B, anther; C, inflorescence, after
+dehiscence of petals, anthers and styles. (Reproduced with permission from Phytotaxa, 66
+(2012) 10.)
+
+
+under on drying. Inflorescences on leafy branches or just behind the leaves, compound
+dichasia with c. 20 flowers, total length 1.5 cm; primary peduncles 5–10 mm long, branching
+up to 3 times, secondary peduncles shorter, less than 5 mm or very reduced. Flowers:
+pedicels slender, 2–3 mm long, conspicuous bracteoles absent; calyx 2–3 mm diameter, with
+4 triangular lobes; ovary somewhat distinct at the pedicel apex; petals 4, triangular, colour
+unknown; anther connective slightly curved, with a centrally placed gland, the tip ending in
+a thin point; style caducous. Fruits: stalk 3–4 mm; berry sub-globose, 8 × 7 mm, drying pale
+brown; calyx remnant distinct, areolus c. 2.5 mm wide.
+
+Distribution. Peninsular Malaysia (Pahang) and Borneo.
+
+Conservation status. Data Deficient. In Peninsular Malaysia known only from the type
+collected in 1920 with details of locality and habitat lacking.
+
+Ecology. In primary rain forest up to 950 m.
+
+Notes. Several names have been misapplied to this species. Both M. cantleyi and M.
+pergamentaceum Cogn. (from Borneo) have shorter petioles, much thinner leaves which dry
+parchment-like and fragile and with a distinctive pale mid-vein; the former may well be
+a synonym of the latter. Memecylon oleifolium has more elliptic leaves which dry much
+darker with a rusty-red blush around the mid-vein on the underside of the leaf. Memecylon
+andamanicum King has smaller, more lanceolate leaves which are more decurrent to the
+petiole, and larger calyces.
+
+
+
+318
+
+
+
+SeedPlant4-30072013.indd 318 7/31/13 12:59 PM
+
+@page 57 319
+MEMECYLACEAE (HUGHES)
+
+
+
+29. Memecylon pubescens (C.B.Clarke) King Fig. 3, Map 28
+(Latin, pubescens = hairy; referring to the peduncles)
+
+King, J. Asiat. Soc. Beng. 69, 2 (1900) 74; Ridley, Fl. Malay Pen. 1 (1922) 814; Maxwell, Gard.
+Bull. Sing. 33 (1980) 104, Tr. Fl. Malaya 4 (1989) 195; Bremer, Opera Bot. 69 (1983) 25. Basionym:
+Memecylon grande var. pubescens C.B.Clarke, Fl. Brit. India 2 (1879) 558. Type: Griffith 2336,
+Peninsular Malaysia, Melaka (lectotype K; isolectotypes BR, L).
+
+Tree to 30 m tall with large spreading limbs; bole fluted, to 60–70 cm diameter. Twigs brown,
+slightly indented at the apex when young otherwise terete, internodes (2–)3–7(–9) cm apart.
+Leaves: petiole distinct, 6–10 mm long, 1–2 mm wide, white-pustulate when dry; lamina
+drying brown above, paler yellowish brown or greenish brown below, elliptic to elliptic
+lanceolate, 5.5–10(–13) × 3–5.5(–6) cm, base decurrent; apex acute to shortly acuminate;
+midrib indented above prominent below, venation visible to prominent above and below;
+marginal vein distinct, looping 1–3 mm from the margin. Inflorescences on leafy branches or
+just behind the leaves, a much-branched compound dichasium with 100–200+ flowers, total
+length c. 5–7 cm, minutely pubescent; primary peduncles 1–3 in number, 12–40 mm long,
+secondary peduncles c. 5, 6–15 mm long, tertiary shorter, flowers borne in globose umbels.
+Flowers: pedicel c. 1 mm, slender, conspicuous bracteoles absent; calyx small, 1–1.5 mm
+diameter, subtruncate with 4 minute triangular lobes, ovary somewhat distinct; anthers with
+a shallowly J-shaped connective, gland near to the thecae; style caducous. Fruits: stalk c. 2
+mm long; berry globose, c. 10 mm diameter, green when immature ripening through cream
+or whitish to purple, drying black; calyx remnant not very prominent, areolus c. 2 mm wide.
+
+Distribution. Peninsular Thailand, Peninsular Malaysia, Singapore, Borneo. In Peninsular
+Malaysia in all states except Perlis and Penang.
+
+
+
+
+Map 28. Distribution of Memecylon pubescens.
+
+Conservation status. Least Concern.
+
+Ecology. In lowland mixed dipterocarp forest to 1000 m altitude.
+
+
+
+
+319
+
+
+
+SeedPlant4-30072013.indd 319 7/31/13 12:59 PM
+
+@page 58 320
+SEED PLANTS VOL. 4 (2013)
+
+
+
+Notes. Compared with the other species in Peninsular Malaysia, it grows to a larger-sized
+tree. Of the conspicuously-veined tree (not shrub) species, M. pubescens has the smallest
+leaves. Do not be misled by the specific epithet, as the pubescence on the axes is very minute
+and not always distinguishable. Flower colours are described as either purple or pink and
+cream.
+
+
+30. Memecylon ruptile K.Bremer Fig. 9, Map 29
+(Latin ruptilis = dehiscing irregularly; referring to the calyx)
+
+Opera Bot. 69 (1983) 28, fig. 14. Type: Ilias & Azahari S35752, Borneo, Sarawak (holotype K; isotype
+SAR n.v.).
+
+Shrub or small tree c. 6 m tall; bole 5 cm diameter. Twigs mid-brown, 2-grooved when
+young, becoming terete when mature, internodes 4–6 cm apart. Leaves: petiole c. 4 mm long,
+1–1.5 mm wide; lamina drying reddish brown above and below, broadly elliptic, 7.5–8.5 ×
+4.5 cm; base decurrent; apex acuminate; midrib narrowly sunken above, prominent below,
+drying dark reddish brown, venation indistinct above and below, marginal vein indistinct,
+running 1–1.5 mm from the margin. Inflorescences on leafy branches, compressed cymes,
+with 5–10 flowers, total length c. 1.5 cm; primary peduncles 1 or 2, quite stout, 5–7 mm
+long, secondary to 2 mm. Flowers: pedicel c. 2 mm long, slender, conspicuous bracteoles
+absent; calyx globose in bud, whitish, c. 3–4 mm wide, rupturing irregularly at anthesis
+with the thin remnants forming a pale persistent ring at the apex of the developing fruit,
+ovary indistinct; petals whitish; anther connective blue, J-shaped, with a distinct gland; style
+caducous. Fruits: stalk 2–3 mm long; berry globose, c. 12 mm diameter.
+
+Distribution. Peninsular Malaysia and Borneo. In Peninsular Malaysia: Pahang (Lesong FR)
+and Johor (Lenggor FR).
+
+
+
+
+Map 29. Distribution of Memecylon ruptile (●) and
+M. scutellatum var. brevifolium (▲).
+
+Conservation status. Near Threatened.
+
+
+
+
+320
+
+
+
+SeedPlant4-30072013.indd 320 7/31/13 12:59 PM
+
+@page 59 321
+MEMECYLACEAE (HUGHES)
+
+
+
+
+Figure 9. Memecylon ruptile. A, fertile twig; B, anther; C, longitudinal section through bud
+(petals, anthers and style removed); D, bud; E, petal. (Reproduced with permission from
+Opera Bot. 69 (1983) 30.)
+
+
+
+
+Ecology. In lowland mixed dipterocarp forest up to 200 m altitude, by streamsides and on
+sandy soils.
+
+Notes. A new record for Peninsular Malaysia.
+
+
+31. Memecylon scutellatum (Lour.) Hook. & Arn.
+Bot. Beechey Voyage (1833) 186. Basionym: Scutula scutellatum Lour., Fl. Cochinch. 1 (1790) 235.
+Homotypic synonyms: Memecylon scutellatum (Lour.) Naudin nom. superfl., Ann. Sci. Nat., Bot. 18
+(1852) 282; Craib, Fl. Siam. 1 (1931) 713. Memecylon edule var. scutellatum (Lour.) C.B.Clarke, Fl.
+Brit. India. 2 (1879) 564. Memecylon scutellatum (Lour.) A.Chev. nom. superfl., Jard. Bot. Saigon 26
+(1919) 64. Type: Loureiro s.n., Vietnam (holotype BM).
+
+Distribution. China, Indo-China, Thailand and Peninsular Malaysia.
+
+Taxonomy. This species has two varieties: the typical variety in China, Indo-China and
+Thailand and var. brevifolium from Thailand and Peninsular Malaysia. Variety brevifolium
+differs from the typical variety in having suborbicular to ovate (not elliptic) leaves, often with
+a truncate or emarginate tip (not shortly acuminate).
+
+
+
+
+321
+
+
+
+SeedPlant4-30072013.indd 321 7/31/13 12:59 PM
+
+@page 60 322
+SEED PLANTS VOL. 4 (2013)
+
+
+
+var. brevifolium (Craib) Wijedasa Fig. 4, Map 29
+(Latin, brevi- = short; folium = leaf)
+
+Phytotaxa 66 (2012) 9. Basionym: Memecylon pauciflorum var. brevifolium Craib, Fl. Siam. Enum
+(1931) 712; Maxwell, Gard. Bull. Sing. 33 (1980) 104. Type: Haniff & Nur 4070, Thailand, Pulau Panji
+(lectotype K; isolectotype SING[2]).
+
+Small treelet or more usually a shrub 1.5–3 m high. Twigs reddish brown when young,
+becoming pale grey, distinctly thinly 2-grooved, becoming terete when mature, internodes
+(0.5–)1.0–2.0(–4.5) cm apart. Leaves: petiole 2–3 mm long, 1 mm wide; lamina drying brittle
+and minutely rugose, dark brown above and slightly paler rusty brown beneath, suborbicular
+to obovate, 2–2.5(–3.5) × 1.5–2(–2.5) cm, thick and succulent in life, base rounded slightly
+decurrent near the petiole; apex retuse to rounded; midrib sunken above, prominent below;
+lateral veins obscure to indistinct above, obscure below; marginal vein obscure to indistinct.
+Inflorescences on leafy branches, compound dichasia with 10–30 flowers, total length c.
+1 cm; primary peduncles 2–5 mm long, secondary peduncles very reduced, c. 1 mm long.
+Flowers: pedicels 1–2 mm long, slender, conspicuous bracteoles absent; calyx funnel shaped,
+c. 1.5 mm diameter, with triangular lobes when young becoming subtruncate when mature;
+petals acute, pale lilac; anther connective light blue, C-shaped, with a centrally placed gland;
+style caducous. Fruits: stalk 2–3 mm long; berry globose, 5–6 mm diameter (when dry),
+green; calyx remnant prominent, 2–3 mm diameter.
+
+Distribution. Thailand, Peninsular Malaysia. In Peninsular Malaysia known from Kedah
+(Langkawi Is.), Kelantan and Selangor.
+
+Conservation status. Near Threatened.
+
+Ecology. In peninsular Malaysia, on limestone hills, elsewhere in open areas in shrubby
+forest, sometimes noted as locally common.
+
+Notes. This taxon was originally described as a variety of M. pauciflorum Blume, but differs
+in having grooved (not 4-angled). Twigs and succulent, suborbicular to ovate (not thin
+rhomboid) leaves; indeed the small size of the leaves seems to be the only linking feature.
+The name M. pauciflorum var. obovatum ined. was coined by Furtado and annotated on some
+specimens.
+
+
+32. Memecylon wallichii Ridl. Figs. 2, 3, Map 30
+(after N. Wallich, 1786–1854, Danish botanist, Superintendant of the Royal Botanic Garden,
+Calcutta, India)
+
+J. Str. Br. Roy. Asiat. Soc. 79 (1918) 74; Ridley, Fl. Malay Pen. 1 (1922) 813; Furtado, Gard. Bull.
+Sing. 20 (1963) 122; Maxwell, Gard. Bull. Sing. 33 (1980) 106, Tr. Fl. Malaya 4 (1989) 187. Type:
+Wallich 4101C, Peninsular Malaysia, Penang Hill (lectotype K). Synonyms: Memecylon longifolium
+Ridl. non Cogn., J. Str. Br. Roy. Asiat. Soc. 79 (1918) 72. Type: Ridley 9475, Peninsular Malaysia,
+Perak (lectotype K here designated). Memecylon amplexicaule auct. non Roxb.: Clarke, Fl. Brit. India
+2 (1879) 559.
+
+
+
+
+322
+
+
+
+SeedPlant4-30072013.indd 322 7/31/13 12:59 PM
+
+@page 61 323
+MEMECYLACEAE (HUGHES)
+
+
+
+A shrub to 3 m tall, rarely recorded as a tree. Twigs pale, 4-winged becoming auriculate below
+the internode, becoming terete when mature, internodes 6–7 cm apart. Leaves: petioles 2–3
+mm long, 2–3 mm wide; lamina coriaceous, drying dark reddish brown above and below,
+ovate lanceolate, 15–20 × 5–7.5 cm; base cordate, sometimes slightly amplexicaul; apex
+acuminate, acumen extending for c. 10 mm; midvein sunken above, prominent below, usually
+drying darker than the lamina beneath; venation distinct above and below, lateral veins 12–15
+pairs; marginal vein distinct, looping c. 4–7 mm from the margin. Inflorescences on leafy
+twigs very compressed cymes with 20–30 flowers, primary peduncles distinct, very stout,
+becoming woody, 1 or 2, c. 5–8 mm long, secondary peduncles c. 7, 2–3 mm long. Flowers:
+pedicel c. 1.5 mm, stoutish, 2 conspicuous bracteoles present at the base (not always obvious
+in a very congested inflorescence); calyx funnel-shaped, pink, 3–4 mm diameter, truncate
+with four shallow indentations, ovary indistinct to somewhat distinct; petals white; anther
+connective purple, with a distinct gland, locules curving around the connective; style
+caducous. Fruits: stalk c. 3 mm long; berry globose, to 15 mm diameter, ripening black
+through pink and red, calyx remnant raised, areolus c. 4 mm wide.
+
+Distribution. Peninsular Thailand and Peninsular Malaysia (near-endemic): Penang, Perak
+and Kelantan.
+
+
+
+
+Map 30. Distribution of Memecylon wallichii.
+
+
+Conservation status. Least Concern.
+
+Ecology. Primary lowland mixed dipterocarp forest at 50–610 m altitude.
+
+Notes. Vegetatively easily confused with M. corticosum var. corticosum, as both have
+winged branches and similar leaf shapes with distinct venation. Memecylon corticosum
+var. corticosum has slightly thinner leaves that tend to be more elliptic and not as broad
+towards the base as those of M. wallichii, nor quite as cordate. The midrib in M. wallichii
+usually dries darker than the lamina beneath; in M. corticosum var. corticosum it is usually
+paler or concolorous. Memecylon wallichii flowers on leafy internodes (with a distinct
+woody peduncle), often at or near the tip, whereas M. corticosum var. corticosum is usually
+ramiflorus (peduncle reduced to a callus). The anthers of M. wallichii are also unique and
+
+
+
+323
+
+
+
+SeedPlant4-30072013.indd 323 7/31/13 12:59 PM
+
+@page 62 324
+SEED PLANTS VOL. 4 (2013)
+
+
+
+distinguish it from all other species in the region. Memecylon excelsum when sterile can be
+distinguished by the lack of prominent wings, though take care with mature specimens of
+M. wallichii; the former also has elliptic (not globose) fruits. The leaves of M. paniculatum,
+which also have winged Twigs, tend to be widest in the middle, as opposed to M. wallichii
+and M. corticosum var. corticosum which are widest in the bottom third of the lamina; as the
+name suggests M. paniculatum also has much longer inflorescences. Memecylon depressum
+Benth. nom. nud. (Wallich Numer. List 4101 (1831)) also belongs here.
+
+
+
+
+324
+
+
+
+SeedPlant4-30072013.indd 324 7/31/13 12:59 PM
+

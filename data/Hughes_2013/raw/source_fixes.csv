@@ -1,0 +1,9 @@
+pattern,replacement,page,reason
+H’,H′,272,"OCR substituted a typographic apostrophe for a prime mark in Figure 1."
+H”,H″,272,"OCR substituted a typographic quotation mark for a double-prime mark in Figure 1."
+F’,F′,281,"OCR substituted a typographic apostrophe for a prime mark in Figure 5."
+F”,F″,281,"OCR substituted a typographic quotation mark for a double-prime mark in Figure 5."
+reddish bluish,reddish blush,312,"OCR confused blush with bluish."
+isolectoype,isolectotype,322,"OCR dropped t in isolectotype."
+"limestone hills,, elsewhere","limestone hills, elsewhere",322,"OCR duplicated comma."
+"pedicels slender, c. 2 m long","pedicels slender, c. 2 mm long",308,"OCR lost m in pedicel measurement."

@@ -43,11 +43,13 @@ flora_pdf_check <- function(file) {
 flora_render_pages <- function(file, pages, outdir, dpi = 220) {
   dir.create(outdir, showWarnings = FALSE, recursive = TRUE)
   full <- file.path(outdir, sprintf("p%02d_full.png", pages))
+  # pdftools expands this template once for each requested PDF page.
+  full_template <- file.path(outdir, "p%02d_full.%s")
   pdftools::pdf_convert(
     file,
     pages = pages,
     dpi = dpi,
-    filenames = full,
+    filenames = full_template,
     verbose = FALSE
   )
   for (f in full) {

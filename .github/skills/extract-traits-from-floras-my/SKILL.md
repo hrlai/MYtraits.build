@@ -1,6 +1,6 @@
 ---
 name: extract-traits-from-floras-my
-description: Extract trait data from Malaysian Flora family treatments (Flora of Peninsular Malaysia, FPM; Tree Flora of Sabah and Sarawak, TFSS) and from single taxon-description papers into a long-format `data/<Author_Year>/raw/trait_data.csv`, a vouchers file, `data.csv` and `metadata.yml`. Covers source-text checks and transcription, segmenting treatments, clause parsing, copy-down from family/genus/group, QA and build checks. Use when the user hands over an FPM or TFSS family PDF (or a taxon-description paper) and asks to "extract traits from floras", "process the next family", or "extract traits from taxon description".
+description: Extract or resume trait data from Malaysian Flora family treatments (FPM, TFSS) and single taxon-description papers. Use when given family PDFs, asked to process or continue a family, or asked for extraction status. Covers resumable page-image review, transcription, segmentation, trait extraction, vouchers and QA.
 ---
 
 # Extract traits from Malaysian floras
@@ -29,6 +29,48 @@ switch `raw/segment_source.R` to `flora_read_transcription()` before calling it
 complete; running `raw/transcribe_source.R` only copies the OCR layer. For
 Adema, follow the completion checklist below; do not treat its zero-unmapped
 rows or header-only voucher file as evidence of completeness.
+
+## Resumable scanned-source review
+
+Source `.github/skills/extract-traits-from-floras-my/scripts/flora_review.R`
+from the repository root. This is the small prepare/next/status interface for a
+scanned family; the extraction and source reconciliation steps below still
+apply. Each treatment gets its own dataset ID and verified PDF page range. Never
+infer boundaries or printed-page numbers from another volume. The user can say
+"continue <id>" in a new chat; read only its `raw/review_handoff.md`, manifest,
+and next batch, not old chat history.
+
+- On first preparation, confirm PDF, ID, treatment boundaries, and a
+  **persistent** image directory outside the repository. Call
+  `flora_review_prepare(id, pdf, pages, image_dir)`. It writes
+  `raw/page_manifest.csv` and `raw/review_batches.csv` only once. Create the
+  empty persistent image directory before preparing the queue. For Adema:
+  `flora_review_prepare("Adema_1996", "inst/extdata/TFSS/Sapindaceae.pdf", 7:118, image_dir)`.
+  Do not use a disposable session scratch folder; images need to survive new
+  chats. These paths are local, so keep manifests out of commits when they
+  contain machine-specific paths.
+- On "continue", call `flora_review_next(id)` and
+  `flora_review_render_next(id)` if its images are missing. Render only that
+  batch, not the whole treatment. `flora_review_status(id)` summarizes the
+  queue. Save a short next-chat snapshot with `flora_review_handoff(id)` after
+  each batch. A read-only `next` call never advances review status. Use
+  `flora_review_update()` to save page checks and batch decisions; never edit
+  CSV state by hand.
+- Check OCR text against page images and put **only image-checked text** into
+  `raw/<Family>_transcription.txt` with `@page <pdf> <printed>` at each page
+  turn. Track image-checked printed-page mapping, transcription, headings,
+  section boundaries, clauses and vouchers separately per page in the manifest.
+  Record unresolved decisions in page `notes` or batch `blocker` (the handoff
+  shows the blocker). Review the notes of the active batch when resuming;
+  statuses are `not_started`, `in_review`, `blocked`, `verified`. Update flags
+  only after completing the named check. Mark a batch `verified` only after
+  every check is true on every page, no blocker remains, and its boundary is
+  reconciled with the adjacent batch. Set `boundary_checked = TRUE` when this
+  is complete. The queue rejects inconsistent verified flags.
+- Rendering and OCR drafting are not verification. Keep old Adema trait outputs
+  provisional until they are rebuilt from checked transcription; QA passing is
+  not source reconciliation. The queue records progress; it does not implement
+  transcription, OCR, segmentation, trait extraction, or vouchers for you.
 
 ## Adema_1996 completion checklist
 
@@ -66,6 +108,7 @@ Coode_2018 one.
 | Script | Does |
 | --- | --- |
 | `scripts/flora_source.R` | PDF text-layer check, render pages, read transcription, number comparison transcription vs layer |
+| `scripts/flora_review.R` | persistent page manifest, bounded review queue, on-demand rendering and next-chat handoff |
 | `scripts/flora_segment.R` | headings, blocks, paragraphs, sections, page lookups; heading patterns are a parameter (`assets/heading_config_examples.R`) |
 | `scripts/flora_parse.R` | normalisation, `a--b` dashes, sentence and piece splitting outside parentheses, range and `a x b` parsers, commonness rows, dictionary scoring |
 | `scripts/flora_assemble.R` | copy-down, species to infraspecific inheritance, duplicate merge, final column order, `data.csv`, unmapped summary |
