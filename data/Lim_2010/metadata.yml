@@ -13,17 +13,6 @@ source:
     place: Kepong, Selangor, Malaysia
     pages: 61--66
     isbn: 978-967-5221-32-3
-  secondary:
-    key: Yii_1995
-    bibtype: InBook
-    year: 1995
-    author: P. C. Yii
-    title: Araucariaceae
-    booktitle: Tree Flora of Sabah and Sarawak, Volume 1
-    editor: E. Soepadmo and K. M. Wong
-    publisher: Forest Research Institute Malaysia
-    place: Kepong, Selangor, Malaysia
-    pages: 27--34
 contributors:
   data_collectors:
     - last_name: Lim
@@ -73,11 +62,10 @@ dataset:
     trait_scoring_method (from rank_scored_from) and source_id. Taxon names are
     as printed. Seed cones are treated as fruit (fruit_type strobilus; seed cone
     length and diameter as fruit_length and fruit_width, entity measured = seed
-    cone). The Borneo height (55 m) and diameter (1 m) of A. borneensis that
-    the Ecology text cites from Yii (1995) are kept on the author's statement,
-    with population region = Borneo and source_id = Yii_1995. Type
-    and figure specimens are listed in raw/Lim_2010_vouchers.csv; per-taxon
-    flags in raw/taxon_flags.csv. Characters with no trait in traits.yml are
+    cone). The Borneo height (55 m) and diameter (1 m) of A. borneensis
+    cited from Yii (1995) in the Ecology text are not scored: the TFSS
+    treatment is a separate source. Type and figure specimens are listed in
+    raw/Lim_2010_vouchers.csv; per-taxon flags in raw/taxon_flags.csv. Characters with no trait in traits.yml are
     listed in raw/unmapped_terms.csv; verbatim unmapped clauses are rows in raw/trait_data.csv: pollen
     cones, sporophylls, cone scales and foliose bracts; seed cone shape and
     position; seed wing size and texture; juvenile leaves; inner bark, resin,
@@ -89,9 +77,6 @@ contexts:
   - context_property: commonness qualifier
     category: entity_context
     var_in: commonness_qualifier
-  - context_property: population region
-    category: entity_context
-    var_in: population_region
   - context_property: entity measured
     category: method_context
     var_in: entity_measured
@@ -310,9 +295,8 @@ traits:
     basis_of_value: measurement
     replicates: .na
     methods:
-      Trunk diameter given in the species descriptions, and a Borneo maximum for
-      Agathis borneensis cited in the Ecology text from Yii (1995) (population
-      region); the height of measurement is not stated.
+      Trunk diameter given in the species descriptions; the height of
+      measurement is not stated.
   - var_in: plant_growth_form
     unit_in: .na
     trait_name: plant_growth_form
@@ -328,10 +312,7 @@ traits:
     value_type: value_type
     basis_of_value: measurement
     replicates: .na
-    methods:
-      Maximum height given in the species descriptions; for Agathis borneensis
-      the Ecology text also cites a Borneo maximum from Yii (1995) (population
-      region).
+    methods: Maximum height given in the species descriptions.
   - var_in: pollination_syndrome
     unit_in: .na
     trait_name: pollination_syndrome
