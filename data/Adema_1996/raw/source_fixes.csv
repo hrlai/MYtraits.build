@@ -1,3 +1,5 @@
-pattern,replacement,page,reason
-I\\.e\\.,l.c.,374,OCR reads bibliographic l.c. as I.e.
-\\(l-\\)2-3,(1–)2–3,374,OCR misreads numeral one and en dashes
+"pattern","replacement","page","reason"
+"I\\.e\\.","l.c.",374,"OCR reads bibliographic l.c. as I.e."
+"\\(l-\\)2-3","(1–)2–3",374,"OCR misreads numeral one and en dashes"
+"c, 4–14 x 1–5.5 cm","c. 4–14 × 1–5.5 cm",273,"OCR punctuation and multiplication symbol"
+"0.9–10 x 75–0.9 cm","0.9–1.0 × 0.75–0.9 cm",273,"OCR drops decimal points and multiplication symbol"

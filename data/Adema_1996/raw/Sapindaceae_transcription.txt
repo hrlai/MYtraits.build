@@ -1,0 +1,540 @@
+@page 7 263
+TREE FLORA OF SABAH AND SARAWAK
+SAPINDACEAE F. Adema, P.W. Leenhouts & P.C. van Welzen
+With contributions by M. Davids (Paranephelium), J. van Dijk (Dictyoneura), B. Etman (Rhysotoechia), R.W.J.M. van der Ham (Mischocarpus), H. Turner (Arytera), and M. Vente (Harpullia)
+Rijksherbarium/Hortus Botanicus, Leiden, The Netherlands
+Jussieu, Gen. Pl. (1789) 246 (“Sapindi”); King, J. As. Soc. Beng. 65, 3 (1896) 419; Merrill, EB (1921) 357; Ridley, FMP 1 (1922) 487; Radlkofer in Engler, Pflanzenr. 98 (1931–1934) 1; Masamune, EPB (1942) 424; Backer & Bakhuizen f., FJ 2 (1965) 130; Anderson, CLST (1980) 310; Whitmore & Tantra, CLS (1986) 212; Corner, WSTM 3rd ed. 2 (1988) 673; Yap, TFM 4 (1989) 434; Whitmore, Tantra & Sutisna, CLK 2, 1 (1990) 310; Adema et al., FM 1, 11 (1994) 419.
+Trees, shrubs, or lianas, or rarely herbaceous climbers; monoecious, rarely dioecious or polygamous. Indumentum usually of solitary simple hairs, sometimes also of two-branched hairs or stellate bundles of hairs, in several genera scale-hairs present (then the young parts, buds and inflorescences viscid). Leaves spirally arranged, rarely opposite or whorled, simple, biternate, digitate, pinnate or bipinnate; true stipules usually absent, pseudostipules (reduced leaflets at the base of the leaf stalk) sometimes present. Leaflets alternate to opposite, symmetric to distinctly asymmetric, entire or dentate to serrate or crenate. Inflorescences axillary, pseudoterminal, terminal or borne on leafless branches, corymbose, paniculate, racemose, thyrsoid, or umbellate; bracts and bracteoles present. Flowers usually unisexual, rarely bisexual, radially or bilaterally symmetrical; sepals 4 or 5, rarely more, free or almost totally connate, equal to distinctly unequal, and then the outer 1 or 2 much smaller than the inner three, herbaceous to petaloid, imbricate, valvate or apert (fringing or enclosing a narrow calyx opening); petals absent or 2–6, free, usually clawed, often with 1 or 2 scales or auricles (inrolled margins), scales crested or not; disc complete or interrupted, lobed or annular to subannular, rarely with appendages or an erect (tubular) rim; stamens 5–10(–74), usually 8, inserted within the disc, often exserted in male flowers, filaments glabrous or hairy, anthers basifixed or rarely dorsifixed, introrse or latero-introrse, in female flowers present as staminodes with non-opening anthers; ovary superior, 1–3(–8)-locular, lobed or not, style usually apical, rarely inserted between the lobes, stigma entire with 1–3 lines or grooves of stigmatic papillae, or 1–3-lobed, in male flowers rudimentary; ovules 1 or 2 per locule, ascending, anatropous, campylotropous or amphitropous. Fruits capsular or drupaceous, or consisting of 2 or 3 samaras, when capsular usually loculicidal, rarely septicidal or septifragal (dehiscing with the valve surface separating from the septa or locule partitions). Seeds globose to obovoid, sometimes compressed, often with an arillode or a sarcotesta; endosperm absent; embryo usually thick, straight, sometimes sigmoid or convolute, cotyledons above each other to laterally beside each other.
+@page 8 264
+Distribution. About 150 genera with c. 2000 species, widespread in tropical and subtropical regions of the world, especially well represented in South America. In Sabah and Sarawak, 23 genera with 62 species, most of which are trees or shrubs.
+Ecology. Primary or secondary rain forest, forest edges, shrublands, coastal vegetation, often along rivers or road sides; in everwet or seasonal climates; mainly lowlands, but also mountains to 3600 m; on all kinds of soil.
+Uses. The wood of several species is used for timber (Klaassen, FM 1, 11 (1994) 425). Various species are used in medicine, as vegetables, as soap or fish poison. However, Sapindaceae are more important as a source of edible fruits and seeds. The juicy arillode or sarcotesta is particularly appreciated. Of economic importance, and hence widely cultivated, are Dimocarpus longan (longan), Litchi chinensis (litchi, lychee) and Nephelium lappaceum (rambutan) (PROSEA 2 (1992) 146, 191, 233; van Welzen, Lamb & Wong, Nature Malaysiana 13 (1988) 10).
+Taxonomy. The last survey of the family as a whole was made by Muller & Leenhouts (in Ferguson & Muller (eds.), The evolutionary significance of the exine (1976) 407). The system adopted there follows mostly the system developed by Radlkofer (l.c.). Important changes made by Muller & Leenhouts are: (1) combination of tribes Aphanieae and Lepisantheae; (2) discarding the division of the Eusapindaceae into Nomophyllae and Anomophyllae by proposing a more informal grouping of three groups A, B and C; and (3) the Dodonaeoideae (formerly Dyssapindaceae) are considered an assemblage of relicts, and the Sapindoideae (formerly Eusapindaceae) as more homogenous and derived. An enumeration of the subfamilies, tribes and genera occurring in Sabah and Sarawak is given below.
+Subfam. Dodonaeoideae Tribe Dodonaeeae : Dodonaea Tribe Doratoxyleae : Ganophyllum Tribe Harpullieae : Harpullia (Tribes not represented : Cossinieae, Koelreuterieae)
+Subfam. Sapindoideae Group A Tribe Lepisantheae : Glenniea, Lepisanthes, Zollingeria Tribe Melicocceae : Tristiropsis (Tribe not represented : Sapindeae)
+Group B Tribe Cupanieae : Arytera, Dictyoneura, Guioa, Mischocarpus, Paranephelium, Rhysotoechia, Trigonachras Tribe Nephelieae : Alectryon, Cubilia, Dimocarpus, Litchi, Nephelium, Pometia, Xerospermum (Tribe not represented : Schleichereae)
+Group C Tribe Paullinieeae : Cardiospermum Tribe Thouinieae : Allophylus
+@page 9 265
+SAPINDACEAE (ADEMA, LEENHOUTS & VAN WELZEN)
+Key to genera (based on flowering material and vegetative characters)
+1. Herbaceous or woody climbers. Leaves biternate. Inflorescences with basal tendrils........... Cardiospermum L. Sp. Pl. (1753) 366; Radlkofer in Engler, Pflanzenr. 98 (1932) 370; Leenhouts, FM 1, 11 (1994) 483. Inflorescences axillary, thyrsoid. Flowers unisexual, obliquely bilaterally symmetrical; sepals 4, free, imbricate, outer 2 smaller; petals 4; disc a gland at the base of every petal; ovary 3-locular, with a short style and a 3-lobed stigma; ovule 1 per locule. Fruits capsular, 3-lobed, inflated, 3-locular, septicidal, papyraceous. Seeds with a cordate hilum. Twelve species, tropical and subtropical America, one species extending to Africa; one species in Sabah and Sarawak (C. halicacabum), which is a worldwide tropical and subtropical weed.
+Trees or shrubs. Leaves simple, unifoliolate, pinnate, bipinnate or digitate. Inflorescences without basal tendrils...........................................................................................................2
+2. Leaves bipinnate..........................................................................................19. Tristiropsis Leaves simple, unifoliolate, paripinnate, imparipinnate, or digitate....................................3
+3. Leaves imparipinnate...........................................................................................................4 Leaves simple, unifoliolate, paripinnate or digitate.............................................................5
+4. Pseudostipules present. Petals shorter than the sepals..........11. Lepisanthes (in part) Pseudostipules absent. Petals longer than the sepals.............................15. Paranephelium
+5. Scale-hairs present (rarely only visible in inflorescences), often also with solitary simple hairs. Young parts viscid (inflorescence of Lepisanthes fruticosa, race “glandulosa” may be sticky). Petals absent.......................................................................................................6 Hairs simple, solitary, or two-branched (T-hairs in Litchi chinensis), or in stellate tufts (“stellate hairs”). Young parts not viscid. Petals absent or present......................................8
+6. Leaves simple. Ovules 2 per locule....................................................................................... Dodonaea Miller Gard. Dict. ed. 4, 1 (1754); King l.c. 450; Merrill l.c. (1921) 362; Ridley l.c. (1922) 509; Radlkofer in Engler, Pflanzenr. 98 (1933) 1350; Masamune l.c. 426; Backer & Bakhuizen f. l.c. 141; Anderson l.c. 310; Corner l.c. 678; Yap l.c. 440; Leenhouts l.c. (1994) 522. Sixty five species, mainly in Australia, three in Malesia. Inflorescences axillary and terminal, thyrsoid. Flowers bisexual or unisexual, radially symmetrical; sepals 4 or 5, free, valvate , all equal; petals absent; disc absent in male flowers, in the form of a slight swelling around the gynophore in female and bisexual flowers; stamens 5–15; ovary 2–3-locular, style and stigma longer than the ovary, hardly to deeply divided at apex; ovules 2 per locule. Fruit a septifragal capsule, with 3 wings. Seeds subglobose, attached to a swollen funicle. One species, a pantropical shrub (D. viscosa), present in Sabah and Sarawak; in coastal vegetation, along the beach or on limestone.
+@page 10 266
+Leaves paripinnate. Ovules 1 or 2 per locule.......................................................................7
+7. Leaflets subentire to crenate. Sepals free, petaloid. Stigma grooved. Ovules 1 per locule.............................................................................................................5. Dictyoneura Leaflets entire. Sepals connate up to halfway, not petaloid. Stigma lobed. Ovules 2 per locule..........................................................................................................7. Ganophyllum
+8. Leaves digitate, 1–5-foliolate. Flowers bilaterally symmetrical, with 4 petals...................... .........................................................................................................................2. Allophylus Leaves paripinnate, if unifoliolate then flowers radially symmetrical, usually with 5 petals (Lepisanthes senegalensis) or without petals (Glenniea thorellii).......................................9
+9. Lower side of leaflets with exposed glands.......................................................................10 Lower side of leaflets without exposed glands..................................................................14
+10. Leaves with pseudostipules.................................................................16. Pometia (in part) Leaves without pseudostipules..........................................................................................11
+11. Sepals almost totally connate, apert. Stamens 5, filaments glabrous or with few hairs.........................................................................................................4. Cubilia (in part) Sepals free or basally connate, usually slightly imbricate. Stamens usually (6–)8(–10), filaments mostly hairy.......................................................................................................12
+12. Ovary 3-locular, smooth..............................................................18. Trigonachras (in part) Ovary 2-, rarely 3-locular, warty........................................................................................13
+13. Leaf with 1–2 pairs of leaflets, exceptionally unifoliolate or with 3 pairs of leaflets. Hairs if present mainly in stellate tufts. Petals absent or present. Disc hairy................................... ........................................................................................................6. Dimocarpus (in part) Leaf with 1–7 pairs of leaflets. Hairs if present solitary, simple. Petals present. Disc glabrous or (exceptionally) hairy...............................................20. Xerospermum (in part)
+14. Hairs often mainly in stellate tufts, mixed with solitary simple ones.................................15 Hairs solitary, simple, exceptionally two-branched (Litchi chinense), if few small tufts of hairs present then leaves with pseudostipules (Pometia)...................................................17
+15. Sepals free. Petals always 5............................................................................10. Harpullia Sepals connate at base. Petals absent or 1–5(–6)................................................................16
+16. Sepals imbricate in bud. Petals absent or present. Stamens (6–)8(–10), filaments usually hairy. Ovary tuberculate..................................................................6. Dimocarpus (in part) Sepals valvate to slightly imbricate in bud. Petals absent. Stamens 6 or 7, filaments glabrous. Ovary smooth.....................................................................................8. Glenniea
+17. Leaves with pseudostipules...............................................................................................18 Leaves without pseudostipules..........................................................................................19
+18. Sepals free, imbricate in bud, outer 1 or 2 distinctly smaller than inner 3. Stamens (4–) 8 (–10)..............................................................................................11. Lepisanthes (in part)
+@page 11 267
+SAPINDACEAE (ADEMA, LEENHOUTS & VAN WELZEN)
+Sepals connate up to halfway, valvate in bud, slightly unequal. Stamens 5 (or 6).............................. ............................................................................................................................16. Pometia (in part)
+19. Sepals free, imbricate in bud, outer 1 or 2 distinctly smaller than the inner three...........................20 Sepals free or to almost completely connate, apert, valvate or slightly imbricate in bud, usually all equal, rarely slightly unequal...........................................................................................................22
+20. Leaflets concolorous, yellowish green (or green) when dry. Petal scales absent................................ .................................................................................................................................17. Rhysotoechia Leaflets usually discolorous, brown or greyish (green) when dry, rarely concolorous, yellowish green (Lepisanthes falcata subsp. borneensis). Petal scales or auricles present..............................................................................................................................................21
+21. Petals with 2 scales. Stigma pyramidal, grooved...................................................................9. Guioa Petals with 1 scale, or with auricles, rarely with a hairy ridge. Stigma usually capitate, globose or dome-shaped, rarely elongated, grooved.....................................................11. Lepisanthes (in part)
+22. Petals usually absent, rarely up to 3..................................................................................................23 Petals present, usually 5, sometimes reduced...................................................................................26
+23. Ovary smooth, 3-locular, not lobed, rather long-stalked...........................13. Mischocarpus (in part) Ovary warty or smooth, 1–2(rarely 3)-locular, lobed, sessile or short-stalked.................................24
+24. Two-branched hairs often present. Leaflets mostly opposite or subopposite. Sepals connate, apert.....................................................................................................................................12. Litchi All hairs simple. Leaflets alternate to opposite. Sepals free or connate, valvate or slightly imbricate in bud...............................................................................................................................25
+25. Leaflets opposite to rarely alternate. Ovary smooth.......................................................1. Alectryon Leaflets alternate to rarely opposite. Ovary warty........................................14. Nephelium (in part)
+26. Petals without scales or auricles. Ovary warty................................................................................27 Petals with scales or auricles. Ovary smooth or warty....................................................................29
+27. Sepals almost totally connate, calyx urceolate with a narrow mouth and minute lobes. Stamens 5.............................................................................................................................4. Cubilia (in part) Sepals free or connate to halfway, calyx flat or cup-shaped with a wide mouth and distinct lobes. Stamens 4–10..................................................................................................................................28
+28. Leaflets opposite, lower surface not glaucous, with flat orbicular glands, without domatia. Stamens 8, exceptionally 7 or 9. Stigma grooved..................................20. Xerospermum (in part) Leaflets alternate to rarely opposite, lower surface mostly glaucous, without glands, with domatia. Stamens 4–10. Stigma lobed........................................................................14. Nephelium (in part)
+29. Petals with 1 large, sometimes deeply cleft scale. Ovary warty...................14. Nephelium (in part) Petals with 2 scales or auricles. Ovary smooth...............................................................................30
+30. Twigs white or silvery grey. Ovary 1-locular, septa incomplete................................21. Zollingeria Twigs light to dark brown or grey to black. Ovary 2–5-locular, septa complete............................31
+@page 12 268
+31. Intercostal veins rather densely reticulate. Petals usually with auricles. Ovary short- to long-stalked. Stigma distinctly lobed......................................................13. Mischocarpus (in part) Intercostal veins more-or-less laxly reticulate. Petals with 2 scales. Ovary sessile. Stigma grooved or slightly lobed................................................................................................................32
+32. Lower surface of leaflets without small, round glands, but with domatia. Petals shorter than, rarely as long as, the sepals; petal scales shorter than the petals. Ovary 2(–3)- locular.................................................................................................................................3. Arytera Lower surface of leaflets with small, round glands, without domatia. Petals as long as to longer than the sepals; petal scales nearly as long as the petals. Ovary 3-locular.......................................... ..................................................................................................................18. Trigonachras (in part)
+Key to genera (based on fruiting material and vegetative characters)
+1. Herbaceous or woody climbers. Leaves biternate. Inflorescences with basal tendrils........... .......................................................................Cardiospermum (see notes in previous key) Trees, shrubs, or occasionally woody climbers. Leaves simple, unifoliolate, digitate, pinnate, or bipinnate. Inflorescence without tendrils...........................................................2
+2. Leaves bipinnate...........................................................................................19. Tristiropsis Leaves simple, unifoliolate, digitate or pinnate...................................................................3
+3. Leaves all simple, unifoliolate, digitate, or imparipinnate...................................................4 Leaves paripinnate or pseudo-imparipinnate (with one of the final two leaflets reduced and vestigial); occasionally also some leaves unifoliolate............................................................................................................................7
+4. Fruits winged. Leaves simple....................................Dodonaea (see notes in previous key) Fruits not winged. Leaves unifoliolate, digitate or imparipinnate........................................................................................................................5
+5. Leaves (1–)3(–5)-digitate; rachis not winged. Fruits globose to obovoid, coriaceous, at most 0.4–1.3 x 0.3-–0.8 cm...............................................................................2. Allophylus Leaves unifoliolate or imparipinnate. Fruits either slightly lobed and coriaceous, or subglobose and very woody, larger than 1 ⋅ 1.5 cm; if about 1 ⋅ 1.5 cm then rachis winged .............................................................................................................................................6
+6. Pseudostipules present or absent; rachis winged or not. Fruits slightly lobed, smooth, coriaceous; fruit wall glabrous inside............................................11. Lepisanthes (in part) Pseudostipules absent; rachis not winged. Fruits subglobose, spiny to warty, woody; fruit wall pilose inside.....................................................................15. Paranephelium (in part)
+7. Fruits winged................................................................................................21. Zollingeria Fruits without wings............................................................................................................8
+8. Fruits warty to densely spiny or densely scaly.....................................................................9 Fruits smooth to rugose when dry......................................................................................14
+@page 13 269
+SAPINDACEAE (ADEMA, LEENHOUTS & VAN WELZEN)
+9. Fruit wall hairy inside. Seeds without sarcotesta or arillode....15. Paranephelium (in part) Fruit wall glabrous inside. Seeds with sarcotesta or arillode..............................................10
+10. Seeds with sarcotesta.........................................................................................................11 Seeds with arillode.............................................................................................................12
+11. Leaf with 1–5(–18) pairs of leaflets, usually papillose below (dull), often minutely sericeous; without glands, often with domatia. Sepals free to connate more than halfway. Spines and other forms of appendages on fruit usually longer than broad............................. .........................................................................................................14. Nephelium (in part) Leaf with 1–2(–3) pairs of leaflets, smooth below (more or less shiny), glabrous or at most hairy on midrib and lateral veins, not sericeous; with scattered glands, without domatia. Sepals free or only basally connate. Spines and other forms of appendages on fruit broader than long.................................................................................................20. Xerospermum
+12. Arillode covering the lower half of seed only. Fruit dehiscent. Indumentum of simple hairs only.......................................................................................................................4. Cubilia Arillode almost completely covering the seed. Fruit indehiscent. Indumentum of tufted, 2- branched or simple hairs....................................................................................................13
+13. Indumentum often partly or mainly of dense stellately tufted hairs. Glands present on lower side of leaflets near axils of lateral veins (seldom absent in all leaflets). Seeds about as long as broad...............................................................................6. Dimocarpus (in part) Indumentum of solitary, simple or 2-branched hairs. Glands absent. Seeds longer than broad......................................................................................................................12. Litchi
+14. Seeds without sarcotesta or arillode. Placenta neither thickened nor cup-shaped..............15 Seeds with sarcotesta (sometimes as a narrow basal ring around hilum) and/or arillode. Placenta thickened and cup-shaped...................................................................................20
+15. Leaves with hairs and glandular scales (distinct under the microscope)....7. Ganophyllum Leaves without glandular scales, at most with hairs only.....................................................................................................................................16
+16. Fruit wall hairy inside........................................................................................................17 Fruit wall glabrous inside...................................................................................................19
+17. Fruits stalked, obovoid, dehiscing loculicidally into 3 equal valves; 3-locular; fruit wall thick, fleshy; hilum covering less than lower one-third of the seed..........18. Trigonachras Fruits sessile, ellipsoid, shortly obovoid to subglobose, not dehiscing to dehiscing into 3 or 4 usually unequal valves or tearing apart at random; 2- or 3-locular; either fruit wall thick and hilum covering up to lower three-quarters of the seed, or fruit wall thin and hilum covering less than lower one-third of the seed.........................................................18
+18. Indumentum at most of short hairs. Leaflets entire to serrate. Fruits capsular; fruit wall 2.5–12 mm thick; hilum covering up to lower three-quarters of the seed.............................. .................................................................................................15. Paranephelium (in part) Indumentum often of hairs of more than 5 mm long. Leaflets entire. Fruits drupaceous; fruit wall less than 2 mm thick; hilum covering less than lower one fifth of the seed................................................................................................11. Lepisanthes (in part)
+@page 14 270
+19. Leaf with 1 to more than 40 pairs of leaflets; pseudostipules present or absent; rachis winged or not. Outer 1 or 2 sepals smaller than inner ones. Fruits 2–3(–4)-locular, glabrous or pilose, less than 5 cm long; fruit wall usually thin, sometimes thick and fleshy.............................................................................................11. Lepisanthes (in part) Leaf with 1–6 pairs of leaflets; pseudostipules absent; rachis not winged. Sepals all equal. Fruits 2-locular, glabrous, either less than 2 cm long and fruit wall rather thin or more than 6 cm long and fruit wall very thick and fleshy............................................8. Glenniea
+20. Indumentum of stellately tufted hairs besides solitary hairs..............................................21 Indumentum of solitary hairs or plant glabrous.................................................................22
+21. Fruits lobed, loculicidally dehiscent into valves; hilum small, covering less than one sixth of the seed.......................................................................................................10. Harpullia Fruits not lobed, breaking up irregularly; hilum very large, covering up to half of the seed.................................................................................................6. Dimocarpus (in part)
+22. Pseudostipules present (sometimes reduced or early caducous, but then leaving scars). Fruits lobed, but seemingly 1-locular and not lobed by abortion; exocarp thin, hard, mesocarp thick, juicy when fresh......................................................................16. Pometia Pseudostipules absent. Fruits lobed or not; carpels usually thin to thick, coriaceous to woody................................................................................................................................23
+23. Fruit wall completely hairy or papillose inside, or only hairy along the suture.................24 Fruit wall glabrous inside except sometimes for the lower part of the axis.......................27
+24. Fruit lobes each dehiscing by an irregular transverse break..............................1. Alectryon Fruits dehiscing loculicidally.............................................................................................25
+25. Fruit wall only hairy along the suture inside.........................................................3. Arytera Fruit wall nearly completely hairy or papillose inside.......................................................26
+26. Fruit on a slender stalk, inside without an extra fleshy layer. Aril with pseudofunicle ....................................................................................................13. Mischocarpus (in part) Fruit hardly stalked, inside with an extra fleshy layer. Aril without pseudofunicle............... ......................................................................................................................5. Dictyoneura
+27. Placenta thickened below the seed, more-or-less cup-shaped. Seeds not covered with sarcotesta or arillode.................................................................................17. Rhysotoechia Placenta seldom thickened below the seed. Seeds (partly) covered with sarcotesta and/or arillode..............................................................................................................................28
+28. Fruits 1-locular. Seeds partly to completely covered with a sarcotesta.................................. .........................................................................................................14. Nephelium (in part) Fruits 3-locular. Seeds partly to completely covered with an arillode...............................29
+29. Fruits lobed. Stigma a pyramidal remnant without recurved lobes on top of the fruit. Sepals dimorphous, free..........................................................................................9. Guioa Fruits not lobed. Stigma with recurved lobes. Sepals all equal, usually connate at the base ....................................................................................................13. Mischocarpus (in part)
+@page 15 271
+SAPINDACEAE (ADEMA, LEENHOUTS & VAN WELZEN)
+1. ALECTRYON Gaertn. (Greek, alektruon = rooster; the crested fruits)
+P.W. Leenhouts
+Fruct. Sem. Pl. 1 (1788) 216, pl. 46; Radlkofer in Engler, Pflanzenr. 98 (1933) 983; Backer & Bakhuizen f., FJ 2 (1965) 139; Leenhouts, FM 1, 11 (1994) 450.
+Trees or shrubs, dioecious or sometimes monoecious. Indumentum of solitary simple hairs only. Leaves paripinnate, each with 1–8 pairs of leaflets; petiole and rachis not winged; true stipules absent, lowermost pair of leaflets sometimes stipule-like. Leaflets variably hairy to glabrous, lower surface not papillose; base often oblique, margin entire or serrate, dentate or crenate; lateral veins ending free or the upper ones looping and joining near the margin. Inflorescences axillary, pseudoterminal, or borne on leafless branches, thyrses, panicles or racemes. Flowers unisexual or sometimes bisexual, radially symmetrical; sepals 4, 5 (or 6), about halfway to nearly completely connate, all equal, hardly or not petaloid; petals absent or 4 or 5, about as long as or shorter than the sepals, short-clawed, with 2 scales, without a crest; disc complete, annular or more-or-less lobed, without appendages, glabrous; stamens (5–)8, exserted in male flowers, anthers basifixed, the base usually deeply cleft, latrorse or latero- introrse; ovary sessile or short-stalked, (1–)2–4(–5)-locular, style apical, columnar, mostly shorter than the ovary, stigma grooved or with reflexed lobes; ovules 1 per locule. Fruits sessile or short-stalked, 1(or more)-lobed, capsular, dehiscing by an irregular transverse break on each lobe or along the septum; fruit wall smooth or slightly warty, hairy or late glabrescent outside, glabrous or hairy inside. Seeds black, partly covered with a red sarcotesta.
+Distribution. About 25 species; in Malesia, Australia, New Zealand, New Caledonia, the New Hebrides, the Solomon Is., Fiji, Samoa, and the Sandwich Is. One species in Sabah.
+Ecology. Often at forest edges, on river banks, in coastal vegetation, on limestone; in the lowlands but sometimes also on mountains. The seeds, with contrasting light yellowish greenish capsules, red sarcotesta, and shiny black testa, are probably mainly dispersed by birds.
+Uses. Some species are sources of good timber.
+Alectryon glaber (Blume) Radlk. Fig. 1. (Latin, glaber = smooth; the fruits lacking in crests)
+Sapind. Holl.-Ind. (1879) 14, in Engler l.c. (1933) 993; Leenhouts l.c. (1994) Sapind. Holl.-Ind. (1879) 14, in Engler l.c. (1933) 993; Leenhouts l.c. (1994) 456, fig. 5f. Basionym: Spanoghea glabra Blume l.c. (1847) 174. Type: Spanoghe 52, Lesser Sunda Is. (L).
+Shrub or small tree to 30 cm diameter; stem slightly fluted, with rather inconspicuous thick buttresses. Bark smooth, pale brown to ash-grey. Leaves each with 2–5(–7) pairs of leaflets; petioles 1–8.5 cm long, (0.5–)1–2 mm thick. Leaflets opposite to alternate, parchment-like to
+@page 16 272
+Fig. 1. Alectryon glaber. A, fruiting leafy twig; B, fruit. (From Alston 16075.)
+@page 17 273
+SAPINDACEAE (ADEMA, LEENHOUTS & VAN WELZEN)
+
+
+
+
+chartaceous, glabrous to slightly hairy on the midrib and lateral veins beneath, exceptionally
+subtomentose; ovate to elliptic, c. 4–14 × 1–5.5 cm; base symmetric to asymmetric, acute to
+rounded, somewhat attenuate, margin slightly serrate, dentate, or crenate in the upper half,
+or rarely entire, apex rounded to acute; midrib slightly raised above, lateral veins 0.5–2 cm
+apart, ending free or in marginal teeth, or looping and joining near the margin, slightly raised
+on both sides or flat above, intercostal veins and veinlets laxly to minutely reticulate, slightly
+raised on both sides, or indistinct beneath; petiolules 1–8 mm long. Inflorescences to 9 cm
+long; unbranched or with branches to 4 cm long, few-flowered, hairy; peduncles 0.75–2.5 cm
+long; pedicels 1–1.5 mm long. Flowers: sepals c. 1 mm high, slightly connate, hairy inside;
+petals absent; stamen filaments short, anthers c. 1.2 mm long; ovary 2(–3)-locular with a
+lobed stigma. Fruits 2-lobed and then often cordate (or only 1 lobe developed), keeled and
+shouldered to slightly grooved, densely to sparsely fulvous or ferruginous tomentose or
+tomentulose, the lobes almost globose, 0.9–1.0 × 0.75–0.9 cm; fruit wall 0.5–1 mm thick.
+
+Distribution. E Java, the Lesser Sunda Is., N Borneo (Sabah, one specimen), the Philippines,
+Sulawesi, Ceram, and the Kai Is.
+
+Notes. In Sabah, once recorded (Berhaman AB21) on coral limestone on Balambangan Is.
+
+
+
+                                        2. ALLOPHYLUS L.
+                 (Greek, allos = another, phulon = tribe; its distinction from other known tribes)
+
+                                               P.W. Leenhouts
+
+Sp. Pl. (1753) 348; Merrill, EB (1921) 357; Ridley, FMP 1 (1922) 488; Radlkofer in Engler, Pflanzenr. 98 (1932) 455;
+Masamune, EPB (1942) 424; Backer & Bakhuizen f., FJ 2 (1965) 133; Leenhouts, Blumea 15 (1968) 301, FM 1, 11 (1994)
+459; Anderson, CLST (1980) 310; Corner, WSTM 3rd ed. 2 (1988) 670; Yap, TFM 4 (1989) 436.
+
+
+Shrubs, small trees, or sometimes woody climbers, monoecious or dioecious. Indumentum
+sometimes of stellately tufted hairs. Leaves digitate, (1–)3(–5)-foliolate. Inflorescences
+axillary, usually either simple or composed of a few long and slender, racemose thyrses,
+sometimes paniculate. Flowers unisexual, obliquely bilaterally symmetrical; sepals 4, free,
+imbricate in bud, outer 2 distinctly narrower than the inner ones; petals 4, nail-shaped to
+spathulate, inside above the claw with a 2-lobed, usually bearded scale; disc more-or-less
+interrupted abaxially, mostly lobed or modified into glands in front of the petals, in female
+flowers sometimes saucer-shaped; stamens 8 (rarely fewer), all of about the same length,
+exserted in male flowers; ovary deeply 2(–3)-lobed, 2(–3)-locular, ovule 1 per locule, style 1,
+inserted between the lobes, more or less deeply 2(–3)-branched, the branches exceptionally
+also forked at the apex. Fruits drupaceous, mostly of 1 mericarp only, globose to obovoid,
+thin-walled, mostly almost glabrous when ripe. Seeds without arillode.
+
+Distribution. Probably monotypic, though up to 250 “species” may be accepted.
+Circumtropical, in some regions penetrating into the subtropics.
+
+
+
+
+                                                       273
+@page 18 274
+TREE FLORA OF SABAH AND SARAWAK VOL. 2 (1996)
+
+
+
+
+Allophylus cobbe (L.) Raeuschel                                                                                Fig. 2.
+(after the Sri Lankan plant-name kobbae)
+
+Nomencl. ed. 3 (1779) 108; Merrill l.c. (1921) 357; Radlkofer in Engler l.c (1932) 594; Masamune l.c. 424, 425; Anderson
+l.c. 310; Corner l.c. 677; Backer & Bakhuizen f. l.c. 133. Basionym: Rhus cobbe L., Sp. Pl. (1753) 267. Type: Herb.
+Hermann vol. 2, fol. 46 (“Kobbae”), Sri Lanka (BM). Synonyms: A. javensis (Blume) Blume l.c. (1847) 126, Merrill l.c.
+(1921) 357, Masamune l.c. 424; A. sumatranus Blume l.c. (1847) 132, Merrill l.c. (1921) 357, Masamune l.c. 425; A.
+timorensis (DC.) Blume l.c. (1847)
+130, Merrill l.c. (1921) 357, Masamune l.c. 425; A. scandens Ridl., J. Str. Br. Roy. As. Soc. 75 (1917) 26, Merrill l.c. (1921)
+357, Masamune l.c. 425; A. obliquus Radlk. in Merrill, PEB (1929) 173, Masamune l.c. 424; A. glaber (Roxb.) Radlk. in
+Engler l.c. (1932) 566, Masamune l.c. 424; A. racemosus (L.) Radlk. in Engler & Prantl, Nat. Pflz. Fam. 3, 5 (1895) 312, in
+Engler l.c. (1932) 568, Merrill l.c. (1921) 357, Masamune l.c. 425; A. ternatus (Forst.) Radlk. in Engler l.c. (1932) 572,
+Masamune l.c. 425.
+
+Shrub or treelet, rarely a tree to 25 m high, 30 cm diameter, or a climber (not in Sabah and
+Sarawak). Twigs glabrous except for the sparsely appressed hairy terminal bud or more or
+less persistently thinly to densely covered with often stellately tufted, appressed to patent,
+short, fulvous hairs. Leaves: petioles terete, rarely quadrangular, mostly flattened to grooved
+above especially at apex and base, 4.5–20 cm long, indumentum usually similar to that of the
+twig at earlier stage. Leaflets membranous, fleshy or coriaceous, on drying greenish to
+greyish or dark-brown and dull to shiny above, light green to reddish brown and dull
+(sometimes even glaucous) to shiny beneath, glabrous (often with a distinct gland) to densely
+velvety (especially beneath) and often bearded in the axils of lateral veins and sometimes also
+of the intercostal veins; elliptic or oblong, rarely lanceolate, lateral ones often ovate,
+terminal ones sometimes obovate, 2.5–35 x 1.5–22 cm (terminal ones slightly to distinctly
+larger than the lateral ones); base cuneate to rounded, often slightly decurrent, margin entire
+to serrate, crenate or dentate, apex more or less attenuate-acuminate; midrib hardly
+prominent to keeled above, lateral veins 6–15 per side, looping and joining near the margin
+or not, intercostal veins usually rather inconspicuous above, hardly conspicuous to prominent
+beneath; petiolules absent to 25 mm long, indumentum like that of petioles. Inflorescences to
+40 cm long, few- to many-flowered, with umbel-like dichasia or sometimes comb-like
+cincinni, glabrous to densely pubescent; peduncles usually about one third to one fifth the
+length of rachis, laxly to densely flowered; pedicels absent or short; bracts mostly minute,
+sometimes longer than the pedicels, subulate. Flowers often solitary in the upper part of an
+inflorescence; sepals 1–2.5 x 0.8–2 mm, green to whitish, entire to denticulate, mostly ciliate,
+glabrous to sparsely appressed short-hairy (mainly in the central part) outside; petals 1–2.2
+mm long, white, almost glabrous to densely woolly along the entire margin, blade entire to
+bilobed, claw about two third of the petal length, scale very small to nearly equalling the
+blade, glabrous to densely woolly along the entire margin, often bearded; disc 0.2–0.8 mm
+high, glabrous or puberulous, orange; anthers c. 0.5 mm long; ovary smooth or rough,
+glabrous or minutely stellately tufted-hairy, or sparsely to densely pilose by appressed, long,
+stiff hairs, style 1–1.5 mm long, glabrous or pilose up to the stigmatic lobes. Fruits globose
+(smaller ones) to obovoid and narrowed at the base (larger ones), 4.5–12.5 x 3.5–8 mm,
+smooth to slightly rugose, red turning to brown or black when dry, somewhat pulpy and
+almost glabrous when ripe.
+
+Vernacular names. Sabah—bonbongan (Murut), embuakat, gamperut (Dusun), kalasi
+(Bajau), kerimbau (Murut), mambahino, sasah (Bajau East Coast), sisipen pelandok (Dusun),
+tukil-tukil (Brunei Malay). Sarawak—balaro (Kayan), buah penancang (Malay), ising (Iban,
+Paloh), kelampu (Iban).
+
+
+
+
+                                                            274
+@page 19 275
+SAPINDACEAE (ADEMA, LEENHOUTS & VAN WELZEN)
+
+
+
+
+Fig. 2. Allophylus cobbe. A, fruiting leafy twig; B, male flower; C, petal from inside; D, female flower; E, fruit. (A and E
+from Forbes 2557, B–D from Maxwell 77-375.)
+
+
+                                                           275
+@page 20 276
+TREE FLORA OF SABAH AND SARAWAK VOL. 2 (1996)
+
+
+
+Distribution. Throughout the range of the genus. Common in Sabah and Sarawak; also in
+Brunei and Kalimantan.
+
+Ecology. In different types of primary and secondary forests, from lowland to c. 1300 m (Mt.
+Kinabalu), on various soil types. Flowering and fruiting throughout the year. The flowers are
+visited by bees; the fruits are dispersed by birds (Docters van Leeuwen, Trop. Natuur 21
+(1932) 142).
+
+Uses. The wood is reported to be very hard, but not very durable. It is mainly used for
+temporary and indoor structures, for making canes, hilts, and as firewood. The pulped leaves,
+or an extraction or decoction of them, as well as a decoction of the roots and bark, are used in
+medicine against stomach-ache and fever. The fruits, though a bit sour, are edible.
+
+Taxonomy. A. cobbe is a very variable species, with wide distribution and broad ecological
+amplitude. The species probably comprises a large number of local races. Leenhouts (l.c.
+1967, 1994) concluded that all Malesian specimens examined belong to a single species.
+However, on a local scale it may be possible to distinguish the more important races
+(varieties or forms). For Borneo, and especially Sabah and Sarawak, no attempt has been
+made to subdivide the species into infraspecific taxa.
+
+
+
+                                         3. ARYTERA Blume
+                                (Greek, aruter = ladle; the shape of the fruit-lobes)
+
+                                                    H. Turner
+
+Rumphia 3 (1847) 169; Merrill, EB (1921) 361; Ridley, FMP 1 (1922) 507; Radlkofer in Engler, Pflanzenr. 98 (1933) 1268;
+Masamune, EPB (1942) 425; Backer & Bakhuizen f., FJ 2 (1965) 140; van der Ham, Blumea 23 (1977) 289; Anderson,
+CLTS (1980) 310; Reynolds, Austrobaileya 2 (1985) 158; Yap, TFM 4 (1989) 438; Turner, Blumea 38 (1993) 144, FM 1, 11
+(1994) 467.
+
+Trees, rarely shrubs. Indumentum of solitary, simple hairs. Leaves paripinnate; petioles
+subterete, pulvinate; rachis subterete. Leaflets subopposite; petiolules usually consisting of
+pulvinus only, usually 1-grooved; domatia usually present. Inflorescences axillary to
+pseudoterminal or borne on leafless twigs, thyrsoid; bracts and bracteoles triangular, hairy
+outside, usually glabrous inside; pedicels hairy. Flowers seemingly hermaphrodite; calyx 5-
+dentate to 5-partite, teeth all equal to slightly unequal, apert to narrowly imbricate, margin
+entire; petals (2–)5(–6), slightly longer or shorter than the calyx, scales present or rarely
+absent, free to basally adnate to the margins, not crested; disc complete; stamens (6–)8(–10),
+filaments at least basally pilose, anthers pilose or glabrous; ovary sessile, 2–3-locular,
+smooth, hairy, ovule 1 per locule, stigmas apical, with 2 or 3 stigmatic lines, or with 2 or 3
+lobes, the lobes distinctly recurved in fruit. Fruits with 1–3 well-developed lobes, loculicidal,
+short- or long-stalked, lobes laterally not or slightly flattened; endocarp hairy at least on
+sutures of carpels. Seeds partly covered by an arillode, consisting of 1 or 2 layers, the outer
+or only one soft, yellow, the inner one firm, dark brown when dry.
+
+
+
+
+                                                         276
+@page 21 277
+SAPINDACEAE (ADEMA, LEENHOUTS & VAN WELZEN)
+
+
+
+Distribution. About 28 species, from NE India and SE Asia, throughout Malesia, to
+Australia, the Solomon Islands and the Pacific Islands. In Sabah and Sarawak, one species.
+
+
+Arytera litoralis Blume                                                                              Fig. 3.
+(Latin, litoris = coastal region; its natural habitat)
+
+l.c. (1847) 170; Merrill l.c. (1921) 361; Ridley l.c. (1922) 507; Masamune l.c. 425; Backer & Bakhuizen f. l.c. 140;
+Anderson l.c. 310; Turner l.c. (1994) 473. Lectotype (Turner, 1993): Blume 1314, Java, Nusa Kambangan (L).
+
+Tree, rarely shrub, to 40 m tall, 90 cm diameter. Bark smooth, greyish green to reddish to
+almost black. Leves each with 1–4 pairs of leaflets; petioles 1.3–9.5 cm long; rachis 0.8–11.5
+cm long. Leaflets thin-coriaceous to chartaceous, not to densely punctate; ovate to elliptic or
+obovate, 4–31 x 1.5–12 cm; base symmetrical or asymmetrical, rounded to slightly attenuate,
+apex acuminate to cuspidate, rarely retuse or rounded, acumen retuse, obtuse to rounded;
+glabrous above, glabrous to hairy especially on major veins beneath, domatia often pustular,
+in the form of large to small pockets or sacs, opening in front (on top); midrib slightly raised
+above, concolorous with lamina to reddish brown or yellowish, lateral veins raised below,
+indistinctly looping near margin, intercostal veins scalariform to almost reticulate, obscure;
+petiolules 2–14 mm long. Inflorescences basally branched or unbranched; rachis terete to
+slightly flattened, 1.5–17 cm long, hairy when young; first-order branches to 10 cm long;
+cymules dichasial or sometimes monochasial, 1–7-flowered; bracts 0.3–1.2 mm long;
+bracteoles 0.1–0.6 mm long; pedicels 1–5 mm long, hairy. Flowers 1–3.5 mm diameter;
+calyx 0.8–2 mm high, deeply incised, hairy outside, glabrous inside, apex acute to acuminate;
+petals triangular to rhomboidal to obovate, 0.5–2.2 x 0.3–1.9 mm, usually gradually
+decurrent into the claw, margin entire, subpilose, apex obtuse to acute to acuminate, glabrous
+to pilose outside, subglabrous to subpilose inside, claw 0.1–0.4 mm long, scales 0.2–1.2 mm
+long, apex irregulaly broadened, slightly to densely pilose; disc glabrous to hairy; stamens 6–
+8(–10), filaments 2–4 mm long, pilose, anthers 0.7–1.1 mm long, straight, pilose, connective
+not protruding; ovary 2(–3)-locular, style and stigma elongating up to 3 mm in fruit, not to
+slightly 2(–3)-lobed. Fruits 1–2(–3)-lobed, 7–36 x 5–23 mm, smooth to slightly rugose to
+verrucose, glabrous to sparsely hairy, lobes 8–23 x 5–21 mm, dorsally rounded to slightly
+angular; stalk absent or to 3 mm long, slender to broadly cuneate. Seeds ellipsoid to
+orbicular, not to slightly flattened laterally, 6–24 x 5–19 mm; arillode covering the seed
+halfway to completely, dentate to lobed, not to slightly folded towards the base inside, thick
+towards the base, coriaceous, 2-layered; cotyledons obliquely superposed to almost
+collateral, equal to slightly unequal, upper or lower one larger; hypocotyl and radicle 0.5–3
+mm long, glabrous.
+
+Vernacular names. Sabah—ampungit (Murut), anging manuk (Kadazan), nunuk-nunuk,
+petinag (Sungei Kinabatangan).
+
+Distribution. From NE India (Bay of Bengal) to SE Asia, S China (Hainan), Malesia, and the
+Solomon Islands. Common in Sabah and Sarawak; also in Brunei and Kalimantan.
+
+Ecology. In primary and secondary forests on all kinds of soil, lowland to 1500 m. Flowering
+and fruiting throughout the year.
+
+
+
+
+                                                         277
+@page 22 278
+TREE FLORA OF SABAH AND SARAWAK VOL. 2 (1996)
+
+
+
+
+Fig. 3. Arytera litoralis. A, fruiting twig; B, female flower; C, petal from inside; D, fruits. (A from SAN 95571, B–C from
+Gibbs 2664, D from van Balgooy 6099.)
+
+
+
+                                                           278
+@page 23 279
+SAPINDACEAE (ADEMA, LEENHOUTS & VAN WELZEN)
+
+
+
+
+                                             4. CUBILIA Blume
+                                        (from the Philippine plant-name kubili)
+
+                                                   P.W. Leenhouts
+Rumphia 3 (1847) 100; Radlkofer in Engler, Pflanzenr. 98 (1932) 921; Backer & Bakhuizen f., FJ 2 (1965) 143; Leenhouts,
+Blumea 24 (1978) 297, 298, FM 1, 11 (1994) 490; Whitmore & Tantra, CLS
+(1986) 212; Whitmore, Tantra & Sutisna, CLK 2, 1 (1990) 310.
+
+Medium-sized, monoecious trees. Indumentum of solitary, simple hairs. Leaves paripinnate.
+Leaflets opposite to alternate, base equal-sided to oblique, margin entire; venation mainly
+open but somewhat irregular. Inflorescences terminal or pseudoterminal, thyrsoid or
+corymbose; cymules many-flowered; bracts inconspicuous. Flowers unisexual, radially
+symmetrical; calyx urceolate, the narrow mouth surrounded by 5 minute lobes, densely
+tomentulose on both surfaces, not petaloid; petals 5, included in the calyx, hardly clawed,
+margin sometimes slightly inflexed just above the base but without a clear scale; disc
+annular, broad, adnate to the receptacle, glabrous; stamens 5 (or 6), hardly exserted,
+filaments flattened, glabrous or with a few hairs, anthers adnate, glabrous, introrse; ovary
+sessile, 2-locular, divided to near the base, warty and densely hairy, stigma sessile, 2-lobed,
+inserted between the ovary lobes, ovules 1 per locule, attached at the base. Fruits 2-parted,
+the parts obovoid, loculicidal, glabrous, densely aculeate; fruit wall coriaceous, glabrous
+inside. Seeds basally attached, up to about halfway enveloped by a thin-fleshy, more-or-less
+entire arillode, hilum large, nearly orbicular.
+
+Distribution. Monotypic; Borneo (Sabah, Sarawak, E Kalimantan), the Philippines,
+Sulawesi, and the western Maluku.
+
+
+Cubilia cubili (Blanco) Adelbert                                                                             Fig. 4.
+Blumea 6 (1948) 325; Backer & Bakhuizen f. l.c. 143; Leenhouts l.c. (1978) 397, l.c. (1994) 491. Basionym: Euphoria
+cubili Blanco, Fl. Philip. (1837) 287, nom. illeg. Neotype (Leenhouts, 1978): Merrill Spec. Blanc. 705, Philipines, Luzon (L;
+isoneotypes BO, P).
+
+Tree to 25(–50) m tall, 75 cm diameter; buttresses to 6 m high. Bark usually smooth and
+reddish, sometimes greyish brown. Leaves each with 3–5(–7) pairs of leaflets; petioles terete
+or sometimes slightly flattened above, smooth or thicker ones canaliculate, strongly swollen
+at base, 5–25 cm long, 1.5–3 mm thick; rachis slightly flattened above, otherwise terete,
+sometimes carinate above towards the apex. Leaflets elliptic to ovate, (5–)10–15(–40) x(2.5–
+)3–5(–10) cm, the upper ones often slightly falcate, chartaceous, often with an exposed gland
+in or above the axils of some lateral veins beneath; base rounded and attenuate to acute, apex
+obtuse- to acute-acuminate, mucronate or not; midrib slender, slightly raised to sunken above,
+mostly sharp-triangular, sometimes more or less rounded beneath, lateral veins 1–2(–4) cm
+apart, sometimes a few looping and joining towards the margin, slightly raised above, more
+so beneath; intercostal veins mostly feeble, reticulate, mostly faint above, slightly raised
+beneath; petiolules 3–7.5 mm long. Inflorescences to 30 cm long, densely and minutely
+appressed brown-hairy, the branches sparsely branched; cymules to 25-flowered; peduncles to
+1 cm long; pedicels slender, 3–4 mm long, slightly thickened towards the apex; bracts
+triangular and hardly 0.5 mm long to subulate and 3 mm long. Flowers copper-coloured;
+
+
+
+
+                                                           279
+@page 24 280
+TREE FLORA OF SABAH AND SARAWAK VOL. 2 (1996)
+
+
+
+
+Fig. 4. Cubilia cubili. A, flowering leafy twig; B, male flower in longitudinal section; C, female flower; D, fruit; E, open
+fruit with seed; F, seed in longitudinal section. (A from FB 1996, B–C from PNH 22872, D from NIFS Cel. V/236 =
+Waturandang 221, E from Radlkofer in Engler, Pflanzenr. (1932–1933) f. 22, F from Kostermans 7011.)
+
+
+
+                                                           280
+@page 25 281
+SAPINDACEAE (ADEMA, LEENHOUTS & VAN WELZEN)
+
+
+calyx in male flowers c. 3 x 2 mm, opening c. 1 mm diameter, lobes minute; in female
+flowers 1.5–2 x 3–4 mm, opening wider than in male, lobes broad-triangular, c. 0.8 mm high;
+petals in male flowers elliptic, c. 1 x0.7 mm, in female flower subovate, c. 1.5 x 1.5 mm;
+stamen filaments c. 1 x 0.2 mm, anthers c. 0.3 mm long, in female flowers hardly reduced;
+ovary c. 1.5 mm high, stigma lobes triangular, dorsoventrally flattened, c. 1 mm long. Fruit
+parts 3–4(–5) x 2–2.5 cm, green to brown, warty with the warts pyramidal to triangular, to 2
+mm long; fruit wall c. 0.8 mm thick; endocarp smooth, white. Seeds ovoid-ellipsoid, c. 2.5 x
+1.7 cm; testa smooth, shiny dark brown; arillode to 6–10 mm high.
+
+Distribution. As the genus. Uncommon in Sabah and Sarawak.
+
+Ecology. Primary and secondary forests, apparently mostly on poorly aerated, often basic
+soil, often along rivers; mostly at low altitudes, to 600 m. Flowering and fruiting throughout
+the year.
+
+Uses. The whitish to light reddish brown timber is used in the Philippines for indoor
+construction. The arillode is edible; the seeds, when cooked or roasted, are are said to be
+comparable with, but more delicious, than chestnuts.
+
+                                   5. DICTYONEURA Blume
+                          (Greek, dictuon = net, neuron = nerve; the leaflet venation)
+
+                                                 J. van Dijk
+Rumphia 3 (1847) 163; Merrill, EB (1921) 361; Radlkofer in Engler, Pflanzenr. 98 (1933) 1219; Masamune, EPB (1942)
+426; Reynolds, Austrobaileya 2 (1985) 153; J. van Dijk, Blumea 31 (1986) 437, FM 1, 11 (1994) 507.
+
+Shrubs to medium-sized trees, monoecious. Indumentum of simple, solitary hairs and small,
+round scales. Leaves paripinnate. Leaflets alternate to opposite, variably hairy or scaly,
+domatia absent or pocket-like. Inflorescences axillary, often pseudoterminal, simple and
+raceme-like or more-or-less strongly branched; cymules 1–few-flowered; bracts and
+bracteoles densely hairy, mostly caducous. Flowers unisexual, radially symmetrical; sepals
+5(or 6), imbricate in bud, slightly connate at the base, about equal or the inner- and/or
+outermost one distinctly smaller, persistent in fruit; petals absent; disc entire, swollen,
+tomentose; stamens (4–)5(–6), exserted in male flowers, filaments usually patently long-hairy
+in the basal half, anthers basifixed to halfway dorsifixed; ovary subsessile, 2(–3)-locular,
+more-or-less hairy, sparsely to densely scaly, style apical, shorter to a little longer than the
+ovary, with 2 (or 3) stigmatic lines, ovules 1 per locule, axillary. Infructescences with
+thickened axes. Fruits capsular, subsessile, loculicidal; fruit wall granular, inner side more
+or less fleshy with a thicker fleshy layer in a narrow to broad strip along the dissepiment and
+covering the inside of the valves for 30–100%. Seeds ovoid to ellipsoid, 1–2(–3) per fruit;
+testa parchment-like or a more-or-less hard shell; sarcotesta cupular on the ventral side and
+covering 25–100% of the seed, dorsally interrupted by a very narrow to very broad cuneate
+cleft; embryo straight, cotyledons superposed, the upper slightly to very much larger than the
+lower one.
+
+Distribution. Two to three species; Borneo, Philippines, Sulawesi, Maluku and New Guinea.
+In Sabah and Sarawak, one species, represented by one of its two subspecies.
+
+                                                      281
+@page 26 282
+TREE FLORA OF SABAH AND SARAWAK VOL. 2 (1996)
+
+
+
+Dictyoneura acuminata Blume                                                                                    Fig. 5.
+(Latin, acuminatus = gradually attenuated; the leaflet apex)
+l.c. (1847) 163; Merrill l.c. (1921) 361; Radlkofer in Engler l.c. (1933) 1221; Masamune l.c. 426; J. van Dijk l.c. (1986) 441,
+l.c. (1994) 508. Lectotype (J. van Dijk, 1986): Muller, s.n., Borneo (L).
+
+subsp. acuminata
+
+Tree, sometimes treelet or shrub to 12(–15) m tall, 20(–30) cm diameter. Bark greenish or
+greyish, smooth; inner bark pale brown. Wood white. Leaves each with 2–7(–11) pairs of
+leaflets; petioles 1.5–7.5 cm long; rachis 4–18 cm long, terete to marginate. Leaflets slightly
+oblique, parchment-like, sometimes coriaceous, glabrous or rarely very sparsely hairy above,
+hairy beneath; narrowly ovate or elliptic, (2.5–)3.5–10.5(–18) x(1–)2–4(–5) cm; base
+attenuate-acute, margin entire at base, distantly serrate towards apex, apex acute or
+acuminate, acumen obtuse or slightly retuse; lateral veins 5–8 on each side, 5–16(–22) mm
+apart; domatia mostly absent. Inflorescences mostly much-branched, sometimes unbranched;
+bracts and bracteoles to 3 mm long; pedicels to 2 mm long. Flowers greenish, whitish or
+yellowish brown, c. 5 mm diameter; sepals suborbicular to subelliptic, 1.5–2.5 x 1–2 mm,
+glabrous or sparsely to sometimes densely hairy outside, subglabrous inside; disc (1.2–)1.5–
+1.8 mm diameter; stamen filaments with long patent hairs, in male flowers (2.5–)3.2–3.5 mm
+long, in female flowers (0.5–)1.5–2 mm long, anthers narrowly cordate to ovate, 0.6–0.8x
+0.4–0.7 mm, glabrous or sometimes sparsely hairy; ovary ellipsoid, 2-locular, (1.5–)1.8–2x
+(1–)1.3–1.5 mm, sparsely hairy, often densely hairy along the sutures, mostly densely scaly,
+style 1–1.2(–1.5) mm long; pistillodes 0.5–1.2 mm long. Fruits brownish, obovoid to
+globose, rarely transversely ellipsoid, 1(–2)-seeded, 9–14(–20) x8–14(–20) mm; fruit wall 1–
+1.5(–3) mm thick, sparsely to densely hairy or more or less densely scaly outside, densely
+hairy inside. Seeds subellipsoid, 8–12 x5.5–8 mm; sarcotesta covering (25–)45–60% of the
+seed, dorsally interrupted by a wide cuneate cleft; testa parchment-like.
+
+Distribution. Borneo, Philippines, Sulawesi, Maluku, New Guinea. In Sabah, very
+uncommon, known only from Silumpat Is. in the Lahad Datu district; not recorded from
+Sarawak.
+
+Ecology. Primary and secondary forests, often at forest edges, along rivers, on the banks of
+lakes, on ridges, or in open vegetation; mostly in well-drained, sometimes in swampy habitat;
+on limestone rock, sandy, or loamy soil; to 1700 m.
+
+
+
+                                         6. DIMOCARPUS Lour.
+                         (Greek, didumos = double, karpos = fruit; the deeply 2-lobed fruits)
+
+                                                    P.W. Leenhouts
+Fl. Coch. (1790) 233; Leenhouts, Blumea 19 (1971) 113, FM 1, 11 (1994) 511; Anderson, CLTS (1980) 310; Whitmore &
+Tantra, CLS (1986) 213; Yap, TFM 4 (1989) 438; Whitmore, Tantra & Sutisna, CLK 2, 1 (1990) 310.
+
+Trees or shrubs, mostly monoecious. Indumentum often partly or mainly of dense tufts of
+hairs. Leaves paripinnate, rarely unifoliolate. Leaflets opposite or alternate, not or hardly
+
+
+
+
+                                                            282

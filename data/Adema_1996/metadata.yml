@@ -42,7 +42,8 @@ dataset:
     phenology from Ecology text. Genus, family and infraspecific descriptions
     have not been extracted. No born-digital copy is available; completion
     requires transcription and verification from the scanned page images. This
-    dataset is UNDONE and must not be released as complete.
+    dataset is UNDONE and must not be released as complete. Work can continue
+    from the available scan without waiting for a born-digital copy.
   original_file:
     Sapindaceae.pdf (Adema, Leenhouts & van Welzen 1996, Tree Flora of Sabah and
     Sarawak vol. 2, pp. 263--374)
@@ -53,7 +54,10 @@ dataset:
     The voucher file is a header-only placeholder. Reported PDF pages for
     Ecology values and some description values are species-heading pages, not
     verified clause pages. Leaflet measurements and categorical traits need
-    organ-level review; dimensions were read as length x width.
+    organ-level review; dimensions were read as length x width. A future
+    born-digital copy could improve OCR accuracy, omitted-clause coverage and
+    clause-page provenance; recheck the extraction against it if obtained. Its
+    absence does not prevent image-based verification of the current scan.
 identifiers: .na
 locations: .na
 contexts:
