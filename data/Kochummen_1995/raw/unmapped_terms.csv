@@ -1,0 +1,70 @@
+organ,character,n_taxa,example_taxon,example_text,printed_page
+,habitat / altitude / phenology text,63,Burseraceae,Burseraceae are common constituents of the main storey of mixed dipterocarp and kerangas forests; they also occur in submontane forests to 1800 m. The drupaceous fruits are dispersed by animals. In...,46
+veins,vein number / relief / pattern,59,Canarium apertum,"lateral veins 8--15 pairs, prominently raised below, giving a bullate appearance to the blade, flat above",50
+,distribution,58,Burseraceae,"16 genera and about 550 species; tropics and subtropics. In Sabah and Sarawak, 8 genera and 59 species are known.",45
+midrib,midrib relief,57,Canarium apertum,midrib flattened above,50
+fruits,fruit shape,56,Dacryodes,oblong or ellipsoid,65
+leaves,leaflet pair count,56,Canarium apertum,Leaves with 3--4 pairs of leaflets,50
+lamina parts,"leaflet apex shape (pointed, cuspidate)",54,Canarium caudatum,apex pointed,51
+petiolule,petiolule length / swelling / indumentum,51,Canarium apertum,"petiolules 2--3 mm long, powdery hairy",50
+twigs,twig thickness / colour / shape / lenticels,36,Canarium,"Twigs usually round, the pith nearly always with vascular strands",47
+inner bark,inner bark colour / texture / exudate / smell,33,Canarium,"inner bark pinkish or reddish, laminated, soft, aromatic, with clear sticky exudate, rarely with non-sticky exudate, which becomes dark brown on exposure",47
+rachis,rachis colour / indumentum / shape / length,33,Canarium apertum,rachis and petiole powdery brown-hairy,50
+sapwood,sapwood colour,29,Canarium,"Sapwood whitish, darkening inwards",47
+flowers,flowers indumentum,27,Canarium decumanum,Flowers hairy,52
+stipules,stipule presence / persistence / shape / position,25,Triomma,Stipules absent,99
+,"infraspecific annotation (distribution, habitat)",23,Canarium denticulatum subsp. denticulatum,"Synonyms: C. fissistipulum Miq., Fl. Ind. Bat. Suppl. (1861) 521; C. kunstleri King l.c. 184; C. laciniatum Elmer, Leafl. Philip. Bot. 3 (1911) 1084. Andamans, Burma, Sumatra, Peninsular Malaysia, ...",53
+buttress,buttress height / shape,21,Dacryodes,"buttresses small, short",65
+blade,leaflet texture,20,Canarium kinabaluensis,thickly leathery,56
+stamens,stamen fusion / staminodes,18,Canarium,free to entirely connate,47
+calyx,calyx / receptacle shape / indumentum,17,Canarium,receptacle flat or concave,47
+petiole,petiole shape / indumentum,17,Canarium,"petiole rounded, flattened or channelled especially towards base, often swollen at base",47
+blade,leaflet colour on drying,16,Canarium kinabaluensis,blade drying to reddish brown,56
+fruits,fruit (other),16,Dacryodes,1-seeded,65
+bark,bark (other),15,Canarium,with many small lenticels,47
+tip,leaflet tip (acumen) length,15,Canarium caudatum,tip c. 1 cm long,51
+bud,terminal bud size / indumentum,14,Canarium pseudodecumanum,"Terminal bud 4--5 cm long, densely brown tomentose",62
+disc,disc shape,14,Canarium,"disc inside to the stamens (intrastaminal), 6-lobed, strongly developed in male flowers",48
+style,style / stigma,14,Dacryodes,stigma sessile,65
+ovary,ovary shape / indumentum,13,Canarium,"ovary in female flowers stalked if receptacle is concave, ovoid to ellipsoid, style cylindrical, stigma globular, slightly 3-lobed",48
+petals,petal shape / indumentum,13,Canarium,petals 3,47
+twigs,twigs indumentum,13,Canarium apertum,"Twigs angled, powdery reddish brown hairy when young",50
+inflorescence,inflorescence indumentum,11,Canarium divergens,hairy,54
+infructescence,infructescence length / position,10,Canarium pseudopimela,Infructescences c. 13 cm long,64
+fruits,fruit surface,9,Canarium kinabaluensis,strongly wrinkled,56
+inflorescence,inflorescence (other),9,Canarium,female ones often reduced and smaller,47
+,uses,9,Burseraceae,"Timber suitable for general building construction and carpentry work, plywood and weather boarding. The family abounds in fragrant balsams and resins (e.g., balsam from Commiphora opobalsamum; fran...",46
+flowers,flower (other),8,Haplolobus,functionally unisexual,75
+petals,petals indumentum,8,Canarium,outside hairy in the centre,47
+pith,pith vascular strands,8,Garuga,Pith of branches and petioles without vascular strands,74
+fruits,fruit stigma position,7,Canarium,with apical stigma,48
+leaves,leaf (other),7,Canarium,"Leaves often with stipules of various shapes and sizes, at base of rachis or on it, soon falling off",47
+seeds,seed number / shape,7,Canarium,Seed 1 per cell,48
+blade,leaflet (other),6,Canarium,leaflets generally with pointed tips,47
+calyx,calyx indumentum,6,Canarium,"calyx cup-shaped, lobes deltoid, outside glabrous or hairy, inside always densely silky-hairy",47
+stalk,fruit or flower stalk length,6,Dacryodes,stalks (petiolules) strongly swollen at both ends,65
+cotyledons,cotyledons,5,Garuga,Cotyledons twisted and folded,75
+fruits,fruiting calyx,5,Protium,calyx persistent,81
+stone,stone (pyrene),5,Canarium,"stone hard, woody, round or triangular in cross-section, with 3 cells, often reduced to 2 or 1, containing woody intrusions of the placenta, penetrating between cells as wings, often visible as sur...",48
+pericarp,pericarp texture,4,Canarium,wrinkled when dry,48
+blade,leaflet sessility,3,Canarium hirsutum,blade subsessile except basal ones,55
+blade,infraspecific variation,2,Dacryodes rugosa,blade glabrous or appressed pubescent below or with erect hairs on midrib and veins below (var. virgata),74
+blade,leaflet galls / domatia,2,Haplolobus inaequifolius,with 1-mm-wide circular galls,79
+blade,leaflet surface relief,2,Dacryodes rugosa,sometimes bullate,74
+cotyledons,statement about named species,2,Canarium,"cotyledons oily, 3-lobed in most species but 5-lobed in C. megalanthum",48
+flowers,infraspecific variation,2,Dacryodes rugosa,glabrous (var. virgata) or hairy,74
+germination,statement about named species,2,Santiria,"germination in S. laevigata and S. oblongifolia epigeal, cotyledons 5-lobed, fleshy, first two leaves opposite, subsequent leaves alternate, leaves in young seedling simple",84
+habit,habit (other),2,Dacryodes,Small to medium-sized,65
+seedling,seedling leaves,2,Scutinanthe,"leaves of young seedling simple, alternate to spiral",97
+blade,blade indumentum,1,Santiria apiculata,blade glabrous,86
+blade,leaflet symmetry,1,Haplolobus inaequifolius,strongly asymmetric,79
+fruits,fruits indumentum,1,Canarium pseudodecumanum,densely tomentose when young,62
+habit,plant height (rarely more than),1,Santiria apiculata,Small to medium-sized tree rarely more than 30 m tall,86
+inner bark,statement about named species,1,Santiria,"inner bark either pink, soft, and laminated or yellowish white, hard mottled and granular (S. griffithii, S. rubiginosa), with white to colourless exudate darkening on drying",83
+pedicels,pedicel (other),1,Dacryodes expansa,articulated,67
+saplings,sapling leaves,1,Triomma malaccensis,Saplings with densely hairy rachis and leaflets,100
+stipules,statement about named species,1,Dacryodes,Stipules absent (in D. laxa the first pair of leaflets are smaller and stipule-like),65
+testa,seed coat,1,Canarium,without endosperm,48
+twigs,infraspecific variation,1,Santiria apiculata,"Twigs pale or whitish, glabrous or densely brownish hairy (var. pilosa)",86
+veins,infraspecific variation,1,Dacryodes rugosa,"lateral veins 7--12 pairs, raised below, flattened above (sunken in var. rugosa), often curving and joining near margin",74
+,timber properties,1,Burseraceae,"The standard Malaysian name for the timber of Burseraceae is kedondong (Malay). It is a very homogeneous group except for slight colour differences, and a light hardwood, moderately hard and modera...",46
