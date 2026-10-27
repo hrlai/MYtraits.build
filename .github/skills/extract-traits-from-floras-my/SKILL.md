@@ -20,6 +20,7 @@ pause. Worked examples, all in this repository:
 | `data/Yao_2010` | Pentaphylacaceae, FPM vol. 1 | scanned PDF, 1 taxon | `flora_hand()`, monogeneric copy-down, hedges |
 | `data/Nor-Ezzawanis_2010` | Cibotiaceae, FPM ferns vol. 1 | scanned PDF, 1 taxon | first fern; provisional fern mappings |
 | `data/Hughes_2013` | Memecylaceae, FPM vol. 4 | scanned PDF; OCR-layer parser | **PROVISIONAL**; OCR-derived transcription is not image-checked, and the segmenter still reads the layer |
+| `data/Kochummen_1995` | Burseraceae, TFSS vol. 1 | 2007 electronic text (embedded fonts, no scan); scripted parser, 59 taxa | first TFSS parser; infra annotations under a species description; single-infra taxa; family exceptions by hand; missing-dash source fixes |
 | `data/Adema_1996` | Sapindaceae, TFSS vol. 2 | scanned PDF; unverified text layer | **UNDONE — not release-ready**; partial species-only pass |
 
 Treat the first four as precedents, not completeness benchmarks: the scanned
@@ -114,7 +115,7 @@ Coode_2018 one.
 | `scripts/flora_assemble.R` | copy-down, species to infraspecific inheritance, duplicate merge, final column order, `data.csv`, unmapped summary |
 | `scripts/flora_hand.R` | row helpers for tiny families and single papers (`row`, `un`, `tri`, `rng`) |
 | `scripts/flora_qa.R` | `flora_qa(id)` tables; `flora_dataset_test(id)` |
-| `assets/flora_dictionary_seed.csv` | 134 term regex to level rows (35 traits) taken from Coode_2018 and Lim_2010; grow it, do not fork it |
+| `assets/flora_dictionary_seed.csv` | term regex to level rows from Coode_2018, Lim_2010 and Kochummen_1995; grow it, do not fork it |
 
 The scripts are tested against the three datasets (they reproduce the Coode
 and Lim paragraph tables and all three `data.csv` value columns exactly). They
