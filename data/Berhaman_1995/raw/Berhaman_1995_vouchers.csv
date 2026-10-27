@@ -1,0 +1,21 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Deplanchea bancana,,BO,,Teijsmann,H.B. 9666,,Banka,,,"Type, p.36","Type of the basionym Diplanthera bancana Scheff., as printed under the accepted name. Status not stated (type at BO). Country not printed."
+Deplanchea bancana,figure specimen,,,Wong,WKM 589,,,,,"Fig. 1, p.34",Fig. 1 (whole figure).
+Dolichandrone spathacea,,LINN,Herb. Linn. No. 776. 8,Konig,,,,,,"Type, p.37","Type of the basionym Bignonia spathacea L. f., as printed under the accepted name. Status not stated (type at LINN). Catalogue number as printed."
+Dolichandrone spathacea,figure specimen,,,,SAN 31498,,,,,"Fig. 2, p.39",Fig. 2 A.
+Dolichandrone spathacea,figure specimen,,,,FRI 12490,,,,,"Fig. 2, p.39",Fig. 2 B.
+Dolichandrone spathacea,figure specimen,,,,SAN A 1771,,,,,"Fig. 2, p.39","Fig. 2 C, D."
+Oroxylum indicum,,BM,"Herb. Hermann No. 236; vol. 5: Icon. 28, 29, 72",Hermann,,,,,,"Type, p.38","Type of the basionym Bignonia indica L., as printed under the accepted name: a herbarium sheet and icons. Status not stated (type at BM). Collector taken from the herbarium name."
+Oroxylum indicum,figure specimen,,,,SAN 89947,,,,,"Fig. 3, p.40",Fig. 3 (whole figure).
+Radermachera pinnata,neotype,A,,Merrill,Sp. Blanc. 834,,"Luzon, Rizal Province",,Philippines,"Type, p.42",Type of the basionym Millingtonia pinnata Blanco.
+Radermachera pinnata,isoneotype,BO,,Merrill,Sp. Blanc. 834,,"Luzon, Rizal Province",,Philippines,"Type, p.42",Type of the basionym Millingtonia pinnata Blanco.
+Radermachera pinnata,isoneotype,K,,Merrill,Sp. Blanc. 834,,"Luzon, Rizal Province",,Philippines,"Type, p.42",Type of the basionym Millingtonia pinnata Blanco.
+Radermachera pinnata,isoneotype,L,,Merrill,Sp. Blanc. 834,,"Luzon, Rizal Province",,Philippines,"Type, p.42",Type of the basionym Millingtonia pinnata Blanco.
+Radermachera pinnata subsp. acuminata,holotype,BO,,Endert,E 1309,,"S Sumatra, Lampong, Tandjong Karang",,,"Type, p.42","Type of the basionym R. lobbii subsp. acuminata Steenis. Country not printed."
+Radermachera pinnata subsp. acuminata,isotype,L,,Endert,E 1309,,"S Sumatra, Lampong, Tandjong Karang",,,"Type, p.42","Type of the basionym R. lobbii subsp. acuminata Steenis. Country not printed."
+Radermachera pinnata subsp. acuminata,figure specimen,,,,SAN 57414,,,,,"Fig. 4, p.43","Fig. 4 A, B."
+Radermachera pinnata subsp. acuminata,figure specimen,,,,SAN 96675,,,,,"Fig. 4, p.43","Fig. 4 C, D."
+Radermachera pinnata subsp. acuminata,figure specimen,,,,SAN 109532,,,,,"Fig. 4, p.43","Fig. 4 E, F."
+Radermachera ramiflora,holotype,BO,,Clemens,28672,,Mount Kinabalu,Sabah,Malaysia,"Type, p.42",Printed state: British North Borneo.
+Radermachera ramiflora,isotype,K,,Clemens,28672,,Mount Kinabalu,Sabah,Malaysia,"Type, p.42",Printed state: British North Borneo.
+Radermachera ramiflora,isotype,L,,Clemens,28672,,Mount Kinabalu,Sabah,Malaysia,"Type, p.42",Printed state: British North Borneo.

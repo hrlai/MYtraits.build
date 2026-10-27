@@ -21,6 +21,7 @@ pause. Worked examples, all in this repository:
 | `data/Nor-Ezzawanis_2010` | Cibotiaceae, FPM ferns vol. 1 | scanned PDF, 1 taxon | first fern; provisional fern mappings |
 | `data/Hughes_2013` | Memecylaceae, FPM vol. 4 | scanned PDF; OCR-layer parser | **PROVISIONAL**; OCR-derived transcription is not image-checked, and the segmenter still reads the layer |
 | `data/Kochummen_1995` | Burseraceae, TFSS vol. 1 | 2007 electronic text (embedded fonts, no scan); scripted parser, 59 taxa | first TFSS parser; infra annotations under a species description; single-infra taxa; family exceptions by hand; missing-dash source fixes |
+| `data/Berhaman_1995` | Bignoniaceae, TFSS vol. 1 | 2007 electronic text, 5 described taxa | `flora_hand()` for a multi-genus family; hand copy-down table; single-infra taxon; undescribed species and key-only genus flagged |
 | `data/Adema_1996` | Sapindaceae, TFSS vol. 2 | scanned PDF; unverified text layer | **UNDONE — not release-ready**; partial species-only pass |
 
 Treat the first four as precedents, not completeness benchmarks: the scanned
