@@ -1,0 +1,1265 @@
+# Jones_1995: transcription of D.T. Jones (1995) Rutaceae, Tree Flora of Sabah
+# and Sarawak vol. 1: 351--419 (inst/extdata/TFSS/Rutaceae.pdf, PDF pages
+# 7--75). The PDF is the 2007 electronic edition of the volume: text pages are
+# vector text with no page image, so the text layer is what renders; figure
+# pages (pdf 15, 16, 23, 24, 33, 34, 39, 43, 53, 55, 57, 59, 60, 64, 69, 71,
+# 74) are images without a text layer.
+# Draft generated from the text layer (pdftotext -layout) with running heads
+# and page numbers removed, then edited by hand: headings on their own line,
+# line-end hyphens resolved (compounds such as "cup-like" kept, breaks such as
+# "Inflores-cences" joined), the in-key treatments of the three Glycosmis
+# chlorosperma varieties split into nomenclature, description and
+# distribution paragraphs, and figure captions (transcribed from the figure
+# images) added as "# CAPTION:" comment lines. One paragraph per line; a
+# "@page" line marks each page turn (pdf page, printed page). A paragraph
+# that runs across a page turn is split there; the segmenter rejoins it because
+# its first part does not end a sentence. Italics and bold are not kept. Text is verbatim as printed in this edition, including its slips;
+# repairs are in raw/source_fixes.csv.
+@page 7 351
+RUTACEAE
+
+David T. Jones
+
+South Florida Natural Resources Center, Everglades National Park, Homestead, Florida, U.S.A.
+
+Hooker f., Fl. Brit. Ind. 1 (1875) 484; Kurz, For. Fl. Brit. Burma 1 (1877) 178; Merrill, EB (1921) 313, PEB (1929) 113; Ridley, FMP 1 (1922) 340; Craib, Fl. Siam Enum. 1 (1931) 215; Masamune, EPB (1942) 357; Browne, FTSB (1955) 315; Backer & Bakhuizen f., FJ 2 (1965) 94; Swingle, Citrus Industry 1 (1967) 190; Stone, TFM 1 (1972) 367; Anderson, CLTS (1980) 307; Perry, MPESA (1980) 361; Corner, WSTM 2 (1988) 656; Whitmore, Tantra & Sutisna, CLK 2, 1 (1990) 304; Ng, MFFSS 2 (1992) 493.
+
+Aromatic trees, shrubs, or woody climbers, or seldom herbs; twigs and branches sometimes armed with spines or thorns; tissues usually dotted with lysigenous oil-glands containing volatile essential oils. Leaves pinnate or trifoliolate or unifoliolate, less commonly simple; opposite, alternate or spirally arranged, rarely whorled, often conspicuously pellucid-dotted; petioles sometimes winged, usually articulated with the blade, without stipules. Inflorescences terminal or axillary panicles, cymes or racemes, or flowers seldom solitary, rarely epiphyllous. Flowers bisexual or (in dioecious plants) unisexual, regular or rarely somewhat irregular; sepals 4–5, rarely 2–3, usually imbricate, free or fused basally to form a cup-like calyx; petals 4–5, rarely 2–3 or 6, alternate with the sepals, imbricate or valvate, free or fused basally, rarely united to form a tube; stamens 4–5 or 8–10 or more (to 60), equal or unequal, sometimes intermixed with staminodes, filaments free or fused basally, rarely united to form a tube; anthers 2-celled, often gland-tipped; disc surrounding base of ovary, intrastaminal, usually annular, nectariferous, sometimes modified into a gynophore, rarely lacking; ovary superior, carpels 4–5, rarely 1–3 or 6 or more, completely to partially fused or free except for the united styles, ovules 1–2 per locule, rarely more, placentation axile, stigma small or broad, sometimes lobed. Fruit a capsule, follicle, samara, drupe, berry or hesperidium (Citrus), dry or fleshy; hesperidia composed of juice-filled pulp-vesicles, with or without oil-droplets; pericarp leathery to woody or fleshy, usually glandular. Seeds usually 1 per carpel, ovoid to ellipsoid or oblong, with or without endosperm, sometimes winged, sometimes hairy; testa firm or membranous; monoembryonic or polyembryonic; embryo straight or curved; cotyledons white or green, flat or folded.
+
+Distribution. A cosmopolitan family comprising approximately 160 genera and 1650 species, distributed largely in tropical and subtropical parts of the world, with good representation in arid areas of the warm temperate zone (Australia and S Africa). In Sabah and Sarawak, 23 genera with about 75 species, of which 17 genera and 43 species are native trees and shrubs. The remaining taxa are scandent shrubs (15 species), or are cultivated (c. 17 species). The genera Fortunella (2–3 species), Limonia (1 species), and Triphasia (1 species) are represented only by introduced species found under cultivation and are excluded from this treatment.
+
+@page 8 352
+Ecology. Native species are found in a wide range of natural habitats occurring in the lowlands, hills, and mountains, along coastal areas, and on offshore islands. These habitats include primary and secondary forests (flat or undulating lands, ridges, hillsides), forest margins, open places and disturbed sites, mangrove forest (Merope), heath forest, swamp (freshwater, peat) forest, streamsides and riverbanks, and beach forest (Severinia). Some species show affinities for specific soil types such as ultramafic (Lunasia) and limestone (some Clausena, Glycosmis, Murraya and Micromelum). The majority of species are found below 1300 m elevation, and a few ascend to higher altitudes (Citrus and Tetractomia to 1800 m, and Melicope to 2400 m). Thirteen tree and shrub taxa are endemic to Sabah and/or Sarawak, four of which are found in each of the genera Glycosmis and Melicope, followed by Maclurodendron (2 species), Clausena, Monanthocitrus, and Pleiospermium. Abundance varies among species, ranging from widespread and common to infrequent and rare. Merrillia is very rare in Sabah, and Burkillanthus is endangered, if not already extinct, in Sarawak.
+
+The typically small size and drab colour (white or cream to greenish or yellowish) of the flowers of the Rutoideae (Melicope, Tetractomia, Zanthoxylum) and Toddalioideae (Acronychia, Maclurodendron), and the larger, often fragrant flowers of the Aurantioideae (Citrus, Murraya, Pleiospermium, etc.), suggests insect pollination. The watery nectar secreted through stomata in the outer portions of the floral disc serves as both an attractant and food source. Fruit and seed dispersal is by birds (Melicope, Zanthoxylum), wind (Tetractomia), water (Merope), and fruit- and seed-eating animals (Citrus, Clausena, Glycosmis, Micromelum, Severinia, and most other Aurantioideae).
+
+Uses. The family includes the wild and cultivated citrus fruits of the subfamily Aurantioideae (chiefly from Citrus and Fortunella) which serve as a source of food and flavourings, essential oils, and medicines. A number of other genera provide lesser known edible fruits (Clausena, Limonia, and Triphasia), flavours (Murraya), and traditional medicines and poisons (Glycosmis, Merope, Micromelum, Murraya, Paramignya, Severinia). Although few of the species reach timber size, the wood of some is valued for its special qualities such as grain, colour, or hardness (Citrus, Merrillia, Micromelum, and Murraya). A number of species are prized as ornamentals or hedge-plants due to their attractive foliage and fragrant flowers (Citrus, Fortunella, Glycosmis, Luvunga, Murraya, and Triphasia). Certain species of Pleiospermium and Severinia have been suggested as a source of rootstock material for Citrus breeding and improvement programmes.
+
+More than half the species of the non-aurantioid genera (subfamilies Rutoideae and Toddalioideae) attain timber size, yet only Acronychia (1 species), Maclurodendron (1 species) and Melicope (1 species) have reportedly been used for construction purposes. All of the genera (except Maclurodendron), including Toddalia, are said to have minor medicinal importance. Lesser-known uses are as a source of resin (Melicope), food and flavouring (Acronychia and Melicope), and fish poison (Acronychia).
+
+Taxonomy. The Rutaceae is generally accepted as closely allied to the Meliaceae, Simaroubaceae, and in some characters to other families included in the order Sapindales, e.g., the Anacardiaceae, Burseraceae, and Sapindaceae. From the Meliaceae and Simaroubaceae (its closest allies), the family differs by its glandular-punctate leaves and the presence of secretory cavities containing aromatic esthereal oils in the parenchymatous and pericarp tissues. In the most detailed treatment of the family, Engler (in Engler & Prantl, Pfl. Fam. 19
+
+@page 9 353
+a (1931) 187–359) recognised 7 subfamilies. Airy-Shaw (in Willis, Dict. Fl. Pl. & Ferns 8th ed. (1973) 1014), however, raised the subfamily Flindersioideae and Rhabdodendroideae to family status, thus reducing the number of subfamilies to 5. Of these 5 or 7 subfamilies, only the Aurantioideae, Rutoideae and Toddalioideae are represented by native species in Sabah and Sarawak. More recently, Da Silva et al. (Pl. Syst. Evol. 161 (1988) 97–134), on the basis of phytochemical, morphological and geographical evidence, proposed the inclusion of the subfamily Toddalioideae in the Rutoideae, and the reorganisation of tribes and genera in the subfamily Aurantioideae.
+
+Key to subfamilies
+
+1. Carpels usually 3–5, usually joined only by the styles, separated in fruit. Fruits follicular, woody, dehiscing along the upper suture...............................................subfam. Rutoideae
+
+(Genera: Lunasia, Melicope, Tetractomia, Zanthoxylum)
+
+Carpels 2–20, joined completely or nearly so. Fruit a drupe or berry, dry or fleshy, indehiscent..............................................................................................................................2
+
+2. Carpels 2–5, rarely 1, rarely completely joined. Fruit a single, several-loculed drupe, or 2–4 druplets joined at the base. Seeds with endosperm, cotyledons obscure..................
+
+.................................................................................................subfam. Toddalioideae
+
+(Genera: Acronychia, Maclurodendron, Toddalia)
+
+Carpels usually 4–20, completely joined. Fruit a dry or fleshy berry or hesperidium, with or without pulp-vesicles. Seeds lacking endosperm, cotyledons well-developed ......................................................................................................subfam. Aurantioideae
+
+(Genera: Burkillanthus, Citrus, Clausena, Fortunella,
+
+Glycosmis, Limonia, Luvunga, Merope, Merrillia, Micromelum, Monanthocitrus, Murraya, Paramignya, Pleiospermium, Severinia, Triphasia).
+
+Key to native tree and shrub genera
+
+1. Twigs, branchlets, and older branches unarmed. Leaves opposite.................................2
+
+Twigs and branchlets and/or older branches armed with spines or prickles, or unarmed. Leaves alternate or spirally arranged............................................................5
+
+2. Leaves trifoliolate and/or unifoliolate, rarely bifoliolate; petioles 1–30 cm long, not swollen apically..........................................................................................8. Melicope Leaves strictly unifoliolate; petioles not longer than 5 cm, generally swollen apically........................................................................................................................3
+
+3. Leaves generally leathery. Fruit a group of 1–4 dehiscent follicles.......16. Tetractomia Leaves thinly leathery. Fruit a 4-loculate, indehiscent drupe........................................4
+
+4. Younger branchlets glabrous to finely hairy. Leaflets usually elliptic; lateral veins and reticulations conspicuous below. Flowers bisexual...................................1. Acronychia
+
+@page 10 354
+Younger branchlets brown- to rusty-hairy. Leaflets usually obovate to oblanceolate; lateral veins and reticulations inconspicuous below. Flowers unisexual..........................
+
+......................................................................................................7. Maclurodendron
+
+5. Twigs and branchlets unarmed (or with spine-like paraphylls in some Severinia)........6
+
+Twigs and branchlets and/or older branches armed with spines or prickles (or unarmed or nearly so in some Pleiospermium)..........................................................................12
+
+6. Leaves simple; blades often rigid when older, not articulated at the base......................7
+
+Leaves pinnate and/or unifoliolate; leaflet blades not as above, articulated at the base..........8
+
+7. Leaf-margins sinuate or coarsely dentate. Petioles swollen apically. Fruit a group of ribbed follicles..............................................................................................6. Lunasia Leaf-margins subentire to obscurely crenulate. Petioles not as above. Fruit a fleshy berry.........................................................................................................15. Severinia
+
+8. Young branch-tips densely rusty-hairy. Leaves pinnate and/or unifoliolate, often leathery ..................................................................................................................5. Glycosmis Young branch-tips glabrous or hairy (if hairy, not as above). Leaves pinnate, thinly leathery........................................................................................................................9
+
+9. Leaf-rachis narrowly winged. Leaflets alternate to subopposite. Fruit a large berry, 7 cm in diameter or more; pericarp thick, leathery.......................................10. Merrillia Leaf-rachis wingless. Leaflets alternate. Fruit a small berry, 1–2 cm in diameter or less; pericarp thin......................................................................................................10
+
+10. Leaflets generally 3–7 (or more in some of the cultivated species); bases not obliquely asymmetric (or asymmetric in some of the cultivated species). Inflorescence an axillary panicle (or terminal and/or corymbose in some of the cultivated species)...13. Murraya Leaflets generally 5–15 (or more in some Clausena); base obliquely asymmetric. Inflorescence a terminal panicle or corymb................................................................11
+
+11. Leaflets 9–15. Inflorescence a flat-topped corymb. Petals valvate in bud....11. Micromelum Leaflets 5–31. Inflorescence a panicle. Petals imbricate in bud....................4. Clausena
+
+12. Trees or scandent to erect shrubs. Twigs and branchlets and/or older branches armed with numerous thick spines or small (sometimes hollow or recurved) prickles. Leaves pinnate. Fruit of 1–4 follicles.............................................................17. Zanthoxylum Trees or erect shrubs. Twigs and branchlets and/or older branches armed with straight, terete, axillary spines, or unarmed or nearly so. Leaves 2–3-foliolate and/or unifoliolate, or simple. Fruit a fleshy berry or hesperidium.........................................13
+
+13. Leaves 2–3-foliolate (or unifoliolate in juvenile growth), rather stiff when older ...........................................................................................................2. Burkillanthus Leaves strictly unifoliolate or simple..........................................................................14
+
+14. Shrubs or small trees. Petioles wingless. Fruits lacking pulp-vesicles.........................15
+
+Shrubs or small to large trees. Petioles narrowly to broadly winged, or rarely wingless. Fruits containing pulp-vesicles...................................................................................16
+
+@page 11 355
+15. Leaves oblong-ovate, thick, fleshy; lateral veins inconspicuous. Petiole articulated with the blade. Mangrove swamp plants................................................................9. Merope Leaves oblong-oblanceolate, thin, not fleshy; lateral veins conspicuous. Petiole not articulated with the blade. Inland lowland forest plants..................12. Monanthocitrus
+
+16. Spines solitary or paired, generally only on older branches, or branches unarmed or nearly so. Fruits 1.5–2.5 cm in diameter..........................................14. Pleiospermium Spines solitary, predominantly on younger branches and twigs, older branches often unarmed. Fruits mostly 4 cm in diameter or larger..........................................3. Citrus
+
+Key to native genera
+
+1. Carpels 3–4, seldom 2, often joined by the styles but separated in fruit. Fruits follicular, leathery or woody, dehiscing along the upper suture; endocarp sometimes detaching...2 Carpels 2–18, incompletely or completely united. Fruit an indehiscent, dry or fleshy drupe or berry..............................................................................................................5
+
+2. Flowers 4–5-merous, unisexual or bisexual. Branches armed with spines or prickles, or unarmed......................................................................................................................3
+
+Flowers 3–4-merous, unisexual (or bisexual in some Melicope). Branches unarmed....4
+
+3. Ovary 4-carpellate. Follicles boat-shaped; exocarp leathery, not glandular. Seeds winged, testa parchment-like. Flowers bisexual. Branches unarmed..................16. Tetractomia Ovary 2–4-carpellate. Follicles subglobose; exocarp conspicuously glandular. Seeds unwingless, testa black, glossy. Flowers unisexual. Branches armed with spines or prickles..............................................................................................17. Zanthoxylum
+
+4. Flowers 3-merous, unisexual. Follicles flattened laterally, ribbed, with a short beak. Leaves simple, alternate................................................................................6. Lunasia Flowers 4-merous, unisexual or bisexual. Follicles subglobose, not ribbed, without beak. Leaves trifoliolate and/or unifoliolate, opposite..................................8. Melicope
+
+5. Carpels rarely completely united; ovary usually shallowly lobed. Fruit a drupe............6
+
+Carpels always completely united; ovary not lobed. Fruit a berry or hesperidium.........8
+
+6. Scandent shrubs, armed with prickles. Leaves trifoliolate, alternate or spiral. Flowers unisexual.......................................................................................................................
+
+Toddalia Juss.
+
+Gen. Pl. 3 (1789) 371; Hooker f. l.c. (1875) 497; Kurz l.c. (1877) 183; Craib l.c. 220; Backer & Bakhuizen f. l.c 101; Perry l.c. 368. 1 species; Africa, Madagascar, India, Sri Lanka, S China, Indonesia, Borneo (Sabah and Sarawak), and the Philippines. Climbers with prickly branchlets. Leaves trifoliolate; leaflets with prickly midrib and toothed margin. Inflorescence an axillary or terminal panicle. Flowers 4–5-merous, unisexual; sepals small; petals to 5 mm long, oblong; stamens 4–5, female flowers with staminodes; ovary 4–5-carpellate, on short stalk. Fruit a small, round drupe. Seeds smooth, angular; embryo curved, embedded in fleshy endosperm.
+
+@page 12 356
+Erect shrubs or trees, unarmed. Leaves unifoliolate, opposite. Flowers unisexual or bisexual ......................................................................................................................7
+
+7. Flowers unisexual; buds globose; petals imbricate; filaments glabrous; ovaries and fruits glabrous................................................................................7. Maclurodendron Flowers bisexual; buds cylindrical; petals valvate; filaments ciliate at base; ovaries and fruits hairy or sparsely so........................................................................1. Acronychia
+
+8. Twigs and branchlets unarmed. Ovary 2–5-carpellate (or rarely 6-carpellate in Merrillia); ovules 1–2 per locule (or 8–10 in Merrillia). Fruits rather small (or large in Merrillia), without pulp-vesicles, dry or slightly juicy (or mucilaginous in Merrillia) ....................................................................................................................................9
+
+Twigs and branchlets (especially in young plants) and/or older branches armed (or unarmed or with spine-like paraphylls in some Severinia; unarmed or nearly so in some Pleiospermium). Ovary 2–5-carpellate (or 6–18-carpellate in Citrus), ovules 2 per locule or more (or rarely 1). Fruits small to large, with or without pulp-vesicles, usually juicy or mucilaginous.....................................................................................13
+
+9. Inflorescence a terminal, flat-topped corymb. Petals valvate in bud. Cotyledons thin, folded.................................................................................................11. Micromelum Inflorescence a terminal or axillary panicle, raceme or cyme, or 1–2-flowered. Petals imbricate in bud. Cotyledons thick, flat......................................................................10
+
+10. Inflorescence 1–2-flowered. Petals c. 2.5 cm long. Ovary 5–6-carpellate. Fruits 9 cm or more in diameter; pericarp thick, leathery.................................................10. Merrillia Inflorescence a many-flowered panicle, raceme or cyme. Petals rarely exceeding 2 cm long. Ovary 2–5-carpellate. Fruits less than 2.5 cm in diameter; pericarp thin, glandular ..................................................................................................................11
+
+11. Style persistent, thick, shorter than the ovary. Locules 1–2-ovulate. Young growth densely reddish hairy................................................................................5. Glycosmis Style deciduous or persistent, shorter than the ovary or as long or longer. Locules 2-ovulate (rarely 1-ovulate). Young growth not as above...............................................12
+
+12. Petals 10–21 mm long or more. Style as long as or longer than the ovary, stigma capitate. Floral buds cylindrical or oblong.................................................13. Murraya Petals 3–6 mm long. Style shorter than the ovary, stigma flattened. Floral buds globose or ovoid......................................................................................................4. Clausena
+
+13. Stamens twice as many as the petals. Fruits 1–3 cm in diameter; locules containing mucilage or scant flesh, pulp-vesicles lacking. Erect or scandent shrubs or trees........14
+
+Stamens 2–4 times as many as the petals or more. Fruits variable in size, to 20 cm in diameter; locules containing juice-filled pulp-vesicles. Erect shrubs or trees..............17
+
+14. Scandent shrubs armed with solitary, recurved or straight spines. Leaves trifoliolate and/or unifoliolate.....................................................................................................15
+
+Erect shrubs or small trees armed with solitary or paired, straight spines. Leaves unifoliolate or simple.................................................................................................16
+
+@page 13 357
+15. Leaves trifoliolate (or unifoliolate on juvenile stems). Petioles 7–30 cm long, rarely shorter...........................................................................................................................
+
+Luvunga Buch.-Ham. in Wall. ex Wight & Arn.
+
+Prodr. 1 (1834) 90; Hooker f. l.c. (1875) 508; Kurz l.c. (1877) 193; Merrill l.c. (1921) 315, l.c (1929) 115; Ridley l.c. (1922) 354; Craib l.c. 235; Masamune l.c. 360; Backer & Bakhuizen f. l.c. 105; Burkill, EPMP (1966) 1396; Swingle l.c. (1967) 265; Anderson l.c. 308; Perry l.c. 371; Stone, Proc. Ac. Nat. Sc. Phil. 137 (1985) 221. c. 12 species; India, Sri Lanka, Burma, Indo-China, Malesia; 7–8 species in Sabah and Sarawak. Woody climbers with hook-like or (in juvenile plants) straight axillary spines. Leaves trifoliolate or (in juveniles) unifoliolate. Leaflets coriaceous; margin entire; petiolules pulvinate. Inflorescence an axillary panicle or raceme. Flowers 4–5-merous; calyx cup-like, slightly lobed; petals oblong-linear; stamens usually 8 or 10; ovary 2–4-carpellate, on short stalk, style thick. Fruit a glandular berry, thick-walled. Seeds 1–3 per fruit.
+
+Leaves unifoliolate. Petioles to 2.5 cm long, usually shorter...........................................
+
+Paramignya Wight
+
+Ill. Ind. Bot. 1 (1840) 108, 110; Hooker f. l.c. (1875) 509; Kurz l.c. (1877) 193; Ridley l.c. (1922) 355; Burkill, Gard. Bull. S.S. 5 (1931) 213, l.c. (1966) 1691; Craib l.c. 235; Swingle l.c. (1967) 270; Stone l.c. (1972) 384; Perry l.c. 371; Corner l.c. 669. c. 12 species; India, Sri Lanka, Burma, S China, Indo-China, Thailand, Malesia, Australia; 3–4 species in Sabah and Sarawak. Woody climbers or (rarely) shrubs, with hook-like or short straight axillary spines. Twigs zigzag. Leaves unifoliolate, margins entire; petioles short, pulvinate. Inflorescences axillary, often solitary. Flowers 4–5-merous, often large; calyx cup-like, lobed; petals lanceolate-oblong; stamens 8 or 10; ovary 3–5-carpellate, stalked. Fruits round or lobed, glandular, resinous. Seeds 1 to several per fruit, ovoid or flattened.
+
+16. Ovary ovoid, glabrous. Fruits ovoid to ellipsoid, angular, green when ripe. Seeds flattened. Leaves unifoliolate.......................................................................10. Merope Ovary bottle-shaped, sparsely hairy. Fruits obovoid to pyriform, yellow-orange when ripe. Seeds thick. Leaves simple.....................................................12. Monanthocitrus
+
+17. Stamens 4–8 times as many as the petals. Pulp-vesicles tapered at both ends (fusiform), on slender stalks............................................................................................13. Citrus Stamens twice as many as the petals. Pulp-vesicles cylindrical or conical or irregular in shape, stalkless or nearly so.......................................................................................18
+
+18. Ovary 5-carpellate, locules 22–26-ovulate. Fruits 8–11 cm in diameter, obovoid to oblong ...........................................................................................................2. Burkillanthus Ovary 2- or 4–5-carpellate, locules 1–2-ovulate. Fruits to 2.5 cm in diameter, usually less, round or nearly so..............................................................................................19
+
+19. Disc small, annular to cup-like. Fruits 15–25 mm in diameter, pericarp rough-glandular. Petioles winged or narrowly so, articulated with the leaf-blades.......14. Pleiospermium Disc cup-like, enclosing the base of the ovary. Fruits 6–15 mm in diameter, pericarp smooth. Petioles wingless, not articulated with the leaf-blades.................15. Severinia
+
+@page 14 358
+1. ACRONYCHIA J. R. Forst. & G. Forst.
+
+(Greek, akron = tip, onychos = claw; the claw-like tip of the petals)
+
+Char. Gen. Pl. ed. 1 (1775) 27; Hooker f. l.c. (1875) 498; Kurz l.c. (1877) 183; King, J. As. Soc. Beng. 62, 2 (1893) 214; Ridley l.c. (1922) 347; Merrill l.c. (1929) 113; Craib l.c. 221; Masamune l.c. 357; Backer & Bakhuizen f. l.c. 101; Burkill l.c. (1966) 40; Stone l.c. (1972) 371; Hartley, J. Arn. Arb. 55 (1974) 469; Anderson l.c. 307; Perry l.c. 361; Whitmore, Tantra & Sutisna l.c. 304.
+
+Shrubs or trees or rarely climbers. Branches unarmed. Leaves opposite, trifoliolate or unifoliolate, petioles wingless; leaflets pinnately veined, margin entire, articulated at the base. Inflorescences axillary, paniculate, subcorymbose, or 1- to few-flowered. Flowers bisexual, 4-merous; sepals 4, free or fused at base, imbricate; petals 4, free, valvate, pellucid-dotted, white or cream to greenish or yellowish, becoming reflexed; stamens 8, unequal, alternately long and short, filaments flattened and tapering to a sharp apex, usually densely ciliate at the base, becoming reflexed, anthers ovoid to ellipsoid, basifixed; disc shallowly 8-lobed; ovary 4-carpellate, with septicidal fissures or without, ovules 2 per locule, style twisted, stigma shallowly 4-lobed. Fruit a 4-loculate drupe, with septicidal fissures or without; epicarp semi-fleshy, spongy or woody when dry, with or without evident mesocarp; endocarp cartilaginous to parchment-like. Seeds 1–2 per locule, narrowly ellipsoid, slightly bent; testa dull to shiny, smoothish to finely rugose; endosperm fleshy; embryo straight.
+
+Distribution. 42 species; from India to SW China, and throughout Malesia to E Australia and New Caledonia. The greatest number are found in Australia, Irian Jaya (Indonesia) and Papua New Guinea, including several rare and endemic species. One species, A. pedunculata, occurs in Sabah and Sarawak.
+
+Ecology. Found in primary and secondary rain forests, from the lowlands and hills to cloud forests and subalpine habitats above 3000 m and in coastal scrub.
+
+Acronychia pedunculata (L.) Miq. Fig. 1.
+
+(Latin, pedunculatus = slender-stalked; the inflorescence)
+
+Fl. Ned. Ind., Suppl. (1861) 532; Merrill l.c. (1929) 113; Craib l.c. 221; Masamune l.c. 357; Stone l.c. (1972) 371; Hartley l.c. 549; Perry l.c. 361; Whitmore, Tantra & Sutisna l.c. 305. Basionym: Jambolifera pedunculata L., Sp. Pl. 1 (1753) 349. Type: Jambolifera L., Fl. Zeyl. (1747) 139. Synonyms: Acronychia laurifolia Blume, Cat. (1823) 63; A. arborea Blume, Bijdr. (1825) 244; Melicope conferta Blanco, Fl. Filip. ed. 2 (1845) 205; Acronychia apiculata Miq. l.c. (1861) 532.
+
+Shrub or small to large tree to 30 m tall and 50 cm in diameter; bole to 23 m tall. Younger branchlets glabrous to finely hairy. Leaves unifoliolate; leaflet usually elliptic or elliptic-oblong to obovate or oblanceolate, 3.5–24.5 x 2–8.5 cm, thinly leathery; base cuneate or occasionally rounded, apex acuminate or occasionally blunt or rounded; lateral veins 7–14 pairs; reticulations conspicuous above and below; petioles 0.5–5 cm long. Inflorescences few- to many-flowered, 2–25 cm long, axes glabrous or nearly so, pedicels 2–12 mm long. Flowers 4–12 mm long; sepals triangular or rounded, minute; petals linear or oblanceolate, glabrous to sparsely hairy; disc glabrous; ovary hairy, rarely only at apex; style hairy at base. Fruits to 15 mm in diameter, usually subglobose to ellipsoid or conical, more or less
+
+@page 15 359
+# CAPTION: Fig. 1. Acronychia pedunculata. A, fruting leafy twig; B, part of inflorescence; C, flower with one petal removed. (From SAN 85676.)
+@page 16 360
+# CAPTION: Fig. 2. Burkillanthus malaccensis. A, leafy twig; B, dried fruit in longitudinal section. (From S. 15848.)
+@page 17 361
+4-lobed or longitudinally ribbed, usually sparsely hairy, base with a ring of dense hairs, apex rounded to shortly tipped; epicarp when dry to 3 mm thick; mesocarp woody or nearly so; endocarp cartilaginous. Seeds reddish black to black, 3–7 mm long.
+
+Distribution. India, Sri Lanka, eastward to Taiwan and throughout Malesia to Papua New Guinea. In Sabah, frequent in primary and secondary forests, often on hill-sides, from near sea-level to 1500 m. In Sarawak, collected only twice (Baram and Lundu Districts). Also occurs in Brunei and Kalimantan.
+
+Uses. The wood, roots, bark and leaves are used medicinally to treat rheumatism, scabies and colic, and as pain reliever (China, Indo-China, Indonesia). The roots are used as a fish poison (Indo-China). The wood is rarely used in construction and for making charcoal, and its young leaves are eaten as a condiment (Java).
+
+2. BURKILLANTHUS Swingle
+
+(I. H. Burkill, 1870–1965, one time director of the Singapore Botanic Gardens)
+
+J. Arn. Arb. 20 (1939) 255, l.c (1967) 294; Stone l.c. (1972) 373; Whitmore, Tantra & Sutisna l.c. 305.
+
+Trees; crown broad, dense. Branches armed, drooping in older trees. Leaves alternate, 1–3-foliolate; petioles narrowly winged to nearly wingless, pulvinoid at base; leaflets thinly leathery, becoming stiff when older, glabrous, articulated at the base. Inflorescences axillary, few-flowered clusters, pedicels short. Flowers bisexual, large, 5-merous; sepals 5, nearly free to the base, with large oil-glands; petals 5, gland-dotted distally; stamens 10, free, slender, anthers small, oblong; disc cylindrical; ovary 5-carpellate, obovoid, sparsely hairy, glandular on upper half, fluted with 5 grooves; ovules 22–26 per locule in 2 rows, style slender, glabrous, stigma globose. Fruit a large, obovoid to oblong berry; exocarp thick, leathery, light green becoming pale yellow, roughened with numerous oil-glands; endocarp thin, woody; pulp-vesicles sessile, cylindric, tips acute, pale yellow. Seeds numerous, large, cream with brown cap, embedded in mucilage; monoembryonic.
+
+Distribution. 1 species, restricted to N Sumatra, Peninsular Malaysia and Sarawak. Uncommon, and possibly endangered.
+
+Ecology. Found as solitary trees or small populations of several trees, on stream banks, slopes, and ridge tops in primary and secondary forest, on rocky and sandy soils, from 5 to 200 m.
+
+Burkillanthus malaccensis (Ridl.) Swingle Fig. 2.
+
+(of Malacca)
+
+l.c. (1939) 257, l.c. (1967) 295; Whitmore l.c. 373; Stone l.c. (1972) 373, Fed. Mus. J. 23 (1978) 114; Whitmore, Tantra & Sutisna l.c. 305. Basionym: Citrus malaccensis Ridl. l.c. (1922) 359. Type: Goodenough 1273, Malacca, Nyalas (holotype SING; isotypes K, US).
+
+@page 18 362
+Small tree to 15 m tall and 40 cm in diameter; bole to 4 m tall, fluted. Branches generally armed with stout, straight, usually paired spines. Leaves unifoliolate (on juvenile growth) or 2–3-foliolate; terminal leaflets lanceolate or elliptic-lanceolate, 12.5–27 x 4.5–11.5 cm; base broadly cuneate, margins subentire to slightly coarse-crenate, apex acute or acuminate; lateral veins 12–18 pairs, deeply sunken above; petioles 4–5 cm long; petiolules 2–2.5 mm long, pulvinoid; lateral leaflets to 8 x 4 cm, petioles 1–4 cm long, otherwise similar to terminal leaflet. Inflorescences 1–4-flowered, pedicels 5–7 mm long. Flower 5–6 cm across; sepals lanceolate-acuminate; petals 2–2.5 cm long, subspathulate; ovary 6.5–7 mm long. Fruits 10–8 x 8–11 cm; exocarp c. 1 cm thick; endocarp 2–3 mm thick, pulp-vesicles 1.5–3 cm long. Seeds broadly obovoid, tapering to an acute base, 2.2–2.7 cm long and c. 8 mm thick; testa thin, slightly wrinkled; cotyledons pale buff.
+
+Vernacular name. Sarawak—limau hantu (Malay).
+
+Distribution. Throughout the range of the genus. In Sarawak very uncommon, collected once in 1961 (S. 15848) from primary riparian forest in the Labang FR, Bintulu.
+
+3. CITRUS L.
+
+(Latin name for the citron tree)
+
+Sp. Pl. 1 (1753) 401; Hooker f. l.c. (1875) 514; Kurz l.c. (1877) 195; Merrill l.c. (1921) 315; Ridley l.c. (1922) 358; Burkill l.c. (1931) 220, l.c. (1966) 568; Craib l.c. 236; Masamune l.c. 357; Santiago, Bull. Mal. Div. Agr. 111 (1962) 1; Backer & Bakhuizen f. l.c. 107; Swingle l.c. (1967) 358; Stone l.c. (1972) 374, l.c. (1985) 226; Perry l.c. 361; Corner l.c. 659; Whitmore, Tantra & Sutisna l.c. 305; PROSEA 2 (1991) 119, 325.
+
+Shrubs or small to large trees. Branches generally armed with axillary, solitary spines, older branches often unarmed. Young twigs angular, flattened, becoming terete. Leaves alternate, simple or unifoliolate, blades thinly leathery to leathery, glabrous or short-hairy below; margins entire to serrate or crenulate; petioles often winged or emarginate, usually articulated with the blade. Inflorescences axillary, short corymbose racemes or cymes, or solitary. Flowers bisexual or male only, 4–5-merous, fragrant or not; calyx cup-like; sepals 4–5; petals 4–8, commonly 5, oblong-linear, thick; stamens about 4–8 times the number of petals, free or fused at the base and in bundles; disc annular; ovary subglobose, (6–)8–18-carpellate, usually glabrous, ovules (1–)4–8(–12) per locule in 2 rows, style cylindric, stigma globose-capitate. Fruit a fleshy hesperidium; pericarp leathery, outer layer (exocarp or flavedo) densely glandular and pigmented, middle layer (mesocarp or albedo) white, dry, inner layer (endocarp) membranous, thin, flesh of stalked fusiform, pulp-vesicles filled with watery, sweet or bitter juice, with or without distinct oil-droplets. Seeds few to many, angular-obovoid, often flattened, pale; mono- or polyembryonic; embryo white or green.
+
+Distribution. 17 species; from India, Sri Lanka and Burma to Japan, China, Taiwan and Indo-China, and throughout Malesia eastward to the Pacific Islands. Two species, C. halimii and C. macroptera, are native to Sabah, the latter species also occurs in Sarawak. In addition, a number of species have long been introduced and are cultivated in Sabah and Sarawak. Numerous hybrids and variants of these species exist, many having unknown origins which makes classification difficult.
+
+@page 19 363
+Stone (l.c. 1985) reported a collection of Citrus grandis from Ulu Segama, Sabah (SAN 75565) and suggested that it might be indigenous there, although he admitted that the species could have been introduced into that area by early gold prospectors. On this basis and until more specimens are available, this species is excluded from the present treatment.
+
+Uses. Citrus fruits are eaten fresh, canned, preserved or candied. The juice is extracted and made into drinks or concentrates. Pectin and essential oils are made from the rind, while waste fruit-pulp is processed into cattle-feed. Citric acid is manufactured from certain species. The leaves, flowers, and fruits of some species are sources of expensive essential oils (oil of neroli, bergamot oil) used in perfumery. Various plant parts (leaves, flowers, fruits, and seeds) are used to flavour foods and often enter into native medicinal remedies. Some species are reported to show insecticidal and germicidal activity. Flavonoids from the inner cortex are said to have anti-tumour properties. Some species are utilised as rootstock for the cultivation of commercially important citrus because of their resistance to certain diseases. Citrus is less commonly used as a source of wood for cabinetry. In Malaysia, the plants have reportedly been used for occult purposes.
+
+Taxonomy. The taxonomic delimitation of species, subspecies, and forms of Citrus is complicated by the peculiar reproductive behaviour found in the genus including hybridisation, polyembryony (asexual seed production), the spontaneous production of autotetraploids, and mutations. Two widely opposing systems of classification exist. That of Tanaka (Revisio Aurantiacearum - IX, Jap. Soc. Prom. Sci., Ueno, Tokyo, 1954) proposes 145 species (increased to 157 a few years later), while that of Swingle (l.c.1967) recognises only 16 species. This difference reflects a lack of agreement on what constitutes a species and whether supposed hybrids should be assigned the rank of species. Swingle, whose system is followed in this treatment, did not consider valid many of Tanaka's species which were clearly horticultural forms, and mostly the result of interspecific hybridisation. Several other systems of classification put forward by various authors are intermediate. Recent studies employing numerical taxonomy, chemosystematics, and other experimental methods have attempted to elucidate relationships among taxa and clarify the "species" problem in Citrus. Several such studies support the notion that the genus centres around three basic species or "biotypes", viz. C. grandis, C. medica, and C. reticulata.
+
+Key to Citrus species
+
+1. Petioles narrowly winged or wingless, or if broadly winged, never as broad as the leaf blades. Flowers large, usually 2.5–4.5 cm wide, fragrant. Stamens free or united in bundles........................................................................................................................2
+
+Petioles broadly winged, often as broad as the leaf-blades. Flowers small, usually less than 2 cm wide, not fragrant. Stamens free..................................................................9
+
+2. Petioles wingless, not articulated with the leaf-blade. Flowers perfect or staminate. Fruits usually oblong, pericarp thick. Cultivated............................................................
+
+C. medica L.
+
+Sp. Pl. 2 (1753) 782. Synonym: C. aurantium var. medica Wight & Arn. l.c. 98. Probably native to NE India and upper Burma. Cultivated widely in the tropics and subtropics for its fruits. Vernacular names: citron, limau susu.
+
+@page 20 364
+Petioles winged, often narrowly so, articulated with the leaf-blade. Flowers all perfect (except in C. limon). Fruits ovoid or globose or pear-shaped, pericarp thin (except in C. grandis).......................................................................................................................3
+
+3. Petioles very narrowly winged. Flowers perfect or staminate; stamens usually more than 4 times the number of petals. Fruits ovoid. Cultivated............................................
+
+C. limon (L.) Burm. f.
+
+Fl. Ind. (1768) 173. Basionym: Citrus medica var. limon L. l.c. (1753) 782. Synonym: Citrus limonum Risso, Ann. Mus. Hist. Nat. Paris 20 (1813) 201. Probably native to S Asia and now widely cultivated in the tropics and subtropics for its fruits. Vernacular names: lemon, limau mata kerbau.
+
+Petioles narrowly to broadly winged. Flowers usually perfect; stamens usually 4 times the number of petals. Fruits globose or pear-shaped, sometimes slightly flattened........4
+
+4. Fruits with loose pericarp, easily detached. Seeds small, plump. Embryo green............5
+
+Fruits with adherent pericarp, not easily detached. Seeds various. Embryo not green....6
+
+5. Leaves somewhat rhomboid, tips acute. Fruits small to medium-sized, sometimes flattened. Cultivated......................................................................................................
+
+C. reticulata Blanco
+
+Fl. Filip. (1837) 610. Synonyms: Citrus nobilis Andrews, Bot. Repos. 9 (1809) 608, non Lour. (1790); Citrus deliciosa Tenore, Ind. Sem. Hort. Neap. (1840) 9. Native to SE Asia. Widely grown for its edible fruits. Vernacular names: mandarin, limau manis.
+
+Leaves elliptic, tips rounded. Fruits small, globose. Cultivated.......................................
+
+C. microcarpa Bunge
+
+Mem. Ac. Imp. Sc. St. Petersb. 2 (1833) 84. Synonyms: Citrus mandurensis Lour., Fl. Cochinch. 2 (1790) 467; Citrus mitis Blanco l.c. (1837) 610. Originated in China as a natural hybrid between Citrus reticulata var. austera Swingle (sour mandarin) and a species of Fortunella (kumquat); currently classified as xCitrofortunella microcarpa (Bunge) Wijnands, Baileya 22 (1984) 134. Widely grown in SE Asia for its acid juice. Vernacular names: calamondin, limau kesturi.
+
+6. Petioles broadly winged. Fruits large to very large, usually 10–20 cm in diameter, round to pear-shaped. Seeds large, rough, monoembryonic. Cultivated..........................
+
+C. grandis (L.) Osbeck
+
+Dagb. Ostind. Resa (1757) 98. Basionym: Citrus aurantium var. grandis L. l.c. (1753) 783. Synonyms: Citrus decumana L., Syst. ed. 12 (1767) 508; Citrus maxima (Burm. f.) Merr., Interp. Rumph. Herb. Amb. (1919) 296. Native to Malesia; widely cultivated in SE Asia for its edible fruits. Vernacular names: pummelo, limau besar.
+
+Petioles narrowly winged to nearly wingless. Fruits small to medium-sized, generally 4–9 cm in diameter. Seeds various, usually polyembryonic (except in C. halimii).........7
+
+7. Fruits medium-sized, 5–9 cm in diameter; pulp orange. Cultivated................................
+
+@page 21 365
+C. sinensis (L.) Osbeck
+
+Reise Ostind. China (1765) 250. Basionym: Citrus aurantium var. sinensis L. l.c. (1753) 782. Probably native to the region between China and Vietnam. Cultivated widely in the subtropics and tropics for its edible fruits. Vernacular names: sweet orange, limau manis.
+
+Fruits small, 4–7 cm in diameter; pulp greenish to yellowish. Cultivated or wild.........8
+
+8. Leaves small, mostly 5–7.5 cm long. Stamens 20–25. Fruits globose to ovoid, sometimes with apical papilla; pericarp thin, smooth. Cultivated...................................
+
+C. aurantifolia (Christm. & Panz.) Swingle
+
+J. Wash. Ac. Sc. 3 (1913) 465. Basionym: Limonia aurantifolia Christm. & Panz., Pfl. Syst. 1 (1777) 618. Synonym: Citrus acida Roxb., Fl. Ind. ed. 2, 3 (1832) 390. Native to N India and Burma, or N Malesia. Cultivated throughout the tropics and warm subtropics for its fruits. Vernacular names: lime; limau nipis.
+
+Leaves large, 8–15 cm long or more. Stamens 18–20. Fruits subglobose to slightly pyriform; pericarp thick, smooth to bumpy. Hills and mountains...............1. C. halimii
+
+9. Petiolar wings with subentire margins. Fruits large, 8–15 cm in diameter; pericarp smooth...............................................................................................2. C. macroptera Petiolar wings with serrate-crenulate margins. Fruits small, 5–7 cm in diameter; pericarp irregularly bumpy. Cultivated...........................................................................
+
+C. hystrix DC.
+
+Cat. Pl. Hort. Bot. Monsp. (1813) 97. Synonym: Citrus torosa Blanco l.c. (1832) 609; Citrus papeda Miq., Fl. Ned. Ind. 1 (1859) 530. Of unknown origin but widely naturalised in Malesia, Sri Lanka and Burma. Cultivated for its fruits. Vernacular names: Mauritius papeda, limau purut.
+
+1. Citrus halimii Stone
+
+(Sultan Abdul Halim Nu'azzam Shah Ibni Almarhum Sultan Badlishah, Sultan of Kedah and
+
+former King of Malaysia)
+
+Biotropica 5 (1973) 102, l.c. (1978) 114; Stone & Jones, Proc. Ac. Nat. Sc. Phil. 140 (1988) 267; Ng l.c. 495; Whitmore, Tantra & Sutisna l.c. 305; PROSEA 2 (1991) 119. Type: Stone 9550, Peninsular Malaysia, Pahang, G. Nuang (holotype KLU; isotypes KEP, L, SING, US).
+
+Medium-sized or large tree to 25 m tall and 60 cm in diameter; trunk straight, cylindric; crown meagre, of few ascending branches. Spines on youngest branches of saplings straight to 2.5 cm long, absent on adult plants. Leaves unifoliolate, elliptic or slightly ovate, 8–15 x 3.5–7.5 cm (larger on vigorous young shoots), thinly leathery; margin subentire or subcrenulate, apex acute to shortly acuminate and emarginate; lateral veins 7–11 pairs; petioles usually 1–2 cm long, very narrowly winged or wingless, articulated with the blade. Inflorescences solitary, pedicels 1–3.5 mm long. Flowers 5-merous; sepals deltoid; petals ovate-elliptic, white; stamens 18–20, free or in 2–3 bundles; disc thin; ovary (6–)9–10-
+
+@page 22 366
+carpellate, ovules 1–3(–5) per locule, style columnar, stigma flat, angled. Fruits subglobose to slightly pyriform, 5–7 cm in diameter, green ripening glossy deep yellow, smooth or bumpy; pericarp c. 6 mm thick, glandular; pulp-vesicles pale greenish to yellowish, juicy, acrid oil-droplets absent. Seeds numerous, to 2.1 cm long, testa veiny-reticulate; monoembryonic; cotyledons white.
+
+Vernacular name. Sabah—limau hutan (Malay).
+
+Distribution. S Thailand, Peninsular Malaysia, and Borneo. In Sabah, uncommon (Kota Marudu, Ranau and Tambunan districts), occurring as solitary trees on slopes and ridges in primary submontane forest, at 900–1800 m. Not reported from Sarawak, Brunei and Kalimantan.
+
+Uses. The fruits are eaten as a condiment (rinds?), and are said to be thirst-quenching (Peninsular Malaysia). The flesh is said to be acidic and pleasant to taste.
+
+2. Citrus macroptera Montr. Fig. 3.
+
+(Greek , makros = large, pteron = wing; the leaf-stalk)
+
+Mem. Ac. R. (Imp.) Lyon Sc. 10 (1860) 187; Burkill l.c. (1931) 220, l.c. (1966) 576; Santiago l.c. 131; Swingle l.c. (1967) 395; Stone l.c. (1972) 374; Corner l.c. 661; PROSEA 2 (1991) 326. Type: Montrouzier, s.n., New Caledonia, Ile Art (LY). Synonyms: Citrus papuana F.M. Bail., Contr. Fl. Brit. N. Guin. (1903) 1; C. aurantium subsp. saponacea Safford, Contr. US. Nat. Herb. 9 (1905) 226; C. hystrix (non DC.) Ridl. l.c. (1922) 358.
+
+var. macroptera
+
+Small or medium-sized tree to 20 m tall and 50(–100) cm diameter, generally much smaller; crown broad, dense. Branches and twigs armed with straight spines to 1.5 cm long, longer on juvenile growth. Leaves unifoliolate, to 30 cm long, blade ovate-lanceolate, 5–15 x 3–6.5 cm; base rounded, margin shallowly crenate, apex acuminate; petioles broadly winged, with wing as large as the blade, obovate to nearly spathulate, margin subentire to crenate in the upper half, articulated with the blade. Inflorescence a few-flowered cluster. Flowers 1.3–2 cm in diameter; buds subglobose; sepals triangular, small; petals oblong, concave; stamens c. 20, free; ovary 10–12-carpellate, slightly hairy, style thick, stigma depressed. Fruits globose to pyriform, sometimes depressed, 8–15 cm in diameter or larger, smooth, green turning pale yellow; pericarp to 2.5 cm thick, segments 10–12, pulp-vesicles greenish yellow, juice scant, bitter, acrid oil-droplets present. Seeds 1–2 per segment, flattened, to c. 2 cm long; monoembryonic.
+
+Vernacular names. Sabah and Sarawak—limau hantu, limau hutan (Malay).
+
+Distribution. The species and the variety are distributed in Indo-China, Malesia, New Caledonia, and Polynesia. Three varieties are known to occur, only one of which (var. macroptera) is in Sabah and Sarawak. Found occasionally in SW Sabah (Pinangah, Kinabatangan, Lahad Datu, and Tawau districts) as solitary trees along the banks of streams and on forested ridges and hills in primary forest, at 150–600 m. In Sarawak,
+
+@page 23 367
+# CAPTION: Fig. 3. Citrus macroptera var. macroptera. A, leafy twig; B, fruit. (From SAN 71072.)
+@page 24 368
+# CAPTION: Fig. 4. Clausena excavata. A, flowering leafy twig; B, part of inflorescence (one flower with two petals removed); C, part of infructescence. (A & B from SAN 89309, C from SAN 56188.)
+@page 25 369
+known only from a single collection made from lowland riverine forest (Taufik, s.n., Kg. Bedup, Serian; KLU).
+
+Uses. The fruits are reported to be edible (Philippines, Indonesia, Sabah), and are said to cause impotence (Indonesia). The leaves are eaten as a vegetable and used medicinally (Indonesia). Sticks are made from its wood (Papua New Guinea).
+
+4. CLAUSENA Burm. f.
+
+(Clausen, a botanist known to Burmann)
+
+Fl. Ind. (1768) 243; Hooker f. l.c. (1875) 503; Kurz l.c. (1877) 187; Merrill l.c. (1921) 314, l.c. (1929) 115; Ridley l.c. (1922) 352; Craib l.c. 231; Masamune l.c. 358; Backer & Bakhuizen. f. l.c. 103; Burkill l.c. (1966) 584; Swingle l.c. (1967) 209; Stone l.c. (1972) 375; Anderson l.c. 307; Perry l.c. 363; Corner l.c. 662; Ng l.c. 495; Whitmore, Tantra & Sutisna l.c. 305; PROSEA 2 (1991) 141.
+
+Shrubs or small trees. Branches unarmed; branchlets short-hairy. Leaves alternate, pinnate, rachis sometimes winged; leaflets alternate, usually 5–9(–31), often with asymmetric base, articulated with the petiolules. Inflorescences lax panicles or racemes, terminal or axillary. Flowers bisexual, small, 4–5-merous; buds small, subglobose or ovoid; sepals 4–5, calyx cup-like, lobed; petals elliptic or oval, free, imbricate; stamens (7–)8 or 10, free, unequal, in 2 whorls, the outer opposite the sepals and longer, filaments inflated or flattened at base, often narrowed at apex, glabrous, anthers ovate or elliptic, dorsifixed; disc annular, glabrous; ovary 2–5-carpellate, sometimes obscurely lobed, usually hairy, glandular, seated on a glabrous, hourglass-shaped gynophore, ovules (1–)2 per locule, style short, stout, deciduous or persistent, usually narrowed where it joins the ovary, stigma flattened, obscure. Fruit an ovoid or oblong berry. Seed usually 1 per fruit; cotyledons green.
+
+Distribution. c. 29 species; from tropical Africa to India, S China, Taiwan, Indo-China, throughout Malesia and N Australia. Two species, C. calciphila and C. excavata, are in Sabah, the latter occurring also in Sarawak, Brunei and Kalimantan. A third species, C. lansium, is sparingly cultivated.
+
+Key to Clausena species
+
+1. Leaves 15–31-foliolate. Flowers mostly 4-merous. Stamens 8..................2. C. excavata Leaves 5–11-foliolate. Flowers 5-merous. Stamens 10..................................................2
+
+2. Leaves 5–7-foliolate. Stigma flat. Fruits oblong-ellipsoid, to 1.5 cm long.....1. C. calciphila Leaves 9–11-foliolate. Stigma 5-lobed. Fruits ovoid-globose, to 2.5 cm long. Cultivated .......
+
+C. lansium (Lous) Skeels
+
+USDA Bur. Pl. Ind. Bull. 168 (1909) 31. Basionym: Quinaria lansium Lour., Fl. Cochinch. (1790) 272. Synonyms: Cookia wampi Blanco l.c. 358; Clausena wampi (Blanco) Oliv., J. Linn. Soc. Bot. 5, Suppl. 2 (1861) 34. Native to S China and Indo-China. Widely cultivated in the tropics and subtropic for its edible fruits. Vernacular names: wampee, wampi.
+
+@page 26 370
+1. Clausena calciphila Stone
+
+(Latin, calx = chalk, Greek, philos = loving; referring to its preference for limestone habitats)
+
+l.c. (1978) 111. Type: Erwin & Paul S. 27430, Sarawak, Kuching, Bukit Pa'it (SAR).
+
+Small tree to 10 m tall. Leaves to 60 cm long, commonly 5–7-foliolate; leaflets elliptic-ovate, the lowest ones 7–13 x 4–7 cm , the lateral and terminal ones larger, 15–25 x 12–16 cm; base rounded, obliquely asymmetric, margin entire to subentire, apex acuminate; lateral veins 5–8(–10) pairs, together with midrib raised below; petioles 10–12 cm long, rachis glabrescent, wingless; petiolules 5–9 mm long. Inflorescence a loose, terminal panicle, 20 cm long or more during flowering, to 40 cm long in fruit; buds subglobose, c. 2 mm long. Flowers 5-merous; sepals 5, broadly triangular, minute, margin ciliate; petals 5, elliptic, c. 3 mm long, glabrous, margin hyaline; stamens 10, alternately long and short, filaments narrowly elliptic, anthers oblong-ovoid, connectives 1-glandular; disc annular, yellowish; ovary 5-carpellate, globose, glabrous, papillate-glandular, style shortly cylindrical. Fruits oblong-ellipsoid, 1.5–1.6 cm long, gland-dotted.
+
+Distribution. Endemic to Sarawak. Uncommon, known from only three localities in Kuching (Bt. Pa'it, Bt. Bra'ang) and Baram (Bt. Mentagai) districts; on rocky limestone slopes, at 150–300 m.
+
+2. Clausena excavata Burm. f. Fig. 4.
+
+(Latin, excavatus = to make hollow; the bases of the filaments)
+
+l.c. 243; Hooker f. l.c. (1875) 504; Kurz l.c. (1877) 188; Merrill l.c. (1921) 314, l.c. (1929) 115; 314; Ridley l.c. (1922) 352; Craib l.c. 231; Masamune l.c. 358; Backer & Bakhuizen f. l.c. 104; Burkill l.c. (1966) 585; Swingle l.c. (1967) 212; Stone l.c. (1972) 375; Anderson l.c. 308; Perry l.c. 363; Corner l.c. 662; Whitmore, Tantra & Sutisna l.c. 306. Type: Burmann 29, India, Dauhon Kongeere (L). Synonyms: Clausena javanensis Raeusch. ex DC., Prodr. 1 (1824) 538; Murraya burmanni Spreng., Syst. Veg. 2 (1825) 315; Amyris graveolens Buch.-Ham. ex Steud., Nom. Bot. ed. 2, 1 (1840) 81.
+
+var. excavata
+
+Small tree to 15 m tall and 20 cm diameter. Branchlets softly hairy. Leaves 20–50 cm long, rachis slender, cylindrical, not winged; leaflets 15–31, oblong-ovate to lanceolate or slightly crescent-shaped, 2–9 x 1.5–4 cm, thinly leathery, glabrous above, sparsely hairy below; base rounded, obliquely asymmetric, margins toothed, apex tapered or acuminate; petiolules short. Inflorescence a much-branched panicle, terminal, 10–30 cm long, pyramid-shaped, branches hairy. Flowers 4(–5)-merous, buds round; calyx minute, hairy; petals oval, 3.5–5 mm long, glabrous, yellowish or greenish; stamens 8, filaments inflated and concave at base; ovary ovoid to ellipsoid, hairy or hirsute, slightly lobed, style cylindrical, persistent, not narrowed where it joins the ovary. Fruits broadly ellipsoid, 1–1.8 cm long, smooth, glabrous; peel green ripening pink, translucent. Seed 1 per fruit, oblong.
+
+Distribution. India, Burma, S China, Taiwan, Indo-China, and throughout Malesia. Two varieties exist with only the widespread var. excavata in Sabah and Sarawak. Widespread and common in Sabah and parts of Sarawak (Kuching and Baram districts). Also occurs in Brunei and Kalimantan.
+
+@page 27 371
+Ecology. In forests and open places in the lowlands and hills, especially disturbed areas around villages and forest margin, and on limestone, from sea-level to 1500 m.
+
+Uses. The leaves are reported to have insecticidal properties, and the roots, stems, leaves and flowers are used to treat paralysis, stomach disorders, intestinal worms, and fever (Taiwan, Indo-China, Peninsular Malaysia, Indonesia). Its wood has been used to make axe-handles (Java).
+
+5. GLYCOSMIS Corrêa
+
+(Greek, glukus = sweet, osme = scent; sweet-smelling plant)
+
+Ann. Mus. Hist. Nat. Paris 6 (1805) 384; Hooker f. l.c. (1875) 499; Kurz l.c. (1877) 184; Merrill l.c. (1921) 314, l.c. (1929) 113; Ridley l.c. (1922) 348; Craib l.c. 222; Narayanaswami, Rec. Bot. Surv. Ind. (1941) 1; Masamune l.c. 359; Backer & Bakhuizen f. l.c. 102; Burkill l.c. (1966) 1103; Swingle l.c. (1967) 206; Stone l.c. (1972) 380, l.c. (1978) 75, l.c. (1985) 1; Anderson l.c. 308; Corner l.c. 665; Whitmore, Tantra & Sutisna l.c. 306.
+
+Shrubs or trees. Branches unarmed. Shoot tips and young inflorescences densely hairy, the hairs reddish. Leaves alternate or opposite, pinnate or unifoliolate, rarely simple, petioles wingless; leaflets 1–5(–15), alternate or sometimes opposite, chartaceous or leathery; margin entire or obscurely toothed, articulated at the base. Inflorescences axillary or pseudoterminal racemes or cymose panicles. Flowers bisexual, 4–5-merous; sepals fused at base, imbricate, glandular; petals ovate to elliptic, imbricate, greenish to whitish; stamens 8 or 10, usually unequal, filaments abruptly narrowed at the apex, anthers small, ovate to elliptic, generally with a terminal gland, often with 1 or several glands on the connective; disc annular, with small lobes; ovary 2–5-carpellate, club- to flask-shaped to nearly conical, often raised on a stout gynophore, ovules 1–2 per locule, style short, thick, persistent, stigma slightly broadened, faintly lobed. Fruits globose to oblong or ellipsoid berries, dry or fleshy, outer wall glandular, white to pink or purplish. Seeds 1–2(–3) per fruit, round to plano-convex, thin-walled, cotyledons green, fleshy.
+
+Distribution. c. 40 species; India, Sri Lanka, SE Asia, S China, Taiwan, Malesia, and Australia. Seven species occur in Sabah and Sarawak, two of which (Glycosmis chlorosperma and G. macrantha) are widespread and common. Glycosmis parviflora is occasionally cultivated in Sabah and possibly also in Sarawak.
+
+Taxonomy. Although readily distinguished from its closest relatives (Clausena and Murraya), the chaotic state of its constituent species (65 names have been published to date) has persisted due to lack of any critical taxonomic and nomenclatural review. Stone (l.c. 1978 and 1985), whose interpretation of the genus is followed here, admits that Glycosmis is still imperfectly known and several taxonomic problems remain to be solved.
+
+@page 28 372
+Key to Glycosmis species
+
+1. Leaves predominantly pinnate, never uniformly unifoliolate. Ovary smooth.................2
+
+Leaves predominantly unifoliolate, or some of them 2–3-foliolate. Ovary papillate-glandular..............................................................................................3. G. lanceolata
+
+2. Ovary glabrous, 4–5-carpellate....................................................................................3
+
+Ovary densely hairy, 2–3-carpellate...................................................6. G. sapindoides
+
+3. Inflorescences pseudoterminal.....................................................................................4
+
+Inflorescences axillary.................................................................................................7
+
+4. Flowers large, 7–11 mm long; petals glabrous.............................................................5
+
+Flowers medium-sized to small, rarely over 6 mm long; petals hairy, at least below.....6
+
+5. Leaves alternate; leaflets not over 15 cm long, lateral veins 5–9, petiolules to 7 mm long....................................................................................................5. G. macrantha Leaves sometimes opposite, leaflets over 15 cm long, lateral veins 10–14, petiolules 10–20 mm long.......................................................................................7. G. superba
+
+6. Lateral veins not prominently raised below. Sepals narrowly triangular, c. 2.5 mm long. Fruits subellipsoid, c. 7.5 mm long...........................................4. G. longisepala Lateral veins prominently raised below. Sepals deltoid-ovoid, 1–1.5 mm long. Fruits globose, over 10 mm long...............................................................1. G. chlorosperma
+
+7. Leaflets predominantly entire. Inflorescences corymbose. Fruits ellipsoid, usually purplish to black................................................................................2. G. cyanocarpa Leaflets sometimes obscurely toothed. Inflorescences narrow, somewhat elongate. Fruits globose, white to yellowish or pinkish. Cultivated................................................
+
+G. parviflora (Sims) Little
+
+Phytologia 2 (1948) 463. Basionym: Limonia parviflora Sims, Bot. Mag. (1823) t. 2416. Synonym: Glycosmis citrifolia (Willd.) Lindl., Trans. Hort. Soc. Lond. 6 (1826) 72. Native to S China and Indo-China. Introduced to horticulture and botanical gardens in various parts of the World.
+
+1. Glycosmis chlorosperma (Blume) Spreng.
+
+(Greek, khloros = green, sperma = seed)
+
+Syst. Veg. ed. 16, 4 (1827) 162; Narayanaswami l.c. 40; Masamune l.c. 359; Backer & Bakhuizen f. l.c. 102; Swingle l.c. (1967) 207; Stone l.c. (1972) 382, l.c. (1978) 93, l.c. (1985) 2; Anderson l.c. 308; Corner l.c. 666; Whitmore, Tantra & Sutisna l.c. 306. Basionym: Cookia chlorosperma Blume. l.c. (1825) 135. Type: Blume, s.n., Java, Mt. Salak (L). Synonyms: Glycosmis monticola Ridl., J. Str. Br. R. As. Soc. 75 (1917) 14; G. malayana Ridl. l.c. (1917) 12.
+
+Shrub or small tree. Leaves pinnate, rarely unifoliolate, opposite or alternate, glabrous, with or without axillary lanceolate paraphylls to 2.5 cm long; leaflets (1–)3–5(–7), ovate to
+
+@page 29 373
+oblong-lanceolate, or narrowly so, 5–20(–30) x 2–9(–14) cm, leathery; base acute, margin entire, apex acuminate; lateral veins 5–11 pairs, rather distant, strongly inarching near the margin, depressed above, conspicuously raised below; petiolules 3–5 mm long. Inflorescences pseudoterminal cymose-panicles, 2–16 cm long, branches rusty hairy, buds small, minutely hairy. Flowers at tips of short branchlets, 5-merous; sepals ovate, to 2 mm long, margin hyaline, ciliate; petals whitish, obovate-oblong, to 6 mm long, rusty hairy below, margin membranous; stamens 10, alternating long and short, anthers ovate-cordate, sometimes minutely gland-tipped; disc ring-like, yellow; ovary (4–)5-carpellate, glabrous, flask-shaped, on a thick gynophore, style short, equalling the ovary in length. Fruits globose, 10 –12.5 mm long.
+
+Key to varieties
+
+1. Leaflets ovate, 5–7 cm long, lateral veins 5 pairs. Inflorescences 2–3 cm long...............
+
+var. bidiensis Stone
+
+l.c. (1985) 3. Type: J. & M.S. Clemens 20663, Sarawak, Kuching, Bidi Cave (holotype K).
+
+Small tree. Leaves 3–5-foliolate; leaflets ovate, 5–7 x 2–2.3 cm; lateral veins 5 pairs. Inflorescences 2–3 cm long. Flowers small; buds 2–3 mm long; anthers glandular; disc distinctly constricted, 0.8–0.9 mm wide; ovary 4–5-carpellate.
+
+Endemic to Sarawak, where it is known only from the type locality, on limestone.
+
+Leaflets oblong-lanceolate to elliptic, 5–30 cm long, lateral veins 9–11 pairs. Inflorescences longer than 5 cm...............................................................................................2
+
+2. Leaflets oblong-lanceolate, mostly less than 15 cm long. Inflorescences 7.5–11 cm long...............................................................................................................................
+
+var. chlorosperma
+
+Shrub or small tree to 10 m tall and 15 cm diameter. Leaves 3–6-foliolate; leaflets oblong-lanceolate, 5–15(–20) x 2–8.5 cm; base sometimes slightly asymmetric; lateral veins 9–10 pairs. Inflorescences 7.5–11 cm long. Flowers small; sepals c. 1 mm long; petals c. 2.5 mm long; ovary 5-carpellate, style almost lacking.
+
+Vernacular name: segera (Malay).
+
+Throughout the range of the species. Widespread in Sabah and Sarawak, in mixed dipterocarp forest on fertile clay loam soils, especially on basic volcanic substrates, occasionally on limestone, from near sea-level to 800 m.
+
+Leaflets oblong-elliptic, 15–30 cm long. Inflorescences generally larger, to 16 cm long..........
+
+var. elmeri (Merr.) Tanaka
+
+Med. Rijksherb. 69 (1931) 3; Stone l.c. (1978) 94, l.c. (1985) 3. Basionym: Glycosmis elmeri Merr., Philip. J. Sc. 30 (1926) Bot. 400, Merrill l.c. (1929) 113, Masamune l.c. 359. Type: Ramos & Edano 44150, Philippines, Sulu Archipelago, Tawitawi (UC).
+
+Shrub or small tree to 10 m tall and 20 cm diameter. Leaves 3–4-foliolate; leaflets oblong-elliptic, 15–20(–30) x 6–9(–14) cm; base broadly acute; lateral veins 9–11 pairs. Inflorescences 6–16 cm long, side branches to 5 cm long. Flowers sessile, buds brownish.
+
+Philippines (Sulu Archipelago), Borneo. Common in Sabah and Sarawak, occurring in lowland and hill forest, usually on ridges and slopes, and occasionally on limestone, from near sea-level to 1280 m.
+
+@page 30 374
+Distribution. S Burma, S Thailand, Peninsular Malaysia, Sumatra, Java, Borneo (Sabah, Sarawak, Kalimantan) and S Philippines. A variable species with seven recognised varietes, three of which occur in Sabah and Sarawak.
+
+2. Glycosmis cyanocarpa (Blume) Spreng.
+
+(Greek, kuanos = dark blue, karpos = fruit)
+
+l.c. (1827) 161; Kurz l.c. (1877) 184; Masamune l.c. 359; Backer & Bakhuizen f. l.c. 102; Swingle l.c. (1967) 207; Stone l.c. (1978) 97, l.c. (1985) 5; Whitmore, Tantra & Sutisna l.c 306. Basionym: Cookia cyanocarpa Blume l.c. (1825) 136. Type: Blume, s.n., Java, Mt. Salak (L). Synonyms: Glycosmis longifolia Tanaka, Bull. Soc. Bot. Fr. 75 (1928) 709; G. cymosa (Kurz) Narayanaswami l.c. 26
+
+var. platyphylla (Merr.) Stone
+
+l.c. (1978) 98, l.c (1985) 6. Basionym: Glycosmis platyphylla Merr., Philip. J. Sc. 12 (1917) Bot. 273. Type: Wenzel 1611, Philippines, Leyte (US). Synonym: Glycosmis clemensii Tanaka l.c. (1931) 4.
+
+Shrub or small to medium-sized tree to 15 m tall and 30 cm diameter. Leaves 3–4-foliolate, alternate, 11–20 cm long; leaflets (1–)3–9, elliptic or lanceolate, 4–30 x 1–10 cm, glabrous or rusty-scurfy, sometimes only on midrib, below; base acute, margin usually entire or sometimes finely toothed, apex caudate-acuminate; lateral veins 5–10(–20) pairs, sometimes strongly raised below, inarching near the margin; petiolules 2–4 mm long. Inflorescences predominantly axillary corymbs, 1–12 cm long, open-branched, branches spreading, hairy, with linear, leaf-like bracts. Flowers 4–5-merous; buds glabrous, c. 5 mm long; sepals broad, rounded, c. 1.3 mm long, hairy, especially towards apex, margin rusty-ciliate; petals oblong to oblong-obovate, 3.5–4 mm long, hairy, especially towards apex; stamens 10, nearly equal to unequal, filaments broad, narrowed at apex, anthers ovate, glandular-apiculate; disc elevated, minutely lobed or glandular; ovary 4–5-carpellate, ellipsoid, constricted at base and in the middle, glabrous, not glandular, seated on a well-developed gynophore, style short, stigma broad. Fruits oblong or ellipsoid, 1–1.5 cm long, purplish. Seed 1 per fruit.
+
+Distribution. India, Nepal, SW China, Burma, Indo-China, and throughout W Malesia (Sumatra, Peninsular Malaysia, Java, Borneo and the Philippines). A variable species comprising 10 varieties, one of which (var. platyphylla) occurs in Borneo, Philippines, and the Talaud Islands. In Sabah and Sarawak (Lundu district), var. platyphylla occurs on flat and undulating land in primary and secondary lowland forest, from near sea-level to 200 m; also in Kalimantan.
+
+3. Glycosmis lanceolata (Blume) Spreng.
+
+(Latin, lanceolatus = spear-shaped; the leaves)
+
+Cat. Hort. Bog. (1866) 208; Narayanaswami l.c. 61; Stone l.c. (1985) 10; Whitmore, Tantra & Sutisna l.c. 306. Basionym: Sclerostylis lanceolata Blume l.c. (1825) 134. Type: Blume, s.n., Batavia (L). Synonyms: Glycosmis simplicifolia Spreng. l.c. (1827) 162; G. montana Pierre, Fl. For. Cochinch. 4 (1893) 285; G. greenei var. simplex Stone l.c. (1978) 90.
+
+Shrub or small to medium-sized tree to 18 m tall and 25 cm diameter. Branches with shiny and cracked bark. Leaves 1–5-foliolate, alternate; leaflets, oblong-ovate or oblanceolate, 8.5–17 x 3–8 cm; base rounded, margin entire, apex shortly acuminate or emarginate; lateral
+
+@page 31 375
+veins 8−12 pairs; petiolules 3–4 mm long, 7–9 mm long in unifoliolate leaves. Inflorescences short, axillary cymose-panicles, 1–3 cm long, branches short, rusty scurfy-hairy. Flowers small, 5-merous; sepals l–1.5 mm long, glabrous below; petals longer, oblong-obovate, rusty scurfy-hairy below, margins hyaline; stamens 10, alternating long and short, anthers oblong-cordate, connectives obscurely glandular; ovary (2–)3-carpellate, ellipsoid-ovoid, glabrous, distinctly papillate glandular, seated on a well-developed gynophore, tapering into style, stigma 3-lobed. Fruits globose.
+
+Distribution. Indo-China, Hainan, Sumatra, Java, Borneo, S Philippines, and the Lesser Sunda Islands. Widespread in Sabah on ridges and slopes in lowland forest, occasionally on limestone, from near sea-level to 240 m. In Sarawak, known from only one locality in Kuching district (Stone 13739, Padawan, Bt. Pa'it). Also known from Kalimantan.
+
+4. Glycosmis longisepala Stone
+
+(Latin, longus = long, sepalum = sepal)
+
+l.c (1985) 11; Whitmore, Tantra & Sutisna l.c. 306. Type: J. & M.S. Clemens 20001, Sarawak, Mt. Pueh (holotype K).
+
+Small tree. Leaves 5–7-foliolate, to 30 cm long; leaflets ovate-lanceolate or elliptic, 7–16 x 2.8–6 cm; base acute, margin entire, apex acuminate; lateral veins 6–8 pairs; petiolules 3–8 mm long. Inflorescences pseudoterminal cymose-panicles, elongate or pyramid-shaped, to 13 cm long. Flowers 5-merous; sepals narrowly triangular, c. 2.5 mm long, surfaces hairy, margin ciliate; petals c. 3 mm long, hairy below; stamens 10, anthers c. 1 mm long, glandular-apiculate, connective glandular dorsally; ovary (4–)5-carpellate, to 2 mm long, glabrous, glandular, seated on a well-developed gynophore. Fruits subellipsoid, c. 7.5 mm long. Seeds 2 per fruit.
+
+Distribution. Endemic to Sarawak; known only from the type locality, in forest, at 1000– 1400 m.
+
+5. Glycosmis macrantha Merr. Fig. 5.
+
+(Greek, makros = large, anthos = flower)
+
+l.c. (1929) 114; Masamune l.c. 360; Swingle l.c. (1967) 207; Stone l.c. (1978) 92, l.c. (1985) 11; Whitmore, Tantra & Sutisna l.c. 306. Type: Elmer 21456, British North Borneo, Tawau (holotype UC; isotypes MO, US). Synonym: Glycosmis oliveri Stapf ex Ridl., Kew Bull. (1930) 80, Masamune l.c. 360.
+
+Small to medium-sized tree to 20 m tall and 20 cm diameter; bole to 12 m tall. Leaves 5–9-foliolate, 17–30 cm long, alternate; leaflets oblong to elliptic, 7–14 x 3–6 cm, glabrous, chartaceous; base acute, apex acuminate, acumen 1–2 cm long; lateral veins 5–9 pairs, strongly raised below; petiolules 4–7 mm long. Inflorescences terminal or axillary cymes. Flowers large, 4–5-merous, whitish, on short stalks or nearly sessile; sepals orbicular, 2.5–3 mm long, sparsely hairy or glabrous; petals 5, oblong, glabrous, c. 7 x 3 mm; stamens 10, equal, filaments thick, c. 4 mm long, anther connectives dorsally glandular; ovary 5-carpellate, glabrous, seated on a well-developed gynophore, style cylindrical. Fruits ovoid, c. 1 cm long.
+
+@page 32 376
+Distribution. Endemic to Borneo. In Sabah, widespread and abundant in primary and secondary forest, predominantly on hillsides and ridges, and often in disturbed habitats, to 1400 m. In Sarawak, uncommon and rarely collected. Also in Kalimantan.
+
+6. Glycosmis sapindoides Lindl. in Wall. ex Oliver
+
+(resembling the genus Sapindus)
+
+J. Linn. Soc. Bot. 5, Suppl. 2 (1861) 38; Hooker f. l.c. (1875) 501; King l.c. 217; Ridley l.c. (1922) 351; Craib l.c. 225; Narayanaswami l.c. 55; Backer & Bakhuizen f. l.c. 102; Swingle l.c. (1967) 207; Stone l.c. (1972) 381, l.c. (1985) 18; Whitmore, Tantra & Sutisna l.c. 307. Type: Wallich Cat. 6376, Penang (lectotype K). Synonyms: Glycosmis cyanocarpa var. sapindoides (Lindl.) Kurz, J. Bot. 14 (1876) 34; G. elata Ridl., J. Fed. Mal. St. Mus. 10 (1920) 130; G. macrophylla (Blume) Miq., Fl. Ind. Bat. 1, 2 (1859) 522.
+
+var. sapindoides
+
+Shrub or small tree to 10 m tall and 10 cm diameter. Young branches yellow, shiny. Leaves pinnate, alternate; leaflets (3–)5–9, oblanceolate, 14–22 x 4–8 cm; base acute, margin entire, apex acuminate; lateral veins 9–11 pairs, prominently raised below; petiolules to 3 mm long. Inflorescences axillary cymose-panicles, 1.5–2(–7.5) cm long; buds rusty hairy. Flowers small, 5-merous, in clusters at tips of short branchlets; sepals broadly ovate, to 0.5 mm long, hairy below, margin ciliolate; petals oblong-elliptic, c. 2.5 mm long, hairy below; stamens 10, alternating long and short, filaments slender, c. 1.5 mm long, glabrous, anthers crescent-shaped, gland-tipped; ovary (2–)3-carpellate, ellipsoid, densely rusty hairy, stigma broad. Fruits ellipsoid.
+
+Distribution. Mainland SE Asia and W Malesia, to Papua New Guinea and Australia. Of the three known varieties, only the commonest (var. sapindoides) occurs in Sabah. This variety occurs in the western and central parts of the range of the species, as far east as Papua New Guinea. In Sabah, known only from Kota Kinabalu district (Pulau Sipanggar) where it is found on ridge tops and hillsides in primary forest, to 200 m. Also in Kalimantan.
+
+7. Glycosmis superba Stone
+
+(Latin, superbus = splendid; the large, attractive leaves)
+
+l.c. (1978) 95, l.c. (1985) 20; Anderson l.c. 308. Whitmore, Tantra & Sutisna l.c. 307. Type: Anderson, Tan & Wright S. 26059, Sarawak, Ulu Sg. Sekaloh (SAR).
+
+@page 33 377
+# CAPTION: Fig. 5. Glycosmis macrantha. A, fruiting leafy twig; B, part of inflorescence; C, flowers. (A, from SAN 57109, B & C from SAN 44669.)
+@page 34 378
+# CAPTION: Fig. 6. Lunasia amara. Fruiting leafy twig. (From SAN 92007.)
+@page 35 379
+Shrub or small tree to 10 m tall and 10 cm diameter. Leaves large, opposite, 36-foliolate, to 33 cm long; leaflets elliptic-oblanceolate, 20–31 x 8–12 cm, leathery; base cuneate, margin obscurely wavy to subentire, apex acuminate-caudate; lateral veins 10–14 pairs; petiolules 1–2 cm long. Inflorescences pseudoterminal, pyramid-shaped, densely cymose-paniculate, subglabrous, 33–45 mm long. Flowers 5-merous; sepals broadly orbicular-ovate, c. 3 mm long, glabrous below, margin hyaline; petals at least 6 mm long, glabrous, glandular; stamens 10, anther connectives 4–6-glandular, apex glandular-apiculate; disc 5-lobulate; ovary 5-carpellate, cylindrical, glabrous, stigma 5-lobed, style glandular.
+
+Distribution. Endemic to Sarawak (Kuching, Bintulu and Miri districts) and Brunei.
+
+Ecology. Found on ridges and undulating ground in primary mixed dipterocarp forest and secondary forest on sandy humult ultisols, from near sea-level to 100 m.
+
+6. LUNASIA Blanco
+
+(Tagalog, lunas; a native name for L. amara)
+
+Fl. Filip. ed. 1 (1837) 783; Merrill l.c. (1929) 113; Masamune l.c. 360; Backer & Bakhuizen f. l.c. 99; Hartley, J. Arn. Arb. 48 (1967) 460; Anderson l.c. 308; Perry l.c. 366.
+
+Erect shrubs or small trees; dioecious. Branches unarmed. All vegetative and reproductive parts with grey to reddish brown scale-like and/or star-shaped hairs. Leaves alternate, simple; leaf blades pinnately veined, leathery, becoming stiff when older; petioles wingless, swollen at apex. Inflorescences axillary panicles, flowers in small globose-clusters, 3–6 mm in diameter. Flowers unisexual, 3-merous, fragrant; sepals 3, free, valvate; petals 3, free, valvate, white to greenish or yellowish; stamens 3, opposite the sepals, rudimentary in female flowers, anthers dorsifixed; ovary 3-carpellate, carpels fused at base, rudimentary in male flowers, ovules 1 per locule; styles 3. Fruits of 1–3 dehiscent follicles, the undeveloped follicles persistent in fruit; pericarp dry at maturity; endocarp cartilaginous, discharged when the follicle dehisces. Seeds 1 per locule; endosperm lacking; cotyledons oily.
+
+Distribution. One species; E Java, Borneo, Philippines, Celebes, Papua New Guinea and Australia (Queensland).
+
+Ecology. Occurs in well-drained, primary and secondary rain forests, thickets, and garden regrowth, from near sea-level to 900 m.
+
+Lunasia amara Blanco Fig. 6.
+
+(Latin, amarus = bitter; referring to the alkaloid content)
+
+l.c. 783; Merrill l.c. (1929) 113; Masamune l.c. 360; Backer & Bakhuizen f. l.c. 99; Hartley l.c. (1967) 464; Anderson l.c. 308; Perry l.c. 366. Type: Escritor BS 20776, Philippines, Luzon Island (neotype A). Synonyms: Pilocarpus amara (Blanco) Blanco l.c. (1845) 540; Lunasia reticulata Elmer, Leafl. Philip. Bot. 4 (1912) 1511; L. gigantifolia Merr., Philip. J. Sc. 21 (1922) Bot. 519.
+
+@page 36 380
+var. amara
+
+Shrub or small tree to 15 m tall (usually smaller), 30 cm diameter, sparsely branched. Leaves crowded toward the branchlet tips; blades oblanceolate to obovate or elliptic, 6–60 x (up to) 18 cm; base cuneate to narrowly rounded or cordate, margin subentire to sinuate or coarsely dentate, apex rounded to acuminate; lateral veins 9–35 pairs, strongly raised below; petioles 1.5–15 cm long. Male inflorescences to 28 cm long and 8 cm wide; sepals ovate, minute; petals obovate-acuminate, c. 1 mm long; staminal filaments glabrous. Female inflorescences to 25 cm long and 2 cm wide; sepals broady ovate, 1–1.5 mm long; petals ovate-acuminate, c. 2 mm long; staminodes 3; styles fused at base, stigmas flattened and spreading over the tops of the carpels. Fruits obovate follicles, 6–15 x 5–10 mm, flattened laterally, ribbed on the sides, with a beak to 5 mm long, densely hairy. Seeds nearly obovoid; testa dark brown to reddish, papery.
+
+Distribution. One variety (var. amara) with the same range of distribution as that of the genus and species, occurs in Sabah and Sarawak. The other known variety, babuyanica (Merr.) Hartley, is endemic to the Babuyan Islands in the Philippines. In Sabah, var. amara is widespread and found in a variety of habitats, including offshore islands, ridges and slopes in primary forest, and forest on ultramafic soils, from near sea-level to 900 m. In Sarawak, frequent on limestone cliffs and slopes at low elevations (Miri and Baram districts).
+
+Uses. Bark, leaves, and seeds have been used medicinally to treat skin diseases, swollen limbs, snake bite, and stomach ailments (Philippines, Indonesia). A number of alkaloids are reported from the plant. Lunasin and lunacrin, two alkaloids extracted from the bark, were shown to have negative effects on the voluntary and smooth muscles, blood vessels, and hearts of laboratory animals (Wirth, J. Am. Pharm. Assoc. 20 (1931) 1254), causing death due to the simultaneous cessation of the respiratory and circulatory systems.
+
+7. MACLURODENDRON T.G. Hartley
+
+(Floyd A. McClure, 1897–1970, American botanist and plant explorer)
+
+Gard. Bull. Sing. 35 (1982) 1.
+
+Small to medium-sized trees; dioecious. Branches unarmed. Young branchlets hairy, trichomes brownish to rust-coloured. Leaves opposite, unifoliolate; blade pinnately veined, margin entire; petioles wingless, swollen at the apex, articulated with the blades. Inflorescences axillary, paniculate or racemose. Flowers unisexual, 4-merous, round in bud; sepals 4, triangular, fused at base, valvate; petals 4, ovate, free, imbricate, white or greenish or yellowish; stamens 8, unequal, alternately long and short, filaments glabrous, nearly linear, curved inward, anther ovoid to ellipsoid, dorsifixed, pollen lacking in female flowers; disc irregularly 8-lobed; ovary 4-carpellate, shallowly 4-lobed, glabrous, rudimentary in male flowers, 2 ovules per locule, style straight, stigma capitate, 4-lobed. Fruit a 4-loculate drupe, glabrous; exocarp somewhat leathery, glandular; mesocarp spongy, thin when dry; endocarp parchment-like, shiny. Seeds ovoid to kidney-shaped, dark brown to black, shiny, 1–2 per locule; outer testa usually spongy, inner testa bony; endosperm fleshy; embryo straight or bent.
+
+@page 37 381
+Distribution. 6 species; Thailand, Sumatra, Peninsular Malaysia, Borneo, the Philippines, Vietnam, and Hainan Island. One species (M. porteri) commonly occur in Sabah and Sarawak, while M. parviflorum is endemic to Sarawak and M. pubescens to Sabah.
+
+Ecology. Mainly in well-drained primary rain forests and occasionally in secondary forests and heath forests, from near sea-level to 1500 m.
+
+Taxonomy. Several species were previously described under Acronychia (e.g., A. porteri). The two genera are similar in a number of characters including the opposite leaves, 4-merous flowers, 2-ovulate locules, and drupaceous fruits. However, Maclurodendron differs in its exclusively unifoliolate leaves (sometimes trifoliolate in Acronychia), unisexual flowers, imbricate petals, glabrous staminal filaments, and glabrous ovaries and fruits, never with septicidal fissures.
+
+Key to Maclurodendron species
+
+1. Fully developed leaf-blades hairy below, especially on the midrib and lateral veins ............................................................................................................3. M. pubescens Fully developed leaf-blades glabrous or nearly so.........................................................2
+
+2. Inflorescences 1–3 cm long. Petals c. 1.5 mm long. Seed surface irregularly roughened .........................................................................................................1. M. parviflorum Inflorescences 2–15 cm long. Petals 2–2.5 mm long. Seed surface minutely reticulate .................................................................................................................2. M. porteri
+
+1. Maclurodendron parviflorum T.G. Hartley
+
+(Latin, parvus = small, flos = flower)
+
+l.c. (1982) 14. Type: Anderson S. 25426, Sarawak, Kuching district (holotype L; isotype SAR).
+
+Small tree to 5 m tall. Branchlets glabrous or nearly so. Leaves elliptic or obovate to oblanceolate, 9–16 x 3–9 cm, thinly leathery, drying pale green, glabrous or nearly so; base narrow, apex acuminate or occasionally rounded; lateral veins 7–11 pairs; intercostal veins and reticulations faint; petioles 1–2 cm long. Inflorescences 1–3 cm long; peduncle axis and branches sparsely hairy to glabrous, pedicels sparsely hairy, 1–3 mm long. Flowers 1–1.5 mm wide in bud; sepals nearly 1 mm long, sparsely hairy; petals c. 1.5 mm long, glabrous. Fruits c. 7 mm in diameter, nearly round to ovoid, shallowly 4-lobed, acute at the apex. Seeds c. 5 mm long, surface irregularly roughened; outer testa not spongy.
+
+Distribution. Endemic to Sarawak, where it is known from only four collections in Kuching district.
+
+Ecology. In primary heath (kerangas) forest and secondary forest on podzolised soils, at low elevations.
+
+@page 38 382
+2. Maclurodendron porteri (Hook. f.) T.G. Hartley Fig. 7.
+
+(G. Porter, first Curator of Waterfall Garden, Penang)
+
+l.c. (1982) 8. Basionym: Acronychia porteri Hook. f. (1875) 498; Anderson l.c. 307. Type: Maingay Kew Distr. No. 280, Penang (lectotype K; isolectotypes BM, GH, L). Synonyms: Jambolifera porteri (Hook. f.) Kuntze, Rev. Gen. Pl. 1 (1891) 102; Melicope unifoliolata Merr., Philip. J. Sc. 13 (1918) Bot. 74, l.c. (1921) 314, Masamune l.c. 360.
+
+Small to medium-sized tree to 25 m tall and 40 cm diameter; bole to 12 m tall. Branchlets glabrous or nearly so. Leaves obovate to oblanceolate or elliptic, 5–24 x 2–10 cm, thinly leathery, drying pale brown to dark brown, glabrous or nearly so; base narrow or acute, apex abruptly acuminate or occasionally rounded or acute; lateral veins 6–11 pairs; intercostal veins and reticulations faint; petioles 0.7–5 cm long. Inflorescences 2–15 cm long; peduncle axis and branches sparsely hairy to glabrous, pedicels nearly glabrous, 1–7 mm long. Flowers 1.5–2 mm wide in bud; sepals 0.5–1 mm long, glabrous to hairy; petals 2–2.5 mm long, glabrous to hairy. Fruits 6–11 mm in diameter, nearly round to ovoid, often shallowly 4-lobed, often tipped. Seeds 4–8 mm long, surface minutely reticulate, outer testa spongy.
+
+Vernacular name. Sarawak—rawang (Malay).
+
+Distribution. Burma, Peninsular Thailand, Sumatra, Peninsular Malaysia, Singapore, Borneo, and the Philippines. Widespread in Sabah and Sarawak. Also in Brunei and Kalimantan.
+
+Ecology. Locally on hillsides and ridges in primary mixed dipterocarp forest and occasionally in secondary forest and heath (kerangas) forest (in Sarawak), on low nutrient organic soils, from near sea-level to 1400 m.
+
+Uses. The timber, while not durable, has been used for building purposes (Peninsular Malaysia).
+
+3. Maclurodendron pubescens T. G. Hartley
+
+(Latin, pubescens = hairy; the leaves and floral parts)
+
+l.c. (1982) 11. Type: Patrick SAN 26359, Sabah, Sandakan district (holotype L; isotype K).
+
+Small to medium-sized tree to 30 m tall and 35 cm diameter; bole to 18 m tall. Branchlets hairy, becoming glabrous. Leaves obovate to oblanceolate or elliptic, 11–23 x 5–11 cm, thinly leathery, drying pale greenish brown to brown, pubescent below especially on the midrib and veins, glabrous above; base narrow, apex acuminate to rounded; lateral veins 8– 11 pairs; intercostal veins and reticulations faint; petioles 1.5–5 cm long. Inflorescences 3– 11 cm long; peduncle axis and branches sparsely to densely hairy; pedicels hairy, 3–5 mm long. Flowers 1.5–2 mm wide in bud; sepals c. 7 mm long, hairy; petals c. 2 mm long, hairy below, glabrous to sparsely hairy above. Fruits 10–12 mm in diameter, nearly round to ovoid, shallowly 4-lobed, acute at the apex. Seeds 5–7 mm long, surface minutely reticulate; outer testa spongy.
+
+@page 39 383
+# CAPTION: Fig. 7. Maclurodendron porteri. A, flowering leafy twig; B, part of inflorescence; C, fruits. (A & B from SAN 34008, C from SAN 55734.)
+@page 40 384
+Distribution. Endemic to Sabah, where it is found in Sandakan (especially common in Leila and Sepilok-Kabili FR), Keningau, and Lamag districts.
+
+Ecology. On ridges and hillsides in primary forest, from near sea-level to 140 m.
+
+8. MELICOPE J.R. Forst. & G. Forst.
+
+(Greek, meli = honey, kope = a cutting;
+
+the emarginate lobes of the nectar-secreting disc)
+
+serang (Malay)
+
+Char. Gen. Pl. (1776) 55; Hooker f. l.c. (1875) 491; Kurz l.c. (1877) 181; King l.c. 212; Anderson l.c. 308; Hartley, Gard. Bull. Sing. 34 (1981) 91, Sandakania 4 (1994) 47; Hartley & Stone, Taxon 38 (1989) 199.
+
+Shrubs or small to tall trees; dioecious in unisexual plants. Branches unarmed. Leaves opposite or whorled, trifoliolate and/or unifoliolate, petioles wingless; leaflets leathery or thinly so, margin mostly entire, articulated at the base. Inflorescences cymes or densely flowered panicles or solitary, axillary or on branchlets below leaves, rarely terminal or on stems. Flowers small, bisexual or unisexual, 4-merous; sepals 4, fused at base; petals 4, free, valvate or imbricate, white or cream to greenish or yellowish, rarely pink; stamens 4 or 8, rarely 4–8, free, rudimentary in female flowers; disc cushion- to ring-like or cupular; ovary 4-carpellate, carpels fused completely or only at base, rudimentary in male flowers, ovules (1–)2 per locule, styles united, rarely stylar branches divergent, stigma small to capitate or peltate, often lobed, or 4-branched. Fruits of 1–4 basally fused follicles, erect or spreading at maturity, grading to a 4-locular capsule; endocarp cartilaginous, remaining attached in the dehisced follicle, fused to or separate from epicarp. Seeds 1–2 per locule, not expelled from mature fruit at dehiscence; testa thick, hard, covered by a shiny, black epidermis; endosperm abundant; embryo straight or nearly so; cotyledons flat.
+
+Distribution. About 230 species ranging from Madagascar to India, S China, throughout Malesia, Polynesia, the Hawaiian Islands, Australia and New Zealand. 14 species in Sabah and Sarawak.
+
+Taxonomy. In his revision of the genus Tetradium Lour., Hartley (l.c. 1981) redefined Melicope and suggested transferring to it many of the species placed in the genus Euodia J. R. Forst. & G. Forst. As characterised by Hartley, Melicope and Euodia are largely differentiated on the basis of their seeds (smooth, shiny and remaining attached in the dehisced follicle in Melicope, and dull, rough and discharged from the follicle in Euodia), floral characteristics (bisexual or unisexual flowers with 4 or 8 stamens in Melicope, and bisexual flowers with 4 stamens in Euodia), and geographical ranges (Euodia has a narrower distribution, occurring in New Guinea, NE Australia, and east to Samoa and Hawaii). As a consequence of this new generic delimination, there are no representatives of the genus Euodia in Sabah or Sarawak.
+
+@page 41 385
+Key to Melicope species
+
+1. Stamens 8. Seeds attached to dehiscent fruit by a partially detached strip of pericarp and/or raphe. Leaves trifoliolate and/or unifoliolate.........................................................2
+
+Stamens 4. Seeds attached to dehiscent fruit by a funiculus. Leaves mostly trifoliolate, or (in M. subunifoliolata) sometimes uniformly unifoliolate.......................................4
+
+2. Sepals shorter than 1 mm. Follicles 2–5 mm long. Leaves mostly trifoliolate..............
+
+..........................................................................................................14. M. triphylla Sepals 1–2 mm long. Follicles 10–13 mm long. Leaves trifoliolate and/or unifoliolate.......3
+
+3. Terminal bud glabrous. Petiolules 1–2 mm long.......................................9. M. jugosa Terminal bud hairy. Petiolules 3–15 mm long...........................................12. M. sororia
+
+4. Flowers bisexual; stigma not lobed or wavy. Inflorescences axillary and/or on branchlets below leaves..............................................................................................5
+
+Flowers usually unisexual; stigma lobed or wavy. Inflorescences axillary...................6
+
+5. Leaflet-margin entire. Pedicels 4–8 mm long. Petals densely hairy above. Follicles 4–6 mm long..........................................................................................2. M. bonwickii Leaflets-margin entire or (in cultivated forms) lobed or wavy. Pedicels less than 3 mm long. Petals glabrous. Follicles 2–3 mm long.......................................5. M. denhamii
+
+6. Trichomes mostly simple...........................................................................................7
+
+Trichomes mostly in bundles or star-shaped.............................................................13
+
+7. Leaflet-base cordate to rounded; petiolules lacking...............................10. M. latifolia Leaflet-base rounded or acute to narrowly tapered; petiolules lacking or up to 20 mm long........................................................................................................................................8
+
+8. Petals 1.3–1.8 mm long. Leaflets 1.5–5.5 cm wide.......................................................9
+
+Petals 1.5–3 mm long. Leaflets 2.5–21 cm wide.............................................................10
+
+9. Leaflets glabrous or midrib sparsely hairy below. Follicles 7–9 mm long; epicarp subfleshy, becoming glabrous............................................................3. M. clemensiae Leaflets glabrous above; midrib hairy to velvety below. Follicles 10–10.5 mm long; epicarp dry, hairy.....................................................................13. M. subunifoliolata
+
+10. Petals silky-hairy above. Raphe of seeds contorted..................................4. M. confusa Petals glabrous or sparsely hairy to hairy above, especially on lower half. Raphe of seeds not contorted...........................................................................................................11
+
+11. Terminal leaflets obovate to broadly obovate, 7.5–16.5 cm long; apex abruptly acuminate; lateral veins 9–15 pairs. Follicles 3–4 mm long........................6. M. glabra Terminal leaflets elliptic to obovate, 3.5–46 cm long; apex usually acuminate; lateral veins 8–24 pairs. Follicles 3–12 mm long.................................................................12
+
+@page 42 386
+12. Leaflets glabrous or nearly so, to 23 cm long; lateral veins raised above. Follicles 6– 12 mm long..................................................................................11. M. lunu-ankenda Leaflets nearly glabrous to hairy below, to 46 cm long; lateral veins usually depressed above. Follicles 3–5 mm long...............................................................1. M. accedens
+
+13. Leaflets nearly glabrous to hairy below. Staminal filaments sometimes hairy at base. Epicarp subfleshy...................................................................................7. M. hookeri Leaflets densely whitish-hairy below. Staminal filaments glabrous. Epicarp dry ................................................................................................................8. M. incana
+
+1. Melicope accedens (Blume) T. G. Hartley Fig. 8.
+
+(Latin, accedere = approaching, probably referring to its resemblance to Euodia macrophylla)
+
+l.c. (1994) 67. Basionym: Euodia accedens Blume l.c. (1825) 246. Type: Blume, s.n., Java (lectotype L). Synonyms: Euodia macrophylla Blume l.c. (1825) 246; Zanthoxylum macrophyllum (Blume) Miq. l.c. (1859) 670; Ampacus macrophylla (Blume) Kuntze l.c. 98; Evodia accedens (Blume) Miq. l.c. (1859) 671; Ampacus accedens (Blume) Kuntze l.c. 98; E. nervosa Koord. & Valeton, Med. Lands Pl. Tuin 17 (1896) 208, Merrill l.c. (1921) 314, l.c. (1929) 113, Masamune l.c. 358, Anderson l.c. 308.
+
+Shrub or tree to 40 m tall. Young branchlets and terminal buds glabrous to hairy or velvety. Trichomes mostly simple. Leaves opposite, trifoliolate (occasionally unifoliolate), petioles 2.5–24 cm long; leaflets elliptic to obovate, 9.5–46 x 4–21 cm; base rounded to narrowly tapered and often asymmetric, apex usually acuminate; midrib sometimes velvety above and below; lateral veins 10–26 pairs, usually depressed above; petiolules lacking or to 15 mm long. Inflorescences axillary, 3–24 cm long, glabrous to hairy or velvety; main branches spreading, pedicels 0.5–3.5 mm long. Flowers unisexual or sometimes bisexual; sepals ovate to triangular, 0.5–2 mm long, usually hairy below; petals ovate to elliptic, 1.5–2.8 mm long, glabrous to hairy below, sparsely hairy to hairy, sometimes only on lower half, or glabrous, above; stamens 4, filaments hairy at base; disc and ovary glabrous to densely hairy, style hairy at base, stigma weakly 4-lobed. Fruits of round to ellipsoid or obovoid follicles, 3–5 mm long; epicarp subfleshy, glabrous to hairy; endocarp glabrous. Seeds round to ovoid or ellipsoid, sometimes compressed, 2.5–5 mm long; funiculus 0.3–1.5 mm long.
+
+Distribution. From Andaman Islands east to Vietnam and south to Peninsular Malaysia, Borneo and Java. In Sabah and Sarawak, common in primary and secondary forest, swamp forest, heath forest, peat swamp forest, and along forest edges and in open places, from near sea-level to 1950 m; also reported from Kalimantan.
+
+Taxonomy. Hartley (l.c. 1994) recognises two variants of this species, both of which occur in Sabah and Sarawak. One variant, found throughout the range of the species, possesses sepals which are nearly glabrous to sparsely hairy below, petals which are glabrous or nearly so below, follicles 3–4 mm long with a glabrous or sparsely hairy epicarp, and leaflets with 13–24 pairs of lateral veins. The second variant, occurring in Peninsular Malaysia, Sumatra and Borneo, differs in having hairy sepals, glabrous to hairy petals, follicles 4–5 mm long with a hairy epicarp, and leaflets with 10–16 pairs of lateral veins.
+
+@page 43 387
+# CAPTION: Fig. 8. Melicope accedens. A, flowering leafy twig; B, flower. (From SAN 38304.)
+@page 44 388
+2. Melicope bonwickii (F. Muell.) T.G. Hartley
+
+(J. Bonwick, student of Australian geography)
+
+l.c. (1994) 56. Basionym: Euodia bonwickii F. Muell., Fragm. 5 (1865) 56. Type: Dallachy, s.n., Australia, Queensland, Rockingham Bay (holotype MEL). Synonyms: Euodia speciosa Rchb. f. & Zoll. ex Teijsm. & Binnen., Nat. Tijd. Ned. Ind. 29 (1867) 255; E. villamilii Merr., Philip. J. Sc. 9 (1914) Bot. 296.
+
+Tree to 40 m tall. Young branchlets glabrous or rarely sparsely hairy; terminal bud appressed hairy. Trichomes simple. Leaves opposite, trifoliolate, petioles 2–14.5 cm long; leaflets elliptic to obovate, 10–30 x 5–15 cm, glabrous or sparsely hairy on veins below; base acute or narrowly tapered and sometimes asymmetric, apex acuminate; lateral veins 14–24 pairs, sometimes raised above, sometimes with axillary cavities below; petiolules lacking or to 4 mm long. Inflorescences on branchlets below leaves, rarely axillary, glabrous to sparsely hairy, 3.5–10 cm long; pedicels 4–8 mm long. Flowers bisexual; sepals nearly round, to 2 mm long, glabrous to sparsely hairy below; petals pink or rarely white, ovate to elliptic or elliptic-oblong, 4–5.5 mm long, densely hairy above; stamens 4, filaments glabrous; disc and ovary hairy to densely hairy, style glabrous, stigma capitate. Fruits of nearly round to obovoid follicles, 4–6 mm long; epicarp dry, sparsely hairy to almost glabrous; endocarp glabrous. Seeds nearly round to ellipsoid or nearly hemispherical, 3–4.5 mm long; funiculus 1–3 mm long.
+
+Distribution. Java, Borneo, Philippines, and east to Papua New Guinea and Australia. In Sabah, in primary and secondary forest, from near sea-level to 750 m; also occurs in Kalimantan.
+
+Uses. The bark is reported to be used in the treatment of leech bites (Indonesia).
+
+3. Melicope clemensiae T.G. Hartley
+
+(Mary S. Clemens, 1873–1968, plant collector of the Malesian region)
+
+l.c. (1994) 64. Type: Aban Gibot SAN 60767, Sabah, Mt. Kinabalu Park (holotype L; isotype SAN).
+
+Shrub or tree to 15 m tall. Young branchlets and terminal buds glabrous, or nearly so, to velvety. Trichomes mostly simple. Leaves opposite, trifoliolate (rarely unifoliolate); petioles 1.5–8 cm long; leaflets elliptic to obovate or oblanceolate, 5–16 x 2–5.5 cm, glabrous or midrib sparsely hairy below; base acute to narrowly tapered and often asymmetric, apex acuminate; lateral veins 11–18 pairs, raised above; petiolules 1.5–12 mm long. Inflorescences axillary, laxly flowered, 2.5–16 cm long, glabrous to somewhat velvety; pedicels 2–5 mm long. Flowers unisexual; sepals round to ovate-triangular, less than 1 mm long, hairy or glabrous below; petals ovate to elliptic, c. 1.5 mm long, glabrous; stamens 4, filaments glabrous; disc and ovary nearly glabrous to hairy, style glabrous, stigma weakly 4-lobed. Fruits of round to obovoid follicles, 7–9 mm long; epicarp subfleshy, becoming glabrous; endocarp glabrous. Seeds round, ovoid or ellipsoid, slightly compressed, 5–7 mm long; funiculus 1.5–2 mm long.
+
+Distribution. Endemic to Sabah and Sarawak; in primary and secondary forest, on ridges and slopes, sometimes on limestone, from 650 to 1800 m.
+
+@page 45 389
+4. Melicope confusa (Merr.) Liu
+
+(Latin, confusio = disorder; referring to this taxon's long confusion with Euodia glabra)
+
+Ill. Native Introd. Lign. Pl. Taiwan 2 (1962) 876; Hartley l.c. (1994) 59. Basionym: Euodia confusa Merr., Philip. J. Sc. 20 (1922) Bot. 391. Type: Ramos BS 15055, Philippines, Luzon, Laguna Province (A).
+
+Tree to 30 m tall. Young branchlets glabrous to sparsely hairy; terminal buds hairy to velvety. Trichomes simple. Leaves opposite, trifoliolate; petioles 2.5–18.5 cm long; leaflets elliptic to obovate or ovate, 12–35 x 5–8 cm, glabrous to hairy below; base acute to narrowly tapered, rarely asymmetric, apex acuminate; lateral veins 11–24 pairs, raised to depressed above; petiolules 3–15 mm long. Inflorescences axillary, 6–30 cm long, peduncle glabrous to hairy, pedicels 1–3 mm long. Flowers unisexual; sepals nearly round or ovate, to 1 mm long, hairy below; petals elliptic, 2.5–3 mm long, silky hairy above; stamens 4, filaments sparsely hairy towards base or glabrous; disc and ovary hairy, style hairy at least basally, stigma weakly 4-lobed. Fruits of round to ellipsoid follicles, 4.5–6 mm long, fused basally and erect or diverging; epicarp subfleshy, sparsely hairy or glabrate; endocarp glabrous. Seeds round to ovoid or ellipsoid, 3.5–4 mm long; funiculus 1–1.5 mm long, raphe contorted.
+
+Distribution. Borneo, Philippines, Celebes and Moluccas. In Sabah, found mainly in primary and secondary forest, from near sea-level to 90 m; no record from Sarawak.
+
+Uses. The bark is used medicinally for treating enlargement of the spleen (Philippines); a decoction of the root or leafy shoot with liquor is ingested to treat hives (Taiwan).
+
+5. Melicope denhamii (Seemen) T.G. Hartley
+
+(H. M. Denham, the 19th century British sea captain)
+
+l.c. (1994) 57. Basionym: Picrasma denhamii Seemen, Fl. Vit. (1865) 33. Type: McGillivray 46, New Hebrides, Aneitum (holotype BM). Synonyms: Euodia tenuistyla Stapf, Trans. Linn. Soc. Bot. 4 (1894) 137, Merrill l.c. (1921) 314, Masamune l.c. 359; E. ridleyi Hochr., Icon Bog. 2 (1905) 151; E. schullei var. ridleyi (Hochr.) Lauterb., Bot. Jahrb. 55 (1918) 230; E. suaveolens var. ridleyi (Hochr.) Bakhuizen f., Blumea 6 (1950) 365.
+
+Shrub or tree to 25 m tall. Young branchlets and terminal buds glabrous to densely hairy or velvety. Trichomes simple, star-shaped or in bundles. Leaves opposite, trifoliolate (occasionally unifoliolate); petioles 1–16 cm long; leaflets elliptic, 10–19 cm long, sparsely hairy to hairy on midrib and veins below; base cuneate to narrowly tapered, apex acuminate; lateral veins 15–22 pairs, raised or depressed above; petiolules lacking or up to 1 cm long. Inflorescences axillary and/or on branchlets below leaves, 2–7 cm long, hairy, pedicels 0.2–2.3 mm long. Flowers bisexual; sepals ovate to triangular, to 0.8 mm long, glabrous to hairy below; petals ovate-elliptic or elliptic, 1.2–2.2 mm long, glabrous; stamens 4, filaments glabrous; disc glabrous; ovary hairy, style glabrous to sparsely hairy, stigma capitate. Fruits of nearly round follicles, 2–3 mm long; epicarp dryish, glabrous to sparsely hairy; endocarp glabrous. Seeds nearly round or hemispherical, 1.5–2.5 mm long; funiculus to 1.5 mm long.
+
+@page 46 390
+Distribution. Borneo to S Philippines and throughout E Malesia to Fiji. In Sabah, in primary and secondary forest and swamps, from near sea-level to 950 m; also known from Kalimantan.
+
+Taxonomy. Several cultigens of this species exist and are cultivated as ornamentals in Borneo and elsewhere. They are all characterised by linear to elliptic or ovate leaflets usually with lobed or wavy margins. The synonym Euodia ridleyi refers to one of these cultigens.
+
+6. Melicope glabra (Blume) T.G. Hartley
+
+(Latin, glaber = hairless)
+
+l.c. (1994) 60. Basionym: Fagara glabra Blume l.c. (1823) 40. Type: Blume, s.n., Java (lectotype US). Synonyms: Euodia glabra (Blume) Blume l.c. (1825) 245, Anderson l.c. 308; Ampacus glabra (Blume) Kuntze l.c. 98; E. kingii Engl. in Engler & Prantl, Pfl. Fam. 3, 4 (1896) 121; E. krukovii Merr., Pap. Mich. Ac. Sc. 24 (1938) 75.
+
+Tree to 40 m tall. Young branchlets glabrous to velvety; terminal buds sparsely hairy to velvety. Trichomes simple. Leaves opposite, trifoliolate (occasionally unifoliolate); petioles glabrous, 2–8.5 cm long; leaflets elliptic to broadly obovate, 7.5–16.5 x 4–12 cm, hairy on midrib and veins below or glabrous; base acute to narrowly tapered, asymmetric in lateral leaflets, apex abruptly acuminate or rounded or emarginate; lateral veins 9–15 pairs, sometimes depressed above; petiolules 1–20 mm long. Inflorescences axillary, 7–30 cm long, glabrous to velvety; pedicels 0.6–2 mm long. Flowers unisexual; sepals round to ovate, less than 1 mm long, glabrous to hairy below; petals elliptic, 2–2.5 mm long, sparsely hairy on lower half above or glabrous; stamens 4, filaments glabrous; disc and ovary glabrous to hairy, style glabrous to hairy, stigma weakly 4-lobed. Fruits of round or broadly elliptic follicles, 3–4 mm long; epicarp subfleshy, glabrous to sparsely hairy; endocarp glabrous. Seeds round to broadly ellipsoid, 2.5–3 mm long; funiculus c. 1 mm long.
+
+Distribution. Sumatra, Peninsular Malaysia, Singapore, Java, and Borneo. Found in primary forest, mostly below 500 m but ascending as high as 1200 m. Reported once from Sabah (Keith, N. Bor. For. Rec. 2 (1952) 373), but its occurrence there needs to be confirmed.
+
+7. Melicope hookeri T.G. Hartley
+
+(Joseph D. Hooker, 1817–1911, eminent British botanist)
+
+l.c. (1994) 70. Synonyms: Euodia robusta Hook. f. l.c. (1875) 488, Masamune l.c. 359, non E. robusta A. Smith, J. Arn. Arb. 32 (1951) 253; Ampacus robusta (Hook.f.) Kuntze l.c. 98. Type: Maingay Kew Distr. No. 278, Singapore (GH, lectotype).
+
+Tree to 25 m tall. Young branchlets glabrous to velvety; terminal buds hairy to velvety. Trichomes mostly in bundles or star-shaped. Leaves opposite, trifoliolate (occasionally unifoliolate); petioles 4–13 cm long; leaflets ovate to elliptic or obovate, 7.5–18 x 4–9.5 cm,
+
+@page 47 391
+nearly glabrous to hairy below; base obtuse to narrowly tapered, apex acuminate, sometimes abruptly so; lateral veins 15–22 pairs, sometimes depressed above; petiolules 1–15 mm long. Inflorescences axillary, 10–26 cm long; pedicels 0.3–1.5 mm long. Flowers unisexual, rarely bisexual; sepals round to ovate-triangular, less than 1 mm long, glabrous to hairy below; petals ovate to elliptic, 1.5–2 mm long, glabrous; stamens 4, filaments sometimes hairy at base; disc and ovary hairy, style hairy at base, stigma weakly 4-lobed. Fruits of round to obovoid follicles, 3.5–4 mm long; epicarp subfleshy, glabrous or sparsely hairy; endocarp glabrous. Seeds round to ellipsoid, 2.5–3.5 mm long; funiculus 1–1.2 mm long.
+
+Distribution. Sumatra, Peninsular Malaysia, and Borneo. In Sabah and Sarawak, scattered in primary and secondary forests and forest margins, to 1600 m. Also known from Brunei and Kalimantan.
+
+8. Melicope incana T. G. Hartley
+
+(Latin, incanus = greyish-white; the leaflets)
+
+l.c. (1994) 71. Type: Lobb, s.n., Borneo (holotype K). Synonyms: Euodia alba Hook. f., Trans. Linn. Soc. 23 (1862) 166, Merrill l.c. (1921) 313, Masamune l.c. 358, Anderson l.c. 308, non E. alba Laurterb., Nov. Guinea 14 (1924) 141; Ampacus alba (Hook.f.) Kuntze l.c. 98.
+
+Tree to 35 m tall. Young branchlets and terminal buds hairy to velvety. Trichomes mostly star-shaped. Leaves opposite, trifoliolate; petioles 3–20 cm long; leaflets elliptic to ovate or obovate, 9–25 x 5–16 cm, densely whitish-hairy below, glabrous to hairy, or midrib densely hairy above; base rounded, apex abruptly acuminate; lateral veins 20–25 pairs, depressed above; petiolules lacking or to 3 mm long. Inflorescences axillary, 9–23 cm long; pedicels 0.3–1 mm long. Flowers unisexual, rarely bisexual; sepals round to ovate-triangular, less than 1 mm long, hairy below; petals elliptic, 1.7–2 mm long, sparsely hairy along median line below or glabrous; stamens 4, filaments glabrous; disc and ovary hairy, style hairy, stigma weakly 4-lobed. Fruits of ellipsoid to obovoid follicles, 3–4 mm long; epicarp dry, very sparsely hairy; endocarp glabrous. Seeds round, c. 2 mm long; funiculus c. 1 mm long.
+
+Distribution. Sumatra, Borneo and N Celebes. In Sabah and Sarawak, in primary and secondary forest, alluvial forest and freshwater swamp forest, from near sea-level to 800 m. Also known from Brunei and Kalimantan.
+
+9. Melicope jugosa T.G. Hartley
+
+(Latin, jugosus = mountainous; the habitat)
+
+l.c. (1994) 51. Type: J. & M.S. Clemens 51184, British North Borneo, Mt. Kinabalu, Gurulau Spur (holotype A; isotypes K, NY, UC).
+
+Shrub or small tree to 3 m tall. Young branchlets somewhat corky, glabrous like the terminal bud. Trichomes, if present, simple. Leaves opposite, trifoliolate and/or unifoliolate, glabrous; petioles 2–5 cm long; leaflets of trifoliolate leaves elliptic-obovate or elliptic or obovate, 4.5–7 x 2–3 cm; base acute to narrowly tapered, margin toothed toward apex, apex rounded or abruptly acuminate, lateral veins 7–11 pairs, sometimes raised above; petiolules 1–2 mm long; leaflets of unifoliolate leaves elliptic or rarely elliptic-obovate, to 13.5 x 6 cm, base rounded or rarely acute, lateral veins 9–13 pairs; petiolules lacking, or similar to that of trifoliolate leaves. Inflorescences axillary, glabrous to sparsely hairy, 1–2 cm long; pedicels to 3.5 mm long. Flowers unisexual; sepals nearly round or ovate, to 2 mm long, sometimes ciliolate; petals elliptic, to 4 mm long; stamens 8; stigma capitate, weakly 4-lobed. Fruits glabrous, follicles ellipsoid, c. 10 mm long; epicarp dry. Seeds ellipsoid, c. 8 mm long.
+
+@page 48 392
+Distribution. Endemic to Sabah, in forest from 2250 to 2400 m.
+
+10. Melicope latifolia (DC.) T.G. Hartley
+
+(Latin, latus = broad, folium = leaf)
+
+l.c. (1994) 72. Basionym: Euodia latifolia DC. l.c. 724, Merrill l.c. (1921) 314, Masamune l.c. 358, Anderson l.c. 308. Type: Doleschall 335, Moluccas, Ambon (neotype W).
+
+Shrub or tree to 30 m tall. Young branchlets and terminal buds glabrous to softly hairy. Trichomes simple. Leaves opposite, trifoliolate (occasionally unifoliolate); petioles 4–29 cm long; leaflets elliptic to ovate or obovate, 8–37 x 3–19 cm, glabrous to hairy above and below; base cordate to rounded, sometimes asymmetric, apex acuminate; lateral veins 14– 31 pairs, raised to slightly depressed above; petiolules lacking. Inflorescences axillary, often densely flowered, 5–24 cm long, glabrous to softly hairy; pedicels lacking or to 3 mm long. Flowers unisexual, sometimes bisexual; sepals ovate to triangular or rounded, to 1.5 mm long, softly hairy below; petals ovate to elliptic, 2–4 mm long, glabrous to hairy below; stamens 4, filaments glabrous; disc more or less glabrous; ovary glabrous to hairy, style glabrous, stigma 4-lobed or wavy. Fruits of elliptic follicles, 3.5–4.5 mm long, sometimes fused up to full length; epicarp dry, glabrous to sparsely hairy; endocarp glabrous. Seeds round to ellipsoid or hemispherical, 2–3 mm long; funiculus 0.5–1.5 mm long.
+
+Distribution. Peninsular Malaysia, Java, Borneo, Phillipines, Papua New Guinea and east to Samoa. In Sabah, in primary and secondary forest and open places, from near sea-level to 600 m. No record from Sarawak.
+
+Uses. The leaves have been used for treating fever and cramps (Peninsular Malaysia, Indonesia). Resin collected from the trunk has been used as a varnish and adhesive (Indonesia).
+
+11. Melicope lunu-ankenda (Gaertn.) T.G. Hartley
+
+(the Sri Lankan name for this species)
+
+l.c. (1994) 61. Basionym: Fagara lunu-ankenda Gaertn., Fruct. Sem. Pl. 1 (1788) 334. Type: Koenig, s.n., Ceylon (holotype L). Synonyms: Euodia aromatica Blume l.c. (1825) 246; Zanthoxylon aromaticum (Blume) Miq. l.c. (1859) 670; Ampacus aromatica (Blume) Kuntze l.c. 98; Zanthoxylum roxburghianum Cham., Linnaea 5 (1830); E. roxburghiana (Cham.) Benth., Fl. Hongk. (1861) 59; Ampacus roxburghiana (Cham.) Kuntze l.c. 98; E. lunu-ankenda (Gaertn.) Merr., Philip. J. Sc. 7 (1912) Bot. 378, Merrill l.c. (1921) 314, Anderson l.c. 308; E. arborea Elmer, Leafl. Philip. Bot. 8 (1915) 2806; E. malayana Ridl. l.c. (1922) 342, Masamune l.c. 358, Anderson l.c. 308; E. punctata Merr., J. Str. Br. R. As. Soc. 86 (1922) 315, l.c. (1929) 113, Masamune l.c. 358, Anderson l.c. 308; E. triphylla var. pubescens Ridl. l.c. (1930) 77, Masamune l.c. 359; E. concinna Ridl. l.c (1930) 78, Masamune l.c. 358; E. obtusifolia Ridl. l.c. (1930) 78, Masamune l.c. 358.
+
+@page 49 393
+Shrub or tree to 30 m tall. Young branchlets glabrous to velvety; terminal buds sparsely hairy to velvety. Trichomes mostly simple. Leaves opposite, trifoliolate (occasionally unifoliolate); petioles 1.5–15 cm long; leaflets elliptic to obovate, 3.5–23 x 2.5–7 cm, glabrous or nearly so; base rounded to narrowly tapered and often asymmetric, apex acute to acuminate, rarely rounded or emarginate; lateral veins 8–17 pairs, sometimes raised above; petiolules 0.5–15 mm long. Inflorescences axillary, 2–32 cm long with main branches ascending, glabrous to velvety; pedicels 0.3–3 mm long. Flowers unisexual, rarely bisexual; sepals round to ovate-triangular, 0.5–1.2 mm long, glabrous to hairy below; petals ovate to elliptic, 1.5–3 mm long, glabrous to sparsely hairy below, hairy above on lower half or glabrous; stamens 4, filaments hairy at base or glabrous; disc glabrous to densely hairy or velvety; ovary nearly glabrous to densely hairy, style glabrous to hairy, stigma weakly 4-lobed. Fruits of ellipsoid to obovoid follicles, 6–10 mm long (9–12 mm long in montane plants); epicarp subfleshy, glabrous; endocarp glabrous. Seeds round to ovoid or ellipsoid, sometimes compressed, 3–6 mm long; funiculus 0.5–3 mm long.
+
+Distribution. Himalayas, Sri Lanka, Java, Borneo, SW Philippines, and Celebes. In Sabah and Sarawak, common in primary and secondary well-drained or swampy forest and montane shrubbery, from near sea-level to 2200 m. Also known from Brunei and Kalimantan.
+
+Taxonomy. Hartley (l.c. 1994) recognises lowland and montane variants of this species. Plants from montane habitats have larger follicles and more leathery leaflets, usually with rounded to abruptly tipped apices. Because the two intergrade, they are treated as a single taxon.
+
+Uses. The roots are reportedly used to treat colds and rheumatism (Taiwan), and the leaves and flowers for menstrual disorders and fever (Peninsular Malaysia). Its timber is weak but used in construction. The leaves are eaten as a condiment and have been used to flavour food.
+
+12. Melicope sororia T.G. Hartley
+
+(Latin, sororius = sisterly; referring to its close relationship to Melicope jugosa)
+
+l.c. (1994) 53. Type: J. & M.S. Clemens 29477, British North Borneo, Mt. Kinabalu, Tenompok (holotype NY; isotypes A, B, BO, L, UC).
+
+Shrub or small tree to 5 m tall. Young branchlets glabrous, rather corky; terminal bud hairy. Trichomes mostly simple. Leaves opposite, trifoliolate and/or unifoliolate, rarely bifoliolate, glabrous, petioles 1–10 cm long; leaflets of trifoliolate leaves elliptic to obovate, 6.5–14 x 3–6 cm, base acute to narrowly tapered and somewhat asymmetric, margin entire or less commonly toothed toward apex, apex acuminate or rarely rounded, lateral veins 7–11 pairs, sometimes raised above, petiolules 3–15 mm long; leaflets of unifoliolate leaves to 16 x 8 cm, petiolule to 1 cm long, otherwise similar to leaflets of trifoliolate leaves. Inflorescences axillary, glabrous, 2.5–10 cm long; pedicels to 3.5 mm long, sparsely hairy. Flowers unisexual; sepals nearly round or ovate or elliptic, to 1.5 mm long, sometimes ciliolate; petals elliptic, to 2.5 mm long; stamens 8; stigma capitate, weakly 4-lobed. Fruits glabrous, follicles ellipsoid, 10–13 mm long; epicarp dry. Seeds ellipsoid, 9–10 mm long.
+
+@page 50 394
+Distribution. Endemic to Sabah, occurring in forest from 1500 to 2400 m.
+
+13. Melicope subunifoliolata (Stapf) T.G.Hartley
+
+(Latin, sub = nearly, unus = one, folium = leaf; the almost unifoliolate leaves)
+
+l.c. (1994) 66. Basionym: Euodia subunifoliolata Stapf l.c. 138, Merrill l.c. (1921) 314, Masamune l.c. 359. Type: Haviland 1193, British North Borneo, Mt. Kinabalu (holotype K).
+
+Shrub or tree to 15 m tall. Young branchlets hairy to velvety; terminal buds velvety. Trichomes mostly simple. Leaves opposite, trifoliolate and/or unifoliolate, glabrous above, hairy to velvety on midrib (sparsely hairy on veins) below; petioles 1–9 cm long; leaflets of trifoliolate leaves elliptic to obovate, 5–15.5 x 1.5–5.5 cm, base acute to narrowly tapered, apex acuminate, lateral veins 10–20 pairs, sometimes raised above, petiolules 0.5–10 mm long; leaflets of unifoliolate leaves elliptic-obovate, to 8.5 x 3.5 cm, base acute, lateral veins 11–14 pairs, otherwise similar to leaflets of trifoliolate leaves. Inflorescences axillary, laxly flowered, 3–13 cm long, hairy to velvety; pedicels 1–2.5 mm long. Flowers unisexual; sepals ovate to triangular, 0.7–1.5 mm long, hairy below; petals elliptic to ovate, 1.3–1.8 mm long, glabrous; stamens 4, filaments glabrous; ovary and top of disc hairy, style hairy at base, stigma weakly 4-lobed. Fruits of ellipsoid follicles, 10–10.5 mm long; epicarp dry, hairy; endocarp glabrous. Seeds round to ovoid, sometimes compressed, 5–6.3 mm long; funiculus 0.5–1.5 mm long.
+
+Distribution. Endemic to Sabah, occurring in primary montane forest, often on ridges and slopes, from 1200 to 2600 m, and sometimes descending to 180 m.
+
+14. Melicope triphylla (Lam.) Merr.
+
+(Greek, treis = three, phyllon = leaf; having trifoliolate leaves)
+
+l.c. (1912) 375; Anderson l.c. 309; Hartley l.c. (1994) 54. Basionym: Fagara triphylla Lam., Encycl. 2 (1788) 375. Type: Sonnerat, s.n., Philippines (holotype P). Synonyms: Euodia triphylla (Lam.) DC. l.c. 724; Zanthoxylum triphyllum (Lam.) G. Don, Gen. Hist. 1 (1831) 804; Ampacus triphylla (Lam.) Kuntze l.c. 98.
+
+Shrub or tree to 15 m tall. Young branchlets glabrous to hairy, sometimes glaucous; terminal bud glabrous to velvety hairy. Trichomes, if present, simple. Leaves opposite, mostly trifoliolate, petioles 3–11 cm long; leaflets elliptic to oblanceolate, 8–25 x 2.5–6 cm, glabrous; base acute to narrowly tapered and sometimes asymmetric, apex acuminate; lateral veins 7–19(–25) pairs, sometimes raised above; petiolules 2–15 mm long. Inflorescences axillary and/or on branchlets below leaves, glabrous to hairy, 1–11 cm long, pedicels lacking or to 4 mm long. Flowers unisexual; sepals ovate-triangular, to 0.8 mm long, apex sometimes sparsely hairy; petals lanceolate to ovate or elliptic, to 3.5 mm long; stamens 8, filaments sparsely hairy or glabrous; disc hairy or glabrous; ovary glabrous, stigma capitate, 4-lobed. Fruits glabrous, follicles ellipsoid or nearly round, 2.5–5 mm long; epicarp subfleshy. Seeds nearly round to ellipsoid, 2.4–4.5 mm long.
+
+@page 51 395
+Distribution. Taiwan and Ryukyu Islands, south to Borneo, and east to Papua New Guinea. In Sabah and Sarawak, in primary and secondary forest, from near sea-level to 1300 m. Also in Kalimantan.
+
+9. MEROPE Roem.
+
+(Merope of Greek mythology, one of the Heliades)
+
+Syn. Hesper. 1 (1846) 44; Backer & Bakhuizen f. l.c. 106; Swingle l.c. (1967) 258; Stone l.c. (1972) 382, l.c. (1978) 115.
+
+Shrubs or small trees. Branches armed with axillary, solitary or paired spines. Leaves alternate, unifoliolate, leathery; petioles short, stout, wingless, articulated with the blade. Inflorescences 1(–2)-flowered, rarely few-flowered, axillary. Flowers bisexual, 4–5-merous; calyx cup-like, 5-lobed; petals 5(–6), free, imbricate in bud; stamens 10, free, equal; ovary ovoid, 3(–4)-carpellate, on a tall gynophore, ovules 2–4 per locule, style short, thick, stigma flat. Fruit an ovoid, angular berry, with 3–4-flattened sides; pericarp thick, glandular, strongly aromatic when crushed, filled with sticky clear fluid. Seeds few to many per fruit, oblong, flattened, overlapping.
+
+Distribution. One species, ranging from Burma to Indo-China and throughout Malesia. Found in Sabah and Sarawak.
+
+Ecology. A widely scattered, highly specialised genus which thrives in the saline soil of tidal forests and mangrove swamps, often on the banks of streams. The tides aid in the dispersal of the buoyant fruits.
+
+Merope angulata (Willd.) Swingle Fig. 9.
+
+(Latin, angulatus = angled; the fruit)
+
+J. Wash. Ac. Sc. 5 (1915) 420, l.c. (1967) 258; Backer & Bakhuizen f. l.c. 106; Stone l.c. (1972) 382, l.c. (1978) 115. Basionym: Citrus angulata Willd., Sp. Pl. ed. 4, 3 (1800) 1426. Type: Limonellus angulosus Rumph., Herb. Amboin. 2 (1741) 110. Synonyms: Sclerostylis spinosa Blume l.c. (1825) 134; Paramignya longispina Hook. f. l.c. (1875) 511; P. angulata (Willd.) Kurz, J. As. Soc. Beng. 44 (1875) 135.
+
+Erect shrub or small tree to 3 m tall and 10 cm diameter, often with multiple stems arising from a root crown. Branches sparse, with paired, rarely solitary, stout spines, to 5 cm long on juvenile stems. Leaves oblong-ovate to obovate, 4.5–16 x 2–6 cm, thick, glabrous; base rounded, margin subentire to faintly notched, apex acute or shortly acuminate; midrib prominent below; lateral veins and reticulations inconspicuous; petioles 5–7 mm long. Inflorescences 1(–2)-flowered, glabrous; pedicels short. Flowers small, fragrant, buds ovoid; sepals triangular, c. 1 mm long, glabrous; petals oblong-lanceolate, 7–9 mm long, glabrous, white; filaments glabrous, white, anthers linear-oblong, yellow; ovary slender, glabrous. Fruits ovoid to ellipsoid, 3–4.5 cm long, 3–4-sided in cross-section, apex bluntly acuminate, green when ripe. Seeds 2–3 cm long, somewhat reniform, tapering to a blunt point; testa rough; cotyledons green.
+
+@page 52 396
+Vernacular names. Sabah and Sarawak—limau buaya, limau laut (Malay).
+
+Distribution. Throughout the range of the genus. In Sabah and Sarawak, occurs in rather small but dense populations in inland areas of tidal swamps and mangrove forest, often on the edges of streams and on riverbanks, and usually in association with Nipa palm (Nypa fruticans).
+
+Uses. The fruits are used for the treatment of stomach disorders and colic (Peninsular Malaysia).
+
+10. MERRILLIA Swingle
+
+(E. D. Merrill, 1876–1954, American botanist)
+
+l.c. (1918) 337, l.c. (1967) 240; Ridley l.c. (1922) 353; Craib l.c. 231; Burkill l.c. (1966) 1481; Stone l.c. (1972) 382; Corner l.c. 667; Stone & Jones l.c. (1988) 268.
+
+Trees; crown rather bushy; trunk and main branches covered with pale fissured bark; branches unarmed. Leaves alternate, pinnate; leaflets 5–13, lower ones small, higher ones increasingly larger, terminal leaflet largest, thinly leathery, articulated at the base; rachis flattened, narrowly winged. Inflorescences axillary, 1–2-flowered. Flowers bisexual, large, slightly irregular, 5-merous; calyx cup-like, sepals 5, small; petals 5, free, long, imbricate; stamens 10, free, unequal; ovary 5(–6)-carpellate, bottle-shaped, on a well-developed gynophore, ovules 8–10 per locule, style long, slender, stigma capitate. Fruit a subglobose to oblong or ellipsoid berry; pericarp thick, resinous, 5-chambered, chambers with cartilaginous walls and filled with clear mucilage. Seeds numerous, flattened, densely scaly; cotyledons plano-convex.
+
+Distribution. One species; S Thailand, Sumatra, Peninsular Malaysia, and Borneo (Sabah).
+
+Ecology. Scattered as solitary trees on stream banks and slopes of hills and ridges, in moist primary and secondary forest, to 400 m.
+
+Taxonomy. This anomalous genus contains a number of metabolites in common with Murraya sect. Murraya (Kong et al., Biochem. Syst. Ecol. 16 (1988) 47). One of these metabolites, yuehchukene, is of particular interest because of its anti-implantation effect in rats. Swingle (l.c. 1967) suggested a possible origin of the genus from a Murraya-like ancestor. Morphologically, there are a number of similarities between Merrillia and
+
+@page 53 397
+# CAPTION: Fig. 9. Merope angulata. Fruiting leafy twig. (From S. 34375.)
+@page 54 398
+Murraya sect. Murraya. Both have yellowish stem- and root-bark, and some species of sect. Murraya possess a winged leaf-rachis and densely villous seeds, characteristics found also in Merrillia caloxylon. The two differ markedly, however, in the size and shape of their flowers and fruits.
+
+Merrillia caloxylon (Ridl.) Swingle Fig. 10.
+
+(Greek, kalos = beautiful, xylon = wood)
+
+l.c. (1918) 338, l.c. (1967) 241; Ridley l.c. (1922) 354; Craib l.c. 231; Burkill l.c. (1966) 1481; Stone l.c. (1972) 383; Corner l.c. 667; Stone & Jones l.c. 68; Ng l.c. 495. Basionym: Murraya caloxylon Ridl., J. Str. Br. R. As. Soc. 50 (1908) 113. Type: Wray & Robinson 5548, Upper Perak, Kenering (holotype BM; isotypes SING, US).
+
+Small to medium-sized tree to 20 m tall and 25 cm diameter; bole short. Leaves to 20 cm long; leaflets usually 7–9, alternate to subopposite, lowest leaflets stipule-like, larger laterals elliptic, 7.5–9 x 4 cm; base triangular and slightly asymmetric, margin wavy to slightly toothed, apex acuminate; petiolules nearly lacking. Inflorescences usually 1-flowered. Flowers pendulous, trumpet-shaped; sepals triangular or ovate, to 2.5 mm long; petals oblanceolate, gradually tapering to a narrow base, 2.5–5.5 cm long, greenish-white; ovary and style hairy. Fruits c. 11 x 9 cm or larger; pericarp c. 13 mm thick, leathery, warty, greenish becoming yellow. Seeds 8–10 per chamber, lens-shaped, c. 13 x 3 mm, scales membranous, flattened, slightly fimbriate.
+
+Distribution. Throughout the range of the genus. In Sabah, collected only once from the bank of a stream in secondary forest at 20 m (Junaidi Payne, s.n., Sandakan, Ulu Gum Gum; SAN).
+
+Uses. In Peninsular Malaysia, the durable, handsome wood, which is yellow with dark brown streaks, has been used to make walking sticks, smoking pipes, parang handles and sheaths, and other small objects.
+
+11. MICROMELUM Blume
+
+(Greek, mikros = small, melon = apple; the shape of the fruits)
+
+l.c. (1825) 137; Hooker f. l.c. (1875) 501; Kurz l.c. (1875) 136; King l.c. 218; Ridley l.c. (1922) 351; Merrill l.c. (1929) 114; Craib l.c. 227; Masamune l.c. 360; Backer & Bakhuizen. f. l.c. 103; Burkill l.c. (1966) 1492; Swingle l.c. (1967) 197; Stone l.c. (1972) 383; Anderson l.c. 309; Perry l.c. 366; Corner l.c. 667; Whitmore, Tantra & Sutisna l.c. 307.
+
+Shrubs or trees; branches unarmed. Leaves alternate, pinnate, rachis wingless; leaflets (1–) 7–15(–23), laterals alternate, subchartaceous to thinly leathery, usually obliquely asymmetric and articulated at the base. Inflorescences terminal, flat-topped paniculate corymbs, often very large, flowers numerous. Flowers bisexual, 5-merous; calyx cup-like,
+
+@page 55 399
+# CAPTION: Fig. 10. Merrillia caloxylon. A, leafy twig; B, flowering shoot; C, fruit. (All from fresh material from a cultivated tree at the Forest Research Institute Malaysia; Non-Dipterocarp Arboretum D13 – Tree No. 213.)
+@page 56 400
+sepals triangular, small; petals oblong-linear, free, valvate; stamens 10, alternately long and short, filaments linear, glabrous, anthers ovate, sub-basifixed; disc annular; ovary 2–6-carpellate, glabrous to densely hairy, radial walls often twisted, one oil-gland over each locule, ovules 2 per locule, style slender, constricted at the base, detaching from ovary, stigma flattened to subglobose. Fruit a subglobose or oblong berry, dryish; pericarp thin, glandular, glabrate to hirsute. Seeds ellipsoid; cotyledons thin, folded.
+
+Distribution. About 10 species; from W Pakistan, India and Sri Lanka to S China, and south through Indo-China and Malesia to Australia, New Caledonia and S Pacific. One species, M. minutum, in Sabah and Sarawak.
+
+Micromelum minutum (G. Forst.) Wight & Arn. Fig. 11.
+
+(Latin, minutus = small; the flowers)
+
+l.c. (1834) 93; Craib l.c. 227; Masamune l.c. 360; Backer & Bakhuizen f. l.c. 103; Burkill l.c. (1966) 1493; Swingle l.c. (1967) 203; Stone l.c. (1972) 383; Anderson l.c. 309; Perry l.c. 366; Corner l.c. 668; Whitmore, Tantra & Sutisna l.c. 307; Ng l.c. 496. Basionym: Limonia minuta G. Forst., Prodr. (1786) 33. Type: Forster, s.n., Friendly Islands (BM). Synonyms: Micromelum pubescens Blume l.c. (1825) 138, Merrill l.c. (1929) 114, Masamune l.c. 361, Anderson l.c. 309; M. glabrescens Benth. in Hooker, Lond. J. Bot. 2 (1843) 212.
+
+var. minutum
+
+Shrub or small to medium-sized tree to 20 m tall and 15 cm diameter. Young branchlets densely short-hairy, the trichomes greyish. Leaves to 30 cm long or more; leaflets 9–15, ovate-lanceolate, 3–12 x 1.5–6 cm, thinly leathery, sometimes drying almost black, subglabrous to shortly hairy on veins below; base obtuse and asymmetric, margin entire or wavy to shallowly dentate-crenate, apex attenuate-acuminate; lateral veins 5–8 pairs; petiolules to 5 mm long. Inflorescences 13–20 cm long, hairy; bracts short deltoid-linear; pedicels to 5 mm long. Flowers small; sepals shortly hairy, sometimes glabrate; petals to 5– 8 mm long, spreading, hairy below, pale green or yellowish-white; staminal filaments to 9 mm long, narrowed at apex, white; ovary cylindric, 5-carpellate, c. 1.5 mm long, hairy becoming glabrous, style glabrous or sparingly hairy, stigma flattened to subcapitate. Fruits ellipsoid-oblong, to 1 cm long, glabrate, yellow or red when ripe. Seeds with green, wrinkled cotyledons.
+
+Distribution. Sri Lanka, Indo-China, Peninsular Malaysia, Borneo, Philippines, Papua New Guinea, NE Australia and the Pacific. A variable species with four varieties, the most widespread of which, var. minutum, occurs in Sabah and Sarawak. The var. minutum is scattered in Sabah and Sarawak, in primary and secondary forest on low undulating ground, disturbed open sites, and forest margins, and frequently on limestone outcrops and sandy coasts of the mainland and islands, from near sea-level to 600 m.
+
+Uses. The roots and leaves are used in treating scabies, intermittant fever, headache, and menstrual disorders (Indo-China, Peninsular Malaysia, Philippines). Its light, durable timber is used for construction purposes (Peninsular Malaysia).
+
+@page 57 401
+# CAPTION: Fig. 11 Micromelum minutum var. minutum. Fruting leafy twig. (From SAN 93274.)
+@page 58 402
+12. MONANTHOCITRUS Tanaka
+
+(Greek, monos = single, anthos = flower)
+
+J. Arn. Arb. 9 (1928) 138; Swingle l.c. (1967) 252; Stone l.c. (1985) 216; Stone & Jones l.c. (1988) 268.
+
+Erect shrubs to small trees. Branches slender, armed, spines axillary and paired or single, unequal in length, rarely unarmed. Leaves alternate, simple; petioles short, wingless, not articulated with the blade. Inflorescences axillary, usually solitary. Flowers small, bisexual, 5-merous, buds ovoid or ellipsoid; calyx cup-like, slightly lobed, sepals 5, imbricate; petals 5, ovate, imbricate; stamens 10, equal, free, anthers oblong-linear; disc annular; ovary 3−5-carpellate, globose to oblong, glabrous to sparsely hairy, ovules 2−10 per locule, style stout, stigma 3−5-lobed. Fruit a globose to ovoid or pyriform berry; pericarp somewhat leathery, thin, glandular. Seeds 6−10 per fruit, tightly packed in the locules and embedded in mucilage or scant pulp, flattened to concave or plano-convex, with or without thin membranous margin; testa sometimes spotted.
+
+Distribution. 4 species; Borneo, Irian Jaya, and Papua New Guinea. One species, M. oblanceolata, in Sabah.
+
+Taxonomy. Proposed by Tanaka in 1928, the genus remained monotypic until 1985, when Stone described a new species, M. bispinosa, and transferred one other from Wenzelia Merr., a related genus occurring in the Philippines, Irian Jaya, Papua New Guinea, and Fiji. The two genera were originally distinguished chiefly on the character of the seeds (margin laciniate-membranous and testa spotted in Monanthocitrus, and margin thin-membranous and testa not spotted in Wenzelia). These differences do not hold up between the genera as here understood, and their distinctness now remains somewhat problematical. The size of the flowers (generally smaller in Monanthocitrus) and nature of the spines (generally paired and subequal in Monanthocitrus) may be more significant characters, but conclusive analysis will depend upon the availability of new material.
+
+Monanthocitrus oblanceolata Stone & Jones Fig. 12.
+
+(Latin, ob = reversed, lancea = spear; the leaf shape)
+
+l.c. 268. Type: Abu Bakar SAN 36203, Sabah, Sandakan, Labuk Road (holotype SAN; isotypes K, L).
+
+Shrub or small tree to 5 m tall. Bark smooth, dark brown. Spines paired, 5−40 mm long or more. Leafy stems zig-zag. Leaves oblong-oblanceolate or narrowly subelliptic, 4−20 x 1.5−7 cm, thinly leathery; base subcuneate or obtuse or subcordate, margin entire, apex acuminate-caudate, tip to 26 mm long; midrib below prominent, sparsely hairy; lateral veins clearly visible, 8–10 pairs; reticulations obscure; petioles 2.5−7 mm long. Inflorescences 1(−2)-flowered; pedicels to 5 mm long. Flowers with calyx c. 2 mm wide, sepals ovate-triangular, c. 1 mm long, margin minutely ciliate; petals subelliptic, c. 5 mm long, glabrous, whitish; staminal filaments c. 1.5 mm long, anthers with a minutely glandular-apiculate apex; ovary narrowly bottle-shaped, 3−4-carpellate, sparsely hairy, style cylindrical,
+
+@page 59 403
+# CAPTION: Fig. 12. Monanthocitrus oblanceolata. A, fruting leafy twig; B, detail of shoot with three spines. (A from SAN 57242, B from SAN 87022.)
+@page 60 404
+# CAPTION: Fig. 13. Murraya paniculata. A, fruiting leafy twig; B, inflorescence; C, flower. (From SAN 50299.)
+@page 61 405
+stigma minutely lobed. Fruits obovoid or pyriform, to 5 x 2.8 cm, beaked; pericarp yellow-orange, smooth, on pedicels to 1 cm long. Seeds 8−10 per fruit, embedded in whitish, sweet-tasting flesh; testa thin; cotyledons plano-convex, thick, green, obscurely glandular.
+
+Distribution. Endemic to Sabah and rather uncommon in Kota Belud, Beluran and Sandakan districts, south to Lahad Datu and Tawau.
+
+Ecology. Found as solitary trees or small populations in the understorey of lowland forests, usually occurring on slopes and ridges of low hills, and sometimes bordering streams on flat land, to 600 m.
+
+Taxonomy. The species superficially resembles Merope angulata. However, the more conspicuous leaf venation, smaller flowers, obovoid fruits, and different habitat conditions readily distinguish this from Merope angulata which is associated with mangrove swamps. The two species are very similar in size and habit.
+
+13. MURRAYA Koenig ex L.
+
+(J. A. Murray, 1740−1791, student of Linnaeus)
+
+Mant. 2 (1771) 554, 563; Hooker f. l.c. (1875) 502; Kurz l.c. (1877) 190; King l.c. 219; Ridley l.c. (1922) 353; Craib l.c. 230; Browne l.c. 315; Backer & Bakhuizen f. l.c. 103; Burkill l.c. (1966) 1531; Swingle l.c. (1967) 231; Stone l.c. (1972) 384; Perry l.c. 367; Corner l.c. 668.
+
+Shrubs or trees, deciduous or evergreen. Branches unarmed. Bark usually smooth, often pale. Leaves alternate, pinnate or rarely unifoliolate, rachis wingless; leaflets usually 3−9 (to as many as 25), articulated at the base. Inflorescences axillary or terminal panicles, cymes or corymbs. Flowers bisexual, medium-sized to large (over 1 cm long), 5-merous, buds cylindrical or oblong; sepals ovate or lanceolate, fused at base; petals linear to oblanceolate, imbricate; stamens 10, free, nearly equal or alternately long and short, filaments slightly flattened, glabrous, anthers ovate to elliptic, nearly basifixed; disc annular to cylindric; ovary 2−5-carpellate, ovoid to ellipsoid, glabrous or sometimes finely hairy, on a gynophore, ovules (1−)2 per locule, style slender, not persistent, stigma capitate. Fruit an ovoid to round berry, pulp mucilaginous, peel thin, glandular. Seeds 1 to several per fruit, smooth or hairy; testa thin; cotyledons green, plano-convex.
+
+Distribution. About 15 species; from India to S China, Indo-China and Taiwan, and throughout Malesia, eastward to NE Australia and New Caledonia. One native species (Murraya paniculata) occurs in Sabah. Two additional species, M. exotica and M. koenigii, are occasionally cultivated in Sabah and Sarawak.
+
+Taxonomy. A study by Kong et al. (Biochem. Syst. Ecol. 14 (1986) 491) on the distribution of the alkaloids yuehchukene and girinimbine in the roots of eight species of Murraya has revealed a division within the genus between species producing one or the other of these alkaloids. This division is supported by morphological differences which have long been recognised. However, the most recent classification of the genus (Swingle l.c. 1967) does not adequately reflect this information. One group (section Murraya) is characterised by
+
+@page 62 406
+species containing yuehchukene (no girinimbine) and possessing yellowish stems and roots, larger petals (1−2 cm long), and red, ovoid to ellipsoid fruits. Plants in the second group (section Bergera) contain girinimbine (no yuehchukene) and possess brown stems and roots, smaller petals (4−7 mm long), and purplish-black, globose to ellipsoid fruits. Of the species occurring in Sabah and Sarawak, M. paniculata and M. exotica represent section Murraya, and M. koenigii represents section Bergera.
+
+Key to Murraya species
+
+1. Leaf stalks hairy. Inflorescences many-flowered corymbs. Fruits blackish when ripe. Cultivated......................................................................................................................
+
+M. koenigii (L.) Spreng.
+
+l.c. (1825) 315. Basionym: Bergera koenigii L. l.c. 563. Synonym: Murraya foetidissima Teijsm. & Binn., Nat. Tijd. Ned. Ind. 27 (1864) 41; Chalcas koenigii (L.) Kurz l.c. (1875) 132. India, Sri Lanka, Burma, Indo-China, Hainan and S China. Commonly cultivated in tropical countries, including in Sabah and Sarawak, for its leaves (Curry leaves; daun kari).
+
+Leaf stalks glabrate. Inflorescences few-flowered panicles or cymes. Fruits red when ripe...................................................................................................................................2
+
+2. Leaflets obovate, less than 4 cm long, apex somewhat obtuse. Inflorescences terminal. Fruits elliptic to subglobose. Cultivated..........................................................................
+
+M. exotica L.
+
+l.c. (1771) 563. Synonym: Murraya paniculata var. exotica (L.) Huang, Act. Phytotax. Sinica 8 (1959) 100. Native to China and Taiwan (?). Commonly cultivated throughtout the tropics.
+
+Leaflets ovate or elliptic to rhomboid, 3−7 cm long, apex acuminate. Inflorescences axillary. Fruits ovoid with acuminoid apex. Wild species...........................M. paniculata
+
+Murraya paniculata (L.) Jack Fig. 13.
+
+(Latin, paniculatus = tufted; the inflorescence)
+
+Mal. Misc. 1 (1820) 31; Ridley l.c. (1922) 353; Craib l.c. 230; Browne l.c. 315; Backer & Bakhuizen f. l.c. 103; Burkill l.c. (1966) 1531; Swingle l.c. (1967) 232; Stone l.c. (1972) 384; Perry l.c. 367; Corner l.c. 669; Ng l.c. 496. Basionym: Chalcas paniculata L., Mant. 1 (1767) 68. Type: “India” (LINN); based partly on Camunium Rumph., Herb. Amboin. 6. Synonyms: Limonia lucida G. Forst. l.c. (1786) 33; Murraya sumatrana Roxb., Fl. Ind. ed. 2, 2 (1832) 375; M. odorata Blanco l.c. (1845) 256.
+
+var. paniculata
+
+Shrub or small to medium-sized tree to 20 m tall, 25 cm diameter. Bark thin, pale to whitish. Young shoots, twigs, sepals, petals, and ovary glabrous to slightly hairy. Leaves pinnate, to 17 cm long; leaflets 3−7, rarely unifoliolate, ovate or ovate-elliptic to rhomboid, 3−7 x 2−3.5 cm, chartaceous or thinly leathery, glossy and darker above, glabrous; base cuneate to
+
+@page 63 407
+rounded, margin entire or faintly crenulate, apex acuminate; lateral veins 5−8 pairs; petiolules 2−6 mm long. Inflorescences axillary panicles or cymes, few-flowered; peduncle 1−4 cm long; pedicels 2−9 mm long. Flowers large; sepals (4−)5, narrowly deltoid, c. 1 mm long, glandular; petals (4−)5, elliptic to oblong-obovate, to 15−21 mm long or more, white; stamens alternately long and short, the longer to 12 mm long, filaments dilated below; ovary 2-carpellate, glandular, style columnar, nearly 1 cm long, stigma enlarged, bilobed. Fruit an ovoid berry, c. 12 mm long, apex acuminoid; peel shiny red, gland-dotted, glabrous. Seeds densely hairy; cotyledons thick, fleshy.
+
+Vernacular name. Sabah⎯kemuning (Malay).
+
+Distribution. Throughout the range of the genus. Of the four known varieties, only var. paniculata occurs in Sabah, where it is occasionally found in lowland and hill forests, usually on rocky soils or limestone, from near sea-level to 600 m.
+
+Taxonomy. M. exotica has usually been placed in synonymy with this species or as a variety of it. In this treatment, M. paniculata is restricted to the wild form found locally, with comparatively larger leaflets and flowers. M. exotica, locally found only in cultivation, differs in the shape of its leaflets (obovate to subelliptic) and fruits (ellipsoid to subglobose), in having terminal inflorescences, and in its more restricted natural geographical range (coastal areas of Hong Kong and China).
+
+Uses. The leaves, fruits and bark of both M. paniculata and M. exotica have been used for treating venereal disease, intestinal worms, skin disorders, and dysentery, among others (China, Philippines, Peninsular Malaysia, Indonesia). Their heavy, yellow wood has been used to make walking sticks, kris handles, and various small objects (Peninsular Malaysia, Thailand). A face powder has been made from its bark and roots (Burma), and the fragrant flowers are used in cosmetics (Java). The leaves contain an unidentified, water-soluble toxin that has been shown to kill eggs and nymphs of the Asian citrus blackfly, Aleurocanthus woglumi Ashby, with topical exposure (Dowell, Pan-Pacific Entomol. 65 (1989) 163).
+
+14. PLEIOSPERMIUM (Engl.) Swingle
+
+(Greek, pleio = few, sperma = seed)
+
+J. Wash. Ac. Sc. 6 (1916) 426, l.c. (1939) 258, l.c. (1967) 290; Merrill l.c. (1929) 115; Masamune l.c. 361; Backer & Bakhuizen f. l.c. 104; Anderson l.c. 309.
+
+Shrubs or small trees. Branches armed with axillary, solitary or paired spines, or unarmed or nearly so. Young twigs angular, becoming terete. Leaves alternate, 1−3-foliolate; petioles winged or wingless; leaflets thinly leathery, glabrous, margin entire, articulated at the base. Inflorescences axillary or pseudoterminal panicles or racemes, often few-flowered, hairy. Flowers small, bisexual, 4−5-merous, fragrant, buds cylindric; sepals triangular to linear-
+
+@page 64 408
+# CAPTION: Fig. 14. Pleiospermium longisepalum. A, fruting leafy twig; B, flowering twig; C, mature flower with bud. (From SAN 90784.)
+@page 65 409
+lanceolate, glabrous to finely hairy; petals linear-oblong, glabrous or finely hairy below, white to greenish, imbricate in bud; stamens 8 or 10, free, alternately long and short, filaments glabrous, anthers oblong to linear-oblong; disc annular to shortly cup-like; ovary 4−5-carpellate, cylindric or ovate, glabrous or hairy, on a short gynophore or nearly sessile, ovules 2 per locule, style slender or stout, stigma subcapitate. Fruit a globose to oblong berry, 1.5−2.5 cm in diameter; pericarp rough-glandular; pulp-vesicles slender, to 1 cm long; juice oily-resinous. Seeds ovoid, flattened, to 1 cm long; testa smooth or wrinkled; monoembryonic; cotyledons plano-convex, thick, green.
+
+Distribution. 6 species; S India, Sri Lanka, Vietnam, Sumatra, Java, and Borneo. Two species, P. latialatum and P. longisepalum, are found in Sabah. The former species also occurs in Sarawak.
+
+Key to Pleiospermium species
+
+Petioles broadly winged, 10−20 mm wide. Sepals 4−6 mm long, triangular........1. P. latialatum
+
+Petioles narrowly winged, 3−5 mm wide. Sepals 9−12 mm long, linear.........2. P. longisepalum
+
+1. Pleiospermium latialatum Swingle
+
+(Latin, latus = broad, ala = wing; the petiole)
+
+l.c. (1939) 261, l.c. (1967) 293; Masamune l.c. 361; Anderson l.c. 309. Type: Elmer 21542, British North Borneo, Tawau (holotype AA; isotypes BO, K, L, P, PNH, US).
+
+Shrub or small to medium-sized tree to 25 m tall, 30 cm diameter; bole to 15 m tall; trunk, bole, and main branches armed with paired spines to 3 cm long, generally unarmed on upper branches. Leaves unifoliolate, oblong-elliptic or lanceolate, 9−15 x 3.5−7 cm; base rounded or cuneate, apex acute-caudate, acumen 4−6 mm long and emarginate; lateral veins 10−13 pairs; petioles 1.5−2.5 cm long, broadly winged, obcordate, top 1−2 cm wide, narrower at base and pulvinoid. Inflorescences axillary clusters or pseudoterminal panicles. Flowers with sepals triangular, (2−)4−6 x 2−4 mm, glabrous, persistent and spreading at right angles below the fruit; petals glabrous; ovary hairy. Fruits globose, 1.5−2.5 cm in diameter; pericarp greenish yellow, with numerous raised oil-glands; pulp-vesicles slender, conical, 3−4.5 mm long, tips acute. Seeds 2−3 per fruit.
+
+Vernacular names. Sarawak⎯limo antu (preferred common name), limo to′ (Kayan), limo bali (Kenyah), para bileh (Berawan).
+
+Distribution. Endemic to Borneo. Widespread and common in Sabah and Sarawak, occurring in the lowlands and hills and along streams and rivers in primary mixed dipterocarp and secondary forests on fertile clay-rich loam soils, and (in Sarawak) on limestone slopes and ridges, from near sea-level to 300 m.
+
+@page 66 410
+2. Pleiospermium longisepalum Swingle Fig. 14.
+
+(Latin, longus = long, sepalum = sepal)
+
+l.c. (1939) 259, l.c. (1967) 293. Type: Castro & Melegrito 1348, British North Borneo, Banguey Is. (holotype NA; isotypes K, US).
+
+Shrub or small tree to 15 m tall, 40 cm diameter; trunk sometimes fluted. Branches unarmed or nearly so. Leaves unifoliolate, elliptic, 7.5−11.5 x 3−5.5 cm; base rounded or cuneate, apex acuminate, acumen rounded or retuse; lateral veins 8−10 pairs; petioles 1−1.5 cm long, narrowly winged (wing 3−5 mm wide at top), tapering to a wingless, pulvinoid base. Inflorescences axillary clusters or pseudoterminal panicles. Flowers with sepals linear, 9−12 x 2−3 mm, chartaceous, apex rounded or emarginate, persistent and reflexed below the fruit. Fruits globose, tipped by the short persistent style, 2−2.5 cm in diameter; pericarp 1.5−2 mm thick, pimply from numerous raised oil-glands, ripening pale brownish yellow, pulp-vesicles 4−6 mm long, tapering to a blunt point. Seeds 1−2 per fruit, c. 1 cm long.
+
+Vernacular names. Sabah—limau hutan, limau limau (Malay).
+
+Distribution. Endemic to Sabah where it is not uncommon in the foothills and low mountainous areas of Kota Marudu, Ranau, and Tambunan districts, and occasionally on off-shore islands (Pulau Banggi = Banguey Is., Pulau Bohayan).
+
+Ecology. Usually found on the slopes of hills and adjacent to streams in primary and secondary inland forests, and on high ground near the sea, to 1300 m.
+
+15. SEVERINIA Tenore
+
+(Severinus, 6th Archbishop of Rome, 640 A.D.)
+
+Ind. Sem. Hort. Neap. 3 (1840); Masamune l.c. 357; Swingle l.c. (1967) 283; Stone l.c. (1978) 116; Perry l.c. 371.
+
+Shrubs or small trees. Branches spreading, armed with stout axillary spines, or unarmed. Leaves alternate, simple, often rigid, conspicuously parallel-veined; petioles short, wingless, not articulated with the blade. Inflorescences densely flowered, axillary or terminal panicles or racemes, or few-flowered clusters. Flowers bisexual, small, 3−5(−7)-merous; calyx cup-like, sepals imbricate, glabrous or hairy; petals valvate, glabrous or nearly so; stamens 5−15, free, filaments dilated or flattened, anthers small, disc cup-like, enclosing base of ovary; ovary subglobose or oblong, 1−5-carpellate, on a short gynophore, ovules 1 per locule, style short, stigma ovoid. Fruit a small berry, round, juicy or semi-dry; pericarp dotted with oil-glands, smooth; pulp-vesicles irregular in size and shape, lacking stalks. Seeds small, ovoid, thick; testa thin; monoembryonic.
+
+Distribution. 6 species; from S China, Taiwan, and Indo-China, south to Java, N Borneo, the Philippines, Moluccas, and Irian Jaya. Two species (S. disticha and S. paniculata) occur in Sabah.
+
+@page 67 411
+Taxonomy. The genus has been confused with Atalantia Corr. which resembles in it leaf characters (shape, size, and venation) and habit. All species of Severinia have at one time been placed in Atalantia. Atalantia differs, however, in having leaf-blades articulated with the petioles, larger flowers, filaments more or less fused, well-formed pulp-vesicles, and small, orange-like fruits. Its 11 species are distributed from India to W Malesia and is represented in Peninsular Malaysia by two species. The relationship of Severinia to Atalantia needs to be examined more critically.
+
+Key to Severinia species
+
+Leaves ovate-lanceolate, apex acute-acuminate. Inflorescences axillary or terminal, racemose or paniculate. Ovary 2-carpellate............................................................1. S. disticha
+
+Leaves oblong-ovate, apex rounded. Inflorescence terminal, paniculate. Ovary 4-carpellate ...............................................................................................................................2. S. paniculata
+
+1. Severinia disticha (Blanco) Swingle Fig. 15.
+
+(Latin, distichus = of two rows; the leaf arrangement).
+
+J. Wash. Ac. Sc. 28 (1938) 533, l.c. (1967) 287; Masamune l.c. 357; Stone l.c. (1978) 116. Basionym: Limonia disticha Blanco l.c. (1837) 356. Type: Merrill, Sp. Blancoanae No. 594, Philippines, Luzon (L). Synonyms: Limonia corymbosa Blanco l.c. (1845) 251; Atalantia nitida Oliv. l.c. 24; A. disticha (Blanco) Merr., Bull. Gov. Lab. Philip. 27 (1905) 28, Masamune l.c. 357.
+
+Shrub or small tree to 10 m tall, 15 cm diameter. Branches unarmed, occasionally with paired spine-like paraphylls. Leaves 3−8(−11) x (1.5−)2.5−4 cm or more, ovate or ovate-lanceolate, wavy in dried specimens; base cuneate to obtuse, margin subentire, sometimes faintly crenulate, apex acute or acuminate, acumen usually blunt, often emarginate; lateral veins parallel, straight, numerous, 15−20 pairs, prominent below; petioles 3−9 mm long, flattened above, glabrous to hairy. Inflorescences many-flowered, axillary or (rarely) terminal panicles or racemes, 3−9 cm long; pedicles 3−5 mm long. Flowers 5-merous; sepals 5, broadly rounded, margins ciliate; petals 5, oblong, minutely tipped, to 7 mm long, white; stamens 10, alternately long and short, filaments to 5 mm long, flattened, narrowed at apex and base, anthers ovate, apiculate-glandular; ovary 2-carpellate, oblong, glabrous to sparsely hairy, style cylindrical, stout, stigma slightly lobed. Fruits subglobose, to 1.5 cm wide, blackish-purple when ripe; pulp greenish, juicy. Seeds 1−2 per fruit, greenish white.
+
+Distribution. Borneo (Sabah), E Java, Philippines, Moluccas, Flores, and Irian Jaya. In Sabah, not uncommon in the understorey of beach strand vegetation, and in primary and secondary forest on hills and ridges near the coast, frequently on offshore islands, usually on sandy or rocky soil, rarely on limestone, from near sea-level to 90 m.
+
+Uses. The ripe, juicy fruits are rather sweet and eaten fresh (Sabah, Indonesia). The roots are said to be used medicinally, and its fruits made into glue (Philippines). The timber has been used in construction (Indonesia, Philippines).
+
+@page 68 412
+2. Severinia paniculata (Warb.) Swingle
+
+(Latin, paniculatus = tufted; the inflorescence)
+
+l.c. (1938) 533, l.c. (1967) 288; Stone l.c. (1978) 116. Basionym: Atalantia paniculata Warb., Bot. Jahrb. 13 (1891) 340. Type: Warburg 20132, Moluccas, Ceram Laut (B). Synonyms: Atalantia maritima Merr., l.c. (1914) 293; A. disticha (Blanco) Merr. var. paniculata (Warb.) Tanaka l.c. (1928) 141.
+
+Shrub or small tree. Branches unarmed. Leaves oblong-ovate, 9−12 x 3−5 cm, or larger; base gradually tapered, margin obscurely crenulate, apex rounded or emarginate; lateral veins numerous, parallel, more or less prominent below; petioles c. 8 mm long, terete, hairy. Inflorescences terminal panicles, 4−6 cm long or more, hairy; pedicels 2−4 mm long. Flowers 5-merous; sepals 5, c. 1 mm long, tips blunt, margins ciliate; petals 5, 4−7 mm long, lanceolate, tips rounded, subglabrous; stamens 10, alternately long and short, filaments 4−5 mm long, glabrous, anthers broadly cordate; ovary 4-carpellate, style deciduous. Fruits globose, to 12 mm in diameter. Seeds 2−4 per fruit.
+
+Distribution. Borneo (Sabah), S Philippines, Moluccas, and Sumbawa (the Lesser Sunda Is.). In Sabah, less widespread than the related species S. disticha, and found in many of the same habitats, particularly beach forest and offshore islands, at sea level.
+
+Taxonomy. This species is very closely related to S. disticha and Tanaka (l.c. 1928) considered it to be a variety. Many of their morphological characters appear to overlap. Swingle (l.c. 1967) distinguished it from S. disticha based upon its larger leaves, smaller, paniculate inflorescences, and ovaries with four carpels instead of two. A re-evaluation of the taxonomic status of this species (and most other Severinia) would be useful.
+
+16. TETRACTOMIA Hook. f.
+
+(Greek, tetra = four, tome = a separation; the four carpels which split in fruit)
+
+l.c. (1875) 490; King l.c. 211; Merrill l.c. (1921) 314; Ridley l.c. (1922) 345; Craib l.c. 215; Masamune l.c. 361; Burkill l.c. (1966) 2182; Stone l.c. (1972) 385; Hartley, J. Arn. Arb. 60 (1979) 127; Anderson l.c. 309; Whitmore, Tantra & Sutisna l.c. 307. Synonym: Terminthodia Ridl., J. Fed. Mal. St. Mus. 6 (1915) 141.
+
+Shrubs or small to large trees. Branches unarmed. Leaves opposite, unifoliolate, margins entire, pinnately veined; petioles wingless, articulated with the blade. Inflorescences axillary panicles, sometimes 1- to few-flowered. Flowers bisexual, 4-merous; sepals 4, fused at base, valvate or partially imbricate; petals 4, free, usually valvate, triangular, spreading and becoming recurved; stamens 4, free, opposite the sepals, filaments flattened, tapered, glabrous, elongating after anthesis, anthers ellipsoid, dorsifixed; staminodes 4, alternating with the stamens, anthers minute, without pollen; disc broad, glabrous, rounded to 4-angled; ovary 4-carpellate, carpels erect, free or fused at the base, joined near the apex by a single style, locules 2-ovulate; style straight, composed of 4 elements twisted together, stigma capitate. Fruits of 1−4 erect follicles, undeveloped carpels persistent in fruit, follicles boat-shaped, free or fused at the base; exocarp and mesocarp leathery; endocarp
+
+@page 69 413
+# CAPTION: Fig. 15. Severinia disticha. Fruiting leafy twig. (From SAN 36104.)
+@page 70 414
+cartilaginous, separating from the mesocarp. Seeds 1−2 per follicle, winged; testa papery; endosperm fleshy; embryo straight.
+
+Distribution. 6 species; S Thailand, Sumatra, Peninsular Malaysia, Borneo, Philippines, Celebes, Papua New Guinea, and the Solomon Islands. The widely distributed T. tetrandrum occurs in Sabah and Sarawak. The remaining species are localised endemics in other parts of the range.
+
+Ecology. Lowland to montane forests, peat swamp forests, heath forests, and subalpine habitats, from near sea-level to 3300 m.
+
+Tetractomia tetrandrum (Roxb.) Merr. Fig. 16.
+
+(Greek, tetra = four, andros = male; the number of stamens)
+
+J. Str. Br. R. As. Soc. 76 (1917) 87, l.c. (1921) 314; Ridley l.c. (1922) 346; Craib l.c. 215; Masamune l.c. 361; Burkill l.c. (1966) 2182; Stone l.c. (1972) 385; Hartley l.c. (1979) 132; Anderson l.c. 309; Whitmore, Tantra & Sutisna l.c. 308. Basionym: Melicope tetrandra Roxb., Hort. Bengal. (1814) 88. Type: Roxburgh, Icones 1411, Penang (K). Synonyms: Tetractomia beccarii Hook. f. l.c. (1875) 489, Merrill l.c. (1921) 314, Masamune l.c. 361, Anderson l.c. 309; Terminthodia viridiflora Ridl. l.c. (1915) 141; Tetractomia obovata Merr. l.c. (1917) 86, l.c. (1921) 314, Masamune l.c. 361; Tetractomia holttumi Ridl., J. Bot. 62 (1924) 295; Tetractomia latifolia Ridl. l.c. (1930) 79, Masamune l.c. 361, Anderson l.c. 309; Tetractomia montana Ridl. l.c. (1930) 79, Masamune l.c. 361, Anderson l.c. 309; Tetractomia parviflora Ridl. l.c. (1930) 78, Masamune l.c. 361, Anderson l.c. 309.
+
+Shrub or small to large tree to 30 m tall, 50 cm diameter; bole to 18 m tall. Branchlets glabrous. Leaves sometimes clustered at branch ends, blades glabrous, leathery, obovate to oblanceolate or elliptic, (2.5−)7.5−22(−32) x 1−14 cm; base rounded to attenuate, apex emarginate or rounded to acuminate or mucronate; lateral veins 4−11 pairs; petioles 0.3−5 cm long, swollen at both ends. Inflorescences 1- to many-flowered, (0.8−)4−16 cm long, glabrous to sparsely hairy; pedicels 0.5−4 mm long. Flowers 2.5−10 mm wide; sepals rounded to triangular, 0.4−1.5 mm long, glabrous to sparsely hairy, ciliolate when young; petals green to yellowish, ovate-triangular, 1−4.5 mm long, usually glabrous; carpels free at the base, glabrous or sparsely hairy, style glabrous. Fruits with free follicles, 4−11 mm long, glabrous or nearly so.
+
+Vernacular names. Sabah and Sarawak⎯jampang, jampang rusa, medang rawang (preferred common name), rawang mata, rawang paya (Malay).
+
+Distribution. Throughout the range of the genus. In Sabah and Sarawak widespread; also in Brunei and Kalimantan.
+
+Ecology. Common in secondary forests and open places on infertile organic soils, and also mixed dipterocarp forest on humult ultisols, lowland peat swamp and heath forests, from near sea-level to 1900 m.
+
+Taxonomy. An extremely variable species in habit, leaf size and shape, and inflorescence, flower and fruit size. In Sabah and Sarawak, this variation is characterised by a widespread,
+
+@page 71 415
+# CAPTION: Fig. 16. Tetractomia tetrandrum. A, fruiting leafy twig; B, fruit; C, part of inflorescence; D, detail of cluster of flowers. (A & B from SAN 65010, C & D from SAN 22689.)
+@page 72 416
+generalised form and several specialised forms or races which reflect the distribution of certain habitats, i.e., lowland peat swamp forest, heath forest, lower montane forest, and lowland dipterocarp forest. Hartley (l.c. 1979) describes these races and provides the names of relevant previously described taxa assigned to these entities.
+
+17. ZANTHOXYLUM L.
+
+(Greek, xanthos = yellow, xulon = wood)
+
+l.c. (1753) 270; Hooker f. l.c. (1875) 492; Kurz l.c. (1877) 180; King l.c. 213; Ridley l.c. (1922) 346; Craib l.c. 218; Backer & Bakhuizen f. l.c. 96; Burkill l.c. (1966) 2326; Hartley, J. Arn. Arb. 47 (1966) 171, 51 (1970) 423; Stone l.c. (1972) 386; Anderson l.c. 309; Perry l.c. 369; Corner l.c. 670; Whitmore, Tantra & Sutisna l.c. 308. Synonym: Fagara L., Syst. ed. 10 (1759) 897.
+
+Scandent or erect shrubs or trees; dioecious or rarely monoecious, evergreen or deciduous. Twigs and branches armed with spines or prickles. Leaves alternate, unifoliolate, trifoliolate or pinnate with up to 15 pairs of leaflets, with or without a terminal leaflet, leaflets articulated at the base, leaf rachis sometimes winged. Inflorescences terminal or axillary racemes, panicles or cymes. Flowers small, unisexual, rarely bisexual; sepals 4−5; petals 4−5; or perianth segments 6−8 and undifferentiated; stamens 4−6, opposite the sepals, rudimentary in female flowers; disc flat or cushion-like; ovary 1−5-carpellate, rudimentary in male flowers, carpels free or fused at base, ovules 2 per locule, styles fused to divergent, stigma capitate. Fruits of 1−5 follicles, free or basally fused; outer wall glandular, red to black; endocarp cartilaginous. Seeds ovoid to round, 1 per follicle, often hanging from the dehisced follicle at maturity; testa black or reddish, glossy; endosperm white, fleshy.
+
+Distribution. A large genus comprising approximately 200 or more species of mainly pantropical distribution, with a few representatives in temperate eastern Asian and North America. In Sabah and Sarawak, 4 species occur, two of which are trees or shrubs, and the remaining two being scandent shrubs.
+
+Ecology. Most of the species generally grow in rain forests and thickets at low and medium elevations. The attractive seeds are dispersed by birds, accounting for the often wide and sometimes discontinuous distribution of some of the species.
+
+Uses. Various species are sources of spices and condiments, and local medicines. The attractive wood of some is used for cabinetry and other fine work.
+
+Key to Zanthoxylum species
+
+1. Erect shrubs or trees. Branchlets armed with straight prickles. Ovary 2−3-carpellate...2 Scandent or suberect shrubs. Branchlets and/or leaf axes armed with recurved prickles or unarmed. Ovary 4-carpellate....................................................................................3
+
+2. Inflorescences paniculate. Leaflets 8−18 cm long. Carpels 3..........2. Z. myriacanthum Inflorescences cymose. Leaflets 1−8 cm long. Carpels 2........................1. Z. avicennae
+
+3. Lateral leaflets subopposite to alternate. Midribs of leaflets not armed...........................
+
+@page 73 417
+Z. scandens Blume
+
+l.c. (1825) 249; Backer & Bakhuizen f. l.c. 96; Hartley l.c. (1966) 177; Whitmore, Tantra & Sutisna l.c. 308. India, China, Taiwan, Ryukyu Islands, Sumatra, Java, Borneo; uncommon in Sabah and Sarawak, known only from montane forest. Climbing (occasionally suberect) shrub, dioecious. Leaves pinnate; leaflets 2−12 pairs, with margins finely glandular toothed. Inflorescences axillary, or axillary and terminal panicles. Flowers 4-merous; petals occasionally purple-margined; ovary 4-carpellate. Follicles in groups of 1−4, 4−5 mm in diameter.
+
+Lateral leaflets opposite. Midribs of leaflet usually armed..............................................
+
+Z. nitidum (Roxb.) DC.
+
+l.c. (1824) 727; Ridley l.c. (1922) 1347; Burkill l.c. (1966) 2327; Hartley l.c. (1966) 180, l.c. (1970) 423; Stone l.c. (1972) 386; Whitmore, Tantra & Sutisna l.c. 308. India, Thailand, Vietnam, Malesia, Solomon Is., Australia. In Sabah (Ranau and Pinangah districts), in forest to 1100 m. Climbing (occasionally suberect) shrub, dioecious or (rarely) monoecious. Leaves pinnate, leaflets 2−4 pairs, with margin entire to glandular toothed. Inflorescences terminal and/or axillary, racemes or panicles. Flowers 4-merous; ovary 4-carpellate. Follicles in groups of 1−4, 5−7 mm in diameter.
+
+1. Zanthoxylum avicennae (Lam.) DC.
+
+(Ibn Sina, or Avicenna, 980−1037, Arabian medical writer and philosopher)
+
+l.c. (1824) 726; Hartley l.c. (1966) 190, l.c. (1970) 423; Perry l.c. 370. Basionym: Fagara avicennae Lam. l.c. 445. Type: d’Incarville 179, China, Kwangtung (P). Synonyms: Zanthoxylum diversifolium Warb. l.c. 339; Z. iwahigense Elmer, Leafl. Philip. Bot. 5 (1913) 1833.
+
+Scandent or erect shrub or small tree to 15 m tall; dioecious, evergreen. Smaller branches and twigs with straight or recurved prickles. Leaves pinnate, to 30 cm long, axis often narrowly winged; leaflets 2−11 pairs, subopposite, ovate to elliptic-lanceolate, 1−8 x 1−3 cm, glabrous, thinly leathery; base rounded to cuneate, margin nearly entire to finely glandular toothed, apex rounded to acuminate; lateral veins 4−11 pairs; petiolules 2−5 mm long. Inflorescences terminal (occasionally axillary), flat-topped cymes, to 20 cm long, axis glabrous. Flowers unisexual, 5-merous; sepals 5, triangular or rounded, under 1 mm long; petals 5, elliptic, 1−2.5 mm long, white to greenish; stamens 5, rudimentary in female flowers; disc flat or cushion-like; ovary 2-carpellate, rudimentary in male flowers, styles and stigmas united, peltate. Fruits of 1−2 nearly round follicles, c. 4.5 mm in diameter, the undeveloped carpels (if any) persistent in fruit.
+
+Distribution. China, Vietnam, Thailand, Java, Borneo, Philippines, Celebes, Lesser Sunda Islands and the Moluccas. In Sabah, reported only from Ranau district.
+
+Ecology. Found locally on flat sites and hillsides in primary and secondary forest, occasionally on ultramafic soil, to 1500 m.
+
+Uses. The stems and bark are used medicinally as a tonic and for treating snake bite (Indo-China, Philippines).
+
+@page 74 418
+# CAPTION: Fig. 17. Zanthoxylum myriacanthum. A, flowering leafy twig, B, detail of lower leaflet surface; C, detail of upper leaflet surface; D, part of infructescence; E, dehisced fruit. (A–C from SAN 87166, D & E from SAN 116158.)
+@page 75 419
+2. Zanthoxylum myriacanthum Wall. ex Hook. f. Fig. 17.
+
+(Greek, myrios = numberless, akantha = thorn)
+
+l.c. (1875) 496; King l.c. 214; Ridley l.c. (1922) 347; Burkill l.c. (1966) 2327; Hartley l.c. (1966) 185; Stone l.c. (1972) 386; Anderson l.c. 309; Perry l.c. 371; Corner l.c. 671. Whitmore, Tantra, Sutisna l.c. 308. Type: Porter (Wallich Cat. No. 1214), Malacca (K). Synonyms: Fagara myriacantha (Wall. ex Hook. f.) Engl. in Engler & Prantl l.c. (1896) 118.
+
+Small to large tree to 30 m high, 35 cm diameter; dioecious, evergreen; bole to 15 m tall. Stems with thick spines to 3 cm long; smaller branches and twigs with straight, hollow prickles usually housing ants. Leaves pinnate, to 60 cm long; leaflets 4−11 pairs, opposite or subopposite, elliptic, 8−18 x 3−8 cm, glabrous or shortly hairy below, leathery; base blunt to nearly cordate and slightly asymmetric, margin finely glandular toothed, apex acuminate; lateral veins 8−18 pairs; petiolules to 5 mm long. Inflorescences terminal and axillary panicles, 15−25 cm long, axes mostly glabrous. Flowers unisexual, 5-merous; sepals 5, triangular, minute; petals 5, elliptic, 1.5−2.5 mm long, white or yellowish, sometimes purplish; stamens 5; disc flat; ovary 3(−4)-carpellate, rudimentary in male flowers, styles and stigmas united, peltate. Fruits of 1−3 nearly round follicles, 3−6 mm in diameter, the undeveloped carpels (if any) persistent in fruit.
+
+Distribution. E India, N Vietnam, SW China, Sumatra, Peninsular Malaysia, Borneo, Philippines. In Sabah, occurs scattered in Ranau, Tambunan and Keningau districts. In Sarawak, collected once (Omar, s.n., Ulu Lawas).
+
+Ecology. Locally found in primary and secondary forest in the hills and low mountains, to 1200 m.
+
+Uses. The smoke of burning seeds is said to be inhaled for treating ulcerated syphilitic nose (Peninsular Malaysia).
+

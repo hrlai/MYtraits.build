@@ -1,0 +1,71 @@
+taxon_name,taxon_rank,status,n_mapped_rows,flag
+Acronychia pedunculata,species,accepted,33,
+Burkillanthus malaccensis,species,accepted,35,
+Citrus halimii,species,accepted,37,
+Citrus macroptera,species,accepted,0,No species description: the single local variety carries the description.
+Citrus macroptera var. macroptera,variety,accepted,27,Only variety in Sabah and Sarawak; its description is the local description of the species (TFSS guide).
+Clausena calciphila,species,accepted,34,
+Clausena excavata,species,accepted,0,No species description: the single local variety carries the description.
+Clausena excavata var. excavata,variety,accepted,37,Only variety in Sabah and Sarawak; its description is the local description of the species (TFSS guide).
+Glycosmis chlorosperma,species,accepted,33,
+Glycosmis chlorosperma var. bidiensis,variety,accepted,30,Variety treatment printed inside the key to varieties; its description is scored at its own rank and silent traits are inherited from the species.
+Glycosmis chlorosperma var. chlorosperma,variety,accepted,32,Variety treatment printed inside the key to varieties; its description is scored at its own rank and silent traits are inherited from the species.
+Glycosmis chlorosperma var. elmeri,variety,accepted,34,Variety treatment printed inside the key to varieties; its description is scored at its own rank and silent traits are inherited from the species.
+Glycosmis cyanocarpa,species,accepted,0,No species description: the single local variety carries the description.
+Glycosmis cyanocarpa var. platyphylla,variety,accepted,35,Only variety in Sabah and Sarawak; its description is the local description of the species (TFSS guide).
+Glycosmis lanceolata,species,accepted,27,
+Glycosmis longisepala,species,accepted,26,
+Glycosmis macrantha,species,accepted,31,
+Glycosmis sapindoides,species,accepted,0,No species description: the single local variety carries the description.
+Glycosmis sapindoides var. sapindoides,variety,accepted,30,Only variety in Sabah and Sarawak; its description is the local description of the species (TFSS guide).
+Glycosmis superba,species,accepted,25,
+Lunasia amara,species,accepted,0,No species description: the single local variety carries the description.
+Lunasia amara var. amara,variety,accepted,31,Only variety in Sabah and Sarawak; its description is the local description of the species (TFSS guide).
+Maclurodendron parviflorum,species,accepted,31,
+Maclurodendron porteri,species,accepted,37,
+Maclurodendron pubescens,species,accepted,33,
+Melicope accedens,species,accepted,39,
+Melicope bonwickii,species,accepted,39,
+Melicope clemensiae,species,accepted,34,
+Melicope confusa,species,accepted,38,
+Melicope denhamii,species,accepted,31,
+Melicope glabra,species,accepted,36,Reported once from Sabah (Keith 1952); occurrence needs confirmation according to the author. Scored as treated.
+Melicope hookeri,species,accepted,38,
+Melicope incana,species,accepted,34,
+Melicope jugosa,species,accepted,38,
+Melicope latifolia,species,accepted,37,
+Melicope lunu-ankenda,species,accepted,40,
+Melicope sororia,species,accepted,40,
+Melicope subunifoliolata,species,accepted,41,
+Melicope triphylla,species,accepted,36,
+Merope angulata,species,accepted,31,
+Merrillia caloxylon,species,accepted,28,
+Micromelum minutum,species,accepted,0,No species description: the single local variety carries the description.
+Micromelum minutum var. minutum,variety,accepted,31,Only variety in Sabah and Sarawak; its description is the local description of the species (TFSS guide).
+Monanthocitrus oblanceolata,species,accepted,30,
+Murraya paniculata,species,accepted,0,No species description: the single local variety carries the description.
+Murraya paniculata var. paniculata,variety,accepted,35,Only variety in Sabah and Sarawak; its description is the local description of the species (TFSS guide).
+Pleiospermium latialatum,species,accepted,29,
+Pleiospermium longisepalum,species,accepted,32,
+Severinia disticha,species,accepted,36,
+Severinia paniculata,species,accepted,30,
+Tetractomia tetrandrum,species,accepted,37,
+Zanthoxylum avicennae,species,accepted,34,
+Zanthoxylum myriacanthum,species,accepted,38,
+Toddalia,genus,annotation only,0,Scandent genus annotated only in the key to native genera; not scored.
+Luvunga,genus,annotation only,0,Scandent genus annotated only in the key to native genera; not scored.
+Paramignya,genus,annotation only,0,Scandent genus annotated only in the key to native genera; not scored.
+Citrus medica,species,annotation only,0,Cultivated; annotated only in the key; not scored.
+Citrus limon,species,annotation only,0,Cultivated; annotated only in the key; not scored.
+Citrus reticulata,species,annotation only,0,Cultivated; annotated only in the key; not scored.
+Citrus microcarpa,species,annotation only,0,Cultivated; annotated only in the key; not scored.
+Citrus grandis,species,annotation only,0,Cultivated; annotated only in the key; possibly indigenous at Ulu Segama (Stone 1985) but excluded by the author; not scored.
+Citrus sinensis,species,annotation only,0,Cultivated; annotated only in the key; not scored.
+Citrus aurantifolia,species,annotation only,0,Cultivated; annotated only in the key; not scored.
+Citrus hystrix,species,annotation only,0,Cultivated; annotated only in the key; not scored.
+Clausena lansium,species,annotation only,0,Cultivated; annotated only in the key (authority printed 'Lous'); not scored.
+Glycosmis parviflora,species,annotation only,0,Cultivated; annotated only in the key; not scored.
+Murraya koenigii,species,annotation only,0,Cultivated; annotated only in the key; not scored.
+Murraya exotica,species,annotation only,0,Cultivated; annotated only in the key; not scored.
+Zanthoxylum scandens,species,annotation only,0,Scandent shrub annotated only in the key; not scored.
+Zanthoxylum nitidum,species,annotation only,0,Scandent shrub annotated only in the key; not scored.

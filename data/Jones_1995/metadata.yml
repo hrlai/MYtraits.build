@@ -1,0 +1,943 @@
+source:
+  primary:
+    key: Jones_1995
+    bibtype: InBook
+    year: 1995
+    author: David T. Jones
+    title: Rutaceae
+    booktitle: Tree Flora of Sabah and Sarawak, Volume 1
+    editor: E. Soepadmo and K. M. Wong
+    publisher:
+      Sabah Forestry Department and Forest Research Institute Malaysia and
+      Sarawak Forestry Department
+    place: Kepong, Malaysia
+    pages: 351--419
+    isbn: 983-9592-34-3
+contributors:
+  data_collectors:
+    - last_name: Jones
+      given_name: David T.
+      ORCID: .na
+      affiliation: South Florida Natural Resources Center, Everglades National Park, Homestead, Florida, U.S.A.
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '1995'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description: |
+    Morphological traits and dispersal of the native tree and shrub Rutaceae
+    of Sabah and Sarawak (17 genera, 43 species), extracted from the family
+    treatment in the Tree Flora of Sabah and Sarawak.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    The PDF (inst/extdata/TFSS/Rutaceae.pdf) is the 2007 electronic edition
+    of the volume. Its text pages are vector text with no page image, so the
+    text layer is what renders; the figure pages are images. A transcription
+    (raw/Rutaceae_transcription.txt, PDF pages 7--75, printed 351--419) was
+    drafted from the text layer and edited by hand for headings, line-end
+    hyphens, the layout of the in-key Glycosmis chlorosperma variety
+    treatments and the figure captions (transcribed from the figure images).
+    Pages 351--353 and all figure pages were checked against page images;
+    the other text pages were not image-checked, because the rendered page is
+    the text layer itself. Repairs of printing slips are in
+    raw/source_fixes.csv. The transcription is segmented in
+    raw/segment_source.R; raw/build_trait_data.R (after data/Adema_1996)
+    splits each family, genus, species and variety description into
+    sentences, ';' pieces and ',' clauses, assigns each clause to an organ
+    and scores configured traits. Every unscored clause stays in
+    raw/trait_data.csv as an unmapped row, as do the Distribution, Ecology,
+    Uses and unlabelled distribution paragraphs (one row per sentence). The
+    dispersal agents named in the family and genus Ecology paragraphs were
+    written by hand (raw/manual_rows.csv). Family and genus values are
+    copied down to silent members when every member that scores the trait
+    agrees and the higher-rank statement is not one of several alternatives;
+    the Glycosmis chlorosperma varieties inherit species values for silent
+    traits. A measured range is recorded as minimum and maximum, a single or
+    "c." value as a mean and "to X" as a maximum; parenthetical extremes are
+    on extreme_range rows. Keys were not used as trait evidence.
+  original_file: |
+    Rutaceae.pdf (Jones 1995, Tree Flora of Sabah and Sarawak vol. 1,
+    pp. 351--419; electronic edition 2007)
+  notes: |
+    Taxon names are kept as printed. Descriptions in this flora refer to
+    Sabah and Sarawak (or Borneo). Seven species are represented by their
+    single local variety, which carries the description (Citrus macroptera,
+    Clausena excavata, Glycosmis cyanocarpa, G. sapindoides, Lunasia amara,
+    Micromelum minutum, Murraya paniculata). The three Glycosmis
+    chlorosperma varieties are treated inside the key to varieties; their
+    descriptions are scored at variety rank. The scandent genera Toddalia,
+    Luvunga and Paramignya, the scandent Zanthoxylum scandens and
+    Z. nitidum, and the cultivated species (eight Citrus, Clausena lansium,
+    Glycosmis parviflora, Murraya koenigii, M. exotica) are annotated only
+    in keys and are not scored; they are listed in raw/taxon_flags.csv. The
+    author notes that the occurrence of Melicope glabra in Sabah needs
+    confirmation; it is scored as treated. Flowering and fruiting months are
+    not given in this treatment. The clause-to-trait mapping is a scripted
+    parse; mapped rows were spot-checked taxon by taxon but not reviewed
+    clause by clause. Unmapped description clauses are summarised in
+    raw/unmapped_terms.csv (petiolules, venation, indumentum of floral
+    parts, glands, armature, style and stigma, disc, pulp-vesicles, fruit
+    and seed shape, altitude, habitat and distribution). Type and figure
+    specimens are in raw/Jones_1995_vouchers.csv. traits.build could not be
+    installed in the extraction session, so dataset_test() and
+    dataset_process() have not been run on this dataset.
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: bark_colour
+    unit_in: .na
+    trait_name: bark_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Outer bark colour from the Bark clause.'
+  - var_in: bark_texture
+    unit_in: .na
+    trait_name: bark_texture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Outer bark surface from the Bark clause.'
+  - var_in: dispersal_appendage
+    unit_in: .na
+    trait_name: dispersal_appendage
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Seeds stated as winged (scored as wings).'
+  - var_in: dispersal_syndrome
+    unit_in: .na
+    trait_name: dispersal_syndrome
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Dispersal agents named for genera in the family Ecology paragraph and the Merope and Zanthoxylum Ecology paragraphs (birds and fruit- or seed-eating animals scored as zoochory, wind as anemochory, tides as hydrochory); copied to the species of each named genus.'
+  - var_in: embryo_colour
+    unit_in: .na
+    trait_name: embryo_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Embryo or cotyledon colour as stated; white scored as colourless.'
+  - var_in: flower_anther_attachment
+    unit_in: .na
+    trait_name: flower_anther_attachment
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Anther attachment as stated (dorsifixed).'
+  - var_in: flower_anther_length
+    unit_in: unit
+    trait_name: flower_anther_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Anther length as stated.'
+  - var_in: flower_colour
+    unit_in: .na
+    trait_name: flower_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Flower or petal colour (entity_measured petals) as stated.'
+  - var_in: flower_diameter
+    unit_in: unit
+    trait_name: flower_diameter
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Flower diameter (''in diameter'' or ''across''); width in bud not scored.'
+  - var_in: flower_fertile_stamens_count
+    unit_in: unit
+    trait_name: flower_fertile_stamens_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Stamen number as stated; parenthetical extremes on extreme_range rows; ''n times the number of petals'' not scored.'
+  - var_in: flower_filament_length
+    unit_in: unit
+    trait_name: flower_filament_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Stamen filament length as stated.'
+  - var_in: flower_length
+    unit_in: unit
+    trait_name: flower_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Flower length as stated.'
+  - var_in: flower_ovary_position
+    unit_in: .na
+    trait_name: flower_ovary_position
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Ovary position as stated (superior).'
+  - var_in: flower_ovules_per_functional_carpel_count
+    unit_in: unit
+    trait_name: flower_ovules_per_functional_carpel_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Ovules per locule, assuming one locule per carpel.'
+  - var_in: flower_perianth_merism
+    unit_in: unit
+    trait_name: flower_perianth_merism
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'From ''n-merous'' or the sepal number (entity_measured calyx).'
+  - var_in: flower_petal_length
+    unit_in: unit
+    trait_name: flower_petal_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Petal length; first dimension of ''length x width''.'
+  - var_in: flower_scent_production
+    unit_in: .na
+    trait_name: flower_scent_production
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Flowers stated as fragrant.'
+  - var_in: flower_sepal_length
+    unit_in: unit
+    trait_name: flower_sepal_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Sepal length; first dimension of ''length x width''.'
+  - var_in: flower_structural_carpels_count
+    unit_in: unit
+    trait_name: flower_structural_carpels_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Number of carpels from ''n-carpellate''.'
+  - var_in: flower_structural_sex_type
+    unit_in: .na
+    trait_name: flower_structural_sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Flowers unisexual or bisexual as stated; ''male only'' scored as unisexual.'
+  - var_in: fruit_colour
+    unit_in: .na
+    trait_name: fruit_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Colour of the ripe fruit, or of its pericarp (peel), as stated; colour before ripening not scored.'
+  - var_in: fruit_dehiscence
+    unit_in: .na
+    trait_name: fruit_dehiscence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Dehiscent as stated (follicles).'
+  - var_in: fruit_fleshiness
+    unit_in: .na
+    trait_name: fruit_fleshiness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Fleshy or dry as stated; subfleshy and semi-fleshy not scored.'
+  - var_in: fruit_length
+    unit_in: unit
+    trait_name: fruit_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Fruit length, or follicle length (entity_measured follicle); first dimension of ''length x width''.'
+  - var_in: fruit_surface_hairs
+    unit_in: .na
+    trait_name: fruit_surface_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Glabrous or hairy statement for the fruit or its pericarp.'
+  - var_in: fruit_type
+    unit_in: .na
+    trait_name: fruit_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Fruit type as stated; hesperidium scored as berry.'
+  - var_in: fruit_wall_thickness
+    unit_in: unit
+    trait_name: fruit_wall_thickness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Pericarp (peel) thickness as stated; exocarp, mesocarp, endocarp and dry epicarp thickness not scored.'
+  - var_in: fruit_width
+    unit_in: unit
+    trait_name: fruit_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Second dimension of the fruit size, or a stated fruit or follicle diameter.'
+  - var_in: inflorescence_length
+    unit_in: unit
+    trait_name: inflorescence_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Inflorescence length as stated; length in fruit not scored.'
+  - var_in: inflorescence_type
+    unit_in: .na
+    trait_name: inflorescence_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Position and type terms from the Inflorescences clause; pseudoterminal and subcorymbose have no level.'
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Leaf (simple or unifoliolate blade) or leaflet apex shape (entity_measured).'
+  - var_in: leaf_arrangement
+    unit_in: .na
+    trait_name: leaf_arrangement
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Leaves crowded, clustered or spirally arranged.'
+  - var_in: leaf_base_shape
+    unit_in: .na
+    trait_name: leaf_base_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Leaf or leaflet base shape (entity_measured); asymmetric scored as oblique.'
+  - var_in: leaf_compoundness
+    unit_in: .na
+    trait_name: leaf_compoundness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Simple or compound (pinnate, trifoliolate, unifoliolate, n-foliolate) as stated.'
+  - var_in: leaf_hairs_adult_leaves
+    unit_in: .na
+    trait_name: leaf_hairs_adult_leaves
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Unqualified glabrous or hairy statement for the leaf, blade or leaflets, by surface where stated (entity_measured).'
+  - var_in: leaf_lamina_division
+    unit_in: .na
+    trait_name: leaf_lamina_division
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Pinnate scored as pinnately_compound, trifoliolate as trifoliate.'
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Lamina length of simple or unifoliolate leaves (entity_measured lamina; source excludes the petiole), or whole-leaf length (entity_measured leaf or compound leaf).'
+  - var_in: leaf_margin
+    unit_in: .na
+    trait_name: leaf_margin
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Leaf or leaflet margin (entity_measured); subentire and sinuate have no level.'
+  - var_in: leaf_phenology
+    unit_in: .na
+    trait_name: leaf_phenology
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Deciduous or evergreen as stated.'
+  - var_in: leaf_phyllotaxis
+    unit_in: .na
+    trait_name: leaf_phyllotaxis
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Leaves alternate, opposite or whorled.'
+  - var_in: leaf_shape
+    unit_in: .na
+    trait_name: leaf_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Leaf or leaflet shape (entity_measured); compound shape terms (e.g. elliptic-oblong) have no level.'
+  - var_in: leaf_surface_reflectivity
+    unit_in: .na
+    trait_name: leaf_surface_reflectivity
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Glossy or dull as stated.'
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Lamina width of simple or unifoliolate leaves (second dimension of ''length x width'').'
+  - var_in: leaflet_length
+    unit_in: unit
+    trait_name: leaflet_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Leaflet length (entity_measured gives the leaflet position or leaf type where stated); first dimension of ''length x width''.'
+  - var_in: leaflet_width
+    unit_in: unit
+    trait_name: leaflet_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Leaflet width; second dimension of ''length x width''.'
+  - var_in: pedicel_length
+    unit_in: unit
+    trait_name: pedicel_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Pedicel length as stated.'
+  - var_in: petiole_length
+    unit_in: unit
+    trait_name: petiole_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Petiole length as stated.'
+  - var_in: plant_diameter_breast_height
+    unit_in: unit
+    trait_name: plant_diameter_breast_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Stem diameter as printed (''to X m tall and Y cm diameter'', scored as a maximum); height of measurement not stated.'
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Habit words (tree, shrub, climber; scandent scored as climber).'
+  - var_in: plant_height
+    unit_in: unit
+    trait_name: plant_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Plant height (''to X m tall'' as a maximum).'
+  - var_in: seed_colour
+    unit_in: .na
+    trait_name: seed_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Seed or testa colour as stated.'
+  - var_in: seed_length
+    unit_in: unit
+    trait_name: seed_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Seed length; first dimension of ''length x width''.'
+  - var_in: seed_shape
+    unit_in: .na
+    trait_name: seed_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Seed shape as stated (ovoid, ellipsoid).'
+  - var_in: seed_surface_reflectivity
+    unit_in: .na
+    trait_name: seed_surface_reflectivity
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Seed or testa shiny, glossy or dull.'
+  - var_in: seed_surface_texture
+    unit_in: .na
+    trait_name: seed_surface_texture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Seed or testa surface (smooth, rough, wrinkled, rugose, reticulate).'
+  - var_in: seed_width
+    unit_in: unit
+    trait_name: seed_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Second dimension of the seed size.'
+  - var_in: sex_type
+    unit_in: .na
+    trait_name: sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Dioecious or monoecious as stated.'
+  - var_in: stem_base_form
+    unit_in: .na
+    trait_name: stem_base_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Bole or trunk stated as fluted.'
+  - var_in: stem_hairs
+    unit_in: .na
+    trait_name: stem_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Unqualified glabrous or hairy statement for the twigs or branchlets.'
+substitutions:
+  - trait_name: bark_colour
+    find: 'dark_brown'
+    replace: 'brown_dark'
+  - trait_name: bark_colour
+    find: 'whitish'
+    replace: 'white'
+  - trait_name: dispersal_appendage
+    find: 'winged'
+    replace: 'wings'
+  - trait_name: dispersal_syndrome
+    find: 'dispersed_by_animals'
+    replace: 'zoochory'
+  - trait_name: dispersal_syndrome
+    find: 'dispersed_by_birds'
+    replace: 'zoochory'
+  - trait_name: dispersal_syndrome
+    find: 'dispersed_by_tides'
+    replace: 'hydrochory'
+  - trait_name: dispersal_syndrome
+    find: 'dispersed_by_wind'
+    replace: 'anemochory'
+  - trait_name: embryo_colour
+    find: 'white'
+    replace: 'colourless'
+  - trait_name: embryo_colour
+    find: 'white green'
+    replace: 'colourless green'
+  - trait_name: flower_colour
+    find: 'green white'
+    replace: 'green white_cream'
+  - trait_name: flower_colour
+    find: 'green whitish'
+    replace: 'green white_cream'
+  - trait_name: flower_colour
+    find: 'green yellow'
+    replace: 'green yellow_orange'
+  - trait_name: flower_colour
+    find: 'green yellow white'
+    replace: 'green yellow_orange white_cream'
+  - trait_name: flower_colour
+    find: 'purplish'
+    replace: 'blue_purple'
+  - trait_name: flower_colour
+    find: 'white'
+    replace: 'white_cream'
+  - trait_name: flower_colour
+    find: 'white green'
+    replace: 'white_cream green'
+  - trait_name: flower_colour
+    find: 'white green yellow'
+    replace: 'white_cream green yellow_orange'
+  - trait_name: flower_colour
+    find: 'white yellow'
+    replace: 'white_cream yellow_orange'
+  - trait_name: flower_colour
+    find: 'whitish'
+    replace: 'white_cream'
+  - trait_name: flower_colour
+    find: 'yellow green'
+    replace: 'yellow_orange green'
+  - trait_name: flower_scent_production
+    find: 'fragrant'
+    replace: 'scent_produced'
+  - trait_name: flower_structural_sex_type
+    find: 'bisexual male'
+    replace: 'bisexual unisexual'
+  - trait_name: fruit_colour
+    find: 'purplish'
+    replace: 'purple'
+  - trait_name: fruit_colour
+    find: 'white pink purplish'
+    replace: 'white pink purple'
+  - trait_name: fruit_dehiscence
+    find: 'dehisc'
+    replace: 'dehiscent'
+  - trait_name: fruit_type
+    find: 'berries'
+    replace: 'berry'
+  - trait_name: fruit_type
+    find: 'capsule follicle samara drupe berry hesperidia'
+    replace: 'capsule follicle samara drupe berry'
+  - trait_name: fruit_type
+    find: 'follicles'
+    replace: 'follicle'
+  - trait_name: fruit_type
+    find: 'hesperidium'
+    replace: 'berry'
+  - trait_name: inflorescence_type
+    find: 'axillary corymbose_racemes cyme solitary'
+    replace: 'axillary raceme cyme solitary'
+  - trait_name: inflorescence_type
+    find: 'axillary cymose-panicles'
+    replace: 'axillary panicle'
+  - trait_name: inflorescence_type
+    find: 'axillary panicles'
+    replace: 'axillary panicle'
+  - trait_name: inflorescence_type
+    find: 'axillary panicles cyme'
+    replace: 'axillary panicle cyme'
+  - trait_name: inflorescence_type
+    find: 'axillary panicles racemes'
+    replace: 'axillary panicle raceme'
+  - trait_name: inflorescence_type
+    find: 'axillary paniculate'
+    replace: 'axillary panicle'
+  - trait_name: inflorescence_type
+    find: 'axillary paniculate racemose'
+    replace: 'axillary panicle raceme'
+  - trait_name: inflorescence_type
+    find: 'axillary racemes cymose_panicles'
+    replace: 'axillary raceme panicle'
+  - trait_name: inflorescence_type
+    find: 'axillary terminal panicles cyme corymb'
+    replace: 'axillary terminal panicle cyme corymb'
+  - trait_name: inflorescence_type
+    find: 'axillary terminal panicles racemes'
+    replace: 'axillary terminal panicle raceme'
+  - trait_name: inflorescence_type
+    find: 'cyme panicles solitary axillary'
+    replace: 'cyme panicle solitary axillary'
+  - trait_name: inflorescence_type
+    find: 'cymose-panicles'
+    replace: 'panicle'
+  - trait_name: inflorescence_type
+    find: 'cymose-paniculate'
+    replace: 'panicle'
+  - trait_name: inflorescence_type
+    find: 'panicles racemes terminal axillary'
+    replace: 'panicle raceme terminal axillary'
+  - trait_name: inflorescence_type
+    find: 'terminal axillary panicles'
+    replace: 'terminal axillary panicle'
+  - trait_name: inflorescence_type
+    find: 'terminal axillary panicles cyme racemes'
+    replace: 'terminal axillary panicle cyme raceme'
+  - trait_name: inflorescence_type
+    find: 'terminal axillary racemes panicles cyme'
+    replace: 'terminal axillary raceme panicle cyme'
+  - trait_name: inflorescence_type
+    find: 'terminal panicles'
+    replace: 'terminal panicle'
+  - trait_name: inflorescence_type
+    find: 'terminal panicles racemes'
+    replace: 'terminal panicle raceme'
+  - trait_name: inflorescence_type
+    find: 'terminal paniculate_corymbs'
+    replace: 'terminal corymb'
+  - trait_name: leaf_apex_shape
+    find: 'blunt rounded'
+    replace: 'obtuse rounded'
+  - trait_name: leaf_base_shape
+    find: 'acute asymmetric'
+    replace: 'acute oblique'
+  - trait_name: leaf_base_shape
+    find: 'asymmetric'
+    replace: 'oblique'
+  - trait_name: leaf_base_shape
+    find: 'cordate asymmetric'
+    replace: 'cordate oblique'
+  - trait_name: leaf_base_shape
+    find: 'obtuse asymmetric'
+    replace: 'obtuse oblique'
+  - trait_name: leaf_compoundness
+    find: '3-foliolate'
+    replace: 'compound'
+  - trait_name: leaf_compoundness
+    find: '4-foliolate'
+    replace: 'compound'
+  - trait_name: leaf_compoundness
+    find: '5-foliolate'
+    replace: 'compound'
+  - trait_name: leaf_compoundness
+    find: '6-foliolate'
+    replace: 'compound'
+  - trait_name: leaf_compoundness
+    find: '7-foliolate'
+    replace: 'compound'
+  - trait_name: leaf_compoundness
+    find: '9-foliolate'
+    replace: 'compound'
+  - trait_name: leaf_compoundness
+    find: 'foliolate'
+    replace: 'compound'
+  - trait_name: leaf_compoundness
+    find: 'pinnate'
+    replace: 'compound'
+  - trait_name: leaf_compoundness
+    find: 'pinnate simple'
+    replace: 'compound simple'
+  - trait_name: leaf_compoundness
+    find: 'simple unifoliolate'
+    replace: 'simple compound'
+  - trait_name: leaf_compoundness
+    find: 'unifoliolate'
+    replace: 'compound'
+  - trait_name: leaf_compoundness
+    find: 'unifoliolate foliolate'
+    replace: 'compound'
+  - trait_name: leaf_lamina_division
+    find: 'pinnate'
+    replace: 'pinnately_compound'
+  - trait_name: leaf_lamina_division
+    find: 'pinnate trifoliolate'
+    replace: 'pinnately_compound trifoliate'
+  - trait_name: leaf_lamina_division
+    find: 'trifoliolate'
+    replace: 'trifoliate'
+  - trait_name: leaf_lamina_division
+    find: 'trifoliolate pinnate'
+    replace: 'trifoliate pinnately_compound'
+  - trait_name: leaf_margin
+    find: 'crenate'
+    replace: 'toothed_crenate'
+  - trait_name: leaf_margin
+    find: 'crenulate'
+    replace: 'toothed_crenate'
+  - trait_name: leaf_margin
+    find: 'dentate'
+    replace: 'toothed_dentate'
+  - trait_name: leaf_margin
+    find: 'entire crenulate'
+    replace: 'entire toothed_crenate'
+  - trait_name: leaf_margin
+    find: 'entire dentate crenate'
+    replace: 'entire toothed_dentate toothed_crenate'
+  - trait_name: leaf_margin
+    find: 'entire serrate crenulate'
+    replace: 'entire toothed_serrate toothed_crenate'
+  - trait_name: leaf_shape
+    find: 'elliptic'
+    replace: 'elliptical'
+  - trait_name: leaf_shape
+    find: 'elliptic broadly_obovate'
+    replace: 'elliptical widely_obovate'
+  - trait_name: leaf_shape
+    find: 'elliptic lanceolate'
+    replace: 'elliptical lanceolate'
+  - trait_name: leaf_shape
+    find: 'elliptic oblanceolate'
+    replace: 'elliptical oblanceolate'
+  - trait_name: leaf_shape
+    find: 'elliptic obovate'
+    replace: 'elliptical obovate'
+  - trait_name: leaf_shape
+    find: 'elliptic obovate oblanceolate'
+    replace: 'elliptical obovate oblanceolate'
+  - trait_name: leaf_shape
+    find: 'elliptic obovate ovate'
+    replace: 'elliptical obovate ovate'
+  - trait_name: leaf_shape
+    find: 'elliptic ovate'
+    replace: 'elliptical ovate'
+  - trait_name: leaf_shape
+    find: 'elliptic ovate obovate'
+    replace: 'elliptical ovate obovate'
+  - trait_name: leaf_shape
+    find: 'oblanceolate obovate elliptic'
+    replace: 'oblanceolate obovate elliptical'
+  - trait_name: leaf_shape
+    find: 'oblong elliptic'
+    replace: 'oblong elliptical'
+  - trait_name: leaf_shape
+    find: 'obovate oblanceolate elliptic'
+    replace: 'obovate oblanceolate elliptical'
+  - trait_name: leaf_shape
+    find: 'ovate elliptic obovate'
+    replace: 'ovate elliptical obovate'
+  - trait_name: leaf_surface_reflectivity
+    find: 'glossy'
+    replace: 'shiny'
+  - trait_name: plant_growth_form
+    find: 'climbers'
+    replace: 'climber'
+  - trait_name: plant_growth_form
+    find: 'scandent shrub tree'
+    replace: 'climber shrub tree'
+  - trait_name: plant_growth_form
+    find: 'scandent shrubs trees'
+    replace: 'climber shrub tree'
+  - trait_name: plant_growth_form
+    find: 'shrubs trees'
+    replace: 'shrub tree'
+  - trait_name: plant_growth_form
+    find: 'trees'
+    replace: 'tree'
+  - trait_name: plant_growth_form
+    find: 'trees shrubs woody_climbers'
+    replace: 'tree shrub climber_woody'
+  - trait_name: seed_colour
+    find: 'black red'
+    replace: 'black red_brown'
+  - trait_name: seed_colour
+    find: 'brown'
+    replace: 'red_brown'
+  - trait_name: seed_colour
+    find: 'brown black'
+    replace: 'red_brown black'
+  - trait_name: seed_colour
+    find: 'reddish_black'
+    replace: 'black'
+  - trait_name: seed_surface_reflectivity
+    find: 'glossy'
+    replace: 'shiny'
+  - trait_name: seed_surface_texture
+    find: 'reticulate'
+    replace: 'netted'
+  - trait_name: seed_surface_texture
+    find: 'smoothish rugose'
+    replace: 'smooth wrinkled'
+  - trait_name: stem_hairs
+    find: 'glabrous velvety'
+    replace: 'glabrous hairy'
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1: |
+    Source fix on p. 379 (Glycosmis superba): "Leaves large, opposite,
+    36-foliolate" is read as 3--6-foliolate (en dash missing); 36 leaflets
+    is outside the genus range of 1--5(--15). Only leaf_compoundness depends
+    on it. Confirm.
+  question2: |
+    Burkillanthus malaccensis fruits are printed "10--8 x 8--11 cm" (p. 362),
+    a reversed range. Fruit length is not scored; fruit width (8--11 cm) is.
+    Confirm, or drop the width as well.
+  question3: |
+    Maclurodendron pubescens sepals are printed "c. 7 mm long" (p. 382),
+    against petals c. 2 mm long and flowers 1.5--2 mm wide in bud; the genus
+    has minute sepals and the two other species have sepals 0.5--1 mm. The
+    value (7 mm) is scored as printed. Keep, drop, or read as 0.7 mm?
+  question4: |
+    Unifoliolate leaves are scored as leaf_compoundness = compound (one
+    articulated leaflet). Their blade size goes to leaf_length / leaf_width
+    (entity_measured lamina) when the text says "Leaves ... L x W" or
+    "blades" (Citrus, Maclurodendron, Merope, Pleiospermium, Tetractomia,
+    and the simple leaves of Lunasia, Monanthocitrus, Severinia), but to
+    leaflet_length / leaflet_width when the text says "leaflet" (e.g.
+    Acronychia pedunculata, unifoliolate Melicope leaves). Keep this
+    wording-based split, or score all unifoliolate blades one way?
+  question5: |
+    Mapping misfits: "hesperidium" (Citrus) is scored as fruit_type berry;
+    white embryo or cotyledons (Citrus) as embryo_colour colourless;
+    "scandent" as plant_growth_form climber (Zanthoxylum); birds and
+    "fruit- and seed-eating animals" as dispersal_syndrome zoochory. Confirm
+    these levels.
+  question6: |
+    The Glycosmis chlorosperma varieties (bidiensis, chlorosperma, elmeri)
+    are printed inside the key to varieties, each with its own short
+    description. Following data/Adema_1996, these descriptions are scored at
+    variety rank and silent traits are inherited from the species
+    description. data/Kochummen_1995 (same volume) kept such key annotations
+    unmapped. Which treatment should apply?
+  question7: |
+    The family Ecology paragraph (p. 352) names dispersal agents by genus
+    ("birds (Melicope, Zanthoxylum), wind (Tetractomia), water (Merope), and
+    fruit- and seed-eating animals (Citrus, Clausena, Glycosmis, Micromelum,
+    Severinia, and most other Aurantioideae)"). These are scored as genus
+    rows and copied to every described species of the named genera
+    (Merope and Zanthoxylum from their own Ecology paragraphs). The
+    "most other Aurantioideae" part is not scored. Confirm.
+  question8: |
+    In Melicope, Lunasia, Tetractomia and Zanthoxylum the fruit is a group of
+    follicles; the follicle size ("follicles 3--5 mm long", "3--6 mm in
+    diameter") is scored as fruit_length / fruit_width with entity_measured
+    follicle. Confirm, or keep follicle sizes unmapped.
+  question9: |
+    Two petal lengths are printed with "to" before a range: Murraya
+    paniculata "to 15--21 mm long or more" and Micromelum minutum "to 5--8
+    mm long". Both are scored as the range (minimum and maximum), not as a
+    maximum of the first number. Confirm.
