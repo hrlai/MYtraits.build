@@ -20,15 +20,12 @@ pause. Worked examples, all in this repository:
 | `data/Yao_2010` | Pentaphylacaceae, FPM vol. 1 | scanned PDF, 1 taxon | `flora_hand()`, monogeneric copy-down, hedges |
 | `data/Nor-Ezzawanis_2010` | Cibotiaceae, FPM ferns vol. 1 | scanned PDF, 1 taxon | first fern; provisional fern mappings |
 | `data/Hughes_2013` | Memecylaceae, FPM vol. 4 | scanned PDF; OCR-layer parser | **PROVISIONAL**; OCR-derived transcription is not image-checked, and the segmenter still reads the layer |
-| `data/Adema_1996` | Sapindaceae, TFSS vol. 2 | scanned PDF; unverified text layer | **UNDONE — not release-ready**; partial species-only pass |
 
 Treat the first four as precedents, not completeness benchmarks: the scanned
 examples cover only 1--2 taxa. Coode and Lim still have copied parsers and
 inline source fixes. For Hughes, check the OCR draft against page images and
 switch `raw/segment_source.R` to `flora_read_transcription()` before calling it
-complete; running `raw/transcribe_source.R` only copies the OCR layer. For
-Adema, follow the completion checklist below; do not treat its zero-unmapped
-rows or header-only voucher file as evidence of completeness.
+complete; running `raw/transcribe_source.R` only copies the OCR layer.
 
 ## Resumable scanned-source review
 
@@ -44,11 +41,10 @@ and next batch, not old chat history.
   **persistent** image directory outside the repository. Call
   `flora_review_prepare(id, pdf, pages, image_dir)`. It writes
   `raw/page_manifest.csv` and `raw/review_batches.csv` only once. Create the
-  empty persistent image directory before preparing the queue. For Adema:
-  `flora_review_prepare("Adema_1996", "inst/extdata/TFSS/Sapindaceae.pdf", 7:118, image_dir)`.
-  Do not use a disposable session scratch folder; images need to survive new
-  chats. These paths are local, so keep manifests out of commits when they
-  contain machine-specific paths.
+  empty persistent image directory before preparing the queue. Do not use a
+  disposable session scratch folder; images need to survive new chats. These
+  paths are local, so keep manifests out of commits when they contain
+  machine-specific paths.
 - On "continue", call `flora_review_next(id)` and
   `flora_review_render_next(id)` if its images are missing. Render only that
   batch, not the whole treatment. `flora_review_status(id)` summarizes the
@@ -67,38 +63,9 @@ and next batch, not old chat history.
   every check is true on every page, no blocker remains, and its boundary is
   reconciled with the adjacent batch. Set `boundary_checked = TRUE` when this
   is complete. The queue rejects inconsistent verified flags.
-- Rendering and OCR drafting are not verification. Keep old Adema trait outputs
-  provisional until they are rebuilt from checked transcription; QA passing is
-  not source reconciliation. The queue records progress; it does not implement
+- Rendering and OCR drafting are not verification. QA passing is not source
+  reconciliation. The queue records progress; it does not implement
   transcription, OCR, segmentation, trait extraction, or vouchers for you.
-
-## Adema_1996 completion checklist
-
-There is no born-digital copy available. Use the scanned
-`inst/extdata/TFSS/Sapindaceae.pdf` and keep `data/Adema_1996` marked UNDONE
-until all these checks pass:
-
-1. Render every treatment page (PDF pages 7--118); transcribe text from the
-   page images into `raw/Sapindaceae_transcription.txt`. Verify numbers,
-   measurements, headings and printed-page mapping against the images. Record
-   image-verified source repairs in `raw/source_fixes.csv`; correct headings
-   and page markers in the transcription before segmentation.
-2. Segment the verified transcription with `flora_segment()`. Account for every
-   family, genus, species and infraspecific heading, including exclusions and
-   informal forms. Check section boundaries and page turns against the images.
-3. Extract all eligible description and later-section clauses, not only the
-   selected species terms in the current parser. Apply higher-rank copy-down
-   and infraspecific inheritance where justified. Keep every unscored clause
-   as an unmapped row in `raw/trait_data.csv` with its actual clause page;
-   inspect dimensions and organ ownership against each image.
-4. Hand-transcribe type, synonym-type and figure specimens into
-   `raw/Adema_1996_vouchers.csv`; verify names and citations against the images.
-5. Rebuild `raw/trait_data.csv`, `raw/unmapped_terms.csv`, `raw/taxon_flags.csv`
-   and `data.csv`; update `metadata.yml` to describe verified scope and open
-   decisions. Reconcile every accepted heading, section, unmapped clause and
-   voucher against the source. Run `flora_qa("Adema_1996")`,
-   `flora_dataset_test("Adema_1996")` and `dataset_process()`; inspect
-   exclusions. Passing QA alone does not establish completeness.
 
 Shared code lives in `scripts/` (sourced from the repository root, never
 copied into the dataset folder). Do not copy a whole parser from a previous
@@ -569,8 +536,8 @@ Edit directly. Start from `traits.build::metadata_create_template()` and change:
    processed.
 4. Check completeness independently of schema tests: compare all accepted
    species and infraspecific headings, description and later sections, unmapped
-   clauses, and type/figure vouchers against the source. For Adema_1996, use
-   the completion checklist above; passing QA does not establish completeness.
+   clauses, and type/figure vouchers against the source. Passing QA does not
+   establish completeness.
 5. Report: taxa, rows by mapped and unmapped, rows by `rank_scored_from`,
    exclusions, numbered questions.
 
