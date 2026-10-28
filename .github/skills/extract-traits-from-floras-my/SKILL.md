@@ -242,8 +242,8 @@ family, guided by the checklist).
 
 ### 1. Choose the source and check the text layer (G)
 
-- Sources are `inst/extdata/FPM/<Family>.pdf` and
-  `inst/extdata/TFSS/<Family>.pdf`. If both treat a family, extract each as a
+- Sources are `inst/extdata/myflora/pdf/FPM/<Family>.pdf` and
+  `inst/extdata/myflora/pdf/TFSS/<Family>.pdf`. If both treat a family, extract each as a
   separate dataset under its own author/year citation; never merge their
   descriptions or attribute one author's values to the other.
 - Run `flora_pdf_check()` for producer and OCR hints, not proof of source type

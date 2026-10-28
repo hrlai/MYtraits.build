@@ -3,8 +3,8 @@
 # check a transcription against the PDF's text layer.
 #
 # Use: source(".github/skills/extract-traits-from-floras-my/scripts/flora_source.R")
-# Run from the repository root. Sources live in inst/extdata/FPM and
-# inst/extdata/TFSS.
+# Run from the repository root. Sources live in inst/extdata/myflora/pdf/FPM and
+# inst/extdata/myflora/pdf/TFSS.
 
 suppressPackageStartupMessages(library(tidyverse))
 
