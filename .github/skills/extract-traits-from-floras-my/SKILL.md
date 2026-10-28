@@ -86,6 +86,11 @@ Coode_2018 one.
 | `scripts/flora_qa.R` | `flora_qa(id)` tables; `flora_dataset_test(id)` |
 | `assets/flora_dictionary_seed.csv` | term regex to level rows from Coode_2018, Lim_2010 and Kochummen_1995; grow it, do not fork it |
 
+**Running R.** `Rscript` is not on the shell `PATH`. From the repository root,
+run a script with `uvr run <file.R>`; for a one-liner use
+`~/.uvr/r-versions/4.6.0/bin/Rscript.exe -e '...'` (the project `.Rprofile`
+selects the `.uvr/library`). Check `.r-version` if the version path fails.
+
 The scripts are tested against the three datasets (they reproduce the Coode
 and Lim paragraph tables and all three `data.csv` value columns exactly). They
 are read-only with respect to `data/`, apart from `flora_make_data()`, which
@@ -101,6 +106,11 @@ writes `data/<id>/data.csv`.
   Preparing Manuscripts for The Flora of Peninsular Malaysia* (Kiew et al.,
   2006); TFSS guidance is *Guide to Preparing and Editing Manuscripts*
   (Soepadmo & Wong, 1995). Do not use one guide to interpret the other flora.
+  The guides are not in the repository; "Formal flora treatment grammar"
+  below is their digest and is the operative version. Do not report the
+  missing guides as a blocker. If the user supplies a guide and it disagrees
+  with the digest, follow the guide and tell the user so the digest can be
+  corrected.
 - **Names as printed.** Do not match to a taxonomic backbone during extraction;
   alignment is a separate step. Keep `sp. nov.` under its printed label and
   flag it.
@@ -272,8 +282,12 @@ misreads; image checking is for scans.
     unless a caption supplies a voucher; transcribe any treatment text that is
     a picture.
   - `bad_glyphs`: characters the layer could not map (often an en dash or
-    multiplication sign from an unembedded font). Read the image and repair
-    them in `raw/source_fixes.csv`.
+    multiplication sign from an unembedded font), plus the Symbol-font dot
+    operator `⋅` (U+22C5) used for the multiplication sign in Adema_1996.
+    Read the image and repair them in `raw/source_fixes.csv`. Other
+    substitutes may exist: if a page image shows a sign that the layer gives as
+    an unexpected character, add it to `.flora_bad_glyph_re` in
+    `flora_source.R`.
   - Reading-order problems (two columns, tables, side captions) show up as
     segmenter anomalies or QA failures; check those pages' images.
 
@@ -411,6 +425,18 @@ Bespoke checklist (decisions that changed per family):
   (`usually` for the unqualified value). Several equal-weight values stay in one
   space-delimited cell in text order. Parenthetical extremes `(a--)b--c(--d)`
   go on `extreme_range` rows with the typical range on `usually` rows.
+  `commonness_qualifier` holds the printed commonness word in lower case
+  (`less commonly`, not a near-synonym such as `less often`). The parser's word
+  list is `flora_qual_words` in `flora_parse.R`. Add a new printed word there
+  rather than recoding it to an existing word. The context has no fixed level list.
+- **Dictionary row order is priority.** Within a trait, `flora_score_cat()`
+  tries rows from top to bottom, and each match blanks out the text it used.
+  A general row therefore claims text inside compound or prefixed words
+  (`acute` in `rounded-acute`, `terminal` in `subterminal`) before a later row
+  sees it. Insert the specific row **above** the general one; do not append it.
+  If a specific term has no level, give it a blank `level` so it only blocks
+  the general row. Use `\b` or a lookbehind such as `(?<!sub)` in new general
+  rows.
 - **Numbers.** A range is minimum + maximum, a single or "c." value is a mean,
   "to X" is a maximum. Missing units (Coode_2018 *E. fraseri* lamina
   "14--18.5 x (7--)9--12") go in `source_fixes.csv` with the page.
@@ -442,7 +468,10 @@ Bespoke checklist (decisions that changed per family):
   Use `flora_copy_down()` when unqualified, single-level `mode` rows from the
   family, genus or group description apply to members silent on the trait,
   only if every member that scores the trait includes the value. Never numbers.
-  Most specific rank wins (group, genus, family). `attr(, "rejected")` contains
+  Most specific rank wins (group, genus, family). `entity_measured` is part
+  of the trait: male and female (or other entity) values are tested and copied
+  separately, so give higher-rank rows the same `entity_measured` labels as
+  the species rows. `attr(, "rejected")` contains
   agreement-test failures only; inspect it and preserve other ineligible clauses
   separately in the bespoke parser.
 - Use `flora_inherit_infraspecific()` for `subsp.`/`var.` silent on a trait.
