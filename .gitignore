@@ -1,6 +1,5 @@
 inst/extdata/sid/*.csv
-inst/extdata/FPM/*.pdf
-inst/extdata/TFSS/*.pdf
+inst/extdata/myflora/
 
 # data not yet ready to publicise
 data/Kaye_2013/raw/*.xlsx
