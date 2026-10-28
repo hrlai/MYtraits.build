@@ -8,7 +8,9 @@ source(".github/skills/extract-traits-from-floras-my/scripts/flora_parse.R")
 fixes <- read_csv(
   "data/Adema_1996/raw/source_fixes.csv",
   col_types = cols(.default = "c", page = "i")
-)
+) |>
+  # Caption fixes record voucher readings only; captions are not segmented.
+  filter(!str_detect(reason, "caption"))
 lines <- flora_read_transcription(
   "data/Adema_1996/raw/Sapindaceae_transcription.txt"
 ) |>

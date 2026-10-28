@@ -107,9 +107,9 @@ flora_segment <- function(
     filter(!drop, is.na(hdr), !rank %in% skip_ranks) |>
     group_by(block) |>
     mutate(
-      prev_text = zoo::na.locf(
+      prev_text = vctrs::vec_fill_missing(
         lag(if_else(t == "", NA_character_, t)),
-        na.rm = FALSE
+        direction = "down"
       ),
       after_blank = lag(t, default = "") == "",
       desc_line = str_detect(t, desc_start_re) &
