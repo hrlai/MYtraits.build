@@ -1,0 +1,250 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Alectryon glaber,type,L,,Spanoghe,52,,Lesser Sunda Is.,,,"Type, p.271","No status word printed (""Type: ... (L)""); basionym Spanoghea glabra Blume (printed ""Spanogheaglabra"", read as ""Spanoghea glabra"" per source_fixes p.271)"
+Alectryon glaber,figure specimen,,,Alston,16075,,,,,"Figure caption, p.272","Fig. 1 A–B (whole figure; caption ""From Alston 16075"")"
+Allophylus cobbe,type,BM,"Herb. Hermann vol. 2, fol. 46",,,,Sri Lanka,,Sri Lanka,"Type, p.274","No status word printed; basionym Rhus cobbe L.; no collector or collection number given, sheet cited as Herb. Hermann vol. 2, fol. 46 (""Kobbae"")"
+Allophylus cobbe,figure specimen,,,Forbes,2557,,,,,"Figure caption, p.275","Fig. 2 A, E"
+Allophylus cobbe,figure specimen,,,Maxwell,77-375,,,,,"Figure caption, p.275","Fig. 2 B–D"
+Arytera litoralis,lectotype,L,,Blume,1314,,"Java, Nusa Kambangan",,,"Lectotype, p.277","Lectotype (Turner, 1993)"
+Arytera litoralis,figure specimen,,,SAN,95571,,,,,"Figure caption, p.278","Fig. 3 A; series code"
+Arytera litoralis,figure specimen,,,Gibbs,2664,,,,,"Figure caption, p.278",Fig. 3 B–C
+Arytera litoralis,figure specimen,,,van Balgooy,6099,,,,,"Figure caption, p.278",Fig. 3 D
+Cubilia cubili,neotype,L,,Merrill,Spec. Blanc. 705,,"Philippines, Luzon",,Philippines,"Neotype, p.279","Neotype (Leenhouts, 1978); basionym Euphoria cubili Blanco, nom. illeg.; printed ""Philipines, Luzon"", read as ""Philippines"" per source_fixes p.279; Spec. Blanc. = Species Blancoanae (Merrill series)"
+Cubilia cubili,isoneotype,BO,,Merrill,Spec. Blanc. 705,,"Philippines, Luzon",,Philippines,"Neotype, p.279",Isoneotype of the above (Leenhouts 1978)
+Cubilia cubili,isoneotype,P,,Merrill,Spec. Blanc. 705,,"Philippines, Luzon",,Philippines,"Neotype, p.279",Isoneotype of the above (Leenhouts 1978)
+Cubilia cubili,figure specimen,,,FB,1996,,,,,"Figure caption, p.280","Fig. 4 A; series code (printed ""FB 1996"")"
+Cubilia cubili,figure specimen,,,PNH,22872,,,,,"Figure caption, p.280","Fig. 4 B–C; series code"
+Cubilia cubili,figure specimen,,,NIFS,Cel. V/236,,,,,"Figure caption, p.280","Fig. 4 D; printed ""NIFS Cel. V/236 = Waturandang 221""; series code"
+Cubilia cubili,figure specimen,,,Kostermans,7011,,,,,"Figure caption, p.280",Fig. 4 F
+Dictyoneura acuminata,lectotype,L,,Muller,s.n.,,Borneo,,,"Lectotype, p.282","Lectotype (J. van Dijk, 1986); lectotype paragraph belongs to the species (precedes subsp. acuminata heading)"
+Dictyoneura acuminata subsp. acuminata,figure specimen,,,SAN,37193,,,,,"Figure caption, p.283","Fig. 5 A; series code. DOUBT: same number SAN 37193 is the holotype of Dimocarpus dentatus (Ambulah SAN 37193) and Fig. 6 A–B of D. dentatus; one citation is probably a slip. Caption printed ""(A from SAN 37193), B–E from Kostermans (6892.)"", read per source_fixes p.283"
+Dictyoneura acuminata subsp. acuminata,figure specimen,,,Kostermans,6892,,,,,"Figure caption, p.283","Fig. 5 B–E; printed ""Kostermans (6892.)"", read per source_fixes p.283"
+Dimocarpus dentatus,holotype,L,,Ambulah,SAN 37193,,"Borneo, Sabah",Sabah,,"Type, p.284","SAN series code; also cited in Fig. 5 A (Dictyoneura acuminata) and Fig. 6 A–B (this species)"
+Dimocarpus dentatus,isotype,K,,Ambulah,SAN 37193,,"Borneo, Sabah",Sabah,,"Type, p.284",SAN series code
+Dimocarpus dentatus,figure specimen,,,SAN,37193,,,,,"Figure caption, p.285","Fig. 6 A–B; series code; same specimen as the type (Ambulah SAN 37193); also cited for Fig. 5 A (Dictyoneura)"
+Dimocarpus dentatus,figure specimen,,,Kostermans,12654,,,,,"Figure caption, p.285",Fig. 6 C–D
+Dimocarpus fumatus,type,L,,Korthals,s.n.,,SE Borneo,,,"Type, p.286","No status word printed; printed ""Korthals, s.n. (or Müller s.n.?), SE Borneo (L)"" - alternative collector Müller is uncertain; basionym Nephelium fumatum Blume"
+Dimocarpus fumatus,figure specimen,,,Kostermans,13245,,,,,"Figure caption, p.285",Fig. 6 E
+Dimocarpus longan,neotype,L,,Liao & Kuo,1598,,Taiwan,,Taiwan,"Neotype, p.287","Neotype (Leenhouts, 1971)"
+Dimocarpus longan,isoneotype,TAI,,Liao & Kuo,1598,,Taiwan,,Taiwan,"Neotype, p.287","Isoneotype of the above (Leenhouts, 1971)"
+Dimocarpus longan subsp. longan var. longan,figure specimen,,,Tilley,s.n.,,,,,"Figure caption, p.285","Fig. 6 G; caption names it ""D. longan var. longan"""
+Dimocarpus longan subsp. malesianus var. echinatus,type,M,,Kleme,EB 15218,,"Philippines, Basilan",,Philippines,"Type, p.288","No status word printed; based on Euphoria nephelioides Radlk. DOUBT: collector/number as printed (""Kleme EB 15218""), possibly Klemme FB 15218 (Forest Bureau series, cf. FB numbers elsewhere); kept as printed"
+Dimocarpus longan subsp. malesianus var. echinatus,figure specimen,,,SAN,61671,,,,,"Figure caption, p.285","Fig. 6 F; series code; caption names it ""D. longan var. echinatus"""
+Dimocarpus longan subsp. malesianus var. malesianus,neotype,,,Cuming,1131,,"Philippines, Luzon",,Philippines,"Neotype, p.288","Neotype (Leenhouts 1971); repository of the neotype itself not printed (only isoneotypes BM, FI, K, L listed); based on Sapindus cinereus Turcz."
+Dimocarpus longan subsp. malesianus var. malesianus,isoneotype,BM,,Cuming,1131,,"Philippines, Luzon",,Philippines,"Neotype, p.288","Isoneotype (Leenhouts 1971)"
+Dimocarpus longan subsp. malesianus var. malesianus,isoneotype,FI,,Cuming,1131,,"Philippines, Luzon",,Philippines,"Neotype, p.288","Isoneotype (Leenhouts 1971)"
+Dimocarpus longan subsp. malesianus var. malesianus,isoneotype,K,,Cuming,1131,,"Philippines, Luzon",,Philippines,"Neotype, p.288","Isoneotype (Leenhouts 1971)"
+Dimocarpus longan subsp. malesianus var. malesianus,isoneotype,L,,Cuming,1131,,"Philippines, Luzon",,Philippines,"Neotype, p.288","Isoneotype (Leenhouts 1971)"
+Dimocarpus longan subsp. malesianus var. malesianus,figure specimen,,,S.,32681,,,,,"Figure caption, p.285","Fig. 6 H; series code (Sarawak); caption names it ""D. longan var. malesianus"""
+Ganophyllum falcatum,type,L,902.35–69,Sine coll.,s.n.,,New Guinea,,,"Type, p.289","No status word printed; printed ""Sine coll., s.n. (= L. sheet no. 902.35–69)"""
+Ganophyllum falcatum,figure specimen,,,Brass,2440,,,,,"Figure caption, p.290",Fig. 7 A
+Ganophyllum falcatum,figure specimen,,,SAN,64306,,,,,"Figure caption, p.290","Fig. 7 B–D; series code"
+Glenniea philippinensis,holotype,M,,Villamil,FB 20635,,Philippines,,Philippines,"Type, p.292","Basionym Hedyachras philippinensis Radlk.; FB series code"
+Glenniea philippinensis,isotype,BM,,Villamil,FB 20635,,Philippines,,Philippines,"Type, p.292",
+Glenniea philippinensis,isotype,K,,Villamil,FB 20635,,Philippines,,Philippines,"Type, p.292",
+Glenniea philippinensis,isotype,L,,Villamil,FB 20635,,Philippines,,Philippines,"Type, p.292",
+Glenniea thorelii,type,P,,Pierre,4089,,S Vietnam,,Vietnam,"Type, p.293","No status word printed; basionym Cnemidiscus thorelii Pierre; country read from ""S Vietnam"""
+Glenniea thorelii,figure specimen,,,Lambach,1336,,,,,"Figure caption, p.294",Fig. 8 A
+Glenniea thorelii,figure specimen,,,Boschproefstation,T. 973,,,,,"Figure caption, p.294",Fig. 8 B
+Guioa bijuga,holotype,K,,Wallich,KD 8094,,Malaya,,Malaya,"Type, p.296","Basionym Cupania pleuropteris Blume var. bijuga Hiern. DOUBT: isotypes list includes K as well as the holotype K"
+Guioa bijuga,isotype,BM,,Wallich,KD 8094,,Malaya,,Malaya,"Type, p.296",
+Guioa bijuga,isotype,K,,Wallich,KD 8094,,Malaya,,Malaya,"Type, p.296","Isotype K as printed; same herbarium as the holotype (K), possible duplicate/slip"
+Guioa diplopetala,possible type,BO,,Hasskarl,,,Java,,,"Type, p.298","Printed: ""Type: (Not indicated, probably Hasskarl’s collection from Java; BO)""; no collection number cited; basionym Cupania diplopetala Hassk."
+Guioa diplopetala,figure specimen,,,Rahayu & Maskura,540,,,,,"Figure caption, p.299","Fig. 9 A, C"
+Guioa diplopetala,figure specimen,,,Beumée,A 765,,,,,"Figure caption, p.299",Fig. 9 B
+Guioa koelreuteria,neotype,PNH,,Merrill,Spec. Blanc. 644,,"Philippines, Luzon, Rizal Province",,Philippines,"Neotype, p.300","Neotype (Merrill, 1918); PNH specimen destroyed; basionym Sapindus koelreuteria Blanco; Spec. Blanc. = Species Blancoanae"
+Guioa koelreuteria,isoneotype,BM,,Merrill,Spec. Blanc. 644,,"Philippines, Luzon, Rizal Province",,Philippines,"Neotype, p.300",Isoneotype (Merrill 1918)
+Guioa koelreuteria,isoneotype,F,,Merrill,Spec. Blanc. 644,,"Philippines, Luzon, Rizal Province",,Philippines,"Neotype, p.300",Isoneotype (Merrill 1918)
+Guioa koelreuteria,isoneotype,K,,Merrill,Spec. Blanc. 644,,"Philippines, Luzon, Rizal Province",,Philippines,"Neotype, p.300",Isoneotype (Merrill 1918)
+Guioa koelreuteria,isoneotype,L,,Merrill,Spec. Blanc. 644,,"Philippines, Luzon, Rizal Province",,Philippines,"Neotype, p.300",Isoneotype (Merrill 1918)
+Guioa koelreuteria,isoneotype,NY,,Merrill,Spec. Blanc. 644,,"Philippines, Luzon, Rizal Province",,Philippines,"Neotype, p.300",Isoneotype (Merrill 1918)
+Guioa koelreuteria,isoneotype,P,,Merrill,Spec. Blanc. 644,,"Philippines, Luzon, Rizal Province",,Philippines,"Neotype, p.300",Isoneotype (Merrill 1918)
+Guioa koelreuteria,isoneotype,W,,Merrill,Spec. Blanc. 644,,"Philippines, Luzon, Rizal Province",,Philippines,"Neotype, p.300",Isoneotype (Merrill 1918)
+Guioa pleuropteris,holotype,L,,Korthals,s.n.,,Borneo,,,"Type, p.300","Basionym Cupania pleuropteris Blume. DOUBT: isotypes list includes L as well as the holotype L"
+Guioa pleuropteris,isotype,L,,Korthals,s.n.,,Borneo,,,"Type, p.300","Isotype L as printed; same herbarium as the holotype (L), possible duplicate/slip"
+Guioa pleuropteris,isotype,W,,Korthals,s.n.,,Borneo,,,"Type, p.300",
+Guioa pleuropteris,figure specimen,,,Davidson,1325,,,,,"Figure caption, p.301","Fig. 10 A, C"
+Guioa pleuropteris,figure specimen,,,Maxwell,81-34,,,,,"Figure caption, p.301",Fig. 10 B
+Guioa pterorhachis,holotype,L,,Elmer,20268,,"Borneo, Sabah",Sabah,,"Type, p.303",""
+Guioa pterorhachis,isotype,BM,,Elmer,20268,,"Borneo, Sabah",Sabah,,"Type, p.303",
+Guioa pterorhachis,isotype,F,,Elmer,20268,,"Borneo, Sabah",Sabah,,"Type, p.303",
+Guioa pterorhachis,isotype,K,,Elmer,20268,,"Borneo, Sabah",Sabah,,"Type, p.303",
+Guioa pterorhachis,isotype,M,,Elmer,20268,,"Borneo, Sabah",Sabah,,"Type, p.303",
+Guioa pterorhachis,isotype,NSW,,Elmer,20268,,"Borneo, Sabah",Sabah,,"Type, p.303",
+Guioa pterorhachis,isotype,P,,Elmer,20268,,"Borneo, Sabah",Sabah,,"Type, p.303",
+Guioa pterorhachis,isotype,U,,Elmer,20268,,"Borneo, Sabah",Sabah,,"Type, p.303",
+Guioa pubescens,holotype,L,,Zollinger,1105,,Java,,,"Type, p.303","Basionym Sapindus pubescens Zoll. & Moritzi"
+Guioa pubescens,isotype,A,,Zollinger,1105,,Java,,,"Type, p.303",
+Guioa pubescens,isotype,BM,,Zollinger,1105,,Java,,,"Type, p.303",
+Guioa pubescens,isotype,FI,,Zollinger,1105,,Java,,,"Type, p.303",
+Guioa pubescens,isotype,P,,Zollinger,1105,,Java,,,"Type, p.303",
+Harpullia arborea,neotype,A,,Merrill,Sp. Blanc. 339,,"Philippines, Luzon, Bulacan Province, Angat",,Philippines,"Neotype, p.307","Neotype (Merrill, 1918); basionym Ptelea arborea Blanco; printed ""Sp. Blanc."" here (""Spec. Blanc."" on pp. 279, 300) = Species Blancoanae"
+Harpullia arborea,isoneotype,BM,,Merrill,Sp. Blanc. 339,,"Philippines, Luzon, Bulacan Province, Angat",,Philippines,"Neotype, p.307",Isoneotype (Merrill 1918)
+Harpullia arborea,isoneotype,BO,,Merrill,Sp. Blanc. 339,,"Philippines, Luzon, Bulacan Province, Angat",,Philippines,"Neotype, p.307",Isoneotype (Merrill 1918)
+Harpullia arborea,isoneotype,K,,Merrill,Sp. Blanc. 339,,"Philippines, Luzon, Bulacan Province, Angat",,Philippines,"Neotype, p.307",Isoneotype (Merrill 1918)
+Harpullia arborea,isoneotype,L,,Merrill,Sp. Blanc. 339,,"Philippines, Luzon, Bulacan Province, Angat",,Philippines,"Neotype, p.307",Isoneotype (Merrill 1918)
+Harpullia arborea,isoneotype,NSW,,Merrill,Sp. Blanc. 339,,"Philippines, Luzon, Bulacan Province, Angat",,Philippines,"Neotype, p.307",Isoneotype (Merrill 1918)
+Harpullia arborea,isoneotype,P,,Merrill,Sp. Blanc. 339,,"Philippines, Luzon, Bulacan Province, Angat",,Philippines,"Neotype, p.307",Isoneotype (Merrill 1918)
+Harpullia arborea,isoneotype,US,,Merrill,Sp. Blanc. 339,,"Philippines, Luzon, Bulacan Province, Angat",,Philippines,"Neotype, p.307",Isoneotype (Merrill 1918)
+Harpullia arborea,isoneotype,W,,Merrill,Sp. Blanc. 339,,"Philippines, Luzon, Bulacan Province, Angat",,Philippines,"Neotype, p.307",Isoneotype (Merrill 1918)
+Harpullia arborea,figure specimen,,,PNH,12482,,,,,"Figure caption, p.306","Fig. 11 A; series code"
+Harpullia arborea,figure specimen,,,van Beusekom et al.,2862,,,,,"Figure caption, p.306",Fig. 11 B–C
+Harpullia cupanioides,holotype,K,,Roxburgh,s.n.,1813,Bangladesh,,Bangladesh,"Type, p.307",
+Harpullia cupanioides,isotype,A,,Roxburgh,s.n.,1813,Bangladesh,,Bangladesh,"Type, p.307",
+Harpullia cupanioides,isotype,BO,,Roxburgh,s.n.,1813,Bangladesh,,Bangladesh,"Type, p.307",
+Harpullia cupanioides,figure specimen,,,Waterhouse,36 B,,,,,"Figure caption, p.306","Fig. 11 D–E"
+Lepisanthes alata,lectotype,L,,Korthals,s.n.,,S Borneo,,,"Lectotype, p.311","Lectotype (Leenhouts, 1969); basionym Otophora alata Blume"
+Lepisanthes alata,figure specimen,,,S.,40142,,,,,"Figure caption, p.312","Fig. 12 G; series code (Sarawak)"
+Lepisanthes alata,type,,,Orolfo,1319,,Sabah,Sabah,,"Notes, p.313","Printed ""Orolfo 1319 from Sabah, (type of Otophora edulis)""; type of Otophora edulis (synonym of L. alata); repository not printed"
+Lepisanthes amoena,type,L,,Reinwardt,s.n.,,Java,,,"Type, p.313","No status word printed; basionym Melicoccus amoenus Hassk."
+Lepisanthes amoena,figure specimen,,,Danser,5474,,,,,"Figure caption, p.312","Fig. 12 A–B"
+Lepisanthes amoena,figure specimen,,,Wirawan,63,,,,,"Figure caption, p.312",Fig. 12 C
+Lepisanthes divaricata,holotype,M,,Anon.,s.n.,,"Borneo, Sarawak",Sarawak,,"Type, p.316","Basionym Otophora divaricata Radlk. (Type paragraph follows the basionym; synonym Otophora pyramidalis follows without a type). Collector printed ""Anon."". Compare Notes p.317: Native collector 375 is ""Type of Otophora pyramidalis"" - relation to this Anon., s.n. not stated"
+Lepisanthes divaricata,isotype,SAR,,Anon.,s.n.,,"Borneo, Sarawak",Sarawak,,"Type, p.316",
+Lepisanthes divaricata,type,,,Native collector,375,,,,,"Notes, p.317","Printed ""Native collector 375 (Type of Otophora pyramidalis Radlk.)""; type of Otophora pyramidalis (synonym of L. divaricata); repository not printed; specimen said to be intermediate between forma divaricata and forma lunduensis"
+Lepisanthes divaricata forma divaricata,figure specimen,,,S.,17527,,,,,"Figure caption, p.315","Fig. 13 A–F; series code (Sarawak)"
+Lepisanthes divaricata forma divaricata,figure specimen,,,Rehal,13015,,,,,"Figure caption, p.315",Fig. 13 G
+Lepisanthes divaricata forma lunduensis,holotype,M,,Foxworthy,17,,Borneo Sarawak,Sarawak,,"Type, p.316","Basionym Otophora lunduensis Radlk.; locality printed without comma (""Borneo Sarawak"")"
+Lepisanthes falcata,lectotype,M,,Rosenbluth,FB 12631,,"Philippines, Leyte",,Philippines,"Lectotype, p.317","Lectotype (Leenhouts, 1969); basionym Hebecoccus falcatus Radlk.; species-level type (typical subspecies falcata is Philippine)"
+Lepisanthes falcata,isolectotype,L,,Rosenbluth,FB 12631,,"Philippines, Leyte",,Philippines,"Lectotype, p.317",
+Lepisanthes falcata subsp. borneensis,holotype,L,,"Chew, Corner & Stainton",RSNB 2936,,"Borneo, Sabah",Sabah,,"Type, p.317","Basionym Lepisanthes borneensis Leenh.; RSNB = Royal Society North Borneo expedition series"
+Lepisanthes falcata subsp. borneensis,isotype,BO,,"Chew, Corner & Stainton",RSNB 2936,,"Borneo, Sabah",Sabah,,"Type, p.317",
+Lepisanthes falcata subsp. borneensis,isotype,SAR,,"Chew, Corner & Stainton",RSNB 2936,,"Borneo, Sabah",Sabah,,"Type, p.317",
+Lepisanthes falcata subsp. borneensis,figure specimen,,,Podzorski,SMHI 618,,,,,"Figure caption, p.312",Fig. 12 H
+Lepisanthes fruticosa,type,CAL,,Roxburgh,s.n.,,Hort. Bot. Calcutta (introduced from the Moluccas),,,"Type, p.318","No status word printed; printed ""(CAL, n.v.)"" = not seen by the authors; basionym Sapindus fruticosa Roxb."
+Lepisanthes fruticosa,figure specimen,,,Nooteboom,1323,,,,,"Figure caption, p.312",Fig. 12 E
+Lepisanthes kinabaluensis,holotype,K,,Chew & Corner,RSNB 4998,,"Borneo, Sabah, Mt. Kinabalu, Mesilau river",Sabah,,"Type, p.319","RSNB series code"
+Lepisanthes kinabaluensis,isotype,L,,Chew & Corner,RSNB 4998,,"Borneo, Sabah, Mt. Kinabalu, Mesilau river",Sabah,,"Type, p.319",
+Lepisanthes kinabaluensis,figure specimen,,,RSNB,4998,,,,,"Figure caption, p.320","Fig. 14 A–B; series code; same number as the holotype (Chew & Corner RSNB 4998)"
+Lepisanthes kinabaluensis,figure specimen,,,RSNB,,,,,,"Figure caption, p.320","Fig. 14 C–G; caption text is truncated in the source (ends ""C–G from RSNB""), number not printed (checked in PDF text layer)"
+Lepisanthes multijuga,type,K,,Motley,328,,"Borneo, Labuan",,,"Type, p.321","No status word printed; basionym Nephelium multijuga Hook. f."
+Lepisanthes multijuga,figure specimen,,,Kokawa & Hotta,2329,,,,,"Figure caption, p.312",Fig. 12 I
+Lepisanthes ramiflora,lectotype,FI,,Beccari,PB 364,,"Borneo, Sarawak",Sarawak,,"Lectotype, p.322","Lectotype (Leenhouts, 1969); basionym Otophora ramiflora Radlk."
+Lepisanthes rubiginosa,figure specimen,,,Kartawinata,683,,,,,"Figure caption, p.312","Fig. 12 F. Note: cited Type is a published plate (Roxb. Pl. Corom. 1 (1796) t. 62), not a specimen, so no type row"
+Lepisanthes senegalensis,type,P,Herb. Jussieu 11386,Adanson & Geoffroi f.,s.n.,,Senegal,,Senegal,"Type, p.324","No status word printed; basionym Sapindus senegalensis Juss. ex Poir."
+Lepisanthes senegalensis,figure specimen,,,Kostermans,60,,,,,"Figure caption, p.312",Fig. 12 D
+Lepisanthes tetraphylla,type,C,,Koenig,s.n.,,India,,India,"Type, p.325","No status word printed; printed ""Koenig, s.n., Herb. Vahl, India (C)""; basionym Sapindus tetraphylla Vahl"
+Lepisanthes tetraphylla,figure specimen,,,SAN,25591,,,,,"Figure caption, p.312","Fig. 12 J; series code"
+Litchi chinensis,type,G,,Sonnerat,1062,,China,,China,"Type, p.327","No status word printed; printed ""Type: Sonnerat 1062, China (G, P)"""
+Litchi chinensis,type,P,,Sonnerat,1062,,China,,China,"Type, p.327","No status word printed; printed ""Type: Sonnerat 1062, China (G, P)"""
+Litchi chinensis,figure specimen,,,FRI,36409,,,,,"Figure caption, p.328","Fig. 15 A; series code"
+Litchi chinensis,figure specimen,,,FRI,27888,,,,,"Figure caption, p.328","Fig. 15 B–D; series code"
+Mischocarpus pentapetalus,holotype,BM,,M.R. Smith,3041?,1811,India,,India,"Type, p.330","Printed ""M.R. Smith (3041?), 1811, India ( holotype BM)""; record number uncertain as printed; stray space in ""( holotype"" read per source_fixes p.330; basionym Schleichera pentapetala Roxb."
+Mischocarpus pentapetalus,figure specimen,,,PNH,34128,,,,,"Figure caption, p.331","Fig. 16 F; series code"
+Mischocarpus sundaicus,lectotype,L,908.269–749,Anonymous,s.n.,,"Java, Nusa Kambangan",,,"Lectotype, p.332","Lectotype (van der Ham 1977); printed ""Anonymous, s.n. (= L. sheet no. 908.269–749)"""
+Mischocarpus sundaicus,figure specimen,,,SAN,50950,,,,,"Figure caption, p.331","Fig. 16 A–B; series code"
+Mischocarpus sundaicus,figure specimen,,,SAN,116099,,,,,"Figure caption, p.331","Fig. 16 C–D; series code"
+Mischocarpus sundaicus,figure specimen,,,SAN,121647,,,,,"Figure caption, p.331","Fig. 16 E; series code"
+Nephelium aculeatum,holotype,L,,Meijer,SAN 48559,,"Borneo, Sabah",Sabah,,"Type, p.336","SAN series code"
+Nephelium aculeatum,isotype,K,,Meijer,SAN 48559,,"Borneo, Sabah",Sabah,,"Type, p.336",
+Nephelium aculeatum,isotype,SAN,,Meijer,SAN 48559,,"Borneo, Sabah",Sabah,,"Type, p.336","Herbarium code SAN (Sandakan)"
+Nephelium compressum,holotype,M,,Beccari,PB 1268,,"Borneo, Sarawak",Sarawak,,"Type, p.336","Same specimen is the source of Fig. 17 D (caption cites Beccari PB 1268)"
+Nephelium compressum,isotype,BO,,Beccari,PB 1268,,"Borneo, Sarawak",Sarawak,,"Type, p.336",
+Nephelium compressum,isotype,FI,,Beccari,PB 1268,,"Borneo, Sarawak",Sarawak,,"Type, p.336",
+Nephelium compressum,isotype,K,,Beccari,PB 1268,,"Borneo, Sarawak",Sarawak,,"Type, p.336",
+Nephelium compressum,isotype,NY,,Beccari,PB 1268,,"Borneo, Sarawak",Sarawak,,"Type, p.336",
+Nephelium compressum,figure specimen,,,Beccari,PB 1268,,,,,"Figure caption, p.337","Fig. 17 D; same specimen as the type (Beccari PB 1268)"
+Nephelium cuspidatum,type,L,"908. 269-1369, 1389, 1470 and 1490",Korthals,s.n.,,Borneo,,,"Type, p.338","No status word printed; printed ""Korthals, s.n. (= L. sheet no. 908. 269-1369, 1389, 1470 and 1490)"" (four sheets); species-level type"
+Nephelium cuspidatum,figure specimen,,,S.,27687,,,,,"Figure caption, p.337","Fig. 17 E; series code (Sarawak)"
+Nephelium cuspidatum var. robustum,holotype,M,,Elmer,12934,,"Philippines, Palawan, Puerto Princesa, Mt. Pulgar",,Philippines,"Type, p.339","Basionym Nephelium robustum Radlk."
+Nephelium cuspidatum var. robustum,isotype,BO,,Elmer,12934,,"Philippines, Palawan, Puerto Princesa, Mt. Pulgar",,Philippines,"Type, p.339",
+Nephelium cuspidatum var. robustum,isotype,FI,,Elmer,12934,,"Philippines, Palawan, Puerto Princesa, Mt. Pulgar",,Philippines,"Type, p.339",
+Nephelium cuspidatum var. robustum,isotype,L,,Elmer,12934,,"Philippines, Palawan, Puerto Princesa, Mt. Pulgar",,Philippines,"Type, p.339",
+Nephelium cuspidatum var. robustum,isotype,NY,,Elmer,12934,,"Philippines, Palawan, Puerto Princesa, Mt. Pulgar",,Philippines,"Type, p.339",
+Nephelium cuspidatum var. robustum,isotype,U,,Elmer,12934,,"Philippines, Palawan, Puerto Princesa, Mt. Pulgar",,Philippines,"Type, p.339",
+Nephelium cuspidatum var. eriopetalum,lectotype,L,908. 269–1390,Junghuhn,s.n.,,Sumatra,,,"Lectotype, p.340","Lectotype (Leenhouts, 1986); printed ""Junghuhn, s.n. (= L. sheet no. 908. 269–1390)""; basionym Nephelium eriopetalum Miq."
+Nephelium cuspidatum var. multinerve,type,FI,,Beccari,PB 2820,,"Borneo, Sarawak",Sarawak,,"Type, p.340","No status word printed; basionym Nephelium multinerve Radlk."
+Nephelium cuspidatum var. ophioides subvar. beccarianum,holotype,B,,Maingay,"KD 543, p.p.",,Malacca,,,"Type, p.340","Type of basionym Nephelium ophelioides Radlk.; holotype B destroyed; infraspecific heading printed ""var. ophioides ... subvar. beccarianum"" while the basionym is spelled ophelioides; this paragraph lists two basionyms (var. and subvar.)"
+Nephelium cuspidatum var. ophioides subvar. beccarianum,isotype,K,,Maingay,"KD 543, p.p.",,Malacca,,,"Type, p.340","Type of basionym Nephelium ophelioides Radlk."
+Nephelium cuspidatum var. ophioides subvar. beccarianum,lectotype,FI,,Beccari,PB 2279,,"Borneo, Sarawak, Mt. Matang",Sarawak,,"Lectotype, p.340","Lectotype (Leenhouts, 1986); type of basionym Nephelium beccarianum Radlk."
+Nephelium daedaleum,holotype,FI,,Beccari,PB 2818,,"Borneo, Sarawak",Sarawak,,"Type, p.341",
+Nephelium daedaleum,isotype,K,,Beccari,PB 2818,,"Borneo, Sarawak",Sarawak,,"Type, p.341",
+Nephelium daedaleum,figure specimen,,,SAN,50490,,,,,"Figure caption, p.337","Fig. 17 F; series code"
+Nephelium havilandii,holotype,K,,Haviland,2241,,"Borneo, Sarawak",Sarawak,,"Type, p.341",
+Nephelium havilandii,isotype,L,,Haviland,2241,,"Borneo, Sarawak",Sarawak,,"Type, p.341",
+Nephelium havilandii,isotype,SING,,Haviland,2241,,"Borneo, Sarawak",Sarawak,,"Type, p.341",
+Nephelium lappaceum,neotype,L,,Bogor Botanic Garden,III.H.10,,Bogor Botanic Garden,,,"Neotype, p.342","Neotype (Leenhouts, 1986); printed ""Bogor Botanic Garden III.H.10 (= Carocci-Buzi 190, Nedi 12, Sutrisno 71)""; cultivated garden accession"
+Nephelium lappaceum,isoneotype,BO,,Bogor Botanic Garden,III.H.10,,Bogor Botanic Garden,,,"Neotype, p.342","Isoneotype (Leenhouts, 1986); = Carocci-Buzi 190, Nedi 12, Sutrisno 71"
+Nephelium lappaceum,isoneotype,M,,Bogor Botanic Garden,III.H.10,,Bogor Botanic Garden,,,"Neotype, p.342","Isoneotype (Leenhouts, 1986); = Carocci-Buzi 190, Nedi 12, Sutrisno 71"
+Nephelium lappaceum,isoneotype,NY,,Bogor Botanic Garden,III.H.10,,Bogor Botanic Garden,,,"Neotype, p.342","Isoneotype (Leenhouts, 1986); = Carocci-Buzi 190, Nedi 12, Sutrisno 71"
+Nephelium lappaceum,isoneotype,U,,Bogor Botanic Garden,III.H.10,,Bogor Botanic Garden,,,"Neotype, p.342","Isoneotype (Leenhouts, 1986); = Carocci-Buzi 190, Nedi 12, Sutrisno 71"
+Nephelium lappaceum var. pallens,lectotype,K,,Maingay,"1527 = KD 454, p.p.",,Malacca,,,"Lectotype, p.343","Lectotype (Leenhouts, 1986); printed ""Maingay 1527 = KD 454, p.p.""; basionym Nephelium mutabile Blume var. pallens Hiern"
+Nephelium lappaceum var. xanthioides,type,FI,,Beccari,PB 2849,,"Borneo, Sarawak",Sarawak,,"Type, p.344","No status word printed; basionym Nephelium xanthioides Radlk."
+Nephelium macrophyllum,holotype,FI,,Beccari,PB 2500,,"Borneo, Sarawak",Sarawak,,"Type, p.344",
+Nephelium macrophyllum,isotype,M,,Beccari,PB 2500,,"Borneo, Sarawak",Sarawak,,"Type, p.344",
+Nephelium macrophyllum,isotype,NY,,Beccari,PB 2500,,"Borneo, Sarawak",Sarawak,,"Type, p.344",
+Nephelium maingayi,syntype,K,,Maingay,1120,,Malaya,,Malaya,"Type, p.345","Printed ""Syntypes: Maingay 1120, 1120A, 1524A, Malaya (K)"""
+Nephelium maingayi,syntype,K,,Maingay,1120A,,Malaya,,Malaya,"Type, p.345","Printed ""Syntypes: Maingay 1120, 1120A, 1524A, Malaya (K)"""
+Nephelium maingayi,syntype,K,,Maingay,1524A,,Malaya,,Malaya,"Type, p.345","Printed ""Syntypes: Maingay 1120, 1120A, 1524A, Malaya (K)"""
+Nephelium maingayi,figure specimen,,,SAN,65365,,,,,"Figure caption, p.337","Fig. 17 A–B; series code"
+Nephelium maingayi,figure specimen,,,SAN,38799,,,,,"Figure caption, p.337","Fig. 17 C; series code"
+Nephelium meduseum,holotype,K,,Yii,S. 41142,,"Borneo, Sarawak, 1st Div., G. Gaharu, Sabal FR",Sarawak,,"Type, p.347","S. = Sarawak series code"
+Nephelium meduseum,isotype,KEP,,Yii,S. 41142,,"Borneo, Sarawak, 1st Div., G. Gaharu, Sabal FR",Sarawak,,"Type, p.347",
+Nephelium meduseum,isotype,L,,Yii,S. 41142,,"Borneo, Sarawak, 1st Div., G. Gaharu, Sabal FR",Sarawak,,"Type, p.347",
+Nephelium meduseum,isotype,MO,,Yii,S. 41142,,"Borneo, Sarawak, 1st Div., G. Gaharu, Sabal FR",Sarawak,,"Type, p.347",
+Nephelium meduseum,isotype,SAN,,Yii,S. 41142,,"Borneo, Sarawak, 1st Div., G. Gaharu, Sabal FR",Sarawak,,"Type, p.347",
+Nephelium meduseum,isotype,SAR,,Yii,S. 41142,,"Borneo, Sarawak, 1st Div., G. Gaharu, Sabal FR",Sarawak,,"Type, p.347",
+Nephelium meduseum,figure specimen,,,S.,32399,,,,,"Figure caption, p.346","Fig. 18 B; series code (Sarawak)"
+Nephelium melanomiscum,type,FI,,Beccari,PB 3918,,"Borneo, Sarawak, Rejang river",Sarawak,,"Type, p.347","No status word printed"
+Nephelium papillatum,holotype,L,,Mikil,SAN 41845,,"Borneo, Sabah, Tambunan Dist., Mt. Trus Madi",Sabah,,"Type, p.348","SAN series code; same number is cited for Fig. 18 A"
+Nephelium papillatum,isotype,SAN,,Mikil,SAN 41845,,"Borneo, Sabah, Tambunan Dist., Mt. Trus Madi",Sabah,,"Type, p.348","Herbarium code SAN (Sandakan)"
+Nephelium papillatum,figure specimen,,,SAN,41845,,,,,"Figure caption, p.346","Fig. 18 A; series code; same specimen as the type (Mikil SAN 41845)"
+Nephelium ramboutan-ake,type,P,Herb. Jussieu 11382,,,,,,,"Type, p.348","No status word printed; no collector or number, only Herb. Jussieu 11382; basionym Litchi ramboutan-ake Labill."
+Nephelium ramboutan-ake,figure specimen,,,FRI,10648,,,,,"Figure caption, p.346","Fig. 18 C; series code"
+Nephelium reticulatum,type,FI,,Beccari,PB 2819,,"Borneo, Sarawak",Sarawak,,"Type, p.350","No status word printed"
+Nephelium subfalcatum,holotype,M,,Forbes,3092,,"Sumatra, Palembang, Rawas river",,,"Type, p.351",
+Nephelium subfalcatum,isotype,K,,Forbes,3092,,"Sumatra, Palembang, Rawas river",,,"Type, p.351",
+Nephelium subfalcatum,isotype,L,,Forbes,3092,,"Sumatra, Palembang, Rawas river",,,"Type, p.351",
+Nephelium subfalcatum,isotype,SING,,Forbes,3092,,"Sumatra, Palembang, Rawas river",,,"Type, p.351",
+Nephelium uncinatum,holotype,M,,Elmer,21708,,"Borneo, Sabah, Tawau",Sabah,,"Type, p.351",
+Nephelium uncinatum,isotype,BO,,Elmer,21708,,"Borneo, Sabah, Tawau",Sabah,,"Type, p.351",
+Nephelium uncinatum,isotype,L,,Elmer,21708,,"Borneo, Sabah, Tawau",Sabah,,"Type, p.351",
+Nephelium uncinatum,isotype,NY,,Elmer,21708,,"Borneo, Sabah, Tawau",Sabah,,"Type, p.351",
+Nephelium uncinatum,isotype,SING,,Elmer,21708,,"Borneo, Sabah, Tawau",Sabah,,"Type, p.351",
+Nephelium uncinatum,isotype,U,,Elmer,21708,,"Borneo, Sabah, Tawau",Sabah,,"Type, p.351",
+Nephelium uncinatum,figure specimen,,,Hotta,12984,,,,,"Figure caption, p.346",Fig. 18 D
+Paranephelium joannis,holotype,L,,Endert,3460,,"Central E Borneo, W Kutei, near Petah",,,"Type, p.353",
+Paranephelium joannis,figure specimen,,,Kostermans,12670,,,,,"Figure caption, p.354",Fig. 19 E
+Paranephelium xestophyllum,lectotype,L,,Teijsmann,HB 4218,,"Sumatra, Lampong Province, G. Batin",,,"Lectotype, p.355","Lectotype (Davids, 1984); HB series code"
+Paranephelium xestophyllum,isolectotype,K,,Teijsmann,HB 4218,,"Sumatra, Lampong Province, G. Batin",,,"Lectotype, p.355","Isolectotype (Davids, 1984)"
+Paranephelium xestophyllum,figure specimen,,,Whitmore & Kade,3311,,,,,"Figure caption, p.354",Fig. 19 A
+Paranephelium xestophyllum,figure specimen,,,SAN,79936,,,,,"Figure caption, p.354","Fig. 19 B; series code"
+Paranephelium xestophyllum,figure specimen,,,Kostermans,13238,,,,,"Figure caption, p.354",Fig. 19 C
+Paranephelium xestophyllum,figure specimen,,,Boerlage,s.n.,,,,,"Figure caption, p.354","Fig. 19 D; printed ""Boerlage, s.n."""
+Pometia pinnata,holotype,BM,,Forster,s.n.,,"New Hebrides, Namoka",,New Hebrides,"Type, p.357",
+Pometia pinnata,isotype,W,,Forster,s.n.,,"New Hebrides, Namoka",,New Hebrides,"Type, p.357",
+Pometia pinnata,figure specimen,,,Hoogland,5048,,,,,"Figure caption, p.358",Fig. 20 A
+Pometia pinnata,figure specimen,,,King's coll.,s.n.,,,,,"Figure caption, p.358","Fig. 20 B; printed ""King’s coll., s.n."""
+Pometia pinnata,figure specimen,,,Clemens,5329,,,,,"Figure caption, p.358",Fig. 20 C
+Pometia ridleyi,holotype,CAL,,Goodenough,1099,,Malaya,,Malaya,"Type, p.359",
+Pometia ridleyi,isotype,K,,Goodenough,1099,,Malaya,,Malaya,"Type, p.359",
+Pometia ridleyi,isotype,M,,Goodenough,1099,,Malaya,,Malaya,"Type, p.359",
+Pometia ridleyi,isotype,SING,,Goodenough,1099,,Malaya,,Malaya,"Type, p.359",
+Rhysotoechia koordersii,holotype,M,,Koorders,18844,,"Celebes, Menado",,,"Type, p.360",
+Rhysotoechia koordersii,isotype,BO,,Koorders,18844,,"Celebes, Menado",,,"Type, p.360",
+Rhysotoechia koordersii,isotype,K,,Koorders,18844,,"Celebes, Menado",,,"Type, p.360",
+Rhysotoechia koordersii,isotype,L,,Koorders,18844,,"Celebes, Menado",,,"Type, p.360",
+Rhysotoechia koordersii,figure specimen,,,SAN,92985,,,,,"Figure caption, p.361","Fig. 21 A–B (whole figure; caption ""From SAN 92985""); series code"
+Trigonachras acuta,holotype,K,,Maingay,KD 445,,Malay Peninsula,,,"Type, p.363","Printed ""Types:"" (plural) with a single collection; basionym Cupania acuta Hiern"
+Trigonachras acuta,isotype,CGE,,Maingay,KD 445,,Malay Peninsula,,,"Type, p.363",
+Trigonachras acuta,isotype,L,,Maingay,KD 445,,Malay Peninsula,,,"Type, p.363",
+Trigonachras acuta,figure specimen,,,SAN,40845,,,,,"Figure caption, p.364","Fig. 22 A–B (whole figure; caption ""From SAN 40845""); series code"
+Tristiropsis ferruginea,holotype,SING,,Carr,SF 27276,,Borneo,,,"Type, p.366","SF series code"
+Tristiropsis ferruginea,figure specimen,,,Kostermans,21330,,,,,"Figure caption, p.367",Fig. 23 A
+Tristiropsis ferruginea,figure specimen,,,Anderson,4626,,,,,"Figure caption, p.367",Fig. 23 B–C
+Xerospermum laevigatum,holotype,K,,Griffith,KD 1006/1,,Burma,,Burma,"Type, p.369","Species-level type (paragraph precedes the key to subspecies)"
+Xerospermum laevigatum subsp. laevigatum,figure specimen,,,de Wilde & de Wilde-Duyfjes,18907,,,,,"Figure caption, p.370",Fig. 24 A
+Xerospermum laevigatum subsp. acuminatum,holotype,FI,,Beccari,PB 3468,,W Borneo,,,"Type, p.371","Basionym Xerospermum acuminatum Radlk."
+Xerospermum laevigatum subsp. acuminatum,isotype,K,,Beccari,PB 3468,,W Borneo,,,"Type, p.371",
+Xerospermum laevigatum subsp. acuminatum,isotype,P,,Beccari,PB 3468,,W Borneo,,,"Type, p.371",
+Xerospermum laevigatum subsp. acuminatum,figure specimen,,,SAN,27301,,,,,"Figure caption, p.370","Fig. 24 B; series code"
+Xerospermum noronhianum,lectotype,L,908.272-748,Blume,s.n.,,Java,,,"Lectotype, p.371","Lectotype (Leenhouts, 1983); printed ""Blume, s.n. (=L sheet no. 908.272-748)""; basionym Euphoria noronhiana Blume"
+Xerospermum noronhianum,figure specimen,,,Ja,6185,,,,,"Figure caption, p.370",Fig. 24 C
+Xerospermum noronhianum,figure specimen,,,FRI,10748,,,,,"Figure caption, p.370","Fig. 24 D; series code"
+Xerospermum noronhianum,figure specimen,,,Stone & Sidek,12523,,,,,"Figure caption, p.370",Fig. 24 E
+Xerospermum noronhianum,figure specimen,,,KEP,29472,,,,,"Figure caption, p.370","Fig. 24 F; series code"
+Zollingeria borneensis,holotype,L,,Elmer,20888,,"Borneo, Sabah, Tawau",Sabah,,"Type, p.374","Also cited as source of Fig. 25 F–I"
+Zollingeria borneensis,isotype,A,,Elmer,20888,,"Borneo, Sabah, Tawau",Sabah,,"Type, p.374",
+Zollingeria borneensis,isotype,F,,Elmer,20888,,"Borneo, Sabah, Tawau",Sabah,,"Type, p.374",
+Zollingeria borneensis,isotype,U,,Elmer,20888,,"Borneo, Sabah, Tawau",Sabah,,"Type, p.374",
+Zollingeria borneensis,figure specimen,,,SAN,90057,,,,,"Figure caption, p.373","Fig. 25 A–E; series code"
+Zollingeria borneensis,figure specimen,,,Elmer,20888,,,,,"Figure caption, p.373","Fig. 25 F–I; same specimen as the type (Elmer 20888)"

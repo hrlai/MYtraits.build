@@ -1,0 +1,7 @@
+pattern,replacement,page,reason
+"14– ?18\.5 × \(7–\)9–12,","14–18.5 × (7–)9–12 cm,",68,"E. fraseri lamina measurement omits cm."
+"\s*\(including acumen\)","",,"Exclude acumen aside from dimension matching without changing measured length."
+"\(–(\d+(?:\.\d+)?) (cm|mm)\) long","(–\1) \2 long",,"Move units out of parenthetical measurement extremes."
+"\s*\(elsewhere[^()]*(\([^()]*\))?[^()]*\)","",,"Exclude statements explicitly describing taxa elsewhere."
+"(?<=; )leaves sessile or petioles",petioles,82,"E. ngii petiole length follows a sessile-leaf alternative."
+axi1s,axils,126,"S. sigun has digit 1 in place of letter l."

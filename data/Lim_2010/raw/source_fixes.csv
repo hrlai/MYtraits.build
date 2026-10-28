@@ -1,0 +1,5 @@
+pattern,replacement,page,reason
+megaporophylls,megasporophylls,66,"A. flavescens misspells megasporophylls."
+diameter Inner bark,diameter. Inner bark,66,"A. flavescens omits full stop before Inner bark."
+"longer than broad; c\.","longer than broad, wing c.",66,"A. flavescens wing dimension otherwise reads as seed dimension."
+"\s*\(elsewhere[^()]*(\([^()]*\))?[^()]*\)","",,"Exclude statements explicitly describing taxa elsewhere."

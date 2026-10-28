@@ -1,3 +1,6 @@
+inst/extdata/sid/*.csv
+inst/extdata/myflora/
+
 # data not yet ready to publicise
 data/Kaye_2013/raw/*.xlsx
 data/Kaye_2013/raw/*.docx

@@ -1,0 +1,759 @@
+source:
+  primary:
+    key: Berhaman_1995
+    bibtype: InBook
+    year: 1995
+    author: A. Berhaman
+    title: Bignoniaceae
+    booktitle: Tree Flora of Sabah and Sarawak, Volume 1
+    editor: E. Soepadmo and K. M. Wong
+    publisher:
+      Sabah Forestry Department and Forest Research Institute Malaysia and
+      Sarawak Forestry Department
+    place: Kepong, Malaysia
+    pages: 33--44
+    isbn: 983-9592-34-3
+contributors:
+  data_collectors:
+    - last_name: Berhaman
+      given_name: A.
+      ORCID: .na
+      affiliation: Forest Research Centre, Sabah Forestry Department, Sandakan, Malaysia
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '1995'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description: |
+    To describe the morphology, distribution and ecology of the Bignoniaceae
+    of Sabah and Sarawak, represented by Deplanchea (1 species),
+    Dolichandrone (1), Oroxylum (1), Radermachera (3, one undescribed) and
+    the woody climber genus Nyctocalos (4 unnamed species, key annotation
+    only), as part of the Tree Flora of Sabah and Sarawak.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    Trait values were transcribed by hand (raw/build_trait_data.R, with
+    flora_hand()) from the text layer of the 2007 electronic version of the
+    treatment (L. G. Saw and B. Aslina), clause by clause, from the family,
+    genus and species descriptions and the Ecology and Uses paragraphs. The
+    electronic version has embedded fonts and no page images on its text
+    pages, so the text layer is what renders; every text page was checked
+    against a page render. It is a retyped text, and no scan of the 1995
+    print was available to check it. Keys were not used; figure captions
+    were used for vouchers only. Each value keeps the clause it came from
+    (trait_value_raw), the source term (trait_value) and the page. Several
+    values are listed in text order, and alternatives qualified by a
+    commonness word (usually, rarely) are recorded on separate rows. A
+    measured range is recorded as minimum and maximum values, a single or
+    "c." value as a mean and "to X" as a maximum. Categorical values stated
+    singly and without qualification in the family or genus description are
+    applied to member taxa whose own descriptions are silent, when every
+    member that describes the trait agrees (trait_scoring_method =
+    inferred_from_family / inferred_from_genus).
+  original_file:
+    Bignoniaceae.pdf (Berhaman 1995, Tree Flora of Sabah and Sarawak vol. 1,
+    pp. 33--44; electronic version 2007)
+  notes: |
+    data.csv is raw/trait_data.csv (written by raw/build_trait_data.R) with
+    three columns added by flora_make_data(): value (the source term for
+    categorical traits, mapped with substitutions), trait_scoring_method
+    (from rank_scored_from) and source_id. Taxon names are as printed. Family
+    and genus descriptions are kept as family- and genus-rank records as well
+    as copied to member taxa. Radermachera pinnata has one infraspecific
+    taxon in the region (subsp. acuminata), which carries the description
+    (TFSS guide); its values are recorded at subspecies rank. Radermachera
+    sp. A has no description (differential note only) and Nyctocalos is
+    treated only as an annotation in the key to genera; neither is scored
+    (raw/taxon_flags.csv). Species description values have population
+    region Sabah and Sarawak; copied family and genus values, the family
+    Ecology statements about Oroxylum indicum and the Dolichandrone
+    spathacea wood density (Uses) have none. Source repairs (missing range
+    dashes on p. 42) are in raw/source_fixes.csv. Every clause with no trait
+    in config/traits.yml stays in raw/trait_data.csv as an unmapped record
+    (summary in raw/unmapped_terms.csv): leaflet pair number, vein number
+    and relief, glands and domatia, leaf texture, inner bark, sapwood, young
+    twigs, calyx shape and size, corolla length and width, corolla lobes,
+    stamen exsertion, disc, ovules, style and stigma, fruit shape, seed
+    wing size, nocturnal anthesis, cauliflory, altitude, habitat,
+    distribution, uses and taxonomy. "glands scattered on the flower
+    surface", printed among the leaf clauses of Oroxylum indicum (p. 38), is
+    kept unmapped. Type and figure specimens are listed in
+    raw/Berhaman_1995_vouchers.csv.
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: bark_colour
+    unit_in: .na
+    trait_name: bark_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Outer bark colour; inner bark and sapwood are not scored.
+  - var_in: bark_texture
+    unit_in: .na
+    trait_name: bark_texture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Outer bark surface (smooth, fissured, flaky); fissured scored as furrowed; scaly and lenticellate have no level and stay unmapped.
+  - var_in: dispersal_appendage
+    unit_in: .na
+    trait_name: dispersal_appendage
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Winged seeds.
+  - var_in: dispersal_syndrome
+    unit_in: .na
+    trait_name: dispersal_syndrome
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      From the family Ecology paragraph: the winged seeds are dispersed by wind (anemochory).
+  - var_in: flower_colour
+    unit_in: .na
+    trait_name: flower_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Colour of the corolla or flowers as stated; calyx colour is not scored. Oroxylum indicum outer and inner corolla colours are recorded with entity_measured.
+  - var_in: flower_fertile_stamens_count
+    unit_in: unit
+    trait_name: flower_fertile_stamens_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Stamen number; a fifth rudimentary stamen (Dolichandrone spathacea) is not counted.
+  - var_in: flower_length
+    unit_in: unit
+    trait_name: flower_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Flower length as stated (Oroxylum indicum).
+  - var_in: flower_nectar_production
+    unit_in: .na
+    trait_name: flower_nectar_production
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Nectary usually present (family description).
+  - var_in: flower_orientation
+    unit_in: .na
+    trait_name: flower_orientation
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Flowers erect (Radermachera ramiflora), scored as up.
+  - var_in: flower_ovary_position
+    unit_in: .na
+    trait_name: flower_ovary_position
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Superior ovary (family description).
+  - var_in: flower_perianth_symmetry
+    unit_in: .na
+    trait_name: flower_perianth_symmetry
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Corolla bilaterally symmetrical or zygomorphic.
+  - var_in: flower_scent_production
+    unit_in: .na
+    trait_name: flower_scent_production
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Flowers fragrant or with musky odour.
+  - var_in: flower_shape
+    unit_in: .na
+    trait_name: flower_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Corolla funnel-shaped, campanulate or salver-shaped.
+  - var_in: flower_structural_carpels_count
+    unit_in: unit
+    trait_name: flower_structural_carpels_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Ovary cells, scored as carpels assuming one locule per carpel.
+  - var_in: flower_structural_sex_type
+    unit_in: .na
+    trait_name: flower_structural_sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Flowers bisexual (family description).
+  - var_in: flower_style_length
+    unit_in: unit
+    trait_name: flower_style_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Style length.
+  - var_in: flower_tube_length
+    unit_in: unit
+    trait_name: flower_tube_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Corolla tube length; for Radermachera ramiflora the narrow basal part of the corolla.
+  - var_in: flowering_time
+    unit_in: .na
+    trait_name: flowering_time
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Months of flowering from the Ecology paragraph, as printed (y/n for January to December).
+  - var_in: fruit_dehiscence
+    unit_in: .na
+    trait_name: fruit_dehiscence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Fruit splitting open when ripe (family description).
+  - var_in: fruit_length
+    unit_in: unit
+    trait_name: fruit_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Fruit (capsule) length.
+  - var_in: fruit_type
+    unit_in: .na
+    trait_name: fruit_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Fruit a capsule (genus descriptions).
+  - var_in: fruit_width
+    unit_in: unit
+    trait_name: fruit_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Fruit width; first dimension of 'L x W' read as length.
+  - var_in: fruiting_time
+    unit_in: .na
+    trait_name: fruiting_time
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Months of fruiting from the Ecology paragraph, as printed (y/n for January to December).
+  - var_in: inflorescence_length
+    unit_in: unit
+    trait_name: inflorescence_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Inflorescence length.
+  - var_in: inflorescence_type
+    unit_in: .na
+    trait_name: inflorescence_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Inflorescence position (terminal) and type; thyrse scored as panicle; cauliflory and ramiflory stay unmapped.
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaf or leaflet (entity_measured) apex shape.
+  - var_in: leaf_arrangement
+    unit_in: .na
+    trait_name: leaf_arrangement
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaves crowded at the branch tips.
+  - var_in: leaf_base_shape
+    unit_in: .na
+    trait_name: leaf_base_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaf or leaflet (entity_measured) base shape.
+  - var_in: leaf_compoundness
+    unit_in: .na
+    trait_name: leaf_compoundness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaves simple or pinnate (compound).
+  - var_in: leaf_lamina_division
+    unit_in: .na
+    trait_name: leaf_lamina_division
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Degree of pinnate division (once, 2-, 3-times pinnate); 4-times pinnate has no level and is scored as the highest available level, tripinnate.
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Length of the simple leaf (Deplanchea bancana) or the whole compound leaf (Oroxylum indicum, entity_measured).
+  - var_in: leaf_margin
+    unit_in: .na
+    trait_name: leaf_margin
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaflet margin.
+  - var_in: leaf_phenology
+    unit_in: .na
+    trait_name: leaf_phenology
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      'partly deciduous' (Oroxylum indicum) scored as semi_deciduous.
+  - var_in: leaf_phyllotaxis
+    unit_in: .na
+    trait_name: leaf_phyllotaxis
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaves opposite or whorled.
+  - var_in: leaf_shape
+    unit_in: .na
+    trait_name: leaf_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaf or leaflet (entity_measured) shape; compound terms with no level (ovate-oblong, obovate-elliptic, elliptic-lanceolate) stay unmapped.
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Width of the simple leaf.
+  - var_in: leaflet_length
+    unit_in: unit
+    trait_name: leaflet_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Leaflet length.
+  - var_in: leaflet_width
+    unit_in: unit
+    trait_name: leaflet_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Leaflet width.
+  - var_in: peduncle_length
+    unit_in: unit
+    trait_name: peduncle_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Inflorescence 'stalk' length, scored as peduncle.
+  - var_in: petiole_length
+    unit_in: unit
+    trait_name: petiole_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Petiole (leaf 'stalk') length.
+  - var_in: plant_diameter_breast_height
+    unit_in: unit
+    trait_name: plant_diameter_breast_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Stem diameter as printed; height of measurement not stated.
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Habit (tree, shrub, woody climber).
+  - var_in: plant_height
+    unit_in: unit
+    trait_name: plant_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Plant height.
+  - var_in: pollination_syndrome
+    unit_in: .na
+    trait_name: pollination_syndrome
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family Ecology paragraph: Oroxylum indicum flowers are pollinated by nectarivorous bats.
+  - var_in: seed_colour
+    unit_in: .na
+    trait_name: seed_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Seed colour.
+  - var_in: seed_length
+    unit_in: unit
+    trait_name: seed_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Seed length; the notes say whether the wing is included (included, excluded or not stated).
+  - var_in: seed_width
+    unit_in: unit
+    trait_name: seed_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Seed width; the notes say whether the wing is included (included, excluded or not stated).
+  - var_in: seedling_germination_location
+    unit_in: .na
+    trait_name: seedling_germination_location
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Germination epigeal (family description).
+  - var_in: stem_base_form
+    unit_in: .na
+    trait_name: stem_base_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Buttresses or fluted bole.
+  - var_in: wood_density
+    unit_in: unit
+    trait_name: wood_density
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Wood density of about 480 kg/m3 (Dolichandrone spathacea, Uses paragraph); region and moisture content not stated.
+substitutions:
+  - trait_name: bark_colour
+    find: 'greyish'
+    replace: 'grey'
+  - trait_name: bark_colour
+    find: 'light_brown grey'
+    replace: 'brown_light grey'
+  - trait_name: bark_colour
+    find: 'pale_brown'
+    replace: 'brown_light'
+  - trait_name: bark_colour
+    find: 'whitish'
+    replace: 'white'
+  - trait_name: bark_texture
+    find: 'fissured'
+    replace: 'furrowed'
+  - trait_name: bark_texture
+    find: 'smooth fissured'
+    replace: 'smooth furrowed'
+  - trait_name: dispersal_appendage
+    find: 'wing'
+    replace: 'wings'
+  - trait_name: dispersal_appendage
+    find: 'winged'
+    replace: 'wings'
+  - trait_name: dispersal_syndrome
+    find: 'dispersed by wind'
+    replace: 'anemochory'
+  - trait_name: flower_colour
+    find: 'purplish'
+    replace: 'blue_purple'
+  - trait_name: flower_colour
+    find: 'reddish'
+    replace: 'red_brown'
+  - trait_name: flower_colour
+    find: 'white'
+    replace: 'white_cream'
+  - trait_name: flower_colour
+    find: 'white pale_lilac orange'
+    replace: 'white_cream blue_purple yellow_orange'
+  - trait_name: flower_colour
+    find: 'white pink greenish_yellow'
+    replace: 'white_cream pink green yellow_orange'
+  - trait_name: flower_colour
+    find: 'yellow'
+    replace: 'yellow_orange'
+  - trait_name: flower_colour
+    find: 'yellow red'
+    replace: 'yellow_orange red_brown'
+  - trait_name: flower_colour
+    find: 'yellowish pinkish'
+    replace: 'yellow_orange pink'
+  - trait_name: flower_nectar_production
+    find: 'nectary present'
+    replace: 'nectar_produced'
+  - trait_name: flower_orientation
+    find: 'erect'
+    replace: 'up'
+  - trait_name: flower_perianth_symmetry
+    find: 'bilaterally symmetrical'
+    replace: 'zygomorphic'
+  - trait_name: flower_scent_production
+    find: 'fragrant'
+    replace: 'scent_produced'
+  - trait_name: flower_scent_production
+    find: 'mildly fragrant'
+    replace: 'scent_produced'
+  - trait_name: flower_scent_production
+    find: 'musky odour'
+    replace: 'scent_produced'
+  - trait_name: flower_shape
+    find: 'campanulate salver-shaped'
+    replace: 'campanulate salverform'
+  - trait_name: flower_shape
+    find: 'funnel-shaped'
+    replace: 'funnelform'
+  - trait_name: flower_shape
+    find: 'salver-shaped'
+    replace: 'salverform'
+  - trait_name: fruit_dehiscence
+    find: 'splitting open'
+    replace: 'dehiscent'
+  - trait_name: inflorescence_type
+    find: 'raceme thyrse terminal'
+    replace: 'raceme panicle terminal'
+  - trait_name: inflorescence_type
+    find: 'terminal thyrse'
+    replace: 'terminal panicle'
+  - trait_name: leaf_compoundness
+    find: 'pinnate'
+    replace: 'compound'
+  - trait_name: leaf_compoundness
+    find: 'pinnate simple'
+    replace: 'compound simple'
+  - trait_name: leaf_lamina_division
+    find: '1--2-times pinnate'
+    replace: 'pinnately_compound bipinnate'
+  - trait_name: leaf_lamina_division
+    find: '1--3-times pinnate'
+    replace: 'pinnately_compound bipinnate tripinnate'
+  - trait_name: leaf_lamina_division
+    find: '2--4-times pinnate'
+    replace: 'bipinnate tripinnate'
+  - trait_name: leaf_lamina_division
+    find: '3--4-times pinnate'
+    replace: 'tripinnate'
+  - trait_name: leaf_lamina_division
+    find: '3-times pinnate'
+    replace: 'tripinnate'
+  - trait_name: leaf_lamina_division
+    find: 'once pinnate'
+    replace: 'pinnately_compound'
+  - trait_name: leaf_phenology
+    find: 'partly deciduous'
+    replace: 'semi_deciduous'
+  - trait_name: leaf_phyllotaxis
+    find: 'in whorls'
+    replace: 'whorled'
+  - trait_name: leaf_shape
+    find: 'elliptic'
+    replace: 'elliptical'
+  - trait_name: leaf_shape
+    find: 'elliptic obovate'
+    replace: 'elliptical obovate'
+  - trait_name: leaf_shape
+    find: 'obovate elliptic'
+    replace: 'obovate elliptical'
+  - trait_name: plant_growth_form
+    find: 'trees'
+    replace: 'tree'
+  - trait_name: plant_growth_form
+    find: 'trees shrubs'
+    replace: 'tree shrub'
+  - trait_name: plant_growth_form
+    find: 'trees shrubs woody_climbers'
+    replace: 'tree shrub climber_woody'
+  - trait_name: pollination_syndrome
+    find: 'pollinated by nectarivorous bats'
+    replace: 'bat'
+  - trait_name: seed_colour
+    find: 'dark_grey'
+    replace: 'grey'
+  - trait_name: stem_base_form
+    find: 'buttresses'
+    replace: 'buttressed'
+  - trait_name: stem_base_form
+    find: 'fluted buttresses'
+    replace: 'fluted buttressed'
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1: |
+    Source fixes on p. 42 (Radermachera ramiflora): the electronic version
+    prints "3045 m tall, 3050 cm diameter" and "3.58.5 x 1.53.5 cm" with the
+    range dashes missing (they are missing in the rendered page too). They
+    are read as 30--45 m, 30--50 cm and 3.5--8.5 x 1.5--3.5 cm, the only
+    ascending readings; plant height, stem diameter and leaflet size depend
+    on this. Confirm, ideally against the 1995 print.
+  question2: |
+    R. ramiflora flowers are "erect on curved pedicels of c. 20 cm long"
+    (p. 44) in racemes 11--14 cm long. A 20 cm pedicel is longer than the
+    inflorescence, so the unit may be mm. The clause is kept unmapped and
+    pedicel_length is not scored. Should it be scored as 20 mm, or stay
+    unmapped?
+  question3: |
+    R. ramiflora "Flowering in January to March and around August" (p. 44):
+    "around August" is hedged, so flowering_time is not scored for this
+    taxon (fruiting_time is). Score January--March plus August, January--
+    March only, or leave unscored?
+  question4: |
+    Thyrse ("Inflorescence a terminal thyrse", Deplanchea, Radermachera and
+    R. pinnata subsp. acuminata) is scored as panicle in inflorescence_type,
+    as in Kochummen_1995. Confirm, or leave unmapped.
+  question5: |
+    Degree of leaf division: "2--4-times pinnate" (Oroxylum genus) is scored
+    bipinnate tripinnate and "3--4-times pinnate" (O. indicum) tripinnate,
+    because leaf_lamina_division has no 4-times level. Confirm, or leave
+    these unmapped.
+  question6: |
+    O. indicum "Medium-sized tree, partly deciduous" (p. 38) is scored
+    leaf_phenology = semi_deciduous. Confirm the mapping.
+  question7: |
+    Dolichandrone spathacea wood "density of about 480 kg/m3" comes from the
+    Uses paragraph (p. 38), with no region or moisture content stated; it
+    is scored as wood_density (mean, no population region). Keep, or
+    exclude because its scope is not stated?
+  question8: |
+    Family Ecology (p. 33): "O. indicum has flowers with lurid colour, musky
+    odour, fleshy funnel-shaped corollas, which are pollinated by
+    nectarivorous bats." Scored as pollination_syndrome = bat and
+    flower_scent_production = scent_produced for Oroxylum indicum (no
+    region). Should the bat statement go to pollination_vector_known
+    instead, or both?
+  question9: |
+    Seed sizes are inconsistent about the wing: included for D. spathacea
+    and O. indicum ("including the wing"), excluded for R. ramiflora ("the
+    wing 6--7 mm" given separately), not stated for Deplanchea bancana and
+    R. pinnata subsp. acuminata. All are scored as seed_length and
+    seed_width with the wing status in notes. Keep all, or drop the sizes
+    that include or may include the wing?
+  question10: |
+    Family description mapping: "corolla in most genera bilaterally
+    symmetrical" scored as usually zygomorphic; "stamens 5 ... or (mostly) 4"
+    scored as usually 4 and an unqualified 5; "Leaves generally opposite and
+    ... pinnate, or simple and whorled" kept as one unqualified row per
+    trait (opposite whorled; compound simple) because "generally" qualifies
+    only the first alternative. Confirm.

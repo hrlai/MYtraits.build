@@ -1,0 +1,15 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Agathis borneensis,holotype,B,,O. Beccari,PB 491,,Borneo,,,"Type, p.63",Cited as 'holotype B†': destroyed at Berlin. PB = Beccari's Plantae Bornenses series; country not stated.
+Agathis borneensis,isotype,BM,,O. Beccari,PB 491,,Borneo,,,"Type, p.63",
+Agathis borneensis,isotype,BO,,O. Beccari,PB 491,,Borneo,,,"Type, p.63",
+Agathis borneensis,isotype,FI,,O. Beccari,PB 491,,Borneo,,,"Type, p.63",
+Agathis borneensis,isotype,K,,O. Beccari,PB 491,,Borneo,,,"Type, p.63",
+Agathis borneensis,holotype,BM,,Chr. Smith,,,,,,"Type, p.63","Second 'Type:' in the synonymy, cited after A. loranthifolia, A. dammara and A. alba ('Chr. Smith in Herb. Banks'); type of the synonym(s), not of A. borneensis. No collector number given."
+Agathis borneensis,illustrated specimen,,,FRI,4838,,,,Malaysia,"Figure 1 caption, p.65",Fig. 1G (pollen cone). FRI = Forest Research Institute Malaysia collection series; herbarium not stated (presumably KEP).
+Agathis borneensis,illustrated specimen,,,Wong,WYK 58,,,,,"Figure 1 caption, p.65",Fig. 1H--I (microsporophyll). Cited as 'Wong WYK 58'; herbarium not stated.
+Agathis borneensis,illustrated specimen,,,FRI,93380,,,,Malaysia,"Figure 1 caption, p.65","Fig. 1J--L (seed cone, megasporophyll). FRI collection series; herbarium not stated (presumably KEP)."
+Agathis borneensis,illustrated specimen,,,FRI,20682,,,,Malaysia,"Figure 1 caption, p.65",Fig. 1M (seed). FRI collection series; herbarium not stated (presumably KEP).
+Agathis flavescens,holotype,K,,H.N. Ridley,16023,,G. Tahan,Pahang,Malaysia,"Type, p.66",
+Agathis flavescens,isotype,SING,,H.N. Ridley,16023,,G. Tahan,Pahang,Malaysia,"Type, p.66",
+Agathis flavescens,illustrated specimen,,,FRI,20673,,,,Malaysia,"Figure 1 caption, p.65","Fig. 1A--C (leafy twig with pollen cones, microsporophyll). FRI collection series; herbarium not stated (presumably KEP)."
+Agathis flavescens,illustrated specimen,,,FMS,12196,,,,Malaysia,"Figure 1 caption, p.65",Fig. 1F (seed). FMS = Federated Malay States (forest department) collection series; herbarium not stated.
