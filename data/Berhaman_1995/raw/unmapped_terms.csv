@@ -1,0 +1,117 @@
+organ,character,n_taxa,example_taxon,example_text,printed_page
+,distribution,7,Deplanchea,"5 species, Malesia to N Australia. 1 species in Borneo (Sabah, Sarawak, Brunei, and Kalimantan).",36
+fruit,shape,3,Dolichandrone,subcylindric,37
+inflorescence,"cauliflory, ramiflory",3,Bignoniaceae,sometimes borne on the trunks and branches,33
+flower,anthesis at night,2,Dolichandrone,Flowers ... nocturnal,37
+"inner bark, sapwood","colour, softness",2,Deplanchea bancana,"inner bark yellow to pale brown. Sapwood white to pale yellow, soft.",36
+twigs,lenticels,2,Bignoniaceae,twigs often lenticellate,33
+,habitat; altitude,2,Deplanchea bancana,"In Sabah and Sarawak, it occurs in heath forests on white sands or in peat swamps, in primary and secondary forests, from sea-level to 1000 m.",36
+,habitat; altitude; substrate,2,Radermachera pinnata subsp. acuminata,"Primary and secondary forest, to 800 m, associated with ultramafic soils (Sabah) or limestones (Sarawak).",42
+bark,lenticels,1,Deplanchea bancana,lenticellate,36
+bark,texture 'scaly' (no level),1,Radermachera pinnata subsp. acuminata,Bark scaly,42
+"bark, sapwood","lenticels, softness",1,Deplanchea,Bark often lenticellate. Sapwood soft.,36
+buttress,height,1,Radermachera pinnata subsp. acuminata,buttresses to 2 m high,42
+calyx,"colour, length and width (no calyx trait), glands, lobes",1,Radermachera pinnata subsp. acuminata,"calyx purple, c. 1.5 cm long, c. 1--1.5 cm across, with a few scattered glands outside, lobes 3",42
+calyx,"colour, shape, glands, size (no calyx trait), lobes",1,Radermachera ramiflora,"calyx dull reddish green to dark brown when dry, in the bud pear-shaped with many scattered glands outside especially near the base, 18--21 x 6--8 mm, lobes 3",44
+calyx,glands (note),1,Radermachera ramiflora,"van Steenis l.c. (1977) noted that the calyx is eglandular, but the specimen Chew & Corner RSNB 4290, examined by him, has a few scattered glands outside the calyx.",44
+calyx,"length (no calyx trait), glands, teeth",1,Deplanchea bancana,"calyx 12--16 mm long, with scattered glands, teeth 5",36
+calyx,shape,1,Dolichandrone,"calyx spathaceous, somewhat curved",37
+calyx,"shape, glands, splitting",1,Dolichandrone spathacea,"calyx conical, closed and with hooked apex in bud, with scattered glands, splitting along one side",37
+calyx,"shape, lobes, glands",1,Bignoniaceae,"calyx tubular, subtruncate or with 5 lobes or teeth, closed in bud and later splitting into lobes, often glandular outside",33
+calyx,"texture, length and width (no calyx trait), water, shape, colour, persistence",1,Oroxylum indicum,"calyx coriaceous, 2.5--3.5 cm long, 1.5--2 cm across, containing water in bud, campanulate, dirty brown-violet, becoming almost woody in the fruit",38
+"calyx, corolla","lobes, glands, two-lipped (hedged)",1,Radermachera,"calyx 2--5-lobed, often glandular; corolla 5-lobed, slightly two-lipped",41
+corolla,"glands, curvature, lobes",1,Radermachera ramiflora,"scattered 2--4 glands outside, slightly curved ... lobes 5",44
+corolla,"length (candidate), texture",1,Oroxylum indicum,corolla c. 10 cm long ... fleshy,41
+corolla,length and width (candidate),1,Radermachera pinnata subsp. acuminata,"corolla about 1.5 cm long, c. 1--1.2 cm across",42
+corolla,"length and width (candidate), lobes",1,Deplanchea bancana,"corolla c. 3.5 x 2.5 cm ... 5-lobed, the upper 2 lobes recurved",36
+corolla,lobe number and arrangement,1,Bignoniaceae,"with 5 lobes, 2 on the upper side, 3 on the lower",33
+corolla,lobes (equal),1,Dolichandrone,equally 5-lobed,37
+corolla,lobes (subequal),1,Oroxylum,with 5 subequal lobes,38
+corolla,"lobes, margin",1,Oroxylum indicum,the 5 unequal lobes with wrinkled margin,41
+corolla,"mouth shape and width, glands, lobes",1,Dolichandrone spathacea,"bell-shaped near the mouth, 3--4 cm wide, with many scattered glands outside, lobes 5 with frilled margin",37
+corolla,"shape, lobes, marginal hairs",1,Radermachera pinnata subsp. acuminata,"basal part narrow tubular ... upper inflated portion ... lobes 5 with pale, minute hairs on the margin",42
+corolla tube,shape,1,Deplanchea,tube with a short constricted basal part and a flared upper part,36
+filaments,"posture, hairs",1,Deplanchea bancana,"filaments erect and curved over the upper corolla-lobes, base glandular hairy",36
+flower,"anthesis time, moth pollination (unnamed species)",1,Bignoniaceae,"In many species, the flowers open at night, and some have fragrant white flowers with long tubes which are pollinated by moths.",33
+flower,colour 'lurid',1,Oroxylum indicum,O. indicum has flowers with lurid colour,33
+flower,showiness,1,Bignoniaceae,usually very showy,33
+"flower, calyx","showiness, opening",1,Oroxylum,"showy; calyx closed in bud, with an apical pore opening as a somewhat bell-shaped structure",38
+"flower, calyx","size, lobes",1,Deplanchea,Flowers large; calyx 5-lobed,36
+flowering,"months; 'around August' is hedged, not scored",1,Radermachera ramiflora,Flowering in January to March and around August,44
+fruit,position,1,Radermachera pinnata subsp. acuminata,hanging in clusters at the end of branches,42
+fruit,"position, shape",1,Oroxylum indicum,hanging conspicuously resembling the big flat blade of a slash-knife,41
+fruit,"shape, placenta",1,Radermachera,straight or twisted ... with a corky central placenta,41
+fruit,"shape, position",1,Dolichandrone spathacea,"generally curved, hanging in clusters from the ends of the branches",37
+fruit,"shape, texture",1,Oroxylum,"long, flattened woody",38
+fruit,"type 'pod', septum",1,Bignoniaceae,Fruit a pod divided by a longitudinal partition into 2 compartments,33
+fruit,valve number,1,Deplanchea,Fruit a 2-valved capsule,36
+fruiting calyx,length,1,Radermachera pinnata subsp. acuminata,persistent calyx c. 1.8 cm long,42
+glands,'flower surface' printed within the leaf clauses; organ unclear,1,Oroxylum indicum,glands scattered on the flower surface,38
+inflorescence,"flowers per inflorescence, anthesis sequence",1,Dolichandrone spathacea,"Inflorescences 2--8-flowered, with one flower opening at a time",37
+inflorescence,"posture, length",1,Oroxylum,"erect, long",38
+inflorescence,"shape, branch number and angle",1,Deplanchea,"a thyrse with a somewhat flat-topped structure, the branches many (more than 20) and held horizontally at almost right angles to the main inflorescence axis, large and conspicuous",36
+"inflorescence, flower",showiness,1,Deplanchea bancana,Inflorescences showy ... Flowers showy,36
+"inner bark, sapwood",colour,1,Radermachera pinnata subsp. acuminata,inner bark pale yellow. Sapwood white.,42
+"inner bark, sapwood, twigs","colour, oxidation, corky bark",1,Radermachera ramiflora,"inner bark whitish, turning yellowish on exposure. Sapwood yellowish white. Twigs with corky bark.",42
+leaf,arrangement 'tufted',1,Oroxylum indicum,tufted at the branch ends,38
+leaf,degree of division (ambiguous range),1,Bignoniaceae,1--2--4-times pinnate,33
+leaf,"size, texture, basal glands",1,Deplanchea,quite large ... chartaceous to coriaceous; base with two large saucer-shaped glands on upper surface,36
+leaf,texture,1,Deplanchea bancana,chartaceous to coriaceous,36
+leaf apex,'acuminate-acute' (no single level),1,Deplanchea bancana,rarely acuminate-acute,36
+leaf phenology,outside the flora region (seasonal Asia),1,Bignoniaceae,Mostly evergreen but Oroxylum indicum and Dolichandrone spathacea have been noted as leafless for many months during the dry season of seasonal parts of Asia.,33
+leaflet,colour on drying,1,Dolichandrone spathacea,drying dark to brown-black,37
+leaflet,glands,1,Radermachera,leaflets often with gland-fields on the lower surface,41
+leaflet,"glands, domatia",1,Bignoniaceae,often with glands on the lower surface of the leaflets; domatia sometimes present,33
+leaflet,"shape 'elliptic-lanceolate' (no level), texture",1,Radermachera ramiflora,"elliptic-lanceolate, coriaceous",42
+leaflet,shape 'obovate-elliptic' (no level),1,Radermachera pinnata subsp. acuminata,obovate-elliptic,42
+leaflet,shape 'ovate-oblong' (no level),1,Dolichandrone spathacea,leaflets ... ovate-oblong,37
+leaflet,terminal leaflet size,1,Oroxylum indicum,terminal one always bigger,38
+leaflet,texture,1,Radermachera pinnata subsp. acuminata,coriaceous to chartaceous,42
+leaflet,"vein number, glands",1,Oroxylum,"leaflets with 4--5 pairs of lateral veins, glands on the lower surface present only in young and some mature leaves, and then only at the basal part of leaflets",38
+leaflet apex,'caudate' (no level),1,Radermachera ramiflora,apex caudate,42
+leaflets,number of pairs,1,Radermachera ramiflora,leaflets 4--6 pairs,42
+leaflets,number of pairs (usually 3--4) plus terminal leaflet,1,Dolichandrone spathacea,leaflets usually 3--4 pairs with one terminal leaflet,37
+"midrib, veins","hairs, number, relief",1,Deplanchea bancana,"midrib glabrous to yellow-hairy on lower surface; lateral veins 7--8 pairs, raised and glabrous to yellow-hairy on the lower surface",36
+ovary,"shape, surface",1,Radermachera,"ovary elongate, glabrous or covered with tiny scales or tubercles",41
+"ovary, style",hairs,1,Radermachera pinnata subsp. acuminata,"ovary glabrous, style glabrous",42
+"ovary, style, stigma","placentas, colour, exsertion, lobes",1,Deplanchea bancana,"ovary subsessile, each locule with two placentas; style greenish yellow, exserted and curved like the stamens; stigma bilobed",36
+ovules,arrangement,1,Oroxylum,ovules in many rows in each cell,38
+ovules,"number per cell, arrangement",1,Bignoniaceae,"ovules several to many per cell, arranged longitudinally in 1--2 rows on the septum",33
+pedicel,length c. 20 cm (unit doubtful; not scored),1,Radermachera ramiflora,on curved pedicels of c. 20 cm long,44
+petiole,hairs,1,Deplanchea bancana,stalk ... glabrous to yellow-hairy,36
+"petiole, rachis","length (qualitative), swellings",1,Oroxylum indicum,"petioles long, rachis swollen at points of articulation",38
+rachis,"surface, colour",1,Dolichandrone spathacea,"rachis smooth, brown",37
+seed,number,1,Deplanchea,Seeds many,36
+seed,"number, arrangement, wing texture",1,Dolichandrone spathacea,Seeds many ... in many rows ... thick corky wings,37
+seed,"number, shape, embryo position",1,Bignoniaceae,"Seeds many, flat; embryo near the centre",33
+seed,"number, size, shape",1,Radermachera,"Seeds many, tiny and narrow",41
+seed,"number, wing texture",1,Oroxylum indicum,Seeds numerous ... membranous and transparent wing,41
+seed,shape; wing shape and texture,1,Deplanchea bancana,"Seeds flat ... wing broad, very thinly transparent, irregularly lobed",36
+seed,"size, arrangement",1,Oroxylum,Seeds quite large ... in many rows,38
+seed wing,length,1,Radermachera ramiflora,the wing 6--7 mm,44
+stamens,"fertility, hairs, exsertion",1,Oroxylum indicum,"stamens all fertile, hairy at the base, included",41
+stamens,"relative length, epipetalous",1,Bignoniaceae,"almost equal ... didynamous (2 long and 2 short), attached to the corolla (epipetalous)",33
+"stamens, disc","exsertion, didynamy, disc shape",1,Deplanchea,stamens strongly exserted ... didynamous; disc annular to lobed,36
+stipules,absent (negative phrase),1,Bignoniaceae,stipules absent,33
+"style, stigma","exsertion, lobes",1,Deplanchea,style long exserted; stigma 2-lobed,36
+"style, stigma","length, lobes",1,Bignoniaceae,"style long, stigma 2-lobed",33
+veins,number,1,Radermachera pinnata subsp. acuminata,lateral veins 7--9 pairs,42
+veins,"number, pattern",1,Oroxylum indicum,lateral veins 4--5 pairs; intercostal veins reticulate,38
+"veins, domatia, petiolules","number, presence, length",1,Dolichandrone spathacea,"lateral veins 5--8 pairs, lower surface with hairy domatia; stalks short in lateral leaflets but 2--4 cm in terminal leaflet",37
+"veins, glands","number, relief",1,Radermachera ramiflora,"lateral veins 5--7 pairs and raised below, lower surface with scattered small glands near the base",44
+young twigs,"lenticels, hairs, colour",1,Deplanchea bancana,"Young twigs lenticellate, glabrous to pale hairy, pale brown to yellow.",36
+,differential note only; no description,1,Radermachera sp. A,"The species is poorly known; the young flower buds are not sufficient for describing it properly, but the winged secondary rachis and cuspidate leaflet tips clearly distinguish it from R. ramiflora.",44
+,distribution and species counts; introduced ornamentals,1,Bignoniaceae,"About 120 genera and 650 species in the tropics and subtropics. In Sabah and Sarawak, 10 species in 5 genera including 5 apparently unnamed species (4 woody climbers and 1 tree). A number of exotic...",33
+,distribution; abundance,1,Deplanchea bancana,"Sumatra, Peninsular Malaysia and Borneo. In Sabah and Sarawak uncommon.",36
+,distribution; abundance; substrate,1,Radermachera pinnata subsp. acuminata,"Peninsular Thailand, Sumatra, Peninsular Malaysia, Borneo, and the Philippines. In Sabah and Sarawak, generally uncommon but localised populations may be encountered in ultramafic and limestone are...",42
+,habitat (mangrove); abundance; soil,1,Dolichandrone spathacea,"Restricted to the back mangroves and along banks of tidal rivers and estuaries. In Sabah, common in the mangrove forests of the west coast; in Sarawak occasional on clay soils at inland limits of m...",37
+,"habitat, substrate",1,Bignoniaceae,"Dolichandrone spathacea is confined to the mangroves, Deplanchea bancana is found in kerangas (heath) and peat swamp forest, some woody climber species appear restricted to limestones, and some Rad...",33
+,"inner bark, sapwood, young twigs",1,Dolichandrone spathacea,"inner bark laminated, reddish pink. Sapwood white, soft. Young twigs lenticellate.",37
+,light demand; habitat; altitude,1,Deplanchea,"Being light-demanding, species of the genus are mainly found in secondary rain forests (including kerangas forest), woodland savannahs, and grasslands, from sea-level to 1000 m.",36
+,"stamens, disc, ovules, style",1,Dolichandrone,"didynamous, included; disc annular; ovary with many ovules in many rows; style slender",37
+,"stamens, ovary",1,Radermachera ramiflora,"exserted, didynamous, hairy at the base; ovary ribbed",44
+,"stamens, staminode, style, anthers",1,Dolichandrone spathacea,"didynamous with a fifth rudiment, included; style long, exserted, persistent in young fruit; anthers glabrous, bilocular",37
+,taxonomy,1,Bignoniaceae,The family is closely related to the Scrophulariaceae. ...,35
+,taxonomy; intercostal venation; variability,1,Radermachera pinnata subsp. acuminata,This species consists of two subspecies ... in subsp. acuminata the veins are not conspicuous or prominent. Subsp. acuminata is slightly variable in leaflet shape and texture.,42
+,uses; wood softness,1,Bignoniaceae,"The species generally have soft and light wood, at present without commercial value. ...",35
+,wood working properties; uses,1,Dolichandrone spathacea,"easy to saw and work with and seasons well although it must be protected against sapstains. So far, there is no record of its use in Sabah and Sarawak but in various parts of its geographical range...",38

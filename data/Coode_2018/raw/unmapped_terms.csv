@@ -1,0 +1,40 @@
+organ,character,n_taxa,example_taxon,example_text,printed_page
+twigs,twig thickness / colour / shape,50,Elaeocarpus Acronodia Group,"Twigs slender or moderately so, with non-resinous terminal buds (except E. knuthii)",36
+petals,petal apical divisions (count / length / shape),48,Elaeocarpaceae,"petals free, valvate, expanded or sepaloid, when expanded usually with apical divisions",33
+petals,petal hairs (outside / inside / margins),48,Elaeocarpus Coilopetalum Group,"petals often thick, with few divisions at apex, the sides often incurved (‘flanged’) and with 2 basal pits, nearly all species have dense indumentum inside but with glabrous areas between keel and ...",36
+nectary,nectary form / height / hairs,47,Elaeocarpaceae,nectary usually well-developed,33
+inflorescence,inflorescence position relative to leaves,46,Elaeocarpus Acronodia Group,Racemes mostly in the axils of current leaves,36
+stones,stone (endocarp) size / shape / sutures / sculpture / wall / locules,43,Elaeocarpus Coilopetalum Group,"stones less than 1.5 cm, sutures 2--3, obscurely sculptured, usually without crests or wings",36
+buds,buds characters,42,Elaeocarpus Coilopetalum Group,terminal buds resinous or not,36
+inflorescence,flowers per inflorescence,42,Elaeocarpus acmosepalus,"Racemes borne among current leaves or just behind them, 6--7 cm long, axis 0.9--1.2 mm thick at halfway and glabrous or variously more-or-less adpressed-hairy, 12--15-flowered",52
+sepals,sepal hairs,41,Elaeocarpus acmosepalus,"sepals persistent after petals and stamens, 5--6 mm long, glabrous to sparsely hairy outside, glabrous inside, verrucose outside at anthesis",52
+petals,petal keel / basal pockets,40,Elaeocarpus,"petals expanded or sepaloid, usually with apical divisions (rarely entire), with or without keels and basal pockets inside",34
+stipules,stipule presence / persistence / shape / length,40,Elaeocarpaceae,"Stipules present, though often caducous",33
+petals,petal width,39,Elaeocarpus acmosepalus,"petals obovate, clawed or at least narrowed in lower third, 5--6 mm long, 2.5--3 mm wide at widest point of limb, rounded at apex, with 23--29 linear apical divisions 2--3 mm long, unequal and grou...",52
+lamina,leaf texture,38,Elaeocarpus acmosepalus,"lamina coriaceous, ovate to elliptic, 2--2.8 times as long as wide, 8--19 x 3--9 cm, base narrowly cuneate to broadly cuneate, margin entire to more-or-less entire, apex narrowly acute to acute, ti...",52
+ovary,ovary hairs,38,Elaeocarpus Elaeocarpus Group,"ovary 3--5-locular, ovules 2 per locule, styles tapering to a point, if hairy at base then glabrous distally",36
+bracts,bract persistence / shape,37,Elaeocarpus acmosepalus,"bracts early caducous, narrow-oblong to oblanceolate, slightly V-channelled, 2--3 mm long, entire",52
+fruit stalk,fruit stalk length,37,Elaeocarpus acmosepalus,stalk 9--14 mm long,52
+fruits,fruit shape,37,Elaeocarpus Elaeocarpus Group,"Fruit and stones round or more-or-less ellipsoid, usually longer than 2 cm",36
+petioles,petiole swelling / grooving,36,Elaeocarpus acmosepalus,"petioles 1--2 cm long, 0.5--1 mm wide, glabrous to variously persistently adpressed-hairy, hairs as on twigs, rounded to shallowly grooved in apical third above, distinct from leaf base or merging ...",52
+text,distribution text,34,Elaeocarpaceae,"12 genera and about 500 species in the Old and New World tropics, in some places extending to the subtropics, but absent from mainland Africa. In Peninsular Malaysia, represented by Elaeocarpus (36...",33
+domatia,domatia presence,33,Elaeocarpus acmosepalus,without domatia,52
+midrib,midrib characters,31,Elaeocarpus acmosepalus,"midrib scarcely to moderately prominent beneath, lateral veins 4--5 on either side of midrib, scarcely to moderately prominent beneath",52
+stamens,stamen persistence,29,Elaeocarpus acmosepalus,"stamens 26--35, falling before sepals or petals or both, filaments 0.6--1.2 mm long, glabrous or sparsely short- hairy, anthers minutely fairly densely hairy, 1.2--1.7 mm long, outer tooth slightly...",52
+text,ecology text,29,Elaeocarpaceae,"Mostly in primary or secondary forest. Many species have scented flowers and nectar. Further east, in New Guinea and Australia, the fallen drupes of Elaeocarpus are eaten and dispersed by cassowari...",33
+veins,lateral vein count / prominence,29,Elaeocarpus acronodia subsp. sumatranus,lateral veins 5--7 on either side of the midrib less prominent (sometimes not easy to tell lateral veins from lesser),54
+sepals,sepal persistence,26,Elaeocarpus acmosepalus,"sepals persistent after petals and stamens, 5--6 mm long, glabrous to sparsely hairy outside, glabrous inside, verrucose outside at anthesis",52
+lamina,leaf verrucae / dots,15,Elaeocarpus Acronodia Group,"Leaves petiolate, usually not verrucose1 and without domatia",36
+seeds,embryo shape / endosperm,11,Elaeocarpaceae,Seeds endospermous,33
+bracteoles,bracteoles characters,8,Elaeocarpus Acronodia Group,bracteoles absent,36
+habit,height at first flowering,8,Elaeocarpus angustifolius,beginning to flower at 6 m,55
+stamens,stamen number (numerous),8,Elaeocarpaceae,"stamens free, 8 to very numerous, anthers basifixed and opening by 2 apical pores or slits, sometimes the connective extended into a beak or awn",33
+anthers,anther awn / teeth / setae,5,Elaeocarpus cupreus,"anthers reduced and apparently sterile, 0.5--0.8(--1) mm long, or sometimes absent, with more-or-less dense short adpressed silky hairs, outer tooth subacute and scarcely longer than the inner",62
+seeds,seeds per locule,4,Elaeocarpus,Seeds 1 per locule,34
+sapwood,sapwood characters,3,Elaeocarpus,Sapwood pale,34
+capsule valves,valve count / spines,2,Sloanea javanica,"valves 4, usually unequal, wall c. 9 mm thick, not or scarcely channelled on the back",121
+bole,bole shape,1,Elaeocarpus angustifolius,bole columnar with plank buttresses to 1.2 m high,55
+fruits,fruit spines,1,Sloanea,"Fruit a woody loculicidal capsule with persistent valves, spiny outside or smooth, inner surface of locules sometimes coloured",120
+indumentum,indumentum characters,1,Elaeocarpaceae,Indumentum of simple hairs,33
+lamina,leaf tooth spacing,1,Elaeocarpus ngii subsp. curtisii,"lamina narrowly cuneate at base, margins with teeth 10 mm apart",84
+peduncle,peduncle characters,1,Sloanea javanica,"peduncle (2--)3--5 cm long, rarely 1-flowered with a distinct articulation at the tip of the peduncle, or with a pair of flowers, more usually a 3-flowered cyme bracteate at the flower insertion (t...",121

@@ -1,0 +1,116 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Lijndenia laurina,lectotype,G,,Zollinger,1177,,Tjikoya,,Indonesia (Java),"Type, p.271",Cited G n.v.
+Lijndenia laurina,isolectotype,FI,,Zollinger,1177,,Tjikoya,,Indonesia (Java),"Type, p.271",Cited FI n.v.
+Lijndenia laurina,isolectotype,P,,Zollinger,1177,,Tjikoya,,Indonesia (Java),"Type, p.271",Cited P n.v.
+Lijndenia laurina,lectotype,L,,Blume,s.n.,,Java,,Indonesia,"Synonym type, p.271",Type of Memecylon oligoneurum.
+Lijndenia laurina,figure specimen,,,FRI,19815,,,,,"Figure 1, p.272",Parts A-C.
+Lijndenia laurina,figure specimen,,,FRI,67279,,,,,"Figure 1, p.272",Parts D-H.
+Memecylon acuminatissimum,lectotype,L,,Korthals,s.n.,,Sumatra,,Indonesia,"Type, p.280",
+Memecylon acuminatissimum,isolectotype,K,,Korthals,s.n.,,Sumatra,,Indonesia,"Type, p.280",Two sheets cited as K[2].
+Memecylon acuminatissimum,figure specimen,,,FRI,8773,,,,,"Figure 5, p.281",Part A.
+Memecylon acuminatissimum,figure specimen,,,FRI,38698,,,,,"Figure 5, p.281",Part B.
+Memecylon acuminatissimum,figure specimen,,,FRI,10839,,,,,"Figure 5, p.281",Part C.
+Memecylon acuminatissimum,figure specimen,,,,19885,,,,,"Figure 5, p.281",Parts D-F; collection prefix not printed.
+Memecylon acuminatum,holotype,LINN,,Collector unknown,s.n.,,Without locality,,,"Type, p.282",Herb. Smith.
+Memecylon acuminatum var. flavescens,lectotype,K,,Griffiths,2325/2,,Melaka,,Malaysia,"Type, p.283",Here designated.
+Memecylon acuminatum var. flavescens,isolectotype,GH,,Griffiths,2325/2,,Melaka,,Malaysia,"Type, p.283",
+Memecylon acuminatum var. flavescens,isolectotype,L,,Griffiths,2325/2,,Melaka,,Malaysia,Cited type,Not seen.
+Memecylon acuminatum var. flavescens,isolectotype,M,,Griffiths,2325/2,,Melaka,,Malaysia,Cited type,Not seen.
+Memecylon acuminatum var. flavescens,isolectotype,S,,Griffiths,2325/2,,Melaka,,Malaysia,"Type, p.283",
+Memecylon microstomum,lectotype,GH,,Maingay,1565,,Melaka,,Malaysia,"Synonym type, p.284",Kew Distr. No. 821; here designated.
+Memecylon microstomum,isolectotype,L,,Maingay,1565,,Melaka,,Malaysia,"Synonym type, p.284",Kew Distr. No. 821.
+Memecylon campanulatum,lectotype,K,,Griffith,2325,,Melaka,,Malaysia,"Type, p.285",
+Memecylon cantleyi,lectotype,K,,Ridley,13012,,Gardens Jungle,,Singapore,"Type, p.286",
+Memecylon cantleyi,isolectotype,BM,,Ridley,13012,,Gardens Jungle,,Singapore,"Type, p.286",
+Memecylon cantleyi,isolectotype,SING,,Ridley,13012,,Gardens Jungle,,Singapore,"Type, p.286",
+Memecylon dissitum,holotype,ABD,,Kerr,15408,,Kao Luang,,Thailand,"Synonym type, p.286",
+Memecylon dissitum,isotype,BISH,,Kerr,15408,,Kao Luang,,Thailand,"Synonym type, p.286",
+Memecylon coeruleum,neotype,KEP,,Kamarudin,FRI34597,,Pulau Pinang,Pulau Pinang,Malaysia,"Type, p.287",Here designated.
+Memecylon coeruleum,isoneotype,SING,,Kamarudin,FRI34597,,Pulau Pinang,Pulau Pinang,Malaysia,"Type, p.287",Here designated.
+Memecylon floribundum,lectotype,L,L0009039,Blume,s.n.,,Java,,Indonesia,"Synonym type, p.287",Here designated.
+Memecylon corticosum,holotype,K,,Kloss,7027,,Lasau,,Thailand,"Type, p.289",
+Memecylon corticosum var. kratense,lectotype,ABD,,Put,531,,Krat,Chanthaburi,Thailand,"Type, p.290",
+Memecylon corticosum var. kratense,isolectotype,BK,,Put,531,,Krat,Chanthaburi,Thailand,"Type, p.290",
+Memecylon corticosum var. kratense,isolectotype,K,,Put,531,,Krat,Chanthaburi,Thailand,"Type, p.290",
+Memecylon dichotomum,lectotype,K,,Griffith,2324,,Melaka,,Malaysia,"Type, p.291",Here designated.
+Memecylon eugeniiflora,lectotype,K,,Ridley,14695,,Temengor,Perak,Malaysia,"Synonym type, p.291",Here designated.
+Memecylon eugeniiflora,isolectotype,K,,Ridley,14695,,Temengor,Perak,Malaysia,"Synonym type, p.291",
+Memecylon dichotomum var. rotundatum,lectotype,ABD,,Kerr,15766,,Trang,,Thailand,"Type, p.293",Here designated.
+Memecylon dichotomum var. rotundatum,isolectotype,BK,,Kerr,15766,,Trang,,Thailand,"Type, p.293",
+Memecylon curtisii,holotype,SING,,Curtis,1295,,Waterloo Estate,Perak,Malaysia,"Synonym type, p.293",
+Memecylon durum,lectotype,FI,,Beccari,2641,,Matang,Sarawak,Malaysia (Borneo),"Type, p.293",
+Memecylon durum,isolectotype,BR,,Beccari,2641,,Matang,Sarawak,Malaysia (Borneo),"Type, p.293",
+Memecylon globosum,holotype,L,,van Steenis,1265,,Natuna Islands,,Indonesia,"Synonym type, p.293",
+Memecylon globosum,isotype,A,,van Steenis,1265,,Natuna Islands,,Indonesia,"Synonym type, p.293",Not seen.
+Memecylon globosum,isotype,BO,,van Steenis,1265,,Natuna Islands,,Indonesia,"Synonym type, p.293",Not seen.
+Memecylon edule,lectotype,K-W,,Roxburgh,4107A,,India,,India,"Type, p.294",
+Memecylon excelsum,lectotype,L,,Blume,s.n.,,Java,,Indonesia,"Type, p.296",
+Memecylon heteropleurum,lectotype,L,,Korthals,s.n.,,Sumatra,,Indonesia,"Synonym type, p.296",
+Memecylon heteropleurum,isolectotype,L,,Korthals,s.n.,,Sumatra,,Indonesia,"Synonym type, p.296",
+Memecylon heteropleurum,isolectotype,S,,Korthals,s.n.,,Sumatra,,Indonesia,"Synonym type, p.296",Not seen.
+Memecylon maingayi,holotype,K,,Maingay,1422,,Melaka,,Malaysia,"Synonym type, p.296",Kew Distr. No. 814.
+Memecylon heteropleurum var. olivaceum,lectotype,SING,,Wray,1310,,,Perak,Malaysia,"Synonym type, p.296",
+Memecylon heteropleurum var. olivaceum,isolectotype,SING,,Wray,1310,,,Perak,Malaysia,"Synonym type, p.296",
+Memecylon floridum,lectotype,K,,King's Collector,3551,,Larut,Perak,Malaysia,"Type, p.297",
+Memecylon fruticosum,lectotype,K,,King's Collector,2971,,Larut,Perak,Malaysia,"Type, p.298",
+Memecylon fruticosum,isolectotype,SING,,King's Collector,2971,,Larut,Perak,Malaysia,"Type, p.298",Two sheets cited as SING[2].
+Memecylon fruticosum,lectotype,SING,,Wray,2727,,Sungai Larut,Perak,Malaysia,"Synonym type, p.298",
+Memecylon fruticosum,lectotype,SING,,Kassim,748,,"Temerloh, Telok Mengkuang",Pahang,Malaysia,"Synonym type, p.298",Here designated.
+Memecylon fruticosum,isolectotype,K,,Kassim,748,,"Temerloh, Telok Mengkuang",Pahang,Malaysia,"Synonym type, p.298",
+Memecylon garcinioides,lectotype,L,,Blume,20,,Sumatra,,Indonesia,"Type, p.299",
+Memecylon hullettii,lectotype,K,,"King & Hullett",253,,G. Pulai,Johor,Malaysia,"Type, p.300",
+Memecylon hullettii,figure specimen,,,FRI,67162,,,,,"Figure 6, p.301",Part A.
+Memecylon hullettii,figure specimen,,,Mohd. Shah,MS 2123,,,,,"Figure 6, p.301",Parts B-E.
+Memecylon hullettii,figure specimen,,,FRI,2182,,,,,"Figure 6, p.301",Parts F-G.
+Memecylon intermedium,lectotype,L,,Blume,s.n.,,Java,,Indonesia,"Type, p.303",
+Memecylon intermedium,isolectotype,L,,Blume,s.n.,,Java,,Indonesia,"Type, p.303",Two sheets cited as L[2].
+Memecylon kunstleri,lectotype,K,,King's Collector,10419,,,Perak,Malaysia,"Type, p.304",Here designated.
+Memecylon kunstleri,isolectotype,KEP,,King's Collector,10419,,,Perak,Malaysia,"Type, p.304",
+Memecylon kunstleri,isolectotype,L,,King's Collector,10419,,,Perak,Malaysia,"Type, p.304",
+Memecylon kunstleri,isolectotype,SING,,King's Collector,10419,,,Perak,Malaysia,"Type, p.304",Two sheets cited as SING[2].
+Memecylon lanceolatum,neotype,US,,Merrill,975,,Rizal,,Philippines (Luzon),"Type, p.305",Here designated.
+Memecylon lancifolium,lectotype,K,,Ridley,3840,,Sungai Morai,,Singapore,"Type, p.306",K ex SING; here designated.
+Memecylon lancifolium,isolectotype,K,,Ridley,3840,,Sungai Morai,,Singapore,"Type, p.306",
+Memecylon lilacinum,lectotype,G,,Zollinger,187,,Java,,Indonesia,"Type, p.307",
+Memecylon lilacinum,isolectotype,A,,Zollinger,187,,Java,,Indonesia,"Type, p.307",
+Memecylon lilacinum,isolectotype,BM,,Zollinger,187,,Java,,Indonesia,"Type, p.307",
+Memecylon lilacinum,isolectotype,K,,Zollinger,187,,Java,,Indonesia,"Type, p.307",
+Memecylon lilacinum,isolectotype,L,,Zollinger,187,,Java,,Indonesia,"Type, p.307",Two sheets cited as L[2].
+Memecylon lilacinum,lectotype,L,,Blume,s.n.,,,,,"Synonym type, p.307",Type of Memecylon myrsinoides.
+Memecylon lilacinum,lectotype,L,L908130-295,Anon.,s.n.,,Sumatra,,Indonesia,"Synonym type, p.307",Type of Memecylon laevigatum; here designated.
+Memecylon lilacinum,isolectotype,L,,Anon.,s.n.,,Sumatra,,Indonesia,"Synonym type, p.307",Type of Memecylon laevigatum.
+Memecylon lilacinum,lectotype,K,,King's Collector,3143,1882,Selama,Perak,Malaysia,"Synonym type, p.307",Type of Memecylon cinereum.
+Memecylon malaccense,lectotype,K,,Maingay,"2531 (= Kew Distr. No. 819)",,Melaka,Melaka,Malaysia,"Type, p.308",
+Memecylon megacarpum,lectotype,FI,,Beccari,1833,,Sarawak,Sarawak,Malaysia (Borneo),"Type, p.309",
+Memecylon megacarpum,isolectotype,K,,Beccari,1833,,Sarawak,Sarawak,Malaysia (Borneo),"Type, p.309",
+Memecylon megacarpum,isolectotype,P,,Beccari,1833,,Sarawak,Sarawak,Malaysia (Borneo),"Type, p.309",Cited P n.v.
+Memecylon minutiflorum,lectotype,U,,Diepenhorst,2337,,Sumatra,,Indonesia,"Type, p.310",
+Memecylon minutiflorum,isolectotype,BO,,Diepenhorst,2337,,Sumatra,,Indonesia,"Type, p.310",
+Memecylon oleifolium,lectotype,L,,Korthals,s.n.,,Sumatra,,Indonesia,"Type, p.311",
+Memecylon oleifolium,isolectotype,A,,Korthals,s.n.,,Sumatra,,Indonesia,"Type, p.311",
+Memecylon oleifolium,isolectotype,L,,Korthals,s.n.,,Sumatra,,Indonesia,"Type, p.311",
+Memecylon oleifolium,isolectotype,K,,Korthals,s.n.,,Sumatra,,Indonesia,"Type, p.311",Cited K n.v.
+Memecylon ovatum,holotype,LINN,161.1,Collector unknown,s.n.,,Without locality,,,"Type, p.313",
+Memecylon ovatum,lectotype,K,,Wallich,4472,,Singapore,,Singapore,"Synonym type, p.313",Here designated.
+Memecylon ovatum,figure specimen,,,Gwee et al.,SING 2007-390,,,,,"Figure 7, p.314",Parts A-B.
+Memecylon ovatum,figure specimen,,,Samsuri,SA1012,,,,,"Figure 7, p.314",Parts C-F.
+Memecylon paniculatum,possible type,,,Jack,,,Sumatra,,Indonesia,"Type, p.315",Missing; presumed destroyed.
+Memecylon paniculatum,lectotype,L,L0009083,Teijsmann,s.n.,,Sumatra,,Indonesia,"Synonym type, p.315",Here designated.
+Memecylon paniculatum,isolectotype,GH,,Teijsmann,s.n.,,Sumatra,,Indonesia,"Synonym type, p.315",
+Memecylon pauciflorum,lectotype,L,,Spanoghe,s.n.,,Timor,,Indonesia (Timor),"Type, p.316",
+Memecylon pauciflorum,isolectotype,L,,Spanoghe,s.n.,,Timor,,Indonesia (Timor),"Type, p.316",
+Memecylon pauciflorum,lectotype,P,P00731585,Geoffray,479,,Kep,,Cambodia,"Synonym type, p.316",Here designated.
+Memecylon pauciflorum,isolectotype,P,,Geoffray,479,,Kep,,Cambodia,"Synonym type, p.316",Two sheets cited as P[2].
+Memecylon perplexum,holotype,K,,Ahmad,CF5099,,Raub,Pahang,Malaysia,"Type, p.317",
+Memecylon perplexum,isotype,KEP,,Ahmad,CF5099,,Raub,Pahang,Malaysia,"Type, p.317",
+Memecylon perplexum,isotype,SING,,Ahmad,CF5099,,Raub,Pahang,Malaysia,"Type, p.317",
+Memecylon pubescens,lectotype,K,,Griffith,2336,,Melaka,Melaka,Malaysia,"Type, p.319",
+Memecylon pubescens,isolectotype,BR,,Griffith,2336,,Melaka,Melaka,Malaysia,"Type, p.319",
+Memecylon pubescens,isolectotype,L,,Griffith,2336,,Melaka,Melaka,Malaysia,"Type, p.319",
+Memecylon ruptile,holotype,K,,"Ilias & Azahari",S35752,,Sarawak,Sarawak,Malaysia,"Type, p.320",
+Memecylon ruptile,isotype,SAR,,"Ilias & Azahari",S35752,,Sarawak,Sarawak,Malaysia,"Type, p.320",Cited SAR n.v.
+Memecylon scutellatum,holotype,BM,,Loureiro,s.n.,,Vietnam,,Vietnam,"Type, p.321",
+Memecylon scutellatum var. brevifolium,lectotype,K,,"Haniff & Nur",4070,,Pulau Panji,,Thailand,"Type, p.322",
+Memecylon scutellatum var. brevifolium,isolectotype,SING,,"Haniff & Nur",4070,,Pulau Panji,,Thailand,"Type, p.322",Two sheets cited as SING[2].
+Memecylon wallichii,lectotype,K,,Wallich,4101C,,Penang Hill,Penang,Malaysia,"Type, p.322",
+Memecylon wallichii,lectotype,K,,Ridley,9475,,Perak,Perak,Malaysia,"Synonym type, p.322",Type of Memecylon longifolium; here designated.

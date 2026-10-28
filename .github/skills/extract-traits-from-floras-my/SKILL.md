@@ -1,0 +1,617 @@
+---
+name: extract-traits-from-floras-my
+description: Extract or resume trait data from Malaysian Flora family treatments (FPM, TFSS) and single taxon-description papers. Use when given family PDFs, asked to process or continue a family, or asked for extraction status. Covers resumable page-image review, transcription, segmentation, trait extraction, vouchers and QA.
+---
+
+# Extract traits from Malaysian floras
+
+One family treatment (or one taxon-description paper) becomes one dataset
+`data/<Author_Year>/`. Treat FPM and TFSS treatments as separate sources and
+datasets, even when they cover the same family: different authors require
+distinct source citations. Use each treatment's own author and year as its
+dataset ID; if IDs collide, agree on distinct IDs before writing data. Process
+one family at a time; report results after each unless the user requests a
+pause. Worked examples, all in this repository:
+
+| Dataset | Family | Source | Shows |
+| --- | --- | --- | --- |
+| `data/Coode_2018` | Elaeocarpaceae, FPM vol. 7 | born-digital PDF, 59 taxa | scripted parser, groups, infraspecific taxa, informal forms, excluded species |
+| `data/Lim_2010` | Araucariaceae, FPM vol. 1 | scanned PDF, hand transcription, 2 taxa | transcription workflow, conifer organs, genus over family |
+| `data/Yao_2010` | Pentaphylacaceae, FPM vol. 1 | scanned PDF, 1 taxon | `flora_hand()`, monogeneric copy-down, hedges |
+| `data/Nor-Ezzawanis_2010` | Cibotiaceae, FPM ferns vol. 1 | born-digital PDF, transcribed from page images, 1 taxon | first fern; provisional fern mappings |
+| `data/Hughes_2013` | Memecylaceae, FPM vol. 4 | born-digital PDF, image-checked transcription | **PROVISIONAL** for two curator questions in its `notes`; its `source_fixes.csv` repairs are typos in the published text, not OCR slips |
+| `data/Kochummen_1995` | Burseraceae, TFSS vol. 1 | 2007 electronic text (unembedded fonts, no scan); scripted parser, 59 taxa | first TFSS parser; infra annotations under a species description; single-infra taxa; family exceptions by hand; missing-dash source fixes |
+| `data/Berhaman_1995` | Bignoniaceae, TFSS vol. 1 | 2007 electronic text, 5 described taxa | `flora_hand()` for a multi-genus family; hand copy-down table; single-infra taxon; undescribed species and key-only genus flagged |
+
+Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
+Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
+inline source fixes. Only Lim and Yao are scanned. Nor-Ezzawanis and Hughes were
+transcribed from page images before their PDFs were found to be born-digital;
+born-digital sources no longer need that (step 2).
+
+## Resumable scanned-source review
+
+Source `.github/skills/extract-traits-from-floras-my/scripts/flora_review.R`
+from the repository root. This is the small prepare/next/status interface for a
+`scanned_ocr` family (step 1); born-digital families do not use it. The
+extraction and source reconciliation steps below still apply. Each treatment gets its own dataset ID and verified PDF page range. Never
+infer boundaries or printed-page numbers from another volume. The user can say
+"continue <id>" in a new chat; read only its `raw/review_handoff.md`, manifest,
+and next batch, not old chat history.
+
+- On first preparation, confirm PDF, ID, treatment boundaries, and a
+  **persistent** image directory outside the repository. Call
+  `flora_review_prepare(id, pdf, pages, image_dir)`. It writes
+  `raw/page_manifest.csv` and `raw/review_batches.csv` only once. Create the
+  empty persistent image directory before preparing the queue. Do not use a
+  disposable session scratch folder; images need to survive new chats. These
+  paths are local, so keep manifests out of commits when they contain
+  machine-specific paths.
+- On "continue", call `flora_review_next(id)` and
+  `flora_review_render_next(id)` if its images are missing. Render only that
+  batch, not the whole treatment. `flora_review_status(id)` summarizes the
+  queue. Save a short next-chat snapshot with `flora_review_handoff(id)` after
+  each batch. A read-only `next` call never advances review status. Use
+  `flora_review_update()` to save page checks and batch decisions; never edit
+  CSV state by hand.
+- Check OCR text against page images and put **only image-checked text** into
+  `raw/<Family>_transcription.txt` with `@page <pdf> <printed>` at each page
+  turn. Track image-checked printed-page mapping, transcription, headings,
+  section boundaries, clauses and vouchers separately per page in the manifest.
+  Record unresolved decisions in page `notes` or batch `blocker` (the handoff
+  shows the blocker). Review the notes of the active batch when resuming;
+  statuses are `not_started`, `in_review`, `blocked`, `verified`. Update flags
+  only after completing the named check. Mark a batch `verified` only after
+  every check is true on every page, no blocker remains, and its boundary is
+  reconciled with the adjacent batch. Set `boundary_checked = TRUE` when this
+  is complete. The queue rejects inconsistent verified flags.
+- Rendering and OCR drafting are not verification. QA passing is not source
+  reconciliation. The queue records progress; it does not implement
+  transcription, OCR, segmentation, trait extraction, or vouchers for you.
+
+Shared code lives in `scripts/` (sourced from the repository root, never
+copied into the dataset folder). Do not copy a whole parser from a previous
+family: `Lim_2010/raw/build_trait_data.R` is a 2,000-line copy of the
+Coode_2018 one.
+
+| Script | Does |
+| --- | --- |
+| `scripts/flora_source.R` | PDF text-layer check, born-digital page flags, render pages, read transcription, number comparison transcription vs layer |
+| `assets/myflora_metadata.csv` | one row per MyFlora PDF: family, flora, volume, year, `text_layer` (`born_digital` or `scanned_ocr`) and the page counts behind it; rebuild with `inst/extdata/myflora/build_metadata.py` |
+| `scripts/flora_review.R` | persistent page manifest, bounded review queue, on-demand rendering and next-chat handoff |
+| `scripts/flora_segment.R` | headings, blocks, paragraphs, sections, page lookups; heading patterns are a parameter (`assets/heading_config_examples.R`) |
+| `scripts/flora_parse.R` | normalisation, `a--b` dashes, sentence and piece splitting outside parentheses, range and `a x b` parsers, commonness rows, dictionary scoring |
+| `scripts/flora_assemble.R` | copy-down, species to infraspecific inheritance, duplicate merge, final column order, `data.csv`, unmapped summary |
+| `scripts/flora_hand.R` | row helpers for tiny families and single papers (`row`, `un`, `tri`, `rng`) |
+| `scripts/flora_qa.R` | `flora_qa(id)` tables; `flora_dataset_test(id)` |
+| `assets/flora_dictionary_seed.csv` | term regex to level rows from Coode_2018, Lim_2010 and Kochummen_1995; grow it, do not fork it |
+
+The scripts are tested against the three datasets (they reproduce the Coode
+and Lim paragraph tables and all three `data.csv` value columns exactly). They
+are read-only with respect to `data/`, apart from `flora_make_data()`, which
+writes `data/<id>/data.csv`.
+
+## Standing rules (user decisions)
+
+- **Editorial guides control source interpretation.** For FPM and TFSS, apply
+  the relevant formal guide before any rule below or any pattern inferred from
+  a published family treatment. The extraction workflow is secondary evidence:
+  revise its assumptions when the guide specifies a different treatment
+  structure, scope, description ownership or rank. FPM guidance is *Guide to
+  Preparing Manuscripts for The Flora of Peninsular Malaysia* (Kiew et al.,
+  2006); TFSS guidance is *Guide to Preparing and Editing Manuscripts*
+  (Soepadmo & Wong, 1995). Do not use one guide to interpret the other flora.
+- **Names as printed.** Do not match to a taxonomic backbone during extraction;
+  alignment is a separate step. Keep `sp. nov.` under its printed label and
+  flag it.
+- **Do not invent traits.** Only traits in `config/traits.yml` (MYtraits' own
+  copy; re-read it each time) get a `trait`. Everything else is an unmapped
+  row (below).
+- **Score only what the text states.** No pollinator, dispersal or
+  `inferred` typical values from morphology. Negative phrases ("without
+  stipules") are not scored when the trait has no `absent` level; list them as
+  unmapped.
+- **Regions.** The FPM guide makes a species description Peninsular Malaysian;
+  the TFSS guide makes it Sabah--Sarawak, or Bornean when stated as such.
+  Retain a source's stated regional scope in `population_region` and `notes`.
+  Accept a TFSS `Borneo` record when it cannot be resolved to Sabah or Sarawak,
+  but flag its unresolved locality. Do not treat an unspecified Borneo locality
+  as Malaysian. Exclude observations explicitly outside the source treatment's
+  stated scope, such as India or Thailand.
+- **Regional counterparts.** Do not score a value borrowed from another FPM or
+  TFSS treatment, even when quoted in the current treatment. That flora will be
+  ingested as its own source; retaining the borrowed value would duplicate it.
+- **Informal forms** are merged into the species with a `form` context.
+- **"sometimes"** is accepted in species treatments, never copied down from
+  genus or family.
+- **Tropical, aseasonal.** Never convert seasons to months; months only when
+  the text gives them ("flowers throughout the year" -> `yyyyyyyyyyyy`, noted).
+- **No fire block** and no southern-hemisphere, orchid or geophyte conventions.
+- **Source units** stay in `unit`; metadata `unit_in: unit` converts. Ranges in
+  text columns are written `a--b`.
+- **Mapped and unmapped records live together** in `raw/trait_data.csv`.
+- **Metadata is edited by hand** (see step 10); no generator scripts kept.
+- **The editor reformats R files on save** (air). Exact-match edits fail after
+  a save: re-read the lines and edit by line number, or rewrite the file.
+
+## Formal flora treatment grammar (primary source context)
+
+Use this section to segment and interpret a treatment. It has priority over
+regularities observed in published FPM or TFSS family PDFs, including examples
+already in this repository. It describes authoring conventions, not a reason to
+invent an unprinted character.
+
+### Shared rules
+
+- A treatment is hierarchically ordered: family; genus; species; and, where
+  present, infraspecific taxon. The family and genus descriptions state their
+  own ranks. A species description supplies states not universal at genus rank;
+  it is not a restatement of universal family or genus states. Treat this as
+  evidence for rank ownership and copy-down review, not automatic proof that a
+  silent species has every higher-rank character.
+- Ignore keys as trait evidence. Their couplets are identification devices,
+  not descriptions. Use them to detect taxon order and boundaries only. Do not
+  parse a key lead, an annotation for a taxon omitted from detailed treatment,
+  or its dotted indicator line into `trait_data.csv`.
+- Identify labelled blocks before parsing: `Distribution.`, `Ecology.`,
+  `Uses.`, and `Taxonomy.` begin on the heading line. Species treatments also
+  contain nomenclatural matter (`Basionym:`, `Type:`, `Synonym:` or
+  `Synonyms:`), vernacular names and sometimes conservation status, maps,
+  figures or notes. These are not Description text. Review the applicable
+  Ecology, Distribution, Uses, and conservation blocks manually for eligible
+  MYtraits observations, retaining provenance and applying standing rules.
+- Description order is an extraction aid. A shift in this order normally marks
+  a new organ, not a continuation of the previous character. Keep wording
+  verbatim if clause ownership remains uncertain and flag the decision.
+- The guides require metric SI abbreviations (`m`, `cm`, `mm`) and British
+  English spelling. Preserve printed units and wording in raw fields; do not
+  "correct" a source to fit an inferred convention.
+
+### Family and genus descriptions
+
+- A family with one genus worldwide has no family description; its `Only one
+  genus.` statement is not a trait. A genus description remains required when
+  that genus is monotypic. Do not infer a missing family description from the
+  genus treatment.
+- Read family and genus descriptions in this sequence: habit; stipules;
+  leaves (arrangement and type); reproductive structures. For flowering plants,
+  continue with inflorescence, flower sexuality, symmetry, merism, fusion,
+  stamens, anthers, filaments, ovary, ovules, placentation, style and stigma;
+  then fruit and seed. FPM additionally directs gymnosperm, fern and fern-ally
+  reproductive structures, and relevant herbaceous stem or root structures.
+- A family description can include distribution, ecology, uses and taxonomy;
+  a genus treatment additionally has its own number of species and key. These
+  sections define scope and taxonomic context. Do not elevate their general
+  prose to a species observation without an explicit, eligible statement.
+
+### Species descriptions and local scope
+
+- Read the species Description in this order: habit; woody bole and
+  buttresses where applicable; bark, inner bark, sap and sapwood; twigs or
+  branches; stipules; leaves; inflorescence; flowers; fruit; seed. For ferns,
+  include rhizome and relevant reproductive structures and spores. For
+  gymnosperms, include cones and seeds. For herbaceous taxa, include relevant
+  stem and root structures. These sequences override an organ order inferred
+  from a particular published treatment.
+- Within leaves, expect arrangement, type, petiole or petiolule, rachis and
+  leaflet counts where compound, then blade or leaflet texture, shape, size,
+  base, margin, apex, venation and indumentum. Within flowers, expect
+  sexuality, symmetry, merism, calyx, corolla, stamens, disc, ovary, carpels,
+  style, stigma and ovules. This prevents dimensions or indumentum from leaking
+  across adjacent organs.
+- FPM descriptions describe the species as known in Peninsular Malaysia. TFSS
+  descriptions describe it as known in Sabah and Sarawak, or Borneo generally.
+  A guide explicitly requires a wider-than-local range to be labelled (for
+  example, `outside Borneo`). Retain that qualifier and do not score it as a
+  local value without a separately stated local value.
+- FPM can include `Conservation status.`. It is a distinct source section, not
+  an ecological or morphological description. Keep it unmapped unless a
+  configured trait explicitly supports it.
+
+### Infraspecific taxa
+
+- For **two or more** infraspecific taxa, both guides place a full species
+  description, including regional variation, before a key. Treat that
+  description as species-rank text. In TFSS, the following infraspecific
+  annotations provide nomenclature, type details, synonyms, vernacular names,
+  distribution and notes; do not assume they contain a separate description.
+  In FPM, each infraspecific treatment may include its own description and
+  later sections; segment and score those statements at infraspecific rank.
+- For **one** infraspecific taxon in the flora region, both guides make its
+  description the description of the taxon representing the species locally.
+  Segment it at infraspecific rank and retain the species parent. Do not create
+  a separate species-level morphological row merely because the heading starts
+  with a species name.
+- Keys to subspecies, varieties or other infraspecific ranks remain keys and
+  are not trait evidence. Their labels establish parentage only.
+
+### Vouchers and figures
+
+- Type details follow `Type:` and can include collector, number or `s.n.`,
+  date, locality, country, state or province, and repository. Extract them by
+  hand under step 8. Retain an uncertain or absent holotype/lectotype
+  designation exactly as printed; do not infer status from repository order.
+- Both guides require published figures to be identified when they are types.
+  A figure caption can also identify the specimen on which an illustration was
+  based. Parse it only as a voucher when separately transcribed and verified;
+  never use caption morphology as a species description.
+
+## Workflow
+
+Each step is marked **G** (general: use the scripts) or **B** (bespoke: per
+family, guided by the checklist).
+
+### 1. Choose the source and check the text layer (G)
+
+- Sources are `inst/extdata/myflora/pdf/FPM/<Family>.pdf` and
+  `inst/extdata/myflora/pdf/TFSS/<Family>.pdf`. If both treat a family, extract each as a
+  separate dataset under its own author/year citation; never merge their
+  descriptions or attribute one author's values to the other.
+- Look up the PDF's `text_layer` in `assets/myflora_metadata.csv`. As of
+  2026-10, 28 FPM PDFs are `scanned_ocr` (the 2010 vol. 1 style: page scans
+  with an Acrobat OCR layer, some pages converted to plain text); the other 97
+  FPM and all 81 TFSS PDFs are `born_digital`. A producer name does not decide
+  this: Acrobat Pro DC wrote both kinds. `flora_pdf_check()` returns the same
+  `text_layer` plus glyph and OCR-slip counts; for a PDF missing from the
+  table, inspect a few page images and rerun `build_metadata.py`.
+- Use `pdftools::pdf_text()` rather than terminal `pdftotext` output to inspect
+  special characters.
+
+### 2. Decide the text source (B, user rule)
+
+Do not block extraction while seeking a better copy. A born-digital text layer
+is the publication's own text, so checking it against page images cannot find
+misreads; image checking is for scans.
+
+- **`born_digital`: read the layer with `flora_read_pdf_lines()`; no routine
+  image check.** Run `flora_layer_flags(pdf, pages)` on the treatment's PDF
+  pages and look at a page image only for what it or later steps flag:
+  - `odd_page_number`: printed page missing or off the usual offset. Fix the
+    treatment boundaries or page mapping from the image.
+  - `low_text`: a plate, map, or text set as a picture. Plates need nothing
+    unless a caption supplies a voucher; transcribe any treatment text that is
+    a picture.
+  - `bad_glyphs`: characters the layer could not map (often an en dash or
+    multiplication sign from an unembedded font). Read the image and repair
+    them in `raw/source_fixes.csv`.
+  - Reading-order problems (two columns, tables, side captions) show up as
+    segmenter anomalies or QA failures; check those pages' images.
+
+  Typos in the published text are not OCR errors. Repair one only when the
+  intended value is certain, give the reason as a source typo, and raise a
+  question when the repair changes a value (Hughes_2013 `c. 2 m long`).
+- **`scanned_ocr`: full image check.** Use the available OCR layer to draft and
+  locate text, but verify each scored clause, number, taxon heading and page
+  assignment against the rendered page before accepting it. Rendering alone is
+  not review. If verification is incomplete, label the extraction provisional;
+  do not call unverified rows complete or release-ready. Render the treatment
+  pages (`flora_render_pages()`, 220 dpi, top and bottom halves). Check the OCR
+  draft against the page images, save corrected, image-checked text in
+  `raw/<Family>_transcription.txt`, and feed `flora_read_transcription()` to
+  `flora_segment()`. Do not discard useful OCR text just because it needs
+  checking. Include text pages and relevant plate captions.
+  `flora_read_pdf_lines()` reads the PDF layer again, not the corrected
+  transcription; do not accidentally segment the unchecked layer.
+  - For a large treatment, work page by page and record which pages or clauses
+    remain unchecked. Keep its status provisional until source reconciliation.
+  - Use `flora_compare_numbers()` as a review aid, not a pass/fail test. Check
+    differences and measurements it misses against page images.
+- Keep errors visible in the draft. Record repairs in `raw/source_fixes.csv`
+  (`pattern, replacement, page, reason`) and apply them with
+  `flora_apply_fixes()` using printed pages. The transcription fed to the
+  segmenter must already have correct headings and page markers: this helper
+  does not repair them or edit the file.
+
+### 3. Segment the treatment (G engine, B headings)
+
+Use `flora_segment()` with a family-specific heading configuration; see
+`assets/heading_config_examples.R` for Coode_2018 and Lim_2010. Verify the page
+range, heading patterns, captions, sections and description starts for each
+source. Checklist for the bespoke part:
+
+- Which headings exist: family, genus, infrageneric groups, species,
+  `subsp.`/`var.`, informal forms, "Excluded Species" and "Incompletely Known
+  Species" sections.
+- Running heads, bare page numbers, map and figure captions, caption fragments
+  printed beside maps (`subsp. cuspidatus () and ...`).
+- Wrapped key lines that look like headings (`subsp. ferrugineus` alone).
+- A citation line followed by the description with no blank line; description
+  detected by its first word, so extend `desc_start_re` (Lim_2010 needed
+  `Bole`).
+- Page turns inside a sentence (a new paragraph starts only after a sentence
+  end).
+- Descriptions that begin with a label ("Typical form") or give only
+  differences (`Leaf:` / `Flowers:`), or are absent (differential paragraph
+  only).
+- Group membership from the group paragraphs. Do not guess: Coode_2018 placed
+  *E. kunstleri* "still not certain" and *E. sp. nov.* "suggested" and gave
+  neither a group copy-down.
+- Count accepted species and infraspecific headings against the source before
+  parsing. Numbered varieties may start `2a. var.` or `7b. var.`, and a valid
+  heading need not cite `Fig.` or `Map`; inspect candidate lines in context.
+  Use `cancel_header` or `ignore_header` for false matches rather than requiring
+  a figure or map label. Check each block's sections; document any accepted
+  taxon with no Description instead of silently dropping it.
+
+#### TFSS segmentation
+
+TFSS layout and fonts vary by volume; no TFSS PDF is a scan. Configure and
+inspect each treatment; do not reuse a page range, heading regex, or
+page-number offset from another family. Most TFSS files type "x" for the
+multiplication sign (46 of 81), some use "×", so parsers must accept both.
+Their fonts are often unembedded, so watch `bad_glyphs` for lost en dashes. Sapindaceae is evidence for the checks below, not a template:
+its treatment occupied PDF pages 7--118, had 60 species-level headings, and
+contained infraspecific headings.
+
+- Establish the treatment's first and last **PDF** page from the running heads
+  and printed page numbers in the text; `flora_layer_flags()` shows where the
+  printed-page offset breaks. Look at the boundary page images only when the
+  text is ambiguous.
+- If using `flora_read_pdf_lines()`, set `running_head_re` for the volume
+  header. For a transcription, remove running heads and bare page numbers while
+  checking images. Do not let either become description text.
+- Treat figure and map captions as non-treatment text unless they supply a
+  separately transcribed voucher. With `flora_read_pdf_lines()`, configure
+  `caption_re`, `side_caption_re` and `side_indent`, and inspect dropped lines;
+  for transcriptions, exclude captions while checking images. Caption fragments
+  can resemble `subsp.` or `var.` headings.
+- Define separate header specifications for species, subspecies, variety and
+  forma headings. Species headers set the current species; infraspecific
+  headers must retain that parent so `flora_inherit_infraspecific()` can run.
+  Count accepted blocks against the images before parsing; check keys, citations
+  and figure labels for false matches as in the general checklist.
+- Segment with `flora_segment()` rather than flattening all treatment pages into
+  one text string and slicing between species matches. Its line/page provenance
+  and section handling preserve page turns and permit clauses in Ecology or
+  other later sections to receive their actual page.
+- Before parsing, save or inspect the paragraph table. Check every block has
+  the intended rank and parent, captions and running heads are dropped, and
+  Description, Ecology, Distribution and other labelled sections start and end
+  correctly. Sample blocks at both page boundaries and near figures.
+
+### 4. Parse descriptions (B, with G helpers)
+
+Tiny family (about 1 to 3 taxa) or one taxon paper: create rows directly with
+`flora_hand()` (Yao_2010 pattern), using the verified text source chosen in
+step 2. A one-species family does not require hand transcription when its PDF
+text layer is reliable. Larger family: write `raw/build_trait_data.R` using
+`flora_parse.R` and the dictionary CSV. The parser itself (organ detection,
+clause rules) is bespoke because families differ; keep it short by reusing the
+helpers.
+
+Bespoke checklist (decisions that changed per family):
+
+- **Organ vocabulary.** Trees: bole, buttresses, stilt roots, bark, twigs,
+  buds, stipules, domatia, racemes, stamens, staminodes, stones. Conifers:
+  pollen cones, seed cones, sporophylls, cone scales, wings. Ferns: see the
+  fern note below.
+- **Clause subject owns the character.** "Twigs with hairy terminal buds": the
+  hairs are on the buds. "Capsules yellowish, inside of valves red": only the
+  first colour is the fruit colour. "Seeds enclosed in a red arillode": not
+  seed colour. "Beginning to flower at 4.5 m tall" is not plant height.
+  "Pedicels 1--3 cm long (elongating to 5 cm in fruit)": the aside is separate.
+- **Labelled runs.** In "base attenuate, sometimes rounded, margin entire,
+  apex ...", unlabelled alternatives belong to the last label until the next
+  label or measurement (Lim_2010).
+- **Adjacent organs.** Parse explicit organ shifts; young and mature bark
+  separately; seed cones under fruit traits with `entity_measured = seed cone`
+  (confirm per family, see Lim_2010 question 3).
+- **Unisexual flowers.** Male and female flowers as `entity_measured`;
+  staminode lengths are not fertile-stamen lengths (Coode_2018 question 1).
+- **Dimension pairs `L x W`.** First dimension is length (state the assumption
+  in a metadata question). Score the length trait; if no width trait exists,
+  write the width as an unmapped row ("candidate flower_sepal_width").
+- **Hedges.** Do not score hedged claims by default. `flora_hedge_re` catches
+  common words, not every hedge; inspect wording such as "suggest" and
+  "more-or-less" too. Ask before scoring an exception, then record the wording,
+  taxon, trait and decision in `metadata.yml` `questions:`.
+- **Parentheses.** Drop non-extreme asides before splitting
+  (`flora_drop_asides()`); never split on a comma inside parentheses.
+- **Commonness rows.** Any commonness word splits the trait into rows
+  (`usually` for the unqualified value). Several equal-weight values stay in one
+  space-delimited cell in text order. Parenthetical extremes `(a--)b--c(--d)`
+  go on `extreme_range` rows with the typical range on `usually` rows.
+- **Numbers.** A range is minimum + maximum, a single or "c." value is a mean,
+  "to X" is a maximum. Missing units (Coode_2018 *E. fraseri* lamina
+  "14--18.5 x (7--)9--12") go in `source_fixes.csv` with the page.
+- **Mapping misfits** (record every one as a metadata question): `spirally
+  arranged` -> `leaf_arrangement: spiral`; `rugose` -> `rough`; `subglabrous` ->
+  `glabrous`; `reddish brown` -> `brown`; fruit or bud "diameter" ->
+  `fruit_width` / `bud_width`; `actinomorphic` -> `actinomorphic_general`;
+  ovary locules -> carpels (one locule per carpel assumed).
+- **Ambiguous sentences.** "glossy above, sparsely minutely pubescent,
+  subglabrous beneath": score one reading, flag it.
+- **Ecology, Distribution, Notes, Phenology** paragraphs require a reviewed
+  pass. Use `raw/manual_rows.csv` when manual rows help; it has the same columns
+  as `trait_data.csv`. Each row needs the source clause and page; set
+  `population_region` when stated and `source_id` when citing another work.
+  Exclude observations outside the treatment's scope and values borrowed from
+  another FPM or TFSS treatment. In Lim_2010, the Borneo measurements cited
+  from Yii_1995 (TFSS) are not scored; the source text remains in the
+  transcription. For TFSS observations stated only as Borneo, apply the
+  unresolved-locality rule above.
+- **Excluded and incompletely known species** are not scored; list them in
+  `taxon_flags.csv`.
+- **Ferns.** Cibotiaceae is a provisional example, not a validated mapping
+  template. Check each treatment and `config/traits.yml` before mapping stipe to
+  petiole, lamina to leaf, or pinnae to leaflets; flag uncertain mappings.
+
+### 5. Higher-rank values (G, with user rules)
+
+- Review higher-rank descriptions even when species descriptions dominate.
+  Use `flora_copy_down()` when unqualified, single-level `mode` rows from the
+  family, genus or group description apply to members silent on the trait,
+  only if every member that scores the trait includes the value. Never numbers.
+  Most specific rank wins (group, genus, family). `attr(, "rejected")` contains
+  agreement-test failures only; inspect it and preserve other ineligible clauses
+  separately in the bespoke parser.
+- Use `flora_inherit_infraspecific()` for `subsp.`/`var.` silent on a trait.
+- Monogeneric family: both family and genus are copied down
+  (`rank_scored_from` = `genus` or `family`; Yao_2010).
+- Keep unscored family and genus clauses (qualified, numeric, hedged,
+  "most species") as unmapped rows at their own rank. Preserve scored
+  higher-rank rows even when they fail the copy-down agreement test.
+
+### 6. Unmapped records (G format, B content)
+
+Every unscored description clause stays in `trait_data.csv` with a blank
+`trait`, blank levels, `trait_value_raw` = verbatim clause, page, taxon rank
+and `notes` = `UNMAPPED: <organ> | <character>`. A full description paragraph
+is an interim review record, not proof that each clause was assessed: split
+or mark its clauses as reviewed before calling the extraction complete. Keep
+whole Ecology and Distribution paragraphs when no mapped trait applies
+(altitude, habitat, soil, range, conservation status, uses). Do not split
+compound text into guessed values. `raw/unmapped_terms.csv` is only the summary
+(`flora_unmapped_summary()`); there is no `unmapped_values.csv`.
+`config/traits.yml` changes are never made in a family branch: collect the
+summaries and decide traits together.
+
+### 7. Assemble `raw/trait_data.csv` (G)
+
+Order: own rows, copy-down, inheritance, manual rows. Then
+`flora_merge_duplicate_keys()`, optionally `flora_drop_redundant_ranks()`,
+`flora_finalise()` (column order, `a--b` dashes in `trait_value_raw`,
+`trait_value` and `notes`; `x` for multiplication in `trait_value_raw`;
+`in_traits.yml` computed from `traits.yml`) and `readr::write_csv(na = "")`.
+Columns:
+`taxon_name, taxon_rank, entity_type, rank_scored_from, commonness_qualifier, population_region, form, entity_measured, trait, in_traits.yml, trait_value_raw, trait_value, trait_value_clean, value_type, unit, source_section, pdf_page, printed_page, notes, source_id`.
+`source_id` is filled for every row that cites another work (never inferred by
+regex from `notes`).
+
+### 8. Vouchers (B, hand transcription)
+
+`raw/<Author_Year>_vouchers.csv`: types, types of synonyms and figure
+specimens, transcribed by hand; citations are too irregular for regex
+(`holotype?`, `n.v.`, barcode ranges, mixed sheets, `s.n.`). This is a separate
+pass and can be done by a cheaper model. Columns:
+`taxon_name, specimen_status, institution_code, catalog_number, collector,
+record_number, collection_date, locality, state, country, source_section,
+notes`. Use one `specimen_status` vocabulary across datasets:
+`holotype, isotype, lectotype, isolectotype, syntype, neotype, isoneotype,
+figure specimen` plus `possible <status>` where the flora hedges. Dates ISO,
+locality verbatim. One row per institution for isotypes. Flag inconsistencies
+in `notes` (a type destroyed at Berlin, the same barcode cited twice, a
+figure caption that contradicts the heading, as in Coode_2018 question 8).
+
+### 9. `data.csv` (G)
+
+`flora_make_data("<Author_Year>")` writes `data/<id>/data.csv` in long format:
+`value` is `trait_value_clean` for numeric traits and the `y/n` calendars, else
+the source term (`trait_value`) mapped by `substitutions:` in metadata;
+`trait_scoring_method` comes from `rank_scored_from`
+(`inferred_from_family|genus|species_group|species`). Verify that own rows are
+also mapped to `inferred_from_species`; an empty scoring-method context can
+make `dataset_test()` fail with an unnamed-column error. Unmapped rows stay out.
+Do not use `convert-raw-data-file-into-data-csv`: floras stay long.
+
+### 10. `metadata.yml` (B)
+
+Edit directly. Start from `traits.build::metadata_create_template()` and change:
+
+- `source.primary`: `bibtype: InBook`, the actual treatment author, `booktitle`
+  (FPM Series II vol. N or TFSS vol. N), editors, series, publisher, pages.
+  Keep FPM and TFSS primary citations in separate datasets even for the same
+  family. Add every cited secondary source (for example `Yii_1995`) under
+  `source.secondary`.
+- `dataset`: `data_is_long_format: yes`, `basis_of_record: preserved_specimen`,
+  `life_stage: adult`, `entity_type: species`, and a `sampling_strategy`
+  describing the extraction. For a born-digital source, state that rows came
+  from the PDF text layer, which pages were image-checked and why (step 2
+  flags); this alone does not make the dataset provisional. For a
+  `scanned_ocr` source, state whether rows came from the unchecked layer, an
+  OCR draft checked against page images, or a fully image-checked
+  transcription. In `notes`, identify pages or clauses still unchecked,
+  provisional status, and whether a future born-digital copy could improve
+  text accuracy, coverage or page provenance. Recheck against that copy when
+  available; do not present a hypothetical copy as a prerequisite to using the
+  current scan.
+- `contexts`: `commonness_qualifier`, `population_region`, `entity_measured`,
+  `trait_scoring_method`, plus `form` when forms are merged. Declare every
+  context actually used in `data.csv`.
+- `traits:` entries use `unit_in: unit` for measured values and an appropriate
+  `basis_of_value` (`measurement` for dimensions, `expert_score` for scored
+  categorical values). Generate a draft once in the console from `data.csv`,
+  paste it, keep no script. Use a literal block scalar for long free-flow
+  fields, especially `notes: |` and `sampling_strategy: |`. Quote short
+  `questions:` and `methods:` strings (YAML plain scalars cannot contain `:` or
+  start with a quote); `yaml::read_yaml()` catches this before `dataset_test()`.
+- `substitutions:` map source terms to levels (`trait_value` -> clean level),
+  so mappings can change without re-extracting.
+- `questions:` records only items requiring a curator or user decision, or an
+  explicit confirmation. Do not add routine extraction facts, name-backbone
+  status, or the absence of a field sampling design. Use consecutive keys
+  (`question1`, `question2`, ...). Each question must state: the source wording
+  or precise issue; affected taxon, trait and rows where relevant; the current
+  treatment; and the decision requested. Include a source fix, uncertain
+  mapping, accepted hedge, unresolved unmapped term, or out-of-range value only
+  when it needs review. Keep a factual unmapped summary in `notes` or
+  `raw/unmapped_terms.csv` instead.
+- Use unquoted `.na` for absent optional metadata fields, not the literal string
+  `'.na'`. The latter is data, not YAML null, and can make
+  `process_flag_excluded_observations()` fail with an unnamed-column error.
+
+### 11. QA and build checks (G)
+
+1. `flora_qa("<id>")`, read every table. Duplicate keys, unknown traits, levels
+   or values the build will exclude, numeric ranges and outliers, mixed units
+   per trait, measurement misses, leftover en dashes, calendar length, core
+   trait coverage, contexts, traits and `source_id` used in `data.csv` but
+   missing from `metadata.yml`.
+2. `flora_dataset_test("<id>")`: quiet wrapper for
+   `traits.build::dataset_test()`.
+3. `traits.build::dataset_process()` (see `build.R` for the call): inspect
+   `excluded_data`. Schema tests pass even when allowed-value mismatches exist.
+   It also catches build failures after the schema checks. Yao_2010 was never
+   processed.
+4. Check completeness independently of schema tests: compare all accepted
+   species and infraspecific headings, description and later sections, unmapped
+   clauses, and type/figure vouchers against the source. Passing QA does not
+   establish completeness.
+5. Report: taxa, rows by mapped and unmapped, rows by `rank_scored_from`,
+   exclusions, numbered questions.
+
+## Known inconsistencies (do not repeat)
+
+| Observed | Do instead |
+| --- | --- |
+| Segmenter, helpers and dictionary copied into each family (Lim 2,068 lines vs Coode 1,551) | source `scripts/`, keep terms in the dictionary CSV |
+| Coode and Lim use the layer or a transcription depending on the PDF; the decision was not written down | steps 1 and 2 |
+| Source repairs buried in `norm()` regexes (Coode, Lim) or typed into rows (Yao) | `raw/source_fixes.csv` |
+| Mixed dashes in source text | `flora_finalise()` normalizes numeric ranges in `trait_value_raw`, `trait_value` and `notes`; check other text columns separately |
+| Unmapped records were inconsistent (fixed 2026-10: all four keep rows in `trait_data.csv`) | step 6 |
+| Duplicate keys: 23 Coode pairs (same value from two ranks), Yao failed `dataset_test()` | `flora_drop_redundant_ranks()`, `flora_merge_duplicate_keys()`, QA table |
+| `source_id` set by regex on `notes` (Coode, Lim); Coode cites `Corner_1988`, `Roubik_2006`, `Ng_2014` with no `source.secondary` entry | `source_id` column, QA table, add the sources |
+| `manual_rows.csv` columns differ (Coode has no `rank_scored_from`) | same columns as `trait_data.csv` |
+| Voucher vocabulary differs (`illustrated specimen` vs `figure specimen`; `possible type`) | one vocabulary, step 8 |
+| Hedged statements scored in Yao, skipped in Coode | decide once per family, ask |
+| Values outside `traits.yml` levels or ranges reach `excluded_data` (Coode 6 terms and 2 ranges, Lim 3 terms) | QA lists them before the build; record as questions, change `traits.yml` centrally |
+| One trait with mixed units (Coode `fruit_length` cm/mm; Lim DBH cm/m) | expected; check `unit` per row, QA lists them |
+| `dataset_process()` not run (Yao) | step 11 |
+| Optional metadata used quoted `'.na'`, so it was parsed as a literal string and broke exclusion handling | use unquoted `.na`; run `dataset_process()` as well as `dataset_test()` |
+
+## Single taxon-description papers
+
+Same workflow with `flora_hand()`, plus: read the whole paper (introduction
+group statements, key, description, diagnosis, phenology, distribution and
+habitat, notes with subpopulation variation, figure captions). Skip pure
+comparisons ("much hairier than H. basaltica"); they cannot be scored for
+either taxon. When the paper's diagnosis disagrees with its description, keep
+the description and put the disagreement in `notes`. Values that apply through
+a genus or group statement use that `rank_scored_from`; never copy hedged
+statements. Extent of occurrence, linear range and population size are not
+traits; mention them in the report.
+
+## Parallel processing
+
+Only after the shared scripts and dictionary are stable. One family per agent,
+one branch per family; issue per family with PDF path, dataset id and these
+standing rules. Completion requires the source reconciliation in step 11, not
+just `dataset_test()` passing; attach QA tables and a summary of unmapped terms
+and questions. Start with small families to grow the dictionary, merge
+dictionary additions centrally, and keep `config/traits.yml` changes out of
+family branches.
+
+## Open question for the user
+
+Hedged statements: confirm whether accepted Yao_2010 hedges should remain
+scored; default for new families is not scored.

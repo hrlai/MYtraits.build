@@ -1,0 +1,245 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Elaeocarpus acmosepalus,holotype,K,K000675978,Cantley,s.n.,1882-02-10,Pengerang [Pinerong],Johor,Malaysia,"Type, p.52",Flowering material.
+Elaeocarpus acronodia,lectotype,L,L0014011,Blume,s.n.,,"""in cacumine montis Gede""",,Indonesia (Java),"Type, p.53",Type of the homotypic synonym Acronodia punctata Blume. Lectotype and isolectotype are cited with the same barcode L0014011; one is probably a misprint.
+Elaeocarpus acronodia,isolectotype,L,L0014011,Blume,s.n.,,"""in cacumine montis Gede""",,Indonesia (Java),"Type, p.53",Same barcode as the lectotype as printed.
+Elaeocarpus acronodia subsp. sumatranus,holotype,K,K000708071,van Steenis,8713,1937-02-07,"Aceh, Lau Alas river, c. 1800--2500 m",,Indonesia (Sumatra),"Type, p.53",Flowering material.
+Elaeocarpus acronodia subsp. sumatranus,isotype,A,A00112298,van Steenis,8713,1937-02-07,"Aceh, Lau Alas river, c. 1800--2500 m",,Indonesia (Sumatra),"Type, p.53",
+Elaeocarpus acronodia subsp. sumatranus,isotype,BO,,van Steenis,8713,1937-02-07,"Aceh, Lau Alas river, c. 1800--2500 m",,Indonesia (Sumatra),"Type, p.53",Cited 'BO n.v.' (not seen by the author).
+Elaeocarpus acronodia subsp. sumatranus,isotype,L,L0064237,van Steenis,8713,1937-02-07,"Aceh, Lau Alas river, c. 1800--2500 m",,Indonesia (Sumatra),"Type, p.53",
+Elaeocarpus angustifolius,holotype,BO,,Blume,s.n.,,"""in montosis Provinciae Buitenzorg""",,Indonesia (Java),"Type, p.54--55",Cited 'holotype BO?' (location uncertain).
+Elaeocarpus angustifolius,possible type,L,L0014015,,,,,,,"Type, p.55",One of two specimens without collector or locality annotated '2160/c' in the Leiden type database.
+Elaeocarpus angustifolius,possible type,L,L0014016,,,,,,,"Type, p.55",One of two specimens without collector or locality annotated '2160/c' in the Leiden type database.
+Elaeocarpus angustifolius,possible isotype,M,M0210111,Blume,,,,,,"Type, p.55",Collector 'Blume' but no locality.
+Elaeocarpus angustifolius,possible isotype,P,P02440601,Blume,,,,,,"Type, p.55",Collector 'Blume' but no locality.
+Elaeocarpus angustifolius,possible isotype,U,U0259093,Blume,,,,,,"Type, p.55",Collector 'Blume' but no locality.
+Elaeocarpus angustifolius,holotype,BO,,Hochreutiner,Pl. Bogor. Exsicc. Nov. Min. Cogn. No. 51,1904,,,Indonesia (Java),"Type, p.57","Type of the synonyms E. sphaericus var. major Hochr. and E. major (Hochr.) R.Knuth, listed under the widespread form. Cited 'holotype BO?'. Exsiccata number used as record number."
+Elaeocarpus angustifolius,isotype,K,K000708069,Hochreutiner,Pl. Bogor. Exsicc. Nov. Min. Cogn. No. 51,1904,,,Indonesia (Java),"Type, p.57",Type of E. sphaericus var. major (widespread form).
+Elaeocarpus angustifolius,holotype,K,K000675972,Maingay,3132,1868-06-05,Melaka [Malacca],Melaka,Malaysia,"Type, p.57","Type of the synonym E. cyanocarpus Maingay ex Mast., listed under the form intermediate between the widespread and Sumatra/Peninsular Malaysia forms. Flowers and fruits."
+Elaeocarpus angustifolius,illustrated specimen,,,FMS,3325,,,,Malaysia,"Figure 1 caption, p.59",Fig. 1A--H (flowering shoot and flower parts). FMS collection series; herbarium not stated.
+Elaeocarpus angustifolius,illustrated specimen,,,KEP,66619,,,,Malaysia,"Figure 1 caption, p.59",Fig. 1I--L (infructescence and fruit). KEP collection series; herbarium not stated.
+Elaeocarpus cruciatus,holotype,SING,,Kalong,KEP/CF 22357,1930-06-17,Fraser's Hill,Pahang,Malaysia,"Type, p.58",
+Elaeocarpus cruciatus,isotype,K,K000675970,Kalong,KEP/CF 22357,1930-06-17,Fraser's Hill,Pahang,Malaysia,"Type, p.58",
+Elaeocarpus cruciatus,illustrated specimen,,,FRI,34066,,,,Malaysia,"Figure 2 caption, p.61",Fig. 2 (all parts). FRI collection series; herbarium not stated.
+Elaeocarpus cupreus,holotype,PNH,,Native Coll.,BS 1702,,Sarawak,Sarawak,Malaysia (Borneo),"Type, p.60",Female flowers. Cited 'holotype PNH?†' (probably destroyed).
+Elaeocarpus cupreus,isotype,A,A00051873,Native Coll.,BS 1702,,Sarawak,Sarawak,Malaysia (Borneo),"Type, p.60",Pencilled annotations '?by Merrill'.
+Elaeocarpus cupreus,isotype,A,A00051872,Native Coll.,BS 1702,,Sarawak,Sarawak,Malaysia (Borneo),"Type, p.60",Annotated by Merrill as female type collection.
+Elaeocarpus cupreus,isotype,K,K000708114,Native Coll.,BS 1702,,Sarawak,Sarawak,Malaysia (Borneo),"Type, p.60",K and US are listed after the closing bracket of the isotype list as printed; read as further isotypes.
+Elaeocarpus cupreus,isotype,US,US00094646,Native Coll.,BS 1702,,Sarawak,Sarawak,Malaysia (Borneo),"Type, p.60",As for K.
+Elaeocarpus cupreus,holotype,K,K000708112,Haviland,s.n.,1889-10-11,"Pengkulu Ampat (Sg. Sarawak)",Sarawak,Malaysia (Borneo),"Type, p.60","Type of the synonym E. ochraceus Stapf ex Ridl. Male flowers; perhaps mixed from two trees. '33' pencilled on the sheet (probably the Kew family number), also used on a specimen of E. pedunculatus."
+Elaeocarpus eriobotryoides,holotype,K,K000675969,Robinson,s.n.,,G. Mengkuang Lebah,Selangor,Malaysia,"Type, p.63",
+Elaeocarpus eriobotryoides,isotype,BM,BM000795282,Robinson,s.n.,,G. Mengkuang Lebah,Selangor,Malaysia,"Type, p.63",
+Elaeocarpus eriobotryoides,isotype,SING,,Robinson,s.n.,,G. Mengkuang Lebah,Selangor,Malaysia,"Type, p.63",
+Elaeocarpus euneurus,isotype,G,,Beccari,PB3093,,Sarawak,Sarawak,Malaysia (Borneo),"Type, p.119",Excluded species (not certainly known from Peninsular Malaysia).
+Elaeocarpus euneurus,isotype,K,,Beccari,PB3093,,Sarawak,Sarawak,Malaysia (Borneo),"Type, p.119",Excluded species.
+Elaeocarpus ferrugineus,holotype,,,Jack,s.n.,,described from Singapore,,Singapore,"Type, p.64",Holotype missing (basionym Monocera ferruginea Jack).
+Elaeocarpus ferrugineus,neotype,K,,Wallich,2679,,,,Singapore,"Type, p.64",Neotype chosen by R. Weibel in sched. (1967).
+Elaeocarpus ferrugineus subsp. glabrescens,holotype,K,K000675965,Maingay,265,,Melaka [Malacca],Melaka,Malaysia,"Type, p.66","Holotype excluding fruit; cited with barcodes K000675965--K000675966 (two sheets)."
+Elaeocarpus ferrugineus subsp. glabrescens,holotype,K,K000675966,Maingay,265,,Melaka [Malacca],Melaka,Malaysia,"Type, p.66",Second sheet of the holotype.
+Elaeocarpus ferrugineus subsp. glabrescens,isotype,GH,GH00112072,Maingay,265,,Melaka [Malacca],Melaka,Malaysia,"Type, p.66",
+Elaeocarpus ferrugineus subsp. glabrescens,isotype,L,L0014095,Maingay,265,,Melaka [Malacca],Melaka,Malaysia,"Type, p.66",
+Elaeocarpus floribundus,holotype,L,L0014099,Blume,s.n.,,"""ad montem Salak""",,Indonesia (Java),"Type, p.67",
+Elaeocarpus floribundus,isotype,A,A00051883,Blume,s.n.,,"""ad montem Salak""",,Indonesia (Java),"Type, p.67",
+Elaeocarpus floribundus,isotype,L,L0014100,Blume,s.n.,,"""ad montem Salak""",,Indonesia (Java),"Type, p.67",
+Elaeocarpus floribundus,lectotype,K,K000708030,Ridley,3641,,Bt. Timah,,Singapore,"Type, p.67",Type of the heterotypic synonym E. rigidus Ridl.; lectotype selected here.
+Elaeocarpus floribundus,isolectotype,K,K000708031,Ridley,3641,,Bt. Timah,,Singapore,"Type, p.67",Type of E. rigidus Ridl.
+Elaeocarpus floribundus,isolectotype,L,,Ridley,3641,,Bt. Timah,,Singapore,"Type, p.67",Type of E. rigidus Ridl.
+Elaeocarpus floribundus,isolectotype,SING,,Ridley,3641,,Bt. Timah,,Singapore,"Type, p.67",Type of E. rigidus Ridl.
+Elaeocarpus fraseri,holotype,K,K000708029,Ridley,15694,,Sempang Mines,Selangor,Malaysia,"Type, p.68",
+Elaeocarpus fraseri,isotype,SING,,Ridley,15694,,Sempang Mines,Selangor,Malaysia,"Type, p.68",
+Elaeocarpus glaber,holotype,L,L0014104,Blume,s.n.,,Mt. Salak,,Indonesia (Java),"Type, p.69",
+Elaeocarpus glaber,isotype,FR,FR0036569,Blume,s.n.,,Mt. Salak,,Indonesia (Java),"Type, p.69",
+Elaeocarpus glaber,holotype,A,A00051888,Hose,25,,Baram Distr.,Sarawak,Malaysia (Borneo),"Type, p.69",Type of the synonym E. hosei Merr.
+Elaeocarpus glaber,isotype,BM,BM000795249,Hose,25,,Baram Distr.,Sarawak,Malaysia (Borneo),"Type, p.69",Type of E. hosei Merr.
+Elaeocarpus glaber,isotype,E,,Hose,25,,Baram Distr.,Sarawak,Malaysia (Borneo),"Type, p.69",Type of E. hosei Merr.
+Elaeocarpus glaber,isotype,K,K000708093,Hose,25,,Baram Distr.,Sarawak,Malaysia (Borneo),"Type, p.69",Type of E. hosei Merr.
+Elaeocarpus glaber,isotype,L,L0014105,Hose,25,,Baram Distr.,Sarawak,Malaysia (Borneo),"Type, p.69",Type of E. hosei Merr.
+Elaeocarpus glaber,isotype,SING,,Hose,25,,Baram Distr.,Sarawak,Malaysia (Borneo),"Type, p.69",Type of E. hosei Merr.
+Elaeocarpus grandiflorus,holotype,LINN,LINN-HS941-6,Staunton,s.n.,,'Straits of Sunda',,,"Type, p.71",
+Elaeocarpus grandiflorus,isotype,BM,BM000795281,Staunton,s.n.,,'Straits of Sunda',,,"Type, p.71",
+Elaeocarpus griffithii,holotype,,,Griffith,714,1834,Mergui,,Myanmar,"Type, p.72",Cited 'holotype?' with no herbarium; collection year '1834?'.
+Elaeocarpus griffithii,isotype,G,G00342066,Griffith,714,1834,Mergui,,Myanmar,"Type, p.72",
+Elaeocarpus griffithii,isotype,GH,GH00112326,Griffith,714,1834,Mergui,,Myanmar,"Type, p.72",
+Elaeocarpus griffithii,isotype,K,K000675976,Griffith,714,1834,Mergui,,Myanmar,"Type, p.72",
+Elaeocarpus griffithii,isotype,M,M0210091,Griffith,714,1834,Mergui,,Myanmar,"Type, p.72",
+Elaeocarpus griffithii,isotype,MPU,MPU017243,Griffith,714,1834,Mergui,,Myanmar,"Type, p.72",Number '714' missing from the sheet.
+Elaeocarpus griffithii,isotype,NY,NY00415223,Griffith,714,1834,Mergui,,Myanmar,"Type, p.72",Listed after the closing bracket of the isotype list as printed.
+Elaeocarpus griffithii,isotype,K,K000708027,Cuming,2291,,Melaka [Malacca],Melaka,Malaysia,"Type, p.72",Type of the synonym Monocera petiolata Turcz.
+Elaeocarpus griffithii,holotype,KW,KW001000788,Cuming,2253,,Melaka [Malacca],Melaka,Malaysia,"Type, p.72",Type of the synonym Monocera holopetala Turcz.
+Elaeocarpus griffithii,isotype,C,C10010846,Cuming,2253,,Melaka [Malacca],Melaka,Malaysia,"Type, p.72",Type of Monocera holopetala Turcz.
+Elaeocarpus griffithii,isotype,G,G00301967,Cuming,2253,,Melaka [Malacca],Melaka,Malaysia,"Type, p.72",Type of Monocera holopetala Turcz.
+Elaeocarpus griffithii,isotype,K,K000708025,Cuming,2253,,Melaka [Malacca],Melaka,Malaysia,"Type, p.72","Type of Monocera holopetala Turcz.; cited as barcodes K000708025--K000708026."
+Elaeocarpus griffithii,isotype,K,K000708026,Cuming,2253,,Melaka [Malacca],Melaka,Malaysia,"Type, p.72",Type of Monocera holopetala Turcz.
+Elaeocarpus knuthii,holotype,A,,J. & M.S. Clemens,29261,1932-04-15,"Kinabalu, Tenompok, 1500 m [5000 ft]",Sabah,Malaysia (Borneo),"Type, p.74",Cited 'A n.v.'. Species represented in Peninsular Malaysia by subsp. cuspidatus only.
+Elaeocarpus knuthii,isotype,BM,BM000795259,J. & M.S. Clemens,29261,1932-04-15,"Kinabalu, Tenompok, 1500 m [5000 ft]",Sabah,Malaysia (Borneo),"Type, p.74",
+Elaeocarpus knuthii,isotype,G,G00301913,J. & M.S. Clemens,29261,1932-04-15,"Kinabalu, Tenompok, 1500 m [5000 ft]",Sabah,Malaysia (Borneo),"Type, p.74",
+Elaeocarpus knuthii,isotype,HBG,HBG507513,J. & M.S. Clemens,29261,1932-04-15,"Kinabalu, Tenompok, 1500 m [5000 ft]",Sabah,Malaysia (Borneo),"Type, p.74",
+Elaeocarpus knuthii,isotype,K,K000708146,J. & M.S. Clemens,29261,1932-04-15,"Kinabalu, Tenompok, 1500 m [5000 ft]",Sabah,Malaysia (Borneo),"Type, p.74",
+Elaeocarpus knuthii,isotype,L,L0014132,J. & M.S. Clemens,29261,1932-04-15,"Kinabalu, Tenompok, 1500 m [5000 ft]",Sabah,Malaysia (Borneo),"Type, p.74",
+Elaeocarpus knuthii,isotype,M,M0210084,J. & M.S. Clemens,29261,1932-04-15,"Kinabalu, Tenompok, 1500 m [5000 ft]",Sabah,Malaysia (Borneo),"Type, p.74",
+Elaeocarpus knuthii,isotype,SING,,J. & M.S. Clemens,29261,1932-04-15,"Kinabalu, Tenompok, 1500 m [5000 ft]",Sabah,Malaysia (Borneo),"Type, p.74",
+Elaeocarpus knuthii subsp. cuspidatus,holotype,K,K000708024,Robinson,s.n.,1913-02-05,G. Mengkuang Lebah,Selangor,Malaysia,"Type, p.74","Type of the basionym E. reticulatus var. cuspidatus Ridl. Male flowers. 'Synonyn' misspelt in source. Same collector and locality as the E. eriobotryoides type (Robinson s.n.); different gathering."
+Elaeocarpus knuthii subsp. cuspidatus,isotype,BM,BM000795247,Robinson,s.n.,1913-02-05,G. Mengkuang Lebah,Selangor,Malaysia,"Type, p.74",
+Elaeocarpus knuthii subsp. cuspidatus,isotype,SING,,Robinson,s.n.,1913-02-05,G. Mengkuang Lebah,Selangor,Malaysia,"Type, p.74",Cited 'SING n.v.'.
+Elaeocarpus kunstleri,isotype,BM,BM000795279,Kunstler (King's Coll.),8328,,G. Bubu,Perak,Malaysia,"Type, p.76",No holotype cited.
+Elaeocarpus kunstleri,isotype,K,K000708023,Kunstler (King's Coll.),8328,,G. Bubu,Perak,Malaysia,"Type, p.76",
+Elaeocarpus kunstleri,isotype,SING,,Kunstler (King's Coll.),8328,,G. Bubu,Perak,Malaysia,"Type, p.76",
+Elaeocarpus macrocarpus,holotype,U,U0001669,HB (probably Teijsmann),1059,,Payakombo,,Indonesia (Sumatra),"Type, p.119",Incompletely known species. Sterile fragments with a fruit.
+Elaeocarpus macrocarpus,isotype,BO,,HB (probably Teijsmann),1059,,Payakombo,,Indonesia (Sumatra),"Type, p.119",Incompletely known species.
+Elaeocarpus macrocarpus,isotype,L,L0014142,HB (probably Teijsmann),1059,,Payakombo,,Indonesia (Sumatra),"Type, p.119",Incompletely known species. Scraps.
+Elaeocarpus macrocerus subsp. macrocerus,holotype,KW,KW001000715,Cuming,2331,,Melaka [Malacca],Melaka,Malaysia,"Type, p.77","Type of the basionym Monocera macrocera Turcz.; cited at species rank, typifies the typical subspecies. Holotype on two sheets, KW001000715--001000716."
+Elaeocarpus macrocerus subsp. macrocerus,holotype,KW,KW001000716,Cuming,2331,,Melaka [Malacca],Melaka,Malaysia,"Type, p.77",Second sheet of the holotype.
+Elaeocarpus macrocerus subsp. macrocerus,isotype,A,A00051901,Cuming,2331,,Melaka [Malacca],Melaka,Malaysia,"Type, p.77",
+Elaeocarpus macrocerus subsp. macrocerus,isotype,BM,BM000795324,Cuming,2331,,Melaka [Malacca],Melaka,Malaysia,"Type, p.77",
+Elaeocarpus macrocerus subsp. macrocerus,isotype,E,E00346562,Cuming,2331,,Melaka [Malacca],Melaka,Malaysia,"Type, p.77","Cited 'E barcodes E00346562--00388004'; read as two sheets, not a barcode range."
+Elaeocarpus macrocerus subsp. macrocerus,isotype,E,E00388004,Cuming,2331,,Melaka [Malacca],Melaka,Malaysia,"Type, p.77",See previous row.
+Elaeocarpus macrocerus subsp. macrocerus,isotype,G,G00342074,Cuming,2331,,Melaka [Malacca],Melaka,Malaysia,"Type, p.77","Cited 'G barcodes G00342074--00342078'; may be a range of up to five sheets. Only the end barcodes are listed here."
+Elaeocarpus macrocerus subsp. macrocerus,isotype,G,G00342078,Cuming,2331,,Melaka [Malacca],Melaka,Malaysia,"Type, p.77",See previous row.
+Elaeocarpus macrocerus subsp. macrocerus,isotype,K,K000708021,Cuming,2331,,Melaka [Malacca],Melaka,Malaysia,"Type, p.77",
+Elaeocarpus macrocerus subsp. macrocerus,isotype,K,K000708022,Cuming,2331,,Melaka [Malacca],Melaka,Malaysia,"Type, p.77",
+Elaeocarpus macrocerus subsp. macrocerus,isotype,L,L0014143,Cuming,2331,,Melaka [Malacca],Melaka,Malaysia,"Type, p.77",
+Elaeocarpus macrocerus subsp. macrocerus,isotype,L,L0014144,Cuming,2331,,Melaka [Malacca],Melaka,Malaysia,"Type, p.77",
+Elaeocarpus macrocerus subsp. macrocerus,isotype,NY,NY00415301,Cuming,2331,,Melaka [Malacca],Melaka,Malaysia,"Type, p.77",Scrappy.
+Elaeocarpus macrocerus subsp. macrocerus,isotype,M,M0210082,Cuming,2331,,Melaka [Malacca],Melaka,Malaysia,"Type, p.77",Scrappy.
+Elaeocarpus macrocerus subsp. macrocerus,holotype,K,K000708135,Binnendijk,s.n.,,,,Indonesia (Sumatra),"Type, p.77",Type of the heterotypic synonym E. littoralis Kurz; cited 'holotype?K'.
+Elaeocarpus mastersii,lectotype,K,K000708019,Griffith,681,,Melaka [Malacca],Melaka,Malaysia,"Type, p.78",Lectotype published by Coode (1996).
+Elaeocarpus nanus subsp. nanus,holotype,SING,,Burn Murdoch,345,1910,G. Ulu Kali,Selangor,Malaysia,"Type, p.80",Flower buds. Cited at species rank; typifies the typical subspecies.
+Elaeocarpus nanus subsp. nanus,isotype,K,K000708017,Burn Murdoch,345,1910,G. Ulu Kali,Selangor,Malaysia,"Type, p.80",Cited as barcodes K000708017--K000708018.
+Elaeocarpus nanus subsp. nanus,isotype,K,K000708018,Burn Murdoch,345,1910,G. Ulu Kali,Selangor,Malaysia,"Type, p.80",
+Elaeocarpus ngii subsp. ngii,holotype,K,,T. & P.,672 (in KL 3272),1980-10-09,"45 miles [72 km] from Jerantut towards Kuala Lipis",Pahang,Malaysia,"Type, p.82",Flower and fruit. Cited at species rank; typifies subsp. ngii.
+Elaeocarpus ngii subsp. ngii,isotype,L,,T. & P.,672 (in KL 3272),1980-10-09,"45 miles [72 km] from Jerantut towards Kuala Lipis",Pahang,Malaysia,"Type, p.82",
+Elaeocarpus ngii subsp. ngii,isotype,SING,,T. & P.,672 (in KL 3272),1980-10-09,"45 miles [72 km] from Jerantut towards Kuala Lipis",Pahang,Malaysia,"Type, p.82",
+Elaeocarpus ngii subsp. curtisii,holotype,K,,Curtis,3570,1901-03,"Government Hill, 2000 ft [600 m]",Penang,Malaysia,"Type, p.83",Fruiting material.
+Elaeocarpus ngii subsp. curtisii,isotype,SING,,Curtis,3570,1901-03,"Government Hill, 2000 ft [600 m]",Penang,Malaysia,"Type, p.83",
+Elaeocarpus nitidus var. nitidus,holotype,,,Jack,s.n.,,Penang,Penang,Malaysia,"Type, p.85",Cited 'holotype?' with no herbarium. Cited at species rank; typifies the typical variety.
+Elaeocarpus nitidus var. nitidus,isotype,BM,BM00084042,Jack,s.n.,,Penang,Penang,Malaysia,"Type, p.85",
+Elaeocarpus nitidus var. nitidus,isotype,K-WALL,K001116773,Jack,s.n.,,Penang,Penang,Malaysia,"Type, p.85","Left-hand specimen on Wallich 2662 sheet, assumed to be Jack's collection. The same barcode is cited for the type of E. parvifolius (right-hand specimen)."
+Elaeocarpus nitidus var. nitidus,holotype,G,,Wallich,2662,,,,Singapore,"Type, p.85",Type of the synonym E. parvifolius Wall. ex Muell.Berol.; cited 'holotype G?'.
+Elaeocarpus nitidus var. nitidus,isotype,K-WALL,K001116773,Wallich,2662,,,,Singapore,"Type, p.85","Type of E. parvifolius; right-hand specimen on the sheet. Same barcode as the E. nitidus isotype (two specimens on one sheet)."
+Elaeocarpus nitidus var. velutinus,holotype,KEP,7528,Whitmore,FRI 12382,,G. Ledang,Johor,Malaysia,"Type, p.87",
+Elaeocarpus nitidus var. velutinus,isotype,K,K000708015,Whitmore,FRI 12382,,G. Ledang,Johor,Malaysia,"Type, p.87",
+Elaeocarpus nitidus var. velutinus,isotype,L,L0014218,Whitmore,FRI 12382,,G. Ledang,Johor,Malaysia,"Type, p.87",
+Elaeocarpus obtusus,holotype,L,,Blume,s.n.,,"""ad montem Salak""",,Indonesia (Java),"Type, p.87",Type of subsp. obtusus (Java); not in Peninsular Malaysia.
+Elaeocarpus obtusus subsp. apiculatus,holotype,K,K000708011,Maingay,262,,Melaka [Malacca],Melaka,Malaysia,"Type, p.88",Type of the basionym E. apiculatus Mast.
+Elaeocarpus obtusus subsp. apiculatus,isotype,A,A00051846,Maingay,262,,Melaka [Malacca],Melaka,Malaysia,"Type, p.88",
+Elaeocarpus obtusus subsp. apiculatus,isotype,G,G00342106,Maingay,262,,Melaka [Malacca],Melaka,Malaysia,"Type, p.88",
+Elaeocarpus obtusus subsp. apiculatus,isotype,GH,GH00051847,Maingay,262,,Melaka [Malacca],Melaka,Malaysia,"Type, p.88",
+Elaeocarpus obtusus subsp. apiculatus,isotype,K,K000708012,Maingay,262,,Melaka [Malacca],Melaka,Malaysia,"Type, p.88",
+Elaeocarpus obtusus subsp. apiculatus,lectotype,K,,Ridley,10798,,Bt. Timah Road,,Singapore,"Type, p.88",Type of the synonym E. rugosus var. singaporensis Ridl.; lectotype chosen here.
+Elaeocarpus obtusus subsp. apiculatus,isolectotype,SING,,Ridley,10798,,Bt. Timah Road,,Singapore,"Type, p.88",Type of E. rugosus var. singaporensis Ridl.
+Elaeocarpus obtusus subsp. krukovii,holotype,L,,?Collector bb,22459,1937-02-12,"Atjeh en Ond, Gajo Loeeus, G. Agosan, 1800 m",,Indonesia (Sumatra),"Type, p.89",Collector printed as '?Collector bb' (bb = Boschbouw forestry series); the etymology names B.A. Krukov as the collector.
+Elaeocarpus palembanicus,holotype,U,U0001673,Teysmann,s.n.,,Palembang,,Indonesia (Sumatra),"Type, p.90","Type of the basionym Monocera palembanica Miq.; cited as barcodes U0001673--U0001674."
+Elaeocarpus palembanicus,holotype,U,U0001674,Teysmann,s.n.,,Palembang,,Indonesia (Sumatra),"Type, p.90",Second sheet of the holotype.
+Elaeocarpus palembanicus,isotype,GH,GH00051915,Teysmann,s.n.,,Palembang,,Indonesia (Sumatra),"Type, p.90",
+Elaeocarpus palembanicus,isotype,K,K000708184,Teysmann,s.n.,,Palembang,,Indonesia (Sumatra),"Type, p.90",
+Elaeocarpus palembanicus,isotype,L,L0014182,Teysmann,s.n.,,Palembang,,Indonesia (Sumatra),"Type, p.90",
+Elaeocarpus palembanicus,lectotype,SING,,Hullett,132,,,,Singapore,"Type, p.90",Type of the synonym E. hullettii King; flowering; lectotype selected here.
+Elaeocarpus palembanicus,isolectotype,K,,Hullett,132,,,,Singapore,"Type, p.90",Type of E. hullettii King.
+Elaeocarpus palembanicus,lectotype,K,K000708006,H.C. Robinson,s.n.,1913-01-19,"G. Mengkuang Lebah, 5000' [1500 m]",Selangor,Malaysia,"Type, p.90","Type of the synonym E. leptomischus Ridl.; buds; lectotype on sheet 1, selected here. Collection is mixed ('s.n. p.p.') with E. mastersii."
+Elaeocarpus palembanicus,isolectotype,BM,BM000528957,H.C. Robinson,s.n.,1913-01-19,"G. Mengkuang Lebah, 5000' [1500 m]",Selangor,Malaysia,"Type, p.90",Type of E. leptomischus. Top left and lower right only; the other two pieces on the sheet are E. mastersii.
+Elaeocarpus palembanicus,isolectotype,K,K000708006,H.C. Robinson,s.n.,1913-01-19,"G. Mengkuang Lebah, 5000' [1500 m]",Selangor,Malaysia,"Type, p.90","Type of E. leptomischus. Sheet 2, lower plant only (upper plant is E. mastersii). Same barcode as the lectotype (sheet 1)."
+Elaeocarpus palembanicus,isolectotype,SING,,H.C. Robinson,s.n.,1913-01-19,"G. Mengkuang Lebah, 5000' [1500 m]",Selangor,Malaysia,"Type, p.90",Type of E. leptomischus.
+Elaeocarpus pedunculatus,lectotype,K-WALL,K000708004,Wallich,2678,1822,,,Singapore,"Type, p.92",Fruiting material. Lectotype chosen by Coode (1998).
+Elaeocarpus petiolatus,neotype,K,K001116797,Wallich,2673,,Penang,Penang,Malaysia,"Type, p.93","Ex Hb Bentham; neotype chosen by Coode (1998). The original Jack material ('Native of Pulo Pinang') is not known to survive."
+Elaeocarpus petiolatus,isoneotype,A,A00112327,Wallich,2673,,Penang,Penang,Malaysia,"Type, p.93",
+Elaeocarpus petiolatus,isoneotype,A,A00112336,Wallich,2673,,Penang,Penang,Malaysia,"Type, p.93",
+Elaeocarpus petiolatus,isoneotype,E,E00314158,Wallich,2673,,Penang,Penang,Malaysia,"Type, p.93",
+Elaeocarpus petiolatus,isoneotype,G,G00342070,Wallich,2673,,Penang,Penang,Malaysia,"Type, p.93",Barcode G00342070 is also cited as the holotype of E. polystachyus (Wallich 2671). One citation is probably wrong.
+Elaeocarpus petiolatus,isoneotype,G,G00342103,Wallich,2673,,Penang,Penang,Malaysia,"Type, p.93",
+Elaeocarpus petiolatus,isoneotype,GH,GH00112335,Wallich,2673,,Penang,Penang,Malaysia,"Type, p.93",
+Elaeocarpus petiolatus,isoneotype,K,K000708001,Wallich,2673,,Penang,Penang,Malaysia,"Type, p.93",
+Elaeocarpus petiolatus,isoneotype,NY,NY00415302,Wallich,2673,,Penang,Penang,Malaysia,"Type, p.93",
+Elaeocarpus petiolatus,holotype,G,G00342153,Wallich,2668,,Sylhet,,Bangladesh,"Type, p.93","Type of the synonym E. integer Wall. ex C.Muell.; collector cited 'H. B.?, Wallich Herbarium 2668'."
+Elaeocarpus petiolatus,isotype,K-WALL,K001116792,Wallich,2668,,Sylhet,,Bangladesh,"Type, p.93",Type of E. integer.
+Elaeocarpus petiolatus,holotype,U,U0001676,Teysmann,s.n.,,"Palembang, in Ogan-Ulu",,Indonesia (Sumatra),"Type, p.95",Type of the synonym E. ovalis Miq. ('ovalis' form; not yet collected in Peninsular Malaysia).
+Elaeocarpus petiolatus,isotype,K,K000708178,Teysmann,s.n.,,"Palembang, in Ogan-Ulu",,Indonesia (Sumatra),"Type, p.95",Type of E. ovalis Miq.
+Elaeocarpus petiolatus,isotype,L,L0014191,Teysmann,s.n.,,"Palembang, in Ogan-Ulu",,Indonesia (Sumatra),"Type, p.95",Type of E. ovalis Miq.
+Elaeocarpus polystachyus,holotype,G,G00342070,Wallich,2671,1822-10,,,Singapore,"Type, p.95",Buds and fruit. Barcode also cited for an E. petiolatus isoneotype; one citation is probably wrong.
+Elaeocarpus polystachyus,isotype,K-WALL,K001116795,Wallich,2671,1822-10,,,Singapore,"Type, p.95",
+Elaeocarpus polystachyus,illustrated specimen,,,MS,2224,,,,Malaysia,"Figure 3 caption, p.97",Fig. 3A--G (flowering shoot and flower parts). Herbarium not stated.
+Elaeocarpus polystachyus,illustrated specimen,,,SFN,36189,,,,,"Figure 3 caption, p.97",Fig. 3H--I (fruit and stone). SFN = Singapore Field Number series; herbarium not stated.
+Elaeocarpus pseudopaniculatus,holotype,SING,,Md. Nur,SFN 11391,,Fraser's Hill,Pahang,Malaysia,"Type, p.98",
+Elaeocarpus pseudopaniculatus,isotype,KEP,,Md. Nur,SFN 11391,,Fraser's Hill,Pahang,Malaysia,"Type, p.98",
+Elaeocarpus reticosus,holotype,K,K000676000,Ridley,16008,1911-07,G. Tahan,Pahang,Malaysia,"Type, p.99",Fruiting material. Holotype sheet 1 'selected here' (as printed).
+Elaeocarpus reticosus,isotype,K,K000676000,Ridley,16008,1911-07,G. Tahan,Pahang,Malaysia,"Type, p.99",Sheet 2; same barcode as the holotype.
+Elaeocarpus reticosus,isotype,SING,,Ridley,16008,1911-07,G. Tahan,Pahang,Malaysia,"Type, p.99",
+Elaeocarpus robustus var. robustus,holotype,BM,BM000795185,Roxburgh,s.n.,,Sylhet,,Bangladesh,"Type, p.100",Cited at species rank; typifies the typical variety.
+Elaeocarpus robustus var. robustus,isotype,P,,Roxburgh,s.n.,,Sylhet,,Bangladesh,"Type, p.100",Cited 'isotype P?'.
+Elaeocarpus robustus var. robustus,holotype,K-WALL,K001116796,Wallich,2672,,Penang,Penang,Malaysia,"Type, p.100",Type of the synonyms E. leptostachyus Wall. and E. nitidus var. leptostachyus (Wall. ex C.Muell.) King.
+Elaeocarpus robustus var. robustus,isotype,K,K000708048,Wallich,2672,,Penang,Penang,Malaysia,"Type, p.100",Type of E. leptostachyus.
+Elaeocarpus robustus var. robustus,illustrated specimen,,,FRI,77834,,,,Malaysia,"Figure 5 caption, p.105",Fig. 5 (all parts). FRI collection series; herbarium not stated.
+Elaeocarpus robustus var. robustus,illustrated specimen,,,FRI,14052,,,,Malaysia,"Figure 4 caption, p.104","Fig. 4 (2A--D). The caption labels 2A--D var. robustus and 3A--D var. megacarpus, but the variety headings cite the opposite (megacarpus Fig. 4 (2A--D); robustus Fig. 4 (3A--D)). Taken from the caption; check."
+Elaeocarpus robustus var. collinus,holotype,K,K000708049,Whitmore,FRI 12088,,G. Mandi Angin,Terengganu,Malaysia,"Type, p.102","'Malayasia' misspelt in source."
+Elaeocarpus robustus var. collinus,isotype,A,A00112280,Whitmore,FRI 12088,,G. Mandi Angin,Terengganu,Malaysia,"Type, p.102",
+Elaeocarpus robustus var. collinus,isotype,KEP,,Whitmore,FRI 12088,,G. Mandi Angin,Terengganu,Malaysia,"Type, p.102",
+Elaeocarpus robustus var. collinus,isotype,SAR,,Whitmore,FRI 12088,,G. Mandi Angin,Terengganu,Malaysia,"Type, p.102",
+Elaeocarpus robustus var. collinus,isotype,SING,,Whitmore,FRI 12088,,G. Mandi Angin,Terengganu,Malaysia,"Type, p.102",
+Elaeocarpus robustus var. collinus,illustrated specimen,,,FRI,10804,,,,Malaysia,"Figure 4 caption, p.104",Fig. 4 (1A--C). FRI collection series; herbarium not stated.
+Elaeocarpus robustus var. megacarpus,holotype,K,,Kochummen,FRI 2028,,"G. Inas FR, Compt. 16",Kedah,Malaysia,"Type, p.103","Protologue cited as 'Kew Bull. 90 (1996) 91', probably a misprint for Kew Bull. 51 (1996) 91."
+Elaeocarpus robustus var. megacarpus,isotype,A,A00112077,Kochummen,FRI 2028,,"G. Inas FR, Compt. 16",Kedah,Malaysia,"Type, p.103",
+Elaeocarpus robustus var. megacarpus,isotype,KEP,,Kochummen,FRI 2028,,"G. Inas FR, Compt. 16",Kedah,Malaysia,"Type, p.103",
+Elaeocarpus robustus var. megacarpus,isotype,L,,Kochummen,FRI 2028,,"G. Inas FR, Compt. 16",Kedah,Malaysia,"Type, p.103",Cited 'L n.v.'.
+Elaeocarpus robustus var. megacarpus,isotype,SING,,Kochummen,FRI 2028,,"G. Inas FR, Compt. 16",Kedah,Malaysia,"Type, p.103",
+Elaeocarpus robustus var. megacarpus,holotype,SING,,Ridley,9797,1898-10,Sg. Keladang,Perak,Malaysia,"Type, p.103",Type of the synonym E. macrocarpus Ridl. (non Miq.).
+Elaeocarpus robustus var. megacarpus,illustrated specimen,,,,63260,,,,,"Figure 4 caption, p.104","Fig. 4 (3A--D). Cited '3A--D from 63260' with no series prefix. See the caption/heading conflict noted under var. robustus."
+Elaeocarpus salicifolius,holotype,,,King's Coll.,1207,,,,Singapore,"Type, p.106",Cited 'holotype ?' with no herbarium.
+Elaeocarpus salicifolius,isotype,K,K000708046,King's Coll.,1207,,,,Singapore,"Type, p.106",
+Elaeocarpus salicifolius,isotype,SING,,King's Coll.,1207,,,,Singapore,"Type, p.106",
+Elaeocarpus salicifolius,holotype,A,,Bartlett,7022,1927-03-21,"Aek Kanopan, Loendoet Concession, Koealoe",,Indonesia (Sumatra),"Type, p.106",Type of the synonym E. stenophyllus Merr.; buds; cited 'holotype A?'.
+Elaeocarpus salicifolius,isotype,G,G00301992,Bartlett,7022,1927-03-21,"Aek Kanopan, Loendoet Concession, Koealoe",,Indonesia (Sumatra),"Type, p.106",Type of E. stenophyllus.
+Elaeocarpus salicifolius,isotype,K,K000708161,Bartlett,7022,1927-03-21,"Aek Kanopan, Loendoet Concession, Koealoe",,Indonesia (Sumatra),"Type, p.106",Type of E. stenophyllus.
+Elaeocarpus salicifolius,isotype,L,L0014219,Bartlett,7022,1927-03-21,"Aek Kanopan, Loendoet Concession, Koealoe",,Indonesia (Sumatra),"Type, p.106",Type of E. stenophyllus.
+Elaeocarpus sallehianus,holotype,KEP,,Whitmore,FRI 12788,1969-09-23,"G. Padang, Ulu Brang, Camp 2, 600 m",Terengganu,Malaysia,"Type, p.107",
+Elaeocarpus sallehianus,isotype,A,A00051922,Whitmore,FRI 12788,1969-09-23,"G. Padang, Ulu Brang, Camp 2, 600 m",Terengganu,Malaysia,"Type, p.107",
+Elaeocarpus sallehianus,isotype,K,,Whitmore,FRI 12788,1969-09-23,"G. Padang, Ulu Brang, Camp 2, 600 m",Terengganu,Malaysia,"Type, p.107",
+Elaeocarpus sallehianus,isotype,L,,Whitmore,FRI 12788,1969-09-23,"G. Padang, Ulu Brang, Camp 2, 600 m",Terengganu,Malaysia,"Type, p.107",Cited 'L n.v.'.
+Elaeocarpus sallehianus,isotype,SING,,Whitmore,FRI 12788,1969-09-23,"G. Padang, Ulu Brang, Camp 2, 600 m",Terengganu,Malaysia,"Type, p.107",
+Elaeocarpus serratus,lectotype,LINN,,Hermann,206,,,,Sri Lanka,"Type, p.119",Excluded species (introduced; no surviving trees found in 2010).
+Elaeocarpus serratus,holotype,K,,Barnard,s.n.,1916-02,"Taiping, 30 m",Perak,Malaysia,"Type, p.119","Type of the synonym E. barnardii Burkill; flowers; additional fruiting pieces collected April and June 1916, also at K. Excluded species."
+Elaeocarpus stipularis var. stipularis,lectotype,L,HLB 908.253-451,Blume,s.n.,,"""ad radices montis Tjerimai Provinciae Cheribon""",,Indonesia (Java),"Type, p.109",Leiden accession number. Cited at species rank; typifies the typical variety.
+Elaeocarpus stipularis var. stipularis,isolectotype,L,HLB 908.253-679,Blume,s.n.,,"""ad radices montis Tjerimai Provinciae Cheribon""",,Indonesia (Java),"Type, p.109",Leiden accession number.
+Elaeocarpus stipularis var. latifolius,lectotype,SING,,Scortechini,1991,,,Perak,Malaysia,"Type, p.110",Lectotype chosen here.
+Elaeocarpus stipularis var. latifolius,isolectotype,E,,Scortechini,1991,,,Perak,Malaysia,"Type, p.110",
+Elaeocarpus stipularis var. latifolius,isolectotype,K,,Scortechini,1991,,,Perak,Malaysia,"Type, p.110",
+Elaeocarpus stipularis var. latifolius,lectotype,SING,,Wray,1836,,Kelan Tojor/Pelan Tujor?,,Malaysia,"Type, p.110","Type of the heterotypic synonym E. scortechinii King; lectotype selected here. Locality uncertain in source; state and country not given (Wray collected in Perak)."
+Elaeocarpus stipularis var. latifolius,isolectotype,K,,Wray,1836,,Kelan Tojor/Pelan Tujor?,,Malaysia,"Type, p.110",Type of E. scortechinii King.
+Elaeocarpus submonoceras subsp. submonoceras,holotype,U,U0001679,Teysmann,HB 3684,,"Palembang, prope Danoh-tjaloh-muri",,Indonesia (Sumatra),"Type, p.111",Cited at species rank; typifies the typical subspecies.
+Elaeocarpus submonoceras subsp. submonoceras,isotype,K,K000708222,Teysmann,HB 3684,,,,Indonesia (Sumatra),"Type, p.111",Cited 'K? lacking locality'.
+Elaeocarpus submonoceras subsp. submonoceras,isotype,L,,Teysmann,HB 3684,,"Palembang, prope Danoh-tjaloh-muri",,Indonesia (Sumatra),"Type, p.111",Cited 'L?'.
+Elaeocarpus submonoceras subsp. submonoceras,holotype,SING,,Watson,FD/CF 4151,,Sg. Rompin,Pahang,Malaysia,"Type, p.111",Type of the synonym E. longifolius var. fusiformis Corner.
+Elaeocarpus submonoceras subsp. submonoceras,isotype,K,,Watson,FD/CF 4151,,Sg. Rompin,Pahang,Malaysia,"Type, p.111",Type of E. longifolius var. fusiformis.
+Elaeocarpus submonoceras subsp. submonoceras,isotype,KEP,,Watson,FD/CF 4151,,Sg. Rompin,Pahang,Malaysia,"Type, p.111",Type of E. longifolius var. fusiformis.
+Elaeocarpus symingtonii,holotype,KEP,KEP2111,Ng,FRI 6143,,"G. Bubu, 1500 m",Perak,Malaysia,"Type, p.113",
+Elaeocarpus symingtonii,isotype,A,A00051927,Ng,FRI 6143,,"G. Bubu, 1500 m",Perak,Malaysia,"Type, p.113",
+Elaeocarpus symingtonii,isotype,K,K000708037,Ng,FRI 6143,,"G. Bubu, 1500 m",Perak,Malaysia,"Type, p.113",
+Elaeocarpus symingtonii,isotype,KEP,,Ng,FRI 6143,,"G. Bubu, 1500 m",Perak,Malaysia,"Type, p.113",A second KEP sheet besides the holotype.
+Elaeocarpus symingtonii,isotype,SING,,Ng,FRI 6143,,"G. Bubu, 1500 m",Perak,Malaysia,"Type, p.113",
+Elaeocarpus tahanensis,holotype,SING,,Holttum,SFN 20630,,G. Tahan,Pahang,Malaysia,"Type, p.114",
+Elaeocarpus tahanensis,isotype,A,A00051932,Holttum,SFN 20630,,G. Tahan,Pahang,Malaysia,"Type, p.114",Scraps.
+Elaeocarpus tahanensis,isotype,BO,,Holttum,SFN 20630,,G. Tahan,Pahang,Malaysia,"Type, p.114",
+Elaeocarpus tahanensis,isotype,K,K000708036,Holttum,SFN 20630,,G. Tahan,Pahang,Malaysia,"Type, p.114",
+Elaeocarpus tahanensis,isotype,KEP,,Holttum,SFN 20630,,G. Tahan,Pahang,Malaysia,"Type, p.114",
+Elaeocarpus valetonii var. valetonii,holotype,G,G00342025,Hochreutiner,Pl. Bogor. exsicc. no. 55,1904,Bangka Is.,,Indonesia (Sumatra),"Type, p.115","'The specimen associated with the published label above'; collector inferred from the exsiccata series (Pl. Bogor. exsicc., Hochreutiner). Cited at species rank; typifies the typical variety."
+Elaeocarpus valetonii var. valetonii,isotype,A,A00051928,Hochreutiner,Pl. Bogor. exsicc. no. 55,1904,Bangka Is.,,Indonesia (Sumatra),"Type, p.115",Scraps donated by L.
+Elaeocarpus valetonii var. valetonii,isotype,A,A00051929,Hochreutiner,Pl. Bogor. exsicc. no. 55,1904,Bangka Is.,,Indonesia (Sumatra),"Type, p.115",Worse scraps.
+Elaeocarpus valetonii var. valetonii,isotype,K,K000708209,Hochreutiner,Pl. Bogor. exsicc. no. 55,1904,Bangka Is.,,Indonesia (Sumatra),"Type, p.115",
+Elaeocarpus valetonii var. valetonii,isotype,L,L0014259,Hochreutiner,Pl. Bogor. exsicc. no. 55,1904,Bangka Is.,,Indonesia (Sumatra),"Type, p.115",Cited as barcodes L0014259--L0014260.
+Elaeocarpus valetonii var. valetonii,isotype,L,L0014260,Hochreutiner,Pl. Bogor. exsicc. no. 55,1904,Bangka Is.,,Indonesia (Sumatra),"Type, p.115",
+Elaeocarpus valetonii var. valetonii,isotype,NY,NY00415289,Hochreutiner,Pl. Bogor. exsicc. no. 55,1904,Bangka Is.,,Indonesia (Sumatra),"Type, p.115",
+Elaeocarpus wrayi,lectotype,SING,,Wray,1107,1890-03,G. Batu Putih,Perak,Malaysia,"Type, p.116",Lectotype selected here.
+Elaeocarpus wrayi,isolectotype,G,G00342068,Wray,1107,1890-03,G. Batu Putih,Perak,Malaysia,"Type, p.116",
+Elaeocarpus wrayi,holotype,SING,,Robinson,5523,1905-07-02,"G. Tahan, 1500--1650 m [5000--5500']",Pahang,Malaysia,"Type, p.116",Type of the heterotypic synonym E. monticola Ridl.; flowers ('fl. 1').
+Elaeocarpus wrayi,isotype,BM,BM000795337,Robinson,5523,1905-07-02,"G. Tahan, 1500--1650 m [5000--5500']",Pahang,Malaysia,"Type, p.116",Type of E. monticola.
+Elaeocarpus wrayi,isotype,K,K000708035,Robinson,5523,1905-07-02,"G. Tahan, 1500--1650 m [5000--5500']",Pahang,Malaysia,"Type, p.116",Type of E. monticola.
+Sloanea javanica,syntype,BO,,Teijsmann & Binnendijk,s.n.,,,,Indonesia (Java),"Type, p.121","Type of the basionym Phoenicospermum javanicum Miq.; cited 'syntypes BO? L?'. The author notes the coloured illustration could serve as lectotype if no specimens survive."
+Sloanea javanica,syntype,L,,Teijsmann & Binnendijk,s.n.,,,,Indonesia (Java),"Type, p.121",See previous row.
+Sloanea javanica,illustrated specimen,,,FMS,48029,,,,Malaysia,"Figure 7 caption, p.125",Fig. 7G--I (fruit). FMS collection series; herbarium not stated.
+Sloanea malayana,holotype,K,K000675868,Soepadmo,670,,"Raub, Sg. Sempan",Pahang,Malaysia,"Type, p.122",
+Sloanea malayana,isotype,A,A00096486,Soepadmo,670,,"Raub, Sg. Sempan",Pahang,Malaysia,"Type, p.122",
+Sloanea malayana,isotype,KEP,KEP1821,Soepadmo,670,,"Raub, Sg. Sempan",Pahang,Malaysia,"Type, p.122",
+Sloanea malayana,isotype,L,L0013590,Soepadmo,670,,"Raub, Sg. Sempan",Pahang,Malaysia,"Type, p.122",
+Sloanea malayana,illustrated specimen,,,FRI,34149,,,,Malaysia,"Figure 6 caption, p.123",Fig. 6 (all parts). FRI collection series; herbarium not stated.
+Sloanea malayana,illustrated specimen,,,FRI,19094,,,,Malaysia,"Figure 7 caption, p.125",Fig. 7A--B (fruit and seed). FRI collection series; herbarium not stated.
+Sloanea sigun,holotype,BO,,Blume,s.n.,,Mt Salak,,Indonesia (Java),"Type, p.124",Type of the basionym Echinocarpus sigun Blume; cited 'holotype BO?'.
+Sloanea sigun,isotype,L,,Blume,s.n.,,Mt Salak,,Indonesia (Java),"Type, p.124",Cited 'isotype L?'.
+Sloanea sigun,possible type,NY,NY00415219,,,,,,,"Type, p.124","'Possible but insufficient label data to be sure'. The two Paris sheets claimed as types were collected by Zollinger after 1842 and are not types."
+Sloanea sigun,illustrated specimen,,,FRI,28782,,,,Malaysia,"Figure 7 caption, p.125",Fig. 7C--F (fruit and seed). FRI collection series; herbarium not stated.

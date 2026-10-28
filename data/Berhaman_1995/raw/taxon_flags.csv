@@ -1,0 +1,14 @@
+taxon_name,taxon_rank,status,n_rows,flag
+Bignoniaceae,family,accepted,35,
+Deplanchea,genus,accepted,24,
+Deplanchea bancana,species,accepted,53,
+Dolichandrone,genus,accepted,17,
+Dolichandrone spathacea,species,accepted,52,
+Nyctocalos,genus,key annotation,0,"Woody climbers; annotation inside the key to genera (4 unnamed species in Sabah and Sarawak), no detailed treatment; not scored."
+Oroxylum,genus,accepted,18,Monotypic genus.
+Oroxylum indicum,species,accepted,58,
+Radermachera,genus,accepted,18,
+Radermachera pinnata,species,accepted,0,Species heading only; the description belongs to its one infraspecific taxon in the region (subsp. acuminata).
+Radermachera pinnata subsp. acuminata,subspecies,accepted,55,Only infraspecific taxon in the region; its description is the local description of the species (TFSS guide).
+Radermachera ramiflora,species,accepted,56,
+Radermachera sp. A,species,undescribed species,1,"Informal name as printed; no description (flower buds only), differential note kept as an unmapped record."

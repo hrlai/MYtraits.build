@@ -1,0 +1,459 @@
+source:
+  primary:
+    key: Lim_2010
+    bibtype: InBook
+    year: 2010
+    author: C. L. Lim
+    title: Araucariaceae
+    booktitle: 'Flora of Peninsular Malaysia, Series II: Seed Plants, Volume 1'
+    editor:
+      R. Kiew and R. C. K. Chung and L. G. Saw and E. Soepadmo and P. C. Boyce
+    series: Malayan Forest Records No. 49
+    publisher: Forest Research Institute Malaysia
+    place: Kepong, Selangor, Malaysia
+    pages: 61--66
+    isbn: 978-967-5221-32-3
+contributors:
+  data_collectors:
+    - last_name: Lim
+      given_name: C. L.
+      ORCID: .na.character
+      affiliation:
+        Forest Research Institute Malaysia, Kepong, Selangor, Malaysia
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '2010'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description:
+    To describe the morphology, distribution and ecology of the Araucariaceae of
+    Peninsular Malaysia, represented by two species of Agathis, as part of the
+    Flora of Peninsular Malaysia.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy:
+    The treatment was transcribed from page images of the PDF
+    (raw/Araucariaceae_transcription.txt); the PDF's OCR text layer was not
+    used. Trait values were extracted with a script (raw/build_trait_data.R)
+    from the transcription, clause by clause, from the family, genus and species
+    descriptions; keys, maps and figures were not used. Values from the family
+    Ecology text were entered by hand (raw/manual_rows.csv). Each value keeps
+    the clause it came from (trait_value_raw), the source term (trait_value) and
+    the page. Alternatives qualified by a commonness word (usually, sometimes,
+    occasionally, rarely) are recorded on separate rows; parenthetical extremes
+    of a measured range are recorded on commonness qualifier = extreme_range
+    rows. A measured range is recorded as minimum and maximum values, a single
+    or "c." value as a mean and "to X" as a maximum. Categorical values stated
+    singly and without qualification in the family or genus description are
+    applied to both species where their own descriptions are silent
+    (trait_scoring_method = inferred_from_family / inferred_from_genus); where
+    both give a value, the genus value is used.
+  original_file:
+    Araucariaceae.pdf (Lim 2010, Flora of Peninsular Malaysia Series II vol. 1,
+    pp. 61--66)
+  notes: |
+    data.csv is raw/trait_data.csv (written by raw/build_trait_data.R) with
+    three columns added by flora_make_data(): value (the build column;
+    the source term for categorical traits, mapped with substitutions),
+    trait_scoring_method (from rank_scored_from) and source_id. Taxon names are
+    as printed. Seed cones are treated as fruit (fruit_type strobilus; seed cone
+    length and diameter as fruit_length and fruit_width, entity measured = seed
+    cone). The Borneo height (55 m) and diameter (1 m) of A. borneensis
+    cited from Yii (1995) in the Ecology text are not scored: the TFSS
+    treatment is a separate source. Type and figure specimens are listed in
+    raw/Lim_2010_vouchers.csv; per-taxon flags in raw/taxon_flags.csv. Characters with no trait in traits.yml are
+    listed in raw/unmapped_terms.csv; verbatim unmapped clauses are rows in raw/trait_data.csv: pollen
+    cones, sporophylls, cone scales and foliose bracts; seed cone shape and
+    position; seed wing size and texture; juvenile leaves; inner bark, resin,
+    sapwood and heartwood; resin canals; leaf texture; venation; terminal buds;
+    bole shape; absence of buttresses and midrib; altitude and habitat text.'
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: bark_texture
+    unit_in: .na
+    trait_name: bark_texture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      Scored from the genus description, which describes young bark (smooth) and
+      mature bark (dippled after scales flake off) separately (entity measured).
+  - var_in: dispersal_appendage
+    unit_in: .na
+    trait_name: dispersal_appendage
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Scored from the seed description in the species descriptions.
+  - var_in: dispersal_syndrome
+    unit_in: .na
+    trait_name: dispersal_syndrome
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      "Scored from the family Ecology text: 'All species are wind-pollinated and
+      their winged seeds wind-dispersed.'"
+  - var_in: dispersers
+    unit_in: .na
+    trait_name: dispersers
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      "Scored from the family Ecology text: 'All species are wind-pollinated and
+      their winged seeds wind-dispersed.'"
+  - var_in: fruit_colour
+    unit_in: .na
+    trait_name: fruit_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      Colour of the seed cone (entity measured), from the species descriptions.
+  - var_in: fruit_length
+    unit_in: unit
+    trait_name: fruit_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods:
+      Length of the seed cone (entity measured), from the species descriptions.
+  - var_in: fruit_type
+    unit_in: .na
+    trait_name: fruit_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      Seed cones (entity measured), scored as strobilus from the species
+      descriptions.
+  - var_in: fruit_width
+    unit_in: unit
+    trait_name: fruit_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods:
+      Diameter of the seed cone (entity measured), from the species
+      descriptions.
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Lamina apex of adult leaves, from the species descriptions.
+  - var_in: leaf_arrangement
+    unit_in: .na
+    trait_name: leaf_arrangement
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      Scored from the genus description (leaves decussate); the family value
+      (spiral) is not used where the genus gives one.
+  - var_in: leaf_base_shape
+    unit_in: .na
+    trait_name: leaf_base_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Lamina base of adult leaves, from the species descriptions.
+  - var_in: leaf_compoundness
+    unit_in: .na
+    trait_name: leaf_compoundness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Scored from the family description.
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods:
+      Lamina length of adult leaves, from the species descriptions (petiole
+      excluded).
+  - var_in: leaf_margin
+    unit_in: .na
+    trait_name: leaf_margin
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Scored from the species descriptions of adult leaves.
+  - var_in: leaf_margin_posture
+    unit_in: .na
+    trait_name: leaf_margin_posture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Scored from the species descriptions of adult leaves.
+  - var_in: leaf_phyllotaxis
+    unit_in: .na
+    trait_name: leaf_phyllotaxis
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Scored from the species descriptions.
+  - var_in: leaf_shape
+    unit_in: .na
+    trait_name: leaf_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Lamina shape of adult leaves, from the species descriptions.
+  - var_in: leaf_surface_colour
+    unit_in: .na
+    trait_name: leaf_surface_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      Colour of living leaves, from the species descriptions; for Agathis
+      flavescens the Ecology text also contrasts plants in shaded and exposed
+      sites (entity measured).
+  - var_in: leaf_surface_reflectivity
+    unit_in: .na
+    trait_name: leaf_surface_reflectivity
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Scored from the species descriptions of living leaves.
+  - var_in: leaf_type
+    unit_in: .na
+    trait_name: leaf_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Scored from the genus description (laminas broad).
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: Lamina width of adult leaves, from the species descriptions.
+  - var_in: petiole_length
+    unit_in: unit
+    trait_name: petiole_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: Petiole length of adult leaves, from the species descriptions.
+  - var_in: petiole_shape
+    unit_in: .na
+    trait_name: petiole_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Scored from the species descriptions.
+  - var_in: plant_diameter_breast_height
+    unit_in: unit
+    trait_name: plant_diameter_breast_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods:
+      Trunk diameter given in the species descriptions; the height of
+      measurement is not stated.
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Scored from the species descriptions.
+  - var_in: plant_height
+    unit_in: unit
+    trait_name: plant_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: Maximum height given in the species descriptions.
+  - var_in: pollination_syndrome
+    unit_in: .na
+    trait_name: pollination_syndrome
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      "Scored from the family Ecology text: 'All species are wind-pollinated and
+      their winged seeds wind-dispersed.'"
+  - var_in: root_system_type
+    unit_in: .na
+    trait_name: root_system_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      Scored from the genus description of large, swollen, superficial roots.
+  - var_in: seed_length
+    unit_in: unit
+    trait_name: seed_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods:
+      Length of the seed body, excluding the wing, from the species
+      descriptions.
+  - var_in: seed_shape
+    unit_in: .na
+    trait_name: seed_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Scored from the species descriptions of the seed body.
+  - var_in: seed_width
+    unit_in: unit
+    trait_name: seed_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods:
+      Width of the seed body, excluding the wing, from the species descriptions.
+  - var_in: stem_branching_form
+    unit_in: .na
+    trait_name: stem_branching_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Scored from the family description of the bole.
+  - var_in: stem_hairs
+    unit_in: .na
+    trait_name: stem_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      Hairiness of the twigs (entity measured), scored from the genus
+      description.
+substitutions:
+  - trait_name: bark_texture
+    find: 'smooth lenticellate'
+    replace: 'smooth'
+  - trait_name: dispersal_appendage
+    find: 'wing'
+    replace: 'wings'
+  - trait_name: dispersal_syndrome
+    find: 'wind-dispersed'
+    replace: 'anemochory'
+  - trait_name: dispersers
+    find: 'wind-dispersed'
+    replace: 'wind'
+  - trait_name: fruit_colour
+    find: 'dark_reddish_brown black'
+    replace: 'brown black'
+  - trait_name: fruit_type
+    find: 'seed_cones'
+    replace: 'strobilus'
+  - trait_name: leaf_apex_shape
+    find: 'attenuate acute'
+    replace: 'acute'
+  - trait_name: leaf_base_shape
+    find: 'attenuate decurrent'
+    replace: 'attenuate'
+  - trait_name: leaf_margin_posture
+    find: 'recurved'
+    replace: 'revolute'
+  - trait_name: leaf_shape
+    find: 'narrowly_elliptic broadly_elliptic'
+    replace: 'narrowly_elliptical widely_elliptical'
+  - trait_name: leaf_shape
+    find: 'elliptic-oblong obovate'
+    replace: 'obovate'
+  - trait_name: leaf_surface_colour
+    find: 'greener'
+    replace: 'green'
+  - trait_name: leaf_surface_colour
+    find: 'distinctly yellow'
+    replace: 'yellow'
+  - trait_name: leaf_surface_reflectivity
+    find: 'glossy'
+    replace: 'shiny'
+  - trait_name: leaf_type
+    find: 'broad'
+    replace: 'broadleaf'
+  - trait_name: pollination_syndrome
+    find: 'wind-pollinated'
+    replace: 'wind'
+  - trait_name: root_system_type
+    find: 'superficial'
+    replace: 'shallow_rooted'
+  - trait_name: seed_shape
+    find: 'flattened_ovoid'
+    replace: 'ovoid_flattened'
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question3:
+    Seed cones are mapped to fruit traits (fruit_type strobilus, fruit_length,
+    fruit_width, fruit_colour); pollen cones and sporophylls are unmapped.
+    Confirm conifer cones should use the fruit traits.
+  question4:
+    Some source terms have no allowed value and are left unmapped (they reach
+    excluded_data) -- leaf phyllotaxis subopposite, petiole shape flattened,
+    seed shape oblique obovate. Leaf base decurrent and leaf apex attenuate are
+    dropped from compound values (attenuate decurrent -> attenuate; attenuate
+    acute -> acute). Consider adding decurrent (leaf_base_shape) and attenuate
+    (leaf_apex_shape).
+  question5:
+    The family description "peduncle stout, disintegrating when seeds mature" is
+    not scored as fruit_dehiscence (the earlier Lim_2010 version did);
+    grammatically it may refer to the peduncle. Confirm.
+  question6:
+    The text was transcribed from page images, not the OCR layer. Every number
+    in the transcription was compared with the OCR layer per page; the only
+    differences were page numbers, running heads and OCR misreads in citations.
+    Source slips are kept verbatim and fixed in norm() (megaporophylls; missing
+    full stop before "Inner bark" in A. flavescens; A. flavescens wing size
+    "longer than broad; c. 17 x 13 mm" read as the wing, not the seed).

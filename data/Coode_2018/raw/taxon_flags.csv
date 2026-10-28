@@ -1,0 +1,66 @@
+taxon_name,taxon_rank,status,n_rows,flag
+Elaeocarpus acmosepalus,species,accepted,77,
+Elaeocarpus acronodia,species,accepted,8,Species heading only; description given at infraspecific rank.
+Elaeocarpus acronodia subsp. sumatranus,subspecies,accepted,62,
+Elaeocarpus angustifolius,species,accepted,97,
+Elaeocarpus angustifolius (Sumatra/Peninsular Malaysia form),informal_form,accepted,7,Informal form; merged into the species with a form context (own values only).
+Elaeocarpus angustifolius (intermediate),informal_form,accepted,0,Informal form with no description (synonym E. cyanocarpus only); not scored.
+Elaeocarpus angustifolius (widespread form),informal_form,accepted,5,Informal form; merged into the species with a form context (own values only).
+Elaeocarpus cruciatus,species,accepted,78,
+Elaeocarpus cupreus,species,accepted,82,
+Elaeocarpus eriobotryoides,species,accepted,82,
+Elaeocarpus euneurus,species,excluded,0,Excluded species; not scored.
+Elaeocarpus ferrugineus,species,accepted,80,
+Elaeocarpus ferrugineus subsp. ferrugineus,subspecies,accepted,68,
+Elaeocarpus ferrugineus subsp. glabrescens,subspecies,accepted,70,
+Elaeocarpus floribundus,species,accepted,97,
+Elaeocarpus fraseri,species,accepted,73,
+Elaeocarpus glaber,species,accepted,78,
+Elaeocarpus grandiflorus,species,accepted,80,
+Elaeocarpus griffithii,species,accepted,83,
+Elaeocarpus knuthii,species,accepted,8,Species heading only; description given at infraspecific rank.
+Elaeocarpus knuthii subsp. cuspidatus,subspecies,accepted,77,
+Elaeocarpus kunstleri,species,accepted,68,
+Elaeocarpus macrocarpus,species,incompletely_known,0,Incompletely known species; not scored.
+Elaeocarpus macrocerus,species,accepted,11,Species heading only; description given at infraspecific rank.
+Elaeocarpus macrocerus subsp. macrocerus,subspecies,accepted,73,
+Elaeocarpus mastersii,species,accepted,88,
+Elaeocarpus nanus,species,accepted,8,Species heading only; description given at infraspecific rank.
+Elaeocarpus nanus subsp. nanus,subspecies,accepted,82,
+Elaeocarpus ngii,species,accepted,78,
+Elaeocarpus ngii subsp. curtisii,subspecies,accepted,60,
+Elaeocarpus ngii subsp. ngii,subspecies,accepted,60,
+Elaeocarpus nitidus,species,accepted,87,
+Elaeocarpus nitidus var. nitidus,variety,accepted,65,No description; values inherited from species or taken from notes only.
+Elaeocarpus nitidus var. velutinus,variety,accepted,66,No description; values inherited from species or taken from notes only.
+Elaeocarpus obtusus,species,accepted,79,
+Elaeocarpus obtusus subsp. apiculatus,subspecies,accepted,65,
+Elaeocarpus obtusus subsp. krukovii,subspecies,accepted,64,No description; values inherited from species or taken from notes only.
+Elaeocarpus palembanicus,species,accepted,87,
+Elaeocarpus pedunculatus,species,accepted,91,
+Elaeocarpus petiolatus,species,accepted,87,
+Elaeocarpus petiolatus (ovalis form),informal_form,accepted,0,Informal form not yet collected in Peninsular Malaysia; not scored.
+Elaeocarpus polystachyus,species,accepted,87,
+Elaeocarpus pseudopaniculatus,species,accepted,75,
+Elaeocarpus reticosus,species,accepted,83,
+Elaeocarpus robustus,species,accepted,82,
+Elaeocarpus robustus var. collinus,variety,accepted,64,
+Elaeocarpus robustus var. megacarpus,variety,accepted,61,
+Elaeocarpus robustus var. robustus,variety,accepted,66,
+Elaeocarpus salicifolius,species,accepted,75,
+Elaeocarpus sallehianus,species,accepted,78,
+Elaeocarpus serratus,species,excluded,0,Excluded species; not scored.
+Elaeocarpus sp. nov.,species,unnamed,64,"Unnamed taxon (sp. nov., material inadequate for naming); kept with its printed label."
+Elaeocarpus stipularis,species,accepted,83,
+Elaeocarpus stipularis var. latifolius,variety,accepted,64,
+Elaeocarpus stipularis var. stipularis,variety,accepted,64,
+Elaeocarpus submonoceras,species,accepted,9,Species heading only; description given at infraspecific rank.
+Elaeocarpus submonoceras subsp. submonoceras,subspecies,accepted,78,
+Elaeocarpus symingtonii,species,accepted,66,
+Elaeocarpus tahanensis,species,accepted,75,
+Elaeocarpus valetonii,species,accepted,9,Species heading only; description given at infraspecific rank.
+Elaeocarpus valetonii var. valetonii,variety,accepted,75,
+Elaeocarpus wrayi,species,accepted,80,
+Sloanea javanica,species,accepted,66,
+Sloanea malayana,species,accepted,69,
+Sloanea sigun,species,accepted,77,

@@ -1,0 +1,9 @@
+pattern,replacement,page,reason
+H’,H′,272,"source text has a typographic apostrophe for the prime mark in the Figure 1 caption."
+H”,H″,272,"source text has a typographic quotation mark for the double-prime mark in the Figure 1 caption."
+F’,F′,281,"source text has a typographic apostrophe for the prime mark in the Figure 5 caption."
+F”,F″,281,"source text has a typographic quotation mark for the double-prime mark in the Figure 5 caption."
+reddish bluish,reddish blush,312,"source text has bluish for blush."
+isolectoype,isolectotype,322,"source text has isolectoype for isolectotype."
+"limestone hills,, elsewhere","limestone hills, elsewhere",322,"source text has a duplicated comma."
+"pedicels slender, c. 2 m long","pedicels slender, c. 2 mm long",308,"source text has m for mm in the pedicel length."

@@ -1,0 +1,597 @@
+source:
+  primary:
+    key: Yao_2010
+    bibtype: InBook
+    year: 2010
+    author: T. L. Yao
+    title: Pentaphylacaceae
+    booktitle: 'Flora of Peninsular Malaysia, Series II: Seed Plants, Volume 1'
+    editor:
+      R. Kiew and R. C. K. Chung and L. G. Saw and E. Soepadmo and P. C. Boyce
+    series: Malayan Forest Records No. 49
+    publisher: Forest Research Institute Malaysia
+    place: Kepong, Selangor, Malaysia
+    pages: 161--164
+    isbn: 978-967-5221-32-3
+contributors:
+  data_collectors:
+    - last_name: Yao
+      given_name: T. L.
+      ORCID: .na.character
+      affiliation:
+        Forest Research Institute Malaysia, Kepong, Selangor, Malaysia
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '2010'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description:
+    To describe the morphology, distribution and ecology of Pentaphylacaceae of
+    Peninsular Malaysia, represented by one species, Pentaphylax euryoides, as
+    part of the Flora of Peninsular Malaysia.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy:
+    The treatment was transcribed from page images of the PDF
+    (raw/Pentaphylacaceae_transcription.txt); the PDF's OCR text layer was not
+    used. Trait values were entered clause by clause by script
+    (raw/build_trait_data.R) from the family, genus and species descriptions and
+    the species Ecology paragraph; keys, maps and figures were not used. Each
+    value keeps the clause it came from (trait_value_raw), the source term
+    (trait_value) and the page. Alternatives qualified by a commonness word
+    (usually, sometimes, rarely) are recorded on separate rows; parenthetical
+    extremes of a range are recorded on commonness qualifier = extreme_range
+    rows. A measured range is recorded as minimum and maximum values, a single
+    or 'c.' value as a mean and 'to X' as a maximum. Categorical values from the
+    genus description are applied to the species (trait_scoring_method =
+    inferred_from_genus; the family is monogeneric).
+  original_file:
+    Pentaphylacaceae.pdf (Yao 2010, Flora of Peninsular Malaysia Series II vol.
+    1, pp. 161--164)
+  notes:
+    'data.csv is raw/trait_data.csv (written by raw/build_trait_data.R), without
+    unmapped rows, with three columns added by flora_make_data():
+    value (the build column; the source term for categorical traits, mapped with
+    substitutions), trait_scoring_method (from rank_scored_from) and source_id.
+    Taxon names are as printed. Type and figure specimens are listed in
+    raw/Yao_2010_vouchers.csv. Characters with no trait in traits.yml are kept
+    as unmapped rows (blank trait) in raw/trait_data.csv and summarised in
+    raw/unmapped_terms.csv: stipules, venation, bracteoles, perianth parts and
+    aestivation, ovule count, capsule valves, seed shape and wing size, embryo,
+    sepal and petal width, organ hairs and shapes, leaf texture and colour in
+    life, size at first flowering, habitat and elevation, distribution,
+    conservation status, aluminium accumulation, uses.'
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: plant_canopy_form
+    unit_in: .na
+    trait_name: plant_canopy_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: leaf_arrangement
+    unit_in: .na
+    trait_name: leaf_arrangement
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      'Scored from the genus description (spirally arranged); the family
+      Taxonomy paragraph says the same.'
+  - var_in: leaf_compoundness
+    unit_in: .na
+    trait_name: leaf_compoundness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Scored from the genus description.'
+  - var_in: inflorescence_type
+    unit_in: .na
+    trait_name: inflorescence_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Scored from the genus description; spike-like mapped to spike.'
+  - var_in: flower_structural_sex_type
+    unit_in: .na
+    trait_name: flower_structural_sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Scored from the genus description.'
+  - var_in: flower_perianth_symmetry
+    unit_in: .na
+    trait_name: flower_perianth_symmetry
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      'Genus description, actinomorphic; mapped to actinomorphic_general.'
+  - var_in: flower_perianth_merism
+    unit_in: unit
+    trait_name: flower_perianth_merism
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Genus description, 5-merous.'
+  - var_in: flower_fertile_stamens_count
+    unit_in: unit
+    trait_name: flower_fertile_stamens_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Genus description, stamens 5.'
+  - var_in: flower_anther_orientation
+    unit_in: .na
+    trait_name: flower_anther_orientation
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: flower_anther_attachment
+    unit_in: .na
+    trait_name: flower_anther_attachment
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: flower_anther_dehiscence
+    unit_in: .na
+    trait_name: flower_anther_dehiscence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: flower_ovary_position
+    unit_in: .na
+    trait_name: flower_ovary_position
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: flower_gynoecium_placentation
+    unit_in: .na
+    trait_name: flower_gynoecium_placentation
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: flower_structural_carpels_count
+    unit_in: unit
+    trait_name: flower_structural_carpels_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods:
+      'Inferred from the 5-locular ovary in the genus description; carpels are
+      not stated.'
+  - var_in: fruit_type
+    unit_in: .na
+    trait_name: fruit_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: fruit_dehiscence
+    unit_in: .na
+    trait_name: fruit_dehiscence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      'Genus description: capsule splitting loculicidally; species Ecology also
+      says dehiscent fruits.'
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: plant_height
+    unit_in: unit
+    trait_name: plant_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods:
+      'Typical height (mean) with extremes on extreme_range rows, from the
+      species description.'
+  - var_in: plant_diameter_breast_height
+    unit_in: unit
+    trait_name: plant_diameter_breast_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods:
+      "Bole diameter ('to 10 cm', entity measured = bole); the height of
+      measurement is not stated."
+  - var_in: bark_texture
+    unit_in: .na
+    trait_name: bark_texture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      'Outer bark surface and scaling, from the species description; rugose
+      mapped to rough; flaking in small papery scales mapped to flaky.'
+  - var_in: bark_colour
+    unit_in: .na
+    trait_name: bark_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      'Outer bark and inner bark (entity measured), from the species
+      description.'
+  - var_in: stem_hairs
+    unit_in: .na
+    trait_name: stem_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Hairiness of the twigs (entity measured).'
+  - var_in: petiole_length
+    unit_in: unit
+    trait_name: petiole_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: leaf_shape
+    unit_in: .na
+    trait_name: leaf_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: leaf_surface_reflectivity
+    unit_in: .na
+    trait_name: leaf_surface_reflectivity
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Adaxial surface, glossy.'
+  - var_in: leaf_hairs_adult_leaves
+    unit_in: .na
+    trait_name: leaf_hairs_adult_leaves
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      "Adaxial and abaxial laminas (entity measured). The source sentence
+      'glossy above, sparsely minutely pubescent, subglabrous beneath' is
+      ambiguous; hairs are placed on the adaxial surface. subglabrous mapped to
+      glabrous."
+  - var_in: leaf_base_shape
+    unit_in: .na
+    trait_name: leaf_base_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: leaf_margin_posture
+    unit_in: .na
+    trait_name: leaf_margin_posture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: inflorescence_length
+    unit_in: unit
+    trait_name: inflorescence_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: flower_bract_length
+    unit_in: unit
+    trait_name: flower_bract_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: pedicel_length
+    unit_in: unit
+    trait_name: pedicel_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: bud_width
+    unit_in: unit
+    trait_name: bud_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: "Bud 'to 2 mm diameter'."
+  - var_in: flower_colour
+    unit_in: .na
+    trait_name: flower_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Petal colour (entity measured); the reddish tinge is not scored.'
+  - var_in: flower_sepal_length
+    unit_in: unit
+    trait_name: flower_sepal_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods:
+      "First dimension of 'sepals (0.5)-1 x c. 1 mm' read as length; width not
+      scored."
+  - var_in: flower_petal_length
+    unit_in: unit
+    trait_name: flower_petal_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods:
+      "First dimension of 'petals c. 2-3 x (0.5)-1.5 mm' read as length; width
+      not scored."
+  - var_in: flower_stamen_length
+    unit_in: unit
+    trait_name: flower_stamen_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: flower_style_length
+    unit_in: unit
+    trait_name: flower_style_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: fruit_colour
+    unit_in: .na
+    trait_name: fruit_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Ripe fruit colour only; unripe green not scored.'
+  - var_in: fruit_length
+    unit_in: unit
+    trait_name: fruit_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: fruit_width
+    unit_in: unit
+    trait_name: fruit_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Fruit diameter scored as fruit_width.'
+  - var_in: fruit_surface_hairs
+    unit_in: .na
+    trait_name: fruit_surface_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Scored from the species or genus description.'
+  - var_in: dispersal_appendage
+    unit_in: .na
+    trait_name: dispersal_appendage
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Seed wing, from the species description.'
+  - var_in: flowering_time
+    unit_in: .na
+    trait_name: flowering_time
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      'Ecology text: flowers more-or-less continuously throughout the year;
+      scored as all 12 months (population region = Peninsular Malaysia).'
+  - var_in: dispersal_syndrome
+    unit_in: .na
+    trait_name: dispersal_syndrome
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods:
+      "Scored from the species Ecology sentence 'The dehiscent fruits with
+      winged seeds suggest wind dispersal.' The author hedges (suggest); see
+      question."
+substitutions:
+  - trait_name: plant_canopy_form
+    find: 'dense crowns'
+    replace: 'dense-crowned'
+  - trait_name: leaf_arrangement
+    find: 'spirally arranged'
+    replace: 'spiral'
+  - trait_name: inflorescence_type
+    find: 'axillary, spike-like; solitary flowers'
+    replace: 'axillary spike solitary'
+  - trait_name: flower_perianth_symmetry
+    find: 'actinomorphic'
+    replace: 'actinomorphic_general'
+  - trait_name: flower_anther_dehiscence
+    find: 'terminal pores'
+    replace: 'poricidal'
+  - trait_name: fruit_dehiscence
+    find: 'splitting loculicidally'
+    replace: 'dehiscent'
+  - trait_name: plant_growth_form
+    find: 'Shrub or small to medium-sized tree'
+    replace: 'shrub tree'
+  - trait_name: bark_texture
+    find: 'smooth or rugose; flaking-off in small papery scales'
+    replace: 'smooth rough flaky'
+  - trait_name: bark_colour
+    find: 'dark brown to black'
+    replace: 'brown_dark black'
+  - trait_name: bark_colour
+    find: 'yellow to reddish brown'
+    replace: 'yellow brown'
+  - trait_name: stem_hairs
+    find: 'sparsely minutely pubescent'
+    replace: 'hairy'
+  - trait_name: leaf_shape
+    find: 'lanceolate to elliptic'
+    replace: 'lanceolate elliptical'
+  - trait_name: leaf_shape
+    find: 'ovate or falcate'
+    replace: 'ovate falcate'
+  - trait_name: leaf_surface_reflectivity
+    find: 'glossy'
+    replace: 'shiny'
+  - trait_name: leaf_hairs_adult_leaves
+    find: 'sparsely minutely pubescent'
+    replace: 'hairy'
+  - trait_name: leaf_hairs_adult_leaves
+    find: 'subglabrous'
+    replace: 'glabrous'
+  - trait_name: leaf_hairs_adult_leaves
+    find: 'sparsely, or minutely pubescent'
+    replace: 'hairy'
+  - trait_name: leaf_base_shape
+    find: 'cuneate to slightly rounded'
+    replace: 'cuneate rounded'
+  - trait_name: leaf_margin_posture
+    find: 'slightly revolute'
+    replace: 'revolute'
+  - trait_name: flower_colour
+    find: 'white to pale green'
+    replace: 'white_cream green'
+  - trait_name: fruit_colour
+    find: 'ripening brown to black'
+    replace: 'brown black'
+  - trait_name: dispersal_appendage
+    find: 'wing'
+    replace: 'wings'
+  - trait_name: dispersal_syndrome
+    find: 'wind dispersal'
+    replace: 'anemochory'
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question2:
+    'The author is given only as T. L. Yao (Forest Research Institute Malaysia);
+    no full given name or ORCID was found.'
+  question3:
+    "Dispersal syndrome is scored anemochory from 'The dehiscent fruits with
+    winged seeds suggest wind dispersal.' The author hedges (suggest), and the
+    sentence is an inference from fruit and seed morphology. Kept on the
+    curator's decision; confirm."
+  question4:
+    "Flowering time is scored all 12 months from 'flowers more-or-less
+    continuously throughout the year' (hedged), population region = Peninsular
+    Malaysia. Confirm."
+  question5:
+    'Judgement mappings to check -- bark texture rugose -> rough; bark colour
+    reddish brown -> brown; leaf hairs subglabrous -> glabrous; fruit diameter
+    -> fruit_width; bud diameter -> bud_width; actinomorphic ->
+    actinomorphic_general; spike-like -> spike; carpel count 5 inferred from
+    5-locular ovary; bole diameter to 10 cm -> plant_diameter_breast_height
+    (height of measurement not stated).'
+  question6:
+    "The sentence 'glossy above, sparsely minutely pubescent, subglabrous
+    beneath' is ambiguous; adaxial leaf hairs are scored hairy and abaxial
+    glabrous (usually) / hairy (rarely, 'so near the base')."
+  question7:
+    "Sepal '(0.5)-1 x c. 1 mm' and petal 'c. 2-3 x (0.5)-1.5 mm' are read as
+    length x width. Lengths are scored; widths are kept as unmapped rows
+    (candidate flower_sepal_width, flower_petal_width)."
+  question8:
+    "'without buttresses' and 'without stipules' are not scored (stem_base_form
+    has no 'absent' level). 'beginning to flower at 60 cm' is unmapped (size at
+    first flowering, not plant height). Leaf arrangement spiral is scored;
+    leaf_phyllotaxis has no spiral level."
+  question9:
+    "The text was transcribed from page images (pdf pages 8, 9, 11), not the OCR
+    layer. OCR errors fixed against the image: SFNJ 1332 -> SFN11332, '(0.5}-1'
+    -> (0.5)-1, '(--6)' -> (-6). The Flora chapter has no Methods text, so
+    sampling_strategy describes the extraction. "
