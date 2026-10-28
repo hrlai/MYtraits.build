@@ -74,8 +74,14 @@ dataset:
     parse whose rules and mapping decisions are listed under questions.
     An independent clause-by-clause review of the 2,387 scored description
     rows found about 5% errors (organ ownership, alternatives, qualifiers);
-    the parser rules were corrected for every reported pattern, but the
-    corrected output has not been re-reviewed row by row.
+    the parser rules were corrected for every reported pattern. A second
+    row-by-row review (2026-10) of all 2,372 scored description rows against
+    the transcription found 150 errors (6.3%), mainly trunk diameters after
+    'to X m tall' scored as means, outer and inner sepal sizes without
+    entity_measured, petal blade sizes scored as petal length, misplaced
+    qualifiers, and acumen shapes scored as apex shape; parser rules now
+    resolve all but 8 rows (qualifiers spread over listed alternatives and
+    one prose range), which remain as scored.
     Unmapped description clauses are summarised in raw/unmapped_terms.csv.
     Type, synonym-type and figure specimens are in raw/Adema_1996_vouchers.csv.
 identifiers: .na
@@ -568,20 +574,35 @@ substitutions:
     find: 'dark_brown'
     replace: 'brown_dark'
   - trait_name: bark_colour
+    find: 'greenish greyish'
+    replace: 'green grey'
+  - trait_name: bark_colour
+    find: 'greyish brown'
+    replace: 'grey brown'
+  - trait_name: bark_colour
+    find: 'greyish green reddish'
+    replace: 'grey green red'
+  - trait_name: bark_colour
+    find: 'greyish white brown dark_brown'
+    replace: 'grey white brown brown_dark'
+  - trait_name: bark_colour
+    find: 'pale_brown grey'
+    replace: 'brown_light grey'
+  - trait_name: bark_colour
     find: 'reddish'
     replace: 'red'
   - trait_name: bark_colour
-    find: 'white brown dark_brown'
-    replace: 'white brown brown_dark'
-  - trait_name: bark_colour
     find: 'whitish'
     replace: 'white'
+  - trait_name: bark_colour
+    find: 'whitish grey red brown'
+    replace: 'white grey red brown'
   - trait_name: bark_texture
     find: 'fissured flaky'
     replace: 'furrowed flaky'
   - trait_name: bark_texture
-    find: 'peeling'
-    replace: 'papery'
+    find: 'peeling flakes'
+    replace: 'papery flaky'
   - trait_name: bark_texture
     find: 'smooth fissured'
     replace: 'smooth furrowed'
@@ -613,8 +634,8 @@ substitutions:
     find: 'green white yellow'
     replace: 'green white_cream yellow_orange'
   - trait_name: flower_colour
-    find: 'green whitish yellow'
-    replace: 'green white_cream yellow_orange'
+    find: 'green whitish yellow brown'
+    replace: 'green white_cream yellow_orange red_brown'
   - trait_name: flower_colour
     find: 'orange'
     replace: 'yellow_orange'
@@ -667,19 +688,19 @@ substitutions:
     find: 'radially_symmetrical bilaterally_symmetrical'
     replace: 'actinomorphic_general zygomorphic'
   - trait_name: fruit_colour
+    find: 'crimson purple'
+    replace: 'red purple'
+  - trait_name: fruit_colour
     find: 'red purplish'
     replace: 'red purple'
+  - trait_name: fruit_colour
+    find: 'yellow grey greyish pink'
+    replace: 'yellow grey pink'
   - trait_name: fruit_dehiscence
     find: 'dehisc'
     replace: 'dehiscent'
   - trait_name: fruit_dehiscence
     find: 'loculicidal'
-    replace: 'dehiscent'
-  - trait_name: fruit_dehiscence
-    find: 'loculicidal dehisc'
-    replace: 'dehiscent'
-  - trait_name: fruit_dehiscence
-    find: 'septicidal'
     replace: 'dehiscent'
   - trait_name: fruit_type
     find: 'capsular'
@@ -700,14 +721,20 @@ substitutions:
     find: 'axillary panicles racemes'
     replace: 'axillary panicle raceme'
   - trait_name: inflorescence_type
+    find: 'axillary paniculate'
+    replace: 'axillary panicle'
+  - trait_name: inflorescence_type
     find: 'axillary racemose'
     replace: 'axillary raceme'
   - trait_name: inflorescence_type
     find: 'axillary terminal corymb paniculate racemose umbel'
     replace: 'axillary terminal corymb panicle raceme umbel'
   - trait_name: inflorescence_type
-    find: 'axillary terminal paniculate'
-    replace: 'axillary terminal panicle'
+    find: 'axils'
+    replace: 'axillary'
+  - trait_name: inflorescence_type
+    find: 'dichasia'
+    replace: 'cyme'
   - trait_name: inflorescence_type
     find: 'paniculate'
     replace: 'panicle'
@@ -721,29 +748,11 @@ substitutions:
     find: 'racemose'
     replace: 'raceme'
   - trait_name: inflorescence_type
-    find: 'terminal paniculate'
-    replace: 'terminal panicle'
-  - trait_name: leaf_apex_shape
-    find: 'acuminate obtuse acumen apiculate'
-    replace: 'acuminate obtuse apiculate'
-  - trait_name: leaf_apex_shape
-    find: 'apiculate acute rounded acumen'
-    replace: 'apiculate acute rounded acuminate'
-  - trait_name: leaf_apex_shape
-    find: 'obtuse acute acumen'
-    replace: 'obtuse acute acuminate'
-  - trait_name: leaf_apex_shape
-    find: 'rounded acute acumen'
-    replace: 'rounded acute acuminate'
-  - trait_name: leaf_base_shape
-    find: 'acute asymmetric cordate'
-    replace: 'acute oblique cordate'
-  - trait_name: leaf_base_shape
-    find: 'acute asymmetric rounded'
-    replace: 'acute oblique rounded'
-  - trait_name: leaf_base_shape
-    find: 'acute obtuse attenuate cordate asymmetric'
-    replace: 'acute obtuse attenuate cordate oblique'
+    find: 'terminal axils'
+    replace: 'terminal axillary'
+  - trait_name: inflorescence_type
+    find: 'terminal axils paniculate'
+    replace: 'terminal axillary panicle'
   - trait_name: leaf_base_shape
     find: 'asymmetric'
     replace: 'oblique'
@@ -781,9 +790,6 @@ substitutions:
     find: 'asymmetric cuneate'
     replace: 'oblique cuneate'
   - trait_name: leaf_base_shape
-    find: 'asymmetric cuneate obtuse'
-    replace: 'oblique cuneate obtuse'
-  - trait_name: leaf_base_shape
     find: 'asymmetric cuneate rounded'
     replace: 'oblique cuneate rounded'
   - trait_name: leaf_base_shape
@@ -796,14 +802,11 @@ substitutions:
     find: 'asymmetric rounded attenuate'
     replace: 'oblique rounded attenuate'
   - trait_name: leaf_base_shape
-    find: 'asymmetric rounded cuneate'
-    replace: 'oblique rounded cuneate'
-  - trait_name: leaf_base_shape
     find: 'attenuate asymmetric'
     replace: 'attenuate oblique'
   - trait_name: leaf_base_shape
-    find: 'cordate rounded cuneate asymmetric attenuate'
-    replace: 'cordate rounded cuneate oblique attenuate'
+    find: 'cordate rounded cuneate asymmetric'
+    replace: 'cordate rounded cuneate oblique'
   - trait_name: leaf_base_shape
     find: 'rounded cordate asymmetric'
     replace: 'rounded cordate oblique'
@@ -811,19 +814,22 @@ substitutions:
     find: '1-foliolate'
     replace: 'compound'
   - trait_name: leaf_compoundness
+    find: 'biternate'
+    replace: 'compound'
+  - trait_name: leaf_compoundness
     find: 'digitate'
     replace: 'compound'
   - trait_name: leaf_compoundness
-    find: 'digitate foliolate'
+    find: 'pairs_of_leaflets'
     replace: 'compound'
+  - trait_name: leaf_compoundness
+    find: 'pairs_of_leaflets simple'
+    replace: 'compound simple'
   - trait_name: leaf_compoundness
     find: 'pinnate'
     replace: 'compound'
   - trait_name: leaf_compoundness
-    find: 'pinnate 1-foliolate'
-    replace: 'compound'
-  - trait_name: leaf_compoundness
-    find: 'pinnate unifoliolate'
+    find: 'pinnate pairs_of_leaflets'
     replace: 'compound'
   - trait_name: leaf_compoundness
     find: 'simple biternate digitate pinnate'
@@ -919,9 +925,6 @@ substitutions:
     find: 'sickle-shaped'
     replace: 'falcate'
   - trait_name: plant_growth_form
-    find: 'climbers'
-    replace: 'climber'
-  - trait_name: plant_growth_form
     find: 'herbaceous_climbers'
     replace: 'climber_herbaceous'
   - trait_name: plant_growth_form
@@ -948,9 +951,12 @@ substitutions:
   - trait_name: plant_growth_form
     find: 'trees shrubs lianas'
     replace: 'tree shrub climber_woody'
+  - trait_name: plant_growth_form
+    find: 'woody_climbers'
+    replace: 'climber_woody'
   - trait_name: seed_colour
-    find: 'black brown'
-    replace: 'black red_brown'
+    find: 'black brown purple'
+    replace: 'black red_brown blue_purple'
   - trait_name: seed_colour
     find: 'brown'
     replace: 'red_brown'
@@ -990,7 +996,8 @@ questions:
     Leaflet shape, base, apex, margin, hairs and reflectivity are scored to
     leaf_shape, leaf_base_shape, leaf_apex_shape, leaf_margin,
     leaf_hairs_adult_leaves and leaf_surface_reflectivity with entity_measured
-    'leaflet' (or 'lowermost leaflets'/'upper leaflets'). Leaflet sizes go to
+    'leaflet' (or 'lowermost leaflets', 'upper leaflets', 'lateral leaflets',
+    'terminal leaflets'). Leaflet sizes go to
     leaflet_length/leaflet_width. Confirm using the leaf traits for leaflets.
   question3: >-
     Unifoliolate and 1-foliolate leaves are scored leaf_compoundness = compound
@@ -1007,7 +1014,7 @@ questions:
     vein spacing and leaflet pair number are unmapped (no trait). Confirm these
     mappings and whether any of the unmapped characters should become traits.
   question6: >-
-    27 flower_bract_length and flower_petal_length values are below the
+    26 flower_bract_length and flower_petal_length values are below the
     traits.yml minimum of 1 mm (e.g. Guioa bracteoles 0.2 mm, Pometia petals 0.4
     mm). They are as printed and will be excluded at build. Decide centrally
     whether to lower allowed_values_min for these traits.
@@ -1030,13 +1037,12 @@ questions:
     Lepisanthes divaricata formae have only a key lead and nomenclature and are
     not scored.
   question10: >-
-    Fourteen description chunks give a second value for a trait already scored
-    in the same context (e.g. Lepisanthes alata 'pedicels 2-7 mm long' then
-    'pedicels 6-13 mm long'; Xerospermum laevigatum inflorescences 'to 20 cm
-    long if solitary' vs 'to 5 cm long if tufted'; Lepisanthes amoena 'Tree to
-    10 m tall, or shrub to 6 m'). The first is scored; the others are unmapped
-    rows noting 'second statement'. Decide whether to add a context (e.g. growth
-    form, fruiting pedicel) and score them.
+    Two description chunks give a second value for a trait already scored in
+    the same context (Xerospermum laevigatum inflorescences 'to 20 cm long if
+    solitary' vs 'to 5 cm long if tufted'; Lepisanthes amoena 'Tree to 10 m
+    tall, or shrub to 6 m'). The first is scored; the other is an unmapped row
+    noting 'second statement'. Decide whether to add a context (e.g. growth
+    form) and score them.
   question11: >-
     Family (223 rows) and genus (486 rows) values are copied down to member
     species silent on a trait when unqualified, single-level and agreeing with
@@ -1051,7 +1057,7 @@ questions:
     July to November to January' (p.303), is read as one continuous range, July
     to January. Confirm.
   question13: >-
-    Vouchers: 20 type rows are printed with a repository but no status word
+    Vouchers: 21 type rows are printed with a repository but no status word
     ('Type: ... (L)'); they use specimen_status 'type', which is not in the
     shared voucher vocabulary. Decide whether to add 'type' or map these to
     'holotype'/'possible holotype'.

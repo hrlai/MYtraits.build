@@ -21,6 +21,22 @@ dict <- read_csv(
   ungroup()
 dict <- split(dict, factor(dict$trait, levels = unique(dict$trait))) |>
   map(\(x) set_names(x$level, x$term_regex))
+# Kochummen_1995 leaves "subcordate" unscored; here it is the cordate end of a
+# base-shape range ("obtuse to subcordate"), so let "cordate" match inside it.
+dict$leaf_base_shape <- dict$leaf_base_shape[names(dict$leaf_base_shape) != "subcordate"]
+# Sapindaceae terms missing from the shared dictionary (row-by-row review,
+# 2026-10); first, so they win over shorter shared terms
+local_terms <- list(
+  plant_growth_form = c("woody climbers?" = "climber_woody"),
+  leaf_phyllotaxis = c("\\bwhorled\\b" = "whorled"),
+  inflorescence_type = c("dichasi[a-z]*" = "cyme", "\\baxils\\b" = "axillary"),
+  seed_shape = c("\\borbicular\\b" = "orbicular"),
+  seed_colour = c("(?<![a-z])(purple|purplish)\\b" = "blue_purple"),
+  fruit_colour = c("\\bcrimson\\b" = "red", "(?<![a-z])(grey|greyish)\\b" = "grey"),
+  bark_colour = c("(?<![a-z])greenish\\b" = "green"),
+  leaf_compoundness = c("pairs? of leaflets" = "compound")
+)
+for (t in names(local_terms)) dict[[t]] <- c(local_terms[[t]], dict[[t]])
 
 # ---- text preparation ---------------------------------------------------------
 
@@ -32,6 +48,8 @@ prep <- function(x) {
     str_replace_all("\\(-(?=\\d)", "(–") |>
     str_replace_all("(?<=\\d)-\\)", "–)") |>
     str_replace_all("(?<=[\\d)])\\s?[x×]\\s?(?=[\\d(]|c\\.)", " × ") |>
+    # "sepals 4, 5 (or 6)": a count list, not two clauses
+    str_replace_all("(?<=\\b(sepals?|petals?|stamens?) \\d), (?=\\d \\()", " or ") |>
     flora_norm()
 }
 
@@ -121,13 +139,15 @@ organs <- tribble(
   "glands", "^(exposed |small |round |flat )?glands",
   "inflorescences", "^((male|female|the) )?(inflorescences?|infructescences?)\\b",
   "cymules", "^(cymules|cymes|cincinni)\\b",
-  "branches", "^(branches|axes|axis)\\b",
+  "branches", "^((main|lateral|primary|secondary) )?(branches|axes|axis)\\b",
   "bracts", "^(bracts|bracteoles|bract)\\b",
   "pedicels", "^pedicels?\\b",
   "peduncles", "^peduncles?\\b",
   "flowers", "^((male|female|bisexual) )?flowers?\\b",
   "calyx", "^calyx",
   "sepals", "^((outer|inner) (one|two|three|1|2|3) )?sepals?\\b|^(outer|inner) (one|two|three|1|2|3)\\b",
+  # a blade or claw size is not the whole petal length
+  "petal blade", "^(petal )?(blades?|claws?)\\b",
   "petals", "^petals?\\b",
   "petal scales", "^((petal )?scales?|crests?|auricles)\\b",
   "disc", "^disc\\b",
@@ -144,8 +164,12 @@ organs <- tribble(
   "fruit lobes", "^fruit lobes?\\b",
   "lobes", "^lobes?\\b",
   "fruit wall", "^(fruit wall|pericarp|exocarp|mesocarp|endocarp|valves?)\\b",
-  "appendages", "^((fruit )?appendages|spines|warts|tubercles|protuberances|hairs)\\b",
+  "appendages", "^((fruit )?appendages|spines|warts|warty|tubercles|protuberances|hairs)\\b",
   "fruit stalk", "^(fruit )?stalks?\\b",
+  # parts of a fruit, and its pulp and septum, are not the fruit
+  "fruit parts", "^fruit parts?\\b",
+  "pulp", "^pulp\\b",
+  "septum", "^sept(um|a)\\b",
   "fruits", "^(fruits?|capsules?|drupes?)\\b",
   "seeds", "^seeds?\\b",
   "sarcotesta", "^sarcotesta",
@@ -170,17 +194,28 @@ split_clauses <- function(text) {
   map_dfr(seq_along(sents), \(si) {
     s <- sents[si]
     s_org <- organ_of(s)
+    # "Male inflorescences ...; pedicels ...": the sentence's sex covers its
+    # pieces; "male ones somewhat smaller than the female ones" is a comparison
+    sex_label <- \(t) if (str_detect(t, "\\bthan\\b")) NA_character_ else str_match(t, "^(fe)?male (inflorescences?|flowers?)\\b")[, 1]
+    s_sex <- str_extract(sex_label(str_to_lower(s)), "^(fe)?male")
     pieces <- flora_split_pieces(s, ";")
     map_dfr(seq_along(pieces), \(pi) {
       p_org <- organ_of(pieces[pi])
       p_org <- coalesce(p_org, s_org)
       chunks <- flora_split_pieces(pieces[pi], ",")
+      # "...; male inflorescences ...; pedicels 2–7 mm long; female
+      # inflorescences ...": a piece that opens with a sex sets it for the
+      # following pieces of the sentence
+      p_sex <- str_extract(sex_label(str_to_lower(pieces[pi])), "^(fe)?male")
+      if (!is.na(p_sex)) {
+        s_sex <<- p_sex
+      }
       cur <- p_org
       # the structure a base / margin / apex label belongs to; a piece that
       # opens with a label ("; base acute, apex ...") belongs to the sentence organ
       parent <- if (p_org %in% leaf_labels) s_org else p_org
       side <- NA_character_
-      sex <- NA_character_
+      sex <- s_sex
       pos <- NA_character_
       map_dfr(seq_along(chunks), \(ci) {
         lc <- str_to_lower(chunks[ci])
@@ -190,23 +225,34 @@ split_clauses <- function(text) {
           if (!c_org %in% leaf_labels) {
             parent <<- c_org
             side <<- NA_character_
+            # "filaments ..., in female flowers c. 1.5 mm; anthers": a new organ
+            # drops the sex of the previous one
+            sex <<- s_sex
             pos <<- NA_character_
           }
         }
         # Labels carried to the following chunks of the piece: "outer two, 1.5–3.5
         # x 1.2–2 mm"; "male ones ..., to 20 cm long"; "lowermost leaflets ovate,
-        # c. 2.5 x 1 cm". A comparison ("outer two smaller") is not a label.
+        # c. 2.5 x 1 cm". A comparison ("outer two smaller") is not a label unless
+        # the chunk opens with it ("2 outer smaller ones 1–2.8 x 1–2.3 mm",
+        # "outer 2 ovate", "inner 3 sepals ...").
         s <- str_extract(lc, "\\b(outer|inner)\\b")
-        if (!is.na(s) && !str_detect(lc, "\\d|smaller|larger|shorter|longer")) {
+        lead_side <- str_match(lc, "^(?:sepals? )?(?:\\d+ )?(outer|inner)\\b")[, 2]
+        # "outer 2 sometimes smaller, ..., 2–4 x 1.5–3 mm": a comparison without
+        # its own size leaves the later size to all sepals
+        if (!is.na(lead_side) && (!str_detect(lc, "smaller|larger|shorter|longer") || str_detect(lc, paste0(num, "\\s?", unit_re)))) {
+          side <<- lead_side
+        } else if (!is.na(s) && !str_detect(lc, "\\d|smaller|larger|shorter|longer")) {
           side <<- s
         }
         x <- str_extract(lc, "\\b(fe)?male\\b")
         if (!is.na(x)) {
           sex <<- x
         }
-        p <- str_extract(lc, "^(the )?(lowermost|lower|upper|uppermost|basal|apical|terminal) (pair of )?leaflets?")
+        # "lateral ones often ovate", "the upper ones ..." name leaflets too
+        p <- str_extract(lc, "^(the )?(lowermost|lower|upper|uppermost|basal|apical|terminal|lateral) (pair of )?(leaflets?|ones)")
         if (!is.na(p)) {
-          pos <<- str_remove(p, "^the ")
+          pos <<- str_replace(str_remove(p, "^the "), "ones$", "leaflets")
         }
         tibble(
           sentence = si,
@@ -333,6 +379,10 @@ count_alt_rows <- function(trait, raw, lx, prefix, suffix = "", em = NA_characte
     main <- paste0(main, "(–", ext, ")")
   }
   out <- count_rows(trait, raw, main, em, notes)
+  # "stamens 8 or fewer" is a maximum
+  if (!is.null(out) && str_detect(lx, paste0(prefix, "\\d+", sfx, " or (fewer|less)\\b"))) {
+    out$value_type[out$value_type == "mean"] <- "maximum"
+  }
   if (!is.na(alt) && word != "or") {
     out <- bind_rows(
       out |> mutate(cq = coalesce(cq, "usually")),
@@ -391,7 +441,7 @@ cat_rows <- function(trait, x, em = NA_character_) {
   }
   # trait_value keeps one source term per level, and only terms that map to a
   # level, so metadata substitutions (word by word) give exactly the levels
-  s |>
+  out <- s |>
     filter(trait_value_clean != "") |>
     pmap_dfr(\(cq, trait_value, trait_value_clean, trait) {
       terms <- str_split_1(trait_value, " ")
@@ -406,6 +456,25 @@ cat_rows <- function(trait, x, em = NA_character_) {
         raw = x
       )
     })
+  if (!nrow(out)) {
+    return(out)
+  }
+  # "pari- or rarely imparipinnate": alternatives with one level leave no
+  # alternative for that trait
+  if (nrow(out) > 1 && n_distinct(out$trait_value_clean) == 1) {
+    out <- out[1, ] |> mutate(cq = NA_character_)
+  }
+  # "terminal and sometimes axillary": the added state is rarer, the first is
+  # not an alternative to it, so it gets no `usually`
+  lxx <- str_to_lower(x)
+  if (str_detect(lxx, "\\band (sometimes|rarely|occasionally|exceptionally)\\b") && !str_detect(lxx, "\\busually\\b")) {
+    out$cq[out$cq %in% "usually"] <- NA_character_
+  }
+  # "exceptionally" is not a shared qualifier word
+  if (str_detect(str_to_lower(x), "^(or |and )?exceptionally\\b")) {
+    out$cq <- coalesce(out$cq, "exceptionally")
+  }
+  out
 }
 
 # level of one matched source term (as written by flora_score_cat())
@@ -415,6 +484,9 @@ term_level <- function(trait, term) {
   hit <- which(map_lgl(names(d), \(re) str_detect(t, regex(re, ignore_case = TRUE))))
   if (length(hit)) d[[hit[1]]] else ""
 }
+
+rare_more_re <- "\\b(rarely|sometimes|occasionally|exceptionally) (more|fewer|less)\\b"
+rare_q <- c("sometimes", "rarely", "occasionally", "exceptionally", "very rarely", "less often")
 
 hairs_simple <- "^(glabrous|glabrescent|(sparsely |densely |minutely |finely )?(hairy|pubescent|puberulous|tomentose|tomentulose|velutinous|sericeous))( on both (sides|surfaces)| above and beneath| all over)?$"
 
@@ -434,12 +506,26 @@ score_chunk <- function(
   parent = NA,
   side = NA,
   sex = NA,
-  pos = NA
+  pos = NA,
+  prev = NA
 ) {
   lx <- str_to_lower(x)
   if (hedged(lx)) {
     return(NULL)
   }
+  # "8 (rarely fewer)": the stated count is the usual one ("4 or 5, rarely more"
+  # across chunks is handled in parse_description())
+  usual_count <- str_detect(lx, rare_more_re)
+  # "rounded in the lower, ... in the upper leaflets", "ovate (lower ones) to
+  # elliptic (upper ones)" inside a chunk: the states belong to some leaflets
+  # only and cannot be attributed here. An aside about some leaflets ("elliptic
+  # (or in the lowermost pair ovate)") is dropped and the rest scored.
+  pos_label <- "\\((lower|upper|lowermost|uppermost) (ones|leaflets?|pair)\\)"
+  if (organ %in% c("leaflets", leaf_labels) && !str_detect(lx, pos_label)) {
+    lx <- str_squish(str_remove_all(lx, "\\([^)]*\\b(lowermost|lower|upper|uppermost) (pair|ones|leaflets?)\\b[^)]*\\)"))
+  }
+  pos_mid <- paste0("\\b(in|of) (the )?(lower|upper|lowermost|uppermost|basal|terminal|lateral|asymmetric)( (pair|ones|leaflets?)\\b|$)|", pos_label)
+  part_leaf <- str_detect(lx, pos_mid) & !str_detect(lx, "^(the )?(lowermost|lower|upper|uppermost|basal|apical|terminal|lateral) ")
   out <- list()
   add <- function(r) {
     if (!is.null(r) && nrow(r)) out[[length(out) + 1]] <<- r
@@ -451,7 +537,8 @@ score_chunk <- function(
   switch(
     organ,
     habit = {
-      pre <- str_extract(lx, "^[^0-9]*")
+      # "Tree mostly less than 10 m": the qualifier is the height's
+      pre <- str_remove(str_extract(lx, "^[^0-9]*"), "\\s*\\b((mostly|usually|often|sometimes) )?(less than|up to|to|c\\.)\\s*$")
       add(cat_rows("plant_growth_form", pre))
       add(cat_rows("sex_type", lx))
       h <- grab(x, "(tall|high)\\b")
@@ -468,7 +555,18 @@ score_chunk <- function(
       }
       d <- grab(x, "(in )?diam(eter|\\.)?|dbh")
       if (!is.na(d)) {
-        add(num_rows("plant_diameter_breast_height", str_remove(d, "\\s?(in )?diam.*|\\s?dbh"), cq_text = x))
+        dr <- num_rows("plant_diameter_breast_height", str_remove(d, "\\s?(in )?diam.*|\\s?dbh"), cq_text = x)
+        # "Tree to 40 m tall, 90 cm diameter": the height's "to" (and qualifier)
+        # also bounds the diameter in the next chunk; "c. 1 m diameter" stays a mean
+        lp <- str_to_lower(coalesce(prev, ""))
+        if (!is.null(dr) && !str_detect(lx, "^c\\.") && str_detect(lp, "\\bto (c\\.\\s?)?\\d[^,;]*\\bm (tall|high)\\b")) {
+          dr <- dr |>
+            mutate(
+              value_type = if_else(value_type == "mean", "maximum", value_type),
+              cq = coalesce(cq, qualifier(lp))
+            )
+        }
+        add(dr)
       }
       if (str_detect(lx, "buttress") && !negative(lx)) {
         add(row("stem_base_form", "buttressed", cq = qualifier(lx), raw = x))
@@ -484,9 +582,11 @@ score_chunk <- function(
       add(row("stem_base_form", "fluted", cq = qualifier(lx), raw = x))
     },
     bark = {
-      # spots, patches and lenticels are not the bark colour
-      if (!str_detect(lx, "spot|patch|mottl|lenticel|blaze|slash")) {
-        add(cat_rows("bark_colour", lx))
+      # spots, patches and lenticels are not the bark colour: drop a "with dark
+      # patches" phrase, and skip chunks that are about them
+      bc <- str_remove(lx, "\\bwith [^,;]*\\b(spot|patch|mottl|lenticel)[a-z]*")
+      if (!str_detect(bc, "spot|patch|mottl|lenticel|blaze|slash")) {
+        add(cat_rows("bark_colour", bc))
       }
       add(cat_rows("bark_texture", lx))
     },
@@ -494,6 +594,8 @@ score_chunk <- function(
       add(cat_rows("stem_hairs", str_remove(lx, "^(young )?(twigs?|branchlets?) ")))
     },
     leaves = {
+      # "pari- or rarely imparipinnate"
+      lx <- str_replace(lx, "\\bpari- or ", "paripinnate or ")
       add(cat_rows("leaf_compoundness", lx))
       add(cat_rows("leaf_lamina_division", lx))
       add(cat_rows("leaf_arrangement", lx))
@@ -511,38 +613,48 @@ score_chunk <- function(
       em <- coalesce(pos, "leaflet")
       add(dim_rows(c("leaflet_length", "leaflet_width", NA), x, em = em, cq_text = x))
       # shapes of glands, domatia, hairs or scales are not the leaflet shape
-      if (is.null(grab_dims(x)) && !str_detect(lx, "gland|domati|hair|scale|pseudostipule")) {
+      if (is.null(grab_dims(x)) && !str_detect(lx, "gland|domati|hair|scale|pseudostipule") && !part_leaf) {
         add(cat_rows("leaf_shape", lx, em = em))
       }
       if (str_detect(str_squish(core), hairs_simple)) {
         add(cat_rows("leaf_hairs_adult_leaves", str_squish(core), em = em))
       }
-      add(cat_rows("leaf_surface_reflectivity", lx, em = em))
+      # "dull (sometimes even glaucous) to shiny": the aside is another character
+      add(cat_rows("leaf_surface_reflectivity", str_remove_all(lx, "\\([^)]*\\)"), em = em))
     },
     # base, margin and apex labels count only for a leaf or leaflet, not for a
     # pseudostipule, petal or sepal in the same sentence
-    base = if (leafy) {
-      add(cat_rows("leaf_base_shape", lx, em = coalesce(em_leaf, "leaf")))
+    base = if (leafy && !part_leaf) {
+      # "(in sessile simple leaves subcordate, ...)" is about other leaves
+      add(cat_rows("leaf_base_shape", str_remove_all(lx, "\\(in [^)]*\\)"), em = coalesce(em_leaf, "leaf")))
     },
-    margin = if (leafy) {
+    margin = if (leafy && !part_leaf) {
       add(cat_rows("leaf_margin", lx, em = coalesce(em_leaf, "leaf")))
     },
-    apex = if (leafy && !str_detect(lx, "^(the )?acumen")) {
-      # "apex tapering into an acute acumen": the tip shape is the acumen's
-      a <- str_replace(lx, "\\b(abruptly |gradually )?(tapering )?into (an? |the )?[a-z ,-]*acumen.*", "acuminate")
+    apex = if (leafy && !part_leaf && !str_detect(lx, "^(the )?acumen")) {
+      # "apex tapering into an acute acumen", "with an obtuse acumen", "obtuse- to
+      # acute-acuminate", and a comma-split "..., rounded or acute acumen": the
+      # tip shape is the acumen's
+      a <- lx |>
+        str_replace("\\b[a-z]+- to [a-z]+-acuminate\\b", "acuminate") |>
+        str_replace("\\b(abruptly |gradually )?(tapering )?(into|with) (an? |the )?[a-z ,-]*acumen.*", "acuminate") |>
+        str_replace("^[a-z ,-]*\\bacumen\\b.*", "acuminate")
       add(cat_rows("leaf_apex_shape", a, em = coalesce(em_leaf, "leaf")))
     },
     inflorescences = {
       em <- em_sex
-      # "to 20 cm long if solitary" and "flowers solitary" are not an inflorescence type
+      # "to 20 cm long if solitary", "flowers solitary" and "inflorescences
+      # solitary" (one per axil) are not the single-flowered level; "subterminal"
+      # is not terminal; "umbel-like" is a likeness
       no_branch <- lx |>
-        str_remove_all("\\bif (solitary|tufted)\\b|\\bflowers? solitary\\b") |>
+        str_remove_all("\\bif (solitary|tufted)\\b|\\bflowers? solitary\\b|\\b((usually|mostly|often) )?solitary\\b|\\bsub-?terminal\\b|\\b[a-z]+-like\\b") |>
         str_remove("\\b(cymes|cymules|branches|cyme-like)\\b.*")
       add(cat_rows("inflorescence_type", no_branch, em = em))
       l <- grab(x, "long")
       if (!is.na(l)) add(num_rows("inflorescence_length", l, em = em, cq_text = x))
     },
-    pedicels = if (!str_detect(lx, "fruit")) {
+    # a pedicel in the fruit sentence is a fruiting pedicel
+    pedicels = if (!str_detect(lx, "fruit") && !identical(sent_organ, "fruits")) {
       l <- grab(x, "long")
       if (!is.na(l)) add(num_rows("pedicel_length", l, em = em_sex, cq_text = x))
     },
@@ -564,11 +676,14 @@ score_chunk <- function(
       # "in male flowers ..." qualifies another organ; it does not state sexuality
       add(cat_rows("flower_structural_sex_type", str_remove_all(lx, "\\b(fe)?male\\b")))
       sym <- str_detect(lx, "symmetr")
+      # "radially or rarely bilaterally symmetrical": each state takes the
+      # qualifier just before it
+      q_before <- \(term) qualifier(str_extract(lx, paste0("\\b(\\w+ ){0,2}(", term, ")")))
       if ((sym && str_detect(lx, "radially")) || str_detect(lx, "actinomorphic")) {
-        add(row("flower_perianth_symmetry", "radially_symmetrical", "actinomorphic_general", cq = qualifier(lx), raw = x))
+        add(row("flower_perianth_symmetry", "radially_symmetrical", "actinomorphic_general", cq = q_before("radially|actinomorphic"), raw = x))
       }
       if ((sym && str_detect(lx, "bilaterally")) || str_detect(lx, "zygomorphic")) {
-        add(row("flower_perianth_symmetry", "bilaterally_symmetrical", "zygomorphic", cq = qualifier(lx), raw = x))
+        add(row("flower_perianth_symmetry", "bilaterally_symmetrical", "zygomorphic", cq = q_before("bilaterally|zygomorphic"), raw = x))
       }
       add(count_alt_rows("flower_perianth_merism", x, lx, "\\b", "-merous", em = em))
       add(cat_rows("flower_colour", str_remove(lx, "^(male|female) flowers?"), em = em))
@@ -581,6 +696,9 @@ score_chunk <- function(
       }
       em <- case_when(
         !is.na(em_sex) ~ em_sex,
+        # "2 outer smaller ones 1–2.8 x 1–2.3 mm": the size is the outer ones'
+        str_detect(lx, "^(sepals? )?(\\d+ )?outer\\b") ~ "outer sepals",
+        str_detect(lx, "^(sepals? )?(\\d+ )?inner\\b") ~ "inner sepals",
         str_detect(lx, "\\bouter\\b") & !str_detect(lx, "smaller|larger") ~ "outer sepals",
         str_detect(lx, "\\binner\\b") & !str_detect(lx, "smaller|larger") ~ "inner sepals",
         !is.na(side) ~ paste(side, "sepals"),
@@ -606,6 +724,8 @@ score_chunk <- function(
       }
       add(cat_rows("flower_colour", lx, em = "petals"))
     },
+    # a blade's colour is the petal colour; its size is not the petal length
+    `petal blade` = add(cat_rows("flower_colour", lx, em = "petals")),
     stamens = {
       add(count_alt_rows("flower_fertile_stamens_count", x, lx, "^stamens? ", em = em_sex))
       l <- grab(x, "long")
@@ -648,13 +768,21 @@ score_chunk <- function(
           if (!is.na(l)) add(num_rows("fruit_length", l, cq_text = x))
         }
       }
-      # colour of the fruit itself, not of its pulp, septa, seeds or hairs
+      # colour of the ripe fruit itself, not of its pulp, septa, seeds or hairs
+      # ("brown-tomentulose", "brown short-velvety"), nor when young, unripe or
+      # turning colour on drying
+      fc <- lx |>
+        str_remove_all("\\b[a-z]+[- ](short-)?(velvety|tomentul[a-z]*|tomentose|hairy|pubescent|puberul[a-z]*|sericeous)\\b") |>
+        str_remove_all("[^,;]*\\bwhen (young|unripe|immature)\\b") |>
+        str_remove_all("\\bturning (to )?[^,;]*\\bwhen dry\\b")
       if (!str_detect(lx, "pulp|sept|seed|aril|hair|inside")) {
-        add(cat_rows("fruit_colour", lx))
+        add(cat_rows("fruit_colour", fc))
       }
       core <- str_squish(str_remove(lx, organs$re[organs$organ == "fruits"]))
       if (str_detect(core, hairs_simple)) add(cat_rows("fruit_surface_hairs", core))
     },
+    # Cubilia "Fruit parts ..., green to brown": the parts' colour is the fruit's
+    `fruit parts` = add(cat_rows("fruit_colour", lx)),
     `fruit wall` = if (!str_detect(lx, "^endocarp|^mesocarp|^exocarp")) {
       t <- grab(x, "thick")
       if (!is.na(t)) add(num_rows("fruit_wall_thickness", t, cq_text = x))
@@ -672,8 +800,12 @@ score_chunk <- function(
       if (!negative(lx)) add(cat_rows("dispersal_appendage", lx))
     }
   )
+  out <- bind_rows(out)
+  if (usual_count && nrow(out)) {
+    out <- out |> mutate(cq = if_else(unit %in% "{count}" & is.na(cq), "usually", cq))
+  }
   # the verbatim clause, not the matched fragment
-  bind_rows(out) |> mutate(trait_value_raw = x)
+  out |> mutate(trait_value_raw = x)
 }
 
 # rough label for an unmapped chunk
@@ -698,11 +830,19 @@ parse_description <- function(p) {
   }
   leaf_kind <- if (str_detect(str_to_lower(text), "leaflet")) "leaflet" else "leaf"
   cl$id <- seq_len(nrow(cl))
-  cl$rows <- pmap(cl, \(sentence, piece, chunk, sent_organ, organ, parent, named, side, sex, pos, piece_text, text, id) {
+  cl <- cl |>
+    group_by(sentence, piece) |>
+    mutate(prev = lag(text), nxt = lead(text)) |>
+    ungroup()
+  cl$rows <- pmap(cl, \(sentence, piece, chunk, sent_organ, organ, parent, named, side, sex, pos, piece_text, text, id, prev, nxt) {
     if (is.na(organ)) {
       return(NULL)
     }
-    r <- score_chunk(organ, text, sent_organ, leaf_kind, parent, side, sex, pos)
+    r <- score_chunk(organ, text, sent_organ, leaf_kind, parent, side, sex, pos, prev)
+    # "sepals 4 or 5, rarely more": the stated count is the usual one
+    if (!is.null(r) && nrow(r) && str_detect(str_to_lower(coalesce(nxt, "")), paste0("^(or )?", rare_more_re))) {
+      r <- r |> mutate(cq = if_else(unit %in% "{count}" & is.na(cq), "usually", cq))
+    }
     # A chunk that inherits its organ may only give a number when the number
     # comes first ("5–25 cm long"); "branches to 4 cm long" belongs to an
     # unlisted part.
@@ -711,7 +851,17 @@ parse_description <- function(p) {
     }
     r
   })
-  pos <- str_locate(text, fixed(str_sub(cl$text, 1, 25)))[, 1]
+  # locate each chunk after the previous one, so a short chunk ("glabrous") is
+  # not placed at an earlier occurrence on the previous page
+  pos <- rep(NA_integer_, nrow(cl))
+  from <- 1L
+  for (i in seq_len(nrow(cl))) {
+    k <- str_locate(str_sub(text, from), fixed(str_sub(cl$text[i], 1, 25)))[1, 1]
+    if (!is.na(k)) {
+      pos[i] <- from + k - 1L
+      from <- pos[i]
+    }
+  }
   pages <- map(coalesce(pos, 1L), \(k) flora_page_at(p, k))
   cl$pdf_page <- map_int(pages, \(x) as.integer(x[["pdf"]]))
   cl$printed_page <- map_int(pages, \(x) as.integer(x[["printed"]]))
@@ -720,16 +870,29 @@ parse_description <- function(p) {
     select(id, sentence, piece, pdf_page, printed_page, rows) |>
     unnest(rows) |>
     # "Tree, rarely shrub" is split into two chunks: the unqualified
-    # alternative becomes `usually`, as within one chunk
-    group_by(sentence, piece, trait, entity_measured) |>
+    # alternative becomes `usually`, as within one chunk. Only a rarer
+    # alternative does this: "mostly acuminate", "often sickle-shaped" and
+    # "terminal and sometimes axillary" add a state, not an alternative.
+    # Arrangement and phyllotaxis share one statement ("spirally arranged,
+    # rarely opposite or whorled").
+    mutate(tgroup = if_else(trait %in% c("leaf_arrangement", "leaf_phyllotaxis"), "leaf_arrangement", trait)) |>
+    group_by(sentence, piece, tgroup, entity_measured) |>
     mutate(
       cq = if_else(
-        value_type == "mode" & is.na(cq) & any(!is.na(cq) & cq != "extreme_range"),
+        value_type == "mode" & is.na(cq) &
+          any(cq %in% rare_q & !str_detect(str_to_lower(trait_value_raw), "\\band (sometimes|rarely|occasionally|exceptionally)\\b")),
         "usually",
         cq
       )
     ) |>
+    # "usually loculicidal, rarely septicidal": alternatives with one level
+    # leave no alternative for that trait
+    group_by(sentence, piece, trait, entity_measured) |>
+    mutate(one_level = n() > 1 & all(value_type == "mode") & n_distinct(trait_value_clean) == 1) |>
+    filter(!one_level | row_number() == 1) |>
+    mutate(cq = if_else(one_level, NA_character_, cq)) |>
     ungroup() |>
+    select(-tgroup, -one_level) |>
     select(-sentence, -piece)
   # A second number for the same trait and context ("pedicels 6–13 mm long"
   # after "pedicels 2–7 mm long", "to 5 cm long if tufted") needs a context
@@ -913,7 +1076,13 @@ members <- taxa |>
   filter(has_description) |>
   transmute(block, genus, group = NA_character_, species, rank)
 
-copied <- flora_copy_down(higher_rows = own, own_rows = own, members = members)
+# a conditional family or genus statement ("when capsular usually
+# loculicidal") does not hold for every member
+copied <- flora_copy_down(
+  higher_rows = own |> filter(!str_detect(str_to_lower(coalesce(trait_value_raw, "")), "^when ")),
+  own_rows = own,
+  members = members
+)
 rejected <- attr(copied, "rejected")
 # a subvariety inherits from its species, whose description covers it
 inherited <- flora_inherit_infraspecific(

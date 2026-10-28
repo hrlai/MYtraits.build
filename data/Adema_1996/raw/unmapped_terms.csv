@@ -1,95 +1,95 @@
 organ,character,n_taxa,example_taxon,example_text,printed_page
 distribution,text,82,Sapindaceae,"About 150 genera with c. 2000 species, widespread in tropical and subtropical regions of the world, especially well represented in South America",264
 ecology,text,71,Sapindaceae,"Primary or secondary rain forest, forest edges, shrublands, coastal vegetation, often along rivers or road sides; in everwet or seasonal climates; mainly lowlands, but also mountains to 3600 m; on ...",264
-petals,description,68,Sapindaceae,free,263
 flowers,description,65,Sapindaceae,in female flowers present as staminodes with non-opening anthers,263
-leaves,number,64,Alectryon,each with 1--8 pairs of leaflets,271
 sepals,description,64,Sapindaceae,rarely more,263
 inflorescences,description,62,Sapindaceae,pseudoterminal,263
 leaflets,texture,62,Ganophyllum,Leaflets herbaceous to stiffly parchment-like,289
-fruits,description,58,Alectryon,Fruits sessile or short-stalked,271
+fruits,description,57,Alectryon,Fruits sessile or short-stalked,271
 lateral veins,description,57,Alectryon glaber,ending free or in marginal teeth,273
-leaflets,description,55,Sapindaceae,Leaflets alternate to opposite,263
+leaflets,description,56,Sapindaceae,Leaflets alternate to opposite,263
+petals,description,55,Sapindaceae,free,263
 petiolules,size,55,Alectryon glaber,petiolules 1--8 mm long,273
 leaflets,indumentum,54,Alectryon,Leaflets variably hairy to glabrous,271
 intercostal veins,venation,52,Glenniea,intercostal veins and veinlets finely reticulate,291
 lateral veins,size,48,Alectryon glaber,lateral veins 0.5--2 cm apart,273
 midrib,description,46,Alectryon glaber,midrib slightly raised above,273
 disc,indumentum,44,Alectryon,glabrous,271
-petals,number,44,Sapindaceae,petals absent or 2--6,263
+petals,number,42,Sapindaceae,petals absent or 2--6,263
 lateral veins,venation,41,Alectryon,lateral veins ending free or the upper ones looping and joining near the margin,271
 intercostal veins,description,39,Glenniea,slightly raised on both sides,291
 margin,description,38,Arytera,margin entire,276
-petals,indumentum,38,Nephelium,hairy on both sides,333
 uses,text,37,Sapindaceae,"The wood of several species is used for timber (Klaassen, FM 1, 11 (1994) 425)",264
+base,description,36,Alectryon,the base usually deeply cleft,271
 disc,description,36,Sapindaceae,disc complete or interrupted,263
 petiole,description,35,Arytera,petioles subterete,276
 apex,description,34,Mischocarpus,apex emarginate,329
 bracts,description,34,Sapindaceae,bracts and bracteoles present,263
-base,description,33,Alectryon,the base usually deeply cleft,271
 fruit wall,texture,33,Cubilia,fruit wall coriaceous,279
 ovary,description,32,Sapindaceae,lobed or not,263
 petiolules,description,32,Arytera,petiolules usually consisting of pulvinus only,276
 domatia,description,31,Arytera,domatia usually present,276
 filaments,indumentum,30,Sapindaceae,filaments glabrous or hairy,263
-ovary,indumentum,30,Arytera,hairy,276
 fruit wall,description,29,Alectryon,fruit wall smooth or slightly warty,271
 fruits,number,29,Alectryon,1(or more)-lobed,271
+ovary,indumentum,29,Arytera,hairy,276
 inflorescences,indumentum,28,Trigonachras,hairy,362
 rachis,indumentum,28,Arytera litoralis,hairy when young,277
 sepals,indumentum,28,Dimocarpus,densely tomentose outside,284
 style,description,27,Sapindaceae,style usually apical,263
 acumen,description,26,Glenniea,acumen rounded,291
 indumentum,indumentum,26,Sapindaceae,Indumentum usually of solitary simple hairs,263
+petals,indumentum,26,Nephelium,hairy on both sides,333
 anthers,indumentum,25,Arytera,anthers pilose or glabrous,276
+petal blade,size,25,Arytera litoralis,claw 0.1--0.4 mm long,277
 cymules,description,24,Guioa,cymules in cincinnate to dichasial clusters,295
 petal scales,description,24,Sapindaceae,scales crested or not,263
 seeds,description,24,Sapindaceae,sometimes compressed,263
 fruits,indumentum,23,Allophylus,mostly almost glabrous when ripe,273
 stigma,description,23,Alectryon,stigma grooved or with reflexed lobes,271
 petiole,size,22,Alectryon glaber,(0.5--)1--2 mm thick,271
-sepals,number,22,Sapindaceae,and then the outer 1 or 2 much smaller than the inner three,263
+petal blade,description,21,Mischocarpus,without crest,329
+sepals,number,21,Sapindaceae,and then the outer 1 or 2 much smaller than the inner three,263
 fruit wall,indumentum,20,Alectryon,hairy or late glabrescent outside,271
 ovules,number,20,Sapindaceae,ovules 1 or 2 per locule,263
+appendages,description,19,Nephelium,warty to spiny,333
 petal scales,indumentum,19,Lepisanthes,sometimes only represented by a hairy rim or a pair of small auricles,309
 anthers,description,18,Cubilia,anthers adnate,279
 hilum,description,18,Cubilia,hilum large,279
 leaves,description,18,Ganophyllum,leaves,289
 lobes,description,18,Arytera,the lobes distinctly recurved in fruit,276
-petals,size,18,Guioa bijuga,gradually decurrent into the 0.4--1.2 mm high claw,297
+petal blade,indumentum,18,Trigonachras,claw densely ciliate,362
 cymules,number,17,Dictyoneura,cymules 1–few-flowered,281
 lobes,size,17,Alectryon glaber,0.9--1.0 x 0.75--0.9 cm,273
 pedicels,description,17,Guioa,pedicels articulate,295
 pseudostipules,description,16,Ganophyllum,pseudostipules absent,289
 rachis,description,16,Arytera,rachis subterete,276
-appendages,description,15,Xerospermum,spines broader than high,369
 arillode,description,14,Dimocarpus,arillode thin,284
+branches,description,14,Allophylus,the branches exceptionally also forked at the apex,273
 fruit stalk,size,14,Arytera litoralis,stalk absent or to 3 mm long,277
 margin,indumentum,14,Paranephelium,ciliate,352
 ovary,size,14,Cubilia cubili,ovary c. 1.5 mm high,281
 stamens,description,14,Sapindaceae,inserted within the disc,263
 embryo,description,13,Sapindaceae,embryo usually thick,263
 indumentum,description,13,Arytera,Indumentum of solitary,276
+inflorescences,colour,13,Guioa,usually few-flowered,295
 anthers,colour,12,Mischocarpus,connective with a lighter coloured wart at the top,330
-branches,description,12,Allophylus,the branches exceptionally also forked at the apex,273
+appendages,size,12,Cubilia cubili,to 2 mm long,281
 filaments,description,12,Cubilia,filaments flattened,279
-inflorescences,colour,12,Guioa,usually few-flowered,295
 leaflets,colour,12,Guioa,white,295
 ovary,number,12,Allophylus,ovary deeply 2(--3)-lobed,273
-ovules,description,12,Sapindaceae,ascending,263
 rachis,size,12,Arytera litoralis,rachis 0.8--11.5 cm long,277
 unlabelled note,text,12,Xerospermum laevigatum subsp. acuminatum,Endemic to Borneo,371
-appendages,size,11,Nephelium aculeatum,c. 2 mm long.,336
 cymules,colour,11,Cubilia,cymules many-flowered,279
-inflorescences,size,11,Alectryon glaber,unbranched or with branches to 4 cm long,273
 leaflets,venation,11,Paranephelium,if margin dentate then each second lateral vein ending in a tooth,352
+ovules,description,11,Sapindaceae,ascending,263
 petal scales,size,11,Arytera litoralis,scales 0.2--1.2 mm long,277
 sepals,colour,11,Arytera,dark brown when dry.,276
+inflorescences,size,10,Alectryon glaber,unbranched or with branches to 4 cm long,273
 petal scales,number,10,Trigonachras,scales 1(--2),362
 petiole and rachis,description,10,Alectryon,petiole and rachis not winged,271
 twigs,indumentum,10,Allophylus cobbe,Twigs glabrous except for the sparsely appressed hairy terminal bud or more or less persistently thinly to densely covered with often stellately tufted,274
 inner bark,colour,9,Guioa bijuga,inner bark yellow to red to brown,297
-sepals,size,9,Alectryon glaber,sepals c. 1 mm high,273
 twigs,size,9,Lepisanthes divaricata,Twigs 3--13 mm diameter,316
 disc,colour,8,Glenniea,purplish black when dry,292
 leaves,indumentum,8,Harpullia arborea,all axes hairy,307
@@ -115,13 +115,13 @@ flowers,indumentum,6,Ganophyllum,glabrous,289
 fruit stalk,description,6,Guioa,stalk narrow and high to broadly obconical and indistinguishable,295
 fruit wall,colour,6,Pometia,white,357
 hilum,size,6,Pometia,c. 5 mm diameter.,357
-lobes,indumentum,6,Lepisanthes kinabaluensis,glabrous,319
-petals,colour,6,Guioa,petals between two adjacent large sepals usually with reduced blade and scales,295
+lobes,indumentum,6,Lepisanthes kinabaluensis,glabrous,321
 style,indumentum,6,Dimocarpus,variably hairy at least in the lower half,284
 testa,texture,6,Dictyoneura,testa parchment-like or a more-or-less hard shell,281
 twigs,description,6,Allophylus cobbe,appressed to patent,274
 acumen,size,5,Lepisanthes senegalensis,acumen to 5 cm long,324
 bracts,indumentum,5,Arytera,hairy outside,276
+branches,size,5,Dimocarpus dentatus,to 20 cm long,286
 calyx,indumentum,5,Cubilia,densely tomentulose on both surfaces,279
 calyx,number,5,Arytera,calyx 5-dentate to 5-partite,276
 disc,size,5,Allophylus cobbe,disc 0.2--0.8 mm high,274
@@ -130,46 +130,45 @@ fruit wall,size,5,Dimocarpus longan,fruit wall smooth to warty or with spines to
 fruits,size,5,Glenniea thorelii,then transversely ovoid and c. 1.25 x 1.5 x 1.25 cm,293
 habit,description,5,Allophylus cobbe,or a climber (not in Sabah and Sarawak),274
 inner bark,description,5,Guioa bijuga,fibrous,297
+petals,colour,5,Guioa,petals between two adjacent large sepals usually with reduced blade and scales,295
 petiolules,number,5,Arytera,usually 1-grooved,276
 seeds,indumentum,5,Lepisanthes,glabrous or sometimes hairy testa,309
 anthers,size,4,Lepisanthes amoena,anthers 1.5--1.8 mm,314
-apex,indumentum,4,Arytera litoralis,glabrous to pilose outside,277
+appendages,indumentum,4,Cubilia,warty and densely hairy,279
 base,indumentum,4,Nephelium compressum,base sometimes woolly inside,336
 branches,colour,4,Tristiropsis,few- to many-flowered (in the upper parts reduced to a solitary flower) cymes,366
 cambium,colour,4,Guioa bijuga,cambium white to yellow to red,297
 disc,number,4,Dimocarpus,5-lobed,284
 fruit lobes,description,4,Dimocarpus dentatus,Fruit lobes subglobose,286
 fruit lobes,size,4,Dimocarpus dentatus,c. 16 x 15 mm,286
+fruits,colour,4,Alectryon glaber,keeled and shouldered to slightly grooved,273
 leaflets,size,4,Lepisanthes alata,sessile or petiolules to 2 mm long,311
 lobes,colour,4,Lepisanthes kinabaluensis,brown,321
 midrib,indumentum,4,Lepisanthes multijuga,midrib densely fulvous tomentose above,321
 pedicels,indumentum,4,Arytera,pedicels hairy,276
+petal blade,number,4,Mischocarpus,blade basally usually with 2 auricles or scales,329
 pistillode,indumentum,4,Dimocarpus,densely pilose,284
 unknown organ,indumentum,4,Harpullia cupanioides,Young parts densely appressed short-hairy,308
-apex,size,3,Arytera litoralis,claw 0.1--0.4 mm long,277
+apex,indumentum,3,Arytera litoralis,glabrous to pilose outside,277
 arillode,size,3,Cubilia cubili,arillode to 6--10 mm high.,281
-bark,colour,3,Guioa bijuga,whitish to dark grey with dark patches,297
 bark,description,3,Guioa bijuga,usually hard,297
-base,size,3,Nephelium compressum,claw 0.3--0.4 mm long,336
-branches,size,3,Dimocarpus dentatus,to 20 cm long,286
 cymules,size,3,Lepisanthes fruticosa,rarely with a stalk up to 1 cm long,318
 domatia,venation,3,Mischocarpus,domatia often present in the axils of lateral veins,329
-fruits,colour,3,Alectryon glaber,keeled and shouldered to slightly grooved,273
 glands,description,3,Paranephelium,glands absent,352
 leaves,colour,3,Pometia,leaves at the base of inflorescences often reduced to pseudostipules,356
 leaves,size,3,Lepisanthes divaricata,25--40 cm long,316
-margin,size,3,Paranephelium,margin with an erect rim to tubular collar up to 1 mm high,352
+pedicels,size,3,Lepisanthes alata,to 2 cm long,311
 peduncles,description,3,Tristiropsis,peduncles pulvinate,366
-petals,texture,3,Harpullia arborea,petals membranous,307
+petals,size,3,Guioa pleuropteris,gradually decurrent into the 0.2--1 mm high claw,302
 petiole,indumentum,3,Lepisanthes rubiginosa,densely short-hairy,323
 pistillode,description,3,Dimocarpus,pistillodes small,284
 pistillode,size,3,Lepisanthes rubiginosa,pistillodes in male flowers c. 0.8 mm high,323
 sapwood,description,3,Guioa koelreuteria,rings slightly visible,300
 sarcotesta,description,3,Dictyoneura,dorsally interrupted by a very narrow to very broad cuneate cleft,281
-seeds,colour,3,Arytera,yellow,276
 seeds,size,3,Arytera litoralis,hypocotyl and radicle 0.5--3 mm long,277
 seeds,texture,3,Cubilia,up to about halfway enveloped by a thin-fleshy,279
 sepals,texture,3,Sapindaceae,herbaceous to petaloid,263
+septum,description,3,Lepisanthes,septa mostly complete,309
 stigma,colour,3,Lepisanthes alata,white,311
 twigs,number,3,Lepisanthes alata,Twigs 0.8--1.2(--1.5) cm diameter,311
 unknown organ,colour,3,Pometia,with a red exudate when cut,356
@@ -189,20 +188,25 @@ inflorescences,number,2,Lepisanthes senegalensis,3-flowered,324
 lateral veins,indumentum,2,Paranephelium xestophyllum,sunken or flat to slightly raised in a groove and hairy beneath,355
 lateral veins,number,2,Lepisanthes senegalensis,1--3(--4 in the large simple leaves) cm apart,324
 lobes,number,2,Litchi,lobes to 0.3--0.5x the length of the tube,327
-pedicels,size,2,Lepisanthes alata,pedicels 6--13 mm long,311
+petals,texture,2,Harpullia arborea,petals membranous,307
 petiole and rachis,size,2,Lepisanthes alata,wings 3--8 mm wide,311
 petiolules,indumentum,2,Rhysotoechia koordersii,glabrous,362
 pseudostipules,number,2,Lepisanthes alata,1--3(--8.5) x 0.8--2.2(--5) cm,311
+pulp,colour,2,Lepisanthes alata,white,311
 sarcotesta,number,2,Dictyoneura,sarcotesta cupular on the ventral side and covering 25--100% of the seed,281
-stamens,indumentum,2,Glenniea,glabrous,291
+seeds,colour,2,Arytera,yellow,276
+stamens,indumentum,2,Glenniea,glabrous,292
 stamens,number,2,Sapindaceae,usually 8,263
 stigma,size,2,Paranephelium,stigma flat or with recurved lobes to 1.5 mm long,353
 stipules,description,2,Sapindaceae,true stipules usually absent,263
 unknown organ,size,2,Glenniea philippinensis,Monoecious tree to 18 m tall,292
-appendages,indumentum,1,Nephelium reticulatum,thinly puberulous,350
+apex,size,1,Lepisanthes senegalensis,1--3 x 0.8--1.2 mm,324
+appendages,number,1,Paranephelium,dehiscing into 3--4 mostly unequal valves or tearing apart at random,353
 arillode,number,1,Arytera litoralis,2-layered,277
+bark,colour,1,Guioa pleuropteris,often mottled with white or grey spots,302
 base,colour,1,Nephelium daedaleum,deeply irregularly fissured,341
 base,number,1,Nephelium lappaceum,0.5--2-cm-long upper parts.,342
+base,size,1,Nephelium daedaleum,c. 4 x 2.25 cm,341
 bole,size,1,Zollingeria borneensis,clear bole 30 m high,374
 bracts,size,1,Lepisanthes tetraphylla,rarely ovate and to 7 x 6 mm,325
 calyx,venation,1,Mischocarpus pentapetalus,1(--3)-veined,332
@@ -212,21 +216,29 @@ filaments,size,1,Cubilia cubili,stamen filaments c. 1 x 0.2 mm,281
 flowers,texture,1,Xerospermum laevigatum subsp. acuminatum,fleshy or the inner ones partly petaloid,371
 fruit lobes,colour,1,Xerospermum noronhianum,red or dark brown,372
 fruit lobes,indumentum,1,Dimocarpus fumatus subsp. fumatus,glabrous,286
+fruit parts,size,1,Cubilia cubili,Fruit parts 3--4(--5) x 2--2.5 cm,281
 fruit stalk,number,1,Harpullia arborea,stalks to 4.5(--7) mm long,307
 fruit wall,venation,1,Harpullia arborea,prominently veined to smooth,307
-fruits,texture,1,Lepisanthes alata,fleshy,311
 indumentum,colour,1,Lepisanthes rubiginosa,sometimes silvery grey,323
 inner bark,size,1,Zollingeria borneensis,c. 0.7 cm thick,374
+leaves,number,1,Lepisanthes falcata subsp. borneensis,Leaves each with 4--10 leaflets,317
 margin,colour,1,Guioa diplopetala,white,298
+margin,size,1,Paranephelium,margin with an erect rim to tubular collar up to 1 mm high,352
 midrib,colour,1,Arytera litoralis,concolorous with lamina to reddish brown or yellowish,277
 pedicels,number,1,Xerospermum laevigatum,1.5--2.5(--3.5) mm thick.,369
 peduncles,colour,1,Allophylus cobbe,laxly to densely flowered,274
+petal blade,colour,1,Paranephelium,blade variably developed to nearly completely reduced,352
+petal blade,texture,1,Lepisanthes senegalensis,membranous but often thickened towards the centre and the base,324
 petal scales,colour,1,Guioa pleuropteris,crest yellow,302
 petiole,colour,1,Lepisanthes falcata subsp. borneensis,light yellowish green,317
 petiole,number,1,Glenniea thorelii,3-angular to terete,293
 petiolules,colour,1,Zollingeria borneensis,petiolules reduced to pulvinus,374
 pseudostipules,colour,1,Sapindaceae,pseudostipules (reduced leaflets at the base of the leaf stalk) sometimes present,263
+pulp,description,1,Lepisanthes alata,pulp rather thick,311
+pulp,texture,1,Lepisanthes alata,fleshy,311
 rachis,colour,1,Guioa pleuropteris,usually brown hirsute,302
+sepals,size,1,Alectryon glaber,sepals c. 1 mm high,273
+septum,colour,1,Lepisanthes fruticosa,mostly reduced to a rib all around,318
 staminodes,colour,1,Ganophyllum falcatum,staminodes in female flowers strongly reduced,291
 staminodes,description,1,Glenniea,staminodes short,292
 stem,description,1,Alectryon glaber,with rather inconspicuous thick buttresses,271
