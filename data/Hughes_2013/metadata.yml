@@ -34,8 +34,9 @@ dataset:
   sampling_strategy: |
     Treatment pages 269--324 (PDF pages 7--62) were rendered at 220 dpi and
     checked against a corrected transcription. The segmenter reads
-    raw/Memecylaceae_transcription.txt, not the PDF OCR layer. OCR was used only
-    as a draft and navigation aid. Traits were scored only from directly stated,
+    raw/Memecylaceae_transcription.txt, not the PDF text layer. The PDF is
+    born-digital (typeset text, no page scans); its text layer was used only as
+    a draft and navigation aid. Traits were scored only from directly stated,
     image-verified description clauses. Ecology, Distribution, Uses, Taxonomy,
     Notes and Conservation status were reviewed and retained as unmapped source
     clauses when no configured trait applied. Keys, maps, figures and captions
@@ -43,10 +44,12 @@ dataset:
   original_file:
     Memecylaceae.pdf (Hughes 2013, FPM Series II vol. 4, pp. 269--324)
   notes: |
-    The supplied PDF has an OCR text layer of unknown origin. Every treatment
-    page from printed pp. 269--324 was checked against a rendered image, including
-    accepted headings, descriptions, later sections and type or figure vouchers.
-    Image-verified OCR repairs are recorded in raw/source_fixes.csv. The dataset
+    The PDF is born-digital: its text layer is the publication's typeset text,
+    not OCR of page scans. The transcription was made before this was known, so
+    every treatment page from printed pp. 269--324 was checked against a
+    rendered image, including accepted headings, descriptions, later sections
+    and type or figure vouchers. Repairs of typos in the published text are
+    recorded in raw/source_fixes.csv. The dataset
     remains provisional, not release-ready: a curator must decide whether fruit
     diameter should also be represented as fruit length for globose berries, and
     whether parenthetical measurement extremes require a different data model.

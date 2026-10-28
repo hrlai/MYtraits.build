@@ -33,13 +33,14 @@ dataset:
     barometz.
   basis_of_record: preserved_specimen
   life_stage: adult
-  sampling_strategy:
-    "Treatment transcribed from rendered page images
-    (raw/Cibotiaceae_transcription.txt); unknown-origin OCR layer not used.
+  sampling_strategy: |
+    Treatment transcribed from rendered page images
+    (raw/Cibotiaceae_transcription.txt). The PDF is born-digital (typeset text,
+    no page scans); its text layer was not used.
     Values were hand-entered clause by clause from family, genus and species
     descriptions. Fern mappings are provisional: stipe to petiole, lamina to
     leaf, and pinnae or pinnules to leaflets. Ranges are minimum and maximum;
-    'to' values are maxima."
+    'to' values are maxima.
   original_file:
     Cibotiaceae.pdf (Nor-Ezzawanis 2010, Flora of Peninsular Malaysia Series I
     vol. 1, pp. 119--122)

@@ -1,6 +1,8 @@
 # This treatment was rendered to page images in the agent scratch directory.
-# The PDF layer is retained here only as a reproducible transcription aid. Each
-# measurement and name used by build_trait_data.R must be checked against images.
+# The PDF is born-digital (typeset text, no page scans). Its text layer is
+# retained here only as a reproducible transcription draft. Each measurement and
+# name used by build_trait_data.R was checked against images.
+# Do not rerun: it overwrites the image-verified Memecylaceae_transcription.txt.
 source(".github/skills/extract-traits-from-floras-my/scripts/flora_source.R")
 
 dir.create("data/Hughes_2013/raw", showWarnings = FALSE, recursive = TRUE)
@@ -9,7 +11,7 @@ txt <- pdftools::pdf_text(pdf)
 
 out <- c(
   "# M. Hughes (2013), Memecylaceae, Flora of Peninsular Malaysia, Series II, vol. 4, pp. 269--324.",
-  "# Reproducible working transcription of the scanned PDF layer; treatment pages were rendered at 220 dpi.",
+  "# Reproducible working transcription of the born-digital PDF text layer; treatment pages were rendered at 220 dpi.",
   "# Repairs and image checks belong in source_fixes.csv. Do not score unverified text."
 )
 for (i in 7:62) {

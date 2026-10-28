@@ -5,7 +5,7 @@ source(".github/skills/extract-traits-from-floras-my/scripts/flora_assemble.R")
 
 traits <- yaml::read_yaml("config/traits.yml")$traits$elements
 # The transcription is already corrected from rendered page images. Do not apply
-# OCR repairs again after segmentation.
+# source_fixes.csv repairs again after segmentation.
 taxa <- paras |>
   filter(rank %in% c("species", "variety")) |>
   distinct(block, rank, status) |>

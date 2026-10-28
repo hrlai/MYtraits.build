@@ -1,4 +1,4 @@
-# Segmentation of image-verified transcription, not the PDF OCR layer.
+# Segmentation of image-verified transcription, not the born-digital PDF text layer.
 source(".github/skills/extract-traits-from-floras-my/scripts/flora_source.R")
 source(".github/skills/extract-traits-from-floras-my/scripts/flora_segment.R")
 
