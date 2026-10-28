@@ -1,5 +1,5 @@
 # Yao_2010: transcription of T.L. Yao (2010) Pentaphylacaceae, Flora of Peninsular
-# Malaysia Series II vol. 1: 161--164 (inst/extdata/FPM/Pentaphylacaceae.pdf).
+# Malaysia Series II vol. 1: 161--164 (inst/extdata/myflora/pdf/FPM/Pentaphylacaceae.pdf).
 # Read from page images rendered at 220 dpi (pdftools::pdf_convert) for pdf pages
 # 8, 9 and 11 (text pages); pdf p. 10 (Figure 1, printed 163) holds only the plate
 # caption. The PDF's OCR text layer (Acrobat, 2020) was used only to locate text.

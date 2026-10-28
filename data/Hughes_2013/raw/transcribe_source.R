@@ -4,7 +4,7 @@
 source(".github/skills/extract-traits-from-floras-my/scripts/flora_source.R")
 
 dir.create("data/Hughes_2013/raw", showWarnings = FALSE, recursive = TRUE)
-pdf <- "inst/extdata/FPM/Memecylaceae.pdf"
+pdf <- "inst/extdata/myflora/pdf/FPM/Memecylaceae.pdf"
 txt <- pdftools::pdf_text(pdf)
 
 out <- c(

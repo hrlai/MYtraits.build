@@ -43,7 +43,7 @@ dataset:
   basis_of_record: preserved_specimen
   life_stage: adult
   sampling_strategy: |
-    The PDF (inst/extdata/TFSS/Sapindaceae.pdf) is the 2007 electronic edition
+    The PDF (inst/extdata/myflora/pdf/TFSS/Sapindaceae.pdf) is the 2007 electronic edition
     (L.G. Saw & B. Aslina), re-typeset vector text rather than a scan. A draft
     transcription was generated from its text layer and every page (PDF pages
     7--118, printed 263--374) was checked against 220 dpi page renders for

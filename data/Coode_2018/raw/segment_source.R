@@ -3,7 +3,7 @@ source(".github/skills/extract-traits-from-floras-my/scripts/flora_source.R")
 source(".github/skills/extract-traits-from-floras-my/scripts/flora_segment.R")
 
 lines <- flora_read_pdf_lines(
-  "inst/extdata/FPM/Elaeocarpaceae.pdf",
+  "inst/extdata/myflora/pdf/FPM/Elaeocarpaceae.pdf",
   first_line_re = "^ELAEOCARPACEAE$",
   last_pdf_page = 100,
   running_head_re = "^(SEED PLANTS VOL\\. 7 \\(2018\\)|ELAEOCARPACEAE \\(COODE\\))$"
