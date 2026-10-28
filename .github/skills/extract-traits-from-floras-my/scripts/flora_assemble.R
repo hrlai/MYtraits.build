@@ -14,6 +14,10 @@
 # variety, informal_form.
 
 suppressPackageStartupMessages(library(tidyverse))
+# The project .Rprofile attaches traits.build (and so dplyr) before stats, so
+# stats::filter and stats::lag would otherwise mask the dplyr verbs.
+filter <- dplyr::filter
+lag <- dplyr::lag
 source(".github/skills/extract-traits-from-floras-my/scripts/flora_parse.R")
 
 # Standard order of columns in raw/trait_data.csv (all three FPM datasets).

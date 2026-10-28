@@ -18,23 +18,23 @@ pause. Worked examples, all in this repository:
 | `data/Coode_2018` | Elaeocarpaceae, FPM vol. 7 | born-digital PDF, 59 taxa | scripted parser, groups, infraspecific taxa, informal forms, excluded species |
 | `data/Lim_2010` | Araucariaceae, FPM vol. 1 | scanned PDF, hand transcription, 2 taxa | transcription workflow, conifer organs, genus over family |
 | `data/Yao_2010` | Pentaphylacaceae, FPM vol. 1 | scanned PDF, 1 taxon | `flora_hand()`, monogeneric copy-down, hedges |
-| `data/Nor-Ezzawanis_2010` | Cibotiaceae, FPM ferns vol. 1 | scanned PDF, 1 taxon | first fern; provisional fern mappings |
-| `data/Hughes_2013` | Memecylaceae, FPM vol. 4 | scanned PDF; OCR-layer parser | **PROVISIONAL**; OCR-derived transcription is not image-checked, and the segmenter still reads the layer |
-| `data/Kochummen_1995` | Burseraceae, TFSS vol. 1 | 2007 electronic text (embedded fonts, no scan); scripted parser, 59 taxa | first TFSS parser; infra annotations under a species description; single-infra taxa; family exceptions by hand; missing-dash source fixes |
+| `data/Nor-Ezzawanis_2010` | Cibotiaceae, FPM ferns vol. 1 | born-digital PDF, transcribed from page images, 1 taxon | first fern; provisional fern mappings |
+| `data/Hughes_2013` | Memecylaceae, FPM vol. 4 | born-digital PDF, image-checked transcription | **PROVISIONAL** for two curator questions in its `notes`; its `source_fixes.csv` repairs are typos in the published text, not OCR slips |
+| `data/Kochummen_1995` | Burseraceae, TFSS vol. 1 | 2007 electronic text (unembedded fonts, no scan); scripted parser, 59 taxa | first TFSS parser; infra annotations under a species description; single-infra taxa; family exceptions by hand; missing-dash source fixes |
 | `data/Berhaman_1995` | Bignoniaceae, TFSS vol. 1 | 2007 electronic text, 5 described taxa | `flora_hand()` for a multi-genus family; hand copy-down table; single-infra taxon; undescribed species and key-only genus flagged |
 
-Treat the first four as precedents, not completeness benchmarks: the scanned
-examples cover only 1--2 taxa. Coode and Lim still have copied parsers and
-inline source fixes. For Hughes, check the OCR draft against page images and
-switch `raw/segment_source.R` to `flora_read_transcription()` before calling it
-complete; running `raw/transcribe_source.R` only copies the OCR layer.
+Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
+Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
+inline source fixes. Only Lim and Yao are scanned. Nor-Ezzawanis and Hughes were
+transcribed from page images before their PDFs were found to be born-digital;
+born-digital sources no longer need that (step 2).
 
 ## Resumable scanned-source review
 
 Source `.github/skills/extract-traits-from-floras-my/scripts/flora_review.R`
 from the repository root. This is the small prepare/next/status interface for a
-scanned family; the extraction and source reconciliation steps below still
-apply. Each treatment gets its own dataset ID and verified PDF page range. Never
+`scanned_ocr` family (step 1); born-digital families do not use it. The
+extraction and source reconciliation steps below still apply. Each treatment gets its own dataset ID and verified PDF page range. Never
 infer boundaries or printed-page numbers from another volume. The user can say
 "continue <id>" in a new chat; read only its `raw/review_handoff.md`, manifest,
 and next batch, not old chat history.
@@ -76,7 +76,8 @@ Coode_2018 one.
 
 | Script | Does |
 | --- | --- |
-| `scripts/flora_source.R` | PDF text-layer check, render pages, read transcription, number comparison transcription vs layer |
+| `scripts/flora_source.R` | PDF text-layer check, born-digital page flags, render pages, read transcription, number comparison transcription vs layer |
+| `assets/myflora_metadata.csv` | one row per MyFlora PDF: family, flora, volume, year, `text_layer` (`born_digital` or `scanned_ocr`) and the page counts behind it; rebuild with `inst/extdata/myflora/build_metadata.py` |
 | `scripts/flora_review.R` | persistent page manifest, bounded review queue, on-demand rendering and next-chat handoff |
 | `scripts/flora_segment.R` | headings, blocks, paragraphs, sections, page lookups; heading patterns are a parameter (`assets/heading_config_examples.R`) |
 | `scripts/flora_parse.R` | normalisation, `a--b` dashes, sentence and piece splitting outside parentheses, range and `a x b` parsers, commonness rows, dictionary scoring |
@@ -246,38 +247,60 @@ family, guided by the checklist).
   `inst/extdata/myflora/pdf/TFSS/<Family>.pdf`. If both treat a family, extract each as a
   separate dataset under its own author/year citation; never merge their
   descriptions or attribute one author's values to the other.
-- Run `flora_pdf_check()` for producer and OCR hints, not proof of source type
-  or accuracy. Inspect page images and text for each treatment; FPM Acrobat
-  files and TFSS volumes can have OCR layers. Use `pdftools::pdf_text()` rather
-  than terminal `pdftotext` output to inspect special characters.
+- Look up the PDF's `text_layer` in `assets/myflora_metadata.csv`. As of
+  2026-10, 28 FPM PDFs are `scanned_ocr` (the 2010 vol. 1 style: page scans
+  with an Acrobat OCR layer, some pages converted to plain text); the other 97
+  FPM and all 81 TFSS PDFs are `born_digital`. A producer name does not decide
+  this: Acrobat Pro DC wrote both kinds. `flora_pdf_check()` returns the same
+  `text_layer` plus glyph and OCR-slip counts; for a PDF missing from the
+  table, inspect a few page images and rerun `build_metadata.py`.
+- Use `pdftools::pdf_text()` rather than terminal `pdftotext` output to inspect
+  special characters.
 
 ### 2. Decide the text source (B, user rule)
 
-Do not block extraction while seeking a born-digital copy. Record whether the
-PDF is scanned, OCR-layered, or born-digital; a producer name or readable layer
-does not establish reliability. Use the available OCR layer to draft and locate
-text, but verify each scored clause, number, taxon heading and page assignment
-against the rendered page before accepting it. Rendering alone is not review.
-If verification is incomplete, label the extraction provisional; do not call
-unverified rows complete or release-ready.
+Do not block extraction while seeking a better copy. A born-digital text layer
+is the publication's own text, so checking it against page images cannot find
+misreads; image checking is for scans.
 
-- Born-digital with a checked text layer: read with `flora_read_pdf_lines()`.
-- Scanned or OCR-layered: render the treatment pages (`flora_render_pages()`,
-  220 dpi, top and bottom halves). Check the OCR draft against the page images,
-  save corrected, image-checked text in `raw/<Family>_transcription.txt`, and
-  feed `flora_read_transcription()` to `flora_segment()`. Do not discard useful
-  OCR text just because it needs checking. Include text pages and relevant
-  plate captions. `flora_read_pdf_lines()` reads the PDF layer again, not the
-  corrected transcription; do not accidentally segment the unchecked layer.
-- For a large treatment, work page by page and record which pages or clauses
-  remain unchecked. Keep its status provisional until source reconciliation.
-- Keep errors visible in the draft. Record image-verified repairs in
-  `raw/source_fixes.csv` (`pattern, replacement, page, reason`) and apply them
-  with `flora_apply_fixes()` using printed pages. The transcription fed to the
+- **`born_digital`: read the layer with `flora_read_pdf_lines()`; no routine
+  image check.** Run `flora_layer_flags(pdf, pages)` on the treatment's PDF
+  pages and look at a page image only for what it or later steps flag:
+  - `odd_page_number`: printed page missing or off the usual offset. Fix the
+    treatment boundaries or page mapping from the image.
+  - `low_text`: a plate, map, or text set as a picture. Plates need nothing
+    unless a caption supplies a voucher; transcribe any treatment text that is
+    a picture.
+  - `bad_glyphs`: characters the layer could not map (often an en dash or
+    multiplication sign from an unembedded font). Read the image and repair
+    them in `raw/source_fixes.csv`.
+  - Reading-order problems (two columns, tables, side captions) show up as
+    segmenter anomalies or QA failures; check those pages' images.
+
+  Typos in the published text are not OCR errors. Repair one only when the
+  intended value is certain, give the reason as a source typo, and raise a
+  question when the repair changes a value (Hughes_2013 `c. 2 m long`).
+- **`scanned_ocr`: full image check.** Use the available OCR layer to draft and
+  locate text, but verify each scored clause, number, taxon heading and page
+  assignment against the rendered page before accepting it. Rendering alone is
+  not review. If verification is incomplete, label the extraction provisional;
+  do not call unverified rows complete or release-ready. Render the treatment
+  pages (`flora_render_pages()`, 220 dpi, top and bottom halves). Check the OCR
+  draft against the page images, save corrected, image-checked text in
+  `raw/<Family>_transcription.txt`, and feed `flora_read_transcription()` to
+  `flora_segment()`. Do not discard useful OCR text just because it needs
+  checking. Include text pages and relevant plate captions.
+  `flora_read_pdf_lines()` reads the PDF layer again, not the corrected
+  transcription; do not accidentally segment the unchecked layer.
+  - For a large treatment, work page by page and record which pages or clauses
+    remain unchecked. Keep its status provisional until source reconciliation.
+  - Use `flora_compare_numbers()` as a review aid, not a pass/fail test. Check
+    differences and measurements it misses against page images.
+- Keep errors visible in the draft. Record repairs in `raw/source_fixes.csv`
+  (`pattern, replacement, page, reason`) and apply them with
+  `flora_apply_fixes()` using printed pages. The transcription fed to the
   segmenter must already have correct headings and page markers: this helper
   does not repair them or edit the file.
-- Use `flora_compare_numbers()` as a review aid, not a pass/fail test. Check
-  differences and measurements it misses against page images.
 
 ### 3. Segment the treatment (G engine, B headings)
 
@@ -312,17 +335,18 @@ source. Checklist for the bespoke part:
 
 #### TFSS segmentation
 
-TFSS layout and text layers vary by volume and scan. Configure and inspect each
-treatment; do not reuse a page range, heading regex, or page-number offset from
-another family. Sapindaceae is evidence for the checks below, not a template:
+TFSS layout and fonts vary by volume; no TFSS PDF is a scan. Configure and
+inspect each treatment; do not reuse a page range, heading regex, or
+page-number offset from another family. Most TFSS files type "x" for the
+multiplication sign (46 of 81), some use "×", so parsers must accept both.
+Their fonts are often unembedded, so watch `bad_glyphs` for lost en dashes. Sapindaceae is evidence for the checks below, not a template:
 its treatment occupied PDF pages 7--118, had 60 species-level headings, and
 contained infraspecific headings.
 
-- Establish the treatment's first and last **PDF** page from page images before
-  reading text. Separately verify the printed-page mapping; do not derive it
-  from a fixed offset unless checked at both ends.
-- For an OCR source, use the image-checked transcription from step 2. A
-  readable layer can still lose characters, reorder lines or change numbers.
+- Establish the treatment's first and last **PDF** page from the running heads
+  and printed page numbers in the text; `flora_layer_flags()` shows where the
+  printed-page offset breaks. Look at the boundary page images only when the
+  text is ambiguous.
 - If using `flora_read_pdf_lines()`, set `running_head_re` for the volume
   header. For a transcription, remove running heads and bare page numbers while
   checking images. Do not let either become description text.
@@ -491,13 +515,16 @@ Edit directly. Start from `traits.build::metadata_create_template()` and change:
   `source.secondary`.
 - `dataset`: `data_is_long_format: yes`, `basis_of_record: preserved_specimen`,
   `life_stage: adult`, `entity_type: species`, and a `sampling_strategy`
-  describing the extraction. For OCR sources, state in `sampling_strategy`
-  whether rows came from the unchecked layer, an OCR draft checked against page
-  images, or a fully image-checked transcription. In `notes`, identify pages
-  or clauses still unchecked, provisional status, and whether a future
-  born-digital copy could improve text accuracy, coverage or page provenance.
-  Recheck against that copy when available; do not present a hypothetical copy
-  as a prerequisite to using the current scan.
+  describing the extraction. For a born-digital source, state that rows came
+  from the PDF text layer, which pages were image-checked and why (step 2
+  flags); this alone does not make the dataset provisional. For a
+  `scanned_ocr` source, state whether rows came from the unchecked layer, an
+  OCR draft checked against page images, or a fully image-checked
+  transcription. In `notes`, identify pages or clauses still unchecked,
+  provisional status, and whether a future born-digital copy could improve
+  text accuracy, coverage or page provenance. Recheck against that copy when
+  available; do not present a hypothetical copy as a prerequisite to using the
+  current scan.
 - `contexts`: `commonness_qualifier`, `population_region`, `entity_measured`,
   `trait_scoring_method`, plus `form` when forms are merged. Declare every
   context actually used in `data.csv`.

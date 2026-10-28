@@ -12,6 +12,10 @@
 # data/Coode_2018 and data/Lim_2010 exactly.
 
 suppressPackageStartupMessages(library(tidyverse))
+# The project .Rprofile attaches traits.build (and so dplyr) before stats, so
+# stats::filter and stats::lag would otherwise mask the dplyr verbs.
+filter <- dplyr::filter
+lag <- dplyr::lag
 
 # One heading spec per heading type, in priority order (first match wins):
 #   list(

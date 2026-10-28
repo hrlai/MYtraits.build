@@ -18,6 +18,10 @@
 # values the flora cites from another work. Run from the repository root.
 
 suppressPackageStartupMessages(library(tidyverse))
+# The project .Rprofile attaches traits.build (and so dplyr) before stats, so
+# stats::filter and stats::lag would otherwise mask the dplyr verbs.
+filter <- dplyr::filter
+lag <- dplyr::lag
 
 flora_hand <- function(taxon, pages, rank = "species") {
   row <- function(
