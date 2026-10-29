@@ -64,8 +64,10 @@ flora_trait_data_cols <- c(
 # written down in the notes and used by Coode_2018, Lim_2010 and Yao_2010):
 #   - only value_type == "mode", no commonness word, exactly one mapped level;
 #   - drop statements scoped to some members ("most", "many", "in some");
-#   - never numbers; never a "sometimes" statement from genus level;
+#   - never numbers; never a "sometimes" or "often" statement from genus level;
 #   - copy only if every member that scores the trait itself includes the level;
+#   - entity_measured (e.g. male / female flowers) is part of the trait: test
+#     and copy each entity separately, so male and female values never mix;
 #   - when several ranks give a value, the most specific rank wins
 #     (group > genus > family), so family and genus alternatives are not both
 #     copied.
@@ -85,7 +87,12 @@ flora_copy_down <- function(higher_rows, own_rows, members) {
   tests <- pmap_dfr(higher, \(...) {
     h <- list(...)
     mem <- .flora_members_of(members, h$block, h$rank)
-    scored <- own_rows |> filter(block %in% mem, trait == h$trait)
+    scored <- own_rows |>
+      filter(
+        block %in% mem,
+        trait == h$trait,
+        coalesce(entity_measured, "") == coalesce(h$entity_measured, "")
+      )
     ok <- all(map_lgl(
       split(scored$trait_value_clean, scored$block),
       \(v) any(str_detect(v, paste0("\\b", h$trait_value_clean, "\\b")))
@@ -94,6 +101,7 @@ flora_copy_down <- function(higher_rows, own_rows, members) {
       from = h$block,
       from_rank = h$rank,
       trait = h$trait,
+      entity_measured = h$entity_measured,
       value = h$trait_value_clean,
       ok = ok,
       copied_to = list(
@@ -114,16 +122,19 @@ flora_copy_down <- function(higher_rows, own_rows, members) {
       pdf_page,
       printed_page
     ) |>
-    distinct(from, from_rank, trait, value, .keep_all = TRUE)
+    distinct(from, from_rank, trait, entity_measured, value, .keep_all = TRUE)
   copied <- tests |>
     filter(ok) |>
     unnest(copied_to) |>
     rename(block = copied_to) |>
-    left_join(src, by = c("from", "from_rank", "trait", "value")) |>
+    left_join(
+      src,
+      by = c("from", "from_rank", "trait", "entity_measured", "value")
+    ) |>
     mutate(
       lvl = match(from_rank, c("infrageneric_group", "genus", "family"))
     ) |>
-    group_by(block, trait) |>
+    group_by(block, trait, entity_measured) |>
     filter(lvl == min(lvl)) |>
     ungroup() |>
     transmute(

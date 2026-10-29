@@ -141,6 +141,9 @@ flora_qual_words <- c(
   "generally",
   "frequently",
   "less often",
+  "less commonly",
+  "commonly",
+  "exceptionally",
   "very rarely"
 )
 flora_qual_re <- paste0("\\b(", paste(flora_qual_words, collapse = "|"), ")\\b")

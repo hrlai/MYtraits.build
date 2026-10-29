@@ -40,13 +40,21 @@ infer boundaries or printed-page numbers from another volume. The user can say
 and next batch, not old chat history.
 
 - On first preparation, confirm PDF, ID, treatment boundaries, and a
-  **persistent** image directory outside the repository. Call
+  **persistent** image directory outside the repository, by convention
+  `../myflora_review/<id>`. Call
   `flora_review_prepare(id, pdf, pages, image_dir)`. It writes
   `raw/page_manifest.csv` and `raw/review_batches.csv` only once. Create the
   empty persistent image directory before preparing the queue. Do not use a
-  disposable session scratch folder; images need to survive new chats. These
-  paths are local, so keep manifests out of commits when they contain
-  machine-specific paths.
+  disposable session scratch folder; images need to survive new chats.
+  `pages` need not be contiguous: include plate or figure pages printed
+  elsewhere in the volume (e.g. `c(8:12, 22)`).
+- Never commit `raw/page_manifest.csv`, `raw/review_batches.csv`,
+  `raw/review_handoff.md` or the page images. They are local review state; the
+  manifest holds local paths. Record what was image-checked in `metadata.yml`
+  (`sampling_strategy` and `notes`).
+- When the task is done (every batch `verified`, step 11 QA passes, and
+  `metadata.yml` records the image-checked pages), delete the three review
+  files from `raw/`. Keep them while any page or batch may be reopened.
 - On "continue", call `flora_review_next(id)` and
   `flora_review_render_next(id)` if its images are missing. Render only that
   batch, not the whole treatment. `flora_review_status(id)` summarizes the
@@ -56,7 +64,9 @@ and next batch, not old chat history.
   CSV state by hand.
 - Check OCR text against page images and put **only image-checked text** into
   `raw/<Family>_transcription.txt` with `@page <pdf> <printed>` at each page
-  turn. Track image-checked printed-page mapping, transcription, headings,
+  turn. Every queued page needs exactly one marker, including a figure-only
+  page (follow it with a `#` comment line); `flora_review_next()` rejects a
+  checked page without one. Track image-checked printed-page mapping, transcription, headings,
   section boundaries, clauses and vouchers separately per page in the manifest.
   Record unresolved decisions in page `notes` or batch `blocker` (the handoff
   shows the blocker). Review the notes of the active batch when resuming;
@@ -86,6 +96,14 @@ Coode_2018 one.
 | `scripts/flora_qa.R` | `flora_qa(id)` tables; `flora_dataset_test(id)` |
 | `assets/flora_dictionary_seed.csv` | term regex to level rows from Coode_2018, Lim_2010 and Kochummen_1995; grow it, do not fork it |
 
+**Running R.** `Rscript` is not on the shell `PATH`. From the repository root,
+run a script with `uvr run <file.R>`; for a one-liner use
+`~/.uvr/r-versions/4.6.0/bin/Rscript.exe -e '...'` (the project `.Rprofile`
+selects the `.uvr/library`). Check `.r-version` if the version path fails.
+On Windows, prefer a scratch `.R` file with `uvr run` over `-e`: `Rscript.exe
+-e` breaks on `&` inside strings, and bash heredocs collapse `\\` in regexes
+(use `[.]` instead of `\\.`).
+
 The scripts are tested against the three datasets (they reproduce the Coode
 and Lim paragraph tables and all three `data.csv` value columns exactly). They
 are read-only with respect to `data/`, apart from `flora_make_data()`, which
@@ -101,6 +119,11 @@ writes `data/<id>/data.csv`.
   Preparing Manuscripts for The Flora of Peninsular Malaysia* (Kiew et al.,
   2006); TFSS guidance is *Guide to Preparing and Editing Manuscripts*
   (Soepadmo & Wong, 1995). Do not use one guide to interpret the other flora.
+  The guides are not in the repository; "Formal flora treatment grammar"
+  below is their digest and is the operative version. Do not report the
+  missing guides as a blocker. If the user supplies a guide and it disagrees
+  with the digest, follow the guide and tell the user so the digest can be
+  corrected.
 - **Names as printed.** Do not match to a taxonomic backbone during extraction;
   alignment is a separate step. Keep `sp. nov.` under its printed label and
   flag it.
@@ -122,8 +145,8 @@ writes `data/<id>/data.csv`.
   TFSS treatment, even when quoted in the current treatment. That flora will be
   ingested as its own source; retaining the borrowed value would duplicate it.
 - **Informal forms** are merged into the species with a `form` context.
-- **"sometimes"** is accepted in species treatments, never copied down from
-  genus or family.
+- **"sometimes" and "often"** are accepted in species treatments, never copied
+  down from genus or family.
 - **Tropical, aseasonal.** Never convert seasons to months; months only when
   the text gives them ("flowers throughout the year" -> `yyyyyyyyyyyy`, noted).
 - **No fire block** and no southern-hemisphere, orchid or geophyte conventions.
@@ -204,6 +227,10 @@ invent an unprinted character.
   A guide explicitly requires a wider-than-local range to be labelled (for
   example, `outside Borneo`). Retain that qualifier and do not score it as a
   local value without a separately stated local value.
+- FPM prints diagnostic characters in italics, so italic and roman text mix
+  inside one clause (e.g. "*Trees* (elsewhere shrubs ...)"). Italics mark
+  diagnostic value, not scope, rank or region; they do not change scoring.
+  Transcriptions need not keep them.
 - FPM can include `Conservation status.`. It is a distinct source section, not
   an ecological or morphological description. Keep it unmapped unless a
   configured trait explicitly supports it.
@@ -272,8 +299,12 @@ misreads; image checking is for scans.
     unless a caption supplies a voucher; transcribe any treatment text that is
     a picture.
   - `bad_glyphs`: characters the layer could not map (often an en dash or
-    multiplication sign from an unembedded font). Read the image and repair
-    them in `raw/source_fixes.csv`.
+    multiplication sign from an unembedded font), plus the Symbol-font dot
+    operator `⋅` (U+22C5) used for the multiplication sign in Adema_1996.
+    Read the image and repair them in `raw/source_fixes.csv`. Other
+    substitutes may exist: if a page image shows a sign that the layer gives as
+    an unexpected character, add it to `.flora_bad_glyph_re` in
+    `flora_source.R`.
   - Reading-order problems (two columns, tables, side captions) show up as
     segmenter anomalies or QA failures; check those pages' images.
 
@@ -411,6 +442,18 @@ Bespoke checklist (decisions that changed per family):
   (`usually` for the unqualified value). Several equal-weight values stay in one
   space-delimited cell in text order. Parenthetical extremes `(a--)b--c(--d)`
   go on `extreme_range` rows with the typical range on `usually` rows.
+  `commonness_qualifier` holds the printed commonness word in lower case
+  (`less commonly`, not a near-synonym such as `less often`). The parser's word
+  list is `flora_qual_words` in `flora_parse.R`. Add a new printed word there
+  rather than recoding it to an existing word. The context has no fixed level list.
+- **Dictionary row order is priority.** Within a trait, `flora_score_cat()`
+  tries rows from top to bottom, and each match blanks out the text it used.
+  A general row therefore claims text inside compound or prefixed words
+  (`acute` in `rounded-acute`, `terminal` in `subterminal`) before a later row
+  sees it. Insert the specific row **above** the general one; do not append it.
+  If a specific term has no level, give it a blank `level` so it only blocks
+  the general row. Use `\b` or a lookbehind such as `(?<!sub)` in new general
+  rows.
 - **Numbers.** A range is minimum + maximum, a single or "c." value is a mean,
   "to X" is a maximum. Missing units (Coode_2018 *E. fraseri* lamina
   "14--18.5 x (7--)9--12") go in `source_fixes.csv` with the page.
@@ -418,7 +461,10 @@ Bespoke checklist (decisions that changed per family):
   arranged` -> `leaf_arrangement: spiral`; `rugose` -> `rough`; `subglabrous` ->
   `glabrous`; `reddish brown` -> `brown`; fruit or bud "diameter" ->
   `fruit_width` / `bud_width`; `actinomorphic` -> `actinomorphic_general`;
-  ovary locules -> carpels (one locule per carpel assumed).
+  ovary locules -> carpels (one locule per carpel) only when placentation is
+  axile or not stated. A 1-locular ovary with parietal placentation has
+  several fused carpels: count stigma lobes, placentas or fruit valves when
+  the text gives them, otherwise leave carpels unscored (Campbell-Gasis_1996).
 - **Ambiguous sentences.** "glossy above, sparsely minutely pubescent,
   subglabrous beneath": score one reading, flag it.
 - **Ecology, Distribution, Notes, Phenology** paragraphs require a reviewed
@@ -442,12 +488,17 @@ Bespoke checklist (decisions that changed per family):
   Use `flora_copy_down()` when unqualified, single-level `mode` rows from the
   family, genus or group description apply to members silent on the trait,
   only if every member that scores the trait includes the value. Never numbers.
-  Most specific rank wins (group, genus, family). `attr(, "rejected")` contains
+  Most specific rank wins (group, genus, family). `entity_measured` is part
+  of the trait: male and female (or other entity) values are tested and copied
+  separately, so give higher-rank rows the same `entity_measured` labels as
+  the species rows. `attr(, "rejected")` contains
   agreement-test failures only; inspect it and preserve other ineligible clauses
   separately in the bespoke parser.
 - Use `flora_inherit_infraspecific()` for `subsp.`/`var.` silent on a trait.
 - Monogeneric family: both family and genus are copied down
-  (`rank_scored_from` = `genus` or `family`; Yao_2010).
+  (`rank_scored_from` = `genus` or `family`; Yao_2010). If the family has no
+  description of its own, ignore the family rank: the genus and species
+  descriptions hold everything (Campbell-Gasis_1996).
 - Keep unscored family and genus clauses (qualified, numeric, hedged,
   "most species") as unmapped rows at their own rank. Preserve scored
   higher-rank rows even when they fail the copy-down agreement test.
@@ -456,7 +507,8 @@ Bespoke checklist (decisions that changed per family):
 
 Every unscored description clause stays in `trait_data.csv` with a blank
 `trait`, blank levels, `trait_value_raw` = verbatim clause, page, taxon rank
-and `notes` = `UNMAPPED: <organ> | <character>`. A full description paragraph
+and `notes` = `UNMAPPED: <organ> | <character>` (optionally `| <detail>`;
+`flora_hand()`'s `un(raw, what, notes = ...)` appends it). A full description paragraph
 is an interim review record, not proof that each clause was assessed: split
 or mark its clauses as reviewed before calling the extraction complete. Keep
 whole Ecology and Distribution paragraphs when no mapped trait applies
@@ -506,7 +558,10 @@ Do not use `convert-raw-data-file-into-data-csv`: floras stay long.
 
 ### 10. `metadata.yml` (B)
 
-Edit directly. Start from `traits.build::metadata_create_template()` and change:
+Edit directly. Copy the `metadata.yml` of the closest example dataset (table
+above; it already follows house style), or start from
+`traits.build::metadata_create_template()`. Replace every field it carries
+from the other source, then check:
 
 - `source.primary`: `bibtype: InBook`, the actual treatment author, `booktitle`
   (FPM Series II vol. N or TFSS vol. N), editors, series, publisher, pages.

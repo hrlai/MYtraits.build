@@ -11,6 +11,23 @@ flora_review_paths <- function(id) {
   )
 }
 
+# Path relative to the repository root, so the manifest can be committed. A path
+# on another drive stays absolute.
+flora_review_relpath <- function(path) {
+  path <- strsplit(normalizePath(path, winslash = "/"), "/")[[1]]
+  root <- strsplit(normalizePath(".", winslash = "/"), "/")[[1]]
+  n <- 0L
+  while (
+    n < min(length(path), length(root)) && path[n + 1L] == root[n + 1L]
+  ) {
+    n <- n + 1L
+  }
+  if (!n) {
+    return(paste(path, collapse = "/"))
+  }
+  paste(c(rep("..", length(root) - n), path[-seq_len(n)]), collapse = "/")
+}
+
 flora_review_read <- function(id) {
   paths <- flora_review_paths(id)
   if (!file.exists(paths$manifest) || !file.exists(paths$batches)) {
@@ -41,11 +58,12 @@ flora_review_prepare <- function(
     !length(pages) ||
       anyNA(pages) ||
       anyDuplicated(pages) ||
-      any(diff(pages) != 1L) ||
+      any(diff(pages) < 1L) ||
       min(pages) < 1L ||
       max(pages) > pdftools::pdf_info(pdf)$pages
   ) {
-    stop("pages must be a contiguous range within the PDF")
+    # Gaps are allowed, e.g. a plate page elsewhere in the volume.
+    stop("pages must be increasing PDF pages within the PDF")
   }
   if (
     length(batch_size) != 1L ||
@@ -66,12 +84,11 @@ flora_review_prepare <- function(
   if (file.exists(paths$handoff)) {
     stop("Existing handoff needs review before preparation: ", paths$handoff)
   }
-  image_dir <- normalizePath(image_dir, winslash = "/")
-  root <- normalizePath(".", winslash = "/")
-  if (image_dir == root || startsWith(image_dir, paste0(root, "/"))) {
+  image_dir <- flora_review_relpath(image_dir)
+  if (!startsWith(image_dir, "../") && !grepl("^([A-Za-z]:)?/", image_dir)) {
     stop("image_dir must be outside the repository")
   }
-  pdf <- normalizePath(pdf, winslash = "/")
+  pdf <- flora_review_relpath(pdf)
   hash <- unname(tools::md5sum(pdf))
   batch <- ceiling(seq_along(pages) / batch_size)
   batches <- data.frame(
@@ -212,7 +229,10 @@ flora_review_next <- function(id) {
       ) {
         stop(
           "Checked transcription lacks unique page marker: ",
-          pages$pdf_page[i]
+          pages$pdf_page[i],
+          " (add one '",
+          marker,
+          "' line; figure-only pages need one too)"
         )
       }
     }
@@ -479,7 +499,8 @@ flora_review_handoff <- function(id) {
     lines <- c(
       paste0("# ", id, " review handoff"),
       "",
-      "All batches marked verified; source reconciliation and QA remain."
+      "All batches verified; page review is complete.",
+      "Extraction status, open questions and QA results are in metadata.yml."
     )
   } else {
     pages <- task$pages

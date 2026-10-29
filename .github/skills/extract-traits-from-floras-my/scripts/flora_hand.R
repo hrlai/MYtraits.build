@@ -65,8 +65,13 @@ flora_hand <- function(taxon, pages, rank = "species") {
     )
   }
   # Unmapped clause: blank trait and level, verbatim text kept. `what` is
-  # "<organ> | <character>" so flora_unmapped_summary() can group it.
-  un <- function(raw, what, ...) {
+  # "<organ> | <character>" so flora_unmapped_summary() can group it; `notes`
+  # becomes the optional third "| <detail>" field.
+  un <- function(raw, what, notes = "", ...) {
+    if (nzchar(notes)) {
+      stopifnot(grepl("|", what, fixed = TRUE))
+      what <- paste(what, notes, sep = " | ")
+    }
     row("", raw, notes = paste0("UNMAPPED: ", what), ...)
   }
   # Typical (a-)b(-c): mean on `usually`, extremes on `extreme_range`.
