@@ -80,7 +80,8 @@ dataset:
     and ovules; cataphylls; pinna pair counts, insertion angle, texture,
     midrib and decurrent or tapering base; petiole spines and hairs; rachis
     length; stem diameter where its position is not stated; bulbous stem
-    base and annular rings; sarcotesta, sclerotesta and endotesta details;
+    base and annular rings; glabrescent leaves (never scored); sarcotesta,
+    sclerotesta and endotesta details;
     habitat, altitude, distribution, conservation status, uses, toxicity
     and taxonomy. No source repairs were made. Type and figure specimens are
     in raw/Jutta_2012_vouchers.csv; raw/taxon_flags.csv lists the taxa.
@@ -639,18 +640,12 @@ questions:
     Long-lived. Genus Ecology "They are long-lived, slow-growing" is scored
     life_history = perennial and copied to 4 taxa. Confirm.
   question14: |
-    Glabrescent. Genus and two species describe leaves or pinnae as
-    "glabrescent"; not scored, following the Adema_1996 dictionary rows.
-    assets/flora_dictionary_seed.csv also has older Coode_2018/Lim_2010
-    rows that map glabrescent to glabrous for leaf_hairs_adult_leaves and
-    stem_hairs. Decide one rule for the dictionary.
-  question15: |
     Margin posture. "margins slightly recurved" (C. cantafolia) and "flat
     to slightly recurved" (C. clivicola subsp. clivicola) are scored
     revolute (AusTraits ABRS_2023 precedent); "margins distinctly, but
     shallowly inrolled" (C. edentata) is scored involute. Confirm inrolled
     = involute (rolled towards the upper surface).
-  question16: |
+  question15: |
     Stem diameter. stem_diameter (traits.yml: at the base) is scored only
     where the position is stated: C. clivicola subsp. clivicola "to 60 cm
     diameter at base" and C. cantafolia bulbous base "to 64 cm diameter at
@@ -659,18 +654,18 @@ questions:
     swollen), and C. cantafolia "diameter at narrowest point to 25 cm".
     Decide whether the unstated diameters should be scored as
     stem_diameter.
-  question17: |
+  question16: |
     Open upper bounds. C. cantafolia "to 5.5 m or more tall" (plant_height)
     and "Leaves to 50 or more" (C. cantafolia, C. clivicola subsp.
     clivicola; candidate leaf_count) are unmapped because "or more" makes
     the value a lower bound on the maximum. Decide whether to score them as
     maximum or minimum values.
-  question18: |
+  question17: |
     Tapering pinna base. "base tapering" (C. edentata), "base abruptly
     tapering" (C. clivicola subsp. clivicola) and "base tapering and
     twisted" (C. macrocarpa) are unmapped. Decide whether tapering maps to
     leaf_base_shape = attenuate (or cuneate for "abruptly").
-  question19: |
+  question18: |
     Habitat traits. Ecology text is scored plant_growth_substrate =
     lithophyte for C. cantafolia ("usually roots directly in crevices and
     cracks in the bare granite rock"; usually) and C. clivicola subsp.
@@ -680,7 +675,7 @@ questions:
     areas ... sandy beaches or on bare granite rock" (candidate
     plant_tolerance_salt or lithophyte) and C. macrocarpa soils and rock.
     Confirm the scored mappings and decide the others.
-  question20: |
+  question19: |
     Seed shapes. C. macrocarpa "obovoid, ... laterally flattened" is not
     scored: seed_shape has no obovoid level and the dictionary blocks it
     (AusTraits ABRS_2023 maps obovate seeds to ovoid). C. edentata
@@ -688,13 +683,13 @@ questions:
     ovoid without the flattened levels. Decide whether to score
     ovoid_flattened for C. macrocarpa and the flattened levels for C.
     edentata.
-  question21: |
+  question20: |
     Leaf length clause. In C. cantafolia and C. clivicola subsp. clivicola
     the clause "to 200 cm long" is printed after the petiole clause, without
     a subject (p. 153, p. 156). It is read as total leaf length (as in C.
     edentata "Leaves ... to 250 cm long" and C. macrocarpa "total length to
     250 cm long") and scored leaf_length maximum 200 cm. Confirm.
-  question22: |
+  question21: |
     Vouchers (raw/Jutta_2012_vouchers.csv). Fig. 1 (p. 152) captions name
     "Cycas clivicola"; its figure specimens (FRI 12993, Batten-Pooll s.n.,
     KEP 82763) are assigned to subsp. clivicola, the only subspecies
