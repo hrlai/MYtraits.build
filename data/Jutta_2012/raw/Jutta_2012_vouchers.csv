@@ -1,0 +1,28 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Cycas cantafolia,holotype,KEP,,Jutta & Chew,FRI 59721,,"Ledang, Bt. Belading",Johor,Peninsular Malaysia,"Type, p.153","Also the specimen for Fig. 1 I & J and Fig. 2 C, D & F."
+Cycas clivicola,holotype,NSW,,Hill,4633,,"Pak Meng Beach, west of Trang",,Thailand,"Type, p.155",Type of the species name; the subspecies treated here is the autonym subsp. clivicola.
+Cycas clivicola,isotype,BKF,,Hill,4633,,"Pak Meng Beach, west of Trang",,Thailand,"Type, p.155",
+Cycas clivicola,isotype,K,,Hill,4633,,"Pak Meng Beach, west of Trang",,Thailand,"Type, p.155",
+Cycas clivicola,isotype,L,,Hill,4633,,"Pak Meng Beach, west of Trang",,Thailand,"Type, p.155",
+Cycas clivicola,isotype,PE,,Hill,4633,,"Pak Meng Beach, west of Trang",,Thailand,"Type, p.155",
+Cycas edentata,holotype,L,,Kondo & Edaño,38877,,"Sulu Archipelago, Mt Cabucan",,,"Type, p.157",No country printed (Sulu Archipelago is in the Philippines).
+Cycas edentata,isotype,A,,Kondo & Edaño,38877,,"Sulu Archipelago, Mt Cabucan",,,"Type, p.157",
+Cycas edentata,isotype,BM,,Kondo & Edaño,38877,,"Sulu Archipelago, Mt Cabucan",,,"Type, p.157",
+Cycas edentata,holotype,NSW,,Hill,4267,,Narathiwat Ao Manao Naol,,Thailand,"Type of synonym, p.157",Type of Cycas litoralis K.D.Hill.
+Cycas edentata,isotype,BKF,,Hill,4267,,Narathiwat Ao Manao Naol,,Thailand,"Type of synonym, p.157",Type of Cycas litoralis K.D.Hill.
+Cycas edentata,isotype,K,,Hill,4267,,Narathiwat Ao Manao Naol,,Thailand,"Type of synonym, p.157",Type of Cycas litoralis K.D.Hill.
+Cycas edentata,isotype,L,,Hill,4267,,Narathiwat Ao Manao Naol,,Thailand,"Type of synonym, p.157",Type of Cycas litoralis K.D.Hill.
+Cycas edentata,isotype,PE,,Hill,4267,,Narathiwat Ao Manao Naol,,Thailand,"Type of synonym, p.157",Type of Cycas litoralis K.D.Hill.
+Cycas macrocarpa,holotype,K,,Westerhout,East India Company Herb. No. 6361,,"Melaka [Malacca], near Tubong",Melaka,Peninsular Malaysia,"Type, p.159",Number printed as 'East India Company Herb. No. 6361'.
+Cycas macrocarpa,figure specimen,SING,96823,,,,,,,"Fig. 1, p.152",Fig. 1 A and A' (microsporophyll).
+Cycas macrocarpa,figure specimen,,,Hamilton,s.n.,,,,,"Fig. 1, p.152",Fig. 1 E (megasporophyll).
+Cycas macrocarpa,figure specimen,,,SFN,40769,,,,,"Fig. 1, p.152",Fig. 1 F (seed without sarcotesta); series code.
+Cycas edentata,figure specimen,,,FRI,154151,,,,,"Fig. 1, p.152",Fig. 1 B and B' (microsporophyll); series code.
+Cycas edentata,figure specimen,,,FRI,54159,,,,,"Fig. 1, p.152",Fig. 1 G and H (megasporophyll and seed); series code.
+Cycas cantafolia,figure specimen,,,FRI,48221,,,,,"Fig. 1, p.152",Fig. 1 C and C' (microsporophyll); also Fig. 2 E; series code.
+Cycas cantafolia,figure specimen,,,FRI,59721,,,,,"Fig. 1, p.152","Fig. 1 I and J (megasporophyll and seed); also Fig. 2 C, D & F; the holotype; series code."
+Cycas cantafolia,figure specimen,,,FRI,48220,,,,,"Fig. 2, p.154",Fig. 2 G & H (megasporophyll with mature seed); series code.
+Cycas cantafolia,figure specimen,,,,,,living plants,,,"Fig. 2, p.154",Fig. 2 A & B drawn from living plants; no specimen cited.
+Cycas clivicola subsp. clivicola,figure specimen,,,FRI,12993,,,,,"Fig. 1, p.152",Fig. 1 D and D' (microsporophyll); caption names Cycas clivicola; series code.
+Cycas clivicola subsp. clivicola,figure specimen,,,Batten-Pooll,s.n.,,,,,"Fig. 1, p.152",Fig. 1 K (megasporophyll); caption names Cycas clivicola.
+Cycas clivicola subsp. clivicola,figure specimen,KEP,82763,,,,,,,"Fig. 1, p.152",Fig. 1 L (seed with sarcotesta); caption names Cycas clivicola.

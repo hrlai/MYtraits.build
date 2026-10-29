@@ -1,0 +1,703 @@
+source:
+  primary:
+    key: Jutta_2012
+    bibtype: InBook
+    year: 2012
+    author: M. Jutta
+    title: Cycadaceae
+    booktitle: 'Flora of Peninsular Malaysia, Series II: Seed Plants, Volume 3'
+    editor: R. Kiew and R. C. K. Chung and L. G. Saw and E. Soepadmo
+    series: Malayan Forest Records No. 49
+    publisher: Forest Research Institute Malaysia
+    place: Kepong, Malaysia
+    pages: 149--160
+    isbn: 978-967-5221-73-6
+contributors:
+  data_collectors:
+    - last_name: Jutta
+      given_name: M.
+      ORCID: .na
+      affiliation: Forest Research Institute Malaysia, Kepong, Malaysia
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '2012'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description: |
+    To describe the morphology, distribution and ecology of the Cycadaceae of
+    Peninsular Malaysia, represented by four species of Cycas, as part of the
+    Flora of Peninsular Malaysia.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    Trait values were transcribed by hand (raw/build_trait_data.R, with
+    flora_hand()) from the born-digital PDF text layer of the treatment,
+    clause by clause, from the genus and species descriptions and the
+    Ecology, Distribution, Uses, Conservation status, Note and Taxonomy
+    paragraphs. flora_layer_flags() found no unmapped glyphs on the treatment
+    pages (pdf 7--18 = pp. 149--160); its low-text and page-number flags fall
+    only on front matter, figure pages (p. 152, Fig. 1; p. 154, Fig. 2), the
+    short last page (p. 160) and the plates (pp. 346--348), so no page images
+    were checked. Keys were not used; figure captions were used for vouchers
+    only, and the plates carry photographer credits only. Each value keeps the
+    clause it came from (trait_value_raw), the source term (trait_value) and
+    the page. Several values are listed in text order, and alternatives
+    qualified by a commonness word (usually, often, sometimes, occasionally,
+    rarely, generally) are recorded on separate rows; the unqualified value
+    beside a qualified alternative is recorded as usually. A measured range
+    is recorded as minimum and maximum values; a single value is a mean and
+    "to X" a maximum. The family has no description ("Monogeneric family."),
+    so genus values stated singly and without qualification are applied to
+    the member species whose own descriptions are silent
+    (trait_scoring_method = inferred_from_genus). Hedged statements (may,
+    more-or-less) are not scored.
+  original_file:
+    Cycadaceae.pdf (Jutta 2012, Flora of Peninsular Malaysia Series II vol.
+    3, pp. 149--160)
+  notes: |
+    data.csv is raw/trait_data.csv (written by raw/build_trait_data.R) with
+    three columns added by flora_make_data(): value (the source term for
+    categorical traits, mapped with substitutions), trait_scoring_method
+    (from rank_scored_from) and source_id. Taxon names are as printed. Cycas
+    clivicola is represented in the region by subsp. clivicola only, so its
+    description is scored at subspecies rank; the species heading carries
+    Distribution and Taxonomy only. Genus values are kept as genus-rank
+    records as well as copied to member taxa. Species description and
+    Ecology values have population region Peninsular Malaysia; genus values
+    have none. Pinnae are the leaflets of the pinnately compound leaf: their
+    size is recorded as leaflet_length and leaflet_width, and their shape,
+    margin, margin posture and apex under the leaf traits, with entity
+    measured = pinnae. Seed size includes the fleshy sarcotesta where the
+    text says so (entity measured = seed including sarcotesta). Leaf surface
+    colour and reflectivity are recorded per surface (upper surface, lower
+    surface). Every clause with no trait in config/traits.yml stays in
+    raw/trait_data.csv as an unmapped record (summary in
+    raw/unmapped_terms.csv): male cones, microsporophylls, megasporophylls
+    and ovules; cataphylls; pinna pair counts, insertion angle, texture,
+    midrib and decurrent or tapering base; petiole spines and hairs; rachis
+    length; stem diameter where its position is not stated; bulbous stem
+    base and annular rings; sarcotesta, sclerotesta and endotesta details;
+    habitat, altitude, distribution, conservation status, uses, toxicity
+    and taxonomy. No source repairs were made. Type and figure specimens are
+    in raw/Jutta_2012_vouchers.csv; raw/taxon_flags.csv lists the taxa.
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: bark_colour
+    unit_in: .na
+    trait_name: bark_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Bark colour from the species descriptions.
+  - var_in: bark_texture
+    unit_in: .na
+    trait_name: bark_texture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Bark texture from the genus and species descriptions; texture "with age" is recorded with entity measured = old bark.
+  - var_in: dispersal_appendage
+    unit_in: .na
+    trait_name: dispersal_appendage
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Fleshy (pulpy when ripe) sarcotesta in the genus description.
+  - var_in: dispersal_syndrome
+    unit_in: .na
+    trait_name: dispersal_syndrome
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: "From the genus Ecology text: 'Seeds are dispersed by animals'."
+  - var_in: dispersal_unit
+    unit_in: .na
+    trait_name: dispersal_unit
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: "From the genus Ecology text: 'Seeds are dispersed by animals'."
+  - var_in: dispersers
+    unit_in: .na
+    trait_name: dispersers
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: "From the genus Ecology text: 'Seeds are dispersed by animals'."
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Apex of the pinnae (entity measured).
+  - var_in: leaf_compoundness
+    unit_in: .na
+    trait_name: leaf_compoundness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: "Genus description: 'Leaves large, pinnately compound'."
+  - var_in: leaf_hairs_immature_leaves
+    unit_in: .na
+    trait_name: leaf_hairs_immature_leaves
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Hairs on young leaves in flush or in bud, shed as the leaves uncurl (species descriptions).
+  - var_in: leaf_lamina_division
+    unit_in: .na
+    trait_name: leaf_lamina_division
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: "Genus description: 'Leaves large, pinnately compound'."
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: Total length of the compound leaf from the species descriptions.
+  - var_in: leaf_margin
+    unit_in: .na
+    trait_name: leaf_margin
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Margin of the pinnae (entity measured), genus description.
+  - var_in: leaf_margin_posture
+    unit_in: .na
+    trait_name: leaf_margin_posture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Margin posture of the pinnae (entity measured); recurved scored as revolute, inrolled as involute.
+  - var_in: leaf_phyllotaxis
+    unit_in: .na
+    trait_name: leaf_phyllotaxis
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: "Genus description: leaves 'arranged in close whorls'. Not copied to species (question 9)."
+  - var_in: leaf_shape
+    unit_in: .na
+    trait_name: leaf_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Shape of the pinnae (entity measured), species descriptions.
+  - var_in: leaf_surface_colour
+    unit_in: .na
+    trait_name: leaf_surface_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Colour of the upper surface of the leaves (entity measured), species descriptions.
+  - var_in: leaf_surface_reflectivity
+    unit_in: .na
+    trait_name: leaf_surface_reflectivity
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Glossy (shiny) or not glossy (dull), per surface (entity measured), species descriptions.
+  - var_in: leaflet_count
+    unit_in: unit
+    trait_name: leaflet_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: "Number of pinnae per leaf, genus description ('pinnae 30 to more than 150'); only the lower bound is scored. Species counts of pinna pairs are unmapped (question 3)."
+  - var_in: leaflet_length
+    unit_in: unit
+    trait_name: leaflet_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: Length of the pinnae (entity measured; basal pinnae separately); first dimension of 'L x W'.
+  - var_in: leaflet_width
+    unit_in: unit
+    trait_name: leaflet_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: Width of the pinnae (entity measured); second dimension of 'L x W'.
+  - var_in: life_history
+    unit_in: .na
+    trait_name: life_history
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: "Genus Ecology text: 'They are long-lived'."
+  - var_in: nitrogen_fixing
+    unit_in: .na
+    trait_name: nitrogen_fixing
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Genus Ecology text on the symbiosis with nitrogen-fixing cyanobacteria in coralloid roots.
+  - var_in: petiole_length
+    unit_in: unit
+    trait_name: petiole_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: Petiole length from the species descriptions.
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: "Genus description: 'palm-like trees', scored as palmoid."
+  - var_in: plant_growth_substrate
+    unit_in: .na
+    trait_name: plant_growth_substrate
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Plants rooting directly in rock or rock crevices (species Ecology), scored as lithophyte.
+  - var_in: plant_height
+    unit_in: unit
+    trait_name: plant_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: Maximum plant height from the genus and species descriptions.
+  - var_in: plant_tolerance_calcicole
+    unit_in: .na
+    trait_name: plant_tolerance_calcicole
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: "Species Ecology text: 'Restricted to inland or offshore limestone outcrops'."
+  - var_in: pollination_vector_possible
+    unit_in: .na
+    trait_name: pollination_vector_possible
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: "Genus Ecology text: 'Pollination is by weevils (Family Curculionidae)', scored as beetle."
+  - var_in: root_system_type
+    unit_in: .na
+    trait_name: root_system_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Coralloid roots in the genus description and genus Ecology text.
+  - var_in: seed_colour
+    unit_in: .na
+    trait_name: seed_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Colour of the ripe seed (including the sarcotesta).
+  - var_in: seed_height
+    unit_in: unit
+    trait_name: seed_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: Seed thickness, including the sarcotesta (entity measured).
+  - var_in: seed_length
+    unit_in: unit
+    trait_name: seed_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: Seed length, including the sarcotesta where stated (entity measured).
+  - var_in: seed_shape
+    unit_in: .na
+    trait_name: seed_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Seed shape from the genus and species descriptions; laterally flattened seeds scored with the flattened levels.
+  - var_in: seed_surface_texture
+    unit_in: .na
+    trait_name: seed_surface_texture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Smooth sarcotesta or seed cuticle, species descriptions.
+  - var_in: seed_width
+    unit_in: unit
+    trait_name: seed_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: Seed width or diameter, including the sarcotesta where stated (entity measured).
+  - var_in: seedling_germination_location
+    unit_in: .na
+    trait_name: seedling_germination_location
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: "Genus description: 'germination epigeal'."
+  - var_in: sex_type
+    unit_in: .na
+    trait_name: sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: "Genus description: 'Dioecious'."
+  - var_in: stem_branching_form
+    unit_in: .na
+    trait_name: stem_branching_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Stem branching from the genus and species descriptions.
+  - var_in: stem_diameter
+    unit_in: unit
+    trait_name: stem_diameter
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: Stem diameter at the base (C. clivicola subsp. clivicola) or of the bulbous stem base at its widest point (C. cantafolia, entity measured).
+  - var_in: stem_growth_habit
+    unit_in: .na
+    trait_name: stem_growth_habit
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: Stem orientation (erect, prostrate-pendulous, pendulous) from the genus and species descriptions.
+  - var_in: woodiness
+    unit_in: .na
+    trait_name: woodiness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: "Genus description: 'Stems stout, cylindric, woody'."
+substitutions:
+  - trait_name: bark_colour
+    find: 'light grey'
+    replace: 'grey'
+  - trait_name: bark_colour
+    find: 'brown-grey'
+    replace: 'brown grey'
+  - trait_name: bark_texture
+    find: 'fissured'
+    replace: 'furrowed'
+  - trait_name: bark_texture
+    find: 'corky fissuring'
+    replace: 'corky furrowed'
+  - trait_name: bark_texture
+    find: 'deeply fissured'
+    replace: 'furrowed'
+  - trait_name: bark_texture
+    find: 'shallowly fissured'
+    replace: 'furrowed'
+  - trait_name: dispersal_syndrome
+    find: 'dispersed by animals'
+    replace: 'zoochory'
+  - trait_name: dispersal_unit
+    find: 'seeds'
+    replace: 'seed'
+  - trait_name: leaf_hairs_immature_leaves
+    find: 'hairs'
+    replace: 'hairy'
+  - trait_name: leaf_hairs_immature_leaves
+    find: 'woolly hairs'
+    replace: 'hairy'
+  - trait_name: leaf_hairs_immature_leaves
+    find: 'tomentose hairs'
+    replace: 'hairy'
+  - trait_name: leaf_lamina_division
+    find: 'pinnately compound'
+    replace: 'pinnately_compound'
+  - trait_name: leaf_margin_posture
+    find: 'recurved'
+    replace: 'revolute'
+  - trait_name: leaf_margin_posture
+    find: 'flat recurved'
+    replace: 'flat revolute'
+  - trait_name: leaf_margin_posture
+    find: 'inrolled'
+    replace: 'involute'
+  - trait_name: leaf_phyllotaxis
+    find: 'in close whorls'
+    replace: 'whorled'
+  - trait_name: leaf_shape
+    find: 'linear-lanceolate'
+    replace: 'linear lanceolate'
+  - trait_name: leaf_shape
+    find: 'linear-lanceolate falcate'
+    replace: 'linear lanceolate falcate'
+  - trait_name: leaf_shape
+    find: 'linear linear-elliptic'
+    replace: 'linear linear_elliptical'
+  - trait_name: leaf_surface_colour
+    find: 'dark green'
+    replace: 'dark_green'
+  - trait_name: leaf_surface_reflectivity
+    find: 'not glossy'
+    replace: 'dull'
+  - trait_name: leaf_surface_reflectivity
+    find: 'glossy'
+    replace: 'shiny'
+  - trait_name: life_history
+    find: 'long-lived'
+    replace: 'perennial'
+  - trait_name: nitrogen_fixing
+    find: 'symbiotic nitrogen-fixing cyanobacteria'
+    replace: 'nitrogen_fixer'
+  - trait_name: plant_growth_form
+    find: 'palm-like trees'
+    replace: 'palmoid'
+  - trait_name: plant_growth_substrate
+    find: 'roots directly in rock crevices'
+    replace: 'lithophyte'
+  - trait_name: plant_growth_substrate
+    find: 'growing directly on rock or wedged into crevices and cracks'
+    replace: 'lithophyte'
+  - trait_name: plant_tolerance_calcicole
+    find: 'restricted to limestone'
+    replace: 'calcicole'
+  - trait_name: pollination_vector_possible
+    find: 'weevils'
+    replace: 'beetle'
+  - trait_name: root_system_type
+    find: 'coralloid roots'
+    replace: 'coralloid_roots'
+  - trait_name: seed_colour
+    find: 'yellow orange brown'
+    replace: 'yellow_orange red_brown'
+  - trait_name: seed_colour
+    find: 'yellow'
+    replace: 'yellow_orange'
+  - trait_name: seed_colour
+    find: 'reddish-brown'
+    replace: 'red_brown'
+  - trait_name: seed_colour
+    find: 'reddish brown'
+    replace: 'red_brown'
+  - trait_name: seed_shape
+    find: 'sub-globose ellipsoid'
+    replace: 'globoid ellipsoid'
+  - trait_name: seed_shape
+    find: 'subglobose laterally flattened'
+    replace: 'globoid_flattened'
+  - trait_name: seed_shape
+    find: 'ovoid laterally flattened'
+    replace: 'ovoid_flattened'
+  - trait_name: seed_shape
+    find: 'globose ovoid'
+    replace: 'globoid ovoid'
+  - trait_name: stem_branching_form
+    find: 'branching'
+    replace: 'branched'
+  - trait_name: stem_growth_habit
+    find: 'prostrate-pendulous'
+    replace: 'prostrate pendulous'
+  - trait_name: stem_growth_habit
+    find: 'prostrate-pendulous pendulous'
+    replace: 'prostrate pendulous'
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1: |
+    Volume. The issue and assets/myflora_metadata.csv give FPM vol. 2, but
+    the title page (pdf 4) reads "Volume 3" and its contents list
+    Cycadaceae (M. Jutta) at p. 149, with ISBN 978-967-5221-73-6. This
+    dataset cites vol. 3. Confirm, and correct the volume (2 -> 3) in
+    assets/myflora_metadata.csv.
+  question2: |
+    Pinnae as leaflets. Cycas pinnae are recorded under leaflet_length and
+    leaflet_width, and their shape, margin, margin posture and apex under
+    leaf_shape, leaf_margin, leaf_margin_posture and leaf_apex_shape with
+    entity_measured = pinnae (Adema_1996 and Kochummen_1995 precedent for
+    angiosperm leaflets; about 50 rows). Confirm this suits a gymnosperm
+    pinnately compound leaf.
+  question3: |
+    Pinna counts. Species give pinnae per leaf as pairs ("pinnae 25--90
+    pairs", "to 165 pairs"; 4 taxa); these are unmapped. The genus gives
+    individual pinnae ("pinnae 30 to more than 150"), scored as
+    leaflet_count minimum 30 (upper bound open, not scored). Decide whether
+    pair counts should be doubled into leaflet_count, stored as pairs as in
+    Nor-Ezzawanis_2010 (entity_measured = pinna pairs), or stay unmapped.
+  question4: |
+    Probable source typo. C. clivicola subsp. clivicola pinnae are printed
+    "to 27 x 12 mm" (p. 156), but its leaves are to 200 cm, the genus gives
+    pinnae to 50 x 2.5 cm, and the other species have pinnae 220--500 mm
+    long. 27 cm (270 mm) is likely intended. The size is not scored.
+    Confirm a source fix (27 mm -> 27 cm) or leave unscored.
+  question5: |
+    Reproductive structures without traits. Male cones (position, shape,
+    length, diameter, stalk, colour), microsporophylls, megasporophylls
+    (closed- versus open-type female 'cones', size, lamina, spines) and
+    ovules per megasporophyll are unmapped for all taxa (about 20 rows).
+    Lim_2010 also left pollen cones unmapped. Decide whether candidate
+    traits (pollen cone length and diameter, megasporophyll arrangement,
+    ovule number) should be added to traits.yml.
+  question6: |
+    Naked seeds. Cycas seeds are recorded under seed traits (seed_length,
+    seed_width, seed_height with entity_measured = seed including
+    sarcotesta; seed_colour; seed_shape) and the pulpy sarcotesta as
+    dispersal_appendage = sarcotesta; no fruit traits are used. Lim_2010
+    scored Agathis seed cones as fruit. Confirm seed traits are right for
+    Cycas.
+  question7: |
+    Dioecy in a gymnosperm. sex_type = dioecious (genus "Dioecious",
+    copied to 4 taxa) is defined in traits.yml for male and female
+    flowers. Confirm it applies to cone-bearing plants.
+  question8: |
+    Growth form. Genus "shrubby or aborescent, palm-like trees" is scored
+    plant_growth_form = palmoid (traits.yml lists trunked cycads under
+    palmoid) and copied to 4 taxa; "shrubby or aborescent" is unmapped.
+    Confirm.
+  question9: |
+    Leaf arrangement. Genus "Leaves ... arranged in close whorls, forming a
+    tufted terminal crown" is scored leaf_phyllotaxis = whorled at genus
+    rank but not copied down, because cycad leaves are usually described as
+    spirally arranged in flushes. Decide whether to keep whorled, copy it
+    down, or leave it unmapped; the tufted crown is unmapped (candidate
+    leaf_arrangement clustered).
+  question10: |
+    Nitrogen fixation and coralloid roots. Genus Ecology describes a
+    "symbiotic association with cyanobacteria (nitrogen-fixing ...) in
+    specialised coralloid roots ... providing the plant with nitrates"
+    (p. 150). Scored nitrogen_fixing = nitrogen_fixer and root_system_type =
+    coralloid_roots, copied to 4 taxa. Confirm that a cyanobacterial (not
+    rhizobial) symbiosis belongs in nitrogen_fixing.
+  question11: |
+    Pollinators. Genus Ecology "Pollination is by weevils (Family
+    Curculionidae)" (p. 150) is unhedged and is scored
+    pollination_vector_possible = beetle, copied to 4 taxa (rule pending
+    Kiew_2015 questions 17--18). It is a genus-wide statement, not an
+    observation in Peninsular Malaysia. Confirm vector_possible versus
+    vector_known, and whether to copy a genus-wide pollinator to species.
+  question12: |
+    Water dispersal. Genus Ecology "Seeds are dispersed by animals or, in
+    species having seeds with a spongy endotesta, also by water" (p. 150):
+    animals, zoochory and seed are scored and copied to 4 taxa; the water
+    clause is unmapped. C. edentata has "endotesta spongy" (p. 157) and is
+    the coastal species. Decide whether to score dispersal_syndrome =
+    hydrochory and dispersers = water for C. edentata by linking the two
+    passages.
+  question13: |
+    Long-lived. Genus Ecology "They are long-lived, slow-growing" is scored
+    life_history = perennial and copied to 4 taxa. Confirm.
+  question14: |
+    Glabrescent. Genus and two species describe leaves or pinnae as
+    "glabrescent"; not scored, following the Adema_1996 dictionary rows.
+    assets/flora_dictionary_seed.csv also has older Coode_2018/Lim_2010
+    rows that map glabrescent to glabrous for leaf_hairs_adult_leaves and
+    stem_hairs. Decide one rule for the dictionary.
+  question15: |
+    Margin posture. "margins slightly recurved" (C. cantafolia) and "flat
+    to slightly recurved" (C. clivicola subsp. clivicola) are scored
+    revolute (AusTraits ABRS_2023 precedent); "margins distinctly, but
+    shallowly inrolled" (C. edentata) is scored involute. Confirm inrolled
+    = involute (rolled towards the upper surface).
+  question16: |
+    Stem diameter. stem_diameter (traits.yml: at the base) is scored only
+    where the position is stated: C. clivicola subsp. clivicola "to 60 cm
+    diameter at base" and C. cantafolia bulbous base "to 64 cm diameter at
+    the widest point". Unmapped: C. edentata "to 40 cm diameter" and C.
+    macrocarpa "to 34 cm diameter" (position not stated; bases not
+    swollen), and C. cantafolia "diameter at narrowest point to 25 cm".
+    Decide whether the unstated diameters should be scored as
+    stem_diameter.
+  question17: |
+    Open upper bounds. C. cantafolia "to 5.5 m or more tall" (plant_height)
+    and "Leaves to 50 or more" (C. cantafolia, C. clivicola subsp.
+    clivicola; candidate leaf_count) are unmapped because "or more" makes
+    the value a lower bound on the maximum. Decide whether to score them as
+    maximum or minimum values.
+  question18: |
+    Tapering pinna base. "base tapering" (C. edentata), "base abruptly
+    tapering" (C. clivicola subsp. clivicola) and "base tapering and
+    twisted" (C. macrocarpa) are unmapped. Decide whether tapering maps to
+    leaf_base_shape = attenuate (or cuneate for "abruptly").
+  question19: |
+    Habitat traits. Ecology text is scored plant_growth_substrate =
+    lithophyte for C. cantafolia ("usually roots directly in crevices and
+    cracks in the bare granite rock"; usually) and C. clivicola subsp.
+    clivicola ("growing directly on rock or wedged into crevices"), and
+    plant_tolerance_calcicole = calcicole for the latter ("Restricted to
+    ... limestone outcrops"). Unmapped: C. edentata "Restricted to coastal
+    areas ... sandy beaches or on bare granite rock" (candidate
+    plant_tolerance_salt or lithophyte) and C. macrocarpa soils and rock.
+    Confirm the scored mappings and decide the others.
+  question20: |
+    Seed shapes. C. macrocarpa "obovoid, ... laterally flattened" is not
+    scored: seed_shape has no obovoid level and the dictionary blocks it
+    (AusTraits ABRS_2023 maps obovate seeds to ovoid). C. edentata
+    "globose-ovoid ... slightly laterally flattened" is scored globoid
+    ovoid without the flattened levels. Decide whether to score
+    ovoid_flattened for C. macrocarpa and the flattened levels for C.
+    edentata.
+  question21: |
+    Leaf length clause. In C. cantafolia and C. clivicola subsp. clivicola
+    the clause "to 200 cm long" is printed after the petiole clause, without
+    a subject (p. 153, p. 156). It is read as total leaf length (as in C.
+    edentata "Leaves ... to 250 cm long" and C. macrocarpa "total length to
+    250 cm long") and scored leaf_length maximum 200 cm. Confirm.
+  question22: |
+    Vouchers (raw/Jutta_2012_vouchers.csv). Fig. 1 (p. 152) captions name
+    "Cycas clivicola"; its figure specimens (FRI 12993, Batten-Pooll s.n.,
+    KEP 82763) are assigned to subsp. clivicola, the only subspecies
+    treated. No country is printed for the C. edentata type (Sulu
+    Archipelago). The C. cantafolia holotype FRI 59721 is also a figure
+    specimen. Confirm these assignments.

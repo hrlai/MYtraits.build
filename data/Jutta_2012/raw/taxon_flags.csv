@@ -1,0 +1,8 @@
+taxon_name,taxon_rank,status,n_rows,flag
+Cycadaceae,family,accepted,1,Monogeneric; no family description (Taxonomy paragraph only).
+Cycas,genus,accepted,51,
+Cycas cantafolia,species,accepted,61,Described by the author in 2010; known only from the type locality.
+Cycas clivicola,species,accepted,2,Species heading with Distribution and Taxonomy only; described locally by subsp. clivicola. Author doubts Hill's subspecies.
+Cycas clivicola subsp. clivicola,subspecies,accepted,59,Only infraspecific taxon in the region; its description is scored at subspecies rank.
+Cycas edentata,species,accepted,62,Includes C. litoralis K.D.Hill as a synonym; separation from C. rumphii questioned in Taxonomy.
+Cycas macrocarpa,species,accepted,59,
