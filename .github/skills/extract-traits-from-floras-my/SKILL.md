@@ -52,6 +52,9 @@ and next batch, not old chat history.
   `raw/review_handoff.md` or the page images. They are local review state; the
   manifest holds local paths. Record what was image-checked in `metadata.yml`
   (`sampling_strategy` and `notes`).
+- When the task is done (every batch `verified`, step 11 QA passes, and
+  `metadata.yml` records the image-checked pages), delete the three review
+  files from `raw/`. Keep them while any page or batch may be reopened.
 - On "continue", call `flora_review_next(id)` and
   `flora_review_render_next(id)` if its images are missing. Render only that
   batch, not the whole treatment. `flora_review_status(id)` summarizes the
