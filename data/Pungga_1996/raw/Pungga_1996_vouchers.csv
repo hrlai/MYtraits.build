@@ -1,0 +1,26 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Casuarina equisetifolia,,,"Herbarium Amboniense 3 (1743) t. 57",Rumphius,,,,,,"Type, p.121","Printed 'Type: Rumphius, Herbarium Amboniense 3 (1743) t. 57.': a published illustration, not a specimen. Status not stated."
+Casuarina equisetifolia,figure specimen,,,,S. 13733,,,,,"Fig. 1, p.122","Fig. 1 A-B and D-E (fruiting twig, bracts and bracteoles, female inflorescence, node of needle-shaped twig)."
+Casuarina equisetifolia,figure specimen,,,,S. 42032,,,,,"Fig. 1, p.122",Fig. 1 C (samara).
+Casuarina equisetifolia,figure specimen,,,,SAN 87058,,,,,"Fig. 1, p.122",Fig. 1 F-G (male inflorescences).
+Ceuthostoma terminale,holotype,K,,Clemens,30757,,"Mt. Kinabalu, 1200--1500 m",North Borneo,,"Type, p.123",State printed as 'North Borneo' (now Sabah).
+Ceuthostoma terminale,isotype,A,,Clemens,30757,,"Mt. Kinabalu, 1200--1500 m",North Borneo,,"Type, p.123",
+Ceuthostoma terminale,isotype,BO,,Clemens,30757,,"Mt. Kinabalu, 1200--1500 m",North Borneo,,"Type, p.123",
+Ceuthostoma terminale,isotype,L,,Clemens,30757,,"Mt. Kinabalu, 1200--1500 m",North Borneo,,"Type, p.123",
+Ceuthostoma terminale,isotype,NSW,,Clemens,30757,,"Mt. Kinabalu, 1200--1500 m",North Borneo,,"Type, p.123",
+Ceuthostoma terminale,figure specimen,,,,RSNB 4490,,,,,"Fig. 2, p.124","Fig. 2 A and D (fruiting twig, fruit cone)."
+Ceuthostoma terminale,figure specimen,,,,RSNB 4963,,,,,"Fig. 2, p.124","Fig. 2 B-C (needle-shaped twig, woody twig)."
+Ceuthostoma terminale,figure specimen,,,,SFN 26398,,,,,"Fig. 2, p.124",Fig. 2 E (fruit cone).
+Ceuthostoma terminale,figure specimen,,,,SMHI 1573,,,,,"Fig. 2, p.124",Fig. 2 F (male inflorescence).
+Gymnostoma nobile,holotype,K,,A. Cuadra,SAN A3292,,"Sipitang Distr., Seungau",Sabah,,"Type, p.125",Type of the basionym Casuarina nobilis Whitmore.
+Gymnostoma nobile,isotype,A,,A. Cuadra,SAN A3292,,"Sipitang Distr., Seungau",Sabah,,"Type, p.125",Type of the basionym Casuarina nobilis Whitmore.
+Gymnostoma nobile,isotype,KEP,,A. Cuadra,SAN A3292,,"Sipitang Distr., Seungau",Sabah,,"Type, p.125",Type of the basionym Casuarina nobilis Whitmore.
+Gymnostoma nobile,isotype,L,,A. Cuadra,SAN A3292,,"Sipitang Distr., Seungau",Sabah,,"Type, p.125",Type of the basionym Casuarina nobilis Whitmore.
+Gymnostoma nobile,isotype,NSW,,A. Cuadra,SAN A3292,,"Sipitang Distr., Seungau",Sabah,,"Type, p.125",Type of the basionym Casuarina nobilis Whitmore.
+Gymnostoma nobile,isotype,US,,A. Cuadra,SAN A3292,,"Sipitang Distr., Seungau",Sabah,,"Type, p.125",Type of the basionym Casuarina nobilis Whitmore.
+Gymnostoma sumatranum,holotype,L,,Junghuhn,s.n.,,Toba Plateau,Sumatra,,"Type, p.127",Type of the basionym Casuarina sumatrana Jungh. ex de Vriese. Country not printed.
+Gymnostoma sumatranum,isotype,U,,Junghuhn,s.n.,,Toba Plateau,Sumatra,,"Type, p.127",Type of the basionym Casuarina sumatrana Jungh. ex de Vriese. Country not printed.
+Gymnostoma sumatranum,figure specimen,,,Chew,CWL 1389,,,,,"Fig. 3, p.126","Caption printed '(A-D and from Chew CWL 1389, ...)': a part letter is missing after 'and' (image-checked; the gap is in the print). F (samara) and H are otherwise uncited; H falls under 'G-I'. Parts A-D (fruiting twig, needle-shaped twig nodes, woody twig surface, fruit cone) certain."
+Gymnostoma sumatranum,figure specimen,,,Anderson,S. 8431,,,,,"Fig. 3, p.126",Fig. 3 E (fruit cone).
+Gymnostoma sumatranum,figure specimen,,,,SAN 37835,,,,,"Fig. 3, p.126","Fig. 3 G-I (male inflorescences, male flower)."
+Gymnostoma sumatranum,figure specimen,,,,KEP 65596,,,,,"Fig. 3, p.126",Fig. 3 J (female inflorescence).
