@@ -1196,6 +1196,19 @@ url = "https://cran.r-project.org/src/contrib/otel_0.2.0.tar.gz"
 checksum = "md5:cecd0f434a6327dcf5ca0bc2da494d06"
 
 [[package]]
+name = "pdftools"
+version = "3.9.1"
+source = "cran"
+raw_version = "3.9.1"
+url = "https://cran.r-project.org/src/contrib/pdftools_3.9.1.tar.gz"
+checksum = "md5:2a6c192d29592b03bdbed6db2c35c5be"
+requires = [
+    "Rcpp",
+    "qpdf",
+    "Rcpp",
+]
+
+[[package]]
 name = "pillar"
 version = "1.11.1"
 source = "cran"
@@ -1354,6 +1367,20 @@ requires = [
     "rlang",
     "vctrs",
     "cli",
+]
+
+[[package]]
+name = "qpdf"
+version = "1.4.1"
+source = "cran"
+raw_version = "1.4.1"
+url = "https://cran.r-project.org/src/contrib/qpdf_1.4.1.tar.gz"
+checksum = "md5:01b3f14785ba200c66bf719d2f857cf0"
+requires = [
+    "Rcpp",
+    "askpass",
+    "curl",
+    "Rcpp",
 ]
 
 [[package]]
@@ -1870,10 +1897,10 @@ requires = ["xfun"]
 
 [[package]]
 name = "traits.build"
-version = "2.2.0"
+version = "2.2.0-4.9000"
 source = "github"
-url = "https://api.github.com/repos/traitecoevo/traits.build/tarball/a269a6930041d4872f66f0801c30b8a30983424f"
-checksum = "git:a269a6930041d4872f66f0801c30b8a30983424f"
+url = "https://api.github.com/repos/traitecoevo/traits.build/tarball/af954d9760dcd3c946464628d737bf4de22ca2ca"
+checksum = "git:af954d9760dcd3c946464628d737bf4de22ca2ca"
 requires = [
     "crayon",
     "git2r",

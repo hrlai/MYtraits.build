@@ -18,7 +18,11 @@ lag <- dplyr::lag
 # inspect a few page images. Producer metadata does not tell the two apart:
 # Acrobat Pro DC wrote both. Most TFSS authors typed "x" for the multiplication
 # sign, so n_x_times is not an OCR sign. bad_glyphs counts characters the layer
-# could not map (U+FFFD, private use), common with unembedded fonts.
+# could not map (U+FFFD, private use), common with unembedded fonts, plus the
+# dot operator U+22C5 that a Symbol font gave for the multiplication sign
+# (Adema_1996).
+.flora_bad_glyph_re <- "[\ufffd\ue000-\uf8ff\u22c5]"
+
 flora_pdf_check <- function(file) {
   info <- pdftools::pdf_info(file)
   txt <- pdftools::pdf_text(file)
@@ -38,7 +42,7 @@ flora_pdf_check <- function(file) {
     n_endash = str_count(all, "\u2013"),
     n_times = str_count(all, "\u00d7"),
     n_x_times = str_count(all, "\\d\\s?x\\s?\\d"),
-    n_bad_glyphs = str_count(all, "[\ufffd\ue000-\uf8ff]"),
+    n_bad_glyphs = str_count(all, .flora_bad_glyph_re),
     # "(0.5}-1", "(--6)", "fig.I", "lJy"
     n_ocr_suspects = str_count(
       all,
@@ -64,7 +68,7 @@ flora_layer_flags <- function(file, pages = NULL, min_chars = 500) {
         if (length(n)) as.integer(last(n)) else NA_integer_
       }),
       offset = printed_page - pdf_page,
-      bad_glyphs = str_count(text, "[\ufffd\ue000-\uf8ff]")
+      bad_glyphs = str_count(text, .flora_bad_glyph_re)
     )
   usual <- if (all(is.na(d$offset))) NA_integer_ else
     as.integer(names(which.max(table(d$offset))))
