@@ -122,8 +122,8 @@ flora_review_prepare <- function(
     batch_id = batches$batch_id[batch],
     stringsAsFactors = FALSE
   )
-  write.csv(manifest, paths$manifest, row.names = FALSE, na = "")
-  write.csv(batches, paths$batches, row.names = FALSE, na = "")
+  readr::write_csv(manifest, paths$manifest, na = "")
+  readr::write_csv(batches, paths$batches, na = "")
   flora_review_next(id)
 }
 
@@ -402,8 +402,8 @@ flora_review_update <- function(
   ) {
     stop("Batch updates require batch_id")
   }
-  write.csv(state$pages, paths$manifest, row.names = FALSE, na = "")
-  write.csv(state$batches, paths$batches, row.names = FALSE, na = "")
+  readr::write_csv(state$pages, paths$manifest, na = "")
+  readr::write_csv(state$batches, paths$batches, na = "")
   flora_review_next(id)
 }
 
