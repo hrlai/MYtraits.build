@@ -48,11 +48,10 @@ and next batch, not old chat history.
   disposable session scratch folder; images need to survive new chats.
   `pages` need not be contiguous: include plate or figure pages printed
   elsewhere in the volume (e.g. `c(8:12, 22)`).
-- The manifest stores the PDF and image paths relative to the repository root.
-  Commit `raw/page_manifest.csv`, `raw/review_batches.csv` and
-  `raw/review_handoff.md` with the dataset: they record what was image-checked.
-  Never commit the page images. A manifest written before 2026-10-29 holds
-  absolute paths; rewrite them as relative paths before committing.
+- Never commit `raw/page_manifest.csv`, `raw/review_batches.csv`,
+  `raw/review_handoff.md` or the page images. They are local review state; the
+  manifest holds local paths. Record what was image-checked in `metadata.yml`
+  (`sampling_strategy` and `notes`).
 - On "continue", call `flora_review_next(id)` and
   `flora_review_render_next(id)` if its images are missing. Render only that
   batch, not the whole treatment. `flora_review_status(id)` summarizes the
