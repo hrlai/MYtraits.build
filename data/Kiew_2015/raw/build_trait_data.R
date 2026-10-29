@@ -23,8 +23,6 @@ PM <- "Peninsular Malaysia"
 WS <- "Williamson_1994"
 
 # Row helpers for one taxon with default rank_scored_from, region and section.
-# `ext()` writes a typical range (usually) with optional parenthetical
-# extremes (extreme_range): (a--)b--c(--d).
 mk <- function(taxon, rank, from = "", region = "", sec = "Description") {
   h <- flora_hand(taxon, pg, rank)
   h <- map(h, \(f) {
@@ -36,22 +34,6 @@ mk <- function(taxon, rank, from = "", region = "", sec = "Description") {
       do.call(f, a)
     }
   })
-  h$ext <- function(trait, raw, a = NA, b, c, d = NA, unit, ...) {
-    out <- h$rng(trait, raw, b, c, unit, q = "usually", ...)
-    if (!is.na(a)) {
-      out <- bind_rows(
-        out,
-        h$row(trait, raw, a, a, "minimum", unit, "extreme_range", ...)
-      )
-    }
-    if (!is.na(d)) {
-      out <- bind_rows(
-        out,
-        h$row(trait, raw, d, d, "maximum", unit, "extreme_range", ...)
-      )
-    }
-    out
-  }
   h
 }
 cnt <- "{count}"

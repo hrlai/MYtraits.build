@@ -22,6 +22,7 @@ pause. Worked examples, all in this repository:
 | `data/Hughes_2013` | Memecylaceae, FPM vol. 4 | born-digital PDF, image-checked transcription | **PROVISIONAL** for two curator questions in its `notes`; its `source_fixes.csv` repairs are typos in the published text, not OCR slips |
 | `data/Kochummen_1995` | Burseraceae, TFSS vol. 1 | 2007 electronic text (unembedded fonts, no scan); scripted parser, 59 taxa | first TFSS parser; infra annotations under a species description; single-infra taxa; family exceptions by hand; missing-dash source fixes |
 | `data/Berhaman_1995` | Bignoniaceae, TFSS vol. 1 | 2007 electronic text, 5 described taxa | `flora_hand()` for a multi-genus family; hand copy-down table; single-infra taxon; undescribed species and key-only genus flagged |
+| `data/Kiew_2015` | Nymphaeaceae, FPM vol. 5 | born-digital PDF, 5 taxa | `flora_hand()` with `ext()`; aquatic habit; cultivated plants; pollinators; several secondary sources |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
@@ -92,7 +93,7 @@ Coode_2018 one.
 | `scripts/flora_segment.R` | headings, blocks, paragraphs, sections, page lookups; heading patterns are a parameter (`assets/heading_config_examples.R`) |
 | `scripts/flora_parse.R` | normalisation, `a--b` dashes, sentence and piece splitting outside parentheses, range and `a x b` parsers, commonness rows, dictionary scoring |
 | `scripts/flora_assemble.R` | copy-down, species to infraspecific inheritance, duplicate merge, final column order, `data.csv`, unmapped summary |
-| `scripts/flora_hand.R` | row helpers for tiny families and single papers (`row`, `un`, `tri`, `rng`) |
+| `scripts/flora_hand.R` | row helpers for tiny families and single papers (`row`, `un`, `tri`, `rng`, `ext`) |
 | `scripts/flora_qa.R` | `flora_qa(id)` tables; `flora_dataset_test(id)` |
 | `assets/flora_dictionary_seed.csv` | term regex to level rows from Coode_2018, Lim_2010 and Kochummen_1995; grow it, do not fork it |
 
@@ -292,7 +293,9 @@ misreads; image checking is for scans.
 
 - **`born_digital`: read the layer with `flora_read_pdf_lines()`; no routine
   image check.** Run `flora_layer_flags(pdf, pages)` on the treatment's PDF
-  pages and look at a page image only for what it or later steps flag:
+  pages and look at a page image only for what it or later steps flag. It
+  returns flagged pages only; an empty result means no page needs an image
+  check for these reasons:
   - `odd_page_number`: printed page missing or off the usual offset. Fix the
     treatment boundaries or page mapping from the image.
   - `low_text`: a plate, map, or text set as a picture. Plates need nothing
@@ -447,7 +450,9 @@ Bespoke checklist (decisions that changed per family):
 - **Commonness rows.** Any commonness word splits the trait into rows
   (`usually` for the unqualified value). Several equal-weight values stay in one
   space-delimited cell in text order. Parenthetical extremes `(a--)b--c(--d)`
-  go on `extreme_range` rows with the typical range on `usually` rows.
+  go on `extreme_range` rows with the typical range on `usually` rows
+  (`flora_hand()`: `ext()`; `tri()` is for a typical mean, `rng()` for a
+  plain range).
   `commonness_qualifier` holds the printed commonness word in lower case
   (`less commonly`, not a near-synonym such as `less often`). The parser's word
   list is `flora_qual_words` in `flora_parse.R`. Add a new printed word there
@@ -493,6 +498,33 @@ Bespoke checklist (decisions that changed per family):
   from Yii_1995 (TFSS) are not scored; the source text remains in the
   transcription. For TFSS observations stated only as Borneo, apply the
   unresolved-locality rule above.
+- **Aquatic plants** (Kiew_2015, mappings pending its question 4). Whole-plant
+  position in the water ("submerged aquatic herb", "floating") goes in
+  `stem_growth_habit` (`submerged`, `floating`, `emergent`), and the habitat in
+  `plant_growth_substrate` (`aquatic_rooted`, `aquatic_floating`,
+  `semiaquatic` for marsh plants). Leaf position alone ("leaves floating",
+  "submerged or just above the water surface") has no trait: keep it
+  unmapped as `leaf | position in water (candidate trait)`. A rhizome in the
+  habit statement is `stem_growth_habit` `rhizomatous`. Use
+  `clonal_spread_mechanism` (`rhizome`, `stolon`, `stem_tuber`) only when the
+  text says the structure spreads or propagates the plant ("propagate
+  vegetatively by runners"). Do not score `storage_organ` from "fleshy
+  rhizome". Do not copy `plant_growth_substrate` down when a member differs
+  (aquatic genus with a marsh species); ask instead.
+- **Cultivated plants** (Kiew_2015, pending its question 19). Score an
+  observation on cultivated plants only when it is within the treatment's
+  region, and say "cultivated" in `notes` and the
+  trait's `methods` (Kiew_2015 Trigona bees on cultivated *Nymphaea
+  nouchali*). Keep cultivation outside the region, in aquaria or at an
+  unstated place unmapped (for example "In cultivation, it flowers in July").
+  Do not score uses or the origin of cultivated populations.
+- **Pollinators** (Kiew_2015, pending its questions 17 and 18). Insects seen
+  on flowers are `flower_visitor`. A pollinator stated without a hedge goes to `pollination_vector_possible` or
+  `pollination_syndrome`, as the text supports. A hedged pollinator
+  ("suggesting bee pollination", "possibly beetle-pollinated") is a hedge:
+  unmapped by default. `pollination_vector_possible` is the trait for an
+  approved exception; record the wording in `questions:`. Self-pollination
+  and cleistogamy go to `breeding_system` (`autogamy`, `cleistogamy`).
 - **Excluded and incompletely known species** are not scored; list them in
   `taxon_flags.csv`.
 - **Ferns.** Cibotiaceae is a provisional example, not a validated mapping
@@ -583,8 +615,11 @@ from the other source, then check:
 - `source.primary`: `bibtype: InBook`, the actual treatment author, `booktitle`
   (FPM Series II vol. N or TFSS vol. N), editors, series, publisher, pages.
   Keep FPM and TFSS primary citations in separate datasets even for the same
-  family. Add every cited secondary source (for example `Yii_1995`) under
-  `source.secondary`.
+  family. Add every cited secondary source (for example `Yii_1995`) as its
+  own entry: `secondary:` for the first, then `secondary_2:`, `secondary_3:`
+  and so on (Kiew_2015). Do not write a list under `secondary:`;
+  `dataset_test()` rejects it ("source 'secondary' - does not contain:
+  'key' ...").
 - `dataset`: `data_is_long_format: yes`, `basis_of_record: preserved_specimen`,
   `life_stage: adult`, `entity_type: species`, and a `sampling_strategy`
   describing the extraction. For a born-digital source, state that rows came
@@ -687,3 +722,6 @@ family branches.
 
 Hedged statements: confirm whether accepted Yao_2010 hedges should remain
 scored; default for new families is not scored.
+
+Kiew_2015 questions 4, 17, 18 and 19 settle the aquatic, cultivated-plant
+and pollinator rules in step 4. Update those rules when the user answers.
