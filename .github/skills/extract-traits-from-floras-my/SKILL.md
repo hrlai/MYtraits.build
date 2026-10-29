@@ -40,13 +40,19 @@ infer boundaries or printed-page numbers from another volume. The user can say
 and next batch, not old chat history.
 
 - On first preparation, confirm PDF, ID, treatment boundaries, and a
-  **persistent** image directory outside the repository. Call
+  **persistent** image directory outside the repository, by convention
+  `../myflora_review/<id>`. Call
   `flora_review_prepare(id, pdf, pages, image_dir)`. It writes
   `raw/page_manifest.csv` and `raw/review_batches.csv` only once. Create the
   empty persistent image directory before preparing the queue. Do not use a
-  disposable session scratch folder; images need to survive new chats. These
-  paths are local, so keep manifests out of commits when they contain
-  machine-specific paths.
+  disposable session scratch folder; images need to survive new chats.
+  `pages` need not be contiguous: include plate or figure pages printed
+  elsewhere in the volume (e.g. `c(8:12, 22)`).
+- The manifest stores the PDF and image paths relative to the repository root.
+  Commit `raw/page_manifest.csv`, `raw/review_batches.csv` and
+  `raw/review_handoff.md` with the dataset: they record what was image-checked.
+  Never commit the page images. A manifest written before 2026-10-29 holds
+  absolute paths; rewrite them as relative paths before committing.
 - On "continue", call `flora_review_next(id)` and
   `flora_review_render_next(id)` if its images are missing. Render only that
   batch, not the whole treatment. `flora_review_status(id)` summarizes the
@@ -56,7 +62,9 @@ and next batch, not old chat history.
   CSV state by hand.
 - Check OCR text against page images and put **only image-checked text** into
   `raw/<Family>_transcription.txt` with `@page <pdf> <printed>` at each page
-  turn. Track image-checked printed-page mapping, transcription, headings,
+  turn. Every queued page needs exactly one marker, including a figure-only
+  page (follow it with a `#` comment line); `flora_review_next()` rejects a
+  checked page without one. Track image-checked printed-page mapping, transcription, headings,
   section boundaries, clauses and vouchers separately per page in the manifest.
   Record unresolved decisions in page `notes` or batch `blocker` (the handoff
   shows the blocker). Review the notes of the active batch when resuming;
@@ -90,6 +98,9 @@ Coode_2018 one.
 run a script with `uvr run <file.R>`; for a one-liner use
 `~/.uvr/r-versions/4.6.0/bin/Rscript.exe -e '...'` (the project `.Rprofile`
 selects the `.uvr/library`). Check `.r-version` if the version path fails.
+On Windows, prefer a scratch `.R` file with `uvr run` over `-e`: `Rscript.exe
+-e` breaks on `&` inside strings, and bash heredocs collapse `\\` in regexes
+(use `[.]` instead of `\\.`).
 
 The scripts are tested against the three datasets (they reproduce the Coode
 and Lim paragraph tables and all three `data.csv` value columns exactly). They
@@ -214,6 +225,10 @@ invent an unprinted character.
   A guide explicitly requires a wider-than-local range to be labelled (for
   example, `outside Borneo`). Retain that qualifier and do not score it as a
   local value without a separately stated local value.
+- FPM prints diagnostic characters in italics, so italic and roman text mix
+  inside one clause (e.g. "*Trees* (elsewhere shrubs ...)"). Italics mark
+  diagnostic value, not scope, rank or region; they do not change scoring.
+  Transcriptions need not keep them.
 - FPM can include `Conservation status.`. It is a distinct source section, not
   an ecological or morphological description. Keep it unmapped unless a
   configured trait explicitly supports it.
@@ -485,7 +500,8 @@ Bespoke checklist (decisions that changed per family):
 
 Every unscored description clause stays in `trait_data.csv` with a blank
 `trait`, blank levels, `trait_value_raw` = verbatim clause, page, taxon rank
-and `notes` = `UNMAPPED: <organ> | <character>`. A full description paragraph
+and `notes` = `UNMAPPED: <organ> | <character>` (optionally `| <detail>`;
+`flora_hand()`'s `un(raw, what, notes = ...)` appends it). A full description paragraph
 is an interim review record, not proof that each clause was assessed: split
 or mark its clauses as reviewed before calling the extraction complete. Keep
 whole Ecology and Distribution paragraphs when no mapped trait applies
@@ -535,7 +551,10 @@ Do not use `convert-raw-data-file-into-data-csv`: floras stay long.
 
 ### 10. `metadata.yml` (B)
 
-Edit directly. Start from `traits.build::metadata_create_template()` and change:
+Edit directly. Copy the `metadata.yml` of the closest example dataset (table
+above; it already follows house style), or start from
+`traits.build::metadata_create_template()`. Replace every field it carries
+from the other source, then check:
 
 - `source.primary`: `bibtype: InBook`, the actual treatment author, `booktitle`
   (FPM Series II vol. N or TFSS vol. N), editors, series, publisher, pages.

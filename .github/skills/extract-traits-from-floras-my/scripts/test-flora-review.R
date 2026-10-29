@@ -28,8 +28,16 @@ tryCatch(
       task$batch$batch_id == "B001",
       task$remaining == 2L,
       !any(task$pages$transcription_checked),
-      !any(task$pages$rendered)
+      !any(task$pages$rendered),
+      task$pages$pdf == "trial.pdf",
+      startsWith(task$pages$full_image, "../")
     )
+    dir.create(file.path(root, "data", "Gap", "raw"), recursive = TRUE)
+    gap_images <- file.path(dirname(root), paste0(basename(root), "-gap"))
+    dir.create(gap_images)
+    gap <- flora_review_prepare("Gap", "trial.pdf", c(1L, 3L), gap_images)
+    stopifnot(identical(gap$pages$pdf_page, c(1L, 3L)))
+    unlink(gap_images, recursive = TRUE)
     stopifnot(inherits(
       try(
         flora_review_prepare("Trial", "trial.pdf", 1:4, images),
