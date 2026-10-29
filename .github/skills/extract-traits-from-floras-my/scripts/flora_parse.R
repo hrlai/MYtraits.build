@@ -309,7 +309,11 @@ flora_score_cat <- function(txt, trait, dict) {
     group_by(cq) |>
     summarise(
       trait_value = paste(unique(term), collapse = " "),
-      trait_value_clean = paste(unique(level[level != ""]), collapse = " "),
+      # Split multi-level rows ("rounded acute") so a repeated level is dropped.
+      trait_value_clean = paste(
+        unique(unlist(str_split(level[level != ""], " "))),
+        collapse = " "
+      ),
       first = min(ci * 1000 + pos),
       .groups = "drop"
     ) |>

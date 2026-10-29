@@ -415,7 +415,11 @@ Bespoke checklist (decisions that changed per family):
 - **Organ vocabulary.** Trees: bole, buttresses, stilt roots, bark, twigs,
   buds, stipules, domatia, racemes, stamens, staminodes, stones. Conifers:
   pollen cones, seed cones, sporophylls, cone scales, wings. Ferns: see the
-  fern note below.
+  fern note below. Leafless photosynthetic shoots (Casuarinaceae
+  "needle-shaped twigs"): score `plant_photosynthetic_organ = cladode`, and put
+  the segment (internode or article) length and thickness in `leaf_length` and
+  `leaf_width` with `entity_measured = cladode`. Do not put scale-leaf size in
+  leaf traits, and do not score `leaf_length_type` (Pungga_1996).
 - **Clause subject owns the character.** "Twigs with hairy terminal buds": the
   hairs are on the buds. "Capsules yellowish, inside of valves red": only the
   first colour is the fruit colour. "Seeds enclosed in a red arillode": not
@@ -426,7 +430,9 @@ Bespoke checklist (decisions that changed per family):
   label or measurement (Lim_2010).
 - **Adjacent organs.** Parse explicit organ shifts; young and mature bark
   separately; seed cones under fruit traits with `entity_measured = seed cone`
-  (confirm per family, see Lim_2010 question 3).
+  (confirm per family, see Lim_2010 question 3). An angiosperm fruit cone
+  (infructescence, as in Casuarinaceae) is not a fruit: the fruitlet (samara)
+  is the fruit, and the cone stays unmapped (Pungga_1996).
 - **Unisexual flowers.** Male and female flowers as `entity_measured`;
   staminode lengths are not fertile-stamen lengths (Coode_2018 question 1).
 - **Dimension pairs `L x W`.** First dimension is length (state the assumption
@@ -459,12 +465,23 @@ Bespoke checklist (decisions that changed per family):
   "14--18.5 x (7--)9--12") go in `source_fixes.csv` with the page.
 - **Mapping misfits** (record every one as a metadata question): `spirally
   arranged` -> `leaf_arrangement: spiral`; `rugose` -> `rough`; `subglabrous` ->
-  `glabrous`; `reddish brown` -> `brown`; fruit or bud "diameter" ->
+  `glabrous`; fruit or bud "diameter" ->
   `fruit_width` / `bud_width`; `actinomorphic` -> `actinomorphic_general`;
   ovary locules -> carpels (one locule per carpel) only when placentation is
   axile or not stated. A 1-locular ovary with parietal placentation has
   several fused carpels: count stigma lobes, placentas or fruit valves when
   the text gives them, otherwise leave carpels unscored (Campbell-Gasis_1996).
+- **Compound colours and shapes score every word.** Score each colour word in
+  text order: "greyish brown" -> `grey brown`, "reddish brown" -> `red brown`,
+  "greyish to reddish brown" -> `grey red brown`. Use a single level only when
+  the trait has one for the compound (bark `brown_light`, `brown_dark`). A
+  hyphenated or "X to Y" shape scores both levels: "rounded-acute" -> `rounded
+  acute`. This matches the AusTraits flora datasets and Adema_1996 and
+  Kochummen_1995.
+- **Australian precedent.** For a family that also grows in Australia, check
+  how the AusTraits flora datasets score it (`ABRS_2023`, `NHNSW_2023`,
+  `NTH_2023`, `RBGV_2023` in traitecoevo/austraits.build) before asking a
+  mapping question.
 - **Ambiguous sentences.** "glossy above, sparsely minutely pubescent,
   subglabrous beneath": score one reading, flag it.
 - **Ecology, Distribution, Notes, Phenology** paragraphs require a reviewed
