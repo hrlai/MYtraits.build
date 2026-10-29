@@ -64,7 +64,7 @@ flora_trait_data_cols <- c(
 # written down in the notes and used by Coode_2018, Lim_2010 and Yao_2010):
 #   - only value_type == "mode", no commonness word, exactly one mapped level;
 #   - drop statements scoped to some members ("most", "many", "in some");
-#   - never numbers; never a "sometimes" statement from genus level;
+#   - never numbers; never a "sometimes" or "often" statement from genus level;
 #   - copy only if every member that scores the trait itself includes the level;
 #   - entity_measured (e.g. male / female flowers) is part of the trait: test
 #     and copy each entity separately, so male and female values never mix;

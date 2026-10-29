@@ -145,8 +145,8 @@ writes `data/<id>/data.csv`.
   TFSS treatment, even when quoted in the current treatment. That flora will be
   ingested as its own source; retaining the borrowed value would duplicate it.
 - **Informal forms** are merged into the species with a `form` context.
-- **"sometimes"** is accepted in species treatments, never copied down from
-  genus or family.
+- **"sometimes" and "often"** are accepted in species treatments, never copied
+  down from genus or family.
 - **Tropical, aseasonal.** Never convert seasons to months; months only when
   the text gives them ("flowers throughout the year" -> `yyyyyyyyyyyy`, noted).
 - **No fire block** and no southern-hemisphere, orchid or geophyte conventions.
@@ -461,7 +461,10 @@ Bespoke checklist (decisions that changed per family):
   arranged` -> `leaf_arrangement: spiral`; `rugose` -> `rough`; `subglabrous` ->
   `glabrous`; `reddish brown` -> `brown`; fruit or bud "diameter" ->
   `fruit_width` / `bud_width`; `actinomorphic` -> `actinomorphic_general`;
-  ovary locules -> carpels (one locule per carpel assumed).
+  ovary locules -> carpels (one locule per carpel) only when placentation is
+  axile or not stated. A 1-locular ovary with parietal placentation has
+  several fused carpels: count stigma lobes, placentas or fruit valves when
+  the text gives them, otherwise leave carpels unscored (Campbell-Gasis_1996).
 - **Ambiguous sentences.** "glossy above, sparsely minutely pubescent,
   subglabrous beneath": score one reading, flag it.
 - **Ecology, Distribution, Notes, Phenology** paragraphs require a reviewed
@@ -493,7 +496,9 @@ Bespoke checklist (decisions that changed per family):
   separately in the bespoke parser.
 - Use `flora_inherit_infraspecific()` for `subsp.`/`var.` silent on a trait.
 - Monogeneric family: both family and genus are copied down
-  (`rank_scored_from` = `genus` or `family`; Yao_2010).
+  (`rank_scored_from` = `genus` or `family`; Yao_2010). If the family has no
+  description of its own, ignore the family rank: the genus and species
+  descriptions hold everything (Campbell-Gasis_1996).
 - Keep unscored family and genus clauses (qualified, numeric, hedged,
   "most species") as unmapped rows at their own rank. Preserve scored
   higher-rank rows even when they fail the copy-down agreement test.
