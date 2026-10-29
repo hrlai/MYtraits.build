@@ -1,0 +1,50 @@
+organ,character,n_taxa,example_taxon,example_text,printed_page
+anther,locule number,1,Scyphostegia,anthers 4-locular,375
+bark,"thickness (qualitative), lenticels (sometimes)",1,Scyphostegia borneensis,"thin, sometimes lenticellate",376
+bract,width (candidate),1,Scyphostegia borneensis,bracts ... 2--3 mm wide,376
+disc,presence; disc glands absent (negative phrase),1,Scyphostegia,"disc present, disc-glands absent",376
+disc glands,"number, shape, position",1,Scyphostegia,"disc-glands 3, oblong, fleshy, opposite the stamens",375
+disc glands,size,1,Scyphostegia borneensis,disc-glands c. 0.75 x 0.4 mm,376
+exudate,absent (negative phrase),1,Scyphostegia,without exudate,375
+family,genus and species count; distribution,1,Scyphostegiaceae,A monogeneric family with one species endemic to Borneo.,375
+female flower,"pedicel length vs male; perianth lobe vs tube length, persistence (hedged), posture in fruit",1,Scyphostegia,"female flowers: pedicels shorter than in males; perianth lobes longer than the tube, equal, more or less persistent, recurved in fruit",375
+female raceme unit,length (candidate),1,Scyphostegia borneensis,raceme units 5--8 mm long,376
+flower,anthesis sequence; pedicel,1,Scyphostegia,"developing one at time from the base upwards on each raceme-like unit; pedicel flattened, persistent",375
+flowering and fruiting time,all year 'with local variation' (qualified; not scored),1,Scyphostegia borneensis,Flowering and fruiting all the year around with local variation.,376
+fruit,"persistent style, ribs, dehiscence pattern",1,Scyphostegia,"crowned by persistent styles and stigmas, 9--12-ribbed, at maturity breaking up at the mouth into 9--12 segments",376
+funicle,length,1,Scyphostegia borneensis,funicle c. 3 mm long,376
+inflorescence,bract number and form; position of raceme units (axillary or on a terminal main stalk),1,Scyphostegia,"bearing 1--12 (in male) or 1--2 (in female) serially imbricate, tubular, obtuse bracts, with each bract subtending a single flower; the tubular-bracteate raceme units solitary in the distal leaf ax...",375
+"inner bark, wood",colour,1,Scyphostegia borneensis,inner bark yellow to brown or grey. Wood white or slightly yellowish.,376
+leaf,shape 'obovate-oblong' (no level),1,Scyphostegia borneensis,obovate-oblong,376
+leaf,texture on drying,1,Scyphostegia borneensis,Leaves drying chartaceous,376
+leaf,venation,1,Scyphostegia,pinnately veined,375
+leaf apex,acumen length,1,Scyphostegia borneensis,acumen to c. 13 mm long,376
+leaf margin,tooth tips,1,Scyphostegia borneensis,the teeth with thickened tips,376
+male flower,"pedicel texture and veins; perianth lobe vs tube length, inner vs outer lobes",1,Scyphostegia,"male flowers: pedicels thin, dry and membranous, lengthwise 2-veined; perianth lobes shorter than the tube, inner ones shorter than and alternate with the outer ones, distinctly thickened at apex",375
+male raceme unit,length (candidate),1,Scyphostegia borneensis,raceme units 1--2 cm long,376
+ovary,"locule number (not scored as carpels: 9--12 stigmatic lobes and parietal placentation), shape",1,Scyphostegia,"ovary superior, 1-locular, globose",376
+ovary,size (dimension not stated),1,Scyphostegia borneensis,ovary c. 4 mm,376
+ovules,"number, position, aril",1,Scyphostegia,"ovules numerous, crowded on the slightly convex base of the ovary, surrounded at base by a fleshy, collar-like aril",376
+pedicel,length relative to male,1,Scyphostegia borneensis,pedicels shorter than in the males,376
+pedicel,thickness,1,Scyphostegia borneensis,pedicels ... c. 1 mm thick,376
+perianth,"aestivation, shape, petaloid, fusion (degree not stated), texture",1,Scyphostegia,"imbricate in bud, orbicular, petaloid, connate, fleshy",375
+petiole,furrow,1,Scyphostegia borneensis,furrowed above,376
+seed,"hair length and posture; seed base shape, spongy tissue",1,Scyphostegia,"shortly erect-patent hairy over whole surface, their needle-like bases surrounded and partly joined with spongy tissue from the base",376
+seed,"number, texture, packing, funicle",1,Scyphostegia,"Seeds numerous, dry, densely packed, funiculate",376
+stamens,fused into a column (candidate flower_filament / flower_filament_fusion),1,Scyphostegia,"stamens 3, connate into in a column",375
+staminal column,"length (candidate; column of fused stamens, not a single stamen)",1,Scyphostegia borneensis,staminal column 2--3 mm long,376
+"stem, crown","branching height, crown shape",1,Scyphostegia borneensis,low branching; crown spreading,376
+stipules,"fusion, shape, persistence",1,Scyphostegia,"Stipules free, triangular, caducous.",375
+stipules,length and width (candidate stipule size),1,Scyphostegia borneensis,stipules 1--2 x 1 mm,376
+"style, stigma","shape, lobe number, fusion",1,Scyphostegia,"style discoid with a narrow central aperture, stigmatic lobes 9--12, fleshy, largely fused to form a thick plate-like stigma with recurved margin",376
+tepals,lobe length and width (candidate tepal size),1,Scyphostegia borneensis,lobes c. 6 x 4 mm,376
+tepals,"shape, outer and inner lobe length and width (candidate tepal size)",1,Scyphostegia borneensis,"the outer lobes orbicular-oblong or spathulate, c. 3 x 2 mm, the inner ones c. 2 x 1.5 mm",376
+twigs,"angularity (often), zig-zag (hedged), colour, nodes",1,Scyphostegia,"Twigs often strongly 3--4-angular, slender, more or less zig-zag, brown, nodes swollen.",375
+twigs,"lenticels (sometimes), stipule scars",1,Scyphostegia borneensis,"Twigs sometimes lenticellate, with knob-like stipule scars",376
+veins,"number, angle, looping, relief; intercostal veins pattern (hedged)",1,Scyphostegia borneensis,"lateral veins 6--11 pairs, spreading at a narrow angle from the midrib, arching in the lower half and joining in faint loops 1--2 mm from the margin, flat or sunken above; intercostal veins scalari...",376
+,"differential note (twigs, leaf margin, fruit)",1,Scyphostegia borneensis,"This species can be mistaken for Flacourtia rukam (Flacourtiaceae) ... the 4-angular, zig-zag twigs, the serrulate leaf margin, and the fruit being a dehiscent fleshy capsule rather than an indehis...",378
+,distribution,1,Scyphostegia borneensis,"In Sabah, known from the Crocker Range through the interior to the east coast and southwards from Sapulut to Tawau; also in Kudat at the northern most tip of Sabah. In Sarawak, on the Rejang river ...",376
+,habitat (riparian); altitude,1,Scyphostegia borneensis,"In Sarawak, often growing along banks of swift-flowing rivers, at 20--1700 m.",376
+,habitat; disturbance,1,Scyphostegia borneensis,"In Sabah, found in primary rain forest from flat and sloping ridge areas to steep-sided riverbanks, streams and gorges, and also in logged and disturbed forests.",376
+,taxonomy,1,Scyphostegiaceae,The systematic position of the family has been controversial. ... The interpretation of the inflorescence structure used here differs from that of van Steenis l.c. and was kindly provided by Dr. K....,375
+,uses (fish poison),1,Scyphostegia borneensis,"In Sarawak, the leaves are pounded together with tuba roots and used as fish-poison.",378
