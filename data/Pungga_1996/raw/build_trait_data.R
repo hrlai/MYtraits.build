@@ -27,6 +27,7 @@ FI <- "female inflorescence"
 MF <- "male flower"
 FF <- "female flower"
 SA <- "samara"
+CL <- "cladode"
 
 # Row helpers for one taxon with default rank_scored_from, region and section.
 mk <- function(taxon, rank, from = "", region = "", sec = "Description") {
@@ -83,9 +84,9 @@ family <- bind_rows(
     "bark_colour",
     "Bark greyish to reddish brown",
     "greyish_to_reddish_brown",
-    "brown",
+    "grey red brown",
     p = "p119",
-    notes = "Read as 'greyish brown to reddish brown'; both scored as brown (see questions)."
+    notes = "Read as 'greyish brown to reddish brown'; every colour word scored."
   ),
   f$row(
     "bark_texture",
@@ -96,8 +97,16 @@ family <- bind_rows(
   ),
   f$un(
     "Twigs of two kinds, woody and persistent, and non-woody and caducous; the latter modified into green needle-shaped structures, branched or unbranched, superficially resembling those of pine trees",
-    "needle-shaped twigs | dimorphic twigs, photosynthetic deciduous branchlets, branching",
+    "needle-shaped twigs | dimorphic twigs, deciduous branchlets, branching",
     p = "p119"
+  ),
+  f$row(
+    "plant_photosynthetic_organ",
+    "the latter modified into green needle-shaped structures",
+    "green_needle-shaped_structures",
+    "cladode",
+    p = "p119",
+    notes = "Needle-shaped twigs scored as cladode, as in the AusTraits flora datasets."
   ),
   f$un(
     "internodes rounded or quadrangular in cross-section, usually with longitudinal grooves or furrows, nodes swollen",
@@ -113,9 +122,11 @@ family <- bind_rows(
   ),
   f$un("Leaves in whorls of 4--18", "leaf | number per whorl", p = "p119"),
   f$row("leaf_type", "Leaves ... tiny, scale-like", "scale-like", "scale", p = "p119"),
-  f$un(
+  f$row(
+    "leaf_apex_shape",
     "apex rounded-acute to narrowly acute",
-    "scale-leaf | apex shape (rounded-acute)",
+    "rounded-acute narrowly_acute",
+    "rounded acute",
     p = "p119"
   ),
   f$row(
@@ -284,9 +295,9 @@ casuarina_g <- bind_rows(
     "bark_colour",
     "Bark greyish to reddish brown",
     "greyish_to_reddish_brown",
-    "brown",
+    "grey red brown",
     p = "p120",
-    notes = "Read as 'greyish brown to reddish brown'; both scored as brown (see questions)."
+    notes = "Read as 'greyish brown to reddish brown'; every colour word scored."
   ),
   g$row(
     "bark_texture",
@@ -297,8 +308,17 @@ casuarina_g <- bind_rows(
   ),
   g$un("ridged ... peeling off", "bark | ridged, peeling", p = "p120"),
   g$un(
-    "Needle-shaped twigs mostly unbranched; internodes 0.5--1.5 cm long, rounded in cross-section, furrows of internodes deep and closed",
-    "needle-shaped twigs | branching, internode length, cross-section, furrows",
+    "Needle-shaped twigs mostly unbranched; internodes ... rounded in cross-section, furrows of internodes deep and closed",
+    "needle-shaped twigs | branching, cross-section, furrows",
+    p = "p120"
+  ),
+  g$rng(
+    "leaf_length",
+    "internodes 0.5--1.5 cm long",
+    0.5,
+    1.5,
+    "cm",
+    em = CL,
     p = "p120"
   ),
   g$row("leaf_type", "Scale-leaves 5--18 per node", "scale-leaves", "scale", p = "p120"),
@@ -342,7 +362,7 @@ casuarina_g <- bind_rows(
     "fruit_colour",
     "Samaras ... dull grey or pale yellow-brown",
     "grey pale_yellow-brown",
-    "grey brown",
+    "grey yellow brown",
     em = SA,
     p = "p120"
   ),
@@ -414,9 +434,9 @@ casuarina_equisetifolia <- bind_rows(
     "bark_colour",
     "Bark greyish brown",
     "greyish_brown",
-    "brown",
+    "grey brown",
     p = "p121",
-    notes = "'greyish brown' scored as brown (see questions)."
+    notes = "Every colour word scored, as in the AusTraits flora datasets."
   ),
   s$row(
     "bark_texture",
@@ -431,9 +451,27 @@ casuarina_equisetifolia <- bind_rows(
     "needle-shaped twigs | length, branching, colour",
     p = "p121"
   ),
+  s$rng(
+    "leaf_length",
+    "internodes 0.5--1.2 cm long",
+    0.5,
+    1.2,
+    "cm",
+    em = CL,
+    p = "p121"
+  ),
+  s$rng(
+    "leaf_width",
+    "internodes ... 0.5--1 mm thick",
+    0.5,
+    1,
+    "mm",
+    em = CL,
+    p = "p121"
+  ),
   s$un(
-    "internodes 0.5--1.2 cm long, 0.5--1 mm thick, furrows usually densely hairy",
-    "needle-shaped twigs | internode length and thickness, furrow hairs",
+    "furrows usually densely hairy",
+    "needle-shaped twigs | furrow hairs",
     p = "p121"
   ),
   s$row(
@@ -656,9 +694,18 @@ ceuthostoma_terminale <- bind_rows(
     "needle-shaped twigs | cross-section, branching, length",
     p = "p123"
   ),
+  s$rng(
+    "leaf_length",
+    "internodes 0.5--1 cm long",
+    0.5,
+    1,
+    "cm",
+    em = CL,
+    p = "p123"
+  ),
   s$un(
-    "internodes 0.5--1 cm long, occasionally set with white hairs on the furrows",
-    "needle-shaped twigs | internode length, furrow hairs",
+    "occasionally set with white hairs on the furrows",
+    "needle-shaped twigs | furrow hairs",
     p = "p123"
   ),
   s$row(
@@ -776,9 +823,11 @@ gymnostoma_g <- bind_rows(
   ),
   g$row("leaf_type", "Scale-leaves in whorls of 4", "scale-leaves", "scale", p = "p123"),
   g$un("Scale-leaves in whorls of 4", "scale-leaf | number per whorl", p = "p123"),
-  g$un(
+  g$row(
+    "leaf_apex_shape",
     "apex rounded-acute to narrowly acute",
-    "scale-leaf | apex shape (rounded-acute)",
+    "rounded-acute narrowly_acute",
+    "rounded acute",
     p = "p123"
   ),
   g$row(
@@ -889,9 +938,9 @@ gymnostoma_nobile <- bind_rows(
     "bark_colour",
     "Bark greyish to reddish brown",
     "greyish_to_reddish_brown",
-    "brown",
+    "grey red brown",
     p = "p125",
-    notes = "Read as 'greyish brown to reddish brown'; both scored as brown (see questions)."
+    notes = "Read as 'greyish brown to reddish brown'; every colour word scored."
   ),
   s$row(
     "bark_texture",
@@ -907,8 +956,26 @@ gymnostoma_nobile <- bind_rows(
     p = "p125"
   ),
   s$un(
-    "Needle-shaped twigs with a few lateral branches, the longest unbranched ones mostly exceeding 10 cm long, 1--1.5 mm thick; internodes 0.5--1 cm long",
-    "needle-shaped twigs | branching, length, thickness, internode length",
+    "Needle-shaped twigs with a few lateral branches, the longest unbranched ones mostly exceeding 10 cm long",
+    "needle-shaped twigs | branching, length",
+    p = "p125"
+  ),
+  s$rng(
+    "leaf_width",
+    "Needle-shaped twigs ... 1--1.5 mm thick",
+    1,
+    1.5,
+    "mm",
+    em = CL,
+    p = "p125"
+  ),
+  s$rng(
+    "leaf_length",
+    "internodes 0.5--1 cm long",
+    0.5,
+    1,
+    "cm",
+    em = CL,
     p = "p125"
   ),
   s$row(
@@ -918,9 +985,11 @@ gymnostoma_nobile <- bind_rows(
     "scale",
     p = "p125"
   ),
-  s$un(
+  s$row(
+    "leaf_apex_shape",
     "Scale-leaves with rounded-acute apex",
-    "scale-leaf | apex shape (rounded-acute)",
+    "rounded-acute",
+    "rounded acute",
     p = "p125"
   ),
   s$un(
@@ -1026,9 +1095,9 @@ gymnostoma_sumatranum <- bind_rows(
     "bark_colour",
     "Bark greyish brown",
     "greyish_brown",
-    "brown",
+    "grey brown",
     p = "p127",
-    notes = "'greyish brown' scored as brown (see questions)."
+    notes = "Every colour word scored, as in the AusTraits flora datasets."
   ),
   s$un(
     "sometimes marked with white patches",
@@ -1042,9 +1111,28 @@ gymnostoma_sumatranum <- bind_rows(
     "rough furrowed",
     p = "p127"
   ),
+  s$row(
+    "leaf_width",
+    "Needle-shaped twigs c. 0.5 mm thick",
+    0.5,
+    0.5,
+    "mean",
+    "mm",
+    em = CL,
+    p = "p127"
+  ),
   s$un(
-    "Needle-shaped twigs c. 0.5 mm thick, with many short lateral branches, bushy, the longest unbranched ones seldom exceeding 10 cm long; internodes short, 0.2--0.3 cm long",
-    "needle-shaped twigs | thickness, branching, length, internode length",
+    "with many short lateral branches, bushy, the longest unbranched ones seldom exceeding 10 cm long",
+    "needle-shaped twigs | branching, length",
+    p = "p127"
+  ),
+  s$rng(
+    "leaf_length",
+    "internodes short, 0.2--0.3 cm long",
+    0.2,
+    0.3,
+    "cm",
+    em = CL,
     p = "p127"
   ),
   s$row(
@@ -1054,9 +1142,11 @@ gymnostoma_sumatranum <- bind_rows(
     "scale",
     p = "p127"
   ),
-  s$un(
+  s$row(
+    "leaf_apex_shape",
     "Scale-leaves with rounded-acute apex",
-    "scale-leaf | apex shape (rounded-acute)",
+    "rounded-acute",
+    "rounded acute",
     p = "p127"
   ),
   s$row(
@@ -1121,8 +1211,9 @@ gymnostoma_sumatranum <- bind_rows(
 #     levels), plant_growth_form, bark_texture and fruit_colour where two
 #     levels, numbers (perianth parts, stamens, carpels, seeds per fruit),
 #     male inflorescence position (family 'usually').
-#   - family bark_colour 'brown' is copied to C. terminale, the only member
-#     silent on bark colour; the three members that score it all say brown.
+#   - not copied: family bark_colour (several levels), so C. terminale has no
+#     bark colour.
+#   - family plant_photosynthetic_organ (cladode) to all four species.
 #   - family leaf_phyllotaxis to Casuarina and Ceuthostoma species; Gymnostoma
 #     genus gives the same value to its species (most specific rank wins).
 #   - family inflorescence_shape (female) to C. equisetifolia; the two other
@@ -1139,7 +1230,10 @@ own <- bind_rows(
 higher <- bind_rows(family, casuarina_g, ceuthostoma_g, gymnostoma_g)
 copy <- tribble(
   ~from, ~trait, ~em, ~to,
-  "Casuarinaceae", "bark_colour", "", "Ceuthostoma terminale",
+  "Casuarinaceae", "plant_photosynthetic_organ", "", "Casuarina equisetifolia",
+  "Casuarinaceae", "plant_photosynthetic_organ", "", "Ceuthostoma terminale",
+  "Casuarinaceae", "plant_photosynthetic_organ", "", "Gymnostoma nobile",
+  "Casuarinaceae", "plant_photosynthetic_organ", "", "Gymnostoma sumatranum",
   "Casuarinaceae", "leaf_phyllotaxis", "", "Casuarina equisetifolia",
   "Casuarinaceae", "leaf_phyllotaxis", "", "Ceuthostoma terminale",
   "Casuarinaceae", "inflorescence_shape", FI, "Casuarina equisetifolia",

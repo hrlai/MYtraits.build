@@ -1,9 +1,9 @@
 taxon_name,taxon_rank,status,n_rows,flag
-Casuarinaceae,family,accepted,34,
-Casuarina,genus,accepted,20,About 17 species; only C. equisetifolia in Borneo.
-Casuarina equisetifolia,species,accepted,34,
+Casuarinaceae,family,accepted,35,
+Casuarina,genus,accepted,22,About 17 species; only C. equisetifolia in Borneo.
+Casuarina equisetifolia,species,accepted,39,
 Ceuthostoma,genus,accepted,13,Two species; only C. terminale in Borneo.
-Ceuthostoma terminale,species,accepted,26,
+Ceuthostoma terminale,species,accepted,28,
 Gymnostoma,genus,accepted,18,
-Gymnostoma nobile,species,accepted,27,
-Gymnostoma sumatranum,species,accepted,26,
+Gymnostoma nobile,species,accepted,32,
+Gymnostoma sumatranum,species,accepted,30,

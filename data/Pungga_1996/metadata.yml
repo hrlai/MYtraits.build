@@ -78,9 +78,9 @@ dataset:
     Symbol-font glyph) are in raw/source_fixes.csv; all are in clauses that
     give no scored value. Every clause with no trait in config/traits.yml
     stays in raw/trait_data.csv as an unmapped record (summary in
-    raw/unmapped_terms.csv): needle-shaped twigs (the photosynthetic organ:
-    length, thickness, internodes, ribs, furrows, stomata, hairs, branching),
-    scale-leaves per node or whorl, scale-leaf apex "rounded-acute", fruit
+    raw/unmapped_terms.csv): needle-shaped twigs other than internode length
+    and thickness (twig length, ribs, furrows, stomata, hairs, branching),
+    scale-leaves per node or whorl, scale-leaf size and shape, fruit
     cones (shape, size, hairs, peduncle, bracts, bracteoles, fruitlet
     number), bole form and crown shape, bark ridges, scales and strips, wood
     hardness and colour, stigma branches, bracts and bracteoles of female
@@ -112,7 +112,7 @@ traits:
     basis_of_value: expert_score
     replicates: .na
     methods: |
-      Outer bark colour. "greyish brown" and "greyish to reddish brown" scored as brown (see questions); inner wood colour is not scored.
+      Outer bark colour, every colour word scored in text order, as in the AusTraits flora datasets ("greyish brown" as grey brown, "greyish to reddish brown" as grey red brown); inner wood colour is not scored. The family value has several levels, so it is not copied to C. terminale.
   - var_in: bark_texture
     unit_in: .na
     trait_name: bark_texture
@@ -184,7 +184,7 @@ traits:
     basis_of_value: expert_score
     replicates: .na
     methods: |
-      Colour of the samara (fruitlet; entity measured), not of the fruit cone. "pale brown" and "pale yellow-brown" scored as brown.
+      Colour of the samara (fruitlet; entity measured), not of the fruit cone. Every colour word scored; "pale brown" as brown and "pale yellow-brown" as yellow brown (fruit_colour has no light-brown level).
   - var_in: fruit_length
     unit_in: unit
     trait_name: fruit_length
@@ -193,7 +193,7 @@ traits:
     basis_of_value: measurement
     replicates: .na
     methods: |
-      Length of the samara (fruitlet; entity measured). Fruit cone (infructescence) sizes are not scored.
+      Length of the samara (fruitlet; entity measured). Fruit cone (infructescence) sizes are not scored, as in the AusTraits flora datasets.
   - var_in: fruit_surface_hairs
     unit_in: .na
     trait_name: fruit_surface_hairs
@@ -247,7 +247,16 @@ traits:
     basis_of_value: expert_score
     replicates: .na
     methods: |
-      Apex of the scale-leaves; "narrowly acute" scored as acute. "rounded-acute" stays unmapped.
+      Apex of the scale-leaves; "narrowly acute" scored as acute and "rounded-acute" as rounded acute (both levels, as in the AusTraits flora datasets).
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Internode length of the green needle-shaped twigs, the photosynthetic organ (entity measured cladode), as in the AusTraits flora datasets. The scale-leaves are not measured.
   - var_in: leaf_phyllotaxis
     unit_in: .na
     trait_name: leaf_phyllotaxis
@@ -266,6 +275,15 @@ traits:
     replicates: .na
     methods: |
       "Scale-leaves", "leaf-scales" and "scale-like" leaves, scored as scale.
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Thickness of the green needle-shaped twigs or their internodes (entity measured cladode), as in the AusTraits flora datasets.
   - var_in: plant_diameter_breast_height
     unit_in: unit
     trait_name: plant_diameter_breast_height
@@ -293,6 +311,15 @@ traits:
     replicates: .na
     methods: |
       Maximum plant height.
+  - var_in: plant_photosynthetic_organ
+    unit_in: .na
+    trait_name: plant_photosynthetic_organ
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Non-woody twigs "modified into green needle-shaped structures" (family description), scored as cladode (traits.yml cites Casuarina articles as the example) and copied to the four species.
   - var_in: seeds_per_fruit
     unit_in: unit
     trait_name: seeds_per_fruit
@@ -323,10 +350,10 @@ traits:
 substitutions:
   - trait_name: bark_colour
     find: 'greyish_to_reddish_brown'
-    replace: 'brown'
+    replace: 'grey red brown'
   - trait_name: bark_colour
     find: 'greyish_brown'
-    replace: 'brown'
+    replace: 'grey brown'
   - trait_name: bark_texture
     find: 'fissured flakes'
     replace: 'furrowed flaky'
@@ -350,7 +377,7 @@ substitutions:
     replace: 'wings'
   - trait_name: fruit_colour
     find: 'grey pale_yellow-brown'
-    replace: 'grey brown'
+    replace: 'grey yellow brown'
   - trait_name: fruit_colour
     find: 'pale_brown'
     replace: 'brown'
@@ -384,6 +411,12 @@ substitutions:
   - trait_name: leaf_apex_shape
     find: 'narrowly acute'
     replace: 'acute'
+  - trait_name: leaf_apex_shape
+    find: 'rounded-acute'
+    replace: 'rounded acute'
+  - trait_name: leaf_apex_shape
+    find: 'rounded-acute narrowly_acute'
+    replace: 'rounded acute'
   - trait_name: leaf_phyllotaxis
     find: 'in whorls'
     replace: 'whorled'
@@ -396,6 +429,9 @@ substitutions:
   - trait_name: leaf_type
     find: 'leaf-scales'
     replace: 'scale'
+  - trait_name: plant_photosynthetic_organ
+    find: 'green_needle-shaped_structures'
+    replace: 'cladode'
   - trait_name: plant_growth_form
     find: 'trees'
     replace: 'tree'
@@ -412,95 +448,24 @@ taxonomic_updates: .na
 exclude_observations: .na
 questions:
   question1: |
-    Needle-shaped twigs: the family description says the non-woody twigs
-    are "modified into green needle-shaped structures ... superficially
-    resembling those of pine trees" and the leaves are "tiny, scale-like"
-    (p. 119). The twigs, not the scale-leaves, are the photosynthetic organ.
-    None of their characters is scored: length ("to 30 cm long"), thickness
-    ("1--1.5 mm thick", "c. 0.5 mm thick"), internode length (e.g.
-    "0.5--1.2 cm long"), ribs, furrows, stomata, branching, colour and furrow
-    hairs ("furrows usually densely hairy", C. equisetifolia; "occasionally
-    set with white hairs on the furrows", C. terminale). About 15 unmapped
-    rows across all taxa. leaf_length allows "a leaf analogue". Should
-    needle-twig length and thickness go to leaf_length and leaf_width, the
-    furrow hairs to stem_hairs, should leaf_length_type be scored
-    scale_leaves, or should a new trait (e.g. photosynthetic branchlet) be
-    added centrally?
-  question2: |
-    Scale-leaves: leaf_type is scored scale for every taxon (8 rows) and
-    leaf_phyllotaxis whorled from "in whorls" (family, Gymnostoma; copied to
-    all four species). Not scored: scale-leaves per node or whorl (family
-    4--18; Casuarina 5--18; C. equisetifolia (7--)8(--9); Ceuthostoma 4;
-    Gymnostoma 4), the C. terminale scale-leaf length "0.7--1 mm" (not put in
-    leaf_length, which would mix scale-leaves with leaf blades of other
-    taxa) and its shape "narrowly deltoid" (narrowly_triangular?). Decide
-    whether leaves per node needs a trait, and whether scale-leaf length and
-    shape should be scored.
-  question3: |
-    Scale-leaf apex: "narrowly acute" is scored as acute (Casuarina genus,
-    C. equisetifolia; 2 rows). "rounded-acute" (G. nobile, G. sumatranum)
-    and "rounded-acute to narrowly acute" (family, Gymnostoma genus) stay
-    unmapped. Is "rounded-acute" acute, rounded, or obtuse?
-  question4: |
-    Fruit cone versus fruitlet: the family says "Fruit cone (infructescence)
-    a woody structure developed from a whole female inflorescence ...
-    Fruitlet a samara" (p. 119). The samara is scored as the fruit:
-    fruit_type samara (8 rows), and fruit_length, fruit_colour and
-    fruit_surface_hairs with entity_measured samara. The cone is unmapped:
-    shape, size ("c. 2.5 x 2.2 cm", "c. 1 cm across", "c. 2.2 cm across",
-    "c. 2.5 x 4.5 cm"), hairs ("sparsely hairy"), peduncle length,
-    fertile-fruitlet number (20--35), bracts and bracteoles. Lim_2010 scored
-    conifer seed cones under fruit traits with entity_measured seed cone.
-    Should the cone be scored as fruit_type compound_fruit_other (derived
-    from more than one flower) and its sizes as fruit_length and fruit_width
-    with entity_measured fruit cone, or kept unmapped pending an
-    infructescence trait?
-  question5: |
-    G. sumatranum fruit cone "c. 2.5 x 4.5 cm" (p. 127; the key on p. 125
-    repeats it). The text layer has a dot operator from the unembedded
-    Symbol font; it is repaired to "x" in raw/source_fixes.csv. Under the
-    usual length-by-width reading the "ellipsoid" cone would be 2.5 cm long
-    and 4.5 cm wide; the figure (p. 126) draws the cone with a 3 cm scale. The
-    clause is unmapped. If cone sizes are scored (question 4), which
-    dimension is the length?
-  question6: |
-    Bark colour: "greyish brown" (C. equisetifolia, G. sumatranum) and
-    "greyish to reddish brown" (family, Casuarina genus, G. nobile) are all
-    scored as brown (5 rows, plus the family value copied to C. terminale),
-    following the skill rule "reddish brown" to brown and reading "greyish
-    to reddish brown" as "greyish brown to reddish brown". Adema_1996 scored
-    "greyish brown" as grey brown and Kochummen_1995 "reddish brown" as red
-    brown. Which convention should all flora datasets follow?
-  question7: |
-    Family bark colour (brown) is copied to C. terminale, whose own
-    description says only "Bark rough, scaly or flaky" (p. 123). The other
-    three species all give a brown bark. Confirm that a family bark colour
-    may be copied to a species silent on it, or drop the copy.
-  question8: |
-    Fruit colour: samaras "dull grey or pale yellow-brown" (Casuarina),
-    "dull pale brown" (Ceuthostoma) and "grey to pale brown" (Gymnostoma)
-    are scored grey brown, brown and grey brown (fruit_colour has no
-    light-brown level); "dull" is unmapped. The Ceuthostoma value is copied
-    to C. terminale. Confirm these mappings.
-  question9: |
     dispersal_appendage is scored wings for the samara wing ("Fruitlet a
     samara with membranous wing", family; "with transparent wing",
     C. terminale), and the family value is copied to the other three
     species (5 rows). The level wings is defined as a seed extension; the
     wing here is on the fruitlet. Keep wings, or use wing_or_plume?
-  question10: |
+  question2: |
     C. equisetifolia: "Female inflorescences on lateral woody persistent
     twigs, c. 0.5 cm long" (p. 121) is read as the inflorescence length
     (inflorescence_length 0.5 cm mean, entity_measured female
     inflorescence; 1 row). It could instead give the length of the twigs.
     Confirm the reading.
-  question11: |
+  question3: |
     C. equisetifolia "style red, 0.3--0.5 cm long" (p. 121) is scored as
     flower_style_length (female flower; 2 rows). The family describes the
     female flower as having "2-branched, divergent stigmas", so the
     structure printed as "style" may be the stigmatic branches. Keep as
     style length, move to flower_stigma_length, or leave unmapped?
-  question12: |
+  question4: |
     Inflorescence mappings: spikes "at the end(s) of needle-shaped twigs"
     read as terminal (Casuarina, Gymnostoma genera); "capitate" read as head
     (G. nobile, G. sumatranum); a "globose cone" or "globose cone-like
@@ -511,24 +476,26 @@ questions:
     compound", and G. nobile male "compound, cone-like structures". Confirm
     the mappings, and decide whether "terminal or subterminal" should be
     scored terminal.
-  question13: |
+  question5: |
     Sex: the family "Dioecious or less commonly monoecious" is scored
     dioecious (usually) and monoecious (less often). Casuarina and
     Gymnostoma genera give "dioecious or monoecious" (two levels, not
     copied), so G. nobile and G. sumatranum have no sex_type; C.
     equisetifolia is monoecious and C. terminale gets dioecious from the
-    Ceuthostoma genus. flower_structural_sex_type (unisexual) is implied by
+    Ceuthostoma genus. Neither the AusTraits flora datasets nor this
+    treatment gives the sex of G. nobile or G. sumatranum; a source for
+    Borneo material is needed. flower_structural_sex_type (unisexual) is implied by
     the separate male and female flowers but never stated, so it is not
     scored. Confirm the "less often" label, and decide whether unisexual
     should be scored at family rank.
-  question14: |
+  question6: |
     Family counts are scored at family rank only, because numbers are never
     copied down: male perianth lobes 1--2, one stamen per male flower, one
     carpel per female flower, one seed per samara (p. 119). The species
     therefore have no values for these traits although the family states
     them without exception. Keep the rule, or allow invariant family counts
     to be copied?
-  question15: |
+  question7: |
     Bark texture: "fissured" scored as furrowed and "flakes", "flaking",
     "flaky" as flaky. Unmapped: "ridged" (Casuarina, C. equisetifolia),
     "scaly" (C. terminale, G. nobile), "peeling off into long broad strips"
@@ -536,7 +503,7 @@ questions:
     value is kept). Adema_1996's dictionary maps "peeling" to papery; that
     is not applied here. Should "ridged" count as furrowed, and strips as
     fibrous or stringy?
-  question16: |
+  question8: |
     Vouchers (raw/Pungga_1996_vouchers.csv): the Fig. 3 caption reads "(A--D
     and from Chew CWL 1389, ...)" (p. 126; image-checked, the gap is in the
     print). Part F (samara) is the only part not otherwise cited, so the
@@ -544,10 +511,12 @@ questions:
     type is "Rumphius, Herbarium Amboniense 3 (1743) t. 57", an
     illustration, with no status printed; it is recorded with a blank
     status. Confirm both.
-  question17: |
+  question9: |
     Candidate traits with no entry in config/traits.yml (rows unmapped, see
-    raw/unmapped_terms.csv): needle-twig characters (question 1), leaves per
-    node (question 2), fruit cone characters (question 4), bole form
+    raw/unmapped_terms.csv): needle-twig characters other than internode
+    length and thickness (twig length, ribs, furrows, stomata, furrow hairs),
+    scale-leaves per node and scale-leaf size and shape, fruit cone
+    characters (left unmapped, as in the AusTraits flora datasets), bole form
     (straight, cylindrical, twisted), crown shape, wood hardness and
     heartwood colour, stigma branches, floral bracts and bracteoles,
     polyembryony ("often with more than one embryo") and cotyledon number,

@@ -1,7 +1,6 @@
 organ,character,n_taxa,example_taxon,example_text,printed_page
 bole,form,4,Casuarinaceae,"bole straight, cylindrical",119
 distribution,"range, species number",4,Casuarinaceae,Four genera with about 100 species; from SE Asia to Australia and Polynesia. Three genera with 4 species in Sabah and Sarawak.,119
-scale-leaf,apex shape (rounded-acute),4,Casuarinaceae,apex rounded-acute to narrowly acute,119
 buttresses,size,3,Casuarinaceae,short buttresses,119
 ecology,"habitat, soil, altitude",3,Ceuthostoma,"In hill and lower montane forests on ultramafic soils, to c. 1500 m.",123
 female inflorescence,position (terminal or subterminal),3,Casuarinaceae,terminal or subterminal on woody persistent twigs or on green needle-shaped twigs,119
@@ -11,6 +10,8 @@ crown,"shape, branch angle",2,Casuarina,"crown narrow, branches ascending, with 
 crown,"shape, ontogenetic change",2,Casuarina equisetifolia,"crown conical when young, becoming untidy at maturity",121
 distribution,"range, localities",2,Ceuthostoma terminale,"Borneo, Philippines (Palawan Is.), Maluku (Halmahera), and Irian Jaya. In Borneo, so far known from Mt. Kinabalu and Mt. Tawai in Sabah.",123
 female inflorescence,position (lateral),2,Casuarina,Female inflorescences lateral on woody persistent twigs,120
+needle-shaped twigs,"branching, length",2,Gymnostoma nobile,"Needle-shaped twigs with a few lateral branches, the longest unbranched ones mostly exceeding 10 cm long",125
+needle-shaped twigs,furrow hairs,2,Casuarina equisetifolia,furrows usually densely hairy,121
 samara,surface lustre,2,Casuarina,dull,120
 bark,patches,1,Gymnostoma sumatranum,sometimes marked with white patches,127
 bark,ridged,1,Casuarina equisetifolia,ridged,121
@@ -41,17 +42,13 @@ male inflorescence,branching,1,Gymnostoma,simple or compound spikes,123
 male inflorescence,"branching, orientation, spike-like",1,Casuarinaceae,"Male inflorescences ... simple or compound, erect, spike-like structures",119
 male inflorescence,compound cone-like,1,Gymnostoma nobile,"Male flowers in compound, cone-like structures",125
 male perianth,"form, caducous",1,Casuarinaceae,scale-like perianth lobes (falling at anthesis),119
-needle-shaped twigs,"branching, internode length, cross-section, furrows",1,Casuarina,"Needle-shaped twigs mostly unbranched; internodes 0.5--1.5 cm long, rounded in cross-section, furrows of internodes deep and closed",120
-needle-shaped twigs,"branching, length, thickness, internode length",1,Gymnostoma nobile,"Needle-shaped twigs with a few lateral branches, the longest unbranched ones mostly exceeding 10 cm long, 1--1.5 mm thick; internodes 0.5--1 cm long",125
+needle-shaped twigs,"branching, cross-section, furrows",1,Casuarina,"Needle-shaped twigs mostly unbranched; internodes ... rounded in cross-section, furrows of internodes deep and closed",120
 needle-shaped twigs,"branching, ribs, furrows, stomata, cross-section",1,Gymnostoma,"Needle-shaped twigs mostly branched, internodes 4-ribbed, furrows shallow and open, exposing the stomata, quadrangular in cross-section, ridges rounded to somewhat sharp-edged",123
 needle-shaped twigs,"cross-section, branching, length",1,Ceuthostoma terminale,"Needle-shaped twigs rounded-quadrangular in cross-section, little-branched, longest unbranched ones exceeding 10 cm long",123
-needle-shaped twigs,"dimorphic twigs, photosynthetic deciduous branchlets, branching",1,Casuarinaceae,"Twigs of two kinds, woody and persistent, and non-woody and caducous; the latter modified into green needle-shaped structures, branched or unbranched, superficially resembling those of pine trees",119
+needle-shaped twigs,"dimorphic twigs, deciduous branchlets, branching",1,Casuarinaceae,"Twigs of two kinds, woody and persistent, and non-woody and caducous; the latter modified into green needle-shaped structures, branched or unbranched, superficially resembling those of pine trees",119
 needle-shaped twigs,"internode cross-section, furrows, nodes",1,Casuarinaceae,"internodes rounded or quadrangular in cross-section, usually with longitudinal grooves or furrows, nodes swollen",119
-needle-shaped twigs,"internode length and thickness, furrow hairs",1,Casuarina equisetifolia,"internodes 0.5--1.2 cm long, 0.5--1 mm thick, furrows usually densely hairy",121
-needle-shaped twigs,"internode length, furrow hairs",1,Ceuthostoma terminale,"internodes 0.5--1 cm long, occasionally set with white hairs on the furrows",123
 needle-shaped twigs,"length, branching, colour",1,Casuarina equisetifolia,"Needle-shaped twigs to 30 cm long, mostly unbranched, greenish yellow, green stripes distinct",121
 needle-shaped twigs,"ribs, furrows, stomata, branching",1,Ceuthostoma,"Needle-shaped twigs 4-ribbed, furrows deep and almost closed, concealing the rows of stomata, mostly branched",121
-needle-shaped twigs,"thickness, branching, length, internode length",1,Gymnostoma sumatranum,"Needle-shaped twigs c. 0.5 mm thick, with many short lateral branches, bushy, the longest unbranched ones seldom exceeding 10 cm long; internodes short, 0.2--0.3 cm long",127
 samara wing,transparency,1,Ceuthostoma terminale,transparent wing,123
 scale-leaf,number per whorl,1,Gymnostoma,Scale-leaves in whorls of 4,123
 scale-leaf,"shape, length",1,Ceuthostoma terminale,"Scale-leaves narrowly deltoid, 0.7--1 mm long",123
