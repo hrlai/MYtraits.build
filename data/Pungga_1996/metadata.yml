@@ -1,0 +1,527 @@
+source:
+  primary:
+    key: Pungga_1996
+    bibtype: InBook
+    year: 1996
+    author: Runi S. Pungga
+    title: Casuarinaceae
+    booktitle: Tree Flora of Sabah and Sarawak, Volume 2
+    editor: E. Soepadmo and K. M. Wong and L. G. Saw
+    publisher:
+      Sabah Forestry Department and Forest Research Institute Malaysia and
+      Sarawak Forestry Department
+    place: Kepong, Malaysia
+    pages: 119--127
+    isbn: 983-9592-56-4
+    doi: 10.26525/TFSS2004
+contributors:
+  data_collectors:
+    - last_name: Pungga
+      given_name: Runi S.
+      ORCID: .na
+      affiliation: Sarawak Forestry Department, Kuching, Malaysia
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '1996'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description: |
+    To describe the morphology, distribution, ecology and uses of the
+    Casuarinaceae in Sabah and Sarawak (three genera, Casuarina, Ceuthostoma
+    and Gymnostoma, with four species), as part of the Tree Flora of Sabah
+    and Sarawak.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    Trait values were transcribed by hand (raw/build_trait_data.R, with
+    flora_hand()) from the text layer of the 2007 electronic version of the
+    treatment (L. G. Saw and B. Aslina), which is born-digital
+    (assets/myflora_metadata.csv), clause by clause, from the family, genus
+    and species descriptions and the Distribution, Ecology, Uses and Taxonomy
+    paragraphs (PDF pages 7--15, printed 119--127). The text layer was not
+    routinely checked against page images: flora_layer_flags() found no
+    unmapped glyphs and no break in the printed-page offset on the treatment
+    pages. PDF pages 10, 12 and 14 (printed 122, 124, 126) are plates, used
+    for figure-caption vouchers only. Two pages were image-checked: PDF 14
+    (Fig. 3 caption, a part letter missing) and PDF 15 (a multiplication sign
+    set in the unembedded Symbol font, read by the layer as a dot operator).
+    Keys were used only to confirm taxon order. Each value keeps the clause it
+    came from (trait_value_raw), the source term (trait_value) and the page.
+    Several values are listed in text order; a single or "c." value is a
+    mean and "to X" a maximum. Categorical values stated singly and without
+    qualification in the family or genus description are applied to member
+    species silent on the trait (trait_scoring_method inferred_from_family or
+    inferred_from_genus); numeric higher-rank values are not copied down.
+  original_file:
+    Casuarinaceae.pdf (Pungga 1996, Tree Flora of Sabah and Sarawak vol. 2,
+    pp. 119--127; electronic version 2007)
+  notes: |
+    data.csv is raw/trait_data.csv (written by raw/build_trait_data.R) with
+    three columns added by flora_make_data(): value (the source term for
+    categorical traits, mapped with substitutions), trait_scoring_method
+    (from rank_scored_from) and source_id. Taxon names are as printed. Family
+    and genus descriptions are kept as family- and genus-rank records as well
+    as copied to species. Species description values have population region
+    Sabah and Sarawak (TFSS guide); family and genus values have no region.
+    Stem diameter ("100 cm diameter") is recorded as
+    plant_diameter_breast_height maximum, as in Kochummen_1995; the height of
+    measurement is not stated. No hedged statement is scored: "apparently
+    confined" (G. sumatranum Ecology), "more or less of equal size"
+    (C. equisetifolia bracteoles) and "superficially resembling" (family
+    twigs) are in unmapped clauses. The C. equisetifolia Uses paragraph cites
+    a medicinal use in Peninsular Malaysia, outside the treatment's scope; it
+    is kept only as unmapped text. Four source repairs (three typos and one
+    Symbol-font glyph) are in raw/source_fixes.csv; all are in clauses that
+    give no scored value. Every clause with no trait in config/traits.yml
+    stays in raw/trait_data.csv as an unmapped record (summary in
+    raw/unmapped_terms.csv): needle-shaped twigs other than internode length
+    and thickness (twig length, ribs, furrows, stomata, hairs, branching),
+    scale-leaves per node or whorl, scale-leaf size and shape, fruit
+    cones (shape, size, hairs, peduncle, bracts, bracteoles, fruitlet
+    number), bole form and crown shape, bark ridges, scales and strips, wood
+    hardness and colour, stigma branches, bracts and bracteoles of female
+    flowers, polyembryony and cotyledons, altitude, habitat and soil,
+    distribution, uses and taxonomy. Type and figure specimens are listed in
+    raw/Pungga_1996_vouchers.csv; raw/taxon_flags.csv lists the accepted
+    taxa and their row counts.
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: bark_colour
+    unit_in: .na
+    trait_name: bark_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Outer bark colour, every colour word scored in text order, as in the AusTraits flora datasets ("greyish brown" as grey brown, "greyish to reddish brown" as grey red brown); inner wood colour is not scored. The family value has several levels, so it is not copied to C. terminale.
+  - var_in: bark_texture
+    unit_in: .na
+    trait_name: bark_texture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Outer bark surface: "fissured" scored as furrowed, "flakes", "flaking" and "flaky" as flaky; ridges, scales and peeling strips stay unmapped.
+  - var_in: dispersal_appendage
+    unit_in: .na
+    trait_name: dispersal_appendage
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      The membranous or transparent wing of the samara (fruitlet), scored as wings.
+  - var_in: flower_anther_attachment
+    unit_in: .na
+    trait_name: flower_anther_attachment
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Anther attachment of the single stamen of the male flower (basifixed).
+  - var_in: flower_fertile_stamens_count
+    unit_in: unit
+    trait_name: flower_fertile_stamens_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Stamens per male flower ("a single stamen"), family description only.
+  - var_in: flower_perianth_parts_count
+    unit_in: unit
+    trait_name: flower_perianth_parts_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Scale-like perianth lobes of the male flower ("one or two"), family description only.
+  - var_in: flower_structural_carpels_count
+    unit_in: unit
+    trait_name: flower_structural_carpels_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Carpels of the female flower ("one-carpellate ovary"), family description only.
+  - var_in: flower_style_length
+    unit_in: unit
+    trait_name: flower_style_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Style length of the female flower as printed (C. equisetifolia).
+  - var_in: fruit_colour
+    unit_in: .na
+    trait_name: fruit_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Colour of the samara (fruitlet; entity measured), not of the fruit cone. Every colour word scored; "pale brown" as brown and "pale yellow-brown" as yellow brown (fruit_colour has no light-brown level).
+  - var_in: fruit_length
+    unit_in: unit
+    trait_name: fruit_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Length of the samara (fruitlet; entity measured). Fruit cone (infructescence) sizes are not scored, as in the AusTraits flora datasets.
+  - var_in: fruit_surface_hairs
+    unit_in: .na
+    trait_name: fruit_surface_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Hairs of the samara (fruitlet; entity measured), from the Casuarina genus description. The fruit cone hairs are not scored.
+  - var_in: fruit_type
+    unit_in: .na
+    trait_name: fruit_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Fruitlet type ("Fruitlet a samara"). The fruit cone (infructescence) is not scored as a fruit type.
+  - var_in: inflorescence_length
+    unit_in: unit
+    trait_name: inflorescence_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Female inflorescence length (C. equisetifolia); the clause could also give the length of the bearing twig (see questions).
+  - var_in: inflorescence_shape
+    unit_in: .na
+    trait_name: inflorescence_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Female inflorescence described as a "globose cone" or "globose cone-like structures", scored as spherical.
+  - var_in: inflorescence_type
+    unit_in: .na
+    trait_name: inflorescence_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Male and female inflorescences (entity measured) separately. Spikes scored as spike, "capitate" as head, "terminal" and "at the end(s) of" as terminal. "Terminal or subterminal" and "lateral" positions stay unmapped.
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Apex of the scale-leaves; "narrowly acute" scored as acute and "rounded-acute" as rounded acute (both levels, as in the AusTraits flora datasets).
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Internode length of the green needle-shaped twigs, the photosynthetic organ (entity measured cladode), as in the AusTraits flora datasets. The scale-leaves are not measured.
+  - var_in: leaf_phyllotaxis
+    unit_in: .na
+    trait_name: leaf_phyllotaxis
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Scale-leaves "in whorls", scored as whorled.
+  - var_in: leaf_type
+    unit_in: .na
+    trait_name: leaf_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      "Scale-leaves", "leaf-scales" and "scale-like" leaves, scored as scale.
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Thickness of the green needle-shaped twigs or their internodes (entity measured cladode), as in the AusTraits flora datasets.
+  - var_in: plant_diameter_breast_height
+    unit_in: unit
+    trait_name: plant_diameter_breast_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Stem diameter as printed ("100 cm diameter"), recorded as a maximum; height of measurement not stated.
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Growth form as printed (trees, shrubs).
+  - var_in: plant_height
+    unit_in: unit
+    trait_name: plant_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Maximum plant height.
+  - var_in: plant_photosynthetic_organ
+    unit_in: .na
+    trait_name: plant_photosynthetic_organ
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Non-woody twigs "modified into green needle-shaped structures" (family description), scored as cladode (traits.yml cites Casuarina articles as the example) and copied to the four species.
+  - var_in: seeds_per_fruit
+    unit_in: unit
+    trait_name: seeds_per_fruit
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      "Seed solitary in each samara", family description only.
+  - var_in: sex_type
+    unit_in: .na
+    trait_name: sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Dioecious or monoecious as printed; "less commonly" recorded as the commonness qualifier "less often".
+  - var_in: stem_base_form
+    unit_in: .na
+    trait_name: stem_base_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Fluted bole and buttresses, with the printed commonness qualifier.
+substitutions:
+  - trait_name: bark_colour
+    find: 'greyish_to_reddish_brown'
+    replace: 'grey red brown'
+  - trait_name: bark_colour
+    find: 'greyish_brown'
+    replace: 'grey brown'
+  - trait_name: bark_texture
+    find: 'fissured flakes'
+    replace: 'furrowed flaky'
+  - trait_name: bark_texture
+    find: 'fissured flaking'
+    replace: 'furrowed flaky'
+  - trait_name: bark_texture
+    find: 'rough fissured flakes'
+    replace: 'rough furrowed flaky'
+  - trait_name: bark_texture
+    find: 'fissured'
+    replace: 'furrowed'
+  - trait_name: bark_texture
+    find: 'rough fissured'
+    replace: 'rough furrowed'
+  - trait_name: dispersal_appendage
+    find: 'membranous wing'
+    replace: 'wings'
+  - trait_name: dispersal_appendage
+    find: 'wing'
+    replace: 'wings'
+  - trait_name: fruit_colour
+    find: 'grey pale_yellow-brown'
+    replace: 'grey yellow brown'
+  - trait_name: fruit_colour
+    find: 'pale_brown'
+    replace: 'brown'
+  - trait_name: fruit_colour
+    find: 'grey pale_brown'
+    replace: 'grey brown'
+  - trait_name: fruit_type
+    find: 'samaras'
+    replace: 'samara'
+  - trait_name: inflorescence_shape
+    find: 'globose'
+    replace: 'spherical'
+  - trait_name: inflorescence_type
+    find: 'spikes at_the_end'
+    replace: 'spike terminal'
+  - trait_name: inflorescence_type
+    find: 'spikes terminal'
+    replace: 'spike terminal'
+  - trait_name: inflorescence_type
+    find: 'terminal spikes'
+    replace: 'terminal spike'
+  - trait_name: inflorescence_type
+    find: 'spikes at_the_ends'
+    replace: 'spike terminal'
+  - trait_name: inflorescence_type
+    find: 'capitate'
+    replace: 'head'
+  - trait_name: inflorescence_type
+    find: 'terminal capitate'
+    replace: 'terminal head'
+  - trait_name: leaf_apex_shape
+    find: 'narrowly acute'
+    replace: 'acute'
+  - trait_name: leaf_apex_shape
+    find: 'rounded-acute'
+    replace: 'rounded acute'
+  - trait_name: leaf_apex_shape
+    find: 'rounded-acute narrowly_acute'
+    replace: 'rounded acute'
+  - trait_name: leaf_phyllotaxis
+    find: 'in whorls'
+    replace: 'whorled'
+  - trait_name: leaf_type
+    find: 'scale-leaves'
+    replace: 'scale'
+  - trait_name: leaf_type
+    find: 'scale-like'
+    replace: 'scale'
+  - trait_name: leaf_type
+    find: 'leaf-scales'
+    replace: 'scale'
+  - trait_name: plant_photosynthetic_organ
+    find: 'green_needle-shaped_structures'
+    replace: 'cladode'
+  - trait_name: plant_growth_form
+    find: 'trees'
+    replace: 'tree'
+  - trait_name: plant_growth_form
+    find: 'trees shrubs'
+    replace: 'tree shrub'
+  - trait_name: stem_base_form
+    find: 'fluted buttresses'
+    replace: 'fluted buttressed'
+  - trait_name: stem_base_form
+    find: 'buttresses'
+    replace: 'buttressed'
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1: |
+    dispersal_appendage is scored wings for the samara wing ("Fruitlet a
+    samara with membranous wing", family; "with transparent wing",
+    C. terminale), and the family value is copied to the other three
+    species (5 rows). The level wings is defined as a seed extension; the
+    wing here is on the fruitlet. Keep wings, or use wing_or_plume?
+  question2: |
+    C. equisetifolia: "Female inflorescences on lateral woody persistent
+    twigs, c. 0.5 cm long" (p. 121) is read as the inflorescence length
+    (inflorescence_length 0.5 cm mean, entity_measured female
+    inflorescence; 1 row). It could instead give the length of the twigs.
+    Confirm the reading.
+  question3: |
+    C. equisetifolia "style red, 0.3--0.5 cm long" (p. 121) is scored as
+    flower_style_length (female flower; 2 rows). The family describes the
+    female flower as having "2-branched, divergent stigmas", so the
+    structure printed as "style" may be the stigmatic branches. Keep as
+    style length, move to flower_stigma_length, or leave unmapped?
+  question4: |
+    Inflorescence mappings: spikes "at the end(s) of needle-shaped twigs"
+    read as terminal (Casuarina, Gymnostoma genera); "capitate" read as head
+    (G. nobile, G. sumatranum); a "globose cone" or "globose cone-like
+    structures" read as inflorescence_shape spherical (family, Ceuthostoma,
+    Gymnostoma; copied to all four species). Not scored: "terminal or
+    subterminal" (family, Gymnostoma, G. nobile), "lateral" (Casuarina,
+    C. equisetifolia), family male "spike-like structures", "simple or
+    compound", and G. nobile male "compound, cone-like structures". Confirm
+    the mappings, and decide whether "terminal or subterminal" should be
+    scored terminal.
+  question5: |
+    Sex: the family "Dioecious or less commonly monoecious" is scored
+    dioecious (usually) and monoecious (less often). Casuarina and
+    Gymnostoma genera give "dioecious or monoecious" (two levels, not
+    copied), so G. nobile and G. sumatranum have no sex_type; C.
+    equisetifolia is monoecious and C. terminale gets dioecious from the
+    Ceuthostoma genus. Neither the AusTraits flora datasets nor this
+    treatment gives the sex of G. nobile or G. sumatranum; a source for
+    Borneo material is needed. flower_structural_sex_type (unisexual) is implied by
+    the separate male and female flowers but never stated, so it is not
+    scored. Confirm the "less often" label, and decide whether unisexual
+    should be scored at family rank.
+  question6: |
+    Family counts are scored at family rank only, because numbers are never
+    copied down: male perianth lobes 1--2, one stamen per male flower, one
+    carpel per female flower, one seed per samara (p. 119). The species
+    therefore have no values for these traits although the family states
+    them without exception. Keep the rule, or allow invariant family counts
+    to be copied?
+  question7: |
+    Bark texture: "fissured" scored as furrowed and "flakes", "flaking",
+    "flaky" as flaky. Unmapped: "ridged" (Casuarina, C. equisetifolia),
+    "scaly" (C. terminale, G. nobile), "peeling off into long broad strips"
+    (C. terminale) and "shedding off" / "peeling off" into flakes (the flaky
+    value is kept). Adema_1996's dictionary maps "peeling" to papery; that
+    is not applied here. Should "ridged" count as furrowed, and strips as
+    fibrous or stringy?
+  question8: |
+    Vouchers (raw/Pungga_1996_vouchers.csv): the Fig. 3 caption reads "(A--D
+    and from Chew CWL 1389, ...)" (p. 126; image-checked, the gap is in the
+    print). Part F (samara) is the only part not otherwise cited, so the
+    missing letter is probably F; it is not inferred. The C. equisetifolia
+    type is "Rumphius, Herbarium Amboniense 3 (1743) t. 57", an
+    illustration, with no status printed; it is recorded with a blank
+    status. Confirm both.
+  question9: |
+    Candidate traits with no entry in config/traits.yml (rows unmapped, see
+    raw/unmapped_terms.csv): needle-twig characters other than internode
+    length and thickness (twig length, ribs, furrows, stomata, furrow hairs),
+    scale-leaves per node and scale-leaf size and shape, fruit cone
+    characters (left unmapped, as in the AusTraits flora datasets), bole form
+    (straight, cylindrical, twisted), crown shape, wood hardness and
+    heartwood colour, stigma branches, floral bracts and bracteoles,
+    polyembryony ("often with more than one embryo") and cotyledon number,
+    caducous male perianth, altitude (sea level to 2000 m; species 100--1500
+    m, to 1000 m, 600--1800 m), habitat and soil (beach sand, kerangas,
+    ultramafic soils, peat swamp), gregarious growth, legal protection
+    (C. equisetifolia, Sarawak) and uses. Which, if any, should be added
+    centrally?

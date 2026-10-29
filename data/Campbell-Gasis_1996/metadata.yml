@@ -1,0 +1,608 @@
+source:
+  primary:
+    key: Campbell-Gasis_1996
+    bibtype: InBook
+    year: 1996
+    author: E. J. F. Campbell-Gasis
+    title: Scyphostegiaceae
+    booktitle: Tree Flora of Sabah and Sarawak, Volume 2
+    editor: E. Soepadmo and K. M. Wong and L. G. Saw
+    publisher:
+      Sabah Forestry Department and Forest Research Institute Malaysia and
+      Sarawak Forestry Department
+    place: Kepong, Malaysia
+    pages: 375--378
+    isbn: 983-9592-56-4
+contributors:
+  data_collectors:
+    - last_name: Campbell-Gasis
+      given_name: E. J. F.
+      ORCID: .na
+      affiliation: Taman Fajar, Lahad Datu, Sabah, Malaysia
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '1996'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description: |
+    To describe the morphology, distribution and ecology of the
+    Scyphostegiaceae, a monogeneric family with one species (Scyphostegia
+    borneensis) endemic to Borneo, as part of the Tree Flora of Sabah and
+    Sarawak.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    Trait values were transcribed by hand (raw/build_trait_data.R, with
+    flora_hand()) from the text layer of the 2007 electronic version of the
+    treatment (L. G. Saw and B. Aslina), which is born-digital
+    (assets/myflora_metadata.csv), clause by clause, from the genus and
+    species descriptions and the Ecology, Uses and Notes paragraphs (PDF pages
+    7--10, printed 375--378). The text layer was not routinely checked
+    against page images: flora_layer_flags() found no unmapped glyphs and no
+    break in the printed-page offset on the treatment pages. Only PDF page 9
+    (printed 377), a plate with no text layer, was image-checked, for its
+    figure caption (voucher). Keys were not used (the treatment has none).
+    Each value keeps the clause it came from (trait_value_raw), the source
+    term (trait_value) and the page. Several values are listed in text
+    order; a parenthetical extreme a--b(--c) is recorded as a typical range
+    on usually rows plus an extreme_range row; a single or "c." value is a
+    mean and "to X" a maximum. The family has one genus, so there is no
+    family description; categorical values stated singly and without
+    qualification in the genus description are applied to the species, which
+    is silent on those traits (trait_scoring_method = inferred_from_genus).
+    Numeric genus values are not copied down.
+  original_file:
+    Scyphostegiaceae.pdf (Campbell-Gasis 1996, Tree Flora of Sabah and Sarawak
+    vol. 2, pp. 375--378; electronic version 2007)
+  notes: |
+    data.csv is raw/trait_data.csv (written by raw/build_trait_data.R) with
+    three columns added by flora_make_data(): value (the source term for
+    categorical traits, mapped with substitutions), trait_scoring_method
+    (from rank_scored_from) and source_id. Taxon names are as printed. The
+    genus description is kept as genus-rank records as well as copied to the
+    species. Species description values have population region Sabah and
+    Sarawak; the species is endemic to Borneo and also known in Kalimantan,
+    and the Ecology and Uses paragraphs state Sabah or Sarawak separately. One
+    source typo ("chartaccous", p. 376) is repaired in raw/source_fixes.csv;
+    it is in an unmapped clause. Every clause with no trait in
+    config/traits.yml stays in raw/trait_data.csv as an unmapped record
+    (summary in raw/unmapped_terms.csv): exudate (absent), twig angularity,
+    stipules, venation, raceme units and bracts, tepal sizes and fusion,
+    staminal column, disc glands, ovary, style and stigma, ovules and aril,
+    fruit ribs and dehiscence pattern, seed hairs and base, funicle, inner
+    bark and wood colour, altitude, habitat, distribution, phenology (see
+    questions), uses (fish poison), taxonomy and the differential note.
+    Type and figure specimens are listed in raw/Campbell-Gasis_1996_vouchers.csv.
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: bark_colour
+    unit_in: .na
+    trait_name: bark_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Outer bark colour; inner bark and wood colour are not scored.
+  - var_in: bark_texture
+    unit_in: .na
+    trait_name: bark_texture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Outer bark surface (smooth); lenticels and thickness stay unmapped.
+  - var_in: flower_anther_connective_extension
+    unit_in: .na
+    trait_name: flower_anther_connective_extension
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Common apical connective produced above the anthers (male flowers), scored as present_general.
+  - var_in: flower_anther_dehiscence
+    unit_in: .na
+    trait_name: flower_anther_dehiscence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Anthers dehiscing lengthwise, scored as longitudinal_slit.
+  - var_in: flower_anther_length
+    unit_in: unit
+    trait_name: flower_anther_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Anther length (male flowers).
+  - var_in: flower_anther_orientation
+    unit_in: .na
+    trait_name: flower_anther_orientation
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Anthers extrorse.
+  - var_in: flower_bract_length
+    unit_in: unit
+    trait_name: flower_bract_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Length of the tubular bracts, each subtending a single flower, given separately for male and female inflorescences (entity_measured).
+  - var_in: flower_fertile_stamens_count
+    unit_in: unit
+    trait_name: flower_fertile_stamens_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Stamen number in male flowers (genus description).
+  - var_in: flower_gynoecium_placentation
+    unit_in: .na
+    trait_name: flower_gynoecium_placentation
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Placentation as stated in the genus description (see questions).
+  - var_in: flower_ovary_position
+    unit_in: .na
+    trait_name: flower_ovary_position
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Ovary superior (female flowers, genus description).
+  - var_in: flower_perianth_merism
+    unit_in: unit
+    trait_name: flower_perianth_merism
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      3 outer and 3 inner tepals read as merism 3 (genus description).
+  - var_in: flower_perianth_parts_count
+    unit_in: unit
+    trait_name: flower_perianth_parts_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Perianth 6-lobed; lobes (tepals) of the connate perianth counted as parts (genus description).
+  - var_in: flower_perianth_symmetry
+    unit_in: .na
+    trait_name: flower_perianth_symmetry
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Flowers radially symmetrical, scored as actinomorphic_general.
+  - var_in: flower_perianth_whorls_count
+    unit_in: unit
+    trait_name: flower_perianth_whorls_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      3 outer and 3 inner tepals read as two perianth whorls (genus description).
+  - var_in: flower_structural_sex_type
+    unit_in: .na
+    trait_name: flower_structural_sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Flowers unisexual (genus description).
+  - var_in: flower_tube_length
+    unit_in: unit
+    trait_name: flower_tube_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Perianth (tepal) tube length, given separately for male and female flowers (entity_measured).
+  - var_in: fruit_dehiscence
+    unit_in: .na
+    trait_name: fruit_dehiscence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Fruits dehiscent capsules (genus description).
+  - var_in: fruit_fleshiness
+    unit_in: .na
+    trait_name: fruit_fleshiness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Fruits fleshy capsules (genus description).
+  - var_in: fruit_length
+    unit_in: unit
+    trait_name: fruit_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Fruit length; first dimension of 'L x W' read as length.
+  - var_in: fruit_type
+    unit_in: .na
+    trait_name: fruit_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Fruit a capsule (genus description).
+  - var_in: fruit_width
+    unit_in: unit
+    trait_name: fruit_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Fruit width; second dimension of 'L x W'.
+  - var_in: inflorescence_length
+    unit_in: unit
+    trait_name: inflorescence_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Whole inflorescence length, given separately for male and female inflorescences (entity_measured).
+  - var_in: inflorescence_type
+    unit_in: .na
+    trait_name: inflorescence_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Basic inflorescence unit a short-peduncled raceme; arrangement of the units stays unmapped (see questions).
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaf apex shape.
+  - var_in: leaf_base_shape
+    unit_in: .na
+    trait_name: leaf_base_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaf base shape.
+  - var_in: leaf_compoundness
+    unit_in: .na
+    trait_name: leaf_compoundness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaves simple (genus description).
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Leaf (lamina) length; typical range on usually rows and the parenthetical extreme on an extreme_range row.
+  - var_in: leaf_margin
+    unit_in: .na
+    trait_name: leaf_margin
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaf margin serrulate, scored as toothed_serrate.
+  - var_in: leaf_phyllotaxis
+    unit_in: .na
+    trait_name: leaf_phyllotaxis
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaves alternate (genus description).
+  - var_in: leaf_shape
+    unit_in: .na
+    trait_name: leaf_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaf shape; narrow-oblong scored as narrowly_oblong; obovate-oblong has no level and stays unmapped.
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Leaf (lamina) width; typical range on usually rows and the parenthetical extreme on an extreme_range row.
+  - var_in: pedicel_length
+    unit_in: unit
+    trait_name: pedicel_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Pedicel length of male flowers.
+  - var_in: peduncle_length
+    unit_in: unit
+    trait_name: peduncle_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Peduncle length, read as that of the raceme units (entity_measured male or female raceme unit).
+  - var_in: petiole_length
+    unit_in: unit
+    trait_name: petiole_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Petiole length; typical range on usually rows and the parenthetical extreme on an extreme_range row.
+  - var_in: petiole_shape
+    unit_in: .na
+    trait_name: petiole_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaf base often decurrent down the petiole, scored as decurrent with commonness qualifier often.
+  - var_in: petiole_width
+    unit_in: unit
+    trait_name: petiole_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Petiole thickness scored as width; typical value on a usually row and the parenthetical extreme on an extreme_range row.
+  - var_in: plant_diameter_breast_height
+    unit_in: unit
+    trait_name: plant_diameter_breast_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Stem diameter as printed ("to 20 m tall, 40 cm diameter"), read as a maximum; height of measurement not stated.
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Habit (shrub or tree).
+  - var_in: plant_height
+    unit_in: unit
+    trait_name: plant_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Maximum plant height.
+  - var_in: seed_length
+    unit_in: unit
+    trait_name: seed_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Seed length; funicle (c. 3 mm) given separately and not included.
+  - var_in: seed_surface_hairs
+    unit_in: .na
+    trait_name: seed_surface_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Seeds shortly erect-patent hairy over the whole surface, scored as hairs (genus description).
+  - var_in: seed_width
+    unit_in: unit
+    trait_name: seed_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Seed width; second dimension of 'L x W'.
+  - var_in: sex_type
+    unit_in: .na
+    trait_name: sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Plants dioecious (genus description).
+substitutions:
+  - trait_name: bark_colour
+    find: 'dark_green dark_brown blackish'
+    replace: 'green brown_dark black'
+  - trait_name: flower_anther_connective_extension
+    find: 'connective produced above the anthers'
+    replace: 'present_general'
+  - trait_name: flower_anther_dehiscence
+    find: 'dehiscing lengthwise'
+    replace: 'longitudinal_slit'
+  - trait_name: flower_perianth_symmetry
+    find: 'radially symmetrical'
+    replace: 'actinomorphic_general'
+  - trait_name: fruit_type
+    find: 'capsules'
+    replace: 'capsule'
+  - trait_name: inflorescence_type
+    find: 'racemes'
+    replace: 'raceme'
+  - trait_name: leaf_margin
+    find: 'serrulate'
+    replace: 'toothed_serrate'
+  - trait_name: leaf_shape
+    find: 'narrow-oblong'
+    replace: 'narrowly_oblong'
+  - trait_name: plant_growth_form
+    find: 'shrubs trees'
+    replace: 'shrub tree'
+  - trait_name: seed_surface_hairs
+    find: 'hairy'
+    replace: 'hairs'
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1: |
+    Placentation: the genus description says "ovules numerous, crowded on
+    the slightly convex base of the ovary ... placentation parietal" (p. 376).
+    Ovules on the base of the ovary read as basal, but the text names
+    parietal. flower_gynoecium_placentation is scored parietal as printed
+    (genus row and its copy to S. borneensis, 2 rows). Keep parietal, change
+    to basal, or leave unmapped?
+  question2: |
+    Carpel number: the ovary is "1-locular" with "stigmatic lobes 9--12" and
+    parietal placentation, and the fruit is "9--12-ribbed ... breaking up ...
+    into 9--12 segments" (pp. 375--376). The usual rule (one locule per
+    carpel) would give 1 carpel, which these features contradict, so
+    flower_structural_carpels_count is not scored. Leave unscored, or score
+    9--12 carpels from the stigma lobes and fruit segments?
+  question3: |
+    Inflorescence: "basic units of short-peduncled racemes ... the
+    tubular-bracteate raceme units solitary in the distal leaf axils or
+    arranged on a slender flowering main stalk terminal to a leafy branch"
+    (p. 375). The author notes that this interpretation differs from van
+    Steenis (1957). inflorescence_type is scored raceme for the basic unit
+    (genus row and its copy to the species), and the arrangement of units is
+    unmapped. Should axillary and terminal also be scored, or should the
+    compound structure be scored as panicle?
+  question4: |
+    Perianth counts from "perianth 6-lobed (3 outer and 3 inner tepals),
+    ... connate" (p. 375): flower_perianth_parts_count 6,
+    flower_perianth_whorls_count 2 and flower_perianth_merism 3, all at genus
+    rank only (numbers are not copied down). Confirm that the lobes of a
+    connate perianth count as parts. flower_perianth_fusion_categorical is
+    not scored: male lobes are "shorter than the tube" and female lobes
+    "longer than the tube". Should it be scored (for example
+    perianth_parts_partially_fused, by sex)?
+  question5: |
+    The perianth tube is scored as flower_tube_length (males 4--5 mm,
+    females c. 2 mm; p. 376), although the trait may be intended for a
+    corolla tube. Tepal lobe sizes (male outer c. 3 x 2 mm, inner c. 2 x 1.5
+    mm; female c. 6 x 4 mm) have no trait for petaloid tepals and stay
+    unmapped. Confirm the tube mapping, and decide whether tepal lobe length
+    and width should be a trait or go to flower_petal_length.
+  question6: |
+    Stamens "3, connate into in a column with common apical connective
+    produced above the anthers, anthers 4-locular, extrorse, dehiscing
+    lengthwise" (p. 375). Scored: flower_fertile_stamens_count 3,
+    flower_anther_connective_extension present_general,
+    flower_anther_orientation extrorse, flower_anther_dehiscence
+    longitudinal_slit. Not scored: the fusion into a column
+    (flower_filament, flower_filament_fusion; degree not stated) and the
+    "staminal column 2--3 mm long" (p. 376), which is not a single stamen
+    length. Confirm, and decide whether the column length should go to
+    flower_stamen_length.
+  question7: |
+    "Shrub or tree to 20 m tall, 40 cm diameter" (p. 376): "to" is read as
+    governing the diameter as well, so plant_diameter_breast_height is
+    scored as a 40 cm maximum (1 row). The height at which diameter was
+    measured is not stated. Keep as maximum, or record as mean?
+  question8: |
+    Term mappings to confirm: leaf margin "serrulate" to toothed_serrate;
+    leaf "narrow-oblong" to narrowly_oblong; "radially symmetrical" to
+    actinomorphic_general; bark "dark green to dark brown or blackish" to
+    green brown_dark black; seeds "shortly erect-patent hairy over whole
+    surface" to seed_surface_hairs hairs (the seed hairs are not scored as a
+    dispersal_appendage).
+  question9: |
+    Petiole "1(--3) mm thick" (p. 376) is scored as petiole_width (usually 1
+    mm, extreme maximum 3 mm). Confirm that thickness can be recorded as
+    width, or leave it unmapped.
+  question10: |
+    Inflorescence parts (p. 376): the male and female "peduncles" (2.5--20
+    mm; 12--35 mm) are read as those of the raceme units and scored as
+    peduncle_length with entity_measured male or female raceme unit. The
+    bracts each subtend one flower, so their lengths are scored as
+    flower_bract_length (male 5--10 mm; female 1--4 mm, first dimension of
+    "1--4 x 2--3 mm" read as length although the bract may be wider than
+    long). Confirm both readings.
+  question11: |
+    Ecology: "Flowering and fruiting all the year around with local
+    variation" (p. 376). "with local variation" qualifies the statement, so
+    flowering_time and fruiting_time are not scored (default for qualified
+    statements). Score both as all year (yyyyyyyyyyyy), or leave unscored?
+  question12: |
+    "base rounded, often decurrent down the petiole" (p. 376): the decurrent
+    leaf base is scored as petiole_shape decurrent with commonness
+    qualifier "often" (1 row). Confirm the trait, and that "often" is
+    accepted in a species description.
+  question13: |
+    Candidate traits with no entry in config/traits.yml (rows unmapped, see
+    raw/unmapped_terms.csv): exudate absent; stipule size (1--2 x 1 mm),
+    shape and persistence (caducous); twig angularity; raceme unit length;
+    bract width; tepal lobe length and width; disc glands; staminal column
+    length; ovary size; ovule aril; funicle length; fruit rib and segment
+    number; altitude (20--1700 m, Sarawak); uses (leaves used as fish poison,
+    Sarawak). Which, if any, should be added centrally?

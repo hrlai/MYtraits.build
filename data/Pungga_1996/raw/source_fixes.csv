@@ -1,0 +1,5 @@
+pattern,replacement,page,reason
+"slightly protuding","slightly protruding",121,"C. equisetifolia fruit cone bracteoles: source typo 'protuding'. Unmapped clause; no value changes."
+"neither ridged nor with protuberences","neither ridged nor with protuberances",121,"Ceuthostoma genus fruit cone bracteoles: source typo 'protuberences'. Unmapped clause; no value changes."
+"globose cones-like structures","globose cone-like structures",123,"Gymnostoma genus female inflorescence: source typo 'cones-like'. Clause scored for inflorescence_shape only; no value changes."
+"c\. 2\.5 ⋅ 4\.5 cm","c. 2.5 x 4.5 cm",127,"G. sumatranum fruit cone: the text layer has U+22C5 (dot operator) from the unembedded Symbol font where the page shows a raised dot; read as the multiplication sign used elsewhere in the treatment. Unmapped clause; dimension order questioned in metadata. The same glyph is in the key (p. 125), which is not used."

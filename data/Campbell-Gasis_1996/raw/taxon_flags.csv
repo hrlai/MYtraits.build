@@ -1,0 +1,4 @@
+taxon_name,taxon_rank,status,n_rows,flag
+Scyphostegiaceae,family,accepted,2,Monogeneric family: no family description (TFSS guide); family statement and Taxonomy kept unmapped.
+Scyphostegia,genus,accepted,39,Monotypic genus; its description is copied down to the species.
+Scyphostegia borneensis,species,accepted,89,Endemic to Borneo; also known in Kalimantan.
