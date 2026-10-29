@@ -21,4 +21,14 @@ h2 <- mutate(h[1, ], entity_measured = NA_character_)
 own2 <- mutate(own, entity_measured = NA_character_)
 o2 <- flora_copy_down(h2, own2, mem)
 stopifnot(nrow(o2) == 1, o2$block == "s3")
+# flora_merge_duplicate_keys(): shared keys merge words; a single row keeps a
+# repeated word (Jutta_2012).
+m <- tibble(taxon_name = c("A", "A", "B"), trait = "t", value_type = "mode",
+  trait_value = c("yellow", "orange", "cracks in the rock in"),
+  trait_value_clean = trait_value, trait_value_raw = trait_value)
+mm <- flora_merge_duplicate_keys(m)
+stopifnot(
+  mm$trait_value[mm$taxon_name == "A"] == "yellow orange",
+  mm$trait_value[mm$taxon_name == "B"] == "cracks in the rock in"
+)
 cat("ok\n")

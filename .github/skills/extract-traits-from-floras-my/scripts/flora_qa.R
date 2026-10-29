@@ -14,7 +14,11 @@ lag <- dplyr::lag
 
 flora_qa <- function(
   id,
-  traits = yaml::read_yaml("config/traits.yml")$traits$elements
+  traits = yaml::read_yaml("config/traits.yml")$traits$elements,
+  unit_conversions = read_csv(
+    "config/unit_conversions.csv",
+    col_types = cols(.default = "c")
+  )
 ) {
   td <- read_csv(
     file.path("data", id, "raw", "trait_data.csv"),
@@ -97,14 +101,44 @@ flora_qa <- function(
       .groups = "drop"
     ) |>
     filter(is.finite(lo), is.finite(hi), lo > hi)
-  # allowed range in traits.yml (these rows are excluded at build)
+  # allowed range in traits.yml (these rows are excluded at build). The range
+  # is in the trait's unit, so convert each value first, as the build does
+  # (`unit_in: unit`); a unit with no conversion is listed with a blank value.
+  to_trait_unit <- \(v, from, to) {
+    if (is.na(v) || is.na(from) || is.na(to) || from == to) {
+      return(v)
+    }
+    f <- unit_conversions$`function`[
+      unit_conversions$unit_from == from & unit_conversions$unit_to == to
+    ]
+    if (length(f) != 1) {
+      return(NA_real_)
+    }
+    eval(parse(text = f), list(x = v))
+  }
   out$outside_allowed <- num |>
     mutate(
+      trait_unit = map_chr(trait, \(t) traits[[t]]$units %||% NA_character_),
+      value_in_trait_unit = pmap_dbl(list(v, unit, trait_unit), to_trait_unit),
       lo = map_dbl(trait, \(t) traits[[t]]$allowed_values_min %||% -Inf),
       hi = map_dbl(trait, \(t) traits[[t]]$allowed_values_max %||% Inf)
     ) |>
-    filter(!is.na(v), v < lo | v > hi) |>
-    select(taxon_name, trait, trait_value_clean, unit, lo, hi)
+    filter(
+      !is.na(v),
+      is.na(value_in_trait_unit) |
+        value_in_trait_unit < lo |
+        value_in_trait_unit > hi
+    ) |>
+    select(
+      taxon_name,
+      trait,
+      trait_value_clean,
+      unit,
+      value_in_trait_unit,
+      trait_unit,
+      lo,
+      hi
+    )
 
   # 5. categorical term -> level table: read it all
   levels_ok <- \(t, v) {

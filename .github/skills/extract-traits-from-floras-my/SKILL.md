@@ -476,6 +476,10 @@ Bespoke checklist (decisions that changed per family):
   axile or not stated. A 1-locular ovary with parietal placentation has
   several fused carpels: count stigma lobes, placentas or fruit valves when
   the text gives them, otherwise leave carpels unscored (Campbell-Gasis_1996).
+- **Glabrescent** ("becoming glabrous") describes a change with age, not a
+  state: never score it, keep it unmapped (user decision, 2026-10, Jutta_2012).
+  The dictionary seed blocks it for leaf, stem and fruit hairs. Coode_2018
+  scored it as glabrous on 5 rows with its own parser; do not follow that.
 - **Compound colours and shapes score every word.** Score each colour word in
   text order: "greyish brown" -> `grey brown`, "reddish brown" -> `red brown`,
   "greyish to reddish brown" -> `grey red brown`. Use a single level only when
@@ -574,6 +578,10 @@ Order: own rows, copy-down, inheritance, manual rows. Then
 `flora_finalise()` (column order, `a--b` dashes in `trait_value_raw`,
 `trait_value` and `notes`; `x` for multiplication in `trait_value_raw`;
 `in_traits.yml` computed from `traits.yml`) and `readr::write_csv(na = "")`.
+`flora_merge_duplicate_keys()` joins the words of `mode` rows that share a key
+into one space-delimited value with repeated words removed, so a source term
+in a merged row should be the level words, not a phrase. A key with one row
+keeps its source term as written.
 Columns:
 `taxon_name, taxon_rank, entity_type, rank_scored_from, commonness_qualifier, population_region, form, entity_measured, trait, in_traits.yml, trait_value_raw, trait_value, trait_value_clean, value_type, unit, source_section, pdf_page, printed_page, notes, source_id`.
 `source_id` is filled for every row that cites another work (never inferred by
@@ -663,7 +671,9 @@ from the other source, then check:
    or values the build will exclude, numeric ranges and outliers, mixed units
    per trait, measurement misses, leftover en dashes, calendar length, core
    trait coverage, contexts, traits and `source_id` used in `data.csv` but
-   missing from `metadata.yml`.
+   missing from `metadata.yml`. `outside_allowed` converts each value to the
+   trait's unit with `config/unit_conversions.csv`, as the build does; a blank
+   `value_in_trait_unit` means no conversion exists and the build will fail.
 2. `flora_dataset_test("<id>")`: quiet wrapper for
    `traits.build::dataset_test()`.
 3. `traits.build::dataset_process()` (see `build.R` for the call): inspect
@@ -691,6 +701,9 @@ from the other source, then check:
 | `manual_rows.csv` columns differ (Coode has no `rank_scored_from`) | same columns as `trait_data.csv` |
 | Voucher vocabulary differs (`illustrated specimen` vs `figure specimen`; `possible type`) | one vocabulary, step 8 |
 | Hedged statements scored in Yao, skipped in Coode | decide once per family, ask |
+| `flora_merge_duplicate_keys()` dropped repeated words from single-row values (Adema_1996 calendars "July to November January"; fixed 2026-10) | rerun the build script; single rows now keep their term |
+| `flora_qa()` compared values with `traits.yml` ranges in the source unit (false flags for mm values of cm traits; fixed 2026-10) | trust `outside_allowed`; it converts units |
+| Dictionary seed mapped glabrescent to glabrous ahead of the Adema_1996 blocking rows (fixed 2026-10) | glabrescent is never scored |
 | Values outside `traits.yml` levels or ranges reach `excluded_data` (Coode 6 terms and 2 ranges, Lim 3 terms) | QA lists them before the build; record as questions, change `traits.yml` centrally |
 | One trait with mixed units (Coode `fruit_length` cm/mm; Lim DBH cm/m) | expected; check `unit` per row, QA lists them |
 | `dataset_process()` not run (Yao) | step 11 |

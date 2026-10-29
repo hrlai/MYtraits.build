@@ -217,13 +217,20 @@ flora_merge_duplicate_keys <- function(d) {
   )
   key <- intersect(key, names(d))
   mergeable <- d$value_type %in% "mode" & !is.na(d$trait) & d$trait != ""
+  # A key with one row keeps its source term as written: splitting it into
+  # unique words would drop a repeated word ("cracks in the bare granite
+  # rock" -> "cracks the bare granite rock", Jutta_2012).
+  merge_words <- \(x) {
+    x <- x[!is.na(x)]
+    if (length(x) <= 1) {
+      return(if (length(x)) x else NA_character_)
+    }
+    paste(unique(unlist(str_split(x, " "))), collapse = " ")
+  }
   keyed <- d[mergeable, ] |>
     group_by(across(all_of(key))) |>
     summarise(
-      across(
-        any_of(c("trait_value", "trait_value_clean")),
-        \(x) paste(unique(unlist(str_split(x[!is.na(x)], " "))), collapse = " ")
-      ),
+      across(any_of(c("trait_value", "trait_value_clean")), merge_words),
       trait_value_raw = paste(unique(trait_value_raw), collapse = " | "),
       across(everything(), dplyr::first),
       .groups = "drop"
