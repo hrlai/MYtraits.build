@@ -1,0 +1,1008 @@
+source:
+  primary:
+    key: Kiew_2015
+    bibtype: InBook
+    year: 2015
+    author: R. Kiew
+    title: Nymphaeaceae
+    booktitle: 'Flora of Peninsular Malaysia, Series II: Seed Plants, Volume 5'
+    editor: R. Kiew and R. C. K. Chung and L. G. Saw and E. Soepadmo
+    series: Malayan Forest Records No. 49
+    publisher: Forest Research Institute Malaysia
+    place: Kepong, Malaysia
+    pages: 207--219
+    isbn: 978-967-0622-39-2
+  secondary:
+    key: Williamson_1994
+    bibtype: InCollection
+    year: 1994
+    author: P. S. Williamson and E. L. Schneider
+    title: 'Floral aspects of Barclaya (Nymphaeaceae): pollination, ontogeny and structure'
+    booktitle: Plant Systematics and Evolution, Supplement 8
+    pages: 159--173
+    publisher: Springer
+    doi: 10.1007/978-3-7091-6910-0_9
+  secondary_2:
+    key: Mabberley_2008
+    bibtype: Book
+    year: 2008
+    author: D. J. Mabberley
+    title: 'Mabberley''s Plant-Book: A Portable Dictionary of Plants, their Classification and Uses'
+    edition: 3rd
+    publisher: Cambridge University Press
+    place: Cambridge
+contributors:
+  data_collectors:
+    - last_name: Kiew
+      given_name: R.
+      ORCID: .na
+      affiliation: Forest Research Institute Malaysia, Kepong, Malaysia
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '2015'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description: |
+    To describe the morphology, distribution and ecology of the Nymphaeaceae
+    of Peninsular Malaysia, represented by Barclaya (3 species) and Nymphaea
+    (2 species), as part of the Flora of Peninsular Malaysia.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    Trait values were transcribed by hand (raw/build_trait_data.R, with
+    flora_hand()) from the born-digital PDF text layer of the treatment,
+    clause by clause, from the family, genus and species descriptions and
+    the Ecology, Distribution, Uses, Conservation status, Note and Taxonomy
+    paragraphs. flora_layer_flags() found no unmapped glyphs and no
+    page-number breaks on the treatment pages (pdf 8--20 = pp. 207--219), so
+    no page images were checked; the only low-text page in the treatment
+    (p. 215) is Fig. 1. Keys were not used; figure and plate captions were
+    used for vouchers only. Each value keeps the clause it came from
+    (trait_value_raw), the source term (trait_value) and the page. Several
+    values are listed in text order, and alternatives qualified by a
+    commonness word (usually, sometimes, rarely) are recorded on separate
+    rows. A measured range is recorded as minimum and maximum values, with
+    parenthetical extremes on extreme_range rows; a single or "c." value is
+    a mean and "to X" a maximum. Categorical values stated singly and
+    without qualification in the family or genus description are applied to
+    member species whose own descriptions are silent, when every member
+    that describes the trait agrees (trait_scoring_method =
+    inferred_from_family / inferred_from_genus). Hedged statements
+    (suggest, possibly, appears, may) are not scored.
+  original_file:
+    Nymphaeaceae.pdf (Kiew 2015, Flora of Peninsular Malaysia Series II vol.
+    5, pp. 207--219)
+  notes: |
+    data.csv is raw/trait_data.csv (written by raw/build_trait_data.R) with
+    three columns added by flora_make_data(): value (the source term for
+    categorical traits, mapped with substitutions), trait_scoring_method
+    (from rank_scored_from) and source_id. Taxon names are as printed. Family
+    and genus descriptions are kept as family- and genus-rank records as well
+    as copied to member species. Species description and species Ecology
+    values have population region Peninsular Malaysia; the Nymphaea genus
+    flowering statement has Malaysia; statements cited from Williamson &
+    Schneider (1994) and family and genus values have none. Statements
+    explicitly from outside the flora region (Thailand, Borneo, Sumatra,
+    Sri Lanka, "elsewhere") and from cultivation in aquaria are kept as
+    unmapped records only. Leaf surface colour, reflectivity and hairs are
+    recorded per surface in entity_measured (upper surface, lower surface).
+    Every clause with no trait in config/traits.yml stays in
+    raw/trait_data.csv as an unmapped record (summary in
+    raw/unmapped_terms.csv): leaf position in the water (floating,
+    submerged, emergent), pedicel length, sepal number, width and colour,
+    petal and corolla-lobe number, corolla length, staminodes, vein number
+    and relief, basal lobes and sinus, petiole hairs and colour, rhizome
+    size, fruit shape, seed number, anthesis time, water depth, habitat,
+    distribution, conservation status, uses and taxonomy. No source repairs
+    were needed. Type and figure specimens are in
+    raw/Kiew_2015_vouchers.csv; raw/taxon_flags.csv lists the taxa.
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: breeding_system
+    unit_in: .na
+    trait_name: breeding_system
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Self-pollination (autogamy) and cleistogamy from the Ecology paragraphs, partly cited from Williamson & Schneider (1994).
+  - var_in: dispersal_appendage
+    unit_in: .na
+    trait_name: dispersal_appendage
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Arillate seeds (Nymphaea genus description).
+  - var_in: dispersal_syndrome
+    unit_in: .na
+    trait_name: dispersal_syndrome
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Seeds dispersed by water (Nymphaea genus Ecology, citing Mabberley 2008).
+  - var_in: flower_androecium_structural_phyllotaxis
+    unit_in: .na
+    trait_name: flower_androecium_structural_phyllotaxis
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Flower organs spirally arranged (family description).
+  - var_in: flower_anther_colour
+    unit_in: .na
+    trait_name: flower_anther_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Anther colour as stated; tinges not scored.
+  - var_in: flower_anther_length
+    unit_in: unit
+    trait_name: flower_anther_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Anther length as stated.
+  - var_in: flower_colour
+    unit_in: .na
+    trait_name: flower_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Petal colour (Nymphaea) or corolla-tube colour (Barclaya); Barclaya corolla-lobe colours by series are not scored.
+  - var_in: flower_diameter
+    unit_in: unit
+    trait_name: flower_diameter
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Width of the open flower ("opening ... cm across").
+  - var_in: flower_dichogamy
+    unit_in: .na
+    trait_name: flower_dichogamy
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Protogynous flowers (Nymphaea genus Ecology).
+  - var_in: flower_fertile_stamens_count
+    unit_in: unit
+    trait_name: flower_fertile_stamens_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Stamen number as stated; staminodes not counted.
+  - var_in: flower_filament_length
+    unit_in: unit
+    trait_name: flower_filament_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Filament length as stated (first dimension of "L x W").
+  - var_in: flower_gynoecium_placentation
+    unit_in: .na
+    trait_name: flower_gynoecium_placentation
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Lamellar placentation (family description), scored as laminar.
+  - var_in: flower_lifespan
+    unit_in: unit
+    trait_name: flower_lifespan
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Number of days a flower lasts (Ecology paragraphs).
+  - var_in: flower_perianth_phyllotaxis
+    unit_in: .na
+    trait_name: flower_perianth_phyllotaxis
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Flower organs spirally arranged (family description).
+  - var_in: flower_perianth_symmetry
+    unit_in: .na
+    trait_name: flower_perianth_symmetry
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Actinomorphic flowers (family description), scored as actinomorphic_general.
+  - var_in: flower_petal_length
+    unit_in: unit
+    trait_name: flower_petal_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Petal length; in Barclaya the length of the corolla lobes (first dimension of "L x W").
+  - var_in: flower_scent_production
+    unit_in: .na
+    trait_name: flower_scent_production
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Flowers stated to be fragrant, scented or smelling (Ecology paragraphs).
+  - var_in: flower_sepal_length
+    unit_in: unit
+    trait_name: flower_sepal_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Sepal length (first dimension of "L x W"); sepal width is kept unmapped.
+  - var_in: flower_stamen_length
+    unit_in: unit
+    trait_name: flower_stamen_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Length of the outer stamens (Nymphaea pubescens).
+  - var_in: flower_stigma_length
+    unit_in: unit
+    trait_name: flower_stigma_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Stigma length as stated.
+  - var_in: flower_structural_carpels_count
+    unit_in: unit
+    trait_name: flower_structural_carpels_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Carpel number as stated, or ovary locule number (one locule per carpel assumed).
+  - var_in: flower_structural_sex_type
+    unit_in: .na
+    trait_name: flower_structural_sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Bisexual flowers (family description).
+  - var_in: flower_style_differentiation
+    unit_in: .na
+    trait_name: flower_style_differentiation
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Style absent (Nymphaea genus description).
+  - var_in: flower_tube_length
+    unit_in: unit
+    trait_name: flower_tube_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Length of the corolla tube (Barclaya).
+  - var_in: flower_visitor
+    unit_in: .na
+    trait_name: flower_visitor
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Trigona bees visiting cultivated plants (Nymphaea nouchali Ecology), scored as stingless_bee.
+  - var_in: flowering_time
+    unit_in: .na
+    trait_name: flowering_time
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Months with flowering as stated or from flowering collections; "throughout the year" is yyyyyyyyyyyy.
+  - var_in: fruit_colour
+    unit_in: .na
+    trait_name: fruit_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Berry colour as stated.
+  - var_in: fruit_dehiscence
+    unit_in: .na
+    trait_name: fruit_dehiscence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Berry splitting or dehiscing irregularly scored as dehiscent.
+  - var_in: fruit_length
+    unit_in: unit
+    trait_name: fruit_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Berry length as stated.
+  - var_in: fruit_type
+    unit_in: .na
+    trait_name: fruit_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Berry.
+  - var_in: fruit_width
+    unit_in: unit
+    trait_name: fruit_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Berry diameter, scored as width.
+  - var_in: inflorescence_type
+    unit_in: .na
+    trait_name: inflorescence_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Solitary flowers (family description).
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Lamina apex shape.
+  - var_in: leaf_arrangement
+    unit_in: .na
+    trait_name: leaf_arrangement
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaves spirally arranged (family) or in rosettes (Barclaya).
+  - var_in: leaf_base_shape
+    unit_in: .na
+    trait_name: leaf_base_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Lamina base shape; deeply and slightly cordate scored as cordate.
+  - var_in: leaf_compoundness
+    unit_in: .na
+    trait_name: leaf_compoundness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Simple lamina (family description).
+  - var_in: leaf_hairs_adult_leaves
+    unit_in: .na
+    trait_name: leaf_hairs_adult_leaves
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaves or upper lamina surface glabrous (entity_measured gives the surface).
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Lamina length (first dimension of "L x W").
+  - var_in: leaf_margin
+    unit_in: .na
+    trait_name: leaf_margin
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Lamina margin; sinuate has no level and is not scored.
+  - var_in: leaf_margin_posture
+    unit_in: .na
+    trait_name: leaf_margin_posture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Undulate lamina margin.
+  - var_in: leaf_shape
+    unit_in: .na
+    trait_name: leaf_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Lamina shape; broadly elliptic/oval scored as widely_elliptical, ovate-rotund as widely_ovate, rotund and circular as orbicular, ribbon-like as strap-shaped.
+  - var_in: leaf_surface_colour
+    unit_in: .na
+    trait_name: leaf_surface_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Lamina colour per surface (entity_measured upper surface or lower surface).
+  - var_in: leaf_surface_reflectivity
+    unit_in: .na
+    trait_name: leaf_surface_reflectivity
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Glossy upper lamina surface, scored as shiny.
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Lamina width (second dimension of "L x W").
+  - var_in: life_history
+    unit_in: .na
+    trait_name: life_history
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Perennial herbs.
+  - var_in: petiole_length
+    unit_in: unit
+    trait_name: petiole_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Petiole length as stated.
+  - var_in: petiole_width
+    unit_in: unit
+    trait_name: petiole_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Petiole diameter, scored as width; Barclaya values were measured on dry material.
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Herbs.
+  - var_in: plant_growth_substrate
+    unit_in: .na
+    trait_name: plant_growth_substrate
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Aquatic plants rooted in the substrate (aquatic_rooted); the marsh plant Barclaya rotundifolia scored as semiaquatic.
+  - var_in: pollination_syndrome
+    unit_in: .na
+    trait_name: pollination_syndrome
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Waterlilies insect pollinated by bees or beetles (family Ecology).
+  - var_in: seed_colour
+    unit_in: .na
+    trait_name: seed_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Seed colour as stated.
+  - var_in: seed_length
+    unit_in: unit
+    trait_name: seed_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Seed length (first dimension of "L x W", or "c. X mm long").
+  - var_in: seed_shape
+    unit_in: .na
+    trait_name: seed_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Seed shape; globose scored as globoid.
+  - var_in: seed_surface_texture
+    unit_in: .na
+    trait_name: seed_surface_texture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Spiny seeds or testa with spines (Barclaya).
+  - var_in: seed_width
+    unit_in: unit
+    trait_name: seed_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Seed width (second dimension of "L x W") or diameter.
+  - var_in: stem_growth_habit
+    unit_in: .na
+    trait_name: stem_growth_habit
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Rhizomatous plants; Barclaya longifolia and B. motleyi also "submerged" aquatic herbs.
+  - var_in: vegetative_reproduction_ability
+    unit_in: .na
+    trait_name: vegetative_reproduction_ability
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Barclaya propagates vegetatively by runners or small tubers (genus Ecology).
+substitutions:
+  - trait_name: breeding_system
+    find: 'cleistogamous'
+    replace: 'cleistogamy'
+  - trait_name: breeding_system
+    find: 'self pollinating'
+    replace: 'autogamy'
+  - trait_name: breeding_system
+    find: 'self-pollinating'
+    replace: 'autogamy'
+  - trait_name: dispersal_appendage
+    find: 'arillate'
+    replace: 'aril'
+  - trait_name: dispersal_syndrome
+    find: 'dispersed by water'
+    replace: 'hydrochory'
+  - trait_name: flower_androecium_structural_phyllotaxis
+    find: 'spirally arranged'
+    replace: 'spiral'
+  - trait_name: flower_anther_colour
+    find: 'pale_yellow dirty_white'
+    replace: 'yellow white'
+  - trait_name: flower_colour
+    find: 'dark_red purplish greenish_yellow'
+    replace: 'red_brown blue_purple yellow_orange'
+  - trait_name: flower_colour
+    find: 'deep_pink purple red'
+    replace: 'pink blue_purple red_brown'
+  - trait_name: flower_colour
+    find: 'deep_purple deep_red'
+    replace: 'blue_purple red_brown'
+  - trait_name: flower_colour
+    find: 'deep_violet-pink dark_red pinkish_maroon brownish'
+    replace: 'pink red_brown'
+  - trait_name: flower_colour
+    find: 'tinged pink'
+    replace: 'pink'
+  - trait_name: flower_colour
+    find: 'violet-blue purple pale_blue'
+    replace: 'blue_purple'
+  - trait_name: flower_colour
+    find: 'white'
+    replace: 'white_cream'
+  - trait_name: flower_colour
+    find: 'yellow pink red blue purple white'
+    replace: 'yellow_orange pink red_brown blue_purple white_cream'
+  - trait_name: flower_colour
+    find: 'yellow pink red blue white'
+    replace: 'yellow_orange pink red_brown blue_purple white_cream'
+  - trait_name: flower_gynoecium_placentation
+    find: 'lamellar'
+    replace: 'laminar'
+  - trait_name: flower_perianth_phyllotaxis
+    find: 'spirally arranged'
+    replace: 'spiral'
+  - trait_name: flower_perianth_symmetry
+    find: 'actinomorphic'
+    replace: 'actinomorphic_general'
+  - trait_name: flower_scent_production
+    find: 'moderately sweetly scented'
+    replace: 'scent_produced'
+  - trait_name: flower_scent_production
+    find: 'pungent fermenting odour'
+    replace: 'scent_produced'
+  - trait_name: flower_scent_production
+    find: 'slightly fragrant'
+    replace: 'scent_produced'
+  - trait_name: flower_scent_production
+    find: 'strong stink'
+    replace: 'scent_produced'
+  - trait_name: flower_visitor
+    find: 'Trigona bees'
+    replace: 'stingless_bee'
+  - trait_name: fruit_colour
+    find: 'light_green'
+    replace: 'green'
+  - trait_name: fruit_colour
+    find: 'pinkish'
+    replace: 'pink'
+  - trait_name: fruit_dehiscence
+    find: 'dehiscing irregularly'
+    replace: 'dehiscent'
+  - trait_name: fruit_dehiscence
+    find: 'splitting'
+    replace: 'dehiscent'
+  - trait_name: fruit_dehiscence
+    find: 'splitting indehiscent'
+    replace: 'dehiscent indehiscent'
+  - trait_name: leaf_apex_shape
+    find: 'obtusely_acute'
+    replace: 'acute'
+  - trait_name: leaf_arrangement
+    find: 'in rosettes'
+    replace: 'rosette'
+  - trait_name: leaf_arrangement
+    find: 'spirally arranged'
+    replace: 'spiral'
+  - trait_name: leaf_margin
+    find: 'dentate'
+    replace: 'toothed_dentate'
+  - trait_name: leaf_margin
+    find: 'entire dentate'
+    replace: 'entire toothed_dentate'
+  - trait_name: leaf_shape
+    find: 'broadly_elliptic circular'
+    replace: 'widely_elliptical orbicular'
+  - trait_name: leaf_shape
+    find: 'broadly_oval obovate ovate-rotund'
+    replace: 'widely_elliptical obovate widely_ovate'
+  - trait_name: leaf_shape
+    find: 'elliptic broadly_elliptic'
+    replace: 'elliptical widely_elliptical'
+  - trait_name: leaf_shape
+    find: 'narrowly oblong'
+    replace: 'narrowly_oblong'
+  - trait_name: leaf_shape
+    find: 'ribbon-like'
+    replace: 'strap-shaped'
+  - trait_name: leaf_shape
+    find: 'rotund'
+    replace: 'orbicular'
+  - trait_name: leaf_surface_colour
+    find: 'brownish_green purplish_green dull_green'
+    replace: 'green_brown green'
+  - trait_name: leaf_surface_colour
+    find: 'deep_green reddish'
+    replace: 'dark_green red'
+  - trait_name: leaf_surface_colour
+    find: 'pale_green pale_brown'
+    replace: 'pale_green brown'
+  - trait_name: leaf_surface_colour
+    find: 'purplish'
+    replace: 'purple'
+  - trait_name: leaf_surface_colour
+    find: 'red-brown'
+    replace: 'brown'
+  - trait_name: leaf_surface_colour
+    find: 'yellowish reddish_brown purplish_brown deep_magenta'
+    replace: 'yellow brown purple'
+  - trait_name: leaf_surface_reflectivity
+    find: 'glossy'
+    replace: 'shiny'
+  - trait_name: life_history
+    find: 'perennials'
+    replace: 'perennial'
+  - trait_name: plant_growth_form
+    find: 'herbaceous'
+    replace: 'herb'
+  - trait_name: plant_growth_form
+    find: 'herbs'
+    replace: 'herb'
+  - trait_name: plant_growth_substrate
+    find: 'aquatic'
+    replace: 'aquatic_rooted'
+  - trait_name: plant_growth_substrate
+    find: 'aquatic rooted in substrate'
+    replace: 'aquatic_rooted'
+  - trait_name: plant_growth_substrate
+    find: 'freshwater rooted in mud'
+    replace: 'aquatic_rooted'
+  - trait_name: plant_growth_substrate
+    find: 'marsh plant'
+    replace: 'semiaquatic'
+  - trait_name: plant_growth_substrate
+    find: 'marsh plants'
+    replace: 'semiaquatic'
+  - trait_name: pollination_syndrome
+    find: 'bees beetles'
+    replace: 'bee beetle'
+  - trait_name: seed_shape
+    find: 'broadly_ellipsoid'
+    replace: 'ellipsoid'
+  - trait_name: seed_shape
+    find: 'globose'
+    replace: 'globoid'
+  - trait_name: seed_shape
+    find: 'globose ellipsoid'
+    replace: 'globoid ellipsoid'
+  - trait_name: seed_surface_texture
+    find: 'spines'
+    replace: 'spiny'
+  - trait_name: stem_growth_habit
+    find: 'rhizome'
+    replace: 'rhizomatous'
+  - trait_name: stem_growth_habit
+    find: 'rhizomes'
+    replace: 'rhizomatous'
+  - trait_name: stem_growth_habit
+    find: 'submerged rhizome'
+    replace: 'submerged rhizomatous'
+  - trait_name: vegetative_reproduction_ability
+    find: 'propagate vegetatively'
+    replace: 'vegetative'
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1: |
+    Barclaya ovary position conflicts within the treatment. The family
+    description (p. 207) says "gynoecium inferior (Barclaya)" and the family
+    Taxonomy (p. 208) says "the gynoecium is completely inferior", and the
+    corolla tube is "adnate to the syncarpous ovary" (p. 209); but the genus
+    description (p. 209) and the key to genera (p. 208) say "Flowers
+    hypogynous". flower_ovary_position is not scored for Barclaya. Which is
+    correct: inferior, or hypogynous (superior)?
+  question2: |
+    Nymphaea "Flowers perigynous" (p. 216). flower_ovary_position has no
+    perigynous level, so ovary position is not scored for Nymphaea. Should
+    perigynous be mapped (for example to half_inferior), or should a level or
+    a separate trait for hypanthium position be added centrally?
+  question3: |
+    Leaf position in the water has no trait: "floating, submerged or rarely
+    emergent" (family), "submerged or just above the water surface"
+    (Barclaya), "Leaves mostly floating on the water surface" (Nymphaea),
+    and per-species statements (B. rotundifolia leaves "above the water
+    surface"). All are kept unmapped. Add a candidate trait such as
+    leaf_position_in_water (floating, submerged, emergent, above_water)?
+  question4: |
+    Growth habit of aquatics. "Submerged aquatic herb" (B. longifolia, B.
+    motleyi) is scored as stem_growth_habit "submerged rhizomatous" and
+    plant_growth_substrate aquatic_rooted; "marsh plant" (B. rotundifolia
+    and family "rarely marsh plants") is scored semiaquatic. Rhizome
+    statements are scored stem_growth_habit rhizomatous rather than
+    clonal_spread_mechanism rhizome or storage_organ rhizome_fleshy
+    (Barclaya "rhizome fleshy, creeping"). Confirm these mappings.
+  question5: |
+    plant_growth_substrate is not scored for the two Nymphaea species: their
+    descriptions are silent, and the family Ecology "Confined to freshwater
+    ... rooted in mud" (p. 207) cannot be copied down because B. rotundifolia
+    is semiaquatic. Should Nymphaea nouchali and N. pubescens receive
+    aquatic_rooted from the family Ecology statement?
+  question6: |
+    Pedicel length is given for every species (for example B. longifolia
+    "(4--)15--30 cm", B. motleyi "(5--)10.5--19 cm long, lengthening to
+    (9.5--)22--26.5 cm in fruit") but there is no pedicel trait; all are
+    unmapped. Add a candidate trait pedicel_length (with a fruiting context)?
+  question7: |
+    Sepal and petal characters without a trait: sepal width (second
+    dimension of "L x W"), sepal number, sepal colour, petal or corolla-lobe
+    number, corolla length (B. longifolia "corolla 20--25 mm long") and
+    staminode number (Barclaya "staminodia 10--20") are unmapped. Candidate
+    traits: flower_sepal_width, flower_sepal_count, flower_petal_count,
+    flower_corolla_length. Which should be added?
+  question8: |
+    In Barclaya the petals are connate into a tube; corolla-lobe length
+    ("lobes 12--15, 7--9 x 3--5 mm") is scored as flower_petal_length and
+    tube length as flower_tube_length (3 species). Confirm that corolla
+    lobes count as petals for flower_petal_length.
+  question9: |
+    Barclaya flower colour is scored from the corolla tube only (B.
+    longifolia "deep purple or deep red", B. motleyi "dark red, purplish or
+    greenish yellow", B. rotundifolia "deep violet-pink, dark red, pinkish
+    maroon or brownish"). The lobes are coloured by series (outermost
+    greenish, middle four magenta or pink-magenta, innermost white) and are
+    unmapped. Mappings: violet-pink to pink; dark red, pinkish maroon and
+    brownish to red_brown; purplish to blue_purple; greenish yellow to
+    yellow_orange. Should the lobe colours be added, and are the mappings
+    acceptable?
+  question10: |
+    Leaf surface colour mappings (entity_measured upper or lower surface):
+    purplish green and dull green to green; brownish green to green_brown;
+    red-brown, reddish brown and purplish brown to brown; deep magenta and
+    purplish to purple; reddish to red; pale brown to brown. Confirm, or
+    keep the compound colours unmapped.
+  question11: |
+    Leaf shape and apex mappings: "broadly oval" and "broadly elliptic" to
+    widely_elliptical; "ovate-rotund" to widely_ovate; "rotund" and
+    "circular" to orbicular; family "rarely ribbon-like" to strap-shaped;
+    B. motleyi apex "sometimes obtusely acute" to acute. Not scored: Nymphaea
+    "orbicular to sagittate" (sagittate is a base shape, not a leaf_shape
+    level), N. pubescens "to slightly peltate" and family "peltate or
+    attached at lamina base". Confirm, and should petiole attachment
+    (peltate vs basal) become its own trait?
+  question12: |
+    Leaf margin "sinuate" (Nymphaea genus) and "entire or slightly sinuate"
+    (N. nouchali) have no leaf_margin level; only "entire" and "dentate" are
+    scored. Barclaya "margin undulate" is scored as leaf_margin_posture
+    undulate. Should a sinuate level be added?
+  question13: |
+    Diameters are scored as widths: Barclaya petiole "diameter when dry"
+    (petiole_width, measured on dry material) and Nymphaea petiole diameter
+    (state not given); berry diameter (fruit_width); Barclaya genus seeds "c.
+    1 mm diameter" (seed_width). Keep the dry petiole measurements, and is
+    width the right home for a diameter?
+  question14: |
+    Seed size conflict: the Barclaya genus description gives seeds "c. 1 mm
+    diameter" (p. 209) but B. rotundifolia seeds are "c. 2 mm long" (p.
+    214). Both are scored. Is one a source error?
+  question15: |
+    Water depth conflict for B. motleyi: leaves "submerged in water to c. 65
+    cm deep" (Ecology, p. 212) vs "thriving underwater to a depth of c. 30
+    cm" (Taxonomy, p. 213). Both unmapped (no water-depth trait). Which is
+    correct, and is a water-depth trait wanted?
+  question16: |
+    Carpel number: ovary locules are scored as carpels (B. motleyi "locules
+    c. 9", N. nouchali "10--20 locules", N. pubescens "13--16 locules"),
+    assuming one locule per carpel. Stigma number (B. longifolia "stigmas c.
+    9", B. rotundifolia "about 9") is not used. Confirm, and should stigma
+    number count as carpel number in Barclaya?
+  question17: |
+    Hedged statements are not scored (default; the skill asks before
+    scoring any): Barclaya rotundifolia fly pollination ("suggested ... a
+    possible pollinator", Williamson & Schneider 1994); B. motleyi beetle
+    pollination ("suggesting", and inferred from flower structure); N.
+    nouchali bee pollination ("suggesting"); N. pubescens beetles ("possibly
+    beetles"); B. motleyi seasonal flowering ("suggesting"); B. rotundifolia
+    peak flowering February--April and August ("appears"); Barclaya fruit
+    dispersal by water and seeds on fur or feathers ("may be"). The
+    pollinator statements could go to pollination_vector_possible, which
+    exists for uncertain vectors. Score them there, or leave them unscored?
+  question18: |
+    Breeding system: B. longifolia autogamy (species Ecology, p. 211) and
+    "sometimes cleistogamous" (Williamson & Schneider 1994, genus Ecology);
+    B. motleyi autogamy from exclusion experiments (Williamson & Schneider
+    1994), while the same paragraph suggests beetle pollination. The place
+    of the 1994 study is not stated, so these rows have no population
+    region. Keep, and should pollination_syndrome self also be scored?
+  question19: |
+    Cultivated plants: N. nouchali "Cultivated plants attract Trigona bees"
+    is scored as flower_visitor stingless_bee; B. longifolia "In
+    cultivation, it flowers and fruits seasonally in July" and its aquarium
+    leaf sizes (30--80 x 6.5 cm) are unmapped. Should observations on
+    cultivated plants be scored, excluded, or flagged with a context?
+  question20: |
+    Flower lifespan: Nymphaea genus "last for 2--3 days" and N. pubescens
+    "last for 3 days" are scored as flower_lifespan; B. rotundifolia "blooms
+    for three days" (Williamson & Schneider 1994) is unmapped because it is
+    unclear whether one flower or the plant blooms for three days. Score it?
+  question21: |
+    Copy-down from Nymphaea to both species: flowering_time all year ("in
+    Malaysia flowering throughout the year"), protogynous, style absent,
+    aril, herb, perennial, rhizomatous, and dispersal_syndrome hydrochory
+    (genus Ecology citing Mabberley 2008). N. pubescens is "perhaps of
+    cultivated origin". Confirm these copy-downs.
+  question22: |
+    Copy-down from the family to all five species: leaf_compoundness
+    simple, flower_perianth_symmetry actinomorphic_general, bisexual,
+    inflorescence solitary, placentation laminar (from "lamellar"). Family
+    "organs spirally arranged" is not copied because Barclaya petals are
+    connate and its stamens epipetalous. Confirm, especially actinomorphic
+    for Barclaya, whose corolla lobes differ by series.
+  question23: |
+    Barclaya seeds are spiny and "without an aril". seed_surface_texture
+    spiny is scored; dispersal_appendage is not (no "spines" or "none" row),
+    because the treatment only suggests epizoochory. Should
+    dispersal_appendage spines be scored from the morphology, as winged
+    seeds were scored wings in Berhaman_1995?
+  question24: |
+    B. motleyi seeds "germinate within 48--72 hours on wet mud but do not
+    germinate when submerged (Lok et al., Nature in Singapore 2 (2009) 237)"
+    is unmapped: the cited study could not be verified (title unknown) and
+    was probably made in Singapore. Score seed_germination_time 2--3 d with
+    that source, or leave unmapped?
+  question25: |
+    Scent: B. motleyi "produces a strong stink at night" (pers. comm.) and
+    B. rotundifolia "pungent fermenting odour" (Williamson & Schneider 1994)
+    and "smelling of rotten meat" (specimen Poore 6415) are scored as
+    flower_scent_production scent_produced. B. longifolia smelling of
+    "decomposing prawns" in Thailand is outside the flora region and not
+    scored. Confirm.
+  question26: |
+    Family-rank values from general statements: "Waterlilies are insect
+    pollinated either by bees ... or beetles" (family Ecology) is scored as
+    family pollination_syndrome "bee beetle", and the family numeric ranges
+    (stamens 14 to many, carpels 3--40) include genera not in the region.
+    Keep these family-rank rows?
+  question27: |
+    N. pubescens "filaments narrowly triangular, outer stamens 35--40 mm
+    long, inner ones 6--17 x 1--9 mm": only the outer stamens are scored
+    (flower_stamen_length, entity_measured outer stamens); "inner ones" may
+    mean inner stamens or filaments and is unmapped. "a short appendage less
+    1 mm long" is read as "less than 1 mm" (unmapped). Which organ is meant?
+  question28: |
+    Voucher issues (raw/Kiew_2015_vouchers.csv): N. pubescens type printed
+    "East India (no specimen cited). (M, barcode M0171693)", with no status;
+    the type of B. motleyi var. kunstleri, Kunstler 10866, is printed from
+    "Bera, Perak" although Tasik Bera is in Pahang; N. nouchali and N.
+    stellata type statuses are not stated. Confirm how to record these.

@@ -1,0 +1,141 @@
+organ,character,n_taxa,example_taxon,example_text,printed_page
+,conservation status,5,Barclaya longifolia,Global Status--Least Concern. ... Peninsular Malaysia Red List--Endangered B2ab(iii). ...,211
+leaf,position in water (candidate trait),4,Nymphaeaceae,"floating, submerged or rarely emergent (B. rotundifolia)",207
+,distribution,4,Barclaya,"India (Andaman Is.), Myanmar, Thailand, Sumatra, Peninsular Malaysia, Singapore, Borneo and New Guinea. Three species, all of which are native in Peninsular Malaysia.",209
+,uses,4,Nymphaeaceae,"The main value of the family is the ornamental waterlilies ... Several species, such as Nymphaea nouchali, yield edible seeds and rhizomes.",208
+fruit,shape,3,Barclaya longifolia,Berry globose,211
+lamina,thickness (descriptive),3,Barclaya longifolia,very thin,210
+flower,height above water,2,Nymphaea nouchali,Flowers held c. 30 cm above the water surface,217
+lamina,sinus,2,Nymphaea nouchali,sinus open,217
+petals,"number, shape",2,Nymphaea nouchali,"7--18, elliptic",217
+petals,"width, apex",2,Nymphaea nouchali,"petals ... x 4--11 mm, apex acute",217
+stigma,colour,2,Nymphaea nouchali,stigma golden yellow,217
+,distribution; native status (hedged),2,Nymphaea,"Cosmopolitan, c. 40 species. In Peninsular Malaysia represented by 2 species, one (N. pubescens) perhaps of cultivated origin.",216
+anthers,appendage,1,Nymphaea pubescens,with a short appendage less 1 mm long,219
+anthers,"subsessile, shape, apex",1,Barclaya longifolia,anthers subsessile ... oblong ... tip slightly apiculate,211
+anthers,"subsessile, tinge, shape, apex",1,Barclaya motleyi,"anthers subsessile ... tinged pink, oblong ... tip slightly apiculate",212
+anthers,"width, sterile appendage",1,Nymphaea nouchali,"x c. 0.75 mm with a deep purple, pointed sterile appendage 1.5 mm long",217
+bud,shape,1,Barclaya,buds narrowly ellipsoid,209
+carpels,fusion,1,Nymphaeaceae,joined or partly free,207
+clonal spread,"runners, tubers",1,Barclaya,by runners or by small tubers,209
+corolla,"fusion, adnation to ovary, lobe number and series",1,Barclaya,"connate into a corolla tube adnate to the syncarpous ovary, lobes (8--)12(--many), in several series inserted at different levels",209
+corolla,length (no corolla length trait),1,Barclaya longifolia,corolla 20--25 mm long,210
+corolla,"tube width, lobe number, shape, colour by series",1,Barclaya motleyi,"c. 4.5 mm wide, with (5--)12--15 lobes ... rounded and hood-like, 3 outermost lobes greenish, middle four larger and pink-magenta, eight innermost lobes reduced and white",212
+corolla lobes,"number, shape by series",1,Barclaya rotundifolia,"lobes 12--15 ... three outermost narrow and oblong, middle four shorter, and eight innermost rounded and cucullate",214
+corolla lobes,"number, shape, colour by series",1,Barclaya longifolia,"lobes 12--15 ... rounded and cucullate, outermost three greenish opening horizontally with a curved tip, middle four larger and magenta, innermost eight lobes reduced and white",210
+dispersal,"hydrochory, epizoochory hedged ('may be'), not scored",1,Barclaya,The pericarp disintegrates or ruptures irregularly as the mucilage inside swells and the spongy pericarp tissue enables the fruit to float so it may be dispersed by water currents. The spiny seeds ...,209
+filaments,shape,1,Nymphaea pubescens,filaments narrowly triangular,219
+filaments,"width, colour",1,Nymphaea nouchali,"filaments broad, yellow ... x 1.5 mm",217
+flower,anthesis time,1,Nymphaea nouchali,The day-blooming flowers ... expanding in the morning and closing at night.,217
+flower,anthesis time (nocturnal),1,Nymphaea pubescens,flowers open in the evening and close before the following afternoon,219
+flower,"anthesis time, thermogenesis",1,Nymphaeaceae,"night flowering species, some of which, e.g. Victoria spp., are thermogenic",207
+flower,blooming period of three days (flower or plant unclear); anthesis time,1,Barclaya rotundifolia,"They reported this species blooms for three days, the flowers opening in the morning ... and closing at dusk.",209
+flower,colour outside the flora region (not scored),1,Nymphaea nouchali,(elsewhere rosy red),217
+flower,"hypogynous (conflicts with 'gynoecium inferior (Barclaya)', p. 207)",1,Barclaya,Flowers hypogynous,209
+flower,perigynous (no ovary-position level),1,Nymphaea,Flowers perigynous,216
+flower,position above water,1,Barclaya,The flowers of all species are held and open above the water surface,209
+flower,position above water; pedicel length,1,Nymphaeaceae,held above the water surface on long pedicels,207
+flower,scent (outside the flora region; not scored),1,Barclaya longifolia,"In Thailand, its flowers were recorded as smelling of 'decomposing prawns' (P.C.Boyce 903).",211
+flower,"size, showiness",1,Nymphaeaceae,Flowers often large and showy,207
+flower size,plasticity,1,Nymphaea nouchali,"The great range in flower size depends on edaphic factors, such as water depth and nutrient availability.",218
+flowering,peak months (hedged 'appears'; not scored),1,Barclaya rotundifolia,but peak flowering appears to occur in February to April and again in August,214
+flowering,seasonality (hedged 'suggesting'; not scored),1,Barclaya motleyi,suggesting it flowers seasonally,212
+"flowering, fruiting",July in cultivation (place not stated; not scored),1,Barclaya longifolia,"In cultivation, it flowers and fruits seasonally in July.",211
+fruit,development under water; coiled pedicel,1,Nymphaea,The fruits develop underwater often held down by a coiled pedicel.,216
+fruit,"number of pieces, jelly",1,Barclaya longifolia,"splitting into 2--3 pieces, exposing white jelly and seeds",211
+fruit,ripening at or below water; persistent perianth,1,Barclaya,"After pollination, the sepals and corolla tube persist, while the stalk bends so that the fruit ripens at or below the water surface.",209
+fruit,ripening below water,1,Nymphaeaceae,The fruit often ripens below the water surface.,207
+fruit,"shape, persistent corolla",1,Barclaya rotundifolia,Berry globose ... crowned by remnant of persistent corolla tube,214
+fruit,"shape, texture, persistent sepals",1,Barclaya,"Berry globose to ellipsoid, spongy ... sepals persistent",209
+fruit,shape; dehiscence ('disintegrating irregularly'),1,Nymphaea,"Berry globular to ellipsoid, disintegrating irregularly",216
+fruit,spongy texture,1,Nymphaeaceae,Fruit a spongy berry,207
+gynoecium,ovary position by genus,1,Nymphaeaceae,gynoecium inferior (Barclaya) or semi-inferior or superior (Nuphar and Ondinea),207
+indumentum,"type, distribution",1,Barclaya rotundifolia,"Indumentum tawny tomentose comprised of long, multicelluar uniseriate hairs densely covering petioles, lower surface of veins, pedicel and sparsely on outer surface of sepals.",214
+inner stamens or filaments,size (referent unclear),1,Nymphaea pubescens,inner ones 6--17 x 1--9 mm,219
+lamina,"'slightly peltate' (petiole attachment, qualified)",1,Nymphaea pubescens,to slightly peltate,219
+lamina,basal lobe length,1,Barclaya longifolia,basal lobes 0.2--0.7 cm long,210
+lamina,"basal lobe length, spacing, symmetry",1,Barclaya motleyi,lobes 0.3--1.5 cm long and lobes far apart ... sometimes unequal,212
+lamina,"basal lobe shape, length, overlap",1,Barclaya rotundifolia,"basal lobes rounded, to 4.5 cm long, sometimes overlapping",214
+lamina,blotches,1,Nymphaea nouchali,sometimes with brownish blotches,217
+lamina,bullate surface,1,Barclaya rotundifolia,slightly bullate above,214
+lamina,petiole attachment (peltate or basal),1,Nymphaeaceae,peltate or attached at lamina base,207
+lamina,sinus; hairs above,1,Nymphaea,"usually with a deep sinus on one side, usually glabrous above",216
+leaf,position in water by species (candidate trait),1,Barclaya,Only B. rotundifolia holds its leaves above the water surface; in B. longifolia and B. motleyi the leaves are submerged or when exposed by falling water levels lie prostrate on the wet substrate.,209
+leaf,venation,1,Barclaya,venation pinnate,209
+leaf margin,entire or undulate (margin and posture mixed),1,Barclaya,margin entire or undulate,209
+leaf margin,"tooth size, spacing",1,Nymphaea pubescens,teeth to 1--10 mm long and 6--22 mm apart,219
+leaf margin,upturned (genus not in the flora region),1,Nymphaeaceae,or upturned (Victoria spp.),207
+ovary,carpel fusion,1,Nymphaea,"ovary syncarpus at base, apocarpous to syncarpous apically",216
+ovary,colour; stigma number,1,Barclaya rotundifolia,"ovary dirty light orange, stigmas in a ring of about 9",214
+ovary,"syncarpy, carpellary appendages",1,Barclaya,ovary syncarpous ... carpellary appendages encircling the stigmatic cup,209
+pedicel,"colour, length (candidate pedicel_length)",1,Nymphaea nouchali,pedicels reddish brown 11--29 cm long,217
+pedicel,"length (candidate pedicel_length), colour",1,Barclaya rotundifolia,"pedicel (3.5--)7--9.5(--13) cm long, brownish, shorter than petioles",214
+pedicel,"length (candidate pedicel_length), hairs",1,Barclaya longifolia,"pedicel (4--)15--30 cm long, glabrous or with sparse short white hairs",210
+pedicel,"length in flower and fruit (candidate pedicel_length), hairs",1,Barclaya motleyi,"pedicel (5--)10.5--19 cm long, lengthening to (9.5--)22--26.5 cm in fruit, pubescent, sparsely clothed with short white hairs or glabrous",212
+petals,"fusion, number",1,Nymphaea,"free, (6--)8--40(--50)",216
+petals,number,1,Nymphaeaceae,petals 3 to many (or absent in Ondinea),207
+petiole,colour,1,Nymphaea nouchali,petioles greenish brown,217
+petiole,"colour, flexibility, hairs",1,Barclaya motleyi,"petiole reddish, thin and flexible ... densely pubescent becoming glabrescent",212
+petiole,"flexibility, hairs",1,Barclaya longifolia,petiole flexible ... glabrous or ferrugineous at base,210
+petiole,"hairs, colour",1,Nymphaea pubescens,"petioles pubescent, greenish brown",219
+petiole,"stoutness, fleshy",1,Barclaya rotundifolia,petioles stout ... in life fleshy,214
+"petiole, lamina",thorns; petiole length,1,Nymphaeaceae,with or without thorns on the petiole and lower lamina surface; petioles long,207
+pollination,bee (hedged 'suggesting'; not scored),1,Nymphaea nouchali,suggesting bee pollination,218
+pollination,beetle (hedged 'possibly'; not scored),1,Nymphaea pubescens,The pollinator is unknown but is possibly beetles.,219
+pollination,beetle (hedged and inferred from structure; not scored),1,Barclaya motleyi,suggesting beetle pollination for that species. Flower structure also indicates beetle pollination because the apical corolla lobes do not open widely and so would restrict access for flies.,209
+pollination,flies (hedged 'suggested ... possible'; not scored),1,Barclaya rotundifolia,Williamson & Schneider (1994) suggested flies as a possible pollinator for B. rotundifolia based on observations of flies in the vicinity of the flowers and drowned in fluid in the stigmatic cup.,209
+rhizome,"branching, colour",1,Barclaya longifolia,branching white rhizome,210
+rhizome,"fleshy, creeping",1,Barclaya,"rhizome fleshy, creeping",209
+rhizome,"length, orientation; tubers; erect stem",1,Nymphaeaceae,"with long horizontal rhizomes, sometimes tuberous or with a short erect stem",207
+rhizome,"length, thickness, branching, rooting nodes",1,Barclaya motleyi,"long thin branching rhizome, nodes rooting and producing leaves",212
+seed,aril absent (negative phrase; dispersal_appendage not scored),1,Barclaya,without an aril,209
+seed,germination,1,Barclaya longifolia,and produce many seeds that readily germinate,211
+seed,"germination time and conditions (cited study, place not stated, reference not verified; not scored)",1,Barclaya motleyi,"In B. motleyi seeds germinate within 48--72 hours on wet mud but do not germinate when submerged (Lok et al., Nature in Singapore 2 (2009) 237)",209
+seed,germination under water,1,Barclaya longifolia,unlike those of B. longifolia that readily germinate submerged,209
+seed,"number, aril by genus, perisperm, endosperm",1,Nymphaeaceae,"Seeds many, arillate (Nymphaea and Ondinea) or aril lacking; perisperm copious, endosperm scanty.",207
+seed,"number, mucilage",1,Barclaya,Seeds many ... embedded in mucilage or in spongy tissue,209
+seed,"number, mucilage, endosperm",1,Nymphaea,"Seeds numerous ... embedded in mucilage, endosperm starchy",216
+seed,testa surface (three alternatives),1,Nymphaea,"testa smooth, papillose or hairy",216
+seed dispersal,"'some species' (Nymphaea); Barclaya epizoochory hedged ('suggest ... could'), not scored",1,Nymphaeaceae,Seeds of some species have arils that enclose an air bubble and so the seed floats and are dispersed by water currents (Nymphaea) or the seeds are covered in spines (Barclaya) that suggest they cou...,207
+sepals,"fusion, number",1,Nymphaea,"sepals free, (3--)4(--5)",216
+sepals,"number, colour",1,Nymphaeaceae,"sepals 4--9, green or coloured (or petaloid in Nuphar)",207
+sepals,"number, colour, hairs, shape, width (candidate flower_sepal_width), apex",1,Nymphaea pubescens,"sepals 4, green, puberulous, elliptic, ... x 13--25 mm, apex blunt",219
+sepals,"number, colour, shape, width (candidate flower_sepal_width), apex, hairs",1,Barclaya longifolia,"sepals 5, purplish brown or green, narrowly lanceolate, ... x (2.5--)4--6 mm, apex long attenuate with an apiculus 2--4 mm long or sometimes truncate, outer surface glabrous to glabrescent and keel...",210
+sepals,"number, colour, shape, width (candidate flower_sepal_width), fusion, apex",1,Nymphaea nouchali,"sepals 4, pale brown or green with a pink margin, lanceolate, ... x 7(--14) mm, joined at base for 6 mm, narrowed to a point",217
+sepals,"number, colour, shape, width (candidate flower_sepal_width), hairs, apex",1,Barclaya motleyi,"sepals 5, dull purple-brown or pink, narrowly lanceolate ... x 3--5 mm, outer surface slightly hairy, slightly keeled, sometimes apex abruptly narrowed into an apiculus 2--4 mm long",212
+sepals,"number, colour, shape, width (candidate flower_sepal_width), keel",1,Barclaya rotundifolia,"sepals (4--)5, pale green to brownish purple, pink towards base, oblong-lanceolate, ... x 3--8 mm, outside slightly keeled, keel prolonged into an apiculus 2--4 mm long",214
+sepals,"shape, colour, number, keel",1,Barclaya,"sepals narrowly lanceolate, opening wide, pale yellow or greenish brown, (4--)5, free, strongly keeled elongating into a long apical tip",209
+"sepals, corolla",colour contrast,1,Barclaya,"The sepals open wide, their pale dull colour contrasts with the maroon or purple corolla.",209
+stamens,colour,1,Nymphaea pubescens,stamens yellow,219
+stamens,"fusion, laminar or filament",1,Nymphaeaceae,"free, laminar or with a distinct filament",207
+stamens,"number, colour, epipetalous, pendent; staminodes",1,Barclaya,"stamens many, magenta, epipetalous within the corolla tube, pendent, staminodia 10--20, above the stamens",209
+stamens,"petaloid outer stamens, filaments, attachment",1,Nymphaea,"outermost petaloid, innermost with filaments, erect and not attached to the corolla",216
+stigma,"ring shape, number",1,Barclaya longifolia,"ovary with stigma ring concave, stigmas c. 9",211
+stipules,presence,1,Nymphaeaceae,Stipules present or lacking,207
+taxonomy,colour forms (no named form adopted),1,Nymphaea nouchali,"Plants with violet-blue flowers, which include those native in Peninsular Malaysia, have been named var. cyanea ... while those with white or pink flowers as var. versicolor ... they are best treat...",218
+taxonomy,sepal interpretation,1,Barclaya,Several authors ... interpreted the sepals as bracts and the corolla as the perianth. Developmental anatomy confirms the outer organs as sepals (Williamson & Schneider ...).,210
+veins,"midrib, number, colour, relief",1,Nymphaea nouchali,"midrib thick, lateral veins 4--5 pairs, brown, but not prominent beneath",217
+veins,"number, arrangement, relief, hairs",1,Barclaya motleyi,"lateral veins 3--5 pairs, sometimes the lowermost two pairs arising together from base of the midrib, plain above, slightly prominent beneath, glabrous to densely pubescent; intercostal veins obscure",212
+veins,"number, relief",1,Barclaya longifolia,"veins 11--20 on each side of midrib, fine, scarcely raised above and beneath; intercostal venation obscure",210
+veins,"number, relief, hairs",1,Nymphaea pubescens,"midrib thick; lateral veins 5--8 pairs, prominent and densely yellow or brown tomentose beneath",219
+veins,"relief, number, arrangement",1,Barclaya rotundifolia,"lateral veins very prominent beneath, 6--8 pairs, lowest two pairs touching at base of midrib; intercostal venation prominent",214
+,Bornean sizes (outside the flora region; not scored),1,Barclaya rotundifolia,"In Borneo, plants do not reach such a large size as those in Peninsular Malaysia, their petioles measuring 6--16.5 cm, lamina 5--9(12) x (5--)7--10 cm, pedicel 5.5--7 cm, and sepals 27--33 x 4--5 mm.",214
+,"Victoria leaf and flower size, scent (genus not in the flora region; not scored)",1,Nymphaeaceae,The Victoria waterlilies have the largest leaves ... scented of pineapple.,207
+,carpellary appendages; ovule number,1,Nymphaea,"carpellary appendages encircling the stigmatic cup, ovules numerous",216
+,distribution and species counts,1,Nymphaeaceae,"Cosmopolitan in tropical and subtropical regions, with 6 genera and c. 70 species; ... In Peninsular Malaysia, the family is represented by 2 genera (Barclaya and Nymphaea) and 5 species.",207
+,distribution; native status,1,Nymphaea nouchali,"Africa, Asia to Australia; native in S and E Asia and W Malesia ... In Peninsular Malaysia, it has a scattered distribution in many places being associated with settlements making it difficult to d...",217
+,habitat,1,Nymphaeaceae,"Confined to freshwater in lakes, ponds, rivers and streams, ditches, canals, etc.",207
+,habitat; altitude,1,Nymphaea pubescens,"Lowlands, in pools, ditches and lake margins with shallow, stagnant or slow flowing water.",219
+,"habitat; altitude; water depth (elsewhere, not scored)",1,Nymphaea nouchali,"In the lowlands, in ditches, margins of streams and formerly in paddy fields, in shallow, static or slow-flowing water (elsewhere growing in water 1--2 m deep). It is a recent introduction in Tasik...",217
+,habitat; light,1,Nymphaea,"Open areas, fully exposed to sunlight",216
+,habitat; light; substrate; disturbance,1,Barclaya,"In shaded primary lowland forest, in freshwater or peat swamp forest or in waterlogged hollows or in clear, shallow streams on fine clay substrate or on fine gravel, sometimes persisting after dist...",209
+,habitat; light; substrate; water depth,1,Barclaya longifolia,It grows in light shade in small streams with a sandy or fine gravel substrate with a moderately strong current or on the edge of muddy slow streams. Its leaves grow submerged to 30 cm deep.,211
+,"habitat; light; water depth (c. 65 cm here, c. 30 cm in Taxonomy p. 213)",1,Barclaya motleyi,In freshwater or peat swamp forest in deep shade in stagnant or slow-flowing clear streams with fluctuating water levels where its leaves may be submerged in water to c. 65 cm deep or in dry period...,212
+,habitat; substrate,1,Barclaya rotundifolia,"On waterlogged fine clay substrate at the edge of freshwater swamp, shallow margins of slow flowing streams or in muddy hollows.",214
+,"plant robustness; rhizome branching, thickness",1,Barclaya rotundifolia,"Robust ... branching rhizome, 1--2 cm thick",214
+,submergence tolerance; gregarious colonies,1,Barclaya rotundifolia,this species is a marsh plant and not truly aquatic ... Nursery experiments showed that ... B. rotundifolia when submerged produced no new leaves and the old ones gradually rotted away resulting in...,214
+,taxonomy,1,Barclaya rotundifolia,"Although the type specimen was not distributed to SAR ... Ridley (1922) included the Kuala Teku, Pahang, population ... in B. motleyi.",214
+,"taxonomy; Barclaya diagnostic characters (ovary inferior, ovules orthotropous)",1,Nymphaeaceae,"Based on similarities in aquatic habit, earlier accounts ... Barclaya differs from the other genera in a number of characters: the gynoecium is completely inferior, the petals are joined into a tub...",208
+,taxonomy; water depth; leaf variation; Sumatran and type-sheet leaf sizes (outside the flora region; not scored),1,Barclaya motleyi,"Barclaya motleyi is distinct from B. rotundifolia in being truly aquatic, its leaves thriving underwater to a depth of c. 30 cm. ... Its leaves are very variable in both size and shape. ... var. ku...",213
+,uses; cultivated ornamental species not in the treatment,1,Nymphaea,Many waterlily species and hybrids are cultivated as ornamental plants. ...,216
+,"uses; trade colour forms; leaf size and dormancy in aquaria (cultivated, not scored)",1,Barclaya longifolia,"Traded commercially as 'Orchid Lily', it comes in two colour forms ... In aquaria its leaves can grow to 30--80 x 6.5 cm long. ... In aquaria, it periodically undergoes a dormant period when the le...",211

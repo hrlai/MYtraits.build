@@ -1,7 +1,8 @@
 # Hand-entry helpers for tiny families (one to a few taxa) and for single taxon
 # description papers (for example Gardens' Bulletin Singapore). No segmenter or
 # clause parser: each row is written by hand with its verbatim clause and page.
-# Pattern taken from data/Yao_2010/raw/build_trait_data.R (row / un / tri / rng).
+# Pattern taken from data/Yao_2010/raw/build_trait_data.R (row / un / tri / rng);
+# ext from data/Kiew_2015.
 #
 # Use:
 #   source(".github/skills/extract-traits-from-floras-my/scripts/flora_hand.R")
@@ -12,6 +13,8 @@
 #           value = "spirally arranged", clean = "spiral", rank = "genus",
 #           p = "genus1", sec = "Genus description"),
 #     h$tri("leaf_length", raw, lo = 5, mid = 8, hi = 12, unit = "cm", p = "sp1"),
+#     h$ext("leaf_width", "(2-)3-5(-7) cm", a = 2, b = 3, c = 5, d = 7,
+#           unit = "cm", p = "sp1"),
 #     h$un(raw, "stipules absent (negative phrase)", p = "sp1")
 #   )
 # `pages` maps a short key to c(pdf page, printed page). Pass `source_id` for
@@ -88,5 +91,14 @@ flora_hand <- function(taxon, pages, rank = "species") {
       row(trait, raw, hi, hi, "maximum", unit, ...)
     )
   }
-  list(row = row, un = un, tri = tri, rng = rng)
+  # Typical range with optional parenthetical extremes (a-)b-c(-d): b and c on
+  # `usually`, a and d (when given) on `extreme_range`.
+  ext <- function(trait, raw, a = NA, b, c, d = NA, unit, ...) {
+    bind_rows(
+      rng(trait, raw, b, c, unit, q = "usually", ...),
+      if (!is.na(a)) row(trait, raw, a, a, "minimum", unit, "extreme_range", ...),
+      if (!is.na(d)) row(trait, raw, d, d, "maximum", unit, "extreme_range", ...)
+    )
+  }
+  list(row = row, un = un, tri = tri, rng = rng, ext = ext)
 }
