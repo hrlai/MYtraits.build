@@ -14,4 +14,9 @@ $SUDO ln -sf "$HOME/.local/bin/uvr" /usr/local/bin/uvr
 uvr r install "$(cat .r-version)"
 # Packages come as P3M Linux binaries; uvr installs the system libraries they
 # link against (from uvr.lock) instead of a hand-kept apt list.
-UVR_UNATTENDED=1 uvr sync --frozen --install-system-deps
+# Retry: CRAN downloads sometimes fail with a transient 503.
+for attempt in 1 2 3; do
+  UVR_UNATTENDED=1 uvr sync --frozen --install-system-deps && break
+  [ "$attempt" -lt 3 ] || exit 1
+  sleep $((attempt * 15))
+done
