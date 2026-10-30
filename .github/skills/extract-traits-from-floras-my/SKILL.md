@@ -498,6 +498,10 @@ Bespoke checklist (decisions that changed per family):
   axile or not stated. A 1-locular ovary with parietal placentation has
   several fused carpels: count stigma lobes, placentas or fruit valves when
   the text gives them, otherwise leave carpels unscored (Campbell-Gasis_1996).
+  Provisional (Cheek_2012 question 4): tepal length of a flower with one
+  perianth whorl and no petals -> `flower_sepal_length`; capsule valve
+  length ("Fruits: valves 25--29 x 2.2--2 mm") -> `fruit_length`; tepal
+  colour -> `flower_colour`.
 - **Glabrescent** ("becoming glabrous") describes a change with age, not a
   state: never score it, keep it unmapped (user decision, 2026-10, Jutta_2012).
   The dictionary seed blocks it for leaf, stem and fruit hairs. Coode_2018
