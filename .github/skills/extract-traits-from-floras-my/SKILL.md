@@ -24,6 +24,7 @@ pause. Worked examples, all in this repository:
 | `data/Berhaman_1995` | Bignoniaceae, TFSS vol. 1 | 2007 electronic text, 5 described taxa | `flora_hand()` for a multi-genus family; hand copy-down table; single-infra taxon; undescribed species and key-only genus flagged |
 | `data/Kiew_2015` | Nymphaeaceae, FPM vol. 5 | born-digital PDF, 5 taxa | `flora_hand()` with `ext()`; aquatic habit; cultivated plants; pollinators; several secondary sources |
 | `data/Wong_2010` | Selaginellaceae, FPM ferns vol. 1 | born-digital PDF, scripted clause parser, 35 taxa | first lycophyte; leaf kinds in `entity_measured`; genus copy-down with no family description; differential-only varieties |
+| `data/Cheek_2012` | Nepenthaceae, FPM vol. 3 | born-digital PDF, 10 species, hand-scored pieces | climbers; hand rows keyed to comma pieces so every unscored piece stays unmapped; named hybrids; values cited in genus paragraphs |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
@@ -323,6 +324,12 @@ misreads; image checking is for scans.
     `flora_source.R`.
   - Reading-order problems (two columns, tables, side captions) show up as
     segmenter anomalies or QA failures; check those pages' images.
+  - Decimals set with a space after the point (`1. 5 cm`, `0.1–0. 2 mm`)
+    split a number in two, and nothing flags them. Grep the description
+    text for `\d\. \d` and repair with one blank-page regex row in
+    `source_fixes.csv` (`(?<=\d)\. (?=\d)` -> `.`), applied to Description
+    paragraphs only so sentence ends in other sections are untouched
+    (Cheek_2012, eight numbers on pp. 257--271).
 
   Typos in the published text are not OCR errors. Repair one only when the
   intended value is certain, give the reason as a source typo, and raise a
@@ -491,6 +498,10 @@ Bespoke checklist (decisions that changed per family):
   axile or not stated. A 1-locular ovary with parietal placentation has
   several fused carpels: count stigma lobes, placentas or fruit valves when
   the text gives them, otherwise leave carpels unscored (Campbell-Gasis_1996).
+  Provisional (Cheek_2012 question 4): tepal length of a flower with one
+  perianth whorl and no petals -> `flower_sepal_length`; capsule valve
+  length ("Fruits: valves 25--29 x 2.2--2 mm") -> `fruit_length`; tepal
+  colour -> `flower_colour`.
 - **Glabrescent** ("becoming glabrous") describes a change with age, not a
   state: never score it, keep it unmapped (user decision, 2026-10, Jutta_2012).
   The dictionary seed blocks it for leaf, stem and fruit hairs. Coode_2018
@@ -516,7 +527,16 @@ Bespoke checklist (decisions that changed per family):
   another FPM or TFSS treatment. In Lim_2010, the Borneo measurements cited
   from Yii_1995 (TFSS) are not scored; the source text remains in the
   transcription. For TFSS observations stated only as Borneo, apply the
-  unresolved-locality rule above.
+  unresolved-locality rule above. A genus or family paragraph (Reproductive
+  biology, Ecology) that reports an observation on a named species is
+  scored on that species' own rows, not copied down, with the cited work as
+  `source_id` and a blank `population_region` unless a place is stated
+  (provisional, Cheek_2012 question 9).
+- **Climbers** (provisional, Cheek_2012 question 2). "Climber to 15 m tall"
+  goes to `plant_height_climbing_plant`, not `plant_height`. Stem diameter
+  of climbing stems is not `stem_diameter` (measured at the plant base):
+  keep it unmapped. Tendrils that support the stems are
+  `plant_climbing_mechanism = tendrils`.
 - **Aquatic plants** (Kiew_2015, mappings pending its question 4). Whole-plant
   position in the water ("submerged aquatic herb", "floating") goes in
   `stem_growth_habit` (`submerged`, `floating`, `emergent`), and the habitat in
@@ -546,6 +566,12 @@ Bespoke checklist (decisions that changed per family):
   and cleistogamy go to `breeding_system` (`autogamy`, `cleistogamy`).
 - **Excluded and incompletely known species** are not scored; list them in
   `taxon_flags.csv`.
+- **Named hybrids** (provisional, Cheek_2012 question 1). A "Named Hybrids"
+  section after the species gets its own segmenter status (a `section`
+  header with `status`, like "Excluded Species"). Hybrid descriptions that
+  only compare the parents ("Intermediate between ..., like N. gracilis it
+  has ...") stay unmapped sentence rows; hybrids are not copy-down members.
+  List them in `taxon_flags.csv` as `named hybrid`.
 - **Ferns.** Cibotiaceae is a provisional example, not a validated mapping
   template. Check each treatment and `config/traits.yml` before mapping stipe to
   petiole, lamina to leaf, or pinnae to leaflets; flag uncertain mappings.

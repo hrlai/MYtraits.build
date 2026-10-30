@@ -1,0 +1,17 @@
+taxon_name,taxon_rank,status,n_mapped_rows,flag
+Nepenthes,genus,accepted,26,Monogeneric family with no family description; genus values copied to the ten species.
+Nepenthes albomarginata,species,accepted,40,
+Nepenthes ampullaria,species,accepted,40,
+Nepenthes benstonei,species,accepted,41,Endemic to NE Peninsular Malaysia; the only species assessed as Endangered.
+Nepenthes gracilis,species,accepted,43,
+Nepenthes gracillima,species,accepted,45,
+Nepenthes macfarlanei,species,accepted,45,
+Nepenthes mirabilis,species,accepted,44,
+Nepenthes rafflesiana,species,accepted,57,
+Nepenthes ramispina,species,accepted,34,
+Nepenthes sanguinea,species,accepted,45,
+Nepenthes ×ghazallyiana,species,named hybrid,0,"Named nothospecies; comparative description kept unmapped, no copy-down (Cheek_2012 question 1)."
+Nepenthes ×hookeriana,species,named hybrid,0,"Named nothospecies; comparative description kept unmapped, no copy-down (Cheek_2012 question 1)."
+Nepenthes ×trichocarpa,species,named hybrid,0,"Named nothospecies; comparative description kept unmapped, no copy-down (Cheek_2012 question 1)."
+Nepenthes alata,species,excluded,0,Excluded: Peninsular Malaysian records are misidentified N. gracillima; restricted to the Philippines. Not scored.
+Nepenthes reinwardtiana,species,excluded,0,Excluded: Peninsular Malaysian specimens are N. gracilis. Not scored.
