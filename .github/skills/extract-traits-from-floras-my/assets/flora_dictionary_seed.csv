@@ -260,3 +260,6 @@
 "flower_gynoecium_placentation","lamellar|laminar","laminar","Cheek_2012","provisional, Cheek_2012 question 7"
 "plant_climbing_mechanism","\btendrils?\b","tendrils","Cheek_2012","only when the tendrils support the stem"
 "plant_alternative_energy_and_nutrient_acquisition_strategy","\bcarnivorous\b","carnivorous","Cheek_2012",""
+"stem_hairs","sericeous|pilose|hispid|strigose|setose|velutinous|tomentellous","hairy","Soepadmo_2000",""
+"leaf_hairs_adult_leaves","sericeous|pilose|hispid|strigose|setose|velutinous|tomentellous|hirsute","hairy","Soepadmo_2000",""
+"fruit_surface_hairs","sericeous|pilose|hispid|strigose|setose|velutinous|tomentellous|hirsute|villous|puberulent","hairy","Soepadmo_2000",""
