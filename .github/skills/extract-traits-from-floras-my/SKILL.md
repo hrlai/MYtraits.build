@@ -527,7 +527,11 @@ Bespoke checklist (decisions that changed per family):
   another FPM or TFSS treatment. In Lim_2010, the Borneo measurements cited
   from Yii_1995 (TFSS) are not scored; the source text remains in the
   transcription. For TFSS observations stated only as Borneo, apply the
-  unresolved-locality rule above.
+  unresolved-locality rule above. A genus or family paragraph (Reproductive
+  biology, Ecology) that reports an observation on a named species is
+  scored on that species' own rows, not copied down, with the cited work as
+  `source_id` and a blank `population_region` unless a place is stated
+  (provisional, Cheek_2012 question 9).
 - **Climbers** (provisional, Cheek_2012 question 2). "Climber to 15 m tall"
   goes to `plant_height_climbing_plant`, not `plant_height`. Stem diameter
   of climbing stems is not `stem_diameter` (measured at the plant base):
