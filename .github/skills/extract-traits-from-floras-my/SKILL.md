@@ -324,6 +324,12 @@ misreads; image checking is for scans.
     `flora_source.R`.
   - Reading-order problems (two columns, tables, side captions) show up as
     segmenter anomalies or QA failures; check those pages' images.
+  - Decimals set with a space after the point (`1. 5 cm`, `0.1–0. 2 mm`)
+    split a number in two, and nothing flags them. Grep the description
+    text for `\d\. \d` and repair with one blank-page regex row in
+    `source_fixes.csv` (`(?<=\d)\. (?=\d)` -> `.`), applied to Description
+    paragraphs only so sentence ends in other sections are untouched
+    (Cheek_2012, eight numbers on pp. 257--271).
 
   Typos in the published text are not OCR errors. Repair one only when the
   intended value is certain, give the reason as a source typo, and raise a
