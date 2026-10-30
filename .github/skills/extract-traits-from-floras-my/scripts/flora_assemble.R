@@ -62,8 +62,9 @@ flora_trait_data_cols <- c(
 # TRUE when the clause joins a scored source word by "or" / "to" to a word that
 # is not itself scored ("symmetric or slightly oblique", "introrse or
 # latero-introrse"). A word counts as scored when it starts with a scored term
-# ("corymbose" for "corymb"). An adverb between is skipped, and an adverb range
-# ("slightly to strongly asymmetric") is one term. Words joined only to each
+# ("corymbose" for "corymb"), and a hyphen prefix counts when a scored word
+# starts with it ("pari-" for "paripinnate"). An adverb between is skipped,
+# and an adverb range ("slightly to strongly asymmetric") is one term. Words joined only to each
 # other ("imparipinnate or paripinnate", both scored) are not alternatives.
 # shortcut: comma lists ("flat, terete or triquetrous" scored flat) are not
 # caught, because commas also separate characters; read the copy-down table.
@@ -77,7 +78,13 @@ flora_trait_data_cols <- c(
   if (!nrow(pairs)) {
     return(FALSE)
   }
-  scored <- \(w) map_lgl(w, \(x) any(startsWith(x, words[words != ""])))
+  words <- words[words != ""]
+  scored <- \(w) {
+    map_lgl(w, \(x) {
+      any(startsWith(x, words)) ||
+        (str_ends(x, "-") && any(startsWith(words, str_remove(x, "-$"))))
+    })
+  }
   any(xor(scored(pairs[, 2]), scored(pairs[, 3])))
 }
 

@@ -190,7 +190,7 @@
 "sex_type","\bdioecious\b|male and female on (different|separate) trees","dioecious","Kochummen_1995",""
 "sex_type","\bmonoecious\b","monoecious","Kochummen_1995",""
 "leaf_compoundness","\bsimple\b","simple","Adema_1996",""
-"leaf_compoundness","pinnate|digitate|biternate|ternate|unifoliolate|\d-foliolate|foliolate","compound","Adema_1996","unifoliolate counted as compound (one leaflet); question in Adema_1996"
+"leaf_compoundness","(pari|impari|pseudo-impari)?pinnate|digitate|biternate|ternate|unifoliolate|\d-foliolate|foliolate","compound","Adema_1996","unifoliolate counted as compound (one leaflet); question in Adema_1996"
 "leaf_lamina_division","bipinnate","bipinnate","Adema_1996",""
 "leaf_lamina_division","(pari|impari|pseudo-impari)?pinnate","pinnately_compound","Adema_1996",""
 "leaf_lamina_division","digitate","palmately_compound","Adema_1996",""
