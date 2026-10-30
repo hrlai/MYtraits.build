@@ -1,0 +1,2 @@
+taxon_name,taxon_rank,rank_scored_from,commonness_qualifier,population_region,form,entity_measured,trait,trait_value_raw,trait_value,trait_value_clean,value_type,unit,source_section,pdf_page,printed_page,notes,source_id
+Selaginella willdenowii,species,,,Peninsular Malaysia,,,stem_growth_habit,"Selaginella willdenowii is the only climbing species, scrambling over vegetation by means of long relay-stems to several metres long, sometimes even forming thickets.",climbing,climbing,mode,,Genus Ecology,8,50,"Statement about one species in the genus Ecology paragraph.",

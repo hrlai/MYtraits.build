@@ -144,7 +144,9 @@ flora_qual_words <- c(
   "less commonly",
   "commonly",
   "exceptionally",
-  "very rarely"
+  "very rarely",
+  "very occasionally",
+  "typically"
 )
 flora_qual_re <- paste0("\\b(", paste(flora_qual_words, collapse = "|"), ")\\b")
 flora_hedge_re <- "\\b(probably|perhaps|apparently|possibly|presumably)\\b"
@@ -186,15 +188,17 @@ flora_parse_range <- function(s) {
 }
 
 # Rows for one numeric value. Typical range -> minimum + maximum; single or
-# "c." value -> mean; "to X" -> maximum. Parenthetical extremes go on
-# commonness_qualifier = extreme_range rows, and the typical rows become
-# `usually` (the convention used by all three FPM datasets).
+# "c." value -> mean; "to X" -> maximum; "to a-b" -> minimum + maximum.
+# Parenthetical extremes go on commonness_qualifier = extreme_range rows, and
+# the typical rows become `usually` (the convention used by all three FPM
+# datasets).
 flora_num_rows <- function(r, unit = r$unit) {
   out <- list()
   ap <- coalesce(str_trim(r$approx), "")
   if (ap == "c.") {
     out[[1]] <- tibble(value = r$lo, value_type = "mean", cq = NA_character_)
-  } else if (ap == "to") {
+  } else if (ap == "to" && is.na(r$hi)) {
+    # "to a-b" is a range, not a maximum of a (Hughes_2013 "to 10-15 m tall").
     out[[1]] <- tibble(value = r$lo, value_type = "maximum", cq = NA_character_)
   } else if (is.na(r$hi)) {
     out[[1]] <- tibble(value = r$lo, value_type = "mean", cq = NA_character_)

@@ -23,6 +23,7 @@ pause. Worked examples, all in this repository:
 | `data/Kochummen_1995` | Burseraceae, TFSS vol. 1 | 2007 electronic text (unembedded fonts, no scan); scripted parser, 59 taxa | first TFSS parser; infra annotations under a species description; single-infra taxa; family exceptions by hand; missing-dash source fixes |
 | `data/Berhaman_1995` | Bignoniaceae, TFSS vol. 1 | 2007 electronic text, 5 described taxa | `flora_hand()` for a multi-genus family; hand copy-down table; single-infra taxon; undescribed species and key-only genus flagged |
 | `data/Kiew_2015` | Nymphaeaceae, FPM vol. 5 | born-digital PDF, 5 taxa | `flora_hand()` with `ext()`; aquatic habit; cultivated plants; pollinators; several secondary sources |
+| `data/Wong_2010` | Selaginellaceae, FPM ferns vol. 1 | born-digital PDF, scripted clause parser, 35 taxa | first lycophyte; leaf kinds in `entity_measured`; genus copy-down with no family description; differential-only varieties |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
@@ -108,6 +109,9 @@ selects the `.uvr/library`). Check `.r-version` if the version path fails.
 On Windows, prefer a scratch `.R` file with `uvr run` over `-e`: `Rscript.exe
 -e` breaks on `&` inside strings, and bash heredocs collapse `\\` in regexes
 (use `[.]` instead of `\\.`).
+On Linux (cloud sessions) set a UTF-8 locale (`LANG=C.UTF-8`) first: under
+the C locale `yaml::read_yaml("config/traits.yml")` stops at the first
+non-ASCII character and silently returns about 190 of the 684 traits.
 
 The scripts are tested against the three datasets (they reproduce the Coode
 and Lim paragraph tables and all three `data.csv` value columns exactly). They
@@ -475,7 +479,9 @@ Bespoke checklist (decisions that changed per family):
   the general row. Use `\b` or a lookbehind such as `(?<!sub)` in new general
   rows.
 - **Numbers.** A range is minimum + maximum, a single or "c." value is a mean,
-  "to X" is a maximum. Missing units (Coode_2018 *E. fraseri* lamina
+  "to X" is a maximum, "to a--b" is minimum a + maximum b
+  (`flora_num_rows()`; Hughes_2013 "to 10--15 m tall" was a maximum of 10
+  before 2026-10, so rebuild it). Missing units (Coode_2018 *E. fraseri* lamina
   "14--18.5 x (7--)9--12") go in `source_fixes.csv` with the page.
 - **Mapping misfits** (record every one as a metadata question): `spirally
   arranged` -> `leaf_arrangement: spiral`; `rugose` -> `rough`; `subglabrous` ->
@@ -543,6 +549,13 @@ Bespoke checklist (decisions that changed per family):
 - **Ferns.** Cibotiaceae is a provisional example, not a validated mapping
   template. Check each treatment and `config/traits.yml` before mapping stipe to
   petiole, lamina to leaf, or pinnae to leaflets; flag uncertain mappings.
+- **Lycophytes** (Selaginellaceae, Wong_2010; provisional, Wong_2010
+  questions 2, 3 and 8). Score every leaf kind (lateral, median, axillary,
+  main-stem and basal stem leaves) into the leaf traits and name it in
+  `entity_measured`. Lateral and median leaves in four rows (heterophylly)
+  are `leaf_heterogeneity = anisophyllous`. "Suberect" ("arched ascending")
+  is `stem_growth_habit = decumbent`. Rhizophores, strobilus symmetry,
+  sporophylls, arista length and spores have no trait: keep them unmapped.
 
 ### 5. Higher-rank values (G, with user rules)
 

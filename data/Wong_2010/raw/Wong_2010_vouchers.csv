@@ -1,0 +1,78 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Selaginella alutacia,holotype,P,,Gaudichaud,s.n.,,Penang [Pinang],Penang,Malaysia,"Type, p.55",n.v. (not seen by author).
+Selaginella alutacia,holotype,K,,King’s Collector,1866,,Larut,Perak,Malaysia,"Type, p.55",Type of the synonym Selaginella kunstleri Baker.
+Selaginella alutacia,holotype,K,,Ridley,16200,,"G. Tahan, Wray’s Camp",,Malaysia,"Type, p.55",Type of the synonym Selaginella montana Ridl.
+Selaginella alutacia,isotype,SING,,Ridley,16200,,"G. Tahan, Wray’s Camp",,Malaysia,"Type, p.55",Type of the synonym Selaginella montana Ridl.
+Selaginella alutacia,holotype,K,,Ridley,3347,,G. Mering,Malacca,Malaysia,"Type, p.55","Type of the synonym Selaginella oligostachya Baker. Same locality (G. Mering) as the type of S. ridleyi (Ridley 3346), which is given there as Johor [Malacca]."
+Selaginella alutacia,isotype,SING,,Ridley,3347,,G. Mering,Malacca,Malaysia,"Type, p.55",Type of the synonym Selaginella oligostachya Baker.
+Selaginella alutacia,holotype,K,,Yapp,s.n.,,G. Inas,Perak,Malaysia,"Type, p.55",Type of the synonym Selaginella pensilis Ridl.
+Selaginella alutacia,holotype,P,,Gaudichaud,7,,Penang [Pinang],Penang,Malaysia,"Type, p.55",Type of the synonym Selaginella pinangensis Spring. n.v. (not seen by author).
+Selaginella alutacia,holotype,K,,Tansley,,,,Perak or Selangor,Malaysia,"Type, p.55",Type of the synonym Selaginella tansleyi Baker. No collection number printed; locality given only as Perak or Selangor.
+Selaginella alutacia,holotype,K,,Wray,668,,Birch’s Hill,Perak,Malaysia,"Type, p.55",Type of the synonym Selaginella wrayi Baker.
+Selaginella argentea,holotype,K,,Wallich,Cat. no. 127,,Penang,Penang,Malaysia,"Type, p.56",Type of the basionym Lycopodium argenteum Hook. & Grev.
+Selaginella caulescens,holotype,K,,Wallich,Cat. no. 137,,R. Rapty,,Nepal,"Type, p.57",Type of the basionym Lycopodium caulescens Hook. & Grev.
+Selaginella caulescens,isotype,BM,,Cuming,1998,,the Philippines,,Philippines,"Type, p.57",Type of the synonym Selaginella peltata Presl. n.v. (not seen by author). Printed as isotype with no holotype cited.
+Selaginella ciliaris,holotype,BM,,Koenig,s.n.,,Sri Lanka [Ceylon],,Sri Lanka,"Type, p.58",Type of the basionym Lycopodium ciliare Retz. n.v. (not seen by author).
+Selaginella cuprea,lectotype,SING,,Ridley,16198,,"G. Tahan, Wray’s Camp",,Malaysia,"Type, p.58",Lectotype designated here.
+Selaginella cuprea,isolectotype,BM,,Ridley,16198,,"G. Tahan, Wray’s Camp",,Malaysia,"Type, p.58",n.v. (not seen by author).
+Selaginella cuprea,isolectotype,K,,Ridley,16198,,"G. Tahan, Wray’s Camp",,Malaysia,"Type, p.58",
+Selaginella cuprea,figure specimen,,,Poore,220,,,,,"Figure 1, p.59",Figure 1 panels A-D (all from Poore 220).
+Selaginella curtisii,holotype,SING,,Curtis,3378,,Bujang Melaka,Perak,Malaysia,"Type, p.60",
+Selaginella delicatula,lectotype,K,,Curtis,3380,,Penang Is.,Penang,Malaysia,"Type, p.61","Type of the basionym Lycopodium delicatulum Desv. ex Poir. n.v. (not seen by author). Lectotype selected by Alston, fide Tagawa & Iwatsuki, Fl. Thailand 3 (1979) 22."
+Selaginella delicatula,isolectotype,SING,,Curtis,3380,,Penang Is.,Penang,Malaysia,"Type, p.61",Type of the basionym Lycopodium delicatulum Desv. ex Poir.
+Selaginella frondosa,lectotype,A,,Forbes,1688,,Sumatra,,Indonesia,"Type, p.61",Lectotype designated here.
+Selaginella griffithii,holotype,K,,Griffith,s.n.,,Mergui,,Myanmar,"Type, p.62",
+Selaginella griffithii,holotype,K,,Griffith,s.n.,,Mergui,,Myanmar,"Type, p.62","Type of the synonym Selaginella merguina Spring. Same collector, number and locality as the type of S. griffithii."
+Selaginella intermedia,,L,,Blume,s.n.,,Java,,Indonesia,"Type, p.63","Type of the basionym Lycopodium intermedium Blume. Status not stated. Cited at species level, before the varieties (var. intermedia is the autonym)."
+Selaginella intermedia,,L,,Hallier,1725,,G. Kenepai,,Indonesia,"Type, p.63","Type of the synonym Selaginella ascendens Alderw. Status not stated. Printed as 'Borneo; Kalimantan, G. Kenepai'; country mapped to Indonesia (Borneo, Kalimantan). No type cited for synonym Lycopodium atroviride Wall."
+Selaginella intermedia,lectotype,SING,,Ridley,14460,,Taiping Waterfall,Perak,Malaysia,"Type, p.63",Type of the synonym Selaginella cuprea var. major Ridl. Lectotype designated here.
+Selaginella intermedia var. intermedia,figure specimen,,,Anthonysamy,AS 105,,,,,"Figure 2, p.64","Figure 2 panels A, B."
+Selaginella intermedia var. intermedia,figure specimen,,,FRI,32022,,,,,"Figure 2, p.64","Figure 2 panels C, D."
+Selaginella intermedia var. dolichocentrus,holotype,SING,,Ridley,13993,,Telom,Pahang,Malaysia,"Type, p.65",
+Selaginella intermedia var. dolichocentrus,figure specimen,,,FRI,32033,,,,,"Figure 2, p.64",Figure 2 panel E.
+Selaginella longiaristata,holotype,FI,,Riedel,Erbario d.R. Instituto di Studi no. 12882,,Billiton,,Indonesia,"Type, p.66",n.v. (not seen by author).
+Selaginella mayeri,isotype,K,,Mayer,532,,Singapore,,Singapore,"Type, p.66",No holotype cited.
+Selaginella mayeri,holotype,K,,Ridley,8772,,Batu Caves,Selangor,Malaysia,"Type, p.66",Type of the synonym Selaginella calcarea Ridley.
+Selaginella mayeri,figure specimen,,,Kiew,RK 1503,,,,,"Figure 3, p.67","Figure 3 panels A, B."
+Selaginella minutifolia,holotype,K,,Griffith,s.n.,,Mergui,,Myanmar,"Type, p.68",
+Selaginella minutifolia,figure specimen,,,Parris & Wong,10993,,,,,"Figure 3, p.67",Figure 3 panels C-E. Caption: 'D dorsal view and E ventral view' (comma missing).
+Selaginella morganii,lectotype,K,,Morgan,s.n.,,G. Riau [Riaw],Perak,Malaysia,"Type, p.69",Lectotype designated here.
+Selaginella morganii,figure specimen,,,Poore,98,,,,,"Figure 3, p.67",Figure 3 panel F.
+Selaginella morganii,figure specimen,,,FRI,35201,,,,,"Figure 3, p.67","Figure 3 panels G, H. Caption misprint: reads 'G, dorsal view and E, ventral view' (second E should be H); panel I (diagrammatic transverse section) not attributed to any specimen in the caption."
+Selaginella ornata,holotype,K,,Miller,s.n.,,Sumatra,,Indonesia,"Type, p.70",Type of the basionym Lycopodium ornatum Hook. & Grev.
+Selaginella padangensis,holotype,FI,,Beccari,569,,"W. Sumatra, Padang",,Indonesia,"Type, p.71",
+Selaginella plana,,P,,Desvaux,,,"locality uncertain, “Indes orientales”",,,"Type, p.72",Type of the basionym Lycopodium planum Desv. ex Poir. Status not stated. Printed as 'probably P n.v.'; hedge: probably P. n.v. (not seen by author). No collection number printed.
+Selaginella polita,holotype,K,,Ridley,15951,,"G. Tahan, Teku",,Malaysia,"Type, p.73",
+Selaginella polita,isotype,BM,,Ridley,15951,,"G. Tahan, Teku",,Malaysia,"Type, p.73",n.v. (not seen by author).
+Selaginella pubescens,holotype,K,,Wallich,Cat. no. 123,,Irrawaddy,,Myanmar,"Type, p.75",Type of the basionym Lycopodium pubescens Hook. & Grev. n.v. (not seen by author).
+Selaginella pubescens,figure specimen,,,de Souza,s.n.,1994-11-15,,,,"Figure 4, p.74",Figure 4 panels A-C.
+Selaginella repanda,,P,,Herbarium Desvaux,,,in insulis Philippinis,,Philippines,"Type, p.76",Type of the basionym Lycopodium repandum Desv. ex Poir. Status not stated. Printed as 'probably P n.v.'; hedge: probably P. n.v. (not seen by author). No collector number printed; country mapped from 'Philippinis'.
+Selaginella repanda,holotype,K,,Griffith,s.n.,,Malacca,Malacca,Malaysia,"Type, p.76",Type of the synonym Selaginella suberecta Baker.
+Selaginella ridleyi,holotype,K,,Ridley,3346,,G. Mering,Johor [Malacca],Malaysia,"Type, p.77","State printed as 'Johor [Malacca]' (inconsistent: G. Mering is cited under Malacca for Ridley 3347, type of S. oligostachya)."
+Selaginella ridleyi,isotype,BM,,Ridley,3346,,G. Mering,Johor [Malacca],Malaysia,"Type, p.77",n.v. (not seen by author).
+Selaginella ridleyi,isotype,KEP,,Ridley,3346,,G. Mering,Johor [Malacca],Malaysia,"Type, p.77",State printed as 'Johor [Malacca]'.
+Selaginella ridleyi,isotype,SING,,Ridley,3346,,G. Mering,Johor [Malacca],Malaysia,"Type, p.77",State printed as 'Johor [Malacca]'.
+Selaginella ridleyi,figure specimen,,,Evans,239,,,,,"Figure 4, p.74",Figure 4 panel D.
+Selaginella rivalis,holotype,K,,Ridley,s.n.,,Ulu Gombak,Selangor,Malaysia,"Type, p.78",
+Selaginella rivalis,isotype,BM,,Ridley,s.n.,,Ulu Gombak,Selangor,Malaysia,"Type, p.78",n.v. (not seen by author).
+Selaginella roxburghii,,E,,Low,s.n.,,Penang,Penang,Malaysia,"Type, p.78","Type of the basionym Lycopodium roxburghii Hook. & Grev. Status not stated. n.v. (not seen by author). Cited at species level, before the varieties (var. roxburghii is the autonym)."
+Selaginella roxburghii,,P,,Gaudichaud,s.n.,,Penang [Pinang],Penang,Malaysia,"Type, p.78",Type of the synonym Selaginella acutangula Spring. Status not stated. n.v. (not seen by author).
+Selaginella roxburghii,holotype,K,,Ridley,s.n.,,Langkawi,,Malaysia,"Type, p.78",Type of the synonym Selaginella lankawiensis Ridl.
+Selaginella roxburghii,lectotype,K,,Wallich,Cat. No. 120,,Penang,Penang,Malaysia,"Type, p.78",Type of the synonym Selaginella trichobasis Baker. Lectotype designated here. Same Wallich Cat. no. 120 is cited for Lycopodium atroviride Wall. under S. intermedia.
+Selaginella roxburghii var. strigosa,holotype,K,,Ridley,s.n.,,"G. Tahan, Wray’s Camp",Pahang,Malaysia,"Type, p.79","Type of the basionym Selaginella trichobasis var. strigosa Ridl. (basionym is a variety of S. trichobasis, itself a synonym of S. roxburghii)."
+Selaginella scabrida,holotype,K,,Ridley,15960,,G. Tahan,Pahang,Malaysia,"Type, p.80",
+Selaginella scabrida,isotype,SING,,Ridley,15960,,G. Tahan,Pahang,Malaysia,"Type, p.80",
+Selaginella selangorensis,holotype,K,,Ridley,12040,,Semangkok Pass,Selangor,Malaysia,"Type, p.81","Cited at species level, before the varieties (var. selangorensis is the autonym)."
+Selaginella selangorensis,isotype,SING,,Ridley,12040,,Semangkok Pass,Selangor,Malaysia,"Type, p.81",Cited at species level.
+Selaginella selangorensis,holotype,K,,Ridley,7085,,Penang Hill,Penang,Malaysia,"Type, p.81",Type of the synonym Selaginella microdendron Ridl.
+Selaginella selangorensis,isotype,SING,,Ridley,7085,,Penang Hill,Penang,Malaysia,"Type, p.81",Type of the synonym Selaginella microdendron Ridl.
+Selaginella selangorensis var. ciliata,holotype,K,,Ridley,14463,,Taiping Hills,Perak,Malaysia,"Type, p.82",
+Selaginella selangorensis var. ciliata,isotype,BM,,Ridley,14463,,Taiping Hills,Perak,Malaysia,"Type, p.82",n.v. (not seen by author).
+Selaginella stipulata,,L,,Blume,s.n.,,“in montosis Javae”,,Indonesia,"Type, p.83","Type of the basionym Lycopodium stipulatum Blume. Status not stated. No collection number beyond s.n.; locality in Latin ('on mountains of Java'), country mapped to Indonesia (Java)."
+Selaginella stipulata,figure specimen,,,Kiew,s.n.,1986-05-05,,,,"Figure 5, p.84","Figure 5 panels A, B."
+Selaginella strigosa,lectotype,K,,Ridley,13442,,Klang Gates,Selangor,Malaysia,"Type, p.83",Lectotype designated here.
+Selaginella strigosa,isolectotype,SING,,Ridley,13442,,Klang Gates,Selangor,Malaysia,"Type, p.83",
+Selaginella wallichii,holotype,K,,Wallich,Cat. no. 128,,‘Penang and Singapore’,,,"Type, p.85","Type of the basionym Lycopodium wallichii Hook. & Grev. Locality covers two places (Penang and Singapore), so state and country left blank."
+Selaginella wallichii,figure specimen,,,FRI,51641,,,,,"Figure 5, p.84",Figure 5 panels C-E.
+Selaginella willdenowii,,B,,Willdenow,s.n.,,Java,,Indonesia,"Type, p.85",Type of the basionym Lycopodium willdenowii Desv. ex Poir. Status not stated. Printed as 'probably B n.v.'; hedge: probably B. n.v. (not seen by author).
+Selaginella willdenowii,figure specimen,,,Stone & Wong,13888,,,,,"Figure 4, p.74",Figure 4 panels E-G.
