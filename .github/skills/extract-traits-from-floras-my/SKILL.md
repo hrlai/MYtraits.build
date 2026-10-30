@@ -23,6 +23,7 @@ pause. Worked examples, all in this repository:
 | `data/Kochummen_1995` | Burseraceae, TFSS vol. 1 | 2007 electronic text (unembedded fonts, no scan); scripted parser, 59 taxa | first TFSS parser; infra annotations under a species description; single-infra taxa; family exceptions by hand; missing-dash source fixes |
 | `data/Berhaman_1995` | Bignoniaceae, TFSS vol. 1 | 2007 electronic text, 5 described taxa | `flora_hand()` for a multi-genus family; hand copy-down table; single-infra taxon; undescribed species and key-only genus flagged |
 | `data/Kiew_2015` | Nymphaeaceae, FPM vol. 5 | born-digital PDF, 5 taxa | `flora_hand()` with `ext()`; aquatic habit; cultivated plants; pollinators; several secondary sources |
+| `data/Wong_2010` | Selaginellaceae, FPM ferns vol. 1 | born-digital PDF, scripted clause parser, 35 taxa | first lycophyte; leaf kinds in `entity_measured`; genus copy-down with no family description; differential-only varieties |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
@@ -548,6 +549,13 @@ Bespoke checklist (decisions that changed per family):
 - **Ferns.** Cibotiaceae is a provisional example, not a validated mapping
   template. Check each treatment and `config/traits.yml` before mapping stipe to
   petiole, lamina to leaf, or pinnae to leaflets; flag uncertain mappings.
+- **Lycophytes** (Selaginellaceae, Wong_2010; provisional, Wong_2010
+  questions 2, 3 and 8). Score every leaf kind (lateral, median, axillary,
+  main-stem and basal stem leaves) into the leaf traits and name it in
+  `entity_measured`. Lateral and median leaves in four rows (heterophylly)
+  are `leaf_heterogeneity = anisophyllous`. "Suberect" ("arched ascending")
+  is `stem_growth_habit = decumbent`. Rhizophores, strobilus symmetry,
+  sporophylls, arista length and spores have no trait: keep them unmapped.
 
 ### 5. Higher-rank values (G, with user rules)
 
