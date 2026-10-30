@@ -1,0 +1,598 @@
+source:
+  primary:
+    key: Cheek_2012
+    bibtype: InBook
+    year: 2012
+    author: M. Cheek and M. Jebb
+    title: Nepenthaceae
+    booktitle: 'Flora of Peninsular Malaysia, Series II: Seed Plants, Volume 3'
+    editor: R. Kiew and R. C. K. Chung and L. G. Saw and E. Soepadmo
+    series: Malayan Forest Records No. 49
+    publisher: Forest Research Institute Malaysia
+    place: Kepong, Selangor, Malaysia
+    pages: 249--275
+    isbn: 978-967-5221-73-6
+    doi: 10.26525/FPM23008
+  secondary:
+    key: Chua_2000
+    bibtype: Article
+    year: 2000
+    author: L. S. L. Chua
+    title: The flowering phenology and floral biology of Nepenthes macfarlanei from Mt. Purun, Peninsular Malaysia
+    journal: Journal of Tropical Forest Science
+    volume: 12
+    number: 2
+    pages: 377--387
+  secondary_2:
+    key: Lim_1973
+    bibtype: Article
+    year: 1973
+    author: A. L. Lim and N. Prakash
+    title: Life history of Nepenthes gracilis
+    journal: Malaysian Journal of Science
+    volume: 2
+    pages: 45--53
+  secondary_3:
+    key: Clarke_2001
+    bibtype: Book
+    year: 2001
+    author: C. M. Clarke
+    title: Nepenthes of Sumatra and Peninsular Malaysia
+    publisher: Natural History Publications (Borneo)
+    place: Kota Kinabalu, Malaysia
+  secondary_4:
+    key: Cheek_2001
+    bibtype: InBook
+    year: 2001
+    author: M. Cheek and M. Jebb
+    title: Nepenthaceae
+    booktitle: Flora Malesiana, Series I, Volume 15
+    publisher: Nationaal Herbarium Nederland
+    place: Leiden, the Netherlands
+contributors:
+  data_collectors:
+    - last_name: Cheek
+      given_name: M.
+      ORCID: .na
+      affiliation: Royal Botanic Gardens, Kew, Richmond, Surrey, U.K.
+    - last_name: Jebb
+      given_name: M.
+      ORCID: .na
+      affiliation: National Botanic Gardens, Glasnevin, Dublin, Ireland
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '2012'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description:
+    Nepenthaceae (Nepenthes, ten species and three named hybrids) of
+    Peninsular Malaysia.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    Born-digital PDF (assets/myflora_metadata.csv); rows come from the PDF text
+    layer (pdf pages 7--33, printed 249--275) read with flora_read_pdf_lines()
+    and segmented by raw/segment_source.R. No page was image-checked:
+    flora_layer_flags() flagged only the front matter, the plates (pdf 35--39,
+    printed 362--366, photographs) and the full-page Figures 1 and 2 (pdf 20
+    and 27), whose captions are in the layer; no bad glyphs and no page-number
+    breaks in the treatment. Each Description sentence was split into ';'
+    clauses and ',' pieces outside parentheses; pieces were scored by hand in
+    raw/build_trait_data.R, and every other piece is kept verbatim as an
+    unmapped row. The family is monogeneric and has no family description, so
+    unqualified single-level genus values are copied to the ten species when
+    no species disagrees (trait_scoring_method = inferred_from_genus). Ranges
+    are minimum and maximum, parenthetical extremes are extreme_range rows, a
+    single or "c." value is a mean and "to" values are maxima. Hedged
+    statements are not scored. Population region is Peninsular Malaysia for
+    species descriptions and species sections (FPM guide).
+  original_file:
+    Nepenthaceae.pdf (Cheek & Jebb 2012, Flora of Peninsular Malaysia Series
+    II vol. 3, pp. 249--275)
+  notes: |
+    Mapped and unmapped rows share raw/trait_data.csv; raw/unmapped_terms.csv
+    summarises the unmapped rows by organ. Most of each species description
+    is the pitcher (lower, upper and rosette pitchers: shape, size, colour,
+    wings and fringe elements, mouth, peristome ribs and teeth, lid shape,
+    size and nectar glands, spur), which has no trait in config/traits.yml.
+    Other unmapped characters: sessile leaves and leaf texture (coriaceous,
+    chartaceous), amplexicaul or clasping, decurrent and auriculate-lobed
+    bases measured in mm, fimbriate leaf margins (N. mirabilis), venation,
+    stem diameter and shape of climbing stems (not basal diameter),
+    internode length, buds, stipules lacking, indumentum details, inflorescence
+    width, peduncle, partial-peduncle and bract details, pedicel length,
+    tepal width and shape, androphore and anther-head size, ovary length,
+    capsule valve width, seed appendages, number of flowers per inflorescence
+    and seeds per fruit. Distribution, Ecology (altitude, habitat, peat,
+    shade), Conservation status, Uses, Notes and the genus Reproductive
+    biology, Morphology, Pitcher function, Pitcher Ecosystem, Trapping of
+    prey, Hybridization, Conservation and Collecting methods paragraphs are
+    kept as unmapped sentences. Scent and flower-visitor values cited in the
+    genus Reproductive biology paragraph are scored for the species named,
+    with the cited work as source_id and no population region (question 9).
+    Statements from outside the flora region (moth pollination of N. gracilis
+    in Sumatra) and hedged pollinators (muscid flies, carrion flies) are not
+    scored. The three named hybrids are kept as unmapped rows only (question
+    1). N. alata and N. reinwardtiana (Excluded Species) are listed in
+    raw/taxon_flags.csv and not scored. Source repairs are in
+    raw/source_fixes.csv. Types, types of synonyms and the Figure 2 specimen
+    are in raw/Cheek_2012_vouchers.csv.
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: breeding_system
+    unit_in: .na
+    trait_name: breeding_system
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus Reproductive biology ''Being dioecious, all Nepenthes species are obligate outbreeders'', scored as allogamy and copied to the ten species (question 7).'
+  - var_in: dispersal_syndrome
+    unit_in: .na
+    trait_name: dispersal_syndrome
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus Reproductive biology: light seeds with thread-like appendages blown away by gusts of wind, scored as anemochory and copied to the ten species.'
+  - var_in: flower_anther_dehiscence
+    unit_in: .na
+    trait_name: flower_anther_dehiscence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description (anther locules opening by longitudinal slits), copied to the ten species.'
+  - var_in: flower_anther_orientation
+    unit_in: .na
+    trait_name: flower_anther_orientation
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description (anthers extrorse), copied to the ten species.'
+  - var_in: flower_colour
+    unit_in: .na
+    trait_name: flower_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Tepal colour scored as flower colour: genus description (female tepals green, brown or red) and male-flower tepals of three species.'
+  - var_in: flower_gynoecium_placentation
+    unit_in: .na
+    trait_name: flower_gynoecium_placentation
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description ''placentation lamellar'', scored as laminar and copied to the ten species (question 7).'
+  - var_in: flower_ovary_position
+    unit_in: .na
+    trait_name: flower_ovary_position
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description (ovary superior), copied to the ten species.'
+  - var_in: flower_perianth_fusion_categorical
+    unit_in: .na
+    trait_name: flower_perianth_fusion_categorical
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description: tepals free or basally united.'
+  - var_in: flower_perianth_parts_count
+    unit_in: unit
+    trait_name: flower_perianth_parts_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Genus description: a single whorl of 4 tepals. Not copied (numeric).'
+  - var_in: flower_pollinator_reward
+    unit_in: .na
+    trait_name: flower_pollinator_reward
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description: tepals nectariferous; copied to the ten species.'
+  - var_in: flower_scent_production
+    unit_in: .na
+    trait_name: flower_scent_production
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Flower odour reported in the genus Reproductive biology paragraph for four species, each citing another work (source_id).'
+  - var_in: flower_sepal_length
+    unit_in: unit
+    trait_name: flower_sepal_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Male-flower tepal length (first dimension of tepal ''a x b'' sizes) scored as sepal length (questions 3 and 4).'
+  - var_in: flower_structural_carpels_count
+    unit_in: unit
+    trait_name: flower_structural_carpels_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Genus description: ovary 4-carpellate. Not copied (numeric).'
+  - var_in: flower_structural_sex_type
+    unit_in: .na
+    trait_name: flower_structural_sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description: male flowers lack a gynoecium and female flowers an androecium; scored as unisexual and copied to the ten species.'
+  - var_in: flower_visitor
+    unit_in: .na
+    trait_name: flower_visitor
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Muscid flies occasionally visiting flowers of N. macfarlanei (Chua 2000, cited in the genus Reproductive biology paragraph). The suggested pollinator role is hedged and not scored.'
+  - var_in: fruit_dehiscence
+    unit_in: .na
+    trait_name: fruit_dehiscence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description (loculicidally dehiscent capsule), copied to the ten species.'
+  - var_in: fruit_length
+    unit_in: unit
+    trait_name: fruit_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Fruit length, or capsule valve length scored as fruit length (questions 3 and 4).'
+  - var_in: fruit_type
+    unit_in: .na
+    trait_name: fruit_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description (capsule), copied to the ten species.'
+  - var_in: inflorescence_length
+    unit_in: unit
+    trait_name: inflorescence_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Male inflorescence length from species descriptions (female inflorescences are not described).'
+  - var_in: inflorescence_type
+    unit_in: .na
+    trait_name: inflorescence_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description: inflorescences terminal (copied to the ten species), a paniculoid thyrse (scored as panicle, question 7) or raceme; male inflorescences of N. ampullaria paniculate.'
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Lamina apex from species descriptions; entity_measured names the leaf kind when the description separates them.'
+  - var_in: leaf_arrangement
+    unit_in: .na
+    trait_name: leaf_arrangement
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description (leaves spirally arranged), copied to the ten species.'
+  - var_in: leaf_base_shape
+    unit_in: .na
+    trait_name: leaf_base_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Lamina base from species descriptions. Amplexicaul or clasping bases have no level and are unmapped; the amplexicaul sheath of N. benstonei is scored as sheathing (question 8).'
+  - var_in: leaf_compoundness
+    unit_in: .na
+    trait_name: leaf_compoundness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description (leaves simple), copied to the ten species.'
+  - var_in: leaf_glaucousness
+    unit_in: .na
+    trait_name: leaf_glaucousness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'N. benstonei leaves with a white-blue waxy (glaucous) sheen in life.'
+  - var_in: leaf_hairs_adult_leaves
+    unit_in: .na
+    trait_name: leaf_hairs_adult_leaves
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Lamina indumentum from species descriptions; entity_measured names the surface when the text does.'
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Lamina length (first dimension of ''a x b'' sizes, question 3); entity_measured names the leaf kind (rosette, short-stem, climbing-stem, lower or upper leaf).'
+  - var_in: leaf_margin
+    unit_in: .na
+    trait_name: leaf_margin
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Lamina margin from species descriptions. The fimbriate margin of N. mirabilis rosette leaves has no level and is unmapped.'
+  - var_in: leaf_shape
+    unit_in: .na
+    trait_name: leaf_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Lamina shape from species descriptions; hyphenated shapes score both levels; entity_measured names the leaf kind.'
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Lamina width (second dimension of ''a x b'' sizes, question 3); entity_measured names the leaf kind.'
+  - var_in: petiole_length
+    unit_in: unit
+    trait_name: petiole_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Petiole length of the two petiolate species (N. mirabilis climbing-stem leaves, N. rafflesiana).'
+  - var_in: plant_alternative_energy_and_nutrient_acquisition_strategy
+    unit_in: .na
+    trait_name: plant_alternative_energy_and_nutrient_acquisition_strategy
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description (carnivorous), copied to the ten species.'
+  - var_in: plant_climbing_mechanism
+    unit_in: .na
+    trait_name: plant_climbing_mechanism
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus Morphology paragraph: climbing stems supported by the twining leaf tendrils; copied to the ten species.'
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Habit from the genus and species descriptions (''climber'', ''sub-shrub or climber'').'
+  - var_in: plant_growth_substrate
+    unit_in: .na
+    trait_name: plant_growth_substrate
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Terrestrial or epiphytic, from the genus and species descriptions and N. sanguinea Ecology.'
+  - var_in: plant_height_climbing_plant
+    unit_in: unit
+    trait_name: plant_height_climbing_plant
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Height of the climbing plant from species descriptions (''climber to 15 m tall''; question 2).'
+  - var_in: seed_length
+    unit_in: unit
+    trait_name: seed_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Seed length, including the long basal and apical appendages.'
+  - var_in: seed_shape
+    unit_in: .na
+    trait_name: seed_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description (seeds fusiform), copied to the ten species.'
+  - var_in: seed_surface_texture
+    unit_in: .na
+    trait_name: seed_surface_texture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Texture of the central seed body: papillate and tuberculate scored as bumpy, rugose as rough (question 6).'
+  - var_in: seed_width
+    unit_in: unit
+    trait_name: seed_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'N. rafflesiana seeds (second dimension of the ''a x b'' size).'
+  - var_in: sex_type
+    unit_in: .na
+    trait_name: sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description (dioecious), copied to the ten species.'
+  - var_in: stem_hairs
+    unit_in: .na
+    trait_name: stem_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Stem indumentum from species descriptions.'
+substitutions:
+  - trait_name: breeding_system
+    find: obligate_outbreeders
+    replace: allogamy
+  - trait_name: dispersal_syndrome
+    find: blown_away_by_gusts_of_wind
+    replace: anemochory
+  - trait_name: flower_anther_dehiscence
+    find: longitudinal_slits
+    replace: longitudinal_slit
+  - trait_name: flower_colour
+    find: green brown red
+    replace: green red_brown
+  - trait_name: flower_colour
+    find: green yellow
+    replace: green yellow_orange
+  - trait_name: flower_colour
+    find: red brown-red
+    replace: red_brown
+  - trait_name: flower_gynoecium_placentation
+    find: lamellar
+    replace: laminar
+  - trait_name: flower_perianth_fusion_categorical
+    find: free basally_united
+    replace: perianth_parts_unfused perianth_parts_fused_at_base
+  - trait_name: flower_pollinator_reward
+    find: nectariferous
+    replace: nectar
+  - trait_name: flower_scent_production
+    find: foul_musky_smell
+    replace: scent_produced
+  - trait_name: flower_scent_production
+    find: heavy_foetid_smell
+    replace: scent_produced
+  - trait_name: flower_scent_production
+    find: slightly_musky_or_foetid
+    replace: scent_produced
+  - trait_name: flower_scent_production
+    find: smelled_of_mice_droppings
+    replace: scent_produced
+  - trait_name: flower_visitor
+    find: muscid_flies
+    replace: fly
+  - trait_name: inflorescence_type
+    find: paniculate
+    replace: panicle
+  - trait_name: inflorescence_type
+    find: terminal paniculoid_thyrse raceme
+    replace: terminal panicle raceme
+  - trait_name: leaf_arrangement
+    find: spirally_arranged
+    replace: spiral
+  - trait_name: leaf_base_shape
+    find: sheath
+    replace: sheathing
+  - trait_name: leaf_hairs_adult_leaves
+    find: absent
+    replace: glabrous
+  - trait_name: leaf_hairs_adult_leaves
+    find: hairs
+    replace: hairy
+  - trait_name: leaf_shape
+    find: linear-lanceolate spathulate
+    replace: linear lanceolate spathulate
+  - trait_name: leaf_shape
+    find: long-spathulate
+    replace: spathulate
+  - trait_name: leaf_shape
+    find: oblanceolate-spathulate
+    replace: oblanceolate spathulate
+  - trait_name: leaf_shape
+    find: oblong narrowly_elliptic-oblanceolate
+    replace: oblong narrowly_elliptical oblanceolate
+  - trait_name: leaf_shape
+    find: obovate-oblong
+    replace: obovate oblong
+  - trait_name: plant_growth_form
+    find: sub-shrub
+    replace: subshrub
+  - trait_name: plant_growth_form
+    find: sub-shrub climber
+    replace: subshrub climber
+  - trait_name: plant_growth_form
+    find: woody_climbers
+    replace: climber_woody
+  - trait_name: plant_growth_substrate
+    find: epiphytic
+    replace: epiphyte
+  - trait_name: plant_growth_substrate
+    find: terrestrial epiphytic
+    replace: terrestrial epiphyte
+  - trait_name: seed_surface_texture
+    find: papillate
+    replace: bumpy
+  - trait_name: seed_surface_texture
+    find: rugose
+    replace: rough
+  - trait_name: seed_surface_texture
+    find: tuberculate
+    replace: bumpy
+  - trait_name: stem_hairs
+    find: absent
+    replace: glabrous
+  - trait_name: stem_hairs
+    find: hairs
+    replace: hairy
+  - trait_name: stem_hairs
+    find: tomentose
+    replace: hairy
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1: 'Named hybrids. N. x ghazallyiana, N. x hookeriana and N. x trichocarpa (pp. 272--274) are described only by comparison with their parents ("Intermediate between ..., like N. gracilis it has sessile leaves ..."), with a few measurements (pitcher and peristome sizes, which have no trait). Their 8 comparative sentences are kept as unmapped rows and receive no genus copy-down. Decide whether named hybrids should be scored, and whether genus values (carnivorous, dioecious, capsule, etc.) should be copied to them.'
+  question2: 'Climber height. Every species is "Terrestrial climber ... m tall" (N. mirabilis "sub-shrub or climber to 10 m"; N. macfarlanei "sometimes epiphytic or climber to 3 m"). These 10 species are scored as plant_height_climbing_plant (14 rows), not plant_height. Confirm the trait, and whether the N. mirabilis and N. macfarlanei heights should apply to the non-climbing forms too.'
+  question3: 'Dimension pairs "a x b" are read as length x width for lamina, tepal, capsule valve and seed sizes (all species). Confirm.'
+  question4: 'Tepals and valves. Nepenthes flowers have one whorl of four tepals and no petals; male-flower tepal length is scored as flower_sepal_length (10 species, entity_measured male flower). Capsule valve length ("Fruits: valves 25--29 x 2.2--2 mm") is scored as fruit_length (7 species); N. ampullaria and N. benstonei give fruit length directly. Confirm both mappings or keep them unmapped pending tepal and valve traits.'
+  question5: 'Source issues. (a) N. gracillima tepals "3.5--4 x 2;" (p. 263) has no unit; mm was added in raw/source_fixes.csv and scored as sepal length 3.5--4 mm. (b) N. gracilis "Fruits: valves 42--27(--35) mm long" (p. 260) has a minimum larger than the maximum and is not scored. Confirm (a), and supply the intended N. gracilis range for (b) if known (e.g. from Flora Malesiana).'
+  question6: 'Seed surface. The central seed body is "papillate" (N. gracilis) or "tuberculate" (N. macfarlanei, N. ramispina), scored as seed_surface_texture bumpy; "rugose" (N. sanguinea) as rough; "smooth" (N. gracillima) as smooth. The appendages are not described for texture. Confirm these mappings.'
+  question7: 'Genus mappings copied to all ten species: "a paniculoid thyrse or raceme" scored as inflorescence_type panicle raceme (genus only; "terminal" copied); "placentation lamellar" as laminar; "obligate outbreeders" (Reproductive biology) as breeding_system allogamy; male flowers lacking a gynoecium and female flowers lacking an androecium as flower_structural_sex_type unisexual. Confirm.'
+  question8: 'Clasping leaf bases. Most species have sessile laminas "clasping the stem for half to three-quarters of its circumference" (amplexicaul), which has no leaf_base_shape level and is unmapped (8 species). Only N. benstonei, "a broad amplexicaul sheath clasping the stem", is scored as sheathing. Decide whether amplexicaul should become a leaf_base_shape level (traits.yml, centrally) or map to sheathing.'
+  question9: 'Cited observations in the genus Reproductive biology paragraph are scored for the species named, with source_id and no population region: flower_scent_production for N. gracilis (Lim & Prakash 1973), N. macfarlanei (Chua 2000), N. ampullaria (Clarke 2001) and N. mirabilis (Cheek & Jebb 2001, Flora Malesiana; locality not stated); flower_visitor fly for N. macfarlanei (Chua 2000). Confirm that these cited, regionally unstated observations should be scored.'
+  question10: 'Flowering time. The genus Reproductive biology paragraph says Holttum (1940) reported seasonal flowering but Chua (2000) observed flowering peaks with inflorescences produced sporadically throughout the year. Not scored as flowering_time. Decide whether to score yyyyyyyyyyyy (all species, or N. macfarlanei only, Chua 2000).'
+  question11: 'Seed appendages. Seeds are fusiform, "slender due to long basal and apical appendages", with "air-filled, thread-like appendages" blown by wind. dispersal_syndrome anemochory is scored (genus, copied); dispersal_appendage is not, because no level fits thread-like seed-coat appendages (hairs? wing_or_plume?). Decide the level.'

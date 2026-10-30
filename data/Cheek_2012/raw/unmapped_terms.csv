@@ -1,0 +1,36 @@
+organ,character,n_taxa,example_taxon,example_text,printed_page
+distribution,text,14,Nepenthes,"A genus of c. 110 species, mostly in Malesia, but distributed from Madagascar and the Seychelles to Sri Lanka, NE India, Thailand, Indo-China, throughout Malesia to Australia and the Solomon Is. an...",250
+ecology,text,14,Nepenthes,Nepenthes species are often locally common,250
+flower,description clause,11,Nepenthes,Male flowers with perianth as in female,250
+indumentum,description clause,11,Nepenthes,"Indumentum of simple, bifid, fasciculate, stellate or dendritic non-glandular hairs and sunken, sessile or shortly stipitate glandular hairs",249
+inflorescence,description clause,11,Nepenthes,appearing lateral by subsequent growth,250
+leaf,description clause,11,Nepenthes,marcescent,249
+lower pitcher,description clause,11,Nepenthes,"Lower pitchers produced from rosettes or short stems, often resting on the ground, usually ovoid or globular, the mouth facing towards the stem, with two ventral fringed wings running from the base...",250
+pitcher lid,description clause,11,Nepenthes,"lid usually held over the mouth (except in N. ampullaria where it is reflexed away from the mouth), lower surface with appendages absent (elsewhere with a laterally flattened basal appendage or rar...",250
+pitcher spur,description clause,11,Nepenthes,"spur inserted on dorsal surface at junction with lid, entire or variously divided, flattened or terete",250
+stem,description clause,11,Nepenthes,Stems terete or 2--4-angled or winged,249
+upper pitcher,description clause,11,Nepenthes,"Upper pitchers produced from climbing stems (rarely present in N. ampullaria) usually more elongated and infundibular (funnel-shaped) than the lower pitchers, the mouth faces away from the stem, th...",250
+conservation status,text,10,Nepenthes albomarginata,Least Concern.,256
+leaf venation,description clause,10,Nepenthes albomarginata,"longitudinal veins 1 on each side of the midrib near the margin, inconspicuous",256
+note,text,10,Nepenthes,"In order to reduce the length of descriptions, we have omitted characters of the inner pitcher surface and description of female inflorescences since they are similar to those of the male and are m...",254
+peristome,description clause,10,Nepenthes,peristome often glossy red,249
+pitcher mouth,description clause,10,Nepenthes,"mouth apical (or elsewhere sometimes subapical), rimmed with a ribbed peristome (pitcher rim), the inner edge often toothed and bearing nectar glands, at the rear sometimes raised to form a column ...",249
+pitcher,description clause,9,Nepenthes,"Pitchers dimorphic, entirely green, or yellow or orange or white or purple or red, often marked with red streaks or blotches",249
+fruit,description clause,3,Nepenthes,sometimes stipitate,250
+hybrid,comparison with the parents,3,Nepenthes ×ghazallyiana,"Intermediate between Nepenthes gracilis and N. mirabilis: like N. gracilis it has sessile leaves lacking a fimbriate margin, pitchers with a narrow peristome c. 2 mm wide, and thickly bordered glan...",272
+pitcher wings,description clause,3,Nepenthes albomarginata,"with two ridges to 1 mm broad, occasionally with short wings towards the pitcher mouth, and then usually extending to above the level of the peristome, lacking fringed elements",256
+bud,description clause,2,Nepenthes,"Buds naked, lacking scales",249
+uses,text,2,Nepenthes,The main value of Nepenthes is in the international horticultural trade,254
+collecting methods,text,1,Nepenthes,It is important to be aware of the dimorphy of the pitchers when collecting Nepenthes,254
+conservation,text,1,Nepenthes,There are two main threats to Nepenthes species: the horticultural trade and habitat destruction,253
+hybridization,text,1,Nepenthes,Apparently all species that grow sympatrically are capable of hybridizing under natural conditions,253
+lid nectar glands,description clause,1,Nepenthes,nectar glands usually abundant,250
+morphology,text,1,Nepenthes,"Peninsular Malaysian Nepenthes species begin life as a low rosette with an extremely short, erect stem and short internodes, then become shrubby by the production of short stems 1--2 m tall with lo...",251
+pitcher function,text,1,Nepenthes,"During development, the mouth of the pitcher is hermetically sealed by the lid that only opens when the final size of the pitcher has been approached",252
+plant,description clause,1,Nepenthes ampullaria,with many terrestrial and occasionally with aerial rosettes,257
+reproductive biology,text,1,Nepenthes,Holttum (Malay,251
+rosette pitcher,description clause,1,Nepenthes sanguinea,"rosette pitchers smaller and more slender in proportion than the lower pitchers, peristome not usually sinuate",271
+seed,description clause,1,Nepenthes,"slender due to long basal and apical appendages, testa reduced to outer epidermis with thick outer walls to the cells and irregular thickenings on the radial and inner walls, endosperm starchy or a...",250
+stipules,description clause,1,Nepenthes,Stipules lacking,249
+the pitcher ecosystem,text,1,Nepenthes,"Once open, the fluid in the pitchers begins to harbour a succession of microscopic organisms, such as bacteria, desmids and diatoms, and rotifers that are food for mosquito larvae and water mites t...",252
+trapping of prey,text,1,Nepenthes,"Prey is probably attracted to the pitcher by a combination of its colour and the presence of nectar secreted by glands on the underside of the pitcher lid, the inner edge of the peristome, and on t...",252

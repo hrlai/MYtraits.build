@@ -1,0 +1,3 @@
+pattern,replacement,page,reason
+(?<=\d)\. (?=\d),.,,"decimal set with a space after the point in the text layer (e.g. '1. 5 cm', '0.1–0. 2 mm', '4. 3 cm'); Description paragraphs only, all pages."
+3.5–4 × 2;,3.5–4 × 2 mm;,263,"source typo: unit missing after N. gracillima tepals '3.5–4 × 2'; mm as in every other tepal size in the treatment (Cheek_2012 question 5)."
