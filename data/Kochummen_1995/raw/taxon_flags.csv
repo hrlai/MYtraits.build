@@ -1,37 +1,37 @@
 taxon_name,taxon_rank,status,n_rows,flag
-Canarium apertum,species,accepted,51,
+Canarium apertum,species,accepted,50,
 Canarium asperum,species,accepted,0,Species heading only; the description belongs to its one infraspecific taxon in the region (subsp. asperum var. asperum).
-Canarium asperum subsp. asperum var. asperum,variety,accepted,41,Only infraspecific taxon in the region; its description is the local description of the species (TFSS guide).
-Canarium caudatum,species,accepted,42,
+Canarium asperum subsp. asperum var. asperum,variety,accepted,40,Only infraspecific taxon in the region; its description is the local description of the species (TFSS guide).
+Canarium caudatum,species,accepted,41,
 Canarium caudatum forma auriculiferum,forma,accepted,1,"Infraspecific annotation under a species description (key lead, nomenclature, distribution); no description; species values not inherited."
 Canarium caudatum forma caudatum,forma,accepted,1,"Infraspecific annotation under a species description (key lead, nomenclature, distribution); no description; species values not inherited."
-Canarium decumanum,species,accepted,47,
-Canarium denticulatum,species,accepted,44,
+Canarium decumanum,species,accepted,46,
+Canarium denticulatum,species,accepted,43,
 Canarium denticulatum subsp. denticulatum,subspecies,accepted,1,"Infraspecific annotation under a species description (key lead, nomenclature, distribution); no description; species values not inherited."
 Canarium denticulatum subsp. kostermansii,subspecies,accepted,1,"Infraspecific annotation under a species description (key lead, nomenclature, distribution); no description; species values not inherited."
-Canarium dichotomum,species,accepted,48,
-Canarium divergens,species,accepted,48,
-Canarium fusco-calycinum,species,accepted,45,
-Canarium grandifolium,species,accepted,47,
-Canarium hirsutum,species,accepted,46,Note names subsp. hirsutum var. hirsutum and forma scabrum in the region without headings; scored at species rank.
-Canarium kinabaluensis,species,accepted,47,
-Canarium kostermansii,species,accepted,40,
-Canarium latistipulatum,species,accepted,43,
-Canarium littorale,species,accepted,43,
+Canarium dichotomum,species,accepted,47,
+Canarium divergens,species,accepted,47,
+Canarium fusco-calycinum,species,accepted,44,
+Canarium grandifolium,species,accepted,46,
+Canarium hirsutum,species,accepted,45,Note names subsp. hirsutum var. hirsutum and forma scabrum in the region without headings; scored at species rank.
+Canarium kinabaluensis,species,accepted,46,
+Canarium kostermansii,species,accepted,39,
+Canarium latistipulatum,species,accepted,42,
+Canarium littorale,species,accepted,42,
 Canarium littorale forma littorale,forma,accepted,1,"Infraspecific annotation under a species description (key lead, nomenclature, distribution); no description; species values not inherited."
 Canarium littorale forma pruinosum,forma,accepted,1,"Infraspecific annotation under a species description (key lead, nomenclature, distribution); no description; species values not inherited."
 Canarium littorale forma rufum,forma,accepted,1,"Infraspecific annotation under a species description (key lead, nomenclature, distribution); no description; species values not inherited."
-Canarium megalanthum,species,accepted,47,
-Canarium merrillii,species,accepted,47,
-Canarium odontophyllum,species,accepted,49,
-Canarium patentinervium,species,accepted,44,
-Canarium pilosum,species,accepted,46,
+Canarium megalanthum,species,accepted,46,
+Canarium merrillii,species,accepted,46,
+Canarium odontophyllum,species,accepted,48,
+Canarium patentinervium,species,accepted,43,
+Canarium pilosum,species,accepted,45,
 Canarium pilosum subsp. borneensis,subspecies,accepted,1,"Infraspecific annotation under a species description (key lead, nomenclature, distribution); no description; species values not inherited."
 Canarium pilosum subsp. pilosum,subspecies,accepted,1,"Infraspecific annotation under a species description (key lead, nomenclature, distribution); no description; species values not inherited."
-Canarium pseudodecumanum,species,accepted,49,
-Canarium pseudopatentinervium,species,accepted,43,
-Canarium pseudopimela,species,accepted,53,
-Canarium sarawakanum,species,accepted,54,
+Canarium pseudodecumanum,species,accepted,48,
+Canarium pseudopatentinervium,species,accepted,42,
+Canarium pseudopimela,species,accepted,52,
+Canarium sarawakanum,species,accepted,53,
 Dacryodes costata,species,accepted,54,
 Dacryodes elmeri,species,accepted,35,
 Dacryodes expansa,species,accepted,41,

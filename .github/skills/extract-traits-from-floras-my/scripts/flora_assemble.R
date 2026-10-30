@@ -59,11 +59,36 @@ flora_trait_data_cols <- c(
   )
 }
 
+# TRUE when the clause joins a scored source word by "or" / "to" to a word that
+# is not itself scored ("symmetric or slightly oblique", "introrse or
+# latero-introrse"). A word counts as scored when it starts with a scored term
+# ("corymbose" for "corymb"). An adverb between is skipped, and an adverb range
+# ("slightly to strongly asymmetric") is one term. Words joined only to each
+# other ("imparipinnate or paripinnate", both scored) are not alternatives.
+# shortcut: comma lists ("flat, terete or triquetrous" scored flat) are not
+# caught, because commas also separate characters; read the copy-down table.
+.flora_names_alt <- function(raw, value) {
+  words <- str_split_1(str_to_lower(coalesce(value, "")), "\\s+")
+  pairs <- str_match_all(
+    str_to_lower(raw),
+    "([[:alnum:]-]+),?\\s+(?:or|to)\\s+(?:[a-z]+ly\\s+)?([[:alnum:]-]+)"
+  )[[1]]
+  pairs <- pairs[!str_detect(pairs[, 2], "ly$"), , drop = FALSE]
+  if (!nrow(pairs)) {
+    return(FALSE)
+  }
+  scored <- \(w) map_lgl(w, \(x) any(startsWith(x, words[words != ""])))
+  any(xor(scored(pairs[, 2]), scored(pairs[, 3])))
+}
+
 # Copy an unqualified categorical value from a family / genus / group
 # description to member taxa that are silent on the trait. Rules (user rules,
 # written down in the notes and used by Coode_2018, Lim_2010 and Yao_2010):
 #   - only value_type == "mode", no commonness word, exactly one mapped level;
-#   - drop statements scoped to some members ("most", "many", "in some");
+#   - the statement names exactly one term, counting terms with no level:
+#     "symmetric or slightly oblique" is not "all oblique" (.flora_names_alt);
+#   - drop statements scoped to some members ("most", "many", "in some") or
+#     naming a genus in brackets ("(Hydrocleys)");
 #   - never numbers; never a "sometimes" or "often" statement from genus level;
 #   - copy only if every member that scores the trait itself includes the level;
 #   - entity_measured (e.g. male / female flowers) is part of the trait: test
@@ -72,7 +97,8 @@ flora_trait_data_cols <- c(
 #     (group > genus > family), so family and genus alternatives are not both
 #     copied.
 # Returns the copied rows plus attr(, "rejected"): higher-rank rows that failed
-# the agreement test, to be read in the QA step.
+# the agreement test (reason "agreement") or name an alternative term
+# (reason "alternative"), to be read in the QA step.
 flora_copy_down <- function(higher_rows, own_rows, members) {
   higher <- higher_rows |>
     filter(
@@ -82,8 +108,21 @@ flora_copy_down <- function(higher_rows, own_rows, members) {
       !is.na(trait_value_clean),
       trait_value_clean != "",
       !str_detect(trait_value_clean, " "),
-      !str_detect(trait_value_raw, "\\b(in some|most|many|some species)\\b")
+      !str_detect(trait_value_raw, "\\b(in some|most|many|some species)\\b"),
+      !str_detect(trait_value_raw, "\\([A-Z][a-z]+\\)")
     )
+  alt <- map2_lgl(higher$trait_value_raw, higher$trait_value, .flora_names_alt)
+  alt_rejected <- higher[alt, ] |>
+    transmute(
+      from = block,
+      from_rank = rank,
+      trait,
+      entity_measured,
+      value = trait_value_clean,
+      ok = FALSE,
+      reason = "alternative"
+    )
+  higher <- higher[!alt, ]
   tests <- pmap_dfr(higher, \(...) {
     h <- list(...)
     mem <- .flora_members_of(members, h$block, h$rank)
@@ -109,7 +148,22 @@ flora_copy_down <- function(higher_rows, own_rows, members) {
       )
     )
   })
-  rejected <- tests |> filter(!ok) |> select(-copied_to)
+  if (!nrow(tests)) {
+    tests <- tibble(
+      from = character(),
+      from_rank = character(),
+      trait = character(),
+      entity_measured = character(),
+      value = character(),
+      ok = logical(),
+      copied_to = list()
+    )
+  }
+  rejected <- tests |>
+    filter(!ok) |>
+    select(-copied_to) |>
+    mutate(reason = "agreement") |>
+    bind_rows(alt_rejected)
   src <- higher |>
     transmute(
       from = block,
