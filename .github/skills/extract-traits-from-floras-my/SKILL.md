@@ -475,7 +475,9 @@ Bespoke checklist (decisions that changed per family):
   the general row. Use `\b` or a lookbehind such as `(?<!sub)` in new general
   rows.
 - **Numbers.** A range is minimum + maximum, a single or "c." value is a mean,
-  "to X" is a maximum. Missing units (Coode_2018 *E. fraseri* lamina
+  "to X" is a maximum, "to a--b" is minimum a + maximum b
+  (`flora_num_rows()`; Hughes_2013 "to 10--15 m tall" was a maximum of 10
+  before 2026-10, so rebuild it). Missing units (Coode_2018 *E. fraseri* lamina
   "14--18.5 x (7--)9--12") go in `source_fixes.csv` with the page.
 - **Mapping misfits** (record every one as a metadata question): `spirally
   arranged` -> `leaf_arrangement: spiral`; `rugose` -> `rough`; `subglabrous` ->
