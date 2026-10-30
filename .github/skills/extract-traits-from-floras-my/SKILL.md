@@ -524,6 +524,11 @@ Bespoke checklist (decisions that changed per family):
   from Yii_1995 (TFSS) are not scored; the source text remains in the
   transcription. For TFSS observations stated only as Borneo, apply the
   unresolved-locality rule above.
+- **Climbers** (provisional, Cheek_2012 question 2). "Climber to 15 m tall"
+  goes to `plant_height_climbing_plant`, not `plant_height`. Stem diameter
+  of climbing stems is not `stem_diameter` (measured at the plant base):
+  keep it unmapped. Tendrils that support the stems are
+  `plant_climbing_mechanism = tendrils`.
 - **Aquatic plants** (Kiew_2015, mappings pending its question 4). Whole-plant
   position in the water ("submerged aquatic herb", "floating") goes in
   `stem_growth_habit` (`submerged`, `floating`, `emergent`), and the habitat in
