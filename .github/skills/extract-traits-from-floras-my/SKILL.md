@@ -108,6 +108,9 @@ selects the `.uvr/library`). Check `.r-version` if the version path fails.
 On Windows, prefer a scratch `.R` file with `uvr run` over `-e`: `Rscript.exe
 -e` breaks on `&` inside strings, and bash heredocs collapse `\\` in regexes
 (use `[.]` instead of `\\.`).
+On Linux (cloud sessions) set a UTF-8 locale (`LANG=C.UTF-8`) first: under
+the C locale `yaml::read_yaml("config/traits.yml")` stops at the first
+non-ASCII character and silently returns about 190 of the 684 traits.
 
 The scripts are tested against the three datasets (they reproduce the Coode
 and Lim paragraph tables and all three `data.csv` value columns exactly). They
