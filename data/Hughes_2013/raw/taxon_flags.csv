@@ -1,10 +1,10 @@
 taxon_name,taxon_rank,status,n_rows,flag
 Lijndenia laurina,species,accepted,32,
 Memecylon acuminatissimum,species,accepted,41,
-Memecylon acuminatum,species,accepted,24,
-Memecylon acuminatum var. acuminatum,variety,accepted,22,Infraspecific treatment; description retained under printed variety heading.
-Memecylon acuminatum var. flavescens,variety,accepted,23,Infraspecific treatment; description retained under printed variety heading.
-Memecylon amplexicaule,species,accepted,25,
+Memecylon acuminatum,species,accepted,25,
+Memecylon acuminatum var. acuminatum,variety,accepted,23,Infraspecific treatment; description retained under printed variety heading.
+Memecylon acuminatum var. flavescens,variety,accepted,24,Infraspecific treatment; description retained under printed variety heading.
+Memecylon amplexicaule,species,accepted,26,
 Memecylon campanulatum,species,accepted,31,
 Memecylon cantleyi,species,accepted,32,
 Memecylon coeruleum,species,accepted,34,
@@ -25,7 +25,7 @@ Memecylon intermedium,species,accepted,28,
 Memecylon kunstleri,species,accepted,26,
 Memecylon lanceolatum,species,accepted,29,
 Memecylon lancifolium,species,accepted,26,
-Memecylon lilacinum,species,accepted,31,
+Memecylon lilacinum,species,accepted,32,
 Memecylon malaccense,species,accepted,9,
 Memecylon megacarpum,species,accepted,38,
 Memecylon minutiflorum,species,accepted,8,
