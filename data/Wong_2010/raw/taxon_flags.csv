@@ -1,0 +1,38 @@
+taxon_name,taxon_rank,status,n_mapped_rows,flag
+Selaginella alutacia,species,accepted,12,
+Selaginella argentea,species,accepted,16,
+Selaginella caulescens,species,accepted,17,
+Selaginella ciliaris,species,accepted,16,
+Selaginella cuprea,species,accepted,15,
+Selaginella curtisii,species,accepted,16,
+Selaginella delicatula,species,accepted,18,
+Selaginella frondosa,species,accepted,19,
+Selaginella griffithii,species,accepted,15,
+Selaginella intermedia,species,accepted,4,No species description: the varieties carry the descriptions; only genus copy-down rows.
+Selaginella intermedia var. dolichocentrus,variety,accepted,11,
+Selaginella intermedia var. intermedia,variety,accepted,20,
+Selaginella longiaristata,species,accepted,11,
+Selaginella mayeri,species,accepted,15,
+Selaginella minutifolia,species,accepted,15,
+Selaginella morganii,species,accepted,19,
+Selaginella ornata,species,accepted,16,
+Selaginella padangensis,species,accepted,19,
+Selaginella plana,species,accepted,19,
+Selaginella polita,species,accepted,16,
+Selaginella pubescens,species,accepted,18,
+Selaginella repanda,species,accepted,16,
+Selaginella ridleyi,species,accepted,15,
+Selaginella rivalis,species,accepted,15,
+Selaginella roxburghii,species,accepted,4,No species description: the varieties carry the descriptions; only genus copy-down rows.
+Selaginella roxburghii var. roxburghii,variety,accepted,16,
+Selaginella roxburghii var. strigosa,variety,accepted,5,Differential description only; typical-variety values not inherited (Wong_2010 question 7).
+Selaginella scabrida,species,accepted,14,
+Selaginella selangorensis,species,accepted,4,No species description: the varieties carry the descriptions; only genus copy-down rows.
+Selaginella selangorensis var. ciliata,variety,accepted,5,Differential description only; typical-variety values not inherited (Wong_2010 question 7).
+Selaginella selangorensis var. selangorensis,variety,accepted,16,
+Selaginella stipulata,species,accepted,15,
+Selaginella strigosa,species,accepted,12,
+Selaginella wallichii,species,accepted,17,
+Selaginella willdenowii,species,accepted,17,
+Selaginella tamariscina,species,not native,0,"Genus Uses: not native in Peninsular Malaysia, introduced as an aquarium plant; not scored."
+Selaginella siamensis,species,misapplied name,0,Genus Taxonomy: S. siamensis in Parris & Latiff (1997) is S. frondosa; not scored.
