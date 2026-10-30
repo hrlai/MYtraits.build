@@ -553,6 +553,12 @@ Bespoke checklist (decisions that changed per family):
   and cleistogamy go to `breeding_system` (`autogamy`, `cleistogamy`).
 - **Excluded and incompletely known species** are not scored; list them in
   `taxon_flags.csv`.
+- **Named hybrids** (provisional, Cheek_2012 question 1). A "Named Hybrids"
+  section after the species gets its own segmenter status (a `section`
+  header with `status`, like "Excluded Species"). Hybrid descriptions that
+  only compare the parents ("Intermediate between ..., like N. gracilis it
+  has ...") stay unmapped sentence rows; hybrids are not copy-down members.
+  List them in `taxon_flags.csv` as `named hybrid`.
 - **Ferns.** Cibotiaceae is a provisional example, not a validated mapping
   template. Check each treatment and `config/traits.yml` before mapping stipe to
   petiole, lamina to leaf, or pinnae to leaflets; flag uncertain mappings.
