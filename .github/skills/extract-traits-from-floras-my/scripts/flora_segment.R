@@ -171,8 +171,10 @@ flora_segment <- function(
 
 # Pages (pdf, printed) at a character position within one paragraph row, so a
 # clause can be traced to its own page when a paragraph spans a page turn.
+# `pos` indexes `text` as segmented (section label removed, before flora_norm()
+# or other rewrites); a position before the first line falls on that line.
 flora_page_at <- function(par_row, pos) {
-  k <- max(which(par_row$line_start[[1]] <= pos + par_row$label_len))
+  k <- max(c(1L, which(par_row$line_start[[1]] <= pos + par_row$label_len)))
   c(
     pdf = par_row$line_pdf_page[[1]][k],
     printed = par_row$line_printed_page[[1]][k]
