@@ -21,6 +21,20 @@ h2 <- mutate(h[1, ], entity_measured = NA_character_)
 own2 <- mutate(own, entity_measured = NA_character_)
 o2 <- flora_copy_down(h2, own2, mem)
 stopifnot(nrow(o2) == 1, o2$block == "s3")
+# a statement naming an unscored alternative is not copied (Adema_1996)
+h3 <- mutate(h2, trait_value_raw = "base symmetric or slightly axillary")
+o3 <- flora_copy_down(h3, own2, mem)
+stopifnot(nrow(o3) == 0, attr(o3, "rejected")$reason == "alternative")
+stopifnot(
+  .flora_names_alt("introrse or latero-introrse", "introrse"),
+  !.flora_names_alt("Leaves imparipinnate or paripinnate", "imparipinnate paripinnate"),
+  !.flora_names_alt("Dioecious shrubs or trees", "dioecious"),
+  !.flora_names_alt("Fruit a straight or twisted capsule", "capsule"),
+  .flora_names_alt("thyrsoid or corymbose", "corymb"),
+  !.flora_names_alt("base slightly to strongly asymmetric", "asymmetric")
+)
+o4 <- flora_copy_down(mutate(h2, trait_value_raw = "axillary (Hydrocleys)"), own2, mem)
+stopifnot(nrow(o4) == 0)
 # flora_merge_duplicate_keys(): shared keys merge words; a single row keeps a
 # repeated word (Jutta_2012).
 m <- tibble(taxon_name = c("A", "A", "B"), trait = "t", value_type = "mode",

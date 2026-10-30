@@ -1,17 +1,19 @@
 ---
 name: extract-traits-from-floras-my
-description: Extract or resume trait data from Malaysian Flora family treatments (FPM, TFSS) and single taxon-description papers. Use when given family PDFs, asked to process or continue a family, or asked for extraction status. Covers resumable page-image review, transcription, segmentation, trait extraction, vouchers and QA.
+description: Extract or resume trait data from Malaysian Flora family treatments (FPM, TFSS). Use when given family PDFs, asked to process or continue a family, or asked for extraction status. Covers resumable page-image review, transcription, segmentation, trait extraction, vouchers and QA. Single taxon-description papers are a rare side case.
 ---
 
 # Extract traits from Malaysian floras
 
-One family treatment (or one taxon-description paper) becomes one dataset
-`data/<Author_Year>/`. Treat FPM and TFSS treatments as separate sources and
-datasets, even when they cover the same family: different authors require
-distinct source citations. Use each treatment's own author and year as its
-dataset ID; if IDs collide, agree on distinct IDs before writing data. Process
-one family at a time; report results after each unless the user requests a
-pause. Worked examples, all in this repository:
+One family treatment becomes one dataset `data/<Author_Year>/`. Treat FPM
+and TFSS treatments as separate sources and datasets, even when they cover the
+same family: different authors require distinct source citations. Use each
+treatment's own author and year as its dataset ID; if IDs collide, agree on
+distinct IDs before writing data. Process one family at a time; report results
+after each unless the user requests a pause. In a large family (more than
+about 50 taxa), stop after the first two or three genera so the user can
+check the mappings before the rest are run. Worked examples, all in this
+repository:
 
 | Dataset | Family | Source | Shows |
 | --- | --- | --- | --- |
@@ -114,10 +116,10 @@ On Linux (cloud sessions) set a UTF-8 locale (`LANG=C.UTF-8`) first: under
 the C locale `yaml::read_yaml("config/traits.yml")` stops at the first
 non-ASCII character and silently returns about 190 of the 684 traits.
 
-The scripts are tested against the three datasets (they reproduce the Coode
-and Lim paragraph tables and all three `data.csv` value columns exactly). They
-are read-only with respect to `data/`, apart from `flora_make_data()`, which
-writes `data/<id>/data.csv`.
+The scripts are tested by `scripts/test-flora-*.R` and by rebuilding every
+dataset built with them ("Changing this skill"). They are read-only with
+respect to `data/`, apart from `flora_make_data()`, which writes
+`data/<id>/data.csv`.
 
 ## Standing rules (user decisions)
 
@@ -143,7 +145,9 @@ writes `data/<id>/data.csv`.
 - **Score only what the text states.** No pollinator, dispersal or
   `inferred` typical values from morphology. Negative phrases ("without
   stipules") are not scored when the trait has no `absent` level; list them as
-  unmapped.
+  unmapped. Watch negation and contrast in any clause ("not", "never",
+  "rather than", "unlike"): "insect-pollinated rather than self-pollinating"
+  scores insect, not self.
 - **Regions.** The FPM guide makes a species description Peninsular Malaysian;
   the TFSS guide makes it Sabah--Sarawak, or Bornean when stated as such.
   Retain a source's stated regional scope in `population_region` and `notes`.
@@ -159,7 +163,10 @@ writes `data/<id>/data.csv`.
   down from genus or family.
 - **Tropical, aseasonal.** Never convert seasons to months; months only when
   the text gives them ("flowers throughout the year" -> `yyyyyyyyyyyy`, noted).
+  "Throughout the year, mainly in March--May" -> the March--May calendar on a
+  `mainly` row plus `yyyyyyyyyyyy` on an `occasionally` row (user, 2026-10-30).
 - **No fire block** and no southern-hemisphere, orchid or geophyte conventions.
+  Non-fire cues are kept (step 4, "Cues").
 - **Source units** stay in `unit`; metadata `unit_in: unit` converts. Ranges in
   text columns are written `a--b`.
 - **Mapped and unmapped records live together** in `raw/trait_data.csv`.
@@ -433,6 +440,17 @@ text layer is reliable. Larger family: write `raw/build_trait_data.R` using
 clause rules) is bespoke because families differ; keep it short by reusing the
 helpers.
 
+**Survey the phrasing before writing rules.** Split the segmented text into
+sentences tagged with taxon and section, grep keyword families into a scratch
+file, and read that file: substrate and parasitism
+(`epiphyt|lithophyt|parasit|host|haustor`), climbing
+(`climb|liana|vine|scandent|twin|tendril|hook`), photosynthesis
+(`chlorophyll|saprophyt|non-green|leafless`), clonality
+(`clump|cluster|colon|stolon|sucker|thicket`), cues
+(`rain|dry|flood|mast|gregarious`), phenology (`deciduous|evergreen|throughout the year|mainly`), scent and
+pollinators (`fragrant|scent|odour|pollinat|visit`), and comparisons
+(`differs|similar|unlike|resembl`).
+
 Bespoke checklist (decisions that changed per family):
 
 - **Organ vocabulary.** Trees: bole, buttresses, stilt roots, bark, twigs,
@@ -448,6 +466,10 @@ Bespoke checklist (decisions that changed per family):
   first colour is the fruit colour. "Seeds enclosed in a red arillode": not
   seed colour. "Beginning to flower at 4.5 m tall" is not plant height.
   "Pedicels 1--3 cm long (elongating to 5 cm in fruit)": the aside is separate.
+- **Comparisons.** In any section, drop sentences and clauses that compare
+  taxa ("differs from ...", "similar to ...", "unlike ...") or name another
+  binomial before scoring, so another taxon's characters are not attributed
+  to this one. Keep them as unmapped rows.
 - **Labelled runs.** In "base attenuate, sometimes rounded, margin entire,
   apex ...", unlabelled alternatives belong to the last label until the next
   label or measurement (Lim_2010).
@@ -492,8 +514,12 @@ Bespoke checklist (decisions that changed per family):
   "14--18.5 x (7--)9--12") go in `source_fixes.csv` with the page.
 - **Mapping misfits** (record every one as a metadata question): `spirally
   arranged` -> `leaf_arrangement: spiral`; `rugose` -> `rough`; `subglabrous` ->
-  `glabrous`; fruit or bud "diameter" ->
-  `fruit_width` / `bud_width`; `actinomorphic` -> `actinomorphic_general`;
+  `glabrous`; fruit, seed or bud "diameter" ->
+  `fruit_width` / `seed_width` / `bud_width` (user, 2026-10-30, globose
+  organs included);
+  corolla (or corolla tube) length -> `flower_length` with
+  `entity_measured = corolla`, only when the flower itself is not measured
+  (user, 2026-10-30); `actinomorphic` -> `actinomorphic_general`;
   ovary locules -> carpels (one locule per carpel) only when placentation is
   axile or not stated. A 1-locular ovary with parietal placentation has
   several fused carpels: count stigma lobes, placentas or fruit valves when
@@ -511,8 +537,12 @@ Bespoke checklist (decisions that changed per family):
   "greyish to reddish brown" -> `grey red brown`. Use a single level only when
   the trait has one for the compound (bark `brown_light`, `brown_dark`). A
   hyphenated or "X to Y" shape scores both levels: "rounded-acute" -> `rounded
-  acute`. This matches the AusTraits flora datasets and Adema_1996 and
-  Kochummen_1995.
+  acute`. This matches Adema_1996 and Kochummen_1995; the AusTraits fact-sheet
+  extractions instead scored only the head colour of a hyphenated compound.
+- **Colour markings and tinges are not the colour** (user, 2026-10-30). Score
+  only the ground colour. Stripes, spots, blotches, veins, "-tinged",
+  "suffused", "flushed" and part-of-organ colours ("basally reddish", "red
+  at the tip") stay in `trait_value_raw` and an unmapped row.
 - **Australian precedent.** For a family that also grows in Australia, check
   how the AusTraits flora datasets score it (`ABRS_2023`, `NHNSW_2023`,
   `NTH_2023`, `RBGV_2023` in traitecoevo/austraits.build) before asking a
@@ -536,7 +566,39 @@ Bespoke checklist (decisions that changed per family):
   goes to `plant_height_climbing_plant`, not `plant_height`. Stem diameter
   of climbing stems is not `stem_diameter` (measured at the plant base):
   keep it unmapped. Tendrils that support the stems are
-  `plant_climbing_mechanism = tendrils`.
+  `plant_climbing_mechanism = tendrils`; "climbing by adventitious roots"
+  (Freycinetia) is `adventitious_roots` (user, 2026-10-30). "Vine" ->
+  `climber_herbaceous` unless stated woody; "liana" or "woody climber" ->
+  `climber_woody`; drop the generic `climber` when a specific one is
+  scored. A qualified climbing habit is a growth-form alternative: "shrub,
+  rarely climbing" -> shrub `usually` + climber `rarely` ("climbing",
+  "scandent" and "twining" count; "scrambling" alone does not).
+- **Growth form wording** (user, 2026-10-30). A commonness word qualifies a
+  form only when it governs the form noun ("tree or rarely a shrub"), not
+  another adjective ("rarely dioecious shrub"). Pandanus and other
+  palm-like trees and shrubs score `palmoid` after the printed noun
+  (`tree palmoid`), as AusTraits scores Arecaceae.
+- **Clumping is not clonality** (user, 2026-10-30). "Clustering",
+  "clump-forming", "forming thickets" stay unmapped unless the text names a
+  spreading organ (stolons, suckers, a spreading rhizome); then score
+  `vegetative_reproduction_ability` and `clonal_spread_mechanism`.
+- **Rosette** scores both `stem_growth_habit = rosette` and
+  `leaf_arrangement = rosette` wherever either is described (user,
+  2026-10-30).
+- **Parasites and plants without chlorophyll** (user, 2026-10-30;
+  provisional until Balanophoraceae). Score `parasitic` (`holoparasitic`,
+  `root_parasitic`, ...) only when the text states parasitism ("root
+  parasite", "parasitic on roots"). "Lacking chlorophyll", "non-green",
+  "achlorophyllous" -> `plant_photosynthetic_organ =
+  non-photosynthetic_plant`. The height of an emerging inflorescence or
+  scape is `plant_height_reproductive`, not `plant_height`. Named hosts stay
+  unmapped rows.
+- **Cues** (user, 2026-10-30). Fire is out of scope, other cues are not.
+  Stated triggers of flowering or germination (rain, a dry spell, floods,
+  temperature, gregarious or mast flowering) go to `flowering_cues` /
+  `germination_cues` where a level fits, with the clause in
+  `trait_value_raw`. Hedged cues and cues with no level stay unmapped.
+  Nursery treatments (scarification, soaking) are not cues.
 - **Aquatic plants** (Kiew_2015, mappings pending its question 4). Whole-plant
   position in the water ("submerged aquatic herb", "floating") goes in
   `stem_growth_habit` (`submerged`, `floating`, `emergent`), and the habitat in
@@ -558,9 +620,9 @@ Bespoke checklist (decisions that changed per family):
   unstated place unmapped (for example "In cultivation, it flowers in July").
   Do not score uses or the origin of cultivated populations.
 - **Pollinators** (Kiew_2015, pending its questions 17 and 18). Insects seen
-  on flowers are `flower_visitor`. A pollinator stated without a hedge goes to `pollination_vector_possible` or
-  `pollination_syndrome`, as the text supports. A hedged pollinator
-  ("suggesting bee pollination", "possibly beetle-pollinated") is a hedge:
+  on flowers are `flower_visitor`. A pollinator stated without a hedge goes
+  to `pollination_vector_known` or `pollination_syndrome`, as the text
+  supports (user, 2026-10-30). A hedged pollinator ("suggesting bee pollination", "possibly beetle-pollinated") is a hedge:
   unmapped by default. `pollination_vector_possible` is the trait for an
   approved exception; record the wording in `questions:`. Self-pollination
   and cleistogamy go to `breeding_system` (`autogamy`, `cleistogamy`).
@@ -572,9 +634,20 @@ Bespoke checklist (decisions that changed per family):
   only compare the parents ("Intermediate between ..., like N. gracilis it
   has ...") stay unmapped sentence rows; hybrids are not copy-down members.
   List them in `taxon_flags.csv` as `named hybrid`.
-- **Ferns.** Cibotiaceae is a provisional example, not a validated mapping
-  template. Check each treatment and `config/traits.yml` before mapping stipe to
-  petiole, lamina to leaf, or pinnae to leaflets; flag uncertain mappings.
+- **Ferns** (user, 2026-10-30; provisional until Cyatheaceae, after the
+  AusTraits fern rules). Stipe -> `petiole_length`; frond or lamina -> leaf
+  traits; pinnae, pinnules and segments -> leaflet traits. Name the division
+  in `entity_measured` (`lamina`, `primary pinnae`, `pinnules`, `segments`,
+  ...), as Wong_2010 names leaf kinds; do not add a `leaf_type` context.
+  Pinna pairs stay as stated in `leaflet_count` with `unit = pairs`
+  (`config/unit_conversions.csv` doubles them); counts of single pinnae use
+  `{count}`. Tree ferns -> `plant_growth_form = fern palmoid`; trunk height
+  -> `plant_height` with `entity_measured = trunk`. "1-pinnate" ->
+  `leaf_lamina_division = pinnately_compound`, "2-pinnate" -> `bipinnate`,
+  "3-pinnate" -> `tripinnate`, "pinnatifid" / "bipinnatifid" as printed;
+  expand "2--3-pinnate" to both. Sori, indusia, scales and spores have no
+  trait: keep them unmapped. Cibotiaceae (Nor-Ezzawanis_2010) predates
+  these rules; check it when Cyatheaceae is done.
 - **Lycophytes** (Selaginellaceae, Wong_2010; provisional, Wong_2010
   questions 2, 3 and 8). Score every leaf kind (lateral, median, axillary,
   main-stem and basal stem leaves) into the leaf traits and name it in
@@ -589,11 +662,17 @@ Bespoke checklist (decisions that changed per family):
   Use `flora_copy_down()` when unqualified, single-level `mode` rows from the
   family, genus or group description apply to members silent on the trait,
   only if every member that scores the trait includes the value. Never numbers.
+  The statement must name exactly one term, counting terms with no level:
+  "symmetric or slightly oblique" is not "all oblique", and a statement
+  naming a genus in brackets ("(Hydrocleys)") is not copied. The function
+  catches "or"/"to" alternatives, not comma lists ("flat, terete or
+  triquetrous" scored flat): check those in the parser.
   Most specific rank wins (group, genus, family). `entity_measured` is part
   of the trait: male and female (or other entity) values are tested and copied
   separately, so give higher-rank rows the same `entity_measured` labels as
-  the species rows. `attr(, "rejected")` contains
-  agreement-test failures only; inspect it and preserve other ineligible clauses
+  the species rows. `attr(, "rejected")` lists agreement-test failures
+  (`reason = "agreement"`) and statements naming an alternative
+  (`"alternative"`); inspect it and preserve other ineligible clauses
   separately in the bespoke parser.
 - Use `flora_inherit_infraspecific()` for `subsp.`/`var.` silent on a trait.
 - Monogeneric family: both family and genus are copied down
@@ -765,9 +844,11 @@ from the other source, then check:
 
 ## Single taxon-description papers
 
-Same workflow with `flora_hand()`, plus: read the whole paper (introduction
-group statements, key, description, diagnosis, phenology, distribution and
-habitat, notes with subpopulation variation, figure captions). Skip pure
+Rare; not part of the flora programme. Do not let this section shape
+family-treatment rules. Same workflow with `flora_hand()`, plus: read the
+whole paper (introduction group statements, description, diagnosis,
+phenology, distribution and habitat, notes with subpopulation variation,
+figure captions). Keys are not trait evidence here either. Skip pure
 comparisons ("much hairier than H. basaltica"); they cannot be scored for
 either taxon. When the paper's diagnosis disagrees with its description, keep
 the description and put the disagreement in `notes`. Values that apply through
