@@ -65,6 +65,9 @@ Packages are managed with [uvr](https://github.com/nbafrank/uvr). Do not use
 - Add a package: add it to `uvr.toml`, run `uvr lock`, and commit `uvr.toml`
   and `uvr.lock` together. Cloud agents install with `uvr sync --frozen`,
   which fails on a stale lockfile.
+- `traits.build` and `austraits` track their default branch (no `rev` in
+  `uvr.toml`). `uvr.lock` still fixes the commit. Move to the latest commits
+  with `uvr lock -P traits.build -P austraits`, then commit `uvr.lock`.
 - Cloud agents (Copilot and Claude) set up with `.github/agent-setup.sh`.
   Change system libraries there, not in each agent's config.
 
