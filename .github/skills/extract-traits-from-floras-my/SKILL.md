@@ -40,7 +40,8 @@ infer boundaries or printed-page numbers from another volume. The user can say
 "continue <id>" in a new chat; read only its `raw/review_handoff.md`, manifest,
 and next batch, not old chat history.
 
-- On first preparation, confirm PDF, ID, treatment boundaries, and a
+- On first preparation, get the PDF with `flora_fetch()` (step 1), then
+  confirm PDF, ID, treatment boundaries, and a
   **persistent** image directory outside the repository, by convention
   `../myflora_review/<id>`. Call
   `flora_review_prepare(id, pdf, pages, image_dir)`. It writes
@@ -87,6 +88,7 @@ Coode_2018 one.
 
 | Script | Does |
 | --- | --- |
+| `scripts/flora_fetch.R` | `flora_fetch(family, flora)`: local path of one MyFlora PDF; downloads it once from FRIM if missing, no retry, at most one attempt per 10 min |
 | `scripts/flora_source.R` | PDF text-layer check, born-digital page flags, render pages, read transcription, number comparison transcription vs layer |
 | `assets/myflora_metadata.csv` | one row per MyFlora PDF: family, flora, volume, year, `text_layer` (`born_digital` or `scanned_ocr`) and the page counts behind it; rebuild with `inst/extdata/myflora/build_metadata.py` |
 | `scripts/flora_review.R` | persistent page manifest, bounded review queue, on-demand rendering and next-chat handoff |
@@ -271,6 +273,11 @@ family, guided by the checklist).
 
 ### 1. Choose the source and check the text layer (G)
 
+- Get the PDF with `flora_fetch(family, flora)` (`scripts/flora_fetch.R`,
+  `flora` is `"FPM"` or `"TFSS"`). It returns the local path and downloads
+  only when the file is missing. Fetch one family per conversation. If
+  `flora_fetch()` fails, stop and report to the user; do not retry, call it
+  again, or try another family. The FRIM server has broken down before.
 - Sources are `inst/extdata/myflora/pdf/FPM/<Family>.pdf` and
   `inst/extdata/myflora/pdf/TFSS/<Family>.pdf`. If both treat a family, extract each as a
   separate dataset under its own author/year citation; never merge their
@@ -724,7 +731,8 @@ traits; mention them in the report.
 ## Parallel processing
 
 Only after the shared scripts and dictionary are stable. One family per agent,
-one branch per family; issue per family with PDF path, dataset id and these
+one branch per family; issue per family with family, flora (FPM or TFSS),
+dataset id and these
 standing rules. Completion requires the source reconciliation in step 11, not
 just `dataset_test()` passing; attach QA tables and a summary of unmapped terms
 and questions. Start with small families to grow the dictionary, merge
