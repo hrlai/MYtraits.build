@@ -8,7 +8,7 @@ set -euo pipefail
 SUDO=$(command -v sudo || true)
 
 # uvr CLI, linked onto the default PATH so later agent shells find it.
-curl -fsSL https://raw.githubusercontent.com/nbafrank/uvr/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/nbafrank/uvr/main/install.sh | UVR_VERSION=v0.4.8 sh
 $SUDO ln -sf "$HOME/.local/bin/uvr" /usr/local/bin/uvr
 
 uvr r install "$(cat .r-version)"
