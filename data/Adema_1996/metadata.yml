@@ -835,13 +835,25 @@ substitutions:
     find: 'pinnate'
     replace: 'compound'
   - trait_name: leaf_compoundness
-    find: 'pinnate pairs_of_leaflets'
+    find: 'imparipinnate'
+    replace: 'compound'
+  - trait_name: leaf_compoundness
+    find: 'imparipinnate paripinnate'
+    replace: 'compound'
+  - trait_name: leaf_compoundness
+    find: 'paripinnate'
+    replace: 'compound'
+  - trait_name: leaf_compoundness
+    find: 'paripinnate imparipinnate'
+    replace: 'compound'
+  - trait_name: leaf_compoundness
+    find: 'paripinnate imparipinnate pairs_of_leaflets'
     replace: 'compound'
   - trait_name: leaf_compoundness
     find: 'simple biternate digitate pinnate'
     replace: 'simple compound'
   - trait_name: leaf_compoundness
-    find: 'unifoliolate pinnate'
+    find: 'unifoliolate paripinnate'
     replace: 'compound'
   - trait_name: leaf_lamina_division
     find: 'digitate'
@@ -1073,3 +1085,10 @@ questions:
     ('Type: ... (L)'); they use specimen_status 'type', which is not in the
     shared voucher vocabulary. Decide whether to add 'type' or map these to
     'holotype'/'possible holotype'.
+  question14: >-
+    The family description says anthers are 'introrse or latero-introrse'.
+    Latero-introrse is scored as introrse, so both words give one level and
+    flower_anther_orientation = introrse is copied from the family to 59
+    member taxa that do not state anther orientation (#121). Confirm, or
+    keep latero-introrse as a separate term so the family statement is not
+    copied.

@@ -36,7 +36,7 @@ Alectryon,genus,species,,,,,,fruit_dehiscence,x,dehiscing by an irregular transv
 Alectryon,genus,species,,,,,,fruit_type,x,capsular,capsular,capsule,mode,,"Description, p.271",15,271,,Adema_1996,capsular,inferred_from_species
 Alectryon,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary | panicles or racemes,axillary panicles racemes,axillary panicle raceme,mode,,"Description, p.271",15,271,,Adema_1996,axillary panicles racemes,inferred_from_species
 Alectryon,genus,species,,often,,,leaflet,leaf_base_shape,x,base often oblique,oblique,oblique,mode,,"Description, p.271",15,271,,Adema_1996,oblique,inferred_from_species
-Alectryon,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,pinnate,compound,mode,,"Description, p.271",15,271,,Adema_1996,pinnate,inferred_from_species
+Alectryon,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.271",15,271,,Adema_1996,paripinnate,inferred_from_species
 Alectryon,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.271",15,271,,Adema_1996,paripinnate,inferred_from_species
 Alectryon,genus,species,,,,,leaflet,leaf_margin,x,margin entire or serrate | dentate or crenate,entire serrate dentate crenate,entire toothed_serrate toothed_dentate toothed_crenate,mode,,"Description, p.271",15,271,,Adema_1996,entire serrate dentate crenate,inferred_from_species
 Alectryon,genus,species,,,,,,plant_growth_form,x,Trees or shrubs,trees shrubs,tree shrub,mode,,"Description, p.271",15,271,,Adema_1996,trees shrubs,inferred_from_species
@@ -69,7 +69,7 @@ Allophylus,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,2(-
 Arytera,genus,species,,,,,,dispersal_appendage,x,Seeds partly covered by an arillode,arillode,aril,mode,,"Description, p.276",20,276,,Adema_1996,arillode,inferred_from_species
 Arytera,genus,species,,,,,,fruit_dehiscence,x,loculicidal,loculicidal,dehiscent,mode,,"Description, p.276",20,276,,Adema_1996,loculicidal,inferred_from_species
 Arytera,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary to pseudoterminal or borne on leafless twigs,axillary,axillary,mode,,"Description, p.276",20,276,,Adema_1996,axillary,inferred_from_species
-Arytera,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,pinnate,compound,mode,,"Description, p.276",20,276,,Adema_1996,pinnate,inferred_from_species
+Arytera,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.276",20,276,,Adema_1996,paripinnate,inferred_from_species
 Arytera,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.276",20,276,,Adema_1996,paripinnate,inferred_from_species
 Arytera,genus,species,,rarely,,,,plant_growth_form,x,rarely shrubs,shrubs,shrub,mode,,"Description, p.276",20,276,,Adema_1996,shrubs,inferred_from_species
 Arytera,genus,species,,usually,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.276",20,276,,Adema_1996,trees,inferred_from_species
@@ -86,7 +86,7 @@ Cubilia,genus,species,,,,,,fruit_dehiscence,x,loculicidal,loculicidal,dehiscent,
 Cubilia,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.279",23,279,,Adema_1996,glabrous,inferred_from_species
 Cubilia,genus,species,,,,,,inflorescence_type,x,Inflorescences terminal or pseudoterminal | thyrsoid or corymbose,terminal corymb,terminal corymb,mode,,"Description, p.279",23,279,,Adema_1996,terminal corymb,inferred_from_species
 Cubilia,genus,species,,,,,leaflet,leaf_base_shape,x,base equal-sided to oblique,oblique,oblique,mode,,"Description, p.279",23,279,,Adema_1996,oblique,inferred_from_species
-Cubilia,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,pinnate,compound,mode,,"Description, p.279",23,279,,Adema_1996,pinnate,inferred_from_species
+Cubilia,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.279",23,279,,Adema_1996,paripinnate,inferred_from_species
 Cubilia,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.279",23,279,,Adema_1996,paripinnate,inferred_from_species
 Cubilia,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.279",23,279,,Adema_1996,entire,inferred_from_species
 Cubilia,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens 5 (or 6),5,5,mean,{count},"Description, p.279",23,279,,Adema_1996,5,inferred_from_species
@@ -98,7 +98,7 @@ Dictyoneura,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,un
 Dictyoneura,genus,species,,,,,,fruit_dehiscence,x,loculicidal,loculicidal,dehiscent,mode,,"Description, p.281",25,281,,Adema_1996,loculicidal,inferred_from_species
 Dictyoneura,genus,species,,,,,,fruit_type,x,Fruits capsular,capsular,capsule,mode,,"Description, p.281",25,281,,Adema_1996,capsular,inferred_from_species
 Dictyoneura,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary,axillary,axillary,mode,,"Description, p.281",25,281,,Adema_1996,axillary,inferred_from_species
-Dictyoneura,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,pinnate,compound,mode,,"Description, p.281",25,281,,Adema_1996,pinnate,inferred_from_species
+Dictyoneura,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.281",25,281,,Adema_1996,paripinnate,inferred_from_species
 Dictyoneura,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.281",25,281,,Adema_1996,paripinnate,inferred_from_species
 Dictyoneura,genus,species,,,,,,plant_growth_form,x,Shrubs to medium-sized trees,shrubs trees,shrub tree,mode,,"Description, p.281",25,281,,Adema_1996,shrubs trees,inferred_from_species
 Dictyoneura,genus,species,,,,,,seed_shape,x,Seeds ovoid to ellipsoid,ovoid ellipsoid,ovoid ellipsoid,mode,,"Description, p.281",25,281,,Adema_1996,ovoid ellipsoid,inferred_from_species
@@ -110,7 +110,7 @@ Dictyoneura,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stame
 Dictyoneura,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (4--)5(--6),6,6,maximum,{count},"Description, p.281",25,281,,Adema_1996,6,inferred_from_species
 Dictyoneura,genus,species,,usually,,,,flower_structural_carpels_count,x,2(--3)-locular,2,2,mean,{count},"Description, p.281",25,281,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_species
 Dictyoneura,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,2(--3)-locular,3,3,maximum,{count},"Description, p.281",25,281,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
-Dimocarpus,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,pinnate,compound,mode,,"Description, p.282",26,282,,Adema_1996,pinnate,inferred_from_species
+Dimocarpus,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.282",26,282,,Adema_1996,paripinnate,inferred_from_species
 Dimocarpus,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.282",26,282,,Adema_1996,paripinnate,inferred_from_species
 Dimocarpus,genus,species,,,,,,plant_growth_form,x,Trees or shrubs,trees shrubs,tree shrub,mode,,"Description, p.282",26,282,,Adema_1996,trees shrubs,inferred_from_species
 Dimocarpus,genus,species,,mostly,,,,sex_type,x,mostly monoecious,monoecious,monoecious,mode,,"Description, p.282",26,282,,Adema_1996,monoecious,inferred_from_species
@@ -134,7 +134,7 @@ Ganophyllum,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,
 Ganophyllum,genus,species,,,,,,fruit_type,x,Fruit a sessile drupe,drupe,drupe,mode,,"Description, p.289",33,289,,Adema_1996,drupe,inferred_from_species
 Ganophyllum,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary thyrses,axillary,axillary,mode,,"Description, p.289",33,289,,Adema_1996,axillary,inferred_from_species
 Ganophyllum,genus,species,,,,,leaflet,leaf_base_shape,x,base slightly to strongly asymmetric,asymmetric,oblique,mode,,"Description, p.289",33,289,,Adema_1996,asymmetric,inferred_from_species
-Ganophyllum,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,pinnate,compound,mode,,"Description, p.289",33,289,,Adema_1996,pinnate,inferred_from_species
+Ganophyllum,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.289",33,289,,Adema_1996,paripinnate,inferred_from_species
 Ganophyllum,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.289",33,289,,Adema_1996,paripinnate,inferred_from_species
 Ganophyllum,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.289",33,289,,Adema_1996,entire,inferred_from_species
 Ganophyllum,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 4--6,4,4,minimum,{count},"Description, p.289",33,289,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_species
@@ -149,7 +149,7 @@ Glenniea,genus,species,,,,,,inflorescence_type,x,Inflorescences terminal or in t
 Glenniea,genus,species,,,,,leaflet,leaf_apex_shape,x,apex rounded-acuminate,rounded acuminate,rounded acuminate,mode,,"Description, p.291",35,291,,Adema_1996,rounded acuminate,inferred_from_species
 Glenniea,genus,species,,,,,,leaf_arrangement,x,Leaves spirally arranged or partly decussate,spiral decussate,spiral decussate,mode,,"Description, p.291",35,291,,Adema_1996,spiral decussate,inferred_from_species
 Glenniea,genus,species,,,,,leaflet,leaf_base_shape,x,base symmetric or slightly oblique,oblique,oblique,mode,,"Description, p.291",35,291,,Adema_1996,oblique,inferred_from_species
-Glenniea,genus,species,,,,,,leaf_compoundness,x,unifoliolate or paripinnate,unifoliolate pinnate,compound,mode,,"Description, p.291",35,291,,Adema_1996,unifoliolate pinnate,inferred_from_species
+Glenniea,genus,species,,,,,,leaf_compoundness,x,unifoliolate or paripinnate,unifoliolate paripinnate,compound,mode,,"Description, p.291",35,291,,Adema_1996,unifoliolate paripinnate,inferred_from_species
 Glenniea,genus,species,,,,,,leaf_lamina_division,x,unifoliolate or paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.291",35,291,,Adema_1996,paripinnate,inferred_from_species
 Glenniea,genus,species,,,,,leaflet,leaf_shape,x,ovate to elliptic,ovate elliptic,ovate elliptical,mode,,"Description, p.291",35,291,,Adema_1996,ovate elliptic,inferred_from_species
 Glenniea,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.291",35,291,,Adema_1996,trees,inferred_from_species
@@ -169,7 +169,7 @@ Guioa,genus,species,,,,,,fruit_colour,x,red,red,red,mode,,"Description, p.295",3
 Guioa,genus,species,,,,,,fruit_dehiscence,x,Fruit a subcordate loculicidal capsule with 3 lobes,loculicidal,dehiscent,mode,,"Description, p.295",39,295,,Adema_1996,loculicidal,inferred_from_species
 Guioa,genus,species,,,,,,fruit_type,x,Fruit a subcordate loculicidal capsule with 3 lobes,capsule,capsule,mode,,"Description, p.295",39,295,,Adema_1996,capsule,inferred_from_species
 Guioa,genus,species,,,,,,inflorescence_type,x,axillary,axillary,axillary,mode,,"Description, p.295",39,295,,Adema_1996,axillary,inferred_from_species
-Guioa,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,pinnate,compound,mode,,"Description, p.295",39,295,,Adema_1996,pinnate,inferred_from_species
+Guioa,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.295",39,295,,Adema_1996,paripinnate,inferred_from_species
 Guioa,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.295",39,295,,Adema_1996,paripinnate,inferred_from_species
 Guioa,genus,species,,,,,,plant_growth_form,x,Shrubs or trees,shrubs trees,shrub tree,mode,,"Description, p.295",39,295,,Adema_1996,shrubs trees,inferred_from_species
 Guioa,genus,species,,,,,,seed_colour,x,black,black,black,mode,,"Description, p.295",39,295,,Adema_1996,black,inferred_from_species
@@ -183,7 +183,7 @@ Harpullia,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unis
 Harpullia,genus,species,,,,,,fruit_dehiscence,x,Fruits loculicidal capsules,loculicidal,dehiscent,mode,,"Description, p.305",49,305,,Adema_1996,loculicidal,inferred_from_species
 Harpullia,genus,species,,,,,,fruit_type,x,Fruits loculicidal capsules,capsules,capsule,mode,,"Description, p.305",49,305,,Adema_1996,capsules,inferred_from_species
 Harpullia,genus,species,,,,,,inflorescence_type,x,axillary | or terminal,axillary terminal,axillary terminal,mode,,"Description, p.305",49,305,,Adema_1996,axillary terminal,inferred_from_species
-Harpullia,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,pinnate,compound,mode,,"Description, p.305",49,305,,Adema_1996,pinnate,inferred_from_species
+Harpullia,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.305",49,305,,Adema_1996,paripinnate,inferred_from_species
 Harpullia,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.305",49,305,,Adema_1996,paripinnate,inferred_from_species
 Harpullia,genus,species,,,,,leaflet,leaf_margin,x,margin entire (Malesian species),entire,entire,mode,,"Description, p.305",49,305,,Adema_1996,entire,inferred_from_species
 Harpullia,genus,species,,,,,,plant_growth_form,x,Shrubs or medium-sized trees,shrubs trees,shrub tree,mode,,"Description, p.305",49,305,,Adema_1996,shrubs trees,inferred_from_species
@@ -199,7 +199,7 @@ Lepisanthes,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,un
 Lepisanthes,genus,species,,,,,,fruit_type,x,drupaceous,drupaceous,drupe,mode,,"Description, p.309",53,309,,Adema_1996,drupaceous,inferred_from_species
 Lepisanthes,genus,species,,,,,,inflorescence_type,x,Inflorescences terminal | axillary,terminal axillary,terminal axillary,mode,,"Description, p.309",53,309,,Adema_1996,terminal axillary,inferred_from_species
 Lepisanthes,genus,species,,sometimes,,,,leaf_compoundness,x,sometimes simple,simple,simple,mode,,"Description, p.309",53,309,,Adema_1996,simple,inferred_from_species
-Lepisanthes,genus,species,,usually,,,,leaf_compoundness,x,Leaves pari- or imparipinnate | with 1 to more than 40 pairs of leaflets,pinnate pairs_of_leaflets,compound,mode,,"Description, p.309",53,309,,Adema_1996,pinnate pairs_of_leaflets,inferred_from_species
+Lepisanthes,genus,species,,usually,,,,leaf_compoundness,x,Leaves pari- or imparipinnate | with 1 to more than 40 pairs of leaflets,paripinnate imparipinnate pairs_of_leaflets,compound,mode,,"Description, p.309",53,309,,Adema_1996,paripinnate imparipinnate pairs_of_leaflets,inferred_from_species
 Lepisanthes,genus,species,,,,,,leaf_lamina_division,x,Leaves pari- or imparipinnate,paripinnate imparipinnate,pinnately_compound,mode,,"Description, p.309",53,309,,Adema_1996,paripinnate imparipinnate,inferred_from_species
 Lepisanthes,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.309",53,309,,Adema_1996,entire,inferred_from_species
 Lepisanthes,genus,species,,,,,,plant_growth_form,x,Trees or shrubs,trees shrubs,tree shrub,mode,,"Description, p.309",53,309,,Adema_1996,trees shrubs,inferred_from_species
@@ -213,7 +213,7 @@ Lepisanthes,genus,species,,usually,,,,flower_structural_carpels_count,x,2--3(--4
 Lepisanthes,genus,species,,usually,,,,flower_structural_carpels_count,x,2--3(--4)-locular,3,3,maximum,{count},"Description, p.309",53,309,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
 Lepisanthes,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,2--3(--4)-locular,4,4,maximum,{count},"Description, p.309",53,309,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,4,inferred_from_species
 Litchi,genus,species,,,,,,leaf_arrangement,x,Leaves spirally arranged or sometimes partly,spiral,spiral,mode,,"Description, p.326",70,326,,Adema_1996,spiral,inferred_from_species
-Litchi,genus,species,,,,,,leaf_compoundness,x,paripinnate,pinnate,compound,mode,,"Description, p.326",70,326,,Adema_1996,pinnate,inferred_from_species
+Litchi,genus,species,,,,,,leaf_compoundness,x,paripinnate,paripinnate,compound,mode,,"Description, p.326",70,326,,Adema_1996,paripinnate,inferred_from_species
 Litchi,genus,species,,,,,,leaf_lamina_division,x,paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.326",70,326,,Adema_1996,paripinnate,inferred_from_species
 Litchi,genus,species,,,,,leaflet,leaf_margin,x,margin entire to undulate in the upper part.,entire,entire,mode,,"Description, p.326",70,326,,Adema_1996,entire,inferred_from_species
 Litchi,genus,species,,,,,,leaf_phyllotaxis,x,nearly opposite,opposite,opposite,mode,,"Description, p.326",70,326,,Adema_1996,opposite,inferred_from_species
@@ -230,7 +230,7 @@ Mischocarpus,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,u
 Mischocarpus,genus,species,,,,,,inflorescence_type,x,axillary,axillary,axillary,mode,,"Description, p.329",73,329,,Adema_1996,axillary,inferred_from_species
 Mischocarpus,genus,species,,,,,leaflet,leaf_apex_shape,x,rounded to acuminate,rounded acuminate,rounded acuminate,mode,,"Description, p.329",73,329,,Adema_1996,rounded acuminate,inferred_from_species
 Mischocarpus,genus,species,,,,,leaflet,leaf_base_shape,x,base symmetric to slightly asymmetric,asymmetric,oblique,mode,,"Description, p.329",73,329,,Adema_1996,asymmetric,inferred_from_species
-Mischocarpus,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,pinnate,compound,mode,,"Description, p.329",73,329,,Adema_1996,pinnate,inferred_from_species
+Mischocarpus,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.329",73,329,,Adema_1996,paripinnate,inferred_from_species
 Mischocarpus,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.329",73,329,,Adema_1996,paripinnate,inferred_from_species
 Mischocarpus,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.329",73,329,,Adema_1996,entire,inferred_from_species
 Mischocarpus,genus,species,,,,,,plant_growth_form,x,Shrubs or large trees,shrubs trees,shrub tree,mode,,"Description, p.329",73,329,,Adema_1996,shrubs trees,inferred_from_species
@@ -253,7 +253,7 @@ Nephelium,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,rad
 Nephelium,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.333",77,333,,Adema_1996,unisexual,inferred_from_species
 Nephelium,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary | terminal,axillary terminal,axillary terminal,mode,,"Description, p.333",77,333,,Adema_1996,axillary terminal,inferred_from_species
 Nephelium,genus,species,,,,,,leaf_arrangement,x,Leaves spirally arranged,spiral,spiral,mode,,"Description, p.333",77,333,,Adema_1996,spiral,inferred_from_species
-Nephelium,genus,species,,,,,,leaf_compoundness,x,paripinnate,pinnate,compound,mode,,"Description, p.333",77,333,,Adema_1996,pinnate,inferred_from_species
+Nephelium,genus,species,,,,,,leaf_compoundness,x,paripinnate,paripinnate,compound,mode,,"Description, p.333",77,333,,Adema_1996,paripinnate,inferred_from_species
 Nephelium,genus,species,,,,,,leaf_lamina_division,x,paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.333",77,333,,Adema_1996,paripinnate,inferred_from_species
 Nephelium,genus,species,,,,,leaflet,leaf_margin,x,margin entire or rarely repand,entire,entire,mode,,"Description, p.333",77,333,,Adema_1996,entire,inferred_from_species
 Nephelium,genus,species,,usually,,,calyx,flower_perianth_merism,x,sepals (4--)5(--6),5,5,mean,{count},"Description, p.333",77,333,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
@@ -268,7 +268,7 @@ Paranephelium,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical
 Paranephelium,genus,species,,usually,,,,flower_structural_sex_type,x,Flowers unisexual or very rarely bisexual,unisexual,unisexual,mode,,"Description, p.352",96,352,,Adema_1996,unisexual,inferred_from_species
 Paranephelium,genus,species,,very rarely,,,,flower_structural_sex_type,x,Flowers unisexual or very rarely bisexual,bisexual,bisexual,mode,,"Description, p.352",96,352,,Adema_1996,bisexual,inferred_from_species
 Paranephelium,genus,species,,,,,,inflorescence_type,x,axillary or terminal,axillary terminal,axillary terminal,mode,,"Description, p.352",96,352,,Adema_1996,axillary terminal,inferred_from_species
-Paranephelium,genus,species,,,,,,leaf_compoundness,x,Leaves imparipinnate or paripinnate,pinnate,compound,mode,,"Description, p.352",96,352,,Adema_1996,pinnate,inferred_from_species
+Paranephelium,genus,species,,,,,,leaf_compoundness,x,Leaves imparipinnate or paripinnate,imparipinnate paripinnate,compound,mode,,"Description, p.352",96,352,,Adema_1996,imparipinnate paripinnate,inferred_from_species
 Paranephelium,genus,species,,,,,,leaf_lamina_division,x,Leaves imparipinnate or paripinnate,imparipinnate paripinnate,pinnately_compound,mode,,"Description, p.352",96,352,,Adema_1996,imparipinnate paripinnate,inferred_from_species
 Paranephelium,genus,species,,,,,leaflet,leaf_margin,x,margin entire to dentate,entire dentate,entire toothed_dentate,mode,,"Description, p.352",96,352,,Adema_1996,entire dentate,inferred_from_species
 Paranephelium,genus,species,,sometimes,,,,plant_growth_form,x,Trees or sometimes shrubs,shrubs,shrub,mode,,"Description, p.352",96,352,,Adema_1996,shrubs,inferred_from_species
@@ -295,7 +295,7 @@ Pometia,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode
 Pometia,genus,species,,sometimes,,,,inflorescence_type,x,Inflorescences terminal and sometimes in the axils of upper leaves,axils,axillary,mode,,"Description, p.356",100,356,,Adema_1996,axils,inferred_from_species
 Pometia,genus,species,,,,,,inflorescence_type,x,Inflorescences terminal and sometimes in the axils of upper leaves,terminal,terminal,mode,,"Description, p.356",100,356,,Adema_1996,terminal,inferred_from_species
 Pometia,genus,species,,,,,,leaf_arrangement,x,Leaves spirally arranged,spiral,spiral,mode,,"Description, p.356",100,356,,Adema_1996,spiral,inferred_from_species
-Pometia,genus,species,,,,,,leaf_compoundness,x,paripinnate,pinnate,compound,mode,,"Description, p.356",100,356,,Adema_1996,pinnate,inferred_from_species
+Pometia,genus,species,,,,,,leaf_compoundness,x,paripinnate,paripinnate,compound,mode,,"Description, p.356",100,356,,Adema_1996,paripinnate,inferred_from_species
 Pometia,genus,species,,,,,,leaf_lamina_division,x,paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.356",100,356,,Adema_1996,paripinnate,inferred_from_species
 Pometia,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5,5,5,mean,{count},"Description, p.356",100,356,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
 Pometia,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens 5 (6),5,5,mean,{count},"Description, p.356",100,356,,Adema_1996,5,inferred_from_species
@@ -309,7 +309,7 @@ Rhysotoechia,genus,species,,,,,,flower_perianth_symmetry,x,Flowers radially symm
 Rhysotoechia,genus,species,,,,,,fruit_dehiscence,x,loculicidal,loculicidal,dehiscent,mode,,"Description, p.360",104,360,,Adema_1996,loculicidal,inferred_from_species
 Rhysotoechia,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary | paniculate or thyrsoid,axillary paniculate,axillary panicle,mode,,"Description, p.360",104,360,,Adema_1996,axillary paniculate,inferred_from_species
 Rhysotoechia,genus,species,,,,,leaflet,leaf_base_shape,x,base symmetric to slightly asymmetric,asymmetric,oblique,mode,,"Description, p.360",104,360,,Adema_1996,asymmetric,inferred_from_species
-Rhysotoechia,genus,species,,,,,,leaf_compoundness,x,Leaves imparipinnate,pinnate,compound,mode,,"Description, p.360",104,360,,Adema_1996,pinnate,inferred_from_species
+Rhysotoechia,genus,species,,,,,,leaf_compoundness,x,Leaves imparipinnate,imparipinnate,compound,mode,,"Description, p.360",104,360,,Adema_1996,imparipinnate,inferred_from_species
 Rhysotoechia,genus,species,,,,,,leaf_lamina_division,x,Leaves imparipinnate,imparipinnate,pinnately_compound,mode,,"Description, p.360",104,360,,Adema_1996,imparipinnate,inferred_from_species
 Rhysotoechia,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.360",104,360,,Adema_1996,entire,inferred_from_species
 Rhysotoechia,genus,species,,,,,,seed_shape,x,Seeds obovoid to globose,globose,globoid,mode,,"Description, p.360",104,360,,Adema_1996,globose,inferred_from_species
@@ -321,7 +321,7 @@ Rhysotoechia,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,o
 Trigonachras,genus,species,,,,,,flower_perianth_symmetry,x,Flowers radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.362",106,362,,Adema_1996,radially_symmetrical,inferred_from_species
 Trigonachras,genus,species,,,,,,flower_structural_sex_type,x,unisexual,unisexual,unisexual,mode,,"Description, p.362",106,362,,Adema_1996,unisexual,inferred_from_species
 Trigonachras,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary or pseudoterminal,axillary,axillary,mode,,"Description, p.362",106,362,,Adema_1996,axillary,inferred_from_species
-Trigonachras,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,pinnate,compound,mode,,"Description, p.362",106,362,,Adema_1996,pinnate,inferred_from_species
+Trigonachras,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.362",106,362,,Adema_1996,paripinnate,inferred_from_species
 Trigonachras,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.362",106,362,,Adema_1996,paripinnate,inferred_from_species
 Trigonachras,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.362",106,362,,Adema_1996,entire,inferred_from_species
 Trigonachras,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.362",106,362,,Adema_1996,trees,inferred_from_species
@@ -356,7 +356,7 @@ Xerospermum,genus,species,,,,,,flower_anther_orientation,x,latrorse,latrorse,lat
 Xerospermum,genus,species,,,,,,flower_perianth_symmetry,x,Flowers radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.368",112,368,,Adema_1996,radially_symmetrical,inferred_from_species
 Xerospermum,genus,species,,,,,,flower_structural_sex_type,x,effectively unisexual,unisexual,unisexual,mode,,"Description, p.368",112,368,,Adema_1996,unisexual,inferred_from_species
 Xerospermum,genus,species,,,,,,inflorescence_type,x,Inflorescences usually solitary in the lower leaf axils and tufted in the upper leaf axils,axils,axillary,mode,,"Description, p.368",112,368,,Adema_1996,axils,inferred_from_species
-Xerospermum,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,pinnate,compound,mode,,"Description, p.368",112,368,,Adema_1996,pinnate,inferred_from_species
+Xerospermum,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.368",112,368,,Adema_1996,paripinnate,inferred_from_species
 Xerospermum,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.368",112,368,,Adema_1996,paripinnate,inferred_from_species
 Xerospermum,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.368",112,368,,Adema_1996,entire,inferred_from_species
 Xerospermum,genus,species,,,,,,plant_growth_form,x,Medium-sized trees or shrubs,trees shrubs,tree shrub,mode,,"Description, p.368",112,368,,Adema_1996,trees shrubs,inferred_from_species
@@ -376,7 +376,7 @@ Zollingeria,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,un
 Zollingeria,genus,species,,,,,,fruit_dehiscence,x,indehiscent,indehiscent,indehiscent,mode,,"Description, p.372",116,372,,Adema_1996,indehiscent,inferred_from_species
 Zollingeria,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary,axillary,axillary,mode,,"Description, p.372",116,372,,Adema_1996,axillary,inferred_from_species
 Zollingeria,genus,species,,,,,,leaf_arrangement,x,Leaves spirally arranged,spiral,spiral,mode,,"Description, p.372",116,372,,Adema_1996,spiral,inferred_from_species
-Zollingeria,genus,species,,,,,,leaf_compoundness,x,paripinnate,pinnate,compound,mode,,"Description, p.372",116,372,,Adema_1996,pinnate,inferred_from_species
+Zollingeria,genus,species,,,,,,leaf_compoundness,x,paripinnate,paripinnate,compound,mode,,"Description, p.372",116,372,,Adema_1996,paripinnate,inferred_from_species
 Zollingeria,genus,species,,,,,,leaf_lamina_division,x,paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.372",116,372,,Adema_1996,paripinnate,inferred_from_species
 Zollingeria,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.372",116,372,,Adema_1996,entire,inferred_from_species
 Zollingeria,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.372",116,372,,Adema_1996,trees,inferred_from_species
@@ -1233,7 +1233,7 @@ Lepisanthes alata,species,species,,,,,female flower,inflorescence_type,x,female 
 Lepisanthes alata,species,species,,,,,leaflet,leaf_apex_shape,x,apex attenuate long-acuminate | acute,acuminate acute,acuminate acute,mode,,"Description, p.311",55,311,,Adema_1996,acuminate acute,inferred_from_species
 Lepisanthes alata,species,species,,sometimes,,,leaflet,leaf_base_shape,x,acute and sometimes attenuate,attenuate,attenuate,mode,,"Description, p.311",55,311,,Adema_1996,attenuate,inferred_from_species
 Lepisanthes alata,species,species,,,,,leaflet,leaf_base_shape,x,acute and sometimes attenuate,acute,acute,mode,,"Description, p.311",55,311,,Adema_1996,acute,inferred_from_species
-Lepisanthes alata,species,species,,,,,,leaf_compoundness,x,Leaves paripinnate,pinnate,compound,mode,,"Description, p.311",55,311,,Adema_1996,pinnate,inferred_from_species
+Lepisanthes alata,species,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.311",55,311,,Adema_1996,paripinnate,inferred_from_species
 Lepisanthes alata,species,species,,,,,leaflet,leaf_hairs_adult_leaves,x,glabrous,glabrous,glabrous,mode,,"Description, p.311",55,311,,Adema_1996,glabrous,inferred_from_species
 Lepisanthes alata,species,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.311",55,311,,Adema_1996,paripinnate,inferred_from_species
 Lepisanthes alata,species,species,,,,,leaflet,leaf_shape,x,"lanceolate (exceptionally linear-lanceolate or oblong to obovate-oblong, lower ones sometimes ovate-lanceolate)",lanceolate,lanceolate,mode,,"Description, p.311",55,311,,Adema_1996,lanceolate,inferred_from_species
@@ -1281,7 +1281,7 @@ Lepisanthes amoena,species,species,,mostly,,,,flower_colour,x,Flowers mostly whi
 Lepisanthes amoena,species,species,,,,,,inflorescence_type,x,Inflorescences terminal and axillary,terminal axillary,terminal axillary,mode,,"Description, p.313",57,313,,Adema_1996,terminal axillary,inferred_from_species
 Lepisanthes amoena,species,species,,,,,leaflet,leaf_apex_shape,x,apex obtuse to attenuate-acuminate,obtuse acuminate,obtuse acuminate,mode,,"Description, p.313",57,313,,Adema_1996,obtuse acuminate,inferred_from_species
 Lepisanthes amoena,species,species,,,,,leaflet,leaf_base_shape,x,obtuse to subcordate,obtuse cordate,obtuse cordate,mode,,"Description, p.313",57,313,,Adema_1996,obtuse cordate,inferred_from_species
-Lepisanthes amoena,species,species,,,,,,leaf_compoundness,x,Leaves imparipinnate,pinnate,compound,mode,,"Description, p.313",57,313,,Adema_1996,pinnate,inferred_from_species
+Lepisanthes amoena,species,species,,,,,,leaf_compoundness,x,Leaves imparipinnate,imparipinnate,compound,mode,,"Description, p.313",57,313,,Adema_1996,imparipinnate,inferred_from_species
 Lepisanthes amoena,species,species,,,,,,leaf_lamina_division,x,Leaves imparipinnate,imparipinnate,pinnately_compound,mode,,"Description, p.313",57,313,,Adema_1996,imparipinnate,inferred_from_species
 Lepisanthes amoena,species,species,,usually,,,leaflet,leaf_shape,x,linear or sometimes ovate-lanceolate,linear,linear,mode,,"Description, p.313",57,313,,Adema_1996,linear,inferred_from_species
 Lepisanthes amoena,species,species,,,,,,plant_growth_form,x,Tree to 10 m tall | or shrub to 6 m,tree shrub,tree shrub,mode,,"Description, p.313",57,313,,Adema_1996,tree shrub,inferred_from_species
@@ -1327,7 +1327,7 @@ Lepisanthes divaricata,species,species,,,,,,fruiting_time,x,Flowering in October
 Lepisanthes divaricata,species,species,,,,,,inflorescence_type,x,Inflorescences terminal or in the axils of upper leaves,terminal axils,terminal axillary,mode,,"Description, p.316",60,316,,Adema_1996,terminal axils,inferred_from_species
 Lepisanthes divaricata,species,species,,,,,leaflet,leaf_apex_shape,x,acuminate | acute to obtuse,acuminate acute obtuse,acuminate acute obtuse,mode,,"Description, p.316",60,316,,Adema_1996,acuminate acute obtuse,inferred_from_species
 Lepisanthes divaricata,species,species,,,,,leaflet,leaf_base_shape,x,base slightly cordate or rounded to cuneate | asymmetric,cordate rounded cuneate asymmetric,cordate rounded cuneate oblique,mode,,"Description, p.316",60,316,,Adema_1996,cordate rounded cuneate asymmetric,inferred_from_species
-Lepisanthes divaricata,species,species,,,,,,leaf_compoundness,x,Leaves pari- or imparipinnate,pinnate,compound,mode,,"Description, p.316",60,316,,Adema_1996,pinnate,inferred_from_species
+Lepisanthes divaricata,species,species,,,,,,leaf_compoundness,x,Leaves pari- or imparipinnate,paripinnate imparipinnate,compound,mode,,"Description, p.316",60,316,,Adema_1996,paripinnate imparipinnate,inferred_from_species
 Lepisanthes divaricata,species,species,,,,,,leaf_lamina_division,x,Leaves pari- or imparipinnate,paripinnate imparipinnate,pinnately_compound,mode,,"Description, p.316",60,316,,Adema_1996,paripinnate imparipinnate,inferred_from_species
 Lepisanthes divaricata,species,species,,,,,leaflet,leaf_shape,x,elliptic to lanceolate,elliptic lanceolate,elliptical lanceolate,mode,,"Description, p.316",60,316,,Adema_1996,elliptic lanceolate,inferred_from_species
 Lepisanthes divaricata,species,species,,,,,,plant_growth_form,x,Small tree to 7 m tall | or shrub,tree shrub,tree shrub,mode,,"Description, p.316",60,316,,Adema_1996,tree shrub,inferred_from_species
@@ -1418,7 +1418,7 @@ Lepisanthes kinabaluensis,species,species,genus,,,,leaflet,leaf_margin,x,margin 
 Lepisanthes kinabaluensis,species,species,,,,,,inflorescence_type,x,Inflorescences terminal,terminal,terminal,mode,,"Description, p.319",63,319,,Adema_1996,terminal,inferred_from_species
 Lepisanthes kinabaluensis,species,species,,,,,leaflet,leaf_apex_shape,x,apex attenuate-acuminate,acuminate,acuminate,mode,,"Description, p.319",63,319,,Adema_1996,acuminate,inferred_from_species
 Lepisanthes kinabaluensis,species,species,,,,,leaflet,leaf_base_shape,x,base asymmetric to symmetric | cuneate or lower half rounded,asymmetric cuneate rounded,oblique cuneate rounded,mode,,"Description, p.319",63,319,,Adema_1996,asymmetric cuneate rounded,inferred_from_species
-Lepisanthes kinabaluensis,species,species,,,,,,leaf_compoundness,x,Leaves imparipinnate,pinnate,compound,mode,,"Description, p.319",63,319,,Adema_1996,pinnate,inferred_from_species
+Lepisanthes kinabaluensis,species,species,,,,,,leaf_compoundness,x,Leaves imparipinnate,imparipinnate,compound,mode,,"Description, p.319",63,319,,Adema_1996,imparipinnate,inferred_from_species
 Lepisanthes kinabaluensis,species,species,,,,,,leaf_lamina_division,x,Leaves imparipinnate,imparipinnate,pinnately_compound,mode,,"Description, p.319",63,319,,Adema_1996,imparipinnate,inferred_from_species
 Lepisanthes kinabaluensis,species,species,,,,,leaflet,leaf_shape,x,lanceolate to oblong,lanceolate oblong,lanceolate oblong,mode,,"Description, p.319",63,319,,Adema_1996,lanceolate oblong,inferred_from_species
 Lepisanthes kinabaluensis,species,species,,,,,,plant_growth_form,x,Tree to 10 m tall | or shrub,tree shrub,tree shrub,mode,,"Description, p.319",63,319,,Adema_1996,tree shrub,inferred_from_species
@@ -1452,7 +1452,7 @@ Lepisanthes multijuga,species,species,,,,,,flower_colour,x,Flowers red,red,red_b
 Lepisanthes multijuga,species,species,,,,,,inflorescence_type,x,Inflorescences terminal,terminal,terminal,mode,,"Description, p.321",65,321,,Adema_1996,terminal,inferred_from_species
 Lepisanthes multijuga,species,species,,,,,leaflet,leaf_apex_shape,x,apex attenuate-acuminate | obtuse to acute,acuminate obtuse acute,acuminate obtuse acute,mode,,"Description, p.321",65,321,,Adema_1996,acuminate obtuse acute,inferred_from_species
 Lepisanthes multijuga,species,species,,,,,leaflet,leaf_base_shape,x,base rounded to subcordate | asymmetric,rounded cordate asymmetric,rounded cordate oblique,mode,,"Description, p.321",65,321,,Adema_1996,rounded cordate asymmetric,inferred_from_species
-Lepisanthes multijuga,species,species,,,,,,leaf_compoundness,x,Leaves imparipinnate,pinnate,compound,mode,,"Description, p.321",65,321,,Adema_1996,pinnate,inferred_from_species
+Lepisanthes multijuga,species,species,,,,,,leaf_compoundness,x,Leaves imparipinnate,imparipinnate,compound,mode,,"Description, p.321",65,321,,Adema_1996,imparipinnate,inferred_from_species
 Lepisanthes multijuga,species,species,,,,,,leaf_lamina_division,x,Leaves imparipinnate,imparipinnate,pinnately_compound,mode,,"Description, p.321",65,321,,Adema_1996,imparipinnate,inferred_from_species
 Lepisanthes multijuga,species,species,,,,,leaflet,leaf_shape,x,linear-lanceolate,linear lanceolate,linear lanceolate,mode,,"Description, p.321",65,321,,Adema_1996,linear lanceolate,inferred_from_species
 Lepisanthes multijuga,species,species,,,,,,plant_growth_form,x,Tree or shrub to 12 m tall,tree shrub,tree shrub,mode,,"Description, p.321",65,321,,Adema_1996,tree shrub,inferred_from_species
@@ -1494,7 +1494,7 @@ Lepisanthes ramiflora,species,species,,,,,,fruiting_time,x,"Flowering in January
 Lepisanthes ramiflora,species,species,,,,,,inflorescence_type,x,racemose,racemose,raceme,mode,,"Description, p.322",66,322,,Adema_1996,racemose,inferred_from_species
 Lepisanthes ramiflora,species,species,,,,,leaflet,leaf_apex_shape,x,apex attenuate-acuminate | acute,acuminate acute,acuminate acute,mode,,"Description, p.322",66,322,,Adema_1996,acuminate acute,inferred_from_species
 Lepisanthes ramiflora,species,species,,,,,leaflet,leaf_base_shape,x,base asymmetric | cordate,asymmetric cordate,oblique cordate,mode,,"Description, p.322",66,322,,Adema_1996,asymmetric cordate,inferred_from_species
-Lepisanthes ramiflora,species,species,,,,,,leaf_compoundness,x,Leaves pari- or rarely imparipinnate,pinnate,compound,mode,,"Description, p.322",66,322,,Adema_1996,pinnate,inferred_from_species
+Lepisanthes ramiflora,species,species,,,,,,leaf_compoundness,x,Leaves pari- or rarely imparipinnate,paripinnate imparipinnate,compound,mode,,"Description, p.322",66,322,,Adema_1996,paripinnate imparipinnate,inferred_from_species
 Lepisanthes ramiflora,species,species,,,,,,leaf_lamina_division,x,Leaves pari- or rarely imparipinnate,paripinnate imparipinnate,pinnately_compound,mode,,"Description, p.322",66,322,,Adema_1996,paripinnate imparipinnate,inferred_from_species
 Lepisanthes ramiflora,species,species,,sometimes,,,leaflet,leaf_shape,x,oblong or sometimes slightly obovate,obovate,obovate,mode,,"Description, p.322",66,322,,Adema_1996,obovate,inferred_from_species
 Lepisanthes ramiflora,species,species,,usually,,,leaflet,leaf_shape,x,oblong or sometimes slightly obovate,oblong,oblong,mode,,"Description, p.322",66,322,,Adema_1996,oblong,inferred_from_species
@@ -2577,7 +2577,7 @@ Xerospermum laevigatum,species,species,genus,,,,,flower_anther_orientation,x,lat
 Xerospermum laevigatum,species,species,genus,,,,,flower_perianth_symmetry,x,Flowers radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,radially_symmetrical,inferred_from_genus
 Xerospermum laevigatum,species,species,genus,,,,,flower_structural_sex_type,x,effectively unisexual,unisexual,unisexual,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,unisexual,inferred_from_genus
 Xerospermum laevigatum,species,species,genus,,,,,inflorescence_type,x,Inflorescences usually solitary in the lower leaf axils and tufted in the upper leaf axils,axils,axillary,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,axils,inferred_from_genus
-Xerospermum laevigatum,species,species,genus,,,,,leaf_compoundness,x,Leaves paripinnate,pinnate,compound,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,pinnate,inferred_from_genus
+Xerospermum laevigatum,species,species,genus,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,paripinnate,inferred_from_genus
 Xerospermum laevigatum,species,species,genus,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,paripinnate,inferred_from_genus
 Xerospermum laevigatum,species,species,genus,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,entire,inferred_from_genus
 Xerospermum laevigatum,species,species,genus,,,,,sex_type,x,androdioecious,androdioecious,androdioecious,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,androdioecious,inferred_from_genus
@@ -2620,7 +2620,7 @@ Xerospermum noronhianum,species,species,genus,,,,,flower_anther_orientation,x,la
 Xerospermum noronhianum,species,species,genus,,,,,flower_perianth_symmetry,x,Flowers radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,radially_symmetrical,inferred_from_genus
 Xerospermum noronhianum,species,species,genus,,,,,flower_structural_sex_type,x,effectively unisexual,unisexual,unisexual,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,unisexual,inferred_from_genus
 Xerospermum noronhianum,species,species,genus,,,,,inflorescence_type,x,Inflorescences usually solitary in the lower leaf axils and tufted in the upper leaf axils,axils,axillary,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,axils,inferred_from_genus
-Xerospermum noronhianum,species,species,genus,,,,,leaf_compoundness,x,Leaves paripinnate,pinnate,compound,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,pinnate,inferred_from_genus
+Xerospermum noronhianum,species,species,genus,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,paripinnate,inferred_from_genus
 Xerospermum noronhianum,species,species,genus,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,paripinnate,inferred_from_genus
 Xerospermum noronhianum,species,species,genus,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,entire,inferred_from_genus
 Xerospermum noronhianum,species,species,genus,,,,,sex_type,x,androdioecious,androdioecious,androdioecious,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,androdioecious,inferred_from_genus
@@ -2891,7 +2891,7 @@ Xerospermum laevigatum subsp. acuminatum,subspecies,species,genus,,,,,flower_ant
 Xerospermum laevigatum subsp. acuminatum,subspecies,species,genus,,,,,flower_anther_orientation,x,latrorse,latrorse,latrorse,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,latrorse,inferred_from_genus
 Xerospermum laevigatum subsp. acuminatum,subspecies,species,genus,,,,,flower_perianth_symmetry,x,Flowers radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,radially_symmetrical,inferred_from_genus
 Xerospermum laevigatum subsp. acuminatum,subspecies,species,genus,,,,,flower_structural_sex_type,x,effectively unisexual,unisexual,unisexual,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,unisexual,inferred_from_genus
-Xerospermum laevigatum subsp. acuminatum,subspecies,species,genus,,,,,leaf_compoundness,x,Leaves paripinnate,pinnate,compound,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,pinnate,inferred_from_genus
+Xerospermum laevigatum subsp. acuminatum,subspecies,species,genus,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,paripinnate,inferred_from_genus
 Xerospermum laevigatum subsp. acuminatum,subspecies,species,genus,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,paripinnate,inferred_from_genus
 Xerospermum laevigatum subsp. acuminatum,subspecies,species,genus,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,entire,inferred_from_genus
 Xerospermum laevigatum subsp. acuminatum,subspecies,species,genus,,,,,sex_type,x,androdioecious,androdioecious,androdioecious,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,androdioecious,inferred_from_genus
@@ -2934,7 +2934,7 @@ Xerospermum laevigatum subsp. laevigatum,subspecies,species,genus,,,,,flower_ant
 Xerospermum laevigatum subsp. laevigatum,subspecies,species,genus,,,,,flower_perianth_symmetry,x,Flowers radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,radially_symmetrical,inferred_from_genus
 Xerospermum laevigatum subsp. laevigatum,subspecies,species,genus,,,,,flower_structural_sex_type,x,effectively unisexual,unisexual,unisexual,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,unisexual,inferred_from_genus
 Xerospermum laevigatum subsp. laevigatum,subspecies,species,genus,,,,,inflorescence_type,x,Inflorescences usually solitary in the lower leaf axils and tufted in the upper leaf axils,axils,axillary,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,axils,inferred_from_genus
-Xerospermum laevigatum subsp. laevigatum,subspecies,species,genus,,,,,leaf_compoundness,x,Leaves paripinnate,pinnate,compound,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,pinnate,inferred_from_genus
+Xerospermum laevigatum subsp. laevigatum,subspecies,species,genus,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,paripinnate,inferred_from_genus
 Xerospermum laevigatum subsp. laevigatum,subspecies,species,genus,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,paripinnate,inferred_from_genus
 Xerospermum laevigatum subsp. laevigatum,subspecies,species,genus,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,entire,inferred_from_genus
 Xerospermum laevigatum subsp. laevigatum,subspecies,species,genus,,,,,sex_type,x,androdioecious,androdioecious,androdioecious,mode,,"Genus description, p.368",112,368,Copied from the Xerospermum description.,Adema_1996,androdioecious,inferred_from_genus
