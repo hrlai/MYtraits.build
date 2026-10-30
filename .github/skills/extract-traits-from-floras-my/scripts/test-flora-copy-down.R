@@ -28,6 +28,7 @@ stopifnot(nrow(o3) == 0, attr(o3, "rejected")$reason == "alternative")
 stopifnot(
   .flora_names_alt("introrse or latero-introrse", "introrse"),
   !.flora_names_alt("Leaves imparipinnate or paripinnate", "imparipinnate paripinnate"),
+  !.flora_names_alt("Leaves pari- or imparipinnate", "paripinnate imparipinnate"),
   !.flora_names_alt("Dioecious shrubs or trees", "dioecious"),
   !.flora_names_alt("Fruit a straight or twisted capsule", "capsule"),
   .flora_names_alt("thyrsoid or corymbose", "corymb"),
