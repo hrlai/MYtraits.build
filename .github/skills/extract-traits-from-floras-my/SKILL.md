@@ -474,6 +474,8 @@ Bespoke checklist (decisions that changed per family):
   the segment (internode or article) length and thickness in `leaf_length` and
   `leaf_width` with `entity_measured = cladode`. Do not put scale-leaf size in
   leaf traits, and do not score `leaf_length_type` (Pungga_1996).
+  Fagaceae: the acorn or nut is the fruit; the cupule that holds it is not,
+  and has no trait (Soepadmo_2000 question 3).
 - **Clause subject owns the character.** "Twigs with hairy terminal buds": the
   hairs are on the buds. "Capsules yellowish, inside of valves red": only the
   first colour is the fruit colour. "Seeds enclosed in a red arillode": not
@@ -540,7 +542,15 @@ Bespoke checklist (decisions that changed per family):
   Provisional (Cheek_2012 question 4): tepal length of a flower with one
   perianth whorl and no petals -> `flower_sepal_length`; capsule valve
   length ("Fruits: valves 25--29 x 2.2--2 mm") -> `fruit_length`; tepal
-  colour -> `flower_colour`.
+  colour -> `flower_colour`. Soepadmo_2000 applies the tepal rule to
+  perianth lobes and asks again (question 1).
+  Provisional (Soepadmo_2000 question 10): "lateral veins ..., forming an
+  angle of 40--60 degrees with the midrib" -> `leaf_secondary_vein_angle`
+  (unit `deg`); vein number has no trait.
+- **Leaf hairs per surface** (provisional, Soepadmo_2000 question 6).
+  "glabrous above, tomentose below" -> `leaf_hairs_adult_leaves = hairy`;
+  glabrous only when both surfaces are; not scored when a surface is
+  glabrescent. Kochummen_1995 scored "hairy below" the same way.
 - **Glabrescent** ("becoming glabrous") describes a change with age, not a
   state: never score it, keep it unmapped (user decision, 2026-10, Jutta_2012).
   The dictionary seed blocks it for leaf, stem and fruit hairs. Coode_2018
