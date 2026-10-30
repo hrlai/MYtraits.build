@@ -165,7 +165,8 @@ before starting a task it covers, and follow it over the general guidance here.
 
 - `extract-traits-from-floras-my`: extract trait data from Malaysian flora
   family treatments (Flora of Peninsular Malaysia, Tree Flora of Sabah and
-  Sarawak) or single taxon-description papers into a `data/<id>/` dataset.
+  Sarawak) into a `data/<id>/` dataset (single taxon-description papers are a
+  rare side case).
   Before editing the skill, read its "Changing this skill" section.
 
 Only skills listed here are maintained. Ignore other folders in
