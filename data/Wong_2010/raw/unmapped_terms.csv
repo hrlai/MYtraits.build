@@ -20,13 +20,13 @@ taxonomy,text,4,Selaginella,"Among the extant Lycopsida, the Selaginellaceae are
 axillary leaves,"base shape (sub- forms, not scored)",3,Selaginella argentea,subcordate to subauriculate,56
 median leaves,ciliate margin,3,Selaginella alutacia,median leaves ciliolate at least at the base,55
 notes,text,3,Selaginella griffithii,"Besides the different leaf shape, this is larger in stature than Selaginella selangorensis, which in other aspects it resembles.",63
-plant,colour,3,Selaginella intermedia var. intermedia,deep pink or even coppery,63
 plant,habit,3,Selaginella cuprea,developing a clumped habit,58
 plant,posture,3,Selaginella cuprea,ascending stems loosely bunched together or intertwined,58
 axillary leaves,ciliate margin,2,Selaginella frondosa,ciliolate at the base,62
 axillary leaves (main stem),auricles absent (negative phrase),2,Selaginella padangensis,exauriculate,71
 axillary leaves (main stem),overlap with branches,2,Selaginella padangensis,not overlapping the branches,71
 lateral leaves,colour,2,Selaginella cuprea,drying with a coppery tint,58
+plant,colour,2,Selaginella ornata,the stems sometimes pink-tinged,70
 strobilus,strobilus count,2,Selaginella stipulata,strobilus 2--3,83
 all leaves,upper margin form,1,Selaginella argentea,all leaves with distinct pale margin,56
 axillary leaves (main stem),size,1,Selaginella stipulata,axillary leaves along the main stem conspicuously larger than laterals,83

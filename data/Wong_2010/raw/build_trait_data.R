@@ -27,18 +27,6 @@ seed <- read_csv(
       level == "" &
       str_detect(term_regex, "ovate-lanceolate|ovate-oblong"))
   )
-# "appressed" in the seed means appressed hairs (Kochummen_1995); here it is
-# leaf posture ("appressed to the stem surface"), so block it first.
-seed <- bind_rows(
-  tibble(
-    trait = c("leaf_hairs_adult_leaves", "stem_hairs"),
-    term_regex = "\\bappressed\\b",
-    level = "",
-    source = "Wong_2010",
-    note = "leaf posture, not hairs"
-  ),
-  seed
-)
 dict_file <- tempfile(fileext = ".csv")
 write_csv(seed, dict_file)
 dict <- flora_load_dict(dict_file)
@@ -183,7 +171,7 @@ height_rows <- function(p, piece) {
     bind_rows()
 }
 
-plant_piece <- function(p, piece, nxt) {
+plant_piece <- function(p, piece, nxt, prv = "") {
   out <- list()
   lw <- str_to_lower(piece)
   cq <- str_match(lw, flora_qual_re)[, 2]
@@ -234,7 +222,13 @@ plant_piece <- function(p, piece, nxt) {
   }
   # "the whole plant often very pale yellowish green", "living leafy parts
   # variously dark green to ...": colour of the leafy shoots.
-  if (str_detect(lw, "leafy parts|whole plant|living parts")) {
+  # A colour list can run past a comma: "living leafy parts variously dark
+  # green to purple-green, deep pink or even coppery".
+  if (
+    str_detect(lw, "leafy parts|whole plant|living parts") |
+      (str_detect(prv, "leafy parts|whole plant|living parts") &&
+        str_detect(lw, "^[a-z ]*(pink|coppery|purple|green)$"))
+  ) {
     out$col <- score(
       p,
       piece,
@@ -355,7 +349,7 @@ parse_description <- function(p) {
       pz <- pieces[k]
       r <- NULL
       if (organ == "plant") {
-        r <- plant_piece(pc, pz, c(pieces, "")[k + 1])
+        r <- plant_piece(pc, pz, c(pieces, "")[k + 1], c("", pieces)[k])
       } else if (str_detect(organ, "leaves")) {
         pz0 <- if (k == 1) {
           str_remove(pz, "^(branch system lateral |axillary |median |all )?leaves( along (the )?main stem)? ?")

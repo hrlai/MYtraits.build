@@ -304,8 +304,11 @@ substitutions:
     find: grey-green
     replace: grey_green
   - trait_name: leaf_surface_colour
-    find: pale_greyish_green
-    replace: pale_grey_green
+    find: pale_greyish_green coppery
+    replace: pale_grey_green brown
+  - trait_name: leaf_surface_colour
+    find: dark_green purple green pink coppery
+    replace: dark_green purple green red brown
   - trait_name: leaf_surface_colour
     find: silvery grey-green
     replace: green_silvery grey_green
@@ -363,12 +366,16 @@ questions:
     down to all taxa, although the leaves are the photosynthetic organs.
     Confirm scale, or leave leaf_type unscored for Selaginella.'
   question5:
-    'Colour ownership: colours of the "living leafy parts" or "whole plant"
-    (4 taxa, entity_measured leafy shoots), of the leafy branch systems
-    "below" (S. argentea, S. pubescens) and of lateral leaves "below" (4
-    taxa) are scored as leaf_surface_colour with entity_measured. "purple-green",
-    "deep pink", "coppery" have no level and only their green part is
-    scored. Confirm these as leaf colours.'
+    'Colour ownership and levels: colours of the "living leafy parts" or
+    "whole plant" (4 taxa, entity_measured leafy shoots), of the leafy branch
+    systems "below" (S. argentea, S. pubescens) and of lateral leaves "below"
+    (4 taxa) are scored as leaf_surface_colour with entity_measured.
+    leaf_surface_colour has no pink or copper level: "deep pink" is scored as
+    red and "coppery" as brown (S. intermedia var. intermedia "dark green to
+    purple-green, deep pink or even coppery", p. 63; S. morganii "pale greyish
+    green to slightly coppery", p. 69); "or even" is not read as a commonness
+    word. Confirm these as leaf colours and the pink and copper mappings, or
+    propose new levels.'
   question6:
     'Axillary leaves "3--4 mm across" (S. padangensis) and "to about 2 mm
     across" (S. delicatula), both near-orbicular leaves on the main stem, are
