@@ -1,0 +1,34 @@
+name: Copilot Setup Steps
+
+# Runs before the Copilot cloud agent starts. Also runs on changes to this
+# setup so a broken environment shows up in the Actions tab.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+      - .github/agent-setup.sh
+      - uvr.lock
+  pull_request:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+      - .github/agent-setup.sh
+      - uvr.lock
+
+jobs:
+  # The job must be named copilot-setup-steps for Copilot to pick it up.
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Install R, uvr and packages
+        run: bash .github/agent-setup.sh
+      - name: Run flora skill tests
+        run: |
+          for f in .github/skills/extract-traits-from-floras-my/scripts/test-flora-*.R; do
+            uvr run "$f"
+          done

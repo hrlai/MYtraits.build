@@ -1,10 +1,15 @@
-# GitHub Copilot Instructions
+# Agent Instructions
+
+Shared by GitHub Copilot (this file), Claude Code (`CLAUDE.md` imports it) and
+other agents (`AGENTS.md` points here).
 
 ## Priority Order
 
 When generating code for this repository, apply guidance in this order:
 
-1. Follow any more specific instructions in `.github/copilot/`.
+1. Follow the more specific instructions in
+   [architecture.md](copilot/architecture.md),
+   [folder-structure.md](copilot/folder-structure.md) and any skill in use.
 2. Match patterns in nearby files.
 3. Prefer existing `traits.build` workflow patterns over new abstractions.
 4. Keep changes minimal when repository evidence is limited.
@@ -46,8 +51,31 @@ Repository version evidence is limited. Be conservative.
 - Do not assume newest R or package features are acceptable.
 - If a change needs a new package, a new structure, or newer API, keep the
   change small and state the dependency explicitly.
-- A `uvr` dependency workflow is in place; use it for environment,
-  package updates or CI when relevant instead of ad hoc installation steps.
+
+## Environment
+
+Packages are managed with [uvr](https://github.com/nbafrank/uvr). Do not use
+`install.packages()`, `pak` or `renv`.
+
+- R 4.6.0 is pinned in `.r-version`. `.Rprofile` links the uvr library
+  (`.uvr/library/`) and then loads `traits.build`.
+- Install packages from the lockfile: `uvr sync`.
+- Run a script in the project environment: `uvr run <file.R>`. `Rscript` may
+  not be on `PATH`.
+- Add a package: add it to `uvr.toml`, run `uvr lock`, and commit `uvr.toml`
+  and `uvr.lock` together. Cloud agents install with `uvr sync --frozen`,
+  which fails on a stale lockfile.
+- Cloud agents (Copilot and Claude) set up with `.github/agent-setup.sh`.
+  Change system libraries there, not in each agent's config.
+
+## Commands
+
+- Build the database: `uvr run build.R`. It writes
+  `export/data/curr/MYtraits.rds`.
+- Check one dataset: `traits.build::dataset_test("data/<id>")`, then
+  `dataset_process()` as called in `build.R`.
+- Register a new `data/<id>/` folder: regenerate `build.R` with
+  `build_setup_pipeline()` (below). Do not add the dataset to `build.R` by hand.
 
 ## R Code Style
 
@@ -117,18 +145,54 @@ unless requested.
 - Edit carefully; changes can affect many datasets.
 - Do not hand-edit trait definitions in generated `config/traits.yml`.
 
+### `README.md`
+
+- Generated from `README.qmd`. Edit `README.qmd` only.
+
+### `inst/`
+
+- `inst/figures/`: logo and image assets.
+- `inst/notes/flora_extraction_notes.md`: notes on Malaysian flora extraction.
+- `inst/extdata/myflora/`: flora PDFs downloaded by `flora_fetch()`.
+  Git-ignored. Never commit PDFs or rendered page images.
+- `inst/extdata/` (other files) and `inst/taxonomy/`: local taxonomy inputs and
+  alignment outputs, not tracked.
+
+## Skills
+
+Skills live in `.github/skills/<name>/SKILL.md`. Read the whole `SKILL.md`
+before starting a task it covers, and follow it over the general guidance here.
+
+- `extract-traits-from-floras-my`: extract trait data from Malaysian flora
+  family treatments (Flora of Peninsular Malaysia, Tree Flora of Sabah and
+  Sarawak) or single taxon-description papers into a `data/<id>/` dataset.
+  Before editing the skill, read its "Changing this skill" section.
+
+Only skills listed here are maintained. Ignore other folders in
+`.github/skills/`.
+
+## Git
+
+- Work on a branch, never on `main`. For a new dataset, name the branch
+  exactly as the dataset ID.
+- Stage files by path. Never `git add -A` or `git add .`.
+- Do not commit PDFs, page images, or files with machine-specific paths.
+- Open a PR to `main` and do not merge it.
+
 ## Validation and CI Assumptions
 
-CI workflows are not currently evidenced in `.github/workflows/`. Do not assume
-full test-framework requirements by default. If checks are requested, prefer
-local validation close to the transformation/build step and preserve
-`traits.build` schema expectations.
+There is no CI test workflow. `.github/workflows/copilot-setup-steps.yml` only
+prepares the Copilot cloud agent. Do not assume full test-framework
+requirements by default. If checks are requested, prefer local validation
+close to the transformation/build step and preserve `traits.build` schema
+expectations.
 
 ## Ambiguity Resolution
 
 If guidance is missing:
 
-1. Check for more specific instructions in `.github/copilot/`.
+1. Check [architecture.md](copilot/architecture.md) and
+   [folder-structure.md](copilot/folder-structure.md).
 2. Check nearby files in the same folder.
 3. Follow the most repeated local pattern.
 4. Keep changes minimal.

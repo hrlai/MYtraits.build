@@ -10,6 +10,7 @@ readxl = "*"
 rlang = "*"
 sf = "*"
 stringr = "*"
+testthat = "*"
 tidyr = "*"
 tidyverse = "*"
 
