@@ -1,0 +1,397 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Castanopsis acuminatissima,holotype,L,RHL Sheet No. 901310451,Blume,s.n.,,Java,,Indonesia,"Type, p.7",printed '(= RHL Sheet No. 901310451)'
+Castanopsis borneensis,holotype,FI,,Beccari,PB 1212,,,Sarawak,Malaysia,"Type, p.8",
+Castanopsis borneensis,isotype,K,,Beccari,PB 1212,,,Sarawak,Malaysia,"Type, p.8",
+Castanopsis buruana,holotype,U,,Teijsmann,HB 1868,,"Maluku, Buru, Kajeli",,Indonesia,"Type, p.8",
+Castanopsis buruana,isotype,BO,,Teijsmann,HB 1868,,"Maluku, Buru, Kajeli",,Indonesia,"Type, p.8",
+Castanopsis buruana,isotype,L,,Teijsmann,HB 1868,,"Maluku, Buru, Kajeli",,Indonesia,"Type, p.8",
+Castanopsis clemensii,holotype,L,,Brand & Anak,SAN 25315,,"Ranau district, Sg. Mentaki",Sabah,Malaysia,"Type, p.10",
+Castanopsis clemensii,isotype,K,,Brand & Anak,SAN 25315,,"Ranau district, Sg. Mentaki",Sabah,Malaysia,"Type, p.10",
+Castanopsis clemensii,isotype,SAN,,Brand & Anak,SAN 25315,,"Ranau district, Sg. Mentaki",Sabah,Malaysia,"Type, p.10",
+Castanopsis clemensii,isotype,SAR,,Brand & Anak,SAN 25315,,"Ranau district, Sg. Mentaki",Sabah,Malaysia,"Type, p.10",
+Castanopsis costata,holotype,L,RHL Sheet No. 901309120,Korthlas,s.n.,,"Sumatra, Bt. Melintang",,Indonesia,"Type, p.12",collector spelled 'Korthlas' as printed (cf. Korthals elsewhere); printed '(= RHL Sheet No. 901309120)'
+Castanopsis densinervia,holotype,L,,Meijer,SAN 48109,,"Mt. Kinabalu, west of Mesilau Cave",Sabah,Malaysia,"Type, p.13",
+Castanopsis densinervia,isotype,K,,Meijer,SAN 48109,,"Mt. Kinabalu, west of Mesilau Cave",Sabah,Malaysia,"Type, p.13",
+Castanopsis densinervia,isotype,SAN,,Meijer,SAN 48109,,"Mt. Kinabalu, west of Mesilau Cave",Sabah,Malaysia,"Type, p.13",
+Castanopsis endertii,holotype,L,,Endert,5196,,"W Kutai, Kombeng",Kalimantan,Indonesia,"Type, p.14",Borneo
+Castanopsis endertii,isotype,BO,,Endert,5196,,"W Kutai, Kombeng",Kalimantan,Indonesia,"Type, p.14",Borneo
+Castanopsis evansii,holotype,A,,Elmer,12988,,"Palawan, Mt. Pulgar",,Philippines,"Type, p.14",
+Castanopsis evansii,isotype,K,,Elmer,12988,,"Palawan, Mt. Pulgar",,Philippines,"Type, p.14",
+Castanopsis evansii,isotype,L,,Elmer,12988,,"Palawan, Mt. Pulgar",,Philippines,"Type, p.14",
+Castanopsis evansii,isotype,NY,,Elmer,12988,,"Palawan, Mt. Pulgar",,Philippines,"Type, p.14",
+Castanopsis evansii,isotype,U,,Elmer,12988,,"Palawan, Mt. Pulgar",,Philippines,"Type, p.14",
+Castanopsis evansii,isotype,US,,Elmer,12988,,"Palawan, Mt. Pulgar",,Philippines,"Type, p.14",
+Castanopsis evansii,isotype,WRSL,,Elmer,12988,,"Palawan, Mt. Pulgar",,Philippines,"Type, p.14",
+Castanopsis foxworthyi,,,,Foxworthy,214,,,Sarawak,Malaysia,"Type, p.15",status not stated; n.v.; institution not stated
+Castanopsis fulva,lectotype,K,,King's Collectors,7751,,"Peninsular Malaysia, Batang Padang",Perak,Malaysia,"Type, p.17","Lectotype (Soepadmo 1968); printed as '(holotype K; isotypes L, SING)' within the lectotype statement"
+Castanopsis fulva,isolectotype,L,,King's Collectors,7751,,"Peninsular Malaysia, Batang Padang",Perak,Malaysia,"Type, p.17","Lectotype (Soepadmo 1968); printed as '(holotype K; isotypes L, SING)' within the lectotype statement"
+Castanopsis fulva,isolectotype,SING,,King's Collectors,7751,,"Peninsular Malaysia, Batang Padang",Perak,Malaysia,"Type, p.17","Lectotype (Soepadmo 1968); printed as '(holotype K; isotypes L, SING)' within the lectotype statement"
+Castanopsis hypophoenicea,holotype,FI,,Beccari,PB 2287,,,Sarawak,Malaysia,"Type, p.19",
+Castanopsis hypophoenicea,isotype,K,,Beccari,PB 2287,,,Sarawak,Malaysia,"Type, p.19",
+Castanopsis hypophoenicea,isotype,L,,Beccari,PB 2287,,,Sarawak,Malaysia,"Type, p.19",
+Castanopsis hypophoenicea,isotype,P,,Beccari,PB 2287,,,Sarawak,Malaysia,"Type, p.19",
+Castanopsis javanica,holotype,L,RHL Sheet No. 901309128,Blume,s.n.,,"Java, Tjibeureum, Mt. Gede",,Indonesia,"Type, p.20",printed '(= RHL Sheet No. 901309128)'
+Castanopsis lucida,,BM,,Wallich,2590,,,,Singapore,"Type, p.20","status not stated; printed 'under the name of Laurus lucida'; both institutions in one parenthesis, status not stated"
+Castanopsis lucida,,K,,Wallich,2590,,,,Singapore,"Type, p.20","status not stated; printed 'under the name of Laurus lucida'; both institutions in one parenthesis, status not stated"
+Castanopsis megacarpa,holotype,K,,King's Collectors,7070,,"Peninsular Malaysia, Kinta",Perak,Malaysia,"Type, p.22",
+Castanopsis megacarpa,isotype,L,,King's Collectors,7070,,"Peninsular Malaysia, Kinta",Perak,Malaysia,"Type, p.22",
+Castanopsis microphylla,holotype,K,,Sibat,S. 22511,,"Tatau district, Anap, Bt. Mersing",Sarawak,Malaysia,"Type, p.23",
+Castanopsis microphylla,isotype,A,,Sibat,S. 22511,,"Tatau district, Anap, Bt. Mersing",Sarawak,Malaysia,"Type, p.23",
+Castanopsis microphylla,isotype,BO,,Sibat,S. 22511,,"Tatau district, Anap, Bt. Mersing",Sarawak,Malaysia,"Type, p.23",
+Castanopsis microphylla,isotype,KEP,,Sibat,S. 22511,,"Tatau district, Anap, Bt. Mersing",Sarawak,Malaysia,"Type, p.23",
+Castanopsis microphylla,isotype,L,,Sibat,S. 22511,,"Tatau district, Anap, Bt. Mersing",Sarawak,Malaysia,"Type, p.23",
+Castanopsis microphylla,isotype,SAN,,Sibat,S. 22511,,"Tatau district, Anap, Bt. Mersing",Sarawak,Malaysia,"Type, p.23",
+Castanopsis microphylla,isotype,SAR,,Sibat,S. 22511,,"Tatau district, Anap, Bt. Mersing",Sarawak,Malaysia,"Type, p.23",
+Castanopsis microphylla,isotype,SING,,Sibat,S. 22511,,"Tatau district, Anap, Bt. Mersing",Sarawak,Malaysia,"Type, p.23",
+Castanopsis motleyana,holotype,FI,,Beccari,PB 2613,,,Sarawak,Malaysia,"Type, p.24",
+Castanopsis motleyana,isotype,K,,Beccari,PB 2613,,,Sarawak,Malaysia,"Type, p.24",
+Castanopsis motleyana,isotype,P,,Beccari,PB 2613,,,Sarawak,Malaysia,"Type, p.24",
+Castanopsis oligoneura,holotype,L,,Meijer,SAN 32836,,"Sandakan district, Sibuga Road, Kebun China FR",Sabah,Malaysia,"Type, p.26",
+Castanopsis oligoneura,isotype,K,,Meijer,SAN 32836,,"Sandakan district, Sibuga Road, Kebun China FR",Sabah,Malaysia,"Type, p.26",
+Castanopsis oligoneura,isotype,SAN,,Meijer,SAN 32836,,"Sandakan district, Sibuga Road, Kebun China FR",Sabah,Malaysia,"Type, p.26",
+Castanopsis oligoneura,isotype,SAR,,Meijer,SAN 32836,,"Sandakan district, Sibuga Road, Kebun China FR",Sabah,Malaysia,"Type, p.26",
+Castanopsis oligoneura,isotype,SING,,Meijer,SAN 32836,,"Sandakan district, Sibuga Road, Kebun China FR",Sabah,Malaysia,"Type, p.26",
+Castanopsis oviformis,holotype,L,,Sibat,S. 23233,,"Mukah district, Balingian, Ulu Arip, Bt. Iju",Sarawak,Malaysia,"Type, p.26",
+Castanopsis oviformis,isotype,A,,Sibat,S. 23233,,"Mukah district, Balingian, Ulu Arip, Bt. Iju",Sarawak,Malaysia,"Type, p.26",
+Castanopsis oviformis,isotype,BO,,Sibat,S. 23233,,"Mukah district, Balingian, Ulu Arip, Bt. Iju",Sarawak,Malaysia,"Type, p.26",
+Castanopsis oviformis,isotype,K,,Sibat,S. 23233,,"Mukah district, Balingian, Ulu Arip, Bt. Iju",Sarawak,Malaysia,"Type, p.26",
+Castanopsis oviformis,isotype,SAN,,Sibat,S. 23233,,"Mukah district, Balingian, Ulu Arip, Bt. Iju",Sarawak,Malaysia,"Type, p.26",
+Castanopsis oviformis,isotype,SAR,,Sibat,S. 23233,,"Mukah district, Balingian, Ulu Arip, Bt. Iju",Sarawak,Malaysia,"Type, p.26",
+Castanopsis oviformis,isotype,SING,,Sibat,S. 23233,,"Mukah district, Balingian, Ulu Arip, Bt. Iju",Sarawak,Malaysia,"Type, p.26",
+Castanopsis paucispina,holotype,L,,Wood & Wyatt-Smith,SAN A 4385,,"1/2 mile east of Tambunan, Keningau district",Sabah,Malaysia,"Type, p.27",
+Castanopsis paucispina,isotype,A,,Wood & Wyatt-Smith,SAN A 4385,,"1/2 mile east of Tambunan, Keningau district",Sabah,Malaysia,"Type, p.27",
+Castanopsis paucispina,isotype,BRI,,Wood & Wyatt-Smith,SAN A 4385,,"1/2 mile east of Tambunan, Keningau district",Sabah,Malaysia,"Type, p.27",
+Castanopsis paucispina,isotype,KEP,,Wood & Wyatt-Smith,SAN A 4385,,"1/2 mile east of Tambunan, Keningau district",Sabah,Malaysia,"Type, p.27",
+Castanopsis paucispina,isotype,SAN,,Wood & Wyatt-Smith,SAN A 4385,,"1/2 mile east of Tambunan, Keningau district",Sabah,Malaysia,"Type, p.27",
+Castanopsis paucispina,isotype,SING,,Wood & Wyatt-Smith,SAN A 4385,,"1/2 mile east of Tambunan, Keningau district",Sabah,Malaysia,"Type, p.27",
+Castanopsis pedunculata,holotype,L,,Wood,SAN 16805,,"Sipitang district, Mile 6, southeast of Malaman, Ulu Mendalong",Sabah,Malaysia,"Type, p.28",
+Castanopsis pedunculata,isotype,K,,Wood,SAN 16805,,"Sipitang district, Mile 6, southeast of Malaman, Ulu Mendalong",Sabah,Malaysia,"Type, p.28",
+Castanopsis pedunculata,isotype,KEP,,Wood,SAN 16805,,"Sipitang district, Mile 6, southeast of Malaman, Ulu Mendalong",Sabah,Malaysia,"Type, p.28",
+Castanopsis pedunculata,isotype,SAN,,Wood,SAN 16805,,"Sipitang district, Mile 6, southeast of Malaman, Ulu Mendalong",Sabah,Malaysia,"Type, p.28",
+Castanopsis pedunculata,isotype,SING,,Wood,SAN 16805,,"Sipitang district, Mile 6, southeast of Malaman, Ulu Mendalong",Sabah,Malaysia,"Type, p.28",
+Castanopsis psilophylla,holotype,L,,Muin,SAN 25953,,"Lahad Datu district, Kalumpang, Sg. Limau",Sabah,Malaysia,"Type, p.28",
+Castanopsis psilophylla,isotype,K,,Muin,SAN 25953,,"Lahad Datu district, Kalumpang, Sg. Limau",Sabah,Malaysia,"Type, p.28",
+Castanopsis psilophylla,isotype,SAN,,Muin,SAN 25953,,"Lahad Datu district, Kalumpang, Sg. Limau",Sabah,Malaysia,"Type, p.28",
+Castanopsis psilophylla,isotype,SAR,,Muin,SAN 25953,,"Lahad Datu district, Kalumpang, Sg. Limau",Sabah,Malaysia,"Type, p.28",
+Lithocarpus andersonii,holotype,L,,Anderson,5102,,Mukah,Sarawak,Malaysia,"Type, p.37",
+Lithocarpus andersonii,isotype,K,,Anderson,5102,,Mukah,Sarawak,Malaysia,"Type, p.37",
+Lithocarpus andersonii,isotype,SAR,,Anderson,5102,,Mukah,Sarawak,Malaysia,"Type, p.37",
+Lithocarpus bancanus,holotype,BO,,Teijsmann,224,,"Sumatra, Bangka, Batu Balai",,Indonesia,"Type, p.38",
+Lithocarpus bancanus,isotype,U,,Teijsmann,224,,"Sumatra, Bangka, Batu Balai",,Indonesia,"Type, p.38",
+Lithocarpus beccarianus,holotype,FI,,Beccari,PB 3310,,"Marop, near Batang Lupar",Sarawak,Malaysia,"Type, p.38",
+Lithocarpus beccarianus,isotype,A,,Beccari,PB 3310,,"Marop, near Batang Lupar",Sarawak,Malaysia,"Type, p.38",
+Lithocarpus beccarianus,isotype,BM,,Beccari,PB 3310,,"Marop, near Batang Lupar",Sarawak,Malaysia,"Type, p.38",
+Lithocarpus beccarianus,isotype,K,,Beccari,PB 3310,,"Marop, near Batang Lupar",Sarawak,Malaysia,"Type, p.38",
+Lithocarpus bennettii,holotype,U,,Horsfield,HB 3402,,"Sumatra, Bangka, Djebus",,Indonesia,"Type, p.39",
+Lithocarpus bennettii,isotype,CGE,,Horsfield,HB 3402,,"Sumatra, Bangka, Djebus",,Indonesia,"Type, p.39",
+Lithocarpus bennettii,isotype,K,,Horsfield,HB 3402,,"Sumatra, Bangka, Djebus",,Indonesia,"Type, p.39",
+Lithocarpus blumeanus,holotype,L,RHL Sheet No. 901309475,Korthals,s.n.,,Dusun R. (Barito),SE Kalimantan,Indonesia,"Type, p.40",Borneo; printed 'RHL Sheet No 901309475'
+Lithocarpus blumeanus,isotype,A,,Korthals,s.n.,,Dusun R. (Barito),SE Kalimantan,Indonesia,"Type, p.40",Borneo; printed 'RHL Sheet No 901309475'
+Lithocarpus brochidodromus,holotype,SAN,,Dewol & Lideh,SAN 105591,,"Pensiangan, Sapulut, Sg. Saburan",Sabah,Malaysia,"Type, p.41",
+Lithocarpus bullatus,holotype,BO,,Clemens,32715,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.43",
+Lithocarpus bullatus,isotype,A,,Clemens,32715,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.43",
+Lithocarpus bullatus,isotype,BM,,Clemens,32715,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.43",
+Lithocarpus bullatus,isotype,K,,Clemens,32715,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.43",
+Lithocarpus bullatus,isotype,L,,Clemens,32715,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.43",
+Lithocarpus bullatus,isotype,NY,,Clemens,32715,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.43",
+Lithocarpus bullatus,isotype,UC,,Clemens,32715,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.43",
+Lithocarpus cantleyanus,lectotype,K,,King's Collectors,5623,,"Peninsular Malaysia, Chanderiang",Perak,Malaysia,"Type, p.44","Lectotype (Soepadmo, 1970); printed 'hololectotype K'"
+Lithocarpus cantleyanus,isolectotype,BM,,King's Collectors,5623,,"Peninsular Malaysia, Chanderiang",Perak,Malaysia,"Type, p.44","Lectotype (Soepadmo, 1970); printed 'hololectotype K'"
+Lithocarpus cantleyanus,isolectotype,L,,King's Collectors,5623,,"Peninsular Malaysia, Chanderiang",Perak,Malaysia,"Type, p.44","Lectotype (Soepadmo, 1970); printed 'hololectotype K'"
+Lithocarpus cantleyanus,isolectotype,P,,King's Collectors,5623,,"Peninsular Malaysia, Chanderiang",Perak,Malaysia,"Type, p.44","Lectotype (Soepadmo, 1970); printed 'hololectotype K'"
+Lithocarpus cantleyanus,isolectotype,SING,,King's Collectors,5623,,"Peninsular Malaysia, Chanderiang",Perak,Malaysia,"Type, p.44","Lectotype (Soepadmo, 1970); printed 'hololectotype K'"
+Lithocarpus caudatifolius,holotype,BM,,Borden,FB 806,,"Luzon, Bataan Prov., Mt. Mariveles, Lamao R.",,Philippines,"Type, p.44",
+Lithocarpus clementianus,lectotype,K,,Maingay,1529,,Peninsular Malaysia,Penang,Malaysia,"Type, p.45","Lectotype (Soepadmo, 1970); printed 'hololectotype K'"
+Lithocarpus clementianus,isolectotype,A,,Maingay,1529,,Peninsular Malaysia,Penang,Malaysia,"Type, p.45","Lectotype (Soepadmo, 1970); printed 'hololectotype K'"
+Lithocarpus clementianus,isolectotype,L,,Maingay,1529,,Peninsular Malaysia,Penang,Malaysia,"Type, p.45","Lectotype (Soepadmo, 1970); printed 'hololectotype K'"
+Lithocarpus confertus,holotype,L,,Clemens,29265,,"Mt. Kinabalu, Tenompok",Sabah,Malaysia,"Type, p.46",
+Lithocarpus confragosus,lectotype,K,,King's Collectors,8123,,"Peninsular Malaysia, Gopeng district",Perak,Malaysia,"Type, p.47","Lectotype (Soepadmo, 1970); printed as '(holotype K; isotypes A, L, SING)' within the lectotype statement"
+Lithocarpus confragosus,isolectotype,A,,King's Collectors,8123,,"Peninsular Malaysia, Gopeng district",Perak,Malaysia,"Type, p.47","Lectotype (Soepadmo, 1970); printed as '(holotype K; isotypes A, L, SING)' within the lectotype statement"
+Lithocarpus confragosus,isolectotype,L,,King's Collectors,8123,,"Peninsular Malaysia, Gopeng district",Perak,Malaysia,"Type, p.47","Lectotype (Soepadmo, 1970); printed as '(holotype K; isotypes A, L, SING)' within the lectotype statement"
+Lithocarpus confragosus,isolectotype,SING,,King's Collectors,8123,,"Peninsular Malaysia, Gopeng district",Perak,Malaysia,"Type, p.47","Lectotype (Soepadmo, 1970); printed as '(holotype K; isotypes A, L, SING)' within the lectotype statement"
+Lithocarpus conocarpus,holotype,BO,,Junghuhn,s.n.,1857,"Java, Mt. Malabar",,Indonesia,"Type, p.48",
+Lithocarpus conocarpus,isotype,L,,Junghuhn,s.n.,1857,"Java, Mt. Malabar",,Indonesia,"Type, p.48",
+Lithocarpus coopertus,neotype,UC,,Elmer,14012,,"Mindanao, Agusan Prov., Cabadbaran",,Philippines,"Type, p.49",Neotype; printed 'holoneotype UC'
+Lithocarpus coopertus,isoneotype,A,,Elmer,14012,,"Mindanao, Agusan Prov., Cabadbaran",,Philippines,"Type, p.49",Neotype; printed 'holoneotype UC'
+Lithocarpus coopertus,isoneotype,BM,,Elmer,14012,,"Mindanao, Agusan Prov., Cabadbaran",,Philippines,"Type, p.49",Neotype; printed 'holoneotype UC'
+Lithocarpus coopertus,isoneotype,L,,Elmer,14012,,"Mindanao, Agusan Prov., Cabadbaran",,Philippines,"Type, p.49",Neotype; printed 'holoneotype UC'
+Lithocarpus coopertus,isoneotype,NY,,Elmer,14012,,"Mindanao, Agusan Prov., Cabadbaran",,Philippines,"Type, p.49",Neotype; printed 'holoneotype UC'
+Lithocarpus corneri,holotype,SAN,,Berhaman,SAN 132620,,"Tenom district, Lumaku FR",Sabah,Malaysia,"Type, p.50",
+Lithocarpus corneri,isotype,KEP,,Berhaman,SAN 132620,,"Tenom district, Lumaku FR",Sabah,Malaysia,"Type, p.50",
+Lithocarpus corneri,isotype,L,,Berhaman,SAN 132620,,"Tenom district, Lumaku FR",Sabah,Malaysia,"Type, p.50",
+Lithocarpus corneri,isotype,SAR,,Berhaman,SAN 132620,,"Tenom district, Lumaku FR",Sabah,Malaysia,"Type, p.50",
+Lithocarpus daphnoideus,holotype,L,RHL Sheet No. 901310119,van Hasselt,s.n.,,"W Java, Mt. Pajung",,Indonesia,"Type, p.50",printed '(= RHL Sheet No. 901310119)'
+Lithocarpus daphnoideus,isotype,CGE,,van Hasselt,s.n.,,"W Java, Mt. Pajung",,Indonesia,"Type, p.50",printed '(= RHL Sheet No. 901310119)'
+Lithocarpus daphnoideus,isotype,K,,van Hasselt,s.n.,,"W Java, Mt. Pajung",,Indonesia,"Type, p.50",printed '(= RHL Sheet No. 901310119)'
+Lithocarpus dasystachyus,holotype,L,RHL Sheet No. 901310124,de Vries,s.n.,1860,Pontianak,Kalimantan,Indonesia,"Type, p.51",Borneo; printed '(= RHL Sheet No. 901310124)'
+Lithocarpus dasystachyus,isotype,BO,,de Vries,s.n.,1860,Pontianak,Kalimantan,Indonesia,"Type, p.51",Borneo; printed '(= RHL Sheet No. 901310124)'
+Lithocarpus dasystachyus,isotype,U,,de Vries,s.n.,1860,Pontianak,Kalimantan,Indonesia,"Type, p.51",Borneo; printed '(= RHL Sheet No. 901310124)'
+Lithocarpus echinifer,lectotype,A,,Elmer,21627,,near Tawau,Sabah,Malaysia,"Type, p.52",Lectotype (no designator printed); printed 'hololectotype A'
+Lithocarpus echinifer,isolectotype,BM,,Elmer,21627,,near Tawau,Sabah,Malaysia,"Type, p.52",Lectotype (no designator printed); printed 'hololectotype A'
+Lithocarpus echinifer,isolectotype,BR,,Elmer,21627,,near Tawau,Sabah,Malaysia,"Type, p.52",Lectotype (no designator printed); printed 'hololectotype A'
+Lithocarpus echinifer,isolectotype,K,,Elmer,21627,,near Tawau,Sabah,Malaysia,"Type, p.52",Lectotype (no designator printed); printed 'hololectotype A'
+Lithocarpus echinifer,isolectotype,L,,Elmer,21627,,near Tawau,Sabah,Malaysia,"Type, p.52",Lectotype (no designator printed); printed 'hololectotype A'
+Lithocarpus echinifer,isolectotype,P,,Elmer,21627,,near Tawau,Sabah,Malaysia,"Type, p.52",Lectotype (no designator printed); printed 'hololectotype A'
+Lithocarpus echinifer,isolectotype,U,,Elmer,21627,,near Tawau,Sabah,Malaysia,"Type, p.52",Lectotype (no designator printed); printed 'hololectotype A'
+Lithocarpus echinulatus,holotype,BO,,Kostermans,13438,,"Sangkulirang district, Mt. Medadam",Kalimantan,Indonesia,"Type, p.54",Borneo
+Lithocarpus echinulatus,isotype,BM,,Kostermans,13438,,"Sangkulirang district, Mt. Medadam",Kalimantan,Indonesia,"Type, p.54",Borneo
+Lithocarpus echinulatus,isotype,K,,Kostermans,13438,,"Sangkulirang district, Mt. Medadam",Kalimantan,Indonesia,"Type, p.54",Borneo
+Lithocarpus echinulatus,isotype,KEP,,Kostermans,13438,,"Sangkulirang district, Mt. Medadam",Kalimantan,Indonesia,"Type, p.54",Borneo
+Lithocarpus echinulatus,isotype,L,,Kostermans,13438,,"Sangkulirang district, Mt. Medadam",Kalimantan,Indonesia,"Type, p.54",Borneo
+Lithocarpus echinulatus,isotype,SING,,Kostermans,13438,,"Sangkulirang district, Mt. Medadam",Kalimantan,Indonesia,"Type, p.54",Borneo
+Lithocarpus elegans,holotype,L,,Blume,s.n.,,"Java, Bantam Residency, Sadjira",,Indonesia,"Type, p.55",
+Lithocarpus elegans,isotype,CGE,,Blume,s.n.,,"Java, Bantam Residency, Sadjira",,Indonesia,"Type, p.55",
+Lithocarpus elegans,isotype,K,,Blume,s.n.,,"Java, Bantam Residency, Sadjira",,Indonesia,"Type, p.55",
+Lithocarpus elegans,isotype,P,,Blume,s.n.,,"Java, Bantam Residency, Sadjira",,Indonesia,"Type, p.55",
+Lithocarpus encleisacarpus,holotype,L,RHL Sheet No. 901310172,Korthals,s.n.,,"C Sumatra, Mt. Melintang",,Indonesia,"Type, p.56",printed '(= RHL Sheet No. 901310172)'
+Lithocarpus encleisacarpus,isotype,A,,Korthals,s.n.,,"C Sumatra, Mt. Melintang",,Indonesia,"Type, p.56",printed '(= RHL Sheet No. 901310172)'
+Lithocarpus encleisacarpus,isotype,K,,Korthals,s.n.,,"C Sumatra, Mt. Melintang",,Indonesia,"Type, p.56",printed '(= RHL Sheet No. 901310172)'
+Lithocarpus encleisacarpus,isotype,P,,Korthals,s.n.,,"C Sumatra, Mt. Melintang",,Indonesia,"Type, p.56",printed '(= RHL Sheet No. 901310172)'
+Lithocarpus ewyckii,holotype,L,RHL Sheet No. 901310184,Korthals,s.n.,,"Central Sumatra, Mt. Melintang",,Indonesia,"Type, p.57",printed '(= RHL Sheet No. 901310184)'
+Lithocarpus ewyckii,isotype,A,,Korthals,s.n.,,"Central Sumatra, Mt. Melintang",,Indonesia,"Type, p.57",printed '(= RHL Sheet No. 901310184)'
+Lithocarpus ewyckii,isotype,BM,,Korthals,s.n.,,"Central Sumatra, Mt. Melintang",,Indonesia,"Type, p.57",printed '(= RHL Sheet No. 901310184)'
+Lithocarpus ewyckii,isotype,NY,,Korthals,s.n.,,"Central Sumatra, Mt. Melintang",,Indonesia,"Type, p.57",printed '(= RHL Sheet No. 901310184)'
+Lithocarpus ewyckii,isotype,P,,Korthals,s.n.,,"Central Sumatra, Mt. Melintang",,Indonesia,"Type, p.57",printed '(= RHL Sheet No. 901310184)'
+Lithocarpus ferrugineus,holotype,L,,Ilias,S. 17030,,"Serian district, Sabal FR",Sarawak,Malaysia,"Type, p.58",
+Lithocarpus ferrugineus,isotype,A,,Ilias,S. 17030,,"Serian district, Sabal FR",Sarawak,Malaysia,"Type, p.58",
+Lithocarpus ferrugineus,isotype,BO,,Ilias,S. 17030,,"Serian district, Sabal FR",Sarawak,Malaysia,"Type, p.58",
+Lithocarpus ferrugineus,isotype,K,,Ilias,S. 17030,,"Serian district, Sabal FR",Sarawak,Malaysia,"Type, p.58",
+Lithocarpus ferrugineus,isotype,KEP,,Ilias,S. 17030,,"Serian district, Sabal FR",Sarawak,Malaysia,"Type, p.58",
+Lithocarpus ferrugineus,isotype,M,,Ilias,S. 17030,,"Serian district, Sabal FR",Sarawak,Malaysia,"Type, p.58",
+Lithocarpus ferrugineus,isotype,P,,Ilias,S. 17030,,"Serian district, Sabal FR",Sarawak,Malaysia,"Type, p.58",
+Lithocarpus ferrugineus,isotype,S,,Ilias,S. 17030,,"Serian district, Sabal FR",Sarawak,Malaysia,"Type, p.58",
+Lithocarpus ferrugineus,isotype,SAN,,Ilias,S. 17030,,"Serian district, Sabal FR",Sarawak,Malaysia,"Type, p.58",
+Lithocarpus ferrugineus,isotype,SAR,,Ilias,S. 17030,,"Serian district, Sabal FR",Sarawak,Malaysia,"Type, p.58",
+Lithocarpus ferrugineus,isotype,SING,,Ilias,S. 17030,,"Serian district, Sabal FR",Sarawak,Malaysia,"Type, p.58",
+Lithocarpus gracilis,holotype,L,RHL Sheet No. 901310314,Korthals,s.n.,,Balaran,Kalimantan,Indonesia,"Type, p.59",Borneo; printed 'RHL Sheet No 901310314'
+Lithocarpus gracilis,isotype,A,,Korthals,s.n.,,Balaran,Kalimantan,Indonesia,"Type, p.59",Borneo; printed 'RHL Sheet No 901310314'
+Lithocarpus gracilis,isotype,P,,Korthals,s.n.,,Balaran,Kalimantan,Indonesia,"Type, p.59",Borneo; printed 'RHL Sheet No 901310314'
+Lithocarpus hallieri,holotype,BO,,Hallier,2655,,Mt. Lianggagang,Kalimantan,Indonesia,"Type, p.60",Borneo
+Lithocarpus hallieri,isotype,L,,Hallier,2655,,Mt. Lianggagang,Kalimantan,Indonesia,"Type, p.60",Borneo
+Lithocarpus hatusimae,holotype,L,,Clemens,29206,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.61",
+Lithocarpus hatusimae,isotype,A,,Clemens,29206,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.61",
+Lithocarpus hatusimae,isotype,BM,,Clemens,29206,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.61",
+Lithocarpus hatusimae,isotype,K,,Clemens,29206,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.61",
+Lithocarpus hatusimae,isotype,NY,,Clemens,29206,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.61",
+Lithocarpus hatusimae,isotype,UC,,Clemens,29206,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.61",
+Lithocarpus havilandii,holotype,K,,Haviland,1069,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.62",
+Lithocarpus havilandii,isotype,BM,,Haviland,1069,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.62",
+Lithocarpus havilandii,isotype,SING,,Haviland,1069,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.62",
+Lithocarpus hystrix,holotype,L,,Korthals,s.n.,,Sumatra,,Indonesia,"Type, p.62",
+Lithocarpus hystrix,isotype,A,,Korthals,s.n.,,Sumatra,,Indonesia,"Type, p.62",
+Lithocarpus hystrix,isotype,K,,Korthals,s.n.,,Sumatra,,Indonesia,"Type, p.62",
+Lithocarpus hystrix,isotype,P,,Korthals,s.n.,,Sumatra,,Indonesia,"Type, p.62",
+Lithocarpus jacobsii,holotype,L,,Jacobs,5398,,"Belaga district, Batang Rajang",Sarawak,Malaysia,"Type, p.63",
+Lithocarpus jacobsii,isotype,G,,Jacobs,5398,,"Belaga district, Batang Rajang",Sarawak,Malaysia,"Type, p.63",
+Lithocarpus jacobsii,isotype,K,,Jacobs,5398,,"Belaga district, Batang Rajang",Sarawak,Malaysia,"Type, p.63",
+Lithocarpus jacobsii,isotype,SAR,,Jacobs,5398,,"Belaga district, Batang Rajang",Sarawak,Malaysia,"Type, p.63",
+Lithocarpus jacobsii,isotype,US,,Jacobs,5398,,"Belaga district, Batang Rajang",Sarawak,Malaysia,"Type, p.63",
+Lithocarpus kalkmanii,holotype,SAN,,Meijer & Hendry,SAN 42460,,"Ranau district, Kinabalu Park, western border north of Sosopodon",Sabah,Malaysia,"Type, p.64",
+Lithocarpus kalkmanii,isotype,AA,,Meijer & Hendry,SAN 42460,,"Ranau district, Kinabalu Park, western border north of Sosopodon",Sabah,Malaysia,"Type, p.64",
+Lithocarpus kalkmanii,isotype,K,,Meijer & Hendry,SAN 42460,,"Ranau district, Kinabalu Park, western border north of Sosopodon",Sabah,Malaysia,"Type, p.64",
+Lithocarpus kalkmanii,isotype,L,,Meijer & Hendry,SAN 42460,,"Ranau district, Kinabalu Park, western border north of Sosopodon",Sabah,Malaysia,"Type, p.64",
+Lithocarpus keningauensis,holotype,SAN,,Amin,SAN 95311,,"Keningau district, Bt. Kitau",Sabah,Malaysia,"Type, p.66",
+Lithocarpus keningauensis,isotype,K,,Amin,SAN 95311,,"Keningau district, Bt. Kitau",Sabah,Malaysia,"Type, p.66",
+Lithocarpus keningauensis,isotype,KEP,,Amin,SAN 95311,,"Keningau district, Bt. Kitau",Sabah,Malaysia,"Type, p.66",
+Lithocarpus keningauensis,isotype,L,,Amin,SAN 95311,,"Keningau district, Bt. Kitau",Sabah,Malaysia,"Type, p.66",
+Lithocarpus keningauensis,isotype,SAR,,Amin,SAN 95311,,"Keningau district, Bt. Kitau",Sabah,Malaysia,"Type, p.66",
+Lithocarpus kochummenii,holotype,SAR,,Lee,S. 38884,,"Miri district, G. Mulu NP",Sarawak,Malaysia,"Type, p.66",
+Lithocarpus kochummenii,isotype,K,,Lee,S. 38884,,"Miri district, G. Mulu NP",Sarawak,Malaysia,"Type, p.66",
+Lithocarpus kochummenii,isotype,KEP,,Lee,S. 38884,,"Miri district, G. Mulu NP",Sarawak,Malaysia,"Type, p.66",
+Lithocarpus kochummenii,isotype,SAN,,Lee,S. 38884,,"Miri district, G. Mulu NP",Sarawak,Malaysia,"Type, p.66",
+Lithocarpus lampadarius,holotype,K,,Wray,1174,,"Peninsular Malaysia, Mt. Batu Putih",Perak,Malaysia,"Type, p.68",
+Lithocarpus lampadarius,isotype,SING,,Wray,1174,,"Peninsular Malaysia, Mt. Batu Putih",Perak,Malaysia,"Type, p.68",
+Lithocarpus leptogyne,holotype,L,RHL Sheet No. 90131137,Korthals,s.n.,,Mt. Sakumbang,Kalimantan,Indonesia,"Type, p.69","Borneo; printed 'RHL Sheet No 90131137' (8 digits, others have 9; possible typo in source)"
+Lithocarpus leptogyne,isotype,A,,Korthals,s.n.,,Mt. Sakumbang,Kalimantan,Indonesia,"Type, p.69","Borneo; printed 'RHL Sheet No 90131137' (8 digits, others have 9; possible typo in source)"
+Lithocarpus leptogyne,isotype,P,,Korthals,s.n.,,Mt. Sakumbang,Kalimantan,Indonesia,"Type, p.69","Borneo; printed 'RHL Sheet No 90131137' (8 digits, others have 9; possible typo in source)"
+Lithocarpus lucidus,holotype,BR,,Roxburgh,s.n.,,Peninsular Malaysia,Penang,Malaysia,"Type, p.70",
+Lithocarpus lucidus,isotype,BM,,Roxburgh,s.n.,,Peninsular Malaysia,Penang,Malaysia,"Type, p.70",
+Lithocarpus luteus,holotype,L,,Clemens,32817,,"Mt. Kinabalu, Mt. Nuntok ridges",Sabah,Malaysia,"Type, p.72",
+Lithocarpus luteus,isotype,A,,Clemens,32817,,"Mt. Kinabalu, Mt. Nuntok ridges",Sabah,Malaysia,"Type, p.72",
+Lithocarpus luteus,isotype,BM,,Clemens,32817,,"Mt. Kinabalu, Mt. Nuntok ridges",Sabah,Malaysia,"Type, p.72",
+Lithocarpus luteus,isotype,K,,Clemens,32817,,"Mt. Kinabalu, Mt. Nuntok ridges",Sabah,Malaysia,"Type, p.72",
+Lithocarpus luteus,isotype,NY,,Clemens,32817,,"Mt. Kinabalu, Mt. Nuntok ridges",Sabah,Malaysia,"Type, p.72",
+Lithocarpus luteus,isotype,UC,,Clemens,32817,,"Mt. Kinabalu, Mt. Nuntok ridges",Sabah,Malaysia,"Type, p.72",
+Lithocarpus mariae,holotype,L,,Anderson et al.,S. 15404,,"Lundu district, Mt. Lundu",Sarawak,Malaysia,"Type, p.73",
+Lithocarpus mariae,isotype,A,,Anderson et al.,S. 15404,,"Lundu district, Mt. Lundu",Sarawak,Malaysia,"Type, p.73",
+Lithocarpus mariae,isotype,BK,,Anderson et al.,S. 15404,,"Lundu district, Mt. Lundu",Sarawak,Malaysia,"Type, p.73",
+Lithocarpus mariae,isotype,K,,Anderson et al.,S. 15404,,"Lundu district, Mt. Lundu",Sarawak,Malaysia,"Type, p.73",
+Lithocarpus mariae,isotype,M,,Anderson et al.,S. 15404,,"Lundu district, Mt. Lundu",Sarawak,Malaysia,"Type, p.73",
+Lithocarpus mariae,isotype,S,,Anderson et al.,S. 15404,,"Lundu district, Mt. Lundu",Sarawak,Malaysia,"Type, p.73",
+Lithocarpus mariae,isotype,SAR,,Anderson et al.,S. 15404,,"Lundu district, Mt. Lundu",Sarawak,Malaysia,"Type, p.73",
+Lithocarpus mariae,isotype,SING,,Anderson et al.,S. 15404,,"Lundu district, Mt. Lundu",Sarawak,Malaysia,"Type, p.73",
+Lithocarpus meijeri,holotype,L,,Meijer,SAN 39608,,"Borneo, Sandakan district, Sepilok FR",,,"Type, p.73","state/country not printed (only 'Borneo, Sandakan district'); left blank"
+Lithocarpus meijeri,isotype,K,,Meijer,SAN 39608,,"Borneo, Sandakan district, Sepilok FR",,,"Type, p.73","state/country not printed (only 'Borneo, Sandakan district'); left blank"
+Lithocarpus meijeri,isotype,SAN,,Meijer,SAN 39608,,"Borneo, Sandakan district, Sepilok FR",,,"Type, p.73","state/country not printed (only 'Borneo, Sandakan district'); left blank"
+Lithocarpus meijeri,isotype,SING,,Meijer,SAN 39608,,"Borneo, Sandakan district, Sepilok FR",,,"Type, p.73","state/country not printed (only 'Borneo, Sandakan district'); left blank"
+Lithocarpus melataiensis,holotype,SAR,,Yii,S. 48455,,"Kapit district, Bt. Melatai",Sarawak,Malaysia,"Type, p.74",
+Lithocarpus melataiensis,isotype,BKF,,Yii,S. 48455,,"Kapit district, Bt. Melatai",Sarawak,Malaysia,"Type, p.74",
+Lithocarpus melataiensis,isotype,K,,Yii,S. 48455,,"Kapit district, Bt. Melatai",Sarawak,Malaysia,"Type, p.74",
+Lithocarpus melataiensis,isotype,KEP,,Yii,S. 48455,,"Kapit district, Bt. Melatai",Sarawak,Malaysia,"Type, p.74",
+Lithocarpus melataiensis,isotype,KLU,,Yii,S. 48455,,"Kapit district, Bt. Melatai",Sarawak,Malaysia,"Type, p.74",
+Lithocarpus melataiensis,isotype,L,,Yii,S. 48455,,"Kapit district, Bt. Melatai",Sarawak,Malaysia,"Type, p.74",
+Lithocarpus muluensis,holotype,SAR,,Ilias,S. 15082,,G. Mulu NP,Sarawak,Malaysia,"Type, p.75",
+Lithocarpus nieuwenhuisii,holotype,BO,,Jaheri,1546,,Sg. Salut,Kalimantan,Indonesia,"Type, p.75",Borneo
+Lithocarpus nodosus,holotype,L,,Meijer,SAN 21980,,"Mt. Kinabalu, Kundasang",Sabah,Malaysia,"Type, p.76",
+Lithocarpus nodosus,isotype,K,,Meijer,SAN 21980,,"Mt. Kinabalu, Kundasang",Sabah,Malaysia,"Type, p.76",
+Lithocarpus nodosus,isotype,SAN,,Meijer,SAN 21980,,"Mt. Kinabalu, Kundasang",Sabah,Malaysia,"Type, p.76",
+Lithocarpus oblancifolius,holotype,SAN,,Leopold,SAN 133942,,"Tawau district, Tawau Hill Park",Sabah,Malaysia,"Type, p.77",
+Lithocarpus papillifer,holotype,L,,Clemens,32493,,"Labuk Sugut district, Kolombuon R.",Sabah,Malaysia,"Type, p.78",
+Lithocarpus papillifer,isotype,A,,Clemens,32493,,"Labuk Sugut district, Kolombuon R.",Sabah,Malaysia,"Type, p.78",
+Lithocarpus papillifer,isotype,BM,,Clemens,32493,,"Labuk Sugut district, Kolombuon R.",Sabah,Malaysia,"Type, p.78",
+Lithocarpus papillifer,isotype,BO,,Clemens,32493,,"Labuk Sugut district, Kolombuon R.",Sabah,Malaysia,"Type, p.78",
+Lithocarpus papillifer,isotype,K,,Clemens,32493,,"Labuk Sugut district, Kolombuon R.",Sabah,Malaysia,"Type, p.78",
+Lithocarpus papillifer,isotype,NY,,Clemens,32493,,"Labuk Sugut district, Kolombuon R.",Sabah,Malaysia,"Type, p.78",
+Lithocarpus papillifer,isotype,UC,,Clemens,32493,,"Labuk Sugut district, Kolombuon R.",Sabah,Malaysia,"Type, p.78",
+Lithocarpus porcatus,holotype,SING,,Carr,SFN 26677,,"Mt. Kinabalu, Menetudok Gorge",Sabah,Malaysia,"Type, p.79",
+Lithocarpus pseudokunstleri,holotype,FI,,Beccari,PB 3328,,Marop,Sarawak,Malaysia,"Type, p.80",
+Lithocarpus pseudokunstleri,isotype,K,,Beccari,PB 3328,,Marop,Sarawak,Malaysia,"Type, p.80",
+Lithocarpus pulcher,lectotype,FI,,Beccari,PB 3123,,,Sarawak,Malaysia,"Type, p.80","Lectotype (Soepadmo, 1970); printed 'hololectotype FI'"
+Lithocarpus pulcher,isolectotype,K,,Beccari,PB 3123,,,Sarawak,Malaysia,"Type, p.80","Lectotype (Soepadmo, 1970); printed 'hololectotype FI'"
+Lithocarpus pulcher,isolectotype,L,,Beccari,PB 3123,,,Sarawak,Malaysia,"Type, p.80","Lectotype (Soepadmo, 1970); printed 'hololectotype FI'"
+Lithocarpus pulcher,isolectotype,NY,,Beccari,PB 3123,,,Sarawak,Malaysia,"Type, p.80","Lectotype (Soepadmo, 1970); printed 'hololectotype FI'"
+Lithocarpus pulcher,isolectotype,P,,Beccari,PB 3123,,,Sarawak,Malaysia,"Type, p.80","Lectotype (Soepadmo, 1970); printed 'hololectotype FI'"
+Lithocarpus pusillus,holotype,L,,Anderson,4560,,"Miri district, G. Mulu NP",Sarawak,Malaysia,"Type, p.81",
+Lithocarpus pusillus,isotype,A,,Anderson,4560,,"Miri district, G. Mulu NP",Sarawak,Malaysia,"Type, p.81",
+Lithocarpus pusillus,isotype,K,,Anderson,4560,,"Miri district, G. Mulu NP",Sarawak,Malaysia,"Type, p.81",
+Lithocarpus pusillus,isotype,S,,Anderson,4560,,"Miri district, G. Mulu NP",Sarawak,Malaysia,"Type, p.81",
+Lithocarpus rassa,holotype,BO,,Teijsmann,HB. 675,,"Sumatra, Padang Residency, Pajakumbuh",,Indonesia,"Type, p.82",
+Lithocarpus rassa,isotype,K,,Teijsmann,HB. 675,,"Sumatra, Padang Residency, Pajakumbuh",,Indonesia,"Type, p.82",
+Lithocarpus rassa,isotype,U,,Teijsmann,HB. 675,,"Sumatra, Padang Residency, Pajakumbuh",,Indonesia,"Type, p.82",
+Lithocarpus revolutus,holotype,L,,RSNB,4171,,"Mt. Kinabalu, Mesilau R.",Sabah,Malaysia,"Type, p.83",collector is series code only
+Lithocarpus revolutus,isotype,K,,RSNB,4171,,"Mt. Kinabalu, Mesilau R.",Sabah,Malaysia,"Type, p.83",collector is series code only
+Lithocarpus rigidus,holotype,L,,RSNB,4789,,"Mt. Kinabalu, Mesilau Cave",Sabah,Malaysia,"Type, p.84",collector is series code only
+Lithocarpus rigidus,isotype,K,,RSNB,4789,,"Mt. Kinabalu, Mesilau Cave",Sabah,Malaysia,"Type, p.84",collector is series code only
+Lithocarpus rigidus,isotype,SAN,,RSNB,4789,,"Mt. Kinabalu, Mesilau Cave",Sabah,Malaysia,"Type, p.84",collector is series code only
+Lithocarpus rigidus,isotype,SING,,RSNB,4789,,"Mt. Kinabalu, Mesilau Cave",Sabah,Malaysia,"Type, p.84",collector is series code only
+Lithocarpus rotundatus,,L,,Blume,s.n.,,"Java, Mt. Salak",,Indonesia,"Type, p.85",status not stated; only '(L)' printed
+Lithocarpus ruminatus,holotype,L,,Clemens,29164,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.85",
+Lithocarpus ruminatus,isotype,A,,Clemens,29164,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.85",
+Lithocarpus ruminatus,isotype,BM,,Clemens,29164,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.85",
+Lithocarpus ruminatus,isotype,BO,,Clemens,29164,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.85",
+Lithocarpus ruminatus,isotype,K,,Clemens,29164,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.85",
+Lithocarpus ruminatus,isotype,NY,,Clemens,29164,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.85",
+Lithocarpus ruminatus,isotype,UC,,Clemens,29164,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.85",
+Lithocarpus sandakanensis,holotype,KEP,,Wood,SAN A 4697,,"Sandakan district, Sepilok FR, Compartment 17",Sabah,Malaysia,"Type, p.86",
+Lithocarpus sandakanensis,isotype,AA,,Wood,SAN A 4697,,"Sandakan district, Sepilok FR, Compartment 17",Sabah,Malaysia,"Type, p.86",
+Lithocarpus sandakanensis,isotype,L,,Wood,SAN A 4697,,"Sandakan district, Sepilok FR, Compartment 17",Sabah,Malaysia,"Type, p.86",
+Lithocarpus sandakanensis,isotype,MEL,,Wood,SAN A 4697,,"Sandakan district, Sepilok FR, Compartment 17",Sabah,Malaysia,"Type, p.86",
+Lithocarpus sandakanensis,isotype,SING,,Wood,SAN A 4697,,"Sandakan district, Sepilok FR, Compartment 17",Sabah,Malaysia,"Type, p.86",
+Lithocarpus sericobalanus,holotype,K,,Richards,1241,,"Mt. Dulit, Ulu Tinjar, Long Kapa",Sarawak,Malaysia,"Type, p.87",
+Lithocarpus sericobalanus,isotype,A,,Richards,1241,,"Mt. Dulit, Ulu Tinjar, Long Kapa",Sarawak,Malaysia,"Type, p.87",
+Lithocarpus sericobalanus,isotype,L,,Richards,1241,,"Mt. Dulit, Ulu Tinjar, Long Kapa",Sarawak,Malaysia,"Type, p.87",
+Lithocarpus stonei,holotype,SAN,,Yap & Khairuddin,SAN 106051,,Tambunan road,Sabah,Malaysia,"Type, p.88",
+Lithocarpus stonei,isotype,KEP,,Yap & Khairuddin,SAN 106051,,Tambunan road,Sabah,Malaysia,"Type, p.88",
+Lithocarpus sundaicus,holotype,L,RHL Sheet No. 90131341,Blume,s.n.,,"W Java, Banten Residency, Sadjira, Rangkas Bitung",,Indonesia,"Type, p.88","printed 'RHL Sheet No. 90131341' (8 digits, others have 9; possible typo in source)"
+Lithocarpus sundaicus,isotype,CGE,,Blume,s.n.,,"W Java, Banten Residency, Sadjira, Rangkas Bitung",,Indonesia,"Type, p.88","printed 'RHL Sheet No. 90131341' (8 digits, others have 9; possible typo in source)"
+Lithocarpus tawaiensis,holotype,KEP,,Berhaman et al.,SAN 134267,,Bt. Tawai,Sabah,Malaysia,"Type, p.90",
+Lithocarpus turbinatus,holotype,K,,Haviland,1102,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.92",
+Lithocarpus urceolaris,neotype,L,,Grashoff,951,,"Sumatra, Palembang, Banjumasin",,Indonesia,"Type, p.93","Neotype (Merrill, 1952); printed 'holoneotype L'"
+Lithocarpus urceolaris,isoneotype,BO,,Grashoff,951,,"Sumatra, Palembang, Banjumasin",,Indonesia,"Type, p.93","Neotype (Merrill, 1952); printed 'holoneotype L'"
+Lithocarpus wallichianus,holotype,K,,Wallich,Cat. 2778,,"Peninsular Malaysia, Penang Hill",Penang,Malaysia,"Type, p.94",
+Lithocarpus wallichianus,isotype,BM,,Wallich,Cat. 2778,,"Peninsular Malaysia, Penang Hill",Penang,Malaysia,"Type, p.94",
+Lithocarpus wallichianus,isotype,CGE,,Wallich,Cat. 2778,,"Peninsular Malaysia, Penang Hill",Penang,Malaysia,"Type, p.94",
+Quercus argentata,holotype,L,RHL Sheet No. 901309448,Korthals,s.n.,,"Sumatra, Melintang Forest",,Indonesia,"Type, p.99",printed '(= RHL Sheet No. 901309448)'
+Quercus argentata,isotype,K,,Korthals,s.n.,,"Sumatra, Melintang Forest",,Indonesia,"Type, p.99",printed '(= RHL Sheet No. 901309448)'
+Quercus chrysotricha,holotype,K,,Richards,1885,,"Mt. Dulit, alt. c. 1300 m",Sarawak,Malaysia,"Type, p.100",
+Quercus chrysotricha,isotype,L,,Richards,1885,,"Mt. Dulit, alt. c. 1300 m",Sarawak,Malaysia,"Type, p.100",
+Quercus elmeri,holotype,K,,Elmer,21213,,Tawau district,Sabah,Malaysia,"Type, p.101",
+Quercus elmeri,isotype,A,,Elmer,21213,,Tawau district,Sabah,Malaysia,"Type, p.101",
+Quercus elmeri,isotype,L,,Elmer,21213,,Tawau district,Sabah,Malaysia,"Type, p.101",
+Quercus elmeri,isotype,U,,Elmer,21213,,Tawau district,Sabah,Malaysia,"Type, p.101",
+Quercus gaharuensis,holotype,K,,Anderson et al.,S. 15534,,"Serian, lower slope of G. Gaharu, alt. c. 100 m",Sarawak,Malaysia,"Type, p.101",
+Quercus gaharuensis,isotype,BO,,Anderson et al.,S. 15534,,"Serian, lower slope of G. Gaharu, alt. c. 100 m",Sarawak,Malaysia,"Type, p.101",
+Quercus gaharuensis,isotype,L,,Anderson et al.,S. 15534,,"Serian, lower slope of G. Gaharu, alt. c. 100 m",Sarawak,Malaysia,"Type, p.101",
+Quercus gaharuensis,isotype,SAN,,Anderson et al.,S. 15534,,"Serian, lower slope of G. Gaharu, alt. c. 100 m",Sarawak,Malaysia,"Type, p.101",
+Quercus gaharuensis,isotype,SAR,,Anderson et al.,S. 15534,,"Serian, lower slope of G. Gaharu, alt. c. 100 m",Sarawak,Malaysia,"Type, p.101",
+Quercus gemelliflora,holotype,L,RHL Sheet No. 901310215,Blume,s.n.,,"Java, Mt. Salak",,Indonesia,"Type, p.102",printed '(= RHL Sheet No. 901310215)'
+Quercus kerangasensis,holotype,K,,Brunig,S. 1065,,"Seria, Badas FR",,Brunei,"Type, p.103",Borneo
+Quercus kerangasensis,isotype,L,,Brunig,S. 1065,,"Seria, Badas FR",,Brunei,"Type, p.103",Borneo
+Quercus kerangasensis,isotype,SAR,,Brunig,S. 1065,,"Seria, Badas FR",,Brunei,"Type, p.103",Borneo
+Quercus kinabaluensis,holotype,K,,Chew & Corner,RSNB 7148,,"Mt. Kinabalu, Mentaki Ridges",Sabah,Malaysia,"Type, p.104",
+Quercus kinabaluensis,isotype,L,,Chew & Corner,RSNB 7148,,"Mt. Kinabalu, Mentaki Ridges",Sabah,Malaysia,"Type, p.104",
+Quercus lineata,holotype,L,RHL Sheet No. 90131161,Blume,s.n.,,Java,,Indonesia,"Type, p.105","printed '(= RHL Sheet No. 90131161)' (8 digits, others have 9; possible typo in source)"
+Quercus lineata,isotype,A,,Blume,s.n.,,Java,,Indonesia,"Type, p.105","printed '(= RHL Sheet No. 90131161)' (8 digits, others have 9; possible typo in source)"
+Quercus lineata,isotype,BO,,Blume,s.n.,,Java,,Indonesia,"Type, p.105","printed '(= RHL Sheet No. 90131161)' (8 digits, others have 9; possible typo in source)"
+Quercus lineata,isotype,K,,Blume,s.n.,,Java,,Indonesia,"Type, p.105","printed '(= RHL Sheet No. 90131161)' (8 digits, others have 9; possible typo in source)"
+Quercus lowii,holotype,CAL,,Low,s.n.,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.106",n.v.
+Quercus merrillii,holotype,K,,Foxworthy,566,,Palawan,,Philippines,"Type, p.108",
+Quercus nivea,lectotype,FI,,Beccari,PB 2551,,,Sarawak,Malaysia,"Type, p.108","Lectotype (Soepadmo, 1968)"
+Quercus percoriacea,holotype,K,,Anderson,S. 20226,,"Bario, Ulu Baram",Sarawak,Malaysia,"Type, p.109",
+Quercus percoriacea,isotype,L,,Anderson,S. 20226,,"Bario, Ulu Baram",Sarawak,Malaysia,"Type, p.109",
+Quercus percoriacea,isotype,SAN,,Anderson,S. 20226,,"Bario, Ulu Baram",Sarawak,Malaysia,"Type, p.109",
+Quercus percoriacea,isotype,SAR,,Anderson,S. 20226,,"Bario, Ulu Baram",Sarawak,Malaysia,"Type, p.109",
+Quercus percoriacea,isotype,SING,,Anderson,S. 20226,,"Bario, Ulu Baram",Sarawak,Malaysia,"Type, p.109",
+Quercus pseudoverticillata,holotype,K,,Chew & Corner,RSNB. 4434,,"Mt. Kinabalu, Bembangan R., alt. c. 1600 m",Sabah,Malaysia,"Type, p.110",
+Quercus pseudoverticillata,isotype,L,,Chew & Corner,RSNB. 4434,,"Mt. Kinabalu, Bembangan R., alt. c. 1600 m",Sabah,Malaysia,"Type, p.110",
+Quercus subsericea,holotype,BO,,Teijsmann,HB. 21080,,"Sumatra, Bangka",,Indonesia,"Type, p.112",
+Quercus subsericea,isotype,K,,Teijsmann,HB. 21080,,"Sumatra, Bangka",,Indonesia,"Type, p.112",
+Quercus sumatrana,holotype,BO,,Achmat,1501,,"N Sumatra, Tapah",,Indonesia,"Type, p.112",
+Quercus sumatrana,isotype,L,,Achmat,1501,,"N Sumatra, Tapah",,Indonesia,"Type, p.112",
+Quercus treubiana,holotype,L,,Hallier,2915,,Mt. Lianggagang,Kalimantan,Indonesia,"Type, p.113",Borneo
+Quercus treubiana,isotype,K,,Hallier,2915,,Mt. Lianggagang,Kalimantan,Indonesia,"Type, p.113",Borneo
+Quercus treubiana,isotype,SAR,,Hallier,2915,,Mt. Lianggagang,Kalimantan,Indonesia,"Type, p.113",Borneo
+Quercus valdinervosa,lectotype,K,,Clemens,31317,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.114","Lectotype (Soepadmo, 1968); printed as '(holotype K; isotypes A, B, K, L, SING, UC)' within lectotype statement; K listed twice (as holotype and isotype), isolectotype K row omitted as duplicate"
+Quercus valdinervosa,isolectotype,A,,Clemens,31317,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.114","Lectotype (Soepadmo, 1968); printed as '(holotype K; isotypes A, B, K, L, SING, UC)' within lectotype statement; K listed twice (as holotype and isotype), isolectotype K row omitted as duplicate"
+Quercus valdinervosa,isolectotype,B,,Clemens,31317,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.114","Lectotype (Soepadmo, 1968); printed as '(holotype K; isotypes A, B, K, L, SING, UC)' within lectotype statement; K listed twice (as holotype and isotype), isolectotype K row omitted as duplicate"
+Quercus valdinervosa,isolectotype,L,,Clemens,31317,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.114","Lectotype (Soepadmo, 1968); printed as '(holotype K; isotypes A, B, K, L, SING, UC)' within lectotype statement; K listed twice (as holotype and isotype), isolectotype K row omitted as duplicate"
+Quercus valdinervosa,isolectotype,SING,,Clemens,31317,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.114","Lectotype (Soepadmo, 1968); printed as '(holotype K; isotypes A, B, K, L, SING, UC)' within lectotype statement; K listed twice (as holotype and isotype), isolectotype K row omitted as duplicate"
+Quercus valdinervosa,isolectotype,UC,,Clemens,31317,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.114","Lectotype (Soepadmo, 1968); printed as '(holotype K; isotypes A, B, K, L, SING, UC)' within lectotype statement; K listed twice (as holotype and isotype), isolectotype K row omitted as duplicate"
+Trigonobalanus verticillata,holotype,K,,RSNB,2732A,,"Mt. Kinabalu, Liwagu R.",Sabah,Malaysia,"Type, p.116",collector is series code only
+Trigonobalanus verticillata,isotype,L,,RSNB,2732A,,"Mt. Kinabalu, Liwagu R.",Sabah,Malaysia,"Type, p.116",collector is series code only
+Trigonobalanus verticillata,isotype,LE,,RSNB,2732A,,"Mt. Kinabalu, Liwagu R.",Sabah,Malaysia,"Type, p.116",collector is series code only
+Trigonobalanus verticillata,isotype,US,,RSNB,2732A,,"Mt. Kinabalu, Liwagu R.",Sabah,Malaysia,"Type, p.116",collector is series code only
+Castanopsis borneensis,figure specimen,,,S.,24588,,,,,"Figure caption, p.9",Fig. 1 A; series code
+Castanopsis borneensis,figure specimen,,,S.,23677,,,,,"Figure caption, p.9",Fig. 1 B; series code
+Castanopsis borneensis,figure specimen,,,S.,46557,,,,,"Figure caption, p.9",Fig. 1 C–D; series code
+Castanopsis clemensii,figure specimen,,,SAN,94845,,,,,"Figure caption, p.11","Fig. 2 A, E; series code"
+Castanopsis clemensii,figure specimen,,,S.,49964,,,,,"Figure caption, p.11",Fig. 2 B; series code
+Castanopsis clemensii,figure specimen,,,S.,48679,,,,,"Figure caption, p.11",Fig. 2 C; series code
+Castanopsis clemensii,figure specimen,,,S.,44680,,,,,"Figure caption, p.11",Fig. 2 D; series code
+Castanopsis foxworthyi,figure specimen,,,S.,33009,,,,,"Figure caption, p.16",Fig. 3 A–D; series code
+Castanopsis foxworthyi,figure specimen,,,S.,47090,,,,,"Figure caption, p.16",Fig. 3 E–F; series code
+Castanopsis foxworthyi,figure specimen,,,S.,47089,,,,,"Figure caption, p.16",Fig. 3 G–H; series code
+Castanopsis hypophoenicea,figure specimen,,,SAN,83755,,,,,"Figure caption, p.18","Fig. 4 A–B, D; series code"
+Castanopsis hypophoenicea,figure specimen,,,SAN,93191,,,,,"Figure caption, p.18",Fig. 4 C; series code
+Castanopsis hypophoenicea,figure specimen,,,SAN,40481,,,,,"Figure caption, p.18",Fig. 4 E; series code
+Castanopsis hypophoenicea,figure specimen,,,SAN,22507,,,,,"Figure caption, p.18",Fig. 4 F; series code
+Castanopsis javanica,figure specimen,,,SAN,117874,,,,,"Figure caption, p.21",Fig. 5 A–B; series code
+Castanopsis javanica,figure specimen,,,SAN,20998,,,,,"Figure caption, p.21",Fig. 5 C; series code
+Castanopsis javanica,figure specimen,,,van Balgooy,5183,,,,,"Figure caption, p.21",Fig. 5 D–G
+Castanopsis motleyana,figure specimen,,,SAN,68309,,,,,"Figure caption, p.25",Fig. 6 A–D; series code
+Castanopsis motleyana,figure specimen,,,S.,46883,,,,,"Figure caption, p.25",Fig. 6 E; series code
+Castanopsis psilophylla,figure specimen,,,SAN,132641,,,,,"Figure caption, p.29",Fig. 7 A–D; series code
+Castanopsis psilophylla,figure specimen,,,Nooteboom & Chai,2320,,,,,"Figure caption, p.29",Fig. 7 E
+Castanopsis psilophylla,figure specimen,,,SAN,16780,,,,,"Figure caption, p.29",Fig. 7 F; series code
+Castanopsis psilophylla,figure specimen,,,SAN,21412,,,,,"Figure caption, p.29",Fig. 7 G; series code
+Lithocarpus brochidodromus,figure specimen,,,SAN,103647,,,,,"Figure caption, p.42",Fig. 8 A–C; series code
+Lithocarpus brochidodromus,figure specimen,,,S.,24089,,,,,"Figure caption, p.42",Fig. 8 D–E; series code
+Lithocarpus brochidodromus,figure specimen,,,SAN,106929,,,,,"Figure caption, p.42",Fig. 8 F; series code
+Lithocarpus echinifer,figure specimen,,,SAN,91707,,,,,"Figure caption, p.53",Fig. 9 A; series code
+Lithocarpus echinifer,figure specimen,,,BRUN,763,,,,,"Figure caption, p.53",Fig. 9 B–D; series code
+Lithocarpus echinifer,figure specimen,,,SAN,24792,,,,,"Figure caption, p.53",Fig. 9 E–F; series code
+Lithocarpus keningauensis,figure specimen,,,SAN,50208,,,,,"Figure caption, p.65","Fig. 10 A, D; series code"
+Lithocarpus keningauensis,figure specimen,,,SAN,92174,,,,,"Figure caption, p.65",Fig. 10 B; series code
+Lithocarpus keningauensis,figure specimen,,,SAN,95311,,,,,"Figure caption, p.65",Fig. 10 C; series code
+Lithocarpus kochummenii,figure specimen,,,S.,4557,,,,,"Figure caption, p.67",Fig. 11 A; series code
+Lithocarpus kochummenii,figure specimen,,,Kirkup DK,964,,,,,"Figure caption, p.67",Fig. 11 B–D
+Lithocarpus kochummenii,figure specimen,,,S.,38884,,,,,"Figure caption, p.67",Fig. 11 E–G; series code
+Lithocarpus lucidus,figure specimen,,,SAN A,388,,,,,"Figure caption, p.71",Fig. 12 A–B; series code
+Lithocarpus lucidus,figure specimen,,,SAN,21740,,,,,"Figure caption, p.71",Fig. 12 C–D; series code
+Lithocarpus lucidus,figure specimen,,,SAN,92172,,,,,"Figure caption, p.71",Fig. 12 E; series code
+Lithocarpus lucidus,figure specimen,,,Kostermans,9224,,,,,"Figure caption, p.71",Fig. 12 F
+Lithocarpus stonei,figure specimen,,,SAN,106051,,,,,"Figure caption, p.89",Fig. 13 A–B; series code
+Lithocarpus stonei,figure specimen,,,SAN,136522,,,,,"Figure caption, p.89",Fig. 13 C–F; series code
+Lithocarpus turbinatus,figure specimen,,,SAN,29053,,,,,"Figure caption, p.91",Fig. 14 A–C; series code
+Lithocarpus turbinatus,figure specimen,,,SAN,31786,,,,,"Figure caption, p.91",Fig. 14 D–E; series code
+Lithocarpus turbinatus,figure specimen,,,S.,20209,,,,,"Figure caption, p.91",Fig. 14 F–G; series code
+Quercus lowii,figure specimen,,,SAN,24106,,,,,"Figure caption, p.107",Fig. 15 A–B; series code
+Quercus lowii,figure specimen,,,SAN,38534,,,,,"Figure caption, p.107",Fig. 15 C–D; series code
+Quercus lowii,figure specimen,,,S.,34855,,,,,"Figure caption, p.107",Fig. 15 E; series code
+Quercus lowii,figure specimen,,,SAN,34504,,,,,"Figure caption, p.107",Fig. 15 F; series code
+Quercus pseudoverticillata,figure specimen,,,SAN,76409,,,,,"Figure caption, p.111",Fig. 16 A; series code
+Quercus pseudoverticillata,figure specimen,,,SAN,38082,,,,,"Figure caption, p.111",Fig. 16 B; series code
+Quercus pseudoverticillata,figure specimen,,,SAN,38651,,,,,"Figure caption, p.111",Fig. 16 C; series code
+Trigonobalanus verticillata,figure specimen,,,S.,33077,,,,,"Figure caption, p.117",Fig. 17 A–D; series code
+Trigonobalanus verticillata,figure specimen,,,SAN,29003,,,,,"Figure caption, p.117",Fig. 17 E–F; series code
+Trigonobalanus verticillata,figure specimen,,,SAN,56707,,,,,"Figure caption, p.117",Fig. 17 G–H; series code

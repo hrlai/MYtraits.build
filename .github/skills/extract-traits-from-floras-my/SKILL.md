@@ -27,6 +27,7 @@ repository:
 | `data/Kiew_2015` | Nymphaeaceae, FPM vol. 5 | born-digital PDF, 5 taxa | `flora_hand()` with `ext()`; aquatic habit; cultivated plants; pollinators; several secondary sources |
 | `data/Wong_2010` | Selaginellaceae, FPM ferns vol. 1 | born-digital PDF, scripted clause parser, 35 taxa | first lycophyte; leaf kinds in `entity_measured`; genus copy-down with no family description; differential-only varieties |
 | `data/Cheek_2012` | Nepenthaceae, FPM vol. 3 | born-digital PDF, 10 species, hand-scored pieces | climbers; hand rows keyed to comma pieces so every unscored piece stays unmapped; named hybrids; values cited in genus paragraphs |
+| `data/Soepadmo_2000` | Fagaceae, TFSS vol. 3 | 2007 electronic text, scripted clause parser, 100 species | large family in one run; plate pages dropped; line-break hyphens rejoined; cupule is not the fruit; per-surface leaf hairs; family statements naming genera not copied |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
@@ -411,6 +412,18 @@ contained infraspecific headings.
 - If using `flora_read_pdf_lines()`, set `running_head_re` for the volume
   header. For a transcription, remove running heads and bare page numbers while
   checking images. Do not let either become description text.
+- In the 2007 electronic editions, figure plates are page images whose only
+  text is a running head (sometimes garbled, "TREE FLORA OF SABOL. 3") and a
+  stray roman page number ("vi"). `flora_layer_flags()` lists them as
+  `low_text`; set `drop = TRUE` for those PDF pages after
+  `flora_read_pdf_lines()`, or the "vi" joins the paragraph across the
+  plate (Soepadmo_2000, 17 plates, e.g. pdf 15 inside Castanopsis buruana).
+- `flora_segment()` joins a line ending "letter-" without a space and keeps
+  the hyphen, so words split at a line end stay split ("mar-gin",
+  "ob-scure") and miss dictionary terms. Rejoin a hyphenated word in the
+  parser's text preparation when the unhyphenated word occurs elsewhere in
+  the treatment (Soepadmo_2000 `unhyphen()`); real compounds
+  ("thin-coriaceous") never occur unhyphenated, so they stay.
 - Treat figure and map captions as non-treatment text unless they supply a
   separately transcribed voucher. With `flora_read_pdf_lines()`, configure
   `caption_re`, `side_caption_re` and `side_indent`, and inspect dropped lines;
@@ -461,6 +474,8 @@ Bespoke checklist (decisions that changed per family):
   the segment (internode or article) length and thickness in `leaf_length` and
   `leaf_width` with `entity_measured = cladode`. Do not put scale-leaf size in
   leaf traits, and do not score `leaf_length_type` (Pungga_1996).
+  Fagaceae: the acorn or nut is the fruit; the cupule that holds it is not,
+  and has no trait (Soepadmo_2000 question 3).
 - **Clause subject owns the character.** "Twigs with hairy terminal buds": the
   hairs are on the buds. "Capsules yellowish, inside of valves red": only the
   first colour is the fruit colour. "Seeds enclosed in a red arillode": not
@@ -527,7 +542,15 @@ Bespoke checklist (decisions that changed per family):
   Provisional (Cheek_2012 question 4): tepal length of a flower with one
   perianth whorl and no petals -> `flower_sepal_length`; capsule valve
   length ("Fruits: valves 25--29 x 2.2--2 mm") -> `fruit_length`; tepal
-  colour -> `flower_colour`.
+  colour -> `flower_colour`. Soepadmo_2000 applies the tepal rule to
+  perianth lobes and asks again (question 1).
+  Provisional (Soepadmo_2000 question 10): "lateral veins ..., forming an
+  angle of 40--60 degrees with the midrib" -> `leaf_secondary_vein_angle`
+  (unit `deg`); vein number has no trait.
+- **Leaf hairs per surface** (provisional, Soepadmo_2000 question 6).
+  "glabrous above, tomentose below" -> `leaf_hairs_adult_leaves = hairy`;
+  glabrous only when both surfaces are; not scored when a surface is
+  glabrescent. Kochummen_1995 scored "hairy below" the same way.
 - **Glabrescent** ("becoming glabrous") describes a change with age, not a
   state: never score it, keep it unmapped (user decision, 2026-10, Jutta_2012).
   The dictionary seed blocks it for leaf, stem and fruit hairs. Coode_2018
