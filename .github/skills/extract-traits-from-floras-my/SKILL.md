@@ -35,7 +35,9 @@ born-digital sources no longer need that (step 2).
 Source `.github/skills/extract-traits-from-floras-my/scripts/flora_review.R`
 from the repository root. This is the small prepare/next/status interface for a
 `scanned_ocr` family (step 1); born-digital families do not use it. The
-extraction and source reconciliation steps below still apply. Each treatment gets its own dataset ID and verified PDF page range. Never
+extraction and source reconciliation steps below still apply.
+
+Each treatment gets its own dataset ID and verified PDF page range. Never
 infer boundaries or printed-page numbers from another volume. The user can say
 "continue <id>" in a new chat; read only its `raw/review_handoff.md`, manifest,
 and next batch, not old chat history.
@@ -615,9 +617,11 @@ figure caption that contradicts the heading, as in Coode_2018 question 8).
 `value` is `trait_value_clean` for numeric traits and the `y/n` calendars, else
 the source term (`trait_value`) mapped by `substitutions:` in metadata;
 `trait_scoring_method` comes from `rank_scored_from`
-(`inferred_from_family|genus|species_group|species`). Verify that own rows are
-also mapped to `inferred_from_species`; an empty scoring-method context can
-make `dataset_test()` fail with an unnamed-column error. Unmapped rows stay out.
+(`inferred_from_family|genus|species_group|species`). A taxon's own rows
+(blank or `own` `rank_scored_from`) also get `inferred_from_species`: the value
+was read from that taxon's own description. Check that no row in `data.csv`
+has a blank `trait_scoring_method`; an empty scoring-method context can make
+`dataset_test()` fail with an unnamed-column error. Unmapped rows stay out.
 Do not use `convert-raw-data-file-into-data-csv`: floras stay long.
 
 ### 10. `metadata.yml` (B)
@@ -628,7 +632,11 @@ above; it already follows house style), or start from
 from the other source, then check:
 
 - `source.primary`: `bibtype: InBook`, the actual treatment author, `booktitle`
-  (FPM Series II vol. N or TFSS vol. N), editors, series, publisher, pages.
+  (FPM Series I: Ferns and Lycophytes vol. N, FPM Series II: Seed Plants
+  vol. N, or TFSS vol. N), editors, series, publisher, pages. Check the series
+  in `assets/myflora_metadata.csv`: "vol. 1 (2010)" exists in both FPM series
+  (Nor-Ezzawanis_2010 is Series I, Malayan Forest Records No. 48; Lim_2010 is
+  Series II, No. 49).
   Keep FPM and TFSS primary citations in separate datasets even for the same
   family. Add every cited secondary source (for example `Yii_1995`) as its
   own entry: `secondary:` for the first, then `secondary_2:`, `secondary_3:`
@@ -737,7 +745,37 @@ standing rules. Completion requires the source reconciliation in step 11, not
 just `dataset_test()` passing; attach QA tables and a summary of unmapped terms
 and questions. Start with small families to grow the dictionary, merge
 dictionary additions centrally, and keep `config/traits.yml` changes out of
-family branches.
+family branches. Family branches may change this skill (next section), so
+merge each family PR before starting a branch that depends on its changes.
+
+## Changing this skill
+
+This skill is evolving family by family toward a general, stable workflow for
+all FPM and TFSS treatments. An agent processing a family may edit `SKILL.md`,
+`scripts/` and `assets/` here when the family exposes a gap or an error.
+
+- Each change should make the next family easier, not just this one. Put
+  family-specific handling in that family's `raw/` files (build script,
+  heading configuration, `source_fixes.csv`).
+- Prefer generalising or merging an existing rule over adding a new one. Remove
+  or rewrite a rule that a new family contradicts, and say so in the commit.
+- Do not change a standing rule (user decision). Propose the change in the PR.
+  Mark a new rule `provisional (<ID> question N)`, with a matching question in
+  that dataset's `metadata.yml`, until a second family confirms it; then drop
+  the marker in a `confirmed` change.
+- Never edit `config/traits.yml` from a family branch.
+- Commit each logical change separately from data commits, with the prefix
+  `skill:`. The commit body states the problem, the evidence (taxon and page)
+  and the change. Dictionary seed additions get their own commit.
+- After changing a script, run `scripts/test-flora-*.R`, then rerun
+  `raw/build_trait_data.R` and `flora_make_data(id)` for every other
+  `data/<id>/` built with these scripts. `git diff --stat data/` must show no
+  changes outside the current family; explain any intended change in the
+  commit, otherwise revert. Report datasets that could not be rebuilt (for
+  example a missing local PDF).
+- List every change in the PR under "Skill changes made" (file, change, kind:
+  `new`, `generalised`, `confirmed` or `removed`, reason, evidence, regression
+  result) and unfixed problems under "Skill issues not fixed".
 
 ## Open question for the user
 
