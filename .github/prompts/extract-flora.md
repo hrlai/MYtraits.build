@@ -1,16 +1,28 @@
+<!--
+Template for one family issue. An agent drafting an issue copies everything
+below this comment into the issue body and fills every <...> field in the
+Source block from assets/myflora_metadata.csv (series and volume, author,
+year) and the repo's dataset ID convention (<Author>_<Year>, `_2` suffix on
+collision). Leave no <...> placeholder unfilled.
+-->
+
 Extract traits from one Malaysian flora family treatment using the
 `extract-traits-from-floras-my` skill. Load the skill first and follow it,
 including its standing rules and its "Changing this skill" section.
 
 ## Source
 
-Fill in this block for each family; the rest of the prompt refers to it.
+The rest of this prompt refers to these fields.
 
-- Family: Selaginellaceae
-- Flora: `FPM` (Flora of Peninsular Malaysia)
-- Series and volume: Series I: Ferns and Lycophytes, vol. 1 (2010)
-- Author: K.M. Wong
-- Dataset ID (`<ID>` below): Wong_2010
+- Family: <Family>
+- Flora: <FPM or TFSS>
+- Series and volume: <e.g. FPM Series I: Ferns and Lycophytes, vol. 1 (2010)>
+- Author: <treatment author(s) as printed>
+- Dataset ID (`<ID>` below): <Author_Year>
+
+Before starting, check these fields against the PDF's row in
+`assets/myflora_metadata.csv`. If a field is still a `<...>` placeholder or
+disagrees with that row, stop and ask me.
 
 Get the PDF with `flora_fetch("<Family>", "<Flora>")`
 (`scripts/flora_fetch.R`). It returns
