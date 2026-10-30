@@ -601,7 +601,7 @@ substitutions:
     find: 'fissured flaky'
     replace: 'furrowed flaky'
   - trait_name: bark_texture
-    find: 'peeling flakes'
+    find: 'peeling papery flakes'
     replace: 'papery flaky'
   - trait_name: bark_texture
     find: 'smooth fissured'
@@ -613,6 +613,9 @@ substitutions:
     find: 'arillode sarcotesta'
     replace: 'aril sarcotesta'
   - trait_name: flower_anther_orientation
+    find: 'introrse latero-introrse'
+    replace: 'introrse'
+  - trait_name: flower_anther_orientation
     find: 'latero-introrse'
     replace: 'introrse'
   - trait_name: flower_anther_orientation
@@ -622,7 +625,7 @@ substitutions:
     find: 'latrorse latero-introrse'
     replace: 'latrorse introrse'
   - trait_name: flower_colour
-    find: 'creamy reddish'
+    find: 'creamy white reddish'
     replace: 'white_cream red_brown'
   - trait_name: flower_colour
     find: 'creamy yellow pink red'
@@ -637,7 +640,7 @@ substitutions:
     find: 'green whitish yellow brown'
     replace: 'green white_cream yellow_orange red_brown'
   - trait_name: flower_colour
-    find: 'orange'
+    find: 'orange yellow'
     replace: 'yellow_orange'
   - trait_name: flower_colour
     find: 'pink whitish'
@@ -664,7 +667,7 @@ substitutions:
     find: 'white yellow'
     replace: 'white_cream yellow_orange'
   - trait_name: flower_colour
-    find: 'white yellow green pink'
+    find: 'white creamy yellow green pink'
     replace: 'white_cream yellow_orange green pink'
   - trait_name: flower_colour
     find: 'whitish'
@@ -717,6 +720,9 @@ substitutions:
   - trait_name: fruit_type
     find: 'samaras'
     replace: 'samara'
+  - trait_name: inflorescence_type
+    find: 'axillary axils'
+    replace: 'axillary'
   - trait_name: inflorescence_type
     find: 'axillary panicles racemes'
     replace: 'axillary panicle raceme'
@@ -811,7 +817,7 @@ substitutions:
     find: 'rounded cordate asymmetric'
     replace: 'rounded cordate oblique'
   - trait_name: leaf_compoundness
-    find: '1-foliolate'
+    find: '1-foliolate pairs_of_leaflets'
     replace: 'compound'
   - trait_name: leaf_compoundness
     find: 'biternate'
@@ -835,7 +841,7 @@ substitutions:
     find: 'simple biternate digitate pinnate'
     replace: 'simple compound'
   - trait_name: leaf_compoundness
-    find: 'unifoliolate'
+    find: 'unifoliolate pinnate'
     replace: 'compound'
   - trait_name: leaf_lamina_division
     find: 'digitate'
@@ -844,7 +850,13 @@ substitutions:
     find: 'digitate pinnate bipinnate'
     replace: 'palmately_compound pinnately_compound bipinnate'
   - trait_name: leaf_lamina_division
+    find: 'imparipinnate paripinnate'
+    replace: 'pinnately_compound'
+  - trait_name: leaf_lamina_division
     find: 'imparipinnate'
+    replace: 'pinnately_compound'
+  - trait_name: leaf_lamina_division
+    find: 'paripinnate imparipinnate'
     replace: 'pinnately_compound'
   - trait_name: leaf_lamina_division
     find: 'paripinnate'
@@ -964,7 +976,7 @@ substitutions:
     find: 'brown black'
     replace: 'red_brown black'
   - trait_name: seed_colour
-    find: 'red'
+    find: 'red brown'
     replace: 'red_brown'
   - trait_name: seed_shape
     find: 'ellipsoid subglobose'

@@ -439,18 +439,19 @@ cat_rows <- function(trait, x, em = NA_character_) {
   if (is.null(s)) {
     return(NULL)
   }
-  # trait_value keeps one source term per level, and only terms that map to a
-  # level, so metadata substitutions (word by word) give exactly the levels
+  # trait_value keeps every source term that maps to a level, so the copy-down
+  # check sees each alternative ("imparipinnate or paripinnate"); levels are
+  # kept once, and the whole-value substitutions give exactly those levels
   out <- s |>
     filter(trait_value_clean != "") |>
     pmap_dfr(\(cq, trait_value, trait_value_clean, trait) {
       terms <- str_split_1(trait_value, " ")
       lv <- map_chr(terms, \(t) term_level(trait, t))
-      keep <- lv != "" & !duplicated(lv)
+      keep <- lv != ""
       row(
         trait,
         paste(terms[keep], collapse = " "),
-        paste(lv[keep], collapse = " "),
+        paste(unique(lv[keep]), collapse = " "),
         cq = cq,
         em = em,
         raw = x
@@ -460,9 +461,12 @@ cat_rows <- function(trait, x, em = NA_character_) {
     return(out)
   }
   # "pari- or rarely imparipinnate": alternatives with one level leave no
-  # alternative for that trait
+  # alternative for that trait; every source term stays in trait_value, so the
+  # copy-down check does not read the dropped one as unscored
   if (nrow(out) > 1 && n_distinct(out$trait_value_clean) == 1) {
-    out <- out[1, ] |> mutate(cq = NA_character_)
+    terms <- unique(unlist(str_split(out$trait_value, " ")))
+    out <- out[1, ] |>
+      mutate(trait_value = paste(terms, collapse = " "), cq = NA_character_)
   }
   # "terminal and sometimes axillary": the added state is rarer, the first is
   # not an alternative to it, so it gets no `usually`
