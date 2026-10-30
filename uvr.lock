@@ -1,4 +1,4 @@
-manifest_fingerprint = "sha256:d5eba240932670dee2315dfb8cbacf37d6a05a059f8ac4855a59e912a797e22d"
+manifest_fingerprint = "sha256:26d180df7ca54f3e318040d98468d328db46c9698a3849a5221e769c9ba10714"
 
 [r]
 version = "4.6.0"
@@ -139,8 +139,7 @@ requires = ["sys"]
 [[package]]
 name = "austraits"
 version = "3.1.1"
-source = "github"
-url = "https://api.github.com/repos/traitecoevo/austraits/tarball/cb45c99d3420653e3f4f19154939e828e7bd946e"
+source = "git:https://github.com/traitecoevo/austraits.git"
 checksum = "git:cb45c99d3420653e3f4f19154939e828e7bd946e"
 requires = [
     "dplyr",
@@ -1900,8 +1899,7 @@ requires = ["xfun"]
 [[package]]
 name = "traits.build"
 version = "2.2.0-4.9000"
-source = "github"
-url = "https://api.github.com/repos/traitecoevo/traits.build/tarball/af954d9760dcd3c946464628d737bf4de22ca2ca"
+source = "git:https://github.com/traitecoevo/traits.build.git"
 checksum = "git:af954d9760dcd3c946464628d737bf4de22ca2ca"
 requires = [
     "crayon",

@@ -15,4 +15,9 @@ tidyr = "*"
 tidyverse = "*"
 
 [dependencies."traits.build"]
-git = "traitecoevo/traits.build"
+git = "git::https://github.com/traitecoevo/traits.build.git"
+rev = "af954d9760dcd3c946464628d737bf4de22ca2ca"
+
+[dependencies.austraits]
+git = "git::https://github.com/traitecoevo/austraits.git"
+rev = "cb45c99d3420653e3f4f19154939e828e7bd946e"
