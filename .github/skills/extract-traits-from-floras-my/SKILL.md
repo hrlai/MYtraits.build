@@ -10,10 +10,19 @@ and TFSS treatments as separate sources and datasets, even when they cover the
 same family: different authors require distinct source citations. Use each
 treatment's own author and year as its dataset ID; if IDs collide, agree on
 distinct IDs before writing data. Process one family at a time; report results
-after each unless the user requests a pause. In a large family (more than
-about 50 taxa), stop after the first two or three genera so the user can
-check the mappings before the rest are run. Worked examples, all in this
-repository:
+after each unless the user requests a pause. Process a large family in one
+run; stop partway only when the prompt or the user asks for a pause
+(Soepadmo_2000 processed 100 species in one run).
+
+- **Branch.** A prompt that names a branch after the dataset ID applies to
+  local work. Cloud agent sessions (Claude Code on the web, Copilot) are pinned
+  to a harness-assigned branch such as `claude/happy-bardeen-tk22fm`: use it,
+  note it in the PR, and do not treat it as an "existing branch" stop.
+- **Do not run `build.R`**, and do not regenerate it with
+  `build_setup_pipeline()`, unless the user asks. Per-dataset checks
+  (`dataset_test()`, `dataset_process()`; step 11) are enough.
+
+Worked examples, all in this repository:
 
 | Dataset | Family | Source | Shows |
 | --- | --- | --- | --- |
