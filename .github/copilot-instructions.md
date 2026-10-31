@@ -186,7 +186,8 @@ Only skills listed here are maintained. Ignore other folders in
 ## Validation and CI Assumptions
 
 There is no CI test workflow. `.github/workflows/copilot-setup-steps.yml` only
-prepares the Copilot cloud agent. Do not assume full test-framework
+prepares the Copilot cloud agent. `.github/workflows/claude.yml` runs Claude
+Code on `@claude` mentions in issues and PRs. Do not assume full test-framework
 requirements by default. If checks are requested, prefer local validation
 close to the transformation/build step and preserve `traits.build` schema
 expectations.
