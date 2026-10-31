@@ -56,24 +56,10 @@ fixes <- read_csv(
 
 # ---- text preparation ---------------------------------------------------------
 
-# Words split at a line end keep their hyphen when the segmenter joins lines
-# ("mar-gin", "ob-scure"). Join a hyphenated word when the unhyphenated word
-# occurs elsewhere in the treatment.
-vocab <- paras$text |>
-  str_to_lower() |>
-  str_extract_all("[a-z]+") |>
-  unlist() |>
-  unique()
-unhyphen <- function(x) {
-  str_replace_all(x, "\\b([A-Za-z]+)-([a-z]+)\\b", \(m) {
-    j <- str_remove(m, "-")
-    if_else(str_to_lower(j) %in% vocab, j, m)
-  })
-}
-
+# Words split at a line end ("mar- gin") are rejoined by flora_segment() when
+# the unhyphenated word occurs elsewhere in the treatment.
 prep <- function(x) {
   x |>
-    unhyphen() |>
     # "dorsi- or basifixed" -> "dorsifixed or basifixed"
     str_replace_all("\\b([a-z]+)- or ([a-z]+)(fixed|petiolar)\\b", "\\1\\3 or \\2\\3") |>
     # "margin revolute sometimes undulate": the qualifier is the second state's
@@ -226,129 +212,17 @@ split_clauses <- function(text) {
 
 # ---- row helpers ------------------------------------------------------------------
 
-row <- function(trait, value, clean = value, vt = "mode", unit = NA_character_,
-                cq = NA_character_, em = NA_character_, notes = NA_character_, raw) {
-  tibble(
-    trait,
-    trait_value = as.character(value),
-    trait_value_clean = as.character(clean),
-    value_type = vt,
-    unit,
-    cq,
-    entity_measured = em,
-    notes,
-    trait_value_raw = raw
-  )
-}
-
-num_rows <- function(trait, raw, em = NA_character_, notes = NA_character_,
-                     cq_text = raw) {
-  # "c. 2–2.5 mm" is a range, not a mean of the lower bound
-  r <- flora_parse_range(str_replace(raw, "c\\.\\s?(?=[\\d.]+–)", ""))
-  if (is.null(r) || is.na(r$unit)) {
-    return(NULL)
-  }
-  q <- qualifier(cq_text)
-  n <- flora_num_rows(r)
-  # "less than 10 mm" is a maximum; "up to 30 m" is caught by "to"
-  if (nrow(n) == 1 && n$value_type == "mean" &&
-    str_detect(str_to_lower(cq_text), paste0("(less|thinner|shorter|smaller) than ", r$lo, "\\b"))) {
-    n$value_type <- "maximum"
-  }
-  n |>
-    filter(value > 0) |>
-    mutate(cq = if_else(is.na(cq) & !is.na(q), q, cq)) |>
-    pmap_dfr(\(value, value_type, cq, unit) {
-      row(trait, value, value, value_type, unit, cq, em, notes, raw)
-    })
-}
-
-count_rows <- function(trait, raw, value_txt, em = NA_character_,
-                       notes = NA_character_, unit = "{count}") {
-  r <- flora_parse_range(paste(value_txt, "mm"))
-  if (is.null(r)) {
-    return(NULL)
-  }
-  flora_num_rows(r) |>
-    pmap_dfr(\(value, value_type, cq, unit_) {
-      row(trait, value, value, value_type, unit, cq, em, notes, raw)
-    })
-}
-
+# Generic versions are flora_*() in flora_parse.R; these bind the dataset's
+# dictionary and dimension grabber.
+row <- flora_row
+num_rows <- flora_value_rows
+count_rows <- flora_count_rows
 dim_rows <- function(traits2, raw_text, em = NA_character_, cq_text = raw_text) {
-  d <- grab_dims(raw_text)
-  if (is.null(d)) {
-    return(NULL)
-  }
-  labels <- c("length", "width")
-  # "to 2.5 x 1.5 cm": a leading "to" or "c." applies to both dimensions
-  lead <- str_extract(d$parts[1], "^(to |c\\.\\s?)")
-  if (!is.na(lead) && !str_detect(d$parts[2], "^(to |c\\.)")) {
-    d$parts[2] <- paste0(lead, d$parts[2])
-  }
-  map_dfr(seq_along(d$parts), \(k) {
-    if (is.na(traits2[k])) {
-      return(NULL)
-    }
-    num_rows(
-      traits2[k],
-      paste(str_squish(d$parts[k]), d$unit),
-      em,
-      paste0("Dimension ", k, " of '", d$raw, "' interpreted as ", labels[k], "."),
-      cq_text
-    )
-  })
+  flora_dim_rows(traits2, raw_text, grab_dims, em, cq_text)
 }
-
-# level of one matched source term (as written by flora_score_cat())
-term_level <- function(trait, term) {
-  d <- dict[[trait]]
-  t <- str_replace_all(term, "_", " ")
-  hit <- which(map_lgl(names(d), \(re) str_detect(t, regex(re, ignore_case = TRUE))))
-  if (length(hit)) d[[hit[1]]] else ""
-}
-
+term_level <- function(trait, term) flora_term_level(trait, term, dict)
 cat_rows <- function(trait, x, em = NA_character_) {
-  if (hedged(x)) {
-    return(NULL)
-  }
-  s <- flora_score_cat(x, trait, dict)
-  if (is.null(s)) {
-    return(NULL)
-  }
-  out <- s |>
-    filter(trait_value_clean != "") |>
-    pmap_dfr(\(cq, trait_value, trait_value_clean, trait) {
-      terms <- str_split_1(trait_value, " ")
-      lv <- map_chr(terms, \(t) term_level(trait, t))
-      keep <- lv != ""
-      if (!any(keep)) {
-        return(NULL)
-      }
-      row(
-        trait,
-        paste(terms[keep], collapse = " "),
-        paste(unique(lv[keep]), collapse = " "),
-        cq = cq,
-        em = em,
-        raw = x
-      )
-    })
-  if (!nrow(out)) {
-    return(NULL)
-  }
-  # "plane or sometimes plane": alternatives with one level are one value
-  if (nrow(out) > 1 && n_distinct(out$trait_value_clean) == 1) {
-    terms <- unique(unlist(str_split(out$trait_value, " ")))
-    out <- out[1, ] |> mutate(trait_value = paste(terms, collapse = " "), cq = NA_character_)
-  }
-  # "terminal and sometimes axillary": the added state is rarer, the first is
-  # not an alternative to it
-  lx <- str_to_lower(x)
-  if (str_detect(lx, "\\band (sometimes|rarely|occasionally)\\b") && !str_detect(lx, "\\busually\\b")) {
-    out$cq[out$cq %in% "usually"] <- NA_character_
-  }
-  out
+  flora_cat_rows(trait, x, dict, em)
 }
 
 # ---- scorers --------------------------------------------------------------------
@@ -695,7 +569,7 @@ later <- paras |>
     section %in% c("Distribution", "Ecology", "Uses", "Use", "Vernacular name", "Vernacular names", "Taxonomy and Classification"),
     rank %in% c("family", "genus", "species")
   ) |>
-  mutate(sentence = map(text, \(t) flora_split_sentences(unhyphen(t)))) |>
+  mutate(sentence = map(text, \(t) flora_split_sentences(t))) |>
   select(block, rank, section, pdf_page, printed_page, sentence) |>
   unnest(sentence) |>
   mutate(sentence = str_squish(sentence)) |>
