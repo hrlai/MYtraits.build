@@ -13,6 +13,8 @@
 - `data/` — per-dataset source folders
 - `inst/figures/` — image assets
 - `export/data/curr/` — generated compiled output
+- `.github/hooks/` — checks run by agent and pre-commit hooks; `.claude/settings.json`
+  wires them into Claude Code
 
 ## `data/` conventions
 
