@@ -844,10 +844,9 @@ questions:
     Confirm.
   question7: |
     Hyphenated leaf shapes ("elliptic-oblong", "ovate-lanceolate") score
-    both levels here, as the skill's compound-shape rule says. The shared
-    dictionary seed blocks these compounds (Coode_2018 and Adema_1996 rows),
-    so Coode_2018, Kochummen_1995 and Adema_1996 leave them unscored. Which
-    convention should all datasets use?
+    both levels, as the skill's compound-shape rule says. Answered: the
+    shared dictionary seed no longer blocks these compounds, so all datasets
+    use this convention (Soepadmo_2000 no longer overrides it locally).
   question8: |
     Acorn and nut sizes "L x W" are read as fruit_length then fruit_width.
     Depressed acorns are wider than long (Lithocarpus pulcher 2--3 x 4--5

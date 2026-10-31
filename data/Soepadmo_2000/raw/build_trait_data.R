@@ -26,10 +26,6 @@ dict <- flora_load_dict(
   ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary_seed.csv"
 )
 dict <- dict[names(dict) %in% names(traits)]
-# Skill rule: a hyphenated shape scores both levels ("elliptic-oblong" ->
-# elliptical oblong). The seed blocks these compounds (Coode_2018, Adema_1996
-# rows); drop the blocking rows here.
-dict$leaf_shape <- dict$leaf_shape[!str_detect(names(dict$leaf_shape), "elliptic-oblong|ovate-lanceolate")]
 # Fagaceae terms missing from the shared dictionary; first, so they win over
 # shorter shared terms
 local_terms <- list(
