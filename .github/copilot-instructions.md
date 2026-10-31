@@ -47,8 +47,10 @@ Observed structure:
 ## Related Projects
 
 MYtraits is a sister compilation of AusTraits, built the same way for
-Malaysian plants. This file is self-contained: do not fetch or read the
-repositories below to work here.
+Malaysian plants. The notes below cover what routine work here needs, so
+agents need not fetch or read these repositories every time. Fetch or read
+them when a task needs detail not given here, such as a `traits.build`
+function's arguments or an upstream trait definition.
 
 - `traits.build`: the backend R package. It supplies the schema and the
   `dataset_*()` and `build_*()` functions that `build.R` calls. MYtraits only
