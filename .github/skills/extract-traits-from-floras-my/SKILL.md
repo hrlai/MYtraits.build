@@ -37,6 +37,7 @@ Worked examples, all in this repository:
 | `data/Wong_2010` | Selaginellaceae, FPM ferns vol. 1 | born-digital PDF, scripted clause parser, 35 taxa | first lycophyte; leaf kinds in `entity_measured`; genus copy-down with no family description; differential-only varieties |
 | `data/Cheek_2012` | Nepenthaceae, FPM vol. 3 | born-digital PDF, 10 species, hand-scored pieces | climbers; hand rows keyed to comma pieces so every unscored piece stays unmapped; named hybrids; values cited in genus paragraphs |
 | `data/Soepadmo_2000` | Fagaceae, TFSS vol. 3 | 2007 electronic text, scripted clause parser, 100 species | large family in one run; plate pages dropped; line-break hyphens rejoined; cupule is not the fruit; per-surface leaf hairs; family statements naming genera not copied |
+| `data/Prance_2012` | Chrysobalanaceae, FPM vol. 3 | born-digital PDF, scripted clause parser, 14 species and 5 subspecies | species and subspecies descriptions both scored; differential-only subspecies inherit; `(elsewhere ...)` asides dropped; receptacle tube; cited Ecology observations |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
@@ -564,6 +565,12 @@ Bespoke checklist (decisions that changed per family):
   length ("Fruits: valves 25--29 x 2.2--2 mm") -> `fruit_length`; tepal
   colour -> `flower_colour`. Soepadmo_2000 applies the tepal rule to
   perianth lobes and asks again (question 1).
+  Provisional (Prance_2012 questions 2, 3 and 7): receptacle tube
+  (hypanthium) length -> `flower_tube_length` with `entity_measured =
+  receptacle tube`; mesocarp thickness -> `fruit_wall_thickness` with
+  `entity_measured = mesocarp` (endocarp unmapped); a printed leaf
+  "(index 1.7--2.7)" -> `leaf_length_to_width_ratio`, unit
+  `{dimensionless}`.
   Provisional (Soepadmo_2000 question 10): "lateral veins ..., forming an
   angle of 40--60 degrees with the midrib" -> `leaf_secondary_vein_angle`
   (unit `deg`); vein number has no trait.
