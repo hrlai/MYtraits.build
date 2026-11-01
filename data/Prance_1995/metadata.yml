@@ -1,0 +1,614 @@
+source:
+  primary:
+    key: Prance_1995
+    bibtype: InBook
+    year: 1995
+    author: Ghillean T. Prance
+    title: Chrysobalanaceae
+    booktitle: Tree Flora of Sabah and Sarawak, Volume 1
+    editor: E. Soepadmo and K. M. Wong
+    publisher:
+      Sabah Forestry Department and Forest Research Institute Malaysia and
+      Sarawak Forestry Department
+    place: Kepong, Malaysia
+    pages: 155--179
+    isbn: 983-9592-34-3
+    doi: 10.26525/TFSS1009
+contributors:
+  data_collectors:
+    - last_name: Prance
+      given_name: Ghillean T.
+      ORCID: .na
+      affiliation: Royal Botanic Gardens, Kew, England
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '1995'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description: |
+    Morphological traits of the Chrysobalanaceae of Sabah and Sarawak (6
+    genera, 15 species: Atuna 3, Kostermanthus 1, Licania 1, Maranthes 1,
+    Parastemon 2, Parinari 7), extracted from the family treatment in the
+    Tree Flora of Sabah and Sarawak.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    The PDF (inst/extdata/myflora/pdf/TFSS/Chrysobalanaceae.pdf, PDF pages
+    7--31, printed 155--179) is the born-digital 2007 electronic edition
+    (L. G. Saw and B. Aslina). Rows come from its text layer
+    (flora_read_pdf_lines()); no routine image check was made.
+    flora_layer_flags() flagged only the six figure plates (pdf 11, 14, 16,
+    18, 22, 28; low text) and the front and back matter, and no bad glyphs;
+    the plate pages were rendered and their captions read for figure
+    specimens only. raw/segment_source.R segments the text;
+    raw/build_trait_data.R splits each family, genus and species description
+    into sentences, ';' pieces and ',' clauses, assigns each clause to an
+    organ and scores configured traits. Every unscored clause stays in
+    raw/trait_data.csv as an unmapped row, as do the Distribution, Ecology,
+    Uses, Taxonomy and vernacular-name paragraphs and the four subspecies
+    annotations (one row per paragraph). Unqualified single-level family and
+    genus values are copied to member species silent on the trait when every
+    member that states the trait agrees (trait_scoring_method
+    inferred_from_family / inferred_from_genus); family statements naming a
+    genus are not copied. Keys and figure captions are not trait evidence.
+  original_file: |
+    Chrysobalanaceae.pdf (Prance 1995, Tree Flora of Sabah and Sarawak vol.
+    1, pp. 155--179; electronic edition 2007)
+  notes: |
+    data.csv is raw/trait_data.csv (written by raw/build_trait_data.R) with
+    the columns added by flora_make_data(). Taxon names are as printed. All
+    15 accepted species (the count printed in the family Distribution
+    paragraph) have a description and are scored; there are no excluded or
+    incompletely known taxa. Kostermanthus heteropetalus, Licania splendens
+    and Maranthes corymbosa are the only species of their genera in the
+    region and are unnumbered. Parastemon grandifructus flowers are
+    described from fruiting specimens; Parinari metallica fruits were not
+    seen. Atuna racemosa and Parinari costata each have two subspecies in
+    the region; following the TFSS guide, the species description is the
+    species-rank text, and the subspecies appear only as key leads with
+    nomenclature, range and habitat annotations. The key leads are not
+    scored; the annotations are unmapped subspecies-rank rows, and the
+    subspecies do not inherit species values. Family and genus descriptions
+    are kept as family- and genus-rank records as well as copied to member
+    species. Species description values have population region Sabah and
+    Sarawak (TFSS guide); copied values have none. No source repairs were
+    made (raw/source_fixes.csv is empty); line breaks inside words are
+    joined when the unhyphenated word occurs elsewhere in the treatment, and
+    "18- 20" ranges broken at a line end are rejoined. Of 1,588 rows in
+    raw/trait_data.csv, 531 are mapped (441 from the taxa's own
+    descriptions, 40 copied from genus and 50 from family) and 1,057 are
+    unmapped: 995 description clauses and 62 paragraphs of Distribution,
+    Ecology, Uses, Taxonomy, vernacular names and subspecies annotations.
+    The most frequent unmapped characters are stipule size, shape and
+    persistence; receptacle (hypanthium) shape, size and indumentum;
+    calyx-lobe and petal shape and indumentum; endocarp and mesocarp
+    texture, thickness and indumentum; leaf texture, glands, midrib and
+    lateral vein relief and number; acumen length; petiole glands and
+    indumentum; inflorescence rachis indumentum; bract persistence; inner
+    bark, sapwood and heartwood colour; twig indumentum (mostly
+    glabrescent) and lenticels; stamen insertion and colour; style and
+    stigma; altitude, habitat and distribution (summary in
+    raw/unmapped_terms.csv). Type and figure specimens are in
+    raw/Prance_1995_vouchers.csv (types transcribed from the nomenclature
+    paragraphs and subspecies annotations; figure specimens from the six
+    plate captions).
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: bark_colour
+    unit_in: .na
+    trait_name: bark_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Outer bark colour from the Bark clause; inner bark, mottling, lichen patches and lenticels excluded; compound colours score every word.
+  - var_in: bark_texture
+    unit_in: .na
+    trait_name: bark_texture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Outer bark surface from the Bark clause (smooth; fissured as furrowed; flaking or flakes as flaky); scaly, cracked and lenticellate have no level and stay unmapped.
+  - var_in: flower_bract_length
+    unit_in: unit
+    trait_name: flower_bract_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Length of bracts and bracteoles ('bracts and bracteoles ovate, 3--8 mm long').
+  - var_in: flower_colour
+    unit_in: .na
+    trait_name: flower_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Petal colour ('petals white', 'blue or white'); a tinge ('white-tinged pink') is not scored. Stamen colour is unmapped.
+  - var_in: flower_fertile_stamens_count
+    unit_in: unit
+    trait_name: flower_fertile_stamens_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Stamen number ('stamens 13--20', 'fertile stamens 7--8', 'stamens 2 fertile and 3 sterile staminodes'); staminodes are not counted.
+  - var_in: flower_filament_length
+    unit_in: unit
+    trait_name: flower_filament_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Filament length ('the filaments 10--15 mm long').
+  - var_in: flower_length
+    unit_in: unit
+    trait_name: flower_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Flower length when the flower itself is measured ('Flowers c. 2 mm long'); receptacle length is not flower length and stays unmapped.
+  - var_in: flower_ovules_per_functional_carpel_count
+    unit_in: unit
+    trait_name: flower_ovules_per_functional_carpel_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Genus descriptions: 'carpel unilocular, with 2 ovules'. The bilocular carpels with one ovule per locule are not scored.
+  - var_in: flower_perianth_symmetry
+    unit_in: .na
+    trait_name: flower_perianth_symmetry
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family and genus statements; actinomorphic scored as actinomorphic_general.
+  - var_in: flower_petal_length
+    unit_in: unit
+    trait_name: flower_petal_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Petal length ('petals c. 7 mm long'); the unequal petals of Kostermanthus ('largest up to 15 mm long, the others ... to 6 mm long') stay unmapped.
+  - var_in: flower_sepal_length
+    unit_in: unit
+    trait_name: flower_sepal_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Calyx-lobe length ('calyx-lobes ovate, 4--7 mm long').
+  - var_in: flower_stamen_length
+    unit_in: unit
+    trait_name: flower_stamen_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Stamen length where the stamens themselves are measured ('stamens 13--20, pale blue, 8--15 mm long'); the staminal ligule of Kostermanthus is unmapped.
+  - var_in: flower_structural_sex_type
+    unit_in: .na
+    trait_name: flower_structural_sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Flowers bisexual or unisexual, from family, genus and species descriptions.
+  - var_in: flower_style_length
+    unit_in: unit
+    trait_name: flower_style_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Style length ('style to 15 mm long').
+  - var_in: fruit_fleshiness
+    unit_in: .na
+    trait_name: fruit_fleshiness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      From the fruit type statement ('Fruit a fleshy drupe').
+  - var_in: fruit_length
+    unit_in: unit
+    trait_name: fruit_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      First dimension of 'L x W' fruit sizes, or 'Fruits ... 1--1.3 cm long'.
+  - var_in: fruit_surface_hairs
+    unit_in: .na
+    trait_name: fruit_surface_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Epicarp indumentum ('epicarp glabrous'); statements about young fruit are not scored.
+  - var_in: fruit_type
+    unit_in: .na
+    trait_name: fruit_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family and genus statements ('Fruit a dry or fleshy drupe').
+  - var_in: fruit_width
+    unit_in: unit
+    trait_name: fruit_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Second dimension of 'L x W' fruit sizes.
+  - var_in: inflorescence_length
+    unit_in: unit
+    trait_name: inflorescence_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Inflorescence length ('racemes, 4--8 cm long', 'panicles to 8 cm long').
+  - var_in: inflorescence_type
+    unit_in: .na
+    trait_name: inflorescence_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Inflorescence kind (raceme, panicle, cyme, corymb) and position (terminal, axillary) from the first inflorescence clause; position and kind are scored separately so a qualifier on the position ('axillary or rarely terminal racemes') does not qualify the kind. 'subterminal' has no level.
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      From the 'at apex' clause ('abruptly acuminate at apex'); acumen length is unmapped.
+  - var_in: leaf_base_shape
+    unit_in: .na
+    trait_name: leaf_base_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      From the 'at base' clause; subcordate and subcuneate have no level and are not scored.
+  - var_in: leaf_compoundness
+    unit_in: .na
+    trait_name: leaf_compoundness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family statement 'Leaves simple'.
+  - var_in: leaf_hairs_adult_leaves
+    unit_in: .na
+    trait_name: leaf_hairs_adult_leaves
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Per surface: hairy when either surface is hairy (including 'stomatal crypts filled with grey lanate pubescence beneath'), glabrous when both are; statements about young leaves are left out; glabrescent, hedged ('almost glabrous') and qualified statements are not scored.
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      First dimension of 'L x W' leaf blade sizes.
+  - var_in: leaf_margin
+    unit_in: .na
+    trait_name: leaf_margin
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family statement 'Leaves simple, entire'.
+  - var_in: leaf_phyllotaxis
+    unit_in: .na
+    trait_name: leaf_phyllotaxis
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family statement 'Leaves ... alternate'.
+  - var_in: leaf_shape
+    unit_in: .na
+    trait_name: leaf_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Blade shape words; compound shapes ('oblong-lanceolate') score both levels; subovate has no level.
+  - var_in: leaf_stomatal_position
+    unit_in: .na
+    trait_name: leaf_stomatal_position
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      'with stomatal crypts' (Parinari) scored as encrypted (provisional, question 2); 'without stomatal crypts' has no level and stays unmapped.
+  - var_in: leaf_surface_reflectivity
+    unit_in: .na
+    trait_name: leaf_surface_reflectivity
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      'glabrous and shiny above'; the metallic sheen of dried leaves is not scored.
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Second dimension of 'L x W' leaf blade sizes.
+  - var_in: petiole_length
+    unit_in: unit
+    trait_name: petiole_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Petiole length ('petioles 1--3 mm long').
+  - var_in: plant_diameter_breast_height
+    unit_in: unit
+    trait_name: plant_diameter_breast_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Trunk diameter from the habit clause ('Tree to 35 m tall, 2 m diameter'); a diameter following 'to X m tall' is a maximum.
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Habit word of the description (tree, shrub).
+  - var_in: plant_height
+    unit_in: unit
+    trait_name: plant_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Maximum height from the habit clause ('Tree to 40 m tall', 'Tree to 20 m, usually smaller').
+  - var_in: sex_type
+    unit_in: .na
+    trait_name: sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      'Flowers unisexual (plant polygamo-dioecious)' (Parastemon urophyllus).
+  - var_in: stem_base_form
+    unit_in: .na
+    trait_name: stem_base_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Buttresses from the habit or trunk clause ('the trunk often with thick buttresses'); 'unbuttressed' has no level and stays unmapped.
+substitutions:
+  - trait_name: bark_colour
+    find: 'brownish'
+    replace: 'brown'
+  - trait_name: bark_colour
+    find: 'grey pale_brown'
+    replace: 'grey brown_light'
+  - trait_name: bark_texture
+    find: 'flakes'
+    replace: 'flaky'
+  - trait_name: bark_texture
+    find: 'smooth fissured'
+    replace: 'smooth furrowed'
+  - trait_name: bark_texture
+    find: 'smooth fissured flaking'
+    replace: 'smooth furrowed flaky'
+  - trait_name: bark_texture
+    find: 'smooth flaking'
+    replace: 'smooth flaky'
+  - trait_name: flower_colour
+    find: 'blue white'
+    replace: 'blue_purple white_cream'
+  - trait_name: flower_colour
+    find: 'white'
+    replace: 'white_cream'
+  - trait_name: flower_colour
+    find: 'white bluish'
+    replace: 'white_cream blue_purple'
+  - trait_name: flower_perianth_symmetry
+    find: 'actinomorphic zygomorphic'
+    replace: 'actinomorphic_general zygomorphic'
+  - trait_name: inflorescence_type
+    find: 'cyme cymose panicle'
+    replace: 'cyme panicle'
+  - trait_name: inflorescence_type
+    find: 'raceme racemose axillary'
+    replace: 'raceme axillary'
+  - trait_name: inflorescence_type
+    find: 'racemose paniculate cymose'
+    replace: 'raceme panicle cyme'
+  - trait_name: leaf_apex_shape
+    find: 'acumen'
+    replace: 'acuminate'
+  - trait_name: leaf_apex_shape
+    find: 'rounded blunt acuminate'
+    replace: 'rounded obtuse acuminate'
+  - trait_name: leaf_shape
+    find: 'broadly_ovate'
+    replace: 'widely_ovate'
+  - trait_name: leaf_shape
+    find: 'broadly_ovate elliptic ovate oblong lanceolate'
+    replace: 'widely_ovate elliptical ovate oblong lanceolate'
+  - trait_name: leaf_shape
+    find: 'elliptic'
+    replace: 'elliptical'
+  - trait_name: leaf_shape
+    find: 'elliptic narrowly_elliptic oblong'
+    replace: 'elliptical narrowly_elliptical oblong'
+  - trait_name: leaf_shape
+    find: 'elliptic oblong'
+    replace: 'elliptical oblong'
+  - trait_name: leaf_shape
+    find: 'elliptic oblong lanceolate'
+    replace: 'elliptical oblong lanceolate'
+  - trait_name: leaf_shape
+    find: 'elliptic oblong ovate'
+    replace: 'elliptical oblong ovate'
+  - trait_name: leaf_shape
+    find: 'oblong elliptic'
+    replace: 'oblong elliptical'
+  - trait_name: leaf_shape
+    find: 'oblong lanceolate elliptic'
+    replace: 'oblong lanceolate elliptical'
+  - trait_name: leaf_stomatal_position
+    find: 'stomatal_crypts'
+    replace: 'encrypted'
+  - trait_name: plant_growth_form
+    find: 'shrubs'
+    replace: 'shrub'
+  - trait_name: plant_growth_form
+    find: 'trees'
+    replace: 'tree'
+  - trait_name: plant_growth_form
+    find: 'trees shrubs'
+    replace: 'tree shrub'
+  - trait_name: sex_type
+    find: 'polygamo-dioecious'
+    replace: 'polygamodioecious'
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1: |
+    Parinari argenteo-sericea (p. 173). The flower sentence reads "Flowers
+    with receptacle campanulate, markedly gibbous, densely grey-tomentellous
+    on exterior, 2--3 mm long, narrowly ovate, densely grey-tomentose on
+    exterior, tomentellous within; petals ...". A "calyx-lobes" label seems
+    to be missing before "narrowly ovate", so it is unclear whether "2--3 mm
+    long" is the receptacle or the calyx-lobes. All these clauses are kept
+    verbatim as unmapped rows (no flower_sepal_length for this species).
+    The same description gives the leaves as "9.5--10.5 x 4.5--8.5 cm",
+    while the key (p. 157) gives "9.5--20.5 x 4.5--8.5 cm"; leaf_length is
+    scored as printed in the description (9.5--10.5 cm, 2 rows). Decide
+    whether either is a source typo to repair in raw/source_fixes.csv.
+  question2: |
+    Stomatal crypts (provisional, Prance_1995 question 2). Parinari leaves
+    "with stomatal crypts filled with grey lanate pubescence beneath" are
+    scored as leaf_stomatal_position = encrypted (5 rows: genus "usually"
+    plus P. costata, P. metallica, P. oblongifolia, P. rigida). "without
+    stomatal crypts" (7 taxa) has no level and stays unmapped. The hairs
+    filling the crypts also make leaf_hairs_adult_leaves = hairy for those
+    four species and P. elmeri ("densely pubescent beneath"). Confirm that
+    crypts map to "encrypted" and that hairs in crypts count as a hairy
+    lower surface.
+  question3: |
+    Parinari costata fruit (p. 175): "Fruits ellipsoid, to 3.5 x 4.5 cm"
+    gives a width larger than the length, which does not fit an ellipsoid
+    fruit; the key (p. 157) gives "Fruits ellipsoid, 3.5--4.5 cm long".
+    Scored as printed (fruit_length maximum 3.5 cm, fruit_width maximum 4.5
+    cm). Decide whether to repair it as a source typo (for example "3.5--4.5
+    cm long") or keep it.
+  question4: |
+    Pollination and dispersal. The family Ecology paragraph (p. 155) says
+    "The flowers are pollinated mainly by insects and in a few cases by
+    bats, and the fruits are dispersed by birds, mammals and water"; it
+    names no genus or species and describes the family worldwide, so it is
+    not scored or copied down. Maranthes corymbosa Ecology (p. 169): "The
+    fruit is eaten by many birds which probably disperse the seed" is hedged
+    and not scored (dispersers). Should either be scored (for example
+    pollination_vector_known and dispersers at family rank, or the hedge
+    as an exception)?
+  question5: |
+    Germination type. Atuna (genus, p. 157) "germination cryptocotylar (with
+    hidden cotyledon)" and Maranthes (genus, p. 167) "germination
+    phanero-cotylar (with exposed cotyledons)". seedling_germination_location
+    has epigeal and hypogeal, which describe cotyledon position, not
+    exposure (cryptocotylar seedlings can be epigeal). Both are unmapped.
+    Map them to hypogeal / epigeal, or add a cotyledon-exposure trait?
+  question6: |
+    Fruit wall, bark and receptacle sizes with no trait. Mesocarp and
+    endocarp thickness ("mesocarp c. 5 mm thick", "endocarp 7--13 mm
+    thick"; 11 species), inner bark thickness (4 species), the outer bark
+    of Parinari costata ("Bark smooth to roughish, cracked, grey or brown,
+    c. 0.5 mm", no "thick"), and receptacle (hypanthium) length (12
+    species) are unmapped. fruit_wall_thickness is the whole pericarp or its
+    fleshy part; bark_thickness is the whole bark. Should mesocarp
+    thickness of the fleshy drupes go to fruit_wall_thickness (with
+    entity_measured = mesocarp), P. costata "c. 0.5 mm" to bark_thickness,
+    and should a receptacle or hypanthium length trait be added centrally?
+  question7: |
+    Subspecies. Atuna racemosa (subsp. racemosa, subsp. excelsa) and
+    Parinari costata (subsp. costata, subsp. rubiginosa) are given only in a
+    "Key to subspecies" after the species description; the key leads hold
+    morphology ("Leaves 10--25 (--35) cm long ... Flowers 10--17 mm long.
+    Medium-sized to large tree often with fluted bole") that is not scored
+    (keys are not trait evidence), and the annotations (synonyms, range,
+    habitat) are kept as 4 unmapped subspecies rows. The species
+    description values are not inherited by the subspecies. Confirm, or
+    score the key-lead differences at subspecies rank.
