@@ -44,8 +44,6 @@ local_terms <- list(
   # (standing rule, user 2026-10-30)
   plant_growth_form = c(
     "\\bsub-?shrubs?\\b" = "",
-    # the host tree of a climber or epiphyte
-    "\\b(on|forest|the) trees?\\b|\\btree trunks?\\b" = "",
     "\\barborescent\\b" = "tree palmoid",
     "\\bshrubs?\\b|\\bshrubby\\b" = "shrub palmoid",
     "\\bwoody climbers?\\b|\\blianas?\\b" = "climber_woody",
@@ -73,19 +71,9 @@ local_terms <- list(
     "\\b(half-)?amplexicaul\\b|\\bclasping( the)? stem\\b" = "",
     "\\bsheathing\\b" = "sheathing"
   ),
-  leaf_glaucousness = c(
-    "\\bsubglaucous\\b|\\bslightly glaucous\\b" = "subglaucous",
-    "\\bglaucous\\b" = "glaucous"
-  ),
   fruit_type = c(
-    "\\bbaccate\\b|\\bberry-like\\b|\\bberr(y|ies)\\b" = "berry",
+    "\\bberr(y|ies)\\b(?!-like)" = "berry",
     "\\bdrupaceous\\b|\\bdrupes?\\b" = "drupe"
-  ),
-  flower_scent_production = c(
-    "fragrant|scented|sweet-smelling|perfumed" = "scent_produced"
-  ),
-  seed_shape = c(
-    "\\bellipsoid-flattened\\b|\\bflattened[- ]ellipsoid\\b" = "ellipsoid_flattened"
   ),
   fruit_colour = c(
     "\\bbrick red\\b" = "red",
