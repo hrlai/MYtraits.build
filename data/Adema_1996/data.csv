@@ -573,7 +573,7 @@ Dimocarpus dentatus,species,species,,sometimes,,,leaflet,leaf_apex_shape,x,somet
 Dimocarpus dentatus,species,species,,usually,,,leaflet,leaf_apex_shape,x,apex acute to rounded,acute rounded,acute rounded,mode,,"Description, p.284",28,284,,Adema_1996,acute rounded,inferred_from_species
 Dimocarpus dentatus,species,species,,,,,,leaf_compoundness,x,Leaves each with 4--7 pairs of leaflets,pairs_of_leaflets,compound,mode,,"Description, p.284",28,284,,Adema_1996,pairs_of_leaflets,inferred_from_species
 Dimocarpus dentatus,species,species,,,,,leaflet,leaf_margin,x,margin distantly serrate or dentate,serrate dentate,toothed_serrate toothed_dentate,mode,,"Description, p.284",28,284,,Adema_1996,serrate dentate,inferred_from_species
-Dimocarpus dentatus,species,species,,,,,leaflet,leaf_shape,x,oblong-obovate to lanceolate,lanceolate,lanceolate,mode,,"Description, p.284",28,284,,Adema_1996,lanceolate,inferred_from_species
+Dimocarpus dentatus,species,species,,,,,leaflet,leaf_shape,x,oblong-obovate to lanceolate,oblong obovate lanceolate,oblong obovate lanceolate,mode,,"Description, p.284",28,284,,Adema_1996,oblong obovate lanceolate,inferred_from_species
 Dimocarpus dentatus,species,species,,,,,,plant_growth_form,x,Tree to 15(--24) m tall,tree,tree,mode,,"Description, p.284",28,284,,Adema_1996,tree,inferred_from_species
 Dimocarpus dentatus,species,species,genus,,,,,seed_shape,x,Seeds more or less globose,globose,globoid,mode,,"Genus description, p.284",28,284,Copied from the Dimocarpus description.,Adema_1996,globose,inferred_from_genus
 Dimocarpus dentatus,species,species,,sometimes,,,,stem_base_form,x,sometimes with buttresses,buttressed,buttressed,mode,,"Description, p.284",28,284,,Adema_1996,buttressed,inferred_from_species
@@ -1075,6 +1075,7 @@ Guioa pubescens,species,species,,sometimes,,,,bark_texture,x,sometimes deeply fi
 Guioa pubescens,species,species,,usually,,,,bark_texture,x,Bark smooth,smooth,smooth,mode,,"Description, p.304",48,304,,Adema_1996,smooth,inferred_from_species
 Guioa pubescens,species,species,,,,,petals,flower_colour,x,white to yellow,white yellow,white_cream yellow_orange,mode,,"Description, p.304",48,304,,Adema_1996,white yellow,inferred_from_species
 Guioa pubescens,species,species,,,,,,flowering_time,x,Flowering in August to February; fruiting in January to April.,August to February,yynnnnnyyyyy,mode,,"Ecology, p.304",48,304,Months as printed; from herbarium collections.,Adema_1996,yynnnnnyyyyy,inferred_from_species
+Guioa pubescens,species,species,,,,,,fruit_surface_hairs,x,sparsely sericeous,sericeous,hairy,mode,,"Description, p.304",48,304,,Adema_1996,sericeous,inferred_from_species
 Guioa pubescens,species,species,,,,,,fruiting_time,x,Flowering in August to February; fruiting in January to April.,January to April,yyyynnnnnnnn,mode,,"Ecology, p.304",48,304,Months as printed; from herbarium collections.,Adema_1996,yyyynnnnnnnn,inferred_from_species
 Guioa pubescens,species,species,,,,,,inflorescence_type,x,Inflorescences axillary to pseudoterminal,axillary,axillary,mode,,"Description, p.304",48,304,,Adema_1996,axillary,inferred_from_species
 Guioa pubescens,species,species,,,,,leaflet,leaf_apex_shape,x,apex gradually acuminate to cuspidate or caudate,acuminate,acuminate,mode,,"Description, p.304",48,304,,Adema_1996,acuminate,inferred_from_species
@@ -1283,6 +1284,7 @@ Lepisanthes amoena,species,species,,,,,leaflet,leaf_apex_shape,x,apex obtuse to 
 Lepisanthes amoena,species,species,,,,,leaflet,leaf_base_shape,x,obtuse to subcordate,obtuse cordate,obtuse cordate,mode,,"Description, p.313",57,313,,Adema_1996,obtuse cordate,inferred_from_species
 Lepisanthes amoena,species,species,,,,,,leaf_compoundness,x,Leaves imparipinnate,imparipinnate,compound,mode,,"Description, p.313",57,313,,Adema_1996,imparipinnate,inferred_from_species
 Lepisanthes amoena,species,species,,,,,,leaf_lamina_division,x,Leaves imparipinnate,imparipinnate,pinnately_compound,mode,,"Description, p.313",57,313,,Adema_1996,imparipinnate,inferred_from_species
+Lepisanthes amoena,species,species,,sometimes,,,leaflet,leaf_shape,x,linear or sometimes ovate-lanceolate,ovate lanceolate,ovate lanceolate,mode,,"Description, p.313",57,313,,Adema_1996,ovate lanceolate,inferred_from_species
 Lepisanthes amoena,species,species,,usually,,,leaflet,leaf_shape,x,linear or sometimes ovate-lanceolate,linear,linear,mode,,"Description, p.313",57,313,,Adema_1996,linear,inferred_from_species
 Lepisanthes amoena,species,species,,,,,,plant_growth_form,x,Tree to 10 m tall | or shrub to 6 m,tree shrub,tree shrub,mode,,"Description, p.313",57,313,,Adema_1996,tree shrub,inferred_from_species
 Lepisanthes amoena,species,species,,,,,,plant_height,x,Tree to 10 m tall,10,10,maximum,m,"Description, p.313",57,313,,Adema_1996,10,inferred_from_species
@@ -1370,7 +1372,7 @@ Lepisanthes fruticosa,species,species,,usually,,,leaflet,leaf_apex_shape,x,apex 
 Lepisanthes fruticosa,species,species,,mostly,,,leaflet,leaf_base_shape,x,mostly attenuate,attenuate,attenuate,mode,,"Description, p.318",62,318,,Adema_1996,attenuate,inferred_from_species
 Lepisanthes fruticosa,species,species,,,,,leaflet,leaf_base_shape,x,base asymmetric or symmetric | subcordate to acute,asymmetric cordate acute,oblique cordate acute,mode,,"Description, p.318",62,318,,Adema_1996,asymmetric cordate acute,inferred_from_species
 Lepisanthes fruticosa,species,species,,,,,,leaf_compoundness,x,each with 1--8(--14) pairs of leaflets,pairs_of_leaflets,compound,mode,,"Description, p.318",62,318,,Adema_1996,pairs_of_leaflets,inferred_from_species
-Lepisanthes fruticosa,species,species,,,,,leaflet,leaf_shape,x,ovate- to obovate-oblong to narrowly lanceolate,ovate lanceolate,ovate lanceolate,mode,,"Description, p.318",62,318,,Adema_1996,ovate lanceolate,inferred_from_species
+Lepisanthes fruticosa,species,species,,,,,leaflet,leaf_shape,x,ovate- to obovate-oblong to narrowly lanceolate,ovate obovate oblong lanceolate,ovate obovate oblong lanceolate,mode,,"Description, p.318",62,318,,Adema_1996,ovate obovate oblong lanceolate,inferred_from_species
 Lepisanthes fruticosa,species,species,,,,,,plant_growth_form,x,Shrub or tree 1.5--10(--15) m tall,shrub tree,shrub tree,mode,,"Description, p.318",62,318,,Adema_1996,shrub tree,inferred_from_species
 Lepisanthes fruticosa,species,species,,,,,,seed_shape,x,subglobose to subellipsoid,subglobose ellipsoid,globoid ellipsoid,mode,,"Description, p.318",62,318,,Adema_1996,subglobose ellipsoid,inferred_from_species
 Lepisanthes fruticosa,species,species,,usually,,,,plant_height,x,Shrub or tree 1.5--10(--15) m tall,1.5,1.5,minimum,m,"Description, p.318",62,318,,Adema_1996,1.5,inferred_from_species
@@ -3002,7 +3004,7 @@ Dimocarpus longan subsp. longan var. longan,variety,species,species,,,,,flower_a
 Dimocarpus longan subsp. longan var. longan,variety,species,,,,,leaflet,leaf_apex_shape,x,apex obtuse to shortly | and obtusely acuminate,obtuse acuminate,obtuse acuminate,mode,,"Description, p.288",32,288,,Adema_1996,obtuse acuminate,inferred_from_species
 Dimocarpus longan subsp. longan var. longan,variety,species,,,,,leaflet,leaf_base_shape,x,acute,acute,acute,mode,,"Description, p.288",32,288,,Adema_1996,acute,inferred_from_species
 Dimocarpus longan subsp. longan var. longan,variety,species,,,,,,leaf_compoundness,x,Leaves each with (2--)4--5 pairs of leaflets,pairs_of_leaflets,compound,mode,,"Description, p.288",32,288,,Adema_1996,pairs_of_leaflets,inferred_from_species
-Dimocarpus longan subsp. longan var. longan,variety,species,,,,,leaflet,leaf_shape,x,oblong-ovate to oblanceolate,oblanceolate,oblanceolate,mode,,"Description, p.288",32,288,,Adema_1996,oblanceolate,inferred_from_species
+Dimocarpus longan subsp. longan var. longan,variety,species,,,,,leaflet,leaf_shape,x,oblong-ovate to oblanceolate,oblong ovate oblanceolate,oblong ovate oblanceolate,mode,,"Description, p.288",32,288,,Adema_1996,oblong ovate oblanceolate,inferred_from_species
 Dimocarpus longan subsp. longan var. longan,variety,species,,,,,,petiole_length,x,petioles 3--8 cm long,3,3,minimum,cm,"Description, p.288",32,288,,Adema_1996,3,inferred_from_species
 Dimocarpus longan subsp. longan var. longan,variety,species,,,,,,petiole_length,x,petioles 3--8 cm long,8,8,maximum,cm,"Description, p.288",32,288,,Adema_1996,8,inferred_from_species
 Dimocarpus longan subsp. longan var. longan,variety,species,,,,,leaflet,leaflet_length,x,3--19 x 1.8--6.5 cm,3,3,minimum,cm,"Description, p.288",32,288,Dimension 1 of '3--19 × 1.8--6.5 cm' interpreted as length.,Adema_1996,3,inferred_from_species
