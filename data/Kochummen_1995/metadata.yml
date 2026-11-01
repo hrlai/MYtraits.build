@@ -894,8 +894,14 @@ substitutions:
     find: 'elliptic ovate'
     replace: 'elliptical ovate'
   - trait_name: leaf_shape
+    find: 'elliptic ovate lanceolate'
+    replace: 'elliptical ovate lanceolate'
+  - trait_name: leaf_shape
     find: 'elliptic ovate oblong'
     replace: 'elliptical ovate oblong'
+  - trait_name: leaf_shape
+    find: 'elliptic ovate oblong lanceolate'
+    replace: 'elliptical ovate oblong lanceolate'
   - trait_name: leaf_shape
     find: 'elliptic ovate obovate'
     replace: 'elliptical ovate obovate'

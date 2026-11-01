@@ -705,6 +705,9 @@ substitutions:
   - trait_name: fruit_dehiscence
     find: 'loculicidal'
     replace: 'dehiscent'
+  - trait_name: fruit_surface_hairs
+    find: 'sericeous'
+    replace: 'hairy'
   - trait_name: fruit_type
     find: 'capsular'
     replace: 'capsule'
