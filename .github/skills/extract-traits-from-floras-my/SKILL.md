@@ -566,6 +566,9 @@ Bespoke checklist (decisions that changed per family):
   Provisional (Soepadmo_2000 question 10): "lateral veins ..., forming an
   angle of 40--60 degrees with the midrib" -> `leaf_secondary_vein_angle`
   (unit `deg`); vein number has no trait.
+  Provisional (Prance_1995 question 2): leaves "with stomatal crypts"
+  -> `leaf_stomatal_position = encrypted`; "without stomatal crypts" has no
+  level and stays unmapped.
 - **Leaf hairs per surface** (provisional, Soepadmo_2000 question 6).
   "glabrous above, tomentose below" -> `leaf_hairs_adult_leaves = hairy`;
   glabrous only when both surfaces are; not scored when a surface is
