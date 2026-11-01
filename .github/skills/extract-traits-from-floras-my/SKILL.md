@@ -37,6 +37,7 @@ Worked examples, all in this repository:
 | `data/Wong_2010` | Selaginellaceae, FPM ferns vol. 1 | born-digital PDF, scripted clause parser, 35 taxa | first lycophyte; leaf kinds in `entity_measured`; genus copy-down with no family description; differential-only varieties |
 | `data/Cheek_2012` | Nepenthaceae, FPM vol. 3 | born-digital PDF, 10 species, hand-scored pieces | climbers; hand rows keyed to comma pieces so every unscored piece stays unmapped; named hybrids; values cited in genus paragraphs |
 | `data/Soepadmo_2000` | Fagaceae, TFSS vol. 3 | 2007 electronic text, scripted clause parser, 100 species | large family in one run; plate pages dropped; line-break hyphens rejoined; cupule is not the fruit; per-surface leaf hairs; family statements naming genera not copied |
+| `data/Beentje_2023` | Pandanaceae, FPM vol. 10 | born-digital PDF, scripted clause parser, 50 species | first monocot; syncarp is not the fruit; palmoid growth forms; cultivated and not-native sections; hand rows for clauses whose subject is two chunks back |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
@@ -502,9 +503,13 @@ Bespoke checklist (decisions that changed per family):
   label or measurement (Lim_2010).
 - **Adjacent organs.** Parse explicit organ shifts; young and mature bark
   separately; seed cones under fruit traits with `entity_measured = seed cone`
-  (confirm per family, see Lim_2010 question 3). An angiosperm fruit cone
-  (infructescence, as in Casuarinaceae) is not a fruit: the fruitlet (samara)
-  is the fruit, and the cone stays unmapped (Pungga_1996).
+  (confirm per family, see Lim_2010 question 3). A compound fruiting head is
+  not a fruit: the Casuarinaceae cone (Pungga_1996) and the Pandanaceae
+  syncarp stay unmapped, and the fruitlet (samara, drupe, berry) is the
+  fruit. Provisional (Beentje_2023 questions 1 and 2): ripe syncarp colour
+  -> `fruit_colour` with `entity_measured = syncarp`; a phalange of fused
+  drupes -> `fruit_length` / `fruit_width` with `entity_measured =
+  phalange`.
 - **Unisexual flowers.** Male and female flowers as `entity_measured`;
   staminode lengths are not fertile-stamen lengths (Coode_2018 question 1).
 - **Dimension pairs `L x W`.** First dimension is length (state the assumption
