@@ -493,6 +493,10 @@ Bespoke checklist (decisions that changed per family):
   first colour is the fruit colour. "Seeds enclosed in a red arillode": not
   seed colour. "Beginning to flower at 4.5 m tall" is not plant height.
   "Pedicels 1--3 cm long (elongating to 5 cm in fruit)": the aside is separate.
+  "Flowers with receptacle turbinate-campanulate, 4--10 mm long": the length
+  is the receptacle's (hypanthium), not `flower_length`; score
+  `flower_length` only when the flower itself is measured ("Flowers c. 2 mm
+  long"; Prance_1995).
 - **Comparisons.** In any section, drop sentences and clauses that compare
   taxa ("differs from ...", "similar to ...", "unlike ...") or name another
   binomial before scoring, so another taxon's characters are not attributed
