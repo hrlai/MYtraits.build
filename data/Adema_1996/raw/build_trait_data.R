@@ -279,68 +279,13 @@ split_clauses <- function(text) {
 # Each scorer gets one chunk (and its clause context) and returns rows with
 # trait, trait_value, trait_value_clean, value_type, unit, cq, entity_measured,
 # notes, raw. NULL when nothing is scored.
-row <- function(
-  trait,
-  value,
-  clean = value,
-  vt = "mode",
-  unit = NA_character_,
-  cq = NA_character_,
-  em = NA_character_,
-  notes = NA_character_,
-  raw
-) {
-  tibble(
-    trait,
-    trait_value = as.character(value),
-    trait_value_clean = as.character(clean),
-    value_type = vt,
-    unit,
-    cq,
-    entity_measured = em,
-    notes,
-    trait_value_raw = raw
-  )
-}
-
+# Generic versions are flora_*() in flora_parse.R; these bind the dataset's
+# dictionary, dimension grabber and wording rules.
+row <- flora_row
 num_rows <- function(trait, raw, em = NA_character_, notes = NA_character_, cq_text = raw) {
-  # "c. 2–2.5 mm" is a range, not a mean of the lower bound
-  r <- flora_parse_range(str_replace(raw, "c\\.\\s?(?=[\\d.]+–)", ""))
-  if (is.null(r) || is.na(r$unit)) {
-    return(NULL)
-  }
-  q <- qualifier(cq_text)
-  lc <- str_to_lower(cq_text)
-  n <- flora_num_rows(r)
-  # a single value bounded by the wording: "to c. 35 m", "less than 10 m",
-  # "8 or fewer" -> maximum; "2 cm long or longer" -> minimum
-  if (nrow(n) == 1 && n$value_type == "mean") {
-    v <- format(r$lo, drop0trailing = TRUE)
-    if (str_detect(lc, paste0("(to c\\.\\s?|less than |up to )", v, "\\b|\\b", v, "[^,;]*or (fewer|less)\\b"))) {
-      n$value_type <- "maximum"
-    } else if (str_detect(lc, paste0("\\b", v, "[^,;]*or (longer|more|wider)\\b"))) {
-      n$value_type <- "minimum"
-    }
-  }
-  n |>
-    # "0–1.7 mm" means the part can be absent; zero is not a size
-    filter(value > 0) |>
-    mutate(cq = if_else(is.na(cq) & !is.na(q), q, cq)) |>
-    pmap_dfr(\(value, value_type, cq, unit) {
-      row(trait, value, value, value_type, unit, cq, em, notes, raw)
-    })
+  flora_value_rows(trait, raw, em, notes, cq_text, wide_bounds = TRUE)
 }
-
-count_rows <- function(trait, raw, value_txt, em = NA_character_, notes = NA_character_) {
-  r <- flora_parse_range(paste(value_txt, "mm"))
-  if (is.null(r)) {
-    return(NULL)
-  }
-  flora_num_rows(r) |>
-    pmap_dfr(\(value, value_type, cq, unit) {
-      row(trait, value, value, value_type, "{count}", cq, em, notes, raw)
-    })
-}
+count_rows <- flora_count_rows
 
 # A count after `prefix` with its alternatives: "4 or 5" -> 4–5; "5 (or 6)",
 # "5 (6)", "4, 5 (or 6)" -> extreme 6; "2-, rarely 3-locular" -> 2 usually and
@@ -393,101 +338,25 @@ count_alt_rows <- function(trait, raw, lx, prefix, suffix = "", em = NA_characte
 }
 
 dim_rows <- function(traits3, raw_text, em = NA_character_, cq_text = raw_text) {
-  d <- grab_dims(raw_text)
-  if (is.null(d)) {
-    return(NULL)
-  }
-  labels <- c("length", "width", "height")
-  # "to 2.5 x 1.5 cm": the leading "to" or "c." applies to every dimension
-  lead <- str_extract(d$parts[1], "^(to |c\\.\\s?)")
-  if (!is.na(lead)) {
-    d$parts[-1] <- if_else(
-      str_detect(d$parts[-1], "^(to |c\\.)"),
-      d$parts[-1],
-      paste0(lead, d$parts[-1])
-    )
-  }
-  map_dfr(seq_along(d$parts), \(k) {
-    if (is.na(traits3[k])) {
-      return(NULL)
-    }
-    num_rows(
-      traits3[k],
-      paste(str_squish(d$parts[k]), d$unit),
-      em,
-      paste0(
-        "Dimension ",
-        k,
-        " of '",
-        d$raw,
-        "' interpreted as ",
-        labels[k],
-        "."
-      ),
-      cq_text
-    ) |>
-      mutate(trait_value_raw = raw_text)
-  })
+  flora_dim_rows(
+    traits3, raw_text, grab_dims, em, cq_text,
+    raw_whole = TRUE, wide_bounds = TRUE
+  )
 }
 
+# hedged, negated or out-of-region alternatives are not scored (weak_re); every
+# source term stays in trait_value so the copy-down check sees each alternative
 cat_rows <- function(trait, x, em = NA_character_) {
-  # hedged, negated or out-of-region alternatives are not scored
-  if (hedged(x) || str_detect(str_to_lower(x), weak_re)) {
-    return(NULL)
-  }
-  s <- flora_score_cat(x, trait, dict)
-  if (is.null(s)) {
-    return(NULL)
-  }
-  # trait_value keeps every source term that maps to a level, so the copy-down
-  # check sees each alternative ("imparipinnate or paripinnate"); levels are
-  # kept once, and the whole-value substitutions give exactly those levels
-  out <- s |>
-    filter(trait_value_clean != "") |>
-    pmap_dfr(\(cq, trait_value, trait_value_clean, trait) {
-      terms <- str_split_1(trait_value, " ")
-      lv <- map_chr(terms, \(t) term_level(trait, t))
-      keep <- lv != ""
-      row(
-        trait,
-        paste(terms[keep], collapse = " "),
-        paste(unique(lv[keep]), collapse = " "),
-        cq = cq,
-        em = em,
-        raw = x
-      )
-    })
-  if (!nrow(out)) {
-    return(out)
-  }
-  # "pari- or rarely imparipinnate": alternatives with one level leave no
-  # alternative for that trait; every source term stays in trait_value, so the
-  # copy-down check does not read the dropped one as unscored
-  if (nrow(out) > 1 && n_distinct(out$trait_value_clean) == 1) {
-    terms <- unique(unlist(str_split(out$trait_value, " ")))
-    out <- out[1, ] |>
-      mutate(trait_value = paste(terms, collapse = " "), cq = NA_character_)
-  }
-  # "terminal and sometimes axillary": the added state is rarer, the first is
-  # not an alternative to it, so it gets no `usually`
-  lxx <- str_to_lower(x)
-  if (str_detect(lxx, "\\band (sometimes|rarely|occasionally|exceptionally)\\b") && !str_detect(lxx, "\\busually\\b")) {
-    out$cq[out$cq %in% "usually"] <- NA_character_
-  }
-  # "exceptionally" is not a shared qualifier word
-  if (str_detect(str_to_lower(x), "^(or |and )?exceptionally\\b")) {
-    out$cq <- coalesce(out$cq, "exceptionally")
-  }
-  out
+  flora_cat_rows(
+    trait, x, dict, em,
+    weak_re = weak_re,
+    rare_words = c("sometimes", "rarely", "occasionally", "exceptionally"),
+    lead_exceptionally = TRUE,
+    keep_unmapped = TRUE
+  )
 }
 
-# level of one matched source term (as written by flora_score_cat())
-term_level <- function(trait, term) {
-  d <- dict[[trait]]
-  t <- str_replace_all(term, "_", " ")
-  hit <- which(map_lgl(names(d), \(re) str_detect(t, regex(re, ignore_case = TRUE))))
-  if (length(hit)) d[[hit[1]]] else ""
-}
+term_level <- function(trait, term) flora_term_level(trait, term, dict)
 
 rare_more_re <- "\\b(rarely|sometimes|occasionally|exceptionally) (more|fewer|less)\\b"
 rare_q <- c("sometimes", "rarely", "occasionally", "exceptionally", "very rarely", "less often")

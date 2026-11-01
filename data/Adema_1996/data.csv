@@ -1075,6 +1075,7 @@ Guioa pubescens,species,species,,sometimes,,,,bark_texture,x,sometimes deeply fi
 Guioa pubescens,species,species,,usually,,,,bark_texture,x,Bark smooth,smooth,smooth,mode,,"Description, p.304",48,304,,Adema_1996,smooth,inferred_from_species
 Guioa pubescens,species,species,,,,,petals,flower_colour,x,white to yellow,white yellow,white_cream yellow_orange,mode,,"Description, p.304",48,304,,Adema_1996,white yellow,inferred_from_species
 Guioa pubescens,species,species,,,,,,flowering_time,x,Flowering in August to February; fruiting in January to April.,August to February,yynnnnnyyyyy,mode,,"Ecology, p.304",48,304,Months as printed; from herbarium collections.,Adema_1996,yynnnnnyyyyy,inferred_from_species
+Guioa pubescens,species,species,,,,,,fruit_surface_hairs,x,sparsely sericeous,sericeous,hairy,mode,,"Description, p.304",48,304,,Adema_1996,sericeous,inferred_from_species
 Guioa pubescens,species,species,,,,,,fruiting_time,x,Flowering in August to February; fruiting in January to April.,January to April,yyyynnnnnnnn,mode,,"Ecology, p.304",48,304,Months as printed; from herbarium collections.,Adema_1996,yyyynnnnnnnn,inferred_from_species
 Guioa pubescens,species,species,,,,,,inflorescence_type,x,Inflorescences axillary to pseudoterminal,axillary,axillary,mode,,"Description, p.304",48,304,,Adema_1996,axillary,inferred_from_species
 Guioa pubescens,species,species,,,,,leaflet,leaf_apex_shape,x,apex gradually acuminate to cuspidate or caudate,acuminate,acuminate,mode,,"Description, p.304",48,304,,Adema_1996,acuminate,inferred_from_species

@@ -140,7 +140,9 @@ flora_read_transcription <- function(file) {
 # Born-digital PDFs only. Returns one row per text line with pdf page, printed
 # page (last stand-alone number on the page) and a `drop` flag for running
 # heads, bare page numbers, map / figure captions (to the next blank line) and
-# caption fragments printed beside maps.
+# caption fragments printed beside maps. `drop_pages` are PDF page numbers to
+# drop whole: figure plates whose only text is a running head (sometimes
+# garbled) and stray characters.
 flora_read_pdf_lines <- function(
   file,
   first_line_re,
@@ -148,7 +150,8 @@ flora_read_pdf_lines <- function(
   running_head_re = NULL,
   caption_re = "^(Map \\d+\\.|Figure \\d+\\.)",
   side_caption_re = "^(subsp|var)\\. [a-z]+.*\\.$|\\(\\)",
-  side_indent = 30
+  side_indent = 30,
+  drop_pages = NULL
 ) {
   pg <- pdftools::pdf_text(file)
   lines <- map2_dfr(pg, seq_along(pg), \(t, i) {
@@ -183,6 +186,7 @@ flora_read_pdf_lines <- function(
         (!is.null(running_head_re) &
           str_detect(t, running_head_re %||% "(?!x)x")) |
         str_detect(t, "^\\d{1,3}$") |
+        pdf_page %in% drop_pages |
         (indent > side_indent & str_detect(t, side_caption_re))
     ) |>
     select(-text)
