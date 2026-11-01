@@ -31,15 +31,9 @@ dict <- dict[names(dict) %in% names(traits)]
 local_terms <- list(
   # "with stomatal crypts" (Parinari); provisional, question 2
   leaf_stomatal_position = c("stomatal crypts" = "encrypted"),
-  leaf_base_shape = c("subcuneate" = ""),
-  # near-ovate, as "suborbicular" in the shared dictionary
-  leaf_shape = c("subovate" = ""),
-  flower_colour = c("(?<![a-z])(blue|bluish)\\b" = "blue_purple"),
-  bark_colour = c("(?<![a-z])(black|blackish)\\b" = "black"),
-  flower_perianth_symmetry = c(
-    "\\bactinomorphic\\b" = "actinomorphic_general",
-    "\\bzygomorphic\\b" = "zygomorphic"
-  )
+  # not in the shared dictionary: "black" there would claim resin and
+  # blackish bark in other datasets
+  bark_colour = c("(?<![a-z])(black|blackish)\\b" = "black")
 )
 for (t in names(local_terms)) {
   dict[[t]] <- c(local_terms[[t]], dict[[t]])
