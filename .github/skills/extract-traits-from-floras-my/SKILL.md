@@ -424,15 +424,18 @@ contained infraspecific headings.
 - In the 2007 electronic editions, figure plates are page images whose only
   text is a running head (sometimes garbled, "TREE FLORA OF SABOL. 3") and a
   stray roman page number ("vi"). `flora_layer_flags()` lists them as
-  `low_text`; set `drop = TRUE` for those PDF pages after
+  `low_text`; pass those PDF pages as `drop_pages` to
   `flora_read_pdf_lines()`, or the "vi" joins the paragraph across the
   plate (Soepadmo_2000, 17 plates, e.g. pdf 15 inside Castanopsis buruana).
-- `flora_segment()` joins a line ending "letter-" without a space and keeps
-  the hyphen, so words split at a line end stay split ("mar-gin",
-  "ob-scure") and miss dictionary terms. Rejoin a hyphenated word in the
-  parser's text preparation when the unhyphenated word occurs elsewhere in
-  the treatment (Soepadmo_2000 `unhyphen()`); real compounds
-  ("thin-coriaceous") never occur unhyphenated, so they stay.
+- `flora_segment()` joins a line ending "letter-" without a space. It drops
+  the hyphen when the joined word occurs elsewhere in the treatment ("coria-
+  ceous" -> "coriaceous") and keeps it otherwise, since it may be a real
+  compound ("elliptic-oblong"). Set `rejoin_hyphens = FALSE` to keep every
+  hyphen.
+- Generic clause-parser row helpers are `flora_row()`, `flora_value_rows()`,
+  `flora_count_rows()`, `flora_dim_rows()`, `flora_cat_rows()` and
+  `flora_term_level()` in `flora_parse.R`. Bind the dictionary and
+  dimension grabber in thin local wrappers (Adema_1996, Soepadmo_2000).
 - Treat figure and map captions as non-treatment text unless they supply a
   separately transcribed voucher. With `flora_read_pdf_lines()`, configure
   `caption_re`, `side_caption_re` and `side_indent`, and inspect dropped lines;

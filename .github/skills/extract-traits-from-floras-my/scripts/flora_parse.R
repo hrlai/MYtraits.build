@@ -325,3 +325,247 @@ flora_score_cat <- function(txt, trait, dict) {
     mutate(trait = trait) |>
     select(-first)
 }
+
+# ---- row helpers shared by the clause parsers ------------------------------------
+#
+# Moved from data/Adema_1996 and data/Soepadmo_2000 raw/build_trait_data.R.
+# Dataset-local pieces stay arguments: the dictionary (`dict`), the dimension
+# grabber (`grab_dims`), entity (`em`), `notes` and the commonness text
+# (`cq_text`). Datasets bind them in one-line wrappers named num_rows(),
+# dim_rows(), cat_rows(), count_rows() and term_level().
+
+# One trait_data row. `raw` is trait_value_raw.
+flora_row <- function(
+  trait,
+  value,
+  clean = value,
+  vt = "mode",
+  unit = NA_character_,
+  cq = NA_character_,
+  em = NA_character_,
+  notes = NA_character_,
+  raw
+) {
+  tibble(
+    trait,
+    trait_value = as.character(value),
+    trait_value_clean = as.character(clean),
+    value_type = vt,
+    unit,
+    cq,
+    entity_measured = em,
+    notes,
+    trait_value_raw = raw
+  )
+}
+
+# Rows for one measurement string ("2-2.5 cm") via flora_parse_range() and
+# flora_num_rows(). `cq_text` supplies the commonness word and the wording that
+# bounds a single value. `wide_bounds = FALSE`: "less/thinner/shorter/smaller
+# than N" gives a maximum. `wide_bounds = TRUE` (Adema_1996) also reads "to c. N",
+# "up to N" and "N or fewer" as maximum, and "N ... or longer/more/wider" as
+# minimum.
+flora_value_rows <- function(
+  trait,
+  raw,
+  em = NA_character_,
+  notes = NA_character_,
+  cq_text = raw,
+  wide_bounds = FALSE
+) {
+  # "c. 2-2.5 mm" is a range, not a mean of the lower bound
+  r <- flora_parse_range(str_replace(raw, "c\\.\\s?(?=[\\d.]+–)", ""))
+  if (is.null(r) || is.na(r$unit)) {
+    return(NULL)
+  }
+  q <- str_match(cq_text, flora_qual_re)[, 2]
+  lc <- str_to_lower(cq_text)
+  n <- flora_num_rows(r)
+  if (nrow(n) == 1 && n$value_type == "mean") {
+    if (wide_bounds) {
+      v <- format(r$lo, drop0trailing = TRUE)
+      if (
+        str_detect(
+          lc,
+          paste0(
+            "(to c\\.\\s?|less than |up to )",
+            v,
+            "\\b|\\b",
+            v,
+            "[^,;]*or (fewer|less)\\b"
+          )
+        )
+      ) {
+        n$value_type <- "maximum"
+      } else if (
+        str_detect(lc, paste0("\\b", v, "[^,;]*or (longer|more|wider)\\b"))
+      ) {
+        n$value_type <- "minimum"
+      }
+    } else if (
+      str_detect(
+        lc,
+        paste0("(less|thinner|shorter|smaller) than ", r$lo, "\\b")
+      )
+    ) {
+      n$value_type <- "maximum"
+    }
+  }
+  n |>
+    # "0-1.7 mm" means the part can be absent; zero is not a size
+    filter(value > 0) |>
+    mutate(cq = if_else(is.na(cq) & !is.na(q), q, cq)) |>
+    pmap_dfr(\(value, value_type, cq, unit) {
+      flora_row(trait, value, value, value_type, unit, cq, em, notes, raw)
+    })
+}
+
+# Rows for a count ("4-5"). `unit` is "{count}" unless set.
+flora_count_rows <- function(
+  trait,
+  raw,
+  value_txt,
+  em = NA_character_,
+  notes = NA_character_,
+  unit = "{count}"
+) {
+  r <- flora_parse_range(paste(value_txt, "mm"))
+  if (is.null(r)) {
+    return(NULL)
+  }
+  flora_num_rows(r) |>
+    pmap_dfr(\(value, value_type, cq, unit_) {
+      flora_row(trait, value, value, value_type, unit, cq, em, notes, raw)
+    })
+}
+
+# Rows for "a x b (x c) unit". `traits_k` names the trait of each dimension (NA
+# skips one); `grab_dims` is the dataset's grabber, returning list(parts, unit,
+# raw) or NULL. A leading "to" or "c." applies to every dimension. With
+# `raw_whole = TRUE` trait_value_raw is the whole text, not the one dimension.
+flora_dim_rows <- function(
+  traits_k,
+  raw_text,
+  grab_dims,
+  em = NA_character_,
+  cq_text = raw_text,
+  raw_whole = FALSE,
+  wide_bounds = FALSE
+) {
+  d <- grab_dims(raw_text)
+  if (is.null(d)) {
+    return(NULL)
+  }
+  labels <- c("length", "width", "height")
+  lead <- str_extract(d$parts[1], "^(to |c\\.\\s?)")
+  if (!is.na(lead)) {
+    d$parts[-1] <- if_else(
+      str_detect(d$parts[-1], "^(to |c\\.)"),
+      d$parts[-1],
+      paste0(lead, d$parts[-1])
+    )
+  }
+  map_dfr(seq_along(d$parts), \(k) {
+    if (is.na(traits_k[k])) {
+      return(NULL)
+    }
+    out <- flora_value_rows(
+      traits_k[k],
+      paste(str_squish(d$parts[k]), d$unit),
+      em,
+      paste0(
+        "Dimension ",
+        k,
+        " of '",
+        d$raw,
+        "' interpreted as ",
+        labels[k],
+        "."
+      ),
+      cq_text,
+      wide_bounds = wide_bounds
+    )
+    if (raw_whole && !is.null(out)) {
+      out$trait_value_raw <- raw_text
+    }
+    out
+  })
+}
+
+# Level of one matched source term (as written by flora_score_cat()). All
+# dictionary rows of the trait are tested in one vectorised call; the first row
+# that matches wins, so row order stays the priority.
+flora_term_level <- function(trait, term, dict) {
+  d <- dict[[trait]]
+  t <- str_replace_all(term, "_", " ")
+  hit <- which(str_detect(t, paste0("(?i)", names(d))))
+  if (length(hit)) d[[hit[1]]] else ""
+}
+
+# Categorical rows for one clause. Options keep the dataset-local behaviour:
+#   weak_re             clauses matching it are not scored (Adema_1996)
+#   rare_words          "X and <word> Y": Y is rarer, so X gets no `usually`
+#   lead_exceptionally  "exceptionally ..." at the start sets cq
+#   keep_unmapped       keep a row when no matched term has a level (Adema_1996)
+flora_cat_rows <- function(
+  trait,
+  x,
+  dict,
+  em = NA_character_,
+  weak_re = NULL,
+  rare_words = c("sometimes", "rarely", "occasionally"),
+  lead_exceptionally = FALSE,
+  keep_unmapped = FALSE
+) {
+  if (
+    str_detect(x, flora_hedge_re) ||
+      (!is.null(weak_re) && str_detect(str_to_lower(x), weak_re))
+  ) {
+    return(NULL)
+  }
+  s <- flora_score_cat(x, trait, dict)
+  if (is.null(s)) {
+    return(NULL)
+  }
+  # trait_value keeps every source term that maps to a level, so the copy-down
+  # check sees each alternative; levels are kept once.
+  out <- s |>
+    filter(trait_value_clean != "") |>
+    pmap_dfr(\(cq, trait_value, trait_value_clean, trait) {
+      terms <- str_split_1(trait_value, " ")
+      lv <- map_chr(terms, \(t) flora_term_level(trait, t, dict))
+      keep <- lv != ""
+      if (!keep_unmapped && !any(keep)) {
+        return(NULL)
+      }
+      flora_row(
+        trait,
+        paste(terms[keep], collapse = " "),
+        paste(unique(lv[keep]), collapse = " "),
+        cq = cq,
+        em = em,
+        raw = x
+      )
+    })
+  if (!nrow(out)) {
+    return(if (keep_unmapped) out else NULL)
+  }
+  # "plane or sometimes plane": alternatives with one level are one value
+  if (nrow(out) > 1 && n_distinct(out$trait_value_clean) == 1) {
+    terms <- unique(unlist(str_split(out$trait_value, " ")))
+    out <- out[1, ] |>
+      mutate(trait_value = paste(terms, collapse = " "), cq = NA_character_)
+  }
+  # "terminal and sometimes axillary": the added state is rarer, the first is
+  # not an alternative to it, so it gets no `usually`
+  lx <- str_to_lower(x)
+  rare_re <- paste0("\\band (", paste(rare_words, collapse = "|"), ")\\b")
+  if (str_detect(lx, rare_re) && !str_detect(lx, "\\busually\\b")) {
+    out$cq[out$cq %in% "usually"] <- NA_character_
+  }
+  # "exceptionally" is not a shared qualifier word
+  if (lead_exceptionally && str_detect(lx, "^(or |and )?exceptionally\\b")) {
+    out$cq <- coalesce(out$cq, "exceptionally")
+  }
+  out
+}

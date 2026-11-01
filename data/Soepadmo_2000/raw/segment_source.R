@@ -25,14 +25,12 @@ lines <- flora_read_pdf_lines(
   ),
   # captions are inside the figure images
   caption_re = "^Current address: ",
-  side_caption_re = "(?!x)x"
+  side_caption_re = "(?!x)x",
+  # plate pages: running head (garbled on pdf 71) and a stray "vi"
+  drop_pages = plate_pages
 ) |>
   # the page range dash is a minus sign on some pages
-  mutate(
-    t = str_replace_all(t, "−", "–"),
-    # plate pages: running head (garbled on pdf 71) and a stray "vi"
-    drop = drop | pdf_page %in% plate_pages
-  )
+  mutate(t = str_replace_all(t, "−", "–"))
 
 headers <- list(
   list(

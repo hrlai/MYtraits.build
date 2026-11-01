@@ -45,8 +45,17 @@ flora_segment <- function(
   ),
   cancel_header = NULL,
   ignore_header = NULL,
-  post_blocks = NULL
+  post_blocks = NULL,
+  rejoin_hyphens = TRUE
 ) {
+  # Vocabulary for rejoining words split at a line end: every word of the
+  # treatment's text lines. A split word never appears whole in its own
+  # fragments, so a hit means the word is printed unsplit elsewhere.
+  vocab <- lines$t[!lines$drop] |>
+    str_to_lower() |>
+    str_extract_all("[a-z]+") |>
+    unlist() |>
+    unique()
   hdr_re <- map_chr(headers, "re")
   lines$hdr <- map_chr(lines$t, \(x) {
     h <- which(str_detect(x, hdr_re))
@@ -125,9 +134,15 @@ flora_segment <- function(
     summarise(
       # Lines ending "letter-" join without a space (hard hyphens at line ends).
       # Line offsets and pages are kept so each clause traces to its own page.
+      # The hyphen goes when the joined word occurs elsewhere in the treatment
+      # ("coria- ceous"); otherwise it stays (a real compound, "elliptic-
+      # oblong").
       sep = list(c(if_else(str_detect(head(t, -1), "[a-z]-$"), "", " "), "")),
-      text = paste0(t, unlist(sep), collapse = ""),
-      line_start = list(cumsum(c(1, head(nchar(t) + nchar(unlist(sep)), -1)))),
+      t = list(if (rejoin_hyphens) flora_unhyphen_lines(t, vocab) else t),
+      text = paste0(unlist(t), unlist(sep), collapse = ""),
+      line_start = list(
+        cumsum(c(1, head(nchar(unlist(t)) + nchar(unlist(sep)), -1)))
+      ),
       line_pdf_page = list(pdf_page),
       line_printed_page = list(printed_page),
       .groups = "drop"
@@ -167,6 +182,21 @@ flora_segment <- function(
     ungroup() |>
     select(-seen_label, -in_desc) |>
     left_join(form_context, by = "block")
+}
+
+# Drop the hyphen at the end of line k when the word it splits, joined with the
+# start of line k + 1, is in `vocab` (lower-case words of the treatment).
+flora_unhyphen_lines <- function(t, vocab) {
+  if (length(t) < 2) {
+    return(t)
+  }
+  nxt <- c(t[-1], NA_character_)
+  head_w <- str_extract(t, "[A-Za-z]+(?=-$)")
+  tail_w <- str_extract(nxt, "^[a-z]+(?![A-Za-z])")
+  join <- !is.na(head_w) &
+    !is.na(tail_w) &
+    str_to_lower(paste0(head_w, tail_w)) %in% vocab
+  if_else(join, str_remove(t, "-$"), t)
 }
 
 # Pages (pdf, printed) at a character position within one paragraph row, so a
