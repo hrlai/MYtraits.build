@@ -26,10 +26,6 @@ dict <- flora_load_dict(
   ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary_seed.csv"
 )
 dict <- dict[names(dict) %in% names(traits)]
-# Skill rule: a hyphenated shape scores both levels ("elliptic-oblong" ->
-# elliptical oblong). The seed blocks these compounds (Coode_2018, Adema_1996
-# rows); drop the blocking rows here.
-dict$leaf_shape <- dict$leaf_shape[!str_detect(names(dict$leaf_shape), "elliptic-oblong|ovate-lanceolate")]
 # Fagaceae terms missing from the shared dictionary; first, so they win over
 # shorter shared terms
 local_terms <- list(
@@ -467,11 +463,7 @@ score_chunk <- function(cl) {
       l <- grab(x, "long")
       if (!is.na(l)) add(num_rows("petiole_length", l, cq_text = x))
     },
-    # Only "spikes": the "paniculate clusters" are clusters of spikes, and
-    # "solitary in the axils" is one spike per axil, not a single flower
-    inflorescences = if (str_detect(lx, "\\bspikes?\\b")) {
-      add(row("inflorescence_type", "spikes", "spike", raw = x))
-    },
+    inflorescences = add(cat_rows("inflorescence_type", lx)),
     `male inflorescences` = ,
     `female inflorescences` = {
       em <- infl_kind(cl$sent_text)

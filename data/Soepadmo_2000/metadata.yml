@@ -843,11 +843,12 @@ questions:
     indumentum followed by "glabrescent" or "when young" is not scored.
     Confirm.
   question7: |
-    Hyphenated leaf shapes ("elliptic-oblong", "ovate-lanceolate") score
-    both levels here, as the skill's compound-shape rule says. The shared
-    dictionary seed blocks these compounds (Coode_2018 and Adema_1996 rows),
-    so Coode_2018, Kochummen_1995 and Adema_1996 leave them unscored. Which
-    convention should all datasets use?
+    Answered (issue 129, 2026-11-02): hyphenated leaf shapes
+    ("elliptic-oblong", "ovate-lanceolate") score both levels in all
+    datasets, as the skill's compound-shape rule says. The shared seed no
+    longer blocks them, so this dataset needs no local override; Coode_2018,
+    Lim_2010, Kochummen_1995 and Adema_1996 were rebuilt to match. No
+    decision needed.
   question8: |
     Acorn and nut sizes "L x W" are read as fruit_length then fruit_width.
     Depressed acorns are wider than long (Lithocarpus pulcher 2--3 x 4--5
