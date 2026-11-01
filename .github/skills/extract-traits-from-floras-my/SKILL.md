@@ -521,6 +521,10 @@ Bespoke checklist (decisions that changed per family):
   taxon, trait and decision in `metadata.yml` `questions:`.
 - **Parentheses.** Drop non-extreme asides before splitting
   (`flora_drop_asides()`); never split on a comma inside parentheses.
+  Count "(" and ")" in every Description paragraph first: a missing ")"
+  makes the rest of the paragraph one aside, and nothing after it is split
+  or scored. Repair it in `source_fixes.csv` (Beentje_2023: P. klossii
+  p. 193, Pandanus genus p. 169).
 - **Commonness rows.** Any commonness word splits the trait into rows
   (`usually` for the unqualified value). Several equal-weight values stay in one
   space-delimited cell in text order. Parenthetical extremes `(a--)b--c(--d)`
