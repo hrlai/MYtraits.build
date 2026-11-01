@@ -1,0 +1,20 @@
+taxon_name,taxon_rank,status,n_mapped_rows,flag
+Atuna cordata,species,accepted,31,
+Atuna nannodes,species,accepted,38,
+Atuna racemosa,species,accepted,39,
+Atuna racemosa subsp. excelsa,subspecies,accepted,0,"Subspecies annotation under a species description (key lead, nomenclature, range, habitat); no description; species values not inherited."
+Atuna racemosa subsp. racemosa,subspecies,accepted,0,"Subspecies annotation under a species description (key lead, nomenclature, range, habitat); no description; species values not inherited."
+Kostermanthus heteropetalus,species,accepted,33,Only species of the genus in the region; heading unnumbered.
+Licania splendens,species,accepted,27,Only species of the genus in the region; heading unnumbered.
+Maranthes corymbosa,species,accepted,34,Only species of the genus in the region; heading unnumbered.
+Parastemon grandifructus,species,accepted,24,Flowers described from fruiting specimens only.
+Parastemon urophyllus,species,accepted,30,
+Parinari argenteo-sericea,species,accepted,29,
+Parinari canarioides,species,accepted,31,
+Parinari costata,species,accepted,35,
+Parinari costata subsp. costata,subspecies,accepted,0,"Subspecies annotation under a species description (key lead, nomenclature, range, habitat); no description; species values not inherited."
+Parinari costata subsp. rubiginosa,subspecies,accepted,0,"Subspecies annotation under a species description (key lead, nomenclature, range, habitat); no description; species values not inherited."
+Parinari elmeri,species,accepted,30,
+Parinari metallica,species,accepted,24,Fruits not seen.
+Parinari oblongifolia,species,accepted,36,
+Parinari rigida,species,accepted,30,
