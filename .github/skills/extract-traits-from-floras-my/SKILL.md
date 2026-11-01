@@ -726,6 +726,10 @@ Bespoke checklist (decisions that changed per family):
   (`reason = "agreement"`) and statements naming an alternative
   (`"alternative"`); inspect it and preserve other ineligible clauses
   separately in the bespoke parser.
+- Do not copy a value for an organ to a species whose description says the
+  organ is unknown or not seen in the region ("Male inflorescence unknown"):
+  filter the copied rows by `entity_measured` (provisional, Beentje_2023
+  question 12).
 - Use `flora_inherit_infraspecific()` for `subsp.`/`var.` silent on a trait.
 - Monogeneric family: both family and genus are copied down
   (`rank_scored_from` = `genus` or `family`; Yao_2010). If the family has no
