@@ -519,6 +519,9 @@ Bespoke checklist (decisions that changed per family):
   common words, not every hedge; inspect wording such as "suggest" and
   "more-or-less" too. Ask before scoring an exception, then record the wording,
   taxon, trait and decision in `metadata.yml` `questions:`.
+  A query inside an extreme ("2--4(--?5) cm") hedges only the extreme: score
+  the typical range and drop the extreme (provisional, Beentje_2023
+  question 11).
 - **Parentheses.** Drop non-extreme asides before splitting
   (`flora_drop_asides()`); never split on a comma inside parentheses.
   Count "(" and ")" in every Description paragraph first: a missing ")"
