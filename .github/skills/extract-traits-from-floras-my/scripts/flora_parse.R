@@ -141,6 +141,7 @@ flora_qual_words <- c(
   "generally",
   "frequently",
   "less often",
+  "less frequently",
   "less commonly",
   "commonly",
   "exceptionally",
