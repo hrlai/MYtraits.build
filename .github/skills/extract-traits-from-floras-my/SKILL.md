@@ -493,6 +493,8 @@ Bespoke checklist (decisions that changed per family):
   first colour is the fruit colour. "Seeds enclosed in a red arillode": not
   seed colour. "Beginning to flower at 4.5 m tall" is not plant height.
   "Pedicels 1--3 cm long (elongating to 5 cm in fruit)": the aside is separate.
+  "Fruits (immature) ellipsoid, 2--3.5 cm long" is not the mature fruit:
+  keep its size and shape unmapped (Prance_2012, Atuna penangiana).
 - **Comparisons.** In any section, drop sentences and clauses that compare
   taxa ("differs from ...", "similar to ...", "unlike ...") or name another
   binomial before scoring, so another taxon's characters are not attributed
@@ -516,6 +518,12 @@ Bespoke checklist (decisions that changed per family):
   taxon, trait and decision in `metadata.yml` `questions:`.
 - **Parentheses.** Drop non-extreme asides before splitting
   (`flora_drop_asides()`); never split on a comma inside parentheses.
+  Keep each dropped aside as an unmapped row. FPM genus descriptions put
+  states from outside the region in `(elsewhere ...)` asides ("lamina lower
+  surface glabrous (elsewhere with an arachnoid indumentum)"); they are out
+  of scope (Regions rule), so never score them (Prance_2012, Maranthes and
+  Parinari). An aside that is a rarer state ("Fruit a fleshy drupe (rarely
+  dry)") is a commonness alternative: rewrite it as ", rarely dry" first.
 - **Commonness rows.** Any commonness word splits the trait into rows
   (`usually` for the unqualified value). Several equal-weight values stay in one
   space-delimited cell in text order. Parenthetical extremes `(a--)b--c(--d)`
