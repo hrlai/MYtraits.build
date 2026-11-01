@@ -37,6 +37,7 @@ Worked examples, all in this repository:
 | `data/Wong_2010` | Selaginellaceae, FPM ferns vol. 1 | born-digital PDF, scripted clause parser, 35 taxa | first lycophyte; leaf kinds in `entity_measured`; genus copy-down with no family description; differential-only varieties |
 | `data/Cheek_2012` | Nepenthaceae, FPM vol. 3 | born-digital PDF, 10 species, hand-scored pieces | climbers; hand rows keyed to comma pieces so every unscored piece stays unmapped; named hybrids; values cited in genus paragraphs |
 | `data/Soepadmo_2000` | Fagaceae, TFSS vol. 3 | 2007 electronic text, scripted clause parser, 100 species | large family in one run; plate pages dropped; line-break hyphens rejoined; cupule is not the fruit; per-surface leaf hairs; family statements naming genera not copied |
+| `data/Beentje_2023` | Pandanaceae, FPM vol. 10 | born-digital PDF, scripted clause parser, 50 species | first monocot; syncarp is not the fruit; palmoid growth forms; cultivated and not-native sections; hand rows for clauses whose subject is two chunks back |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
@@ -502,9 +503,13 @@ Bespoke checklist (decisions that changed per family):
   label or measurement (Lim_2010).
 - **Adjacent organs.** Parse explicit organ shifts; young and mature bark
   separately; seed cones under fruit traits with `entity_measured = seed cone`
-  (confirm per family, see Lim_2010 question 3). An angiosperm fruit cone
-  (infructescence, as in Casuarinaceae) is not a fruit: the fruitlet (samara)
-  is the fruit, and the cone stays unmapped (Pungga_1996).
+  (confirm per family, see Lim_2010 question 3). A compound fruiting head is
+  not a fruit: the Casuarinaceae cone (Pungga_1996) and the Pandanaceae
+  syncarp stay unmapped, and the fruitlet (samara, drupe, berry) is the
+  fruit. Provisional (Beentje_2023 questions 1 and 2): ripe syncarp colour
+  -> `fruit_colour` with `entity_measured = syncarp`; a phalange of fused
+  drupes -> `fruit_length` / `fruit_width` with `entity_measured =
+  phalange`.
 - **Unisexual flowers.** Male and female flowers as `entity_measured`;
   staminode lengths are not fertile-stamen lengths (Coode_2018 question 1).
 - **Dimension pairs `L x W`.** First dimension is length (state the assumption
@@ -514,8 +519,15 @@ Bespoke checklist (decisions that changed per family):
   common words, not every hedge; inspect wording such as "suggest" and
   "more-or-less" too. Ask before scoring an exception, then record the wording,
   taxon, trait and decision in `metadata.yml` `questions:`.
+  A query inside an extreme ("2--4(--?5) cm") hedges only the extreme: score
+  the typical range and drop the extreme (provisional, Beentje_2023
+  question 11).
 - **Parentheses.** Drop non-extreme asides before splitting
   (`flora_drop_asides()`); never split on a comma inside parentheses.
+  Count "(" and ")" in every Description paragraph first: a missing ")"
+  makes the rest of the paragraph one aside, and nothing after it is split
+  or scored. Repair it in `source_fixes.csv` (Beentje_2023: P. klossii
+  p. 193, Pandanus genus p. 169).
 - **Commonness rows.** Any commonness word splits the trait into rows
   (`usually` for the unqualified value). Several equal-weight values stay in one
   space-delimited cell in text order. Parenthetical extremes `(a--)b--c(--d)`
@@ -539,6 +551,11 @@ Bespoke checklist (decisions that changed per family):
   (`flora_num_rows()`; Hughes_2013 "to 10--15 m tall" was a maximum of 10
   before 2026-10, so rebuild it). Missing units (Coode_2018 *E. fraseri* lamina
   "14--18.5 x (7--)9--12") go in `source_fixes.csv` with the page.
+- **Trunk and stem heights** (provisional, Beentje_2023 question 5). A
+  height printed for the trunk or stem rather than the plant ("Shrubs.
+  Trunk to 2--3 m tall", "Shrubs with stems 30--60 cm tall") is
+  `plant_height` with `entity_measured = trunk` or `stem`, as for tree
+  ferns.
 - **Mapping misfits** (record every one as a metadata question): `spirally
   arranged` -> `leaf_arrangement: spiral`; `rugose` -> `rough`; `subglabrous` ->
   `glabrous`; fruit, seed or bud "diameter" ->
@@ -709,6 +726,10 @@ Bespoke checklist (decisions that changed per family):
   (`reason = "agreement"`) and statements naming an alternative
   (`"alternative"`); inspect it and preserve other ineligible clauses
   separately in the bespoke parser.
+- Do not copy a value for an organ to a species whose description says the
+  organ is unknown or not seen in the region ("Male inflorescence unknown"):
+  filter the copied rows by `entity_measured` (provisional, Beentje_2023
+  question 12).
 - Use `flora_inherit_infraspecific()` for `subsp.`/`var.` silent on a trait.
 - Monogeneric family: both family and genus are copied down
   (`rank_scored_from` = `genus` or `family`; Yao_2010). If the family has no
