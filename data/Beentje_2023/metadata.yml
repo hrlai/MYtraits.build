@@ -1,0 +1,545 @@
+source:
+  primary:
+    key: Beentje_2023
+    bibtype: InBook
+    year: 2023
+    author: H. J. Beentje and M. W. Callmander
+    title: Pandanaceae
+    booktitle: 'Flora of Peninsular Malaysia, Series II: Seed Plants, Volume 10'
+    editor: R. Kiew and R. C. K. Chung and L. G. Saw
+    series: Malayan Forest Records No. 49
+    publisher: Forest Research Institute Malaysia
+    place: Kepong, Selangor, Malaysia
+    pages: 117--215
+    isbn: 978-967-2810-64-3
+  secondary:
+    key: Corner_1978
+    bibtype: Article
+    year: 1978
+    author: E. J. H. Corner
+    title: The freshwater swamp-forest of South Johore and Singapore
+    journal: Gardens' Bulletin Singapore, Supplement
+    volume: 1
+    pages: 1--266
+contributors:
+  data_collectors:
+    - last_name: Beentje
+      given_name: H. J.
+      ORCID: .na
+      affiliation: Royal Botanic Gardens, Kew, Richmond, Surrey, U.K.
+    - last_name: Callmander
+      given_name: M. W.
+      ORCID: .na
+      affiliation: Conservatoire et Jardin botaniques de Genève, Chambésy, Switzerland
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '2023'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description:
+    Pandanaceae (Benstonea, Freycinetia and Pandanus; 45 native species and
+    three cultivated species) of Peninsular Malaysia.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    Born-digital PDF (assets/myflora_metadata.csv); rows come from the PDF text
+    layer (pdf pages 8--106, printed 117--215) read with flora_read_pdf_lines()
+    and segmented by raw/segment_source.R. No page was image-checked:
+    flora_layer_flags() flagged only the front matter, the full-page Figures
+    3--13 (low text; captions in the layer) and the plates (pdf 108--137,
+    photographs); no bad glyphs, no page-number breaks and no decimals split
+    by a space in the treatment. Two missing closing parentheses are repaired
+    in raw/source_fixes.csv. Each Description sentence was split into ';'
+    pieces and ',' chunks outside parentheses; chunks were scored by organ in
+    raw/build_trait_data.R, and every other chunk is kept verbatim as an
+    unmapped row. Unqualified single-level family and genus values are copied
+    to member species silent on the trait when no member disagrees
+    (trait_scoring_method inferred_from_family or inferred_from_genus);
+    male-flower values are not copied to species whose males are unknown.
+    Ranges are minimum and maximum, parenthetical extremes are extreme_range
+    rows, a single or "c." value is a mean, "to" values are maxima and "or
+    more" values minima. Hedged statements (probably, possibly, apparently,
+    "?", "assumed", "more-or-less" before a number) are not scored. Population
+    region is Peninsular Malaysia for species descriptions (FPM guide).
+  original_file:
+    Pandanaceae.pdf (Beentje & Callmander 2023, Flora of Peninsular Malaysia
+    Series II vol. 10, pp. 117--215)
+  notes: |
+    Mapped and unmapped rows share raw/trait_data.csv; raw/unmapped_terms.csv
+    summarises the unmapped rows by organ and character. Largest unmapped
+    groups: syncarp (compound fruiting head) shape, size and drupe number
+    (question 1); leaf armature, i.e. prickle size, colour, direction and
+    spacing on margins, midrib and pleats (49 taxa; question 6); leaf colour
+    per surface, texture (coriaceous, chartaceous), venation (parallel veins
+    per half, tessellate), M-shaped section and pleats; amplexicaul bases
+    (18 taxa; question 7); caudate or cucullate leaf apices and cauda length;
+    trunk and stem diameter, colour and leaf scars; prop/stilt root size;
+    inflorescence bracts, peduncle, spikes and stamen phalanges; pileus,
+    style, stigma, endocarp and mesocarp of the drupe; stigmas per berry.
+    Distribution, Ecology (habitat, altitude, swamp, limestone), Conservation
+    status, Uses, Taxonomy, Notes and vernacular names are kept as unmapped
+    sentences. Keys, the "Spot characters" and "Specific habitats" lists and
+    figure captions are not read. The cultivated species (P. amaryllifolius,
+    P. kaida, P. tectorius; section "Cultivated Plants") are scored with a
+    "cultivated" note; P. kaida and P. amaryllifolius sizes of harvested or
+    pruned plants and P. amaryllifolius male inflorescences "not seen in
+    Peninsular Malaysia" are not scored. P. polycephalus and P. nitidus
+    (section "Not accepted as native", no Peninsular Malaysian record) are
+    kept as unmapped rows only and listed in raw/taxon_flags.csv. Ecology
+    statements citing Corner (1978) are scored in raw/manual_rows.csv with
+    source_id Corner_1978 and no population region (question 9); hedged
+    pollination and dispersal statements in the family and genus Ecology are
+    not scored. Types and types of synonyms are in
+    raw/Beentje_2023_vouchers.csv.
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: clonal_spread_mechanism
+    unit_in: .na
+    trait_name: clonal_spread_mechanism
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'B. nana ''tufted pandan with stolons (Stone 11788) or a rhizome'': stolons scored as the spreading organ (clumping alone is not scored).'
+  - var_in: flower_anther_length
+    unit_in: unit
+    trait_name: flower_anther_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Anther length of male flowers from species descriptions (first dimension of ''a x b'' sizes); the apiculus measured separately (''with apiculus 0.2 mm'') is excluded.'
+  - var_in: flower_filament_length
+    unit_in: unit
+    trait_name: flower_filament_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Filament length of male flowers from species descriptions.'
+  - var_in: flower_scent_production
+    unit_in: .na
+    trait_name: flower_scent_production
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Fragrant, scented or sweet-smelling male (rarely female) inflorescences, spikes or bracts in species descriptions; Pandanus genus ''Male flowers ... fragrant'' copied to Pandanus species with known male flowers.'
+  - var_in: flower_visitor
+    unit_in: .na
+    trait_name: flower_visitor
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'P. dubius flowering heads ''full of beetles'' (Corner 1978, cited in the species Ecology).'
+  - var_in: flowering_time
+    unit_in: .na
+    trait_name: flowering_time
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'F. angustifolia ''flowering Mar.-Apr.'' quoted from Corner (1978); months as printed.'
+  - var_in: fruit_colour
+    unit_in: .na
+    trait_name: fruit_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Ripe colour only (ripe, ripening, maturing, mature). Syncarp colour is scored with entity_measured syncarp (question 1); the colour of P. odorifer phalanges with entity_measured phalange.'
+  - var_in: fruit_length
+    unit_in: unit
+    trait_name: fruit_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Length of the drupe (Benstonea, Pandanus), berry (Freycinetia) or phalange of fused drupes (entity_measured phalange; question 2); first dimension of ''a x b (x c)'' sizes. Syncarp size is not scored (question 1).'
+  - var_in: fruit_type
+    unit_in: .na
+    trait_name: fruit_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Drupe (Benstonea, Pandanus) or berry (Freycinetia) where a species description names the fruit; Benstonea and Freycinetia genus statements (''Syncarps of simple drupes'', ''baccate'', ''berry-like'') copied to species silent on it.'
+  - var_in: fruit_width
+    unit_in: unit
+    trait_name: fruit_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Second dimension of drupe, berry or phalange ''a x b (x c)'' sizes; the third dimension (thickness of angular drupes) is not scored (question 3).'
+  - var_in: fruiting_time
+    unit_in: .na
+    trait_name: fruiting_time
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'F. angustifolia ''fruiting June'' quoted from Corner (1978).'
+  - var_in: inflorescence_length
+    unit_in: unit
+    trait_name: inflorescence_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Length of the male or female inflorescence (entity_measured) from species descriptions; peduncle, spike and bract lengths are not scored.'
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Leaf apex from species descriptions (acuminate, acute). Caudate, attenuate and cucullate (boat-prow) apices have no level and are unmapped.'
+  - var_in: leaf_arrangement
+    unit_in: .na
+    trait_name: leaf_arrangement
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''Leaves ... crowded'' (B. ornata; family ''usually crowded towards the apex of the branch'', not copied).'
+  - var_in: leaf_base_shape
+    unit_in: .na
+    trait_name: leaf_base_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Freycinetia leaf-base auricles scored as auriculate (question 7); ''base sheathing'' (family, Freycinetia genus). Amplexicaul bases are unmapped (question 7).'
+  - var_in: leaf_compoundness
+    unit_in: .na
+    trait_name: leaf_compoundness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Family and Freycinetia genus ''Leaves ... simple'', copied to all species.'
+  - var_in: leaf_glaucousness
+    unit_in: .na
+    trait_name: leaf_glaucousness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Glaucous leaf surface (either surface) from species descriptions; subglaucous and ''slightly glaucous'' as subglaucous.'
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Leaf length of adult (mature, unpruned) leaves, first dimension of ''a x b'' sizes; juvenile, rosette-stage, harvested and young-shoot leaves are not scored. Extremes with a query (''(-?5)'') are not scored (question 11).'
+  - var_in: leaf_margin
+    unit_in: .na
+    trait_name: leaf_margin
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Freycinetia leaf margins (denticulate, entire). Prickles on Benstonea and Pandanus margins are armature and stay unmapped (question 6).'
+  - var_in: leaf_shape
+    unit_in: .na
+    trait_name: leaf_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Leaf shape from family, genus and species descriptions (linear, oblong, lanceolate, elliptic).'
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Leaf width of adult leaves, second dimension of ''a x b'' sizes.'
+  - var_in: plant_climbing_mechanism
+    unit_in: .na
+    trait_name: plant_climbing_mechanism
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Freycinetia: ''adventitious roots clasping'' (genus) and ''roots ... strongly clasping tree trunks'' (F. sumatrana).'
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Habit sentence: arborescent -> tree palmoid, shrub(s) -> shrub palmoid (standing rule for pandans), climbers -> climber, woody climbers or lianas -> climber_woody (question 4).'
+  - var_in: plant_growth_substrate
+    unit_in: .na
+    trait_name: plant_growth_substrate
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Epiphytes (B. alticola, B. epiphytica) and plants growing on rocks or limestone (lithophyte).'
+  - var_in: plant_height
+    unit_in: unit
+    trait_name: plant_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Plant height from the habit sentence; a height given for the trunk or stem has entity_measured trunk or stem (question 5).'
+  - var_in: plant_height_climbing_plant
+    unit_in: unit
+    trait_name: plant_height_climbing_plant
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Freycinetia climbers: ''m long'' or ''m high'' of the climbing plant (question 5).'
+  - var_in: root_system_type
+    unit_in: .na
+    trait_name: root_system_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Prop and stilt roots (''prop/stilt roots'' scores both levels).'
+  - var_in: seed_length
+    unit_in: unit
+    trait_name: seed_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Seed length from species descriptions; seed locules and cavities are not seeds.'
+  - var_in: seed_shape
+    unit_in: .na
+    trait_name: seed_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Seed shape (ellipsoid, flattened ellipsoid).'
+  - var_in: seed_width
+    unit_in: unit
+    trait_name: seed_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Second dimension of seed ''a x b'' sizes.'
+  - var_in: sex_type
+    unit_in: .na
+    trait_name: sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Freycinetia genus ''dioecious'', copied to the eight Freycinetia species.'
+  - var_in: stem_growth_habit
+    unit_in: .na
+    trait_name: stem_growth_habit
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Habit sentence terms: acaulescent or stemless, erect, decumbent, prostrate, creeping, tufted, rhizomatous, stoloniferous, sprawling.'
+  - var_in: vegetative_reproduction_ability
+    unit_in: .na
+    trait_name: vegetative_reproduction_ability
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'B. nana stolons (see clonal_spread_mechanism).'
+substitutions:
+  - trait_name: clonal_spread_mechanism
+    find: stolons
+    replace: stolon
+  - trait_name: flower_scent_production
+    find: fragrant
+    replace: scent_produced
+  - trait_name: flower_scent_production
+    find: fragrant scented
+    replace: scent_produced
+  - trait_name: flower_scent_production
+    find: scented
+    replace: scent_produced
+  - trait_name: flower_scent_production
+    find: sweet-smelling
+    replace: scent_produced
+  - trait_name: flower_visitor
+    find: beetles
+    replace: beetle
+  - trait_name: fruit_colour
+    find: purplish
+    replace: purple
+  - trait_name: fruit_colour
+    find: red orange brick_red
+    replace: red orange
+  - trait_name: fruit_type
+    find: baccate
+    replace: berry
+  - trait_name: fruit_type
+    find: baccate berry-like
+    replace: berry
+  - trait_name: fruit_type
+    find: berries
+    replace: berry
+  - trait_name: fruit_type
+    find: berries drupes
+    replace: berry drupe
+  - trait_name: fruit_type
+    find: drupaceous
+    replace: drupe
+  - trait_name: fruit_type
+    find: drupes
+    replace: drupe
+  - trait_name: leaf_base_shape
+    find: auricles
+    replace: auriculate
+  - trait_name: leaf_base_shape
+    find: sheathing auricles
+    replace: sheathing auriculate
+  - trait_name: leaf_glaucousness
+    find: slightly_glaucous
+    replace: subglaucous
+  - trait_name: leaf_margin
+    find: denticulate
+    replace: toothed_dentate
+  - trait_name: leaf_margin
+    find: denticulate entire
+    replace: toothed_dentate entire
+  - trait_name: leaf_margin
+    find: entire denticulate
+    replace: entire toothed_dentate
+  - trait_name: leaf_shape
+    find: elliptic lanceolate
+    replace: elliptical lanceolate
+  - trait_name: leaf_shape
+    find: linear oblong elliptic
+    replace: linear oblong elliptical
+  - trait_name: leaf_shape
+    find: narrowly_elliptic lanceolate oblanceolate
+    replace: narrowly_elliptical lanceolate oblanceolate
+  - trait_name: leaf_shape
+    find: narrowly_elliptic oblong linear lanceolate
+    replace: narrowly_elliptical oblong linear lanceolate
+  - trait_name: plant_climbing_mechanism
+    find: adventitious roots clasping
+    replace: adventitious_roots
+  - trait_name: plant_climbing_mechanism
+    find: roots clasping
+    replace: adventitious_roots
+  - trait_name: plant_growth_form
+    find: arborescent
+    replace: tree palmoid
+  - trait_name: plant_growth_form
+    find: arborescent shrubby
+    replace: tree palmoid shrub palmoid
+  - trait_name: plant_growth_form
+    find: arborescent shrubs
+    replace: tree palmoid shrub palmoid
+  - trait_name: plant_growth_form
+    find: climbers
+    replace: climber
+  - trait_name: plant_growth_form
+    find: climbers lianas shrubs
+    replace: climber climber_woody shrub palmoid
+  - trait_name: plant_growth_form
+    find: shrub
+    replace: shrub palmoid
+  - trait_name: plant_growth_form
+    find: shrub arborescent
+    replace: shrub palmoid tree palmoid
+  - trait_name: plant_growth_form
+    find: shrubs
+    replace: shrub palmoid
+  - trait_name: plant_growth_form
+    find: shrubs arborescent
+    replace: shrub palmoid tree palmoid
+  - trait_name: plant_growth_form
+    find: shrubs climber
+    replace: shrub palmoid climber
+  - trait_name: plant_growth_form
+    find: woody_climbers
+    replace: climber_woody
+  - trait_name: plant_growth_substrate
+    find: epiphytes
+    replace: epiphyte
+  - trait_name: plant_growth_substrate
+    find: epiphytes on_limestone
+    replace: epiphyte lithophyte
+  - trait_name: plant_growth_substrate
+    find: epiphytic
+    replace: epiphyte
+  - trait_name: plant_growth_substrate
+    find: growing_on_rocks
+    replace: lithophyte
+  - trait_name: root_system_type
+    find: prop roots
+    replace: prop_roots
+  - trait_name: root_system_type
+    find: prop-roots
+    replace: prop_roots
+  - trait_name: root_system_type
+    find: prop/stilt roots
+    replace: stilt_roots prop_roots
+  - trait_name: root_system_type
+    find: prop/stiltroots
+    replace: stilt_roots prop_roots
+  - trait_name: root_system_type
+    find: stilt roots
+    replace: stilt_roots
+  - trait_name: root_system_type
+    find: stilt/prop roots
+    replace: stilt_roots prop_roots
+  - trait_name: seed_shape
+    find: ellipsoid-flattened
+    replace: ellipsoid_flattened
+  - trait_name: stem_growth_habit
+    find: acaulescent tufted stolons rhizome
+    replace: acaulescent tufted stoloniferous rhizomatous
+  - trait_name: stem_growth_habit
+    find: tufted stemless
+    replace: tufted acaulescent
+  - trait_name: vegetative_reproduction_ability
+    find: stolons
+    replace: vegetative
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1: 'Syncarp versus fruit. Benstonea and Pandanus fruits are drupes (or phalanges of fused drupes) packed into a syncarp (compound fruiting head); Freycinetia berries likewise. Following the Casuarinaceae cone rule (Pungga_1996), syncarp size, shape and drupe number are unmapped (57 rows, 46 taxa) and the drupe or berry is scored as the fruit (fruit_length, fruit_width). Ripe syncarp colour (e.g. B. affinis "maturing red-orange to brick red", 11 rows) is scored as fruit_colour with entity_measured = syncarp, because the syncarp surface is the exposed drupe tops. Confirm, or decide on an infructescence trait for syncarp size.'
+  question2: 'Phalanges. In P. dubius, P. kaida, P. odorifer and P. tectorius the drupes are fused into phalanges (multi-carpellate units that fall as one). Phalange sizes are scored as fruit_length and fruit_width with entity_measured = phalange (17 rows; P. odorifer and P. tectorius by hand in raw/manual_rows.csv because the size is two clauses after the word). AusTraits (ABRS_2023) scores Pandanus polydrupes the same way. P. klossii "drupes ... 60--100 x 20--39 mm" are connate in phalanges but printed as drupes and scored without entity_measured. Confirm.'
+  question3: 'Dimension triples. Drupe sizes are printed "length x width x thickness" (e.g. B. affinis "20--22 x 4--6 x 2--3 mm"); the first is scored as fruit_length, the second as fruit_width, the third is not scored. Seed and anther "a x b" sizes are read as length x width. Confirm, or say whether the third dimension should go to fruit_height.'
+  question4: 'Growth form. Arborescent pandans score plant_growth_form = tree palmoid and pandan shrubs shrub palmoid (standing rule, user 2026-10-30), including the Freycinetia kamiana shrub ("Shrubs to 2 m tall or climber"). Ten species are described only as "pandan" (e.g. "Clustering pandan, trunk 2--7 m tall", "Massive acaulescent pandan") and get no growth form. Decide whether "pandan" alone should score palmoid (and with which noun).'
+  question5: 'Heights. (a) A height given for the trunk or stem ("Trunk to 2--3 m tall", "Shrubs with stems 30--60 cm tall") is scored as plant_height with entity_measured trunk or stem (9 species), following the tree-fern rule. (b) Freycinetia climber lengths "2--18 m long" (F. imbricata, F. javanica, F. sumatrana) and F. angustifolia "Climber on trees 1.5 m high or more" (minimum) are scored as plant_height_climbing_plant. Confirm both.'
+  question6: 'Leaf armature (help wanted). Prickles on leaf margins, the midrib beneath and the upper-surface pleats (length, colour, direction, spacing, position along the leaf) are the main diagnostic characters of Benstonea and Pandanus and are unmapped (about 190 rows, 49 taxa). config/traits.yml has no leaf prickle trait; plant_spinescence is a whole-plant density scale. Decide whether to propose a leaf armature trait centrally (e.g. presence and length of marginal prickles).'
+  question7: 'Leaf base. (a) Freycinetia leaf-base auricles ("leaf base auricles 15--20 x 3.5--5 mm") are scored as leaf_base_shape = auriculate (9 species). (b) "Base amplexicaul" (18 Benstonea and Pandanus species) and Pandanus genus "leaf-base half-amplexicaul" stay unmapped, as in Cheek_2012 question 8. The family "base sheathing" is not copied down because Freycinetia species score auriculate only. Confirm (a), and decide (b) together with Cheek_2012 question 8.'
+  question8: 'Cultivated and non-native taxa. P. amaryllifolius, P. kaida and P. tectorius (section "Cultivated Plants") are scored with a "cultivated" note (38 mapped rows, including copy-down); sizes of harvested or pruned plants are not scored. P. polycephalus and P. nitidus ("Not accepted as native", no Peninsular Malaysian record) are not scored. Confirm.'
+  question9: 'Corner (1978) observations. Scored with source_id Corner_1978 and no population region (place not stated): F. angustifolia flowering_time March--April, fruiting_time June and ripe syncarp colour pink orange red; P. dubius flower_visitor beetle ("flowering heads ... full of beetles"). Not scored: Corner''s "fragrant at night, pollinated by bats" for F. angustifolia, because the treatment''s own family and genus Ecology hedge it ("is likely to be pollinated by bats", "are thought to be pollinated by bats"). Confirm, and decide whether bat pollination should go to pollination_vector_possible.'
+  question10: 'Source inconsistency. F. imbricata "berry to 10--26 x 24 mm" (p. 161) is wider than its syncarp ("2.5--4.5 x 1.5--1.7 cm") and is not scored. Supply the intended berry size if known.'
+  question11: 'Queried values. Extremes printed with a query are not scored while the typical range is: B. affinis leaves "2--4(--?5) cm" wide, P. klossii "(--?11) cm" wide. P. dubius "length unknown but assumed to be over 180 x 11--17 cm" is not scored at all, including the width. Confirm, or say whether the P. dubius width 11--17 cm should be scored.'
