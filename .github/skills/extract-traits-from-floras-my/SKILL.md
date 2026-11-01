@@ -499,7 +499,10 @@ Bespoke checklist (decisions that changed per family):
   to this one. Keep them as unmapped rows.
 - **Labelled runs.** In "base attenuate, sometimes rounded, margin entire,
   apex ...", unlabelled alternatives belong to the last label until the next
-  label or measurement (Lim_2010).
+  label or measurement (Lim_2010). TFSS often puts the label last ("rounded,
+  subcordate or subcuneate at base, acuminate at apex"): the unlabelled
+  alternatives before an "at base" or "at apex" chunk belong to it
+  (Prance_1995).
 - **Adjacent organs.** Parse explicit organ shifts; young and mature bark
   separately; seed cones under fruit traits with `entity_measured = seed cone`
   (confirm per family, see Lim_2010 question 3). An angiosperm fruit cone
