@@ -1,0 +1,81 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Atuna latifrons,holotype,K,,Md. Haniff,SFN 21119,1938,"Kedah-Perak Boundary, G. Bintang, Bt. Kuala Ketang",Kedah/Perak,Peninsular Malaysia,"Type, p.16",Type of the basionym Parinari latifrons Kosterm.. Year from Distribution: 'known only from the type collection collected in 1938'.
+Atuna latifrons,isotype,BO,,Md. Haniff,SFN 21119,1938,"Kedah-Perak Boundary, G. Bintang, Bt. Kuala Ketang",Kedah/Perak,Peninsular Malaysia,"Type, p.16",Type of the basionym Parinari latifrons Kosterm.. Year from Distribution: 'known only from the type collection collected in 1938'.
+Atuna latifrons,isotype,GH,,Md. Haniff,SFN 21119,1938,"Kedah-Perak Boundary, G. Bintang, Bt. Kuala Ketang",Kedah/Perak,Peninsular Malaysia,"Type, p.16",Type of the basionym Parinari latifrons Kosterm.. Year from Distribution: 'known only from the type collection collected in 1938'.
+Atuna latifrons,isotype,SING,,Md. Haniff,SFN 21119,1938,"Kedah-Perak Boundary, G. Bintang, Bt. Kuala Ketang",Kedah/Perak,Peninsular Malaysia,"Type, p.16",Type of the basionym Parinari latifrons Kosterm.. Year from Distribution: 'known only from the type collection collected in 1938'.
+Atuna nannodes,holotype,BO,,Beccari,PB 2955,,Mt Matang,Sarawak,Borneo,"Type, p.17",Type of the basionym Parinari nannodes Kosterm..
+Atuna penangiana,holotype,SING,,Curtis,203,,Penang,Penang,Peninsular Malaysia,"Type, p.18",Type of the basionym Cyclandrophora penangiana Kosterm. & Prance.
+Atuna penangiana,isotype,K,,Curtis,203,,Penang,Penang,Peninsular Malaysia,"Type, p.18",Type of the basionym Cyclandrophora penangiana Kosterm. & Prance.
+Atuna penangiana,isotype,US,,Curtis,203,,Penang,Penang,Peninsular Malaysia,"Type, p.18",Type of the basionym Cyclandrophora penangiana Kosterm. & Prance.
+Atuna racemosa,,,,Rumphius,,1741,Amboin,Maluku,Indonesia,"Type, p.19","Type is an illustration: Rumphius, Herb. Amboin. 1 (1741) pl. 66; no specimen and no type status printed; the date is the publication year of the plate."
+Atuna racemosa subsp. racemosa,neotype,BO,,Kostermans & Anta,1136,,,,Java,"Type, p.20","Type of the synonym Parinari scabra Hassk.. Same collection number as the neotype of Petrocarya excelsa (A. racemosa subsp. excelsa, p.21), which is cited from Sumatra, Bangka, Lobok Besar: one of the two citations is probably wrong (question 6)."
+Atuna racemosa subsp. racemosa,holotype,K,,King's Collector,3436,,Larut,Perak,Peninsular Malaysia,"Type, p.20",Type of the synonym Parinari elata King.
+Atuna racemosa subsp. racemosa,isotype,DC,,King's Collector,3436,,Larut,Perak,Peninsular Malaysia,"Type, p.20",Type of the synonym Parinari elata King.
+Atuna racemosa subsp. racemosa,isotype,L,,King's Collector,3436,,Larut,Perak,Peninsular Malaysia,"Type, p.20",Type of the synonym Parinari elata King.
+Atuna racemosa subsp. racemosa,isotype,LE,,King's Collector,3436,,Larut,Perak,Peninsular Malaysia,"Type, p.20",Type of the synonym Parinari elata King.
+Atuna racemosa subsp. racemosa,isotype,P,,King's Collector,3436,,Larut,Perak,Peninsular Malaysia,"Type, p.20",Type of the synonym Parinari elata King.
+Atuna racemosa subsp. racemosa,isotype,SING,,King's Collector,3436,,Larut,Perak,Peninsular Malaysia,"Type, p.20",Type of the synonym Parinari elata King.
+Atuna racemosa subsp. excelsa,neotype,BO,,Kostermans & Anta,1136,,"Bangka, Lobok Besar",,Sumatra,"Type, p.21","Type of the basionym Petrocarya excelsa Jack. Same collection number as the neotype of Parinari scabra (subsp. racemosa, p.20), cited there from Java (question 6)."
+Atuna racemosa subsp. excelsa,isoneotype,A,,Kostermans & Anta,1136,,"Bangka, Lobok Besar",,Sumatra,"Type, p.21","Type of the basionym Petrocarya excelsa Jack. Same collection number as the neotype of Parinari scabra (subsp. racemosa, p.20), cited there from Java (question 6)."
+Atuna racemosa subsp. excelsa,isoneotype,K,,Kostermans & Anta,1136,,"Bangka, Lobok Besar",,Sumatra,"Type, p.21","Type of the basionym Petrocarya excelsa Jack. Same collection number as the neotype of Parinari scabra (subsp. racemosa, p.20), cited there from Java (question 6)."
+Atuna racemosa subsp. excelsa,isoneotype,L,,Kostermans & Anta,1136,,"Bangka, Lobok Besar",,Sumatra,"Type, p.21","Type of the basionym Petrocarya excelsa Jack. Same collection number as the neotype of Parinari scabra (subsp. racemosa, p.20), cited there from Java (question 6)."
+Atuna racemosa subsp. excelsa,isoneotype,PNH,,Kostermans & Anta,1136,,"Bangka, Lobok Besar",,Sumatra,"Type, p.21","Type of the basionym Petrocarya excelsa Jack. Same collection number as the neotype of Parinari scabra (subsp. racemosa, p.20), cited there from Java (question 6)."
+Atuna racemosa subsp. excelsa,isoneotype,SING,,Kostermans & Anta,1136,,"Bangka, Lobok Besar",,Sumatra,"Type, p.21","Type of the basionym Petrocarya excelsa Jack. Same collection number as the neotype of Parinari scabra (subsp. racemosa, p.20), cited there from Java (question 6)."
+Atuna racemosa subsp. excelsa,holotype,U,,Teijsmann,s.n.,,Lubu-Alang,,Sumatra,"Type, p.21",Type of the synonym Parinari asperula Miq..
+Atuna racemosa subsp. excelsa,isotype,K,,Teijsmann,s.n.,,Lubu-Alang,,Sumatra,"Type, p.21",Type of the synonym Parinari asperula Miq..
+Atuna racemosa subsp. excelsa,lectotype,SING,,King's Collector,10326,,Ulu Bubong,Perak,Peninsular Malaysia,"Type, p.21",Type of the synonym Parinari spicata King.
+Atuna racemosa subsp. excelsa,isolectotype,CAL,,King's Collector,10326,,Ulu Bubong,Perak,Peninsular Malaysia,"Type, p.21",Type of the synonym Parinari spicata King.
+Atuna racemosa subsp. excelsa,isolectotype,K,,King's Collector,10326,,Ulu Bubong,Perak,Peninsular Malaysia,"Type, p.21",Type of the synonym Parinari spicata King.
+Atuna racemosa subsp. excelsa,isolectotype,L,,King's Collector,10326,,Ulu Bubong,Perak,Peninsular Malaysia,"Type, p.21",Type of the synonym Parinari spicata King.
+Atuna racemosa subsp. excelsa,isolectotype,P,,King's Collector,10326,,Ulu Bubong,Perak,Peninsular Malaysia,"Type, p.21",Type of the synonym Parinari spicata King.
+Atuna racemosa subsp. excelsa,isolectotype,Z,,King's Collector,10326,,Ulu Bubong,Perak,Peninsular Malaysia,"Type, p.21",Type of the synonym Parinari spicata King.
+Atuna racemosa subsp. excelsa,lectotype,L,,Maingay,618,,Melaka,Melaka,Peninsular Malaysia,"Type, p.21",Type of the synonym Parinari maingayi King.
+Kostermanthus heteropetalus,holotype,SING,,Scortechini,2040,,'Deuseyun Hills' (Gopeng),Perak,Peninsular Malaysia,"Type, p.24",Type of the basionym Parinari heteropetala Scort. ex King.
+Kostermanthus heteropetalus,isotype,BO,,Scortechini,2040,,'Deuseyun Hills' (Gopeng),Perak,Peninsular Malaysia,"Type, p.24",Type of the basionym Parinari heteropetala Scort. ex King.
+Kostermanthus heteropetalus,isotype,CGE,,Scortechini,2040,,'Deuseyun Hills' (Gopeng),Perak,Peninsular Malaysia,"Type, p.24",Type of the basionym Parinari heteropetala Scort. ex King.
+Kostermanthus heteropetalus,isotype,K,,Scortechini,2040,,'Deuseyun Hills' (Gopeng),Perak,Peninsular Malaysia,"Type, p.24",Type of the basionym Parinari heteropetala Scort. ex King.
+Kostermanthus heteropetalus,isotype,Z,,Scortechini,2040,,'Deuseyun Hills' (Gopeng),Perak,Peninsular Malaysia,"Type, p.24",Type of the basionym Parinari heteropetala Scort. ex King.
+Kostermanthus heteropetalus,lectotype,CAL,,King's Collector,6917,,Larut,Perak,Peninsular Malaysia,"Type, p.24",Type of the synonym Parinari kunstleri King.
+Kostermanthus heteropetalus,isolectotype,BO,,King's Collector,6917,,Larut,Perak,Peninsular Malaysia,"Type, p.24",Type of the synonym Parinari kunstleri King.
+Kostermanthus heteropetalus,isolectotype,P,,King's Collector,6917,,Larut,Perak,Peninsular Malaysia,"Type, p.24",Type of the synonym Parinari kunstleri King.
+Kostermanthus heteropetalus,isolectotype,SING,,King's Collector,6917,,Larut,Perak,Peninsular Malaysia,"Type, p.24",Type of the synonym Parinari kunstleri King.
+Kostermanthus heteropetalus,isolectotype,Z,,King's Collector,6917,,Larut,Perak,Peninsular Malaysia,"Type, p.24",Type of the synonym Parinari kunstleri King.
+Kostermanthus malayanus,holotype,SING,,Md. Haniff,SFN 21059,1938,"Kedah-Perak Boundary, Bt. Belakang Parang",Kedah/Perak,Peninsular Malaysia,"Type, p.26",Type of the basionym Acioa malayana Kosterm.. Year from Distribution: 'known only from the type specimen ... collected in 1938'. Note: the Kew isotype lacks petals.
+Kostermanthus malayanus,isotype,K,,Md. Haniff,SFN 21059,1938,"Kedah-Perak Boundary, Bt. Belakang Parang",Kedah/Perak,Peninsular Malaysia,"Type, p.26",Type of the basionym Acioa malayana Kosterm.. Year from Distribution: 'known only from the type specimen ... collected in 1938'. Note: the Kew isotype lacks petals.
+Licania splendens,holotype,L,,Korthals,s.n.,,,,Sumatra,"Type, p.27",Type of the basionym Angelesia splendens Korth..
+Licania splendens,lectotype,K,,Maingay,619,,Melaka [Malacca],Melaka,Peninsular Malaysia,"Type, p.29",Type of the synonym Parinari nitida Hook. f..
+Licania splendens,lectotype,SING,,Curtis,147,,Penang Hill,Penang,Peninsular Malaysia,"Type, p.29",Type of the synonym Coccomelia nitida var. latifolia Ridl.. Lectotype designated in this treatment ('here chosen').
+Licania splendens,isolectotype,K,,Curtis,147,,Penang Hill,Penang,Peninsular Malaysia,"Type, p.29",Type of the synonym Coccomelia nitida var. latifolia Ridl.. Lectotype designated in this treatment ('here chosen').
+Maranthes corymbosa,holotype,L,,Blume,1516,,"Krawang Prov., near Tjiradja, Kitnah",,Java,"Type, p.30",Type of the homotypic synonym Parinari corymbosa (Blume) Miq..
+Maranthes corymbosa,isotype,BO,,Blume,1516,,"Krawang Prov., near Tjiradja, Kitnah",,Java,"Type, p.30",Type of the homotypic synonym Parinari corymbosa (Blume) Miq..
+Maranthes corymbosa,holotype,K,,Griffith,s.n. [20472],,Melaka [Malacca],Melaka,Peninsular Malaysia,"Type, p.30",Type of the synonym Parinari griffithiana Benth..
+Maranthes corymbosa,isotype,L,,Griffith,s.n. [20472],,Melaka [Malacca],Melaka,Peninsular Malaysia,"Type, p.30",Type of the synonym Parinari griffithiana Benth..
+Parastemon urophyllus,holotype,BM,,Wallich,2309,,Singapore,,Singapore,"Type, p.33",Type of the basionym Embelia urophylla Wall. ex A.DC..
+Parinari costata,holotype,L,,Korthals,s.n.,,,,Sumatra,"Type, p.37",Type of the basionym Lepidocarpa costata Korth..
+Parinari costata,isotype,U,,Korthals,s.n.,,,,Sumatra,"Type, p.37",Type of the basionym Lepidocarpa costata Korth..
+Parinari costata subsp. polyneura,holotype,U,,Teijsmann,HB 4537,,"Lampong Distr., Gunung [Goenoeng] Batin",,Sumatra,"Type, p.38",Type of the basionym Parinarium polyneurum Miq..
+Parinari costata subsp. polyneura,isotype,BO,,Teijsmann,HB 4537,,"Lampong Distr., Gunung [Goenoeng] Batin",,Sumatra,"Type, p.38",Type of the basionym Parinarium polyneurum Miq..
+Parinari costata subsp. rubiginosa,holotype,SING,,Ridley,16016,,"G. Tahan, Teku [Padang, Tehu]",Pahang,Peninsular Malaysia,"Type, p.39",Type of the basionym Parinari costata var. rubiginosa Ridl..
+Parinari costata subsp. rubiginosa,isotype,K,,Ridley,16016,,"G. Tahan, Teku [Padang, Tehu]",Pahang,Peninsular Malaysia,"Type, p.39",Type of the basionym Parinari costata var. rubiginosa Ridl..
+Parinari elmeri,holotype,UC,,Elmer,20806,,"Tawau Distr. [Elphinstone Prov.], Tawau [Tawao]",Sabah,Borneo,"Type, p.40",
+Parinari elmeri,isotype,BISH,,Elmer,20806,,"Tawau Distr. [Elphinstone Prov.], Tawau [Tawao]",Sabah,Borneo,"Type, p.40",
+Parinari elmeri,isotype,BO,,Elmer,20806,,"Tawau Distr. [Elphinstone Prov.], Tawau [Tawao]",Sabah,Borneo,"Type, p.40",
+Parinari elmeri,isotype,BR,,Elmer,20806,,"Tawau Distr. [Elphinstone Prov.], Tawau [Tawao]",Sabah,Borneo,"Type, p.40",
+Parinari elmeri,isotype,C,,Elmer,20806,,"Tawau Distr. [Elphinstone Prov.], Tawau [Tawao]",Sabah,Borneo,"Type, p.40",
+Parinari elmeri,isotype,DC,,Elmer,20806,,"Tawau Distr. [Elphinstone Prov.], Tawau [Tawao]",Sabah,Borneo,"Type, p.40",
+Parinari elmeri,isotype,DS,,Elmer,20806,,"Tawau Distr. [Elphinstone Prov.], Tawau [Tawao]",Sabah,Borneo,"Type, p.40",
+Parinari elmeri,isotype,F,,Elmer,20806,,"Tawau Distr. [Elphinstone Prov.], Tawau [Tawao]",Sabah,Borneo,"Type, p.40",
+Parinari elmeri,isotype,GH,,Elmer,20806,,"Tawau Distr. [Elphinstone Prov.], Tawau [Tawao]",Sabah,Borneo,"Type, p.40",
+Parinari elmeri,isotype,K,,Elmer,20806,,"Tawau Distr. [Elphinstone Prov.], Tawau [Tawao]",Sabah,Borneo,"Type, p.40",
+Parinari elmeri,isotype,L,,Elmer,20806,,"Tawau Distr. [Elphinstone Prov.], Tawau [Tawao]",Sabah,Borneo,"Type, p.40",
+Parinari elmeri,isotype,MO,,Elmer,20806,,"Tawau Distr. [Elphinstone Prov.], Tawau [Tawao]",Sabah,Borneo,"Type, p.40",
+Parinari elmeri,isotype,P,,Elmer,20806,,"Tawau Distr. [Elphinstone Prov.], Tawau [Tawao]",Sabah,Borneo,"Type, p.40",
+Parinari elmeri,isotype,S,,Elmer,20806,,"Tawau Distr. [Elphinstone Prov.], Tawau [Tawao]",Sabah,Borneo,"Type, p.40",
+Parinari elmeri,isotype,Z,,Elmer,20806,,"Tawau Distr. [Elphinstone Prov.], Tawau [Tawao]",Sabah,Borneo,"Type, p.40",
+Parinari oblongifolia,holotype,K,,Griffith,s.n.,,Melaka [Malacca],Melaka,Peninsular Malaysia,"Type, p.41",
+Parinari oblongifolia,isotype,BO,,Griffith,s.n.,,Melaka [Malacca],Melaka,Peninsular Malaysia,"Type, p.41",
+Parinari oblongifolia,holotype,K,,Wallich,7520,,Singapore,,Singapore,"Type, p.41","Type of the synonym Parinari wallichiana R.Br. ex Hook.f.. Taxonomy (p.42): three sheets under Wallich 7520; the two Singapore sheets are the types of P. wallichiana (= P. oblongifolia); the third, '7520 SUPPL.' from Penang, is Dipterocarpus cornutus. All sterile."
+Parinari parva,holotype,K,,Boden Kloss,14676,,"Mentawai Islands, Sipora Island, Sioban",,Sumatra,"Type, p.44",
+Parinari parva,isotype,BO,,Boden Kloss,14676,,"Mentawai Islands, Sipora Island, Sioban",,Sumatra,"Type, p.44",
+Parinari rigida,holotype,SING,,Sinclair & Kiah,SFN 40773,,34th mile on Terengganu-Besut Road,Terengganu,Peninsular Malaysia,"Type, p.45",
+Parinari rigida,isotype,E,,Sinclair & Kiah,SFN 40773,,34th mile on Terengganu-Besut Road,Terengganu,Peninsular Malaysia,"Type, p.45",

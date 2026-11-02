@@ -1,0 +1,656 @@
+source:
+  primary:
+    key: Prance_2012
+    bibtype: InBook
+    year: 2012
+    author: G. T. Prance
+    title: Chrysobalanaceae
+    booktitle: 'Flora of Peninsular Malaysia, Series II: Seed Plants, Volume 3'
+    editor: R. Kiew and R. C. K. Chung and L. G. Saw and E. Soepadmo
+    series: Malayan Forest Records No. 49
+    publisher: Forest Research Institute Malaysia
+    place: Kepong, Selangor, Malaysia
+    pages: 13--46
+    isbn: 978-967-5221-73-6
+    doi: 10.26525/FPM23001
+  secondary:
+    key: Prance_1988
+    bibtype: Article
+    year: 1988
+    author: G. T. Prance and F. White
+    title: 'The genera of Chrysobalanaceae: a study in practical and theoretical taxonomy and its relevance to evolutionary biology'
+    journal: Philosophical Transactions of the Royal Society of London, Series B
+    volume: 320
+    pages: 1--184
+  secondary_2:
+    key: Corner_1988
+    bibtype: Book
+    year: 1988
+    author: E. J. H. Corner
+    title: Wayside Trees of Malaya, 3rd edition
+    publisher: Malayan Nature Society
+    place: Kuala Lumpur, Malaysia
+contributors:
+  data_collectors:
+    - last_name: Prance
+      given_name: G. T.
+      ORCID: .na
+      affiliation: Royal Botanic Gardens, Kew, Richmond, Surrey, U.K.
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '2012'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description: |
+    Morphological traits of the Chrysobalanaceae of Peninsular Malaysia (6
+    genera, 14 species and 5 subspecies: Atuna 4, Kostermanthus 2, Licania 1,
+    Maranthes 1, Parastemon 1, Parinari 5), extracted from the family
+    treatment in the Flora of Peninsular Malaysia.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    Born-digital PDF (assets/myflora_metadata.csv); rows come from the PDF
+    text layer (pdf pages 7--40, printed 13--46) read with
+    flora_read_pdf_lines() and segmented by raw/segment_source.R. No page
+    was image-checked: flora_layer_flags() flagged only the front matter,
+    the plate (pdf 42, printed 335; photographs with credits only), the
+    full-page Figures 1--6 and a map page (pdf 16, 19, 22, 26, 28, 37, 40;
+    low text, captions in the layer); no bad glyphs and no page-number
+    breaks in the treatment. raw/build_trait_data.R splits each family,
+    genus, species and subspecies description into sentences, ';' pieces and
+    ',' clauses, assigns each clause to an organ and scores configured
+    traits; every other clause stays verbatim as an unmapped row.
+    Parenthetical asides that are not numbers ('(elsewhere ...)', '(except
+    in P. congolana ...)') are taken out before scoring and kept as unmapped
+    rows. Unqualified single-level family and genus values are copied to
+    member taxa silent on the trait when every member that states the trait
+    agrees (inferred_from_family / inferred_from_genus); subspecies silent
+    on a trait inherit their species description. Ranges are minimum and
+    maximum, parenthetical extremes are extreme_range rows, a single or
+    "c." value is a mean and "to" values are maxima. Hedged statements are
+    not scored. Population region is Peninsular Malaysia for species and
+    subspecies descriptions (FPM guide); copied family and genus values and
+    cited observations have none. Keys and figure captions are not trait
+    evidence.
+  original_file: |
+    Chrysobalanaceae.pdf (Prance 2012, Flora of Peninsular Malaysia Series
+    II vol. 3, pp. 13--46)
+  notes: |
+    data.csv is raw/trait_data.csv with the columns added by
+    flora_make_data(). Taxon names are as printed. All 14 accepted species
+    and 5 subspecies (Atuna racemosa subsp. racemosa and subsp. excelsa;
+    Parinari costata subsp. costata, polyneura and rubiginosa) have a
+    description and are scored; there are no excluded or incompletely known
+    taxa. The Atuna racemosa and Parinari costata species descriptions are
+    scored at species rank, their subspecies descriptions at subspecies
+    rank; the P. costata subspecies descriptions give differences only.
+    Atuna latifrons and Kostermanthus malayanus are known only from the type
+    collection and have no fruits; Atuna penangiana fruits are described
+    from immature material and their size is not scored. Of 1,872 rows in
+    raw/trait_data.csv, 826 are mapped (589 from the taxa's own
+    descriptions and cited observations, 117 copied from family, 52 from
+    genus and 68 inherited by subspecies from species) and 1,046 are
+    unmapped: 914 description clauses and 132 sentences of Distribution,
+    Ecology, Conservation status, Uses, Taxonomy, Note and vernacular
+    names. Most frequent unmapped characters: stipules (shape, size,
+    persistence), receptacle indumentum and shape, sepal and petal shape,
+    indumentum and number, lateral vein number and relief, leaf and petiole
+    glands, leaf texture (chartaceous, coriaceous), inner bark and sapwood
+    colour, twig and petiole indumentum, epicarp (verrucose, lenticellate),
+    endocarp texture and thickness, filaments, pedicels, cotyledons,
+    altitude, habitat and conservation status (summary in
+    raw/unmapped_terms.csv). Flower visitors, scent and dispersers cited in
+    the Licania splendens and Maranthes corymbosa Ecology paragraphs
+    (Prance & White 1988; Corner 1988) are in raw/manual_rows.csv with
+    source_id and no population region; the hedged bat pollination of
+    Maranthes and the genus statements on hornbills and wild boar eating
+    Parinari fruits are not scored. Source repairs (missing punctuation
+    only) are in raw/source_fixes.csv. Types and types of synonyms are in
+    raw/Prance_2012_vouchers.csv; the figures are reproduced from other
+    floras and give no specimens.
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: bark_colour
+    unit_in: .na
+    trait_name: bark_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Colour of the outer bark (''Bark grey-brown, smooth''); every colour word scored in text order; patches and colours that change with age not scored.'
+  - var_in: bark_texture
+    unit_in: .na
+    trait_name: bark_texture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Outer bark texture (''smooth'', ''coarsely flaky''); states that change with age (''becoming smooth'') not scored.'
+  - var_in: dispersers
+    unit_in: .na
+    trait_name: dispersers
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Dispersers named in species Ecology paragraphs from cited works (Prance & White 1988): fruit pigeon (Licania splendens), hornbills and fruit pigeons (Maranthes corymbosa), scored as birds.'
+  - var_in: flower_anther_attachment
+    unit_in: .na
+    trait_name: flower_anther_attachment
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Family description ''anthers small, dorsifixed''; copied to all species.'
+  - var_in: flower_anther_colour
+    unit_in: .na
+    trait_name: flower_anther_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''anthers yellow'' in species descriptions.'
+  - var_in: flower_anther_dehiscence
+    unit_in: .na
+    trait_name: flower_anther_dehiscence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Family description ''anthers ... longitudinally dehiscent''; copied to all species.'
+  - var_in: flower_bract_length
+    unit_in: unit
+    trait_name: flower_bract_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Length of bracts and bracteoles (''bracts and bracteoles to 15 mm long''); entity_measured names them.'
+  - var_in: flower_colour
+    unit_in: .na
+    trait_name: flower_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Petal colour (''petals white'', ''petals blue or white''); tinges and markings not scored; filament and style colours unmapped.'
+  - var_in: flower_fertile_stamens_count
+    unit_in: unit
+    trait_name: flower_fertile_stamens_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Stamen number (''stamens 13--20'', ''fertile stamens 7--9 with tooth-like staminodes opposite'', ''stamens 2 fertile with 3 sterile staminodes''); staminodes not counted (question 5).'
+  - var_in: flower_filament_length
+    unit_in: unit
+    trait_name: flower_filament_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Filament length (''filaments 10--12 mm long'').'
+  - var_in: flower_length
+    unit_in: unit
+    trait_name: flower_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Flower length (''Flowers 8--17 mm long'').'
+  - var_in: flower_perianth_symmetry
+    unit_in: .na
+    trait_name: flower_perianth_symmetry
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Family and genus descriptions (''Flowers bisexual, zygomorphic''); actinomorphic scored as actinomorphic_general; genus values copied to member species.'
+  - var_in: flower_petal_length
+    unit_in: unit
+    trait_name: flower_petal_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Petal length (''petals ... 10--11 mm long''); the unequal petals of Kostermanthus heteropetalus (''largest to 15 mm'', ''others ... to 6 mm'') are unmapped.'
+  - var_in: flower_scent_production
+    unit_in: .na
+    trait_name: flower_scent_production
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Maranthes corymbosa Ecology: ''Corner (1988) noted that the flowers smell of milk and seaweed''.'
+  - var_in: flower_sepal_length
+    unit_in: unit
+    trait_name: flower_sepal_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Sepal length (''sepals ... 5--10 mm long'').'
+  - var_in: flower_stamen_length
+    unit_in: unit
+    trait_name: flower_stamen_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Stamen length when stated for the stamen rather than the filament (''stamens 13--20, 8--15 mm long'').'
+  - var_in: flower_structural_carpels_count
+    unit_in: unit
+    trait_name: flower_structural_carpels_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Carpel number from family and genus descriptions (''gynoecium of 1--3 carpels'', ''ovary 1-carpellate'', ''ovary 2--3-carpellate'').'
+  - var_in: flower_structural_sex_type
+    unit_in: .na
+    trait_name: flower_structural_sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Family and genus descriptions (''Flowers bisexual''); genus values copied to member species.'
+  - var_in: flower_style_length
+    unit_in: unit
+    trait_name: flower_style_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Style length (''style to 15 mm long'').'
+  - var_in: flower_tube_length
+    unit_in: unit
+    trait_name: flower_tube_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Length of the receptacle tube (hypanthium), entity_measured ''receptacle tube'' (question 2); for ''L x W'' sizes the first dimension (question 1).'
+  - var_in: flower_visitor
+    unit_in: .na
+    trait_name: flower_visitor
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Maranthes corymbosa Ecology citing Prance & White (1988): flowers visited by Trigona bees (stingless_bee), moths and the butterfly Graphium scarpedon. Bat pollination (''suggested ... may also be pollinated'') is hedged and not scored.'
+  - var_in: fruit_colour
+    unit_in: .na
+    trait_name: fruit_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Colour of the ripe fruit (''Fruits ripening bright red'') or epicarp (''epicarp yellow-brown''); unripe colours (''pale green or cream-white, ripening pink'') and warts not scored.'
+  - var_in: fruit_fleshiness
+    unit_in: .na
+    trait_name: fruit_fleshiness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''Fruits fleshy'', ''mesocarp thin, fleshy'', ''epicarp smooth and fleshy''; family ''Fruit a fleshy drupe (rarely dry)'' kept at family rank (qualified, not copied).'
+  - var_in: fruit_length
+    unit_in: unit
+    trait_name: fruit_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Fruit length (''2.5--4 cm long''). Immature fruits (Atuna penangiana) not scored.'
+  - var_in: fruit_surface_hairs
+    unit_in: .na
+    trait_name: fruit_surface_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Epicarp indumentum (''epicarp glabrous''); Atuna and Kostermanthus genus values copied to member species.'
+  - var_in: fruit_type
+    unit_in: .na
+    trait_name: fruit_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Family description ''Fruit a fleshy drupe''; copied to all species.'
+  - var_in: fruit_wall_thickness
+    unit_in: unit
+    trait_name: fruit_wall_thickness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Mesocarp thickness (''mesocarp 5--8 mm thick'', ''mesocarp 2--2.5 mm''), entity_measured ''mesocarp'' (question 3); endocarp thickness unmapped.'
+  - var_in: fruit_width
+    unit_in: unit
+    trait_name: fruit_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Fruit width (''1.5--2 cm wide'') or a stated diameter (''to 7.5 cm diameter'').'
+  - var_in: inflorescence_length
+    unit_in: unit
+    trait_name: inflorescence_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Inflorescence length (''axillary racemes 3--7 cm long''); widths (''6--12 cm across'', ''7--12 cm broad'') unmapped.'
+  - var_in: inflorescence_type
+    unit_in: .na
+    trait_name: inflorescence_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Inflorescence form and position (''axillary racemes or little-branched panicles''); ''raceme-like reduced panicles'' (Parinari elmeri) scored as panicle only; cymules not scored.'
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Leaf apex (''apex acuminate with acumen 3--10 mm long''); a blunt acumen scored as acuminate.'
+  - var_in: leaf_base_shape
+    unit_in: .na
+    trait_name: leaf_base_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Leaf base (''base rounded to subcordate''); subcordate and subcuneate have no level and are not scored; ''round'' scored as rounded.'
+  - var_in: leaf_compoundness
+    unit_in: .na
+    trait_name: leaf_compoundness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Family description ''Leaves simple''; copied to all species.'
+  - var_in: leaf_hairs_adult_leaves
+    unit_in: .na
+    trait_name: leaf_hairs_adult_leaves
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Per-surface indumentum of the lamina: hairy when a surface is hairy, glabrous when both are; not scored when a surface is young, glabrescent or partly hairy (''except for sparsely pilose venation''), or for alternatives. Hairs filling the stomatal cavities beneath (Parinari) scored as hairy (question 4).'
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'First dimension of the lamina size ''L x W'' (question 1).'
+  - var_in: leaf_length_to_width_ratio
+    unit_in: unit
+    trait_name: leaf_length_to_width_ratio
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Printed leaf index ''(index 1.7--2.7)'' of the Parinari costata subspecies (question 7).'
+  - var_in: leaf_margin
+    unit_in: .na
+    trait_name: leaf_margin
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Family description ''Leaves simple, entire''; copied to all species.'
+  - var_in: leaf_phyllotaxis
+    unit_in: .na
+    trait_name: leaf_phyllotaxis
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Family description ''Leaves ... alternate''; copied to all species.'
+  - var_in: leaf_shape
+    unit_in: .na
+    trait_name: leaf_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Lamina shape; hyphenated shapes (''oblong-lanceolate'') score both levels.'
+  - var_in: leaf_surface_reflectivity
+    unit_in: .na
+    trait_name: leaf_surface_reflectivity
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''shiny above'', ''glossy above''.'
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Second dimension of the lamina size ''L x W'' (question 1).'
+  - var_in: petiole_length
+    unit_in: unit
+    trait_name: petiole_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Petiole length (''petioles 2--4 mm long'', ''petioles 2--5 mm'').'
+  - var_in: plant_diameter_breast_height
+    unit_in: unit
+    trait_name: plant_diameter_breast_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Bole diameter (''bole to 50 cm diameter''); ''bole to 30 m tall and 1 m diameter'' read as a maximum.'
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Habit (''Medium-sized tree'', ''Big tree to 40 m tall or a shrub'', ''Big tree ... but sometimes a shrub'').'
+  - var_in: plant_height
+    unit_in: unit
+    trait_name: plant_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Plant height (''tree to 30 m tall'', ''Small tree to 10 m''); ''beginning to flower at 5 m'' and bole height unmapped.'
+  - var_in: sex_type
+    unit_in: .na
+    trait_name: sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''Flowers polygamo-dioecious'' (Parastemon urophyllus); family ''rarely polygamous'' kept at family rank.'
+  - var_in: stem_base_form
+    unit_in: .na
+    trait_name: stem_base_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Buttresses and fluting of the bole (''often fluted with steep buttresses at base''); ''unbuttressed'' and ''fluted or not'' not scored.'
+substitutions:
+  - trait_name: bark_colour
+    find: 'brown greyish'
+    replace: 'brown grey'
+  - trait_name: bark_colour
+    find: 'grey light_brown'
+    replace: 'grey brown_light'
+  - trait_name: bark_colour
+    find: 'greyish brown'
+    replace: 'grey brown'
+  - trait_name: bark_colour
+    find: 'greyish white'
+    replace: 'grey white'
+  - trait_name: bark_colour
+    find: 'whitish grey brown'
+    replace: 'white grey brown'
+  - trait_name: dispersers
+    find: 'bird'
+    replace: 'birds'
+  - trait_name: dispersers
+    find: 'fruit_pigeon'
+    replace: 'birds'
+  - trait_name: flower_anther_dehiscence
+    find: 'longitudinally_dehiscent'
+    replace: 'longitudinal_slit'
+  - trait_name: flower_colour
+    find: 'blue white'
+    replace: 'blue_purple white_cream'
+  - trait_name: flower_colour
+    find: 'green white'
+    replace: 'green white_cream'
+  - trait_name: flower_colour
+    find: 'white'
+    replace: 'white_cream'
+  - trait_name: flower_colour
+    find: 'white bluish'
+    replace: 'white_cream blue_purple'
+  - trait_name: flower_colour
+    find: 'white purple'
+    replace: 'white_cream blue_purple'
+  - trait_name: flower_perianth_symmetry
+    find: 'actinomorphic'
+    replace: 'actinomorphic_general'
+  - trait_name: flower_perianth_symmetry
+    find: 'actinomorphic zygomorphic'
+    replace: 'actinomorphic_general zygomorphic'
+  - trait_name: flower_scent_production
+    find: 'smell'
+    replace: 'scent_produced'
+  - trait_name: flower_visitor
+    find: 'Trigona_bees moths butterfly'
+    replace: 'stingless_bee moth butterfly'
+  - trait_name: fruit_surface_hairs
+    find: 'tomentose'
+    replace: 'hairy'
+  - trait_name: inflorescence_type
+    find: 'axillary panicle spikes'
+    replace: 'axillary panicle spike'
+  - trait_name: inflorescence_type
+    find: 'axillary raceme panicle racemose'
+    replace: 'axillary raceme panicle'
+  - trait_name: inflorescence_type
+    find: 'cyme cymose panicle'
+    replace: 'cyme panicle'
+  - trait_name: inflorescence_type
+    find: 'racemose paniculate cymose'
+    replace: 'raceme panicle cyme'
+  - trait_name: leaf_apex_shape
+    find: 'acuminate acumen'
+    replace: 'acuminate'
+  - trait_name: leaf_apex_shape
+    find: 'blunt_acumen'
+    replace: 'acuminate'
+  - trait_name: leaf_apex_shape
+    find: 'bluntly_acuminate'
+    replace: 'acuminate'
+  - trait_name: leaf_base_shape
+    find: 'round'
+    replace: 'rounded'
+  - trait_name: leaf_shape
+    find: 'broadly_elliptic'
+    replace: 'widely_elliptical'
+  - trait_name: leaf_shape
+    find: 'broadly_ovate'
+    replace: 'widely_ovate'
+  - trait_name: leaf_shape
+    find: 'elliptic'
+    replace: 'elliptical'
+  - trait_name: leaf_shape
+    find: 'elliptic oblong'
+    replace: 'elliptical oblong'
+  - trait_name: leaf_shape
+    find: 'elliptic oblong lanceolate'
+    replace: 'elliptical oblong lanceolate'
+  - trait_name: leaf_shape
+    find: 'elliptic oblong ovate'
+    replace: 'elliptical oblong ovate'
+  - trait_name: leaf_shape
+    find: 'elliptic ovate'
+    replace: 'elliptical ovate'
+  - trait_name: leaf_shape
+    find: 'elliptic round'
+    replace: 'elliptical orbicular'
+  - trait_name: leaf_shape
+    find: 'narrowly_elliptic'
+    replace: 'narrowly_elliptical'
+  - trait_name: leaf_shape
+    find: 'oblong broadly_elliptic'
+    replace: 'oblong widely_elliptical'
+  - trait_name: leaf_shape
+    find: 'oblong elliptic'
+    replace: 'oblong elliptical'
+  - trait_name: leaf_shape
+    find: 'oblong elliptic lanceolate'
+    replace: 'oblong elliptical lanceolate'
+  - trait_name: leaf_shape
+    find: 'ovate oblong elliptic'
+    replace: 'ovate oblong elliptical'
+  - trait_name: leaf_surface_reflectivity
+    find: 'glossy'
+    replace: 'shiny'
+  - trait_name: plant_growth_form
+    find: 'trees'
+    replace: 'tree'
+  - trait_name: plant_growth_form
+    find: 'trees shrubs'
+    replace: 'tree shrub'
+  - trait_name: plant_growth_form
+    find: 'trees shrubs subshrubs'
+    replace: 'tree shrub subshrub'
+  - trait_name: sex_type
+    find: 'polygamo-dioecious'
+    replace: 'polygamodioecious'
+  - trait_name: stem_base_form
+    find: 'buttress'
+    replace: 'buttressed'
+  - trait_name: stem_base_form
+    find: 'fluted buttress'
+    replace: 'fluted buttressed'
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1: 'Dimension pairs. ''a x b'' sizes are read as length x width for the lamina (all species and subspecies with a size) and the receptacle tube of Maranthes corymbosa (''2.5--4 x 2.5--4 mm''). Confirm.'
+  question2: 'Receptacle tube. The hypanthium of Chrysobalanaceae is printed as the ''receptacle'' or ''receptacle tube'' (''receptacle narrow and cylindrical, 8--13 mm long''). Its length is scored as flower_tube_length with entity_measured ''receptacle tube'' (31 rows, family to subspecies). Confirm the mapping, or keep the receptacle unmapped.'
+  question3: 'Mesocarp thickness (''mesocarp 5--8 mm thick'', ''mesocarp 2--2.5 mm'') is scored as fruit_wall_thickness with entity_measured ''mesocarp'' (11 rows, 7 taxa); the traits.yml definition says fruit wall thickness often means the fleshy layers. Endocarp thickness (''endocarp 1--3 mm'', ''7--13 mm thick'') is unmapped. Confirm, or score the endocarp too, or keep both unmapped.'
+  question4: 'Parinari leaf hairs. ''with stomatal cavities filled with grey lanate pubescence beneath'' (P. oblongifolia) and ''the lower surface with stomatal cavities filled with pubescence'' (P. rigida) are scored leaf_hairs_adult_leaves hairy. P. costata is not scored, because its sentence also describes very young leaves. Confirm that hairs confined to stomatal cavities make a leaf hairy.'
+  question5: 'Stamen counts. ''stamens c. 20 ... with tooth-like staminodes opposite'' (Atuna) and the family ''stamens 2--100 ... all fertile or some without anthers'' are scored as flower_fertile_stamens_count, assuming the printed count excludes the staminodes (43 rows). Where the text says ''fertile stamens 7--9'' or ''stamens 2 fertile'' the count is explicit. Confirm, or score the family range only as a total stamen count (no trait).'
+  question6: 'Voucher conflict. Kostermans & Anta 1136 (BO) is cited as the neotype of Parinari scabra under Atuna racemosa subsp. racemosa from ''Java'' (p. 20) and as the neotype of Petrocarya excelsa under subsp. excelsa from ''Sumatra, Bangka, Lobok Besar'' (p. 21). Both are kept in raw/Prance_2012_vouchers.csv as printed. Check Flora Malesiana 1, 10 (1989) and decide which citation is correct.'
+  question7: 'Leaf index. The Parinari costata subspecies give ''(index 1.7--2.7)'' and ''(index 2.3--3.65)'' after the lamina size; read as length divided by width and scored as leaf_length_to_width_ratio (4 rows). Confirm.'
+  question8: 'Petal colour of Kostermanthus heteropetalus: ''petals white tinged pink or deep red''. It is unclear whether ''deep red'' is an alternative petal colour or part of the tinge, so the clause is unmapped. Decide: score white only, white and red, or keep unmapped.'
