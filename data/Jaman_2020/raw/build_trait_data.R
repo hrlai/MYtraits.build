@@ -84,7 +84,7 @@ pieces <- seq_len(nrow(desc_paras)) |>
 # piece); `vt` overrides the value type of a single value ("at least 30 cm" ->
 # minimum, "largest 70 cm" -> maximum). lw(): length and width of "a x b",
 # each parsed from its own text so "to" and "c." keep their meaning
-# (flora_parse_dims() drops a leading "to"). First dimension is length
+# ("to c. a x b" is two maxima here). First dimension is length
 # (Jaman_2020 question 6).
 k <- function(piece, trait, value, clean = value, q = NA, em = NA, notes = NA) {
   tibble(
