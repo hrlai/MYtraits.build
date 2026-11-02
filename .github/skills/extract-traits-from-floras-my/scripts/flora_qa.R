@@ -43,7 +43,10 @@ flora_qa <- function(
     "entity_measured",
     "trait_scoring_method",
     "value_type",
-    "trait_value_clean"
+    "trait_value_clean",
+    # rows citing different works are separate observations, as in
+    # flora_merge_duplicate_keys() (Kiew_2010 B. fungosa flower_visitor)
+    "source_id"
   )
   # trait_scoring_method is built from rank_scored_from (flora_make_data), so
   # rows that differ only in rank_scored_from are distinct keys at build time.
@@ -56,11 +59,13 @@ flora_qa <- function(
     ungroup() |>
     count(trait, name = "n_rows")
 
-  # 3. different values for the same key (cannot be merged automatically)
+  # 3. different values for the same key (cannot be merged automatically).
+  # Numeric rows count too: two maxima for one key ("1.5--7.5 cm, largest to
+  # 10 cm", Jaman_2020) also fail dataset_test() with "cannot pivot wider".
   k2 <- setdiff(intersect(key, names(mapped2)), "trait_value_clean")
   out$conflicting_keys <- mapped2 |>
     group_by(across(all_of(k2))) |>
-    filter(n_distinct(trait_value_clean) > 1, value_type == "mode") |>
+    filter(n_distinct(trait_value_clean) > 1) |>
     ungroup() |>
     count(trait, name = "n_rows")
 
