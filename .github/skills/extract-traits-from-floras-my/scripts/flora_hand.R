@@ -71,6 +71,12 @@ flora_hand <- function(taxon, pages, rank = "species") {
   # "<organ> | <character>" so flora_unmapped_summary() can group it; `notes`
   # becomes the optional third "| <detail>" field.
   un <- function(raw, what, notes = "", ...) {
+    # One "organ | character" pair per row: "a | b; c | d" (or more than three
+    # fields) breaks flora_unmapped_summary() grouping. Split it into two rows.
+    stopifnot(
+      lengths(strsplit(what, "|", fixed = TRUE)) <= 3,
+      !grepl("\\|[^|]*;[^|]*\\|", what)
+    )
     if (nzchar(notes)) {
       stopifnot(grepl("|", what, fixed = TRUE))
       what <- paste(what, notes, sep = " | ")

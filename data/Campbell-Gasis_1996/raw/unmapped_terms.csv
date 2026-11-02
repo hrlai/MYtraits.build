@@ -9,7 +9,7 @@ exudate,absent (negative phrase),1,Scyphostegia,without exudate,375
 family,genus and species count; distribution,1,Scyphostegiaceae,A monogeneric family with one species endemic to Borneo.,375
 female flower,"pedicel length vs male; perianth lobe vs tube length, persistence (hedged), posture in fruit",1,Scyphostegia,"female flowers: pedicels shorter than in males; perianth lobes longer than the tube, equal, more or less persistent, recurved in fruit",375
 female raceme unit,length (candidate),1,Scyphostegia borneensis,raceme units 5--8 mm long,376
-flower,anthesis sequence; pedicel,1,Scyphostegia,"developing one at time from the base upwards on each raceme-like unit; pedicel flattened, persistent",375
+flower,anthesis sequence,1,Scyphostegia,developing one at time from the base upwards on each raceme-like unit,375
 flowering and fruiting time,all year 'with local variation' (qualified; not scored),1,Scyphostegia borneensis,Flowering and fruiting all the year around with local variation.,376
 fruit,"persistent style, ribs, dehiscence pattern",1,Scyphostegia,"crowned by persistent styles and stigmas, 9--12-ribbed, at maturity breaking up at the mouth into 9--12 segments",376
 funicle,length,1,Scyphostegia borneensis,funicle c. 3 mm long,376
@@ -26,6 +26,7 @@ ovary,"locule number (not scored as carpels: 9--12 stigmatic lobes and parietal 
 ovary,size (dimension not stated),1,Scyphostegia borneensis,ovary c. 4 mm,376
 ovules,"number, position, aril",1,Scyphostegia,"ovules numerous, crowded on the slightly convex base of the ovary, surrounded at base by a fleshy, collar-like aril",376
 pedicel,length relative to male,1,Scyphostegia borneensis,pedicels shorter than in the males,376
+pedicel,"shape, persistence",1,Scyphostegia,"pedicel flattened, persistent",375
 pedicel,thickness,1,Scyphostegia borneensis,pedicels ... c. 1 mm thick,376
 perianth,"aestivation, shape, petaloid, fusion (degree not stated), texture",1,Scyphostegia,"imbricate in bud, orbicular, petaloid, connate, fleshy",375
 petiole,furrow,1,Scyphostegia borneensis,furrowed above,376
