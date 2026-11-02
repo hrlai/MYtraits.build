@@ -1,2 +1,3 @@
 taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
-Cibotium barometz,figure specimen,FRI,,FRI,54526,,,,Peninsular Malaysia,"Figure 1 caption, p.121","All figure elements from FRI 54526."
+Cibotium barometz,type,,,Linnaeus,,,China,,China,"Type, p.120","No status word printed; type of the basionym Polypodium barometz L. Printed ""Type material not traced [Jarvis, Order Out of Chaos (2007) 759]""."
+Cibotium barometz,figure specimen,FRI,,FRI,54526,,,,,"Figure 1 caption, p.121","All figure elements from FRI 54526; series code. No locality printed."
