@@ -486,6 +486,8 @@ leaf_hairs <- function(piece) {
   ch <- str_to_lower(flora_split_pieces(piece, ","))
   ch <- str_remove(ch, "^lamina ")
   h <- ch[str_detect(ch, paste0("glabr|", hair_re))]
+  # hairs confined to stomatal cavities are not a hairy surface (user, 2026-11-02)
+  h <- h[!str_detect(h, "cavit|crypt|^filled\\b")]
   # alternatives and qualified statements ("glabrous, lanate or strigose",
   # "usually with ... hairs") stay unmapped
   if (!length(h) || any(str_detect(h, "glabrescent|young|except|\\bor\\b")) ||
