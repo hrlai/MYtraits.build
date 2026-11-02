@@ -40,10 +40,11 @@ Worked examples, all in this repository:
 | `data/Prance_2012` | Chrysobalanaceae, FPM vol. 3 | born-digital PDF, scripted clause parser, 14 species and 5 subspecies | species and subspecies descriptions both scored; differential-only subspecies inherit; `(elsewhere ...)` asides dropped; receptacle tube; cited Ecology observations |
 | `data/Beentje_2023` | Pandanaceae, FPM vol. 10 | born-digital PDF, scripted clause parser, 50 species | first monocot; syncarp is not the fruit; palmoid growth forms; cultivated and not-native taxa scored with notes; hand rows for clauses whose subject is two chunks back |
 | `data/Prance_1995` | Chrysobalanaceae, TFSS vol. 1 | 2007 electronic text, scripted clause parser, 15 species | subspecies only in a key with annotations; labels after the clause ("cordate at base"); receptacle is not the flower; inflorescence kind and position scored apart; figure specimens from plate captions |
+| `data/Kiew_2010` | Balanophoraceae, FPM vol. 1 | scanned PDF, every page image-checked through the review queue, 7 taxa | `flora_hand()` for a leafless root parasite; male and female organs in `entity_measured`; "Fruits and Seeds unknown" blocks copy-down; genus Ecology values scored on named species |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
-inline source fixes. Only Lim and Yao are scanned. Nor-Ezzawanis and Hughes were
+inline source fixes. Only Lim, Yao and Kiew_2010 are scanned. Nor-Ezzawanis and Hughes were
 transcribed from page images before their PDFs were found to be born-digital;
 born-digital sources no longer need that (step 2).
 
@@ -380,7 +381,9 @@ misreads; image checking is for scans.
   - For a large treatment, work page by page and record which pages or clauses
     remain unchecked. Keep its status provisional until source reconciliation.
   - Use `flora_compare_numbers()` as a review aid, not a pass/fail test. Check
-    differences and measurements it misses against page images.
+    differences and measurements it misses against page images. It ignores
+    dash, x-sign and line-break differences, so what remains are real OCR
+    slips such as split decimals ("1. 75", Kiew_2010).
 - Keep errors visible in the draft. Record repairs in `raw/source_fixes.csv`
   (`pattern, replacement, page, reason`) and apply them with
   `flora_apply_fixes()` using printed pages. The transcription fed to the
