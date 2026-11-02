@@ -84,7 +84,7 @@ pieces <- seq_len(nrow(desc_paras)) |>
 # piece); `vt` overrides the value type of a single value ("at least 30 cm" ->
 # minimum, "largest 70 cm" -> maximum). lw(): length and width of "a x b",
 # each parsed from its own text so "to" and "c." keep their meaning
-# (flora_parse_dims() drops a leading "to"). First dimension is length
+# ("to c. a x b" is two maxima here). First dimension is length
 # (Jaman_2020 question 6).
 k <- function(piece, trait, value, clean = value, q = NA, em = NA, notes = NA) {
   tibble(
@@ -699,30 +699,20 @@ members <- tibble(
   species = species,
   rank = "species"
 )
-copied <- flora_copy_down(higher, own, members)
+# "Scaly tree ferns" is one term mapped to two levels (fern palmoid)
+# (Jaman_2020 question 7).
+copied <- flora_copy_down(
+  higher |> mutate(single_term = trait == "plant_growth_form"),
+  own,
+  members
+)
 rejected <- attr(copied, "rejected")
 if (nrow(rejected)) print(rejected)
-
-# "Scaly tree ferns" is one term mapped to two levels (fern palmoid), which
-# flora_copy_down() skips; copy it to every species silent on growth form by
-# hand (Jaman_2020 question 7).
-gf <- higher |> filter(trait == "plant_growth_form")
-gf_copied <- members |>
-  filter(!block %in% own$block[own$trait == "plant_growth_form"]) |>
-  select(block) |>
-  cross_join(gf |> select(-block, -rank)) |>
-  mutate(
-    rank = "species",
-    rank_scored_from = "family",
-    source_section = "Family description",
-    notes = paste(notes, "Copied by hand from the family description (multi-level value; Jaman_2020 question 7).")
-  )
 
 out <- bind_rows(
   own |> mutate(rank_scored_from = NA_character_),
   higher |> mutate(rank_scored_from = NA_character_),
   copied,
-  gf_copied,
   desc_unmapped,
   sec_unmapped
 ) |>

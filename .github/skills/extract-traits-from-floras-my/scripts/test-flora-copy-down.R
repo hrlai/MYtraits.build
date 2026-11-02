@@ -36,6 +36,19 @@ stopifnot(
 )
 o4 <- flora_copy_down(mutate(h2, trait_value_raw = "axillary (Hydrocleys)"), own2, mem)
 stopifnot(nrow(o4) == 0)
+# one printed term mapped to two levels: copied only with single_term
+# (Jaman_2020 "Scaly tree ferns"), and only when members agree on all levels
+h5 <- mutate(h2, trait = "plant_growth_form", trait_value = "tree_ferns",
+  trait_value_clean = "fern palmoid", trait_value_raw = "Scaly tree ferns")
+own5 <- tibble(block = "s1", trait = "plant_growth_form",
+  trait_value_clean = "fern palmoid", entity_measured = NA_character_)
+stopifnot(
+  nrow(flora_copy_down(h5, own5, mem)) == 0,
+  setequal(flora_copy_down(mutate(h5, single_term = TRUE), own5, mem)$block,
+    c("s2", "s3")),
+  nrow(flora_copy_down(mutate(h5, single_term = TRUE),
+    mutate(own5, trait_value_clean = "fern"), mem)) == 0
+)
 # flora_merge_duplicate_keys(): shared keys merge words; a single row keeps a
 # repeated word (Jutta_2012).
 m <- tibble(taxon_name = c("A", "A", "B"), trait = "t", value_type = "mode",
