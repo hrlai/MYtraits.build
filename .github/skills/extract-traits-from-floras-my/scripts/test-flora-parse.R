@@ -56,6 +56,10 @@ seed <- flora_load_dict(
 )
 clean <- \(x, trait) flora_score_cat(x, trait, seed)$trait_value_clean
 stopifnot(
+  # "greenish white" is white (Prance_2012 p. 29, Adema_1996 p. 324)
+  clean("petals greenish white", "flower_colour") == "white_cream",
+  clean("yellowish-white", "flower_colour") == "white_cream",
+  clean("greenish yellow", "flower_colour") == "green yellow_orange",
   # resin colour is not bark colour (Kochummen_1995 p. 45)
   clean("grey with black or white resinous gum", "bark_colour") == "grey",
   clean("blackish brown", "bark_colour") == "black brown",
