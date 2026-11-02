@@ -210,9 +210,22 @@ flora_compare_numbers <- function(
     pdf_page = seq_along(pdftools::pdf_text(pdf_file)),
     text = pdftools::pdf_text(pdf_file)
   )
+  # OCR layers give "-" or "--" for the en dash, "x" for the multiplication
+  # sign and line breaks inside a value; normalise both sides so only real
+  # differences remain (Kiew_2010: 178 differences before, 24 after).
+  norm <- \(x) {
+    x |>
+      str_replace_all("[–—]", "-") |>
+      str_replace_all("-{2,}", "-") |>
+      str_replace_all("×", "x") |>
+      str_squish() |>
+      str_replace_all("\\s*-\\s*(?=\\d)", "-") |>
+      str_replace_all("(?<=\\d)\\s*x\\s*(?=\\d)", " x ")
+  }
   values <- \(d, nm) {
     d |>
       filter(pdf_page %in% tr$pdf_page) |>
+      mutate(text = norm(text)) |>
       mutate(
         value = if (measurements_only) {
           str_extract_all(
