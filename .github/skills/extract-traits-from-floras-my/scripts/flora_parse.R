@@ -95,7 +95,12 @@ flora_ascii_raw <- function(x) {
 flora_split_sentences <- function(x) {
   str_split(
     x,
-    "(?<!\\bc|\\b[A-Z]|e\\.g|\\bsp|subsp|var|Fig|\\bca)\\.\\s+(?=[A-Z])"
+    paste0(
+      "(?<!\\bc|\\b[A-Z]|e\\.g|\\bsp|subsp|var|Fig|\\bca",
+      # place names: "Mt. Tawai", "Bt. Raya", "Sg. Pahang", "4th Div."
+      "|\\bMt|\\bBt|\\bSg|\\bDiv|\\bRd|\\bProv",
+      ")\\.\\s+(?=[A-Z])"
+    )
   )[[1]]
 }
 
@@ -305,12 +310,13 @@ flora_score_cat <- function(txt, trait, dict) {
   if (!length(out)) {
     return(NULL)
   }
-  bind_rows(out) |>
+  out <- bind_rows(out) |>
     arrange(ci, pos) |>
     mutate(
       term = str_replace_all(str_to_lower(term), " ", "_"),
       cq = if (any(!is.na(cq))) coalesce(cq, "usually") else cq
-    ) |>
+    )
+  res <- out |>
     group_by(cq) |>
     summarise(
       trait_value = paste(unique(term), collapse = " "),
@@ -325,6 +331,10 @@ flora_score_cat <- function(txt, trait, dict) {
     arrange(cq != "usually" | is.na(cq), first) |>
     mutate(trait = trait) |>
     select(-first)
+  # terms a blank row claimed in context ("greenish" in "greenish white"), for
+  # flora_cat_rows(), which looks terms up again one by one
+  attr(res, "blank_terms") <- unique(out$term[out$level == ""])
+  res
 }
 
 # ---- row helpers shared by the clause parsers ------------------------------------
@@ -535,6 +545,9 @@ flora_cat_rows <- function(
     pmap_dfr(\(cq, trait_value, trait_value_clean, trait) {
       terms <- str_split_1(trait_value, " ")
       lv <- map_chr(terms, \(t) flora_term_level(trait, t, dict))
+      # shortcut: a term blanked in one chunk is blanked in all chunks of x;
+      # track per-chunk positions if a clause ever repeats the term unblocked
+      lv[terms %in% attr(s, "blank_terms")] <- ""
       keep <- lv != ""
       if (!keep_unmapped && !any(keep)) {
         return(NULL)

@@ -590,6 +590,9 @@ Bespoke checklist (decisions that changed per family):
   (`flora_num_rows()`; Hughes_2013 "to 10--15 m tall" was a maximum of 10
   before 2026-10, so rebuild it). Missing units (Coode_2018 *E. fraseri* lamina
   "14--18.5 x (7--)9--12") go in `source_fixes.csv` with the page.
+  A habit height may lack "tall" or "high" ("Tree to 20 m, usually
+  smaller", Prance_1995 p. 158): on the first habit chunk only, match the
+  number with "(tall|high)" optional, not required.
 - **Trunk and stem heights** (provisional, Beentje_2023 question 5). A
   height printed for the trunk or stem rather than the plant ("Shrubs.
   Trunk to 2--3 m tall", "Shrubs with stems 30--60 cm tall") is
@@ -624,10 +627,13 @@ Bespoke checklist (decisions that changed per family):
   Provisional (Prance_1995 question 2): leaves "with stomatal crypts"
   -> `leaf_stomatal_position = encrypted`; "without stomatal crypts" has no
   level and stays unmapped.
-- **Leaf hairs per surface** (provisional, Soepadmo_2000 question 6).
-  "glabrous above, tomentose below" -> `leaf_hairs_adult_leaves = hairy`;
-  glabrous only when both surfaces are; not scored when a surface is
-  glabrescent. Kochummen_1995 scored "hairy below" the same way.
+- **Leaf hairs per surface** (user, 2026-11-02; Soepadmo_2000 question 6,
+  Kochummen_1995, Prance_1995). "glabrous above, tomentose below" ->
+  `leaf_hairs_adult_leaves = hairy`; glabrous only when both surfaces are;
+  not scored when a surface is glabrescent. Hairs confined to stomatal
+  crypts or cavities ("stomatal crypts filled with grey lanate pubescence
+  beneath", Parinari) do not make a surface hairy: leave that surface
+  unscored and the clause unmapped.
 - **Glabrescent** ("becoming glabrous") describes a change with age, not a
   state: never score it, keep it unmapped (user decision, 2026-10, Jutta_2012).
   The dictionary seed blocks it for leaf, stem and fruit hairs. Coode_2018
@@ -639,6 +645,9 @@ Bespoke checklist (decisions that changed per family):
   hyphenated or "X to Y" shape scores both levels: "rounded-acute" -> `rounded
   acute`. This matches Adema_1996 and Kochummen_1995; the AusTraits fact-sheet
   extractions instead scored only the head colour of a hyphenated compound.
+  Exception (user, 2026-11-02): "greenish white" and "yellowish white" flower
+  colours are white only (`white_cream`); a blank seed row above the white
+  row blocks the green or yellow word.
 - **Colour markings and tinges are not the colour** (user, 2026-10-30). Score
   only the ground colour. Stripes, spots, blotches, veins, "-tinged",
   "suffused", "flushed" and part-of-organ colours ("basally reddish", "red
@@ -657,11 +666,13 @@ Bespoke checklist (decisions that changed per family):
   another FPM or TFSS treatment. In Lim_2010, the Borneo measurements cited
   from Yii_1995 (TFSS) are not scored; the source text remains in the
   transcription. For TFSS observations stated only as Borneo, apply the
-  unresolved-locality rule above. A genus or family paragraph (Reproductive
-  biology, Ecology) that reports an observation on a named species is
-  scored on that species' own rows, not copied down, with the cited work as
-  `source_id` and a blank `population_region` unless a place is stated
-  (provisional, Cheek_2012 question 9).
+  unresolved-locality rule above. Any paragraph (species, genus or family
+  Reproductive biology, Ecology) that reports an observation on a named
+  species, or cites another work for it, is scored on that species' own
+  rows, not copied down, with the cited work as `source_id` and a blank
+  `population_region` unless a place is stated (user, 2026-11-02, after
+  Cheek_2012 question 9 and Prance_2012). A cited observation printed in both the FPM and the TFSS
+  treatment is scored in both datasets, each with the cited `source_id`.
 - **Climbers** (provisional, Cheek_2012 question 2). "Climber to 15 m tall"
   goes to `plant_height_climbing_plant`, not `plant_height`. Stem diameter
   of climbing stems is not `stem_diameter` (measured at the plant base):
@@ -675,7 +686,11 @@ Bespoke checklist (decisions that changed per family):
   "scandent" and "twining" count; "scrambling" alone does not).
 - **Growth form wording** (user, 2026-10-30). A commonness word qualifies a
   form only when it governs the form noun ("tree or rarely a shrub"), not
-  another adjective ("rarely dioecious shrub"). Pandanus and other
+  another adjective ("rarely dioecious shrub"). The same holds for any trait
+  (user, 2026-11-02): a commonness word qualifies only the word it governs.
+  "Inflorescences axillary or rarely terminal racemes" (Prance_1995 p. 169)
+  scores the position (`usually` axillary, `rarely` terminal) and the kind
+  (raceme, unqualified, so on the `usually` row) separately. Pandanus and other
   palm-like trees and shrubs score `palmoid` after the printed noun
   (`tree palmoid`), as AusTraits scores Arecaceae.
 - **Clumping is not clonality** (user, 2026-10-30). "Clustering",

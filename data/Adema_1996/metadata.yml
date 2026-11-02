@@ -574,14 +574,17 @@ substitutions:
     find: 'dark_brown'
     replace: 'brown_dark'
   - trait_name: bark_colour
+    find: 'green blackish brown'
+    replace: 'green black brown'
+  - trait_name: bark_colour
     find: 'greenish greyish'
     replace: 'green grey'
   - trait_name: bark_colour
     find: 'greyish brown'
     replace: 'grey brown'
   - trait_name: bark_colour
-    find: 'greyish green reddish'
-    replace: 'grey green red'
+    find: 'greyish green reddish black'
+    replace: 'grey green red black'
   - trait_name: bark_colour
     find: 'greyish white brown dark_brown'
     replace: 'grey white brown brown_dark'

@@ -30,10 +30,7 @@ dict <- dict[names(dict) %in% names(traits)]
 # win over shorter shared terms
 local_terms <- list(
   # "with stomatal crypts" (Parinari); provisional, question 2
-  leaf_stomatal_position = c("stomatal crypts" = "encrypted"),
-  # not in the shared dictionary: "black" there would claim resin and
-  # blackish bark in other datasets
-  bark_colour = c("(?<![a-z])(black|blackish)\\b" = "black")
+  leaf_stomatal_position = c("stomatal crypts" = "encrypted")
 )
 for (t in names(local_terms)) {
   dict[[t]] <- c(local_terms[[t]], dict[[t]])
@@ -433,12 +430,15 @@ score_chunk <- function(cl) {
 
 # Leaf indumentum per surface over the leaf-blade chunks of the sentence
 # ("glabrous above, densely pubescent beneath"): hairy when a surface is
-# hairy, glabrous when both are; statements about young leaves are left out;
-# nothing when a surface is glabrescent (a change with age) or hedged.
+# hairy, glabrous when both are; statements about young leaves and hairs in
+# stomatal crypts are left out; nothing when a surface is glabrescent (a change
+# with age) or hedged.
 leaf_hairs <- function(ch) {
   ch <- str_to_lower(str_remove(ch, "^(?i)leaves "))
   h <- ch[str_detect(ch, paste0("glabr|", hair_re))]
   h <- h[!str_detect(h, "when (very )?young")]
+  # hairs confined to stomatal crypts are not a hairy surface (user, 2026-11-02)
+  h <- h[!str_detect(h, "crypt|^filled\\b")]
   if (!length(h) || any(str_detect(h, paste0("glabrescent|", flora_qual_re))) || any(hedged(h))) {
     return(NULL)
   }

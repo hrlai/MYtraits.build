@@ -528,6 +528,9 @@ traits:
       Twig indumentum when stated without a change with age (glabrescent, 'when young' not scored).
 substitutions:
   - trait_name: bark_colour
+    find: 'blackish brown'
+    replace: 'black brown'
+  - trait_name: bark_colour
     find: 'brown greyish'
     replace: 'brown grey'
   - trait_name: bark_colour

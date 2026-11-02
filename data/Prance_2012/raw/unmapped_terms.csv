@@ -30,16 +30,16 @@ twigs,description,12,Atuna latifrons,obscurely lenticellate,16
 stamens,description,11,Chrysobalanaceae,inserted on margin or surface of disc,13
 midrib,venation,10,Atuna latifrons,midrib prominent on both surfaces,16
 stipules,indumentum,10,Atuna latifrons,sparsely appressed pubescent,16
+leaf blade,texture,9,Chrysobalanaceae,lamina often coriaceous,13
 sapwood,colour,9,Atuna nannodes,sapwood brown-red to blackish brown,17
 stigma,description,9,Atuna latifrons,stigma truncate,17
 style,indumentum,9,Maranthes,glabrous except at base,30
 filaments,description,8,Chrysobalanaceae,filaments filiform,13
+leaf blade,indumentum,8,Licania,lower surface of lamina glabrous,27
 pedicels,size,8,Licania splendens,pedicels c. 1 mm long,29
 petals,number,8,Chrysobalanaceae,5,13
 style,description,8,Chrysobalanaceae,style filiform,13
 intercostal veins,venation,7,Atuna latifrons,intercostal veins prominulous,16
-leaf blade,indumentum,7,Licania,lower surface of lamina glabrous,27
-leaf blade,texture,7,Chrysobalanaceae,lamina often coriaceous,13
 ovary,description,7,Atuna,bilocular becoming unilocular in fruit owing to development of a single ovule,16
 petals,indumentum,7,Atuna,glabrous on both surfaces,15
 sepals,number,7,Chrysobalanaceae,sepals 5,13
@@ -50,11 +50,11 @@ midrib,indumentum,6,Atuna latifrons,slightly pilose towards base above,16
 cotyledons,description,5,Chrysobalanaceae,cotyledons planoconvex,13
 filaments,colour,5,Maranthes,white,30
 leaf blade,glands,5,Atuna,lamina with a pair of glands on the midrib at or near its base on lower surface,15
+leaf lower surface,indumentum,5,Chrysobalanaceae,lower surface glabrous or hairy,13
 ovary,number,5,Kostermanthus,ovary of 1--(2--3) carpels,24
 staminodes,description,5,Atuna,staminodes forming a barely visible denticulate margin to the throat,16
 flowers,description,4,Chrysobalanaceae,markedly perigynous,13
 inflorescences,indumentum,4,Atuna latifrons,densely brown sericeous,16
-leaf lower surface,indumentum,4,Chrysobalanaceae,lower surface glabrous or hairy,13
 mesocarp,texture,4,Atuna,mesocarp transversely fibrous,16
 petals,persistence,4,Chrysobalanaceae,usually caducous,13
 taxonomy,text,4,Chrysobalanaceae,"Most early classifications regarded the Chrysobalanaceae as a subfamily of the Rosaceae as did King (1897), Ridley (1922), Prance & Whitmore (1973) and Corner (1988)",14
