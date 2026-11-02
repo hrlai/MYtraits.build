@@ -50,4 +50,15 @@ stopifnot(
     trait_value_clean == "white_cream"
 )
 
+# shared dictionary seed rows
+seed <- flora_load_dict(
+  ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary_seed.csv"
+)
+clean <- \(x, trait) flora_score_cat(x, trait, seed)$trait_value_clean
+stopifnot(
+  # resin colour is not bark colour (Kochummen_1995 p. 45)
+  clean("grey with black or white resinous gum", "bark_colour") == "grey",
+  clean("blackish brown", "bark_colour") == "black brown"
+)
+
 cat("ok\n")
