@@ -776,8 +776,9 @@ Bespoke checklist (decisions that changed per family):
   separately in the bespoke parser.
 - Do not copy a value for an organ to a species whose description says the
   organ is unknown or not seen in the region ("Male inflorescence unknown"):
-  filter the copied rows by `entity_measured` (provisional, Beentje_2023
-  question 12).
+  filter the copied rows by `entity_measured` (Beentje_2023 question 12).
+  "Fruits and Seeds unknown" blocks fruit and seed copy-down the same way
+  (Kiew_2010: family "1-seeded achenes" kept at family rank only).
 - Use `flora_inherit_infraspecific()` for `subsp.`/`var.` silent on a trait.
 - Monogeneric family: both family and genus are copied down
   (`rank_scored_from` = `genus` or `family`; Yao_2010). If the family has no
