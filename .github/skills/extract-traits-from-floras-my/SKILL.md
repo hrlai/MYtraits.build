@@ -675,13 +675,22 @@ Bespoke checklist (decisions that changed per family):
   `leaf_arrangement = rosette` wherever either is described (user,
   2026-10-30).
 - **Parasites and plants without chlorophyll** (user, 2026-10-30;
-  provisional until Balanophoraceae). Score `parasitic` (`holoparasitic`,
+  confirmed by Balanophoraceae, Kiew_2010). Score `parasitic` (`holoparasitic`,
   `root_parasitic`, ...) only when the text states parasitism ("root
   parasite", "parasitic on roots"). "Lacking chlorophyll", "non-green",
-  "achlorophyllous" -> `plant_photosynthetic_organ =
+  "achlorophyllous", "without ... chlorophyll" -> `plant_photosynthetic_organ =
   non-photosynthetic_plant`. The height of an emerging inflorescence or
   scape is `plant_height_reproductive`, not `plant_height`. Named hosts stay
-  unmapped rows.
+  unmapped rows. Provisional (Kiew_2010 questions 1--3): "root parasites
+  without ... chlorophyll" scores `root_parasitic`, not `holoparasitic`,
+  since the word is not printed; scale leaves (bracts) on a leafless
+  flowering shoot get no leaf trait; the dimensions of a "flowering
+  tuber-branch" (the stalk from the subterranean tuber) and of the tuber
+  itself stay unmapped, not `plant_height_reproductive` or
+  `storage_organ`, until those questions are answered. Nectar or smell
+  stated for an inflorescence goes to `flower_nectar_production` /
+  `flower_scent_production` with the inflorescence in `entity_measured`
+  (provisional, Kiew_2010 question 7).
 - **Cues** (user, 2026-10-30). Fire is out of scope, other cues are not.
   Stated triggers of flowering or germination (rain, a dry spell, floods,
   temperature, gregarious or mast flowering) go to `flowering_cues` /
