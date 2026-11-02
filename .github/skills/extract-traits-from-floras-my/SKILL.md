@@ -38,6 +38,7 @@ Worked examples, all in this repository:
 | `data/Cheek_2012` | Nepenthaceae, FPM vol. 3 | born-digital PDF, 10 species, hand-scored pieces | climbers; hand rows keyed to comma pieces so every unscored piece stays unmapped; named hybrids; values cited in genus paragraphs |
 | `data/Soepadmo_2000` | Fagaceae, TFSS vol. 3 | 2007 electronic text, scripted clause parser, 100 species | large family in one run; plate pages dropped; line-break hyphens rejoined; cupule is not the fruit; per-surface leaf hairs; family statements naming genera not copied |
 | `data/Prance_2012` | Chrysobalanaceae, FPM vol. 3 | born-digital PDF, scripted clause parser, 14 species and 5 subspecies | species and subspecies descriptions both scored; differential-only subspecies inherit; `(elsewhere ...)` asides dropped; receptacle tube; cited Ecology observations |
+| `data/Beentje_2023` | Pandanaceae, FPM vol. 10 | born-digital PDF, scripted clause parser, 50 species | first monocot; syncarp is not the fruit; palmoid growth forms; cultivated and not-native taxa scored with notes; hand rows for clauses whose subject is two chunks back |
 | `data/Prance_1995` | Chrysobalanaceae, TFSS vol. 1 | 2007 electronic text, scripted clause parser, 15 species | subspecies only in a key with annotations; labels after the clause ("cordate at base"); receptacle is not the flower; inflorescence kind and position scored apart; figure specimens from plate captions |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
@@ -166,7 +167,18 @@ respect to `data/`, apart from `flora_make_data()`, which writes
   Accept a TFSS `Borneo` record when it cannot be resolved to Sabah or Sarawak,
   but flag its unresolved locality. Do not treat an unspecified Borneo locality
   as Malaysian. Exclude observations explicitly outside the source treatment's
-  stated scope, such as India or Thailand.
+  stated scope, such as India or Thailand, except for cultivated and
+  not-native taxa (next rule).
+- **Cultivated and not-native taxa are scored** (user, 2026-11-02: useful for
+  applied ecology and horticulture). Taxa in a treatment's "Cultivated
+  Plants", "Not accepted as native" or similar section are scored like
+  native species and are copy-down members. Each mapped row gets a note
+  naming the section. A not-native taxon has no local record, so its rows
+  get a blank `population_region`. For these taxa only, values stated for
+  plants elsewhere ("elsewhere in wild state 150--220 x 7--9 cm", male
+  flowers "not seen in Peninsular Malaysia") are scored with a blank
+  `population_region` and a note. Sizes of harvested or pruned plants are
+  scored with a note saying so (Beentje_2023 question 8).
 - **Regional counterparts.** Do not score a value borrowed from another FPM or
   TFSS treatment, even when quoted in the current treatment. That flora will be
   ingested as its own source; retaining the borrowed value would duplicate it.
@@ -513,9 +525,13 @@ Bespoke checklist (decisions that changed per family):
   (Prance_1995).
 - **Adjacent organs.** Parse explicit organ shifts; young and mature bark
   separately; seed cones under fruit traits with `entity_measured = seed cone`
-  (confirm per family, see Lim_2010 question 3). An angiosperm fruit cone
-  (infructescence, as in Casuarinaceae) is not a fruit: the fruitlet (samara)
-  is the fruit, and the cone stays unmapped (Pungga_1996).
+  (confirm per family, see Lim_2010 question 3). A compound fruiting head is
+  not a fruit: the Casuarinaceae cone (Pungga_1996) and the Pandanaceae
+  syncarp stay unmapped, and the fruitlet (samara, drupe, berry) is the
+  fruit. Provisional (Beentje_2023 questions 1 and 2): ripe syncarp colour
+  -> `fruit_colour` with `entity_measured = syncarp`; a phalange of fused
+  drupes -> `fruit_length` / `fruit_width` with `entity_measured =
+  phalange`.
 - **Unisexual flowers.** Male and female flowers as `entity_measured`;
   staminode lengths are not fertile-stamen lengths (Coode_2018 question 1).
 - **Dimension pairs `L x W`.** First dimension is length (state the assumption
@@ -525,6 +541,9 @@ Bespoke checklist (decisions that changed per family):
   common words, not every hedge; inspect wording such as "suggest" and
   "more-or-less" too. Ask before scoring an exception, then record the wording,
   taxon, trait and decision in `metadata.yml` `questions:`.
+  A query inside an extreme ("2--4(--?5) cm") hedges only the extreme: score
+  the typical range and drop the extreme (provisional, Beentje_2023
+  question 11).
 - **Parentheses.** Drop non-extreme asides before splitting
   (`flora_drop_asides()`); never split on a comma inside parentheses.
   Keep each dropped aside as an unmapped row. FPM genus descriptions put
@@ -533,6 +552,10 @@ Bespoke checklist (decisions that changed per family):
   of scope (Regions rule), so never score them (Prance_2012, Maranthes and
   Parinari). An aside that is a rarer state ("Fruit a fleshy drupe (rarely
   dry)") is a commonness alternative: rewrite it as ", rarely dry" first.
+  Count "(" and ")" in every Description paragraph first: a missing ")"
+  makes the rest of the paragraph one aside, and nothing after it is split
+  or scored. Repair it in `source_fixes.csv` (Beentje_2023: P. klossii
+  p. 193, Pandanus genus p. 169).
 - **Commonness rows.** Any commonness word splits the trait into rows
   (`usually` for the unqualified value). Several equal-weight values stay in one
   space-delimited cell in text order. Parenthetical extremes `(a--)b--c(--d)`
@@ -556,6 +579,11 @@ Bespoke checklist (decisions that changed per family):
   (`flora_num_rows()`; Hughes_2013 "to 10--15 m tall" was a maximum of 10
   before 2026-10, so rebuild it). Missing units (Coode_2018 *E. fraseri* lamina
   "14--18.5 x (7--)9--12") go in `source_fixes.csv` with the page.
+- **Trunk and stem heights** (provisional, Beentje_2023 question 5). A
+  height printed for the trunk or stem rather than the plant ("Shrubs.
+  Trunk to 2--3 m tall", "Shrubs with stems 30--60 cm tall") is
+  `plant_height` with `entity_measured = trunk` or `stem`, as for tree
+  ferns.
 - **Mapping misfits** (record every one as a metadata question): `spirally
   arranged` -> `leaf_arrangement: spiral`; `rugose` -> `rough`; `subglabrous` ->
   `glabrous`; fruit, seed or bud "diameter" ->
@@ -673,7 +701,8 @@ Bespoke checklist (decisions that changed per family):
   vegetatively by runners"). Do not score `storage_organ` from "fleshy
   rhizome". Do not copy `plant_growth_substrate` down when a member differs
   (aquatic genus with a marsh species); ask instead.
-- **Cultivated plants** (Kiew_2015, pending its question 19). Score an
+- **Cultivated plants of native taxa** (Kiew_2015, pending its question 19;
+  whole cultivated and not-native taxa follow the standing rule). Score an
   observation on cultivated plants only when it is within the treatment's
   region, and say "cultivated" in `notes` and the
   trait's `methods` (Kiew_2015 Trigona bees on cultivated *Nymphaea
@@ -688,7 +717,8 @@ Bespoke checklist (decisions that changed per family):
   approved exception; record the wording in `questions:`. Self-pollination
   and cleistogamy go to `breeding_system` (`autogamy`, `cleistogamy`).
 - **Excluded and incompletely known species** are not scored; list them in
-  `taxon_flags.csv`.
+  `taxon_flags.csv`. Cultivated and not-native taxa are scored (standing
+  rule) and listed there too.
 - **Named hybrids** (provisional, Cheek_2012 question 1). A "Named Hybrids"
   section after the species gets its own segmenter status (a `section`
   header with `status`, like "Excluded Species"). Hybrid descriptions that
@@ -735,6 +765,10 @@ Bespoke checklist (decisions that changed per family):
   (`reason = "agreement"`) and statements naming an alternative
   (`"alternative"`); inspect it and preserve other ineligible clauses
   separately in the bespoke parser.
+- Do not copy a value for an organ to a species whose description says the
+  organ is unknown or not seen in the region ("Male inflorescence unknown"):
+  filter the copied rows by `entity_measured` (provisional, Beentje_2023
+  question 12).
 - Use `flora_inherit_infraspecific()` for `subsp.`/`var.` silent on a trait.
 - Monogeneric family: both family and genus are copied down
   (`rank_scored_from` = `genus` or `family`; Yao_2010). If the family has no
