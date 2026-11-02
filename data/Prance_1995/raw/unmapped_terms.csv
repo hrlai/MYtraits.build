@@ -1,10 +1,10 @@
 organ,character,n_taxa,example_taxon,example_text,printed_page
 stipules,persistence,22,Chrysobalanaceae,Stipules small and caducous to large and persistent,155
 calyx,description,21,Chrysobalanaceae,imbricate,155
-distribution,text,21,Chrysobalanaceae,"A pantropical family of 17 genera and 520 species, of which over 400 in the Neotropics, 60 in Africa and 39 in Asia and the Pacific. In Sabah and Sarawak, the family is represented by 6 genera and ...",155
+distribution,text,21,Chrysobalanaceae,"A pantropical family of 17 genera and 520 species, of which over 400 in the Neotropics, 60 in Africa and 39 in Asia and the Pacific",155
 receptacle,description,21,Chrysobalanaceae,receptacle short to elongate,155
 receptacle,indumentum,21,Atuna,hairy inside throughout,157
-ecology,text,19,Chrysobalanaceae,"Found mainly in lowlands both in swamp and well-drained forests, to 1500 m. The flowers are pollinated mainly by insects and in a few cases by bats, and the fruits are dispersed by birds, mammals a...",155
+ecology,text,19,Chrysobalanaceae,"Found mainly in lowlands both in swamp and well-drained forests, to 1500 m",155
 endocarp,description,19,Chrysobalanaceae,endocarp various,155
 bracts,description,18,Atuna,not enclosing groups of flower-buds,157
 fruits,description,18,Atuna,Fruits large,157
@@ -33,7 +33,7 @@ receptacle,size,12,Atuna cordata,Flowers with receptacles 5--7 mm long,158
 stigma,description,12,Licania,the stigma capitate,165
 style,indumentum,12,Licania,style pubescent at base,165
 twigs,lenticels,11,Atuna cordata,inconspicuously lenticellate,158
-uses,text,11,Chrysobalanaceae,The wood is extremely hard and difficult to cut due to the presence of silica; therefore it is resistant to decay and to marine borers and is used for posts and marine piles. The wood of some speci...,155
+uses,text,11,Chrysobalanaceae,The wood is extremely hard and difficult to cut due to the presence of silica; therefore it is resistant to decay and to marine borers and is used for posts and marine piles,155
 inner bark,colour,10,Atuna cordata,reddish brown,158
 petiole,description,10,Atuna cordata,thick,158
 sapwood,colour,10,Atuna cordata,Sapwood ochre to red-brown,158

@@ -12,9 +12,9 @@
 # "," chunks. A chunk takes the organ it starts with (or ends with: "cordate
 # at base"), else the organ of its piece or sentence. Scorers run per organ;
 # every chunk that scores nothing stays as an unmapped row. Later sections
-# (Distribution, Ecology, Uses, Taxonomy, vernacular names) and the subspecies
-# annotations are kept one paragraph per row, unmapped. Keys and figures are
-# not read. Names are as printed.
+# (Distribution, Ecology, Uses, vernacular names) are kept one sentence per
+# row, unmapped; Taxonomy and the subspecies annotations one paragraph per row.
+# Keys and figures are not read. Names are as printed.
 suppressPackageStartupMessages(library(tidyverse))
 source("data/Prance_1995/raw/segment_source.R")
 source(".github/skills/extract-traits-from-floras-my/scripts/flora_assemble.R")
@@ -568,11 +568,15 @@ later_secs <- c(
   "Distribution", "Ecology", "Uses", "Vernacular names", "Taxonomy",
   "Infraspecific annotation"
 )
-# kept whole: place names ("Mt. Tawai", "Bt. Raya", "4th Div.") defeat the
-# sentence splitter
 later <- paras |>
   filter(section %in% later_secs) |>
-  transmute(block, rank, section, pdf_page, printed_page, sentence = str_squish(text)) |>
+  # kept whole: citations ("Ann. Missouri Bot. Gard.") defeat the splitter
+  mutate(sentence = map2(text, section, \(t, s) {
+    if (s %in% c("Taxonomy", "Infraspecific annotation")) t else flora_split_sentences(t)
+  })) |>
+  select(block, rank, section, pdf_page, printed_page, sentence) |>
+  unnest(sentence) |>
+  mutate(sentence = str_squish(sentence)) |>
   filter(sentence != "")
 
 later_unmapped <- later |>
