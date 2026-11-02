@@ -38,6 +38,7 @@ Worked examples, all in this repository:
 | `data/Cheek_2012` | Nepenthaceae, FPM vol. 3 | born-digital PDF, 10 species, hand-scored pieces | climbers; hand rows keyed to comma pieces so every unscored piece stays unmapped; named hybrids; values cited in genus paragraphs |
 | `data/Soepadmo_2000` | Fagaceae, TFSS vol. 3 | 2007 electronic text, scripted clause parser, 100 species | large family in one run; plate pages dropped; line-break hyphens rejoined; cupule is not the fruit; per-surface leaf hairs; family statements naming genera not copied |
 | `data/Prance_2012` | Chrysobalanaceae, FPM vol. 3 | born-digital PDF, scripted clause parser, 14 species and 5 subspecies | species and subspecies descriptions both scored; differential-only subspecies inherit; `(elsewhere ...)` asides dropped; receptacle tube; cited Ecology observations |
+| `data/Prance_1995` | Chrysobalanaceae, TFSS vol. 1 | 2007 electronic text, scripted clause parser, 15 species | subspecies only in a key with annotations; labels after the clause ("cordate at base"); receptacle is not the flower; inflorescence kind and position scored apart; figure specimens from plate captions |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
@@ -496,13 +497,20 @@ Bespoke checklist (decisions that changed per family):
   "Pedicels 1--3 cm long (elongating to 5 cm in fruit)": the aside is separate.
   "Fruits (immature) ellipsoid, 2--3.5 cm long" is not the mature fruit:
   keep its size and shape unmapped (Prance_2012, Atuna penangiana).
+  "Flowers with receptacle turbinate-campanulate, 4--10 mm long": the length
+  is the receptacle's (hypanthium), not `flower_length`; score
+  `flower_length` only when the flower itself is measured ("Flowers c. 2 mm
+  long"; Prance_1995).
 - **Comparisons.** In any section, drop sentences and clauses that compare
   taxa ("differs from ...", "similar to ...", "unlike ...") or name another
   binomial before scoring, so another taxon's characters are not attributed
   to this one. Keep them as unmapped rows.
 - **Labelled runs.** In "base attenuate, sometimes rounded, margin entire,
   apex ...", unlabelled alternatives belong to the last label until the next
-  label or measurement (Lim_2010).
+  label or measurement (Lim_2010). TFSS often puts the label last ("rounded,
+  subcordate or subcuneate at base, acuminate at apex"): the unlabelled
+  alternatives before an "at base" or "at apex" chunk belong to it
+  (Prance_1995).
 - **Adjacent organs.** Parse explicit organ shifts; young and mature bark
   separately; seed cones under fruit traits with `entity_measured = seed cone`
   (confirm per family, see Lim_2010 question 3). An angiosperm fruit cone
@@ -574,6 +582,9 @@ Bespoke checklist (decisions that changed per family):
   Provisional (Soepadmo_2000 question 10): "lateral veins ..., forming an
   angle of 40--60 degrees with the midrib" -> `leaf_secondary_vein_angle`
   (unit `deg`); vein number has no trait.
+  Provisional (Prance_1995 question 2): leaves "with stomatal crypts"
+  -> `leaf_stomatal_position = encrypted`; "without stomatal crypts" has no
+  level and stays unmapped.
 - **Leaf hairs per surface** (provisional, Soepadmo_2000 question 6).
   "glabrous above, tomentose below" -> `leaf_hairs_adult_leaves = hairy`;
   glabrous only when both surfaces are; not scored when a surface is
