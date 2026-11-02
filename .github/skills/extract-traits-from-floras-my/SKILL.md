@@ -799,6 +799,11 @@ Bespoke checklist (decisions that changed per family):
   filter the copied rows by `entity_measured` (Beentje_2023 question 12).
   "Fruits and Seeds unknown" blocks fruit and seed copy-down the same way
   (Kiew_2010: family "1-seeded achenes" kept at family rank only).
+- One printed term mapped to two levels ("tree ferns" -> `fern palmoid`,
+  "tree palmoid") fails the single-level filter of `flora_copy_down()`.
+  When the statement names no alternative, copy it by hand to members
+  silent on the trait, with `rank_scored_from` and a note (provisional,
+  Jaman_2020 question 7).
 - Use `flora_inherit_infraspecific()` for `subsp.`/`var.` silent on a trait.
 - Monogeneric family: both family and genus are copied down
   (`rank_scored_from` = `genus` or `family`; Yao_2010). If the family has no
