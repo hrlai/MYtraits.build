@@ -37,7 +37,7 @@ Worked examples, all in this repository:
 | `data/Wong_2010` | Selaginellaceae, FPM ferns vol. 1 | born-digital PDF, scripted clause parser, 35 taxa | first lycophyte; leaf kinds in `entity_measured`; genus copy-down with no family description; differential-only varieties |
 | `data/Cheek_2012` | Nepenthaceae, FPM vol. 3 | born-digital PDF, 10 species, hand-scored pieces | climbers; hand rows keyed to comma pieces so every unscored piece stays unmapped; named hybrids; values cited in genus paragraphs |
 | `data/Soepadmo_2000` | Fagaceae, TFSS vol. 3 | 2007 electronic text, scripted clause parser, 100 species | large family in one run; plate pages dropped; line-break hyphens rejoined; cupule is not the fruit; per-surface leaf hairs; family statements naming genera not copied |
-| `data/Beentje_2023` | Pandanaceae, FPM vol. 10 | born-digital PDF, scripted clause parser, 50 species | first monocot; syncarp is not the fruit; palmoid growth forms; cultivated and not-native sections; hand rows for clauses whose subject is two chunks back |
+| `data/Beentje_2023` | Pandanaceae, FPM vol. 10 | born-digital PDF, scripted clause parser, 50 species | first monocot; syncarp is not the fruit; palmoid growth forms; cultivated and not-native taxa scored with notes; hand rows for clauses whose subject is two chunks back |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
@@ -165,7 +165,18 @@ respect to `data/`, apart from `flora_make_data()`, which writes
   Accept a TFSS `Borneo` record when it cannot be resolved to Sabah or Sarawak,
   but flag its unresolved locality. Do not treat an unspecified Borneo locality
   as Malaysian. Exclude observations explicitly outside the source treatment's
-  stated scope, such as India or Thailand.
+  stated scope, such as India or Thailand, except for cultivated and
+  not-native taxa (next rule).
+- **Cultivated and not-native taxa are scored** (user, 2026-11-02: useful for
+  applied ecology and horticulture). Taxa in a treatment's "Cultivated
+  Plants", "Not accepted as native" or similar section are scored like
+  native species and are copy-down members. Each mapped row gets a note
+  naming the section. A not-native taxon has no local record, so its rows
+  get a blank `population_region`. For these taxa only, values stated for
+  plants elsewhere ("elsewhere in wild state 150--220 x 7--9 cm", male
+  flowers "not seen in Peninsular Malaysia") are scored with a blank
+  `population_region` and a note. Sizes of harvested or pruned plants are
+  scored with a note saying so (Beentje_2023 question 8).
 - **Regional counterparts.** Do not score a value borrowed from another FPM or
   TFSS treatment, even when quoted in the current treatment. That flora will be
   ingested as its own source; retaining the borrowed value would duplicate it.
@@ -664,7 +675,8 @@ Bespoke checklist (decisions that changed per family):
   vegetatively by runners"). Do not score `storage_organ` from "fleshy
   rhizome". Do not copy `plant_growth_substrate` down when a member differs
   (aquatic genus with a marsh species); ask instead.
-- **Cultivated plants** (Kiew_2015, pending its question 19). Score an
+- **Cultivated plants of native taxa** (Kiew_2015, pending its question 19;
+  whole cultivated and not-native taxa follow the standing rule). Score an
   observation on cultivated plants only when it is within the treatment's
   region, and say "cultivated" in `notes` and the
   trait's `methods` (Kiew_2015 Trigona bees on cultivated *Nymphaea
@@ -679,7 +691,8 @@ Bespoke checklist (decisions that changed per family):
   approved exception; record the wording in `questions:`. Self-pollination
   and cleistogamy go to `breeding_system` (`autogamy`, `cleistogamy`).
 - **Excluded and incompletely known species** are not scored; list them in
-  `taxon_flags.csv`.
+  `taxon_flags.csv`. Cultivated and not-native taxa are scored (standing
+  rule) and listed there too.
 - **Named hybrids** (provisional, Cheek_2012 question 1). A "Named Hybrids"
   section after the species gets its own segmenter status (a `section`
   header with `status`, like "Excluded Species"). Hybrid descriptions that
