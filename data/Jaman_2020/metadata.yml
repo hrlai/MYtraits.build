@@ -362,13 +362,14 @@ questions:
     based, so not used); pneumathodes; lamina texture; trunk branching. All
     unmapped. Decide whether any should become traits centrally.'
   question10:
-    'Nor-Ezzawanis_2010 (Cibotiaceae) predates the fern rules and differs
-    from this dataset: "deeply tripinnatifid" is leaf_compoundness compound
-    (no leaf_lamina_division; tripinnatifid has no level), pinna pairs use
-    unit {count} with entity_measured "pinna pairs" (12--22 pairs stored as
-    12--22 leaflets, half the count), pinnae and pinnules sizes use other
-    entity labels, and growth form is fern. Decide whether to rebuild it to
-    the current fern rules (not changed in this branch).'
+    'Nor-Ezzawanis_2010 (Cibotiaceae) was rebuilt to the current fern rules
+    (issue 144): pinna pairs now use unit pairs, entity labels match this
+    dataset, and growth form stays fern (no trunk). One difference is still
+    open there: "deeply tripinnatifid" is scored leaf_lamina_division
+    bipinnate plus leaf_compoundness compound, since tripinnatifid has no
+    level (Nor-Ezzawanis_2010 question 1; no Jaman_2020 lamina is
+    tripinnatifid). Confirm that rule, or add a tripinnatifid level to
+    config/traits.yml centrally.'
   question11:
     'Unclear clause ownership: C. alleniae "median to lowest pinnae free,
     with pinnules deeply lobed to costulets, pinnules to c. 6.5 x 1.2 cm,

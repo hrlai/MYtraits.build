@@ -29,7 +29,7 @@ Worked examples, all in this repository:
 | `data/Coode_2018` | Elaeocarpaceae, FPM vol. 7 | born-digital PDF, 59 taxa | scripted parser, groups, infraspecific taxa, informal forms, excluded species |
 | `data/Lim_2010` | Araucariaceae, FPM vol. 1 | scanned PDF, hand transcription, 2 taxa | transcription workflow, conifer organs, genus over family |
 | `data/Yao_2010` | Pentaphylacaceae, FPM vol. 1 | scanned PDF, 1 taxon | `flora_hand()`, monogeneric copy-down, hedges |
-| `data/Nor-Ezzawanis_2010` | Cibotiaceae, FPM ferns vol. 1 | born-digital PDF, transcribed from page images, 1 taxon | first fern; provisional fern mappings |
+| `data/Nor-Ezzawanis_2010` | Cibotiaceae, FPM ferns vol. 1 | born-digital PDF, 1 taxon, hand-scored pieces | ground fern (`fern`, not `fern palmoid`); monogeneric family with no description; tripinnatifid lamina; rebuilt 2026-11 to the fern rules |
 | `data/Hughes_2013` | Memecylaceae, FPM vol. 4 | born-digital PDF, image-checked transcription | **PROVISIONAL** for two curator questions in its `notes`; its `source_fixes.csv` repairs are typos in the published text, not OCR slips |
 | `data/Kochummen_1995` | Burseraceae, TFSS vol. 1 | 2007 electronic text (unembedded fonts, no scan); scripted parser, 59 taxa | first TFSS parser; infra annotations under a species description; single-infra taxa; family exceptions by hand; missing-dash source fixes |
 | `data/Berhaman_1995` | Bignoniaceae, TFSS vol. 1 | 2007 electronic text, 5 described taxa | `flora_hand()` for a multi-genus family; hand copy-down table; single-infra taxon; undescribed species and key-only genus flagged |
@@ -45,9 +45,10 @@ Worked examples, all in this repository:
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
-inline source fixes. Only Lim, Yao and Kiew_2010 are scanned. Nor-Ezzawanis and Hughes were
-transcribed from page images before their PDFs were found to be born-digital;
-born-digital sources no longer need that (step 2).
+inline source fixes. Only Lim, Yao and Kiew_2010 are scanned. Hughes was
+transcribed from page images before its PDF was found to be born-digital;
+born-digital sources no longer need that (step 2). Nor-Ezzawanis_2010 was too,
+and was rebuilt from the text layer in 2026-11.
 
 ## Resumable scanned-source review
 
@@ -751,15 +752,16 @@ Bespoke checklist (decisions that changed per family):
   ...), as Wong_2010 names leaf kinds; do not add a `leaf_type` context.
   Pinna pairs stay as stated in `leaflet_count` with `unit = pairs`
   (`config/unit_conversions.csv` doubles them); counts of single pinnae use
-  `{count}`. Tree ferns -> `plant_growth_form = fern palmoid`; trunk height
+  `{count}`. Tree ferns -> `plant_growth_form = fern palmoid`, other ferns
+  (no trunk, Cibotium) -> `fern`; trunk height
   -> `plant_height` with `entity_measured = trunk`. "1-pinnate" ->
   `leaf_lamina_division = pinnately_compound`, "2-pinnate" -> `bipinnate`,
   "3-pinnate" -> `tripinnate`, "pinnatifid" / "bipinnatifid" as printed;
   expand "2--3-pinnate" to both. Sori, indusia, scales and spores have no
-  trait: keep them unmapped. Nor-Ezzawanis_2010 (Cibotiaceae) predates
-  these rules and departs from them (pinna pairs as `{count}`,
-  "tripinnatifid" as `compound`); its rebuild waits on Jaman_2020
-  question 10.
+  trait: keep them unmapped. Nor-Ezzawanis_2010 (Cibotiaceae) was rebuilt
+  to these rules (Jaman_2020 question 10). Provisional (Nor-Ezzawanis_2010
+  question 1): "tripinnatifid" has no level; score `bipinnate` (bipinnate
+  with pinnatifid pinnules) and `leaf_compoundness = compound`.
   Provisional (Jaman_2020 questions 1--5): trunk diameter ->
   `stem_diameter`, fronds in the crown -> `leaf_count`; hairs (not scales)
   on the costa, costules, costulets or veins -> `leaf_hairs_adult_leaves`
@@ -768,7 +770,7 @@ Bespoke checklist (decisions that changed per family):
   costule are segments, shallower lobes stay unmapped; reduced basal,
   lowest, fertile and sterile pinnae or pinnules are leaflet rows kept
   apart by `entity_measured`; a single "largest" or "longest" size is a
-  maximum.
+  maximum. Nor-Ezzawanis_2010 also applies questions 2 and 3.
 - **Lycophytes** (Selaginellaceae, Wong_2010; provisional, Wong_2010
   questions 2, 3 and 8). Score every leaf kind (lateral, median, axillary,
   main-stem and basal stem leaves) into the leaf traits and name it in
