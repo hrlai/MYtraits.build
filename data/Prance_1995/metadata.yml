@@ -336,7 +336,7 @@ traits:
     basis_of_value: expert_score
     replicates: .na
     methods: |
-      Per surface: hairy when either surface is hairy (including 'stomatal crypts filled with grey lanate pubescence beneath'), glabrous when both are; statements about young leaves are left out; glabrescent, hedged ('almost glabrous') and qualified statements are not scored.
+      Per surface: hairy when either surface is hairy, glabrous when both are; hairs confined to stomatal crypts ('stomatal crypts filled with grey lanate pubescence beneath') do not make a surface hairy (user decision, 2026-11-02); statements about young leaves are left out; glabrescent, hedged ('almost glabrous') and qualified statements are not scored.
   - var_in: leaf_length
     unit_in: unit
     trait_name: leaf_length
@@ -498,6 +498,9 @@ substitutions:
     find: 'acumen'
     replace: 'acuminate'
   - trait_name: leaf_apex_shape
+    find: 'bluntly_acuminate'
+    replace: 'acuminate'
+  - trait_name: leaf_apex_shape
     find: 'rounded blunt acuminate'
     replace: 'rounded obtuse acuminate'
   - trait_name: leaf_shape
@@ -562,11 +565,10 @@ questions:
     "with stomatal crypts filled with grey lanate pubescence beneath" are
     scored as leaf_stomatal_position = encrypted (5 rows: genus "usually"
     plus P. costata, P. metallica, P. oblongifolia, P. rigida). "without
-    stomatal crypts" (7 taxa) has no level and stays unmapped. The hairs
-    filling the crypts also make leaf_hairs_adult_leaves = hairy for those
-    four species and P. elmeri ("densely pubescent beneath"). Confirm that
-    crypts map to "encrypted" and that hairs in crypts count as a hairy
-    lower surface.
+    stomatal crypts" (7 taxa) has no level and stays unmapped. Confirm that
+    crypts map to "encrypted". Hairs in crypts do not count as a hairy
+    lower surface (user decision, 2026-11-02), so P. costata, P. metallica,
+    P. oblongifolia and P. rigida have no leaf_hairs_adult_leaves row.
   question3: |
     Parinari costata fruit (p. 175): "Fruits ellipsoid, to 3.5 x 4.5 cm"
     gives a width larger than the length, which does not fit an ellipsoid

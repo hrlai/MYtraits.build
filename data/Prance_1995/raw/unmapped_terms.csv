@@ -60,6 +60,7 @@ cotyledons,description,5,Chrysobalanaceae,cotyledons plano-convex,155
 habit,description,5,Atuna,ultimate shoots with complicated system of divaricate branching,157
 heartwood,colour,5,Atuna racemosa,heartwood red-brown,160
 intercostal venation,venation,5,Atuna racemosa,the venation conspicuously papillose and often giving leaf a scabrous or beaded appearance,160
+leaves,indumentum,5,Atuna,Leaves almost glabrous on both surfaces,157
 midrib,indumentum,5,Parinari canarioides,sparsely pubescent when young,174
 twigs,colour,5,Atuna racemosa,dark red-brown,160
 vernacular names,text,5,Kostermanthus heteropetalus,"Sabah and Sarawak—merbatu, rasak batu (Malay).",165
@@ -74,7 +75,6 @@ carpel,number,3,Atuna,carpel bilocular with 1 ovule in each loculus,157
 flowers,description,3,Chrysobalanaceae,markedly perigynous,155
 leaf base,description,3,Atuna racemosa,subcordate or subcuneate at base,160
 leaf blade,indumentum,3,Atuna racemosa,sometimes sparsely strigose beneath on lower portion when young,160
-leaves,indumentum,3,Atuna,Leaves almost glabrous on both surfaces,157
 stamens,colour,3,Chrysobalanaceae,all fertile or some without anthers and then often reduced to small staminodes,155
 bark,colour,2,Atuna cordata,mottled white,158
 bark,lenticels,2,Maranthes corymbosa,lenticellate,168
