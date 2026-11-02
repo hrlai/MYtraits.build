@@ -7,7 +7,7 @@
 #
 # Use: source(".github/skills/extract-traits-from-floras-my/scripts/flora_fetch.R")
 #      flora_fetch("Cycadaceae", "FPM")
-# or:  uvr run .github/skills/extract-traits-from-floras-my/scripts/flora_fetch.R Cycadaceae FPM
+# or:  uvr run .github/skills/extract-traits-from-floras-my/scripts/flora_fetch.R -- Cycadaceae FPM
 # Run from the repository root.
 
 .flora_fetch_url <- function(filename) {
