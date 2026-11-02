@@ -606,10 +606,16 @@ substitutions:
     find: 'green whitish'
     replace: 'green white_cream'
   - trait_name: flower_colour
+    find: 'greenish white'
+    replace: 'green white_cream'
+  - trait_name: flower_colour
     find: 'green yellow'
     replace: 'green yellow_orange'
   - trait_name: flower_colour
     find: 'green yellow white'
+    replace: 'green yellow_orange white_cream'
+  - trait_name: flower_colour
+    find: 'green yellowish white'
     replace: 'green yellow_orange white_cream'
   - trait_name: flower_colour
     find: 'purplish'
@@ -647,6 +653,9 @@ substitutions:
   - trait_name: fruit_dehiscence
     find: 'dehisc'
     replace: 'dehiscent'
+  - trait_name: fruit_surface_hairs
+    find: 'hirsute'
+    replace: 'hairy'
   - trait_name: fruit_type
     find: 'berries'
     replace: 'berry'
