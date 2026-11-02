@@ -24,8 +24,11 @@
 #     fruit. Ripe syncarp colour is scored as fruit_colour with
 #     entity_measured = syncarp.
 #   - arborescent pandans and pandan shrubs score palmoid (standing rule).
-#   - taxa "Not accepted as native" are not scored; cultivated taxa are
-#     scored with a "cultivated" note.
+#   - cultivated taxa and taxa "Not accepted as native" are scored with a
+#     note (user, 2026-11-02); not-native taxa, and values stated for
+#     "elsewhere" or for material "not seen in Peninsular Malaysia", get no
+#     population region. Sizes of harvested or pruned plants are scored
+#     with a note.
 suppressPackageStartupMessages(library(tidyverse))
 source("data/Beentje_2023/raw/segment_source.R")
 source(".github/skills/extract-traits-from-floras-my/scripts/flora_assemble.R")
@@ -149,7 +152,7 @@ skip_chunks <- c(
 qualifier <- \(x) str_match(x, flora_qual_re)[, 2]
 negative <- \(x) str_detect(x, "\\b(without|not|absent|lacking|no|non|unknown)\\b")
 # a measurement or state of young, immature or flowering-stage material
-not_mature <- "\\bbefore (maturity|ripening)\\b|\\b(young|juvenile|immature|in flower|at first|flowering stage|rosette stage|seedlings?|unripe|pruned|harvested|cultivated plants)\\b"
+not_mature <- "\\bbefore (maturity|ripening)\\b|\\b(young|juvenile|immature|in flower|at first|flowering stage|rosette stage|seedlings?|unripe)\\b"
 ripe_re <- "\\b(ripe|ripening|mature|maturing|maturity)\\b"
 
 # ---- organs ---------------------------------------------------------------------
@@ -285,11 +288,16 @@ score_chunk <- function(cl) {
     return(NULL)
   }
   # material from outside Peninsular Malaysia ("Male inflorescences not seen
-  # in Peninsular Malaysia; elsewhere probably pendent ...")
-  if (str_detect(str_to_lower(cl$sent_text), "not seen in peninsular malaysia") ||
-    str_detect(str_to_lower(cl$piece_text), "\\belsewhere\\b")) {
+  # in Peninsular Malaysia; elsewhere probably pendent ...", "elsewhere in
+  # wild state 150–220 × 7–9 cm") is scored, with no population region, for
+  # cultivated and not-native taxa only (standing rule)
+  is_away <- str_detect(str_to_lower(cl$sent_text), "not seen in peninsular malaysia") ||
+    str_detect(lx, "\\belsewhere\\b")
+  if (is_away && !cl$status %in% c("cultivated", "not accepted as native")) {
     return(NULL)
   }
+  is_state <- str_detect(lx, "\\b(harvested|pruned|cultivated plants)\\b") &&
+    !str_detect(lx, "\\b(unpruned|not pruned)\\b")
   out <- list()
   add <- function(r) {
     if (!is.null(r) && nrow(r)) out[[length(out) + 1]] <<- r
@@ -395,7 +403,8 @@ score_chunk <- function(cl) {
     },
     margin = if (so == "leaves") {
       # prickles on the margin are armature, not the margin shape
-      if (!str_detect(lx, "prickl|spin")) add(cat_rows("leaf_margin", lx, weak_re = weak))
+      # "margin entire except near apex": prickles near the apex (P. amaryllifolius)
+      if (!str_detect(lx, "prickl|spin|\\bexcept\\b")) add(cat_rows("leaf_margin", lx, weak_re = weak))
     },
     `male inflorescences` = ,
     `female inflorescences` = ,
@@ -478,7 +487,21 @@ score_chunk <- function(cl) {
   if (!nrow(out)) {
     return(NULL)
   }
-  out |> mutate(trait_value_raw = raw)
+  out |>
+    mutate(
+      trait_value_raw = raw,
+      away = is_away,
+      notes = if (is_state) {
+        str_squish(paste(coalesce(notes, ""), "Size of harvested or pruned cultivated plants, as printed."))
+      } else {
+        notes
+      },
+      notes = if (is_away) {
+        str_squish(paste(coalesce(notes, ""), "Stated for plants outside Peninsular Malaysia."))
+      } else {
+        notes
+      }
+    )
 }
 
 character_of <- function(x) {
@@ -504,6 +527,7 @@ parse_description <- function(p) {
   }
   cl$id <- seq_len(nrow(cl))
   cl$rank <- p$rank
+  cl$status <- coalesce(p$status, "")
   cl <- cl |>
     group_by(sentence, piece) |>
     mutate(prev = lag(text)) |>
@@ -512,7 +536,7 @@ parse_description <- function(p) {
     r <- score_chunk(as.list(cl[i, ]))
     # A chunk that inherits its organ gives a number only when the number
     # comes first ("5–25 cm long")
-    if (!is.null(r) && !cl$named[i] && !identical(cl$organ[i], "habit") && !str_detect(str_to_lower(cl$text[i]), "^((up )?to |c\\. ?)?[\\d(]")) {
+    if (!is.null(r) && !cl$named[i] && !identical(cl$organ[i], "habit") && !str_detect(str_to_lower(cl$text[i]), "^(elsewhere( in [a-z]+ state)? )?((up )?to |c\\. ?)?[\\d(]")) {
       r <- r |> filter(!unit %in% c("mm", "cm", "m"))
     }
     r
@@ -618,10 +642,9 @@ taxa <- paras |>
   mutate(genus = word(block, 1), has_description = block %in% desc_paras$block)
 not_native <- taxa$block[taxa$status == "not accepted as native"]
 cultivated <- taxa$block[taxa$status == "cultivated"]
-own <- own |> filter(!(block %in% not_native & !is.na(trait)))
 
 members <- taxa |>
-  filter(has_description, !block %in% not_native) |>
+  filter(has_description) |>
   transmute(block, genus, group = NA_character_, species = block, rank)
 
 # Family statements naming genera ("(Freycinetia)", "(in Benstonea)") and
@@ -660,7 +683,8 @@ out <- bind_rows(
     commonness_qualifier = cq,
     # an FPM species description describes the species in Peninsular Malaysia
     population_region = if_else(
-      taxon_rank == "species" & is.na(rank_scored_from) & !is.na(trait),
+      taxon_rank == "species" & is.na(rank_scored_from) & !is.na(trait) &
+        !coalesce(away, FALSE) & !taxon_name %in% not_native,
       "Peninsular Malaysia",
       NA_character_
     ),
@@ -675,10 +699,12 @@ out <- bind_rows(
     source_section,
     pdf_page,
     printed_page,
-    notes = if_else(
-      taxon_name %in% cultivated & !is.na(trait),
-      str_squish(paste(coalesce(notes, ""), "Cultivated in Peninsular Malaysia (treatment section 'Cultivated Plants').")),
-      notes
+    notes = case_when(
+      taxon_name %in% cultivated & !is.na(trait) ~
+        str_squish(paste(coalesce(notes, ""), "Cultivated in Peninsular Malaysia (treatment section 'Cultivated Plants').")),
+      taxon_name %in% not_native & !is.na(trait) ~
+        str_squish(paste(coalesce(notes, ""), "Not accepted as native; no Peninsular Malaysian record (treatment section 'Not accepted as native').")),
+      TRUE ~ notes
     ),
     source_id = NA_character_
   ) |>
@@ -708,7 +734,7 @@ flags <- taxa |>
     status,
     n_mapped_rows = coalesce(n_mapped_rows, 0L),
     flag = case_when(
-      status == "not accepted as native" ~ "Not accepted as native: no Peninsular Malaysian record; described but not scored.",
+      status == "not accepted as native" ~ "Not accepted as native: no Peninsular Malaysian record; scored with a note and no population region.",
       status == "cultivated" ~ "Cultivated plant; scored with a 'cultivated' note.",
       block %in% c("Freycinetia confusa") ~ "Female inflorescence unknown; syncarp and berry described from immature material.",
       block %in% c("Freycinetia kamiana") ~ "Male plants unknown; syncarps described from immature material.",

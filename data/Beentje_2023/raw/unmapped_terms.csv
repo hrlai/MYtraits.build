@@ -47,15 +47,15 @@ female inflorescence peduncle,number,16,Benstonea atrocarpa,3-angled,135
 male inflorescences,size,16,Benstonea epiphytica,Male inflorescence a big raceme of more than 3--4 slender elongate whitish-purplish spikes 23--26 cm long on a central axis at least 20 cm,139
 body,size,15,Benstonea alticola,4.5 mm long,132
 female inflorescence bracts,size,15,Benstonea affinis,the lower ones very similar to smaller leaves and 86--113 x 2.8--4 cm,131
-leaves,size,15,Benstonea herbacea,to 136 x 2.1 cm in rosette stage,142
 male inflorescence bracts,colour,15,Benstonea affinis,white,131
-anthers,size,14,Benstonea alticola,apiculus 0.2 mm,132
 female inflorescence peduncle,description,14,Benstonea alticola,with leafy bracts,132
 female inflorescences,number,14,Pandanaceae,Female flowers without perianth (or with 3--4 ?tepals in Sararanga),117
 female inflorescences,size,14,Benstonea epiphytica,with 5--9 subcylindric to trigonous flowering heads on a robust peduncle (to 60 x 4.5 cm),140
 filaments,description,14,Pandanaceae,the filaments rarely free or connate,117
+anthers,size,13,Benstonea alticola,apiculus 0.2 mm,132
 leaf midrib,description,13,Pandanus,midrib keeled beneath,169
 leaf pleats,venation and pleats,13,Benstonea alticola,2-pleated,132
+leaves,size,13,Benstonea herbacea,to 136 x 2.1 cm in rosette stage,142
 male inflorescences,number,13,Benstonea affinis,Male inflorescences of 9--11(--13) spikes,131
 stamens,description,13,Pandanaceae,stamens few to numerous,117
 stigmas,colour,13,Benstonea elostigma,stigmatic groove brown,138
@@ -101,7 +101,6 @@ unknown organ,colour,5,Pandanaceae,enclosed at first by spathaceous and often co
 female inflorescence bracts,number,4,Benstonea ornata,bracts 3--6,147
 female inflorescence pedicels,description,4,Freycinetia angustifolia,glabrous,157
 female inflorescence pedicels,size,4,Freycinetia angustifolia,pedicels 9--11 x 1.5--2 mm,157
-filaments,size,4,Benstonea atrocarpa,filaments conic and very short (c. 0.3 mm),134
 leaves,armature,4,Freycinetia,usually with prickles on margins and on midrib on lower leaf surface,155
 margin,description,4,Benstonea alticola,margins denticulate,132
 pleats,size,4,Pandanus borneensis,4--8 x 2--5 mm,175
@@ -119,6 +118,7 @@ endocarp,number,3,Benstonea nana,1-seeded,145
 female inflorescence bracts,texture,3,Freycinetia corneri,the inner white and fleshy,159
 female inflorescence peduncle,colour,3,Benstonea dumetorum,those surrounding the heads clear yellow,136
 filaments,colour,3,Benstonea dumetorum,filaments short and orange,136
+filaments,size,3,Benstonea atrocarpa,filaments conic and very short (c. 0.3 mm),134
 habit,colour,3,Benstonea alticola,with marcescent shredded leaf bases,132
 leaf margin,colour,3,Pandanus amaryllifolius,glaucous beneath,211
 male inflorescence bracts,armature,3,Benstonea ornata,unarmed except for apex,147

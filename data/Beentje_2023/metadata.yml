@@ -41,8 +41,9 @@ dataset:
   value: value
   source_id: source_id
   description:
-    Pandanaceae (Benstonea, Freycinetia and Pandanus; 45 native species and
-    three cultivated species) of Peninsular Malaysia.
+    Pandanaceae (Benstonea, Freycinetia and Pandanus; 45 native species,
+    three cultivated species and two species not accepted as native) of
+    Peninsular Malaysia.
   basis_of_record: preserved_specimen
   life_stage: adult
   sampling_strategy: |
@@ -64,7 +65,10 @@ dataset:
     rows, a single or "c." value is a mean, "to" values are maxima and "or
     more" values minima. Hedged statements (probably, possibly, apparently,
     "?", "assumed", "more-or-less" before a number) are not scored. Population
-    region is Peninsular Malaysia for species descriptions (FPM guide).
+    region is Peninsular Malaysia for species descriptions (FPM guide), except
+    for the two species not accepted as native and for values stated for
+    plants elsewhere ("elsewhere in wild state", male inflorescences "not
+    seen in Peninsular Malaysia"), which have no population region and a note.
   original_file:
     Pandanaceae.pdf (Beentje & Callmander 2023, Flora of Peninsular Malaysia
     Series II vol. 10, pp. 117--215)
@@ -85,11 +89,10 @@ dataset:
     sentences. Keys, the "Spot characters" and "Specific habitats" lists and
     figure captions are not read. The cultivated species (P. amaryllifolius,
     P. kaida, P. tectorius; section "Cultivated Plants") are scored with a
-    "cultivated" note; P. kaida and P. amaryllifolius sizes of harvested or
-    pruned plants and P. amaryllifolius male inflorescences "not seen in
-    Peninsular Malaysia" are not scored. P. polycephalus and P. nitidus
-    (section "Not accepted as native", no Peninsular Malaysian record) are
-    kept as unmapped rows only and listed in raw/taxon_flags.csv. Ecology
+    "cultivated" note; sizes of harvested or pruned plants (P. amaryllifolius,
+    P. kaida) are scored with a note saying so. P. polycephalus and P.
+    nitidus (section "Not accepted as native", no Peninsular Malaysian
+    record) are scored with a note and no population region (question 8). Ecology
     statements citing Corner (1978) are scored in raw/manual_rows.csv with
     source_id Corner_1978 and no population region (question 9); hedged
     pollination and dispersal statements in the family and genus Ecology are
@@ -254,7 +257,7 @@ traits:
     value_type: value_type
     basis_of_value: measurement
     replicates: .na
-    methods: 'Leaf length of adult (mature, unpruned) leaves, first dimension of ''a x b'' sizes; juvenile, rosette-stage, harvested and young-shoot leaves are not scored. Extremes with a query (''(-?5)'') are not scored (question 11).'
+    methods: 'Leaf length of adult (mature, unpruned) leaves, first dimension of ''a x b'' sizes; juvenile, rosette-stage and young-shoot leaves are not scored; leaves of harvested or pruned cultivated plants are scored with a note (question 8). Extremes with a query (''(-?5)'') are not scored (question 11).'
   - var_in: leaf_margin
     unit_in: .na
     trait_name: leaf_margin
@@ -310,7 +313,7 @@ traits:
     value_type: value_type
     basis_of_value: measurement
     replicates: .na
-    methods: 'Plant height from the habit sentence; a height given for the trunk or stem has entity_measured trunk or stem (question 5).'
+    methods: 'Plant height from the habit sentence; a height given for the trunk or stem has entity_measured trunk or stem (question 5). P. amaryllifolius stems "to 1.6 m tall in perpetually harvested state" are scored with a note, and "elsewhere to 4.5 m in normal state" by hand (raw/manual_rows.csv) with no population region (question 8).'
   - var_in: plant_height_climbing_plant
     unit_in: unit
     trait_name: plant_height_climbing_plant
@@ -539,7 +542,7 @@ questions:
   question5: 'Heights. (a) A height given for the trunk or stem ("Trunk to 2--3 m tall", "Shrubs with stems 30--60 cm tall") is scored as plant_height with entity_measured trunk or stem (9 species), following the tree-fern rule. (b) Freycinetia climber lengths "2--18 m long" (F. imbricata, F. javanica, F. sumatrana) and F. angustifolia "Climber on trees 1.5 m high or more" (minimum) are scored as plant_height_climbing_plant. Confirm both.'
   question6: 'Leaf armature (help wanted). Prickles on leaf margins, the midrib beneath and the upper-surface pleats (length, colour, direction, spacing, position along the leaf) are the main diagnostic characters of Benstonea and Pandanus and are unmapped (about 190 rows, 49 taxa). config/traits.yml has no leaf prickle trait; plant_spinescence is a whole-plant density scale. Decide whether to propose a leaf armature trait centrally (e.g. presence and length of marginal prickles).'
   question7: 'Leaf base. (a) Freycinetia leaf-base auricles ("leaf base auricles 15--20 x 3.5--5 mm") are scored as leaf_base_shape = auriculate (9 species). (b) "Base amplexicaul" (18 Benstonea and Pandanus species) and Pandanus genus "leaf-base half-amplexicaul" stay unmapped, as in Cheek_2012 question 8. The family "base sheathing" is not copied down because Freycinetia species score auriculate only. Confirm (a), and decide (b) together with Cheek_2012 question 8.'
-  question8: 'Cultivated and non-native taxa. P. amaryllifolius, P. kaida and P. tectorius (section "Cultivated Plants") are scored with a "cultivated" note (38 mapped rows, including copy-down); sizes of harvested or pruned plants are not scored. P. polycephalus and P. nitidus ("Not accepted as native", no Peninsular Malaysian record) are not scored. Confirm.'
+  question8: 'Cultivated and non-native taxa (user, 2026-11-02: include both, for applied ecology and horticulture). P. amaryllifolius, P. kaida and P. tectorius (section "Cultivated Plants") are scored with a "cultivated" note (54 mapped rows, including copy-down). Sizes of harvested or pruned plants (P. amaryllifolius leaves "25--75 x 2--5 cm in harvested state", stems "to 1.6 m tall in perpetually harvested state"; P. kaida leaves "in cultivated plants usually 200--300 x 6--8 cm") are scored with a note. Values stated for plants elsewhere (P. amaryllifolius "elsewhere in wild state 150--220 x 7--9 cm", "elsewhere to 4.5 m", male flowers "not seen in Peninsular Malaysia") are scored with a note and no population region. P. polycephalus and P. nitidus ("Not accepted as native", no Peninsular Malaysian record) are scored with a note and no population region (11 mapped rows). Confirm, or say whether a context (e.g. plant state harvested/wild) should replace the notes.'
   question9: 'Corner (1978) observations. Scored with source_id Corner_1978 and no population region (place not stated): F. angustifolia flowering_time March--April, fruiting_time June and ripe syncarp colour pink orange red; P. dubius flower_visitor beetle ("flowering heads ... full of beetles"). Not scored: Corner''s "fragrant at night, pollinated by bats" for F. angustifolia, because the treatment''s own family and genus Ecology hedge it ("is likely to be pollinated by bats", "are thought to be pollinated by bats"). Confirm, and decide whether bat pollination should go to pollination_vector_possible.'
   question10: 'Source inconsistency. F. imbricata "berry to 10--26 x 24 mm" (p. 161) is wider than its syncarp ("2.5--4.5 x 1.5--1.7 cm") and is not scored. Supply the intended berry size if known.'
   question11: 'Queried values. Extremes printed with a query are not scored while the typical range is: B. affinis leaves "2--4(--?5) cm" wide, P. klossii "(--?11) cm" wide. P. dubius "length unknown but assumed to be over 180 x 11--17 cm" is not scored at all, including the width. Confirm, or say whether the P. dubius width 11--17 cm should be scored.'
