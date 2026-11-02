@@ -1,0 +1,25 @@
+taxon_name,taxon_rank,status,n_mapped_rows,flag
+Cyatheaceae,family,accepted,3,
+Cyathea,genus,accepted,0,Only genus; description holds no unqualified mapped value (all genus clauses unmapped).
+Cyathea alleniae,species,accepted,12,Endemic; known only from the type collection. Branch-crown frond sizes kept unmapped.
+Cyathea alternans,species,accepted,16,
+Cyathea borneensis,species,accepted,27,
+Cyathea bunnemeijeri,species,accepted,8,Known in Peninsular Malaysia from one specimen (Kadim & Noor K 581).
+Cyathea contaminans,species,accepted,16,
+Cyathea excavata,species,accepted,25,
+Cyathea gigantea,species,accepted,9,
+Cyathea glabra,species,accepted,19,
+Cyathea hymenodes,species,accepted,18,
+Cyathea incisoserrata,species,accepted,15,
+Cyathea latebrosa,species,accepted,19,
+Cyathea lurida,species,accepted,20,
+Cyathea moluccana,species,accepted,15,
+Cyathea obscura,species,accepted,16,
+Cyathea oosora,species,accepted,8,"Trunk not seen; one Peninsular Malaysian collection (P. Tioman, 1974)."
+Cyathea polypoda,species,accepted,16,
+Cyathea recommutata,species,accepted,23,
+Cyathea squamulata,species,accepted,18,
+Cyathea sumatrana,species,accepted,15,
+Cyathea trichodesma,species,accepted,19,
+Cyathea tripinnata,species,accepted,23,
+Cyathea podophylla,species,excluded,0,Excluded: Peninsular Malaysian record (Iwatsuki 1995) assumed an error; no specimens seen. Not scored.
