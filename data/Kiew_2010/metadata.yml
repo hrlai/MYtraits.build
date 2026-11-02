@@ -1,0 +1,550 @@
+source:
+  primary:
+    key: Kiew_2010
+    bibtype: InBook
+    year: 2010
+    author: R. Kiew
+    title: Balanophoraceae
+    booktitle: 'Flora of Peninsular Malaysia, Series II: Seed Plants, Volume 1'
+    editor: R. Kiew and R. C. K. Chung and L. G. Saw and E. Soepadmo and P. C. Boyce
+    series: Malayan Forest Records No. 49
+    publisher: Forest Research Institute Malaysia
+    place: Kepong, Malaysia
+    pages: 67--81
+    isbn: 978-967-5221-32-3
+    doi: 10.26525/FPM21003
+  secondary:
+    key: Hambali_1980
+    bibtype: Article
+    year: 1980
+    author: G. G. Hambali
+    title: A new species of Balanophora from the Malay Peninsula
+    journal: Reinwardtia
+    volume: 9
+    number: 4
+    pages: 425--427
+  secondary_2:
+    key: Kiew_1998
+    bibtype: Book
+    year: 1998
+    author: R. Kiew
+    title: 'The seed plant flora of Fraser''s Hill, Peninsular Malaysia, with special reference to its conservation status'
+    series: FRIM Research Pamphlet No. 121
+    publisher: Forest Research Institute Malaysia
+    place: Kepong, Malaysia
+contributors:
+  data_collectors:
+    - last_name: Kiew
+      given_name: R.
+      ORCID: .na
+      affiliation: Forest Research Institute Malaysia, Kepong, Malaysia
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '2010'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description: |
+    To describe the morphology, distribution and ecology of the
+    Balanophoraceae of Peninsular Malaysia, represented by Balanophora (6
+    species) and Helosis (1 species), as part of the Flora of Peninsular
+    Malaysia.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    The PDF is a page scan with an OCR text layer (scanned_ocr). The OCR
+    layer was used only as a draft: every treatment page (pdf 8--22 = pp.
+    67--81) and the two plate pages (pdf 32--33 = pp. 301--302) were
+    rendered at 220 dpi and the text was checked line by line against the
+    images; the corrected text is raw/Balanophoraceae_transcription.txt.
+    flora_compare_numbers() was run on the checked text against the layer,
+    and each remaining difference was read from the image (all were OCR
+    slips or figure scale bars). Trait values were then written by hand
+    (raw/build_trait_data.R, with flora_hand()) clause by clause from the
+    family, genus and species descriptions and the Ecology, Distribution,
+    Notes, Note, Taxonomy and Conservation status paragraphs. Keys were not
+    used; figure and plate captions were used for vouchers only. Each value
+    keeps the clause it came from (trait_value_raw), the source term
+    (trait_value) and the page. Several values are listed in text order, and
+    alternatives qualified by a commonness word are recorded on separate
+    rows. A measured range is recorded as minimum and maximum values, with
+    parenthetical extremes on extreme_range rows; a single or "c." value is a
+    mean and "to X" a maximum. Categorical values stated singly and without
+    qualification in the family or genus description are applied to member
+    taxa whose own descriptions are silent, when every member that describes
+    the trait agrees (trait_scoring_method = inferred_from_family /
+    inferred_from_genus). Hedged statements (suggests, possible, appears)
+    are not scored.
+  original_file:
+    Balanophoraceae.pdf (Kiew 2010, Flora of Peninsular Malaysia Series II
+    vol. 1, pp. 67--81)
+  notes: |
+    data.csv is raw/trait_data.csv (written by raw/build_trait_data.R) with
+    three columns added by flora_make_data(): value (the source term for
+    categorical traits, mapped with substitutions), trait_scoring_method
+    (from rank_scored_from) and source_id. Taxon names are as printed. All
+    treatment text was image-checked; no page or clause is left unchecked,
+    so the extraction is not provisional for text accuracy. A born-digital
+    copy would only confirm it.
+    Balanophora fungosa has one taxon in the region, subsp. indica var.
+    indica; its description is scored at variety rank, and the species and
+    subspecies headings carry only Distribution, Ecology and Taxonomy text
+    (unmapped). Male and female flowers and inflorescences are kept apart in
+    entity_measured; tepal lengths name the tepal kind (median, lateral).
+    Family and genus descriptions are kept as family- and genus-rank records
+    as well as copied to member taxa. The family fruit type (achene) is not
+    copied: every taxon says "Fruits and Seeds unknown". Species description
+    and species Ecology values have population region Peninsular Malaysia;
+    one B. fungosa Note value has "G. Benom and G. Tahan, Pahang"; family
+    and genus values and values copied from them have none. Genus Ecology
+    statements naming a species (nectar, visitors) are scored on that
+    species. Statements from outside the region (Borneo, G. Kinabalu, India,
+    Thailand, Java, Christmas Island, "elsewhere") are kept as unmapped
+    records only.
+    The plants are leafless: their scale leaves are bracts on the flowering
+    tuber-branch, so no leaf trait is scored. Every clause with no trait in
+    config/traits.yml stays in raw/trait_data.csv as an unmapped record
+    (summary in raw/unmapped_terms.csv): tuber shape, size, surface, colour
+    and wax; flowering tuber-branch size and shape; scale leaf colour,
+    number, arrangement and size; plant and inflorescence colour;
+    inflorescence and bract shape; synandrium size and anther locules;
+    spadicles; ovary size; style number; tepal width and shape; named hosts;
+    habitat, altitude, distribution, conservation status, uses and taxonomy.
+    No source repairs were made. Type and figure specimens are in
+    raw/Kiew_2010_vouchers.csv; raw/taxon_flags.csv lists the taxa.
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: bud_length
+    unit_in: unit
+    trait_name: bud_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Length of male flower buds (B. reflexa); first dimension of "L x W".
+  - var_in: bud_width
+    unit_in: unit
+    trait_name: bud_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Width of male flower buds (B. reflexa); second dimension of "L x W".
+  - var_in: flower_anther_dehiscence
+    unit_in: .na
+    trait_name: flower_anther_dehiscence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Anther locules "dehiscing longitudinally" or "opening longitudinally" (male flowers).
+  - var_in: flower_bract_length
+    unit_in: unit
+    trait_name: flower_bract_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Length of the bracts of the male inflorescence (one bract per flower); first dimension of "L x W". Spadicles of the female inflorescence are not scored.
+  - var_in: flower_colour
+    unit_in: .na
+    trait_name: flower_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Colour of the male flowers. Inflorescence, tuber and scale leaf colours are not scored.
+  - var_in: flower_fertile_stamens_count
+    unit_in: unit
+    trait_name: flower_fertile_stamens_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Stamen number (family) and anther number of the synandrium (B. fungosa var. indica) of male flowers.
+  - var_in: flower_length
+    unit_in: unit
+    trait_name: flower_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Length of male and female flowers as printed ("1.5--2 mm long"; first dimension of "L x W").
+  - var_in: flower_nectar_production
+    unit_in: .na
+    trait_name: flower_nectar_production
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Nectar produced by the inflorescences (genus Ecology); the inflorescence is named in entity_measured.
+  - var_in: flower_ovary_position
+    unit_in: .na
+    trait_name: flower_ovary_position
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Ovary position of the female flowers (family description).
+  - var_in: flower_perianth_fusion_categorical
+    unit_in: .na
+    trait_name: flower_perianth_fusion_categorical
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Male flower perianth "shortly tubular at base" or "scarcely joined at the base" (Helosis).
+  - var_in: flower_perianth_merism
+    unit_in: unit
+    trait_name: flower_perianth_merism
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Merism of male flowers ("4--5-merous", "trimerous", perianth lobe number in Helosis ruficeps).
+  - var_in: flower_perianth_parts_count
+    unit_in: unit
+    trait_name: flower_perianth_parts_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Tepal number of male flowers.
+  - var_in: flower_perianth_symmetry
+    unit_in: .na
+    trait_name: flower_perianth_symmetry
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Symmetry of male flowers; actinomorphic mapped to actinomorphic_general.
+  - var_in: flower_scent_production
+    unit_in: .na
+    trait_name: flower_scent_production
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Smell of the male inflorescence (B. hansenii Ecology, citing Hambali 1980).
+  - var_in: flower_sepal_length
+    unit_in: unit
+    trait_name: flower_sepal_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Tepal length of male flowers (one perianth whorl, no petals); median and lateral tepals named in entity_measured.
+  - var_in: flower_structural_carpels_count
+    unit_in: unit
+    trait_name: flower_structural_carpels_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Carpel number of female flowers (family description).
+  - var_in: flower_structural_sex_type
+    unit_in: .na
+    trait_name: flower_structural_sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      "Many unisexual flowers" (family description).
+  - var_in: flower_style_length
+    unit_in: unit
+    trait_name: flower_style_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Style length of female flowers.
+  - var_in: flower_visitor
+    unit_in: .na
+    trait_name: flower_visitor
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Insects seen on the inflorescences (genus Ecology): Vespa velutina foraging for nectar; Trigona stingless bees and other insects (citing Kiew 1998). Whether they pollinate is not known.
+  - var_in: flowering_time
+    unit_in: .na
+    trait_name: flowering_time
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Months in flower from the species Ecology paragraphs; "throughout the year" scored as every month; "most flowering ... with a few in" on separate rows.
+  - var_in: flowers_per_inflorescence
+    unit_in: unit
+    trait_name: flowers_per_inflorescence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Number of male flowers per inflorescence.
+  - var_in: fruit_type
+    unit_in: .na
+    trait_name: fruit_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      "Fruits minute, 1-seeded achenes" (family description only; fruits unknown for every species in the region).
+  - var_in: inflorescence_diameter
+    unit_in: unit
+    trait_name: inflorescence_diameter
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Diameter of male and female inflorescences (Helosis ruficeps including the peltate bracts).
+  - var_in: inflorescence_length
+    unit_in: unit
+    trait_name: inflorescence_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Length of male and female inflorescences (the fertile spike, without peduncle and flowering tuber-branch).
+  - var_in: inflorescence_type
+    unit_in: .na
+    trait_name: inflorescence_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      "Inflorescences spicate" (family and Balanophora genus descriptions).
+  - var_in: parasitic
+    unit_in: .na
+    trait_name: parasitic
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      "Root parasites" (family description and Ecology); B. hansenii "parasitises the roots of" named trees (Ecology, citing Hambali 1980).
+  - var_in: pedicel_length
+    unit_in: unit
+    trait_name: pedicel_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Pedicel length of male flowers; a "sessile" alternative is not scored.
+  - var_in: peduncle_length
+    unit_in: unit
+    trait_name: peduncle_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Peduncle length of the inflorescence (above the flowering tuber-branch).
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      "Herbaceous" (family description).
+  - var_in: plant_photosynthetic_organ
+    unit_in: .na
+    trait_name: plant_photosynthetic_organ
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      "Without ... chlorophyll" (family description).
+  - var_in: pollination_syndrome
+    unit_in: .na
+    trait_name: pollination_syndrome
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      "The flowers are insect pollinated", with the floral features given as reasons (Balanophora genus Ecology).
+  - var_in: sex_type
+    unit_in: .na
+    trait_name: sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      "Monoecious plants" or "Dioecious plants".
+substitutions:
+  - trait_name: flower_anther_dehiscence
+    find: dehiscing longitudinally
+    replace: longitudinal_slit
+  - trait_name: flower_anther_dehiscence
+    find: opening longitudinally
+    replace: longitudinal_slit
+  - trait_name: flower_nectar_production
+    find: produce nectar
+    replace: nectar_produced
+  - trait_name: flower_perianth_fusion_categorical
+    find: shortly tubular at base
+    replace: perianth_parts_fused_at_base
+  - trait_name: flower_perianth_fusion_categorical
+    find: scarcely joined at the base
+    replace: perianth_parts_fused_at_base
+  - trait_name: flower_perianth_symmetry
+    find: actinomorphic
+    replace: actinomorphic_general
+  - trait_name: flower_perianth_symmetry
+    find: actinomorphic zygomorphic
+    replace: actinomorphic_general zygomorphic
+  - trait_name: flower_scent_production
+    find: faint, disagreeable smell
+    replace: scent_produced
+  - trait_name: flower_visitor
+    find: Vespa velutina
+    replace: wasp
+  - trait_name: fruit_type
+    find: achenes
+    replace: achene
+  - trait_name: inflorescence_type
+    find: spicate
+    replace: spike
+  - trait_name: parasitic
+    find: root parasites
+    replace: root_parasitic
+  - trait_name: parasitic
+    find: parasitises the roots
+    replace: root_parasitic
+  - trait_name: plant_growth_form
+    find: herbaceous
+    replace: herb
+  - trait_name: plant_photosynthetic_organ
+    find: without chlorophyll
+    replace: non-photosynthetic_plant
+  - trait_name: pollination_syndrome
+    find: insect pollinated
+    replace: insect
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1: |
+    Holoparasitism is not stated. The family description says "Herbaceous,
+    fleshy root parasites without roots, stems or chlorophyll" (p. 67). This
+    is scored parasitic = root_parasitic and plant_photosynthetic_organ =
+    non-photosynthetic_plant, on the family row and copied to all 7 taxa;
+    holoparasitic is not scored because the word is not printed (skill:
+    score parasitism only as stated). Should a root parasite stated to lack
+    chlorophyll also score parasitic = holoparasitic (8 rows)?
+  question2: |
+    Flowering tuber-branch size has no trait. Every taxon gives the length
+    and width of the flowering tuber-branch, the stalk that grows from the
+    subterranean tuber and bears the peduncle and inflorescence (e.g. B.
+    hansenii "4--11.5 cm long", Helosis ruficeps "(4--)8--10.5 cm long, 7--13
+    mm diameter", pp. 70--79). All are kept unmapped. The skill maps the
+    height of an emerging scape to plant_height_reproductive, but the text
+    does not say how much of the tuber-branch is above ground. Should
+    tuber-branch length (plus peduncle and inflorescence length) be scored
+    as plant_height_reproductive, or stay unmapped?
+  question3: |
+    The tuber has no mapped trait. The family "solid tuber at the point of
+    contact with the host root" (p. 67) is a parasite-host organ; tuber
+    size (genus "1--25 cm across", species 2--25 cm), surface and wax content
+    are kept unmapped. Should it score storage_organ (tuber or
+    fleshy_underground_organ) and storage_organ_length / _diameter, or stay
+    unmapped as not a storage organ?
+  question4: |
+    Probable source typo, B. hansenii (p. 74): "median tepals broad,
+    truncate, 2.5--4 x 2--3.5 cm" and "synandrium white, 0.5--2.5 cm long",
+    beside "lateral tepals ... 2--4 x 1--3 mm" and "pedicels 2--10 mm". The
+    flowers are under 1 cm elsewhere in the genus, so mm is likely, but it
+    is not certain, so no repair was made: the median tepal size and the
+    synandrium length stay unmapped, and only the lateral tepals are
+    scored. Should cm be repaired to mm (2 values) and the median tepals
+    scored?
+  question5: |
+    Mapping checks for male flowers. (a) The bract under each male flower
+    ("bracts truncate, c. 5 x 4 mm", "upper bracts ... 3--4 mm long") is
+    scored as flower_bract_length for 5 Balanophora species (7 rows);
+    spadicles of the female inflorescence are not. (b) B. fungosa var.
+    indica "anthers (3--)4--5(--6)" (p. 72), anthers united in a synandrium,
+    is scored as flower_fertile_stamens_count (4 rows). (c) Tepal lengths are
+    scored as flower_sepal_length (provisional Cheek_2012 rule), with median
+    and lateral tepals as separate entity_measured values for B. hansenii,
+    B. latisepala and B. papuana. Confirm or change these three mappings.
+  question6: |
+    Helosis ruficeps "It has been collected between August and February"
+    (Ecology, p. 81). Collections are not stated to be in flower, so
+    flowering_time is not scored. Should collection months be scored as
+    flowering_time (August to February) for this plant, known only from
+    flowering specimens?
+  question7: |
+    Nectar and smell are stated for inflorescences, not single flowers.
+    "The female inflorescences produce glistening droplets of nectar"
+    (Balanophora genus Ecology, p. 69) and nectar "in a hollow on the upper
+    surface of the bracts" (B. fungosa var. indica and B. papuana) are
+    scored flower_nectar_production = nectar_produced, entity_measured the
+    inflorescence; the genus value is copied to the other 4 species. B.
+    hansenii "Male inflorescences have a faint, disagreeable smell" is
+    flower_scent_production = scent_produced. Is a flower trait right for an
+    inflorescence statement, and should the genus nectar statement be copied?
+  question8: |
+    Pollination stated with reasons, not observation. "The flowers are insect
+    pollinated – the scale leaves and inflorescences are coloured, the male
+    flowers produce conspicuous sticky white pollen, and the female
+    inflorescences produce glistening droplets of nectar" (Balanophora genus
+    Ecology, pp. 68--69) is scored pollination_syndrome = insect and copied
+    to the 6 Balanophora species; pollination_vector_known is not scored
+    because the same paragraph says whether the observed insects "are
+    pollinators is not known". Confirm syndrome rather than known vector.
+  question9: |
+    Inflorescence colour has no trait. Colours are printed for the whole
+    plant, tuber, scale leaves and inflorescences ("Female inflorescences
+    dark red", "Inflorescences deep rosy red"), not for flowers; only B.
+    hansenii "Male flowers pink" scores flower_colour. These colours are
+    kept unmapped (about 12 rows). Should a candidate trait for
+    inflorescence or plant colour be added centrally for leafless
+    parasites?
