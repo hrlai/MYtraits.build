@@ -1,0 +1,596 @@
+source:
+  primary:
+    key: Nor-Ezzawanis_2010_2
+    bibtype: InBook
+    year: 2010
+    author: A. T. Nor-Ezzawanis
+    title: Casuarinaceae
+    booktitle: 'Flora of Peninsular Malaysia, Series II: Seed Plants, Volume 1'
+    editor:
+      R. Kiew and R. C. K. Chung and L. G. Saw and E. Soepadmo and P. C. Boyce
+    series: Malayan Forest Records No. 49
+    publisher: Forest Research Institute Malaysia
+    place: Kepong, Selangor, Malaysia
+    pages: 87--91
+    isbn: 978-967-5221-32-3
+    doi: 10.26525/FPM21005
+  secondary:
+    key: Corner_1988
+    bibtype: Book
+    year: 1988
+    author: E. J. H. Corner
+    title: Wayside Trees of Malaya, 3rd edition
+    publisher: Malayan Nature Society
+    place: Kuala Lumpur, Malaysia
+contributors:
+  data_collectors:
+    - last_name: Nor-Ezzawanis
+      given_name: A. T.
+      ORCID: .na
+      affiliation: Forest Research Institute Malaysia, Kepong, Malaysia
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '2010'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description: |
+    To describe the morphology, distribution and ecology of the Casuarinaceae
+    of Peninsular Malaysia, represented by one genus (Casuarina) with one
+    native species (C. equisetifolia), as part of the Flora of Peninsular
+    Malaysia.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    The source PDF is a scan with an Acrobat OCR text layer (scanned_ocr).
+    The OCR layer was used only to draft text. Every page of the treatment
+    (printed pp. 87--91, PDF pp. 8--12) and the Plate 11 caption (p. 303)
+    was checked against page images rendered at 220 dpi, and the corrected
+    text was saved in raw/Casuarinaceae_transcription.txt. Trait values were
+    then transcribed by hand (raw/build_trait_data.R, with flora_hand())
+    from that image-checked text, clause by clause, from the family, genus
+    and species descriptions and the Ecology paragraphs. Keys and figure
+    captions were not used as trait evidence. Each value keeps the clause it
+    came from (trait_value_raw), the source term (trait_value) and the page.
+    Several values are listed in text order, and alternatives qualified by
+    a commonness word (usually, sometimes, rarely, less commonly) are
+    recorded on separate rows. A measured range is recorded as minimum and
+    maximum values, a parenthetical extreme as an extreme_range row, a "c."
+    value as a mean and "to X" as a maximum. Categorical values stated
+    singly and without qualification in the family or genus description
+    are applied to the species where its own description is silent
+    (trait_scoring_method = inferred_from_family / inferred_from_genus).
+  original_file:
+    Casuarinaceae.pdf (Nor-Ezzawanis 2010, Flora of Peninsular Malaysia
+    Series II vol. 1, pp. 87--91)
+  notes: |
+    data.csv is raw/trait_data.csv (written by raw/build_trait_data.R) with
+    three columns added by flora_make_data(): value (the source term for
+    categorical traits, mapped with substitutions), trait_scoring_method
+    (from rank_scored_from) and source_id. Taxon names are as printed. The
+    family and genus descriptions are kept as family- and genus-rank records
+    as well as copied to the species. Every clause was checked against the
+    page images; no clause is unchecked and no source repair was needed
+    (OCR slips corrected in the transcription are listed in its header).
+    The extraction is complete for the treatment, apart from the open
+    questions below. A born-digital copy would not change the values.
+    Species description values have population region Peninsular Malaysia
+    (FPM guide). The Plate 11 photographs, Figure 1 (reproduced from Tree
+    Flora of Sabah and Sarawak vol. 2, 1996) and the type illustration cite
+    no specimen (raw/Nor-Ezzawanis_2010_2_vouchers.csv). Three species named
+    as planted ornamentals in the family Distribution are not treated and
+    not scored (raw/taxon_flags.csv). The printed text marks diagnostic
+    characters in italics; this does not change any value. Every clause
+    with no trait in config/traits.yml stays in raw/trait_data.csv as an
+    unmapped record (summary in raw/unmapped_terms.csv): twig dimorphism
+    and green-twig size, colour and branching; scale leaves per node; bole
+    form; crown symmetry; buttress height; sapwood; inner bark texture;
+    perianth absence; bracteoles; filament, anther and ovary shape and
+    colour; stigmatic arm colour; ovary locules and ovules; infructescence
+    shape, size, bracts and bracteoles; fruit length (suspect value) and
+    shape; endosperm; anthesis; habitat; distribution; conservation status;
+    uses.
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: bark_colour
+    unit_in: .na
+    trait_name: bark_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Bark surface colour (no entity), outer bark and inner bark (entity measured). Greyish brown and pale brown are scored as brown and brown_light.
+  - var_in: bark_texture
+    unit_in: .na
+    trait_name: bark_texture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Bark surface; scaly-fissured scored as furrowed.
+  - var_in: dispersal_appendage
+    unit_in: .na
+    trait_name: dispersal_appendage
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Winged fruit (samaroid nut with a pair of wings).
+  - var_in: dispersal_syndrome
+    unit_in: .na
+    trait_name: dispersal_syndrome
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      From the family Ecology paragraph: the winged fruits are wind-dispersed.
+  - var_in: dispersal_unit
+    unit_in: .na
+    trait_name: dispersal_unit
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      From the family Ecology paragraph: the fruits are wind-dispersed.
+  - var_in: dispersers
+    unit_in: .na
+    trait_name: dispersers
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      From the family Ecology paragraph: the fruits are wind-dispersed.
+  - var_in: flower_anther_attachment
+    unit_in: .na
+    trait_name: flower_anther_attachment
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family description, male flowers.
+  - var_in: flower_anther_colour
+    unit_in: .na
+    trait_name: flower_anther_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Colour in life; golden brown scored as brown.
+  - var_in: flower_anther_length
+    unit_in: unit
+    trait_name: flower_anther_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Male flowers.
+  - var_in: flower_bract_length
+    unit_in: unit
+    trait_name: flower_bract_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Bract subtending each male or female flower (entity measured).
+  - var_in: flower_fertile_stamens_count
+    unit_in: unit
+    trait_name: flower_fertile_stamens_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Family description, male flowers ("stamen 1"); family rank only.
+  - var_in: flower_filament_length
+    unit_in: unit
+    trait_name: flower_filament_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Male flowers.
+  - var_in: flower_ovary_position
+    unit_in: .na
+    trait_name: flower_ovary_position
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Genus description, female flowers.
+  - var_in: flower_stigma_length
+    unit_in: unit
+    trait_name: flower_stigma_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Length of the two stigmatic arms of the female flower.
+  - var_in: fruit_colour
+    unit_in: .na
+    trait_name: fruit_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Samaroid nut; pale yellow-brown scored as brown.
+  - var_in: fruit_surface_hairs
+    unit_in: .na
+    trait_name: fruit_surface_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Genus description, samaroid nut glabrous.
+  - var_in: fruit_type
+    unit_in: .na
+    trait_name: fruit_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Samaroid nut scored as samara.
+  - var_in: inflorescence_diameter
+    unit_in: unit
+    trait_name: inflorescence_diameter
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Female inflorescences.
+  - var_in: inflorescence_length
+    unit_in: unit
+    trait_name: inflorescence_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Male and female inflorescences (entity measured).
+  - var_in: inflorescence_shape
+    unit_in: .na
+    trait_name: inflorescence_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Male inflorescences (elongated spikes).
+  - var_in: inflorescence_type
+    unit_in: .na
+    trait_name: inflorescence_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Male and female inflorescences (entity measured); spike-like scored as spike.
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Scale leaves; narrowly acute scored as acute.
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Scale leaves, separately on woody and on green twigs (entity measured).
+  - var_in: leaf_phyllotaxis
+    unit_in: .na
+    trait_name: leaf_phyllotaxis
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family description: leaves (scale leaves) in whorls at the twig nodes.
+  - var_in: leaf_type
+    unit_in: .na
+    trait_name: leaf_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaves reduced to teeth in a sheath (family) and scale leaves (species), scored as scale.
+  - var_in: nitrogen_fixing
+    unit_in: .na
+    trait_name: nitrogen_fixing
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family Ecology paragraph citing Corner (1988): root nodules containing symbiotic nitrogen-fixing bacteria (Casuarina species).
+  - var_in: peduncle_length
+    unit_in: unit
+    trait_name: peduncle_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Peduncle of the infructescence.
+  - var_in: plant_canopy_form
+    unit_in: .na
+    trait_name: plant_canopy_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Genus description: crown spreading with age (initially conical, not scored).
+  - var_in: plant_diameter_breast_height
+    unit_in: unit
+    trait_name: plant_diameter_breast_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Stem "diameter"; height of measurement not stated.
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Habit.
+  - var_in: plant_height
+    unit_in: unit
+    trait_name: plant_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Typical range on usually rows, parenthetical extreme on an extreme_range row.
+  - var_in: pollination_syndrome
+    unit_in: .na
+    trait_name: pollination_syndrome
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      From the family Ecology paragraph: the flowers are wind-pollinated.
+  - var_in: seeds_per_fruit
+    unit_in: unit
+    trait_name: seeds_per_fruit
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Family description ("Seed one per fruit"); family rank only.
+  - var_in: sex_type
+    unit_in: .na
+    trait_name: sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Dioecious and monoecious on separate rows with their commonness qualifiers.
+  - var_in: stem_base_form
+    unit_in: .na
+    trait_name: stem_base_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Buttresses (sometimes present).
+substitutions:
+  - trait_name: bark_colour
+    find: 'greyish_brown grey'
+    replace: 'brown grey'
+  - trait_name: bark_colour
+    find: 'pale_red black'
+    replace: 'red black'
+  - trait_name: bark_colour
+    find: 'pinkish'
+    replace: 'pink'
+  - trait_name: bark_colour
+    find: 'pale_brown red'
+    replace: 'brown_light red'
+  - trait_name: bark_texture
+    find: 'scaly-fissured'
+    replace: 'furrowed'
+  - trait_name: dispersal_appendage
+    find: 'pair_of_membranous_wings'
+    replace: 'wings'
+  - trait_name: dispersal_appendage
+    find: 'wing_pair'
+    replace: 'wings'
+  - trait_name: dispersal_syndrome
+    find: 'wind-dispersed'
+    replace: 'anemochory'
+  - trait_name: dispersal_unit
+    find: 'fruits'
+    replace: 'fruit'
+  - trait_name: dispersers
+    find: 'wind-dispersed'
+    replace: 'wind'
+  - trait_name: flower_anther_colour
+    find: 'golden_brown'
+    replace: 'brown'
+  - trait_name: fruit_colour
+    find: 'dull_grey pale_yellow-brown'
+    replace: 'grey brown'
+  - trait_name: fruit_colour
+    find: 'pale_yellow-brown'
+    replace: 'brown'
+  - trait_name: fruit_type
+    find: 'samaroid_nut'
+    replace: 'samara'
+  - trait_name: inflorescence_type
+    find: 'spike-like'
+    replace: 'spike'
+  - trait_name: inflorescence_type
+    find: 'spikes'
+    replace: 'spike'
+  - trait_name: leaf_apex_shape
+    find: 'narrowly_acute'
+    replace: 'acute'
+  - trait_name: leaf_phyllotaxis
+    find: 'whorls'
+    replace: 'whorled'
+  - trait_name: leaf_type
+    find: 'reduced_to_minute_teeth'
+    replace: 'scale'
+  - trait_name: leaf_type
+    find: 'scale_leaves'
+    replace: 'scale'
+  - trait_name: nitrogen_fixing
+    find: 'root_nodules_with_nitrogen-fixing_bacteria'
+    replace: 'nitrogen_fixer'
+  - trait_name: plant_growth_form
+    find: 'trees'
+    replace: 'tree'
+  - trait_name: pollination_syndrome
+    find: 'wind-pollinated'
+    replace: 'wind'
+  - trait_name: stem_base_form
+    find: 'buttresses'
+    replace: 'buttressed'
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1: |
+    Fruit length (C. equisetifolia, p. 90): "Samaroid nut ... c. 3.5 cm
+    long". Tree Flora of Sabah and Sarawak vol. 2 (1996) gives "Samara
+    0.6--0.8 cm long" for the same species, and Figure 1C (reproduced from
+    that flora) has a 3 cm scale bar. The value looks like a typo, but the
+    intended value cannot be read from the source, so fruit_length is not
+    scored (one unmapped row). Decide: score 35 mm as printed, score a
+    corrected value, or leave unscored.
+  question2: |
+    Functional leaves: the leaves are reduced to scale leaves 0.5--1 mm
+    long (green twigs) or to 4 mm (woody twigs); the green needle-like
+    twigs (to 34 cm long, internodes to 1.3 cm x 0.5--1 mm, p. 88) are the
+    photosynthetic organs. Currently leaf_type = scale and leaf_length are
+    scored from the scale leaves, and green-twig sizes are unmapped. Decide
+    whether leaf traits should describe the scale leaves (current), the
+    green twigs, or both with an entity label; this matters for any
+    leaf-size analysis.
+  question3: |
+    Scale leaf length is scored on two entity_measured labels, "scale
+    leaves on woody twigs" (max 4 mm) and "scale leaves on green twigs"
+    (0.5--1 mm). Confirm these labels, or keep only the green-twig values.
+  question4: |
+    Leaves per node: family "whorls of 4--20", genus "5--18 per node",
+    species "(6--)7(--8) per node". No trait holds a whorl or node count
+    (leaf_count is per plant), so all three are unmapped. Is a trait such
+    as leaves_per_node wanted in config/traits.yml?
+  question5: |
+    flower_bract_length: male and female flower bracts are 0.8--1 mm long
+    (p. 90). The trait's allowed range starts at 1 mm, so the 0.8 mm
+    minimum rows will be excluded by the build. Decide: widen the range in
+    config/traits.yml, or accept the exclusion.
+  question6: |
+    flower_stigma_length is scored from "stigmatic arms red, 1.5--5 mm
+    long" (female flowers, p. 90). The arms are style branches whose
+    surface is stigmatic. Confirm the mapping, or leave unmapped.
+  question7: |
+    Bole "27--100(--200) cm diameter" (p. 88) is scored as
+    plant_diameter_breast_height; the height of measurement is not stated
+    (same treatment as Yao_2010). Confirm.
+  question8: |
+    Judgement mappings to check: bark greyish brown -> brown; inner bark
+    pale brown -> brown_light, pinkish -> pink; bark scaly-fissured ->
+    furrowed; scale-leaf apex narrowly acute -> acute; spike-like -> spike;
+    samaroid nut -> samara (not nut); fruit pale yellow-brown -> brown;
+    anther golden brown (in life) -> brown; crown "initially conical, then
+    spreading with age" -> spreading (conical has no level).
+  question9: |
+    Female inflorescence position conflicts between ranks: the family says
+    "terminal or subterminal on both brown and green twigs" (p. 87), the
+    genus says "lateral on persistent woody twigs" (p. 88). Neither is
+    scored as a position; only the family "head" is copied to the species
+    as inflorescence_type (female). Decide whether either position should
+    be scored, and whether "head" fits an ellipsoid female inflorescence
+    to 6 mm long.
+  question10: |
+    "perianth absent" (male and female flowers, family description) is not
+    scored because the perianth traits have no absent level. Should it be
+    scored as flower_perianth_parts_count = 0?
+  question11: |
+    nitrogen_fixing = nitrogen_fixer is scored at genus rank from the
+    family Ecology sentence "Root nodules, containing symbiotic
+    nitrogen-fixing bacteria, enable Casuarina species to grow ..."
+    (citing Corner 1988), with source_id Corner_1988, and copied to C.
+    equisetifolia. Confirm the source attribution (FPM text vs Corner).
+  question12: |
+    Infructescence ("cone-like", globose or ovoid-cylindric, to 2 cm long,
+    1.5 cm diameter) is a multiple structure, not a fruit, so its size is
+    unmapped; only peduncle_length (2--20 mm) is scored, with entity
+    "infructescences". Lim_2010 put conifer seed cones under fruit traits.
+    Decide: map infructescence size to fruit_length and fruit_width with an
+    entity label, or keep unmapped (candidate infructescence traits).
+  question13: |
+    sex_type is scored as printed: species "usually dioecious, rarely
+    monoecious" (p. 88), family "dioecious or less commonly monoecious".
+    Tree Flora of Sabah and Sarawak vol. 2 describes the same species as
+    "Monoecious trees". Confirm FPM's wording is to be kept as a separate
+    observation.
+  question14: |
+    Stamen number: the family says "stamen 1" (male flowers), scored at
+    family rank only (numbers are not copied down); the species says
+    "stamens with filaments 1.2--3 mm long". Should flower_fertile_stamens_count
+    = 1 also be applied to C. equisetifolia?
+  question15: |
+    Vouchers: the type is an illustration (Rumphius, Herb. Amboin. 3 (1743)
+    t. 57) with no status printed, so specimen_status is blank. Figure 1 is
+    reproduced from Tree Flora of Sabah and Sarawak vol. 2 (1996) without
+    its specimens (that flora cites S. 13733, S. 42032 and SAN 87058);
+    these are not added here because they belong to that flora's dataset.
+    Confirm both decisions, and whether the voucher vocabulary needs a
+    level for an illustration type.
+  question16: |
+    Inner bark "fibrous, soft" and sapwood "yellowish to yellow, hard" (p.
+    88) have no traits and are unmapped. Are inner-bark texture or sapwood
+    colour traits wanted?

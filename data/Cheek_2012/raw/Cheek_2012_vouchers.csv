@@ -1,0 +1,39 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Nepenthes albomarginata,lectotype,,,,,,,,,"Type, p.255","Lectotype is an illustration: Gard. Chron. 1849, p. 580, t. 3; no specimen."
+Nepenthes ampullaria,lectotype,SING,,Jack,s.n.,,Singapore,,Singapore,"Type, p.257",
+Nepenthes benstonei,holotype,KLU,,Clarke,s.n.,,Bt. Bakar,Kelantan,Malaysia,"Type, p.258","Note (p. 260): stated to be in KEP (Clarke 1999) but in fact in KLU."
+Nepenthes benstonei,isotype,BO,,Clarke,s.n.,,Bt. Bakar,Kelantan,Malaysia,"Type, p.258",n.v. (not seen by authors).
+Nepenthes benstonei,isotype,K,,Clarke,s.n.,,Bt. Bakar,Kelantan,Malaysia,"Type, p.258",n.v. (not seen by authors).
+Nepenthes benstonei,isotype,L,,Clarke,s.n.,,Bt. Bakar,Kelantan,Malaysia,"Type, p.258",n.v. (not seen by authors).
+Nepenthes benstonei,isotype,SAN,,Clarke,s.n.,,Bt. Bakar,Kelantan,Malaysia,"Type, p.258",n.v. (not seen by authors).
+Nepenthes benstonei,isotype,SING,,Clarke,s.n.,,Bt. Bakar,Kelantan,Malaysia,"Type, p.258",n.v. (not seen by authors).
+Nepenthes gracilis,lectotype,L,,Korthals,s.n.,,G. Pamatton,Kalimantan,Indonesia,"Type, p.260",Borneo.
+Nepenthes gracilis,isolectotype,K,,Korthals,s.n.,,G. Pamatton,Kalimantan,Indonesia,"Type, p.260",Borneo.
+Nepenthes gracilis,holotype,K-W,,Wallich,2244 p.p.,,Singapore,,Singapore,"Type, p.260","Type of the synonym N. gracilis var. elongata Blume. Wallich 2244 is a mixed collection (N. albomarginata from Penang, N. gracilis from Singapore; Note p. 257)."
+Nepenthes gracilis,holotype,K,,Ridley,1473,,Pekan [Praman],Pahang,Malaysia,"Type, p.260","Type of the synonym N. gracilis var. arenaria Ridl. ex Macfarl.; Note (p. 261): Cheek & Jebb (2001) gave 'Singapore, Praman', but it was collected in Pekan, Pahang."
+Nepenthes gracilis,isotype,SING,,Ridley,1473,,Pekan [Praman],Pahang,Malaysia,"Type, p.260",Type of the synonym N. gracilis var. arenaria Ridl. ex Macfarl.
+Nepenthes gracillima,lectotype,SING,,Wray & Robinson,5309,,G. Tahan,Pahang,Malaysia,"Type, p.261",
+Nepenthes gracillima,isolectotype,BO,,Wray & Robinson,5309,,G. Tahan,Pahang,Malaysia,"Type, p.261",
+Nepenthes gracillima,lectotype,SING,,Wray & Robinson,5411,,G. Tahan,Pahang,Malaysia,"Type, p.261",Type of the synonym Nepenthes alba Ridl.
+Nepenthes gracillima,isolectotype,BO,,Wray & Robinson,5411,,G. Tahan,Pahang,Malaysia,"Type, p.261",Type of the synonym Nepenthes alba Ridl.
+Nepenthes macfarlanei,lectotype,K,,King’s Collector,7421,,G. Bubu,Perak,Malaysia,"Type, p.264",
+Nepenthes macfarlanei,isolectotype,K,,King’s Collector,7421,,G. Bubu,Perak,Malaysia,"Type, p.264",4 sheets.
+Nepenthes mirabilis,,P,,Loureiro,s.n.,,near Hue,,Vietnam,"Type, p.265","Type of the basionym Phyllamphora mirabilis Lour.; status not stated. n.v. (not seen by authors)."
+Nepenthes rafflesiana,lectotype,SING,,Jack,s.n.,,Singapore,,Singapore,"Type, p.267",
+Nepenthes ramispina,lectotype,SING,,Ridley,12064,,Ulu Semangkok,Selangor,Malaysia,"Type, p.270",
+Nepenthes ramispina,isolectotype,SING,,Ridley,12064,,Ulu Semangkok,Selangor,Malaysia,"Type, p.270",2 sheets.
+Nepenthes ramispina,holotype,SING,,Ridley,13704,,Telom,Pahang,Malaysia,"Type, p.270",Type of the synonym Nepenthes gracillima var. major Ridl.
+Nepenthes ramispina,figure specimen,,,Kiew,RK 5385,,,,,"Figure 2, p.269",All parts of Figure 2 drawn from this collection; herbarium not stated.
+Nepenthes sanguinea,holotype,K,,Griffith,4411,,G. Ledang [Mt. Ophir],Johor [Melaka],Malaysia,"Type, p.271",State printed 'Johor [Melaka]'.
+Nepenthes ×ghazallyiana,holotype,UKMS,,Jumaat H. Adam,2476,,Telupid Town,Sabah,Malaysia,"Type, p.272",Borneo.
+Nepenthes ×ghazallyiana,isotype,SAN,,Jumaat H. Adam,2476,,Telupid Town,Sabah,Malaysia,"Type, p.272",Borneo.
+Nepenthes ×ghazallyiana,isotype,SNP,,Jumaat H. Adam,2476,,Telupid Town,Sabah,Malaysia,"Type, p.272",Borneo.
+Nepenthes ×ghazallyiana,holotype,UKMB,,Jumaat H. Adam,JHA 8000,,"Bangi, Universiti Kebangsaan Malaysia",Selangor,Malaysia,"Type, p.272",Type of the synonym Nepenthes sharifah-hapsahii J.H.Adam & Hafiza Hamid (syn. nov.).
+Nepenthes ×ghazallyiana,isotype,UKMB,,Jumaat H. Adam,JHA 8000,,"Bangi, Universiti Kebangsaan Malaysia",Selangor,Malaysia,"Type, p.272",Type of the synonym Nepenthes sharifah-hapsahii J.H.Adam & Hafiza Hamid (syn. nov.).
+Nepenthes ×hookeriana,,,,Low,,,,Sarawak,Malaysia,"Type, p.273","Borneo; type not located; status not stated."
+Nepenthes ×trichocarpa,,BO,,Teijsmann,532 p.p.,,Siboga,,Indonesia,"Type, p.274","Sumatra; status not stated; n.v."
+Nepenthes ×trichocarpa,,L,,Teijsmann,532 p.p.,,Siboga,,Indonesia,"Type, p.274","Sumatra; status not stated; n.v."
+Nepenthes ×trichocarpa,,U,,Teijsmann,532 p.p.,,Siboga,,Indonesia,"Type, p.274","Sumatra; status not stated; n.v."
+Nepenthes alata,,,,Blanco,s.n.,,Vintar,"Ilocos, Luzon",Philippines,"Type, p.274",Excluded species; type not located; status not stated.
+Nepenthes reinwardtiana,syntype,U,00274,Junghuhn,s.n.,,"Batak region, Pager-utang",Sumatra,Indonesia,"Type, p.275",Excluded species; n.v.
+Nepenthes reinwardtiana,syntype,U,00273,Junghuhn,s.n.,,"Batak region, Simur-wasos",Sumatra,Indonesia,"Type, p.275",Excluded species; n.v.

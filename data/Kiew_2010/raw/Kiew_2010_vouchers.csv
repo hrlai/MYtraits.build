@@ -1,0 +1,17 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Balanophora abbreviata,neotype,L,,Luetjeharms,3650,,Java,,,"Type, p.70",
+Balanophora insularis,lectotype,SING,SING 59537,Ridley,138,1904,"Christmas Island, Murray Hill Track",,,"Type of synonym, p.70","Synonym of B. abbreviata. Lectotype designated here ('here chosen'). Barcode as printed."
+Balanophora fungosa,lectotype,BM,,J.R. & G. Forster,s.n.,1774,Tanna,,,"Type, p.71",
+Balanophora fungosa subsp. indica,holotype,K,,Wallich,7247,1832,,,India,"Type, p.71",Type of the basionym Langsdorffii indica Arn.
+Balanophora gigantea,holotype,K,,Wallich,7249,,,,Myanmar,"Type of synonym, p.71",Synonym of B. fungosa subsp. indica. Printed "Myanmar [Burma]".
+Balanophora fungosa subsp. indica var. indica,figure specimen,,,Kiew,RK 5391,,,,,"Figure 1, p.73",Fig. 1 A--E (male inflorescence and male flowers).
+Balanophora fungosa subsp. indica var. indica,figure specimen,,,Kiew,RK 5392,,,,,"Figure 1, p.73",Fig. 1 F--I (female inflorescences and tuber surface).
+Balanophora hansenii,holotype,BO,,Hambali,s.n.,1977-12-31,G. Ulu Kali,Pahang,Malaysia,"Type, p.74","Printed ""n.v."" (not seen by the author). Locality printed as Peninsular Malaysia, Pahang, G. Ulu Kali."
+Balanophora latisepala,holotype,P,,Harmand,754,,,,Vietnam,"Type, p.75","Type of the basionym Balaniella latisepala Tiegh. Printed ""n.v."" (not seen by the author)."
+Balanophora truncata,holotype,K,,Kloss,s.n.,1912-02,G. Menuang Gasing,Selangor,Malaysia,"Type of synonym, p.75",Synonym of B. latisepala.
+Balanophora papuana,lectotype,K,,Schlechter,18602,,New Guinea,,,"Type, p.76",Country not stated (New Guinea island).
+Balanophora reflexa,lectotype,FI-B,,Beccari,PB 2854,,Sarawak,Sarawak,Malaysia,"Type, p.78","Printed ""Borneo, Sarawak"" and ""FI–B n.v."" (not seen by the author)."
+Helosis ruficeps,lectotype,SING,Specimen No. 3,Ridley,s.n.,1895-12,Penara Bukit,Penang,Malaysia,"Type, p.79",Type of the basionym Rhopalocnemis ruficeps Ridl. Sheet number as printed.
+Helosis ruficeps,isotype,K,,Ridley,s.n.,1895-12,Penara Bukit,Penang,Malaysia,"Type, p.79",
+Helosis ruficeps,isotype,SING,Specimens No. 1 & 2,Ridley,s.n.,1895-12,Penara Bukit,Penang,Malaysia,"Type, p.79",Two sheets at SING as printed.
+Helosis ruficeps,figure specimen,FRI,,,FRI 60363,,,,,"Figure 2, p.80",All of Fig. 2. Collector not printed; FRI field number.

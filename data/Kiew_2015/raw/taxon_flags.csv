@@ -1,0 +1,9 @@
+taxon_name,taxon_rank,status,n_rows,flag
+Nymphaeaceae,family,accepted,48,
+Barclaya,genus,accepted,37,
+Barclaya longifolia,species,accepted,65,
+Barclaya motleyi,species,accepted,67,"Includes B. motleyi var. kunstleri and B. kunstleri, reduced to synonymy here."
+Barclaya rotundifolia,species,accepted,74,
+Nymphaea,genus,accepted,34,
+Nymphaea nouchali,species,accepted,86,"Colour varieties (var. cyanea, var. versicolor) treated as forms without names; no form context."
+Nymphaea pubescens,species,accepted,73,Possibly of cultivated origin in Peninsular Malaysia (genus Distribution).

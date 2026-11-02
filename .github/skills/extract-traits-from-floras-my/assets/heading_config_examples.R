@@ -50,7 +50,7 @@ lim_paras <- flora_segment(
 # ---- Large family: groups, infraspecific taxa, informal forms, special sections
 # (Coode_2018, Elaeocarpaceae). Input is a born-digital PDF.
 co_lines <- flora_read_pdf_lines(
-  "inst/extdata/FPM/Elaeocarpaceae.pdf",
+  "inst/extdata/myflora/pdf/FPM/Elaeocarpaceae.pdf",
   first_line_re = "^ELAEOCARPACEAE$",
   last_pdf_page = 100, # pp. 101-105 are plates
   running_head_re = "^(SEED PLANTS VOL\\. 7 \\(2018\\)|ELAEOCARPACEAE \\(COODE\\))$"

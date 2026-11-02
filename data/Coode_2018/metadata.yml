@@ -794,14 +794,14 @@ substitutions:
     find: 'elliptic ovate'
     replace: 'elliptical ovate'
   - trait_name: leaf_shape
-    find: 'elliptic ovate-elliptic'
-    replace: 'elliptical'
-  - trait_name: leaf_shape
-    find: 'oblong elliptic-obovate'
-    replace: 'oblong'
+    find: 'oblong elliptic obovate'
+    replace: 'oblong elliptical obovate'
   - trait_name: leaf_shape
     find: 'obovate obovate-panduriform round'
     replace: 'obovate orbicular'
+  - trait_name: leaf_shape
+    find: 'obovate elliptic'
+    replace: 'obovate elliptical'
   - trait_name: leaf_shape
     find: 'obovate round'
     replace: 'obovate orbicular'
@@ -818,11 +818,8 @@ substitutions:
     find: 'ovate elliptic round'
     replace: 'ovate elliptical orbicular'
   - trait_name: leaf_shape
-    find: 'ovate obovate-elliptic'
-    replace: 'ovate'
-  - trait_name: leaf_shape
-    find: 'ovate ovate-elliptic'
-    replace: 'ovate'
+    find: 'ovate obovate elliptic'
+    replace: 'ovate obovate elliptical'
   - trait_name: leaf_shape
     find: 'ovate round'
     replace: 'ovate orbicular'

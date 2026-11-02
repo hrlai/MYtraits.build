@@ -1,0 +1,13 @@
+taxon_name,taxon_rank,status,n_rows,flag
+Balanophoraceae,family,accepted,28,
+Balanophora,genus,accepted,48,
+Balanophora abbreviata,species,accepted,37,Not recorded in Peninsular Malaysia for fifty years.
+Balanophora fungosa,species,accepted,2,Species heading with Distribution and Taxonomy only; described at variety rank.
+Balanophora fungosa subsp. indica,subspecies,accepted,3,"Subspecies heading with Distribution, Ecology and Taxonomy only."
+Balanophora fungosa subsp. indica var. indica,variety,accepted,55,Only infraspecific taxon in the region; its description is scored at variety rank.
+Balanophora hansenii,species,accepted,54,Endemic; female plants first described here (FRI 21959).
+Balanophora latisepala,species,accepted,56,
+Balanophora papuana,species,accepted,50,
+Balanophora reflexa,species,accepted,56,Possibly extinct in Peninsular Malaysia (Ecology).
+Helosis,genus,accepted,11,
+Helosis ruficeps,species,accepted,35,Endemic.

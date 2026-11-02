@@ -1,0 +1,408 @@
+source:
+  primary:
+    key: Wong_2010
+    bibtype: InBook
+    year: 2010
+    author: K. M. Wong
+    title: Selaginellaceae
+    booktitle:
+      'Flora of Peninsular Malaysia, Series I: Ferns and Lycophytes, Volume 1'
+    editor:
+      B. S. Parris and R. Kiew and R. C. K. Chung and L. G. Saw and E. Soepadmo
+    series: Malayan Forest Records No. 48
+    publisher: Forest Research Institute Malaysia
+    place: Kepong, Selangor, Malaysia
+    pages: 49--86
+    isbn: 978-967-5221-24-8
+    doi: 10.26525/FPM11001
+contributors:
+  data_collectors:
+    - last_name: Wong
+      given_name: K. M.
+      ORCID: .na
+      affiliation: University of Malaya, Kuala Lumpur, Malaysia
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '2010'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description:
+    Selaginellaceae (Selaginella, 29 species and six varieties) of Peninsular
+    Malaysia.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    Born-digital PDF (assets/myflora_metadata.csv); rows come from the PDF text
+    layer (pdf pages 7--44, printed 49--86) read with flora_read_pdf_lines()
+    and segmented by raw/segment_source.R. No page was image-checked:
+    flora_layer_flags() flagged only the front matter, the plates (printed
+    217--219, photographs) and the full-page Figures 1 and 2 (pdf 17 and 22),
+    whose captions are in the layer and supply figure vouchers only. No bad
+    glyphs. Species descriptions are one paragraph of organ clauses; each
+    clause was split at commas outside parentheses and scored by
+    raw/build_trait_data.R with the shared dictionary seed, or kept verbatim
+    as an unmapped row. Genus values without a qualifier (herbaceous, simple
+    scale-like leaves, lycophyte) are copied down to every taxon. Ranges are
+    minimum and maximum; 'to' values are maxima. Population region is
+    Peninsular Malaysia (FPM guide).
+  original_file:
+    Selaginellaceae.pdf (Wong 2010, Flora of Peninsular Malaysia Series I
+    vol. 1, pp. 49--86)
+  notes: |
+    Mapped and unmapped rows share raw/trait_data.csv; raw/unmapped_terms.csv
+    summarises the unmapped rows. Unmapped characters with no trait in
+    config/traits.yml: rhizophores, branch-system construction
+    (pseudopinnate or flabellate), strobilus symmetry and sporophyll
+    dimorphism, arista length relative to the lamina, ciliate and ciliolate
+    leaf margins, exauriculate leaves, leaf posture (patent, appressed) and
+    overlap with branches, megaspore and microspore form and size, plant
+    height stated only as "several centimetres high at most", and dried-leaf
+    colour (coppery tint). Distribution, Ecology (altitude, habitat,
+    limestone, rheophyte), Conservation status, Uses, Taxonomy, Notes and the
+    genus Chromosome numbers (base number x = 9, 10) are kept as unmapped
+    sentences. Hedged statements ("apparently spiral in arrangement",
+    "probably present throughout") are not scored. Selaginella intermedia,
+    S. roxburghii and S. selangorensis have no species description; their
+    varieties carry the descriptions, and the species get only genus
+    copy-down rows. Var. strigosa and var. ciliata are described only by
+    their differences (question 7). S. tamariscina (not native) and
+    S. siamensis (misapplied name) are listed in raw/taxon_flags.csv and not
+    scored. Types, types of synonyms and figure specimens are in
+    raw/Wong_2010_vouchers.csv.
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Apex of median leaves (and blunt apex of lateral leaves) from species descriptions; entity_measured names the leaf kind. Aristate apices have no level and are unmapped.'
+  - var_in: leaf_base_shape
+    unit_in: .na
+    trait_name: leaf_base_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Base of lateral, median, axillary and basal stem leaves; an auricle or auriculate fold scored as auriculate. Exauriculate, subcordate and subauriculate not scored.'
+  - var_in: leaf_compoundness
+    unit_in: .na
+    trait_name: leaf_compoundness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description ''Leaves ... simple (undivided)'', copied down to every taxon.'
+  - var_in: leaf_hairs_adult_leaves
+    unit_in: .na
+    trait_name: leaf_hairs_adult_leaves
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Hairs on the leaf surfaces of lateral, median or basal stem leaves (entity_measured). Ciliate margins are unmapped.'
+  - var_in: leaf_heterogeneity
+    unit_in: .na
+    trait_name: leaf_heterogeneity
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Dimorphic leaves (larger lateral and smaller median leaves; heterophylly) scored as anisophyllous (question 3).'
+  - var_in: leaf_margin
+    unit_in: .na
+    trait_name: leaf_margin
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Margins of lateral and median leaves; denticulate and dentate scored as toothed_dentate. Subentire is not scored; ciliate and ciliolate margins have no level and are unmapped.'
+  - var_in: leaf_shape
+    unit_in: .na
+    trait_name: leaf_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Shape of each leaf kind, named in entity_measured: stem lateral and median leaves (main stem), lateral, median and axillary leaves of the branch system, basal stem leaves of erect species. Hyphenated shapes score both levels.'
+  - var_in: leaf_surface_colour
+    unit_in: .na
+    trait_name: leaf_surface_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Colour of the leafy shoots, of the lower side of the leafy branch systems, or of the lower surface of lateral leaves (entity_measured; question 5).'
+  - var_in: leaf_type
+    unit_in: .na
+    trait_name: leaf_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description ''Leaves scale-like, microphyllous'', copied down to every taxon (question 4).'
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Width (''across'') of the near-orbicular axillary leaves along the main stem (question 6).'
+  - var_in: plant_climbing_mechanism
+    unit_in: .na
+    trait_name: plant_climbing_mechanism
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Species description: scrambling over other vegetation.'
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Lycophyte, from the placement of the family in the Lycopsida (genus Taxonomy paragraph), copied down to every taxon (question 1).'
+  - var_in: plant_growth_substrate
+    unit_in: .na
+    trait_name: plant_growth_substrate
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description, worldwide scope; not copied down.'
+  - var_in: plant_height
+    unit_in: unit
+    trait_name: plant_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Plant height from species descriptions. ''to a--b'' is scored as minimum a and maximum b; ''to'', ''hardly'' and ''below'' a single value as a maximum (question 10).'
+  - var_in: stem_branching_form
+    unit_in: .na
+    trait_name: stem_branching_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Plant body much branched or sparsely branched, from species descriptions.'
+  - var_in: stem_growth_habit
+    unit_in: .na
+    trait_name: stem_growth_habit
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Habit from species descriptions: creeping, stiffly erect (erect), suberect (decumbent, question 2), stoloniferous connections, compact tufts (tufted); climbing from the genus Ecology paragraph for S. willdenowii.'
+  - var_in: stem_hairs
+    unit_in: .na
+    trait_name: stem_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Hairs on the stems.'
+  - var_in: woodiness
+    unit_in: .na
+    trait_name: woodiness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus description ''Plants herbaceous ... with only primary growth'', copied down to every taxon.'
+substitutions:
+  - trait_name: leaf_apex_shape
+    find: blunt
+    replace: obtuse
+  - trait_name: leaf_apex_shape
+    find: pointed apiculate
+    replace: apiculate
+  - trait_name: leaf_base_shape
+    find: auricle
+    replace: auriculate
+  - trait_name: leaf_base_shape
+    find: auricles
+    replace: auriculate
+  - trait_name: leaf_base_shape
+    find: cordate auricle
+    replace: cordate auriculate
+  - trait_name: leaf_base_shape
+    find: cordate peltate
+    replace: cordate
+  - trait_name: leaf_hairs_adult_leaves
+    find: short-hairy
+    replace: hairy
+  - trait_name: leaf_heterogeneity
+    find: dimorphic
+    replace: anisophyllous
+  - trait_name: leaf_heterogeneity
+    find: monomorphic basal and dimorphic lateral and median leaves
+    replace: anisophyllous
+  - trait_name: leaf_margin
+    find: dentate
+    replace: toothed_dentate
+  - trait_name: leaf_margin
+    find: dentate subentire
+    replace: toothed_dentate
+  - trait_name: leaf_margin
+    find: denticulate
+    replace: toothed_dentate
+  - trait_name: leaf_margin
+    find: denticulate dentate
+    replace: toothed_dentate
+  - trait_name: leaf_margin
+    find: denticulate subentire
+    replace: toothed_dentate
+  - trait_name: leaf_margin
+    find: entire subentire
+    replace: entire
+  - trait_name: leaf_shape
+    find: broadly_ovate suborbicular
+    replace: widely_ovate
+  - trait_name: leaf_shape
+    find: elliptic
+    replace: elliptical
+  - trait_name: leaf_shape
+    find: elliptic falcate ovate lanceolate
+    replace: elliptical falcate ovate lanceolate
+  - trait_name: leaf_shape
+    find: elliptic obovate
+    replace: elliptical obovate
+  - trait_name: leaf_shape
+    find: oblong falcate elliptic
+    replace: oblong falcate elliptical
+  - trait_name: leaf_shape
+    find: ovate elliptic
+    replace: ovate elliptical
+  - trait_name: leaf_shape
+    find: ovate suborbicular
+    replace: ovate
+  - trait_name: leaf_surface_colour
+    find: grey-green
+    replace: grey_green
+  - trait_name: leaf_surface_colour
+    find: pale_greyish_green coppery
+    replace: pale_grey_green brown
+  - trait_name: leaf_surface_colour
+    find: dark_green purple green pink coppery
+    replace: dark_green purple green red brown
+  - trait_name: leaf_surface_colour
+    find: silvery grey-green
+    replace: green_silvery grey_green
+  - trait_name: leaf_type
+    find: scale-like
+    replace: scale
+  - trait_name: plant_growth_form
+    find: Lycopsida
+    replace: lycophyte
+  - trait_name: plant_growth_substrate
+    find: terrestrial epiphytes
+    replace: terrestrial epiphyte
+  - trait_name: stem_branching_form
+    find: much_branched
+    replace: much-branched
+  - trait_name: stem_branching_form
+    find: sparsely_branched
+    replace: sparsely-branched
+  - trait_name: stem_growth_habit
+    find: erect suberect
+    replace: erect decumbent
+  - trait_name: stem_growth_habit
+    find: suberect
+    replace: decumbent
+  - trait_name: stem_growth_habit
+    find: suberect climbing
+    replace: decumbent climbing
+  - trait_name: stem_growth_habit
+    find: suberect stoloniferous
+    replace: decumbent stoloniferous
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1:
+    'Growth form: the description never says lycophyte, but the genus Taxonomy
+    paragraph places the family in the Lycopsida ("Among the extant Lycopsida,
+    the Selaginellaceae are ...", p. 51). plant_growth_form = lycophyte is
+    scored at genus rank and copied down to all 35 taxa (36 rows). Confirm that
+    a taxonomic placement may supply plant_growth_form.'
+  question2:
+    'Suberect: 16 taxa are "suberect", which the key defines as "arched
+    ascending" (couplet 2; S. stipulata and S. wallichii "shoots
+    arched-ascending"). stem_growth_habit has no suberect level; it is mapped
+    to decumbent (synonym ascending). Confirm decumbent, or propose a
+    suberect level in traits.yml.'
+  question3:
+    'Heterophylly: lateral and median leaves in four rows ("stem leaves
+    dimorphic, distinguishable as larger ... lateral leaves and smaller ...
+    median leaves") are scored as leaf_heterogeneity = anisophyllous for all
+    30 described taxa, including the erect species whose basal stem leaves
+    are "generally monomorphic" below dimorphic branch leaves. Confirm.'
+  question4:
+    'Leaf type: the genus description calls the microphylls "scale-like"
+    (p. 49); leaf_type = scale ("Leaf reduced to a small scale") is copied
+    down to all taxa, although the leaves are the photosynthetic organs.
+    Confirm scale, or leave leaf_type unscored for Selaginella.'
+  question5:
+    'Colour ownership and levels: colours of the "living leafy parts" or
+    "whole plant" (4 taxa, entity_measured leafy shoots), of the leafy branch
+    systems "below" (S. argentea, S. pubescens) and of lateral leaves "below"
+    (4 taxa) are scored as leaf_surface_colour with entity_measured.
+    leaf_surface_colour has no pink or copper level: "deep pink" is scored as
+    red and "coppery" as brown (S. intermedia var. intermedia "dark green to
+    purple-green, deep pink or even coppery", p. 63; S. morganii "pale greyish
+    green to slightly coppery", p. 69); "or even" is not read as a commonness
+    word. Confirm these as leaf colours and the pink and copper mappings, or
+    propose new levels.'
+  question6:
+    'Axillary leaves "3--4 mm across" (S. padangensis) and "to about 2 mm
+    across" (S. delicatula), both near-orbicular leaves on the main stem, are
+    scored as leaf_width with entity_measured axillary leaves (main stem).
+    Confirm "across" as width.'
+  question7:
+    'Differential varieties: S. roxburghii var. strigosa ("Differs from the
+    typical variety in having the upper surface of lateral leaves
+    short-hairy") and S. selangorensis var. ciliata ("Its stoloniferous habit
+    with basally ciliate lateral leaves") are scored only for the stated
+    difference. Decide whether they should inherit the other values of the
+    typical variety (no rank_scored_from level exists for a sibling
+    variety).'
+  question8:
+    'Leaf kinds: Selaginella has lateral, median and axillary leaves on the
+    branch systems, lateral and median leaves on the main stem, and basal
+    stem leaves in erect species. All are scored into the same leaf traits
+    and told apart only by entity_measured (223 leaf rows). Confirm
+    this vocabulary, or say which leaf kind should represent "the leaf".'
+  question9:
+    'Ciliate margins: "ciliate", "ciliolate" and "long-ciliate" leaf margins
+    (15 taxa, often the key character) have no leaf_margin level and
+    are unmapped. Decide whether to add a ciliate level (central traits.yml
+    change).'
+  question10:
+    'Height wording: "to 20--35 cm high" (9 taxa) is scored as minimum 20 and
+    maximum 35; "hardly 10 cm tall" and "often below 25 cm tall" as maxima;
+    "to about 40 cm" as a maximum noted approximate. The shared parser
+    previously turned "to a--b" into a maximum of a only (Hughes_2013 has 5
+    such rows). Confirm the range reading.'

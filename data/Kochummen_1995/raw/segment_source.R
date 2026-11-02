@@ -1,7 +1,7 @@
 # Segment the Burseraceae treatment (K.M. Kochummen 1995, Tree Flora of Sabah
 # and Sarawak vol. 1: 45--100). Run from the repository root.
 #
-# Source: inst/extdata/TFSS/Burseraceae.pdf, the 2007 electronic version of the
+# Source: inst/extdata/myflora/pdf/TFSS/Burseraceae.pdf, the 2007 electronic version of the
 # 1995 volume (L.G. Saw & B. Aslina). Text pages carry embedded fonts and no
 # page images, so the text layer is what renders; figure pages (pdf 22, 32,
 # 39, 40, 44, 53, 58, 60) are images without a text layer. No scan of the 1995
@@ -22,7 +22,7 @@ genera <- c(
 gen_re <- paste(genera, collapse = "|")
 
 lines <- flora_read_pdf_lines(
-  "inst/extdata/TFSS/Burseraceae.pdf",
+  "inst/extdata/myflora/pdf/TFSS/Burseraceae.pdf",
   first_line_re = "^BURSERACEAE$",
   last_pdf_page = 62,
   running_head_re = "^(TREE FLORA OF SABAH AND SARAWAK( VOL\\. 1 \\(1995\\))?|BURSERACEAE \\(KOCHUMMEN\\))$",

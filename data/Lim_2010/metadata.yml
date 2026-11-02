@@ -409,8 +409,8 @@ substitutions:
     find: 'narrowly_elliptic broadly_elliptic'
     replace: 'narrowly_elliptical widely_elliptical'
   - trait_name: leaf_shape
-    find: 'elliptic-oblong obovate'
-    replace: 'obovate'
+    find: 'elliptic oblong obovate'
+    replace: 'elliptical oblong obovate'
   - trait_name: leaf_surface_colour
     find: 'greener'
     replace: 'green'

@@ -1,6 +1,6 @@
 # M. Hughes (2013), Memecylaceae, Flora of Peninsular Malaysia, Series II, vol. 4, pp. 269--324.
-# Image-verified transcription from rendered PDF pages 7--62 (printed pp. 269--324).
-# OCR text was used only as a draft and navigation aid. See source_fixes.csv for verified OCR repairs.
+# Image-verified transcription from rendered PDF pages 7--62 (printed pp. 269--324) of a born-digital PDF.
+# The PDF text layer was used only as a draft and navigation aid. See source_fixes.csv for source-typo repairs.
 @page 7 269
 FLORA OF PENINSULAR MALAYSIA
 

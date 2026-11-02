@@ -3,38 +3,82 @@
 # check a transcription against the PDF's text layer.
 #
 # Use: source(".github/skills/extract-traits-from-floras-my/scripts/flora_source.R")
-# Run from the repository root. Sources live in inst/extdata/FPM and
-# inst/extdata/TFSS.
+# Run from the repository root. Sources live in inst/extdata/myflora/pdf/FPM and
+# inst/extdata/myflora/pdf/TFSS.
 
 suppressPackageStartupMessages(library(tidyverse))
+# The project .Rprofile attaches traits.build (and so dplyr) before stats, so
+# stats::filter and stats::lag would otherwise mask the dplyr verbs.
+filter <- dplyr::filter
+lag <- dplyr::lag
 
-# Advisory only: producer metadata plus counts of typical OCR slips. In this
-# project Elaeocarpaceae (InDesign) was born-digital; the FPM vol. 1 PDFs
-# (Araucariaceae, Pentaphylacaceae) were re-saved in Acrobat Pro DC with an OCR
-# layer of unknown origin. Nothing here proves a layer is clean: a TFSS PDF
-# must be checked by eye before it is parsed.
+# `text_layer` comes from assets/myflora_metadata.csv (built by
+# inst/extdata/myflora/build_metadata.py from page images and text): scanned_ocr
+# means page scans carrying an OCR layer; NA means the PDF is not listed, so
+# inspect a few page images. Producer metadata does not tell the two apart:
+# Acrobat Pro DC wrote both. Most TFSS authors typed "x" for the multiplication
+# sign, so n_x_times is not an OCR sign. bad_glyphs counts characters the layer
+# could not map (U+FFFD, private use), common with unembedded fonts, plus the
+# dot operator U+22C5 that a Symbol font gave for the multiplication sign
+# (Adema_1996).
+.flora_bad_glyph_re <- "[\ufffd\ue000-\uf8ff\u22c5]"
+
 flora_pdf_check <- function(file) {
   info <- pdftools::pdf_info(file)
   txt <- pdftools::pdf_text(file)
   all <- paste(txt, collapse = "\n")
+  meta <- read_csv(
+    ".github/skills/extract-traits-from-floras-my/assets/myflora_metadata.csv",
+    show_col_types = FALSE
+  )
+  key <- str_extract(normalizePath(file, "/"), "(FPM|TFSS)/[^/]+$")
   tibble(
     file = basename(file),
+    text_layer = meta$text_layer[match(paste0("pdf/", key), meta$filename)],
     pages = info$pages,
     creator = info$keys$Creator %||% NA_character_,
     producer = info$keys$Producer %||% NA_character_,
     chars_per_page = round(mean(nchar(txt))),
     n_endash = str_count(all, "\u2013"),
     n_times = str_count(all, "\u00d7"),
-    # "x" for the multiplication sign, "(0.5}-1", "(--6)", "fig.I", "lJy"
+    n_x_times = str_count(all, "\\d\\s?x\\s?\\d"),
+    n_bad_glyphs = str_count(all, .flora_bad_glyph_re),
+    # "(0.5}-1", "(--6)", "fig.I", "lJy"
     n_ocr_suspects = str_count(
       all,
-      "\\d\\s?x\\s?\\d|\\d[}\\]]|\\(--\\d|\\bfig\\.[Il]|\\b[lI]J[a-z]\\b"
-    ),
-    layer_suspect = !str_detect(
-      coalesce(info$keys$Creator, ""),
-      "InDesign|Word|LaTeX"
+      "\\d[}\\]]|\\(--\\d|\\bfig\\.[Il]|\\b[lI]J[a-z]\\b"
     )
   )
+}
+
+# Born-digital PDFs: the pages in `pages` worth an image look. Flags pages with
+# little text (a plate, or text set as a picture), no stand-alone printed page
+# number or an offset unlike the treatment's usual one, or unmapped glyphs.
+# Returns flagged pages only; none means no image check is needed for these
+# reasons.
+flora_layer_flags <- function(file, pages = NULL, min_chars = 500) {
+  txt <- pdftools::pdf_text(file)
+  pages <- pages %||% seq_along(txt)
+  d <- tibble(pdf_page = pages, text = txt[pages]) |>
+    mutate(
+      chars = nchar(str_remove_all(text, "\\s")),
+      printed_page = map_int(text, \(t) {
+        l <- str_squish(str_split_1(t, "\n"))
+        n <- l[str_detect(l, "^\\d{1,3}$")]
+        if (length(n)) as.integer(last(n)) else NA_integer_
+      }),
+      offset = printed_page - pdf_page,
+      bad_glyphs = str_count(text, .flora_bad_glyph_re)
+    )
+  usual <- if (all(is.na(d$offset))) NA_integer_ else
+    as.integer(names(which.max(table(d$offset))))
+  d |>
+    mutate(
+      low_text = chars < min_chars,
+      odd_page_number = coalesce(offset != usual, TRUE)
+    ) |>
+    filter(low_text | odd_page_number | bad_glyphs > 0) |>
+    select(pdf_page, printed_page, chars, bad_glyphs, low_text, odd_page_number)
 }
 
 # Render pdf pages to PNG, each split into top and bottom halves (about one read
@@ -96,7 +140,9 @@ flora_read_transcription <- function(file) {
 # Born-digital PDFs only. Returns one row per text line with pdf page, printed
 # page (last stand-alone number on the page) and a `drop` flag for running
 # heads, bare page numbers, map / figure captions (to the next blank line) and
-# caption fragments printed beside maps.
+# caption fragments printed beside maps. `drop_pages` are PDF page numbers to
+# drop whole: figure plates whose only text is a running head (sometimes
+# garbled) and stray characters.
 flora_read_pdf_lines <- function(
   file,
   first_line_re,
@@ -104,7 +150,8 @@ flora_read_pdf_lines <- function(
   running_head_re = NULL,
   caption_re = "^(Map \\d+\\.|Figure \\d+\\.)",
   side_caption_re = "^(subsp|var)\\. [a-z]+.*\\.$|\\(\\)",
-  side_indent = 30
+  side_indent = 30,
+  drop_pages = NULL
 ) {
   pg <- pdftools::pdf_text(file)
   lines <- map2_dfr(pg, seq_along(pg), \(t, i) {
@@ -139,6 +186,7 @@ flora_read_pdf_lines <- function(
         (!is.null(running_head_re) &
           str_detect(t, running_head_re %||% "(?!x)x")) |
         str_detect(t, "^\\d{1,3}$") |
+        pdf_page %in% drop_pages |
         (indent > side_indent & str_detect(t, side_caption_re))
     ) |>
     select(-text)
@@ -162,9 +210,22 @@ flora_compare_numbers <- function(
     pdf_page = seq_along(pdftools::pdf_text(pdf_file)),
     text = pdftools::pdf_text(pdf_file)
   )
+  # OCR layers give "-" or "--" for the en dash, "x" for the multiplication
+  # sign and line breaks inside a value; normalise both sides so only real
+  # differences remain (Kiew_2010: 178 differences before, 24 after).
+  norm <- \(x) {
+    x |>
+      str_replace_all("[–—]", "-") |>
+      str_replace_all("-{2,}", "-") |>
+      str_replace_all("×", "x") |>
+      str_squish() |>
+      str_replace_all("\\s*-\\s*(?=\\d)", "-") |>
+      str_replace_all("(?<=\\d)\\s*x\\s*(?=\\d)", " x ")
+  }
   values <- \(d, nm) {
     d |>
       filter(pdf_page %in% tr$pdf_page) |>
+      mutate(text = norm(text)) |>
       mutate(
         value = if (measurements_only) {
           str_extract_all(

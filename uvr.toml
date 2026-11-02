@@ -5,12 +5,17 @@ name = "MYtraits.build"
 WorldFlora = "*"
 ellmer = "*"
 hexSticker = "*"
+pdftools = "*"
 readxl = "*"
 rlang = "*"
 sf = "*"
 stringr = "*"
+testthat = "*"
 tidyr = "*"
 tidyverse = "*"
 
 [dependencies."traits.build"]
-git = "traitecoevo/traits.build"
+git = "git::https://github.com/traitecoevo/traits.build.git"
+
+[dependencies.austraits]
+git = "git::https://github.com/traitecoevo/austraits.git"

@@ -1,0 +1,76 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Atuna cordata,holotype,K,,Ahmad Talip,SAN 47687,,Lahad Datu,Sabah,Malaysia,"Type, p.158",
+Atuna cordata,isotype,L,,Ahmad Talip,SAN 47687,,Lahad Datu,Sabah,Malaysia,"Type, p.158",
+Atuna cordata,isotype,SAN,,Ahmad Talip,SAN 47687,,Lahad Datu,Sabah,Malaysia,"Type, p.158",
+Atuna nannodes,,BO,,Beccari,PB 2955,,Mt. Matang,Sarawak,Malaysia,"Type, p.158",Status not stated (type at BO and K); type of the basionym Parinari nannodes Kosterm.
+Atuna nannodes,,K,,Beccari,PB 2955,,Mt. Matang,Sarawak,Malaysia,"Type, p.158",Status not stated (type at BO and K); type of the basionym Parinari nannodes Kosterm.
+Atuna racemosa,,,,Rumphius,,,,,,"Type, p.160","Type is an illustration: Rumphius, Herb. Amb. 1 (1741) pl. 66; no specimen."
+Atuna racemosa subsp. excelsa,neotype,K,,Kostermans & Anta,1136,,"Bangka, Lobok Besar",,Indonesia,"Type, p.161",Neotype of the basionym Petrocarya excelsa Jack.
+Atuna racemosa subsp. excelsa,isoneotype,A,,Kostermans & Anta,1136,,"Bangka, Lobok Besar",,Indonesia,"Type, p.161",Neotype of the basionym Petrocarya excelsa Jack.
+Atuna racemosa subsp. excelsa,isoneotype,BO,,Kostermans & Anta,1136,,"Bangka, Lobok Besar",,Indonesia,"Type, p.161",Neotype of the basionym Petrocarya excelsa Jack.
+Atuna racemosa subsp. excelsa,isoneotype,L,,Kostermans & Anta,1136,,"Bangka, Lobok Besar",,Indonesia,"Type, p.161",Neotype of the basionym Petrocarya excelsa Jack.
+Atuna racemosa subsp. excelsa,isoneotype,SING,,Kostermans & Anta,1136,,"Bangka, Lobok Besar",,Indonesia,"Type, p.161",Neotype of the basionym Petrocarya excelsa Jack.
+Kostermanthus heteropetalus,,BO,,Scortechini,2040,,,Perak,Malaysia,"Type, p.163",Status not stated (type at BO and SING); type of the basionym Parinari heteropetalum Scort. ex King.
+Kostermanthus heteropetalus,,SING,,Scortechini,2040,,,Perak,Malaysia,"Type, p.163",Status not stated (type at BO and SING); type of the basionym Parinari heteropetalum Scort. ex King.
+Licania splendens,,L,,Korthals,s.n.,,,Sumatra,Indonesia,"Type, p.165",Status not stated (type at L); type of the basionym Angelesia splendens Korth.
+Maranthes corymbosa,,L,,Blume,s.n.,,near Tjiradja,"Java, Prov. Krawang",Indonesia,"Type, p.168",Status not stated (type at L).
+Parastemon grandifructus,,L,,Wright & Ismawi,S. 32320,,,Sarawak,Malaysia,"Type, p.171",Status not stated (type at L).
+Parastemon urophyllus,,K,,Griffith,s.n.,,Malacca,Malacca,Malaysia,"Type, p.171",Status not stated (type at K); type of the basionym Embelia urophylla Wall. ex A. DC.
+Parinari argenteo-sericea,holotype,BO,,Wood,SAN 16175,,Lahad Datu,Sabah,Malaysia,"Type, p.173",Locality printed as British North Borneo (Sabah).
+Parinari argenteo-sericea,isotype,A,,Wood,SAN 16175,,Lahad Datu,Sabah,Malaysia,"Type, p.173",Locality printed as British North Borneo (Sabah).
+Parinari argenteo-sericea,isotype,BRI,,Wood,SAN 16175,,Lahad Datu,Sabah,Malaysia,"Type, p.173",Locality printed as British North Borneo (Sabah).
+Parinari argenteo-sericea,isotype,K,,Wood,SAN 16175,,Lahad Datu,Sabah,Malaysia,"Type, p.173",Locality printed as British North Borneo (Sabah).
+Parinari argenteo-sericea,isotype,KEP,,Wood,SAN 16175,,Lahad Datu,Sabah,Malaysia,"Type, p.173",Locality printed as British North Borneo (Sabah).
+Parinari argenteo-sericea,isotype,L,,Wood,SAN 16175,,Lahad Datu,Sabah,Malaysia,"Type, p.173",Locality printed as British North Borneo (Sabah).
+Parinari argenteo-sericea,isotype,SING,,Wood,SAN 16175,,Lahad Datu,Sabah,Malaysia,"Type, p.173",Locality printed as British North Borneo (Sabah).
+Parinari canarioides,holotype,BO,,Kostermans,7152,,Tanjong Bangko,Kalimantan,Indonesia,"Type, p.174",
+Parinari canarioides,isotype,A,,Kostermans,7152,,Tanjong Bangko,Kalimantan,Indonesia,"Type, p.174",
+Parinari canarioides,isotype,BISH,,Kostermans,7152,,Tanjong Bangko,Kalimantan,Indonesia,"Type, p.174",
+Parinari canarioides,isotype,BRI,,Kostermans,7152,,Tanjong Bangko,Kalimantan,Indonesia,"Type, p.174",
+Parinari canarioides,isotype,CAL,,Kostermans,7152,,Tanjong Bangko,Kalimantan,Indonesia,"Type, p.174",
+Parinari canarioides,isotype,CANB,,Kostermans,7152,,Tanjong Bangko,Kalimantan,Indonesia,"Type, p.174",
+Parinari canarioides,isotype,K,,Kostermans,7152,,Tanjong Bangko,Kalimantan,Indonesia,"Type, p.174",
+Parinari canarioides,isotype,L,,Kostermans,7152,,Tanjong Bangko,Kalimantan,Indonesia,"Type, p.174",
+Parinari canarioides,isotype,LAE,,Kostermans,7152,,Tanjong Bangko,Kalimantan,Indonesia,"Type, p.174",
+Parinari canarioides,isotype,MEL,,Kostermans,7152,,Tanjong Bangko,Kalimantan,Indonesia,"Type, p.174",
+Parinari canarioides,isotype,NY,,Kostermans,7152,,Tanjong Bangko,Kalimantan,Indonesia,"Type, p.174",
+Parinari canarioides,isotype,P,,Kostermans,7152,,Tanjong Bangko,Kalimantan,Indonesia,"Type, p.174",
+Parinari canarioides,isotype,PNH,,Kostermans,7152,,Tanjong Bangko,Kalimantan,Indonesia,"Type, p.174",
+Parinari canarioides,isotype,SAN,,Kostermans,7152,,Tanjong Bangko,Kalimantan,Indonesia,"Type, p.174",
+Parinari canarioides,isotype,SING,,Kostermans,7152,,Tanjong Bangko,Kalimantan,Indonesia,"Type, p.174",
+Parinari costata,,L,,Korthals,s.n.,,,Sumatra,Indonesia,"Type, p.175",Status not stated (type at L); type of the basionym Lepidocarpa costata Korth.
+Parinari costata subsp. rubiginosa,holotype,K,,Ridley,16016,,Padang,,Malaysia,"Type, p.175","Locality printed as Malaya, Padang; type of the basionym Parinarium costatum var. rubiginosum Ridl."
+Parinari costata subsp. rubiginosa,isotype,SING,,Ridley,16016,,Padang,,Malaysia,"Type, p.175","Locality printed as Malaya, Padang; type of the basionym Parinarium costatum var. rubiginosum Ridl."
+Parinari elmeri,holotype,UC,,Elmer,20806,,"Tawao, Elphinstone Province",Sabah,Malaysia,"Type, p.177","Locality printed as British North Borneo, Tawao, Elphinstone Province."
+Parinari elmeri,isotype,BISH,,Elmer,20806,,"Tawao, Elphinstone Province",Sabah,Malaysia,"Type, p.177","Locality printed as British North Borneo, Tawao, Elphinstone Province."
+Parinari elmeri,isotype,BO,,Elmer,20806,,"Tawao, Elphinstone Province",Sabah,Malaysia,"Type, p.177","Locality printed as British North Borneo, Tawao, Elphinstone Province."
+Parinari elmeri,isotype,BR,,Elmer,20806,,"Tawao, Elphinstone Province",Sabah,Malaysia,"Type, p.177","Locality printed as British North Borneo, Tawao, Elphinstone Province."
+Parinari elmeri,isotype,C,,Elmer,20806,,"Tawao, Elphinstone Province",Sabah,Malaysia,"Type, p.177","Locality printed as British North Borneo, Tawao, Elphinstone Province."
+Parinari elmeri,isotype,DC,,Elmer,20806,,"Tawao, Elphinstone Province",Sabah,Malaysia,"Type, p.177","Locality printed as British North Borneo, Tawao, Elphinstone Province."
+Parinari elmeri,isotype,DS,,Elmer,20806,,"Tawao, Elphinstone Province",Sabah,Malaysia,"Type, p.177","Locality printed as British North Borneo, Tawao, Elphinstone Province."
+Parinari elmeri,isotype,F,,Elmer,20806,,"Tawao, Elphinstone Province",Sabah,Malaysia,"Type, p.177","Locality printed as British North Borneo, Tawao, Elphinstone Province."
+Parinari elmeri,isotype,GH,,Elmer,20806,,"Tawao, Elphinstone Province",Sabah,Malaysia,"Type, p.177","Locality printed as British North Borneo, Tawao, Elphinstone Province."
+Parinari elmeri,isotype,L,,Elmer,20806,,"Tawao, Elphinstone Province",Sabah,Malaysia,"Type, p.177","Locality printed as British North Borneo, Tawao, Elphinstone Province."
+Parinari elmeri,isotype,M,,Elmer,20806,,"Tawao, Elphinstone Province",Sabah,Malaysia,"Type, p.177","Locality printed as British North Borneo, Tawao, Elphinstone Province."
+Parinari elmeri,isotype,MO,,Elmer,20806,,"Tawao, Elphinstone Province",Sabah,Malaysia,"Type, p.177","Locality printed as British North Borneo, Tawao, Elphinstone Province."
+Parinari elmeri,isotype,P,,Elmer,20806,,"Tawao, Elphinstone Province",Sabah,Malaysia,"Type, p.177","Locality printed as British North Borneo, Tawao, Elphinstone Province."
+Parinari elmeri,isotype,S,,Elmer,20806,,"Tawao, Elphinstone Province",Sabah,Malaysia,"Type, p.177","Locality printed as British North Borneo, Tawao, Elphinstone Province."
+Parinari metallica,holotype,SAR,,Ashton,BRUN 3267,,Andulau FR,,Brunei,"Type, p.178",
+Parinari metallica,isotype,BO,,Ashton,BRUN 3267,,Andulau FR,,Brunei,"Type, p.178",
+Parinari metallica,isotype,K,,Ashton,BRUN 3267,,Andulau FR,,Brunei,"Type, p.178",
+Parinari metallica,isotype,L,,Ashton,BRUN 3267,,Andulau FR,,Brunei,"Type, p.178",
+Parinari oblongifolia,,K,,Griffith,s.n.,,Malacca,Malacca,Malaysia,"Type, p.178",Status not stated (type at K).
+Parinari rigida,,SING,,Sinclair & Kiah,SFN 40773,,,Trengganu,Malaysia,"Type, p.179","Status not stated (type at SING); locality printed as Malay Peninsula, Trengganu."
+Atuna cordata,figure specimen,,,SAN,47687,,,,,"Figure caption, p.159",Fig. 1 A–E; series code; the holotype number
+Kostermanthus heteropetalus,figure specimen,,,Kostermans,13630,,,,,"Figure caption, p.162","Fig. 2 A, C"
+Kostermanthus heteropetalus,figure specimen,,,Elmer,21848,,,,,"Figure caption, p.162",Fig. 2 B
+Kostermanthus heteropetalus,figure specimen,,,KEP,105046,,,,,"Figure caption, p.162",Fig. 2 D–I; series code
+Licania splendens,figure specimen,,,S.,14958,,,,,"Figure caption, p.164",Fig. 3 A–E; series code
+Licania splendens,figure specimen,,,Kostermans,6353,,,,,"Figure caption, p.164",Fig. 3 F–G
+Maranthes corymbosa,figure specimen,,,SAN A,1888,,,,,"Figure caption, p.166","Fig. 4 A–B, F–J; series code"
+Maranthes corymbosa,figure specimen,,,Podzorski,SMHI 816,,,,,"Figure caption, p.166",Fig. 4 C–E
+Parastemon urophyllus,figure specimen,,,Anderson,S. 9803,,,,,"Figure caption, p.170","Fig. 5 A–B, E–H"
+Parastemon urophyllus,figure specimen,,,Carrick et al.,JC/42,,,,,"Figure caption, p.170",Fig. 5 C–D
+Parastemon urophyllus,figure specimen,,,SAN,67203,,,,,"Figure caption, p.170",Fig. 5 I–K; series code
+Parinari oblongifolia,figure specimen,,,Enggoh,7249,,,,,"Figure caption, p.176",Fig. 6 A–G
+Parinari oblongifolia,figure specimen,,,SAN,69261,,,,,"Figure caption, p.176",Fig. 6 H; series code

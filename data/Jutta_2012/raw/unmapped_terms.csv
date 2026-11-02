@@ -1,0 +1,76 @@
+organ,character,n_taxa,example_taxon,example_text,printed_page
+,distribution,6,Cycas,"About 90 species ... in E Africa and Madagascar, and in Asia from India to Japan through Malesia to Australia and Polynesia ... In Peninsular Malaysia, represented by 4 species.",150
+cataphylls,"shape, size, hairs (no trait)",4,Cycas cantafolia,"Cataphylls narrowly triangular, 88--112 x 15 mm, pilose, in the upper half the hairs extending beyond the margin and appearing shaggy",153
+male cone,"number, stalk, shape, size, colour (candidate pollen cone traits)",4,Cycas cantafolia,"Male cones usually solitary, sessile or shortly stalked, ovoid to narrowly ellipsoid, 33 cm long, 13 cm diameter (mature size, pre-anthesis measurement), golden yellow or orange",153
+megasporophylls,"'cone' type, size, hairs, colour, lamina, spines, ovule number",4,Cycas cantafolia,"Megasporophylls forming a closed-type 'cone', 18--22 x 6--6.5 cm, erect, concave, closely spaced with laminas overlapping each other and forming a low cabbage-like dome enclosing the apical meriste...",153
+microsporophylls,"shape, size, hairs, colour, spine, fertile zone",4,Cycas cantafolia,"Microsporophylls: spathulate, 40 x 13--15 mm, glabrous, pale yellow, apical spine soft, sharply upturned at c. 70 degrees, 3 mm long; fertile zone 30 mm long, firm, not dorsiventrally thickened; st...",153
+,conservation status,4,Cycas cantafolia,"Critically Endangered A3c, B2ab(iii), C1. The species has a very narrow localised distribution ... its entire habitat is threatened because the area has been designated for quarrying activities ...",153
+pinnae,"arrangement, insertion angle, texture",3,Cycas clivicola subsp. clivicola,"in sub-opposite pairs, inserted on the rachis at 45--80 degrees, stiffly coriaceous",156
+"rachis, pinnae",rachis length (no trait); number of pinna pairs (candidate leaflet_count),3,Cycas clivicola subsp. clivicola,rachis 40--140 cm long; pinnae 30--100 pairs,156
+,uses,3,Cycas clivicola subsp. clivicola,Burkill ... reported the species traded as an ornamental plant since the early 20th century ... Harvesting and trade continue today ...,156
+lamina,lower surface paler,2,Cycas edentata,paler ... beneath,157
+leaf,"number per crown (open bound; candidate leaf_count), profile, glabrescent (not scored), discolourous",2,Cycas cantafolia,"Leaves to 50 or more, generally flat in profile (not keeled, opposing pinnae inserted at 180 degrees on rachis), glabrescent, strongly discolourous",153
+leaf,posture (arching),2,Cycas edentata,Leaves arching,157
+petiole,"hairs, spines",2,Cycas cantafolia,"glabrous, spinescent to 60% of length",153
+pinnae,base (candidate leaf_base_shape attenuate),2,Cycas clivicola subsp. clivicola,base abruptly tapering,156
+pinnae,"soft apex; midrib relief, colour",2,Cycas edentata,"soft; midrib prominent on both upper and lower surfaces in live material, in dry material only on upper surface as a broad, low, centrally depressed keel, often yellowish",157
+seed coat,"wax, sarcotesta thickness, fibrous layer; sclerotesta; endotesta",2,Cycas clivicola subsp. clivicola,"cuticle slightly waxy; sarcotesta ... 3 mm thick, with a fibrous layer; sclerotesta without an apical spine, base distinctly stalked; endotesta not spongy",156
+stem,base not swollen,2,Cycas edentata,not conspicuously swollen at base,157
+stem,bulbous base,2,Cycas cantafolia,"usually with an enlarged bulbous base, also in short-stemmed individuals",153
+stem,"diameter, position not stated (candidate stem_diameter)",2,Cycas edentata,to 40 cm diameter,157
+bark,glaucous,1,Cycas macrocarpa,Bark glaucous,159
+cataphylls,"shape, size, hairs, persistence (no trait)",1,Cycas,"Cataphylls prominent, arising in flushes alternating with the leaves, attenuate to sub-linear, to 18 x 3.5 cm, outer surface tomentose, inner surface glabrous, persistent",150
+cones,odour (candidate flower_scent_production; cones are not flowers; link to pollinators hedged 'may'),1,Cycas,Male and female plants in (pre-)anthesis produce a faint to strong odour that may be associated with attracting pollinators.,150
+dispersal,"water, conditional on spongy endotesta (candidate hydrochory for C. edentata)",1,Cycas,"in species having seeds with a spongy endotesta, also by water",150
+"embryo, endosperm",form; cotyledon number,1,Cycas,"embryo embedded in a solid or spongy endosperm, straight, suspensor very long, spirally twisted; cotyledons 2",150
+lamina,'semi-glossy' (intermediate reflectivity),1,Cycas cantafolia,semi-glossy above,153
+lamina,"shiny or glaucous (alternatives on one surface, age-dependent); paler beneath",1,Cycas clivicola subsp. clivicola,"shiny to glaucous green above (especially in younger leaves), paler beneath",156
+leaf,"crown, flushing, vernation, posture, persistent bases",1,Cycas,"forming a tufted terminal crown, produced in flushes, new leaves erect, circinate, later straight or arching; leaf bases persistent",150
+leaf,typical length (not quantified),1,Cycas clivicola subsp. clivicola,but usually much shorter,156
+male cone,"position, shape, size, stalk (candidate pollen cone traits)",1,Cycas,"Male cones terminal, cylindrical to ovoid-ellipsoid, to 60 cm long, 13 cm diameter at anthesis, sub-sessile or stalked",150
+megasporophylls,"arrangement, stalk, lamina margin",1,Cycas,"Megasporophylls not in terminal cones with a median axis, but spirally arranged in a loose or dense grouping around the stem apex, each with a linear fertile stalk and a spreading, flattened steril...",150
+microsporophylls,"arrangement, spine, hairs, dehiscence",1,Cycas,"Microsporophylls many, spirally arranged on a central axis; each composed of a fertile zone on the abaxial surface covered by numerous microsporangia (pollen sacs), apical zone sterile with a stiff...",150
+ovules,"size, number per megasporophyll, attachment",1,Cycas,"ovules about 1 cm diameter with 1--4 on each megasporophyll, attached to the lateral margins of the stalk",150
+petiole,"base, hairs, spines",1,Cycas macrocarpa,"base thickened, sparsely tomentose, always spinescent to base, spines sharp-tipped, to 3 mm long",159
+petiole,"spines, hairs",1,Cycas clivicola subsp. clivicola,"spinescent usually only in the upper half, spines soft-tipped, to 2 mm long, base sparsely tomentose",156
+"petiole, rachis","swelling, hairs, thorn-like processes (candidate plant_physical_defence_structures)",1,Cycas,"petioles swollen towards the base, tomentose, with a lateral series of short, rigid thorn-like processes borne in more-or-less opposite pairs; rachis devoid of thorns",150
+pinnae,"arrangement on rachis, curvature",1,Cycas,"alternate to opposite, straight to falcate",150
+pinnae,basal size gradient,1,Cycas cantafolia,not gradually diminishing in size or becoming spinescent,153
+pinnae,"base (candidate leaf_base_shape attenuate), twisted",1,Cycas macrocarpa,base tapering and twisted,159
+pinnae,"insertion angle, decurrent base",1,Cycas cantafolia,"inserted at 50--60 degrees to rachis, decurrent for 2--3 mm, narrowed to 2--3 mm at base",153
+pinnae,seedling margin posture,1,Cycas edentata,(except in seedlings where they are often undulate),157
+pinnae,seedling shape; widest point,1,Cycas clivicola subsp. clivicola,"(except in seedlings where they are elliptic), widest just above the base",156
+pinnae,"sharp apex; midrib relief, colour",1,Cycas clivicola subsp. clivicola,"sharp; midrib prominent above and below in live material, in dry material only prominent below, light green",156
+pinnae,sharp tip; midrib; lateral veins absent,1,Cycas,"sometimes sharp-tipped, with a prominent midrib, without lateral veins",150
+pinnae,size (probable source typo; not scored),1,Cycas clivicola subsp. clivicola,to 27 x 12 mm,156
+pinnae,"size gradient, texture, glabrescent (not scored), decurrent base",1,Cycas,"basal and terminal ones smaller than median pinnae, smooth, soft to leathery, glabrescent, base decurrent",150
+pinnae,"spinescent apex; midrib relief, colour",1,Cycas cantafolia,"spinescent; midrib raised above and below in dry material, light green",153
+pinnae,widest point,1,Cycas edentata,widest below the middle,157
+pinnae,"widest point, curvature",1,Cycas cantafolia,"widest below the middle, straight to slightly falcate",153
+plant,"height, open upper bound ('or more'; candidate plant_height maximum)",1,Cycas cantafolia,to 5.5 m or more tall,153
+plant,stature (shrubby or arborescent); stems aerial,1,Cycas,"shrubby or aborescent, palm-like trees, stems always aerial",149
+"rachis, pinnae",rachis apex; number of pinna pairs (candidate leaflet_count),1,Cycas cantafolia,"rachis terminated either by a spine, 23 mm long, or by paired pinnae; pinnae to 165 pairs",153
+roots,contractile; root hairs absent (negative phrase),1,Cycas,"Roots contractile, especially in seedlings; lateral roots without root hairs",149
+seed,"shape obovoid (no seed_shape level; dictionary blocks it), flattening, stalk",1,Cycas macrocarpa,"obovoid, ... laterally flattened, base slightly stalked",159
+seed,slight lateral flattening,1,Cycas edentata,slightly laterally flattened,157
+seed coat,"cuticle, fibrous layer, sclerotesta, endotesta",1,Cycas,"sarcotesta ... sometimes with slightly waxy cuticle, ... with or without a fibrous layer; sclerotesta (middle layer of seed-coat) woody, with or without a crested apical spine; endotesta (innermost...",150
+seed coat,"cuticle, sarcotesta thickness, fibrous layer, base; sclerotesta; endotesta",1,Cycas edentata,"cuticle thin, ... not waxy; sarcotesta 5--6 mm thick, without a fibrous layer, base rounded; sclerotesta with or without short, crested spine; endotesta spongy",157
+seed coat,"sarcotesta colour, wax, thickness, fibrous layer; sclerotesta; endotesta",1,Cycas cantafolia,"sarcotesta yellow, not waxy, 2--4 mm thick, fibrous layer present; sclerotesta smooth; spongy endotesta absent",153
+stem,annular rings,1,Cycas cantafolia,in the distal portion with distinct annular rings,153
+stem,apex enclosed in leaf bases,1,Cycas,terminal portion enclosed in leaf bases,150
+stem,diameter at narrowest point (not at base),1,Cycas cantafolia,diameter at narrowest point to 25 cm,153
+stem,"shape, storage tissue, enlarged base",1,Cycas,"Stems stout, cylindric, woody with a high proportion of mostly non-woody storage tissue, sometimes enlarged at the base",150
+taxonomy,"family diagnosis, fossil history, apical bud, sperm and ovule size (no family description)",1,Cycadaceae,"Monogeneric family. Taxonomy. Cycadaceae ... is characterised by the megasporophylls that are not arranged in distinct cones. Vegetatively, Cycadaceae is easily distinguished from Zamiaceae by the ...",149
+taxonomy,"megasporophyll margin, seed crest, microsporophyll spine variation",1,Cycas edentata,field observations on C. edentata populations in Peninsular Malaysia found both entire to distinctly dentate megasporophyll laminas within the same population. ... seeds from Peninsular Malaysian p...,158
+taxonomy,sections; closed or open female 'cones' (candidate trait),1,Cycas,The separation of the genus into Cycas and Epicycas ... is untenable ... Cycas clivicola subsp. clivicola and C. cantafolia belong to sect. Indosinenses that is distinguished by closed-type female ...,151
+taxonomy,specimen identity,1,Cycas clivicola subsp. clivicola,One specimen (Curtis 2427) assigned to Epicyas elongata by de Laubenfels & Adema (1998) rightly belongs here.,157
+taxonomy,"subspecies boundaries; stem colour and smoothness, male cone size",1,Cycas clivicola,"Hill (1999) described two subspecies ... Hill (1999) distinguished subsp. lutea from subsp. clivicola on the basis of its yellow, smooth stems and smaller male cones with larger microsporophylls. H...",155
+young leaves,colour (candidate leaf_surface_colour blue_green for new flush),1,Cycas macrocarpa,new flush with a distinctive blue-green sheen,159
+,growth rate; recruitment,1,Cycas,"slow-growing, with low recruitment and population turnover",150
+,habitat; altitude,1,Cycas cantafolia,Cycas cantafolia favours precipitous granite cliffs at 200--500 m altitude.,155
+,habitat; fire resistance and deciduousness outside the region,1,Cycas,"Cycas species occupy diverse habitats ranging from coastal habitats to interior hills, on well-drained, often nutrient-deficient substrates or elsewhere in savannah where some species are fire resi...",150
+,habitat; light (no categorical light trait),1,Cycas clivicola subsp. clivicola,"favouring south-facing cliff faces, ... in moderate shade to full sun.",156
+,habitat; soil; altitude; population density,1,Cycas macrocarpa,"In primary lowland forest, on well-drained, sandy clay loam soils, usually on ridges over granite at 300--600 m altitude or occasionally on limestone hills where soil accumulates or directly on roc...",159
+,habitat; substrate; light,1,Cycas edentata,"Restricted to coastal areas, usually on shallow, poor substrates such as sandy beaches or on bare granite rock, in moderate shade to full sun.",158
+,toxicity; herbivores,1,Cycas,All parts of the plant are toxic (hepato- and neuro-toxic as well as carcinogenic). Plants ... are heavily predated by caterpillars of the butterfly Chilades pandava pandava Horsfield ...; successi...,150
+,"uses; toxins (BMAA, cycasin)",1,Cycas,Cycads are highly sought after for the ornamental plant trade ... Malaysian species are used as food and in traditional medicine applications.,151

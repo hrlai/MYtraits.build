@@ -1,0 +1,13 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Barclaya longifolia,holotype,BM,000574910,Wallich,s.n.,1826-08,Pegu,,Myanmar,"Type, p.210",Barcode as printed.
+Barclaya longifolia,isotype,K-W,,Wallich,s.n.,1826-08,Pegu,,Myanmar,"Type, p.210",
+Barclaya motleyi,holotype,K,K000442105,J. Motley,956,1857-08,Banjarmasin [Bangarmassing],,Borneo,"Type, p.212",Country printed as Borneo (Kalimantan).
+Barclaya motleyi,isotype,K,K000442106,J. Motley,956,1857-08,Banjarmasin [Bangarmassing],,Borneo,"Type, p.212",
+Barclaya motleyi,lectotype,CAL,,Kunstler,10866,1886-08,Bera,Perak,Peninsular Malaysia,"Type of synonym, p.212","Type of Barclaya motleyi var. kunstleri King; n.v. (not seen by the author). Bera is printed under Perak; Tasik Bera is in Pahang, so the state may be an error in the label or the flora."
+Barclaya motleyi,isolectotype,K,K000442104,Kunstler,10866,1886-08,Bera,Perak,Peninsular Malaysia,"Type of synonym, p.212",Type of Barclaya motleyi var. kunstleri King.
+Barclaya rotundifolia,holotype,KYO,,Hotta,15579,1963-11-23,"Bintulu, Sg. Bejangang",Sarawak,Borneo,"Type, p.212","n.v. (not seen by the author)."
+Barclaya rotundifolia,isotype,SAR,,Hotta,15579,1963-11-23,"Bintulu, Sg. Bejangang",Sarawak,Borneo,"Type, p.212","Printed 'not located, apparently never distributed'."
+Barclaya rotundifolia,figure specimen,KEP,,,,,KEP nursery (cultivated),,,"Fig. 1, p.215","Fig. 1 drawn from a live plant cultivated in the KEP nursery; no collector or number printed."
+Nymphaea nouchali,,G,,Burman,s.n.,,Coromandel,,India,"Type, p.216","Status not stated; in Herb. Delessert; n.v."
+Nymphaea nouchali,,BM,000574884,Soc. Unit. Frat.,s.n.,1778,,,India,"Type of synonym, p.217",Type of Nymphaea stellata Willd.; status not stated.
+Nymphaea pubescens,,M,M0171693,,,,East India,,India,"Type, p.218","Printed 'Type: East India (no specimen cited). (M, barcode M0171693).' The protologue cites no specimen, yet a barcode is given; status not stated."

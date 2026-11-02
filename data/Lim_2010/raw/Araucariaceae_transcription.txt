@@ -1,5 +1,5 @@
 # Lim_2010: transcription of C.L. Lim (2010) Araucariaceae, Flora of Peninsular
-# Malaysia Series II vol. 1: 61--66 (inst/extdata/FPM/Araucariaceae.pdf).
+# Malaysia Series II vol. 1: 61--66 (inst/extdata/myflora/pdf/FPM/Araucariaceae.pdf).
 # Read from page images rendered at 220 dpi (pdftools::pdf_convert); the PDF's
 # OCR text layer was not used. One paragraph per line; a "@page" line marks
 # each page turn (pdf page, printed page). Running heads, the map and Figure 1

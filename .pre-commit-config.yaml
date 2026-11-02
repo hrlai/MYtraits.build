@@ -4,3 +4,11 @@ repos:
     hooks:
       - id: yamlfmt
         types: [yaml]
+  - repo: local
+    hooks:
+      - id: check-metadata-yml
+        name: check data/*/metadata.yml
+        entry: python3 .github/hooks/check_metadata_yml.py
+        language: python
+        additional_dependencies: [pyyaml]
+        files: ^data/[^/]+/metadata\.yml$

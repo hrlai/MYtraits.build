@@ -1,6 +1,6 @@
 # Adema_1996: transcription of F. Adema, P.W. Leenhouts & P.C. van Welzen (1996)
 # Sapindaceae, Tree Flora of Sabah and Sarawak vol. 2: 263--374
-# (inst/extdata/TFSS/Sapindaceae.pdf, PDF pages 7--118). The PDF is the 2007
+# (inst/extdata/myflora/pdf/TFSS/Sapindaceae.pdf, PDF pages 7--118). The PDF is the 2007
 # electronic edition (L.G. Saw & B. Aslina): re-typeset vector text, not a scan.
 # Draft generated from the PDF text layer, then checked page by page against
 # 220 dpi renders (both halves of every page) for reading order, headings,

@@ -1,7 +1,7 @@
 # Hand extraction of Bignoniaceae (A. Berhaman 1995, Tree Flora of Sabah and
 # Sarawak vol. 1: 33--44). Run from the repository root.
 #
-# Source: inst/extdata/TFSS/Bignoniaceae.pdf, the 2007 electronic version of
+# Source: inst/extdata/myflora/pdf/TFSS/Bignoniaceae.pdf, the 2007 electronic version of
 # the 1995 volume (L.G. Saw & B. Aslina). Text pages carry embedded fonts and
 # no page images, so the text layer is what renders (checked against page
 # renders); it is retyped text, and no scan of the 1995 print was available.

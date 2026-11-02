@@ -12,6 +12,10 @@
 # data/Coode_2018 and data/Lim_2010 exactly.
 
 suppressPackageStartupMessages(library(tidyverse))
+# The project .Rprofile attaches traits.build (and so dplyr) before stats, so
+# stats::filter and stats::lag would otherwise mask the dplyr verbs.
+filter <- dplyr::filter
+lag <- dplyr::lag
 
 # One heading spec per heading type, in priority order (first match wins):
 #   list(
@@ -41,8 +45,17 @@ flora_segment <- function(
   ),
   cancel_header = NULL,
   ignore_header = NULL,
-  post_blocks = NULL
+  post_blocks = NULL,
+  rejoin_hyphens = TRUE
 ) {
+  # Vocabulary for rejoining words split at a line end: every word of the
+  # treatment's text lines. A split word never appears whole in its own
+  # fragments, so a hit means the word is printed unsplit elsewhere.
+  vocab <- lines$t[!lines$drop] |>
+    str_to_lower() |>
+    str_extract_all("[a-z]+") |>
+    unlist() |>
+    unique()
   hdr_re <- map_chr(headers, "re")
   lines$hdr <- map_chr(lines$t, \(x) {
     h <- which(str_detect(x, hdr_re))
@@ -103,9 +116,9 @@ flora_segment <- function(
     filter(!drop, is.na(hdr), !rank %in% skip_ranks) |>
     group_by(block) |>
     mutate(
-      prev_text = zoo::na.locf(
+      prev_text = vctrs::vec_fill_missing(
         lag(if_else(t == "", NA_character_, t)),
-        na.rm = FALSE
+        direction = "down"
       ),
       after_blank = lag(t, default = "") == "",
       desc_line = str_detect(t, desc_start_re) &
@@ -121,9 +134,15 @@ flora_segment <- function(
     summarise(
       # Lines ending "letter-" join without a space (hard hyphens at line ends).
       # Line offsets and pages are kept so each clause traces to its own page.
+      # The hyphen goes when the joined word occurs elsewhere in the treatment
+      # ("coria- ceous"); otherwise it stays (a real compound, "elliptic-
+      # oblong").
       sep = list(c(if_else(str_detect(head(t, -1), "[a-z]-$"), "", " "), "")),
-      text = paste0(t, unlist(sep), collapse = ""),
-      line_start = list(cumsum(c(1, head(nchar(t) + nchar(unlist(sep)), -1)))),
+      t = list(if (rejoin_hyphens) flora_unhyphen_lines(t, vocab) else t),
+      text = paste0(unlist(t), unlist(sep), collapse = ""),
+      line_start = list(
+        cumsum(c(1, head(nchar(unlist(t)) + nchar(unlist(sep)), -1)))
+      ),
       line_pdf_page = list(pdf_page),
       line_printed_page = list(printed_page),
       .groups = "drop"
@@ -165,10 +184,27 @@ flora_segment <- function(
     left_join(form_context, by = "block")
 }
 
+# Drop the hyphen at the end of line k when the word it splits, joined with the
+# start of line k + 1, is in `vocab` (lower-case words of the treatment).
+flora_unhyphen_lines <- function(t, vocab) {
+  if (length(t) < 2) {
+    return(t)
+  }
+  nxt <- c(t[-1], NA_character_)
+  head_w <- str_extract(t, "[A-Za-z]+(?=-$)")
+  tail_w <- str_extract(nxt, "^[a-z]+(?![A-Za-z])")
+  join <- !is.na(head_w) &
+    !is.na(tail_w) &
+    str_to_lower(paste0(head_w, tail_w)) %in% vocab
+  if_else(join, str_remove(t, "-$"), t)
+}
+
 # Pages (pdf, printed) at a character position within one paragraph row, so a
 # clause can be traced to its own page when a paragraph spans a page turn.
+# `pos` indexes `text` as segmented (section label removed, before flora_norm()
+# or other rewrites); a position before the first line falls on that line.
 flora_page_at <- function(par_row, pos) {
-  k <- max(which(par_row$line_start[[1]] <= pos + par_row$label_len))
+  k <- max(c(1L, which(par_row$line_start[[1]] <= pos + par_row$label_len)))
   c(
     pdf = par_row$line_pdf_page[[1]][k],
     printed = par_row$line_printed_page[[1]][k]

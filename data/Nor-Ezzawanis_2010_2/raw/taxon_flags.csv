@@ -1,0 +1,7 @@
+taxon_name,taxon_rank,status,n_rows,flag
+Casuarinaceae,family,accepted,33,Family description; one genus and one native species in Peninsular Malaysia.
+Casuarina,genus,accepted,21,
+Casuarina equisetifolia,species,accepted,77,Only accepted species heading.
+Casuarina junghuhniana,species,planted only,0,"Named in the family Distribution as planted ornamental; not treated, not scored."
+Gymnostoma nobile,species,planted only,0,"Named in the family Distribution as planted ornamental; not treated, not scored."
+Gymnostoma sumatranum,species,planted only,0,"Named in the family Distribution as planted ornamental; not treated, not scored."

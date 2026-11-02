@@ -13,11 +13,13 @@ source:
     publisher: Forest Research Institute Malaysia
     place: Kepong, Selangor, Malaysia
     pages: 119--122
+    isbn: 978-967-5221-24-8
+    doi: 10.26525/FPM11007
 contributors:
   data_collectors:
     - last_name: Nor-Ezzawanis
       given_name: A. T.
-      ORCID: .na.character
+      ORCID: .na
       affiliation: Forest Research Institute Malaysia, Kepong, Malaysia
   dataset_curators: Hao Ran Lai
 dataset:
@@ -29,28 +31,51 @@ dataset:
   value: value
   source_id: source_id
   description:
-    Cibotiaceae of Peninsular Malaysia, represented by one species, Cibotium
-    barometz.
+    Cibotiaceae (Cibotium, one species) of Peninsular Malaysia.
   basis_of_record: preserved_specimen
   life_stage: adult
-  sampling_strategy:
-    "Treatment transcribed from rendered page images
-    (raw/Cibotiaceae_transcription.txt); unknown-origin OCR layer not used.
-    Values were hand-entered clause by clause from family, genus and species
-    descriptions. Fern mappings are provisional: stipe to petiole, lamina to
-    leaf, and pinnae or pinnules to leaflets. Ranges are minimum and maximum;
-    'to' values are maxima."
+  sampling_strategy: |
+    Born-digital PDF (assets/myflora_metadata.csv); rows come from the PDF text
+    layer (pdf pages 7--10, printed 119--122) read with flora_read_pdf_lines()
+    and segmented by raw/segment_source.R. No page was image-checked:
+    flora_layer_flags() flagged only the front matter, Figure 1 (pdf 9,
+    drawing and caption), the plates (pdf 12--13, printed 225--226,
+    photographs with captions) and a blank last page; no bad glyphs and no
+    page-number breaks. Descriptions were split into ";" clauses and ","
+    pieces outside parentheses; raw/build_trait_data.R scores named pieces by
+    hand (Jaman_2020 pattern) and keeps every other piece verbatim as an
+    unmapped row. Fern mappings follow SKILL.md step 4 (stipe to petiole,
+    lamina to leaf, pinnae, pinnules and pinnule lobes to leaflet traits with
+    entity_measured, pinna pairs in unit pairs). Ranges are minimum and
+    maximum; 'to' values are maxima. The family is monogeneric with no
+    family description; the genus value spiral frond arrangement is copied
+    down. Population region is Peninsular Malaysia (FPM guide) for the
+    species' own rows.
   original_file:
     Cibotiaceae.pdf (Nor-Ezzawanis 2010, Flora of Peninsular Malaysia Series I
     vol. 1, pp. 119--122)
-  notes:
-    'Mapped and unmapped rows share raw/trait_data.csv. Habitat, altitude,
-    distribution, conservation, uses, rhizome, indusia and uncertain trunk
-    observations are unmapped. Figure specimen is in
-    raw/Nor-Ezzawanis_2010_vouchers.csv.'
+  notes: |
+    Rebuilt in 2026-11 to the fern rules confirmed on Jaman_2020 (issue 144).
+    The first build was transcribed from page images before the PDF was found
+    to be born-digital; the text layer agrees with that transcription.
+    Mapped and unmapped rows share raw/trait_data.csv; raw/unmapped_terms.csv
+    summarises the unmapped rows. Unmapped characters with no trait in
+    config/traits.yml: rhizome position, size and hairs; stipe colour,
+    diameter and hairs; juvenile lamina hairs and the genus statement "all
+    axes more or less hairy, glabrous when mature" (question 4); lamina
+    texture when dry; pinna arrangement; pinnule stalks and lobing; lobe
+    obliquity and spacing; "apex broadly pointed" (no level); veins; sori,
+    indusia, sporangia, spores and gametophyte (fern rule). Distribution,
+    Ecology (habitat, altitude, rocky places, the hedged spread by invading
+    landslides), Conservation status, Uses, Taxonomy and Notes (uncertain
+    trunk, cited from other works) are kept as unmapped sentences. Types and
+    the figure specimen are in raw/Nor-Ezzawanis_2010_vouchers.csv.
 identifiers: .na
 locations: .na
 contexts:
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
   - context_property: entity measured
     category: method_context
     var_in: entity_measured
@@ -65,9 +90,7 @@ traits:
     value_type: value_type
     basis_of_value: expert_score
     replicates: .na
-    methods:
-      Frond arrangement from genus description, provisionally treated as leaf
-      arrangement.
+    methods: 'Genus description "bearing spirally arranged fronds", copied down to the species; spirally arranged scored as spiral.'
   - var_in: leaf_compoundness
     unit_in: .na
     trait_name: leaf_compoundness
@@ -75,7 +98,15 @@ traits:
     value_type: value_type
     basis_of_value: expert_score
     replicates: .na
-    methods: Lamina division, provisionally treated as leaf compoundness.
+    methods: 'Deeply tripinnatifid laminae scored as compound.'
+  - var_in: leaf_glaucousness
+    unit_in: .na
+    trait_name: leaf_glaucousness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Lamina "glaucous beneath" (lower surface).'
   - var_in: leaf_hairs_adult_leaves
     unit_in: .na
     trait_name: leaf_hairs_adult_leaves
@@ -83,7 +114,15 @@ traits:
     value_type: value_type
     basis_of_value: expert_score
     replicates: .na
-    methods: Hairs on abaxial veins and veinlets of mature laminae.
+    methods: 'Hairs on the lower surface of veins and veinlets of mature plants scored as hairy (entity_measured pinna axes and veins; Jaman_2020 question 2). Juvenile hairs and glabrescent stipes not scored.'
+  - var_in: leaf_lamina_division
+    unit_in: .na
+    trait_name: leaf_lamina_division
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Deeply tripinnatifid scored as bipinnate, the nearest level (question 1). Genus "(elsewhere ...)" divisions not scored.'
   - var_in: leaf_length
     unit_in: unit
     trait_name: leaf_length
@@ -91,7 +130,7 @@ traits:
     value_type: value_type
     basis_of_value: measurement
     replicates: .na
-    methods: Lamina length, provisionally treated as leaf length.
+    methods: 'Lamina length (stipe excluded), entity_measured lamina (SKILL.md step 4, Ferns); first dimension of "a x b".'
   - var_in: leaf_margin
     unit_in: .na
     trait_name: leaf_margin
@@ -99,7 +138,7 @@ traits:
     value_type: value_type
     basis_of_value: expert_score
     replicates: .na
-    methods: Pinnule margin, provisionally treated as leaf margin.
+    methods: 'Margin of the pinnule lobes cut almost to the vein ("margin shallowly toothed and more deeply so towards apex"; question 2).'
   - var_in: leaf_shape
     unit_in: .na
     trait_name: leaf_shape
@@ -107,7 +146,7 @@ traits:
     value_type: value_type
     basis_of_value: expert_score
     replicates: .na
-    methods: Lamina outline, provisionally treated as leaf shape.
+    methods: 'Outline of the lamina and of the pinnae ("ovate (in outline)"), named in entity_measured.'
   - var_in: leaf_surface_colour
     unit_in: .na
     trait_name: leaf_surface_colour
@@ -115,7 +154,7 @@ traits:
     value_type: value_type
     basis_of_value: expert_score
     replicates: .na
-    methods: Adaxial lamina colour.
+    methods: 'Upper lamina surface "mid-green" scored as green.'
   - var_in: leaf_width
     unit_in: unit
     trait_name: leaf_width
@@ -123,7 +162,7 @@ traits:
     value_type: value_type
     basis_of_value: measurement
     replicates: .na
-    methods: Lamina width, provisionally treated as leaf width.
+    methods: 'Lamina width, entity_measured lamina; second dimension of "a x b".'
   - var_in: leaflet_count
     unit_in: unit
     trait_name: leaflet_count
@@ -131,7 +170,7 @@ traits:
     value_type: value_type
     basis_of_value: measurement
     replicates: .na
-    methods: Count of pinna pairs, provisionally treated as leaflet count.
+    methods: 'Pinna pairs per lamina (unit pairs, converted by config/unit_conversions.csv; SKILL.md step 4, Ferns).'
   - var_in: leaflet_length
     unit_in: unit
     trait_name: leaflet_length
@@ -139,8 +178,7 @@ traits:
     value_type: value_type
     basis_of_value: measurement
     replicates: .na
-    methods:
-      Dimensions of pinnae and pinnules, provisionally treated as leaflets.
+    methods: 'Length of the largest pinnae and largest pinnules (entity_measured); first dimension of "a x b". "to c." values are maxima.'
   - var_in: leaflet_width
     unit_in: unit
     trait_name: leaflet_width
@@ -148,8 +186,7 @@ traits:
     value_type: value_type
     basis_of_value: measurement
     replicates: .na
-    methods:
-      Dimensions of pinnae and pinnules, provisionally treated as leaflets.
+    methods: 'Width of the largest pinnae and largest pinnules (entity_measured); second dimension of "a x b".'
   - var_in: petiole_length
     unit_in: unit
     trait_name: petiole_length
@@ -157,7 +194,7 @@ traits:
     value_type: value_type
     basis_of_value: measurement
     replicates: .na
-    methods: Stipe length, provisionally treated as petiole length.
+    methods: 'Stipe length, entity_measured stipe (SKILL.md step 4, Ferns).'
   - var_in: plant_growth_form
     unit_in: .na
     trait_name: plant_growth_form
@@ -165,17 +202,28 @@ traits:
     value_type: value_type
     basis_of_value: expert_score
     replicates: .na
-    methods: Species description.
+    methods: 'Terrestrial fern without a trunk: fern, not fern palmoid (tree ferns only; SKILL.md step 4, Ferns). A single label reporting a trunk (Notes) is not scored.'
+  - var_in: plant_growth_substrate
+    unit_in: .na
+    trait_name: plant_growth_substrate
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '"terrestrial fern(s)" in the genus and species descriptions.'
 substitutions:
   - trait_name: leaf_arrangement
     find: spirally arranged
     replace: spiral
   - trait_name: leaf_compoundness
-    find: deeply tripinnatifid
+    find: tripinnatifid
     replace: compound
   - trait_name: leaf_hairs_adult_leaves
-    find: pale brown appressed hairs
+    find: hairs
     replace: hairy
+  - trait_name: leaf_lamina_division
+    find: tripinnatifid
+    replace: bipinnate
   - trait_name: leaf_surface_colour
     find: mid-green
     replace: green
@@ -183,21 +231,28 @@ taxonomic_updates: .na
 exclude_observations: .na
 questions:
   question1:
-    'First fern extraction: confirm stipe -> petiole; lamina -> leaf; pinnae and
-    pinnules -> leaflets; deeply tripinnatifid -> compound; pinna-pair count ->
-    leaflet_count.'
+    'Tripinnatifid lamina: "deeply tripinnatifid" (genus p. 119 and species
+    p. 120) has no level in leaf_lamina_division. It is scored bipinnate,
+    the nearest level, since the description gives pinnae and stalked or
+    sessile pinnules with lobes cut almost to the vein (2 rows, genus and
+    species), and leaf_compoundness compound. Confirm, or keep the division
+    unmapped and add a tripinnatifid level to config/traits.yml centrally.'
   question2:
-    'Leaflet dimensions combine pinnae (cm) and pinnules (mm), distinguished by
-    entity measured. Confirm acceptable treatment.'
-  question5:
-    '`leaf_type` does not represent fern frond division: its allowed levels are
-    broadleaf, leafless, needle and scale. Deeply tripinnatifid is provisionally
-    mapped to `leaf_compoundness = compound`. Confirm terminology and mapping.'
-  question6:
-    'Fern hierarchy requires `entity_measured`: pinnae and pinnules are both
-    provisionally mapped to leaflet traits, but they are distinct organs and
-    sizes. Confirm this vocabulary and context use.'
-  question7:
-    'The source reports pinna pairs, not individual pinnae. The reported 12--22
-    is provisionally stored as `leaflet_count` with `entity_measured = pinna
-    pairs`; do not interpret it as an individual-pinna count.'
+    'Margin ownership: "all pinnules lobed almost to the vein, lobes slightly
+    oblique, 2--5 mm apart, margin shallowly toothed and more deeply so
+    towards apex, apex broadly pointed" (C. barometz, p. 120). The margin is
+    scored leaf_margin toothed for the pinnule lobes (the last organ named);
+    the first build gave it to the pinnules. Confirm the owner.'
+  question3:
+    'Pinnule size: "the largest pinnules 5--20 x 3--4 mm" (C. barometz,
+    p. 120) is scored as printed (leaflet_length 5--20 mm, leaflet_width
+    3--4 mm, entity_measured largest pinnules). It is small beside pinnae
+    to 94 x 33 cm and lobes 2--5 mm apart, so it may describe the lobes or
+    carry a unit slip (cm). Confirm the printed reading or decide a repair.'
+  question4:
+    'Lamina hairs not scored: species "young plants covered all over by
+    soft, pale brown hairs" (could be leaf_hairs_juvenile_leaves hairy,
+    but the dataset life stage is adult) and genus "with all axes more or
+    less hairy, glabrous when mature" (hedged, and the species reports
+    hairy veins on mature plants). Both are unmapped. Decide whether either
+    should be scored.'
