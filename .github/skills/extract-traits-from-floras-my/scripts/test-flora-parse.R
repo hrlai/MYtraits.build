@@ -58,7 +58,9 @@ clean <- \(x, trait) flora_score_cat(x, trait, seed)$trait_value_clean
 stopifnot(
   # resin colour is not bark colour (Kochummen_1995 p. 45)
   clean("grey with black or white resinous gum", "bark_colour") == "grey",
-  clean("blackish brown", "bark_colour") == "black brown"
+  clean("blackish brown", "bark_colour") == "black brown",
+  clean("grey lanate pubescence", "leaf_hairs_adult_leaves") == "hairy",
+  clean("arachnoid when young", "stem_hairs") == "hairy"
 )
 
 cat("ok\n")
