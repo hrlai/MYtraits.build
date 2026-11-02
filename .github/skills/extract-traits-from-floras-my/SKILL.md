@@ -743,8 +743,8 @@ Bespoke checklist (decisions that changed per family):
   only compare the parents ("Intermediate between ..., like N. gracilis it
   has ...") stay unmapped sentence rows; hybrids are not copy-down members.
   List them in `taxon_flags.csv` as `named hybrid`.
-- **Ferns** (user, 2026-10-30; provisional until Cyatheaceae, after the
-  AusTraits fern rules). Stipe -> `petiole_length`; frond or lamina -> leaf
+- **Ferns** (user, 2026-10-30, after the AusTraits fern rules; confirmed on
+  21 Cyatheaceae species, Jaman_2020). Stipe -> `petiole_length`; frond or lamina -> leaf
   traits; pinnae, pinnules and segments -> leaflet traits. Name the division
   in `entity_measured` (`lamina`, `primary pinnae`, `pinnules`, `segments`,
   ...), as Wong_2010 names leaf kinds; do not add a `leaf_type` context.
@@ -755,8 +755,19 @@ Bespoke checklist (decisions that changed per family):
   `leaf_lamina_division = pinnately_compound`, "2-pinnate" -> `bipinnate`,
   "3-pinnate" -> `tripinnate`, "pinnatifid" / "bipinnatifid" as printed;
   expand "2--3-pinnate" to both. Sori, indusia, scales and spores have no
-  trait: keep them unmapped. Cibotiaceae (Nor-Ezzawanis_2010) predates
-  these rules; check it when Cyatheaceae is done.
+  trait: keep them unmapped. Nor-Ezzawanis_2010 (Cibotiaceae) predates
+  these rules and departs from them (pinna pairs as `{count}`,
+  "tripinnatifid" as `compound`); its rebuild waits on Jaman_2020
+  question 10.
+  Provisional (Jaman_2020 questions 1--5): trunk diameter ->
+  `stem_diameter`, fronds in the crown -> `leaf_count`; hairs (not scales)
+  on the costa, costules, costulets or veins -> `leaf_hairs_adult_leaves`
+  with `entity_measured = pinna axes and veins` (rachis hairs, hairs on
+  scales and glabrescent axes not scored); pinnule lobes cut almost to the
+  costule are segments, shallower lobes stay unmapped; reduced basal,
+  lowest, fertile and sterile pinnae or pinnules are leaflet rows kept
+  apart by `entity_measured`; a single "largest" or "longest" size is a
+  maximum.
 - **Lycophytes** (Selaginellaceae, Wong_2010; provisional, Wong_2010
   questions 2, 3 and 8). Score every leaf kind (lateral, median, axillary,
   main-stem and basal stem leaves) into the leaf traits and name it in
