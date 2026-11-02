@@ -38,5 +38,16 @@ stopifnot(
   startsWith(s[2], "Sarawak: Bt. Raya, 4th Div. Kapit")
 )
 
+# flora_cat_rows() keeps a term that a blank row claimed in context, although
+# the term alone matches a level (Adema_1996 p. 324)
+d <- list(flower_colour = c(
+  "greenish(?= white)" = "",
+  "white" = "white_cream",
+  "greenish" = "green"
+))
+stopifnot(
+  flora_cat_rows("flower_colour", "creamish or greenish white", d)$
+    trait_value_clean == "white_cream"
+)
 
 cat("ok\n")
