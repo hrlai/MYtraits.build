@@ -68,6 +68,9 @@ and next batch, not old chat history.
   `raw/page_manifest.csv` and `raw/review_batches.csv` only once. Create the
   empty persistent image directory before preparing the queue. Do not use a
   disposable session scratch folder; images need to survive new chats.
+  A reclaimed cloud container loses this directory and the uncommitted queue
+  files below, so "continue <id>" cannot resume there. Finish a cloud review
+  in one session (Kiew_2010).
   `pages` need not be contiguous: include plate or figure pages printed
   elsewhere in the volume (e.g. `c(8:12, 22)`).
 - Never commit `raw/page_manifest.csv`, `raw/review_batches.csv`,
@@ -569,6 +572,9 @@ Bespoke checklist (decisions that changed per family):
   (`less commonly`, not a near-synonym such as `less often`). The parser's word
   list is `flora_qual_words` in `flora_parse.R`. Add a new printed word there
   rather than recoding it to an existing word. The context has no fixed level list.
+  Hand rows may use a printed word the list lacks (Kiew_2010: `most`, `a few`,
+  `predominately`). Add such a word to the list only when a parser meets it:
+  broad words such as `most` also match "at most".
 - **Dictionary row order is priority.** Within a trait, `flora_score_cat()`
   tries rows from top to bottom, and each match blanks out the text it used.
   A general row therefore claims text inside compound or prefixed words
