@@ -129,10 +129,11 @@ genus <- bind_rows(
     p = "p375"
   ),
   g$un(
-    "developing one at time from the base upwards on each raceme-like unit; pedicel flattened, persistent",
-    "flower | anthesis sequence; pedicel | shape, persistence",
+    "developing one at time from the base upwards on each raceme-like unit",
+    "flower | anthesis sequence",
     p = "p375"
   ),
+  g$un("pedicel flattened, persistent", "pedicel | shape, persistence", p = "p375"),
   g$row(
     "flower_perianth_parts_count",
     "perianth 6-lobed (3 outer and 3 inner tepals)",

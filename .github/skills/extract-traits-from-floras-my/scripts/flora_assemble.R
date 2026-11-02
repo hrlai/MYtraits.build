@@ -274,7 +274,10 @@ flora_merge_duplicate_keys <- function(d) {
     "form",
     "entity_measured",
     "value_type",
-    "unit"
+    "unit",
+    # Rows citing different works are separate observations; merging them
+    # kept only the first source_id (Kiew_2010, B. fungosa flower_visitor).
+    "source_id"
   )
   key <- intersect(key, names(d))
   mergeable <- d$value_type %in% "mode" & !is.na(d$trait) & d$trait != ""

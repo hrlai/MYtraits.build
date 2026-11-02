@@ -217,8 +217,9 @@ flora_qa <- function(
   out$hyphen_leftovers <- sum(map_int(txt, \(x) {
     sum(str_detect(x, "[0-9]\\s?[\u2013-]\\s?[0-9]"), na.rm = TRUE)
   }))
+  # Ranges only: a printed punctuation dash ("pollinated \u2013 the") is fine.
   out$endash_leftovers <- sum(map_int(txt, \(x) {
-    sum(str_detect(x, "\u2013"), na.rm = TRUE)
+    sum(str_detect(x, "[0-9]\\s?\u2013\\s?[0-9]"), na.rm = TRUE)
   }))
   out$numeric_without_unit <- num |>
     filter(is.na(unit) | unit == "") |>

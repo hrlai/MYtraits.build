@@ -40,10 +40,11 @@ Worked examples, all in this repository:
 | `data/Prance_2012` | Chrysobalanaceae, FPM vol. 3 | born-digital PDF, scripted clause parser, 14 species and 5 subspecies | species and subspecies descriptions both scored; differential-only subspecies inherit; `(elsewhere ...)` asides dropped; receptacle tube; cited Ecology observations |
 | `data/Beentje_2023` | Pandanaceae, FPM vol. 10 | born-digital PDF, scripted clause parser, 50 species | first monocot; syncarp is not the fruit; palmoid growth forms; cultivated and not-native taxa scored with notes; hand rows for clauses whose subject is two chunks back |
 | `data/Prance_1995` | Chrysobalanaceae, TFSS vol. 1 | 2007 electronic text, scripted clause parser, 15 species | subspecies only in a key with annotations; labels after the clause ("cordate at base"); receptacle is not the flower; inflorescence kind and position scored apart; figure specimens from plate captions |
+| `data/Kiew_2010` | Balanophoraceae, FPM vol. 1 | scanned PDF, every page image-checked through the review queue, 7 taxa | `flora_hand()` for a leafless root parasite; male and female organs in `entity_measured`; "Fruits and Seeds unknown" blocks copy-down; genus Ecology values scored on named species |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
-inline source fixes. Only Lim and Yao are scanned. Nor-Ezzawanis and Hughes were
+inline source fixes. Only Lim, Yao and Kiew_2010 are scanned. Nor-Ezzawanis and Hughes were
 transcribed from page images before their PDFs were found to be born-digital;
 born-digital sources no longer need that (step 2).
 
@@ -67,6 +68,9 @@ and next batch, not old chat history.
   `raw/page_manifest.csv` and `raw/review_batches.csv` only once. Create the
   empty persistent image directory before preparing the queue. Do not use a
   disposable session scratch folder; images need to survive new chats.
+  A reclaimed cloud container loses this directory and the uncommitted queue
+  files below, so "continue <id>" cannot resume there. Finish a cloud review
+  in one session (Kiew_2010).
   `pages` need not be contiguous: include plate or figure pages printed
   elsewhere in the volume (e.g. `c(8:12, 22)`).
 - Never commit `raw/page_manifest.csv`, `raw/review_batches.csv`,
@@ -380,7 +384,9 @@ misreads; image checking is for scans.
   - For a large treatment, work page by page and record which pages or clauses
     remain unchecked. Keep its status provisional until source reconciliation.
   - Use `flora_compare_numbers()` as a review aid, not a pass/fail test. Check
-    differences and measurements it misses against page images.
+    differences and measurements it misses against page images. It ignores
+    dash, x-sign and line-break differences, so what remains are real OCR
+    slips such as split decimals ("1. 75", Kiew_2010).
 - Keep errors visible in the draft. Record repairs in `raw/source_fixes.csv`
   (`pattern, replacement, page, reason`) and apply them with
   `flora_apply_fixes()` using printed pages. The transcription fed to the
@@ -566,6 +572,9 @@ Bespoke checklist (decisions that changed per family):
   (`less commonly`, not a near-synonym such as `less often`). The parser's word
   list is `flora_qual_words` in `flora_parse.R`. Add a new printed word there
   rather than recoding it to an existing word. The context has no fixed level list.
+  Hand rows may use a printed word the list lacks (Kiew_2010: `most`, `a few`,
+  `predominately`). Add such a word to the list only when a parser meets it:
+  broad words such as `most` also match "at most".
 - **Dictionary row order is priority.** Within a trait, `flora_score_cat()`
   tries rows from top to bottom, and each match blanks out the text it used.
   A general row therefore claims text inside compound or prefixed words
@@ -675,13 +684,22 @@ Bespoke checklist (decisions that changed per family):
   `leaf_arrangement = rosette` wherever either is described (user,
   2026-10-30).
 - **Parasites and plants without chlorophyll** (user, 2026-10-30;
-  provisional until Balanophoraceae). Score `parasitic` (`holoparasitic`,
+  confirmed by Balanophoraceae, Kiew_2010). Score `parasitic` (`holoparasitic`,
   `root_parasitic`, ...) only when the text states parasitism ("root
   parasite", "parasitic on roots"). "Lacking chlorophyll", "non-green",
-  "achlorophyllous" -> `plant_photosynthetic_organ =
+  "achlorophyllous", "without ... chlorophyll" -> `plant_photosynthetic_organ =
   non-photosynthetic_plant`. The height of an emerging inflorescence or
   scape is `plant_height_reproductive`, not `plant_height`. Named hosts stay
-  unmapped rows.
+  unmapped rows. Provisional (Kiew_2010 questions 1--3): "root parasites
+  without ... chlorophyll" scores `root_parasitic`, not `holoparasitic`,
+  since the word is not printed; scale leaves (bracts) on a leafless
+  flowering shoot get no leaf trait; the dimensions of a "flowering
+  tuber-branch" (the stalk from the subterranean tuber) and of the tuber
+  itself stay unmapped, not `plant_height_reproductive` or
+  `storage_organ`, until those questions are answered. Nectar or smell
+  stated for an inflorescence goes to `flower_nectar_production` /
+  `flower_scent_production` with the inflorescence in `entity_measured`
+  (provisional, Kiew_2010 question 7).
 - **Cues** (user, 2026-10-30). Fire is out of scope, other cues are not.
   Stated triggers of flowering or germination (rain, a dry spell, floods,
   temperature, gregarious or mast flowering) go to `flowering_cues` /
@@ -767,8 +785,9 @@ Bespoke checklist (decisions that changed per family):
   separately in the bespoke parser.
 - Do not copy a value for an organ to a species whose description says the
   organ is unknown or not seen in the region ("Male inflorescence unknown"):
-  filter the copied rows by `entity_measured` (provisional, Beentje_2023
-  question 12).
+  filter the copied rows by `entity_measured` (Beentje_2023 question 12).
+  "Fruits and Seeds unknown" blocks fruit and seed copy-down the same way
+  (Kiew_2010: family "1-seeded achenes" kept at family rank only).
 - Use `flora_inherit_infraspecific()` for `subsp.`/`var.` silent on a trait.
 - Monogeneric family: both family and genus are copied down
   (`rank_scored_from` = `genus` or `family`; Yao_2010). If the family has no

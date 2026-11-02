@@ -1,0 +1,201 @@
+# Kiew_2010: transcription of R. Kiew (2010) Balanophoraceae, Flora of
+# Peninsular Malaysia Series II vol. 1: 67--81 and plates 9--10 (pp. 301--302)
+# (inst/extdata/myflora/pdf/FPM/Balanophoraceae.pdf, scanned_ocr).
+# Drafted from the PDF's OCR layer and checked line by line against page images
+# rendered at 220 dpi (top and bottom halves; full page for map and figure
+# pages). OCR slips corrected from the images ("Ba/anaphora", "InDorescences",
+# "Dowers", "I embryo", "105-l07", "Oowers", "ieflorescence"). One paragraph
+# per line; "@page <pdf> <printed>" at each page turn. Running heads, bare page
+# numbers, map frames and compass letters are omitted. En dashes and the
+# multiplication sign are as printed; italics and bold are not kept. Text is
+# verbatim, including source slips ("2.5–4 × 2–3.5 cm" for B. hansenii median
+# tepals; "rufas" is printed "rufus"; "dependant").
+@page 8 67
+BALANOPHORACEAE
+R. Kiew
+Forest Research Institute Malaysia, Kepong, Malaysia
+
+J.R. & G.Forst., Char. Gen. Pl. (1776) 99; Blume, Enum. Pl. Javae (1827) 86; Ridley, Fl. Malay Pen. 3 (1924) 173; Backer & Bakhuizen f., Fl. Java 2 (1965) 78; Hansen, Fl. Thailand 2 (1972) 177, Fl. Malesiana 1, 7 (1976) 783; Heywood in Heywood et al., Flow. Pl. Fam. World (2007) 54; Mabberley, Pl. Book, 3rd ed. (2008) 87.
+
+Herbaceous, fleshy root parasites without roots, stems or chlorophyll; producing a subterranean cylindric or subspherical, branched or unbranched solid tuber at the point of contact with the host root; tuber, scale leaves and inflorescences deep crimson, orange or pale brown (elsewhere yellowish white or rosy pink). Flowering tuber-branches producing inflorescences endogenously, leafless (e.g., Helosis) or with crimson or yellow-brown scale leaves (bracts) spirally arranged or opposite or whorled and enclosing the developing inflorescence (e.g., Balanophora). Inflorescences spicate, with or without peduncles, fleshy with many unisexual flowers, spikes unisexual or bisexual with the male flowers below and/or above the female flowers or with male and female flowers intermixed; in a few genera (e.g., Helosis) until anthesis covered by hexagonal scales. Male flowers pedicellate or sessile, with or without bracteoles, 2–6-merous; tepals free, 2–4(–6) in one series, or lacking; stamens 2–4, united into a synandrium, opposite the tepals; anther locules 2, 4 or many. Female flowers minute and very numerous, perianth minute, 2-lobed and joined to the ovary or absent; ovary superior (elsewhere rarely inferior), carpels 2–3, connate, each carpel with 1 embryo; styles 1 or 2; embryo minute, without recognizable nucellus or integuments, consisting of a few cells embedded in scant endosperm. Fruits minute, 1-seeded achenes.
+
+Distribution. About 45 species in 17 genera worldwide in the tropics and subtropics. In Peninsular Malaysia, 2 genera, Balanophora represented by 6 species, one endemic (B. hansenii), and Helosis by a single endemic species, H. ruficeps.
+
+Ecology. Root parasites not showing host specificity, but parasitizing a wide range of trees (elsewhere parasitizing herbs and bamboo).
+
+Taxonomy. Balanophoraceae is divided into two subfamilies: Balanophoroideae has wax-like balanophorin in its tubers and an ovary with a single style; and Helosidoideae lacks balanophorin and has an ovary with 2 (rarely 2–5 styles). Balanophora belongs to the former subfamily, and Helosis to the latter.
+The relationship between Balanophoraceae and other families has yet to be elucidated and it remains unplaced among the orders of dicotyledons (Heywood (2007); Stevens et al., AP Website, 22 June 2009).
+@page 9 68
+Key to genera
+Tuber compact. Inflorescences with coloured scale leaves, the upper ones covering the developing inflorescence, inflorescence without peltate bracts. ..... 1. Balanophora
+Tuber long, slender and rhizome-like. Inflorescences without scale leaves, the young inflorescence covered by a layer of peltate bracts that fall off at anthesis. ..... 2. Helosis
+
+1. BALANOPHORA J.R. & G.Forst.
+(Greek: balanos = acorn, -phora = bearing, referring to the inflorescence)
+
+Char. Gen. Pl. (1776) 99; Blume, Enum. Pl. Javae (1827) 86; Bentham & Hooker f., Gen. Pl. 3 (1880) 235; Hooker f., Fl. Brit. India 5 (1886) 237; Ridley, Fl. Malay Pen. 3 (1924) 173; Backer & Bakhuizen f., Fl. Java 2 (1965) 79; Hansen, Dansk Bot. Ark. 28 (1972) 84, Fl. Thailand 2 (1972) 177, Fl. Malesiana 1, 7 (1976) 783.
+
+Plant dioecious or monoecious with the male flowers below the female flowers (elsewhere with male flowers intermixed with or above the female flowers). Tuber an irregularly knobbly, compact, subspherical mass, 1–25 cm across; surface finely granular to coarsely tessellate, with or without stellate warts. Flowering tuber-branches ovoid, ellipsoid or obovoid, sometimes cylindric or almost spherical, 1–6 cm long and wide, in a few species repeatedly branching with elongated, cylindrical flowering tuber-branches forming an entangled mass 10–30 cm diameter. Scale leaves 2–40, broad-based; spirally arranged, opposite, distichous or whorled and covering the developing inflorescence. Flowers pedicellate or sessile. Male inflorescences spicate (elsewhere racemose), 1–18 cm long, 0.5–7 cm diameter at anthesis; bracts non-peltate, usually short and truncate. Male flowers: perianth actinomorphic or zygomorphic; tepals ovate to lanceolate, acute or almost square and truncate, 3–6(–14); stamens connate and forming a more-or-less elongated synandrium; anthers 4–5 or number indeterminable, locules dehiscing longitudinally, sometimes transversely divided into smaller locules. Female inflorescences spicate, ovoid, ellipsoid, obovoid or spherical, 0.5–7 cm long, 0.5–8.5 cm diameter, with thousands of flowers; spadicles (bracts) more-or-less club-shaped, 0.5–2.5 mm long, surrounding female flowers or in some species female flowers situated on the lower, narrow part of each spadicle. Female flowers without a perianth or distinct carpel, 0.2–0.7 × 0.15–0.4 mm, with a single style 0.5–1.5 mm long, apparently stigmatoid at and near apex, where pollen grains are often found attached.
+
+Distribution. About 15 species in temperate to tropical Asia, throughout Malesia, Pacific Islands, tropical Australia, Comoros, Madagascar and tropical Africa (Congo); 6 species in Peninsular Malaysia.
+
+Ecology. In Peninsular Malaysia, most species are found in montane forest above 1000 m altitude; only Balanophora abbreviata and B. reflexa are lowland species that occur at or below 1000 m. Only one collection (B. latisepala) is from limestone at low altitude.
+It is often difficult to determine the host from the tangle of roots but none is host specific. Most are seasonal with annual tubers that begin to develop from the beginning of the year with peak flowering between August and October, the infructescences dying by the year's end. The exception is B. papuana that is found in flower throughout the year. The flowers
+@page 10 69
+are insect pollinated – the scale leaves and inflorescences are coloured, the male flowers produce conspicuous sticky white pollen, and the female inflorescences produce glistening droplets of nectar. Both B. fungosa subsp. indica var. indica and B. papuana produce nectar that accumulates in a hollow on the upper surface of the bracts in both the male and female inflorescence. Vespa velutina Lepeletier has been observed to systematically forage for this nectar. Trigona stingless bees collect pollen from B. fungosa, and a variety of insects visit its male and female inflorescences (Kiew, FRIM Res. Pamph. 121 (1998) 35) but whether they are pollinators is not known. The strong smell produced by mature inflorescences of B. reflexa on G. Kinabalu suggests it is pollinated by beetles or flies. Balanophora hansenii is also reported to have a disagreeable smell.
+There are no observations on fruit dispersal in Peninsular Malaysia, but for B. abbreviata on Christmas Island, Ridley (J. Str. Br. Roy. As. Soc. 45 (1906) 218) observed that 'a puff of wind blew those [fruits] away like the seeds of an orchid'. In India, Govindappa & Shivamurthy (Ann. Bot. 39 (1975) 977) found fruits in wet soil around the parent plant and suggested that water percolation was the probable mode of dispersal. The fact that tubers of montane species in Peninsular Malaysia emerge close to the previous year's one supports this latter view.
+Germination has been documented for B. abbreviata in India by Arekal & Shivamurthy (Phytomorphology 26 (1976) 135) who observed that the seed at first produces a sticky tubular extension that attaches itself to a rootlet. A haustorium then penetrates the host rootlet and taps into the vascular system. Growth of the host root is then stimulated to produce the subterranean tuber that is penetrated by the vascular system of the parasite.
+
+Uses. In Java, the wax-filled tuber-branches of Balanophora elongata Blume are used as torches (Steenis, Mt. Fl. Java (1972) pl. 5.1).
+
+Notes. All species contain waxy balanophorin in varying amounts but among the Peninsular Malaysian species, only B. hansenii has wax in any quantity in its cortical cells.
+Among flowering plants, the female flowers and fruits of Balanophora are the smallest. Hansen (1972) estimated there are between 10^5–10^7 flowers in a single female inflorescence and the fruits weigh as little as 0.007 mg.
+Few species, e.g. B. abbreviata, are monoecious and produce bisexual inflorescences. In species with separate male and female inflorescences, they have never been observed to emerge from the same tuber confirming that they are in fact dioecious. Size of the inflorescence appears in part to be dependant on the size of the host root (Hansen, 1972).
+
+Key to Balanophora species
+1. Plant monoecious; inflorescences bisexual with female flowers above and male flowers below. ..... 1. B. abbreviata
+Plant dioecious; male and female inflorescences on different individuals. ..... 2
+2. Scale leaves opposite, decussate or distichous. ..... 3
+Scale leaves spirally arranged. ..... 4
+@page 11 70
+3. Scale leaves distichous. Tuber little-branched and pale fawn. Male inflorescences 5–9 cm long and female inflorescences 1–7 cm. ..... 4. B. latisepala
+Scale leaves opposite or decussate, sometimes apparently whorled in the upper part. Tuber coral-like being much branched and deep crimson or brown. Male inflorescences 2.5–5 cm long and female inflorescences 0.75–4 cm. ..... 5. B. papuana
+4. Scale leaves 3–8. Pedicels of male flowers 10–20 mm long, becoming reflexed at anthesis. ..... 6. B. reflexa
+Scale leaves 9 or more. Pedicels of male flowers 0–10 mm long, not reflexed. ...5
+5. Flowering tuber-branches subspherical to broadly ellipsoid, 0.5–5.5(–11.5) cm long. Scale leaves not covering the inflorescence at anthesis. Male flowers actinomorphic; tepals all elliptic-lanceolate. ..... 2. B. fungosa (subsp. indica var. indica)
+Flowering tuber-branches erect and columnar, 4–11.5 cm long. Scale leaves completely covering the inflorescence at anthesis. Male flowers zygomorphic; median tepals truncate, lateral tepals narrowly acute. ..... 3. B. hansenii
+
+1. Balanophora abbreviata Blume Map 1
+(Latin, abbreviatus = shortened; presumably referring to the inflorescence)
+Enum. Pl. Java 1 (1827) 87; Miquel, Fl. Ind. Bat. 2 (1859) 1065; Backer & Bakhuizen f., Fl. Java. 2 (1965) 79; Hansen, Dansk Bot. Ark. 28 (1972) 134, fig. 32, Fl. Thailand 2 (1972) 178, Fl. Malesiana 1, 7 (1976) 801, fig. 21, 22; Kiew, Malay Nat. J. 30 (1978) 544. Type: Luetjeharms 3650, Java (neotype L). Synonym: Balanophora insularis Ridl., J. Str. Br. Roy. As. Soc. 45 (1906) 218, Fl. Malay Pen. 3 (1924) 175. Type: Ridley 138, 1904, Christmas Island, Murray Hill Track (lectotype SING, barcode no. SING 59537, here chosen).
+
+Monoecious plants, creamy-white to pale yellow or light brown. Tubers single or several together in a mass, about 5 cm wide, branching from the base. Flowering tuber-branches single, erect, cylindric, narrow at base, (1–)2.5–3.5(–10) cm long, (1–)2.5(–3) cm wide; surface finely granular, with or without scattered stellate warts. Inflorescences bisexual; peduncle c. 1.2 cm long. Scale leaves light yellow, 3–7, distichous, evenly spaced, slightly imbricate, cucullate, 1–2 × 0.75–1.5 cm, ovate, obtuse or emarginate. Male flowers 10–20 in a zone 0.5–2 cm below female flowers; pedicels extremely short c. 1 mm or the flowers sessile; flowers (3–)4–5(–8)-merous, 1.5–2 mm long, zygomorphic; tepals 4, median tepals two, broadly truncate, almost square 1.5–2 mm wide; lateral tepals two, narrow, ovate and acute; synandrium white with the fertile part c. 1 mm long, slightly compressed, 1.5–2 mm wide and 0.5–0.75 mm thick, anthers with 16–20 parallel longitudinal locules. Female part dark red, ovoid, (1–)1.5(–2.5) cm long, (0.5–)1(–2.25) cm wide. Female flowers on main axis of inflorescences as well as on the lower part of spadicles; largest flowers with ovaries ovoid to ellipsoid, c. 0.4 mm long, 0.2 mm diameter and styles c. 1 mm long. Fruits and Seeds unknown.
+
+Distribution. Tropical Africa (Congo), Comoros and Madagascar, India including Andaman Islands, Myanmar, Thailand, Indo-China (Cambodia), SW China including Hainan, and throughout Malesia (except Borneo) and the Pacific (to Tahiti and Marquesas). In Peninsular Malaysia, recorded only three times from N Perak (Lenggong), Pahang (Pulau Tioman) and Johor (Pulau Aur).
+@page 12 71
+# Map 1 (Balanophora abbreviata, B. hansenii and B. reflexa) omitted.
+Conservation status. Critically Endangered B1b(iii). Known from three localities, one very much disturbed while the other two occur on islands often visited by tourists. The species has not been recorded for the past fifty years.
+
+Ecology. In evergreen forest, sea level to 1000 m altitude on G. Kajang, Pulau Tioman.
+
+2. Balanophora fungosa J.R. & G.Forst.
+(Greek, fungus, from the fungus-like appearance of the tuber)
+Char. Gen. Pl. (1776) 99, t. 50; Hansen, Dansk Bot. Ark. 28 (1972) 93, fig.19, Fl. Malesiana 1, 7 (1976) 764, fig. 8, 9. Type: J.R. & G. Forster s.n., 1774, Tanna (lectotype BM).
+
+Distribution. India, Sri Lanka, Myanmar, Thailand and Indo-China (Vietnam and Cambodia) to S China (including Hainan), Malesia, N Australia (Queensland) and Pacific Islands.
+
+Taxonomy. The species is divided into two subspecies: subsp. fungosa that is monoecious with male flowers below the female on a single inflorescence, and subsp. indica that is dioecious. Both occur in India, Indo-China, Malesia, Australia and the Pacific Islands but in Malesia subsp. fungosa is absent from W Malesia occurring only in the Philippines, Sulawesi and New Guinea.
+
+subsp. indica (Arn.) B.Hansen
+(Of India)
+Dansk Bot. Ark. 28 (1972) 100, fig. 20, 21, Fl. Malesiana 1, 7 (1976) 764, fig. 9, 10. Basionym: Langsdorffii indica Arn., Ann. Nat. Hist. 2 (1838) 37. Balanophora indica (Arn.) Griff., Trans. Linn. Soc. 20 (1846) 95; Hooker f., Fl. Brit. India 5 (1886) 237, 862. Type: Wallich 7247, 1832, India (holotype K). Synonym: Balanophora gigantea Wall. ex Fawc., Trans. Linn. Soc. 2, 2 (1886) 235, t. 33, fig. 6, 7; Ridley, Fl. Malay Pen. 3 (1924) 174; Holttum, Pl. Life Malaya (1954) 194, fig. 43. Type: Wallich 7249, Myanmar [Burma] (holotype K).
+@page 13 72
+Distribution. India, Sri Lanka, Myanmar, Thailand and Indo-China (Vietnam and Cambodia) to S China (including Hainan); Malesia (Sumatra, Peninsular Malaysia, Java, one collection from Luzon, the Philippines); Micronesia (Carolina and Mariana Islands) and N Australia.
+
+Ecology. Evergreen forest from 600 m but usually at 1200–2000 m altitude.
+
+Taxonomy. Hansen (1972) recognised three varieties, two rare (var. globosa (Jungh.) B.Hansen from Java known only from female plants, has almost sessile inflorescences with a depressed apex; and var. minor (Eichl.) B.Hansen from India and Thailand with a tuber repeatedly branched cylindrical); and one, var. indica, widespread.
+
+var. indica Fig. 1, Plate 10B&C, Map 2
+Hansen, Dansk Bot. Ark. 28 (1972) 93, fig.19, Fl. Malesiana 1, 7 (1976) 764, fig. 8, 9; Kiew, Malay. Nat. J. 30 (1978) 544, fig. 1a, c & 2, FRIM Res. Pamph. 121 (1998) 35, fig. p. 109. Synonym: Balanophora globosa auct non Jungh.: Ridley, Fl. Malay Pen. 3 (1924) 174, Henderson, J. Malay. Br. Roy. As. Soc. 5 (1927) 265.
+
+Dioecious plants. Tubers tawny brown (elsewhere yellow to orange-yellow or pink), single or in a lumpy mass more-or-less branched to 25 cm across, surface coarsely tessellate to finely granular with stellate warts. Flowering tuber-branches stout, subspherical to broadly ellipsoid, 0.5–5.5(–11.5) cm long, 1–3.5 cm wide. Scale leaves dark crimson, 10–20, spirally arranged, imbricate, 1.5–4 × 1.2–2.5 cm, obtuse, slightly cucullate, not covering the inflorescence at anthesis. Inflorescences with peduncles 0.5–4(–6) cm long. Male inflorescences ovoid to ellipsoid, (0.75–) 2.5(–5) cm long; bracts truncate, c. 5 × 4 mm. Male flowers: pedicels 7–10 mm, (3–)4–5(–6)-merous, actinomorphic; tepals 3–7 × 1–2.5 mm, elliptic-lanceolate, apex acute; synandrium white with fertile part slightly compressed, 2.5–5 mm long, 3.5 mm wide, 2 mm thick, often slightly obconical, anthers (3–)4–5(–6), horseshoe-shaped. Female inflorescences dark red, subspherical or obovoid or ellipsoid (0.5–)4.5(–6) cm long, apex rounded. Female flowers on main axis of inflorescences as well as on cylindrical part of the spadicles; spadicles with an obovoid top, c. 1.7 mm long; largest female flowers with ovary c. 0.25–0.5 mm long, style c. 1–1.5 mm long. Fruits and Seeds unknown.
+
+Distribution. As for the subspecies, except absent from Java. In Peninsular Malaysia, on west coast mountains from Perak to Selangor, also in Kelantan (G. Stong area), Terengganu (G. Lawit), Pahang (G. Benom, G. Tahan and G. Tapis) and Johor (G. Ledang and G. Panti).
+
+Conservation status. Least concern.
+
+Ecology. Lower and upper montane forest in deeply shaded, humus-rich places usually above 1200 m altitude, occasionally as low as 600 m (G. Tapis). The only Malaysian species confirmed as a host is a conifer, Dacrydium sp. (Ridley s.n. 1899).
+
+Note. The plants on G. Benom and G. Tahan, Pahang, have exceptionally long male inflorescences, 11–11.5 cm as compared with up to 5.5 cm elsewhere.
+@page 14 73
+# Figure 1 (drawing). Caption:
+Figure 1. Balanophora fungosa subsp. indica var. indica. A, male inflorescence; B, male flowers with bracteoles cut across to show the depression where nectar collects; male flowers: C, bud, D, before anthesis, E, after pollen is shed; F, female inflorescences; G, longitudinal section of female inflorescence with the layer of tiny flowers; H, female flowers with a few club-shaped spadicles; I, tessellate tuber surface. (A–E from Kiew RK 5391, F–I from Kiew RK 5392.)
+@page 15 74
+# Map 2 (B. fungosa subsp. indica var. indica) omitted.
+3. Balanophora hansenii Hambali Plate 9C, Map 1
+(Bertel Hansen, 1932–2005, Danish botanist, specialising in Malesian Balanophoraceae, and Thai Acanthaceae)
+Reinwardtia 9 (1980) 425, 426 fig. a–d. Type: Hambali s.n., 31 Dec 1977, Peninsular Malaysia, Pahang, G. Ulu Kali, (holotype BO n.v.). Synonyms: B. papuana auct. non Schlechter: Soepadmo, Nat. Malays. 3 (1) (1978) 24; B. elongata auct. non Blume: Stone, Malay. Nat. J. 33 (1980, '1979') 130, fig. 1.
+
+Dioecious plants, dull to bright coral-red. Tubers light brown, surface finely granular and minutely puberulous, hairs abrading with age, with scattered white stellate warts, cortex of tuber and its branches filled with wax. Flowering tuber-branches erect and columnar, branches with male inflorescences 4–11.5 cm long and 1.5–2.75 cm diameter tapering to 2 cm at top; branches with female inflorescences to 6 cm long and 2 cm diameter, tapering at the apex to 0.75 cm. Inflorescences with peduncles to 1 cm long. Scale leaves light red or orange, 9–13, arranged in a tight spiral and appearing whorled, ovate with a broad base, apex acute, slightly cucullate, thin, faintly striate with 5–8 longitudinal veins, lower three to six scale leaves 1.25–3.75 × 1–2 cm, upper scale leaves longer, 3.25–4.5 × 1.75–2.75 cm and completely enclosing the inflorescences during and after anthesis and forming a compact ovoid pointed head, not reflexing after anthesis. Male inflorescences yellow or pale yellow, 2–2.7 cm long, 1.2–1.8 cm diameter, with 19–20 flowers; bracts yellow, thick, 1–2.5 × 4–5.5 mm, truncate, apex blunt. Male flowers pink, (3–)4(–5)-merous, zygomorphic, not becoming reflexed at anthesis; pedicels 2–10 mm long, median tepals broad, truncate, 2.5–4 × 2–3.5 cm, lateral tepals narrowly obtuse to acute, 2–4 × 1–3 mm, synandrium white, 0.5–2.5 cm long, elevated on a torus 1–1.5 mm long; anther locules c. 20, dehiscing longitudinally. Female inflorescences ellipsoid, 1.25–3.5 cm long, 0.75–1.5 cm diameter, base truncate, tapering to a rounded apex; spadicles club-shaped, c. 1 mm long. Female flowers: ovary ellipsoid, c. 0.2–0.25 mm long; style 0.8–1 mm long, projecting beyond the spadicles. Fruits and Seeds unknown.
+
+Distribution. Endemic in Peninsular Malaysia, known only from G. Ulu Kali, Pahang.
+@page 16 75
+Conservation status. Critically Endangered B1ab(iii). Although this species has been collected several times, it has not been seen in the past 20 years. Its single known locality has been severely disturbed.
+
+Ecology. Upper montane forest at 1600–1800 m altitude growing in moist humus-rich soil, frequently among thickets of Pandanus klossii Ridl. (Pandanaceae). Hambali (1980) reported it parasitises the roots of Pentaphylax euryoides Gard. & Champ. (Pentaphylacaceae) and Weinmannia fraxinea (D.Don) Miq. (Cunoniaceae). Male inflorescences have a faint, disagreeable smell reminiscent of Laurentia longiflora (L.) Peterm., Campanulaceae (Hambali, 1980). It flowers between August and December.
+
+Note. First reported from G. Ulu Kali as Balanophora elongata Blume (Stone, 1980), which is a completely different species with short, broad flowering tuber-branches, and long peduncles with scattered, strongly cucullate scale leaves that at anthesis are held at 45° and do not cover the inflorescence, compared with the columnar flowering tuber-branches of B. hansenii with a very short peduncle and congested scale leaves that are flat and cover the inflorescence at and after anthesis. The inflorescences of B. hansenii are also much shorter than those of B. elongata. Balanophora hansenii was described from male plants but since then female plants have been collected (FRI 21959) and are here described for the first time.
+
+4. Balanophora latisepala (Tiegh.) Lecomte Plate 9D, Map 3
+(Latin, latus = broad, sepalum = sepal)
+Fl. Gén. Indo-Chine 5 (1915) 228; Hansen, Dansk Bot. Ark. 28 (1972) 140, fig. 37, 38, Fl. Thailand 2 (1972) 180, Fl. Malesiana 1, 7 (1976) 803, fig. 23, 24; Kiew, Malay. Nat. J. 30 (1978) 545, fig. 3, 1d. Basionym: Balaniella latisepala Tiegh., Ann. Sci. Nat. Bot. 9, 6 (1907) 184. Type: Harmand 754, Vietnam (holotype P, n.v.). Synonym: Balanophora truncata Ridl., J. Linn. Soc. Bot. 41 (1913) 296, Fl. Malay Pen. 3 (1924) 174, Burkill & Henderson, Gard. Bull. S. S. 3 (1925) 419, Henderson, Gard. Bull. S. S. 4 (1927) 102. Type: Kloss s.n., Feb 1912, Peninsular Malaysia, Selangor, G. Menuang Gasing (holotype K).
+
+Dioecious plants, yellowish white to yellow or fawn. Tubers in a mass, 4.5–15 cm across, little branched from the base, surface finely granular with few to numerous stellate warts. Flowering tuber-branches slender, ellipsoid, 2–4.25 cm long, 1.75–2.5 cm diameter. Inflorescences with peduncle 2.3–6.5 cm long. Scale leaves 3–4(–6), ellipsoid, 2–2.3(–3.5) × 0.75–1.2(–2) cm, well-spaced, distichous, pale brown or fawn, patent. Male inflorescences long-ellipsoid, 5–9 cm long, 1.5–2.5 cm diameter; bracts truncate, c. 3 × 5 mm, sometimes with the middle part reduced and resembling 2 teeth. Male flowers sessile or with pedicels (1.5–)2–3(–6) mm long, zygomorphic and compressed, 4–5(–9–14)-merous, in 4-merous flowers with two wide, median tepals nearly square, truncate, 3–3.5 × 3–4 mm and two narrow, ovate, acute lateral tepals 3–3.5 × 1.5–2 mm; synandrium white with fertile part laterally elongated, anther locules 16–20 or more, parallel and longitudinal, dehiscing longitudinally. Female inflorescences pale orange-brown, (1–)4–6(–7) cm long, (0.5–)1–1.5(–2) cm diameter, ellipsoid or almost cylindric, apex obtuse; spadicles with obovoid top, c. 1 mm long. Female flowers: ovaries ovoid, c. 0.35 mm long; style c. 0.5–1 mm long. Fruits and Seeds unknown.
+@page 17 76
+Distribution. Thailand, Indo-China, N Sumatra, Peninsular Malaysia and Borneo (Kuching Division, Sarawak). In Peninsular Malaysia recorded from Perlis (Bt. Lagi) and on west coast mountains—Taiping Hill and the Main Range from Perak (G. Korbu) to Selangor (G. Nuang).
+# Map 3 (B. latisepala) omitted.
+Conservation status. Vulnerable B1ab(iii). It is much rarer than the other montane balanophoras, B. fungosa and B. papuana. The limestone population is presumed extinct due to habitat destruction.
+
+Ecology. In Peninsular Malaysia not common, usually in montane forest between 1200–1700 m but in Perlis, with a monsoon climate, it has been collected at low altitude on limestone (Bt. Lagi). In Thailand, it has also been collected from limestone as well as evergreen forest at 100–1700 m altitude. Host trees have not been recorded. Most flowering is recorded between August and November, with a few in February and March.
+
+5. Balanophora papuana Schltr. Plate 10A, Map 4
+(Of Papua)
+Bot. Jahrb. 50 (1913) 68, fig. 1; Hansen, Dansk Bot. Ark. 28 (1972) 121, fig. 29, 30, Fl. Malesiana 1, 7 (1976) 798, fig.12h–j, 17, 18; Kiew, Malay. Nat. J. 30 (1978) 547, fig.1e; Keng, Order Fam. Malay. Seed Pl., 3rd ed. (1983) fig. 126. Type: Schlechter 18602, New Guinea (lectotype K). Synonym: Balanophora multibrachiata auct. non Fawc.: Burkill & Holttum, Gard. Bull. S. S. 3 (1923) 72, Ridley, Fl. Malay. Pen. 3 (1924) 174, Burkill & Henderson, Gard. Bull. S. S. 4 (1928) 315, Henderson, J. Malay. Br. Roy. As. Soc. 5 (1927) 266, Malay. Wildflowers, Dicot (1959) 458, fig. 413.
+
+Dioecious plants, dark crimson or sometimes brown (elsewhere yellow to orange-yellow or red). Tubers a much branched coral-like mass, 14–24 cm diameter with 3–12 branches, surface tessellate with polygons 1–2 mm across with scattered stellate white warts. Flowering tuber-branches slender, (1–)3.5(–6) cm long, 1.5–2.5 cm diameter. Inflorescences with peduncles c. 1.5 cm long. Scale leaves deep red, opposite or decussate in 2–4(–5) pairs, spaced on the branch, in the upper part sometimes appearing whorled, but not covering
+@page 18 77
+the inflorescence at anthesis, obovate, equal-sized, 1.5–3 × 0.75–1.5 cm, cucullate. Male inflorescences 1.5–3.5 cm long, 1.5–3 cm diameter; bracts rudimentary, to 1 mm long. Male flowers often in conspicuous vertical rows, pedicels 2–7 mm long, zygomorphic, 4(–5)-merous; median tepals wide and truncate, c. 4.5 × 3.5 mm, lateral tepals narrow and acute, c. 4.5 × 1 mm; synandrium with fertile part often slightly obconic, laterally elongated, c. 3 × 7 mm and 3 mm thick, anther locules parallel, opening longitudinally. Female inflorescences obovoid, deep red, (0.75–)1.5–3(–4) cm long, (0.5–)1–2.5(–3) cm diameter; spadicles c. 1 mm long, obconic at the top. Female flowers: ovaries c. 0.18 mm, style up to 1 mm long. Fruits and Seeds unknown.
+
+Distribution. Peninsular Malaysia, Borneo (G. Murud, Sarawak, and G. Kinabalu, Sabah), the Philippines (Luzon, Mindoro and Mindanao), Sulawesi and New Guinea. In Peninsular Malaysia, it is recorded from Kelantan (G. Stong); Perak (Taiping Hills), Main Range from Perak (Ulu Batang Padang) to Selangor (Ulu Ampang), and south to Negeri Sembilan (G. Angsi) and Johor (G. Ledang, G. Panti and G. Belumut).
+# Map 4 (B. papuana) omitted.
+Conservation status. Least concern.
+
+Ecology. Montane forest at 1000–2000 m, rarely as low as 300 m in the Gombak valley, Selangor. It is recorded in flower throughout the year. Its bright red and slender much-branched habit led Ridley (1924) and Henderson (1959) to name it the Coral Plant.
+
+Note. Hansen (1972) identified one of the two specimens (Poore s.n., 1964) from Jengka Triangle (which he spelled Gengka), Pahang, as B. papuana, but re-examination of this specimen shows it to be a female plant of B. reflexa.
+@page 19 78
+6. Balanophora reflexa Becc. Map 1
+(Latin, reflexus = bent backwards at more than 90°; referring to the pedicels of the male flowers)
+Att. Soc. Ital. Sc. Nat. 11 (1868) 198, Nuov. Giorn. Bot. Ital. 1 (1869) 65, t. 2–4, Wanderings (1904) 128, 164; Hansen, Dansk Bot. Ark. 28 (1972) 130, fig. 33, 34, Fl. Malesiana 1, 7 (1976) 800, fig. 8e–g, 20, 24; Kiew, Malay. Nat. J. 30 (1978) 547, fig.1f, 4, 5a & b. Type: Beccari PB 2854, Borneo, Sarawak (lectotype FI–B n.v.).
+
+Dioecious plants, red or dark red. Tubers several together in a stout mass 2–3.5 cm diameter, branching from the base, surface coarsely tessellate, without conspicuous stellate white warts. Flowering tuber-branches stout, ovoid-ellipsoid-obovoid, (1.5–)3–6(–14) cm long, (1–)2–4(–4.5) cm diameter. Inflorescences with peduncles 2–5 cm long. Scale leaves 3–8, spirally arranged, not covering the inflorescence at anthesis, broadly elliptic, cucullate, crimson, 2–3.5 × 1.5–2.25 cm. Male inflorescences 1.5–5 cm long; upper bracts entire, truncate, 3–4 mm long, lower bracts divided to the base into 4–6(–7) teeth, each about 1–2 × 0.5 mm long. Male flowers 7–9 or more, lowermost flowers with pedicels (10–)15–17.5(–20) mm long, 4-merous, zygomorphic, compressed, c. 3 × 2 mm in cross-section, before anthesis pointing upwards and closely appressed to the axis of the inflorescence, during and after anthesis strongly reflexed; buds much compressed, (3.75–)5–6 (–7) × (4.5–)6–8 (–9) mm and (2.5–)3(–3.5) mm thick; median tepals 2, almost square, truncate; lateral tepals 2, narrow, lanceolate, acute; synandrium with fertile part much compressed, almost fan-shaped; anther locules parallel and longitudinal. Female inflorescences spherical or ellipsoid-obovoid, deep red, (0.75–)1.5–3(–4) cm long, (0.75–)1–2(–3) cm diameter; spadicles c. 1 mm long, obconic at the top. Female flowers: ovary c. 0.27 mm long, style c. 0.9 mm long. Fruits and Seeds unknown.
+
+Distribution. Peninsular Malaysia, Borneo (Sarawak, Sabah (G. Kinabalu) and Kalimantan). In Peninsular Malaysia, known only from Bt. Bintang, Perak and Jengka Triangle, Pahang.
+
+Conservation status. Critically Endangered A4c. Land use change has occurred in its two known localities.
+
+Ecology. In Peninsular Malaysia, it has been collected from only two localities and is extremely rare. The Jengka Triangle has been converted to oil palm plantation while much of the lowland forest in the Bukit Bintang area has been logged or clear-felled. It is possible that this species is now extinct in Peninsular Malaysia. Compared with Borneo, where it has been collected from 300 to 3000 m altitude, it was collected only at 30–100 m altitude from lowland forest in Peninsular Malaysia. Flowering specimens on G. Kinabalu smell strongly of fox or mice (Kiew, 1978).
+@page 20 79
+2. HELOSIS Rich.
+(Greek for a nail; referring to the peltate bracts)
+Mem. Mus. Hist. Nat. Paris 8 (1822) 409, 416 (13, 27) t. 20; Harms, Nat. Pfl. Fam. ed. 2, 16b (1935) 319. Synonym: Exorhopala Steenis, Hand. 6th Ned.-Ind. Natuurwet. Congr. (1932, '1931') 470, Harms, Nat. Pfl. Fam. ed. 2, 16b (1935) 324, Hansen, Bot. Tidsskr. 67 (1972) 147, fig. 1, Fl. Malesiana 1, 7 (1976) 790, Fig. 6 & 7.
+
+Monoecious plants, without scale leaves. Flowering tuber-branches produced from elongated, horizontal rhizome-like tubers. Inflorescences without scale leaves, spadix-like, bisexual, at first covered by peltate bracts with a conical head and margins touching, these caducous at anthesis. Flowers densely mixed with numerous hairs. Male flowers minute, predominately trimerous, perianth shortly tubular at base; stamens with free filaments, the anthers joined to form a synandrium with many anther locules. Female flowers minute with compressed ovaries with 2 styles with minute capitate stigmas.
+
+Distribution. Remarkable for its disjunct distribution between S America (3 species) and Peninsular Malaysia (1 endemic species).
+
+Taxonomy. Steenis (1932) drew attention to Rhopalocnemis ruficeps Ridl. being different from other Rhopalocnemis species that all have a globose tuber and a well-developed volva (the collar where the endogenous inflorescences have emerged from the tuber), and that R. ruficeps was in fact very similar to species of Helosis from S America. However, Steenis considered that it could not belong to Helosis because of the vast disjunction in distribution and so he created a new monotypic genus, Exorhopala, for it, based on the apparent exogenous origin of the inflorescences and tetramerous flowers. In 2004, Eberwein & Weber described the development of the inflorescence as endogenous although without a conspicuous volva and concluded that there are no differences in flower structure between this species and those of Helosis. They therefore transferred Exorhopala ruficeps to Helosis. (Rhopalocnemis is not represented in Malaysia).
+
+Helosis ruficeps (Ridl.) R.K.Eberwein Fig. 2, Plate 10D, Map 5
+(Latin, rufus = reddish, -ceps = -headed; referring to the inflorescence)
+in Eberwein & Weber, Bot. J. Linn. Soc. 146 (2004) 517, fig. 1–13. Basionym: Rhopalocnemis ruficeps Ridl., Bull. Misc. Infor. Kew (1914) 188, Fl. Malay Pen. 3 (1924) 176, fig. 150. Synonym: Exorhopala ruficeps (Ridl.) Steenis, Hand. 6th Ned.-Ind. Natuurwet. Congr. (1932, '1931') 470, Harms, Nat. Pfl. Fam. ed 2, 16b (1935) 324, Hansen, Bot. Tidsskr. 67 (1972) 147, fig. 1, Fl. Malesiana 1, 7 (1976) 790, fig. 6 & 7, Khor et al., Penang Hill: The Need to Save our Natural Heritage (1991) 11. Type: Ridley s.n., Dec 1895, Peninsular Malaysia, Penang, Penara Bukit (lectotype SING, Specimen No. 3; isotypes K, SING, Specimens No. 1 & 2).
+
+Tuber horizontal, branching, at least 15 cm long and 0.5–1 cm diameter, slightly rugose, yellow becoming crimson or orange-brown. Flowering tuber-branches smooth, (4–)8–10.5 cm long, 7–13 mm diameter, yellow or brown. Inflorescences deep rosy red, ellipsoid, (2.75–) 5–7(–10) cm long, diameter including peltate bracts 2–3.25 cm, apex rounded or slightly narrowed; peltate bracts deep crimson, stalk 1.5–2 mm long, head sharply conical, 4–6-sided, c. 4 × 4–5 mm. Flowers embedded in a dense layer of nectariferous hairs. Male
+@page 21 80
+# Figure 2 (drawing). Caption:
+Figure 2. Helosis ruficeps. A, plant showing rhizome-like tuber without scale leaves, inflorescences without a volva and the flowering head at anthesis still partially covered by polygonal peltate bracts; B, top and side view of peltate bracts; C, floriferous layer with peltate bracts, dense nectariferous hairs and flowers; D, ovary with 2 styles. (All from FRI 60363.)
+@page 22 81
+flowers c. 2.5 mm long and grouped in pairs, perianth scarcely joined at the base, lobes (2–) 3(–4) oblong, truncate; stamens the same number as the tepal lobes, filaments free, anthers joined to form a globose synandrium, in 3-merous flowers with 10–16 locules arranged in more than one layer; pistillode absent. Female flowers 2–3 mm long, perianth absent; ovary ellipsoid with 2 styles, stigma minute, capitate; upper third of inflorescence with single-styled and sterile female flowers. Fruits and Seeds unknown.
+
+Distribution. Narrowly endemic in Peninsular Malaysia, known only from four localities: Kedah (Baling, and G. Jerai), Penang Hill and Perak (Taiping Hill), more than half the collections are from Penang where it is recorded from at least four different places.
+# Map 5 (Helosis ruficeps) omitted.
+Conservation status. Endangered B1ab(iii). The four localities from where it is known are either disturbed or are vulnerable to disturbance.
+
+Ecology. Hill forest between 100 m and 1300 m altitude. It has been collected between August and February. Nothing is known about its biology, no insect visitors have been observed, nor have the host species been recorded.
+@page 32 301
+# Plate 9 (photographs). Caption from the image; no specimen cited.
+Plate 9. Araucariaceae. A–B, Agathis borneensis. Balanophoraceae. C, Balanophora hansenii; D, Balanophora latisepala.
+@page 33 302
+# Plate 10 (photographs). Caption from the image; no specimen cited.
+Plate 10. Balanophoraceae. A, Balanophora papuana; B, male inflorescence of Balanophora fungosa subsp. indica var. indica; C, female inflorescence of Balanophora fungosa subsp. indica var. indica; D, Helosis ruficeps.
