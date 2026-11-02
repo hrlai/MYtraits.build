@@ -95,7 +95,12 @@ flora_ascii_raw <- function(x) {
 flora_split_sentences <- function(x) {
   str_split(
     x,
-    "(?<!\\bc|\\b[A-Z]|e\\.g|\\bsp|subsp|var|Fig|\\bca)\\.\\s+(?=[A-Z])"
+    paste0(
+      "(?<!\\bc|\\b[A-Z]|e\\.g|\\bsp|subsp|var|Fig|\\bca",
+      # place-name abbreviations: "Mt. Tawai", "Bt. Raya", "4th Div." (Prance_1995)
+      "|\\bMt|\\bBt|\\bDiv|\\bRd|\\bProv",
+      ")\\.\\s+(?=[A-Z])"
+    )
   )[[1]]
 }
 
