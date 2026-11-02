@@ -237,14 +237,24 @@ flora_num_rows <- function(r, unit = r$unit) {
 
 # "a-b x c-d cm": returns list(len =, wid =). The first dimension is length;
 # record that assumption in a metadata question. The unit comes from the end.
+# A leading "to" applies to both dimensions, as in flora_dim_rows() ("to 9 x
+# 1.5 cm": two maxima; Jaman_2020 p. 83), but not after a number ("5 to 9").
 flora_parse_dims <- function(s) {
   s2 <- flora_drop_asides(s)
   m <- str_match(
     s2,
-    "(\\(?[\\d.\u2013()c ]+?)\\s?\u00d7\\s?(\\(?[\\d.\u2013()c ]+?)\\s?(mm|cm|m)\\b"
+    paste0(
+      "((?:(?<![\\d.]\\s)\\bto\\s)?\\(?[\\d.\u2013()c ]+?)\\s?\u00d7\\s?",
+      "(\\(?[\\d.\u2013()c ]+?)\\s?(mm|cm|m)\\b"
+    )
   )
   if (is.na(m[1, 1])) {
     return(NULL)
+  }
+  # shortcut: "to c. a x b" stays two means, as before; Jaman_2020 question 6
+  # asks whether it should be two maxima.
+  if (str_detect(m[, 2], "^to [\\d(]") && !str_detect(m[, 3], "^\\s*c\\.")) {
+    m[, 3] <- paste("to", str_squish(m[, 3]))
   }
   a <- flora_parse_range(paste0(str_squish(m[, 2]), " ", m[, 4]))
   b <- flora_parse_range(paste0(str_squish(m[, 3]), " ", m[, 4]))
