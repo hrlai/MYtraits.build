@@ -31,11 +31,11 @@ stopifnot(
 # place-name abbreviations do not end a sentence (Prance_1995 p. 158)
 s <- flora_split_sentences(paste(
   "Endemic to Sabah; recorded from Lahad Datu, Karamuak, Mt. Tawai and",
-  "Mt. Silam. Sarawak: Bt. Raya, 4th Div. Kapit. Fruits red."
+  "Mt. Silam. Sarawak: Bt. Raya, Sg. Pahang, 4th Div. Kapit. Fruits red."
 ))
 stopifnot(
   length(s) == 3,
-  startsWith(s[2], "Sarawak: Bt. Raya, 4th Div. Kapit")
+  startsWith(s[2], "Sarawak: Bt. Raya, Sg. Pahang, 4th Div. Kapit")
 )
 
 # flora_cat_rows() keeps a term that a blank row claimed in context, although

@@ -97,8 +97,8 @@ flora_split_sentences <- function(x) {
     x,
     paste0(
       "(?<!\\bc|\\b[A-Z]|e\\.g|\\bsp|subsp|var|Fig|\\bca",
-      # place-name abbreviations: "Mt. Tawai", "Bt. Raya", "4th Div." (Prance_1995)
-      "|\\bMt|\\bBt|\\bDiv|\\bRd|\\bProv",
+      # place names: "Mt. Tawai", "Bt. Raya", "Sg. Pahang", "4th Div."
+      "|\\bMt|\\bBt|\\bSg|\\bDiv|\\bRd|\\bProv",
       ")\\.\\s+(?=[A-Z])"
     )
   )[[1]]
