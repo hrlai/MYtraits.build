@@ -547,6 +547,12 @@ Bespoke checklist (decisions that changed per family):
   is the receptacle's (hypanthium), not `flower_length`; score
   `flower_length` only when the flower itself is measured ("Flowers c. 2 mm
   long"; Prance_1995).
+  A size chunk with no organ label of its own belongs to the clause before
+  it: in "Fruits ..., hairs rusty brown, powdery, 0.1--0.3 mm long" and
+  "leaf bud ..., hairs appressed, 0.1 mm long" the length is the hairs',
+  not the fruit's or bud's. Do not score an unlabelled number that follows
+  a hair, stalk, base or apex clause in the same piece (DeWilde_2018:
+  Myristica fruits and leaf buds, 25 false sizes before the fix).
 - **Comparisons.** In any section, drop sentences and clauses that compare
   taxa ("differs from ...", "similar to ...", "unlike ...") or name another
   binomial before scoring, so another taxon's characters are not attributed
