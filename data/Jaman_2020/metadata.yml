@@ -220,7 +220,7 @@ traits:
     value_type: value_type
     basis_of_value: expert_score
     replicates: .na
-    methods: 'Tree fern scored as fern palmoid. Family ''Scaly tree ferns'' copied by hand to every species (multi-level value; Jaman_2020 question 7); C. recommutata states it.'
+    methods: 'Tree fern scored as fern palmoid. Family ''Scaly tree ferns'' copied to every species silent on growth form by flora_copy_down() with single_term (multi-level value; Jaman_2020 question 7); C. recommutata states it.'
   - var_in: plant_height
     unit_in: unit
     trait_name: plant_height
@@ -346,8 +346,8 @@ questions:
   question7:
     'Tree fern copy-down: the family description "Scaly tree ferns" is
     plant_growth_form = fern palmoid (two levels for one term).
-    flora_copy_down() copies single-level values only, so it is copied by
-    hand to the 20 species that do not state it (rank_scored_from family).
+    flora_copy_down() copies it with single_term = TRUE (one printed term)
+    to the 20 species that do not state it (rank_scored_from family).
     Confirm the copy.'
   question8:
     'Unresolved notation: C. alternans "middle pinnae 25--(34--40) x

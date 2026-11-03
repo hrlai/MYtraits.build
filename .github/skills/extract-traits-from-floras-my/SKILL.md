@@ -42,6 +42,7 @@ Worked examples, all in this repository:
 | `data/Prance_1995` | Chrysobalanaceae, TFSS vol. 1 | 2007 electronic text, scripted clause parser, 15 species | subspecies only in a key with annotations; labels after the clause ("cordate at base"); receptacle is not the flower; inflorescence kind and position scored apart; figure specimens from plate captions |
 | `data/Kiew_2010` | Balanophoraceae, FPM vol. 1 | scanned PDF, every page image-checked through the review queue, 7 taxa | `flora_hand()` for a leafless root parasite; male and female organs in `entity_measured`; "Fruits and Seeds unknown" blocks copy-down; genus Ecology values scored on named species |
 | `data/Jaman_2020` | Cyatheaceae, FPM ferns vol. 3 | born-digital PDF, 21 species, hand-scored pieces | tree ferns; fern rules confirmed; pinnae, pinnules and lobes as leaflets by `entity_measured`; multi-level family value copied by hand |
+| `data/Jones_1995` | Rutaceae, TFSS vol. 1 | 2007 electronic text; transcription drafted from the layer; chunk parser after Adema_1996, 43 species | key-only genera and cultivated species flagged; in-key varieties scored; copy-down skips alternatives; dispersal from Ecology by hand |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
@@ -819,9 +820,9 @@ Bespoke checklist (decisions that changed per family):
   (Kiew_2010: family "1-seeded achenes" kept at family rank only).
 - One printed term mapped to two levels ("tree ferns" -> `fern palmoid`,
   "tree palmoid") fails the single-level filter of `flora_copy_down()`.
-  When the statement names no alternative, copy it by hand to members
-  silent on the trait, with `rank_scored_from` and a note (provisional,
-  Jaman_2020 question 7).
+  When the statement names no alternative, set `single_term = TRUE` on that
+  higher-rank row: it is then copied when every member that scores the trait
+  includes all its levels (provisional, Jaman_2020 question 7).
 - Use `flora_inherit_infraspecific()` for `subsp.`/`var.` silent on a trait.
 - Monogeneric family: both family and genus are copied down
   (`rank_scored_from` = `genus` or `family`; Yao_2010). If the family has no

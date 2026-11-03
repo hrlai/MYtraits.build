@@ -1,0 +1,104 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Acronychia pedunculata,,,,,,,,,,"Type, p.358","Type cited as an illustration: 'Jambolifera L., Fl. Zeyl. (1747) 139'; no specimen."
+Burkillanthus malaccensis,holotype,SING,,Goodenough,1273,,Nyalas,Malacca,Malaysia,"Type, p.361",
+Burkillanthus malaccensis,isotype,K,,Goodenough,1273,,Nyalas,Malacca,Malaysia,"Type, p.361",
+Burkillanthus malaccensis,isotype,US,,Goodenough,1273,,Nyalas,Malacca,Malaysia,"Type, p.361",
+Citrus halimii,holotype,KLU,,Stone,9550,,G. Nuang,Pahang,Malaysia,"Type, p.365","Locality printed 'Peninsular Malaysia, Pahang, G. Nuang'."
+Citrus halimii,isotype,KEP,,Stone,9550,,G. Nuang,Pahang,Malaysia,"Type, p.365","Locality printed 'Peninsular Malaysia, Pahang, G. Nuang'."
+Citrus halimii,isotype,L,,Stone,9550,,G. Nuang,Pahang,Malaysia,"Type, p.365","Locality printed 'Peninsular Malaysia, Pahang, G. Nuang'."
+Citrus halimii,isotype,SING,,Stone,9550,,G. Nuang,Pahang,Malaysia,"Type, p.365","Locality printed 'Peninsular Malaysia, Pahang, G. Nuang'."
+Citrus halimii,isotype,US,,Stone,9550,,G. Nuang,Pahang,Malaysia,"Type, p.365","Locality printed 'Peninsular Malaysia, Pahang, G. Nuang'."
+Citrus macroptera,,LY,,Montrouzier,s.n.,,Ile Art,,New Caledonia,"Type, p.366",Status not stated.
+Clausena calciphila,,SAR,,Erwin & Paul,S. 27430,,"Kuching, Bukit Pa'it",Sarawak,Malaysia,"Type, p.370",Status not stated.
+Clausena excavata,,L,,Burmann,29,,Dauhon Kongeere,,India,"Type, p.370",Status not stated.
+Glycosmis chlorosperma,,L,,Blume,s.n.,,Mt. Salak,Java,Indonesia,"Type, p.372",Status not stated. Type of the basionym Cookia chlorosperma Blume.
+Glycosmis chlorosperma var. bidiensis,holotype,K,,J. & M.S. Clemens,20663,,"Kuching, Bidi Cave",Sarawak,Malaysia,"Type, p.373",
+Glycosmis chlorosperma var. elmeri,,UC,,Ramos & Edano,44150,,"Sulu Archipelago, Tawitawi",,Philippines,"Type, p.373",Status not stated.
+Glycosmis cyanocarpa,,L,,Blume,s.n.,,Mt. Salak,Java,Indonesia,"Type, p.374",Status not stated. Type of the basionym Cookia cyanocarpa Blume.
+Glycosmis cyanocarpa var. platyphylla,,US,,Wenzel,1611,,Leyte,,Philippines,"Type, p.374",Status not stated.
+Glycosmis lanceolata,,L,,Blume,s.n.,,Batavia,Java,Indonesia,"Type, p.374",Status not stated.
+Glycosmis longisepala,holotype,K,,J. & M.S. Clemens,20001,,Mt. Pueh,Sarawak,Malaysia,"Type, p.375",
+Glycosmis macrantha,holotype,UC,,Elmer,21456,,Tawau,Sabah,Malaysia,"Type, p.375","Locality printed 'British North Borneo, Tawau'."
+Glycosmis macrantha,isotype,MO,,Elmer,21456,,Tawau,Sabah,Malaysia,"Type, p.375","Locality printed 'British North Borneo, Tawau'."
+Glycosmis macrantha,isotype,US,,Elmer,21456,,Tawau,Sabah,Malaysia,"Type, p.375","Locality printed 'British North Borneo, Tawau'."
+Glycosmis sapindoides,lectotype,K,,Wallich,Cat. 6376,,Penang,Penang,Malaysia,"Type, p.376",
+Glycosmis superba,,SAR,,"Anderson, Tan & Wright",S. 26059,,Ulu Sg. Sekaloh,Sarawak,Malaysia,"Type, p.376",Status not stated.
+Lunasia amara,neotype,A,,Escritor,BS 20776,,Luzon Island,,Philippines,"Type, p.379",
+Maclurodendron parviflorum,holotype,L,,Anderson,S. 25426,,Kuching district,Sarawak,Malaysia,"Type, p.381",
+Maclurodendron parviflorum,isotype,SAR,,Anderson,S. 25426,,Kuching district,Sarawak,Malaysia,"Type, p.381",
+Maclurodendron porteri,lectotype,K,,Maingay,Kew Distr. No. 280,,Penang,Penang,Malaysia,"Type, p.382",
+Maclurodendron porteri,isolectotype,BM,,Maingay,Kew Distr. No. 280,,Penang,Penang,Malaysia,"Type, p.382",
+Maclurodendron porteri,isolectotype,GH,,Maingay,Kew Distr. No. 280,,Penang,Penang,Malaysia,"Type, p.382",
+Maclurodendron porteri,isolectotype,L,,Maingay,Kew Distr. No. 280,,Penang,Penang,Malaysia,"Type, p.382",
+Maclurodendron pubescens,holotype,L,,Patrick,SAN 26359,,Sandakan district,Sabah,Malaysia,"Type, p.382",
+Maclurodendron pubescens,isotype,K,,Patrick,SAN 26359,,Sandakan district,Sabah,Malaysia,"Type, p.382",
+Melicope accedens,lectotype,L,,Blume,s.n.,,,Java,Indonesia,"Type, p.386",
+Melicope bonwickii,holotype,MEL,,Dallachy,s.n.,,"Queensland, Rockingham Bay",Queensland,Australia,"Type, p.388",
+Melicope clemensiae,holotype,L,,Aban Gibot,SAN 60767,,Mt. Kinabalu Park,Sabah,Malaysia,"Type, p.388",
+Melicope clemensiae,isotype,SAN,,Aban Gibot,SAN 60767,,Mt. Kinabalu Park,Sabah,Malaysia,"Type, p.388",
+Melicope confusa,,A,,Ramos,BS 15055,,"Luzon, Laguna Province",,Philippines,"Type, p.389",Status not stated.
+Melicope denhamii,holotype,BM,,McGillivray,46,,Aneitum,,New Hebrides,"Type, p.389",
+Melicope glabra,lectotype,US,,Blume,s.n.,,,Java,Indonesia,"Type, p.390",
+Melicope hookeri,lectotype,GH,,Maingay,Kew Distr. No. 278,,Singapore,,Singapore,"Type, p.390","Printed '(GH, lectotype)'."
+Melicope incana,holotype,K,,Lobb,s.n.,,Borneo,,,"Type, p.391",Locality printed 'Borneo' only.
+Melicope jugosa,holotype,A,,J. & M.S. Clemens,51184,,"Mt. Kinabalu, Gurulau Spur",Sabah,Malaysia,"Type, p.391","Locality printed 'British North Borneo, Mt. Kinabalu, Gurulau Spur'."
+Melicope jugosa,isotype,K,,J. & M.S. Clemens,51184,,"Mt. Kinabalu, Gurulau Spur",Sabah,Malaysia,"Type, p.391","Locality printed 'British North Borneo, Mt. Kinabalu, Gurulau Spur'."
+Melicope jugosa,isotype,NY,,J. & M.S. Clemens,51184,,"Mt. Kinabalu, Gurulau Spur",Sabah,Malaysia,"Type, p.391","Locality printed 'British North Borneo, Mt. Kinabalu, Gurulau Spur'."
+Melicope jugosa,isotype,UC,,J. & M.S. Clemens,51184,,"Mt. Kinabalu, Gurulau Spur",Sabah,Malaysia,"Type, p.391","Locality printed 'British North Borneo, Mt. Kinabalu, Gurulau Spur'."
+Melicope latifolia,neotype,W,,Doleschall,335,,Ambon,Moluccas,Indonesia,"Type, p.392",
+Melicope lunu-ankenda,holotype,L,,Koenig,s.n.,,Ceylon,,,"Type, p.392",Locality printed 'Ceylon'.
+Melicope sororia,holotype,NY,,J. & M.S. Clemens,29477,,"Mt. Kinabalu, Tenompok",Sabah,Malaysia,"Type, p.393","Locality printed 'British North Borneo, Mt. Kinabalu, Tenompok'."
+Melicope sororia,isotype,A,,J. & M.S. Clemens,29477,,"Mt. Kinabalu, Tenompok",Sabah,Malaysia,"Type, p.393","Locality printed 'British North Borneo, Mt. Kinabalu, Tenompok'."
+Melicope sororia,isotype,B,,J. & M.S. Clemens,29477,,"Mt. Kinabalu, Tenompok",Sabah,Malaysia,"Type, p.393","Locality printed 'British North Borneo, Mt. Kinabalu, Tenompok'."
+Melicope sororia,isotype,BO,,J. & M.S. Clemens,29477,,"Mt. Kinabalu, Tenompok",Sabah,Malaysia,"Type, p.393","Locality printed 'British North Borneo, Mt. Kinabalu, Tenompok'."
+Melicope sororia,isotype,L,,J. & M.S. Clemens,29477,,"Mt. Kinabalu, Tenompok",Sabah,Malaysia,"Type, p.393","Locality printed 'British North Borneo, Mt. Kinabalu, Tenompok'."
+Melicope sororia,isotype,UC,,J. & M.S. Clemens,29477,,"Mt. Kinabalu, Tenompok",Sabah,Malaysia,"Type, p.393","Locality printed 'British North Borneo, Mt. Kinabalu, Tenompok'."
+Melicope subunifoliolata,holotype,K,,Haviland,1193,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.394","Locality printed 'British North Borneo, Mt. Kinabalu'."
+Melicope triphylla,holotype,P,,Sonnerat,s.n.,,,,Philippines,"Type, p.394",
+Merope angulata,,,,,,,,,,"Type, p.395","Type cited as an illustration: 'Limonellus angulosus Rumph., Herb. Amboin. 2 (1741) 110'; no specimen."
+Merrillia caloxylon,holotype,BM,,Wray & Robinson,5548,,"Upper Perak, Kenering",Perak,Malaysia,"Type, p.398",
+Merrillia caloxylon,isotype,SING,,Wray & Robinson,5548,,"Upper Perak, Kenering",Perak,Malaysia,"Type, p.398",
+Merrillia caloxylon,isotype,US,,Wray & Robinson,5548,,"Upper Perak, Kenering",Perak,Malaysia,"Type, p.398",
+Micromelum minutum,,BM,,Forster,s.n.,,Friendly Islands,,,"Type, p.400",Status not stated. Locality printed 'Friendly Islands'.
+Monanthocitrus oblanceolata,holotype,SAN,,Abu Bakar,SAN 36203,,"Sandakan, Labuk Road",Sabah,Malaysia,"Type, p.402",
+Monanthocitrus oblanceolata,isotype,K,,Abu Bakar,SAN 36203,,"Sandakan, Labuk Road",Sabah,Malaysia,"Type, p.402",
+Monanthocitrus oblanceolata,isotype,L,,Abu Bakar,SAN 36203,,"Sandakan, Labuk Road",Sabah,Malaysia,"Type, p.402",
+Murraya paniculata,,LINN,,,,,India,,India,"Type, p.406","Status not stated. Printed 'Type: “India” (LINN); based partly on Camunium Rumph., Herb. Amboin. 6.'"
+Pleiospermium latialatum,holotype,AA,,Elmer,21542,,Tawau,Sabah,Malaysia,"Type, p.409","Locality printed 'British North Borneo, Tawau'."
+Pleiospermium latialatum,isotype,BO,,Elmer,21542,,Tawau,Sabah,Malaysia,"Type, p.409","Locality printed 'British North Borneo, Tawau'."
+Pleiospermium latialatum,isotype,K,,Elmer,21542,,Tawau,Sabah,Malaysia,"Type, p.409","Locality printed 'British North Borneo, Tawau'."
+Pleiospermium latialatum,isotype,L,,Elmer,21542,,Tawau,Sabah,Malaysia,"Type, p.409","Locality printed 'British North Borneo, Tawau'."
+Pleiospermium latialatum,isotype,P,,Elmer,21542,,Tawau,Sabah,Malaysia,"Type, p.409","Locality printed 'British North Borneo, Tawau'."
+Pleiospermium latialatum,isotype,PNH,,Elmer,21542,,Tawau,Sabah,Malaysia,"Type, p.409","Locality printed 'British North Borneo, Tawau'."
+Pleiospermium latialatum,isotype,US,,Elmer,21542,,Tawau,Sabah,Malaysia,"Type, p.409","Locality printed 'British North Borneo, Tawau'."
+Pleiospermium longisepalum,holotype,NA,,Castro & Melegrito,1348,,Banguey Is.,Sabah,Malaysia,"Type, p.410","Locality printed 'British North Borneo, Banguey Is.' (Pulau Banggi)."
+Pleiospermium longisepalum,isotype,K,,Castro & Melegrito,1348,,Banguey Is.,Sabah,Malaysia,"Type, p.410","Locality printed 'British North Borneo, Banguey Is.' (Pulau Banggi)."
+Pleiospermium longisepalum,isotype,US,,Castro & Melegrito,1348,,Banguey Is.,Sabah,Malaysia,"Type, p.410","Locality printed 'British North Borneo, Banguey Is.' (Pulau Banggi)."
+Severinia disticha,,L,,Merrill,Sp. Blancoanae No. 594,,Luzon,,Philippines,"Type, p.411",Status not stated.
+Severinia paniculata,,B,,Warburg,20132,,Ceram Laut,Moluccas,Indonesia,"Type, p.412",Status not stated.
+Tetractomia tetrandrum,,K,,Roxburgh,Icones 1411,,Penang,Penang,Malaysia,"Type, p.414","Status not stated. The type is an illustration (Roxburgh, Icones 1411)."
+Zanthoxylum avicennae,,P,,d’Incarville,179,,Kwangtung,,China,"Type, p.417",Status not stated.
+Zanthoxylum myriacanthum,,K,,Porter,Wallich Cat. No. 1214,,Malacca,Malacca,Malaysia,"Type, p.419",Status not stated.
+Acronychia pedunculata,figure specimen,,,SAN,85676,,,,,"Figure caption, p.359",Fig. 1 A–C; series code
+Burkillanthus malaccensis,figure specimen,,,S.,15848,,,,,"Figure caption, p.360",Fig. 2 A–B; series code
+Citrus macroptera var. macroptera,figure specimen,,,SAN,71072,,,,,"Figure caption, p.367",Fig. 3 A–B; series code
+Clausena excavata,figure specimen,,,SAN,89309,,,,,"Figure caption, p.368","Fig. 4 A, B; series code"
+Clausena excavata,figure specimen,,,SAN,56188,,,,,"Figure caption, p.368",Fig. 4 C; series code
+Glycosmis macrantha,figure specimen,,,SAN,57109,,,,,"Figure caption, p.377",Fig. 5 A; series code
+Glycosmis macrantha,figure specimen,,,SAN,44669,,,,,"Figure caption, p.377","Fig. 5 B, C; series code"
+Lunasia amara,figure specimen,,,SAN,92007,,,,,"Figure caption, p.378",Fig. 6; series code
+Maclurodendron porteri,figure specimen,,,SAN,34008,,,,,"Figure caption, p.383","Fig. 7 A, B; series code"
+Maclurodendron porteri,figure specimen,,,SAN,55734,,,,,"Figure caption, p.383",Fig. 7 C; series code
+Melicope accedens,figure specimen,,,SAN,38304,,,,,"Figure caption, p.387",Fig. 8 A–B; series code
+Merope angulata,figure specimen,,,S.,34375,,,,,"Figure caption, p.397",Fig. 9; series code
+Merrillia caloxylon,figure specimen,,,,,,"Forest Research Institute Malaysia, Non-Dipterocarp Arboretum D13, Tree No. 213",,Malaysia,"Figure caption, p.399","Fig. 10 A–C; fresh material from a cultivated tree, no specimen number."
+Micromelum minutum var. minutum,figure specimen,,,SAN,93274,,,,,"Figure caption, p.401",Fig. 11; series code
+Monanthocitrus oblanceolata,figure specimen,,,SAN,57242,,,,,"Figure caption, p.403",Fig. 12 A; series code
+Monanthocitrus oblanceolata,figure specimen,,,SAN,87022,,,,,"Figure caption, p.403",Fig. 12 B; series code
+Murraya paniculata,figure specimen,,,SAN,50299,,,,,"Figure caption, p.404",Fig. 13 A–C; series code
+Pleiospermium longisepalum,figure specimen,,,SAN,90784,,,,,"Figure caption, p.408",Fig. 14 A–C; series code; caption lists D but does not describe it
+Severinia disticha,figure specimen,,,SAN,36104,,,,,"Figure caption, p.413",Fig. 15; series code
+Tetractomia tetrandrum,figure specimen,,,SAN,65010,,,,,"Figure caption, p.415","Fig. 16 A, B; series code"
+Tetractomia tetrandrum,figure specimen,,,SAN,22689,,,,,"Figure caption, p.415","Fig. 16 C, D; series code"
+Zanthoxylum myriacanthum,figure specimen,,,SAN,87166,,,,,"Figure caption, p.418",Fig. 17 A–C; series code
+Zanthoxylum myriacanthum,figure specimen,,,SAN,116158,,,,,"Figure caption, p.418","Fig. 17 D, E; series code"

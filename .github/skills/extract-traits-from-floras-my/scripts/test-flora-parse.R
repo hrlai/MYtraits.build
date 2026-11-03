@@ -67,4 +67,18 @@ stopifnot(
   clean("arachnoid when young", "stem_hairs") == "hairy"
 )
 
+# a leading "to" applies to both dimensions (Jaman_2020 p. 83)
+d1 <- flora_parse_dims("pinnules to 9 × 1.5 cm")
+d2 <- flora_parse_dims("5 to 9 × 2 cm")
+d3 <- flora_parse_dims("8–10 × 3–4 mm")
+stopifnot(
+  d1$len$value_type == "maximum", d1$len$value == 9,
+  d1$wid$value_type == "maximum", d1$wid$value == 1.5,
+  d2$len$value_type == "mean", d2$wid$value_type == "mean",
+  identical(d3$len$value_type, c("minimum", "maximum")),
+  identical(d3$wid$value, c(3, 4))
+)
+# "more often" is its own commonness word (Jaman_2020 p. 89)
+stopifnot(str_match("more often c. 45 cm", flora_qual_re)[, 2] == "more often")
+
 cat("ok\n")

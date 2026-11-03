@@ -91,7 +91,10 @@ flora_trait_data_cols <- c(
 # Copy an unqualified categorical value from a family / genus / group
 # description to member taxa that are silent on the trait. Rules (user rules,
 # written down in the notes and used by Coode_2018, Lim_2010 and Yao_2010):
-#   - only value_type == "mode", no commonness word, exactly one mapped level;
+#   - only value_type == "mode", no commonness word, exactly one mapped level,
+#     unless the row has single_term = TRUE: one printed term mapped to
+#     several levels ("tree ferns" -> fern palmoid; Jaman_2020), whose
+#     levels must then all be scored by every member that scores the trait;
 #   - the statement names exactly one term, counting terms with no level:
 #     "symmetric or slightly oblique" is not "all oblique" (.flora_names_alt);
 #   - drop statements scoped to some members ("most", "many", "in some") or
@@ -107,6 +110,9 @@ flora_trait_data_cols <- c(
 # the agreement test (reason "agreement") or name an alternative term
 # (reason "alternative"), to be read in the QA step.
 flora_copy_down <- function(higher_rows, own_rows, members) {
+  if (!"single_term" %in% names(higher_rows)) {
+    higher_rows$single_term <- FALSE
+  }
   higher <- higher_rows |>
     filter(
       rank %in% c("family", "genus", "infrageneric_group"),
@@ -114,7 +120,7 @@ flora_copy_down <- function(higher_rows, own_rows, members) {
       is.na(cq),
       !is.na(trait_value_clean),
       trait_value_clean != "",
-      !str_detect(trait_value_clean, " "),
+      !str_detect(trait_value_clean, " ") | coalesce(single_term, FALSE),
       !str_detect(trait_value_raw, "\\b(in some|most|many|some species)\\b"),
       !str_detect(trait_value_raw, "\\([A-Z][a-z]+\\)")
     )
@@ -139,9 +145,10 @@ flora_copy_down <- function(higher_rows, own_rows, members) {
         trait == h$trait,
         coalesce(entity_measured, "") == coalesce(h$entity_measured, "")
       )
+    lv <- str_split_1(h$trait_value_clean, " ")
     ok <- all(map_lgl(
       split(scored$trait_value_clean, scored$block),
-      \(v) any(str_detect(v, paste0("\\b", h$trait_value_clean, "\\b")))
+      \(v) all(map_lgl(lv, \(l) any(str_detect(v, paste0("\\b", l, "\\b")))))
     ))
     tibble(
       from = h$block,
