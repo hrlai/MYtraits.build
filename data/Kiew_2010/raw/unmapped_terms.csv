@@ -11,12 +11,12 @@ plant,colour,5,Balanophora abbreviata,creamy-white to pale yellow or light brown
 synandrium,description,5,Balanophora abbreviata,"synandrium white with the fertile part c. 1 mm long, slightly compressed, 1.5--2 mm wide and 0.5--0.75 mm thick, anthers with 16--20 parallel longitudinal locules",70
 tepals,description,5,Balanophora abbreviata,"median tepals two, broadly truncate, almost square 1.5--2 mm wide; lateral tepals two, narrow, ovate and acute",70
 host,description,4,Balanophoraceae,"Root parasites not showing host specificity, but parasitizing a wide range of trees (elsewhere parasitizing herbs and bamboo).",67
-male flowers,description,4,Balanophoraceae,"Male flowers pedicellate or sessile, with or without bracteoles",67
 spadicles,description,4,Balanophora hansenii,"spadicles club-shaped, c. 1 mm long. Female flowers: ovary ellipsoid, c. 0.2--0.25 mm long",74
+male flowers,arrangement,3,Balanophora hansenii,not becoming reflexed at anthesis,74
+male flowers,description,3,Balanophoraceae,"Male flowers pedicellate or sessile, with or without bracteoles",67
 stamens,description,3,Balanophoraceae,"united into a synandrium, opposite the tepals; anther locules 2, 4 or many",67
 female inflorescence,shape,2,Balanophora,"Female inflorescences spicate, ovoid, ellipsoid, obovoid or spherical",68
 inflorescence,sex,2,Helosis,"Inflorescences without scale leaves, spadix-like, bisexual, at first covered by peltate bracts with a conical head and margins touching, these caducous at anthesis",79
-male flowers,arrangement,2,Balanophora papuana,Male flowers often in conspicuous vertical rows,77
 male inflorescence,shape,2,Balanophora fungosa subsp. indica var. indica,Male inflorescences ovoid to ellipsoid,72
 scent,description,2,Balanophora,Balanophora hansenii is also reported to have a disagreeable smell.,69
 anther locules,division,1,Balanophora,sometimes transversely divided into smaller locules,68

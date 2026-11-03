@@ -1,12 +1,12 @@
 organ,character,n_taxa,example_taxon,example_text,printed_page
 section,text,8,Nymphaeaceae,"Cosmopolitan in tropical and subtropical regions, with 6 genera and c. 70 species; ... In Peninsular Malaysia, the family is represented by 2 genera (Barclaya and Nymphaea) and 5 species.",207
 sepals,description,8,Nymphaeaceae,"sepals 4--9, green or coloured (or petaloid in Nuphar)",207
-lamina,description,6,Nymphaeaceae,peltate or attached at lamina base,207
 veins,description,5,Barclaya longifolia,"veins 11--20 on each side of midrib, fine, scarcely raised above and beneath; intercostal venation obscure",210
 flower,description,4,Nymphaeaceae,held above the water surface on long pedicels,207
 flower,phenology,4,Nymphaeaceae,"night flowering species, some of which, e.g. Victoria spp., are thermogenic",207
 fruit,description,4,Nymphaeaceae,The fruit often ripens below the water surface.,207
 fruit,shape,4,Nymphaea,"Berry globular to ellipsoid, disintegrating irregularly",216
+lamina,description,4,Nymphaeaceae,peltate or attached at lamina base,207
 leaf,arrangement,4,Nymphaeaceae,"floating, submerged or rarely emergent (B. rotundifolia)",207
 pedicel,description,4,Barclaya longifolia,"pedicel (4--)15--30 cm long, glabrous or with sparse short white hairs",210
 pollination,description,4,Barclaya motleyi,suggesting beetle pollination for that species. Flower structure also indicates beetle pollination because the apical corolla lobes do not open widely and so would restrict access for flies.,209

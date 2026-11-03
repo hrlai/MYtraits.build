@@ -1,7 +1,7 @@
 organ,character,n_taxa,example_taxon,example_text,printed_page
 section,text,86,Burseraceae,"16 genera and about 550 species; tropics and subtropics. In Sabah and Sarawak, 8 genera and 59 species are known.",45
 veins,description,59,Canarium apertum,"lateral veins 8--15 pairs, prominently raised below, giving a bullate appearance to the blade, flat above",50
-midrib,description,57,Canarium apertum,midrib flattened above,50
+midrib,surface,57,Canarium apertum,midrib flattened above,50
 fruits,shape,56,Dacryodes,oblong or ellipsoid,65
 leaves,count,56,Canarium apertum,Leaves with 3--4 pairs of leaflets,50
 lamina parts,shape,54,Canarium caudatum,apex pointed,51

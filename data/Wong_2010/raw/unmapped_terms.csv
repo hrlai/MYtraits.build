@@ -4,7 +4,7 @@ stem leaves,arrangement,30,Selaginella alutacia,"stem leaves dimorphic, distingu
 strobilus,shape,30,Selaginella alutacia,"strobilus bilateral in symmetry (upper-plane sporophylls longer than lower-plane sporophylls, spreading 45--80° from the axis).",55
 branch systems,branching,29,Selaginella alutacia,branch systems short,55
 plant,description,29,Selaginella alutacia,"the plant body throughout producing at intervals slender, pale, tough rhizophores (which bear roots at their distal parts)",55
-axillary leaves,description,24,Selaginella alutacia,overlapping branches slightly,55
+axillary leaves,arrangement,24,Selaginella alutacia,overlapping branches slightly,55
 lateral leaves,presence,24,Selaginella alutacia,exauriculate,55
 axillary leaves,presence,20,Selaginella alutacia,exauriculate,55
 lateral leaves,shape,19,Selaginella alutacia,with basally distended upper margin,55
@@ -16,7 +16,7 @@ axillary leaves,shape,3,Selaginella argentea,subcordate to subauriculate,56
 median leaves,indumentum,3,Selaginella alutacia,median leaves ciliolate at least at the base,55
 plant,arrangement,3,Selaginella cuprea,ascending stems loosely bunched together or intertwined,58
 axillary leaves,indumentum,2,Selaginella frondosa,ciliolate at the base,62
-axillary leaves (main stem),description,2,Selaginella padangensis,not overlapping the branches,71
+axillary leaves (main stem),arrangement,2,Selaginella padangensis,not overlapping the branches,71
 axillary leaves (main stem),presence,2,Selaginella padangensis,exauriculate,71
 lateral leaves,colour,2,Selaginella cuprea,drying with a coppery tint,58
 plant,colour,2,Selaginella ornata,the stems sometimes pink-tinged,70

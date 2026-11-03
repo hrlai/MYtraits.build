@@ -260,7 +260,7 @@ Balanophora hansenii,species,species,,,Peninsular Malaysia,,,,,"bracts yellow, t
 Balanophora hansenii,species,species,,usually,Peninsular Malaysia,,male flowers,flower_perianth_merism,x,(3--)4(--5)-merous,4,4,mean,{count},"Description, p.74",15,74,,
 Balanophora hansenii,species,species,,extreme_range,Peninsular Malaysia,,male flowers,flower_perianth_merism,x,(3--)4(--5)-merous,3,3,minimum,{count},"Description, p.74",15,74,,
 Balanophora hansenii,species,species,,extreme_range,Peninsular Malaysia,,male flowers,flower_perianth_merism,x,(3--)4(--5)-merous,5,5,maximum,{count},"Description, p.74",15,74,,
-Balanophora hansenii,species,species,,,Peninsular Malaysia,,,,,not becoming reflexed at anthesis,,,mode,,"Description, p.74",15,74,UNMAPPED: male flowers | description | orientation at anthesis,
+Balanophora hansenii,species,species,,,Peninsular Malaysia,,,,,not becoming reflexed at anthesis,,,mode,,"Description, p.74",15,74,UNMAPPED: male flowers | arrangement | orientation at anthesis,
 Balanophora hansenii,species,species,,,Peninsular Malaysia,,male flowers,pedicel_length,x,pedicels 2--10 mm long,2,2,minimum,mm,"Description, p.74",15,74,,
 Balanophora hansenii,species,species,,,Peninsular Malaysia,,male flowers,pedicel_length,x,pedicels 2--10 mm long,10,10,maximum,mm,"Description, p.74",15,74,,
 Balanophora hansenii,species,species,,,Peninsular Malaysia,,,,,"median tepals broad, truncate, 2.5--4 x 2--3.5 cm",,,mode,,"Description, p.74",15,74,"UNMAPPED: median tepals | description | size printed in cm (probable source typo for mm; question 4), shape",
