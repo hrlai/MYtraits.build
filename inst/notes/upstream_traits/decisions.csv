@@ -1,6 +1,8 @@
 organ,character,decision,tier,template_trait,proposed_name,proposed_type,status,sent_date,notes
-lateral veins,venation,propose,easy,leaflet_count,leaf_lateral_vein_pairs_count,numeric ({count}),draft,,Pairs of secondary veins.
-lateral veins,count,propose,easy,leaflet_count,leaf_lateral_vein_pairs_count,numeric ({count}),draft,,
+lateral veins,venation,ignore,,,,,,,"Venation pattern, spacing and relief; pair counts are now under count. Not worth requesting yet."
+lateral veins,count,propose,easy,leaflet_count,leaf_lateral_vein_pairs_count,numeric ({count}),draft,,Pairs of secondary veins.
+leaf lateral veins,count,propose,easy,leaflet_count,leaf_lateral_vein_pairs_count,numeric ({count}),draft,,
+leaf lateral veins,venation,ignore,,,,,,,Same as lateral veins | venation.
 veins,count,propose,easy,leaflet_count,leaf_lateral_vein_pairs_count,numeric ({count}),draft,,
 sapwood,colour,propose,easy,bark_colour,sapwood_colour,categorical,draft,,Slash colour of tree floras; levels as bark_colour.
 inner bark,colour,propose,easy,bark_colour,bark_inner_colour,categorical,draft,,Slash colour of tree floras; levels as bark_colour.
