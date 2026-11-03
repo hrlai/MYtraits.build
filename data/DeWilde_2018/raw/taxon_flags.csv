@@ -1,0 +1,92 @@
+taxon_name,taxon_rank,status,n_mapped_rows,flag
+Endocomia canarioides,species,accepted,49,
+Endocomia macrocoma,species,accepted,0,"Only one infraspecific taxon in Peninsular Malaysia; no species description, so the infraspecific taxon carries the description."
+Endocomia macrocoma subsp. prainii,subspecies,accepted,54,Single infraspecific taxon in Peninsular Malaysia; its description is the local description of the species.
+Gymnacranthera bancana,species,accepted,55,
+Gymnacranthera farquhariana,species,accepted,55,
+Gymnacranthera farquhariana var. eugeniifolia,variety,accepted,58,Infraspecific description gives differences only; other traits inherited from the species description.
+Gymnacranthera farquhariana var. farquhariana,variety,accepted,61,Infraspecific description gives differences only; other traits inherited from the species description.
+Gymnacranthera farquhariana var. zippeliana,variety,accepted,59,Infraspecific description gives differences only; other traits inherited from the species description.
+Gymnacranthera forbesii,species,accepted,0,"Only one infraspecific taxon in Peninsular Malaysia; no species description, so the infraspecific taxon carries the description."
+Gymnacranthera forbesii var. forbesii,variety,accepted,59,Single infraspecific taxon in Peninsular Malaysia; its description is the local description of the species.
+Horsfieldia brachiata,species,accepted,53,
+Horsfieldia crassifolia,species,accepted,55,
+Horsfieldia elongata,species,accepted,35,
+Horsfieldia flocculosa,species,accepted,55,
+Horsfieldia fulva,species,accepted,50,Female flowers described from Sinclair (1958); those rows cite Sinclair_1958.
+Horsfieldia grandis,species,accepted,47,
+Horsfieldia irya,species,accepted,61,
+Horsfieldia macilenta,species,accepted,41,
+Horsfieldia majuscula,species,accepted,50,
+Horsfieldia penangiana,species,accepted,0,"Only one infraspecific taxon in Peninsular Malaysia; no species description, so the infraspecific taxon carries the description."
+Horsfieldia penangiana subsp. penangiana,subspecies,accepted,42,Single infraspecific taxon in Peninsular Malaysia; its description is the local description of the species.
+Horsfieldia polyspherula,species,accepted,44,
+Horsfieldia polyspherula var. polyspherula,variety,accepted,47,Infraspecific description gives differences only; other traits inherited from the species description.
+Horsfieldia polyspherula var. sumatrana,variety,accepted,46,Infraspecific description gives differences only; other traits inherited from the species description.
+Horsfieldia pulcherrima,species,accepted,48,
+Horsfieldia punctata,species,accepted,45,
+Horsfieldia punctatifolia,species,accepted,54,
+Horsfieldia ridleyana,species,accepted,50,
+Horsfieldia sparsa,species,accepted,44,
+Horsfieldia subalpina,species,accepted,0,"Only one infraspecific taxon in Peninsular Malaysia; no species description, so the infraspecific taxon carries the description."
+Horsfieldia subalpina subsp. subalpina,subspecies,accepted,48,Single infraspecific taxon in Peninsular Malaysia; its description is the local description of the species.
+Horsfieldia sucosa,species,accepted,0,"Only one infraspecific taxon in Peninsular Malaysia; no species description, so the infraspecific taxon carries the description."
+Horsfieldia sucosa subsp. sucosa,subspecies,accepted,41,Single infraspecific taxon in Peninsular Malaysia; its description is the local description of the species.
+Horsfieldia superba,species,accepted,52,
+Horsfieldia tomentosa,species,accepted,49,
+Horsfieldia wallichii,species,accepted,56,
+Knema andamanica,species,accepted,0,"Only one infraspecific taxon in Peninsular Malaysia; no species description, so the infraspecific taxon carries the description."
+Knema andamanica subsp. nicobarica,subspecies,accepted,40,Single infraspecific taxon in Peninsular Malaysia; its description is the local description of the species.
+Knema communis,species,accepted,43,
+Knema conferta,species,accepted,46,
+Knema curtisii,species,accepted,45,
+Knema curtisii var. curtisii,variety,accepted,45,Infraspecific description gives differences only; other traits inherited from the species description.
+Knema curtisii var. paludosa,variety,accepted,45,Infraspecific description gives differences only; other traits inherited from the species description. Fruits described from Sinclair (1961); those rows cite Sinclair_1961.
+Knema furfuracea,species,accepted,42,
+Knema glauca,species,accepted,0,"Only one infraspecific taxon in Peninsular Malaysia; no species description, so the infraspecific taxon carries the description."
+Knema glauca var. glauca,variety,accepted,41,Single infraspecific taxon in Peninsular Malaysia; its description is the local description of the species.
+Knema glaucescens,species,accepted,44,
+Knema globularia,species,accepted,49,
+Knema hookeriana,species,accepted,50,
+Knema intermedia,species,accepted,47,
+Knema kunstleri,species,accepted,0,"Only one infraspecific taxon in Peninsular Malaysia; no species description, so the infraspecific taxon carries the description."
+Knema kunstleri subsp. kunstleri,subspecies,accepted,47,Single infraspecific taxon in Peninsular Malaysia; its description is the local description of the species.
+Knema lamellaria,species,accepted,37,
+Knema latericia,species,accepted,0,"Only one infraspecific taxon in Peninsular Malaysia; no species description, so the infraspecific taxon carries the description."
+Knema latericia subsp. ridleyi,subspecies,accepted,47,Single infraspecific taxon in Peninsular Malaysia; its description is the local description of the species.
+Knema laurina,species,accepted,49,
+Knema laurina var. heteropilis,variety,accepted,44,Infraspecific description gives differences only; other traits inherited from the species description.
+Knema laurina var. laurina,variety,accepted,47,Infraspecific description gives differences only; other traits inherited from the species description.
+Knema malayana,species,accepted,42,
+Knema mandaharan,species,accepted,53,
+Knema oblongifolia,species,accepted,47,
+Knema oblongifolia var. monticola,variety,accepted,44,Infraspecific description gives differences only; other traits inherited from the species description.
+Knema oblongifolia var. oblongifolia,variety,accepted,46,Infraspecific description gives differences only; other traits inherited from the species description.
+Knema patentinervia,species,accepted,44,
+Knema plumulosa,species,accepted,47,
+Knema pseudolaurina,species,accepted,48,
+Knema pulchra,species,accepted,51,
+Knema retusa,species,accepted,45,
+Knema rigidifolia,species,accepted,36,
+Knema rigidifolia subsp. camerona,subspecies,accepted,37,Infraspecific description gives differences only; other traits inherited from the species description.
+Knema rigidifolia subsp. rigidifolia,subspecies,accepted,35,Infraspecific description gives differences only; other traits inherited from the species description.
+Knema rubens,species,accepted,45,
+Knema scortechinii,species,accepted,46,
+Knema stenophylla,species,accepted,0,"Only one infraspecific taxon in Peninsular Malaysia; no species description, so the infraspecific taxon carries the description."
+Knema stenophylla subsp. stenophylla,subspecies,accepted,39,Single infraspecific taxon in Peninsular Malaysia; its description is the local description of the species.
+Knema sumatrana,species,accepted,39,
+Myristica cinnamomea,species,accepted,63,
+Myristica crassa,species,accepted,59,
+Myristica depressa,species,accepted,48,
+Myristica elliptica,species,accepted,66,
+Myristica gigantea,species,accepted,50,
+Myristica guatteriifolia,species,accepted,63,
+Myristica iners,species,accepted,64,
+Myristica lowiana,species,accepted,57,
+Myristica maingayi,species,accepted,55,
+Myristica malaccensis,species,accepted,0,"Only one infraspecific taxon in Peninsular Malaysia; no species description, so the infraspecific taxon carries the description."
+Myristica malaccensis subsp. malaccensis,subspecies,accepted,58,Single infraspecific taxon in Peninsular Malaysia; its description is the local description of the species.
+Myristica maxima,species,accepted,58,
+Myristica wyatt-smithii,species,accepted,59,
+Myristica fragrans,species,cultivated,0,"Nutmeg; cultivated, introduced from Maluku. Only a key lead (printed 234) and genus remarks; no description, so not scored."
+Horsfieldia iryaghedhi,species,cultivated,0,"Introduced from Sri Lanka, grown as an ornamental (Horsfieldia Uses, printed 146); named in the genus description and keys only; not scored."

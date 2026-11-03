@@ -44,6 +44,7 @@ Worked examples, all in this repository:
 | `data/Jaman_2020` | Cyatheaceae, FPM ferns vol. 3 | born-digital PDF, 21 species, hand-scored pieces | tree ferns; fern rules confirmed; pinnae, pinnules and lobes as leaflets by `entity_measured`; multi-level family value copied by hand |
 | `data/Jones_1995` | Rutaceae, TFSS vol. 1 | 2007 electronic text; transcription drafted from the layer; chunk parser after Adema_1996, 43 species | key-only genera and cultivated species flagged; in-key varieties scored; copy-down skips alternatives; dispersal from Ecology by hand |
 | `data/Kochummen_2000` | Moraceae, TFSS vol. 3 | 2007 electronic text, scripted clause parser after Soepadmo_2000, 99 species and 5 single-infra taxa | figs and syncarps are not fruits (colour only); 77 Ficus taxa annotated only in the key not scored; stranglers as hemiepiphytes; genus Ecology pollinator copied down |
+| `data/DeWilde_2018` | Myristicaceae, FPM vol. 7 | born-digital PDF, scripted clause parser after Prance_2012, 65 species and 24 infraspecific taxa | unisexual flowers described by their buds; fused anthers counted; aril and pericarp; hair lengths inside organ clauses; single-infra taxa carry the description; Sinclair-cited organs get `source_id` |
 | `data/Ashton_2004` | Dipterocarpaceae, TFSS vol. 5 | 2008 electronic text (";" as U+037E), scripted clause parser after Soepadmo_2000, 267 species and 40 subspecies | largest family so far, one run; nut is the fruit, calyx wings unmapped; subspecies in key annotations inherit; descriptions split by figure pages; family Ecology by hand |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
@@ -547,6 +548,12 @@ Bespoke checklist (decisions that changed per family):
   is the receptacle's (hypanthium), not `flower_length`; score
   `flower_length` only when the flower itself is measured ("Flowers c. 2 mm
   long"; Prance_1995).
+  A size chunk with no organ label of its own belongs to the clause before
+  it: in "Fruits ..., hairs rusty brown, powdery, 0.1--0.3 mm long" and
+  "leaf bud ..., hairs appressed, 0.1 mm long" the length is the hairs',
+  not the fruit's or bud's. Do not score an unlabelled number that follows
+  a hair, stalk, base or apex clause in the same piece (DeWilde_2018:
+  Myristica fruits and leaf buds, 25 false sizes before the fix).
 - **Comparisons.** In any section, drop sentences and clauses that compare
   taxa ("differs from ...", "similar to ...", "unlike ...") or name another
   binomial before scoring, so another taxon's characters are not attributed
@@ -586,7 +593,10 @@ Bespoke checklist (decisions that changed per family):
   states from outside the region in `(elsewhere ...)` asides ("lamina lower
   surface glabrous (elsewhere with an arachnoid indumentum)"); they are out
   of scope (Regions rule), so never score them (Prance_2012, Maranthes and
-  Parinari). An aside that is a rarer state ("Fruit a fleshy drupe (rarely
+  Parinari). An out-of-region aside can also introduce the next word:
+  in "yellowish or (in New Guinea) bright red" (Endocomia, DeWilde_2018)
+  dropping the aside alone leaves "yellowish or bright red", so drop the
+  alternative it governs with it. An aside that is a rarer state ("Fruit a fleshy drupe (rarely
   dry)") is a commonness alternative: rewrite it as ", rarely dry" first.
   Count "(" and ")" in every Description paragraph first: a missing ")"
   makes the rest of the paragraph one aside, and nothing after it is split
@@ -662,6 +672,19 @@ Bespoke checklist (decisions that changed per family):
   inflorescence rachis`. Leaf (terminal) and flower bud sizes -> `bud_length` /
   `bud_width` with `entity_measured = leaf bud` or `flower bud`. Crown shape
   ("crown hemispherical, dense") -> `plant_canopy_form`.
+  Provisional (DeWilde_2018 questions 3--7): fused anthers of a
+  synandrium ("synandrium ... with 2--6 completely fused anthers",
+  "anthers 7--11") -> `flower_fertile_stamens_count`, one stamen per
+  anther; anther locule counts stay unmapped. Perianth lobes of a
+  gamophyllous, one-whorled perianth ("lobes 3 or 4", "perianth 3-lobed")
+  -> `flower_perianth_merism`. The closed bud of a unisexual flower that
+  opens by splitting ("bud ... 1.5--1.6 mm long") -> `bud_length` /
+  `bud_width` with `entity_measured = male flower bud` or `female flower
+  bud`, as for Ashton_2004. Any stated aril -> `dispersal_appendage =
+  aril`; aril colour has no trait. Pericarp thickness ->
+  `fruit_wall_thickness`. A perianth colour after an "inside" clause
+  ("inside glabrous, greenish creamy") stays unmapped: its surface is
+  unclear.
   Provisional (Prance_1995 question 2): leaves "with stomatal crypts"
   -> `leaf_stomatal_position = encrypted`; "without stomatal crypts" has no
   level and stays unmapped.
@@ -851,10 +874,12 @@ Bespoke checklist (decisions that changed per family):
   catches "or"/"to" alternatives, not comma lists ("flat, terete or
   triquetrous" scored flat; "syconia ... solitary, in pairs or clustered"
   scored solitary, copied to 70 Ficus species before the fix in
-  Kochummen_2000): check those in the parser. A commonness word elsewhere in
-  the piece also qualifies an unqualified chunk ("Bark generally greyish,
-  smooth": smooth is not universal); bar such rows from copy-down in the
-  parser (Kochummen_2000 `piece_qualified`).
+  Kochummen_2000): check those in the parser. A commonness word earlier in
+  the piece also qualifies the unqualified chunks after it ("Bark generally
+  greyish, smooth": smooth is not universal); bar such rows from copy-down in
+  the parser (Kochummen_2000 `piece_qualified`). Chunks before the word stay
+  unqualified: "Leaves simple, entire, alternate, usually distichous" copies
+  simple, entire and alternate (provisional, DeWilde_2018 question 11).
   Most specific rank wins (group, genus, family). `entity_measured` is part
   of the trait: male and female (or other entity) values are tested and copied
   separately, so give higher-rank rows the same `entity_measured` labels as

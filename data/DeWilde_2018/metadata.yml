@@ -1,0 +1,855 @@
+source:
+  primary:
+    key: DeWilde_2018
+    bibtype: InBook
+    year: 2018
+    author: W. J. J. O. de Wilde and B. E. E. Duyfjes
+    title: Myristicaceae
+    booktitle: 'Flora of Peninsular Malaysia, Series II: Seed Plants, Volume 7'
+    editor: R. Kiew and R. C. K. Chung and L. G. Saw and E. Soepadmo
+    series: Malayan Forest Records No. 49
+    publisher: Forest Research Institute Malaysia
+    place: Kepong, Selangor, Malaysia
+    pages: 127--256
+    isbn: 978-967-2149-28-6
+    doi: 10.26525/FPM27004
+  secondary:
+    key: Sinclair_1958
+    bibtype: Article
+    year: 1958
+    author: J. Sinclair
+    title: A revision of the Malayan Myristicaceae
+    journal: Gardens' Bulletin, Singapore
+    volume: 16
+    pages: 205--472
+  secondary_2:
+    key: Sinclair_1961
+    bibtype: Article
+    year: 1961
+    author: J. Sinclair
+    title: The genus Knema (Myristicaceae) in Malaysia and outside Malaysia
+    journal: Gardens' Bulletin, Singapore
+    volume: 18
+    pages: 102--327
+  secondary_3:
+    key: Corner_1988
+    bibtype: Book
+    year: 1988
+    author: E. J. H. Corner
+    title: Wayside Trees of Malaya, 3rd edition
+    publisher: Malayan Nature Society
+    place: Kuala Lumpur, Malaysia
+contributors:
+  data_collectors:
+    - last_name: de Wilde
+      given_name: W. J. J. O.
+      ORCID: .na
+      affiliation: Naturalis Biodiversity Center, Section Botany, Leiden, The Netherlands
+    - last_name: Duyfjes
+      given_name: B. E. E.
+      ORCID: .na
+      affiliation: Naturalis Biodiversity Center, Section Botany, Leiden, The Netherlands
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '2018'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description: |
+    Morphological traits of the Myristicaceae of Peninsular Malaysia (5
+    genera, 65 species, 11 subspecies and 13 varieties: Endocomia 2,
+    Gymnacranthera 3, Horsfieldia 21, Knema 27, Myristica 12), extracted
+    from the family treatment in the Flora of Peninsular Malaysia.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    Born-digital PDF (assets/myflora_metadata.csv); rows come from the PDF
+    text layer (pdf pages 7--136, printed 127--256) read with
+    flora_read_pdf_lines() and segmented by raw/segment_source.R. No page
+    was image-checked: flora_layer_flags() flagged only the front matter,
+    the plates (pdf 137--143), the full-page Figures and map pages inside
+    the treatment (low text, captions in the layer) and one unmapped
+    character on pdf 73 (an empty map symbol in a caption); there are no
+    page-number breaks in the treatment. raw/build_trait_data.R splits each
+    family, genus, species and infraspecific description into sentences,
+    ';' pieces and ',' clauses, assigns each clause to an organ (male and
+    female flowers and buds named in entity_measured) and scores configured
+    traits; every other clause stays verbatim as an unmapped row.
+    Parenthetical asides that are not numbers ('(elsewhere ...)', '(or 5)')
+    are taken out before scoring and kept as unmapped rows. Unqualified
+    single-level family and genus values are copied to member taxa silent
+    on the trait when every member that states the trait agrees
+    (inferred_from_family / inferred_from_genus); varieties and subspecies
+    whose descriptions give differences only inherit their species
+    description. Where a species has one infraspecific taxon in Peninsular
+    Malaysia, that taxon's description is the local description and is
+    scored at infraspecific rank (FPM guide). Ranges are minimum and
+    maximum, parenthetical extremes are extreme_range rows, a single or
+    "c." value is a mean and "to" values are maxima. Hedged statements
+    (including the author's queries "(always?)" and "?") are not scored.
+    Population region is Peninsular Malaysia for species and infraspecific
+    descriptions (FPM guide); copied family and genus values and cited
+    observations have none. Keys and figure captions are not trait
+    evidence.
+  original_file: |
+    Myristicaceae.pdf (de Wilde & Duyfjes 2018, Flora of Peninsular
+    Malaysia Series II vol. 7, pp. 127--256)
+  notes: |
+    data.csv is raw/trait_data.csv with the columns added by
+    flora_make_data(). Taxon names are as printed. All 65 accepted species
+    headings are processed: 54 species have their own description; for 11
+    species (Endocomia macrocoma, Gymnacranthera forbesii, Horsfieldia
+    penangiana, H. subalpina, H. sucosa, Knema andamanica, K. glauca,
+    K. kunstleri, K. latericia, K. stenophylla, Myristica malaccensis) only
+    one infraspecific taxon occurs in Peninsular Malaysia and its
+    description is the local description, scored at infraspecific rank
+    with no species-rank morphology. Six species (Gymnacranthera
+    farquhariana, Horsfieldia polyspherula, Knema curtisii, K. laurina,
+    K. oblongifolia, K. rigidifolia) have a species description and two or
+    three infraspecific descriptions that give differences only; those 13
+    infraspecific taxa inherit the other traits. The family Distribution
+    counts 66 species and 22 Horsfieldia; the Horsfieldia Distribution
+    says 21 and 21 are treated. The nutmeg Myristica fragrans (cultivated,
+    introduced from Maluku) appears only in the key to Myristica, and the
+    ornamental Horsfieldia iryaghedhi only in genus text and keys; neither
+    has a description, so neither is scored (raw/taxon_flags.csv). Of
+    9,696 rows in raw/trait_data.csv, 3,903 are mapped (2,826 from the
+    taxa's own descriptions and Ecology statements, 540 copied from the
+    family, 259 from genera and 278 inherited from species descriptions)
+    and 5,793 are unmapped: 5,279 description clauses and 514 sentences of
+    Distribution, Ecology, Conservation status, Uses, Taxonomy, Note and
+    vernacular names. Most frequent unmapped characters: fruit shape and
+    number per infructescence, lateral vein number and relief, leaf texture
+    (membranous, chartaceous, coriaceous), twig diameter, indumentum and
+    bark, leaf dots, fruit stalk length, pedicel length, flower bud shape
+    and splitting depth, perianth lobe thickness, androphore, synandrium and
+    anther locules, ovary and stigma, inflorescence branching and peduncle,
+    aril colour and division, endosperm, altitude, habitat and
+    conservation status (summary in raw/unmapped_terms.csv). Phenology,
+    the cited scent of H. irya flowers (Corner 1988), water dispersal of
+    H. irya seeds and bird dispersal (family, Sinclair 1958) and
+    M. crassa sometimes monoecious (Sinclair 1958) are in
+    raw/manual_rows.csv. Not scored: the hornbill records of Kitamura et
+    al. (2011) from Peninsular Thailand (outside the region), fruits eaten
+    by primates, elephants and squirrels and the aril eaten by siamang
+    (eating is not dispersal), recalcitrant seed viability of 30--75(--315)
+    days (Ng 2014; no trait) and hedged statements (question 10). Two
+    descriptions cite Sinclair for organs the authors did not see
+    (question 9). Source repairs (three punctuation fixes and one unit
+    typo, question 2) are in raw/source_fixes.csv. Types and types of
+    synonyms (264 rows, 75 taxa) are in raw/DeWilde_2018_vouchers.csv; the
+    figures are reproduced from Flora Malesiana and name no specimens.
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: bark_colour
+    unit_in: .na
+    trait_name: bark_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Colour of the outer bark (''Bark grey-brown, smooth''); every colour word scored in text order; patches and inner bark not scored.'
+  - var_in: bark_texture
+    unit_in: .na
+    trait_name: bark_texture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Outer bark surface (''smooth'', ''fissured'', ''flaking''); ''fissured'' scored as furrowed; twig bark not scored.'
+  - var_in: bud_length
+    unit_in: unit
+    trait_name: bud_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Length of the leaf bud (apical bud of the twig) and of the male and female flower bud (the closed perianth), named in entity_measured; provisional mapping (skill step 4, Ashton_2004 questions 1--5).'
+  - var_in: bud_width
+    unit_in: unit
+    trait_name: bud_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Width or diameter of the leaf bud and of the male and female flower bud, named in entity_measured; diameter scored as width.'
+  - var_in: dispersal_appendage
+    unit_in: .na
+    trait_name: dispersal_appendage
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'An aril stated in the fruit or seed description (''aril red'', ''aril laciniate to near the base'').'
+  - var_in: dispersal_syndrome
+    unit_in: .na
+    trait_name: dispersal_syndrome
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Dispersal by water stated in a cited species Ecology statement (Sinclair 1958).'
+  - var_in: dispersers
+    unit_in: .na
+    trait_name: dispersers
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Family Ecology statement that fruit pigeons, doves and hornbills disperse the seeds (Sinclair 1958); family rank only.'
+  - var_in: flower_anther_dehiscence
+    unit_in: .na
+    trait_name: flower_anther_dehiscence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''opening by longitudinal slits'' in the family description.'
+  - var_in: flower_anther_orientation
+    unit_in: .na
+    trait_name: flower_anther_orientation
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''extrorse'' in the family description.'
+  - var_in: flower_bract_length
+    unit_in: unit
+    trait_name: flower_bract_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Length of the bracteole on the flower pedicel (entity_measured = bracteole); inflorescence bracts not scored.'
+  - var_in: flower_colour
+    unit_in: .na
+    trait_name: flower_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Colour of the perianth or flowers when stated for the whole flower; colours after an ''inside'' or ''outside'' clause (perianth inside) are not scored, as their ownership is unclear.'
+  - var_in: flower_fertile_stamens_count
+    unit_in: unit
+    trait_name: flower_fertile_stamens_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Number of anthers of the male flower; the anthers are fused into a synandrium (question 3). Anther locule numbers (Horsfieldia, Myristica) are not scored.'
+  - var_in: flower_ovary_position
+    unit_in: .na
+    trait_name: flower_ovary_position
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''ovary ... superior'' in the family description.'
+  - var_in: flower_perianth_merism
+    unit_in: unit
+    trait_name: flower_perianth_merism
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Number of perianth lobes (''lobes 3 or 4'', ''perianth 3-lobed'') or merism (''(2--)3(--5)-merous''), per sex in entity_measured.'
+  - var_in: flower_perianth_whorls_count
+    unit_in: unit
+    trait_name: flower_perianth_whorls_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''perianth uniseriate'' scored as one whorl.'
+  - var_in: flower_scent_production
+    unit_in: .na
+    trait_name: flower_scent_production
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''not fragrant'' (Knema genus description) and a cited report of fragrant flowers (H. irya, family Ecology, Corner 1988).'
+  - var_in: flower_shape
+    unit_in: .na
+    trait_name: flower_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Shape of the male perianth (''urceolate'', ''rotate'', ''cup-shaped'', ''tubular''); ''globose'' has no level.'
+  - var_in: flower_structural_carpels_count
+    unit_in: unit
+    trait_name: flower_structural_carpels_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''ovary monocarpellate'' scored as one carpel.'
+  - var_in: flower_structural_sex_type
+    unit_in: .na
+    trait_name: flower_structural_sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''Flowers ... unisexual'' in the family description.'
+  - var_in: flower_style_differentiation
+    unit_in: .na
+    trait_name: flower_style_differentiation
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''style absent'' in genus and species descriptions.'
+  - var_in: flower_style_length
+    unit_in: unit
+    trait_name: flower_style_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Length of the style of the female flower; ''style and stigma'' lengths not scored.'
+  - var_in: flowering_time
+    unit_in: .na
+    trait_name: flowering_time
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Months as printed in Ecology paragraphs; ''throughout the year'' scored as every month and noted.'
+  - var_in: fruit_colour
+    unit_in: .na
+    trait_name: fruit_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Ground colour of the ripe fruit; the drying colour (''drying dark brown''), indumentum colour and immature fruits not scored.'
+  - var_in: fruit_dehiscence
+    unit_in: .na
+    trait_name: fruit_dehiscence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''dehiscing by a single longitudinal circumferential suture into 2 valves, rarely indehiscent'' (family).'
+  - var_in: fruit_fleshiness
+    unit_in: .na
+    trait_name: fruit_fleshiness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''pericarp fleshy'' when stated without an intermediate (''leathery or somewhat fleshy'' not scored).'
+  - var_in: fruit_length
+    unit_in: unit
+    trait_name: fruit_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Length of the fruit; ''L x W'' read as length x width.'
+  - var_in: fruit_surface_hairs
+    unit_in: .na
+    trait_name: fruit_surface_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Fruit glabrous or hairy as stated; ''glabrescent'' (becoming glabrous) not scored.'
+  - var_in: fruit_wall_thickness
+    unit_in: unit
+    trait_name: fruit_wall_thickness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Thickness of the pericarp.'
+  - var_in: fruit_width
+    unit_in: unit
+    trait_name: fruit_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Width of the fruit; ''diameter'' scored as width.'
+  - var_in: fruiting_time
+    unit_in: .na
+    trait_name: fruiting_time
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Months as printed in Ecology paragraphs; ''throughout the year'' scored as every month and noted.'
+  - var_in: inflorescence_length
+    unit_in: unit
+    trait_name: inflorescence_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Length of the (male or female) inflorescence, named in entity_measured; peduncle, branch and infructescence lengths not scored.'
+  - var_in: inflorescence_type
+    unit_in: .na
+    trait_name: inflorescence_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''paniculate'', ''panicle'', ''axillary'' and similar inflorescence words; flower arrangement on the inflorescence (''flowers solitary or in clusters'', ''subumbels'') not scored.'
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Shape of the leaf apex; every shape word scored.'
+  - var_in: leaf_arrangement
+    unit_in: .na
+    trait_name: leaf_arrangement
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''Leaves sometimes spirally arranged'' and similar statements.'
+  - var_in: leaf_base_shape
+    unit_in: .na
+    trait_name: leaf_base_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Shape of the leaf base; ''subcordate'' and ''subcuneate'' not scored.'
+  - var_in: leaf_compoundness
+    unit_in: .na
+    trait_name: leaf_compoundness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''Leaves simple'' in the family description.'
+  - var_in: leaf_hairs_adult_leaves
+    unit_in: .na
+    trait_name: leaf_hairs_adult_leaves
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Indumentum per leaf surface: hairy when a surface is hairy, glabrous when both are; not scored when a surface is glabrescent (skill step 4).'
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Length of the lamina; ''L x W'' read as length x width.'
+  - var_in: leaf_margin
+    unit_in: .na
+    trait_name: leaf_margin
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''Leaves ... entire'' in the family description.'
+  - var_in: leaf_margin_posture
+    unit_in: .na
+    trait_name: leaf_margin_posture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''margin revolute''; ''revolute on drying'' and ''not revolute'' not scored.'
+  - var_in: leaf_phyllotaxis
+    unit_in: .na
+    trait_name: leaf_phyllotaxis
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''Leaves ... alternate'' in the family description.'
+  - var_in: leaf_secondary_vein_angle
+    unit_in: unit
+    trait_name: leaf_secondary_vein_angle
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: '''lateral veins ..., at 45--60 degrees to the midrib''; provisional mapping (skill step 4, Soepadmo_2000 question 10).'
+  - var_in: leaf_shape
+    unit_in: .na
+    trait_name: leaf_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Shape of the lamina; every shape word scored.'
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Width of the lamina; ''L x W'' read as length x width.'
+  - var_in: petiole_length
+    unit_in: unit
+    trait_name: petiole_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Length of the petiole.'
+  - var_in: petiole_width
+    unit_in: unit
+    trait_name: petiole_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Width of the petiole.'
+  - var_in: plant_canopy_form
+    unit_in: .na
+    trait_name: plant_canopy_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''the crown often pyramidal'' (family description).'
+  - var_in: plant_diameter_breast_height
+    unit_in: unit
+    trait_name: plant_diameter_breast_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Bole diameter (''bole to 40 cm diameter'') scored as diameter at breast height.'
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Tree, treelet or shrub from the habit statement; treelet scored as tree.'
+  - var_in: plant_height
+    unit_in: unit
+    trait_name: plant_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Height of the plant; ''beginning to flower at 2 m'' is not the plant height.'
+  - var_in: root_system_type
+    unit_in: .na
+    trait_name: root_system_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Stilt-roots stated present (with their commonness word) or absent (''without stilt-roots'').'
+  - var_in: seed_count
+    unit_in: unit
+    trait_name: seed_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''Seed one'' in the family description.'
+  - var_in: seed_length
+    unit_in: unit
+    trait_name: seed_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Length of the seed.'
+  - var_in: seed_shape
+    unit_in: .na
+    trait_name: seed_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Shape of the seed.'
+  - var_in: seed_width
+    unit_in: unit
+    trait_name: seed_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Width or diameter of the seed.'
+  - var_in: sex_type
+    unit_in: .na
+    trait_name: sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''dioecious'' or ''monoecious'' in the habit statement; Endocomia ''monoecious (always?)'' is hedged and not scored; M. crassa sometimes monoecious after Sinclair (1958).'
+  - var_in: stem_base_form
+    unit_in: .na
+    trait_name: stem_base_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Buttresses or a fluted bole stated present; ''without buttresses'' and ''with or without'' not scored.'
+  - var_in: stem_hairs
+    unit_in: .na
+    trait_name: stem_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Twig indumentum when the twig is not described as glabrescent.'
+substitutions:
+  - trait_name: bark_colour
+    find: 'blackish'
+    replace: 'black'
+  - trait_name: bark_colour
+    find: 'blackish brown'
+    replace: 'black brown'
+  - trait_name: bark_colour
+    find: 'blackish brown greyish black'
+    replace: 'black brown grey'
+  - trait_name: bark_colour
+    find: 'dark_brown'
+    replace: 'brown_dark'
+  - trait_name: bark_colour
+    find: 'dark_brown grey blackish'
+    replace: 'brown_dark grey black'
+  - trait_name: bark_colour
+    find: 'dark_brown red brown'
+    replace: 'brown_dark red brown'
+  - trait_name: bark_colour
+    find: 'greenish black'
+    replace: 'green black'
+  - trait_name: bark_colour
+    find: 'grey blackish brown'
+    replace: 'grey black brown'
+  - trait_name: bark_colour
+    find: 'grey brown blackish'
+    replace: 'grey brown black'
+  - trait_name: bark_colour
+    find: 'grey brown dark_brown'
+    replace: 'grey brown brown_dark'
+  - trait_name: bark_colour
+    find: 'greyish blackish'
+    replace: 'grey black'
+  - trait_name: bark_colour
+    find: 'pale_brown'
+    replace: 'brown_light'
+  - trait_name: bark_colour
+    find: 'yellowish brown'
+    replace: 'yellow brown'
+  - trait_name: bark_texture
+    find: 'fissured'
+    replace: 'furrowed'
+  - trait_name: bark_texture
+    find: 'fissured flaking'
+    replace: 'furrowed flaky'
+  - trait_name: bark_texture
+    find: 'fissured flaking flakes'
+    replace: 'furrowed flaky'
+  - trait_name: bark_texture
+    find: 'fissured flaky flakes'
+    replace: 'furrowed flaky'
+  - trait_name: bark_texture
+    find: 'fissured smooth'
+    replace: 'furrowed smooth'
+  - trait_name: bark_texture
+    find: 'flakes'
+    replace: 'flaky'
+  - trait_name: bark_texture
+    find: 'flaking flakes'
+    replace: 'flaky'
+  - trait_name: bark_texture
+    find: 'flaky flakes'
+    replace: 'flaky'
+  - trait_name: bark_texture
+    find: 'rough flaking'
+    replace: 'rough flaky'
+  - trait_name: bark_texture
+    find: 'smooth fissured'
+    replace: 'smooth furrowed'
+  - trait_name: bark_texture
+    find: 'smooth fissured flakes'
+    replace: 'smooth furrowed flaky'
+  - trait_name: bark_texture
+    find: 'smooth fissured flaky'
+    replace: 'smooth furrowed flaky'
+  - trait_name: bark_texture
+    find: 'smooth fissured furrowed'
+    replace: 'smooth furrowed'
+  - trait_name: bark_texture
+    find: 'smooth flakes'
+    replace: 'smooth flaky'
+  - trait_name: bark_texture
+    find: 'smooth flakes fissured'
+    replace: 'smooth flaky furrowed'
+  - trait_name: bark_texture
+    find: 'smooth flaking'
+    replace: 'smooth flaky'
+  - trait_name: bark_texture
+    find: 'smooth flaking fissured'
+    replace: 'smooth flaky furrowed'
+  - trait_name: bark_texture
+    find: 'smooth rough flakes'
+    replace: 'smooth rough flaky'
+  - trait_name: dispersal_syndrome
+    find: 'dispersal by water'
+    replace: 'hydrochory'
+  - trait_name: flower_colour
+    find: 'creamy'
+    replace: 'white_cream'
+  - trait_name: flower_scent_production
+    find: 'fragrant'
+    replace: 'scent_produced'
+  - trait_name: flower_shape
+    find: 'urceolate tubular'
+    replace: 'urceolate tubulate'
+  - trait_name: flower_structural_sex_type
+    find: 'unisexual male'
+    replace: 'unisexual'
+  - trait_name: flower_style_differentiation
+    find: 'style_absent'
+    replace: 'absent'
+  - trait_name: fruit_colour
+    find: 'yellow purplish'
+    replace: 'yellow purple'
+  - trait_name: fruit_dehiscence
+    find: 'dehisc'
+    replace: 'dehiscent'
+  - trait_name: fruit_surface_hairs
+    find: 'glabrous tomentose woolly'
+    replace: 'glabrous hairy'
+  - trait_name: fruit_surface_hairs
+    find: 'hairs'
+    replace: 'hairy'
+  - trait_name: fruit_surface_hairs
+    find: 'hairs velvety'
+    replace: 'hairy'
+  - trait_name: fruit_surface_hairs
+    find: 'velvety hairs'
+    replace: 'hairy'
+  - trait_name: fruit_surface_hairs
+    find: 'woolly hairs'
+    replace: 'hairy'
+  - trait_name: inflorescence_type
+    find: 'paniculate'
+    replace: 'panicle'
+  - trait_name: leaf_apex_shape
+    find: 'acuminate blunt'
+    replace: 'acuminate obtuse'
+  - trait_name: leaf_apex_shape
+    find: 'blunt'
+    replace: 'obtuse'
+  - trait_name: leaf_apex_shape
+    find: 'blunt rounded'
+    replace: 'obtuse rounded'
+  - trait_name: leaf_apex_shape
+    find: 'blunt subacute'
+    replace: 'obtuse acute'
+  - trait_name: leaf_apex_shape
+    find: 'rounded blunt acute'
+    replace: 'rounded obtuse acute'
+  - trait_name: leaf_apex_shape
+    find: 'rounded subacute'
+    replace: 'rounded acute'
+  - trait_name: leaf_apex_shape
+    find: 'subacute obtuse rounded'
+    replace: 'acute obtuse rounded'
+  - trait_name: leaf_shape
+    find: 'elliptic'
+    replace: 'elliptical'
+  - trait_name: leaf_shape
+    find: 'elliptic lanceolate'
+    replace: 'elliptical lanceolate'
+  - trait_name: leaf_shape
+    find: 'elliptic oblong'
+    replace: 'elliptical oblong'
+  - trait_name: leaf_shape
+    find: 'elliptic oblong lanceolate'
+    replace: 'elliptical oblong lanceolate'
+  - trait_name: leaf_shape
+    find: 'elliptic oblong lanceolate oblanceolate'
+    replace: 'elliptical oblong lanceolate oblanceolate'
+  - trait_name: leaf_shape
+    find: 'elliptic oblong oblanceolate'
+    replace: 'elliptical oblong oblanceolate'
+  - trait_name: leaf_shape
+    find: 'elliptic obovate oblong lanceolate'
+    replace: 'elliptical obovate oblong lanceolate'
+  - trait_name: leaf_shape
+    find: 'elliptic obovate oblong oblanceolate'
+    replace: 'elliptical obovate oblong oblanceolate'
+  - trait_name: leaf_shape
+    find: 'elliptic obovate ovate lanceolate'
+    replace: 'elliptical obovate ovate lanceolate'
+  - trait_name: leaf_shape
+    find: 'obovate elliptic oblong lanceolate'
+    replace: 'obovate elliptical oblong lanceolate'
+  - trait_name: plant_growth_form
+    find: 'shrubs trees'
+    replace: 'shrub tree'
+  - trait_name: plant_growth_form
+    find: 'treelet'
+    replace: 'tree'
+  - trait_name: plant_growth_form
+    find: 'treelet tree'
+    replace: 'tree'
+  - trait_name: plant_growth_form
+    find: 'trees'
+    replace: 'tree'
+  - trait_name: root_system_type
+    find: 'stilt-root'
+    replace: 'stilt_roots'
+  - trait_name: root_system_type
+    find: 'without_stilt-roots'
+    replace: 'stilt_roots_absent'
+  - trait_name: seed_shape
+    find: 'globose'
+    replace: 'globoid'
+  - trait_name: stem_base_form
+    find: 'buttress'
+    replace: 'buttressed'
+  - trait_name: stem_base_form
+    find: 'fluted buttress'
+    replace: 'fluted buttressed'
+  - trait_name: stem_hairs
+    find: 'hairs'
+    replace: 'hairy'
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1: 'Dimension pairs. ''a x b'' sizes are read as length x width for the lamina (''8--30 x 4--13.5 cm'') in all taxa that give one. Confirm.'
+  question2: 'Source typo. Myristica wyatt-smithii (printed 255) reads ''Tree 9--23 cm tall''; repaired to ''9--23 m'' in raw/source_fixes.csv (a tree, and the bole is described). This changes the plant_height value. Confirm the repair.'
+  question3: 'Anther counts. The anthers are fused into a synandrium (''synandrium ... with 2--6 completely fused ... anthers'', ''anthers (6 or) 7--11(--13)''); each anther is scored as one fertile stamen in flower_fertile_stamens_count with entity_measured male flower (99 rows, Endocomia, Gymnacranthera, Knema). Horsfieldia and Myristica give only anther locules (''anther locules 12--18''); the treatment says the anther number is half the locule number (printed 129), but halving is not done and the locule counts stay unmapped. Decide: confirm the anther mapping, and whether to score half the locule count.'
+  question4: 'Flower buds. Male and female flowers are described by their mature closed bud (''bud broadly ellipsoid-obovoid, 1.5--1.6 mm long, 1.3--1.4 mm wide''), which opens by splitting at anthesis. These sizes are scored as bud_length and bud_width with entity_measured male flower bud or female flower bud (provisional mapping after Ashton_2004 questions 1--5); leaf bud sizes the same way with entity_measured leaf bud. Decide: keep as bud traits, or score the flower buds as flower_length and flower_diameter.'
+  question5: 'Perianth lobes. ''lobes 3 or 4 (or 5)'' and ''perianth 3-lobed'' (a uniseriate, gamophyllous perianth) are scored as flower_perianth_merism, per sex in entity_measured. Confirm.'
+  question6: 'Aril. Every fruit or seed clause naming an aril (''aril red'', ''aril laciniate to near the base'') is scored dispersal_appendage = aril, and the genus statements are copied to member species (46 rows). Aril colour and division (entire, laciniate) have no trait and stay unmapped (candidate traits). Confirm.'
+  question7: 'Perianth colour. Most perianth colours follow an ''inside'' clause (''inside glabrous, greenish creamy, pink or red'', Knema genus; ''lobes inside greenish to yellowish''), so it is unclear whether they are the inside or the whole perianth; these stay unmapped and only a few flower colours are scored. Decide whether the inside colour of the perianth should be scored as flower_colour.'
+  question8: 'Bracteole length. M. elliptica and K. glauca var. glauca bracteoles ''0.5--1 mm long'' give 0.5 mm, below the flower_bract_length minimum of 1 mm in traits.yml; these 2 rows are excluded at build. Decide: widen the traits.yml range centrally, or drop bracteole lengths below 1 mm.'
+  question9: 'Cited descriptions. Two descriptions cite Sinclair for organs the authors did not see: ''Female flowers (Sinclair, 1958)'' in Horsfieldia fulva (printed 158) and ''Fruits (Sinclair, 1961)'' in Knema curtisii var. paludosa (printed 198). These rows are scored with source_id Sinclair_1958 or Sinclair_1961 and no population region. Confirm.'
+  question10: 'Hedges not scored: Endocomia ''Trees, monoecious (always?)'' (so neither Endocomia species has a sex_type), M. crassa ''aril yellow (always?)'', ''endosperm ruminate, ?without starch'', family Ecology ''Anthesis is presumably mainly nocturnal'', ''in some species small beetles effect pollination'', ''Dissemination by water may occur in Horsfieldia wallichii'' and M. elliptica seeds ''raising the possibility'' of water dispersal. Confirm that these stay unscored.'
+  question11: 'Copy-down past a commonness word (provisional rule, skill step 5). A commonness word now bars copy-down only for the chunks after it in the same piece: in the family ''Leaves simple, entire, alternate, usually distichous ...'' (printed 127), simple, entire and alternate are copied to all 78 described taxa and distichous is not. Kochummen_2000 barred every chunk in such a piece. Confirm.'
