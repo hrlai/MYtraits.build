@@ -786,13 +786,13 @@ parse_description <- function(p) {
     transmute(
       trait = NA_character_,
       trait_value_raw = text,
-      notes = paste0(
-        "UNMAPPED: ",
+      notes = flora_unmapped_note(
         coalesce(organ, "unknown organ"),
-        " | ",
         character_of(text),
-        if_else(hedged(text), " | hedged", ""),
-        if_else(dup_of != "", paste0(" | second statement for ", dup_of, "; context not resolved"), "")
+        paste0(
+          if_else(hedged(text), "hedged; ", ""),
+          if_else(dup_of != "", paste0("second statement for ", dup_of, "; context not resolved"), "")
+        )
       ),
       pdf_page,
       printed_page
@@ -803,7 +803,7 @@ parse_description <- function(p) {
     transmute(
       trait = NA_character_,
       trait_value_raw = text,
-      notes = paste0("UNMAPPED: ", organ, " | size | second statement for ", map_chr(id, \(i) paste(later_dup$trait[later_dup$id == i], collapse = ", ")), "; context not resolved"),
+      notes = flora_unmapped_note(organ, "size", paste0("second statement for ", map_chr(id, \(i) paste(later_dup$trait[later_dup$id == i], collapse = ", ")), "; context not resolved")),
       pdf_page,
       printed_page
     )
@@ -923,7 +923,7 @@ later_unmapped <- later |>
     rank,
     trait = NA_character_,
     trait_value_raw = sentence,
-    notes = paste0("UNMAPPED: ", str_to_lower(section), " | text"),
+    notes = flora_unmapped_note("section", "text", str_to_lower(section)),
     source_section = section,
     pdf_page,
     printed_page

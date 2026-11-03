@@ -1,5 +1,5 @@
 organ,character,n_taxa,example_taxon,example_text,printed_page
-distribution,text,64,Rutaceae,"A cosmopolitan family comprising approximately 160 genera and 1650 species, distributed largely in tropical and subtropical parts of the world, with good representation in arid areas of the warm te...",351
+section,text,64,Rutaceae,"A cosmopolitan family comprising approximately 160 genera and 1650 species, distributed largely in tropical and subtropical parts of the world, with good representation in arid areas of the warm te...",351
 petals,description,52,Rutaceae,alternate with the sepals,351
 sepals,description,51,Rutaceae,usually imbricate,351
 lateral veins,venation,43,Acronychia pedunculata,lateral veins 7--14 pairs,358
@@ -19,15 +19,13 @@ fruit wall,description,23,Acronychia,with or without evident mesocarp,358
 lateral veins,description,23,Burkillanthus malaccensis,deeply sunken above,362
 branches,armature,21,Acronychia,Branches unarmed,358
 petiole,description,21,Rutaceae,petioles sometimes winged,351
-seeds,number,21,Rutaceae,Seeds usually 1 per carpel,351
+seeds,count,21,Rutaceae,Seeds usually 1 per carpel,351
 disc,description,20,Rutaceae,disc surrounding base of ovary,351
 fruit wall,texture,20,Rutaceae,pericarp leathery to woody or fleshy,351
 leaflets,description,20,Burkillanthus,becoming stiff when older,361
-uses,text,20,Rutaceae,"The family includes the wild and cultivated citrus fruits of the subfamily Aurantioideae (chiefly from Citrus and Fortunella) which serve as a source of food and flavourings, essential oils, and me...",352
 anthers,description,19,Acronychia,anthers ovoid to ellipsoid,358
-ecology,text,19,Rutaceae,"Native species are found in a wide range of natural habitats occurring in the lowlands, hills, and mountains, along coastal areas, and on offshore islands",352
-petals,number,19,Rutaceae,petals 4--5,351
-stigma,number,18,Acronychia,stigma shallowly 4-lobed,358
+petals,count,19,Rutaceae,petals 4--5,351
+stigma,count,18,Acronychia,stigma shallowly 4-lobed,358
 filaments,description,17,Rutaceae,filaments free or fused basally,351
 inflorescences,indumentum,17,Pleiospermium,hairy,407
 trichomes,indumentum,17,Lunasia,All vegetative and reproductive parts with grey to reddish brown scale-like and/or star-shaped hairs,379
@@ -35,7 +33,7 @@ fruit wall,glands,16,Rutaceae,usually glandular,351
 leaflets,texture,15,Burkillanthus,leaflets thinly leathery,361
 style,indumentum,15,Burkillanthus,glabrous,361
 disc,indumentum,14,Clausena,glabrous,369
-leaflets,number,14,Clausena,usually 5--9(--31),369
+leaflets,count,14,Clausena,usually 5--9(--31),369
 anthers,glands,13,Rutaceae,often gland-tipped,351
 embryo,description,12,Rutaceae,embryo straight or curved,351
 margin,description,12,Acronychia,articulated at the base,358
@@ -46,8 +44,8 @@ inflorescences,colour,11,Burkillanthus,few-flowered clusters,361
 branches,description,10,Burkillanthus,drooping in older trees,361
 pulp,description,10,Burkillanthus,pulp-vesicles sessile,361
 buds,description,9,Clausena,buds small,369
+inflorescences,count,9,Acronychia,or 1-to few-flowered,358
 inflorescences,description,9,Acronychia,subcorymbose,358
-inflorescences,number,9,Acronychia,or 1-to few-flowered,358
 bole,size,8,Acronychia pedunculata,bole to 23 m tall,358
 calyx,description,8,Citrus,calyx cup-like,362
 margin,indumentum,8,Clausena calciphila,margin ciliate,370
@@ -55,7 +53,7 @@ ovary,glands,8,Burkillanthus,glandular on upper half,361
 twigs,description,8,Citrus,Young twigs angular,362
 twigs,indumentum,8,Glycosmis,Shoot tips and young inflorescences densely hairy,371
 branches,indumentum,7,Acronychia pedunculata,axes glabrous or nearly so,358
-fruits,number,7,Melicope,grading to a 4-locular capsule,384
+fruits,count,7,Melicope,grading to a 4-locular capsule,384
 leaflets,indumentum,7,Melicope bonwickii,glabrous or sparsely hairy on veins below,388
 leaves,description,7,Severinia,often rigid,410
 rachis,description,7,Clausena,rachis sometimes winged,369
@@ -64,14 +62,14 @@ testa,texture,7,Rutaceae,testa firm or membranous,351
 carpels,description,6,Rutaceae,completely to partially fused or free except for the united styles,351
 leaves,texture,6,Merope,leathery,395
 petiolules,description,6,Burkillanthus malaccensis,pulvinoid,362
-stamens,number,6,Rutaceae,stamens 4--5 or 8--10 or more (to 60),351
+stamens,count,6,Rutaceae,stamens 4--5 or 8--10 or more (to 60),351
 apex,description,5,Acronychia pedunculata,apex rounded to shortly tipped,361
 flowers,size,5,Murraya,medium-sized to large (over 1 cm long),405
 habit,description,5,Rutaceae,or seldom herbs,351
 intercostal veins,venation,5,Acronychia pedunculata,reticulations conspicuous above and below,358
 sepals,size,5,Melicope clemensiae,less than 1 mm long,388
 crown,description,4,Burkillanthus,crown broad,361
-disc,number,4,Acronychia,disc shallowly 8-lobed,358
+disc,count,4,Acronychia,disc shallowly 8-lobed,358
 endosperm,texture,4,Acronychia,endosperm fleshy,358
 pedicels,indumentum,4,Maclurodendron parviflorum,pedicels sparsely hairy,381
 peduncles,indumentum,4,Maclurodendron parviflorum,peduncle axis and branches sparsely hairy to glabrous,381
@@ -112,18 +110,18 @@ fruit wall,size,2,Acronychia pedunculata,epicarp when dry to 3 mm thick,361
 fruits,glands,2,Rutaceae,with or without oil-droplets,351
 fruits,indumentum,2,Tetractomia tetrandrum,glabrous or nearly so.,414
 fruits,size,2,Severinia disticha,to 1.5 cm wide,411
-lateral veins,number,2,Monanthocitrus oblanceolata,8--10 pairs,402
+lateral veins,count,2,Monanthocitrus oblanceolata,8--10 pairs,402
 leaves,indumentum,2,Maclurodendron pubescens,pubescent below especially on the midrib and veins,382
 midrib,description,2,Merope angulata,midrib prominent below,395
-ovary,number,2,Burkillanthus,fluted with 5 grooves,361
+ovary,count,2,Burkillanthus,fluted with 5 grooves,361
 pedicels,description,2,Burkillanthus,pedicels short,361
 seeds,texture,2,Monanthocitrus,with or without thin membranous margin,402
 seeds,venation,2,Maclurodendron porteri,surface minutely reticulate,382
-staminodes,number,2,Tetractomia,staminodes 4,412
-style,number,2,Lunasia,styles 3,379
+staminodes,count,2,Tetractomia,staminodes 4,412
+style,count,2,Lunasia,styles 3,379
 twigs,armature,2,Rutaceae,twigs and branches sometimes armed with spines or thorns,351
 anthers,colour,1,Merope angulata,yellow,395
-anthers,number,1,Rutaceae,anthers 2-celled,351
+anthers,count,1,Rutaceae,anthers 2-celled,351
 apex,colour,1,Merope angulata,green when ripe,395
 apex,glands,1,Glycosmis superba,apex glandular-apiculate,379
 apex,indumentum,1,Melicope triphylla,apex sometimes sparsely hairy,394
@@ -133,17 +131,17 @@ blade,size,1,Lunasia amara var. amara,6--60 x (up to) 18 cm,380
 bracts,description,1,Micromelum minutum var. minutum,bracts short deltoid-linear,400
 branches,colour,1,Merope angulata,with paired,395
 buds,colour,1,Glycosmis chlorosperma var. elmeri,buds brownish.,373
+calyx,count,1,Merope,5-lobed,395
 calyx,indumentum,1,Clausena excavata var. excavata,hairy,370
-calyx,number,1,Merope,5-lobed,395
 calyx,size,1,Monanthocitrus oblanceolata,Flowers with calyx c. 2 mm wide,402
+carpels,count,1,Rutaceae,carpels 4--5,351
 carpels,indumentum,1,Tetractomia tetrandrum,glabrous or sparsely hairy,414
-carpels,number,1,Rutaceae,carpels 4--5,351
 disc,glands,1,Glycosmis cyanocarpa var. platyphylla,minutely lobed or glandular,374
 disc,size,1,Glycosmis chlorosperma var. bidiensis,0.8--0.9 mm wide,373
 endosperm,colour,1,Zanthoxylum,endosperm white,416
-flowers,number,1,Zanthoxylum,or perianth segments 6--8 and undifferentiated,416
+flowers,count,1,Zanthoxylum,or perianth segments 6--8 and undifferentiated,416
 fruit wall,colour,1,Citrus,middle layer (mesocarp or albedo) white,362
-fruit wall,number,1,Merrillia,5-chambered,396
+fruit wall,count,1,Merrillia,5-chambered,396
 funiculus,description,1,Melicope confusa,raphe contorted.,389
 habit,glands,1,Rutaceae,tissues usually dotted with lysigenous oil-glands containing volatile essential oils,351
 leaflets,colour,1,Micromelum minutum var. minutum,sometimes drying almost black,400
@@ -157,9 +155,9 @@ margin,venation,1,Tetractomia,pinnately veined,412
 ovules,description,1,Rutaceae,rarely more,351
 pedicels,size,1,Monanthocitrus oblanceolata,on pedicels to 1 cm long,405
 peduncles,size,1,Murraya paniculata var. paniculata,peduncle 1--4 cm long,407
-pulp,number,1,Citrus macroptera var. macroptera,segments 10--12,366
+pulp,count,1,Citrus macroptera var. macroptera,segments 10--12,366
 rachis,indumentum,1,Clausena calciphila,rachis glabrescent,370
-sepals,number,1,Rutaceae,rarely 2--3,351
+sepals,count,1,Rutaceae,rarely 2--3,351
 sepals,texture,1,Pleiospermium longisepalum,chartaceous,410
 stamens,size,1,Murraya paniculata var. paniculata,the longer to 12 mm long,407
 staminodes,description,1,Tetractomia,alternating with the stamens,412

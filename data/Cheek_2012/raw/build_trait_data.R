@@ -539,10 +539,9 @@ desc_unmapped <- pieces |>
     ),
     # Character hints go in the detail field so the summary stays one row per
     # organ.
-    notes = paste0(
-      "UNMAPPED: ",
+    notes = flora_unmapped_note(
       organ,
-      " | description clause | ",
+      "description",
       map_chr(trait_value_raw, character_of)
     ),
     source_section = "Description"
@@ -573,12 +572,13 @@ sec_unmapped <- map(seq_len(nrow(sec_paras)), \(r) {
       trait_value_raw = x,
       pdf_page = pg$pdf,
       printed_page = pg$printed,
-      notes = paste0(
-        "UNMAPPED: ",
+      notes = flora_unmapped_note(
+        "section",
+        "text",
         if (p$status == "hybrid" && p$section == "Description") {
-          "hybrid | comparison with the parents"
+          "hybrid description: comparison with the parents"
         } else {
-          paste(str_to_lower(p$section), "| text")
+          str_to_lower(p$section)
         }
       ),
       source_section = p$section

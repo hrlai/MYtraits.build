@@ -613,10 +613,9 @@ desc_unmapped <- pieces |>
       map_chr(head, organ_of),
       "plant"
     ),
-    notes = paste0(
-      "UNMAPPED: ",
+    notes = flora_unmapped_note(
       organ,
-      " | description clause | ",
+      "description",
       map_chr(trait_value_raw, character_of)
     ),
     source_section = "Description"
@@ -647,7 +646,7 @@ sec_unmapped <- map(seq_len(nrow(sec_paras)), \(r) {
       trait_value_raw = x,
       pdf_page = pg$pdf,
       printed_page = pg$printed,
-      notes = paste0("UNMAPPED: ", str_to_lower(p$section), " | text"),
+      notes = flora_unmapped_note("section", "text", str_to_lower(p$section)),
       source_section = p$section
     )
   }) |>

@@ -587,16 +587,14 @@ parse_description <- function(p) {
     transmute(
       trait = NA_character_,
       trait_value_raw = text,
-      notes = paste0(
-        "UNMAPPED: ",
+      notes = flora_unmapped_note(
         if_else(
           organ %in% c("lamina", "base", "margin", "apex", "lower surface") & sent_organ %in% "leaves",
           paste("leaf", str_replace(organ, "lamina", "blade")),
           coalesce(organ, "unknown organ")
         ),
-        " | ",
         character_of(text),
-        if_else(hedged(text), " | hedged", "")
+        if_else(hedged(text), "hedged", "")
       ),
       pdf_page,
       printed_page
@@ -604,9 +602,10 @@ parse_description <- function(p) {
   aside_rows <- tibble(
     trait = NA_character_,
     trait_value_raw = asides[!str_detect(asides, "^\\((rarely|sometimes|occasionally) [a-z]+\\)$|^\\(immature\\)$|^\\(index ")],
-    notes = paste0(
-      "UNMAPPED: aside | ",
-      if_else(str_detect(trait_value_raw, "elsewhere"), "outside the flora region", "description")
+    notes = flora_unmapped_note(
+      "aside",
+      "description",
+      if_else(str_detect(trait_value_raw, "elsewhere"), "outside the flora region", NA_character_)
     ),
     pdf_page = p$pdf_page,
     printed_page = p$printed_page
@@ -638,7 +637,7 @@ later_unmapped <- later |>
     rank,
     trait = NA_character_,
     trait_value_raw = sentence,
-    notes = paste0("UNMAPPED: ", str_to_lower(section), " | text"),
+    notes = flora_unmapped_note("section", "text", str_to_lower(section)),
     source_section = section,
     pdf_page,
     printed_page

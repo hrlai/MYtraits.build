@@ -1396,8 +1396,9 @@ unmapped_rows <- bind_rows(
     ) |>
     transmute(
       block,
-      organ = NA_character_,
-      character = paste(str_to_lower(section), "text"),
+      organ = "section",
+      character = "text",
+      detail = str_to_lower(section),
       clause = text,
       pdf_page,
       printed_page,
@@ -1422,7 +1423,7 @@ unmapped_rows <- bind_rows(
     source_section,
     pdf_page = as.character(pdf_page),
     printed_page = as.character(printed_page),
-    notes = paste0("UNMAPPED: ", coalesce(organ, "text"), " | ", character),
+    notes = flora_unmapped_note(organ, character, detail),
     source_id = NA_character_
   ) |>
   distinct() |>
