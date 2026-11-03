@@ -1,5 +1,15 @@
 {
   "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "[ \"$(locale charmap 2>/dev/null)\" = UTF-8 ] || [ -z \"$CLAUDE_ENV_FILE\" ] || echo 'export LANG=C.UTF-8 LC_ALL=C.UTF-8' >> \"$CLAUDE_ENV_FILE\""
+          }
+        ]
+      }
+    ],
     "PreToolUse": [
       {
         "matcher": "Bash",

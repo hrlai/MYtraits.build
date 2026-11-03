@@ -37,7 +37,7 @@ id <- "Beentje_2023"
 raw_dir <- file.path("data", id, "raw")
 traits <- yaml::read_yaml("config/traits.yml")$traits$elements
 dict <- flora_load_dict(
-  ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary_seed.csv"
+  ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary.csv"
 )
 dict <- dict[names(dict) %in% names(traits)]
 # Pandanaceae terms missing from the shared dictionary; first, so they win
@@ -505,7 +505,7 @@ score_chunk <- function(cl) {
 }
 
 character_of <- function(x) {
-  lx <- str_to_lower(x)
+  lx <- str_to_lower(flora_strip_specimens(x))
   case_when(
     str_detect(lx, paste0(num, "\\s?", unit_re)) ~ "size",
     str_detect(lx, "prickl|spin|armed|unarmed|thorn|toothlet") ~ "armature",

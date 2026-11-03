@@ -36,6 +36,13 @@ stopifnot(
 )
 o4 <- flora_copy_down(mutate(h2, trait_value_raw = "axillary (Hydrocleys)"), own2, mem)
 stopifnot(nrow(o4) == 0)
+# "many" scopes a statement, but not as a count ("1(-many)-seeded nuts",
+# Ashton_2004)
+stopifnot(
+  nrow(flora_copy_down(mutate(h2, trait_value_raw = "axillary in many species"), own2, mem)) == 0,
+  nrow(flora_copy_down(mutate(h2, trait_value_raw = "axillary, 1(–many)-flowered"), own2, mem)) == 1,
+  nrow(flora_copy_down(mutate(h2, trait_value_raw = "axillary, 1-many-flowered"), own2, mem)) == 1
+)
 # one printed term mapped to two levels: copied only with single_term
 # (Jaman_2020 "Scaly tree ferns"), and only when members agree on all levels
 h5 <- mutate(h2, trait = "plant_growth_form", trait_value = "tree_ferns",

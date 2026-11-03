@@ -48,5 +48,15 @@ local({
 })
 # <<< uvr <<<
 
+# Under a non-UTF-8 locale (C/POSIX, e.g. cloud sessions) readLines() stops at
+# the first non-ASCII character: config/traits.yml then loses most traits with
+# only a warning, and builds change silently.
+if (.Platform$OS.type == "unix" && !isTRUE(l10n_info()$`UTF-8`)) {
+  invisible(Sys.setlocale("LC_CTYPE", "C.UTF-8"))
+  if (!isTRUE(l10n_info()$`UTF-8`)) {
+    warning("Could not set a UTF-8 locale; set LANG=C.UTF-8 before running R.")
+  }
+}
+
 library(traits.build)
 schema <- get_schema()

@@ -14,7 +14,7 @@ id <- "Jones_1995"
 raw_dir <- file.path("data", id, "raw")
 traits <- yaml::read_yaml("config/traits.yml")$traits$elements
 dict <- read_csv(
-  ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary_seed.csv",
+  ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary.csv",
   col_types = cols(.default = "c"),
   na = character()
 ) |>
@@ -722,7 +722,7 @@ score_chunk <- function(organ, x, sent_organ, leaf_kind, parent = NA, sex = NA, 
 
 # rough label for an unmapped chunk
 character_of <- function(x) {
-  lx <- str_to_lower(x)
+  lx <- str_to_lower(flora_strip_specimens(x))
   case_when(
     str_detect(lx, paste0(num, "\\s?", unit_re)) ~ "size",
     str_detect(lx, "hair|glabr|pubesc|tomentos|velvet|velutin|sericeous|ciliate|ciliolate|scurfy|trichome") ~ "indumentum",

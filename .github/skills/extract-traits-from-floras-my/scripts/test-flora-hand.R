@@ -57,4 +57,20 @@ stopifnot(
   ),
   identical(flora_unmapped_note(character(0), "description", "a"), character(0))
 )
+# specimen numbers and cited years go; counts and ranges stay
+stopifnot(
+  !str_detect(
+    flora_strip_specimens(c(
+      "Label on Stone 5623 records", "(Corner SFN 29996)", "(fide Ng FRI 5646)",
+      "in Beentje et al. 75761", "Corner (1978) yellow"
+    )),
+    "\\d"
+  ),
+  identical(
+    flora_strip_specimens(c("Leaves 13--27 per crown", "Syncarps 1--2", "spikes 7")),
+    c("Leaves 13--27 per crown", "Syncarps 1--2", "spikes 7")
+  ),
+  # the known limit (shortcut in flora_assemble.R)
+  identical(flora_strip_specimens("Leaves 120 per crown"), " per crown")
+)
 cat("test-flora-hand: ok\n")

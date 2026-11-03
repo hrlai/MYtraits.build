@@ -1,0 +1,265 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Endocomia canarioides,lectotype,K,K000880130,King’s Coll.,10064,,Ulu Bubong,Perak [Selangor],Peninsular Malaysia,"Type, p.132",Type of the basionym Myristica canarioides King (and its homotypic synonyms).
+Endocomia canarioides,isolectotype,L,L0037209,King’s Coll.,10064,,Ulu Bubong,Perak [Selangor],Peninsular Malaysia,"Type, p.132",Type of the basionym Myristica canarioides King (and its homotypic synonyms).
+Endocomia canarioides,holotype,CAL,,Curtis,934,1886-08,,Penang,Peninsular Malaysia,"Type, p.132",Type of the heterotypic synonym Myristica racemosa King. n.v.
+Endocomia canarioides,isotype,K,K000880132,Curtis,934,1886-08,,Penang,Peninsular Malaysia,"Type, p.132",Type of the heterotypic synonym Myristica racemosa King.
+Endocomia canarioides,isotype,SING,SING0052726,Curtis,934,1886-08,,Penang,Peninsular Malaysia,"Type, p.132",Type of the heterotypic synonym Myristica racemosa King.
+Endocomia canarioides,holotype,SING,,Ridley,6324,,Bt. Mandai,,Singapore,"Type, p.132","Type of the heterotypic synonym ?Embelia ridleyi King & Gamble (synonym queried in the flora). Printed 'holotype SING, not traced'."
+Endocomia canarioides,isotype,K,K000880127,Ridley,6324,,Bt. Mandai,,Singapore,"Type, p.132",Type of the heterotypic synonym ?Embelia ridleyi King & Gamble (synonym queried in the flora).
+Endocomia macrocoma,lectotype,U,,Teijsmann,5553,,Halmahera,,Maluku,"Type, p.134",Type of the basionym Myristica macrocoma Miq..
+Endocomia macrocoma,isolectotype,BM,,Teijsmann,5553,,Halmahera,,Maluku,"Type, p.134",Type of the basionym Myristica macrocoma Miq..
+Endocomia macrocoma subsp. prainii,lectotype,CAL,,King’s Coll.,417,,Andaman Is.,,India,"Type, p.134",Type of the basionym Myristica prainii King.. n.v.
+Endocomia macrocoma subsp. prainii,isolectotype,BM,,King’s Coll.,417,,Andaman Is.,,India,"Type, p.134",Type of the basionym Myristica prainii King..
+Endocomia macrocoma subsp. prainii,isolectotype,K,K000880133,King’s Coll.,417,,Andaman Is.,,India,"Type, p.134",Type of the basionym Myristica prainii King..
+Endocomia macrocoma subsp. prainii,isolectotype,L,L0131093,King’s Coll.,417,,Andaman Is.,,India,"Type, p.134",Type of the basionym Myristica prainii King..
+Gymnacranthera bancana,holotype,U,U0004812,Teijsmann,HB3279,,Bangka,,Sumatra,"Type, p.137",Type of the basionym Myristica bancana Miq..
+Gymnacranthera bancana,holotype,K,K000880124,Murton,13,,,,Singapore,"Type, p.137",Type of the heterotypic synonym Myristica murtonii Hook. f..
+Gymnacranthera bancana,lectotype,BM,,Wallich,6803,,,,Singapore,"Type, p.138",Type of the heterotypic synonym Myristica ferruginea Wall. ex King.
+Gymnacranthera bancana,isolectotype,G,,Wallich,6803,,,,Singapore,"Type, p.138",Type of the heterotypic synonym Myristica ferruginea Wall. ex King. n.v.
+Gymnacranthera bancana,isolectotype,K,K000880123,Wallich,6803,,,,Singapore,"Type, p.138",Type of the heterotypic synonym Myristica ferruginea Wall. ex King.
+Gymnacranthera farquhariana,lectotype,K-WALL,K000880110,Wallich,Cat. 6795,,,,Singapore,"Type, p.140",Type of the basionym Myristica farquhariana Wall. ex Hook. f. & Thomson. Basionym cited 'p.p.'.
+Gymnacranthera farquhariana,isolectotype,BM,BM000884226,Wallich,Cat. 6795,,,,Singapore,"Type, p.140",Type of the basionym Myristica farquhariana Wall. ex Hook. f. & Thomson. Basionym cited 'p.p.'.
+Gymnacranthera farquhariana,lectotype,K,K000880112,Griffith,4356,,,Melaka,Peninsular Malaysia,"Type, p.140",Type of the heterotypic synonym Myristica griffithii Hook. f..
+Gymnacranthera farquhariana,lectotype,K,K000880116,Griffith,4355,,,Melaka,Peninsular Malaysia,"Type, p.140",Type of the heterotypic synonym Myristica farquhariana var. major King.
+Gymnacranthera farquhariana var. eugeniifolia,,FI,,Gaudichaud,116,,,Penang,Peninsular Malaysia,"Type, p.141",Type of the basionym Myristica eugeniifolia A.DC.. No status printed in the flora. n.v.
+Gymnacranthera farquhariana var. eugeniifolia,,G,,Gaudichaud,116,,,Penang,Peninsular Malaysia,"Type, p.141",Type of the basionym Myristica eugeniifolia A.DC.. No status printed in the flora. n.v.
+Gymnacranthera farquhariana var. eugeniifolia,,P,P01965329,Gaudichaud,116,,,Penang,Peninsular Malaysia,"Type, p.141",Type of the basionym Myristica eugeniifolia A.DC.. No status printed in the flora.
+Gymnacranthera farquhariana var. zippeliana,holotype,L,L0037236,Zippelius,s.n.,,Vogelkop,,West Papua,"Type, p.143",Type of the homotypic synonym Gymnacranthera paniculata var. zippeliana (Miq.) J.Sinclair (basionym Myristica zippeliana Miq.).
+Gymnacranthera farquhariana var. zippeliana,isotype,L,L0037237,Zippelius,s.n.,,Vogelkop,,West Papua,"Type, p.143",Type of the homotypic synonym Gymnacranthera paniculata var. zippeliana (Miq.) J.Sinclair (basionym Myristica zippeliana Miq.).
+Gymnacranthera forbesii,lectotype,K,K000880104,Forbes,2976,,Soekaradja,,Sumatra,"Type, p.144",Type of the basionym Myristica forbesii King..
+Gymnacranthera forbesii,isolectotype,BM,BM000884224,Forbes,2976,,Soekaradja,,Sumatra,"Type, p.144",Type of the basionym Myristica forbesii King..
+Gymnacranthera forbesii,isolectotype,L,L0037238–L0037239,Forbes,2976,,Soekaradja,,Sumatra,"Type, p.144",Type of the basionym Myristica forbesii King..
+Horsfieldia brachiata,lectotype,CAL,,Griffith,4351,,,Melaka,Peninsular Malaysia,"Type, p.151",Type of the basionym Myristica brachiata King.. n.v.
+Horsfieldia brachiata,isolectotype,GH,,Griffith,4351,,,Melaka,Peninsular Malaysia,"Type, p.151",Type of the basionym Myristica brachiata King..
+Horsfieldia brachiata,isolectotype,K,K000846887,Griffith,4351,,,Melaka,Peninsular Malaysia,"Type, p.151",Type of the basionym Myristica brachiata King..
+Horsfieldia brachiata,isolectotype,P,,Griffith,4351,,,Melaka,Peninsular Malaysia,"Type, p.151",Type of the basionym Myristica brachiata King..
+Horsfieldia brachiata,isolectotype,U,,Griffith,4351,,,Melaka,Peninsular Malaysia,"Type, p.151",Type of the basionym Myristica brachiata King..
+Horsfieldia crassifolia,holotype,K,K000846918,Griffith,4350,,,Melaka,Peninsular Malaysia,"Type, p.152",Type of the basionym Myristica crassifolia Hook. f. & Thomson..
+Horsfieldia crassifolia,lectotype,CAL,,King’s Coll.,4276,,Larut,Perak,Peninsular Malaysia,"Type, p.152",Type of the heterotypic synonym Myristica paludicola King. Lectotype 'here designated'. n.v.
+Horsfieldia crassifolia,isolectotype,BM,,King’s Coll.,4276,,Larut,Perak,Peninsular Malaysia,"Type, p.152",Type of the heterotypic synonym Myristica paludicola King. Lectotype 'here designated'.
+Horsfieldia crassifolia,isolectotype,K,K000846921,King’s Coll.,4276,,Larut,Perak,Peninsular Malaysia,"Type, p.152",Type of the heterotypic synonym Myristica paludicola King. Lectotype 'here designated'.
+Horsfieldia crassifolia,isolectotype,L,L0132317,King’s Coll.,4276,,Larut,Perak,Peninsular Malaysia,"Type, p.152",Type of the heterotypic synonym Myristica paludicola King. Lectotype 'here designated'.
+Horsfieldia crassifolia,isolectotype,SING,SING0044694–SING0044695,King’s Coll.,4276,,Larut,Perak,Peninsular Malaysia,"Type, p.152",Type of the heterotypic synonym Myristica paludicola King. Lectotype 'here designated'.
+Horsfieldia elongata,holotype,L,L0037275,Stone,10779,,"Fraser’s Hill, start of Pine Tree Hill trail",Pahang,Peninsular Malaysia,"Type, p.155",
+Horsfieldia elongata,isotype,KLU,,Stone,10779,,"Fraser’s Hill, start of Pine Tree Hill trail",Pahang,Peninsular Malaysia,"Type, p.155",n.v.
+Horsfieldia flocculosa,holotype,CAL,,King’s Coll.,8618,,Ulu Kerling,Perak [Selangor],Peninsular Malaysia,"Type, p.155",Type of the basionym Myristica flocculosa King.. n.v.
+Horsfieldia flocculosa,isotype,BM,BM000950742,King’s Coll.,8618,,Ulu Kerling,Perak [Selangor],Peninsular Malaysia,"Type, p.155",Type of the basionym Myristica flocculosa King..
+Horsfieldia flocculosa,isotype,K,,King’s Coll.,8618,,Ulu Kerling,Perak [Selangor],Peninsular Malaysia,"Type, p.155",Type of the basionym Myristica flocculosa King..
+Horsfieldia flocculosa,isotype,L,L0037277–L0037278,King’s Coll.,8618,,Ulu Kerling,Perak [Selangor],Peninsular Malaysia,"Type, p.155",Type of the basionym Myristica flocculosa King..
+Horsfieldia flocculosa,isotype,P,,King’s Coll.,8618,,Ulu Kerling,Perak [Selangor],Peninsular Malaysia,"Type, p.155",Type of the basionym Myristica flocculosa King..
+Horsfieldia fulva,lectotype,CAL,,Scortechini,184a,,Gopeng,Perak,Peninsular Malaysia,"Type, p.158",Type of the basionym Myristica fulva King.. Lectotype 'here designated'. n.v.
+Horsfieldia fulva,isolectotype,BM,BM000950743,Scortechini,184a,,Gopeng,Perak,Peninsular Malaysia,"Type, p.158",Type of the basionym Myristica fulva King.. Lectotype 'here designated'.
+Horsfieldia fulva,isolectotype,K,,Scortechini,184a,,Gopeng,Perak,Peninsular Malaysia,"Type, p.158",Type of the basionym Myristica fulva King.. Lectotype 'here designated'.
+Horsfieldia fulva,isolectotype,L,L0037279–L0037280,Scortechini,184a,,Gopeng,Perak,Peninsular Malaysia,"Type, p.158",Type of the basionym Myristica fulva King.. Lectotype 'here designated'.
+Horsfieldia grandis,holotype,K,K000846956,Low,s.n.,,,Sabah,Borneo,"Type, p.159",Type of the basionym Myristica grandis Hook. f..
+Horsfieldia grandis,holotype,CAL,,King’s Coll.,1233,,,,Singapore,"Type, p.159",Type of the heterotypic synonym Myristica rubiginosa King. n.v.
+Horsfieldia grandis,isotype,K,K000846910,King’s Coll.,1233,,,,Singapore,"Type, p.159",Type of the heterotypic synonym Myristica rubiginosa King.
+Horsfieldia grandis,isotype,L,L0037294,King’s Coll.,1233,,,,Singapore,"Type, p.159",Type of the heterotypic synonym Myristica rubiginosa King.
+Horsfieldia irya,,,,Gaertner,,,a plant from Sri Lanka,,Sri Lanka,"Type, p.160","Type of the basionym Myristica irya Gaertn.. Verbatim: 'Type: Gaertner’s drawing, a plant from Sri Lanka'; no specimen or herbarium given, no status printed."
+Horsfieldia irya,holotype,G,,Lemann,s.n.,,,Melaka,Peninsular Malaysia,"Type, p.161",Type of the heterotypic synonym Myristica lemanniana A.DC.. n.v.
+Horsfieldia irya,lectotype,U,U.1427083,Diepenhorst,HB 2148,,Priaman,,Sumatra,"Type, p.161",Type of the heterotypic synonym Myristica subglobosa Miq.. Lectotype 'here designated'.
+Horsfieldia macilenta,holotype,L,L0037312,Gibot,SAN 37103,,"Tawau, Sg. Balong",Sabah,Borneo,"Type, p.162",
+Horsfieldia macilenta,isotype,SAN,,Gibot,SAN 37103,,"Tawau, Sg. Balong",Sabah,Borneo,"Type, p.162",
+Horsfieldia majuscula,lectotype,BM,,King’s Coll.,5059,,Larut,Perak,Peninsular Malaysia,"Type, p.164",Type of the basionym Myristica majuscula King..
+Horsfieldia majuscula,isolectotype,L,L0037316–L0037317,King’s Coll.,5059,,Larut,Perak,Peninsular Malaysia,"Type, p.164",Type of the basionym Myristica majuscula King..
+Horsfieldia penangiana,holotype,SING,SING0044356,Curtis,2406,,,Penang,Peninsular Malaysia,"Type, p.165",
+Horsfieldia penangiana,isotype,BM,BM000950751,Curtis,2406,,,Penang,Peninsular Malaysia,"Type, p.165",
+Horsfieldia penangiana,isotype,K,,Curtis,2406,,,Penang,Peninsular Malaysia,"Type, p.165",
+Horsfieldia penangiana,isotype,P,,Curtis,2406,,,Penang,Peninsular Malaysia,"Type, p.165",
+Horsfieldia penangiana,isotype,SING,SING0044357–SING0044358,Curtis,2406,,,Penang,Peninsular Malaysia,"Type, p.165",
+Horsfieldia polyspherula,lectotype,K,K000846896,Griffith,4354 (see note in Sinclair (1958) 425),,,Melaka,Peninsular Malaysia,"Type, p.167",Type of the basionym Myristica polyspherula Hook. f.. Basionym cited 'p.p.'; flora refers to a note by Sinclair.
+Horsfieldia polyspherula,isolectotype,BM,,Griffith,4354 (see note in Sinclair (1958) 425),,,Melaka,Peninsular Malaysia,"Type, p.167",Type of the basionym Myristica polyspherula Hook. f.. Basionym cited 'p.p.'; flora refers to a note by Sinclair.
+Horsfieldia polyspherula,isolectotype,P,P01718053,Griffith,4354 (see note in Sinclair (1958) 425),,,Melaka,Peninsular Malaysia,"Type, p.167",Type of the basionym Myristica polyspherula Hook. f.. Basionym cited 'p.p.'; flora refers to a note by Sinclair.
+Horsfieldia polyspherula,isolectotype,U,U.1428736,Griffith,4354 (see note in Sinclair (1958) 425),,,Melaka,Peninsular Malaysia,"Type, p.167",Type of the basionym Myristica polyspherula Hook. f.. Basionym cited 'p.p.'; flora refers to a note by Sinclair.
+Horsfieldia polyspherula var. sumatrana,lectotype,L,L0037345,Korthals,s.n.,,,,W Sumatra,"Type, p.169",Type of the basionym Myristica glabra var. sumatrana Miq.. Lectotype 'here designated'; the homotypic synonym var. sumatrana (Miq.) Whitmore is nom. inval.
+Horsfieldia polyspherula var. sumatrana,isolectotype,K,,Korthals,s.n.,,,,W Sumatra,"Type, p.169",Type of the basionym Myristica glabra var. sumatrana Miq.. Lectotype 'here designated'; the homotypic synonym var. sumatrana (Miq.) Whitmore is nom. inval.
+Horsfieldia polyspherula var. sumatrana,isolectotype,U,,Korthals,s.n.,,,,W Sumatra,"Type, p.169",Type of the basionym Myristica glabra var. sumatrana Miq.. Lectotype 'here designated'; the homotypic synonym var. sumatrana (Miq.) Whitmore is nom. inval.
+Horsfieldia polyspherula var. sumatrana,lectotype,CAL,,King’s Coll.,3899,,Larut,,Peninsular Malaysia,"Type, p.169",Type of the heterotypic synonym Myristica collettiana King. n.v.
+Horsfieldia polyspherula var. sumatrana,isolectotype,BM,,King’s Coll.,3899,,Larut,,Peninsular Malaysia,"Type, p.169",Type of the heterotypic synonym Myristica collettiana King.
+Horsfieldia polyspherula var. sumatrana,isolectotype,K,,King’s Coll.,3899,,Larut,,Peninsular Malaysia,"Type, p.169",Type of the heterotypic synonym Myristica collettiana King.
+Horsfieldia polyspherula var. sumatrana,isolectotype,L,L0037342,King’s Coll.,3899,,Larut,,Peninsular Malaysia,"Type, p.169",Type of the heterotypic synonym Myristica collettiana King.
+Horsfieldia polyspherula var. sumatrana,holotype,L,L0037336,Cockburn,FRI 7934,,"Ulu Endau FR, Comp. 285",Johor,Peninsular Malaysia,"Type, p.169","Type of the heterotypic synonym Horsfieldia perangusta W.J.de Wilde. Printed 'p.p., for the fruit only'; isotypes 'see note'; holotype barcode printed 'barcodes L0037336'."
+Horsfieldia polyspherula var. sumatrana,isotype,KEP,KEP147135,Cockburn,FRI 7934,,"Ulu Endau FR, Comp. 285",Johor,Peninsular Malaysia,"Type, p.169","Type of the heterotypic synonym Horsfieldia perangusta W.J.de Wilde. Printed 'p.p., for the fruit only'; isotypes 'see note'; holotype barcode printed 'barcodes L0037336'."
+Horsfieldia polyspherula var. sumatrana,isotype,L,L0037337,Cockburn,FRI 7934,,"Ulu Endau FR, Comp. 285",Johor,Peninsular Malaysia,"Type, p.169","Type of the heterotypic synonym Horsfieldia perangusta W.J.de Wilde. Printed 'p.p., for the fruit only'; isotypes 'see note'; holotype barcode printed 'barcodes L0037336'."
+Horsfieldia pulcherrima,holotype,L,L0037348,Cockburn,FRI 8008,,Labis FR,Johor,Peninsular Malaysia,"Type, p.170",
+Horsfieldia pulcherrima,isotype,K,K000846879,Cockburn,FRI 8008,,Labis FR,Johor,Peninsular Malaysia,"Type, p.170",
+Horsfieldia pulcherrima,isotype,KEP,KEP147500,Cockburn,FRI 8008,,Labis FR,Johor,Peninsular Malaysia,"Type, p.170",
+Horsfieldia punctata,holotype,L,L0037349,Burgess,FRI 9014,,"Fraser’s Hill, Bt. Jeriau",Pahang,Peninsular Malaysia,"Type, p.171",
+Horsfieldia punctata,isotype,K,K000846961,Burgess,FRI 9014,,"Fraser’s Hill, Bt. Jeriau",Pahang,Peninsular Malaysia,"Type, p.171",
+Horsfieldia punctata,isotype,KEP,KEP147503,Burgess,FRI 9014,,"Fraser’s Hill, Bt. Jeriau",Pahang,Peninsular Malaysia,"Type, p.171",
+Horsfieldia punctatifolia,holotype,SING,SING0044355,Sinclair,SFN 40211,,"Liane Road, Singapore Botanical Gardens",,Singapore,"Type, p.172",
+Horsfieldia punctatifolia,isotype,K,,Sinclair,SFN 40211,,"Liane Road, Singapore Botanical Gardens",,Singapore,"Type, p.172",n.v.
+Horsfieldia punctatifolia,isotype,KEP,KEP147525,Sinclair,SFN 40211,,"Liane Road, Singapore Botanical Gardens",,Singapore,"Type, p.172",
+Horsfieldia punctatifolia,isotype,L,L0037350,Sinclair,SFN 40211,,"Liane Road, Singapore Botanical Gardens",,Singapore,"Type, p.172",
+Horsfieldia punctatifolia,isotype,P,P01718049,Sinclair,SFN 40211,,"Liane Road, Singapore Botanical Gardens",,Singapore,"Type, p.172",
+Horsfieldia punctatifolia,isotype,SING,SING0045574,Sinclair,SFN 40211,,"Liane Road, Singapore Botanical Gardens",,Singapore,"Type, p.172",
+Horsfieldia ridleyana,lectotype,CAL,,Scortechini,862,,,Perak,Peninsular Malaysia,"Type, p.173",Type of the basionym Myristica ridleyana King.. n.v.
+Horsfieldia ridleyana,isolectotype,BM,,Scortechini,862,,,Perak,Peninsular Malaysia,"Type, p.173",Type of the basionym Myristica ridleyana King..
+Horsfieldia ridleyana,isolectotype,K,,Scortechini,862,,,Perak,Peninsular Malaysia,"Type, p.173",Type of the basionym Myristica ridleyana King..
+Horsfieldia ridleyana,isolectotype,L,L0916639,Scortechini,862,,,Perak,Peninsular Malaysia,"Type, p.173","Type of the basionym Myristica ridleyana King.. Printed 'L (not numbered, barcode L0916639)'."
+Horsfieldia ridleyana,isolectotype,SING,SING0052727–SING0052729,Scortechini,862,,,Perak,Peninsular Malaysia,"Type, p.173",Type of the basionym Myristica ridleyana King..
+Horsfieldia sparsa,holotype,L,L0037356,Ogata,FRI 110406,,Labis FR,Johor,Peninsular Malaysia,"Type, p.175",
+Horsfieldia sparsa,isotype,K,,Ogata,FRI 110406,,Labis FR,Johor,Peninsular Malaysia,"Type, p.175",
+Horsfieldia sparsa,isotype,KEP,KEP147553,Ogata,FRI 110406,,Labis FR,Johor,Peninsular Malaysia,"Type, p.175",
+Horsfieldia sparsa,isotype,SING,SING0222438,Ogata,FRI 110406,,Labis FR,Johor,Peninsular Malaysia,"Type, p.175",
+Horsfieldia subalpina,holotype,K,K000846900,Wray,467,,G. Batu Putih,Perak,Peninsular Malaysia,"Type, p.176",
+Horsfieldia subalpina,isotype,BM,,Wray,467,,G. Batu Putih,Perak,Peninsular Malaysia,"Type, p.176",
+Horsfieldia subalpina,isotype,L,L0037365,Wray,467,,G. Batu Putih,Perak,Peninsular Malaysia,"Type, p.176",
+Horsfieldia sucosa,lectotype,K,,King’s Coll.,4647,,Gopeng,Perak,Peninsular Malaysia,"Type, p.178",Type of the basionym Myristica sucosa King..
+Horsfieldia sucosa,isolectotype,CAL,,King’s Coll.,4647,,Gopeng,Perak,Peninsular Malaysia,"Type, p.178",Type of the basionym Myristica sucosa King.. n.v.
+Horsfieldia sucosa,isolectotype,L,L0037375 & L0037376,King’s Coll.,4647,,Gopeng,Perak,Peninsular Malaysia,"Type, p.178",Type of the basionym Myristica sucosa King..
+Horsfieldia sucosa,holotype,SING,,Henderson,SFN 24521,,Tembeling,Pahang,Peninsular Malaysia,"Type, p.178",Type of the heterotypic synonym Horsfieldia bracteosa M.R.Hend..
+Horsfieldia sucosa,isotype,K,K000846897,Henderson,SFN 24521,,Tembeling,Pahang,Peninsular Malaysia,"Type, p.178",Type of the heterotypic synonym Horsfieldia bracteosa M.R.Hend..
+Horsfieldia superba,lectotype,K,K000846914,Phillips,s.n.,,,Penang,Peninsular Malaysia,"Type, p.179",Type of the basionym Myristica superba Hook.f. & Thomson.. Lectotype 'here designated'.
+Horsfieldia superba,isolectotype,K,K000846913,Phillips,s.n.,,,Penang,Peninsular Malaysia,"Type, p.179",Type of the basionym Myristica superba Hook.f. & Thomson.. Lectotype 'here designated'.
+Horsfieldia tomentosa,holotype,K-Wall,K000846909,Wallich,Cat. 9025 (“Myristicea?”),,,Penang,Peninsular Malaysia,"Type, p.181",Type of the synonym Myristica tomentosa Hook. f. & Thomson (nom. illeg.).
+Horsfieldia tomentosa,isotype,BM,,Wallich,Cat. 9025 (“Myristicea?”),,,Penang,Peninsular Malaysia,"Type, p.181",Type of the synonym Myristica tomentosa Hook. f. & Thomson (nom. illeg.).
+Horsfieldia wallichii,lectotype,K,,Griffith,s.n.,,,Melaka,Peninsular Malaysia,"Type, p.182","Type of the basionym Myristica wallichii Hook. f. & Thomson. Basionym cited 'p.p.' (Wallich Cat. 6806 being a mixture, see note by Sinclair 1975: 158)."
+Knema andamanica,lectotype,K,K000880920,King’s Coll.,s.n.,1890-12-27,"Port Mouat, Andaman Is.",,India,"Type, p.191",Type of the basionym Knema glauca var. andamanica Warb. and the homotypic synonym K. cinerea var. andamanica.
+Knema andamanica subsp. nicobarica,lectotype,CAL,,King’s Coll.,536,,Nicobar Is.,,,"Type, p.191",Type of the basionym Knema glauca var. nicobarica Warb.. n.v.
+Knema andamanica subsp. nicobarica,isolectotype,BM,,King’s Coll.,536,,Nicobar Is.,,,"Type, p.191",Type of the basionym Knema glauca var. nicobarica Warb..
+Knema andamanica subsp. nicobarica,isolectotype,L,L0037395,King’s Coll.,536,,Nicobar Is.,,,"Type, p.191",Type of the basionym Knema glauca var. nicobarica Warb..
+Knema communis,holotype,SING,SING0046033,Sinclair,SFN 40522,,Garden’s Jungle,,Singapore,"Type, p.192",
+Knema communis,isotype,BM,BM000950811,Sinclair,SFN 40522,,Garden’s Jungle,,Singapore,"Type, p.192",
+Knema communis,isotype,E,E00393075,Sinclair,SFN 40522,,Garden’s Jungle,,Singapore,"Type, p.192",
+Knema communis,isotype,K,,Sinclair,SFN 40522,,Garden’s Jungle,,Singapore,"Type, p.192",
+Knema communis,isotype,KEP,KEP146745,Sinclair,SFN 40522,,Garden’s Jungle,,Singapore,"Type, p.192",
+Knema communis,isotype,L,L0037403,Sinclair,SFN 40522,,Garden’s Jungle,,Singapore,"Type, p.192",
+Knema communis,isotype,M,M0240326,Sinclair,SFN 40522,,Garden’s Jungle,,Singapore,"Type, p.192",
+Knema communis,isotype,P,P00710085,Sinclair,SFN 40522,,Garden’s Jungle,,Singapore,"Type, p.192",
+Knema communis,isotype,SAN,,Sinclair,SFN 40522,,Garden’s Jungle,,Singapore,"Type, p.192",
+Knema communis,isotype,SING,SING0046034–SING0046035,Sinclair,SFN 40522,,Garden’s Jungle,,Singapore,"Type, p.192","Printed 'SING, barcodes SING0046034–SING0046035': an unnumbered SING isotype may be cited in addition."
+Knema conferta,lectotype,CAL,,King’s Coll.,6211,,Larut,Perak,Peninsular Malaysia,"Type, p.193",Type of the basionym Myristica conferta King.. n.v.
+Knema conferta,isolectotype,K,K000854610,King’s Coll.,6211,,Larut,Perak,Peninsular Malaysia,"Type, p.193",Type of the basionym Myristica conferta King..
+Knema conferta,isolectotype,L,L0037404,King’s Coll.,6211,,Larut,Perak,Peninsular Malaysia,"Type, p.193",Type of the basionym Myristica conferta King..
+Knema curtisii,lectotype,CAL,,Scortechini,292,,,Perak,Peninsular Malaysia,"Type, p.194",Type of the basionym Myristica curtisii King.. n.v.
+Knema curtisii,isolectotype,K,,Scortechini,292,,,Perak,Peninsular Malaysia,"Type, p.194",Type of the basionym Myristica curtisii King..
+Knema curtisii,isolectotype,L,L0062683–L0062684,Scortechini,292,,,Perak,Peninsular Malaysia,"Type, p.194",Type of the basionym Myristica curtisii King..
+Knema curtisii var. paludosa,holotype,K,K000854608,Corner,SFN 26155,,Jurong,,Singapore,"Type, p.196",
+Knema curtisii var. paludosa,isotype,SING,SING0046041,Corner,SFN 26155,,Jurong,,Singapore,"Type, p.196",
+Knema furfuracea,holotype,K,K000854598,Porter or Wallich in Herb. Hooker.,s.n.,,,Penang,Peninsular Malaysia,"Type, p.198",Type of the basionym Myristica furfuracea Hook. f. & Thomson..
+Knema glauca,lectotype,L,L0037411,Blume,s.n.,,"Salak, fruit",,W Java,"Type, p.200",Type of the basionym Myristica glauca Blume.. Lectotype 'here designated'.
+Knema glauca,isolectotype,L,L0037413 & L0037422,Blume,s.n.,,"Salak, fruit",,W Java,"Type, p.200",Type of the basionym Myristica glauca Blume.. Lectotype 'here designated'.
+Knema glaucescens,holotype,L,L0037424,Jack,s.n.,,Bencoolen,,Sumatra,"Type, p.201",Type of the species (basionym of the homotypic synonym Myristica glaucescens (Jack) Hook. f. & Thomson).
+Knema glaucescens,lectotype,U,U0004828,Teijsmann,3620,,Batu Radja,,Sumatra,"Type, p.201",Type of the synonym Myristica geminata Miq. Lectotype 'here designated'.
+Knema glaucescens,isolectotype,MEL,MEL612018,Teijsmann,3620,,Batu Radja,,Sumatra,"Type, p.201",Type of the synonym Myristica geminata Miq. Lectotype 'here designated'.
+Knema glaucescens,isolectotype,U,U0004827,Teijsmann,3620,,Batu Radja,,Sumatra,"Type, p.201",Type of the synonym Myristica geminata Miq. Lectotype 'here designated'.
+Knema globularia,holotype,P,,Sonnerat,s.n.,,,,Peninsular Malaysia (?),"Type, p.202",Type of the basionym Myristica globularia Lam.. Locality queried in the flora; holotype P is 'in Herbarium Lamarck n.v.'. in Herbarium Lamarck n.v.
+Knema globularia,isotype,C,C10015454,Sonnerat,s.n.,,,,Peninsular Malaysia (?),"Type, p.202",Type of the basionym Myristica globularia Lam.. Locality queried in the flora; holotype P is 'in Herbarium Lamarck n.v.'.
+Knema globularia,holotype,BM,BM000950773,Loureiro,s.n.,,,,Cochinchina,"Type, p.202",Type of the heterotypic synonym Knema corticosa Lour..
+Knema globularia,holotype,K,K000854628,Cantley,31 ‘131’,,,Melaka,Peninsular Malaysia,"Type, p.202",Type of the heterotypic synonym Myristica sphaerula Hook. f..
+Knema globularia,holotype,K,K001124827,Wall.,Cat. 6788,,,Penang,Peninsular Malaysia,"Type, p.203","Type of the heterotypic synonym Myristica missionis Wall. ex King. Printed 'holotype K, barcode K001124827'."
+Knema hookeriana,holotype,K,K000854594,Wallich,Cat. 6802A,,,Penang,Peninsular Malaysia,"Type, p.204",Type of the basionym Myristica hookeriana Wall. ex Hook. f. & Thomson..
+Knema hookeriana,isotype,BM,BM000950787,Wallich,Cat. 6802A,,,Penang,Peninsular Malaysia,"Type, p.204",Type of the basionym Myristica hookeriana Wall. ex Hook. f. & Thomson..
+Knema intermedia,holotype,L,L0037437,Blume,s.n.,,,,West Java,"Type, p.205",Type of the basionym Myristica intermedia Blume..
+Knema kunstleri,lectotype,CAL,,King’s Coll.,4216,,Larut,Perak,Peninsular Malaysia,"Type, p.207",Type of the basionym Myristica kunstleri King.. n.v.
+Knema kunstleri,isolectotype,BM,,King’s Coll.,4216,,Larut,Perak,Peninsular Malaysia,"Type, p.207",Type of the basionym Myristica kunstleri King..
+Knema kunstleri,isolectotype,K,K000854616,King’s Coll.,4216,,Larut,Perak,Peninsular Malaysia,"Type, p.207",Type of the basionym Myristica kunstleri King..
+Knema kunstleri,isolectotype,L,L0037450–L0037451,King’s Coll.,4216,,Larut,Perak,Peninsular Malaysia,"Type, p.207",Type of the basionym Myristica kunstleri King..
+Knema lamellaria,holotype,L,L0037458,Whitmore,FRI 3482,,Krau Game Reserve,Pahang,Peninsular Malaysia,"Type, p.208",
+Knema lamellaria,isotype,KEP,KEP52510,Whitmore,FRI 3482,,Krau Game Reserve,Pahang,Peninsular Malaysia,"Type, p.208",
+Knema latericia,holotype,A,A00039815,Elmer,12757,,Palawan,,the Philippines,"Type, p.209",
+Knema latericia,isotype,BISH,BISH1003473,Elmer,12757,,Palawan,,the Philippines,"Type, p.209",
+Knema latericia,isotype,BM,,Elmer,12757,,Palawan,,the Philippines,"Type, p.209",
+Knema latericia,isotype,K,K000854542,Elmer,12757,,Palawan,,the Philippines,"Type, p.209",
+Knema latericia,isotype,L,L0037465,Elmer,12757,,Palawan,,the Philippines,"Type, p.209",
+Knema latericia,isotype,P,P02026851,Elmer,12757,,Palawan,,the Philippines,"Type, p.209",
+Knema latericia,isotype,US,US00098957,Elmer,12757,,Palawan,,the Philippines,"Type, p.209",
+Knema latericia subsp. ridleyi,,LY,,Ridley,s.n.,1898,,,Singapore,"Type, p.209",Type of the basionym Myristica ridleyi Gand.. No status printed in the flora. n.v.
+Knema latericia subsp. ridleyi,lectotype,SING,SING0044611,Sinclair,SFN 38561,,MacRitchie Reservoir,,Singapore,"Type, p.209",Type of the heterotypic synonym Knema meridionalis J.Sinclair.
+Knema latericia subsp. ridleyi,isolectotype,K,K000854599,Sinclair,SFN 38561,,MacRitchie Reservoir,,Singapore,"Type, p.209",Type of the heterotypic synonym Knema meridionalis J.Sinclair.
+Knema laurina,lectotype,L,L0037472,Blume,s.n.,,,,Java,"Type, p.211",Type of the basionym Myristica laurina Blume.. Lectotype 'here designated'.
+Knema laurina,isolectotype,L,L0037473,Blume,s.n.,,,,Java,"Type, p.211",Type of the basionym Myristica laurina Blume.. Lectotype 'here designated'.
+Knema laurina,holotype,K,K000854629,Cantley,195,,,,Singapore,"Type, p.211",Type of the heterotypic synonym Myristica cantleyi Hook. f..
+Knema laurina var. heteropilis,holotype,LY,,Junghuhn,s.n.,1855,,,Java,"Type, p.212",Type of the homotypic synonym Knema furfurascens Gand. (in clavi). n.v.
+Knema laurina var. heteropilis,isotype,L,L0586371–L0586375,Junghuhn,s.n.,1855,,,Java,"Type, p.212",Type of the homotypic synonym Knema furfurascens Gand. (in clavi).
+Knema malayana,lectotype,BM,,King’s Coll.,10594,,Ulu Bubong,Perak [Selangor],Peninsular Malaysia,"Type, p.213",Lectotype 'here designated'.
+Knema malayana,isolectotype,L,L1772730,King’s Coll.,10594,,Ulu Bubong,Perak [Selangor],Peninsular Malaysia,"Type, p.213",Lectotype 'here designated'.
+Knema mandaharan,holotype,U,U0004832,Diepenhorst,HB 3091,,,,Sumatra,"Type, p.215",Type of the basionym Myristica mandaharan Miq..
+Knema mandaharan,isotype,BO,,Diepenhorst,HB 3091,,,,Sumatra,"Type, p.215",Type of the basionym Myristica mandaharan Miq.. n.v.
+Knema mandaharan,isotype,U,U0004833,Diepenhorst,HB 3091,,,,Sumatra,"Type, p.215",Type of the basionym Myristica mandaharan Miq..
+Knema oblongifolia,lectotype,CAL,,King’s Coll.,5983,,Larut,Perak,Peninsular Malaysia,"Type, p.216",Type of the basionym Myristica oblongifolia King.. Basionym cited 'p.p.'. n.v.
+Knema oblongifolia,isolectotype,E,,King’s Coll.,5983,,Larut,Perak,Peninsular Malaysia,"Type, p.216",Type of the basionym Myristica oblongifolia King.. Basionym cited 'p.p.'.
+Knema oblongifolia,isolectotype,K,K000854625,King’s Coll.,5983,,Larut,Perak,Peninsular Malaysia,"Type, p.216",Type of the basionym Myristica oblongifolia King.. Basionym cited 'p.p.'.
+Knema oblongifolia,isolectotype,L,L0037499–L0037500,King’s Coll.,5983,,Larut,Perak,Peninsular Malaysia,"Type, p.216",Type of the basionym Myristica oblongifolia King.. Basionym cited 'p.p.'.
+Knema oblongifolia,isolectotype,SING,,King’s Coll.,5983,,Larut,Perak,Peninsular Malaysia,"Type, p.216",Type of the basionym Myristica oblongifolia King.. Basionym cited 'p.p.'.
+Knema oblongifolia var. monticola,lectotype,CAL,,Wray,1087,,G. Batu Putih [Puteh],Perak,Peninsular Malaysia,"Type, p.217",Type of the basionym Myristica oblongifolia var. monticola King.. Printed 'Wray1087'. n.v.
+Knema oblongifolia var. monticola,isolectotype,K,,Wray,1087,,G. Batu Putih [Puteh],Perak,Peninsular Malaysia,"Type, p.217",Type of the basionym Myristica oblongifolia var. monticola King.. Printed 'Wray1087'.
+Knema oblongifolia var. monticola,isolectotype,L,L0037505,Wray,1087,,G. Batu Putih [Puteh],Perak,Peninsular Malaysia,"Type, p.217",Type of the basionym Myristica oblongifolia var. monticola King.. Printed 'Wray1087'.
+Knema patentinervia,holotype,SING,SING0044616,Ludin,CF 1873,,"Kuala Pilah, Selaru",Negeri Sembilan,Peninsular Malaysia,"Type, p.218",Type of the homotypic synonym Knema cinerea var. patentinervia forma patentinervia J.Sinclair (basionym Knema glaucescens var. patentinervia J.Sinclair).
+Knema patentinervia,isotype,K,,Ludin,CF 1873,,"Kuala Pilah, Selaru",Negeri Sembilan,Peninsular Malaysia,"Type, p.218",Type of the homotypic synonym Knema cinerea var. patentinervia forma patentinervia J.Sinclair (basionym Knema glaucescens var. patentinervia J.Sinclair).
+Knema patentinervia,isotype,KEP,KEP149269,Ludin,CF 1873,,"Kuala Pilah, Selaru",Negeri Sembilan,Peninsular Malaysia,"Type, p.218",Type of the homotypic synonym Knema cinerea var. patentinervia forma patentinervia J.Sinclair (basionym Knema glaucescens var. patentinervia J.Sinclair).
+Knema plumulosa,holotype,SING,,Sinclair & Kiah,SFN 40455,,,Terengganu,Peninsular Malaysia,"Type, p.219",
+Knema plumulosa,isotype,BM,BM000950796,Sinclair & Kiah,SFN 40455,,,Terengganu,Peninsular Malaysia,"Type, p.219",
+Knema plumulosa,isotype,K,,Sinclair & Kiah,SFN 40455,,,Terengganu,Peninsular Malaysia,"Type, p.219",
+Knema plumulosa,isotype,L,L0037516,Sinclair & Kiah,SFN 40455,,,Terengganu,Peninsular Malaysia,"Type, p.219",
+Knema plumulosa,isotype,P,,Sinclair & Kiah,SFN 40455,,,Terengganu,Peninsular Malaysia,"Type, p.219",
+Knema pseudolaurina,lectotype,BM,BM000950785,Curtis,1044,,,Penang,Peninsular Malaysia,"Type, p.221",
+Knema pulchra,lectotype,L,L0037523,Korthals,s.n.,,G. Sakoembang,,Kalimantan,"Type, p.222",Type of the basionym Myristica pulchra Miq.. Lectotype 'here designated'.
+Knema pulchra,isolectotype,L,L0037521,Korthals,s.n.,,G. Sakoembang,,Kalimantan,"Type, p.222",Type of the basionym Myristica pulchra Miq.. Lectotype 'here designated'.
+Knema pulchra,isolectotype,U,U0004834,Korthals,s.n.,,G. Sakoembang,,Kalimantan,"Type, p.222",Type of the basionym Myristica pulchra Miq.. Lectotype 'here designated'.
+Knema pulchra,holotype,SING,,Sinclair & Kiah,SFN 39959,,38th mile Teregganu-Besut Road,Terengganu,Peninsular Malaysia,"Type, p.222",Type of the heterotypic synonym Knema glaucescens var. cordata J.Sinclair.
+Knema pulchra,isotype,BM,BM000950779,Sinclair & Kiah,SFN 39959,,38th mile Teregganu-Besut Road,Terengganu,Peninsular Malaysia,"Type, p.222",Type of the heterotypic synonym Knema glaucescens var. cordata J.Sinclair.
+Knema pulchra,isotype,K,,Sinclair & Kiah,SFN 39959,,38th mile Teregganu-Besut Road,Terengganu,Peninsular Malaysia,"Type, p.222",Type of the heterotypic synonym Knema glaucescens var. cordata J.Sinclair.
+Knema pulchra,isotype,KEP,KEP150581,Sinclair & Kiah,SFN 39959,,38th mile Teregganu-Besut Road,Terengganu,Peninsular Malaysia,"Type, p.222",Type of the heterotypic synonym Knema glaucescens var. cordata J.Sinclair.
+Knema pulchra,isotype,L,L0037520,Sinclair & Kiah,SFN 39959,,38th mile Teregganu-Besut Road,Terengganu,Peninsular Malaysia,"Type, p.222",Type of the heterotypic synonym Knema glaucescens var. cordata J.Sinclair.
+Knema pulchra,isotype,P,,Sinclair & Kiah,SFN 39959,,38th mile Teregganu-Besut Road,Terengganu,Peninsular Malaysia,"Type, p.222",Type of the heterotypic synonym Knema glaucescens var. cordata J.Sinclair.
+Knema retusa,holotype,CAL,,King’s Coll.,7690,,G. Bubu,Perak,Peninsular Malaysia,"Type, p.224",Type of the basionym Myristica retusa King.. n.v.
+Knema retusa,isotype,K,K000854623,King’s Coll.,7690,,G. Bubu,Perak,Peninsular Malaysia,"Type, p.224",Type of the basionym Myristica retusa King..
+Knema retusa,isotype,L,L0037524,King’s Coll.,7690,,G. Bubu,Perak,Peninsular Malaysia,"Type, p.224",Type of the basionym Myristica retusa King..
+Knema retusa,isotype,P,,King’s Coll.,7690,,G. Bubu,Perak,Peninsular Malaysia,"Type, p.224",Type of the basionym Myristica retusa King..
+Knema rigidifolia,holotype,SING,SING0044620,Corner,SFN 33226,,"Fraser’s Hill, path to Pine Tree Hill",Pahang,Peninsular Malaysia,"Type, p.225",
+Knema rigidifolia,isotype,K,,Corner,SFN 33226,,"Fraser’s Hill, path to Pine Tree Hill",Pahang,Peninsular Malaysia,"Type, p.225",
+Knema rigidifolia,isotype,L,L0037529,Corner,SFN 33226,,"Fraser’s Hill, path to Pine Tree Hill",Pahang,Peninsular Malaysia,"Type, p.225",
+Knema rigidifolia subsp. camerona,holotype,K,K000854607,Henderson,s.n.,1930-04-10,"Cameron Highlands, Rhododendron Hill",Pahang,Peninsular Malaysia,"Type, p.226",
+Knema rubens,holotype,SING,SING0011767,Ridley,4819,,Reservoir Woods,,Singapore,"Type, p.228",Type of the basionym Knema glaucescens var. glaucescens forma rubens J.Sinclair..
+Knema rubens,isotype,K,K000854630,Ridley,4819,,Reservoir Woods,,Singapore,"Type, p.228",Type of the basionym Knema glaucescens var. glaucescens forma rubens J.Sinclair..
+Knema scortechinii,lectotype,CAL,,King’s Coll.,5617,,Chenderiang,Perak,Peninsular Malaysia,"Type, p.229",Type of the basionym Myristica scortechinii King.. n.v.
+Knema scortechinii,isolectotype,BM,BM000950801,King’s Coll.,5617,,Chenderiang,Perak,Peninsular Malaysia,"Type, p.229",Type of the basionym Myristica scortechinii King..
+Knema scortechinii,isolectotype,K,,King’s Coll.,5617,,Chenderiang,Perak,Peninsular Malaysia,"Type, p.229",Type of the basionym Myristica scortechinii King..
+Knema scortechinii,isolectotype,L,L0037533,King’s Coll.,5617,,Chenderiang,Perak,Peninsular Malaysia,"Type, p.229",Type of the basionym Myristica scortechinii King..
+Knema stenophylla,,FI,,Kehding,150 in Herb. Beccari 7714,,Klang,Selangor,Peninsular Malaysia,"Type, p.230",Type of the basionym Gymnacranthera stenophylla Warb.. No status printed in the flora. n.v.
+Knema sumatrana,lectotype,L,L0037582,Korthals,s.n.,,"Padang, male",,Sumatra,"Type, p.232",Type of the basionym Myristica sumatrana Blume.. Lectotype 'here designated'.
+Knema sumatrana,lectotype,BM,BM000950807,King’s Coll.,10444,,Ulu Bubong,Perak [Selangor],Peninsular Malaysia,"Type, p.232",Type of the synonym Myristica wrayi King.
+Knema sumatrana,isolectotype,G,G00340909,King’s Coll.,10444,,Ulu Bubong,Perak [Selangor],Peninsular Malaysia,"Type, p.232",Type of the synonym Myristica wrayi King.
+Knema sumatrana,isolectotype,K,,King’s Coll.,10444,,Ulu Bubong,Perak [Selangor],Peninsular Malaysia,"Type, p.232",Type of the synonym Myristica wrayi King.
+Knema sumatrana,isolectotype,L,L0037577,King’s Coll.,10444,,Ulu Bubong,Perak [Selangor],Peninsular Malaysia,"Type, p.232",Type of the synonym Myristica wrayi King.
+Myristica cinnamomea,lectotype,CAL,,King’s Coll.,7474,,,Perak,Peninsular Malaysia,"Type, p.236",n.v.
+Myristica cinnamomea,isolectotype,BM,BM000950836,King’s Coll.,7474,,,Perak,Peninsular Malaysia,"Type, p.236",
+Myristica cinnamomea,isolectotype,K,K000880065,King’s Coll.,7474,,,Perak,Peninsular Malaysia,"Type, p.236",
+Myristica cinnamomea,isolectotype,L,L0037601,King’s Coll.,7474,,,Perak,Peninsular Malaysia,"Type, p.236",
+Myristica cinnamomea,isolectotype,P,P01955458,King’s Coll.,7474,,,Perak,Peninsular Malaysia,"Type, p.236",
+Myristica crassa,lectotype,CAL,,King’s Coll.,5065,,Larut,Perak,Peninsular Malaysia,"Type, p.238",n.v.
+Myristica crassa,isolectotype,K,K000880061,King’s Coll.,5065,,Larut,Perak,Peninsular Malaysia,"Type, p.238",
+Myristica crassa,isolectotype,L,L0037617,King’s Coll.,5065,,Larut,Perak,Peninsular Malaysia,"Type, p.238",
+Myristica crassa,,CAL,,Cantley (Singapore Botanic Garden Collectors),s.n.,,Selandor,Melaka,Peninsular Malaysia,"Type, p.238",Type of the heterotypic synonym Myristica suavis King. No status printed. n.v.
+Myristica depressa,holotype,L,L0037626,Ilias Paie,S 39018,,Miri,Sarawak,Borneo,"Type, p.240",
+Myristica depressa,isotype,K,K000880167,Ilias Paie,S 39018,,Miri,Sarawak,Borneo,"Type, p.240",
+Myristica depressa,isotype,SAR,,Ilias Paie,S 39018,,Miri,Sarawak,Borneo,"Type, p.240",
+Myristica elliptica,holotype,K,K000880066,Porter in Wallich Cat.,6798a,,,Penang,Peninsular Malaysia,"Type, p.242",
+Myristica elliptica,isotype,BM,,Porter in Wallich Cat.,6798a,,,Penang,Peninsular Malaysia,"Type, p.242",
+Myristica gigantea,lectotype,CAL,,King’s Coll.,6050,,Gopeng,Perak,Peninsular Malaysia,"Type, p.244",n.v.
+Myristica gigantea,isolectotype,E,E00393052,King’s Coll.,6050,,Gopeng,Perak,Peninsular Malaysia,"Type, p.244",
+Myristica gigantea,isolectotype,K,,King’s Coll.,6050,,Gopeng,Perak,Peninsular Malaysia,"Type, p.244",
+Myristica gigantea,isolectotype,KEP,KEP167348,King’s Coll.,6050,,Gopeng,Perak,Peninsular Malaysia,"Type, p.244",
+Myristica gigantea,isolectotype,P,,King’s Coll.,6050,,Gopeng,Perak,Peninsular Malaysia,"Type, p.244",
+Myristica gigantea,isolectotype,SING,SING0044670–SING0044671,King’s Coll.,6050,,Gopeng,Perak,Peninsular Malaysia,"Type, p.244",
+Myristica gigantea,isolectotype,US,,King’s Coll.,6050,,Gopeng,Perak,Peninsular Malaysia,"Type, p.244",
+Myristica guatteriifolia,holotype,G,,Cuming,1582,,"Luzon, Batangas Prov.",,the Philippines,"Type, p.245",n.v.
+Myristica guatteriifolia,isotype,BM,BM000950839,Cuming,1582,,"Luzon, Batangas Prov.",,the Philippines,"Type, p.245",
+Myristica guatteriifolia,isotype,K,K000880154,Cuming,1582,,"Luzon, Batangas Prov.",,the Philippines,"Type, p.245",
+Myristica guatteriifolia,isotype,L,L0037661,Cuming,1582,,"Luzon, Batangas Prov.",,the Philippines,"Type, p.245",
+Myristica iners,lectotype,L,L0037704,Blume,s.n.,,,,W Java,"Type, p.247",Lectotype 'here designated'.
+Myristica iners,isolectotype,L,L0037702–L0037703 & L0037705–L0037707,Blume,s.n.,,,,W Java,"Type, p.247",Lectotype 'here designated'.
+Myristica lowiana,lectotype,CAL,,Scortechini,1851,,Manjung [Port Weld],Perak,Peninsular Malaysia,"Type, p.248",Record number printed 'Scortechini 1851' with no year; taken as the collection number. n.v.
+Myristica lowiana,isolectotype,K,K000880070,Scortechini,1851,,Manjung [Port Weld],Perak,Peninsular Malaysia,"Type, p.248",Record number printed 'Scortechini 1851' with no year; taken as the collection number.
+Myristica lowiana,isolectotype,L,L0037741,Scortechini,1851,,Manjung [Port Weld],Perak,Peninsular Malaysia,"Type, p.248",Record number printed 'Scortechini 1851' with no year; taken as the collection number.
+Myristica maingayi,holotype,K,K000880069,Maingay,1289,,,Melaka,Peninsular Malaysia,"Type, p.249",
+Myristica maingayi,isotype,L,L0037742,Maingay,1289,,,Melaka,Peninsular Malaysia,"Type, p.249",
+Myristica malaccensis,holotype,K,K000880068,Maingay,1305,,,Melaka,Peninsular Malaysia,"Type, p.251",
+Myristica malaccensis,isotype,L,L0037743,Maingay,1305,,,Melaka,Peninsular Malaysia,"Type, p.251",
+Myristica maxima,lectotype,K,K000880074,King’s Coll.,5513,,Larut,Perak,Peninsular Malaysia,"Type, p.252",
+Myristica maxima,isolectotype,CAL,,King’s Coll.,5513,,Larut,Perak,Peninsular Malaysia,"Type, p.252",n.v.
+Myristica maxima,isolectotype,SING,SING0222440–SING 0222441,King’s Coll.,5513,,Larut,Perak,Peninsular Malaysia,"Type, p.252",
+Myristica wyatt-smithii,holotype,K,K000880060,Sow,KEP 52149,,Bt. Lagong,Selangor,Peninsular Malaysia,"Type, p.255",
+Myristica wyatt-smithii,isotype,KEP,KEP149712,Sow,KEP 52149,,Bt. Lagong,Selangor,Peninsular Malaysia,"Type, p.255",

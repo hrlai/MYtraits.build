@@ -91,12 +91,14 @@ flora_ascii_raw <- function(x) {
 
 # ---- sentences, pieces, parentheses -----------------------------------------------
 
-# Sentence split protecting abbreviations ("c. 2", "E. glaber", "e.g.").
+# Sentence split protecting abbreviations ("c. 2", "E. glaber", "e.g.",
+# infrageneric ranks "subgen. Pseudojaca", "sect. Ficus").
 flora_split_sentences <- function(x) {
   str_split(
     x,
     paste0(
       "(?<!\\bc|\\b[A-Z]|e\\.g|\\bsp|subsp|var|Fig|\\bca",
+      "|subgen|\\bsect|subsect|\\bser",
       # place names: "Mt. Tawai", "Bt. Raya", "Sg. Pahang", "4th Div."
       "|\\bMt|\\bBt|\\bSg|\\bDiv|\\bRd|\\bProv",
       ")\\.\\s+(?=[A-Z])"
@@ -268,7 +270,7 @@ flora_parse_dims <- function(s) {
 # ---- categorical dictionary ------------------------------------------------------------
 
 # Dictionary CSV columns: trait, term_regex, level, source, note. Row order is
-# priority within a trait. Filter the seed by family before loading it.
+# priority within a trait.
 flora_load_dict <- function(file) {
   d <- read_csv(file, col_types = cols(.default = "c"), na = character())
   split(d, factor(d$trait, levels = unique(d$trait))) |>

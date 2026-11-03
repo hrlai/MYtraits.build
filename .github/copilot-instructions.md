@@ -96,6 +96,10 @@ Packages are managed with [uvr](https://github.com/nbafrank/uvr). Do not use
   change in the PR.
 - Cloud agents (Copilot and Claude) set up with `.github/agent-setup.sh`.
   Change system libraries there, not in each agent's config.
+- Cloud images default to the POSIX locale, under which R reads
+  `config/traits.yml` only up to its first non-ASCII character. A UTF-8
+  locale is set in `.github/agent-setup.sh` (Copilot), a SessionStart hook
+  in `.claude/settings.json` (Claude) and `.Rprofile` (any R session).
 
 ## Commands
 

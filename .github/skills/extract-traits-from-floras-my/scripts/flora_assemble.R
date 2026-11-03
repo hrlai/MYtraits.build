@@ -121,7 +121,12 @@ flora_copy_down <- function(higher_rows, own_rows, members) {
       !is.na(trait_value_clean),
       trait_value_clean != "",
       !str_detect(trait_value_clean, " ") | coalesce(single_term, FALSE),
-      !str_detect(trait_value_raw, "\\b(in some|most|many|some species)\\b"),
+      # "many" as a count ("1(-many)-seeded nuts", Ashton_2004) does not
+      # scope the statement
+      !str_detect(
+        trait_value_raw,
+        "\\b(in some|most|(?<![(\\x{2013}-])many|some species)\\b"
+      ),
       !str_detect(trait_value_raw, "\\([A-Z][a-z]+\\)")
     )
   alt <- map2_lgl(higher$trait_value_raw, higher$trait_value, .flora_names_alt)
@@ -378,6 +383,19 @@ flora_make_data <- function(
     )
   write_csv(data, out_file, na = "")
   invisible(data)
+}
+
+# Drop specimen numbers ("Stone 5623", "Corner SFN 29996", "Ng FRI 5646",
+# "Beentje et al. 75761") and cited years ("Corner (1978)") from a chunk, so a
+# build script's guess at its unmapped character does not read them as a
+# count. Case-sensitive: run it before lowering the case.
+# shortcut: also drops "<Capitalised word> <3+ digits>" printed as a count
+# ("Leaves 120 per crown"); tighten if a family prints counts that way.
+flora_strip_specimens <- function(x) {
+  str_remove_all(
+    x,
+    "\\b[A-Z][A-Za-z.]*(?: et al\\.)? (?:\\d{3,}(?![-\\d+])|\\(\\d{4}\\))"
+  )
 }
 
 # The listed characters of an UNMAPPED note (SKILL.md step 6), each with the

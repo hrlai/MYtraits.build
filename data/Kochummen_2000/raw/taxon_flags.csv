@@ -1,0 +1,236 @@
+taxon_name,taxon_rank,status,n_mapped_rows,flag
+Antiaris toxicaria,species,accepted,39,
+Artocarpus anisophyllus,species,accepted,29,
+Artocarpus anisophyllus var. sessilifolius,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Artocarpus annulatus,species,accepted,31,
+Artocarpus corneri,species,accepted,22,
+Artocarpus dadah,species,accepted,35,
+Artocarpus elasticus,species,accepted,34,
+Artocarpus excelsus,species,accepted,31,
+Artocarpus glaucus,species,accepted,28,
+Artocarpus integer,species,accepted,34,
+Artocarpus jarrettiae,species,accepted,22,
+Artocarpus kemando,species,accepted,32,
+Artocarpus lanceifolius,species,accepted,30,
+Artocarpus longifolius,species,accepted,29,
+Artocarpus melinoxylus,species,accepted,0,Species heading only; the description belongs to its one infraspecific taxon in the region.
+Artocarpus melinoxylus subsp. brevipedunculatus,subspecies,accepted,35,Only infraspecific taxon in the region; its description is the local description of the species (TFSS guide).
+Artocarpus nitidus,species,accepted,42,
+Artocarpus obtusus,species,accepted,28,
+Artocarpus odoratissimus,species,accepted,37,
+Artocarpus peltatus,species,accepted,34,
+Artocarpus primackiana,species,accepted,29,
+Artocarpus rigidus,species,accepted,31,
+Artocarpus sarawakensis,species,accepted,30,
+Artocarpus tamaran,species,accepted,34,
+Artocarpus teysmannii,species,accepted,34,
+Artocarpus tomentosulus,species,accepted,27,
+Ficus albipila,species,accepted,28,
+Ficus androchaete,species,accepted,24,
+Ficus ashtonii,species,accepted,22,
+Ficus aurata,species,accepted,27,
+Ficus aurata var. brevipilosa,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus aurata var. longipilosa,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus aurata var. palawanensis,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus aurita,species,accepted,22,
+Ficus aurita var. auriculifera,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus beccarii,species,accepted,19,
+Ficus beccarii var. asymmetrica,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus beccarii var. latifolia,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus benjamina,species,accepted,24,
+Ficus bruneiensis,species,accepted,23,
+Ficus brunneoaurata,species,accepted,21,
+Ficus callosa,species,accepted,28,
+Ficus cereicarpa,species,accepted,21,
+Ficus cereicarpa var. ashtonii,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus chaii,species,accepted,17,
+Ficus chartacea,species,accepted,24,
+Ficus cumingii,species,accepted,18,"One variety in the region (var. terminalifolia), printed as a short note after the species description; the note is kept unmapped."
+Ficus deltoidea,species,accepted,27,
+Ficus deltoidea var. angustifolia,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus deltoidea var. arenaria,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus deltoidea var. borneensis,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus deltoidea var. intermedia,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus diamantiphylla,species,accepted,17,
+Ficus endospermifolia,species,accepted,19,
+Ficus eumorpha,species,accepted,22,
+Ficus fistulosa,species,accepted,24,
+Ficus fistulosa var. tengerensis,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus francisci,species,accepted,20,
+Ficus fulva,species,accepted,23,
+Ficus geocharis,species,accepted,18,
+Ficus glandulifera,species,accepted,29,
+Ficus glandulifera var. villosa,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus grossularioides,species,accepted,25,
+Ficus gul,species,accepted,26,
+Ficus hemsleyana,species,accepted,21,
+Ficus ixoroides,species,accepted,19,
+Ficus lamponga,species,accepted,25,
+Ficus lepicarpa,species,accepted,24,
+Ficus leptocalama,species,accepted,21,
+Ficus leptogramma,species,accepted,25,
+Ficus macilenta,species,accepted,25,
+Ficus macilenta var. gibbsiae,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus macilenta var. ilicifolia,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus macrostyla,species,accepted,19,
+Ficus magnoliifolia,species,accepted,27,
+Ficus megaleia,species,accepted,18,
+Ficus megaleia var. multinervia,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus megaleia var. subuncinata,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus melinocarpa,species,accepted,27,
+Ficus microcarpa,species,accepted,26,
+Ficus midotis,species,accepted,23,
+Ficus minahassae,species,accepted,27,
+Ficus moderata,species,accepted,23,
+Ficus montana,species,accepted,22,
+Ficus nota,species,accepted,22,
+Ficus obpyramidata,species,accepted,22,
+Ficus obscura,species,accepted,25,
+Ficus obscura var. lanata,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus oleifolia,species,accepted,21,
+Ficus oleifolia var. calcicola,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus oleifolia var. linearifolia,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus oleifolia var. memecylifolia,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus oleifolia var. myrsinoides,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus oleifolia var. oleifolia,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus oleifolia var. riparia,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus oleifolia var. valida,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus paramorpha,species,accepted,21,
+Ficus pseudotarennifolia,species,accepted,19,
+Ficus pubinervis,species,accepted,23,
+Ficus racemosa,species,accepted,0,Species heading only; the description belongs to its one infraspecific taxon in the region.
+Ficus racemosa var. elongata,variety,accepted,28,Only infraspecific taxon in the region; its description is the local description of the species (TFSS guide).
+Ficus retusa,species,accepted,22,
+Ficus retusa var. borneensis,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus rubrocuspidata,species,accepted,20,
+Ficus rubromidotis,species,accepted,21,
+Ficus ruficaulis,species,accepted,25,
+Ficus schwarzii,species,accepted,22,
+Ficus scortechinii,species,accepted,0,Species heading only; the description belongs to its one infraspecific taxon in the region.
+Ficus scortechinii var. lanceata,variety,accepted,21,Only infraspecific taxon in the region; its description is the local description of the species (TFSS guide).
+Ficus septica,species,accepted,24,
+Ficus setiflora,species,accepted,23,
+Ficus setiflora var. adelpha,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus setiflora var. puberula,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus sinuata,species,accepted,26,
+Ficus spathulifolia,species,accepted,23,
+Ficus stolonifera,species,accepted,22,
+Ficus subfulva,species,accepted,22,
+Ficus subfulva var. villosula,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus subterranea,species,accepted,21,
+Ficus tarennifolia,species,accepted,22,
+Ficus tinctoria,species,accepted,0,Species heading only; the description belongs to its one infraspecific taxon in the region.
+Ficus tinctoria subsp. gibbosa,subspecies,accepted,24,Only infraspecific taxon in the region; its description is the local description of the species (TFSS guide).
+Ficus tinctoria var. rigida,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus treubii,species,accepted,23,
+Ficus uncinata,species,accepted,21,
+Ficus uncinata var. gracilis,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus uncinata var. pilosior,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus uncinata var. strigosa,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus uncinata var. subbeccarii,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus uncinata var. truncata,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus uncinata var. uncinata,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus uncinata var. ‘A’,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus uncinata var. ‘B’,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus uncinata var. ‘C’,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus variegata,species,accepted,29,
+Ficus variegata var. ilangoides,variety,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Ficus virens,species,accepted,0,Species heading only; the description belongs to its one infraspecific taxon in the region.
+Ficus virens var. glabella,variety,accepted,20,Only infraspecific taxon in the region; its description is the local description of the species (TFSS guide).
+Ficus virescens,species,accepted,20,
+Ficus xylophylla,species,accepted,23,
+Parartocarpus bracteatus,species,accepted,37,
+Parartocarpus microcarpus,species,accepted,30,
+Parartocarpus spinulosus,species,accepted,26,
+Parartocarpus venenosus,species,accepted,31,
+Parartocarpus venenosus subsp. borneensis,subspecies,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Parartocarpus venenosus subsp. forbesii,subspecies,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Parartocarpus venenosus subsp. venenosus,subspecies,accepted,0,Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.
+Prainea frutescens,species,accepted,31,
+Prainea limpato,species,accepted,26,
+Streblus elongatus,species,accepted,37,
+Streblus glaber,species,accepted,31,
+Streblus ilicifolius,species,accepted,36,
+Streblus macrophyllus,species,accepted,36,
+Trophis scandens,species,key annotation,0,"Only species of its genus in the region, a climber; described only in an annotation in the key to genera (pp. 182--183); not scored. Kochummen_2000 question 2."
+Maclura cochinchinensis,species,key annotation,0,"Only species of its genus in the region, a climber; described only in an annotation in the key to genera (pp. 182--183); not scored. Kochummen_2000 question 2."
+Artocarpus altilis,species,cultivated,0,"Cultivated; annotated in the key to Artocarpus species (pp. 189--190) with name, use and origin only; no description, nothing to score."
+Artocarpus heterophyllus,species,cultivated,0,"Cultivated; annotated in the key to Artocarpus species (pp. 189--190) with name, use and origin only; no description, nothing to score."
+Artocarpus sp. 'A',species,incompletely known,0,Incompletely known species (p. 212); not scored.
+Ficus acamptophylla,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus allutacea,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus annulata,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256) (lead marked 'in part'); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus apiocarpa,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus aurantiacea,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus barba-jovis,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus binnendykii,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256) (lead marked 'in part'); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus borneensis,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256) (lead marked 'in part'); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus bracteata,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus callicarpides,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus callophylla,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus carri,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus chewii,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus concinna,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus consociata,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus cornerii,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus crassiramea,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus cucurbitina,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus delosyce,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus deltoidea var. motleyana,variety,key annotation,0,Annotated in the key to Ficus species (pp. 216--256) (lead marked 'in part'); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus deltoidea var. recurvata,variety,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus deltoidea var. subhirsuta,variety,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus densechini,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus depressa,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus detonsa,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus diandra,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus disticha,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus drupacea,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus dubia,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus dulitensis,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus excavata,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus forstenii,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256) (lead marked 'in part'); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus gamostyla,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus globosa,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus grandiflora,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus grossivenis,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus heteropleura,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus iliaspaiei,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus involucrata,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus kerangasensis,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus kerkhovenii,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus laevis,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus lanata,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus longistipulata,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus oleifolia var. dodonaeifolia,variety,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus oleifolia var. impressicostata,variety,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus palaquiifolia,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus paracamptophylla,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus parietalis,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus pellucido-punctata,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus pendens,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus pisocarpa,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus punctata,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus recurva,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256) (lead marked 'in part'); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus ruginervia,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus sabahana,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus sagittata,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus sarawakensis,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus soepadmoi,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus spiralis,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus stricta,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus stupenda,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus subcordata,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus subgelderi,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus subsidens,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus subtecta,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus subulata,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus sumatrana,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256) (lead marked 'in part'); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus sundaica,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus supperforata,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256) (lead marked 'in part'); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus trichocarpa,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus tristaniifolia,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus tulipifera,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus uncinulata,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus uniglandulosa,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus urnigera,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
+Ficus villosa,species,key annotation,0,Annotated in the key to Ficus species (pp. 216--256) (lead marked 'in part'); not scored (TFSS guide: keys are not trait evidence). Kochummen_2000 question 2.
