@@ -87,7 +87,10 @@ Shorea,genus,species,,,,,,inflorescence_type,x,Inflorescences paniculate | singl
 Shorea,genus,species,,,,,,leaf_apex_shape,x,apex with tapering acumen,acumen,acuminate,mode,,"Description, p.191",135,191,,Ashton_2004,acumen,inferred_from_species
 Shorea,genus,species,,,,,,plant_canopy_form,x,hemispherical | spreading,hemispherical spreading,hemispherical spreading,mode,,"Description, p.191",135,191,,Ashton_2004,hemispherical spreading,inferred_from_species
 Shorea,genus,species,,,,,,plant_growth_form,x,sometimes main canopy trees,trees,tree,mode,,"Description, p.191",135,191,,Ashton_2004,trees,inferred_from_species
-Shorea,genus,species,,,,,,stem_base_form,x,buttresses stout or thin (in most species of sect,buttressed,buttressed,mode,,"Description, p.191",135,191,,Ashton_2004,buttressed,inferred_from_species
+Shorea,genus,species,,rarely,,,,root_system_type,x,stilt roots or flying buttresses rarely present,stilt-roots,stilt_roots,mode,,"Description, p.191",135,191,,Ashton_2004,stilt-roots,inferred_from_species
+Shorea,genus,species,,,,,,stem_base_form,x,buttresses stout or thin (in most species of sect. Shorea),buttressed,buttressed,mode,,"Description, p.191",135,191,,Ashton_2004,buttressed,inferred_from_species
+Shorea,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 10--105,10,10,minimum,{count},"Description, p.191",135,191,,Ashton_2004,10,inferred_from_species
+Shorea,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 10--105,105,105,maximum,{count},"Description, p.191",135,191,,Ashton_2004,105,inferred_from_species
 Upuna,genus,species,,,,,,bark_colour,x,Bark dark brown,dark_brown,brown_dark,mode,,"Description, p.348",292,348,,Ashton_2004,dark_brown,inferred_from_species
 Upuna,genus,species,,,,,,bark_texture,x,finely flaky,flaky,flaky,mode,,"Description, p.348",292,348,,Ashton_2004,flaky,inferred_from_species
 Upuna,genus,species,,,,,,flower_anther_connective_extension,x,connectival appendage aristate,connectival appendage,present_general,mode,,"Description, p.348",292,348,A connectival appendage scored as a connective extension (present_general); its length relative to the anther is not mapped to a length level.,Ashton_2004,connectival appendage,inferred_from_species
