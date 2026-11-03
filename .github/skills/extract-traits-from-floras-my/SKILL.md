@@ -851,10 +851,12 @@ Bespoke checklist (decisions that changed per family):
   catches "or"/"to" alternatives, not comma lists ("flat, terete or
   triquetrous" scored flat; "syconia ... solitary, in pairs or clustered"
   scored solitary, copied to 70 Ficus species before the fix in
-  Kochummen_2000): check those in the parser. A commonness word elsewhere in
-  the piece also qualifies an unqualified chunk ("Bark generally greyish,
-  smooth": smooth is not universal); bar such rows from copy-down in the
-  parser (Kochummen_2000 `piece_qualified`).
+  Kochummen_2000): check those in the parser. A commonness word earlier in
+  the piece also qualifies the unqualified chunks after it ("Bark generally
+  greyish, smooth": smooth is not universal); bar such rows from copy-down in
+  the parser (Kochummen_2000 `piece_qualified`). Chunks before the word stay
+  unqualified: "Leaves simple, entire, alternate, usually distichous" copies
+  simple, entire and alternate (provisional, DeWilde_2018 question 11).
   Most specific rank wins (group, genus, family). `entity_measured` is part
   of the trait: male and female (or other entity) values are tested and copied
   separately, so give higher-rank rows the same `entity_measured` labels as
