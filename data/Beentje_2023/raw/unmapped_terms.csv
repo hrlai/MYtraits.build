@@ -16,7 +16,6 @@ female inflorescence peduncle,size,29,Benstonea affinis,peduncle to 40--44 x 1.1
 leaf margin,description,29,Benstonea affinis,higher up smaller,131
 leaves,description,29,Pandanaceae,Leaves tristichous,117
 mesocarp,texture,29,Pandanaceae,mesocarp fibrous with spongy pith,117
-leaf veins,venation,28,Benstonea affinis,80--92 veins in each half,131
 habit,description,27,Pandanaceae,often with stilt roots or aerial roots from lower trunk,117
 styles,size,27,Benstonea affinis,5--7 mm,131
 leaf midrib,size,25,Benstonea affinis,midrib above base with few reflexed prickles 3--3.5 mm long,131
@@ -25,6 +24,7 @@ pileus,size,25,Benstonea affinis,pileus 3.5--5 mm,131
 leaves,texture,24,Benstonea alticola,coriaceous,132
 stigmas,size,24,Benstonea alticola,c. 1 mm long,132
 leaf midrib,armature,23,Benstonea alticola,midrib unarmed until well above mid-leaf,132
+leaf veins,venation,23,Benstonea affinis,not tessellate,131
 pileus,description,23,Benstonea,pileus (the free upper part of the drupe) usually distinct and calyptrate,128
 drupes,count,21,Benstonea affinis,4--5-angled,131
 leaf apex,size,21,Benstonea alticola,apex gradually narrowed into caudate tip 5 cm long,132
@@ -44,6 +44,7 @@ female inflorescence peduncle,count,16,Benstonea atrocarpa,3-angled,135
 male inflorescences,size,16,Benstonea epiphytica,Male inflorescence a big raceme of more than 3--4 slender elongate whitish-purplish spikes 23--26 cm long on a central axis at least 20 cm,139
 body,size,15,Benstonea alticola,4.5 mm long,132
 female inflorescence bracts,size,15,Benstonea affinis,the lower ones very similar to smaller leaves and 86--113 x 2.8--4 cm,131
+leaf veins,count,15,Benstonea affinis,80--92 veins in each half,131
 male inflorescence bracts,colour,15,Benstonea affinis,white,131
 female inflorescence peduncle,description,14,Benstonea alticola,with leafy bracts,132
 female inflorescences,size,14,Benstonea epiphytica,with 5--9 subcylindric to trigonous flowering heads on a robust peduncle (to 60 x 4.5 cm),140

@@ -73,4 +73,49 @@ stopifnot(
   # the known limit (shortcut in flora_assemble.R)
   identical(flora_strip_specimens("Leaves 120 per crown"), " per crown")
 )
+stopifnot(
+  identical(
+    flora_vein_count_note(
+      c(
+        "UNMAPPED: lateral veins | venation",
+        "UNMAPPED: lateral veins | venation | x",
+        "UNMAPPED: lateral veins | venation",
+        "UNMAPPED: midrib | venation",
+        "UNMAPPED: lateral veins | venation",
+        "UNMAPPED: lateral veins | venation",
+        "UNMAPPED: basal veins | venation",
+        "UNMAPPED: leaf veins | venation",
+        "UNMAPPED: basal veins | venation",
+        "UNMAPPED: leaf veins | venation",
+        NA
+      ),
+      c(
+        "lateral veins (6--)8--12 pairs",
+        "lateral veins 7--20 per side",
+        "lateral veins 1--2(--4) cm apart",
+        "midrib raised, lateral veins 4--5 on either side",
+        "lateral veins looping and joining near the margin",
+        "with 8 lateral veins",
+        "basal veins 6--7",
+        "with 15--44 parallel veins in each half",
+        "basal veins reaching up to 2/3 the length of the blade",
+        "every 2nd vein ending in a marginal tooth",
+        "5 pairs"
+      )
+    ),
+    c(
+      "UNMAPPED: lateral veins | count",
+      "UNMAPPED: lateral veins | count | x",
+      "UNMAPPED: lateral veins | venation",
+      "UNMAPPED: midrib | venation",
+      "UNMAPPED: lateral veins | venation",
+      "UNMAPPED: lateral veins | count",
+      "UNMAPPED: basal veins | count",
+      "UNMAPPED: leaf veins | count",
+      "UNMAPPED: basal veins | venation",
+      "UNMAPPED: leaf veins | venation",
+      NA
+    )
+  )
+)
 cat("test-flora-hand: ok\n")

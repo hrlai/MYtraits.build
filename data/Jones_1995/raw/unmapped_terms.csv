@@ -2,7 +2,7 @@ organ,character,n_taxa,example_taxon,example_text,printed_page
 section,text,64,Rutaceae,"A cosmopolitan family comprising approximately 160 genera and 1650 species, distributed largely in tropical and subtropical parts of the world, with good representation in arid areas of the warm te...",351
 petals,description,52,Rutaceae,alternate with the sepals,351
 sepals,description,51,Rutaceae,usually imbricate,351
-lateral veins,venation,43,Acronychia pedunculata,lateral veins 7--14 pairs,358
+lateral veins,count,41,Acronychia pedunculata,lateral veins 7--14 pairs,358
 fruits,description,34,Acronychia,with septicidal fissures or without,358
 petals,indumentum,32,Pleiospermium,glabrous or finely hairy below,409
 ovary,indumentum,31,Burkillanthus,sparsely hairy,361
@@ -71,6 +71,7 @@ sepals,size,5,Melicope clemensiae,less than 1 mm long,388
 crown,description,4,Burkillanthus,crown broad,361
 disc,count,4,Acronychia,disc shallowly 8-lobed,358
 endosperm,texture,4,Acronychia,endosperm fleshy,358
+lateral veins,venation,4,Merope angulata,lateral veins and reticulations inconspicuous,395
 pedicels,indumentum,4,Maclurodendron parviflorum,pedicels sparsely hairy,381
 peduncles,indumentum,4,Maclurodendron parviflorum,peduncle axis and branches sparsely hairy to glabrous,381
 pulp,colour,4,Burkillanthus,pale yellow,361
@@ -111,7 +112,6 @@ fruit wall,size,2,Acronychia pedunculata,epicarp when dry to 3 mm thick,361
 fruits,glands,2,Rutaceae,with or without oil-droplets,351
 fruits,indumentum,2,Tetractomia tetrandrum,glabrous or nearly so.,414
 fruits,size,2,Severinia disticha,to 1.5 cm wide,411
-lateral veins,count,2,Monanthocitrus oblanceolata,8--10 pairs,402
 leaves,indumentum,2,Maclurodendron pubescens,pubescent below especially on the midrib and veins,382
 midrib,description,2,Merope angulata,midrib prominent below,395
 ovary,count,2,Burkillanthus,fluted with 5 grooves,361

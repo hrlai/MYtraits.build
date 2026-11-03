@@ -933,6 +933,10 @@ The format is fixed so `unmapped_terms.csv` can be compared across datasets:
   `description`) and moved to `<detail>`, so nothing is lost. An organ noun
   that only qualifies the character ("midrib relief", "lateral vein count",
   "domatia presence") does not count as a second character.
+- A vein clause that gives a number of veins ("lateral veins 6--10 pairs",
+  "12--18 per side", "with 8 lateral veins") is `count`, not `venation`.
+  `flora_finalise()` applies this to every dataset, so a generator may pass
+  `venation` for the whole vein clause.
 - Pass a generator's character hint as the character, not as `<detail>`
   under `description`, so a single-character hint gets its own summary row.
   A clause naming several characters keeps one row with `description`: it is

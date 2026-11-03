@@ -4,10 +4,10 @@ fruits,description,269,Anisoptera,Fruits,72
 flowers,description,265,Anisoptera,Flowers distichous,72
 fruit calyx,description,261,Dipterocarpaceae,calyx lobes more or less expanding into spatulate wings,63
 fruit calyx,size,254,Anisoptera costata,calyx tube to 1.2 cm diameter,73
-leaf lateral veins,venation,254,Dipterocarpaceae,"lateral veins very slender (densely parallel in Cotylelobium, Dryobalanops and some Hopea)",63
 twigs,size,253,Dipterocarpus acutangulus,Twigs c. 3 mm diameter apically,92
 twigs,description,252,Dipterocarpaceae,Twigs with small or large,63
 leaf lateral veins,description,241,Dipterocarpaceae,often with axillary domatia,63
+leaf lateral veins,count,239,Anisoptera costata,lateral veins 8--22 pairs,73
 leaves,texture,236,Dryobalanops,Leaves coriaceous,127
 nuts,description,226,Anisoptera,Nuts imbedded in the calyx tube but for the apex,72
 petiole,description,217,Anisoptera,petiole relatively long,71
@@ -59,12 +59,13 @@ petiole,colour,45,Anisoptera reticulata,drying black,79
 stylopodium,description,44,Anisoptera costata,stylopodium cylindrical,73
 fruit calyx,texture,43,Upuna,thinly chartaceous,348
 nuts,indumentum,43,Hopea,generally glabrous,139
-bark,colour,42,Hopea,chocolate-brown mottled,139
+bark,colour,41,Hopea,chocolate-brown mottled,139
 petiole,size,41,Dipterocarpus acutangulus,to 2 mm diameter,92
 leaves,venation,39,Anisoptera grossivenia,Leaf venation below,74
 fruits,count,38,Dipterocarpus,tube smooth or adorned with 5 species-specific ribs,86
 leaf blade,description,38,Dipterocarpaceae,blade simple,63
 sapwood,description,38,Anisoptera,siliceous,71
+leaf lateral veins,venation,36,Dipterocarpaceae,"lateral veins very slender (densely parallel in Cotylelobium, Dryobalanops and some Hopea)",63
 style,count,36,Dryobalanops,to 3x the length of ovary,127
 connective,indumentum,34,Hopea,glabrous or minutely tuberculate,139
 filaments,description,31,Dipterocarpaceae,filaments generally compressed at base,63
@@ -102,7 +103,6 @@ stigma,description,10,Dipterocarpaceae,stigma generally obscure,63
 buds,size,9,Hopea nervosa,to 3 mm diameter,167
 fruits base,description,9,Dipterocarpus acutangulus,base becoming impressed,92
 leaf buds,colour,9,Dipterocarpus caudiferus,occasionally drying black,98
-leaf lateral veins,count,9,Hopea tenuinervula,12--21 pairs,181
 petiole,venation,9,Dipterocarpus geniculatus,petiole and leaf venation below sparsely more or less caducously so,105
 anthers,count,8,Dipterocarpaceae,2-loculed with (2--)4 pollen sacs,63
 anthers,indumentum,8,Cotylelobium,setose along the margins,79

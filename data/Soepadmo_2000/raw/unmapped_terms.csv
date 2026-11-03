@@ -3,8 +3,8 @@ section,text,105,Fagaceae,"About eight genera with more than 800 species, distri
 cupules,description,104,Fagaceae,solitary or in dichasial clusters along the rachis,1
 fruits,description,104,Fagaceae,sometimes falsely multiseptate,2
 intercostal venation,venation,100,Castanopsis acuminatissima,intercostal venation scalariform,7
+lateral veins,count,100,Castanopsis acuminatissima,lateral veins 6--10 pairs,7
 lateral veins,description,100,Castanopsis acuminatissima,thin and weakly raised on both sides,7
-lateral veins,venation,100,Castanopsis acuminatissima,lateral veins 6--10 pairs,7
 intercostal venation,description,99,Castanopsis acuminatissima,obscure on both surfaces,7
 midrib,description,99,Castanopsis acuminatissima,midrib flat or impressed above,7
 bracts,description,96,Castanopsis,bracts and bracteoles small,4
@@ -27,7 +27,7 @@ sapwood,colour,72,Castanopsis acuminatissima,Sapwood yellowish,7
 female flowers,description,67,Fagaceae,Female flowers sessile,1
 fruits wall,texture,67,Castanopsis,wall woody,4
 inner bark,description,65,Castanopsis,inner bark granular or fibrous,4
-lateral veins,count,64,Lithocarpus andersonii,(6--)9--11 pairs,37
+lateral veins,venation,63,Lithocarpus andersonii,lateral veins thin,37
 twigs,indumentum,63,Castanopsis,Twigs glabrous or hairy,4
 cupules wall,texture,59,Lithocarpus andersonii,wall woody,37
 fruits,indumentum,59,Quercus,glabrous and shining or densely tomentose,95
@@ -81,9 +81,9 @@ leaf base,description,9,Lithocarpus blumeanus,symmetrical,40
 male inflorescences,description,9,Fagaceae,Male inflorescences erect or pendulous,1
 midrib,indumentum,9,Castanopsis buruana,raised and sparsely pilose below,10
 pistillode,indumentum,9,Fagaceae,if present densely hairy,1
-leaves,description,8,Fagaceae,distichous (a few species of Castanopsis),1
 buds,indumentum,7,Quercus argentata,stellate- or simple-tomentose,99
 leaf acumen,count,7,Castanopsis acuminatissima,acumen 10--20(--25) mm long,7
+leaves,description,7,Lithocarpus bullatus,bullate,43
 male inflorescences,colour,7,Fagaceae,in the axils of lower (proximal) leaves or in the axils of reduced leaves and crowded together in paniculate clustes on lateral or subterminal new shoots,1
 male inflorescences,indumentum,7,Quercus chrysotricha,densely woolly pubescent with golden-brown hairs,100
 leaf margin,description,6,Lithocarpus blumeanus,margin undulate,40

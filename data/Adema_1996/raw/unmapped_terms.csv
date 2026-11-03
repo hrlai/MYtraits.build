@@ -15,11 +15,11 @@ lateral veins,size,48,Alectryon glaber,lateral veins 0.5--2 cm apart,273
 midrib,description,46,Alectryon glaber,midrib slightly raised above,273
 disc,indumentum,44,Alectryon,glabrous,271
 petals,count,42,Sapindaceae,petals absent or 2--6,263
-lateral veins,venation,41,Alectryon,lateral veins ending free or the upper ones looping and joining near the margin,271
 intercostal veins,description,39,Glenniea,slightly raised on both sides,291
 margin,description,38,Arytera,margin entire,276
 base,description,36,Alectryon,the base usually deeply cleft,271
 disc,description,36,Sapindaceae,disc complete or interrupted,263
+lateral veins,venation,36,Alectryon,lateral veins ending free or the upper ones looping and joining near the margin,271
 petiole,description,35,Arytera,petioles subterete,276
 apex,description,34,Mischocarpus,apex emarginate,329
 bracts,description,34,Sapindaceae,bracts and bracteoles present,263
@@ -90,6 +90,7 @@ twigs,indumentum,10,Allophylus cobbe,Twigs glabrous except for the sparsely appr
 inner bark,colour,9,Guioa bijuga,inner bark yellow to red to brown,297
 twigs,size,9,Lepisanthes divaricata,Twigs 3--13 mm diameter,316
 disc,colour,8,Glenniea,purplish black when dry,292
+lateral veins,count,8,Allophylus cobbe,lateral veins 6--15 per side,274
 leaves,indumentum,8,Harpullia arborea,all axes hairy,307
 petiole and rachis,indumentum,8,Dimocarpus dentatus,petiole and rachis densely hairy,284
 pseudostipules,size,8,Lepisanthes amoena,1--6 x 0.8--6 cm,313
@@ -179,7 +180,6 @@ glands,venation,2,Trigonachras sp. B,small glands present in the axils of lower 
 habit,indumentum,2,Mischocarpus pentapetalus,all young parts puberulous,330
 heartwood,colour,2,Guioa bijuga,heartwood pinkish brown,297
 inflorescences,count,2,Lepisanthes senegalensis,3-flowered,324
-lateral veins,count,2,Lepisanthes senegalensis,1--3(--4 in the large simple leaves) cm apart,324
 lateral veins,indumentum,2,Paranephelium xestophyllum,sunken or flat to slightly raised in a groove and hairy beneath,355
 lobes,count,2,Litchi,lobes to 0.3--0.5x the length of the tube,327
 petals,texture,2,Harpullia arborea,petals membranous,307

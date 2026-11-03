@@ -1,6 +1,6 @@
 organ,character,n_taxa,example_taxon,example_text,printed_page
 section,text,160,Moraceae,"About 37 genera with c. 1050 species, mostly in the tropics",181
-lateral veins,venation,106,Ficus,basal lateral veins often distinct by departing from the midrib in a more acute angle and/or distinctly longer than the other lateral veins,213
+lateral veins,count,103,Antiaris toxicaria,lateral veins 7--12 pairs,185
 midrib,description,102,Artocarpus anisophyllus,midrib raised above,191
 lateral veins,description,101,Antiaris toxicaria,curving towards the leaf margin,185
 intercostal venation,venation,100,Antiaris toxicaria,intercostal venation reticulate,185
@@ -19,13 +19,13 @@ stipules,indumentum,64,Antiaris toxicaria,hispid with brown hairs,185
 twigs,colour,55,Artocarpus annulatus,Twigs brown,192
 syconia bracts,description,54,Ficus albipila,ovate,257
 petiole,indumentum,47,Artocarpus corneri,sparsely pubescent with short hairs,194
+lateral veins,venation,44,Ficus,basal lateral veins often distinct by departing from the midrib in a more acute angle and/or distinctly longer than the other lateral veins,213
 tepals,indumentum,43,Artocarpus anisophyllus,minutely hairy,191
 syconia apex,description,39,Ficus androchaete,apex umbonate,258
 syconia bracts,count,39,Ficus albipila,basal bracts 3,257
 syconia peduncle,size,39,Ficus albipila,peduncle up to 0.8 cm long,257
 syconia bracts,size,38,Ficus albipila,1--1.5 mm long,257
 leaf acumen,size,37,Artocarpus longifolius,acumen up to 2 cm long,202
-lateral veins,count,34,Ficus androchaete,basal pair reaching up to 1/2 the length of the blade,258
 syconia,indumentum,33,Ficus albipila,densely to sparsely whitish hairy,257
 syncarps,description,32,Artocarpus,formed by the enlargement of the entire female head (subgen. Artocarpus) or by the swelling of the receptacle of the female head (subgen. Pseudojaca),188
 syncarps,size,29,Artocarpus anisophyllus,up to 11 x 8 cm,192
