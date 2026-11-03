@@ -1,30 +1,25 @@
 organ,character,n_taxa,example_taxon,example_text,printed_page
-distribution,text,23,Cyathea,As for the family.,78
-ecology,text,23,Cyathea,"Most common in montane forest where Cyathea contaminans is the most common and conspicuous tree fern, forming thickets on forest margins",78
-sori,description clause,23,Cyathea,"Sori usually at the fork of a vein, or seated on a simple vein",78
-conservation status,text,21,Cyathea alleniae,Critically Endangered A3c (assessed by Y.H. Cheah),81
-stipe,description clause,21,Cyathea alleniae,near base with many thick conical spines to 2 mm long,81
-veins,description clause,21,Cyathea,"veins simple or branched, lower ones usually once forked, sometimes pinnate where pinnule-segments are deeply lobed",78
-pinnules,description clause,20,Cyathea,"pinnules almost symmetrical at the base, many on each pinna subequal, distal ones more-or-less abruptly decreasing",78
-paraphyses,description clause,19,Cyathea,"paraphyses usually present as multicellular hairs, sometimes flat and several cells wide at base",78
-pinnae,description clause,18,Cyathea,"pinnae normally pinnate-bipinnatifid, in a few cases simple, fully bipinnate or tripinnate, sometimes dimorphic",78
-scales and hairs,description clause,18,Cyathea alleniae,Scales and hairs: costa glabrescent and warty near base,81
-notes,text,16,Cyathea alternans,"Holttum (1963) described the indusium of C. alternans as varying greatly but all specimens examined show a persistent thin disc-shaped indusium, rarely reduced to a ring.",83
-scales,description clause,16,Cyathea alleniae,"scales flabelloid, near base, dark, shining, to 20 x 1.5 mm, with fragile edges mostly abraded",81
-indusia,description clause,15,Cyathea,"indusium attached all round base of receptacle and covering young sorus, opening to form a firm-edged cup or opening by irregular rupture, or attached on costulet side of receptacle and of varying ...",78
-costulets,description clause,14,Cyathea alleniae,costulets 5--6 mm apart,81
-trunk,description clause,13,Cyathea,"Trunk nearly always erect, short or tall, rarely absent, (rarely prostrate, not in our area)",78
-lamina segments,description clause,12,Cyathea alleniae,"the larger ones lobed halfway to costulet, veins in such lobes pinnate",81
-rachis,description clause,11,Cyathea alternans,"rachises medium to dark brown, almost glabrous below, appressed hairy above",82
-costules,description clause,10,Cyathea alleniae,"also firm brown elongate scales, rather slender, the larger ones with a dark setiform apex and sometimes dark marginal setae",81
-pinnule lobes,description clause,9,Cyathea borneensis,lobed almost to costules,83
-lamina,description clause,6,Cyathea,"Fronds more-or-less elliptical, lower pinnae always smaller than middle ones, sometimes gradually much reduced and then the stipe short",78
-pneumathodes,description clause,6,Cyathea,"Pneumathodes present in a discontinuous line (or 2--3 lines close together) along each side of stipe and rachis, in subgenus Cyathea converging downwards on each side of base of stipe and there oft...",78
-receptacle,description clause,6,Cyathea,"receptacle erect, club-shaped to spherical",78
-costa,description clause,5,Cyathea,upper surface of costa and costule raised,78
-sporangia,description clause,2,Cyathea,"Sporangia many, always short-stalked",78
-spores,description clause,2,Cyathea,"Spores thin-walled, smooth or papillose",78
-stem and scales,description clause,2,Cyathea,"Scales present on lower and lateral surfaces of axes of frond, at least in early stages of growth, larger ones on stipe and on lower surfaces of axes and veins, rarely on lamina between veins",78
-taxonomy,text,2,Cyathea,"Two subgenera are recognized: Cyathea, with flabelloid stipe scales (median band of dark thick-walled cells, shining, with paler fragile edges always abraded when fronds are old); and Sphaeropteris...",78
-gametophyte,description clause,1,Cyatheaceae,"Gametophytes green, cordate",77
-uses,text,1,Cyathea,Slabs of tree fern trunks are favoured by horticulturalists for growing epiphytic orchids,78
+section,text,23,Cyathea,As for the family.,78
+sori,description,23,Cyathea,"Sori usually at the fork of a vein, or seated on a simple vein",78
+stipe,description,21,Cyathea alleniae,near base with many thick conical spines to 2 mm long,81
+veins,description,21,Cyathea,"veins simple or branched, lower ones usually once forked, sometimes pinnate where pinnule-segments are deeply lobed",78
+pinnules,description,20,Cyathea,"pinnules almost symmetrical at the base, many on each pinna subequal, distal ones more-or-less abruptly decreasing",78
+paraphyses,description,19,Cyathea,"paraphyses usually present as multicellular hairs, sometimes flat and several cells wide at base",78
+pinnae,description,18,Cyathea,"pinnae normally pinnate-bipinnatifid, in a few cases simple, fully bipinnate or tripinnate, sometimes dimorphic",78
+scales and hairs,description,18,Cyathea alleniae,Scales and hairs: costa glabrescent and warty near base,81
+scales,description,16,Cyathea alleniae,"scales flabelloid, near base, dark, shining, to 20 x 1.5 mm, with fragile edges mostly abraded",81
+indusia,description,15,Cyathea,"indusium attached all round base of receptacle and covering young sorus, opening to form a firm-edged cup or opening by irregular rupture, or attached on costulet side of receptacle and of varying ...",78
+costulets,description,14,Cyathea alleniae,costulets 5--6 mm apart,81
+trunk,description,13,Cyathea,"Trunk nearly always erect, short or tall, rarely absent, (rarely prostrate, not in our area)",78
+lamina segments,description,12,Cyathea alleniae,"the larger ones lobed halfway to costulet, veins in such lobes pinnate",81
+rachis,description,11,Cyathea alternans,"rachises medium to dark brown, almost glabrous below, appressed hairy above",82
+costules,description,10,Cyathea alleniae,"also firm brown elongate scales, rather slender, the larger ones with a dark setiform apex and sometimes dark marginal setae",81
+pinnule lobes,description,9,Cyathea borneensis,lobed almost to costules,83
+lamina,description,6,Cyathea,"Fronds more-or-less elliptical, lower pinnae always smaller than middle ones, sometimes gradually much reduced and then the stipe short",78
+pneumathodes,description,6,Cyathea,"Pneumathodes present in a discontinuous line (or 2--3 lines close together) along each side of stipe and rachis, in subgenus Cyathea converging downwards on each side of base of stipe and there oft...",78
+receptacle,description,6,Cyathea,"receptacle erect, club-shaped to spherical",78
+costa,description,5,Cyathea,upper surface of costa and costule raised,78
+sporangia,description,2,Cyathea,"Sporangia many, always short-stalked",78
+spores,description,2,Cyathea,"Spores thin-walled, smooth or papillose",78
+stem and scales,description,2,Cyathea,"Scales present on lower and lateral surfaces of axes of frond, at least in early stages of growth, larger ones on stipe and on lower surfaces of axes and veins, rarely on lamina between veins",78
+gametophyte,description,1,Cyatheaceae,"Gametophytes green, cordate",77

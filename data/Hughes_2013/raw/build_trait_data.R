@@ -330,7 +330,7 @@ unmapped <- bind_rows(
     value_type = NA_character_,
     unit = NA_character_,
     entity_measured = NA_character_,
-    notes = paste0("UNMAPPED: text | ", str_to_lower(source_section)),
+    notes = flora_unmapped_note("section", "text", str_to_lower(source_section)),
     pdf_page,
     printed_page,
     source_section

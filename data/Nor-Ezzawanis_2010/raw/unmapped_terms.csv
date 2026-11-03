@@ -1,20 +1,15 @@
 organ,character,n_taxa,example_taxon,example_text,printed_page
-distribution,text,2,Cibotium,"Cibotium comprises c. 9 species: 4 in the Hawaiian Islands, 2 in Mexico and N Central America, and 3 in Asia from NE India, S China and the Ryukyu Islands (Japan) to Malesia",119
-indusia,description clause,2,Cibotium,"indusia with similar texture to that of the green frond but much paler, the two indusia surrounding numerous sporangia and long paraphyses, the inner indusium (when mature) deflexed towards the vei...",119
-lamina,description clause,2,Cibotium,"Laminae large, with all axes more or less hairy, glabrous when mature",119
-rhizome,description clause,2,Cibotium,"Rhizomes erect or prostrate (elsewhere some are tree-ferns), the apex thickly covered with yellowish to dark brown hairs, young parts without scales",119
-sori,description clause,2,Cibotium,"Sori rounded, terminal at the ends of veins, protected by an abaxial (“inner”) indusium and a hardly to strongly modified lobe of the frond segment (“outer” indusium), indusia inferior, cup-shaped ...",119
-stipe,description clause,2,Cibotium,"Stipes stout, smooth, the base densely hairy",119
-uses,text,2,Cibotium,"The golden hairs on the rhizome and young parts of several Cibotium species have long been used in China and SE Asia as a styptic to stop bleeding (Praptosuwiryo, PROSEA 15, 2 (2003) 79)",120
-veins,description clause,2,Cibotium,"each lobe with a mid-vein bearing simple or forked lateral veins, veins raised on upper surface",119
-conservation status,text,1,Cibotium barometz,Least Concern.,120
-ecology,text,1,Cibotium barometz,"On slopes and stream banks in lowland rain forest from 60 m altitude to lower montane forest up to 1670 m or in rocky places on quartzite ridges, sandstone and granite cliffs (but not on calcareous...",120
-gametophyte,description clause,1,Cibotium,"Gametophyte: above ground, green, broadly-cordate",119
-lamina,division outside the region,1,Cibotium,"(elsewhere from bipinnatifid, bipinnate, tripinnatifid to tripinnate)",119
-notes,text,1,Cibotium barometz,It is not certain whether this species is completely trunkless,122
-pinnae,description clause,1,Cibotium barometz,arranged more or less alternately,120
-pinnule lobes,description clause,1,Cibotium barometz,apex broadly pointed,120
-pinnules,description clause,1,Cibotium barometz,"the proximal pinnules with short stalk 1--4 mm long, the distal pinnules sessile, all pinnules lobed almost to the vein, lobes slightly oblique, 2--5 mm apart",120
-sporangia,description clause,1,Cibotium,"sporangia with short to long stalks, sporangium with longitudinal, vertical or slightly oblique annulus",119
-spores,description clause,1,Cibotium,spores tetrahedral,119
-taxonomy,text,1,Cibotiaceae,"Cibotium was previously included in Dicksoniaceae (Holttum, Rev. Fl. Malaya 2 (1968) 112; Kramer, Fam. Gen. Vasc. Pl. 1 (1990) 94; Parris & Latiff, Malay. Nat. J. 50 (1997) 247) or in Cyatheaceae (...",119
+section,text,3,Cibotiaceae,"Cibotium was previously included in Dicksoniaceae (Holttum, Rev. Fl. Malaya 2 (1968) 112; Kramer, Fam. Gen. Vasc. Pl. 1 (1990) 94; Parris & Latiff, Malay. Nat. J. 50 (1997) 247) or in Cyatheaceae (...",119
+indusia,description,2,Cibotium,"indusia with similar texture to that of the green frond but much paler, the two indusia surrounding numerous sporangia and long paraphyses, the inner indusium (when mature) deflexed towards the vei...",119
+lamina,description,2,Cibotium,"Laminae large, with all axes more or less hairy, glabrous when mature",119
+rhizome,description,2,Cibotium,"Rhizomes erect or prostrate (elsewhere some are tree-ferns), the apex thickly covered with yellowish to dark brown hairs, young parts without scales",119
+sori,description,2,Cibotium,"Sori rounded, terminal at the ends of veins, protected by an abaxial (“inner”) indusium and a hardly to strongly modified lobe of the frond segment (“outer” indusium), indusia inferior, cup-shaped ...",119
+stipe,description,2,Cibotium,"Stipes stout, smooth, the base densely hairy",119
+veins,description,2,Cibotium,"each lobe with a mid-vein bearing simple or forked lateral veins, veins raised on upper surface",119
+gametophyte,description,1,Cibotium,"Gametophyte: above ground, green, broadly-cordate",119
+lamina,division,1,Cibotium,"(elsewhere from bipinnatifid, bipinnate, tripinnatifid to tripinnate)",119
+pinnae,description,1,Cibotium barometz,arranged more or less alternately,120
+pinnule lobes,description,1,Cibotium barometz,apex broadly pointed,120
+pinnules,description,1,Cibotium barometz,"the proximal pinnules with short stalk 1--4 mm long, the distal pinnules sessile, all pinnules lobed almost to the vein, lobes slightly oblique, 2--5 mm apart",120
+sporangia,description,1,Cibotium,"sporangia with short to long stalks, sporangium with longitudinal, vertical or slightly oblique annulus",119
+spores,description,1,Cibotium,spores tetrahedral,119

@@ -212,7 +212,7 @@ family <- bind_rows(
   ),
   f$un(
     "About 120 genera and 650 species in the tropics and subtropics. In Sabah and Sarawak, 10 species in 5 genera including 5 apparently unnamed species (4 woody climbers and 1 tree). A number of exotic species have been introduced as ornamental plants: ...",
-    "distribution and species counts; introduced ornamentals",
+    "section | text | distribution and species counts; introduced ornamentals",
     sec = "Family Distribution",
     p = "p33"
   ),
@@ -224,7 +224,7 @@ family <- bind_rows(
   ),
   f$un(
     "Dolichandrone spathacea is confined to the mangroves, Deplanchea bancana is found in kerangas (heath) and peat swamp forest, some woody climber species appear restricted to limestones, and some Radermachera species may be restricted to ultramafic soils.",
-    "habitat, substrate",
+    "section | text | habitat, substrate",
     sec = FE,
     p = "p33"
   ),
@@ -244,13 +244,13 @@ family <- bind_rows(
   ),
   f$un(
     "The species generally have soft and light wood, at present without commercial value. ...",
-    "uses; wood softness",
+    "section | text | uses; wood softness",
     sec = "Family Uses",
     p = "p35"
   ),
   f$un(
     "The family is closely related to the Scrophulariaceae. ...",
-    "taxonomy",
+    "section | text | taxonomy",
     sec = "Family Taxonomy",
     p = "p35"
   )
@@ -375,13 +375,13 @@ deplanchea_g <- bind_rows(
   g$un("Seeds many", "seed | number", p = "p36"),
   g$un(
     "5 species, Malesia to N Australia. 1 species in Borneo (Sabah, Sarawak, Brunei, and Kalimantan).",
-    "distribution",
+    "section | text | distribution",
     sec = "Genus Distribution",
     p = "p36"
   ),
   g$un(
     "Being light-demanding, species of the genus are mainly found in secondary rain forests (including kerangas forest), woodland savannahs, and grasslands, from sea-level to 1000 m.",
-    "light demand; habitat; altitude",
+    "section | text | light demand; habitat; altitude",
     sec = "Genus Ecology",
     p = "p36"
   )
@@ -552,13 +552,13 @@ deplanchea_bancana <- bind_rows(
   s$un("Seeds flat ... wing broad, very thinly transparent, irregularly lobed", "seed | shape; wing shape and texture", p = "p36"),
   s$un(
     "Sumatra, Peninsular Malaysia and Borneo. In Sabah and Sarawak uncommon.",
-    "distribution; abundance",
+    "section | text | distribution; abundance",
     sec = "Distribution",
     p = "p36"
   ),
   s$un(
     "In Sabah and Sarawak, it occurs in heath forests on white sands or in peat swamps, in primary and secondary forests, from sea-level to 1000 m.",
-    "habitat; altitude",
+    "section | text | habitat; altitude",
     sec = "Ecology",
     p = "p36"
   )
@@ -627,7 +627,7 @@ dolichandrone_g <- bind_rows(
   ),
   g$un(
     "didynamous, included; disc annular; ovary with many ovules in many rows; style slender",
-    "stamens, disc, ovules, style",
+    "flower | stamens, disc, ovules, style",
     p = "p37"
   ),
   g$row(
@@ -641,7 +641,7 @@ dolichandrone_g <- bind_rows(
   g$row("dispersal_appendage", "Seeds hyaline-winged", "winged", "wings", p = "p37"),
   g$un(
     "9 species, from East Africa through tropical Asia to Australia; 4 species in tropical SE Asia; 1 species in Sabah and Sarawak.",
-    "distribution",
+    "section | text | distribution",
     sec = "Genus Distribution",
     p = "p37"
   )
@@ -670,7 +670,7 @@ dolichandrone_spathacea <- bind_rows(
   ),
   s$un(
     "inner bark laminated, reddish pink. Sapwood white, soft. Young twigs lenticellate.",
-    "inner bark, sapwood, young twigs",
+    "stem | inner bark, sapwood, young twigs",
     p = "p37"
   ),
   s$row("leaf_compoundness", "Leaves once pinnate, opposite", "pinnate", "compound", p = "p37"),
@@ -768,7 +768,7 @@ dolichandrone_spathacea <- bind_rows(
   ),
   s$un(
     "didynamous with a fifth rudiment, included; style long, exserted, persistent in young fruit; anthers glabrous, bilocular",
-    "stamens, staminode, style, anthers",
+    "flower | stamens, staminode, style, anthers",
     p = "p37"
   ),
   s$rng("fruit_length", "Fruits 20--33.5 x 1.5--3 cm", "20", "33.5", "cm", p = "p37"),
@@ -815,13 +815,13 @@ dolichandrone_spathacea <- bind_rows(
   s$un("Seeds many ... in many rows ... thick corky wings", "seed | number, arrangement, wing texture", p = "p37"),
   s$un(
     "From the coasts of Malabar to tropical SE Asia and the whole of Malesia.",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p37"
   ),
   s$un(
     "Restricted to the back mangroves and along banks of tidal rivers and estuaries. In Sabah, common in the mangrove forests of the west coast; in Sarawak occasional on clay soils at inland limits of mangroves.",
-    "habitat (mangrove); abundance; soil",
+    "section | text | habitat (mangrove); abundance; soil",
     sec = "Ecology",
     p = "p37"
   ),
@@ -839,7 +839,7 @@ dolichandrone_spathacea <- bind_rows(
   ),
   s$un(
     "easy to saw and work with and seasons well although it must be protected against sapstains. So far, there is no record of its use in Sabah and Sarawak but in various parts of its geographical range, the wood is used for wooden clogs, net-floats, scabbards and household utensils. ...",
-    "wood working properties; uses",
+    "section | text | wood working properties; uses",
     sec = "Uses",
     region = "",
     p = "p38"
@@ -909,7 +909,7 @@ oroxylum_g <- bind_rows(
   g$un("Seeds quite large ... in many rows", "seed | size, arrangement", p = "p38"),
   g$un(
     "Monotypic genus distributed in India, Sri Lanka, and throughout SE Asia.",
-    "distribution",
+    "section | text | distribution",
     sec = "Genus Distribution",
     p = "p38"
   )
@@ -1110,10 +1110,10 @@ oroxylum_indicum <- bind_rows(
     p = "p41"
   ),
   s$un("Seeds numerous ... membranous and transparent wing", "seed | number, wing texture", p = "p41"),
-  s$un("As for genus.", "distribution", sec = "Distribution", p = "p41"),
+  s$un("As for genus.", "section | text | distribution", sec = "Distribution", p = "p41"),
   s$un(
     "Secondary forest, mostly below 1000 m.",
-    "habitat; altitude",
+    "section | text | habitat; altitude",
     sec = "Ecology",
     p = "p41"
   ),
@@ -1220,7 +1220,7 @@ radermachera_g <- bind_rows(
   g$un("Seeds many, tiny and narrow", "seed | number, size, shape", p = "p41"),
   g$un(
     "15 species; tropical Asia, from India and south China to Malesia; 3 species in Sabah and Sarawak.",
-    "distribution",
+    "section | text | distribution",
     sec = "Genus Distribution",
     p = "p41"
   )
@@ -1393,13 +1393,13 @@ radermachera_pinnata <- bind_rows(
   s$row("dispersal_appendage", "Seeds c. 2.5 x 0.5 cm, winged", "winged", "wings", p = "p42"),
   s$un(
     "Peninsular Thailand, Sumatra, Peninsular Malaysia, Borneo, and the Philippines. In Sabah and Sarawak, generally uncommon but localised populations may be encountered in ultramafic and limestone areas ...",
-    "distribution; abundance; substrate",
+    "section | text | distribution; abundance; substrate",
     sec = "Distribution",
     p = "p42"
   ),
   s$un(
     "Primary and secondary forest, to 800 m, associated with ultramafic soils (Sabah) or limestones (Sarawak).",
-    "habitat; altitude; substrate",
+    "section | text | habitat; altitude; substrate",
     sec = "Ecology",
     p = "p42"
   ),
@@ -1423,7 +1423,7 @@ radermachera_pinnata <- bind_rows(
   ),
   s$un(
     "This species consists of two subspecies ... in subsp. acuminata the veins are not conspicuous or prominent. Subsp. acuminata is slightly variable in leaflet shape and texture.",
-    "taxonomy; intercostal venation; variability",
+    "section | text | taxonomy; intercostal venation; variability",
     sec = "Taxonomy",
     p = "p42"
   )
@@ -1573,7 +1573,7 @@ radermachera_ramiflora <- bind_rows(
     "{count}",
     p = "p44"
   ),
-  s$un("exserted, didynamous, hairy at the base; ovary ribbed", "stamens, ovary", p = "p44"),
+  s$un("exserted, didynamous, hairy at the base; ovary ribbed", "flower | stamens, ovary", p = "p44"),
   s$rng(
     "flower_style_length",
     "style to 3--3.5 cm long",
@@ -1608,14 +1608,14 @@ radermachera_ramiflora <- bind_rows(
   s$un("the wing 6--7 mm", "seed wing | length", p = "p44"),
   s$un(
     "Endemic to Sabah, known from Mt. Kinabalu, Ranau, Kota Marudu, and Mt. Rara.",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     region = "Sabah",
     p = "p44"
   ),
   s$un(
     "Rainforest, also in disturbed forest on hill sides, to 1500 m, associated with ultramafic soils.",
-    "habitat; altitude; substrate",
+    "section | text | habitat; altitude; substrate",
     sec = "Ecology",
     p = "p44"
   ),
@@ -1645,7 +1645,7 @@ radermachera_ramiflora <- bind_rows(
 s <- mk("Radermachera sp. A", "species", region = SS)
 radermachera_sp_a <- s$un(
   "The species is poorly known; the young flower buds are not sufficient for describing it properly, but the winged secondary rachis and cuspidate leaflet tips clearly distinguish it from R. ramiflora.",
-  "differential note only; no description",
+  "section | text | differential note only; no description",
   sec = "Note",
   p = "p44"
 )

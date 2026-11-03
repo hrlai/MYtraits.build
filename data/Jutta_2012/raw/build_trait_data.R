@@ -273,13 +273,13 @@ genus <- bind_rows(
   ),
   g$un(
     "About 90 species ... in E Africa and Madagascar, and in Asia from India to Japan through Malesia to Australia and Polynesia ... In Peninsular Malaysia, represented by 4 species.",
-    "distribution",
+    "section | text | distribution",
     sec = "Genus Distribution",
     p = "p150"
   ),
   g$un(
     "Cycas species occupy diverse habitats ranging from coastal habitats to interior hills, on well-drained, often nutrient-deficient substrates or elsewhere in savannah where some species are fire resistant. In arid regions, many are deciduous.",
-    "habitat; fire resistance and deciduousness outside the region",
+    "section | text | habitat; fire resistance and deciduousness outside the region",
     sec = GE,
     p = "p150"
   ),
@@ -293,7 +293,7 @@ genus <- bind_rows(
   ),
   g$un(
     "slow-growing, with low recruitment and population turnover",
-    "growth rate; recruitment",
+    "section | text | growth rate; recruitment",
     sec = GE,
     p = "p150"
   ),
@@ -353,13 +353,13 @@ genus <- bind_rows(
   ),
   g$un(
     "All parts of the plant are toxic (hepato- and neuro-toxic as well as carcinogenic). Plants ... are heavily predated by caterpillars of the butterfly Chilades pandava pandava Horsfield ...; successive infestations can seriously weaken affected plants.",
-    "toxicity; herbivores",
+    "section | text | toxicity; herbivores",
     sec = GE,
     p = "p150"
   ),
   g$un(
     "Cycads are highly sought after for the ornamental plant trade ... Malaysian species are used as food and in traditional medicine applications.",
-    "uses; toxins (BMAA, cycasin)",
+    "section | text | uses; toxins (BMAA, cycasin)",
     sec = "Genus Uses",
     p = "p151"
   ),
@@ -598,13 +598,13 @@ c_cantafolia <- bind_rows(
   ),
   s$un(
     "Endemic in Peninsular Malaysia, known only from the type locality, a chain of low-elevation hills west of the southern tip of the G. Ledang massif.",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p153"
   ),
   s$un(
     "Critically Endangered A3c, B2ab(iii), C1. The species has a very narrow localised distribution ... its entire habitat is threatened because the area has been designated for quarrying activities ...",
-    "conservation status",
+    "section | text | conservation status",
     sec = "Conservation status",
     p = "p153"
   ),
@@ -619,7 +619,7 @@ c_cantafolia <- bind_rows(
   ),
   s$un(
     "Cycas cantafolia favours precipitous granite cliffs at 200--500 m altitude.",
-    "habitat; altitude",
+    "section | text | habitat; altitude",
     sec = "Ecology",
     p = "p155"
   )
@@ -630,7 +630,7 @@ s <- mk("Cycas clivicola", "species", region = "")
 c_clivicola <- bind_rows(
   s$un(
     "Limestone outcrops in southern Thailand and northern Peninsular Malaysia.",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p155"
   ),
@@ -841,13 +841,13 @@ c_clivicola_cl <- bind_rows(
   ),
   s$un(
     "In Southern Thailand (Yala and Trang Province) and in Peninsular Malaysia it is recorded from Perlis, Kedah (including Langkawi and nearby islands) and Perak as far south as Tambun. Due to commercial collecting, its distribution is now largely restricted to inaccessible and protected areas.",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p156"
   ),
   s$un(
     "Endangered A4cd. It is endangered by on-going, active commercial harvesting in its natural habitats.",
-    "conservation status",
+    "section | text | conservation status",
     sec = "Conservation status",
     p = "p156"
   ),
@@ -870,13 +870,13 @@ c_clivicola_cl <- bind_rows(
   ),
   s$un(
     "favouring south-facing cliff faces, ... in moderate shade to full sun.",
-    "habitat; light (no categorical light trait)",
+    "section | text | habitat; light (no categorical light trait)",
     sec = "Ecology",
     p = "p156"
   ),
   s$un(
     "Burkill ... reported the species traded as an ornamental plant since the early 20th century ... Harvesting and trade continue today ...",
-    "uses",
+    "section | text | uses",
     sec = "Uses",
     p = "p156"
   ),
@@ -1089,20 +1089,20 @@ c_edentata <- bind_rows(
   ),
   s$un(
     "SE Asia: Myanmar, Thailand, Vietnam, Peninsular Malaysia, Singapore (now extinct), Sumatra and Borneo. In Peninsular Malaysia it is reported to have once been widespread along the coast and on offshore islands of the entire peninsula. ... Today distribution is largely restricted to inaccessible and protected areas.",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p157"
   ),
-  s$un("Near Threatened.", "conservation status", sec = "Conservation status", p = "p158"),
+  s$un("Near Threatened.", "section | text | conservation status", sec = "Conservation status", p = "p158"),
   s$un(
     "Restricted to coastal areas, usually on shallow, poor substrates such as sandy beaches or on bare granite rock, in moderate shade to full sun.",
-    "habitat; substrate; light",
+    "section | text | habitat; substrate; light",
     sec = "Ecology",
     p = "p158"
   ),
   s$un(
     "Popular as an ornamental ... The young leaves are mucilaginous and consumed as a vegetable ...",
-    "uses",
+    "section | text | uses",
     sec = "Uses",
     p = "p158"
   ),
@@ -1314,20 +1314,20 @@ c_macrocarpa <- bind_rows(
   ),
   s$un(
     "Peninsular Thailand ((Narathiwat Province) and SW Thailand (Prachuap Khiri Khan Province) and in Peninsular Malaysia in Perak, Melaka, Kelantan, Terengganu and Pahang.",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p159"
   ),
-  s$un("Vulnerable B1b(iii)+c(iv).", "conservation status", sec = "Conservation status", p = "p159"),
+  s$un("Vulnerable B1b(iii)+c(iv).", "section | text | conservation status", sec = "Conservation status", p = "p159"),
   s$un(
     "In primary lowland forest, on well-drained, sandy clay loam soils, usually on ridges over granite at 300--600 m altitude or occasionally on limestone hills where soil accumulates or directly on rock. Interestingly this species has been observed both as widely scattered populations of few individuals and as high density populations of many closely spaced individuals.",
-    "habitat; soil; altitude; population density",
+    "section | text | habitat; soil; altitude; population density",
     sec = "Ecology",
     p = "p159"
   ),
   s$un(
     "An ornamental species ... In times past, in Upper Perak its seeds were eaten by Orang Asli ... its stems were used as a medicine in childbirth.",
-    "uses",
+    "section | text | uses",
     sec = "Uses",
     p = "p160"
   )

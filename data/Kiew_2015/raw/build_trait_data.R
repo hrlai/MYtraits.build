@@ -268,7 +268,7 @@ family <- bind_rows(
   ),
   f$un(
     "Cosmopolitan in tropical and subtropical regions, with 6 genera and c. 70 species; ... In Peninsular Malaysia, the family is represented by 2 genera (Barclaya and Nymphaea) and 5 species.",
-    "distribution and species counts",
+    "section | text | distribution and species counts",
     sec = "Family Distribution",
     p = "p207"
   ),
@@ -283,13 +283,13 @@ family <- bind_rows(
   ),
   f$un(
     "Confined to freshwater in lakes, ponds, rivers and streams, ditches, canals, etc.",
-    "habitat",
+    "section | text | habitat",
     sec = FE,
     p = "p207"
   ),
   f$un(
     "The Victoria waterlilies have the largest leaves ... scented of pineapple.",
-    "Victoria leaf and flower size, scent (genus not in the flora region; not scored)",
+    "section | text | Victoria leaf and flower size, scent (genus not in the flora region; not scored)",
     sec = FE,
     p = "p207"
   ),
@@ -323,13 +323,13 @@ family <- bind_rows(
   ),
   f$un(
     "The main value of the family is the ornamental waterlilies ... Several species, such as Nymphaea nouchali, yield edible seeds and rhizomes.",
-    "uses",
+    "section | text | uses",
     sec = "Family Uses",
     p = "p208"
   ),
   f$un(
     "Based on similarities in aquatic habit, earlier accounts ... Barclaya differs from the other genera in a number of characters: the gynoecium is completely inferior, the petals are joined into a tube ... ovules are orthotropous ... and the seeds do not have an aril. ...",
-    "taxonomy; Barclaya diagnostic characters (ovary inferior, ovules orthotropous)",
+    "section | text | taxonomy; Barclaya diagnostic characters (ovary inferior, ovules orthotropous)",
     sec = "Family Taxonomy",
     p = "p208"
   )
@@ -464,13 +464,13 @@ barclaya_g <- bind_rows(
   ),
   g$un(
     "India (Andaman Is.), Myanmar, Thailand, Sumatra, Peninsular Malaysia, Singapore, Borneo and New Guinea. Three species, all of which are native in Peninsular Malaysia.",
-    "distribution",
+    "section | text | distribution",
     sec = "Genus Distribution",
     p = "p209"
   ),
   g$un(
     "In shaded primary lowland forest, in freshwater or peat swamp forest or in waterlogged hollows or in clear, shallow streams on fine clay substrate or on fine gravel, sometimes persisting after disturbance.",
-    "habitat; light; substrate; disturbance",
+    "section | text | habitat; light; substrate; disturbance",
     sec = GE,
     p = "p209"
   ),
@@ -520,7 +520,7 @@ barclaya_g <- bind_rows(
   ),
   g$un(
     "In Continental Europe and N America B. longifolia is traded as an aquarium plant valued for its reddish submerged leaves.",
-    "uses",
+    "section | text | uses",
     sec = "Genus Uses",
     p = "p210"
   ),
@@ -754,19 +754,19 @@ b_longifolia <- bind_rows(
   s$row("seed_surface_texture", "Seeds globose, spiny", "spiny", "spiny", p = "p211"),
   s$un(
     "India (Andaman Is.), Myanmar (Pegu, Tenasserim), E & S Thailand, Laos, Vietnam and Peninsular Malaysia. In Peninsular Malaysia only in the extreme north in Kedah (Langkawi Is., ...) and Kelantan (Setir, ...).",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p211"
   ),
   s$un(
     "Global Status--Least Concern. ... Peninsular Malaysia Red List--Endangered B2ab(iii). ...",
-    "conservation status",
+    "section | text | conservation status",
     sec = "Conservation status",
     p = "p211"
   ),
   s$un(
     "It grows in light shade in small streams with a sandy or fine gravel substrate with a moderately strong current or on the edge of muddy slow streams. Its leaves grow submerged to 30 cm deep.",
-    "habitat; light; substrate; water depth",
+    "section | text | habitat; light; substrate; water depth",
     sec = "Ecology",
     p = "p211"
   ),
@@ -818,7 +818,7 @@ b_longifolia <- bind_rows(
   ),
   s$un(
     "Traded commercially as 'Orchid Lily', it comes in two colour forms ... In aquaria its leaves can grow to 30--80 x 6.5 cm long. ... In aquaria, it periodically undergoes a dormant period when the leaves die back after which it produces new leaves.",
-    "uses; trade colour forms; leaf size and dormancy in aquaria (cultivated, not scored)",
+    "section | text | uses; trade colour forms; leaf size and dormancy in aquaria (cultivated, not scored)",
     sec = "Uses",
     region = "",
     p = "p211"
@@ -1069,19 +1069,19 @@ b_motleyi <- bind_rows(
   s$row("seed_colour", "Seeds spiny, globose, black", "black", "black", p = "p212"),
   s$un(
     "Peninsular Thailand (Setul), Peninsular Malaysia (Penang, Perak, Melaka, Selangor, Terengganu, Pahang, Johor), Singapore, Borneo (Sarawak and Kalimantan, apparently absent from Sabah) and New Guinea.",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p212"
   ),
   s$un(
     "Least Concern (Assessed by C.L. Lim).",
-    "conservation status",
+    "section | text | conservation status",
     sec = "Conservation status",
     p = "p212"
   ),
   s$un(
     "In freshwater or peat swamp forest in deep shade in stagnant or slow-flowing clear streams with fluctuating water levels where its leaves may be submerged in water to c. 65 cm deep or in dry periods lie on the water-logged mud. It sometimes grows together with Cryptocoryne (Araceae) species.",
-    "habitat; light; water depth (c. 65 cm here, c. 30 cm in Taxonomy p. 213)",
+    "section | text | habitat; light; water depth (c. 65 cm here, c. 30 cm in Taxonomy p. 213)",
     sec = "Ecology",
     p = "p212"
   ),
@@ -1134,7 +1134,7 @@ b_motleyi <- bind_rows(
   ),
   s$un(
     "Barclaya motleyi is distinct from B. rotundifolia in being truly aquatic, its leaves thriving underwater to a depth of c. 30 cm. ... Its leaves are very variable in both size and shape. ... var. kunstleri ... is here reduced to synonomy. The only Barclaya found in Sumatra ... laminas are uniformly smaller (3.5--6.5 x 4--9 cm) ...",
-    "taxonomy; water depth; leaf variation; Sumatran and type-sheet leaf sizes (outside the flora region; not scored)",
+    "section | text | taxonomy; water depth; leaf variation; Sumatran and type-sheet leaf sizes (outside the flora region; not scored)",
     sec = "Taxonomy",
     p = "p213"
   )
@@ -1167,7 +1167,7 @@ b_rotundifolia <- bind_rows(
   ),
   s$un(
     "Robust ... branching rhizome, 1--2 cm thick",
-    "plant robustness; rhizome branching, thickness",
+    "plant | robustness; rhizome branching, thickness",
     p = "p214"
   ),
   s$un(
@@ -1373,19 +1373,19 @@ b_rotundifolia <- bind_rows(
   ),
   s$un(
     "Peninsular Malaysia (Kelantan, Terengganu, Pahang and Johor) and Borneo (Brunei, Kalimantan, Sabah and Sarawak).",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p214"
   ),
   s$un(
     "Least Concern (Assessed by C.L. Lim).",
-    "conservation status",
+    "section | text | conservation status",
     sec = "Conservation status",
     p = "p214"
   ),
   s$un(
     "On waterlogged fine clay substrate at the edge of freshwater swamp, shallow margins of slow flowing streams or in muddy hollows.",
-    "habitat; substrate",
+    "section | text | habitat; substrate",
     sec = "Ecology",
     p = "p214"
   ),
@@ -1406,7 +1406,7 @@ b_rotundifolia <- bind_rows(
   ),
   s$un(
     "this species is a marsh plant and not truly aquatic ... Nursery experiments showed that ... B. rotundifolia when submerged produced no new leaves and the old ones gradually rotted away resulting in the death of the plant ... It can therefore withstand only limited periods of submersion. ... B. rotundifolia forming gregarious colonies around the margin of the swamp forest",
-    "submergence tolerance; gregarious colonies",
+    "section | text | submergence tolerance; gregarious colonies",
     sec = "Ecology",
     p = "p214"
   ),
@@ -1439,14 +1439,14 @@ b_rotundifolia <- bind_rows(
   ),
   s$un(
     "In Borneo, plants do not reach such a large size as those in Peninsular Malaysia, their petioles measuring 6--16.5 cm, lamina 5--9(12) x (5--)7--10 cm, pedicel 5.5--7 cm, and sepals 27--33 x 4--5 mm.",
-    "Bornean sizes (outside the flora region; not scored)",
+    "section | text | Bornean sizes (outside the flora region; not scored)",
     sec = "Taxonomy",
     region = "Borneo",
     p = "p214"
   ),
   s$un(
     "Although the type specimen was not distributed to SAR ... Ridley (1922) included the Kuala Teku, Pahang, population ... in B. motleyi.",
-    "taxonomy",
+    "section | text | taxonomy",
     sec = "Taxonomy",
     p = "p214"
   )
@@ -1553,7 +1553,7 @@ nymphaea_g <- bind_rows(
   ),
   g$un(
     "carpellary appendages encircling the stigmatic cup, ovules numerous",
-    "carpellary appendages; ovule number",
+    "carpel | carpellary appendages; ovule number",
     p = "p216"
   ),
   g$row("fruit_type", "Berry globular to ellipsoid", "berry", "berry", p = "p216"),
@@ -1576,13 +1576,13 @@ nymphaea_g <- bind_rows(
   ),
   g$un(
     "Cosmopolitan, c. 40 species. In Peninsular Malaysia represented by 2 species, one (N. pubescens) perhaps of cultivated origin.",
-    "distribution; native status (hedged)",
+    "section | text | distribution; native status (hedged)",
     sec = "Genus Distribution",
     p = "p216"
   ),
   g$un(
     "Open areas, fully exposed to sunlight",
-    "habitat; light",
+    "section | text | habitat; light",
     sec = "Genus Ecology",
     p = "p216"
   ),
@@ -1630,7 +1630,7 @@ nymphaea_g <- bind_rows(
   ),
   g$un(
     "Many waterlily species and hybrids are cultivated as ornamental plants. ...",
-    "uses; cultivated ornamental species not in the treatment",
+    "section | text | uses; cultivated ornamental species not in the treatment",
     sec = "Genus Uses",
     p = "p216"
   )
@@ -1854,19 +1854,19 @@ n_nouchali <- bind_rows(
   s$rng("seed_width", "0.5--1 x 0.4--1 mm", "0.4", "1", "mm", p = "p217"),
   s$un(
     "Africa, Asia to Australia; native in S and E Asia and W Malesia ... In Peninsular Malaysia, it has a scattered distribution in many places being associated with settlements making it difficult to distinguish wild populations from those of cultivated origin.",
-    "distribution; native status",
+    "section | text | distribution; native status",
     sec = "Distribution",
     p = "p217"
   ),
   s$un(
     "Least Concern (Assessed by C.L. Lim).",
-    "conservation status",
+    "section | text | conservation status",
     sec = "Conservation status",
     p = "p217"
   ),
   s$un(
     "In the lowlands, in ditches, margins of streams and formerly in paddy fields, in shallow, static or slow-flowing water (elsewhere growing in water 1--2 m deep). It is a recent introduction in Tasik Bera, Pahang ...",
-    "habitat; altitude; water depth (elsewhere, not scored)",
+    "section | text | habitat; altitude; water depth (elsewhere, not scored)",
     sec = "Ecology",
     p = "p217"
   ),
@@ -1907,7 +1907,7 @@ n_nouchali <- bind_rows(
   ),
   s$un(
     "A common ornamental waterlily in Asia. ... In Sri Lanka the flower stalks are eaten as a vegetable ...",
-    "uses",
+    "section | text | uses",
     sec = "Uses",
     region = "",
     p = "p218"
@@ -2077,19 +2077,19 @@ n_pubescens <- bind_rows(
   s$row("seed_width", "c. 1.5 x 1.3 mm", "1.3", "1.3", "mean", "mm", p = "p219"),
   s$un(
     "From Pakistan and Sri Lanka to China (Yunnan) and Taiwan, throughout Malesia to tropical NE Australia. ... In Peninsular Malaysia, it has been collected in Melaka, Penang and Terengganu, where the populations could be of cultivated origin, but it was collected in Tasik Chini, Sg. Pahang, in 1913 (Burn-Murdoch 308) suggesting that it is native there.",
-    "distribution; native status (hedged)",
+    "section | text | distribution; native status (hedged)",
     sec = "Distribution",
     p = "p219"
   ),
   s$un(
     "Least Concern (Assessed by C.L. Lim).",
-    "conservation status",
+    "section | text | conservation status",
     sec = "Conservation status",
     p = "p219"
   ),
   s$un(
     "Lowlands, in pools, ditches and lake margins with shallow, stagnant or slow flowing water.",
-    "habitat; altitude",
+    "section | text | habitat; altitude",
     sec = "Ecology",
     p = "p219"
   ),
@@ -2125,7 +2125,7 @@ n_pubescens <- bind_rows(
   ),
   s$un(
     "Cultivated as an ornamental for its fragrant white flowers.",
-    "uses",
+    "section | text | uses",
     sec = "Uses",
     p = "p219"
   )
