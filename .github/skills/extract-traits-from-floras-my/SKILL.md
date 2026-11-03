@@ -668,6 +668,19 @@ Bespoke checklist (decisions that changed per family):
   inflorescence rachis`. Leaf (terminal) and flower bud sizes -> `bud_length` /
   `bud_width` with `entity_measured = leaf bud` or `flower bud`. Crown shape
   ("crown hemispherical, dense") -> `plant_canopy_form`.
+  Provisional (DeWilde_2018 questions 3--7): fused anthers of a
+  synandrium ("synandrium ... with 2--6 completely fused anthers",
+  "anthers 7--11") -> `flower_fertile_stamens_count`, one stamen per
+  anther; anther locule counts stay unmapped. Perianth lobes of a
+  gamophyllous, one-whorled perianth ("lobes 3 or 4", "perianth 3-lobed")
+  -> `flower_perianth_merism`. The closed bud of a unisexual flower that
+  opens by splitting ("bud ... 1.5--1.6 mm long") -> `bud_length` /
+  `bud_width` with `entity_measured = male flower bud` or `female flower
+  bud`, as for Ashton_2004. Any stated aril -> `dispersal_appendage =
+  aril`; aril colour has no trait. Pericarp thickness ->
+  `fruit_wall_thickness`. A perianth colour after an "inside" clause
+  ("inside glabrous, greenish creamy") stays unmapped: its surface is
+  unclear.
   Provisional (Prance_1995 question 2): leaves "with stomatal crypts"
   -> `leaf_stomatal_position = encrypted`; "without stomatal crypts" has no
   level and stays unmapped.
