@@ -121,7 +121,12 @@ flora_copy_down <- function(higher_rows, own_rows, members) {
       !is.na(trait_value_clean),
       trait_value_clean != "",
       !str_detect(trait_value_clean, " ") | coalesce(single_term, FALSE),
-      !str_detect(trait_value_raw, "\\b(in some|most|many|some species)\\b"),
+      # "many" as a count ("1(-many)-seeded nuts", Ashton_2004) does not
+      # scope the statement
+      !str_detect(
+        trait_value_raw,
+        "\\b(in some|most|(?<![(\\x{2013}-])many|some species)\\b"
+      ),
       !str_detect(trait_value_raw, "\\([A-Z][a-z]+\\)")
     )
   alt <- map2_lgl(higher$trait_value_raw, higher$trait_value, .flora_names_alt)

@@ -1,0 +1,1067 @@
+source:
+  primary:
+    key: Ashton_2004
+    bibtype: InBook
+    year: 2004
+    author: P. S. Ashton
+    title: Dipterocarpaceae
+    booktitle: Tree Flora of Sabah and Sarawak, Volume 5
+    editor: E. Soepadmo and L. G. Saw and R. C. K. Chung
+    publisher:
+      Sabah Forestry Department and Forest Research Institute Malaysia and
+      Sarawak Forestry Department
+    place: Kepong, Malaysia
+    pages: 63--388
+    isbn: 983-2181-59-3
+    doi: 10.26525/TFSS5002
+contributors:
+  data_collectors:
+    - last_name: Ashton
+      given_name: P. S.
+      ORCID: .na
+      affiliation: Arnold Arboretum, Harvard University Herbaria, Cambridge, Massachusetts, U.S.A.; Royal Botanic Gardens, Kew, England, U.K.
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '2004'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description: |
+    Morphological traits of the Dipterocarpaceae of Sabah and Sarawak (9
+    genera, 267 species: Anisoptera 5, Cotylelobium 3, Dipterocarpus 39,
+    Dryobalanops 7, Hopea 42, Parashorea 6, Shorea 130, Upuna 1, Vatica 33;
+    40 subspecies), with family-level ecology, extracted from the family
+    treatment in the Tree Flora of Sabah and Sarawak.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    The PDF (inst/extdata/myflora/pdf/TFSS/Dipterocarpaceae.pdf, PDF pages
+    7--332, printed 63--388) is the born-digital 2008 electronic edition (L.
+    G. Saw and B. Aslina). Rows come from its text layer
+    (flora_read_pdf_lines()); no routine image check was made.
+    flora_layer_flags() found no bad glyphs; it flagged the 36 figure pages
+    (low text: an image and its caption) and the front matter. The layer
+    prints every ';' as U+037E and every hyphen as U+00AD; both are read as
+    the printed characters. raw/segment_source.R segments the text; key
+    leads and figure captions are dropped. raw/build_trait_data.R splits
+    each family, genus, species and subspecies description into sentences,
+    ';' pieces and ',' clauses, assigns each clause to an organ and scores
+    configured traits. Every unscored clause stays in raw/trait_data.csv as
+    an unmapped row, as do the Distribution, Ecology, Uses, Notes,
+    vernacular-name and subspecies key-annotation paragraphs (one row per
+    sentence). Unqualified single-level family and genus values are copied
+    to member taxa silent on the trait when every member that states the
+    trait agrees (trait_scoring_method inferred_from_family /
+    inferred_from_genus); statements naming a genus, section or 'some',
+    'most' or 'many' species are not copied. Subspecies treated only in a key
+    annotation inherit the species rows (inferred_from_species). The family
+    Ecology statements on pollination, breeding system, mycorrhiza, seed
+    dormancy and dispersal are in raw/manual_rows.csv at family rank and are
+    not copied down. Keys and figure captions are not trait evidence; type
+    and figure specimens are in raw/Ashton_2004_vouchers.csv.
+  original_file: |
+    Dipterocarpaceae.pdf (Ashton 2004, Tree Flora of Sabah and Sarawak vol.
+    5, pp. 63--388; electronic edition 2008)
+  notes: |
+    data.csv is raw/trait_data.csv (written by raw/build_trait_data.R) with
+    the columns added by flora_make_data(). Taxon names are as printed
+    (including Vatica oblongifolia subsp. oblongifolius). All 267 accepted
+    species of the treatment (the family Distribution paragraph gives 9
+    genera with 267 species; every genus count agrees) are segmented. 260
+    have their own description; the other 7 (Dipterocarpus caudatus, D.
+    conformis, Dryobalanops oblongifolia, Shorea curtisii, S. falciferoides,
+    S. hemsleyana, Vatica venulosa) are represented by their one subspecies
+    in Sabah and Sarawak, whose description is scored at subspecies rank. 33
+    further subspecies of 13 species are treated only in key annotations
+    (distribution and ecology) and inherit the species rows. There are no
+    excluded, cultivated or incompletely known taxa. The printed page range
+    of this electronic edition (63--388) differs from the volume contents
+    list (61); page numbers in this dataset are those printed in the PDF.
+    Family and genus descriptions are kept as family- and genus-rank records
+    as well as copied to member taxa. Species and subspecies description
+    values have population region Sabah and Sarawak (TFSS guide); copied and
+    inherited values have none. Three source repairs change values
+    (raw/source_fixes.csv; question 8). The fruit is measured on the nut;
+    the wing-like calyx lobes have no trait (question 1). Of 25,022 rows in
+    raw/trait_data.csv, 9,319 are mapped (6,160 from the taxa's own
+    descriptions, 2,199 copied from the family, 272 from genera, 688
+    inherited by key-annotated subspecies) and 15,703 are unmapped: 13,604
+    description clauses and 2,099 sentences of Distribution, Ecology, Uses,
+    Notes, vernacular names, conservation status and subspecies key
+    annotations. The most frequent unmapped characters are fruit calyx
+    (wing) size, shape and number; lateral vein number and relief;
+    intercostal venation; twig size; leaf texture and dried colour; midrib
+    relief; stipule size, shape and persistence; nut shape and style remnant;
+    ovary and style form; bracteoles; inner bark and sapwood; indumentum
+    sentences listing several organs; canopy position; altitude, soils and
+    distribution (summary in raw/unmapped_terms.csv). Type and figure
+    specimens are in raw/Ashton_2004_vouchers.csv (292 type citations and
+    the 36 figure captions; the figure rows were spot-checked only).
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: bark_colour
+    unit_in: .na
+    trait_name: bark_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Outer bark colour from the Bark sentence; inner bark, lenticels, mottling, patches and dammar excluded; compound colours score every word.
+  - var_in: bark_texture
+    unit_in: .na
+    trait_name: bark_texture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Outer bark surface from the Bark sentence (fissured as furrowed, flaky, smooth, corky, papery for peeling); cracked, scroll-marked and powdery have no level and stay unmapped.
+  - var_in: breeding_system
+    unit_in: .na
+    trait_name: breeding_system
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family Ecology statement 'Dipterocarps are self-compatible', scored at family rank only.
+  - var_in: bud_length
+    unit_in: unit
+    trait_name: bud_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Leaf (terminal) bud and flower bud length from the Leaf buds sentence and the Flowers 'buds ...' clause; the entity is in entity_measured. In 'a x b' the first dimension is taken as length.
+  - var_in: bud_width
+    unit_in: unit
+    trait_name: bud_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Leaf bud and flower bud width, the second dimension of 'a x b'; the entity is in entity_measured.
+  - var_in: dispersal_appendage
+    unit_in: .na
+    trait_name: dispersal_appendage
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family Ecology statement on the 'twisted wing-like fruit sepals', scored as wings at family rank only (question).
+  - var_in: dispersal_syndrome
+    unit_in: .na
+    trait_name: dispersal_syndrome
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family Ecology statements: fruits 'primarily dispersed by gyration' of the winged fruit (anemochory, question) and 'a few species are water-dispersed' (hydrochory); family rank only.
+  - var_in: flower_anther_connective_extension
+    unit_in: .na
+    trait_name: flower_anther_connective_extension
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      A connectival appendage named in the Flowers sentence scored present_general (question); the family statement is copied down.
+  - var_in: flower_colour
+    unit_in: .na
+    trait_name: flower_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Petal (corolla) colour from the Flowers sentence; parts of the petal (base, stripe, tinge, outside in bud) and hairs excluded; compound colours score every word.
+  - var_in: flower_fertile_stamens_count
+    unit_in: unit
+    trait_name: flower_fertile_stamens_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Stamen number from the Flowers sentence ('stamens 15', 'stamens c. 35').
+  - var_in: flower_orientation
+    unit_in: .na
+    trait_name: flower_orientation
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family description 'Flowers ... nodding' scored as down and copied down.
+  - var_in: flower_ovary_position
+    unit_in: .na
+    trait_name: flower_ovary_position
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Ovary position as stated in family and genus descriptions.
+  - var_in: flower_perianth_symmetry
+    unit_in: .na
+    trait_name: flower_perianth_symmetry
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family description 'Flowers ... radially symmetrical' scored as actinomorphic_general and copied down.
+  - var_in: flower_petal_length
+    unit_in: unit
+    trait_name: flower_petal_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Petal length where printed.
+  - var_in: flower_scent_production
+    unit_in: .na
+    trait_name: flower_scent_production
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family description 'Flowers ... scented' scored as scent_produced and copied down.
+  - var_in: flower_structural_carpels_count
+    unit_in: unit
+    trait_name: flower_structural_carpels_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Ovary locule number scored as carpels (axile placentation, family description).
+  - var_in: flower_structural_sex_type
+    unit_in: .na
+    trait_name: flower_structural_sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family description 'Flowers bisexual', copied down.
+  - var_in: fruit_dehiscence
+    unit_in: .na
+    trait_name: fruit_dehiscence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family description 'Fruits indehiscent ... nuts'.
+  - var_in: fruit_length
+    unit_in: unit
+    trait_name: fruit_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Nut length from the Nuts sentence ('Nuts ovoid, to 3 x 2 cm'); entity_measured nut. The persistent calyx lobes (wings) are not part of this size (question).
+  - var_in: fruit_surface_hairs
+    unit_in: .na
+    trait_name: fruit_surface_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Nut indumentum from the Nuts sentence; glabrescent and young states not scored.
+  - var_in: fruit_type
+    unit_in: .na
+    trait_name: fruit_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family description 'Fruits indehiscent 1(-many)-seeded nuts' scored as nut and copied down.
+  - var_in: fruit_width
+    unit_in: unit
+    trait_name: fruit_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Nut width or diameter from the Nuts sentence; entity_measured nut.
+  - var_in: inflorescence_length
+    unit_in: unit
+    trait_name: inflorescence_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Inflorescence length ('Inflorescences to 20 cm long') or rachis length ('rachis to 8 cm long', entity_measured inflorescence rachis; question).
+  - var_in: inflorescence_type
+    unit_in: .na
+    trait_name: inflorescence_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Inflorescence kind and position from the Inflorescences sentence (paniculate, racemose, cymose; terminal, axillary).
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaf apex from the leaf blade piece; 'apex with acumen' scored as acuminate.
+  - var_in: leaf_base_shape
+    unit_in: .na
+    trait_name: leaf_base_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaf base from the leaf blade piece; 'unequal' scored as oblique.
+  - var_in: leaf_hairs_adult_leaves
+    unit_in: .na
+    trait_name: leaf_hairs_adult_leaves
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaf surface indumentum in the first Leaves piece: hairy when a surface is hairy, glabrous when both are; glabrescent, lepidote (scales) and 'glabrous or pubescent' alternatives not scored. Indumentum sentences listing several organs stay unmapped.
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Leaf blade length, the first dimension of 'a x b cm' in the blade piece.
+  - var_in: leaf_margin
+    unit_in: .na
+    trait_name: leaf_margin
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaf margin as stated in family and genus descriptions.
+  - var_in: leaf_margin_posture
+    unit_in: .na
+    trait_name: leaf_margin_posture
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaf margin posture from the blade piece (revolute, flat).
+  - var_in: leaf_phyllotaxis
+    unit_in: .na
+    trait_name: leaf_phyllotaxis
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family description 'Leaves alternate', copied down.
+  - var_in: leaf_shape
+    unit_in: .na
+    trait_name: leaf_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Leaf blade shape from the blade piece; 'broadly' scored as widely.
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Leaf blade width, the second dimension of 'a x b cm' in the blade piece.
+  - var_in: mycorrhizal_association_type
+    unit_in: .na
+    trait_name: mycorrhizal_association_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family Ecology statement 'Dipterocarps are ectotrophic mycorrhizal', scored at family rank only.
+  - var_in: petiole_length
+    unit_in: unit
+    trait_name: petiole_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Petiole length from the leaf petiole piece.
+  - var_in: plant_canopy_form
+    unit_in: .na
+    trait_name: plant_canopy_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Crown shape from the habit sentence (hemispherical, spreading, dense as dense-crowned, open as open-crowned; question).
+  - var_in: plant_diameter_breast_height
+    unit_in: unit
+    trait_name: plant_diameter_breast_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Trunk diameter from the habit sentence ('to 2 m diameter'), as printed (no height of measurement stated).
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Growth form noun from the habit sentence; canopy position words and their qualifiers are not growth forms.
+  - var_in: plant_height
+    unit_in: unit
+    trait_name: plant_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Height from the habit sentence ('to 70 m tall').
+  - var_in: pollination_vector_known
+    unit_in: .na
+    trait_name: pollination_vector_known
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family Ecology statement 'Dipterocarps are insect pollinated', scored at family rank only.
+  - var_in: root_system_type
+    unit_in: .na
+    trait_name: root_system_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Stilt roots named in the habit or buttress clauses; 'few or none' not scored.
+  - var_in: seed_dormancy_class
+    unit_in: .na
+    trait_name: seed_dormancy_class
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Family Ecology statement 'Dipterocarp seeds lack dormancy', scored at family rank only.
+  - var_in: seedling_germination_location
+    unit_in: .na
+    trait_name: seedling_germination_location
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Germination epigeal or hypogeal from family and genus descriptions; single-term genus values copied down.
+  - var_in: stem_base_form
+    unit_in: .na
+    trait_name: stem_base_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Buttresses named in the habit sentence (flying buttresses and 'buttresses absent' not scored).
+  - var_in: stem_hairs
+    unit_in: .na
+    trait_name: stem_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Twig indumentum from the Twigs sentence; glabrescent and young states not scored.
+substitutions:
+  - trait_name: bark_colour
+    find: 'blackish'
+    replace: 'black'
+  - trait_name: bark_colour
+    find: 'brown greyish'
+    replace: 'brown grey'
+  - trait_name: bark_colour
+    find: 'dark_brown'
+    replace: 'brown_dark'
+  - trait_name: bark_colour
+    find: 'dark_brown blackish'
+    replace: 'brown_dark black'
+  - trait_name: bark_colour
+    find: 'grey pale_brown'
+    replace: 'grey brown_light'
+  - trait_name: bark_colour
+    find: 'greyish'
+    replace: 'grey'
+  - trait_name: bark_colour
+    find: 'greyish brown'
+    replace: 'grey brown'
+  - trait_name: bark_colour
+    find: 'greyish reddish brown'
+    replace: 'grey red brown'
+  - trait_name: bark_colour
+    find: 'greyish yellowish brown'
+    replace: 'grey yellow brown'
+  - trait_name: bark_colour
+    find: 'reddish'
+    replace: 'red'
+  - trait_name: bark_colour
+    find: 'reddish brown'
+    replace: 'red brown'
+  - trait_name: bark_colour
+    find: 'reddish greyish brown'
+    replace: 'red grey brown'
+  - trait_name: bark_colour
+    find: 'reddish yellowish brown'
+    replace: 'red yellow brown'
+  - trait_name: bark_colour
+    find: 'whitish'
+    replace: 'white'
+  - trait_name: bark_colour
+    find: 'yellowish'
+    replace: 'yellow'
+  - trait_name: bark_colour
+    find: 'yellowish brown'
+    replace: 'yellow brown'
+  - trait_name: bark_colour
+    find: 'yellowish reddish brown'
+    replace: 'yellow red brown'
+  - trait_name: bark_texture
+    find: 'fissured'
+    replace: 'furrowed'
+  - trait_name: bark_texture
+    find: 'fissured flakes'
+    replace: 'furrowed flaky'
+  - trait_name: bark_texture
+    find: 'fissured flaking'
+    replace: 'furrowed flaky'
+  - trait_name: bark_texture
+    find: 'fissured flaky'
+    replace: 'furrowed flaky'
+  - trait_name: bark_texture
+    find: 'fissured flaky corky'
+    replace: 'furrowed flaky corky'
+  - trait_name: bark_texture
+    find: 'flakes'
+    replace: 'flaky'
+  - trait_name: bark_texture
+    find: 'flaking'
+    replace: 'flaky'
+  - trait_name: bark_texture
+    find: 'flaky fissured'
+    replace: 'flaky furrowed'
+  - trait_name: bark_texture
+    find: 'flaky flakes'
+    replace: 'flaky'
+  - trait_name: bark_texture
+    find: 'flaky flakes smooth'
+    replace: 'flaky smooth'
+  - trait_name: bark_texture
+    find: 'peeling flakes'
+    replace: 'papery flaky'
+  - trait_name: bark_texture
+    find: 'peeling flakes smooth'
+    replace: 'papery flaky smooth'
+  - trait_name: bark_texture
+    find: 'peeling smooth'
+    replace: 'papery smooth'
+  - trait_name: bark_texture
+    find: 'smooth fissured'
+    replace: 'smooth furrowed'
+  - trait_name: bark_texture
+    find: 'smooth fissured flaky'
+    replace: 'smooth furrowed flaky'
+  - trait_name: bark_texture
+    find: 'smooth flakes'
+    replace: 'smooth flaky'
+  - trait_name: bark_texture
+    find: 'smooth flaking'
+    replace: 'smooth flaky'
+  - trait_name: bark_texture
+    find: 'smooth flaky fissured'
+    replace: 'smooth flaky furrowed'
+  - trait_name: dispersal_appendage
+    find: 'wing-like_fruit_sepals'
+    replace: 'wings'
+  - trait_name: dispersal_syndrome
+    find: 'gyration'
+    replace: 'anemochory'
+  - trait_name: dispersal_syndrome
+    find: 'water-dispersed'
+    replace: 'hydrochory'
+  - trait_name: flower_anther_connective_extension
+    find: 'connectival appendage'
+    replace: 'present_general'
+  - trait_name: flower_colour
+    find: 'brown purple yellow'
+    replace: 'red_brown blue_purple yellow_orange'
+  - trait_name: flower_colour
+    find: 'cream'
+    replace: 'white_cream'
+  - trait_name: flower_colour
+    find: 'cream pink'
+    replace: 'white_cream pink'
+  - trait_name: flower_colour
+    find: 'cream purplish'
+    replace: 'white_cream blue_purple'
+  - trait_name: flower_colour
+    find: 'cream white'
+    replace: 'white_cream'
+  - trait_name: flower_colour
+    find: 'cream yellow'
+    replace: 'white_cream yellow_orange'
+  - trait_name: flower_colour
+    find: 'pinkish yellow'
+    replace: 'pink yellow_orange'
+  - trait_name: flower_colour
+    find: 'purple'
+    replace: 'blue_purple'
+  - trait_name: flower_colour
+    find: 'purplish'
+    replace: 'blue_purple'
+  - trait_name: flower_colour
+    find: 'purplish red'
+    replace: 'blue_purple red_brown'
+  - trait_name: flower_colour
+    find: 'red'
+    replace: 'red_brown'
+  - trait_name: flower_colour
+    find: 'white'
+    replace: 'white_cream'
+  - trait_name: flower_colour
+    find: 'white cream'
+    replace: 'white_cream'
+  - trait_name: flower_colour
+    find: 'yellow'
+    replace: 'yellow_orange'
+  - trait_name: flower_colour
+    find: 'yellow pink'
+    replace: 'yellow_orange pink'
+  - trait_name: flower_colour
+    find: 'yellow red'
+    replace: 'yellow_orange red_brown'
+  - trait_name: flower_orientation
+    find: 'nodding'
+    replace: 'down'
+  - trait_name: flower_perianth_symmetry
+    find: 'radially_symmetrical'
+    replace: 'actinomorphic_general'
+  - trait_name: flower_scent_production
+    find: 'scented'
+    replace: 'scent_produced'
+  - trait_name: fruit_surface_hairs
+    find: 'puberulent'
+    replace: 'hairy'
+  - trait_name: fruit_surface_hairs
+    find: 'pubescent'
+    replace: 'hairy'
+  - trait_name: fruit_type
+    find: 'nuts'
+    replace: 'nut'
+  - trait_name: inflorescence_type
+    find: 'cymose'
+    replace: 'cyme'
+  - trait_name: inflorescence_type
+    find: 'paniculate'
+    replace: 'panicle'
+  - trait_name: inflorescence_type
+    find: 'paniculate axillary terminal'
+    replace: 'panicle axillary terminal'
+  - trait_name: inflorescence_type
+    find: 'paniculate terminal axillary'
+    replace: 'panicle terminal axillary'
+  - trait_name: inflorescence_type
+    find: 'racemose'
+    replace: 'raceme'
+  - trait_name: inflorescence_type
+    find: 'racemose cymose'
+    replace: 'raceme cyme'
+  - trait_name: inflorescence_type
+    find: 'racemose terminal axillary'
+    replace: 'raceme terminal axillary'
+  - trait_name: inflorescence_type
+    find: 'terminal cymose'
+    replace: 'terminal cyme'
+  - trait_name: leaf_apex_shape
+    find: 'acumen'
+    replace: 'acuminate'
+  - trait_name: leaf_apex_shape
+    find: 'acuminate acumen'
+    replace: 'acuminate'
+  - trait_name: leaf_apex_shape
+    find: 'acute acumen'
+    replace: 'acute acuminate'
+  - trait_name: leaf_apex_shape
+    find: 'acute acuminate acumen'
+    replace: 'acute acuminate'
+  - trait_name: leaf_apex_shape
+    find: 'bluntly_acuminate'
+    replace: 'acuminate'
+  - trait_name: leaf_apex_shape
+    find: 'obtuse acumen'
+    replace: 'obtuse acuminate'
+  - trait_name: leaf_apex_shape
+    find: 'obtuse acuminate acumen'
+    replace: 'obtuse acuminate'
+  - trait_name: leaf_apex_shape
+    find: 'obtuse subacute acute acumen'
+    replace: 'obtuse acute acuminate'
+  - trait_name: leaf_apex_shape
+    find: 'subacute'
+    replace: 'acute'
+  - trait_name: leaf_apex_shape
+    find: 'subacute acuminate'
+    replace: 'acute acuminate'
+  - trait_name: leaf_apex_shape
+    find: 'subacute acuminate acumen'
+    replace: 'acute acuminate'
+  - trait_name: leaf_base_shape
+    find: 'cuneate unequal'
+    replace: 'cuneate oblique'
+  - trait_name: leaf_base_shape
+    find: 'obtuse unequal'
+    replace: 'obtuse oblique'
+  - trait_name: leaf_base_shape
+    find: 'unequal'
+    replace: 'oblique'
+  - trait_name: leaf_base_shape
+    find: 'unequal cordate'
+    replace: 'oblique cordate'
+  - trait_name: leaf_base_shape
+    find: 'unequal cuneate'
+    replace: 'oblique cuneate'
+  - trait_name: leaf_base_shape
+    find: 'unequal cuneate obtuse'
+    replace: 'oblique cuneate obtuse'
+  - trait_name: leaf_base_shape
+    find: 'unequal obtuse'
+    replace: 'oblique obtuse'
+  - trait_name: leaf_base_shape
+    find: 'unequal obtuse cordate'
+    replace: 'oblique obtuse cordate'
+  - trait_name: leaf_base_shape
+    find: 'unequal obtuse cuneate'
+    replace: 'oblique obtuse cuneate'
+  - trait_name: leaf_margin_posture
+    find: 'recurved'
+    replace: 'revolute'
+  - trait_name: leaf_shape
+    find: 'broadly_elliptic'
+    replace: 'widely_elliptical'
+  - trait_name: leaf_shape
+    find: 'broadly_elliptic oblong'
+    replace: 'widely_elliptical oblong'
+  - trait_name: leaf_shape
+    find: 'broadly_elliptic obovate'
+    replace: 'widely_elliptical obovate'
+  - trait_name: leaf_shape
+    find: 'broadly_elliptic ovate'
+    replace: 'widely_elliptical ovate'
+  - trait_name: leaf_shape
+    find: 'broadly_obovate'
+    replace: 'widely_obovate'
+  - trait_name: leaf_shape
+    find: 'broadly_obovate oblong'
+    replace: 'widely_obovate oblong'
+  - trait_name: leaf_shape
+    find: 'broadly_ovate'
+    replace: 'widely_ovate'
+  - trait_name: leaf_shape
+    find: 'broadly_ovate elliptic'
+    replace: 'widely_ovate elliptical'
+  - trait_name: leaf_shape
+    find: 'broadly_ovate falcate'
+    replace: 'widely_ovate falcate'
+  - trait_name: leaf_shape
+    find: 'broadly_ovate lanceolate'
+    replace: 'widely_ovate lanceolate'
+  - trait_name: leaf_shape
+    find: 'broadly_ovate oblong'
+    replace: 'widely_ovate oblong'
+  - trait_name: leaf_shape
+    find: 'broadly_ovate obovate'
+    replace: 'widely_ovate obovate'
+  - trait_name: leaf_shape
+    find: 'broadly_ovate orbicular'
+    replace: 'widely_ovate orbicular'
+  - trait_name: leaf_shape
+    find: 'broadly_ovate ovate elliptic'
+    replace: 'widely_ovate ovate elliptical'
+  - trait_name: leaf_shape
+    find: 'elliptic'
+    replace: 'elliptical'
+  - trait_name: leaf_shape
+    find: 'elliptic broadly_ovate'
+    replace: 'elliptical widely_ovate'
+  - trait_name: leaf_shape
+    find: 'elliptic lanceolate'
+    replace: 'elliptical lanceolate'
+  - trait_name: leaf_shape
+    find: 'elliptic lanceolate falcate'
+    replace: 'elliptical lanceolate falcate'
+  - trait_name: leaf_shape
+    find: 'elliptic lanceolate oblanceolate'
+    replace: 'elliptical lanceolate oblanceolate'
+  - trait_name: leaf_shape
+    find: 'elliptic lanceolate ovate falcate'
+    replace: 'elliptical lanceolate ovate falcate'
+  - trait_name: leaf_shape
+    find: 'elliptic narrowly_ovate'
+    replace: 'elliptical narrowly_ovate'
+  - trait_name: leaf_shape
+    find: 'elliptic oblong'
+    replace: 'elliptical oblong'
+  - trait_name: leaf_shape
+    find: 'elliptic oblong broadly_ovate'
+    replace: 'elliptical oblong widely_ovate'
+  - trait_name: leaf_shape
+    find: 'elliptic oblong lanceolate'
+    replace: 'elliptical oblong lanceolate'
+  - trait_name: leaf_shape
+    find: 'elliptic oblong lanceolate ovate'
+    replace: 'elliptical oblong lanceolate ovate'
+  - trait_name: leaf_shape
+    find: 'elliptic oblong ovate'
+    replace: 'elliptical oblong ovate'
+  - trait_name: leaf_shape
+    find: 'elliptic obovate'
+    replace: 'elliptical obovate'
+  - trait_name: leaf_shape
+    find: 'elliptic ovate'
+    replace: 'elliptical ovate'
+  - trait_name: leaf_shape
+    find: 'elliptic ovate lanceolate'
+    replace: 'elliptical ovate lanceolate'
+  - trait_name: leaf_shape
+    find: 'lanceolate elliptic'
+    replace: 'lanceolate elliptical'
+  - trait_name: leaf_shape
+    find: 'lanceolate falcate elliptic narrowly_elliptic'
+    replace: 'lanceolate falcate elliptical narrowly_elliptical'
+  - trait_name: leaf_shape
+    find: 'lanceolate narrowly_elliptic'
+    replace: 'lanceolate narrowly_elliptical'
+  - trait_name: leaf_shape
+    find: 'narrowly_elliptic'
+    replace: 'narrowly_elliptical'
+  - trait_name: leaf_shape
+    find: 'narrowly_elliptic broadly_elliptic narrowly_oblong oblong narrowly_obovate obovate'
+    replace: 'narrowly_elliptical widely_elliptical narrowly_oblong oblong narrowly_obovate obovate'
+  - trait_name: leaf_shape
+    find: 'narrowly_elliptic lanceolate'
+    replace: 'narrowly_elliptical lanceolate'
+  - trait_name: leaf_shape
+    find: 'narrowly_elliptic narrowly_ovate narrowly_oblong'
+    replace: 'narrowly_elliptical narrowly_ovate narrowly_oblong'
+  - trait_name: leaf_shape
+    find: 'narrowly_elliptic obovate'
+    replace: 'narrowly_elliptical obovate'
+  - trait_name: leaf_shape
+    find: 'narrowly_elliptic ovate'
+    replace: 'narrowly_elliptical ovate'
+  - trait_name: leaf_shape
+    find: 'narrowly_obovate oblong elliptic obovate'
+    replace: 'narrowly_obovate oblong elliptical obovate'
+  - trait_name: leaf_shape
+    find: 'oblong broadly_ovate'
+    replace: 'oblong widely_ovate'
+  - trait_name: leaf_shape
+    find: 'oblong elliptic'
+    replace: 'oblong elliptical'
+  - trait_name: leaf_shape
+    find: 'oblong elliptic obovate'
+    replace: 'oblong elliptical obovate'
+  - trait_name: leaf_shape
+    find: 'oblong narrowly_elliptic'
+    replace: 'oblong narrowly_elliptical'
+  - trait_name: leaf_shape
+    find: 'oblong ovate elliptic'
+    replace: 'oblong ovate elliptical'
+  - trait_name: leaf_shape
+    find: 'obovate elliptic'
+    replace: 'obovate elliptical'
+  - trait_name: leaf_shape
+    find: 'ovate elliptic'
+    replace: 'ovate elliptical'
+  - trait_name: leaf_shape
+    find: 'ovate elliptic obovate'
+    replace: 'ovate elliptical obovate'
+  - trait_name: leaf_shape
+    find: 'ovate lanceolate elliptic'
+    replace: 'ovate lanceolate elliptical'
+  - trait_name: leaf_shape
+    find: 'ovate narrowly_elliptic'
+    replace: 'ovate narrowly_elliptical'
+  - trait_name: mycorrhizal_association_type
+    find: 'ectotrophic_mycorrhizal'
+    replace: 'ectomycorrhizal'
+  - trait_name: plant_canopy_form
+    find: 'dense'
+    replace: 'dense-crowned'
+  - trait_name: plant_canopy_form
+    find: 'dense hemispherical'
+    replace: 'dense-crowned hemispherical'
+  - trait_name: plant_canopy_form
+    find: 'hemispherical dense'
+    replace: 'hemispherical dense-crowned'
+  - trait_name: plant_canopy_form
+    find: 'open spreading'
+    replace: 'open-crowned spreading'
+  - trait_name: plant_growth_form
+    find: 'trees'
+    replace: 'tree'
+  - trait_name: pollination_vector_known
+    find: 'insect_pollinated'
+    replace: 'insect'
+  - trait_name: root_system_type
+    find: 'stilt-roots'
+    replace: 'stilt_roots'
+  - trait_name: seed_dormancy_class
+    find: 'lack_dormancy'
+    replace: 'non_dormant'
+  - trait_name: stem_hairs
+    find: 'tomentose'
+    replace: 'hairy'
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1: |
+    Winged fruit size. The dipterocarp fruit is a nut held in a persistent
+    calyx whose lobes expand into wings ("Fruits: calyx lobes unequal, 3
+    longer lobes spatulate, to 15 x 2.8 cm ... Nuts ovoid, to 3 x 2 cm").
+    The nut size is scored as fruit_length / fruit_width with
+    entity_measured = nut (441 rows); the wing (calyx lobe) sizes stay
+    unmapped (601 unmapped 'fruit calyx | size' rows). Confirm the nut as
+    the measured fruit, and decide whether a fruit-wing length trait should
+    be added to traits.yml (it is the main dispersal character of the
+    family).
+  question2: |
+    Connectival appendage. Family "connective with more or less prominent
+    appendage" and species clauses such as "connectival appendage aristate,
+    sericeous, exceeding anther" are scored flower_anther_connective_extension
+    = present_general (308 rows, mostly copied from the family). Its
+    length relative to the anther ("c. 3x the length of anther", "short,
+    vestigial") is not mapped to short_extension / long_extension. Confirm
+    present_general, or ask for length levels to be scored.
+  question3: |
+    Inflorescence rachis. "Inflorescences terminal or axillary; rachis to 8
+    cm long, singly branched" is scored as inflorescence_length with
+    entity_measured = inflorescence rachis (160 rows); "Inflorescences
+    to 20 cm long" is inflorescence_length with no entity. Confirm the
+    rachis mapping.
+  question4: |
+    Bud sizes. Leaf (terminal) bud and flower bud sizes ("Leaf buds ovoid, to
+    1.2 mm long"; "Flowers: buds ellipsoid, to 5 x 3 mm") are scored as
+    bud_length / bud_width with entity_measured = leaf bud or flower bud
+    (888 rows); in "a x b" the first dimension is taken as length.
+    Confirm both bud kinds belong in these traits.
+  question5: |
+    Crown shape. Habit clauses such as "crown hemispherical, rather even" and
+    "crown dark, dense, hemispherical" are scored as plant_canopy_form
+    (hemispherical, spreading; dense -> dense-crowned; open -> open-crowned;
+    100 rows). Confirm these mappings.
+  question6: |
+    Family flower statements copied down. "Flowers bisexual, radially
+    symmetrical, scented, nodding" (family description, p. 63) is copied to
+    every taxon as flower_structural_sex_type bisexual,
+    flower_perianth_symmetry actinomorphic_general, flower_scent_production
+    scent_produced and flower_orientation down (about 300 rows each). No
+    species states otherwise. Confirm that 'nodding' is flower_orientation
+    down and that these family values should be copied.
+  question7: |
+    Family dispersal statements (Ecology, p. 66). "Fruits are primarily
+    dispersed by gyration occasioned by the twisted wing-like fruit sepals,
+    though many appear to have no means of dispersal. ... A few species are
+    water-dispersed." Scored at family rank only, not copied: dispersal_syndrome
+    anemochory (commonness 'primarily'; gyration taken as wind dispersal),
+    dispersal_syndrome hydrochory ('a few species'), dispersal_appendage
+    wings. The hedged "many appear to have no means of dispersal" is not
+    scored. Confirm the mappings, and whether the family rows should be
+    copied to species.
+  question8: |
+    Source repairs that change values (raw/source_fixes.csv). Shorea
+    dealbata "to 30 m tall, to 60 m diameter" (p. 248) repaired to 60 cm;
+    Shorea seminis "to 45 m tall, to 1.3 mm diameter" (p. 334) to 1.3 m;
+    Vatica vinosa nut "to 0.8 mm diameter" inside calyx lobes "to 0.9 x 0.8
+    cm" (p. 387) to 0.8 cm. Confirm the three repairs.
+  question9: |
+    Width larger than length. Dipterocarpus costulatus flower "buds to 3 x 5
+    cm" (p. 101) is scored as printed (bud_length 3 cm, bud_width 5 cm);
+    other Dipterocarpus buds are 0.5--2 cm wide, so "3 x 0.5 cm" may be
+    intended. Decide whether to repair it or drop the width. Likewise Vatica
+    globosa "petiole 0.7--1.5 mm long" (p. 367; other Vatica petioles are
+    0.5--2 cm) is scored as printed; 0.7--1.5 cm may be intended.
+  question10: |
+    Indumentum of several organs. Most species have a sentence such as
+    "Twig, inflorescence, petiole, leaf bud, parts of flower exposed in bud,
+    stipules and venation below more or less persistently rusty-brown
+    scabrid-pubescent" (700 unmapped 'indumentum' rows). These are not
+    scored, so stem_hairs and leaf_hairs_adult_leaves are scored for few
+    species (6 and 26 taxa). Leaves "cream-lepidote below"
+    (scales, not hairs) are not scored either. Decide whether stem_hairs
+    (twig listed, hairs persistent) and leaf_hairs_adult_leaves (leaf
+    surface listed) should be scored from these sentences.
+  question11: |
+    Subspecies. Seven species have one subspecies in Sabah and Sarawak whose
+    description is scored at subspecies rank. 33 subspecies of 13 species are
+    treated only in key annotations (distribution and ecology); they inherit
+    the species rows (rank_scored_from = species). Species clauses naming a
+    subspecies ("10--15 x 6--10 cm (subsp. agamii) or narrowly ovate,
+    4.5--10 x 2.5--4 cm (subsp. diminuta)", Shorea agamii p. 220) are left
+    unmapped rather than assigned to the subspecies, and where one piece gives
+    two sizes for two forms (Shorea ovalis leaf blade, p. 302) only the first
+    is scored. Confirm, or ask for subspecies values to be scored from these
+    clauses.
+  question12: |
+    Canopy position. Nearly every habit names a canopy position
+    ("emergent", "main canopy", "subcanopy", "understorey"; 247 taxa),
+    and many name buttress height, bole form and dammar colour. None has a
+    trait in traits.yml; they are unmapped. Consider a canopy-position trait
+    centrally.
