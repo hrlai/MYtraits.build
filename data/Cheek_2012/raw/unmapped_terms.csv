@@ -2,21 +2,33 @@ organ,character,n_taxa,example_taxon,example_text,printed_page
 section,text,14,Nepenthes,"A genus of c. 110 species, mostly in Malesia, but distributed from Madagascar and the Seychelles to Sri Lanka, NE India, Thailand, Indo-China, throughout Malesia to Australia and the Solomon Is. an...",250
 flower,description,11,Nepenthes,Male flowers with perianth as in female,250
 indumentum,description,11,Nepenthes,"Indumentum of simple, bifid, fasciculate, stellate or dendritic non-glandular hairs and sunken, sessile or shortly stipitate glandular hairs",249
-inflorescence,description,11,Nepenthes,appearing lateral by subsequent growth,250
+inflorescence,description,11,Nepenthes,"of 6--300 flowers (male inflorescences usually larger and more floriferous than the female), the main axis with indeterminate growth, the partial inflorescences 1-flowered (racemose) or 2-flowered ...",250
 leaf,description,11,Nepenthes,marcescent,249
-lower pitcher,description,11,Nepenthes,"Lower pitchers produced from rosettes or short stems, often resting on the ground, usually ovoid or globular, the mouth facing towards the stem, with two ventral fringed wings running from the base...",250
-pitcher lid,description,11,Nepenthes,"lid usually held over the mouth (except in N. ampullaria where it is reflexed away from the mouth), lower surface with appendages absent (elsewhere with a laterally flattened basal appendage or rar...",250
-pitcher spur,description,11,Nepenthes,"spur inserted on dorsal surface at junction with lid, entire or variously divided, flattened or terete",250
 stem,description,11,Nepenthes,Stems terete or 2--4-angled or winged,249
-upper pitcher,description,11,Nepenthes,"Upper pitchers produced from climbing stems (rarely present in N. ampullaria) usually more elongated and infundibular (funnel-shaped) than the lower pitchers, the mouth faces away from the stem, th...",250
+upper pitcher,description,11,Nepenthes,tendril coiled,250
 leaf venation,description,10,Nepenthes albomarginata,"longitudinal veins 1 on each side of the midrib near the margin, inconspicuous",256
-peristome,description,10,Nepenthes,peristome often glossy red,249
-pitcher mouth,description,10,Nepenthes,"mouth apical (or elsewhere sometimes subapical), rimmed with a ribbed peristome (pitcher rim), the inner edge often toothed and bearing nectar glands, at the rear sometimes raised to form a column ...",249
-pitcher,description,9,Nepenthes,"Pitchers dimorphic, entirely green, or yellow or orange or white or purple or red, often marked with red streaks or blotches",249
+lower pitcher,description,10,Nepenthes albomarginata,"Lower pitchers ellipsoid at base, tapering gradually into the cylindrical upper half, 8.5--15 cm long, 3.5--6 cm wide at base, tapering to 2--3 cm wide above, with two fringed wings to 6 mm broad, ...",256
+pitcher lid,description,10,Nepenthes albomarginata,"lid ovate, c. 4 x 3 cm, lower surface without hairs or appendages, nectar glands densely packed, elliptic, crater-like, c. 0.3 mm long",256
+pitcher spur,description,10,Nepenthes albomarginata,"spur simple, 1--3(--7) mm long",256
+peristome,description,9,Nepenthes albomarginata,"peristome more-or-less cylindrical in section, c. 1 mm wide, with fine, closely spaced ribs, 0.1--0.15 mm apart, lacking teeth, outer edge entire, inner edge lacking teeth",256
+flower,shape,8,Nepenthes benstonei,ovate,259
+pitcher,colour,7,Nepenthes,"Pitchers dimorphic, entirely green, or yellow or orange or white or purple or red, often marked with red streaks or blotches",249
+leaf,shape,6,Nepenthes,"chartaceous or coriaceous, petiolate or sessile, midrib extended into an unbranched tendril, the distal part expanded into an elaborate, animal-trapping receptacle (pitcher) containing digestive fluid",249
+pitcher mouth,description,6,Nepenthes,"mouth apical (or elsewhere sometimes subapical), rimmed with a ribbed peristome (pitcher rim), the inner edge often toothed and bearing nectar glands, at the rear sometimes raised to form a column ...",249
+pitcher,description,5,Nepenthes albomarginata,"Pitchers green, green mottled with red or deep red, with a conspicuous glistening white or pale brown band of densely packed silky hairs immediately below the peristome",256
+pitcher mouth,shape,5,Nepenthes albomarginata,"mouth more-or-less ovate, oblique, straight",256
 fruit,description,3,Nepenthes,sometimes stipitate,250
 pitcher wings,description,3,Nepenthes albomarginata,"with two ridges to 1 mm broad, occasionally with short wings towards the pitcher mouth, and then usually extending to above the level of the peristome, lacking fringed elements",256
 bud,description,2,Nepenthes,"Buds naked, lacking scales",249
+peristome,colour,2,Nepenthes,peristome often glossy red,249
+upper pitcher,shape,2,Nepenthes,"Upper pitchers produced from climbing stems (rarely present in N. ampullaria) usually more elongated and infundibular (funnel-shaped) than the lower pitchers, the mouth faces away from the stem, th...",250
+inflorescence,shape,1,Nepenthes,appearing lateral by subsequent growth,250
+leaf venation,shape,1,Nepenthes benstonei,"pennate veins inconspicuous, forming a network with the longitudinal veins",259
 lid nectar glands,description,1,Nepenthes,nectar glands usually abundant,250
+lower pitcher,shape,1,Nepenthes,"Lower pitchers produced from rosettes or short stems, often resting on the ground, usually ovoid or globular, the mouth facing towards the stem, with two ventral fringed wings running from the base...",250
+peristome,shape,1,Nepenthes benstonei,peristome somewhat flattened,259
+pitcher lid,shape,1,Nepenthes,"lid usually held over the mouth (except in N. ampullaria where it is reflexed away from the mouth), lower surface with appendages absent (elsewhere with a laterally flattened basal appendage or rar...",250
+pitcher spur,shape,1,Nepenthes,"spur inserted on dorsal surface at junction with lid, entire or variously divided, flattened or terete",250
 plant,description,1,Nepenthes ampullaria,with many terrestrial and occasionally with aerial rosettes,257
 rosette pitcher,description,1,Nepenthes sanguinea,"rosette pitchers smaller and more slender in proportion than the lower pitchers, peristome not usually sinuate",271
 seed,description,1,Nepenthes,"slender due to long basal and apical appendages, testa reduced to outer epidermis with thick outer walls to the cells and irregular thickenings on the radial and inner walls, endosperm starchy or a...",250

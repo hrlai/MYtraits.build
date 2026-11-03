@@ -412,6 +412,14 @@ flora_unmapped_synonyms <- c(
   "description clause" = "description"
 )
 
+# Organ nouns that only qualify the character in a wording ("midrib relief",
+# "lateral vein count", "domatia presence", "overlap with branches", "height at
+# first flowering"). Dropped when a wording matches several patterns.
+flora_unmapped_qualifiers <- paste0(
+  "\\b(veins?|midribs?|nerves?|domatia|glands?|lobes?|branch(es)?)\\b(?= [a-z])|",
+  "\\b(at|with) (first )?(anthesis|flowering|fruiting|branches)\\b"
+)
+
 # The listed character for a free wording: the one pattern it matches, else
 # `description`. Parentheses and quoted terms are comments, so not matched.
 flora_unmapped_character <- function(wording) {
@@ -425,6 +433,10 @@ flora_unmapped_character <- function(wording) {
     }
     bare <- str_remove_all(str_to_lower(w), "\\([^)]*\\)|'[^']*'")
     hit <- names(pat)[str_detect(bare, pat)]
+    if (length(hit) > 1) {
+      bare <- str_remove_all(bare, flora_unmapped_qualifiers)
+      hit <- names(pat)[str_detect(bare, pat)]
+    }
     if (length(hit) == 1) hit else "description"
   })
 }
@@ -435,8 +447,13 @@ flora_unmapped_character <- function(wording) {
 # <detail> ahead of `detail`, so the summaries stay comparable across datasets
 # and nothing is lost. Vectorised.
 flora_unmapped_note <- function(organ, character, detail = NA_character_) {
-  organ <- str_squish(organ)
-  character <- str_squish(character)
+  n <- max(length(organ), length(character), length(detail))
+  if (!length(organ) || !length(character)) {
+    return(character(0))
+  }
+  organ <- str_squish(rep_len(organ, n))
+  character <- str_squish(rep_len(character, n))
+  detail <- rep_len(detail, n)
   stopifnot(
     !is.na(organ),
     nzchar(organ),
@@ -450,7 +467,7 @@ flora_unmapped_note <- function(organ, character, detail = NA_character_) {
     NA_character_,
     character
   )
-  detail <- map2_chr(moved, rep_len(detail, length(ch)), \(a, b) {
+  detail <- map2_chr(moved, detail, \(a, b) {
     s <- str_squish(c(a, b))
     s <- s[!is.na(s) & nzchar(s)]
     if (length(s)) paste(s, collapse = "; ") else NA_character_

@@ -1,9 +1,9 @@
 organ,character,n_taxa,example_taxon,example_text,printed_page
 section,text,54,Pandanaceae,"In Malay, mengkuang and pandan are used in general for Benstonea and Pandanus species, though mengkuang is applied more to those with longer leaves",118
+syncarps,description,47,Pandanaceae,Syncarps globose to oblong,117
 female inflorescences,description,46,Pandanaceae,free or almost joined with adjacent ovaries of the same compound head,117
-syncarps,description,46,Pandanaceae,Syncarps globose to oblong,117
 syncarps,size,46,Benstonea affinis,in flower 1.8--2 x 1--1.4 cm,131
-male inflorescences,description,40,Pandanaceae,Male flowers without perianth,117
+male inflorescences,description,41,Pandanaceae,Male flowers without perianth,117
 leaf margin,size,37,Benstonea affinis,margin from above base with ascending prickles 1.6--2 mm long and 2--5 mm apart,131
 stems,size,36,Benstonea atrocarpa,Trunk to 14--45 cm diameter,134
 stigmas,description,35,Pandanaceae,stigma appressed or erect,117
@@ -29,7 +29,7 @@ pileus,description,23,Benstonea,pileus (the free upper part of the drupe) usuall
 drupes,count,21,Benstonea affinis,4--5-angled,131
 leaf apex,size,21,Benstonea alticola,apex gradually narrowed into caudate tip 5 cm long,132
 male inflorescence bracts,size,21,Benstonea affinis,bracts (median) 16 x 4 cm,131
-syncarps,colour,20,Benstonea atrocarpa,almost black,135
+syncarps,colour,21,Benstonea atrocarpa,almost black,135
 drupes,description,19,Benstonea affinis,oblong-pyramidal to obovoid,131
 endocarp,description,19,Pandanaceae,enclosing the locules in an integral structure or crossed by the mesocarp (Martellidendron),117
 male inflorescence bracts,description,19,Benstonea affinis,denticulate,131
@@ -65,6 +65,7 @@ mesocarp,size,12,Benstonea affinis,mesocarp cavity 2 mm long,131
 seeds,description,12,Pandanaceae,"Seeds free (Freycinetia, Sararanga) or inseparable from the endocarp (Pandanus)",117
 endocarp,texture,11,Pandanaceae,endocarp fibrous,117
 body,description,10,Benstonea alticola,body ellipsoid,132
+inflorescences,description,9,Pandanaceae,inflorescences terminal or terminating lateral shoots,117
 leaf base,colour,9,Benstonea herbacea,base amplexicaul and partly dark purple,142
 male inflorescences,colour,9,Benstonea nana,pollen white,145
 pleats,description,9,Pandanus amaryllifolius,flattened,212
@@ -72,7 +73,6 @@ stems,armature,9,Benstonea atrocarpa,thorny,134
 stigmas,count,9,Freycinetia,stigma solitary or up to 12 per berry,155
 styles,texture,9,Benstonea herbacea,bony,142
 endocarp,colour,8,Benstonea elostigma,pale brown,138
-inflorescences,description,8,Benstonea,Inflorescences terminal or lateral on short side-branches,128
 leaf pleats,description,8,Benstonea affinis,sometimes very few or even absent,131
 male inflorescence spikes,colour,8,Benstonea alticola,yellow,132
 styles,colour,8,Benstonea ornata,style yellowish brown,147
@@ -92,7 +92,6 @@ leaf margin,armature,5,Benstonea parva,margin with ascending red-tipped (drying 
 leaf pleats,size,5,Benstonea affinis,upper leaf surface pleat prickles to 1 mm long and 3--4 mm interval,131
 male inflorescence peduncle,size,5,Benstonea alticola,peduncle to 8 cm,132
 stamens,size,5,Pandanus houlletii,stamens in umbels on a common stalk 6 mm long,186
-unknown organ,colour,5,Pandanaceae,enclosed at first by spathaceous and often coloured bracts,117
 female inflorescence bracts,count,4,Benstonea ornata,bracts 3--6,147
 female inflorescence pedicels,description,4,Freycinetia angustifolia,glabrous,157
 female inflorescence pedicels,size,4,Freycinetia angustifolia,pedicels 9--11 x 1.5--2 mm,157
@@ -114,6 +113,7 @@ female inflorescence peduncle,colour,3,Benstonea dumetorum,those surrounding the
 filaments,colour,3,Benstonea dumetorum,filaments short and orange,136
 filaments,size,3,Benstonea atrocarpa,filaments conic and very short (c. 0.3 mm),134
 habit,colour,3,Benstonea alticola,with marcescent shredded leaf bases,132
+inflorescences,colour,3,Pandanaceae,enclosed at first by spathaceous and often coloured bracts,117
 leaf margin,colour,3,Pandanus amaryllifolius,glaucous beneath,211
 male inflorescence bracts,armature,3,Benstonea ornata,unarmed except for apex,147
 male inflorescence peduncle,description,3,Benstonea parva,peduncle soon withering and caducous,149
@@ -123,7 +123,6 @@ pleats,count,3,Pandanus amaryllifolius,with 3--6 stamens per phalange,212
 syncarp pedicels,description,3,Freycinetia imbricata,glabrous or minutely hispidulous,161
 syncarp pedicels,size,3,Freycinetia imbricata,pedicels 9--30 x 2--3.5 mm,161
 syncarps,texture,3,Pandanus albifrons,pericarp more-or-less fleshy,174
-unknown organ,description,3,Pandanaceae,Flowers small,117
 apex,armature,2,Freycinetia angustifolia,tips with minute prickles,156
 apex,colour,2,Pandanus amaryllifolius,the apex green in larger ones,212
 base,count,2,Benstonea humilis,5--7-angled,144
@@ -136,8 +135,8 @@ habit,texture,2,Pandanus albifrons,not or hardly branched,174
 inflorescence bracts,armature,2,Pandanus,bracts with prickles on margins,169
 inflorescence bracts,description,2,Freycinetia rigidifolia,long-acuminate,165
 inflorescence bracts,size,2,Freycinetia rigidifolia,13--17.5 cm long,165
-inflorescences,colour,2,Freycinetia imbricata,Inflorescences terminal or pseudolateral on short side branches with a few reduced leaves,161
 inflorescences,count,2,Freycinetia,with 1 to more flowering heads arranged in a raceme or umbel,155
+juvenile leaves,colour,2,Pandanus crinifolius,Young leaves pinkish-brown,178
 leaf apex,armature,2,Benstonea,leaf apex often adaxially spinulose along the two main pleats (spines rarely absent),128
 leaf apex,colour,2,Pandanus tectorius,green and slightly glaucous beneath,213
 leaf apex,count,2,Benstonea epiphytica,apex long-attenuate for 20+ cm,139
@@ -148,6 +147,7 @@ male inflorescence bracts,texture,2,Benstonea parva,somewhat fleshy,149
 phalanges,description,2,Benstonea,phalanges or triads of stamens,128
 phalanges,size,2,Pandanus fusinus,umbellate on a column 5 x 1.5 mm,182
 roots,armature,2,Pandanus,spiny,169
+seedlings,colour,2,Pandanus klossii,Seedling and young plant apparently without pink tinge at base,193
 seeds,count,2,Pandanus horizontalis,1-locular,185
 stems,texture,2,Benstonea affinis,Stems hardly branched to much branched,131
 syncarp bracts,colour,2,Freycinetia imbricata,bracts pale cream or yellowish,161
@@ -167,7 +167,11 @@ female inflorescence peduncle,texture,1,Benstonea atrocarpa,peduncle woody,135
 female inflorescences,colour,1,Benstonea ornata,green,147
 female inflorescences,texture,1,Freycinetia,with a rigid or fleshy pileus,155
 female inflorescences,venation,1,Pandanus penangensis,striate-veined,199
+flowers,description,1,Pandanaceae,Flowers small,117
 inflorescence pedicels,description,1,Freycinetia angustifolia,pedicels well separated,156
+juvenile leaves,count,1,Freycinetia javanica,Label on Stone 5623 records juvenile leaves are slightly pink-brown,162
+juvenile leaves,description,1,Freycinetia javanica,with abruptly caudate apex,162
+juvenile leaves,size,1,Freycinetia javanica,c. 10 x 2.4 cm,162
 leaf auricles,armature,1,Freycinetia corneri,with ciliate-spinulose prickles,159
 leaf auricles,colour,1,Freycinetia javanica,tapered or rounded at apex,162
 leaf auricles,venation,1,Freycinetia kamiana,5--6-veined,163
@@ -198,5 +202,3 @@ spikes,size,1,Freycinetia javanica,(0.7--)3--3.7 x 0.4 cm,162
 stamens,colour,1,Benstonea alticola,yellow,132
 syncarp bracts,description,1,Freycinetia sumatrana,bracts leaf-like,168
 syncarps,armature,1,Benstonea humilis,with 240--430 drupes and appearing spiny through the styles,144
-unknown organ,count,1,Freycinetia javanica,Label on Stone 5623 records juvenile leaves are slightly pink-brown,162
-unknown organ,size,1,Freycinetia javanica,c. 10 x 2.4 cm,162

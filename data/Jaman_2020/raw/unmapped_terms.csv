@@ -1,25 +1,53 @@
 organ,character,n_taxa,example_taxon,example_text,printed_page
 section,text,23,Cyathea,As for the family.,78
-sori,description,23,Cyathea,"Sori usually at the fork of a vein, or seated on a simple vein",78
+sori,description,22,Cyathea,"Sori usually at the fork of a vein, or seated on a simple vein",78
 stipe,description,21,Cyathea alleniae,near base with many thick conical spines to 2 mm long,81
-veins,description,21,Cyathea,"veins simple or branched, lower ones usually once forked, sometimes pinnate where pinnule-segments are deeply lobed",78
-pinnules,description,20,Cyathea,"pinnules almost symmetrical at the base, many on each pinna subequal, distal ones more-or-less abruptly decreasing",78
-paraphyses,description,19,Cyathea,"paraphyses usually present as multicellular hairs, sometimes flat and several cells wide at base",78
-pinnae,description,18,Cyathea,"pinnae normally pinnate-bipinnatifid, in a few cases simple, fully bipinnate or tripinnate, sometimes dimorphic",78
-scales and hairs,description,18,Cyathea alleniae,Scales and hairs: costa glabrescent and warty near base,81
+veins,description,19,Cyathea alleniae,veins to 12 pairs,81
 scales,description,16,Cyathea alleniae,"scales flabelloid, near base, dark, shining, to 20 x 1.5 mm, with fragile edges mostly abraded",81
-indusia,description,15,Cyathea,"indusium attached all round base of receptacle and covering young sorus, opening to form a firm-edged cup or opening by irregular rupture, or attached on costulet side of receptacle and of varying ...",78
+scales and hairs,description,16,Cyathea alleniae,Scales and hairs: costa glabrescent and warty near base,81
 costulets,description,14,Cyathea alleniae,costulets 5--6 mm apart,81
 trunk,description,13,Cyathea,"Trunk nearly always erect, short or tall, rarely absent, (rarely prostrate, not in our area)",78
-lamina segments,description,12,Cyathea alleniae,"the larger ones lobed halfway to costulet, veins in such lobes pinnate",81
-rachis,description,11,Cyathea alternans,"rachises medium to dark brown, almost glabrous below, appressed hairy above",82
+indusia,description,12,Cyathea alleniae,"indusium a firm brown scale of rather irregular shape on costular side, often nearly circular, sometimes unevenly lobed, rarely extending round base of receptacle on side remote from costule",81
+pinnules,description,12,Cyathea borneensis,larger ones c. 2.5 cm apart,83
+pinnules,division,12,Cyathea alleniae,"pinnules sessile, rather easily detached when dry",81
+paraphyses,description,11,Cyathea,"paraphyses usually present as multicellular hairs, sometimes flat and several cells wide at base",78
+pinnae,description,11,Cyathea alleniae,"median to lowest pinnae free, with pinnules deeply lobed to costulets, pinnules to c. 6.5 x 1.2 cm, segments slightly falcate, costulets 12--18 mm apart, all pinnae with sori on fertile lamina",81
 costules,description,10,Cyathea alleniae,"also firm brown elongate scales, rather slender, the larger ones with a dark setiform apex and sometimes dark marginal setae",81
-pinnule lobes,description,9,Cyathea borneensis,lobed almost to costules,83
-lamina,description,6,Cyathea,"Fronds more-or-less elliptical, lower pinnae always smaller than middle ones, sometimes gradually much reduced and then the stipe short",78
+lamina segments,description,9,Cyathea bunnemeijeri,lamina-segments rather thin,84
+pinnae,division,9,Cyathea,"pinnae normally pinnate-bipinnatifid, in a few cases simple, fully bipinnate or tripinnate, sometimes dimorphic",78
+rachis,description,9,Cyathea alternans,"rachises medium to dark brown, almost glabrous below, appressed hairy above",82
+paraphyses,colour,7,Cyathea alternans,"paraphyses numerous, translucent to dark brown, hardly exceeding the sporangia",82
+pinnule lobes,description,7,Cyathea excavata,lobes separated by intervals of about their own width,87
+pinnules,shape,6,Cyathea,"pinnules almost symmetrical at the base, many on each pinna subequal, distal ones more-or-less abruptly decreasing",78
 pneumathodes,description,6,Cyathea,"Pneumathodes present in a discontinuous line (or 2--3 lines close together) along each side of stipe and rachis, in subgenus Cyathea converging downwards on each side of base of stipe and there oft...",78
-receptacle,description,6,Cyathea,"receptacle erect, club-shaped to spherical",78
-costa,description,5,Cyathea,upper surface of costa and costule raised,78
-sporangia,description,2,Cyathea,"Sporangia many, always short-stalked",78
+receptacle,description,5,Cyathea borneensis,receptacles swollen,83
+costulets,shape,4,Cyathea hymenodes,"bullate scales on costulets, often deciduously from fertile pinnules",90
+lamina segments,division,4,Cyathea alleniae,"the larger ones lobed halfway to costulet, veins in such lobes pinnate",81
+lamina segments,shape,4,Cyathea contaminans,edges more-or-less crenate-serrate,86
+costa,description,3,Cyathea,upper surface of costa and costule raised,78
+lamina,description,3,Cyathea borneensis,"thinly papyraceous, veins forked, distinct on both surfaces",83
+pinnule lobes,shape,3,Cyathea borneensis,lobes oblique,83
+stipe,colour,3,Cyathea alternans,Stipes dark brown,82
+costa,colour,2,Cyathea borneensis,"costa brown or paler, purplish at basal portion",83
+indusia,shape,2,Cyathea,"indusium attached all round base of receptacle and covering young sorus, opening to form a firm-edged cup or opening by irregular rupture, or attached on costulet side of receptacle and of varying ...",78
+lamina,shape,2,Cyathea moluccana,"the apical pinna usually like the others, and all pinnae articulate to the rachis",96
+pinnule lobes,division,2,Cyathea borneensis,lobed almost to costules,83
+rachis,indumentum,2,Cyathea polypoda,rachis and costa glabrescent on lower surface,100
+scales and hairs,indumentum,2,Cyathea glabra,Scales and hairs: scales on costules and costulets beneath sparse,89
+sporangia,shape,2,Cyathea,in some species of subgenus Sphaeropteris scales present round base of receptacle more-or-less covering young sporangia,78
 spores,description,2,Cyathea,"Spores thin-walled, smooth or papillose",78
-stem and scales,description,2,Cyathea,"Scales present on lower and lateral surfaces of axes of frond, at least in early stages of growth, larger ones on stipe and on lower surfaces of axes and veins, rarely on lamina between veins",78
-gametophyte,description,1,Cyatheaceae,"Gametophytes green, cordate",77
+trunk,shape,2,Cyathea excavata,"sometimes with lateral buds forming small crowns of fronds, old fronds persistent and hanging down over the trunk",87
+veins,division,2,Cyathea,"veins simple or branched, lower ones usually once forked, sometimes pinnate where pinnule-segments are deeply lobed",78
+gametophyte,colour,1,Cyatheaceae,"Gametophytes green, cordate",77
+indusia,colour,1,Cyathea oosora,"indusium firm, shining brown when old, at first ovoid with a small apical aperture, breaking irregularly and persistent",99
+lamina,colour,1,Cyathea oosora,"Laminae rigid, pinnae drying very dark",98
+lamina,division,1,Cyathea,"Fronds more-or-less elliptical, lower pinnae always smaller than middle ones, sometimes gradually much reduced and then the stipe short",78
+paraphyses,shape,1,Cyathea alleniae,"paraphyses shorter than sporangia, some near apex of receptacle broad and scale-like at base",81
+pinnae,shape,1,Cyathea alternans,"entire or the largest crenate or toothed towards the apex, slightly oblique, slightly or hardly falcate",82
+receptacle,shape,1,Cyathea,"receptacle erect, club-shaped to spherical",78
+scales and hairs,shape,1,Cyathea glabra,without bullate scales,89
+sori,colour,1,Cyathea latebrosa,"Sori a few to numerous, close to costulet, indusium a small dark scale on costular side",93
+sporangia,division,1,Cyathea,"Sporangia many, always short-stalked",78
+stem and scales,description,1,Cyatheaceae,"Stems with polycyclic dictyosteles, apices (and usually petiole bases) covered with large scales, sometimes also with scurf (small scales) or hairs",77
+stem and scales,shape,1,Cyathea,"Scales present on lower and lateral surfaces of axes of frond, at least in early stages of growth, larger ones on stipe and on lower surfaces of axes and veins, rarely on lamina between veins",78
+veins,indumentum,1,Cyathea squamulata,veins glabrous except for occasional hairs on upper surface,103

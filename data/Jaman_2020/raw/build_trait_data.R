@@ -589,7 +589,7 @@ character_of <- function(x) {
     if (str_detect(x, "lobed|free|stalk|sessile|pinnate|dimorph|reduced")) "division or attachment",
     if (str_detect(x, "late|shaped|falcate|ovate|oblique|crenate|serrate|toothed|entire|apex|base")) "shape or margin"
   )
-  if (length(ch)) paste(ch, collapse = ", ") else "form"
+  if (length(ch)) paste(ch, collapse = ", ") else "description"
 }
 
 desc_unmapped <- pieces |>
@@ -613,11 +613,7 @@ desc_unmapped <- pieces |>
       map_chr(head, organ_of),
       "plant"
     ),
-    notes = flora_unmapped_note(
-      organ,
-      "description",
-      map_chr(trait_value_raw, character_of)
-    ),
+    notes = flora_unmapped_note(organ, map_chr(trait_value_raw, character_of)),
     source_section = "Description"
   ) |>
   select(block, rank, trait_value_raw, pdf_page, printed_page, notes,

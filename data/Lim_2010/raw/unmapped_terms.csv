@@ -12,7 +12,7 @@ lamina,texture,2,Agathis borneensis,"laminas narrowly elliptic to broadly ellipt
 resin,description,2,Agathis borneensis,"resin fast-flowing, translucent to yellowish white, sticky, turning milky white, sometimes dark grey or black, when hardened",63
 resin_canals,description,2,Agathis borneensis,"resin canals between vascular bundles frequently in pairs, one canal above the other",63
 sapwood,description,2,Agathis borneensis,Sapwood pale red to yellowish brown,63
-veins,description,2,Agathis borneensis,"veins closely parallel, distinct above, indistinct below",63
+veins,count,2,Agathis borneensis,"veins closely parallel, distinct above, indistinct below",63
 bole,presence,1,Agathis,without buttresses,62
 bole,shape,1,Araucariaceae,"Bole columnar, monopodial",61
 buds,description,1,Agathis,"terminal buds globulose, closely covered with several layers of scales",62

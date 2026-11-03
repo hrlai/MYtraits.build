@@ -37,6 +37,24 @@ stopifnot(
     flora_unmapped_note("section", "text", "distribution"),
     "UNMAPPED: section | text | distribution"
   ),
-  inherits(try(flora_unmapped_note(NA, "size"), silent = TRUE), "try-error")
+  inherits(try(flora_unmapped_note(NA, "size"), silent = TRUE), "try-error"),
+  # an organ noun that qualifies the character is not a second character
+  identical(
+    flora_unmapped_note("leaves", "midrib relief"),
+    "UNMAPPED: leaves | surface | midrib relief"
+  ),
+  identical(
+    flora_unmapped_character(c(
+      "domatia presence", "lateral vein count / prominence",
+      "height at first flowering", "veins", "length, lobes"
+    )),
+    c("presence", "count", "size", "venation", "description")
+  ),
+  # a scalar character keeps one detail per row
+  identical(
+    flora_unmapped_note("x", "description", c("a", "b")),
+    c("UNMAPPED: x | description | a", "UNMAPPED: x | description | b")
+  ),
+  identical(flora_unmapped_note(character(0), "description", "a"), character(0))
 )
 cat("test-flora-hand: ok\n")

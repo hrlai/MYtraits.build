@@ -21,7 +21,7 @@ perianth,description,1,Pentaphylax euryoides,"sepals 5, imbricate; petals 5, imb
 petal,description,1,Pentaphylax euryoides,"petals ... obovate to oblong, ... (0.5)--1.5 mm, glabrous, margin entire, apex rounded to slightly retuse",162
 petal,size,1,Pentaphylax euryoides,"petals ... obovate to oblong, c. 2--3 x (0.5)--1.5 mm",162
 petiole,description,1,Pentaphylax euryoides,"petioles slender, ... grooved above, sparsely minutely pubescent or glabrous",162
-plant,description,1,Pentaphylax euryoides,beginning to flower at 60 cm,162
+plant,size,1,Pentaphylax euryoides,beginning to flower at 60 cm,162
 sapwood,colour,1,Pentaphylax euryoides,Sapwood pale yellow to yellow and pink-tinged.,162
 section,text,1,Pentaphylax euryoides,Monogeneric family.,161
 seed,count,1,Pentaphylax euryoides,Seeds 1--2 per locule,164
@@ -30,6 +30,6 @@ seed wing,description,1,Pentaphylax euryoides,"wing linear-oblong, 5--6 mm long,
 sepal,description,1,Pentaphylax euryoides,"sepals deltoid, ... c. 1 mm, unequal, outside minutely pubescent, inside keeled, glabrous, margin ciliate",162
 sepal,size,1,Pentaphylax euryoides,"sepals deltoid, (0.5)--1 x c. 1 mm",162
 stamen,description,1,Pentaphylax euryoides,"filaments broadest at the base, narrowing towards the anther, anther 2-locular",161
-stigma,description,1,Pentaphylax euryoides,stigma 5-lobed and star-shaped,164
+stigma,shape,1,Pentaphylax euryoides,stigma 5-lobed and star-shaped,164
 stipules,presence,1,Pentaphylax euryoides,Without stipules.,161
 twig,description,1,Pentaphylax euryoides,"Twigs black when dry, ridged lengthwise",162

@@ -3,7 +3,7 @@ section,text,2,Scyphostegiaceae,The systematic position of the family has been c
 anther,count,1,Scyphostegia,anthers 4-locular,375
 bark,description,1,Scyphostegia borneensis,"thin, sometimes lenticellate",376
 bract,size,1,Scyphostegia borneensis,bracts ... 2--3 mm wide,376
-disc,description,1,Scyphostegia,"disc present, disc-glands absent",376
+disc,presence,1,Scyphostegia,"disc present, disc-glands absent",376
 disc glands,description,1,Scyphostegia,"disc-glands 3, oblong, fleshy, opposite the stamens",375
 disc glands,size,1,Scyphostegia borneensis,disc-glands c. 0.75 x 0.4 mm,376
 exudate,presence,1,Scyphostegia,without exudate,375
@@ -38,6 +38,7 @@ stipules,description,1,Scyphostegia,"Stipules free, triangular, caducous.",375
 stipules,size,1,Scyphostegia borneensis,stipules 1--2 x 1 mm,376
 "style, stigma",description,1,Scyphostegia,"style discoid with a narrow central aperture, stigmatic lobes 9--12, fleshy, largely fused to form a thick plate-like stigma with recurved margin",376
 tepals,description,1,Scyphostegia borneensis,"the outer lobes orbicular-oblong or spathulate, c. 3 x 2 mm, the inner ones c. 2 x 1.5 mm",376
+tepals,size,1,Scyphostegia borneensis,lobes c. 6 x 4 mm,376
 twigs,colour,1,Scyphostegia,"Twigs often strongly 3--4-angular, slender, more or less zig-zag, brown, nodes swollen.",375
 twigs,surface,1,Scyphostegia borneensis,"Twigs sometimes lenticellate, with knob-like stipule scars",376
 veins,description,1,Scyphostegia borneensis,"lateral veins 6--11 pairs, spreading at a narrow angle from the midrib, arching in the lower half and joining in faint loops 1--2 mm from the margin, flat or sunken above; intercostal veins scalari...",376

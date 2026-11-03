@@ -532,7 +532,9 @@ parse_description <- function(p) {
         if_else(organ %in% c("lamina", "base", "margin", "apex", "acumen") & sent_organ %in% "leaves",
           paste("leaf", str_replace(organ, "lamina", "blade")),
           if_else(organ %in% c("base", "apex", "wall", "scar", "stalk") & !is.na(sent_organ),
-            paste(sent_organ, organ), coalesce(organ, "unknown organ")
+            paste(sent_organ, organ),
+            # "Male and female inflorescences unknown"; a new one stops the build
+            coalesce(organ, str_extract(str_to_lower(text), "inflorescences"))
           )
         ),
         character_of(text),

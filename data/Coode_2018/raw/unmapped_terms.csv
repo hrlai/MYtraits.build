@@ -17,15 +17,15 @@ fruit stalk,size,37,Elaeocarpus acmosepalus,stalk 9--14 mm long,52
 fruits,shape,37,Elaeocarpus Elaeocarpus Group,"Fruit and stones round or more-or-less ellipsoid, usually longer than 2 cm",36
 petioles,description,36,Elaeocarpus acmosepalus,"petioles 1--2 cm long, 0.5--1 mm wide, glabrous to variously persistently adpressed-hairy, hairs as on twigs, rounded to shallowly grooved in apical third above, distinct from leaf base or merging ...",52
 section,text,34,Elaeocarpaceae,"12 genera and about 500 species in the Old and New World tropics, in some places extending to the subtropics, but absent from mainland Africa. In Peninsular Malaysia, represented by Elaeocarpus (36...",33
-domatia,description,33,Elaeocarpus acmosepalus,without domatia,52
+domatia,presence,33,Elaeocarpus acmosepalus,without domatia,52
 midrib,venation,31,Elaeocarpus acmosepalus,"midrib scarcely to moderately prominent beneath, lateral veins 4--5 on either side of midrib, scarcely to moderately prominent beneath",52
 stamens,persistence,29,Elaeocarpus acmosepalus,"stamens 26--35, falling before sepals or petals or both, filaments 0.6--1.2 mm long, glabrous or sparsely short- hairy, anthers minutely fairly densely hairy, 1.2--1.7 mm long, outer tooth slightly...",52
-veins,description,29,Elaeocarpus acronodia subsp. sumatranus,lateral veins 5--7 on either side of the midrib less prominent (sometimes not easy to tell lateral veins from lesser),54
+veins,count,29,Elaeocarpus acronodia subsp. sumatranus,lateral veins 5--7 on either side of the midrib less prominent (sometimes not easy to tell lateral veins from lesser),54
 sepals,persistence,26,Elaeocarpus acmosepalus,"sepals persistent after petals and stamens, 5--6 mm long, glabrous to sparsely hairy outside, glabrous inside, verrucose outside at anthesis",52
 lamina,surface,15,Elaeocarpus Acronodia Group,"Leaves petiolate, usually not verrucose1 and without domatia",36
 seeds,shape,11,Elaeocarpaceae,Seeds endospermous,33
 bracteoles,description,8,Elaeocarpus Acronodia Group,bracteoles absent,36
-habit,description,8,Elaeocarpus angustifolius,beginning to flower at 6 m,55
+habit,size,8,Elaeocarpus angustifolius,beginning to flower at 6 m,55
 stamens,count,8,Elaeocarpaceae,"stamens free, 8 to very numerous, anthers basifixed and opening by 2 apical pores or slits, sometimes the connective extended into a beak or awn",33
 anthers,description,5,Elaeocarpus cupreus,"anthers reduced and apparently sterile, 0.5--0.8(--1) mm long, or sometimes absent, with more-or-less dense short adpressed silky hairs, outer tooth subacute and scarcely longer than the inner",62
 seeds,count,4,Elaeocarpus,Seeds 1 per locule,34

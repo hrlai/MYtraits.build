@@ -808,7 +808,11 @@ parse_description <- function(p) {
       trait = NA_character_,
       trait_value_raw = text,
       notes = flora_unmapped_note(
-        coalesce(organ, "unknown organ"),
+        # "Smaller branches and twigs with ... prickles", "Young branches
+        # yellow, shiny": branches the twigs pattern does not name
+        coalesce(organ, if_else(
+          str_detect(str_to_lower(piece_text), "\\bbranch"), "twigs", "habit"
+        )),
         character_of(text),
         paste0(
           if_else(hedged(text), "hedged; ", ""),

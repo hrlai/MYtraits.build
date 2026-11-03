@@ -3,9 +3,9 @@ section,text,26,Chrysobalanaceae,"Apart from Parastemon urophyllus (Wall. ex A.D
 sepals,description,23,Chrysobalanaceae,imbricate,13
 receptacle,indumentum,22,Atuna,hairy inside throughout,15
 receptacle,description,20,Chrysobalanaceae,receptacle short to elongate,13
+stipules,description,20,Atuna,Stipules large,15
 epicarp,description,19,Atuna,densely verrucose,16
 lateral veins,venation,19,Atuna latifrons,lateral veins 12--14 pairs,16
-stipules,description,19,Atuna,Stipules large,15
 stipules,persistence,19,Chrysobalanaceae,Stipules small and caducous to large and persistent,13
 petals,description,18,Chrysobalanaceae,petals free,13
 bracts,description,17,Atuna,bracts and bracteoles conspicuous,15
@@ -33,17 +33,17 @@ sapwood,colour,9,Atuna nannodes,sapwood brown-red to blackish brown,17
 stigma,description,9,Atuna latifrons,stigma truncate,17
 style,indumentum,9,Maranthes,glabrous except at base,30
 filaments,description,8,Chrysobalanaceae,filaments filiform,13
+leaf blade,description,8,Maranthes,(elsewhere with an arachnoid indumentum),30
 leaf blade,indumentum,8,Licania,lower surface of lamina glabrous,27
 pedicels,size,8,Licania splendens,pedicels c. 1 mm long,29
 petals,count,8,Chrysobalanaceae,5,13
 style,description,8,Chrysobalanaceae,style filiform,13
+inflorescences,description,7,Maranthes,(elsewhere rarely a lax few-flowered thyrse or a raceme of few-flowered monochasial cymes),30
 intercostal veins,venation,7,Atuna latifrons,intercostal veins prominulous,16
 ovary,description,7,Atuna,bilocular becoming unilocular in fruit owing to development of a single ovule,16
 petals,indumentum,7,Atuna,glabrous on both surfaces,15
 sepals,count,7,Chrysobalanaceae,sepals 5,13
 bracts,glands,6,Atuna,eglandular,15
-inflorescences,description,6,Kostermanthus heteropetalus,Inflorescences little-branched,24
-leaf blade,description,6,Atuna latifrons,slightly bullate,16
 midrib,indumentum,6,Atuna latifrons,slightly pilose towards base above,16
 cotyledons,description,5,Chrysobalanaceae,cotyledons planoconvex,13
 filaments,colour,5,Maranthes,white,30
@@ -51,7 +51,6 @@ leaf blade,glands,5,Atuna,lamina with a pair of glands on the midrib at or near 
 leaf lower surface,indumentum,5,Chrysobalanaceae,lower surface glabrous or hairy,13
 ovary,count,5,Kostermanthus,ovary of 1--(2--3) carpels,24
 staminodes,description,5,Atuna,staminodes forming a barely visible denticulate margin to the throat,16
-aside,description,4,Licania,(elsewhere exserted and about twice as long),27
 flowers,description,4,Chrysobalanaceae,markedly perigynous,13
 inflorescences,indumentum,4,Atuna latifrons,densely brown sericeous,16
 mesocarp,texture,4,Atuna,mesocarp transversely fibrous,16

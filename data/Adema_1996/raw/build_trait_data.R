@@ -787,7 +787,15 @@ parse_description <- function(p) {
       trait = NA_character_,
       trait_value_raw = text,
       notes = flora_unmapped_note(
-        coalesce(organ, "unknown organ"),
+        # a clause with no organ label opens the habit sentence ("Medium-sized,
+        # monoecious trees", "Young parts ... hirsute", "Wood white")
+        coalesce(organ, case_when(
+          str_detect(str_to_lower(piece_text), "^young parts") ~ "young parts",
+          str_detect(str_to_lower(text), "^wood\\b") ~ "wood",
+          str_detect(text, "exudate") ~ "exudate",
+          str_detect(text, "buttress") ~ "buttresses",
+          .default = "habit"
+        )),
         character_of(text),
         paste0(
           if_else(hedged(text), "hedged; ", ""),
