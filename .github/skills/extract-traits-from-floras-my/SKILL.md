@@ -43,6 +43,7 @@ Worked examples, all in this repository:
 | `data/Kiew_2010` | Balanophoraceae, FPM vol. 1 | scanned PDF, every page image-checked through the review queue, 7 taxa | `flora_hand()` for a leafless root parasite; male and female organs in `entity_measured`; "Fruits and Seeds unknown" blocks copy-down; genus Ecology values scored on named species |
 | `data/Jaman_2020` | Cyatheaceae, FPM ferns vol. 3 | born-digital PDF, 21 species, hand-scored pieces | tree ferns; fern rules confirmed; pinnae, pinnules and lobes as leaflets by `entity_measured`; multi-level family value copied by hand |
 | `data/Jones_1995` | Rutaceae, TFSS vol. 1 | 2007 electronic text; transcription drafted from the layer; chunk parser after Adema_1996, 43 species | key-only genera and cultivated species flagged; in-key varieties scored; copy-down skips alternatives; dispersal from Ecology by hand |
+| `data/Ashton_2004` | Dipterocarpaceae, TFSS vol. 5 | 2008 electronic text (";" as U+037E), scripted clause parser after Soepadmo_2000, 267 species and 40 subspecies | largest family so far, one run; nut is the fruit, calyx wings unmapped; subspecies in key annotations inherit; descriptions split by figure pages; family Ecology by hand |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
@@ -457,6 +458,10 @@ contained infraspecific headings.
   as ";" (Ashton_2004: 7,121 of them; without it no piece splits on ";");
   pass `soft_hyphen = "-"` for these four only. In other PDFs U+00AD is an
   invisible break point ("out-side", Coode_2018) and must not become "-".
+- A description interrupted by a figure page or a page turn after a sentence
+  end restarts with an organ word ("Twigs ...", "Leaves ...") and is
+  labelled "Unlabelled note". Relabel it Description when it follows one,
+  and do not read its first sentence as the habit (Ashton_2004, 4 species).
 - `flora_segment()` joins a line ending "letter-" without a space. It drops
   the hyphen when the joined word occurs elsewhere in the treatment ("coria-
   ceous" -> "coriaceous") and keeps it otherwise, since it may be a real
@@ -632,6 +637,16 @@ Bespoke checklist (decisions that changed per family):
   Provisional (Soepadmo_2000 question 10): "lateral veins ..., forming an
   angle of 40--60 degrees with the midrib" -> `leaf_secondary_vein_angle`
   (unit `deg`); vein number has no trait.
+  Provisional (Ashton_2004 questions 1--5): a winged fruit whose wings are
+  the persistent calyx lobes (Dipterocarpaceae) is measured on the nut:
+  "Nuts ovoid, to 3 x 2 cm" -> `fruit_length` / `fruit_width` with
+  `entity_measured = nut`; wing (calyx lobe) sizes stay unmapped as a
+  candidate trait. A named connectival appendage ->
+  `flower_anther_connective_extension = present_general`. Inflorescence
+  "rachis to 8 cm long" -> `inflorescence_length` with `entity_measured =
+  inflorescence rachis`. Leaf (terminal) and flower bud sizes -> `bud_length` /
+  `bud_width` with `entity_measured = leaf bud` or `flower bud`. Crown shape
+  ("crown hemispherical, dense") -> `plant_canopy_form`.
   Provisional (Prance_1995 question 2): leaves "with stomatal crypts"
   -> `leaf_stomatal_position = encrypted`; "without stomatal crypts" has no
   level and stays unmapped.
