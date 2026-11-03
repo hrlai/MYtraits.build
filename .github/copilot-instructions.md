@@ -189,7 +189,7 @@ unless requested.
 - `inst/notes/upstream_traits/`: trait requests to the AusTraits Plant
   Dictionary. Edit `decisions.csv` only, then run
   `uvr run inst/notes/upstream_traits/make_report.R` to regenerate
-  `requests.md` and `unmapped_pooled.csv`.
+  `requests.md` and `unmapped_pooled.csv`. Read its `README.md` first.
 - `inst/extdata/myflora/`: flora PDFs downloaded by `flora_fetch()`.
   Git-ignored. Never commit PDFs or rendered page images.
 - `inst/extdata/` (other files) and `inst/taxonomy/`: local taxonomy inputs and
