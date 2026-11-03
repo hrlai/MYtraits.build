@@ -332,9 +332,35 @@ flora_finalise <- function(rows, traits, source_default = NA_character_) {
         \(x) {
           str_replace_all(x, "(?<=[0-9)(])\\s?[\u2013-]\\s?(?=[0-9()])", "--")
         }
-      )
+      ),
+      notes = flora_vein_count_note(notes, trait_value_raw)
     ) |>
     select(any_of(flora_trait_data_cols))
+}
+
+# A vein clause that gives a number of veins ("lateral veins 6--10 pairs",
+# "12--18 per side", "with 8 lateral veins", "basal veins 6--7") is a count,
+# not venation, so the counts get their own summary row. Spacing ("1--2 cm
+# apart"), fractions of the blade, pattern and relief clauses stay `venation`.
+flora_vein_count_note <- function(notes, raw) {
+  count_pat <- paste0(
+    "[0-9)]\\s*pairs?\\b|\\bper side\\b|\\bon (either|each) side\\b|",
+    "\\bin each half\\b|",
+    # "8 lateral veins", "15--44 parallel veins"
+    "[0-9)]\\s+([a-z]+\\s+)?(veins?|nerves?)\\b|",
+    # "basal veins 6--7" with no unit after the number
+    "\\b(veins?|nerves?)\\s+\\(?[0-9][0-9()-]*\\s*([,;]|$)"
+  )
+  is_count <- str_detect(
+    coalesce(notes, ""),
+    "^UNMAPPED: [^|]*\\b(veins?|nerves?)\\b[^|]* \\| venation\\b"
+  ) &
+    str_detect(coalesce(raw, ""), count_pat)
+  if_else(
+    is_count,
+    str_replace(notes, " \\| venation\\b", " | count"),
+    notes
+  )
 }
 
 # trait_data.csv -> data.csv for a flora dataset. Adds the three build columns:

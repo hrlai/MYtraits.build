@@ -5,7 +5,7 @@ receptacle,indumentum,22,Atuna,hairy inside throughout,15
 receptacle,description,20,Chrysobalanaceae,receptacle short to elongate,13
 stipules,description,20,Atuna,Stipules large,15
 epicarp,description,19,Atuna,densely verrucose,16
-lateral veins,venation,19,Atuna latifrons,lateral veins 12--14 pairs,16
+lateral veins,count,19,Atuna latifrons,lateral veins 12--14 pairs,16
 stipules,persistence,19,Chrysobalanaceae,Stipules small and caducous to large and persistent,13
 petals,description,18,Chrysobalanaceae,petals free,13
 bracts,description,17,Atuna,bracts and bracteoles conspicuous,15
@@ -22,6 +22,7 @@ lateral veins,description,13,Atuna latifrons,inset in a groove above,16
 rachis,indumentum,13,Atuna nannodes,rachis densely sericeous-tomentellous,17
 endocarp,indumentum,12,Chrysobalanaceae,often densely hairy inside,13
 inner bark,colour,12,Atuna nannodes,inner bark pinkish red or orange,17
+lateral veins,venation,12,Atuna latifrons,prominulous,16
 ovary,indumentum,12,Atuna latifrons,ovary densely strigose,17
 petiole,glands,12,Atuna,petioles eglandular,15
 twigs,description,12,Atuna latifrons,obscurely lenticellate,16

@@ -1,7 +1,7 @@
 organ,character,n_taxa,example_taxon,example_text,printed_page
 section,text,95,Myristicaceae,"Penarahan (Malay); for Myristica, penarahan arang (Malay).",127
 fruits,shape,75,Myristicaceae,Fruits subglobose to oblong,127
-lateral veins,venation,74,Myristicaceae,lateral veins distinct,127
+lateral veins,count,73,Endocomia canarioides,lateral veins 11--19 pairs,133
 leaf blade,texture,70,Endocomia canarioides,lamina membranous or chartaceous,133
 twigs,size,69,Endocomia canarioides,with minute grey-brown hairs c. 0.1 mm long,133
 male flower bud,description,66,Endocomia,bud small,131
@@ -16,6 +16,7 @@ fruits,count,59,Gymnacranthera bancana,Fruits 2--8 per infructescence,138
 male flower lobes,size,58,Horsfieldia crassifolia,lobes 0.2--0.3 mm thick,152
 twigs,description,58,Endocomia,Twigs never angular or ridged,131
 male flower androphore,size,57,Endocomia canarioides,androphore 0.3--0.4 mm long,133
+lateral veins,venation,55,Myristicaceae,lateral veins distinct,127
 female flower bud,shape,53,Knema,bud ovoid or obovoid or ellipsoid,184
 inflorescences,size,52,Knema,simple or 2-branched wart-like or worm-like densely scar-covered short shoot 1--17 mm long,184
 midrib,venation,52,Endocomia canarioides,above flat or slightly raised,133
@@ -217,7 +218,6 @@ flowers,count,2,Endocomia canarioides,Flowers in loose or dense clusters of 3--8
 habit,colour,2,Myristicaceae,Wood white or soon brownish on cutting,127
 inflorescences,colour,2,Knema conferta,flowers dirty red,193
 infructescences,count,2,Myristica depressa,with 1 or 2 fruits,241
-lateral veins,count,2,Knema patentinervia,12--24 pairs,218
 leaf blade,colour,2,Knema curtisii var. curtisii,drying greenish,196
 leaf blade,count,2,Knema furfuracea,(10--),198
 leaf lower surface,count,2,Myristica guatteriifolia,with scattered emergents 0.5(--2) mm long,246
@@ -262,6 +262,7 @@ female inflorescences,texture,1,Horsfieldia pulcherrima,woody knob,170
 habit,indumentum,1,Myristicaceae,Hairs uniseriate,127
 habit,size,1,Knema furfuracea,25--50 x (3--)5--21 cm,199
 inflorescences,persistence,1,Knema globularia,flowers greenish yellow with persistent rusty,203
+intercostal veins,count,1,Knema andamanica subsp. nicobarica,veins 12--24 pairs,191
 intercostal veins,indumentum,1,Horsfieldia flocculosa,obscured by the persistent indumentum on lower surface,156
 lateral veins,indumentum,1,Horsfieldia punctata,late glabrescent,172
 lateral veins,size,1,Knema retusa,widely (2--4 cm) apart,225
