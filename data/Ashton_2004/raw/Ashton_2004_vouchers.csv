@@ -1,0 +1,619 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Anisoptera costata,holotype,L,RHL Sheet No. 90214642,Korthals,s.n.,,"G. Sakumbang, Tanah Laut",S Kalimantan,Indonesia,"Type, p.73",Borneo; printed '(= RHL Sheet No. 90214642)'; RHL number has 8 digits (most others 9)
+Anisoptera grossivenia,holotype,BO,,bb.,29708,,"Dusun Lands, Pepas, Muara Teweh",Kalimantan,Indonesia,"Type, p.74",Borneo
+Anisoptera grossivenia,isotype,KEP,,bb.,29708,,"Dusun Lands, Pepas, Muara Teweh",Kalimantan,Indonesia,"Type, p.74",Borneo
+Anisoptera grossivenia,isotype,L,,bb.,29708,,"Dusun Lands, Pepas, Muara Teweh",Kalimantan,Indonesia,"Type, p.74",Borneo
+Anisoptera laevis,holotype,SING,,Ridley,SFN 6886,,Singapore Botanic Gardens,,Singapore,"Type, p.75",
+Anisoptera laevis,isotype,KEP,,Ridley,SFN 6886,,Singapore Botanic Gardens,,Singapore,"Type, p.75",
+Anisoptera marginata,holotype,L,RHL Sheet No. 90214648,Korthals,s.n.,,G. Pamaton,Kalimantan,Indonesia,"Type, p.76",Borneo; printed '(= RHL Sheet No. 90214648)'; RHL number has 8 digits (most others 9)
+Anisoptera reticulata,holotype,K,,G.H.S. Wood,SAN 15172,,Ulu Sipitang,Sabah,Malaysia,"Type, p.76",Borneo
+Anisoptera reticulata,isotype,KEP,,G.H.S. Wood,SAN 15172,,Ulu Sipitang,Sabah,Malaysia,"Type, p.76",Borneo
+Anisoptera reticulata,isotype,L,,G.H.S. Wood,SAN 15172,,Ulu Sipitang,Sabah,Malaysia,"Type, p.76",Borneo
+Anisoptera reticulata,isotype,SAN,,G.H.S. Wood,SAN 15172,,Ulu Sipitang,Sabah,Malaysia,"Type, p.76",Borneo
+Cotylelobium burckii,holotype,P-C,,Beccari,PB 3260,,Marop,Sarawak,Malaysia,"Type, p.81",Borneo
+Cotylelobium lanceolatum,holotype,K,,East Asiatic Co.,H 20171,,Surat,,Thailand,"Type, p.82",
+Cotylelobium melanoxylon,holotype,K,,Lowe,s.n.,,"Labuan, Lubok Danau",Sabah,Malaysia,"Type, p.83",Borneo
+Dipterocarpus acutangulus,holotype,FI,,Beccari,PB 2913,,,,,"Type, p.92",Borneo
+Dipterocarpus acutangulus,isotype,K,,Beccari,PB 2913,,,,,"Type, p.92",Borneo
+Dipterocarpus applanatus,holotype,K,,Puasa,SAN 1720,,Sandakan district,Sabah,Malaysia,"Type, p.93",Borneo
+Dipterocarpus borneensis,holotype,BO,,bb.,26417,,"Pepas, Muara Tewe",Kalimantan,Indonesia,"Type, p.94",Borneo
+Dipterocarpus borneensis,isotype,KEP,,bb.,26417,,"Pepas, Muara Tewe",Kalimantan,Indonesia,"Type, p.94",Borneo
+Dipterocarpus caudatus,lectotype,K,,Alvarez,FB 21193,,"Luzon, Barrio Hibatac, Camarines",,Philippines,"Type, p.97","Lectotype (Ashton, 1978); printed 'hololectotype K'"
+Dipterocarpus caudatus subsp. penangianus,holotype,SING,,Haniff,SFN 3484,,"Peninsular Malaysia, Mt. Olivia",Penang,Malaysia,"Type, p.97",
+Dipterocarpus caudatus subsp. penangianus,isotype,K,,Haniff,SFN 3484,,"Peninsular Malaysia, Mt. Olivia",Penang,Malaysia,"Type, p.97",
+Dipterocarpus caudiferus,holotype,K,,Castro & Melegrito,1709,,Banguey Is.,,Malaysia,"Type, p.98","Borneo; Banguey Is. (Banggi, Sabah) country inferred"
+Dipterocarpus confertus,lectotype,K,,Elmer,21548,,Tawau district,Sabah,Malaysia,"Type, p.98","Lectotype (Slooten, 1941); printed 'hololectotype K'; Borneo"
+Dipterocarpus confertus,isolectotype,L,,Elmer,21548,,Tawau district,Sabah,Malaysia,"Type, p.98","Lectotype (Slooten, 1941); Borneo"
+Dipterocarpus confertus,isolectotype,NY,,Elmer,21548,,Tawau district,Sabah,Malaysia,"Type, p.98","Lectotype (Slooten, 1941); Borneo"
+Dipterocarpus conformis,holotype,BO,,bb.,29177,,"Sumatra, Aceh Province, Alur Buaya, Langsa",,Indonesia,"Type, p.99",
+Dipterocarpus conformis subsp. borneensis,holotype,L,,G.H.S Wood,SAN 15102,,"Sipitang district, Pangi",Sabah,Malaysia,"Type, p.99",Borneo
+Dipterocarpus conformis subsp. borneensis,isotype,KEP,,G.H.S Wood,SAN 15102,,"Sipitang district, Pangi",Sabah,Malaysia,"Type, p.99",Borneo
+Dipterocarpus conformis subsp. borneensis,isotype,SAN,,G.H.S Wood,SAN 15102,,"Sipitang district, Pangi",Sabah,Malaysia,"Type, p.99",Borneo
+Dipterocarpus coriaceus,holotype,BO,,bb.,8154,,"Tawai Baru, near Kuala Kapuas",SE Kalimantan,Indonesia,"Type, p.100",Borneo
+Dipterocarpus coriaceus,isotype,L,,bb.,8154,,"Tawai Baru, near Kuala Kapuas",SE Kalimantan,Indonesia,"Type, p.100",Borneo
+Dipterocarpus costulatus,holotype,KEP,,Sahak,CF 1908,,"Peninsular Malaysia, Kuala Pilah, Senaling Inas FR",Negeri Sembilan,Malaysia,"Type, p.101",
+Dipterocarpus crinitus,holotype,K,,Maingay,196,,Peninsular Malaysia,Malacca,Malaysia,"Type, p.101",
+Dipterocarpus cuspidatus,holotype,K,,Ilias,S 15821,,"Bintulu district, Labang FR",Sarawak,Malaysia,"Type, p.102",Borneo
+Dipterocarpus cuspidatus,isotype,KEP,,Ilias,S 15821,,"Bintulu district, Labang FR",Sarawak,Malaysia,"Type, p.102",Borneo
+Dipterocarpus cuspidatus,isotype,L,,Ilias,S 15821,,"Bintulu district, Labang FR",Sarawak,Malaysia,"Type, p.102",Borneo
+Dipterocarpus elongatus,holotype,L,RHL Sheet No. 91062130,Korthals,s.n.,,"Barito, Sg. Punin",Kalimantan,Indonesia,"Type, p.103",Borneo; printed '(= RHL Sheet No. 91062130)'; RHL number has 8 digits (most others 9)
+Dipterocarpus eurynchus,holotype,U,,Teijsmann,HB 3255,,"Sumatra, Bangka",,Indonesia,"Type, p.103",
+Dipterocarpus fagineus,holotype,P,,Beccari,PB 3008,,G. Matang,Sarawak,Malaysia,"Type, p.104",Borneo
+Dipterocarpus fusiformis,holotype,L,,Singh,SAN 39170,,"Sandakan district, Mile 81, Labuk Road",Sabah,Malaysia,"Type, p.105",Borneo
+Dipterocarpus fusiformis,isotype,SAN,,Singh,SAN 39170,,"Sandakan district, Mile 81, Labuk Road",Sabah,Malaysia,"Type, p.105",Borneo
+Dipterocarpus geniculatus,holotype,P,,Beccari,PB 3034,,,Sarawak,Malaysia,"Type, p.105",Borneo
+Dipterocarpus geniculatus subsp. grandis,holotype,KEP,,Dzulkiple,S 1870,,Ladan Hills FR,,Brunei,"Type, p.106",Borneo
+Dipterocarpus glabrigemmatus,holotype,K,,Jugah,S 23849,,"Kapit district, Bt. Raya",Sarawak,Malaysia,"Type, p.106",Borneo
+Dipterocarpus glabrigemmatus,isotype,KEP,,Jugah,S 23849,,"Kapit district, Bt. Raya",Sarawak,Malaysia,"Type, p.106",Borneo
+Dipterocarpus glabrigemmatus,isotype,SAR,,Jugah,S 23849,,"Kapit district, Bt. Raya",Sarawak,Malaysia,"Type, p.106",Borneo
+Dipterocarpus globosus,holotype,P,,Beccari,PB 2914,,Matang,Sarawak,Malaysia,"Type, p.107",Borneo
+Dipterocarpus gracilis,holotype,L,"RHL Sheet Nos. 902146–113, 114 & 118",Blume,1256,,"Java, G. Parang",,Indonesia,"Type, p.108","printed '(= RHL Sheet Nos. 902146–113, 114 & 118)'; three RHL sheets cited; printed with en dash in text layer, possibly 902146113, 902146114 & 902146118"
+Dipterocarpus gracilis,isotype,NY,"RHL Sheet Nos. 902146–113, 114 & 118",Blume,1256,,"Java, G. Parang",,Indonesia,"Type, p.108","three RHL sheets cited; printed with en dash in text layer, possibly 902146113, 902146114 & 902146118"
+Dipterocarpus grandiflorus,neotype,K,,Merrill,Sp. Blancoan. 119,,"Bataan Province, Luzon, Mt. Lamao",,Philippines,"Type, p.108",Neotype (designated here); repositories printed '(K; US)' without holo-/iso- distinction; printed '(= US 903794)'
+Dipterocarpus grandiflorus,neotype,US,US 903794,Merrill,Sp. Blancoan. 119,,"Bataan Province, Luzon, Mt. Lamao",,Philippines,"Type, p.108",Neotype (designated here); repositories printed '(K; US)' without holo-/iso- distinction; printed '(= US 903794)'
+Dipterocarpus hasseltii,holotype,L,RHL Sheet Nos. 902146210–211,van Hasselt,s.n.,,"Java, Banten, Menes",,Indonesia,"Type, p.109",printed '(= RHL Sheet Nos. 902146210–211)'
+Dipterocarpus humeratus,lectotype,BO,,bb.,E 1150,,"Sumatra, Palembang, Lematang Hilir, near G. Megang",,Indonesia,"Type, p.110",Lectotype (designated here); printed 'hololectotype BO'
+Dipterocarpus humeratus,isolectotype,K,,bb.,E 1150,,"Sumatra, Palembang, Lematang Hilir, near G. Megang",,Indonesia,"Type, p.110",Lectotype (designated here)
+Dipterocarpus kerrii,lectotype,K,,Kerr,7438/7349,,"S Thailand, Pattani",,Thailand,"Type, p.112",Lectotype (designated here); printed 'hololectotype K'
+Dipterocarpus kunstleri,holotype,K,,King's collector,3798,,"Peninsular Malaysia, Larut",Perak,Malaysia,"Type, p.112",
+Dipterocarpus lamellatus,holotype,K,,Motley,159,,Labuan,Labuan,Malaysia,"Type, p.113",Borneo
+Dipterocarpus lowii,holotype,K,,Lowe,s.n.,,Labuan,Labuan,Malaysia,"Type, p.114",Borneo
+Dipterocarpus mundus,lectotype,BO,,bb.,26033,,"Melawi, Bt. Ransah, Catit",Kalimantan,Indonesia,"Type, p.116",Lectotype (here designated); printed 'hololectotype BO'
+Dipterocarpus mundus,isolectotype,KEP,,bb.,26033,,"Melawi, Bt. Ransah, Catit",Kalimantan,Indonesia,"Type, p.116",Lectotype (here designated)
+Dipterocarpus nudus,holotype,P,,Beccari,PB 2905,,G. Matang,Sarawak,Malaysia,"Type, p.116",Borneo
+Dipterocarpus oblongifolius,holotype,L,RHL Sheet Nos. 902146156–159,Korthals,s.n.,,,Kalimantan,Indonesia,"Type, p.117",Borneo; printed '(= RHL Sheet Nos. 902146156–159)'
+Dipterocarpus ochraceus,holotype,K,,Meijer,SAN 24200,,"Ranau district, Bt. Kulang",Sabah,Malaysia,"Type, p.118",Borneo
+Dipterocarpus ochraceus,isotype,KEP,,Meijer,SAN 24200,,"Ranau district, Bt. Kulang",Sabah,Malaysia,"Type, p.118",Borneo
+Dipterocarpus ochraceus,isotype,L,,Meijer,SAN 24200,,"Ranau district, Bt. Kulang",Sabah,Malaysia,"Type, p.118",Borneo
+Dipterocarpus ochraceus,isotype,SAN,,Meijer,SAN 24200,,"Ranau district, Bt. Kulang",Sabah,Malaysia,"Type, p.118",Borneo
+Dipterocarpus pachyphyllus,lectotype,K,,G.H.S. Wood,SAN 15100,,Padas Gorge,Sabah,Malaysia,"Type, p.118",Lectotype (designated here); printed 'hololectotype K'; Borneo
+Dipterocarpus pachyphyllus,isolectotype,KEP,,G.H.S. Wood,SAN 15100,,Padas Gorge,Sabah,Malaysia,"Type, p.118",Lectotype (designated here); Borneo
+Dipterocarpus pachyphyllus,isolectotype,L,,G.H.S. Wood,SAN 15100,,Padas Gorge,Sabah,Malaysia,"Type, p.118",Lectotype (designated here); Borneo
+Dipterocarpus pachyphyllus,isolectotype,SAN,,G.H.S. Wood,SAN 15100,,Padas Gorge,Sabah,Malaysia,"Type, p.118",Lectotype (designated here); Borneo
+Dipterocarpus palembanicus,lectotype,BO,,bb.,T.134,1924-02,"Sumatra, Palembang, Lematang Hilir, near G. Megang",,Indonesia,"Type, p.119","Lectotype (Ashton, 1978); printed 'hololectotype BO'; date printed 'Feb. 1924'"
+Dipterocarpus palembanicus,isolectotype,KEP,,bb.,T.134,1924-02,"Sumatra, Palembang, Lematang Hilir, near G. Megang",,Indonesia,"Type, p.119","Lectotype (Ashton, 1978); date printed 'Feb. 1924'"
+Dipterocarpus palembanicus,isolectotype,L,,bb.,T.134,1924-02,"Sumatra, Palembang, Lematang Hilir, near G. Megang",,Indonesia,"Type, p.119","Lectotype (Ashton, 1978); date printed 'Feb. 1924'"
+Dipterocarpus palembanicus subsp. borneensis,holotype,L,,G.H.S. Wood,SAN A 1747,,Beaufort district,Sabah,Malaysia,"Type, p.120",Borneo
+Dipterocarpus palembanicus subsp. borneensis,isotype,KEP,,G.H.S. Wood,SAN A 1747,,Beaufort district,Sabah,Malaysia,"Type, p.120",Borneo
+Dipterocarpus palembanicus subsp. borneensis,isotype,SAN,,G.H.S. Wood,SAN A 1747,,Beaufort district,Sabah,Malaysia,"Type, p.120",Borneo
+Dipterocarpus rigidus,holotype,K,,Foxworthy,1190,,"Peninsular Malaysia, Endau, Sg. Maoung",Johor,Malaysia,"Type, p.120",
+Dipterocarpus sarawakensis,holotype,KEP,,Mead,S 5,,"Kuching district, Semengoh FR",Sarawak,Malaysia,"Type, p.121",Borneo
+Dipterocarpus stellatus,lectotype,P,,Beccari,PB 2555/2907,,Matang,Sarawak,Malaysia,"Type, p.122",Lectotype (designated here); printed 'hololectotype P'; Borneo
+Dipterocarpus stellatus subsp. parvus,holotype,K,,Ashton,BRUN 3176,,Bangar,,Brunei,"Type, p.124",Borneo
+Dipterocarpus stellatus subsp. parvus,isotype,KEP,,Ashton,BRUN 3176,,Bangar,,Brunei,"Type, p.124",Borneo
+Dipterocarpus sublamellatus,holotype,KEP,,Watson,KEP 6061,,"Peninsular Malaysia, Kluang-Mersing Road",Johor,Malaysia,"Type, p.124",
+Dipterocarpus tempehes,holotype,U,,Rutten,126,,"Bulungan, Sg. Sajau",Kalimantan,Indonesia,"Type, p.125",Borneo
+Dipterocarpus validus,holotype,L,,Korthals,s.n.,,G. Sakumbang,Kalimantan,Indonesia,"Type, p.125",Borneo
+Dipterocarpus verrucosus,lectotype,KEP,,Mitchell,CF 0313,,"Peninsular Malaysia, Kajang, Bangi FR",Selangor,Malaysia,"Type, p.126",Lectotype (designated here); printed 'hololectotype KEP'
+Dipterocarpus verrucosus,isolectotype,K,,Mitchell,CF 0313,,"Peninsular Malaysia, Kajang, Bangi FR",Selangor,Malaysia,"Type, p.126",Lectotype (designated here)
+Dipterocarpus verrucosus,isolectotype,L,,Mitchell,CF 0313,,"Peninsular Malaysia, Kajang, Bangi FR",Selangor,Malaysia,"Type, p.126",Lectotype (designated here)
+Dryobalanops aromatica,holotype,BM,,Miller,s.n.,,"Sumatra, Tapanuli",,Indonesia,"Type, p.129",
+Dryobalanops beccarii,lectotype,K,,Beccari,PB 2553,,Matang,Sarawak,Malaysia,"Type, p.131","Lectotype (Slooten, 1932); printed 'hololectotype K'; Borneo"
+Dryobalanops beccarii,isolectotype,PC,,Beccari,PB 2553,,Matang,Sarawak,Malaysia,"Type, p.131","Lectotype (Slooten, 1932); Borneo"
+Dryobalanops fusca,lectotype,BO,,bb.,11468,,"Sambas, Paloh",Kalimantan,Indonesia,"Type, p.132",Lectotype (designated here); printed 'hololectotype BO'; Borneo
+Dryobalanops keithii,holotype,KEP,,Keith,FMS 44382,,"Tawau district, Tiaggau, Kalabakan",Sabah,Malaysia,"Type, p.133",Borneo; KEP cited twice (as holotype and isotype)
+Dryobalanops keithii,isotype,KEP,,Keith,FMS 44382,,"Tawau district, Tiaggau, Kalabakan",Sabah,Malaysia,"Type, p.133",Borneo; KEP cited twice (as holotype and isotype)
+Dryobalanops lanceolata,holotype,BO,,Cult. in Hort. Bog.,Sub VIIID 58,,"Bintulu district, Ulu Kemena",Sarawak,Malaysia,"Type, p.134",Borneo; cultivated at Hort. Bog. (Bogor); printed '(from Beccari via Martin)'; collector not named
+Dryobalanops oblongifolia,holotype,K,,Beccari,PB 2533,,Matang,Sarawak,Malaysia,"Type, p.136",Borneo
+Dryobalanops rappa,holotype,FI,,Beccari,s.n.,,Kuching,Sarawak,Malaysia,"Type, p.138",Borneo
+Hopea aequalis,holotype,K,,Ilias,S 15881,,"Bintulu district, Nyabau FR",Sarawak,Malaysia,"Type, p.147",Borneo
+Hopea aequalis,isotype,KEP,,Ilias,S 15881,,"Bintulu district, Nyabau FR",Sarawak,Malaysia,"Type, p.147",Borneo
+Hopea aequalis,isotype,L,,Ilias,S 15881,,"Bintulu district, Nyabau FR",Sarawak,Malaysia,"Type, p.147",Borneo
+Hopea altocollina,holotype,K,,Ashton,BRUN 1030,,"Limbang district, Bt. Antu, Ulu Sembayang",Sarawak,Malaysia,"Type, p.147",Borneo
+Hopea altocollina,isotype,KEP,,Ashton,BRUN 1030,,"Limbang district, Bt. Antu, Ulu Sembayang",Sarawak,Malaysia,"Type, p.147",Borneo
+Hopea altocollina,isotype,L,,Ashton,BRUN 1030,,"Limbang district, Bt. Antu, Ulu Sembayang",Sarawak,Malaysia,"Type, p.147",Borneo
+Hopea andersonii,holotype,K,,Anderson,S 11096,,"Bau district, Kuching road",Sarawak,Malaysia,"Type, p.148",Borneo
+Hopea andersonii,isotype,KEP,,Anderson,S 11096,,"Bau district, Kuching road",Sarawak,Malaysia,"Type, p.148",Borneo
+Hopea andersonii,isotype,L,,Anderson,S 11096,,"Bau district, Kuching road",Sarawak,Malaysia,"Type, p.148",Borneo
+Hopea andersonii subsp. basalticola,holotype,K,,Sibat,S 25005,,"Tatau district, Bt. Mersing, Anap",Sarawak,Malaysia,"Type, p.149",Borneo
+Hopea andersonii subsp. basalticola,isotype,KEP,,Sibat,S 25005,,"Tatau district, Bt. Mersing, Anap",Sarawak,Malaysia,"Type, p.149",Borneo
+Hopea andersonii subsp. basalticola,isotype,L,,Sibat,S 25005,,"Tatau district, Bt. Mersing, Anap",Sarawak,Malaysia,"Type, p.149",Borneo
+Hopea beccariana,holotype,BO,,Beccari,PB 1177,,,Sarawak,Malaysia,"Type, p.149",Borneo
+Hopea bracteata,holotype,BO,,Teysmann,HB 8265,,,W Kalimantan,Indonesia,"Type, p.150",Borneo
+Hopea bullatifolia,holotype,K,,Mashor,SA 522,,"Belaga district, Sg. Danum",Sarawak,Malaysia,"Type, p.151",Borneo
+Hopea bullatifolia,isotype,KEP,,Mashor,SA 522,,"Belaga district, Sg. Danum",Sarawak,Malaysia,"Type, p.151",Borneo
+Hopea centipeda,holotype,K,,Murthy & Ashton,S 23342,,"Marudi district, Ulu Dapoi, Tinjar",Sarawak,Malaysia,"Type, p.151",Borneo
+Hopea centipeda,isotype,KEP,,Murthy & Ashton,S 23342,,"Marudi district, Ulu Dapoi, Tinjar",Sarawak,Malaysia,"Type, p.151",Borneo
+Hopea centipeda,isotype,L,,Murthy & Ashton,S 23342,,"Marudi district, Ulu Dapoi, Tinjar",Sarawak,Malaysia,"Type, p.151",Borneo
+Hopea cernua,lectotype,K,,Binnendijk,s.n.,,Sumatra,,Indonesia,"Type, p.153",Lectotype (designated here); printed 'hololectotype K'
+Hopea coriacea,holotype,BO,,Teijsmann,s.n.,,,Kalimantan,Indonesia,"Type, p.154",Borneo
+Hopea coriacea,isotype,L,,Teijsmann,s.n.,,,Kalimantan,Indonesia,"Type, p.154",Borneo
+Hopea depressinerva,holotype,K,,Anderson,S 15439,,"Lundu district, Bt. Gebong",Sarawak,Malaysia,"Type, p.155",Borneo
+Hopea depressinerva,isotype,KEP,,Anderson,S 15439,,"Lundu district, Bt. Gebong",Sarawak,Malaysia,"Type, p.155",Borneo
+Hopea depressinerva,isotype,L,,Anderson,S 15439,,"Lundu district, Bt. Gebong",Sarawak,Malaysia,"Type, p.155",Borneo
+Hopea dryobalanoides,holotype,U,,Teijsmann,s.n.,,"Sumatra, Pariaman, Padang",,Indonesia,"Type, p.155",
+Hopea dyeri,holotype,P,,Beccari,PB 2962,,Matang,Sarawak,Malaysia,"Type, p.157",Borneo
+Hopea enicosanthoides,holotype,K,,Ashton,S 18116,,"Bintulu district, Ulu Labang",Sarawak,Malaysia,"Type, p.158",Borneo
+Hopea enicosanthoides,isotype,KEP,,Ashton,S 18116,,"Bintulu district, Ulu Labang",Sarawak,Malaysia,"Type, p.158",Borneo
+Hopea enicosanthoides,isotype,L,,Ashton,S 18116,,"Bintulu district, Ulu Labang",Sarawak,Malaysia,"Type, p.158",Borneo
+Hopea ferruginea,holotype,BO,,bb.,14459,,"Sumatra, Jambi",,Indonesia,"Type, p.159",
+Hopea ferruginea,isotype,L,,bb.,14459,,"Sumatra, Jambi",,Indonesia,"Type, p.159",
+Hopea fluvialis,holotype,KEP,,Flemmich,FMS 34523,,"Belait district, Sg. Melayan",,Brunei,"Type, p.160",
+Hopea griffithii,holotype,CAL,,Griffith,717,,"Mergui, Tennaserim",,Myanmar,"Type, p.161",
+Hopea griffithii,isotype,K,,Griffith,717,,"Mergui, Tennaserim",,Myanmar,"Type, p.161",
+Hopea kerangasensis,holotype,K,,Yakup,S 8944,,"Kuching district, Semengoh FR",Sarawak,Malaysia,"Type, p.161",Borneo
+Hopea kerangasensis,isotype,L,,Yakup,S 8944,,"Kuching district, Semengoh FR",Sarawak,Malaysia,"Type, p.161",Borneo
+Hopea latifolia,holotype,KEP,,Mohamad,FMS 8149,,"Peninsular Malaysia, Kuantan, Telok Siseh",Pahang,Malaysia,"Type, p.162",
+Hopea longirostrata,holotype,K,,Ashton,S 17742,,"Belaga district, Ulu Belaga",Sarawak,Malaysia,"Type, p.163",Borneo
+Hopea longirostrata,isotype,KEP,,Ashton,S 17742,,"Belaga district, Ulu Belaga",Sarawak,Malaysia,"Type, p.163",Borneo
+Hopea longirostrata,isotype,L,,Ashton,S 17742,,"Belaga district, Ulu Belaga",Sarawak,Malaysia,"Type, p.163",Borneo
+Hopea megacarpa,holotype,K,,Daud & Tachun,SFN 35625,,"Kapit district, Nanga Pelagus",Sarawak,Malaysia,"Type, p.163",Borneo
+Hopea megacarpa,isotype,KEP,,Daud & Tachun,SFN 35625,,"Kapit district, Nanga Pelagus",Sarawak,Malaysia,"Type, p.163",Borneo
+Hopea mengerawan,holotype,U,U sub. No. 035930,Teijsmann,s.n.,,"Sumatra, Palembang, Muara Enim",,Indonesia,"Type, p.164",printed '(= U sub. No. 035930)'
+Hopea mengerawan,isotype,BO,,Teijsmann,s.n.,,"Sumatra, Palembang, Muara Enim",,Indonesia,"Type, p.164",
+Hopea mengerawan,isotype,L,,Teijsmann,s.n.,,"Sumatra, Palembang, Muara Enim",,Indonesia,"Type, p.164",
+Hopea mesuoides,holotype,K,,Ilias,S 15551,,"Bintulu district, Segan FR",Sarawak,Malaysia,"Type, p.165",Borneo
+Hopea mesuoides,isotype,KEP,,Ilias,S 15551,,"Bintulu district, Segan FR",Sarawak,Malaysia,"Type, p.165",Borneo
+Hopea mesuoides,isotype,L,,Ilias,S 15551,,"Bintulu district, Segan FR",Sarawak,Malaysia,"Type, p.165",Borneo
+Hopea micrantha,lectotype,K,,Motley,215,,Labuan,Labuan,Malaysia,"Type, p.166","Lectotype (Symington, 1939); printed 'hololectotype K'; Borneo"
+Hopea montana,holotype,KEP,,Symington,FMS 32257,,"Peninsular Malaysia, G. Korbu",Perak,Malaysia,"Type, p.166",
+Hopea nervosa,holotype,CAL,,King's Collector,3690,,"Peninsular Malaysia, Larut",Perak,Malaysia,"Type, p.167",
+Hopea nervosa,isotype,K,,King's Collector,3690,,"Peninsular Malaysia, Larut",Perak,Malaysia,"Type, p.167",
+Hopea nutans,lectotype,K,,Henbrey,KEP 417,,"Peninsular Malaysia, Kuantan",Pahang,Malaysia,"Type, p.168",Lectotype (designated here); printed 'hololectotype K'
+Hopea nutans,isolectotype,KEP,,Henbrey,KEP 417,,"Peninsular Malaysia, Kuantan",Pahang,Malaysia,"Type, p.168",Lectotype (designated here)
+Hopea obscurinerva,holotype,KEP,,Mohtar,S 51417,,"Bintulu district, Ulu Tubau",Sarawak,Malaysia,"Type, p.169",Borneo
+Hopea obscurinerva,isotype,SAR,,Mohtar,S 51417,,"Bintulu district, Ulu Tubau",Sarawak,Malaysia,"Type, p.169",Borneo
+Hopea ovoidea,holotype,K,,Elmer,21428,,Tawau district,Sabah,Malaysia,"Type, p.169",Borneo
+Hopea ovoidea,isotype,L,,Elmer,21428,,Tawau district,Sabah,Malaysia,"Type, p.169",Borneo
+Hopea pachycarpa,holotype,P,,Beccari,PB 3314,,Marop,Sarawak,Malaysia,"Type, p.170",Borneo
+Hopea pedicellata,lectotype,K,,Curtis,167,,Peninsular Malaysia,Penang,Malaysia,"Type, p.172","Lectotype (Ashton, 1978); printed 'hololectotype K'"
+Hopea pentanervia,holotype,KEP,,Tready,S 1257,,"Miri district, Baram",Sarawak,Malaysia,"Type, p.172",Borneo
+Hopea pentanervia,isotype,SAR,,Tready,S 1257,,"Miri district, Baram",Sarawak,Malaysia,"Type, p.172",Borneo
+Hopea plagata,neotype,K,,Merrill,Sp. Blancoan. 109,,"Luzon, Rizal Province, Langhaya",,Philippines,"Type, p.173","Neotype (designated here); repositories printed '(K, US)' without holo-/iso- distinction; printed '(= US 903784)'"
+Hopea plagata,neotype,US,US 903784,Merrill,Sp. Blancoan. 109,,"Luzon, Rizal Province, Langhaya",,Philippines,"Type, p.173","Neotype (designated here); repositories printed '(K, US)' without holo-/iso- distinction; printed '(= US 903784)'"
+Hopea pterygota,holotype,K,,Smythies,S 15206,,"Simunjan district, G. Gaharu",Sarawak,Malaysia,"Type, p.174",Borneo
+Hopea pterygota,isotype,KEP,,Smythies,S 15206,,"Simunjan district, G. Gaharu",Sarawak,Malaysia,"Type, p.174",Borneo
+Hopea pterygota,isotype,L,,Smythies,S 15206,,"Simunjan district, G. Gaharu",Sarawak,Malaysia,"Type, p.174",Borneo
+Hopea rudiformis,holotype,L,,Kostermans,4394,,"Balikpapan, Sg. Wain",Kalimantan,Indonesia,"Type, p.176",Borneo
+Hopea rudiformis,isotype,BO,,Kostermans,4394,,"Balikpapan, Sg. Wain",Kalimantan,Indonesia,"Type, p.176",Borneo
+Hopea rudiformis,isotype,K,,Kostermans,4394,,"Balikpapan, Sg. Wain",Kalimantan,Indonesia,"Type, p.176",Borneo
+Hopea rugifolia,holotype,K,,Wong,WKM 1414,,"Temburong district, Bt. Belalong south ridge",,Brunei,"Type, p.176",Borneo
+Hopea rugifolia,isotype,BRUN,,Wong,WKM 1414,,"Temburong district, Bt. Belalong south ridge",,Brunei,"Type, p.176",Borneo
+Hopea sangal,holotype,L,RHL Sheet No. 933193,Korthals,s.n.,,,,,"Type, p.178",Borneo; printed '(= RHL Sheet No. 933193)'; RHL number has 6 digits (others 8-9); possible typo in source
+Hopea sangal,isotype,BO,,Korthals,s.n.,,,,,"Type, p.178",Borneo; RHL number has 6 digits (others 8-9); possible typo in source
+Hopea sangal,isotype,U,,Korthals,s.n.,,,,,"Type, p.178",Borneo; RHL number has 6 digits (others 8-9); possible typo in source
+Hopea semicuneata,holotype,KEP,,Awang,FMS 4526,,"Peninsular Malaysia, Temerloh",Pahang,Malaysia,"Type, p.179",
+Hopea sphaerocarpa,holotype,P,,Beccari,PB 3021,,,Sarawak,Malaysia,"Type, p.180",Borneo; state printed in quotes ‘Sarawak’
+Hopea tenuinervula,holotype,K,,Ariffin,S 9616,,Lundu district,Sarawak,Malaysia,"Type, p.180",Borneo
+Hopea tenuinervula,isotype,KEP,,Ariffin,S 9616,,Lundu district,Sarawak,Malaysia,"Type, p.180",Borneo
+Hopea treubii,holotype,P,,Beccari,PB 2895,,Matang,Sarawak,Malaysia,"Type, p.181",Borneo
+Hopea vaccinifolia,holotype,K,,Hose,583,,Marudi district,Sarawak,Malaysia,"Type, p.182",Borneo
+Hopea vesquei,holotype,P,,Beccari,PB 2550,,,Sarawak,Malaysia,"Type, p.183",Borneo; state printed in quotes ‘Sarawak’
+Hopea wyatt-smithii,holotype,K,,G.H.S. Wood,SAN 15061,,Beaufort district,Sabah,Malaysia,"Type, p.183",Borneo
+Hopea wyatt-smithii,isotype,KEP,,G.H.S. Wood,SAN 15061,,Beaufort district,Sabah,Malaysia,"Type, p.183",Borneo
+Hopea wyatt-smithii,isotype,SAN,,G.H.S. Wood,SAN 15061,,Beaufort district,Sabah,Malaysia,"Type, p.183",Borneo
+Parashorea lucida,lectotype,U,,Diepenhorst,HB 2074,,"Sumatra, Pariaman",,Indonesia,"Type, p.186",Lectotype (designated here); printed 'hololectotype U'
+Parashorea macrophylla,holotype,K,,Ladi,BRUN 2002,,Kuala Belalong,,Brunei,"Type, p.186",
+Parashorea macrophylla,isotype,KEP,,Ladi,BRUN 2002,,Kuala Belalong,,Brunei,"Type, p.186",
+Parashorea macrophylla,isotype,L,,Ladi,BRUN 2002,,Kuala Belalong,,Brunei,"Type, p.186",
+Parashorea malaanonan,neotype,A,,Merrill,Sp. Blancoan. 1053,,"Luzon, Laguna Province, Mt. Maquiling",,Philippines,"Type, p.187","Neotype (designated here); repositories printed '(A, US)' without holo-/iso- distinction; printed '(= US 874771)'"
+Parashorea malaanonan,neotype,US,US 874771,Merrill,Sp. Blancoan. 1053,,"Luzon, Laguna Province, Mt. Maquiling",,Philippines,"Type, p.187","Neotype (designated here); repositories printed '(A, US)' without holo-/iso- distinction; printed '(= US 874771)'"
+Parashorea parvifolia,holotype,K,,Haviland,2810/2331,,Belaga,Sarawak,Malaysia,"Type, p.188",
+Parashorea smythiesii,holotype,K,,Ladi,BRUN 2000a,,Kuala Belalong,,Brunei,"Type, p.188",
+Parashorea smythiesii,isotype,KEP,,Ladi,BRUN 2000a,,Kuala Belalong,,Brunei,"Type, p.188",
+Parashorea smythiesii,isotype,L,,Ladi,BRUN 2000a,,Kuala Belalong,,Brunei,"Type, p.188",
+Parashorea tomentella,holotype,KEP,,Otik,FMS 38745,,"Sandakan district, Kabili-Sepilok FR",Sabah,Malaysia,"Type, p.189",Borneo
+Shorea acuminatissima,holotype,KEP,,Ayan,FMS 38723,,Sandakan,Sabah,Malaysia,"Type, p.218",Borneo
+Shorea acuta,holotype,K,,Mohsin,S 1924,,"Belait, Sg. Liang",,Brunei,"Type, p.219",Borneo
+Shorea acuta,isotype,KEP,,Mohsin,S 1924,,"Belait, Sg. Liang",,Brunei,"Type, p.219",Borneo
+Shorea agamii,holotype,KEP,,Smith,FMS 30525,,Labi Hills,,Brunei,"Type, p.220",
+Shorea agamii subsp. diminuta,holotype,K,,Sibat,S 25027,,"Bt. Mersing, Anap",Sarawak,Malaysia,"Type, p.221",Borneo
+Shorea agamii subsp. diminuta,isotype,KEP,,Sibat,S 25027,,"Bt. Mersing, Anap",Sarawak,Malaysia,"Type, p.221",Borneo
+Shorea albida,lectotype,KEP,,Zainal,FMS 30353,,Kuala Belait,,Brunei,"Type, p.221",Lectotype (designated here); printed 'hololectotype KEP'; Borneo
+Shorea albida,isolectotype,L,,Zainal,FMS 30353,,Kuala Belait,,Brunei,"Type, p.221",Lectotype (designated here); Borneo
+Shorea almon,lectotype,K,,Whitford,FB 11647,,"Cadiz, Negros Occidental",,Philippines,"Type, p.224",Lectotype (designated here); printed 'hololectotype K'
+Shorea almon,isolectotype,L,,Whitford,FB 11647,,"Cadiz, Negros Occidental",,Philippines,"Type, p.224",Lectotype (designated here)
+Shorea alutacea,holotype,K,,Bojeng,S 10170,,"Lundu district, G. Gading NP",Sarawak,Malaysia,"Type, p.224",Borneo
+Shorea amplexicaulis,holotype,K,,Ashton,BRUN 3261,,Andulau FR,,Brunei,"Type, p.225",Borneo
+Shorea amplexicaulis,isotype,KEP,,Ashton,BRUN 3261,,Andulau FR,,Brunei,"Type, p.225",Borneo
+Shorea andulensis,holotype,K,,Ashton,BRUN 3263,,Andulau FR,,Brunei,"Type, p.226",Borneo
+Shorea andulensis,isotype,KEP,,Ashton,BRUN 3263,,Andulau FR,,Brunei,"Type, p.226",Borneo
+Shorea andulensis,isotype,L,,Ashton,BRUN 3263,,Andulau FR,,Brunei,"Type, p.226",Borneo
+Shorea angustifolia,holotype,K,,Ashton,BRUN 778,,Kuala Temburong Macang,,Brunei,"Type, p.228",Borneo
+Shorea angustifolia,isotype,KEP,,Ashton,BRUN 778,,Kuala Temburong Macang,,Brunei,"Type, p.228",Borneo
+Shorea angustifolia,isotype,L,,Ashton,BRUN 778,,Kuala Temburong Macang,,Brunei,"Type, p.228",Borneo
+Shorea argentifolia,holotype,KEP,,Maidin,FMS 38838,,Tawau,Sabah,Malaysia,"Type, p.229",Borneo
+Shorea asahii,holotype,KEP,,Flemmich,FMS 37183,,"Tutong district, Bt. Bedawan",,Brunei,"Type, p.230",Borneo
+Shorea atrinervosa,holotype,KEP,,Alwi,FMS 31832,,"Peninsular Malaysia, Bt. Goh FR",Pahang,Malaysia,"Type, p.230",
+Shorea bakoensis,holotype,K,,Brunig,S 17502,,Bako NP,Sarawak,Malaysia,"Type, p.233",Borneo
+Shorea balanocarpoides,holotype,KEP,,Lambak,FMS 15768,,"Peninsular Malaysia, Rompin",Pahang,Malaysia,"Type, p.234",
+Shorea beccariana,lectotype,BO,,Beccari,PB 1127,,,Sarawak,Malaysia,"Type, p.235",Lectotype (designated here); printed 'hololectotype BO'; Borneo; state printed in quotes ‘Sarawak’
+Shorea biawak,holotype,K,,Ashton,BRUN 3369,,Bangar,,Brunei,"Type, p.236",Borneo
+Shorea biawak,isotype,KEP,,Ashton,BRUN 3369,,Bangar,,Brunei,"Type, p.236",Borneo
+Shorea bracteolata,holotype,K,,Maingay,204,,Peninsular Malaysia,Malacca,Malaysia,"Type, p.237",
+Shorea bracteolata,isotype,L,,Maingay,204,,Peninsular Malaysia,Malacca,Malaysia,"Type, p.237",
+Shorea brunnescens,holotype,K,,Smythies,S 15218,,"Simunjan districts, Bt. Gaharu",Sarawak,Malaysia,"Type, p.237",Borneo
+Shorea brunnescens,isotype,KEP,,Smythies,S 15218,,"Simunjan districts, Bt. Gaharu",Sarawak,Malaysia,"Type, p.237",Borneo
+Shorea brunnescens,isotype,L,,Smythies,S 15218,,"Simunjan districts, Bt. Gaharu",Sarawak,Malaysia,"Type, p.237",Borneo
+Shorea bullata,holotype,K,,Ladi & Angga,BRUN 2003,,Bangar,,Brunei,"Type, p.238",Borneo
+Shorea bullata,isotype,KEP,,Ladi & Angga,BRUN 2003,,Bangar,,Brunei,"Type, p.238",Borneo
+Shorea bullata,isotype,L,,Ladi & Angga,BRUN 2003,,Bangar,,Brunei,"Type, p.238",Borneo
+Shorea calcicola,holotype,KEP,,Murthy & Chai,S 24690,,"Kuching district, Kuching- Serian Road",Sarawak,Malaysia,"Type, p.239",Borneo
+Shorea calcicola,isotype,SAR,,Murthy & Chai,S 24690,,"Kuching district, Kuching- Serian Road",Sarawak,Malaysia,"Type, p.239",Borneo
+Shorea carapae,holotype,K,,Kostermans,13095,,"W Kutei, Mt. Palimasan near Tabang, Ulu Belayan",Kalimantan,Indonesia,"Type, p.240",Borneo
+Shorea carapae,isotype,KEP,,Kostermans,13095,,"W Kutei, Mt. Palimasan near Tabang, Ulu Belayan",Kalimantan,Indonesia,"Type, p.240",Borneo
+Shorea carapae,isotype,L,,Kostermans,13095,,"W Kutei, Mt. Palimasan near Tabang, Ulu Belayan",Kalimantan,Indonesia,"Type, p.240",Borneo
+Shorea chaiana,holotype,K,,Suib,S 29722,,"Kapit district, Sg. Sepanggil",Sarawak,Malaysia,"Type, p.240",Borneo
+Shorea chaiana,isotype,SAR,,Suib,S 29722,,"Kapit district, Sg. Sepanggil",Sarawak,Malaysia,"Type, p.240",Borneo
+Shorea collaris,holotype,BO,,bb.,20650,,"Long Pahangai, Mahakam",Kalimantan,Indonesia,"Type, p.241",Borneo
+Shorea collaris,isotype,L,,bb.,20650,,"Long Pahangai, Mahakam",Kalimantan,Indonesia,"Type, p.241",Borneo
+Shorea confusa,holotype,K,,Meijer,SAN 19395,,"Tawau, Mile 24, Cocoa Estate",Sabah,Malaysia,"Type, p.242",Borneo
+Shorea confusa,isotype,KEP,,Meijer,SAN 19395,,"Tawau, Mile 24, Cocoa Estate",Sabah,Malaysia,"Type, p.242",Borneo
+Shorea confusa,isotype,SAN,,Meijer,SAN 19395,,"Tawau, Mile 24, Cocoa Estate",Sabah,Malaysia,"Type, p.242",Borneo
+Shorea cordata,holotype,K,,Smythies,SA 678,,"Kuching district, near Semengoh FR",Sarawak,Malaysia,"Type, p.243",Borneo
+Shorea coriacea,holotype,BO,,Beccari,PB 2948,,,Sarawak,Malaysia,"Type, p.244",Borneo
+Shorea coriacea,isotype,A,,Beccari,PB 2948,,,Sarawak,Malaysia,"Type, p.244",Borneo
+Shorea coriacea,isotype,K,,Beccari,PB 2948,,,Sarawak,Malaysia,"Type, p.244",Borneo
+Shorea crassa,holotype,K,,Ismail,S 11701,,Semengoh FR,Sarawak,Malaysia,"Type, p.244",Borneo
+Shorea crassa,isotype,KEP,,Ismail,S 11701,,Semengoh FR,Sarawak,Malaysia,"Type, p.244",Borneo
+Shorea curtisii,lectotype,K,,Curtis,1394,,"Peninsular Malaysia, Penang Hill",Penang,Malaysia,"Type, p.245",Lectotype (designated here); printed 'hololectotype K'
+Shorea cuspidata,holotype,K,,Galau,S 15258,,"Kuching, Semengoh FR",Sarawak,Malaysia,"Type, p.246",Borneo
+Shorea cuspidata,isotype,KEP,,Galau,S 15258,,"Kuching, Semengoh FR",Sarawak,Malaysia,"Type, p.246",Borneo
+Shorea dasyphylla,holotype,KEP,,Symington,KEP 24462,,"Peninsular Malaysia, Sg. Buloh FR",Selangor,Malaysia,"Type, p.247",
+Shorea dealbata,holotype,KEP,,Mat Sohor,KEP 4188,,"Peninsular Malaysia, Kuantan district, Jambu, Lepar",Pahang,Malaysia,"Type, p.248",
+Shorea dispar,holotype,K,,Othman,S 29208,,"Kapit, Ulu Baleh above Nanga Mengiong",Sarawak,Malaysia,"Type, p.249",Borneo
+Shorea dispar,isotype,KEP,,Othman,S 29208,,"Kapit, Ulu Baleh above Nanga Mengiong",Sarawak,Malaysia,"Type, p.249",Borneo
+Shorea dispar,isotype,L,,Othman,S 29208,,"Kapit, Ulu Baleh above Nanga Mengiong",Sarawak,Malaysia,"Type, p.249",Borneo
+Shorea domatiosa,holotype,KEP,,G.H.S. Wood,SAN 16601,,Sipitang,Sabah,Malaysia,"Type, p.249",Borneo
+Shorea elliptica,holotype,BO,,Beccari,PB 2574,,Matang,Sarawak,Malaysia,"Type, p.251",Borneo
+Shorea exelliptica,lectotype,K,,Rahman,S 1641,,Belait,,Brunei,"Type, p.252",Lectotype (designated here); printed 'hololectotype K'; Borneo
+Shorea exelliptica,isolectotype,KEP,,Rahman,S 1641,,Belait,,Brunei,"Type, p.252",Lectotype (designated here); Borneo
+Shorea exelliptica,isolectotype,L,,Rahman,S 1641,,Belait,,Brunei,"Type, p.252",Lectotype (designated here); Borneo
+Shorea faguetiana,lectotype,P,,Beccari,PB 2491,,Matang,Sarawak,Malaysia,"Type, p.253",Lectotype (designated here); printed 'hololectotype P'; Borneo
+Shorea faguetioides,holotype,K,,Drahman,S 1771,,"Lawas, Bt. Pengalih",Sarawak,Malaysia,"Type, p.254",Borneo
+Shorea faguetioides,isotype,KEP,,Drahman,S 1771,,"Lawas, Bt. Pengalih",Sarawak,Malaysia,"Type, p.254",Borneo
+Shorea falcifera,holotype,K,,Beccari,PB 3046,,Santubong,Sarawak,Malaysia,"Type, p.255",Borneo
+Shorea falciferoides,lectotype,K,,Mayor,FB 25664,,"Luzon, Zambales Province, Masinloc",,Philippines,"Type, p.255",Lectotype (designated here); printed 'hololectotype K'
+Shorea falciferoides subsp. glaucescens,holotype,K,,G.H.S. Wood & Agama,SAN 15484,,Sepilok FR,Sabah,Malaysia,"Type, p.256",Borneo
+Shorea falciferoides subsp. glaucescens,isotype,KEP,,G.H.S. Wood & Agama,SAN 15484,,Sepilok FR,Sabah,Malaysia,"Type, p.256",Borneo
+Shorea fallax,lectotype,K,,G.H.S. Wood,SAN A 1734,,Beaufort Hill,Sabah,Malaysia,"Type, p.257",Lectotype (designated here); printed 'hololectotype K'; Borneo
+Shorea fallax,isolectotype,KEP,,G.H.S. Wood,SAN A 1734,,Beaufort Hill,Sabah,Malaysia,"Type, p.257",Lectotype (designated here); Borneo
+Shorea fallax,isolectotype,L,,G.H.S. Wood,SAN A 1734,,Beaufort Hill,Sabah,Malaysia,"Type, p.257",Lectotype (designated here); Borneo
+Shorea ferruginea,holotype,K,,Beccari,PB 2604,,Matang,Sarawak,Malaysia,"Type, p.258",Borneo
+Shorea flaviflora,holotype,KEP,,G.H.S. Wood,SAN 15109,,"Beaufort, Pangi",Sabah,Malaysia,"Type, p.258",Borneo
+Shorea flaviflora,isotype,L,,G.H.S. Wood,SAN 15109,,"Beaufort, Pangi",Sabah,Malaysia,"Type, p.258",Borneo
+Shorea flemmichii,holotype,KEP,,Flemmich,FMS 32585,,"Belait district, Tenajor, Bt. Rotan",,Brunei,"Type, p.259",Borneo; KEP cited twice (as holotype and isotype)
+Shorea flemmichii,isotype,KEP,,Flemmich,FMS 32585,,"Belait district, Tenajor, Bt. Rotan",,Brunei,"Type, p.259",Borneo; KEP cited twice (as holotype and isotype)
+Shorea foraminifera,holotype,K,,Sabli,S 1916,,Andulau FR,,Brunei,"Type, p.260",Borneo
+Shorea foraminifera,isotype,KEP,,Sabli,S 1916,,Andulau FR,,Brunei,"Type, p.260",Borneo
+Shorea foxworthyi,holotype,KEP,,Foxworthy,KEP 9507,,"Peninsular Malaysia, Baloh FR",Pahang,Malaysia,"Type, p.261",
+Shorea geniculata,holotype,K,,Ashton,BRUN 3264,,Andulau FR,,Brunei,"Type, p.262",Borneo
+Shorea geniculata,isotype,KEP,,Ashton,BRUN 3264,,Andulau FR,,Brunei,"Type, p.262",Borneo
+Shorea geniculata,isotype,L,,Ashton,BRUN 3264,,Andulau FR,,Brunei,"Type, p.262",Borneo
+Shorea gibbosa,holotype,K,,Ridley,6079,,Singapore,,Singapore,"Type, p.263",
+Shorea gratissima,holotype,K,,Wallich,s.n.,,Singapore,,Singapore,"Type, p.264",
+Shorea guiso,neotype,K,,Merrill,Sp. Blancoan. 407,,"Luzon, Bataan province, Limay",,Philippines,"Type, p.264","Neotype (designated here); repositories printed '(K, US)' without holo-/iso- distinction; printed '(= US 904091)'"
+Shorea guiso,neotype,US,US 904091,Merrill,Sp. Blancoan. 407,,"Luzon, Bataan province, Limay",,Philippines,"Type, p.264","Neotype (designated here); repositories printed '(K, US)' without holo-/iso- distinction; printed '(= US 904091)'"
+Shorea havilandii,holotype,K,,Haviland,2395/1899,,near Kuching,Sarawak,Malaysia,"Type, p.265",Borneo
+Shorea havilandii,isotype,L,,Haviland,2395/1899,,near Kuching,Sarawak,Malaysia,"Type, p.265",Borneo
+Shorea hemsleyana,lectotype,K,,King's Collector (Kunstler),6670,,"Peninsular Malaysia, Larut",Perak,Malaysia,"Type, p.266",Lectotype (designated here); printed 'hololectotype K'
+Shorea hemsleyana subsp. grandiflora,holotype,K,,Haviland,2121,,near Kuching,Sarawak,Malaysia,"Type, p.267",Borneo
+Shorea hopeifolia,holotype,P,,Beccari,PB 2491,,Matang,Sarawak,Malaysia,"Type, p.267",Borneo
+Shorea hypoleuca,lectotype,K,,G.H.S. Wood,SAN 16048,,"Sandakan district, Sepilok FR",Sabah,Malaysia,"Type, p.268",Lectotype (designated here); printed 'hololectotype K'; Borneo
+Shorea iliasii,holotype,K,,Ilias,S 15102,,"Bintulu district, Ulu Segan FR",Sarawak,Malaysia,"Type, p.269",Borneo
+Shorea inaequilateralis,lectotype,KEP,,Zainal,FMS 30351,,Kuala Belait,,Brunei,"Type, p.270",Lectotype (designated here); printed 'hololectotype KEP'; Borneo
+Shorea inappendiculata,holotype,BO,,Beccari,PB 3009,,Matang,Sarawak,Malaysia,"Type, p.271",Borneo
+Shorea induplicata,holotype,KEP,,Knight,SA 582,,"Kuching district, Sampadi FR",Sarawak,Malaysia,"Type, p.273",Borneo
+Shorea isoptera,holotype,K,,Ashton,BRUN 3018,,"Temburong, Bt. Patoi",,Brunei,"Type, p.273",Borneo
+Shorea isoptera,isotype,L,,Ashton,BRUN 3018,,"Temburong, Bt. Patoi",,Brunei,"Type, p.273",Borneo
+Shorea johorensis,holotype,KEP,,Bain,KEP 5992,,"Peninsular Malaysia, G. Panti",Johor,Malaysia,"Type, p.274",
+Shorea kudatensis,lectotype,K,,G.H.S Wood,SAN 15363,,"Kudat district, Tamalang FR",Sabah,Malaysia,"Type, p.275",Lectotype (designated here); printed 'hololectotype K'; Borneo
+Shorea kunstleri,lectotype,K,,King's Collector (Kunstler),3674,,"Peninsular Malaysia, Larut",Perak,Malaysia,"Type, p.276",Lectotype (designated here); printed 'hololectotype K'
+Shorea ladiana,holotype,K,,Ghazalli,S 11076,,"Kuching district, Semengoh FR",Sarawak,Malaysia,"Type, p.277",Borneo
+Shorea ladiana,isotype,KEP,,Ghazalli,S 11076,,"Kuching district, Semengoh FR",Sarawak,Malaysia,"Type, p.277",Borneo
+Shorea laevis,lectotype,K,,Sahak,FMS 1905,,"Peninsular Malaysia, Kuala Pilah, Serting FR",Negeri Sembilan,Malaysia,"Type, p.278",Lectotype (designated here); printed 'hololectotype K'
+Shorea lamellata,holotype,KEP,,Arnot,FMS 28082,,"Peninsular Malaysia, Keledang Saiong FR",Perak,Malaysia,"Type, p.280",
+Shorea laxa,holotype,KEP,,Flemmich,FMS 48191,,Bt. Puan,,Brunei,"Type, p.281",Borneo
+Shorea leprosula,lectotype,L,,Teijsmann,HB 1122,,Sumatra,,Indonesia,"Type, p.282",Lectotype (designated here); printed 'hololectotype L'
+Shorea longiflora,holotype,K,,Haviland,2120,,probably near Kuching,Sarawak,Malaysia,"Type, p.283",Borneo
+Shorea longisperma,holotype,CAL,,Roxburgh,s.n.,,"Peninsular Malaysia, Penang (‘Prince of Wales Is.’)",Penang,Malaysia,"Type, p.284",
+Shorea lunduensis,holotype,K,,Anderson et al.,S 15396,,"Lundu district, G. Lundu",Sarawak,Malaysia,"Type, p.284",Borneo
+Shorea lunduensis,isotype,KEP,,Anderson et al.,S 15396,,"Lundu district, G. Lundu",Sarawak,Malaysia,"Type, p.284",Borneo
+Shorea lunduensis,isotype,L,,Anderson et al.,S 15396,,"Lundu district, G. Lundu",Sarawak,Malaysia,"Type, p.284",Borneo
+Shorea macrantha,holotype,K,,Haviland,2119,,Kuching,Sarawak,Malaysia,"Type, p.285",Borneo
+Shorea macrantha,isotype,L,,Haviland,2119,,Kuching,Sarawak,Malaysia,"Type, p.285",Borneo
+Shorea macrobalanos,holotype,K,,Smythies,S 13192,,"Lundu district, G. Berumput",Sarawak,Malaysia,"Type, p.286",Borneo
+Shorea macrobalanos,isotype,KEP,,Smythies,S 13192,,"Lundu district, G. Berumput",Sarawak,Malaysia,"Type, p.286",Borneo
+Shorea macrobalanos,isotype,L,,Smythies,S 13192,,"Lundu district, G. Berumput",Sarawak,Malaysia,"Type, p.286",Borneo
+Shorea macrophylla,lectotype,L,RHL Sheet No. 902146589,de Vriese,s.n.,,,,,"Type, p.287",Lectotype (designated here); printed 'hololectotype L'; printed ‘Borneo’ in quotes; island only; printed '(= RHL Sheet No. 902146589)'
+Shorea macroptera,holotype,K,Kew Distr. No. 208,Maingay,1198,,Peninsular Malaysia,Malacca,Malaysia,"Type, p.288",printed '(= Kew Distr. No. 208)'
+Shorea macroptera subsp. baillonii,holotype,P,,Beccari,PB 2891,,Mt. Matang,Sarawak,Malaysia,"Type, p.289",Borneo
+Shorea macroptera subsp. macropterifolia,holotype,K,,G.H.S. Wood,SAN 16255,,Sipitang district,Sabah,Malaysia,"Type, p.289",Borneo
+Shorea macroptera subsp. macropterifolia,isotype,KEP,,G.H.S. Wood,SAN 16255,,Sipitang district,Sabah,Malaysia,"Type, p.289",Borneo
+Shorea macroptera subsp. macropterifolia,isotype,SAN,,G.H.S. Wood,SAN 16255,,Sipitang district,Sabah,Malaysia,"Type, p.289",Borneo
+Shorea macroptera subsp. sandakanensis,holotype,KEP,,Agama,FMS 38730,,"Sandakan district, Kabili FR",Sabah,Malaysia,"Type, p.290",Borneo
+Shorea materialis,lectotype,K,,Ridley,15209,,"Peninsular Malaysia, Kuala Baloh",Pahang,Malaysia,"Type, p.290",Lectotype (designated here); printed 'hololectotype K'; printed 'Ridley 15209 (Sanger Davies)'
+Shorea maxwelliana,lectotype,K,,King's Collectors,3744,,Peninsular Malaysia,Perak,Malaysia,"Type, p.291",Lectotype (designated here); printed 'hololectotype K'
+Shorea mecistopteryx,holotype,K,,Taha,s.n.,,Kinabatangan,Sabah,Malaysia,"Type, p.292",Borneo
+Shorea micans,holotype,L,,Meijer,SAN 39312,,"NE Sabah, Karamuak, Bt. Meliau",Sabah,Malaysia,"Type, p.293",Borneo
+Shorea micans,isotype,KEP,,Meijer,SAN 39312,,"NE Sabah, Karamuak, Bt. Meliau",Sabah,Malaysia,"Type, p.293",Borneo
+Shorea micans,isotype,SAN,,Meijer,SAN 39312,,"NE Sabah, Karamuak, Bt. Meliau",Sabah,Malaysia,"Type, p.293",Borneo
+Shorea monticola,holotype,K,,Clemens,31885,,"Mt. Kinabalu, Penibukan",Sabah,Malaysia,"Type, p.293",Borneo
+Shorea monticola,isotype,L,,Clemens,31885,,"Mt. Kinabalu, Penibukan",Sabah,Malaysia,"Type, p.293",Borneo
+Shorea mujongensis,holotype,K,,Ashton,S 19038,,"Hose Mountains, Base of Bt. Temedu",Sarawak,Malaysia,"Type, p.294",Borneo
+Shorea mujongensis,isotype,KEP,,Ashton,S 19038,,"Hose Mountains, Base of Bt. Temedu",Sarawak,Malaysia,"Type, p.294",Borneo
+Shorea mujongensis,isotype,L,,Ashton,S 19038,,"Hose Mountains, Base of Bt. Temedu",Sarawak,Malaysia,"Type, p.294",Borneo
+Shorea mujongensis,isotype,SAR,,Ashton,S 19038,,"Hose Mountains, Base of Bt. Temedu",Sarawak,Malaysia,"Type, p.294",Borneo
+Shorea multiflora,holotype,BO,,Teijsmann,HB 12063,,Sumatra,,Indonesia,"Type, p.295",
+Shorea myrionerva,holotype,KEP,,Drahman,S 1519,,"Lawas district, Merapok",Sarawak,Malaysia,"Type, p.296",Borneo
+Shorea myrionerva,isotype,L,,Drahman,S 1519,,"Lawas district, Merapok",Sarawak,Malaysia,"Type, p.296",Borneo
+Shorea obovoidea,holotype,KEP,,Egon,SA 616,,Semengoh FR,Sarawak,Malaysia,"Type, p.297",Borneo
+Shorea obscura,lectotype,K,,G.H.S. Wood,SAN 15166,,Bt. Sipitang,Sabah,Malaysia,"Type, p.298",Lectotype (designated here); printed 'hololectotype K'; Borneo
+Shorea obscura,isolectotype,KEP,,G.H.S. Wood,SAN 15166,,Bt. Sipitang,Sabah,Malaysia,"Type, p.298",Lectotype (designated here); Borneo
+Shorea obscura,isolectotype,L,,G.H.S. Wood,SAN 15166,,Bt. Sipitang,Sabah,Malaysia,"Type, p.298",Lectotype (designated here); Borneo
+Shorea obscura,isolectotype,SAN,,G.H.S. Wood,SAN 15166,,Bt. Sipitang,Sabah,Malaysia,"Type, p.298",Lectotype (designated here); Borneo
+Shorea ochracea,lectotype,KEP,,Spurway,S 167,,"Baleh, Merirai",Sarawak,Malaysia,"Type, p.298",Lectotype (designated here); printed 'hololectotype KEP'; Borneo
+Shorea ovalis,holotype,L,RHL Sheet No. 902146618,Korthals,s.n.,,Prarawing,Kalimantan,Indonesia,"Type, p.301",Borneo; printed '(= RHL Sheet No. 902146618)'
+Shorea ovalis subsp. sarawakensis,holotype,K,,Ashton,BRUN 3281,,Andulau FR,,Brunei,"Type, p.303",Borneo
+Shorea ovalis subsp. sarawakensis,isotype,KEP,,Ashton,BRUN 3281,,Andulau FR,,Brunei,"Type, p.303",Borneo
+Shorea ovata,lectotype,K,,Curtis,201,,"Peninsular Malaysia, Penang Hill",Penang,Malaysia,"Type, p.303",Lectotype (designated here); printed 'hololectotype K'
+Shorea pachyphylla,holotype,SING,,Haviland,2228,,near Kuching,Sarawak,Malaysia,"Type, p.304",Borneo
+Shorea pachyphylla,isotype,L,,Haviland,2228,,near Kuching,Sarawak,Malaysia,"Type, p.304",Borneo
+Shorea palembanica,holotype,U,Herb. Utrecht no. 35907,Teijsmann,s.n.,,"Sumatra, Palembang",,Indonesia,"Type, p.305",printed '(= Herb. Utrecht no. 35907)'
+Shorea pallidifolia,holotype,K,,Rashid,S 16054,,Bako NP,Sarawak,Malaysia,"Type, p.306",Borneo
+Shorea pallidifolia,isotype,KEP,,Rashid,S 16054,,Bako NP,Sarawak,Malaysia,"Type, p.306",Borneo
+Shorea pallidifolia,isotype,L,,Rashid,S 16054,,Bako NP,Sarawak,Malaysia,"Type, p.306",Borneo
+Shorea parvifolia,holotype,K,Kew Distr. No. 206,Maingay,1577,,Peninsular Malaysia,Malacca,Malaysia,"Type, p.307",printed '(= Kew Distr. No. 206)'
+Shorea parvifolia,isotype,L,,Maingay,1577,,Peninsular Malaysia,Malacca,Malaysia,"Type, p.307",
+Shorea parvifolia subsp. velutinata,holotype,KEP,,Awang Lela,FMS 4502,,"Peninsular Malaysia, Temerloh, Belingo FR",Pahang,Malaysia,"Type, p.308",
+Shorea parvistipulata,holotype,P,,Beccari,PB 2547,,Matang,Sarawak,Malaysia,"Type, p.308",Borneo
+Shorea parvistipulata subsp. albifolia,holotype,K,,Wright,S 29276,,"Niah, Sg. Sekaloh",Sarawak,Malaysia,"Type, p.309",Borneo
+Shorea parvistipulata subsp. albifolia,isotype,KEP,,Wright,S 29276,,"Niah, Sg. Sekaloh",Sarawak,Malaysia,"Type, p.309",Borneo
+Shorea parvistipulata subsp. nebulosa,lectotype,L,,G.H.S. Wood & Charrington,SAN 16355,,"Ranau district, Poring",Sabah,Malaysia,"Type, p.309","Lectotype (Ashton, 1978); printed 'hololectotype L'; Borneo"
+Shorea patoiensis,holotype,K,,Ashton,BRUN 3324,,Bt. Patoi,,Brunei,"Type, p.310",Borneo
+Shorea patoiensis,isotype,KEP,,Ashton,BRUN 3324,,Bt. Patoi,,Brunei,"Type, p.310",Borneo
+Shorea pauciflora,holotype,CAL,,Curtis,1537,,"Peninsular Malaysia, Penang Hill",Penang,Malaysia,"Type, p.311",
+Shorea pauciflora,isotype,K,,Curtis,1537,,"Peninsular Malaysia, Penang Hill",Penang,Malaysia,"Type, p.311",
+Shorea peltata,holotype,KEP,,Abdul Jaffar,KEP 49356,,"Peninsular Malaysia, Jemaluang FR",Johor,Malaysia,"Type, p.312",
+Shorea pilosa,holotype,K,,G.H.S. Wood,SAN 16721,,"Sipitang district, Ulu Mendalong",Sabah,Malaysia,"Type, p.312",Borneo
+Shorea pilosa,isotype,KEP,,G.H.S. Wood,SAN 16721,,"Sipitang district, Ulu Mendalong",Sabah,Malaysia,"Type, p.312",Borneo
+Shorea pilosa,isotype,L,,G.H.S. Wood,SAN 16721,,"Sipitang district, Ulu Mendalong",Sabah,Malaysia,"Type, p.312",Borneo
+Shorea pinanga,lectotype,BO,,s.c.,s.n.,,cult. in Hort. Bogor,,,"Type, p.313",Lectotype (designated here); printed 'hololectotype BO'; collector not stated (s.c. s.n.); cultivated in Hort. Bogor
+Shorea pinanga,isolectotype,L,,s.c.,s.n.,,cult. in Hort. Bogor,,,"Type, p.313",Lectotype (designated here); collector not stated (s.c. s.n.); cultivated in Hort. Bogor
+Shorea pinanga,isolectotype,U,,s.c.,s.n.,,cult. in Hort. Bogor,,,"Type, p.313",Lectotype (designated here); collector not stated (s.c. s.n.); cultivated in Hort. Bogor
+Shorea platycarpa,holotype,P,,Beccari,PB 3302,,Marop,Sarawak,Malaysia,"Type, p.314",Borneo
+Shorea platyclados,holotype,KEP,,Symington,KEP 24416,,"Peninsular Malaysia, Ulu Gombak",Selangor,Malaysia,"Type, p.315",
+Shorea polyandra,holotype,K,,Bojeng,S 10171,,"Lundu district, G. Gading FR",Sarawak,Malaysia,"Type, p.316",Borneo
+Shorea polyandra,isotype,KEP,,Bojeng,S 10171,,"Lundu district, G. Gading FR",Sarawak,Malaysia,"Type, p.316",Borneo
+Shorea praestans,holotype,K,,Brunig,s.n.,,"Bintulu district, Nyabau FR",Sarawak,Malaysia,"Type, p.317",Borneo
+Shorea pubistyla,holotype,K,,Anderson,S 14930,,"Kuching district, Semengoh FR",Sarawak,Malaysia,"Type, p.318",Borneo
+Shorea pubistyla,isotype,KEP,,Anderson,S 14930,,"Kuching district, Semengoh FR",Sarawak,Malaysia,"Type, p.318",Borneo
+Shorea pubistyla,isotype,L,,Anderson,S 14930,,"Kuching district, Semengoh FR",Sarawak,Malaysia,"Type, p.318",Borneo
+Shorea quadrinervis,lectotype,BO,,bb.,29450,,"Sambas, Sg. Akar",W Kalimantan,Indonesia,"Type, p.319",Lectotype (designated here); printed 'hololectotype BO'; Borneo
+Shorea resinosa,holotype,KEP,,Symington,FMS 17512,,"Peninsular Malaysia, Ulu Selangor, Serendah FR",Selangor,Malaysia,"Type, p.320",
+Shorea retusa,lectotype,BO,,bb.,29715,,"Muara Tewe, Barito Ulu",C Kalimantan,Indonesia,"Type, p.321",Lectotype (designated here); printed 'hololectotype BO'; Borneo
+Shorea revoluta,holotype,K,,Smythies,S 5914,,"Limbang district, Bt. Sagan",Sarawak,Malaysia,"Type, p.321",Borneo
+Shorea richetia,holotype,P,,Beccari,PB 2888,,Matang,Sarawak,Malaysia,"Type, p.323",Borneo
+Shorea richetia,isotype,L,,Beccari,PB 2888,,Matang,Sarawak,Malaysia,"Type, p.323",Borneo
+Shorea rotundifolia,holotype,K,,Smythies,S 9470,,"Kapit district, Pelagus, Sg. Iran",Sarawak,Malaysia,"Type, p.324",Borneo
+Shorea rotundifolia,isotype,KEP,,Smythies,S 9470,,"Kapit district, Pelagus, Sg. Iran",Sarawak,Malaysia,"Type, p.324",Borneo
+Shorea rubella,holotype,K,,Ashton,BRUN 3078,,Andulau FR,,Brunei,"Type, p.325",Borneo
+Shorea rubella,isotype,KEP,,Ashton,BRUN 3078,,Andulau FR,,Brunei,"Type, p.325",Borneo
+Shorea rubella,isotype,L,,Ashton,BRUN 3078,,Andulau FR,,Brunei,"Type, p.325",Borneo
+Shorea rubra,holotype,K,,Smythies,S 9475,,"Pelagus, Ulu Iran",Sarawak,Malaysia,"Type, p.326",Borneo
+Shorea rubra,isotype,KEP,,Smythies,S 9475,,"Pelagus, Ulu Iran",Sarawak,Malaysia,"Type, p.326",Borneo
+Shorea rubra,isotype,L,,Smythies,S 9475,,"Pelagus, Ulu Iran",Sarawak,Malaysia,"Type, p.326",Borneo
+Shorea rubra,isotype,SAR,,Smythies,S 9475,,"Pelagus, Ulu Iran",Sarawak,Malaysia,"Type, p.326",Borneo
+Shorea rugosa,holotype,P,,Beccari,PB 2638,,Matang,Sarawak,Malaysia,"Type, p.327",Borneo
+Shorea sagittata,holotype,K,,Sibat,S 23616,,"Simunjan district, Balingian, Arip, Bt. Ijok",Sarawak,Malaysia,"Type, p.328",Borneo
+Shorea sagittata,isotype,KEP,,Sibat,S 23616,,"Simunjan district, Balingian, Arip, Bt. Ijok",Sarawak,Malaysia,"Type, p.328",Borneo
+Shorea scaberrima,lectotype,BO,,s.c.,s.n.,,Cult. Hort. Bog. VIII D 54,,,"Type, p.328",Lectotype (designated here); printed 'hololectotype BO'; collector not stated (s.c. s.n.); cultivated in Hort. Bogor (VIII D 54)
+Shorea scabrida,holotype,KEP,,Yusope,S 171,,"Marudi district, Bt. Liman FR",Sarawak,Malaysia,"Type, p.331",Borneo
+Shorea scrobiculata,lectotype,K,,Beccari,PB 2538,,Matang,Sarawak,Malaysia,"Type, p.332",Lectotype (designated here); printed 'hololectotype K'; Borneo
+Shorea seminis,holotype,L,,de Vriese,s.n.,,"Sambas, Seminis",W Kalimantan,Indonesia,"Type, p.333",Borneo
+Shorea slootenii,holotype,K,,G.H.S. Wood,SAN 15160,,"Sipitang district, Mengalong FR",Sabah,Malaysia,"Type, p.334",Borneo
+Shorea slootenii,isotype,KEP,,G.H.S. Wood,SAN 15160,,"Sipitang district, Mengalong FR",Sabah,Malaysia,"Type, p.334",Borneo
+Shorea slootenii,isotype,L,,G.H.S. Wood,SAN 15160,,"Sipitang district, Mengalong FR",Sabah,Malaysia,"Type, p.334",Borneo
+Shorea slootenii,isotype,SAN,,G.H.S. Wood,SAN 15160,,"Sipitang district, Mengalong FR",Sabah,Malaysia,"Type, p.334",Borneo
+Shorea smithiana,holotype,KEP,,Smith,FMS 30472,,Labi Hills,,Brunei,"Type, p.335",Borneo
+Shorea splendida,lectotype,L,,de Vriese,s.n.,,,,,"Type, p.337",Lectotype (designated here); printed 'hololectotype L'; printed ‘Borneo’ in quotes; island only
+Shorea stenoptera,lectotype,L,,de Vriese,s.n.,,Sintang,W Kalimantan,Indonesia,"Type, p.338",Lectotype (designated here); printed 'hololectotype L'; Borneo
+Shorea subcylindrica,holotype,KEP,,Egon,SA 615,,Semengoh FR,Sarawak,Malaysia,"Type, p.339",Borneo
+Shorea superba,holotype,KEP,,Puasa,FMS 38853,,"Sandakan, Betotan",Sabah,Malaysia,"Type, p.340",Borneo
+Shorea superba,isotype,L,,Puasa,FMS 38853,,"Sandakan, Betotan",Sabah,Malaysia,"Type, p.340",Borneo
+Shorea superba,isotype,SAN,,Puasa,FMS 38853,,"Sandakan, Betotan",Sabah,Malaysia,"Type, p.340",Borneo
+Shorea superba,isotype,SING,,Puasa,FMS 38853,,"Sandakan, Betotan",Sabah,Malaysia,"Type, p.340",Borneo
+Shorea symingtonii,holotype,SAN,,G.H.S. Wood & Charington,FMS 35608,,"Sandakan district, Sepilok FR",Sabah,Malaysia,"Type, p.341",Borneo; printed '(= SH 16522)'
+Shorea symingtonii,isotype,KEP,,G.H.S. Wood & Charington,FMS 35608,,"Sandakan district, Sepilok FR",Sabah,Malaysia,"Type, p.341",Borneo
+Shorea symingtonii,isotype,L,,G.H.S. Wood & Charington,FMS 35608,,"Sandakan district, Sepilok FR",Sabah,Malaysia,"Type, p.341",Borneo
+Shorea tenuiramulosa,holotype,K,,Meijer,SAN 39306,,"Karamuak, Bt. Meliau",Sabah,Malaysia,"Type, p.341",Borneo
+Shorea tenuiramulosa,isotype,KEP,,Meijer,SAN 39306,,"Karamuak, Bt. Meliau",Sabah,Malaysia,"Type, p.341",Borneo
+Shorea tenuiramulosa,isotype,SAN,,Meijer,SAN 39306,,"Karamuak, Bt. Meliau",Sabah,Malaysia,"Type, p.341",Borneo
+Shorea teysmanniana,holotype,K,,Teijsmann,s.n.,,"Sumatra, Bangka",,Indonesia,"Type, p.342",
+Shorea uliginosa,holotype,KEP,,Foxworthy,CF 7938,,"Peninsular Malaysia, Bt. Ceraka FR",Selangor,Malaysia,"Type, p.343",
+Shorea venulosa,lectotype,K,,G.H.S. Wood,SAN 15134,,"Sipitang district, Menggalong FR",Sabah,Malaysia,"Type, p.344",Lectotype (designated here); printed 'hololectotype K'; Borneo
+Shorea venulosa,isolectotype,KEP,,G.H.S. Wood,SAN 15134,,"Sipitang district, Menggalong FR",Sabah,Malaysia,"Type, p.344",Lectotype (designated here); Borneo
+Shorea venulosa,isolectotype,SAN,,G.H.S. Wood,SAN 15134,,"Sipitang district, Menggalong FR",Sabah,Malaysia,"Type, p.344",Lectotype (designated here); Borneo
+Shorea virescens,holotype,L,,Frijd,bb. 13898,,Sanggau,W Kalimantan,Indonesia,"Type, p.345",Borneo
+Shorea virescens,isotype,BO,,Frijd,bb. 13898,,Sanggau,W Kalimantan,Indonesia,"Type, p.345",Borneo
+Shorea waltonii,holotype,K,,G.H.S. Wood,SAN 16508,,"Sandakan district, Sepilok FR",Sabah,Malaysia,"Type, p.346",Borneo
+Shorea waltonii,isotype,A,,G.H.S. Wood,SAN 16508,,"Sandakan district, Sepilok FR",Sabah,Malaysia,"Type, p.346",Borneo
+Shorea waltonii,isotype,KEP,,G.H.S. Wood,SAN 16508,,"Sandakan district, Sepilok FR",Sabah,Malaysia,"Type, p.346",Borneo
+Shorea waltonii,isotype,SAN,,G.H.S. Wood,SAN 16508,,"Sandakan district, Sepilok FR",Sabah,Malaysia,"Type, p.346",Borneo
+Shorea woodii,holotype,FHO,,s.c.,A 56/36,,,Sarawak,Malaysia,"Type, p.347",collector not stated (s.c.)
+Shorea xanthophylla,holotype,KEP,,Puasa,FMS 36776,,"Sandakan district, Betotan",Sabah,Malaysia,"Type, p.347",Borneo; printed '(= SH 3998)'
+Upuna borneensis,holotype,KEP,,Flemmich,FMS 48158,,Sg. Mau-Kargu headwaters,,Brunei,"Type, p.349",Borneo
+Vatica albiramis,holotype,BO,,Elmer,21640,,Tawau district,Sabah,Malaysia,"Type, p.358",Borneo
+Vatica albiramis,isotype,KEP,,Elmer,21640,,Tawau district,Sabah,Malaysia,"Type, p.358",Borneo; KEP cited as fragment
+Vatica albiramis,isotype,L,,Elmer,21640,,Tawau district,Sabah,Malaysia,"Type, p.358",Borneo
+Vatica badiifolia,holotype,K,,Ilias & Johnson,S 15857,,"Similajau district, Labang FR",Sarawak,Malaysia,"Type, p.358",Borneo
+Vatica badiifolia,isotype,L,,Ilias & Johnson,S 15857,,"Similajau district, Labang FR",Sarawak,Malaysia,"Type, p.358",Borneo
+Vatica borneensis,,BO,,Beccari,PB 2623,,Matang,Sarawak,Malaysia,"Type, p.359",status not stated; Borneo
+Vatica brevipes,holotype,K,,Othman,S 29633,,"Kapit district, Ulu Baleh",Sarawak,Malaysia,"Type, p.360",Borneo
+Vatica brevipes,isotype,KEP,,Othman,S 29633,,"Kapit district, Ulu Baleh",Sarawak,Malaysia,"Type, p.360",Borneo
+Vatica brunigii,holotype,K,,Ilias,S 17045,,"Samarahan district, Sabal FR",Sarawak,Malaysia,"Type, p.360",Borneo
+Vatica brunigii,isotype,KEP,,Ilias,S 17045,,"Samarahan district, Sabal FR",Sarawak,Malaysia,"Type, p.360",Borneo
+Vatica brunigii,isotype,L,,Ilias,S 17045,,"Samarahan district, Sabal FR",Sarawak,Malaysia,"Type, p.360",Borneo
+Vatica chartacea,holotype,K,,Leopold,SAN 46204,,"Labuk Sugut district, Sapi FR",Sabah,Malaysia,"Type, p.361",Borneo
+Vatica chartacea,isotype,SAN,,Leopold,SAN 46204,,"Labuk Sugut district, Sapi FR",Sabah,Malaysia,"Type, p.361",Borneo
+Vatica compressa,holotype,KEP,,Daud & Tachun,SFN 35618,,Setapok Forest,Sarawak,Malaysia,"Type, p.363",Borneo; KEP cited twice (as holotype and isotype)
+Vatica compressa,isotype,KEP,,Daud & Tachun,SFN 35618,,Setapok Forest,Sarawak,Malaysia,"Type, p.363",Borneo; KEP cited twice (as holotype and isotype)
+Vatica compressa,isotype,L,,Daud & Tachun,SFN 35618,,Setapok Forest,Sarawak,Malaysia,"Type, p.363",Borneo
+Vatica congesta,holotype,K,,Yakup,S 9347A,,"Kuching district, Semengoh FR",Sarawak,Malaysia,"Type, p.363",Borneo
+Vatica congesta,isotype,KEP,,Yakup,S 9347A,,"Kuching district, Semengoh FR",Sarawak,Malaysia,"Type, p.363",Borneo
+Vatica congesta,isotype,L,,Yakup,S 9347A,,"Kuching district, Semengoh FR",Sarawak,Malaysia,"Type, p.363",Borneo
+Vatica congesta,isotype,SAR,,Yakup,S 9347A,,"Kuching district, Semengoh FR",Sarawak,Malaysia,"Type, p.363",Borneo
+Vatica coriacea,holotype,K,,Ariffin,S 372,,"Lundu district, Bt. Sebandar",Sarawak,Malaysia,"Type, p.364",Borneo
+Vatica coriacea,isotype,KEP,,Ariffin,S 372,,"Lundu district, Bt. Sebandar",Sarawak,Malaysia,"Type, p.364",Borneo
+Vatica dulitensis,holotype,K,,Richards,1343,,G. Dulit,Sarawak,Malaysia,"Type, p.365",Borneo
+Vatica endertii,holotype,BO,,Endert,2775,,"W Kutei, Long Hoet",Kalimantan,Indonesia,"Type, p.365",Borneo
+Vatica endertii,isotype,L,,Endert,2775,,"W Kutei, Long Hoet",Kalimantan,Indonesia,"Type, p.365",Borneo
+Vatica glabrata,holotype,K,,Tong,S 36852,,"Marudi district, Dulit Range",Sarawak,Malaysia,"Type, p.366",Borneo
+Vatica globosa,holotype,K,,Ashton,S 18091,,"Labang, Ulu Stirau",Sarawak,Malaysia,"Type, p.366",Borneo
+Vatica globosa,isotype,L,,Ashton,S 18091,,"Labang, Ulu Stirau",Sarawak,Malaysia,"Type, p.366",Borneo
+Vatica granulata,holotype,BO,,Hallier,3399,,G. Amai Ambit,W Kalimantan,Indonesia,"Type, p.367",Borneo
+Vatica granulata,isotype,L,,Hallier,3399,,G. Amai Ambit,W Kalimantan,Indonesia,"Type, p.367",Borneo
+Vatica granulata subsp. sabaensis,holotype,K,,G.H.S. Wood & Kilang,SAN 16613,,"Sipitang, Bt. Batanga north slope",Sabah,Malaysia,"Type, p.368",Borneo
+Vatica granulata subsp. sabaensis,isotype,KEP,,G.H.S. Wood & Kilang,SAN 16613,,"Sipitang, Bt. Batanga north slope",Sabah,Malaysia,"Type, p.368",Borneo
+Vatica granulata subsp. sabaensis,isotype,SAN,,G.H.S. Wood & Kilang,SAN 16613,,"Sipitang, Bt. Batanga north slope",Sabah,Malaysia,"Type, p.368",Borneo
+Vatica havilandii,holotype,K,,Haviland,1848,,near Kuching,Sarawak,Malaysia,"Type, p.368",Borneo
+Vatica maingayi,holotype,K,,Maingay,209,,Peninsular Malaysia,Malacca,Malaysia,"Type, p.371",
+Vatica mangachapoi subsp. obtusifolia,lectotype,K,,Elmer,12963,,"Palawan, Puerto Princesa, Mt. Pulgar",,Philippines,"Type, p.372","Lectotype (Ashton, 1978); printed 'hololectotype K'"
+Vatica mangachapoi subsp. obtusifolia,isolectotype,NY,,Elmer,12963,,"Palawan, Puerto Princesa, Mt. Pulgar",,Philippines,"Type, p.372","Lectotype (Ashton, 1978)"
+Vatica maritima,holotype,BO,,Orolfo,SAN 1828,,"Kudat, Lokapas",Sabah,Malaysia,"Type, p.373",Borneo
+Vatica micrantha,holotype,BO,,bb.,29706,,"Pepas, Muara Teweh",C Kalimantan,Indonesia,"Type, p.373",Borneo
+Vatica micrantha,isotype,L,,bb.,29706,,"Pepas, Muara Teweh",C Kalimantan,Indonesia,"Type, p.373",Borneo
+Vatica nitens,holotype,CAL,,Curtis,1404,,"Peninsular Malaysia, Government Hill",Penang,Malaysia,"Type, p.374",
+Vatica oblongifolia,holotype,K,,Lowe,s.n.,,,Sabah,Malaysia,"Type, p.375",Borneo
+Vatica oblongifolia subsp. elliptifolia,holotype,K,,Ashton,BRUN 925,,"Bt. Kukub, Andulau hills",,Brunei,"Type, p.376",Borneo
+Vatica oblongifolia subsp. elliptifolia,isotype,KEP,,Ashton,BRUN 925,,"Bt. Kukub, Andulau hills",,Brunei,"Type, p.376",Borneo
+Vatica oblongifolia subsp. elliptifolia,isotype,L,,Ashton,BRUN 925,,"Bt. Kukub, Andulau hills",,Brunei,"Type, p.376",Borneo
+Vatica oblongifolia subsp. crassilobata,holotype,K,,Ashton,BRUN 614,,Andulau FR,,Brunei,"Type, p.376",Borneo
+Vatica oblongifolia subsp. crassilobata,isotype,KEP,,Ashton,BRUN 614,,Andulau FR,,Brunei,"Type, p.376",Borneo
+Vatica oblongifolia subsp. crassilobata,isotype,L,,Ashton,BRUN 614,,Andulau FR,,Brunei,"Type, p.376",Borneo
+Vatica oblongifolia subsp. multinervosa,holotype,K,,Meijer,SAN 19713,,"Sandakan, Sepilok FR",Sabah,Malaysia,"Type, p.376",Borneo
+Vatica oblongifolia subsp. multinervosa,isotype,KEP,,Meijer,SAN 19713,,"Sandakan, Sepilok FR",Sabah,Malaysia,"Type, p.376",Borneo
+Vatica oblongifolia subsp. multinervosa,isotype,L,,Meijer,SAN 19713,,"Sandakan, Sepilok FR",Sabah,Malaysia,"Type, p.376",Borneo
+Vatica oblongifolia subsp. selakoensis,holotype,K,,Ilias,S 13340,,G. Gading FR,Sarawak,Malaysia,"Type, p.377",Borneo
+Vatica oblongifolia subsp. selakoensis,isotype,KEP,,Ilias,S 13340,,G. Gading FR,Sarawak,Malaysia,"Type, p.377",Borneo
+Vatica oblongifolia subsp. selakoensis,isotype,L,,Ilias,S 13340,,G. Gading FR,Sarawak,Malaysia,"Type, p.377",Borneo
+Vatica odorata,holotype,CAL,,Griffith,s.n.,,"Mergui, Tennaserim",,Myanmar,"Type, p.377",
+Vatica odorata subsp. mindanensis,lectotype,K,,Elmer,13398,,"Mindanao, Mt. Urdaneta",,Philippines,"Type, p.378",Lectotype (designated here); printed 'hololectotype K'
+Vatica parvifolia,holotype,K,,Ariffin,S 371,,"Lundu district, Bt. Sebandar",Sarawak,Malaysia,"Type, p.379",Borneo
+Vatica parvifolia,isotype,KEP,,Ariffin,S 371,,"Lundu district, Bt. Sebandar",Sarawak,Malaysia,"Type, p.379",Borneo
+Vatica patentinervia,holotype,K,,Ilias,S 15148,,"Bintulu district, Segan FR",Sarawak,Malaysia,"Type, p.379",Borneo
+Vatica patentinervia,isotype,KEP,,Ilias,S 15148,,"Bintulu district, Segan FR",Sarawak,Malaysia,"Type, p.379",Borneo
+Vatica patentinervia,isotype,SAR,,Ilias,S 15148,,"Bintulu district, Segan FR",Sarawak,Malaysia,"Type, p.379",Borneo
+Vatica pedicellata,holotype,K,,Haviland,1041/869,,Lundu district,Sarawak,Malaysia,"Type, p.380",Borneo
+Vatica pedicellata,isotype,KEP,,Haviland,1041/869,,Lundu district,Sarawak,Malaysia,"Type, p.380",Borneo
+Vatica perakensis,lectotype,CAL,,King's Collectors,7549,,"Peninsular Malaysia, Larut",Perak,Malaysia,"Type, p.380","Lectotype (Symington, 1941); printed 'hololectotype CAL'"
+Vatica rassak,holotype,L,RHL Sheet No. 900171121,Korthals,s.n.,,"banks of Sg. Barito, Lower Dyak",Kalimantan,Indonesia,"Type, p.381",Borneo; printed '(= RHL Sheet No. 900171121)'
+Vatica rotata,holotype,K,,Ashton,S 19594,,"Mukah, Ulu Kenyana",Sarawak,Malaysia,"Type, p.382",Borneo
+Vatica rotata,isotype,KEP,,Ashton,S 19594,,"Mukah, Ulu Kenyana",Sarawak,Malaysia,"Type, p.382",Borneo
+Vatica rotata,isotype,L,,Ashton,S 19594,,"Mukah, Ulu Kenyana",Sarawak,Malaysia,"Type, p.382",Borneo
+Vatica rynchocarpa,holotype,KEP,,Egon,SA 514,,"Rajang, Nanga Temulang",Sarawak,Malaysia,"Type, p.382",Borneo
+Vatica sarawakensis,holotype,P,,Beccari,PB 3018,,,Sarawak,Malaysia,"Type, p.383",Borneo
+Vatica umbonata,holotype,K,,Motley,s.n.,,Labuan,Labuan,Malaysia,"Type, p.384",Borneo
+Vatica umbonata subsp. acrocarpa,holotype,K,,Maidin,SAN 4298,,"Tawau, Umas- Umas",Sabah,Malaysia,"Type, p.386",Borneo
+Vatica venulosa,holotype,L,RHL Sheet No. 902146794,Müller,s.n.,,Patai,S Kalimantan,Indonesia,"Type, p.386",Borneo; printed '(= RHL Sheet No. 902146794)'
+Vatica vinosa,holotype,K,,Ashton,BRUN 764,,"Temburong district, Kuala Sekurop",,Brunei,"Type, p.387",Borneo
+Vatica vinosa,isotype,KEP,,Ashton,BRUN 764,,"Temburong district, Kuala Sekurop",,Brunei,"Type, p.387",Borneo
+Vatica mangachapoi,neotype,K,,Merrill,Sp. Blancoan. 866,,"Luzon, Bataan Province",,Philippines,"Type, p.371","Neotype (designated here); repositories printed '(K, US)' without holo-/iso- distinction; printed '(= US 904562)'; neotype statement runs across pp. 371-372"
+Vatica mangachapoi,neotype,US,US 904562,Merrill,Sp. Blancoan. 866,,"Luzon, Bataan Province",,Philippines,"Type, p.371","Neotype (designated here); repositories printed '(K, US)' without holo-/iso- distinction; printed '(= US 904562)'; neotype statement runs across pp. 371-372"
+Shorea scrobiculata,holotype,SAN,,Meijer,SAN 21711,,Sepilok FR,Sabah,Malaysia,"Type, p.332","type of synonym Shorea leptoderma Meijer (syn. nov.); Borneo; printed '(Type: Meijer SAN 21711, Borneo, Sabah, Sepilok FR; holotype SAN; isotypes K, KEP, L, SAR)'"
+Shorea scrobiculata,isotype,K,,Meijer,SAN 21711,,Sepilok FR,Sabah,Malaysia,"Type, p.332","type of synonym Shorea leptoderma Meijer (syn. nov.); Borneo; printed '(Type: Meijer SAN 21711, Borneo, Sabah, Sepilok FR; holotype SAN; isotypes K, KEP, L, SAR)'"
+Shorea scrobiculata,isotype,KEP,,Meijer,SAN 21711,,Sepilok FR,Sabah,Malaysia,"Type, p.332","type of synonym Shorea leptoderma Meijer (syn. nov.); Borneo; printed '(Type: Meijer SAN 21711, Borneo, Sabah, Sepilok FR; holotype SAN; isotypes K, KEP, L, SAR)'"
+Shorea scrobiculata,isotype,L,,Meijer,SAN 21711,,Sepilok FR,Sabah,Malaysia,"Type, p.332","type of synonym Shorea leptoderma Meijer (syn. nov.); Borneo; printed '(Type: Meijer SAN 21711, Borneo, Sabah, Sepilok FR; holotype SAN; isotypes K, KEP, L, SAR)'"
+Shorea scrobiculata,isotype,SAR,,Meijer,SAN 21711,,Sepilok FR,Sabah,Malaysia,"Type, p.332","type of synonym Shorea leptoderma Meijer (syn. nov.); Borneo; printed '(Type: Meijer SAN 21711, Borneo, Sabah, Sepilok FR; holotype SAN; isotypes K, KEP, L, SAR)'"
+Anisoptera laevis,figure specimen,,,SAN,15083,,,,,"Figure caption, p.77",Fig. 1 A–K; series code
+Anisoptera laevis,figure specimen,,,Ridley,6886,,,,,"Figure caption, p.77","Fig. 1 L–M; type is cited as Ridley SFN 6886 (holotype SING) on p.75, caption prints 'Ridley 6886'"
+Anisoptera reticulata,figure specimen,,,SAN,92981,,,,,"Figure caption, p.78","Fig. 2 A; series code; caption covers several taxa, panel assigned by caption"
+Anisoptera reticulata,figure specimen,,,FRI,41363,,,,,"Figure caption, p.78","Fig. 2 B–F; series code; caption covers several taxa, panel assigned by caption"
+Anisoptera marginata,figure specimen,,,Niga,NN 153,,,,,"Figure caption, p.78","Fig. 2 G–H; caption covers several taxa, panel assigned by caption"
+Cotylelobium burckii,figure specimen,,,Egon,610,,,,,"Figure caption, p.80","Fig. 3 A–C; caption covers several taxa, panel assigned by caption"
+Cotylelobium burckii,figure specimen,,,S,37031,,,,,"Figure caption, p.80","Fig. 3 D–I; series code; caption covers several taxa, panel assigned by caption"
+Cotylelobium burckii,figure specimen,,,Wong,WKM 937,,,,,"Figure caption, p.80","Fig. 3 J–L; caption covers several taxa, panel assigned by caption"
+Cotylelobium lanceolatum,figure specimen,,,bb.,29668,,,,,"Figure caption, p.80","Fig. 3 M–P; series code; caption covers several taxa, panel assigned by caption"
+Cotylelobium melanoxylon,figure specimen,,,SAN,56120,,,,,"Figure caption, p.84",Fig. 4 A–C; series code
+Cotylelobium melanoxylon,figure specimen,,,S,15886,,,,,"Figure caption, p.84",Fig. 4 D; series code
+Cotylelobium melanoxylon,figure specimen,,,SAN,57677,,,,,"Figure caption, p.84",Fig. 4 E; series code
+Cotylelobium melanoxylon,figure specimen,,,SAN,37642,,,,,"Figure caption, p.84",Fig. 4 F–H; series code
+Dipterocarpus applanatus,figure specimen,,,SAN,39151,,,,,"Figure caption, p.95","Fig. 5 A, H; series code"
+Dipterocarpus applanatus,figure specimen,,,S,41017,,,,,"Figure caption, p.95","Fig. 5 B, D–F; series code"
+Dipterocarpus applanatus,figure specimen,,,SAN,35868,,,,,"Figure caption, p.95",Fig. 5 C; series code
+Dipterocarpus applanatus,figure specimen,,,FMS,35395,,,,,"Figure caption, p.95",Fig. 5 G; series code
+Dipterocarpus caudiferus,figure specimen,,,SAN,16847,,,,,"Figure caption, p.96","Fig. 6 A, F–G; series code"
+Dipterocarpus caudiferus,figure specimen,,,FMS,38786,,,,,"Figure caption, p.96",Fig. 6 B; series code
+Dipterocarpus caudiferus,figure specimen,,,SAN,16335,,,,,"Figure caption, p.96",Fig. 6 C–E; series code
+Dipterocarpus humeratus,figure specimen,,,FMS,48864,,,,,"Figure caption, p.111",Fig. 7 A–B; series code
+Dipterocarpus humeratus,figure specimen,,,SAN,15393,,,,,"Figure caption, p.111",Fig. 7 C; series code
+Dipterocarpus humeratus,figure specimen,,,FMS,38752,,,,,"Figure caption, p.111",Fig. 7 D–F; series code
+Dipterocarpus humeratus,figure specimen,,,SAN,17327,,,,,"Figure caption, p.111",Fig. 7 G; series code
+Dipterocarpus humeratus,figure specimen,,,SAN,31397,,,,,"Figure caption, p.111",Fig. 7 H–I; series code
+Dipterocarpus lowii,figure specimen,,,SAN,40611,,,,,"Figure caption, p.115",Fig. 8 A; series code
+Dipterocarpus lowii,figure specimen,,,S,10068,,,,,"Figure caption, p.115",Fig. 8 B–E; series code
+Dipterocarpus lowii,figure specimen,,,S,1826,,,,,"Figure caption, p.115",Fig. 8 F; series code
+Dipterocarpus sarawakensis,figure specimen,,,SA,1288,,,,,"Figure caption, p.123",Fig. 9 A–C; series code
+Dipterocarpus sarawakensis,figure specimen,,,S,23749,,,,,"Figure caption, p.123",Fig. 9 D–H; series code
+Dipterocarpus sarawakensis,figure specimen,,,BRUN,5154,,,,,"Figure caption, p.123",Fig. 9 I–J; series code
+Dryobalanops beccarii,figure specimen,,,S,23922,,,,,"Figure caption, p.130",Fig. 10 A–B; series code
+Dryobalanops beccarii,figure specimen,,,SAN,36331,,,,,"Figure caption, p.130",Fig. 10 C; series code
+Dryobalanops beccarii,figure specimen,,,S,7612,,,,,"Figure caption, p.130",Fig. 10 D–E; series code
+Dryobalanops beccarii,figure specimen,,,S,8591,,,,,"Figure caption, p.130",Fig. 10 F; series code
+Dryobalanops keithii,figure specimen,,,SAN,18732,,,,,"Figure caption, p.135",Fig. 11 A–D; series code
+Dryobalanops keithii,figure specimen,,,FMS,55279,,,,,"Figure caption, p.135",Fig. 11 E–G; series code
+Dryobalanops keithii,figure specimen,,,SAN,123771,,,,,"Figure caption, p.135",Fig. 11 H; series code
+Dryobalanops oblongifolia subsp. oblongifolia,figure specimen,,,S,23993,,,,,"Figure caption, p.137",Fig. 12 A–F; series code
+Dryobalanops oblongifolia subsp. oblongifolia,figure specimen,,,S,41496,,,,,"Figure caption, p.137",Fig. 12 G–H; series code
+Hopea centipeda,figure specimen,,,SAN,124740,,,,,"Figure caption, p.152","Fig. 13 A–C, K–L; series code"
+Hopea centipeda,figure specimen,,,S,23342,,,,,"Figure caption, p.152","Fig. 13 D–J, M; series code; same collection as the type cited under the heading"
+Hopea dryobalanoides,figure specimen,,,SAN,15186,,,,,"Figure caption, p.156",Fig. 14 A–J; series code
+Hopea dryobalanoides,figure specimen,,,SAN,100048,,,,,"Figure caption, p.156",Fig. 14 K–L; series code
+Hopea pachycarpa,figure specimen,,,S,21300,,,,,"Figure caption, p.171",Fig. 15 A–K; series code
+Hopea pachycarpa,figure specimen,,,S,36881,,,,,"Figure caption, p.171",Fig. 15 L–M; series code
+Hopea pterygota,figure specimen,,,S,29630,,,,,"Figure caption, p.175","Fig. 16 A, J, K; series code"
+Hopea pterygota,figure specimen,,,S,66783,,,,,"Figure caption, p.175",Fig. 16 B–I; series code
+Hopea rudiformis,figure specimen,,,FMS,38775,,,,,"Figure caption, p.177",Fig. 17 A–I; series code
+Hopea rudiformis,figure specimen,,,S,73781,,,,,"Figure caption, p.177",Fig. 17 J–K; series code
+Parashorea tomentella,figure specimen,,,SAN,18703,,,,,"Figure caption, p.190",Fig. 18 A–B; series code
+Parashorea tomentella,figure specimen,,,FMS,55170,,,,,"Figure caption, p.190",Fig. 18 C–H; series code
+Parashorea tomentella,figure specimen,,,SAN A,1464,,,,,"Figure caption, p.190",Fig. 18 I–J; series code
+Shorea albida,figure specimen,,,S,651,,,,,"Figure caption, p.222",Fig. 19 A–J; series code
+Shorea albida,figure specimen,,,S,2852,,,,,"Figure caption, p.222",Fig. 19 K–L; series code
+Shorea amplexicaulis,figure specimen,,,S,65194,,,,,"Figure caption, p.227",Fig. 20 A; series code
+Shorea amplexicaulis,figure specimen,,,S,29202,,,,,"Figure caption, p.227",Fig. 20 B–K; series code
+Shorea amplexicaulis,figure specimen,,,S,23611,,,,,"Figure caption, p.227",Fig. 20 L; series code
+Shorea argentifolia,figure specimen,,,S,15564,,,,,"Figure caption, p.231",Fig. 21 A–B; series code
+Shorea argentifolia,figure specimen,,,SAN,55561,,,,,"Figure caption, p.231",Fig. 21 C–L; series code
+Shorea argentifolia,figure specimen,,,SAN,99224,,,,,"Figure caption, p.231",Fig. 21 M; series code
+Shorea atrinervosa,figure specimen,,,SAN,15091,,,,,"Figure caption, p.232",Fig. 22 A–C; series code
+Shorea atrinervosa,figure specimen,,,SAN,27274,,,,,"Figure caption, p.232",Fig. 22 D–K; series code
+Shorea atrinervosa,figure specimen,,,SAN,16957,,,,,"Figure caption, p.232",Fig. 22 L; series code
+Shorea elliptica,figure specimen,,,S,15794,,,,,"Figure caption, p.250","Fig. 23 A–B, L; series code"
+Shorea elliptica,figure specimen,,,S,37698,,,,,"Figure caption, p.250",Fig. 23 C–K; series code
+Shorea elliptica,figure specimen,,,S,29468,,,,,"Figure caption, p.250",Fig. 23 M; series code
+Shorea isoptera,figure specimen,,,S,7978,,,,,"Figure caption, p.272",Fig. 24 A–K; series code
+Shorea isoptera,figure specimen,,,SAN,39018,,,,,"Figure caption, p.272",Fig. 24 L–M; series code
+Shorea ladiana,figure specimen,,,S,583,,,,,"Figure caption, p.279",Fig. 25 A; series code
+Shorea ladiana,figure specimen,,,S,26229,,,,,"Figure caption, p.279",Fig. 25 B–J; series code
+Shorea ladiana,figure specimen,,,S,15255,,,,,"Figure caption, p.279",Fig. 25 K–L; series code
+Shorea ochracea,figure specimen,,,S,32359,,,,,"Figure caption, p.299",Fig. 26 A; series code
+Shorea ochracea,figure specimen,,,BRUN,3274,,,,,"Figure caption, p.299",Fig. 26 B–O; series code
+Shorea ovalis subsp. sarawakensis,figure specimen,,,S,15159,,,,,"Figure caption, p.300","Fig. 27 A–M; series code; caption covers several taxa, panel assigned by caption"
+Shorea ovalis subsp. ovalis,figure specimen,,,SAN,16474,,,,,"Figure caption, p.300","Fig. 27 N–O; series code; caption covers several taxa, panel assigned by caption"
+Shorea richetia,figure specimen,,,S,109,,,,,"Figure caption, p.322",Fig. 28 A; series code
+Shorea richetia,figure specimen,,,S,563,,,,,"Figure caption, p.322",Fig. 28 B–J; series code
+Shorea richetia,figure specimen,,,S,15254,,,,,"Figure caption, p.322",Fig. 28 K–L; series code
+Shorea sagittata,figure specimen,,,S,7609,,,,,"Figure caption, p.329",Fig. 29 A–B; series code
+Shorea sagittata,figure specimen,,,S,29166,,,,,"Figure caption, p.329",Fig. 29 C–K; series code
+Shorea sagittata,figure specimen,,,S,29652,,,,,"Figure caption, p.329",Fig. 29 L–M; series code
+Shorea scaberrima,figure specimen,,,S,3285,,,,,"Figure caption, p.330",Fig. 30 A–B; series code
+Shorea scaberrima,figure specimen,,,S,2132,,,,,"Figure caption, p.330",Fig. 30 D–E; series code
+Shorea scaberrima,figure specimen,,,S,36915,,,,,"Figure caption, p.330",Fig. 30 F–N; series code
+Shorea smithiana,figure specimen,,,S,46524,,,,,"Figure caption, p.336",Fig. 31 A–K; series code
+Shorea smithiana,figure specimen,,,SAN,134957,,,,,"Figure caption, p.336",Fig. 31 L–M; series code
+Upuna borneensis,figure specimen,,,KEP,19288,,,,,"Figure caption, p.350",Fig. 32 A–B; series code
+Upuna borneensis,figure specimen,,,S,64513,,,,,"Figure caption, p.350",Fig. 32 C–K; series code
+Upuna borneensis,figure specimen,,,S,26237,,,,,"Figure caption, p.350",Fig. 32 L–N; series code
+Upuna borneensis,figure specimen,,,Niga,NN 221,,,,,"Figure caption, p.350",Fig. 32 O–P
+Vatica congesta,figure specimen,,,S,29474,,,,,"Figure caption, p.362",Fig. 33 A–B; series code
+Vatica congesta,figure specimen,,,S,15021,,,,,"Figure caption, p.362",Fig. 33 C–K; series code
+Vatica congesta,figure specimen,,,S,9347A,,,,,"Figure caption, p.362",Fig. 33 L; series code; same collection as the type cited under the heading
+Vatica havilandii,figure specimen,,,SAN,36684,,,,,"Figure caption, p.369",Fig. 34 A–J; series code
+Vatica havilandii,figure specimen,,,S,23244,,,,,"Figure caption, p.369",Fig. 34 K–N; series code
+Vatica mangachapoi subsp. mangachapoi,figure specimen,,,FMS,41100,,,,,"Figure caption, p.370","Fig. 35 A–B, L; series code"
+Vatica mangachapoi subsp. mangachapoi,figure specimen,,,SAN,15459,,,,,"Figure caption, p.370",Fig. 35 C–K; series code
+Vatica umbonata subsp. umbonata,figure specimen,,,BRUN,1380,,,,,"Figure caption, p.385","Fig. 36 A–J; series code; caption covers several taxa, panel assigned by caption"
+Vatica umbonata subsp. umbonata,figure specimen,,,S,49284,,,,,"Figure caption, p.385","Fig. 36 K–L; series code; caption covers several taxa, panel assigned by caption"
+Vatica umbonata subsp. acrocarpa,figure specimen,,,SAN,15236,,,,,"Figure caption, p.385","Fig. 36 M; series code; caption covers several taxa, panel assigned by caption"
+Vatica umbonata subsp. acrocarpa,figure specimen,,,SAN,31657,,,,,"Figure caption, p.385","Fig. 36 N–O; series code; caption covers several taxa, panel assigned by caption"
