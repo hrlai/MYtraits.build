@@ -505,7 +505,12 @@ score_chunk <- function(cl) {
 }
 
 character_of <- function(x) {
-  lx <- str_to_lower(x)
+  # drop specimen numbers ("Stone 5623", "Corner SFN 29996",
+  # "Beentje et al. 75761") and cited years ("Corner (1978)") so they do not
+  # read as a count
+  lx <- x |>
+    str_remove_all("\\b[A-Z][A-Za-z.]*(?: et al\\.)? (?:\\d{3,}(?![-\\d+])|\\(\\d{4}\\))") |>
+    str_to_lower()
   case_when(
     str_detect(lx, paste0(num, "\\s?", unit_re)) ~ "size",
     str_detect(lx, "prickl|spin|armed|unarmed|thorn|toothlet") ~ "armature",
