@@ -835,8 +835,27 @@ Bespoke checklist (decisions that changed per family):
 
 Every unscored description clause stays in `trait_data.csv` with a blank
 `trait`, blank levels, `trait_value_raw` = verbatim clause, page, taxon rank
-and `notes` = `UNMAPPED: <organ> | <character>` (optionally `| <detail>`;
-`flora_hand()`'s `un(raw, what, notes = ...)` appends it). A full description paragraph
+and `notes` = `UNMAPPED: <organ> | <character> | <detail>`, built by
+`flora_unmapped_note(organ, character, detail)` (`flora_assemble.R`;
+`flora_hand()`'s `un(raw, "organ | character", notes = detail)` calls it).
+The format is fixed so `unmapped_terms.csv` can be compared across datasets:
+
+- `<organ>` is required. Use `section` for a whole Distribution, Ecology,
+  Uses, Conservation status, Taxonomy or Notes paragraph or sentence, with
+  character `text` and the section name in `<detail>`.
+- `<character>` is one of: `size`, `shape`, `colour`, `count`, `indumentum`,
+  `texture`, `surface`, `venation`, `arrangement`, `persistence`, `armature`,
+  `glands`, `fusion`, `branching`, `division`, `presence` (absence statements),
+  `phenology`, `sex`, `description` (several characters, or none of these),
+  `text` (section text). The list and its matching patterns are
+  `flora_unmapped_characters`.
+- `<detail>` holds everything else: candidate traits, hedges, out-of-region
+  remarks, the wording of a multi-character clause. Free wording passed as
+  the character is matched to one listed character (several or none:
+  `description`) and moved to `<detail>`, so nothing is lost.
+
+`flora_qa()` lists notes outside this format in `unmapped_note_format`.
+A full description paragraph
 is an interim review record, not proof that each clause was assessed: split
 or mark its clauses as reviewed before calling the extraction complete. Keep
 whole Ecology and Distribution paragraphs when no mapped trait applies

@@ -373,24 +373,100 @@ flora_make_data <- function(
   invisible(data)
 }
 
+# The listed characters of an UNMAPPED note (SKILL.md step 6), each with the
+# pattern that finds it in free wording. `description` (several characters, or
+# none listed) and `text` (a whole section paragraph) have no pattern.
+flora_unmapped_characters <- c(
+  size = "\\b(size|length|width|height|diameter|thickness|girth|long|wide|stature)\\b",
+  shape = "\\b(shape|outline|cross-section|form)\\b",
+  colour = "colou?r",
+  count = "\\b(number|count|counts|numerous|per)\\b",
+  indumentum = "\\b(indumentum|hairs?|hairy|ciliat\\w*|setae|glabrous|pubescen\\w*)\\b",
+  texture = "\\b(texture|fleshy|woody|softness|hardness|flexibility|stickiness)\\b",
+  surface = "\\b(surface|relief|glaucous|wax|bullate|sculpture|lenticels|verrucae|dots|blotches)\\b",
+  venation = "\\b(venation|veins?|midrib|nerves?)\\b",
+  arrangement = "\\b(arrangement|posture|orientation|insertion|overlap|phyllotaxis|position)\\b",
+  persistence = "\\b(persisten\\w*|caducous|deciduous|shedding)\\b",
+  armature = "\\b(armature|spines?|prickles?|thorns?|unarmed)\\b",
+  glands = "\\b(glands?|domatia|nectar\\w*)\\b",
+  fusion = "\\b(fusion|fused|connate|adnat\\w*)\\b",
+  branching = "\\bbranch\\w*",
+  division = "\\b(division|lobes?|lobed|teeth|tooth|segments?)\\b",
+  presence = "\\b(absent|absence|presence|present|negative phrase|without)\\b",
+  phenology = "\\b(anthesis|flowering|fruiting|phenology|germination)\\b",
+  sex = "\\b(sex|sexes|dioec\\w*|monoec\\w*|unisexual|bisexual)\\b",
+  description = NA,
+  text = NA
+)
+# Wordings that are the listed character, so nothing moves to <detail>.
+flora_unmapped_synonyms <- c(
+  number = "count",
+  hairs = "indumentum",
+  "description clause" = "description"
+)
+
+# The listed character for a free wording: the one pattern it matches, else
+# `description`. Parentheses and quoted terms are comments, so not matched.
+flora_unmapped_character <- function(wording) {
+  pat <- flora_unmapped_characters[!is.na(flora_unmapped_characters)]
+  map_chr(wording, \(w) {
+    if (w %in% names(flora_unmapped_characters)) {
+      return(w)
+    }
+    if (w %in% names(flora_unmapped_synonyms)) {
+      return(flora_unmapped_synonyms[[w]])
+    }
+    bare <- str_remove_all(str_to_lower(w), "\\([^)]*\\)|'[^']*'")
+    hit <- names(pat)[str_detect(bare, pat)]
+    if (length(hit) == 1) hit else "description"
+  })
+}
+
+# Notes of an unmapped row: "UNMAPPED: <organ> | <character> | <detail>". The
+# organ is required (`section` for a whole Distribution, Ecology, ... paragraph
+# or sentence). A `character` wording that is not a listed character moves into
+# <detail> ahead of `detail`, so the summaries stay comparable across datasets
+# and nothing is lost. Vectorised.
+flora_unmapped_note <- function(organ, character, detail = NA_character_) {
+  organ <- str_squish(organ)
+  character <- str_squish(character)
+  stopifnot(
+    !is.na(organ),
+    nzchar(organ),
+    !is.na(character),
+    nzchar(character),
+    !str_detect(c(organ, character), fixed("|"))
+  )
+  ch <- flora_unmapped_character(character)
+  moved <- if_else(
+    character == ch | character %in% names(flora_unmapped_synonyms),
+    NA_character_,
+    character
+  )
+  detail <- map2_chr(moved, rep_len(detail, length(ch)), \(a, b) {
+    s <- str_squish(c(a, b))
+    s <- s[!is.na(s) & nzchar(s)]
+    if (length(s)) paste(s, collapse = "; ") else NA_character_
+  })
+  paste0(
+    "UNMAPPED: ",
+    organ,
+    " | ",
+    ch,
+    if_else(is.na(detail), "", paste0(" | ", detail))
+  )
+}
+
 # raw/unmapped_terms.csv: a summary of the unmapped rows in trait_data.csv (blank
-# `trait`), never the value store. Unmapped rows carry notes of the form
-# "UNMAPPED: <organ> | <character> | <detail>" (organ and detail optional), the
-# verbatim clause in trait_value_raw, and the page. Yao_2010 wrote organ and
-# character as the same string; Coode_2018 kept only one example per character
-# and no verbatim rows. This summary fixes both.
+# `trait`), never the value store. Unmapped rows carry notes built by
+# flora_unmapped_note(), the verbatim clause in trait_value_raw, and the page.
 flora_unmapped_summary <- function(trait_data) {
   trait_data |>
     filter(is.na(trait) | trait == "") |>
     mutate(
-      spec = str_remove(notes, "^UNMAPPED:\\s*"),
-      parts = str_split(spec, "\\s*\\|\\s*"),
-      organ = if_else(
-        map_int(parts, length) > 1,
-        map_chr(parts, 1),
-        NA_character_
-      ),
-      character = map_chr(parts, \(p) if (length(p) > 1) p[2] else p[1])
+      parts = str_split(str_remove(notes, "^UNMAPPED:\\s*"), "\\s*\\|\\s*"),
+      organ = map_chr(parts, 1),
+      character = map_chr(parts, \(p) p[2])
     ) |>
     group_by(organ, character) |>
     summarise(
