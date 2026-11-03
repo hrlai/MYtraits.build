@@ -592,7 +592,10 @@ Bespoke checklist (decisions that changed per family):
   states from outside the region in `(elsewhere ...)` asides ("lamina lower
   surface glabrous (elsewhere with an arachnoid indumentum)"); they are out
   of scope (Regions rule), so never score them (Prance_2012, Maranthes and
-  Parinari). An aside that is a rarer state ("Fruit a fleshy drupe (rarely
+  Parinari). An out-of-region aside can also introduce the next word:
+  in "yellowish or (in New Guinea) bright red" (Endocomia, DeWilde_2018)
+  dropping the aside alone leaves "yellowish or bright red", so drop the
+  alternative it governs with it. An aside that is a rarer state ("Fruit a fleshy drupe (rarely
   dry)") is a commonness alternative: rewrite it as ", rarely dry" first.
   Count "(" and ")" in every Description paragraph first: a missing ")"
   makes the rest of the paragraph one aside, and nothing after it is split
