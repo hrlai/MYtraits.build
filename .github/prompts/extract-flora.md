@@ -65,7 +65,7 @@ Part of the job is improving the skill for future families. You may edit
   PR instead. A new rule is marked `provisional (<ID> question N)`.
 - One commit per logical change, prefixed `skill:`, separate from data
   commits. The commit body states the problem, the evidence (taxon and page)
-  and the change. Dictionary seed additions get their own commit.
+  and the change. Dictionary additions get their own commit.
 - If you change a script, run the regression check in "Changing this skill"
   and report the result.
 - If a script blocks you and the fix is not general, work around it in
@@ -114,7 +114,7 @@ Factual unmapped summaries go in `notes` and `raw/unmapped_terms.csv`.
   regression result;
 - **Skill issues not fixed**: one line each,
   `SKILL.md § or file — what happened — suggested change — evidence`, grouped
-  as skill text, shared scripts, dictionary seed, `traits.yml` candidates,
+  as skill text, shared scripts, shared dictionary, `traits.yml` candidates,
   and conflicts between this prompt and the skill.
 
 ## Pull request

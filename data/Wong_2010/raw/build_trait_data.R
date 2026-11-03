@@ -6,19 +6,19 @@
 # branch systems ...; stem leaves ...; branch system lateral leaves ...;
 # axillary leaves ...; median leaves ...; strobilus ..."). Each clause is split
 # into comma pieces outside parentheses; a piece is scored when a rule below or
-# the dictionary seed maps it, and kept verbatim as an unmapped row otherwise.
+# the shared dictionary maps it, and kept verbatim as an unmapped row otherwise.
 source("data/Wong_2010/raw/segment_source.R")
 source(".github/skills/extract-traits-from-floras-my/scripts/flora_assemble.R")
 
 id <- "Wong_2010"
 traits <- yaml::read_yaml("config/traits.yml")$traits$elements
 
-# Dictionary seed. Hyphenated shapes score both levels (SKILL.md step 4,
-# "Compound colours and shapes score every word"), so drop the seed rows that
-# block two-shape compounds ("ovate-lanceolate", "ovate-oblong",
+# Shared dictionary. Hyphenated shapes score both levels (SKILL.md step 4,
+# "Compound colours and shapes score every word"), so drop the dictionary rows
+# that block two-shape compounds ("ovate-lanceolate", "ovate-oblong",
 # "ovate-elliptic") for this family.
 seed <- read_csv(
-  ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary_seed.csv",
+  ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary.csv",
   col_types = cols(.default = "c"),
   na = character()
 ) |>

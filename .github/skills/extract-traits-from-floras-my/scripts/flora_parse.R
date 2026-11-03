@@ -270,7 +270,7 @@ flora_parse_dims <- function(s) {
 # ---- categorical dictionary ------------------------------------------------------------
 
 # Dictionary CSV columns: trait, term_regex, level, source, note. Row order is
-# priority within a trait. Filter the seed by family before loading it.
+# priority within a trait.
 flora_load_dict <- function(file) {
   d <- read_csv(file, col_types = cols(.default = "c"), na = character())
   split(d, factor(d$trait, levels = unique(d$trait))) |>

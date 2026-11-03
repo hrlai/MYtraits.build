@@ -23,7 +23,7 @@ fixes <- read_csv(
   col_types = cols(.default = "c"),
   na = character()
 )
-dict_file <- ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary_seed.csv"
+dict_file <- ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary.csv"
 dict <- flora_load_dict(dict_file)
 region <- "Sabah and Sarawak"
 num <- .flora_num

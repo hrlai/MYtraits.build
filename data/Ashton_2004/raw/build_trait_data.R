@@ -25,11 +25,11 @@ id <- "Ashton_2004"
 raw_dir <- file.path("data", id, "raw")
 traits <- yaml::read_yaml("config/traits.yml")$traits$elements
 dict <- flora_load_dict(
-  ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary_seed.csv"
+  ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary.csv"
 )
 dict <- dict[names(dict) %in% names(traits)]
 # Dipterocarpaceae terms (nut, nodding, radially symmetrical, crown shapes)
-# are in the shared dictionary seed.
+# are in the shared dictionary.
 
 fixes <- read_csv(
   file.path(raw_dir, "source_fixes.csv"),

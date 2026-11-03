@@ -10,7 +10,7 @@ source(".github/skills/extract-traits-from-floras-my/scripts/flora_assemble.R")
 
 traits <- yaml::read_yaml("config/traits.yml")$traits$elements
 dict <- read_csv(
-  ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary_seed.csv",
+  ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary.csv",
   col_types = cols(.default = "c"),
   na = character()
 ) |>
