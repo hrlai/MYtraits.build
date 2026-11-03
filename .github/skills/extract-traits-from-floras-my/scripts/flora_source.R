@@ -142,7 +142,12 @@ flora_read_transcription <- function(file) {
 # heads, bare page numbers, map / figure captions (to the next blank line) and
 # caption fragments printed beside maps. `drop_pages` are PDF page numbers to
 # drop whole: figure plates whose only text is a running head (sometimes
-# garbled) and stray characters.
+# garbled) and stray characters. Four TFSS PDFs (Cunoniaceae,
+# Dipterocarpaceae, Hernandiaceae, Thymelaeaceae) print every ";" as U+037E
+# (Greek question mark), read here as ";" so pieces split (Ashton_2004).
+# They also print every hyphen as U+00AD: pass `soft_hyphen = "-"`. Elsewhere
+# U+00AD is an invisible break point ("out-side", Coode_2018), so it is kept
+# by default and later removed by flora_norm().
 flora_read_pdf_lines <- function(
   file,
   first_line_re,
@@ -151,9 +156,14 @@ flora_read_pdf_lines <- function(
   caption_re = "^(Map \\d+\\.|Figure \\d+\\.)",
   side_caption_re = "^(subsp|var)\\. [a-z]+.*\\.$|\\(\\)",
   side_indent = 30,
-  drop_pages = NULL
+  drop_pages = NULL,
+  soft_hyphen = NULL
 ) {
-  pg <- pdftools::pdf_text(file)
+  pg <- pdftools::pdf_text(file) |>
+    str_replace_all("\\x{037E}", ";")
+  if (!is.null(soft_hyphen)) {
+    pg <- str_replace_all(pg, "\\x{00AD}", soft_hyphen)
+  }
   lines <- map2_dfr(pg, seq_along(pg), \(t, i) {
     tibble(pdf_page = i, text = str_split_1(t, "\n"))
   }) |>

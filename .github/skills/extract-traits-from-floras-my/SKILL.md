@@ -451,6 +451,12 @@ contained infraspecific headings.
   `low_text`; pass those PDF pages as `drop_pages` to
   `flora_read_pdf_lines()`, or the "vi" joins the paragraph across the
   plate (Soepadmo_2000, 17 plates, e.g. pdf 15 inside Castanopsis buruana).
+- Four TFSS PDFs (Dipterocarpaceae and Thymelaeaceae, vol. 5; Cunoniaceae
+  and Hernandiaceae, vol. 6) print every ";" as U+037E (Greek question
+  mark) and every hyphen as U+00AD. `flora_read_pdf_lines()` reads U+037E
+  as ";" (Ashton_2004: 7,121 of them; without it no piece splits on ";");
+  pass `soft_hyphen = "-"` for these four only. In other PDFs U+00AD is an
+  invisible break point ("out-side", Coode_2018) and must not become "-".
 - `flora_segment()` joins a line ending "letter-" without a space. It drops
   the hyphen when the joined word occurs elsewhere in the treatment ("coria-
   ceous" -> "coriaceous") and keeps it otherwise, since it may be a real
