@@ -717,7 +717,12 @@ Bespoke checklist (decisions that changed per family):
   scores the position (`usually` axillary, `rarely` terminal) and the kind
   (raceme, unqualified, so on the `usually` row) separately. Pandanus and other
   palm-like trees and shrubs score `palmoid` after the printed noun
-  (`tree palmoid`), as AusTraits scores Arecaceae.
+  (`tree palmoid`), as AusTraits scores Arecaceae. Provisional
+  (Kochummen_2000 question 4): "strangler" -> `plant_growth_substrate =
+  hemiepiphyte` and "epiphyte" -> `epiphyte`, next to the growth form ("tree,
+  up to 15 m tall, or strangler" scores tree and hemiepiphyte); "with free
+  hanging aerial roots" -> `root_system_type = aerial_roots`, "without ..."
+  -> `aerial_roots_absent`, "without or with" not scored.
 - **Clumping is not clonality** (user, 2026-10-30). "Clustering",
   "clump-forming", "forming thickets" stay unmapped unless the text names a
   spreading organ (stolons, suckers, a spreading rhizome); then score
