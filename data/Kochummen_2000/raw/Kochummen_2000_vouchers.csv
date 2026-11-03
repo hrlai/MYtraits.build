@@ -1,0 +1,276 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Artocarpus anisophyllus,holotype,U,,Teijsmann,HB 3698,,"Sumatra, Batu Raja",Palembang,Indonesia,"Type, p.191",
+Artocarpus anisophyllus,isotype,BO,,Teijsmann,HB 3698,,"Sumatra, Batu Raja",Palembang,Indonesia,"Type, p.191",
+Artocarpus anisophyllus,isotype,K,,Teijsmann,HB 3698,,"Sumatra, Batu Raja",Palembang,Indonesia,"Type, p.191",
+Artocarpus anisophyllus,isotype,L,,Teijsmann,HB 3698,,"Sumatra, Batu Raja",Palembang,Indonesia,"Type, p.191",
+Artocarpus anisophyllus var. sessilifolius,holotype,SAN,,Wood,SAN 16549,,"Sandakan district, Sepilok FR",Sabah,Malaysia,"Type, p.192",
+Artocarpus anisophyllus var. sessilifolius,isotype,A,,Wood,SAN 16549,,"Sandakan district, Sepilok FR",Sabah,Malaysia,"Type, p.192",
+Artocarpus anisophyllus var. sessilifolius,isotype,BO,,Wood,SAN 16549,,"Sandakan district, Sepilok FR",Sabah,Malaysia,"Type, p.192",
+Artocarpus anisophyllus var. sessilifolius,isotype,K,,Wood,SAN 16549,,"Sandakan district, Sepilok FR",Sabah,Malaysia,"Type, p.192",
+Artocarpus anisophyllus var. sessilifolius,isotype,KEP,,Wood,SAN 16549,,"Sandakan district, Sepilok FR",Sabah,Malaysia,"Type, p.192",
+Artocarpus anisophyllus var. sessilifolius,isotype,L,,Wood,SAN 16549,,"Sandakan district, Sepilok FR",Sabah,Malaysia,"Type, p.192",
+Artocarpus anisophyllus var. sessilifolius,isotype,SING,,Wood,SAN 16549,,"Sandakan district, Sepilok FR",Sabah,Malaysia,"Type, p.192",
+Artocarpus annulatus,holotype,K,,Chew & Anderson,CWL 665,,"Kuching district, Mt. Mentawa",Sarawak,Malaysia,"Type, p.192",
+Artocarpus annulatus,isotype,L,,Chew & Anderson,CWL 665,,"Kuching district, Mt. Mentawa",Sarawak,Malaysia,"Type, p.192",
+Artocarpus annulatus,isotype,SAR,,Chew & Anderson,CWL 665,,"Kuching district, Mt. Mentawa",Sarawak,Malaysia,"Type, p.192",
+Artocarpus corneri,holotype,KEP,,Dayang Awa & Yii,S. 46878,,"Dulit Range, Belaga",Sarawak,Malaysia,"Type, p.194",
+Artocarpus corneri,isotype,CGE,,Dayang Awa & Yii,S. 46878,,"Dulit Range, Belaga",Sarawak,Malaysia,"Type, p.194",
+Artocarpus corneri,isotype,K,,Dayang Awa & Yii,S. 46878,,"Dulit Range, Belaga",Sarawak,Malaysia,"Type, p.194",
+Artocarpus corneri,isotype,L,,Dayang Awa & Yii,S. 46878,,"Dulit Range, Belaga",Sarawak,Malaysia,"Type, p.194",
+Artocarpus corneri,isotype,SAN,,Dayang Awa & Yii,S. 46878,,"Dulit Range, Belaga",Sarawak,Malaysia,"Type, p.194",
+Artocarpus corneri,isotype,SAR,,Dayang Awa & Yii,S. 46878,,"Dulit Range, Belaga",Sarawak,Malaysia,"Type, p.194",
+Artocarpus dadah,holotype,U,,Teijsmann,HB 4391,,Sumatra,,Indonesia,"Type, p.194",
+Artocarpus dadah,isotype,BO,,Teijsmann,HB 4391,,Sumatra,,Indonesia,"Type, p.194",
+Artocarpus dadah,isotype,K,,Teijsmann,HB 4391,,Sumatra,,Indonesia,"Type, p.194",
+Artocarpus dadah,isotype,L,,Teijsmann,HB 4391,,Sumatra,,Indonesia,"Type, p.194",
+Artocarpus elasticus,holotype,L,RHL Sheet No. 9081851027,Reinwardt,s.n.,,Java,,Indonesia,"Type, p.196",printed '( =RHL Sheet No. 9081851027 )'
+Artocarpus excelsus,holotype,K,,Chew & Corner,RSNB 7046,,"Mt. Kinabalu, Mesilau R.",Sabah,Malaysia,"Type, p.197",
+Artocarpus excelsus,isotype,L,,Chew & Corner,RSNB 7046,,"Mt. Kinabalu, Mesilau R.",Sabah,Malaysia,"Type, p.197",
+Artocarpus excelsus,isotype,SING,,Chew & Corner,RSNB 7046,,"Mt. Kinabalu, Mesilau R.",Sabah,Malaysia,"Type, p.197",
+Artocarpus glaucus,holotype,L,RHL Sheet No. 908185719,Blume,s.n.,,Java,,Indonesia,"Type, p.198",printed '(= RHL Sheet No. 908185719)'
+Artocarpus integer,holotype,UPS,,Thunberg,s.n.,,Java,,Indonesia,"Type, p.199",
+Artocarpus integer,isotype,L,,Thunberg,s.n.,,Java,,Indonesia,"Type, p.199",
+Artocarpus jarrettiae,holotype,SAN,,Amin & Francis,SAN 120933,,Ranau district,Sabah,Malaysia,"Type, p.200",
+Artocarpus jarrettiae,isotype,K,,Amin & Francis,SAN 120933,,Ranau district,Sabah,Malaysia,"Type, p.200",
+Artocarpus jarrettiae,isotype,KEP,,Amin & Francis,SAN 120933,,Ranau district,Sabah,Malaysia,"Type, p.200",
+Artocarpus jarrettiae,isotype,L,,Amin & Francis,SAN 120933,,Ranau district,Sabah,Malaysia,"Type, p.200",
+Artocarpus kemando,holotype,U,,Teijsmann,HB 4515,,"Sumatra, Kebong",Lampong,Indonesia,"Type, p.200",
+Artocarpus kemando,isotype,BO,,Teijsmann,HB 4515,,"Sumatra, Kebong",Lampong,Indonesia,"Type, p.200",
+Artocarpus kemando,isotype,L,,Teijsmann,HB 4515,,"Sumatra, Kebong",Lampong,Indonesia,"Type, p.200",
+Artocarpus lanceifolius,,,,Wight,,,,,,"Type, p.201",type is a drawing; printed 'Drawing by Wight (1843)'; status not printed; institution not stated
+Artocarpus longifolius,holotype,FI,,Teijsmann,HB 11312,,,,,"Type, p.202",Borneo
+Artocarpus melinoxylus,lectotype,P,,Poilane,7079,,"Indo-China, Ba Na",,,"Type, p.202","Lectotype (Jarrett, 1959); printed as '(holotype P; isotype A)' within the lectotype statement; Indo-China"
+Artocarpus melinoxylus,isolectotype,A,,Poilane,7079,,"Indo-China, Ba Na",,,"Type, p.202","Lectotype (Jarrett, 1959); printed as '(holotype P; isotype A)' within the lectotype statement; Indo-China"
+Artocarpus melinoxylus subsp. brevipedunculatus,holotype,A,,Wood,SAN A 1733,,Beaufort district,Sabah,Malaysia,"Type, p.202",
+Artocarpus melinoxylus subsp. brevipedunculatus,isotype,BO,,Wood,SAN A 1733,,Beaufort district,Sabah,Malaysia,"Type, p.202",
+Artocarpus melinoxylus subsp. brevipedunculatus,isotype,BRI,,Wood,SAN A 1733,,Beaufort district,Sabah,Malaysia,"Type, p.202",
+Artocarpus melinoxylus subsp. brevipedunculatus,isotype,K,,Wood,SAN A 1733,,Beaufort district,Sabah,Malaysia,"Type, p.202",
+Artocarpus melinoxylus subsp. brevipedunculatus,isotype,KEP,,Wood,SAN A 1733,,Beaufort district,Sabah,Malaysia,"Type, p.202",
+Artocarpus melinoxylus subsp. brevipedunculatus,isotype,L,,Wood,SAN A 1733,,Beaufort district,Sabah,Malaysia,"Type, p.202",
+Artocarpus melinoxylus subsp. brevipedunculatus,isotype,SING,,Wood,SAN A 1733,,Beaufort district,Sabah,Malaysia,"Type, p.202",
+Artocarpus nitidus,lectotype,P,,Cuming,1078,,"Luzon, Albay",,Philippines,"Type, p.203","Lectotype (Jarrett, 1960); printed as '(holotype P; isotypes BM, CGE, K, L, SING)' within the lectotype statement"
+Artocarpus nitidus,isolectotype,BM,,Cuming,1078,,"Luzon, Albay",,Philippines,"Type, p.203","Lectotype (Jarrett, 1960); printed as '(holotype P; isotypes BM, CGE, K, L, SING)' within the lectotype statement"
+Artocarpus nitidus,isolectotype,CGE,,Cuming,1078,,"Luzon, Albay",,Philippines,"Type, p.203","Lectotype (Jarrett, 1960); printed as '(holotype P; isotypes BM, CGE, K, L, SING)' within the lectotype statement"
+Artocarpus nitidus,isolectotype,K,,Cuming,1078,,"Luzon, Albay",,Philippines,"Type, p.203","Lectotype (Jarrett, 1960); printed as '(holotype P; isotypes BM, CGE, K, L, SING)' within the lectotype statement"
+Artocarpus nitidus,isolectotype,L,,Cuming,1078,,"Luzon, Albay",,Philippines,"Type, p.203","Lectotype (Jarrett, 1960); printed as '(holotype P; isotypes BM, CGE, K, L, SING)' within the lectotype statement"
+Artocarpus nitidus,isolectotype,SING,,Cuming,1078,,"Luzon, Albay",,Philippines,"Type, p.203","Lectotype (Jarrett, 1960); printed as '(holotype P; isotypes BM, CGE, K, L, SING)' within the lectotype statement"
+Artocarpus nitidus,,P,,Balansa,4112,,Tonkin,,Vietnam,"Type, p.203","type of synonym A. lingnanensis Merr.; printed 'type: Balansa 4112, Tonkin (P)'; status not printed"
+Artocarpus nitidus,,A,,Ramos,1592,,,Sabah,Malaysia,"Type, p.203","type of synonym A. borneensis Merr.; printed 'type: Ramos 1592, Borneo, Sabah (A, BM, BO, K, L, P, SING)'; status not printed"
+Artocarpus nitidus,,BM,,Ramos,1592,,,Sabah,Malaysia,"Type, p.203","type of synonym A. borneensis Merr.; printed 'type: Ramos 1592, Borneo, Sabah (A, BM, BO, K, L, P, SING)'; status not printed"
+Artocarpus nitidus,,BO,,Ramos,1592,,,Sabah,Malaysia,"Type, p.203","type of synonym A. borneensis Merr.; printed 'type: Ramos 1592, Borneo, Sabah (A, BM, BO, K, L, P, SING)'; status not printed"
+Artocarpus nitidus,,K,,Ramos,1592,,,Sabah,Malaysia,"Type, p.203","type of synonym A. borneensis Merr.; printed 'type: Ramos 1592, Borneo, Sabah (A, BM, BO, K, L, P, SING)'; status not printed"
+Artocarpus nitidus,,L,,Ramos,1592,,,Sabah,Malaysia,"Type, p.203","type of synonym A. borneensis Merr.; printed 'type: Ramos 1592, Borneo, Sabah (A, BM, BO, K, L, P, SING)'; status not printed"
+Artocarpus nitidus,,P,,Ramos,1592,,,Sabah,Malaysia,"Type, p.203","type of synonym A. borneensis Merr.; printed 'type: Ramos 1592, Borneo, Sabah (A, BM, BO, K, L, P, SING)'; status not printed"
+Artocarpus nitidus,,SING,,Ramos,1592,,,Sabah,Malaysia,"Type, p.203","type of synonym A. borneensis Merr.; printed 'type: Ramos 1592, Borneo, Sabah (A, BM, BO, K, L, P, SING)'; status not printed"
+Artocarpus nitidus,syntype,K,,Griffith,4665,,,,,"Type, p.203","type of synonym A. gomeziana Wall. var. griffithii King; syntypes: Griffith 4665, King's Collectors 6651, 7533, Scortechini 683 (K, SING); which institution holds which specimen not printed"
+Artocarpus nitidus,syntype,SING,,Griffith,4665,,,,,"Type, p.203","type of synonym A. gomeziana Wall. var. griffithii King; syntypes: Griffith 4665, King's Collectors 6651, 7533, Scortechini 683 (K, SING); which institution holds which specimen not printed"
+Artocarpus nitidus,syntype,K,,King's Collectors,6651,,,,,"Type, p.203","type of synonym A. gomeziana Wall. var. griffithii King; syntypes: Griffith 4665, King's Collectors 6651, 7533, Scortechini 683 (K, SING); which institution holds which specimen not printed"
+Artocarpus nitidus,syntype,SING,,King's Collectors,6651,,,,,"Type, p.203","type of synonym A. gomeziana Wall. var. griffithii King; syntypes: Griffith 4665, King's Collectors 6651, 7533, Scortechini 683 (K, SING); which institution holds which specimen not printed"
+Artocarpus nitidus,syntype,K,,King's Collectors,7533,,,,,"Type, p.203","type of synonym A. gomeziana Wall. var. griffithii King; syntypes: Griffith 4665, King's Collectors 6651, 7533, Scortechini 683 (K, SING); which institution holds which specimen not printed"
+Artocarpus nitidus,syntype,SING,,King's Collectors,7533,,,,,"Type, p.203","type of synonym A. gomeziana Wall. var. griffithii King; syntypes: Griffith 4665, King's Collectors 6651, 7533, Scortechini 683 (K, SING); which institution holds which specimen not printed"
+Artocarpus nitidus,syntype,K,,Scortechini,683,,,,,"Type, p.203","type of synonym A. gomeziana Wall. var. griffithii King; syntypes: Griffith 4665, King's Collectors 6651, 7533, Scortechini 683 (K, SING); which institution holds which specimen not printed"
+Artocarpus nitidus,syntype,SING,,Scortechini,683,,,,,"Type, p.203","type of synonym A. gomeziana Wall. var. griffithii King; syntypes: Griffith 4665, King's Collectors 6651, 7533, Scortechini 683 (K, SING); which institution holds which specimen not printed"
+Artocarpus obtusus,holotype,K,,Anderson,S. 15740,,Semengoh Arboretum,Sarawak,Malaysia,"Type, p.204",
+Artocarpus obtusus,isotype,CGE,,Anderson,S. 15740,,Semengoh Arboretum,Sarawak,Malaysia,"Type, p.204",
+Artocarpus obtusus,isotype,L,,Anderson,S. 15740,,Semengoh Arboretum,Sarawak,Malaysia,"Type, p.204",
+Artocarpus obtusus,isotype,SAR,,Anderson,S. 15740,,Semengoh Arboretum,Sarawak,Malaysia,"Type, p.204",
+Artocarpus peltatus,holotype,PNH,,Villamil,168,,Sandakan district,Sabah,Malaysia,"Type, p.205",
+Artocarpus peltatus,isotype,BO,,Villamil,168,,Sandakan district,Sabah,Malaysia,"Type, p.205",
+Artocarpus primackiana,holotype,SAN,,Aban,SAN 99596,,Kota Merudu district,Sabah,Malaysia,"Type, p.207",
+Artocarpus primackiana,isotype,KEP,,Aban,SAN 99596,,Kota Merudu district,Sabah,Malaysia,"Type, p.207",
+Artocarpus rigidus,holotype,L,RHL Sheet No. 908185863,Blume,s.n.,,Java,,Indonesia,"Type, p.208",printed '(= RHL Sheet No. 908185863)'
+Artocarpus sarawakensis,holotype,K,,Ilias,S. 15109,,"Bintulu district, Segar FR",Sarawak,Malaysia,"Type, p.210",
+Artocarpus sarawakensis,isotype,C,,Ilias,S. 15109,,"Bintulu district, Segar FR",Sarawak,Malaysia,"Type, p.210",
+Artocarpus sarawakensis,isotype,L,,Ilias,S. 15109,,"Bintulu district, Segar FR",Sarawak,Malaysia,"Type, p.210",
+Artocarpus sarawakensis,isotype,SAN,,Ilias,S. 15109,,"Bintulu district, Segar FR",Sarawak,Malaysia,"Type, p.210",
+Artocarpus sarawakensis,isotype,SAR,,Ilias,S. 15109,,"Bintulu district, Segar FR",Sarawak,Malaysia,"Type, p.210",
+Artocarpus tamaran,holotype,FI,,Beccari,PB 2996,,,Sarawak,Malaysia,"Type, p.210",
+Artocarpus tamaran,isotype,L,,Beccari,PB 2996,,,Sarawak,Malaysia,"Type, p.210",
+Artocarpus teysmannii,holotype,U,,Teijsmann,HB 4387,,"Sumatra, Kebong",Lampong,Indonesia,"Type, p.211",
+Artocarpus teysmannii,isotype,BO,,Teijsmann,HB 4387,,"Sumatra, Kebong",Lampong,Indonesia,"Type, p.211",
+Artocarpus teysmannii,isotype,L,,Teijsmann,HB 4387,,"Sumatra, Kebong",Lampong,Indonesia,"Type, p.211",
+Artocarpus tomentosulus,holotype,SING,,Keith,7671,,"Sandakan district, Kabili-Sepilok FR",Sabah,Malaysia,"Type, p.212",
+Ficus albipila,holotype,U,UH Sheet No. 47547 B,Teijsmann,HB 3545,,"Sumatra, Muaradua",Palembang,Indonesia,"Type, p.257","printed '(= UH Sheet No. 47547 B)'; 'UH' as printed, holotype institution given as U"
+Ficus albipila,,CGE,,Motley,613,,Banjarmasin,Kalimantan,Indonesia,"Type, p.257","type of synonym F. albipila (Miq.) King var. glabra Corner; Borneo; printed 'type: Motley 613, Borneo, Banjarmasin (CGE)'; status not printed"
+Ficus androchaete,holotype,CGE,,Corner,BRUN 5320,,"Amo, Ulu Belalong",,Brunei,"Type, p.258",Borneo
+Ficus ashtonii,holotype,KEP,,Dayang Awa & Lee,S. 47846,,Limbang,Sarawak,Malaysia,"Type, p.258",
+Ficus ashtonii,isotype,CGE,,Dayang Awa & Lee,S. 47846,,Limbang,Sarawak,Malaysia,"Type, p.258",
+Ficus ashtonii,isotype,K,,Dayang Awa & Lee,S. 47846,,Limbang,Sarawak,Malaysia,"Type, p.258",
+Ficus ashtonii,isotype,L,,Dayang Awa & Lee,S. 47846,,Limbang,Sarawak,Malaysia,"Type, p.258",
+Ficus ashtonii,isotype,SAN,,Dayang Awa & Lee,S. 47846,,Limbang,Sarawak,Malaysia,"Type, p.258",
+Ficus ashtonii,isotype,SAR,,Dayang Awa & Lee,S. 47846,,Limbang,Sarawak,Malaysia,"Type, p.258",
+Ficus aurata var. brevipilosa,,PNH,,Bur. Sci.,602,,,Sabah,Malaysia,"Type, p.260","'Bur. Sci.' is a herbarium series, not a collector; institution printed as 'PNH?'; status not printed"
+Ficus aurata var. longipilosa,holotype,SING,,,SFN 32313,,Peninsular Malaysia,Perak,Malaysia,"Type, p.260",collector not printed
+Ficus aurata var. palawanensis,holotype,SING,,Bur. Sci.,77382,,Palawan,,Philippines,"Type, p.260","'Bur. Sci.' is a herbarium series, not a collector"
+Ficus aurita,holotype,L,RHL Sheet No. 9081861497,Reinwardt,1451,,"Maluku, Nusa Laut",,Indonesia,"Type, p.260",printed '(= RHL Sheet No. 9081861497)'
+Ficus aurita var. auriculifera,holotype,SING,,Elmer,20468,,Tawau district,Sabah,Malaysia,"Type, p.261",
+Ficus beccarii,holotype,FI,,Beccari,PB 2900,,,Sarawak,Malaysia,"Type, p.261",
+Ficus beccarii var. asymmetrica,holotype,CGE,,Corner,s.n.,,"Kuching district, Bt. Kuap",Sarawak,Malaysia,"Type, p.262",
+Ficus beccarii var. asymmetrica,isotype,L,,Corner,s.n.,,"Kuching district, Bt. Kuap",Sarawak,Malaysia,"Type, p.262",
+Ficus beccarii var. latifolia,holotype,CGE,,,BRUN 5305,,Sg. Belalong,,Brunei,"Type, p.262",Borneo; collector not printed
+Ficus benjamina,,BM,,,Linn. Herb.,,,,,"Type, p.262",status not printed; institution printed as 'BM?'; printed 'Linn. Herb. (BM?)'; collector not printed
+Ficus bruneiensis,holotype,CGE,,Corner,BRUN 5383,,"Amo, Ulu Belalong",,Brunei,"Type, p.263",Borneo
+Ficus bruneiensis,isotype,L,,Corner,BRUN 5383,,"Amo, Ulu Belalong",,Brunei,"Type, p.263",Borneo
+Ficus brunneoaurata,holotype,SING,,,SFN 26608,,"Mt. Kinabalu, Menetendok Gorge",Sabah,Malaysia,"Type, p.263",collector not printed
+Ficus callosa,,,,,,,,,,"Type, p.264",type unknown
+Ficus cereicarpa,holotype,CGE,,Corner,BRUN 5315,,"Amo, Sg. Belalong",,Brunei,"Type, p.264",Borneo
+Ficus cereicarpa,isotype,SAR,,Corner,BRUN 5315,,"Amo, Sg. Belalong",,Brunei,"Type, p.264",Borneo
+Ficus cereicarpa var. ashtonii,holotype,KEP,,Ashton,S. 17806,,"Kapit district, Batang Baleh, Ulu Selentang",Sarawak,Malaysia,"Type, p.266",
+Ficus cereicarpa var. ashtonii,isotype,A,,Ashton,S. 17806,,"Kapit district, Batang Baleh, Ulu Selentang",Sarawak,Malaysia,"Type, p.266",
+Ficus cereicarpa var. ashtonii,isotype,BO,,Ashton,S. 17806,,"Kapit district, Batang Baleh, Ulu Selentang",Sarawak,Malaysia,"Type, p.266",
+Ficus cereicarpa var. ashtonii,isotype,CGE,,Ashton,S. 17806,,"Kapit district, Batang Baleh, Ulu Selentang",Sarawak,Malaysia,"Type, p.266",
+Ficus cereicarpa var. ashtonii,isotype,K,,Ashton,S. 17806,,"Kapit district, Batang Baleh, Ulu Selentang",Sarawak,Malaysia,"Type, p.266",
+Ficus cereicarpa var. ashtonii,isotype,L,,Ashton,S. 17806,,"Kapit district, Batang Baleh, Ulu Selentang",Sarawak,Malaysia,"Type, p.266",
+Ficus cereicarpa var. ashtonii,isotype,SAR,,Ashton,S. 17806,,"Kapit district, Batang Baleh, Ulu Selentang",Sarawak,Malaysia,"Type, p.266",
+Ficus cereicarpa var. ashtonii,isotype,SING,,Ashton,S. 17806,,"Kapit district, Batang Baleh, Ulu Selentang",Sarawak,Malaysia,"Type, p.266",
+Ficus chaii,holotype,KEP,,Chai,S. 36002,,"Kapit district, Sg. Kapit",Sarawak,Malaysia,"Type, p.266",
+Ficus chaii,isotype,SAN,,Chai,S. 36002,,"Kapit district, Sg. Kapit",Sarawak,Malaysia,"Type, p.266",
+Ficus chaii,isotype,SAR,,Chai,S. 36002,,"Kapit district, Sg. Kapit",Sarawak,Malaysia,"Type, p.266",
+Ficus chartacea,,K,,Wall.,Cat. 4580,,Peninsular Malaysia,Penang,Malaysia,"Type, p.268",institution printed as 'K?'; status not printed
+Ficus cumingii,,K,,Cuming,1925,,,,Philippines,"Type, p.269",status not printed
+Ficus deltoidea,,BM,,Jack,s.n.,,Sumatra,,Indonesia,"Type, p.269",status not printed
+Ficus deltoidea var. angustifolia,,,,,,,,,,"Type, p.272",type unknown
+Ficus deltoidea var. arenaria,holotype,CGE,,,BRUN 5352,,Kuala Belait,,Brunei,"Type, p.270",Borneo; collector not printed
+Ficus deltoidea var. borneensis,holotype,L,,Endert,3920,,"W Kutai, Mt. Kemul",Kalimantan,Indonesia,"Type, p.272",Borneo
+Ficus deltoidea var. intermedia,holotype,SING,,Purseglove,4281,,"Peninsular Malaysia, Fraser's Hills",Pahang,Malaysia,"Type, p.270",
+Ficus diamantiphylla,holotype,SAR,,,S. 22791,,"Marudi district, Ulu Tutoh",Sarawak,Malaysia,"Type, p.272",collector not printed
+Ficus endospermifolia,holotype,K,,,SAN A 4492,,"Mt. Kinabalu, Tenompok",Sabah,Malaysia,"Type, p.273",collector not printed
+Ficus eumorpha,holotype,SING,,,SFN 27566,,Tibobah R.,Sabah,Malaysia,"Type, p.273",collector not printed
+Ficus fistulosa,holotype,L,RHL Sheet No. 9081881231,Reinwardt,s.n.,,Java,,Indonesia,"Type, p.274",printed '(= RHL Sheet No. 9081881231)'
+Ficus francisci,,,,,,,,,,"Type, p.276",type unknown
+Ficus fulva,holotype,L,RHL Sheet No. 925250805,Blume,44,,Java,,Indonesia,"Type, p.276",printed '(= RHL Sheet No. 925250805)'
+Ficus geocharis,holotype,BM,,Clemens,21912,,,Sarawak,Malaysia,"Type, p.277",
+Ficus glandulifera,,K,,Wall.,Cat. 4481,,,,,"Type, p.278",status not printed
+Ficus glandulifera var. villosa,holotype,LAE,,,NGF 3753,,"New Guinea, Sepik district",,Papua New Guinea,"Type, p.278",collector not printed
+Ficus grossularioides,,,,,,,,,,"Type, p.280",type unknown
+Ficus gul,,,,,,,,,,"Type, p.280",type unknown
+Ficus hemsleyana,,FI,,Beccari,PB 2335,,,Sarawak,Malaysia,"Type, p.281",status not printed
+Ficus ixoroides,,FI,,Beccari,PB 2781,,,Sarawak,Malaysia,"Type, p.281",status not printed
+Ficus lamponga,,U,,Teijsmann,s.n.,,"Sumatra, Tarabangi Agong",Lampong,Indonesia,"Type, p.282",institution printed as 'U?'; status not printed
+Ficus lepicarpa,,L,,Blume,s.n.,,Java,,Indonesia,"Type, p.283",paragraph begins mid-text ('548; Kochummen ...'); institution printed as 'L?'; status not printed
+Ficus lepicarpa,,K,,Haviland,s.n.,,,Sarawak,Malaysia,"Type, p.283","type of synonym F. lepicarpa Blume var. brevibracteata Corner; printed 'type: Haviland s.n., Sarawak (K), syn. nov.'; status not printed"
+Ficus leptocalama,holotype,SING,,,SFN 26829,,"Mt. Kinabalu, Menetendok R.",Sabah,Malaysia,"Type, p.283",collector not printed
+Ficus leptogramma,holotype,SING,,,SFN 27328,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.284",collector not printed
+Ficus macilenta,,FI,,Beccari,PB 1696,,,Sarawak,Malaysia,"Type, p.284",status not printed
+Ficus macilenta var. gibbsiae,,,,,,,,,,"Type, p.285",type unknown
+Ficus macilenta var. ilicifolia,holotype,SING,,,SFN 26952,,"Ranau district, Mt. Kinabalu",Sabah,Malaysia,"Type, p.285",collector not printed
+Ficus macrostyla,,K,,Haviland,3601,,,Sarawak,Malaysia,"Type, p.285",status not printed
+Ficus magnoliifolia,,L,,Blume,s.n.,,Java,,Indonesia,"Type, p.286",institution printed as 'L?'; status not printed
+Ficus megaleia,holotype,CGE,,Corner,BRUN 5301,,Ulu Belalong,,Brunei,"Type, p.286",Borneo
+Ficus megaleia var. multinervia,holotype,K,,,RSNB 970,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.287",collector not printed
+Ficus megaleia var. subuncinata,holotype,K,,,RSNB 1576,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.287",collector not printed
+Ficus melinocarpa,,L,RHL Sheet No. 9081881059,Blume,s.n.,,"Java, Mt. Salak",,Indonesia,"Type, p.287",printed '(= RHL Sheet No. 9081881059)'; status not printed
+Ficus microcarpa,,,,,,,,,,"Type, p.288",type unknown
+Ficus midotis,holotype,SING,,,SFN 26324,,,Sabah,Malaysia,"Type, p.289",collector not printed
+Ficus minahassae,,,,,,,,,,"Type, p.289",type unknown
+Ficus moderata,holotype,K,,,RSNB 2592,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.290",collector not printed
+Ficus montana,,,,,,,,,,"Type, p.290",type unknown
+Ficus nota,,,,Merrill,Spec. Blanc. No. 550,,"Luzon, Rizal Province, Antipolo",,Philippines,"Type, p.291",printed '(n.v)'; status not printed; institution not stated
+Ficus obpyramidata,,K,,Kunstler,1849,,Peninsular Malaysia,Perak,Malaysia,"Type, p.292",institution printed as 'K?'; status not printed
+Ficus obscura,,L,RHL Sheet No. 908188590,Blume,s.n.,,Java,,Indonesia,"Type, p.292",printed '(= RHL Sheet No. 908188590)'; status not printed
+Ficus obscura var. lanata,holotype,KEP,,,SAN 57361,,Semporna district,Sabah,Malaysia,"Type, p.293",collector not printed
+Ficus obscura var. lanata,isotype,SAN,,,SAN 57361,,Semporna district,Sabah,Malaysia,"Type, p.293",collector not printed
+Ficus oleifolia,holotype,FI,,Beccari,PS 82,,"Sumatra, Mt. Singalang",,Indonesia,"Type, p.293",
+Ficus oleifolia,isotype,L,,Beccari,PS 82,,"Sumatra, Mt. Singalang",,Indonesia,"Type, p.293",
+Ficus oleifolia var. calcicola,holotype,KEP,,Lee,S. 38626,,"Bau district, G. Doya",Sarawak,Malaysia,"Type, p.295",
+Ficus oleifolia var. calcicola,isotype,SAN,,Lee,S. 38626,,"Bau district, G. Doya",Sarawak,Malaysia,"Type, p.295",
+Ficus oleifolia var. calcicola,isotype,SAR,,Lee,S. 38626,,"Bau district, G. Doya",Sarawak,Malaysia,"Type, p.295",
+Ficus oleifolia var. linearifolia,holotype,E,,Burt & Martin,B 5497,,,Sarawak,Malaysia,"Type, p.294",
+Ficus oleifolia var. memecylifolia,holotype,BM,,Clemens,27939,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.295",
+Ficus oleifolia var. myrsinoides,holotype,SING,,,SFN 27550,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.295",collector not printed
+Ficus oleifolia var. riparia,holotype,SING,,,SFN 6871,,"Marudi district, Batang Baram",Sarawak,Malaysia,"Type, p.294",collector not printed
+Ficus oleifolia var. valida,,L,,,S. 19068,,,Sarawak,Malaysia,"Type, p.296",status not printed; collector not printed
+Ficus paramorpha,holotype,L,,Clemens,31777,,"Mt. Kinabalu, Upper Kinataki R.",Sabah,Malaysia,"Type, p.296",
+Ficus pseudotarennifolia,holotype,KEP,,,S. 51027,,"Marudi district, Bario",Sarawak,Malaysia,"Type, p.296",collector not printed
+Ficus pseudotarennifolia,isotype,SAN,,,S. 51027,,"Marudi district, Bario",Sarawak,Malaysia,"Type, p.296",collector not printed
+Ficus pseudotarennifolia,isotype,SAR,,,S. 51027,,"Marudi district, Bario",Sarawak,Malaysia,"Type, p.296",collector not printed
+Ficus pubinervis,holotype,L,RHL Sheet No. 908188457,Blume,s.n.,,Java,,Indonesia,"Type, p.297",printed '(= RHL Sheet No. 908188457)'
+Ficus racemosa,,,,,,,,,,"Type, p.297",type unknown
+Ficus racemosa var. elongata,possible holotype,CAL,,Kurz,s.n.,,"Burma, Chittagong",,,"Type, p.298",printed '(holotype CAL?)'; Burma as printed (Chittagong is in Bangladesh)
+Ficus retusa,,,,,,,,,,"Type, p.298",type unknown
+Ficus retusa var. borneensis,holotype,L,,Hallier,1074,,Sg. Sambas,Kalimantan,Indonesia,"Type, p.299",Borneo
+Ficus rubrocuspidata,holotype,SING,,,SFN 27323,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.299",collector not printed
+Ficus rubromidotis,holotype,K,,Clemens,20699,,Bidi Cave Mountain,Sarawak,Malaysia,"Type, p.300",
+Ficus ruficaulis,,,,,,,,,,"Type, p.300",type unknown
+Ficus schwarzii,,BO,,Koorders,s.n.,,"Sulawesi, Minahasa, G. Lengkoan",,Indonesia,"Type, p.301",institution printed as 'BO?'; status not printed
+Ficus schwarzii,,L,,Koorders,s.n.,,"Sulawesi, Minahasa, G. Lengkoan",,Indonesia,"Type, p.301",institution printed as 'L?'; status not printed
+Ficus scortechinii,,CAL,,Kunstler,934,,Peninsular Malaysia,Perak,Malaysia,"Type, p.302",status not printed
+Ficus scortechinii,,K,,Kunstler,934,,Peninsular Malaysia,Perak,Malaysia,"Type, p.302",institution printed as 'K?'; status not printed
+Ficus scortechinii var. lanceata,holotype,K,,,RSNB 2815,,"Mt. Kinabalu, Tenompok",Sabah,Malaysia,"Type, p.302",collector not printed
+Ficus septica,,,,,,,,,,"Type, p.302",type unknown
+Ficus setiflora,,K,,Haviland,1214,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.304",status not printed
+Ficus setiflora var. adelpha,holotype,SING,,,SFN 27876,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.305",collector not printed
+Ficus setiflora var. puberula,holotype,L,,Endert,4275,,"W Kutai, Mt. Kemul",Kalimantan,Indonesia,"Type, p.305",Borneo
+Ficus sinuata,,UPS,,Thunberg,s.n.,,Java,,Indonesia,"Type, p.305",status not printed
+Ficus spathulifolia,holotype,SING,,,SFN 33970,,"Peninsular Malaysia, Klang",Selangor,Malaysia,"Type, p.306",collector not printed
+Ficus stolonifera,holotype,FI,,Beccari,PB 2799,,,Sarawak,Malaysia,"Type, p.306",
+Ficus subfulva,holotype,L,,Hallier,2349,,G. Klam,Kalimantan,Indonesia,"Type, p.307",Borneo
+Ficus subfulva var. villosula,holotype,L,,Hallier,2869,,Lianggagang,Kalimantan,Indonesia,"Type, p.307",Borneo
+Ficus subterranea,holotype,CGE,,Corner,BRUN 5327,,"Amo, Sg. Belalong",,Brunei,"Type, p.307",Borneo
+Ficus subterranea,isotype,K,,Corner,BRUN 5327,,"Amo, Sg. Belalong",,Brunei,"Type, p.307",Borneo
+Ficus subterranea,isotype,SAR,,Corner,BRUN 5327,,"Amo, Sg. Belalong",,Brunei,"Type, p.307",Borneo
+Ficus tarennifolia,holotype,SING,,,SFN 27510,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.308",collector not printed
+Ficus tinctoria,,,,,,,,,,"Type, p.309",type unknown
+Ficus tinctoria subsp. gibbosa,,L,,Blume,s.n.,,Java,,Indonesia,"Type, p.309",institution printed as 'L?'; status not printed
+Ficus treubii,holotype,FI,,Beccari,PB 2800,,,Sarawak,Malaysia,"Type, p.310",
+Ficus uncinata,holotype,FI,,Beccari,PB 2458,,,Sarawak,Malaysia,"Type, p.310",
+Ficus uncinata var. gracilis,holotype,CGE,,,BRUN 5303,,,,Brunei,"Type, p.312",Borneo; collector not printed
+Ficus uncinata var. pilosior,holotype,CGE,,,BRUN 5302,,Sg. Belalong,,Brunei,"Type, p.312",Borneo; collector not printed
+Ficus uncinata var. strigosa,holotype,SING,,,SFN 25946,,Peninsular Malaysia,Johore,Malaysia,"Type, p.312",collector not printed
+Ficus uncinata var. subbeccarii,holotype,K,,,RSNB 1619,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.312",collector not printed
+Ficus uncinata var. truncata,holotype,CGE,,,BRUN 5329,,Sg. Belalong,,Brunei,"Type, p.313",Borneo; collector not printed
+Ficus variegata,,L,RHL Sheet No. 9081882067,Blume,s.n.,,Java,,Indonesia,"Type, p.314","garbled: printed '(= RHL Sheet No. 9081882067, Java (L)' with unbalanced parenthesis; status not printed"
+Ficus variegata var. ilangoides,,,,,,,,,,"Type, p.314",type unknown
+Ficus virens,,,,,,,,,,"Type, p.316",type unknown
+Ficus virens var. glabella,,L,,Blume,s.n.,,Java,,Indonesia,"Type, p.316",institution printed as 'L?'; status not printed
+Ficus virescens,holotype,K,,,RSNB 965,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.316",collector not printed
+Ficus xylophylla,,,,,,,,,,"Type, p.317",type unknown
+Parartocarpus bracteatus,lectotype,CAL,,Griffith,4663,,Peninsular Malaysia,Melaka,Malaysia,"Type, p.319","Lectotype (Jarrett, 1960); printed as '(holotype CAL; isotype K)' within the lectotype statement; locality printed 'Malacca'"
+Parartocarpus bracteatus,isolectotype,K,,Griffith,4663,,Peninsular Malaysia,Melaka,Malaysia,"Type, p.319","Lectotype (Jarrett, 1960); printed as '(holotype CAL; isotype K)' within the lectotype statement; locality printed 'Malacca'"
+Parartocarpus microcarpus,holotype,SAR,,,S. 28676,,"Kapit district, Ulu Baleh, Bt. Tibang",Sarawak,Malaysia,"Type, p.320",collector not printed
+Parartocarpus microcarpus,isotype,K,,,S. 28676,,"Kapit district, Ulu Baleh, Bt. Tibang",Sarawak,Malaysia,"Type, p.320",collector not printed
+Parartocarpus microcarpus,isotype,SAN,,,S. 28676,,"Kapit district, Ulu Baleh, Bt. Tibang",Sarawak,Malaysia,"Type, p.320",collector not printed
+Parartocarpus spinulosus,holotype,KEP,,"Soepadmo, Rena & Kalkausar",FRI 41312,,"Kinabatangan district, Telupid, Bt. Tawai FR",Sabah,Malaysia,"Type, p.321",
+Parartocarpus spinulosus,isotype,K,,"Soepadmo, Rena & Kalkausar",FRI 41312,,"Kinabatangan district, Telupid, Bt. Tawai FR",Sabah,Malaysia,"Type, p.321",
+Parartocarpus spinulosus,isotype,L,,"Soepadmo, Rena & Kalkausar",FRI 41312,,"Kinabatangan district, Telupid, Bt. Tawai FR",Sabah,Malaysia,"Type, p.321",
+Parartocarpus spinulosus,isotype,SAN,,"Soepadmo, Rena & Kalkausar",FRI 41312,,"Kinabatangan district, Telupid, Bt. Tawai FR",Sabah,Malaysia,"Type, p.321",
+Parartocarpus spinulosus,isotype,SAR,,"Soepadmo, Rena & Kalkausar",FRI 41312,,"Kinabatangan district, Telupid, Bt. Tawai FR",Sabah,Malaysia,"Type, p.321",
+Parartocarpus venenosus,,K,,Beccari,PB 2557,,,Sarawak,Malaysia,"Type, p.323",status not printed
+Parartocarpus venenosus,,P,,Beccari,PB 2557,,,Sarawak,Malaysia,"Type, p.323",status not printed
+Parartocarpus venenosus subsp. borneensis,,FI,,Beccari,PB 2005,,,Sarawak,Malaysia,"Type, p.325",status not printed
+Parartocarpus venenosus subsp. borneensis,,K,,Beccari,PB 2005,,,Sarawak,Malaysia,"Type, p.325",status not printed
+Parartocarpus venenosus subsp. forbesii,,CAL,,King,10829,,Peninsular Malaysia,,Malaysia,"Type, p.325",status not printed
+Parartocarpus venenosus subsp. forbesii,,K,,King,10829,,Peninsular Malaysia,,Malaysia,"Type, p.325",status not printed
+Parartocarpus venenosus subsp. forbesii,,P,,King,10829,,Peninsular Malaysia,,Malaysia,"Type, p.325",status not printed
+Prainea frutescens,holotype,FI,,Beccari,PB 667,,,Sarawak,Malaysia,"Type, p.327",
+Prainea frutescens,isotype,K,,Beccari,PB 667,,,Sarawak,Malaysia,"Type, p.327",
+Prainea frutescens,isotype,P,,Beccari,PB 667,,,Sarawak,Malaysia,"Type, p.327",
+Prainea limpato,holotype,U,,Diepenhorst,HB 2500,,"Sumatra, Priaman",,Indonesia,"Type, p.327",
+Prainea limpato,isotype,L,,Diepenhorst,HB 2500,,"Sumatra, Priaman",,Indonesia,"Type, p.327",
+Streblus elongatus,,L,,Teijsmann,s.n.,,"N Sumatra, Lumut, W Siboga",,Indonesia,"Type, p.330",institution printed as 'L?'; status not printed
+Streblus elongatus,,U,,Teijsmann,s.n.,,"N Sumatra, Lumut, W Siboga",,Indonesia,"Type, p.330",institution printed as 'U?'; status not printed
+Streblus glaber,holotype,K,,Whitford,1205,,"Luzon, Mt. Mariveles, Lamao R.",,Philippines,"Type, p.331",
+Streblus ilicifolius,possible lectotype,P,,Vidal,1795,,Isle of Marinduque,,Philippines,"Type, p.333","Lectotype (Chew, ined. 1959); printed '(holotype P?)'"
+Streblus macrophyllus,holotype,L,RHL Sheet No. 908189706,Teijsmann,s.n.,,"Sulawesi, near Likupang",,Indonesia,"Type, p.333",printed '(= RHL Sheet No. 908189706)'
+Antiaris toxicaria,figure specimen,,,,SAN 134550,,,,,"Figure caption, p.186",Fig. 1 A-B; taxon not in the nomenclature file; collector not printed
+Antiaris toxicaria,figure specimen,,,,SAN 42439,,,,,"Figure caption, p.186",Fig. 1 C-I; taxon not in the nomenclature file; collector not printed
+Artocarpus anisophyllus,figure specimen,,,Chai,S. 31726,,,,,"Figure caption, p.193",Fig. 2 A-B
+Artocarpus anisophyllus,figure specimen,,,Wood,SAN 15198,,,,,"Figure caption, p.193",Fig. 2 C; different number from var. sessilifolius type (Wood SAN 16549)
+Artocarpus corneri,figure specimen,,,Ilias,S. 32879,,,,,"Figure caption, p.195",Fig. 3 A-B
+Artocarpus corneri,figure specimen,,,Dayang Awa & Yii,S. 46878,,,,,"Figure caption, p.195",Fig. 3 C; same number as the type collection cited under Type (holotype KEP)
+Artocarpus peltatus,figure specimen,,,Ilias,S. 27020,,,,,"Figure caption, p.206",Fig. 4 A-C
+Artocarpus rigidus,figure specimen,,,Ashton,S. 18853,,,,,"Figure caption, p.209",Fig. 5 A-D
+Ficus bruneiensis,figure specimen,,,Chai,S. 34065,,,,,"Figure caption, p.265",Fig. 6 A-D
+Ficus callosa,figure specimen,,,Lee,S. 41835,,,,,"Figure caption, p.267",Fig. 7 whole figure
+Ficus deltoidea var. deltoidea,figure specimen,,,Martin & Pius,SAN 117014,,,,,"Figure caption, p.271",Fig. 8 whole figure; caption taxon is var. deltoidea; nomenclature file has Ficus deltoidea (species) and other varieties only
+Ficus endospermifolia,figure specimen,,,Dayang Awa & Lee,S. 47983,,,,,"Figure caption, p.275","Fig. 9 A; type is SAN A 4492, not the figure specimen"
+Ficus endospermifolia,figure specimen,,,,SAN 113782,,,,,"Figure caption, p.275",Fig. 9 B-C; collector not printed
+Ficus glandulifera,figure specimen,,,,SAN 102474,,,,,"Figure caption, p.279",Fig. 10 A-D; collector not printed
+Ficus septica,figure specimen,,,Amin & Jarius,SAN 116173,,,,,"Figure caption, p.303",Fig. 11 A-C
+Ficus variegata,figure specimen,,,Ashton,S. 18366,,,,,"Figure caption, p.315",Fig. 12 A-B; caption lists panel B (cluster of syconia); only A seen in lower half of plate
+Parartocarpus spinulosus,figure specimen,,,"Soepadmo, Rena & Kalkausar",FRI 41312,,,,,"Figure caption, p.322",Fig. 13 A-E; same number as the type collection cited under Type (holotype KEP)
+Parartocarpus venenosus,figure specimen,,,Nooteboom & Chai,2124,,,,,"Figure caption, p.324",Fig. 14 A-E
+Prainea limpato,figure specimen,,,,S. 32656,,,,,"Figure caption, p.328",Fig. 15 A-D; collector not printed
+Prainea limpato,figure specimen,,,,SAN 84666,,,,,"Figure caption, p.328",Fig. 15 E-F; collector not printed
+Streblus glaber,figure specimen,,,,S. 36123,,,,,"Figure caption, p.332",Fig. 16 A-C; collector not printed
+Streblus glaber,figure specimen,,,,SAN 56720,,,,,"Figure caption, p.332",Fig. 16 D-E; collector not printed
