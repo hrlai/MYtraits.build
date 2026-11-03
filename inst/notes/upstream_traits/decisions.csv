@@ -1,0 +1,62 @@
+organ,character,decision,tier,template_trait,proposed_name,proposed_type,status,sent_date,notes
+lateral veins,venation,propose,easy,leaflet_count,leaf_lateral_vein_pairs_count,numeric ({count}),draft,,Pairs of secondary veins.
+lateral veins,count,propose,easy,leaflet_count,leaf_lateral_vein_pairs_count,numeric ({count}),draft,,
+veins,count,propose,easy,leaflet_count,leaf_lateral_vein_pairs_count,numeric ({count}),draft,,
+sapwood,colour,propose,easy,bark_colour,sapwood_colour,categorical,draft,,Slash colour of tree floras; levels as bark_colour.
+inner bark,colour,propose,easy,bark_colour,bark_inner_colour,categorical,draft,,Slash colour of tree floras; levels as bark_colour.
+petals,indumentum,propose,easy,fruit_surface_hairs,flower_petal_hairs,categorical (glabrous / hairy),draft,,
+ovary,indumentum,propose,easy,fruit_surface_hairs,flower_ovary_hairs,categorical (glabrous / hairy),draft,,
+sepals,indumentum,propose,easy,fruit_surface_hairs,flower_sepal_hairs,categorical (glabrous / hairy),draft,,
+style,indumentum,propose,easy,fruit_surface_hairs,flower_style_hairs,categorical (glabrous / hairy),draft,,
+filaments,indumentum,propose,easy,fruit_surface_hairs,flower_filament_hairs,categorical (glabrous / hairy),draft,,
+petiole,indumentum,propose,easy,stem_hairs,petiole_hairs,categorical (glabrous / hairy),draft,,Includes the rachis of compound leaves.
+rachis,indumentum,propose,easy,stem_hairs,petiole_hairs,categorical (glabrous / hairy),draft,,
+inflorescences,indumentum,propose,easy,stem_hairs,inflorescence_hairs,categorical (glabrous / hairy),draft,,
+stipules,indumentum,propose,easy,stem_hairs,stipule_hairs,categorical (glabrous / hairy),draft,,
+stipules,size,propose,easy,petiole_length,stipule_length,numeric (mm),draft,,Width often given too.
+petiolules,size,propose,easy,petiole_length,petiolule_length,numeric (mm),draft,,
+leaf acumen,size,propose,easy,petiole_length,leaf_acumen_length,numeric (mm),draft,,Length of the drip tip.
+staminodes,count,propose,easy,flower_fertile_stamens_count,flower_staminodes_count,numeric ({count}),draft,,
+petals,count,propose,easy,flower_perianth_parts_count,flower_petal_count,numeric ({count}),draft,,flower_perianth_parts_count counts all perianth parts together.
+domatia,presence,propose,easy,,leaf_domatia,categorical (absent / present),draft,,
+leaves,texture,propose,medium,,leaf_texture,categorical,draft,,"Needs levels, e.g. membranous / chartaceous / coriaceous."
+leaflets,texture,propose,medium,,leaf_texture,categorical,draft,,
+lamina,texture,propose,medium,,leaf_texture,categorical,draft,,
+fruits,shape,propose,medium,seed_shape,fruit_shape,categorical,draft,,Needs a level set.
+fruits wall,texture,propose,medium,,fruit_wall_texture,categorical,draft,,"Needs levels, e.g. coriaceous / woody."
+fruit wall,texture,propose,medium,,fruit_wall_texture,categorical,draft,,
+midrib,surface,propose,medium,,leaf_midrib_upper_surface,categorical,draft,,Raised / flat / sunken above.
+midrib,venation,propose,medium,,leaf_midrib_upper_surface,categorical,draft,,
+inflorescence,arrangement,propose,medium,,inflorescence_position,categorical,draft,,"Axillary / terminal / cauliflorous."
+stipules,persistence,propose,medium,,stipule_persistence,categorical,draft,,Caducous / persistent.
+bracts,persistence,propose,medium,,bract_persistence,categorical,draft,,Caducous / persistent.
+intercostal venation,venation,propose,hard,,leaf_tertiary_venation_pattern,categorical,draft,,"Needs a vocabulary, e.g. scalariform / reticulate."
+intercostal veins,venation,propose,hard,,leaf_tertiary_venation_pattern,categorical,draft,,
+mesocarp,texture,propose,hard,,fruit_mesocarp_texture,categorical,draft,,
+endocarp,texture,propose,hard,,fruit_endocarp_texture,categorical,draft,,
+twigs,indumentum,existing,,stem_hairs,,,,,Skill already maps stem_hairs; check why these rows stayed unmapped.
+fruits,indumentum,existing,,fruit_surface_hairs,,,,,
+leaflets,indumentum,existing,,leaf_hairs_adult_leaves,,,,,
+leaves,indumentum,existing,,leaf_hairs_adult_leaves,,,,,
+leaves,count,existing,,leaflet_count,,,,,"Example is leaflet pairs: ""3--4 pairs of leaflets""."
+lamina parts,shape,existing,,leaf_apex_shape,,,,,Also leaf_base_shape.
+petals,size,existing,,flower_petal_length,,,,,
+leaves,colour,existing,,leaf_surface_colour,,,,,
+stems,size,existing,,stem_diameter,,,,,Trunk diameter may fit plant_diameter_breast_height.
+seeds,count,existing,,seeds_per_fruit,,,,,Some counts are per carpel.
+fruit stalk,size,existing,,pedicel_length,,,,,Fruiting pedicel; check life stage.
+male flowers,count,existing,,flowers_per_inflorescence,,,,,Sex-specific; check how to record.
+female flowers,count,existing,,flowers_per_inflorescence,,,,,Sex-specific; check how to record.
+cupules,size,ignore,,,,,,,Fagaceae only.
+cupules,indumentum,ignore,,,,,,,Fagaceae only.
+cupules wall,texture,ignore,,,,,,,Fagaceae only.
+cupules,count,ignore,,,,,,,Fagaceae only.
+fruits scar,size,ignore,,,,,,,Fagaceae only.
+edge,count,ignore,,,,,,,Fagaceae cupule scales.
+syncarps,size,ignore,,,,,,,Annonaceae and Pandanaceae only.
+receptacle,indumentum,ignore,,,,,,,Too family-specific.
+disc,indumentum,ignore,,,,,,,Too fine-grained.
+pistillode,size,ignore,,,,,,,Too fine-grained.
+lateral veins,size,ignore,,,,,,,Vein spacing; rarely given.
+fruits,count,ignore,,,,,,,"Wording is lobes per fruit, not fruit count."
+leaf pleats,armature,ignore,,,,,,,Pandanaceae only.
