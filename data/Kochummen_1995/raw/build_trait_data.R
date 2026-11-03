@@ -1083,9 +1083,10 @@ unmapped_rows <- bind_rows(
     unit = NA_character_,
     trait_value_raw,
     entity_measured = NA_character_,
-    notes = paste0(
-      "UNMAPPED: ",
-      if_else(is.na(organ), character, paste(organ, character, sep = " | "))
+    notes = flora_unmapped_note(
+      coalesce(organ, "section"),
+      if_else(is.na(organ), "text", character),
+      if_else(is.na(organ), character, NA_character_)
     ),
     pdf_page,
     printed_page,

@@ -78,7 +78,10 @@ un <- function(p, raw, what, section = "Description") {
     NA_character_,
     raw,
     NA_character_,
-    notes = paste0("UNMAPPED: ", what),
+    notes = {
+      f <- str_split_1(what, "\\s*\\|\\s*")
+      flora_unmapped_note(f[1], f[2], paste(f[-(1:2)], collapse = "; "))
+    },
     section = section
   )
 }
@@ -473,7 +476,7 @@ sec_unmapped <- map(seq_len(nrow(sec_paras)), \(i) {
     p <- sec_paras[i, ]
     flora_split_sentences(flora_norm(p$text)) |>
       map(\(s) un(at_page(p, s), s,
-                  paste(str_to_lower(p$section), "| text"),
+                  paste("section | text |", str_to_lower(p$section)),
                   section = p$section)) |>
       bind_rows()
   }) |>

@@ -1,109 +1,57 @@
 organ,character,n_taxa,example_taxon,example_text,printed_page
-,distribution,12,Balanophoraceae,"About 45 species in 17 genera worldwide in the tropics and subtropics. In Peninsular Malaysia, 2 genera, Balanophora represented by 6 species, one endemic (B. hansenii), and Helosis by a single end...",67
-flowering tuber-branch,"length, width, shape (candidate plant_height_reproductive)",8,Balanophora,"Flowering tuber-branches ovoid, ellipsoid or obovoid, sometimes cylindric or almost spherical, 1--6 cm long and wide, in a few species repeatedly branching with elongated, cylindrical flowering tub...",68
-"fruit, seed",unknown,7,Balanophora abbreviata,Fruits and Seeds unknown,70
-scale leaves,"colour, count, arrangement, size, shape (bracts on the flowering tuber-branch; no leaf trait)",7,Balanophora,"Scale leaves 2--40, broad-based; spirally arranged, opposite, distichous or whorled and covering the developing inflorescence",68
-,conservation status,7,Balanophora abbreviata,"Critically Endangered B1b(iii). Known from three localities, one very much disturbed while the other two occur on islands often visited by tourists. The species has not been recorded for the past f...",71
-,habitat; altitude,6,Balanophora,"In Peninsular Malaysia, most species are found in montane forest above 1000 m altitude; only Balanophora abbreviata and B. reflexa are lowland species that occur at or below 1000 m. Only one collec...",68
-inflorescence,"colour (candidate trait; not flower colour), shape",5,Balanophora fungosa subsp. indica var. indica,"Female inflorescences dark red, subspherical or obovoid or ellipsoid ... apex rounded",72
+section,text,12,Balanophoraceae,"About 45 species in 17 genera worldwide in the tropics and subtropics. In Peninsular Malaysia, 2 genera, Balanophora represented by 6 species, one endemic (B. hansenii), and Helosis by a single end...",67
+tuber,description,10,Balanophoraceae,"producing a subterranean cylindric or subspherical, branched or unbranched solid tuber at the point of contact with the host root",67
+flowering tuber-branch,description,9,Balanophoraceae,"Flowering tuber-branches producing inflorescences endogenously, leafless (e.g., Helosis) or with crimson or yellow-brown scale leaves (bracts) spirally arranged or opposite or whorled and enclosing...",67
+"fruit, seed",description,7,Balanophora abbreviata,Fruits and Seeds unknown,70
+inflorescence,description,7,Balanophoraceae,"with or without peduncles, fleshy",67
+scale leaves,description,7,Balanophora,"Scale leaves 2--40, broad-based; spirally arranged, opposite, distichous or whorled and covering the developing inflorescence",68
+female flowers,description,5,Balanophoraceae,"Female flowers minute and very numerous, perianth minute, 2-lobed and joined to the ovary or absent",67
+male inflorescence bracts,description,5,Balanophora fungosa subsp. indica var. indica,"bracts truncate, c. 5 x 4 mm",72
 plant,colour,5,Balanophora abbreviata,creamy-white to pale yellow or light brown,70
-tepals,"shape, width",3,Balanophora abbreviata,"median tepals two, broadly truncate, almost square 1.5--2 mm wide; lateral tepals two, narrow, ovate and acute",70
+synandrium,description,5,Balanophora abbreviata,"synandrium white with the fertile part c. 1 mm long, slightly compressed, 1.5--2 mm wide and 0.5--0.75 mm thick, anthers with 16--20 parallel longitudinal locules",70
+tepals,description,5,Balanophora abbreviata,"median tepals two, broadly truncate, almost square 1.5--2 mm wide; lateral tepals two, narrow, ovate and acute",70
+host,description,4,Balanophoraceae,"Root parasites not showing host specificity, but parasitizing a wide range of trees (elsewhere parasitizing herbs and bamboo).",67
+male flowers,description,4,Balanophoraceae,"Male flowers pedicellate or sessile, with or without bracteoles",67
+spadicles,description,4,Balanophora hansenii,"spadicles club-shaped, c. 1 mm long. Female flowers: ovary ellipsoid, c. 0.2--0.25 mm long",74
+stamens,description,3,Balanophoraceae,"united into a synandrium, opposite the tepals; anther locules 2, 4 or many",67
 female inflorescence,shape,2,Balanophora,"Female inflorescences spicate, ovoid, ellipsoid, obovoid or spherical",68
+inflorescence,sex,2,Helosis,"Inflorescences without scale leaves, spadix-like, bisexual, at first covered by peltate bracts with a conical head and margins touching, these caducous at anthesis",79
 male flowers,arrangement,2,Balanophora papuana,Male flowers often in conspicuous vertical rows,77
 male inflorescence,shape,2,Balanophora fungosa subsp. indica var. indica,Male inflorescences ovoid to ellipsoid,72
-male inflorescence bracts,"shape, width",2,Balanophora fungosa subsp. indica var. indica,"bracts truncate, c. 5 x 4 mm",72
-spadicles,"length, shape; ovary length",2,Balanophora papuana,"spadicles c. 1 mm long, obconic at the top. Female flowers: ovaries c. 0.18 mm",77
-spadicles,"shape, length; ovary shape, length",2,Balanophora hansenii,"spadicles club-shaped, c. 1 mm long. Female flowers: ovary ellipsoid, c. 0.2--0.25 mm long",74
-,taxonomy,2,Balanophoraceae,Balanophoraceae is divided into two subfamilies: Balanophoroideae has wax-like balanophorin in its tubers and an ovary with a single style; and Helosidoideae lacks balanophorin and has an ovary wit...,67
+scent,description,2,Balanophora,Balanophora hansenii is also reported to have a disagreeable smell.,69
 anther locules,division,1,Balanophora,sometimes transversely divided into smaller locules,68
 anthers,shape,1,Balanophora fungosa subsp. indica var. indica,horseshoe-shaped,72
-carpels,fusion; embryo; style number,1,Balanophoraceae,"connate, each carpel with 1 embryo; styles 1 or 2; embryo minute, without recognizable nucellus or integuments, consisting of a few cells embedded in scant endosperm",67
-dispersal,"wind, water (outside the flora region or hedged; not scored)",1,Balanophora,"There are no observations on fruit dispersal in Peninsular Malaysia, but for B. abbreviata on Christmas Island, Ridley (J. Str. Br. Roy. As. Soc. 45 (1906) 218) observed that 'a puff of wind blew t...",69
-female flowers,perianth absent; ovary shape; style number; stigma; sterile flowers,1,Helosis ruficeps,"perianth absent; ovary ellipsoid with 2 styles, stigma minute, capitate; upper third of inflorescence with single-styled and sterile female flowers",81
-female flowers,perianth and carpel absent (negative phrase),1,Balanophora,Female flowers without a perianth or distinct carpel,68
-female flowers,position; ovary shape and size,1,Balanophora abbreviata,"Female flowers on main axis of inflorescences as well as on the lower part of spadicles; largest flowers with ovaries ovoid to ellipsoid, c. 0.4 mm long, 0.2 mm diameter",70
-female flowers,position; spadicles; ovary length,1,Balanophora fungosa subsp. indica var. indica,"Female flowers on main axis of inflorescences as well as on cylindrical part of the spadicles; spadicles with an obovoid top, c. 1.7 mm long; largest female flowers with ovary c. 0.25--0.5 mm long",72
-female flowers,"size, number; perianth",1,Balanophoraceae,"Female flowers minute and very numerous, perianth minute, 2-lobed and joined to the ovary or absent",67
-female flowers,size; ovary shape; style number; stigma,1,Helosis,Female flowers minute with compressed ovaries with 2 styles with minute capitate stigmas,79
-female flowers,width,1,Balanophora,0.2--0.7 x 0.15--0.4 mm,68
-female inflorescence,flower number (above flowers_per_inflorescence range); fruit mass (genus-wide estimate),1,Balanophora,"Among flowering plants, the female flowers and fruits of Balanophora are the smallest. Hansen (1972) estimated there are between 10^5--10^7 flowers in a single female inflorescence and the fruits w...",69
-female inflorescence,"flower number (not counted); spadicle shape, length, position",1,Balanophora,"with thousands of flowers; spadicles (bracts) more-or-less club-shaped, 0.5--2.5 mm long, surrounding female flowers or in some species female flowers situated on the lower, narrow part of each spa...",68
-female part of the bisexual inflorescence,"colour, shape, size",1,Balanophora abbreviata,"Female part dark red, ovoid, (1--)1.5(--2.5) cm long, (0.5--)1(--2.25) cm wide",70
-flowering tuber-branch,"inflorescence origin; scale leaves present or absent, colour, arrangement",1,Balanophoraceae,"Flowering tuber-branches producing inflorescences endogenously, leafless (e.g., Helosis) or with crimson or yellow-brown scale leaves (bracts) spirally arranged or opposite or whorled and enclosing...",67
-flowers,pedicel presence,1,Balanophora,Flowers pedicellate or sessile,68
-fruit,size; seed number,1,Balanophoraceae,"Fruits minute, 1-seeded achenes",67
-germination,"haustorium, tuber formation (India; outside the flora region)",1,Balanophora,Germination has been documented for B. abbreviata in India by Arekal & Shivamurthy (Phytomorphology 26 (1976) 135) who observed that the seed at first produces a sticky tubular extension that attac...,69
-host,named host,1,Balanophora fungosa subsp. indica var. indica,"The only Malaysian species confirmed as a host is a conifer, Dacrydium sp. (Ridley s.n. 1899).",72
-host,named hosts,1,Balanophora hansenii,Pentaphylax euryoides Gard. & Champ. (Pentaphylacaceae) and Weinmannia fraxinea (D.Don) Miq. (Cunoniaceae),75
-host,specificity,1,Balanophora,It is often difficult to determine the host from the tangle of roots but none is host specific.,68
-host,"specificity, host range",1,Balanophoraceae,"Root parasites not showing host specificity, but parasitizing a wide range of trees (elsewhere parasitizing herbs and bamboo).",67
-inflorescence,colour (candidate trait; not flower colour),1,Balanophora hansenii,Male inflorescences yellow or pale yellow,74
-inflorescence,hairs among flowers,1,Helosis,Flowers densely mixed with numerous hairs,79
-inflorescence,male zone length and position,1,Balanophora abbreviata,in a zone 0.5--2 cm below female flowers,70
-inflorescence,"nectariferous hairs (nectar from hairs, not stated for flowers)",1,Helosis ruficeps,Flowers embedded in a dense layer of nectariferous hairs,79
-inflorescence,peduncle presence; texture,1,Balanophoraceae,"with or without peduncles, fleshy",67
-inflorescence,position of male and female flowers,1,Balanophora,with the male flowers below the female flowers (elsewhere with male flowers intermixed with or above the female flowers),68
-inflorescence,sex (see sex_type),1,Balanophora abbreviata,Inflorescences bisexual,70
-inflorescence,"sex, position of male and female flowers; covering scales",1,Balanophoraceae,"spikes unisexual or bisexual with the male flowers below and/or above the female flowers or with male and female flowers intermixed; in a few genera (e.g., Helosis) until anthesis covered by hexago...",67
-inflorescence,spadix-like (family 'spicate' copied as spike); sex; peltate bracts,1,Helosis,"Inflorescences without scale leaves, spadix-like, bisexual, at first covered by peltate bracts with a conical head and margins touching, these caducous at anthesis",79
-inflorescence apex; peltate bracts,"colour, size, shape",1,Helosis ruficeps,"apex rounded or slightly narrowed; peltate bracts deep crimson, stalk 1.5--2 mm long, head sharply conical, 4--6-sided, c. 4 x 4--5 mm",79
-lateral tepals,"shape, width",1,Balanophora hansenii,"lateral tepals narrowly obtuse to acute, 2--4 x 1--3 mm",74
-male flower buds,thickness,1,Balanophora reflexa,(2.5--)3(--3.5) mm thick,78
-male flowers,compressed,1,Balanophora latisepala,zygomorphic and compressed,75
-male flowers,cross-section; orientation before and after anthesis,1,Balanophora reflexa,"compressed, c. 3 x 2 mm in cross-section, before anthesis pointing upwards and closely appressed to the axis of the inflorescence, during and after anthesis strongly reflexed",78
-male flowers,number per inflorescence (open-ended 'or more'),1,Balanophora reflexa,Male flowers 7--9 or more,78
-male flowers,orientation at anthesis,1,Balanophora hansenii,not becoming reflexed at anthesis,74
-male flowers,"pedicel, bracteoles",1,Balanophoraceae,"Male flowers pedicellate or sessile, with or without bracteoles",67
-male flowers,"tepal fusion, number, whorls (qualified by 'or lacking')",1,Balanophoraceae,"tepals free, 2--4(--6) in one series, or lacking",67
-male flowers,tepal shape,1,Balanophora,"tepals ovate to lanceolate, acute or almost square and truncate",68
-male inflorescence,length elsewhere (5.5 cm; differs from the description's 5 cm),1,Balanophora fungosa subsp. indica var. indica,as compared with up to 5.5 cm elsewhere,72
-male inflorescence bracts,"colour, texture, width, shape",1,Balanophora hansenii,"bracts yellow, thick, 1--2.5 x 4--5.5 mm, truncate, apex blunt",74
-male inflorescence bracts,rudimentary,1,Balanophora papuana,bracts rudimentary,77
+carpels,description,1,Balanophoraceae,"connate, each carpel with 1 embryo; styles 1 or 2; embryo minute, without recognizable nucellus or integuments, consisting of a few cells embedded in scant endosperm",67
+dispersal,description,1,Balanophora,"There are no observations on fruit dispersal in Peninsular Malaysia, but for B. abbreviata on Christmas Island, Ridley (J. Str. Br. Roy. As. Soc. 45 (1906) 218) observed that 'a puff of wind blew t...",69
+female flowers,presence,1,Balanophora,Female flowers without a perianth or distinct carpel,68
+female flowers,size,1,Balanophora,0.2--0.7 x 0.15--0.4 mm,68
+female inflorescence,count,1,Balanophora,"Among flowering plants, the female flowers and fruits of Balanophora are the smallest. Hansen (1972) estimated there are between 10^5--10^7 flowers in a single female inflorescence and the fruits w...",69
+female inflorescence,description,1,Balanophora,"with thousands of flowers; spadicles (bracts) more-or-less club-shaped, 0.5--2.5 mm long, surrounding female flowers or in some species female flowers situated on the lower, narrow part of each spa...",68
+female part of the bisexual inflorescence,description,1,Balanophora abbreviata,"Female part dark red, ovoid, (1--)1.5(--2.5) cm long, (0.5--)1(--2.25) cm wide",70
+flowers,presence,1,Balanophora,Flowers pedicellate or sessile,68
+fruit,description,1,Balanophoraceae,"Fruits minute, 1-seeded achenes",67
+germination,description,1,Balanophora,Germination has been documented for B. abbreviata in India by Arekal & Shivamurthy (Phytomorphology 26 (1976) 135) who observed that the seed at first produces a sticky tubular extension that attac...,69
+inflorescence,arrangement,1,Balanophora,with the male flowers below the female flowers (elsewhere with male flowers intermixed with or above the female flowers),68
+inflorescence,colour,1,Balanophora hansenii,Male inflorescences yellow or pale yellow,74
+inflorescence,indumentum,1,Helosis,Flowers densely mixed with numerous hairs,79
+inflorescence apex; peltate bracts,description,1,Helosis ruficeps,"apex rounded or slightly narrowed; peltate bracts deep crimson, stalk 1.5--2 mm long, head sharply conical, 4--6-sided, c. 4 x 4--5 mm",79
+lateral tepals,description,1,Balanophora hansenii,"lateral tepals narrowly obtuse to acute, 2--4 x 1--3 mm",74
+male flower buds,size,1,Balanophora reflexa,(2.5--)3(--3.5) mm thick,78
+male flowers,count,1,Balanophora reflexa,Male flowers 7--9 or more,78
+male flowers,shape,1,Balanophora,"tepals ovate to lanceolate, acute or almost square and truncate",68
+male inflorescence,size,1,Balanophora fungosa subsp. indica var. indica,as compared with up to 5.5 cm elsewhere,72
 male inflorescence bracts,shape,1,Balanophora,"bracts non-peltate, usually short and truncate",68
-male inflorescence bracts,shape; lower bract teeth,1,Balanophora reflexa,"upper bracts entire, truncate ... lower bracts divided to the base into 4--6(--7) teeth, each about 1--2 x 0.5 mm long",78
-median tepals,"size printed in cm (probable source typo for mm; question 4), shape",1,Balanophora hansenii,"median tepals broad, truncate, 2.5--4 x 2--3.5 cm",74
+median tepals,description,1,Balanophora hansenii,"median tepals broad, truncate, 2.5--4 x 2--3.5 cm",74
 perianth lobes,shape,1,Helosis ruficeps,"lobes ... oblong, truncate",81
-phenology,collection months (not stated as flowering; question 6),1,Helosis ruficeps,It has been collected between August and February.,81
-phenology,"seasonal tubers, peak flowering ('most' species; not copied); B. papuana scored from its own Ecology",1,Balanophora,"Most are seasonal with annual tubers that begin to develop from the beginning of the year with peak flowering between August and October, the infructescences dying by the year's end. The exception ...",68
-plant,roots and stems absent (negative phrase),1,Balanophoraceae,"Herbaceous, fleshy root parasites without roots, stems or chlorophyll",67
-pollen,"colour, stickiness",1,Balanophora,the male flowers produce conspicuous sticky white pollen,69
-pollination,"beetle or fly (hedged 'suggests'; Sabah, outside the flora region; not scored)",1,Balanophora,The strong smell produced by mature inflorescences of B. reflexa on G. Kinabalu suggests it is pollinated by beetles or flies.,69
-scent,"B. hansenii (scored from its own Ecology, Hambali 1980)",1,Balanophora,Balanophora hansenii is also reported to have a disagreeable smell.,69
-scent,Sabah (outside the flora region; not scored),1,Balanophora reflexa,"Flowering specimens on G. Kinabalu smell strongly of fox or mice (Kiew, 1978).",78
-sex type,evidence for dioecy; inflorescence size and host root,1,Balanophora,"Few species, e.g. B. abbreviata, are monoecious and produce bisexual inflorescences. In species with separate male and female inflorescences, they have never been observed to emerge from the same t...",69
-stamens,filaments free; anthers fused (synandrium); locules,1,Helosis,"stamens with free filaments, the anthers joined to form a synandrium with many anther locules",79
-stamens,"fusion (synandrium), position; anther locule number",1,Balanophoraceae,"united into a synandrium, opposite the tepals; anther locules 2, 4 or many",67
-stamens,fusion (synandrium); anther number (alternative 'or number indeterminable'),1,Balanophora,stamens connate and forming a more-or-less elongated synandrium; anthers 4--5 or number indeterminable,68
-stamens,"number (relative), filaments free; synandrium shape; locules; pistillode absent",1,Helosis ruficeps,"stamens the same number as the tepal lobes, filaments free, anthers joined to form a globose synandrium, in 3-merous flowers with 10--16 locules arranged in more than one layer; pistillode absent",81
-style,"number, stigmatic surface",1,Balanophora,"with a single style ... apparently stigmatoid at and near apex, where pollen grains are often found attached",68
-synandrium,"colour, length (printed in cm; probable source typo, question 4); torus; anther locules",1,Balanophora hansenii,"synandrium white, 0.5--2.5 cm long, elevated on a torus 1--1.5 mm long; anther locules c. 20",74
-synandrium,"colour, shape; anther locules",1,Balanophora latisepala,"synandrium white with fertile part laterally elongated, anther locules 16--20 or more, parallel and longitudinal",75
-synandrium,"colour, size, shape",1,Balanophora fungosa subsp. indica var. indica,"synandrium white with fertile part slightly compressed, 2.5--5 mm long, 3.5 mm wide, 2 mm thick, often slightly obconical",72
-synandrium,"colour, size; anther locules",1,Balanophora abbreviata,"synandrium white with the fertile part c. 1 mm long, slightly compressed, 1.5--2 mm wide and 0.5--0.75 mm thick, anthers with 16--20 parallel longitudinal locules",70
-synandrium,"shape, size; anther locules",1,Balanophora papuana,"synandrium with fertile part often slightly obconic, laterally elongated, c. 3 x 7 mm and 3 mm thick, anther locules parallel",77
-synandrium,"shape; anther locules (orientation, not dehiscence)",1,Balanophora reflexa,"synandrium with fertile part much compressed, almost fan-shaped; anther locules parallel and longitudinal",78
-tepals,"number per kind, shape",1,Balanophora reflexa,"median tepals 2, almost square, truncate; lateral tepals 2, narrow, lanceolate, acute",78
-tepals,"width, shape, apex",1,Balanophora fungosa subsp. indica var. indica,"tepals 3--7 x 1--2.5 mm, elliptic-lanceolate, apex acute",72
-tuber,"colour, size, surface",1,Balanophora fungosa subsp. indica var. indica,"Tubers tawny brown (elsewhere yellow to orange-yellow or pink), single or in a lumpy mass more-or-less branched to 25 cm across, surface coarsely tessellate to finely granular with stellate warts",72
-tuber,"colour, surface, hairs, wax",1,Balanophora hansenii,"Tubers light brown, surface finely granular and minutely puberulous, hairs abrading with age, with scattered white stellate warts, cortex of tuber and its branches filled with wax",74
-tuber,"number, size, branching",1,Balanophora abbreviata,"Tubers single or several together in a mass, about 5 cm wide, branching from the base",70
-tuber,"number, size, branching, surface",1,Balanophora reflexa,"Tubers several together in a stout mass 2--3.5 cm diameter, branching from the base, surface coarsely tessellate, without conspicuous stellate white warts",78
-tuber,"orientation, size, surface, colour",1,Helosis ruficeps,"Tuber horizontal, branching, at least 15 cm long and 0.5--1 cm diameter, slightly rugose, yellow becoming crimson or orange-brown",79
-tuber,"position, shape, branching (host-parasite organ; candidate storage_organ)",1,Balanophoraceae,"producing a subterranean cylindric or subspherical, branched or unbranched solid tuber at the point of contact with the host root",67
-tuber,"shape, orientation (rhizome-like)",1,Helosis,"Flowering tuber-branches produced from elongated, horizontal rhizome-like tubers",79
-tuber,"shape, size, branch number, surface",1,Balanophora papuana,"Tubers a much branched coral-like mass, 14--24 cm diameter with 3--12 branches, surface tessellate with polygons 1--2 mm across with scattered stellate white warts",76
-tuber,"shape, size, surface",1,Balanophora,"Tuber an irregularly knobbly, compact, subspherical mass, 1--25 cm across; surface finely granular to coarsely tessellate, with or without stellate warts",68
-tuber,"size, branching, surface",1,Balanophora latisepala,"Tubers in a mass, 4.5--15 cm across, little branched from the base, surface finely granular with few to numerous stellate warts",75
-tuber,wax (balanophorin) content,1,Balanophora,"All species contain waxy balanophorin in varying amounts but among the Peninsular Malaysian species, only B. hansenii has wax in any quantity in its cortical cells.",69
+phenology,description,1,Helosis ruficeps,It has been collected between August and February.,81
+phenology,phenology,1,Balanophora,"Most are seasonal with annual tubers that begin to develop from the beginning of the year with peak flowering between August and October, the infructescences dying by the year's end. The exception ...",68
+plant,presence,1,Balanophoraceae,"Herbaceous, fleshy root parasites without roots, stems or chlorophyll",67
+pollen,description,1,Balanophora,the male flowers produce conspicuous sticky white pollen,69
+pollination,description,1,Balanophora,The strong smell produced by mature inflorescences of B. reflexa on G. Kinabalu suggests it is pollinated by beetles or flies.,69
+scale leaves,presence,1,Helosis,without scale leaves,79
+sex type,description,1,Balanophora,"Few species, e.g. B. abbreviata, are monoecious and produce bisexual inflorescences. In species with separate male and female inflorescences, they have never been observed to emerge from the same t...",69
+stamens,fusion,1,Helosis,"stamens with free filaments, the anthers joined to form a synandrium with many anther locules",79
+style,description,1,Balanophora,"with a single style ... apparently stigmatoid at and near apex, where pollen grains are often found attached",68
+synandrium,shape,1,Balanophora reflexa,"synandrium with fertile part much compressed, almost fan-shaped; anther locules parallel and longitudinal",78
+tuber,surface,1,Balanophora,"All species contain waxy balanophorin in varying amounts but among the Peninsular Malaysian species, only B. hansenii has wax in any quantity in its cortical cells.",69
 "tuber, scale leaves, inflorescence",colour,1,Balanophoraceae,"tuber, scale leaves and inflorescences deep crimson, orange or pale brown (elsewhere yellowish white or rosy pink)",67
-,comparison with B. elongata; female plants first described,1,Balanophora hansenii,"First reported from G. Ulu Kali as Balanophora elongata Blume (Stone, 1980), which is a completely different species with ... compared with the columnar flowering tuber-branches of B. hansenii with...",75
-,flower visitors not observed; host unknown,1,Helosis ruficeps,"Nothing is known about its biology, no insect visitors have been observed, nor have the host species been recorded.",81
-,habitat; altitude; rarity,1,Balanophora reflexa,"In Peninsular Malaysia, it has been collected from only two localities and is extremely rare. ... It is possible that this species is now extinct in Peninsular Malaysia. Compared with Borneo, where...",78
-,habitat; altitude; soil; associated species,1,Balanophora hansenii,"Upper montane forest at 1600--1800 m altitude growing in moist humus-rich soil, frequently among thickets of Pandanus klossii Ridl. (Pandanaceae).",75
-,habitat; altitude; substrate (limestone); Thailand (outside the flora region),1,Balanophora latisepala,"In Peninsular Malaysia not common, usually in montane forest between 1200--1700 m but in Perlis, with a monsoon climate, it has been collected at low altitude on limestone (Bt. Lagi). In Thailand, ...",76
-,scale leaves absent (negative phrase),1,Helosis,without scale leaves,79
-,specimen identification,1,Balanophora papuana,"Hansen (1972) identified one of the two specimens (Poore s.n., 1964) from Jengka Triangle ... as B. papuana, but re-examination of this specimen shows it to be a female plant of B. reflexa.",77
-,taxonomy (varieties outside the flora region),1,Balanophora fungosa subsp. indica,"Hansen (1972) recognised three varieties, two rare (var. globosa ... from Java ...; and var. minor ... from India and Thailand ...); and one, var. indica, widespread.",72
-,taxonomy; sex type of subspecies (subsp. indica var. indica scored from its own description),1,Balanophora fungosa,"The species is divided into two subspecies: subsp. fungosa that is monoecious with male flowers below the female on a single inflorescence, and subsp. indica that is dioecious. ...",71
-,uses,1,Balanophora,"In Java, the wax-filled tuber-branches of Balanophora elongata Blume are used as torches (Steenis, Mt. Fl. Java (1972) pl. 5.1).",69
-,vernacular name; plant colour and branching,1,Balanophora papuana,Its bright red and slender much-branched habit led Ridley (1924) and Henderson (1959) to name it the Coral Plant.,77

@@ -58,7 +58,7 @@ family <- bind_rows(
   ),
   f$un(
     "The systematic position of the family has been controversial. ... The interpretation of the inflorescence structure used here differs from that of van Steenis l.c. and was kindly provided by Dr. K. M. Wong.",
-    "taxonomy",
+    "section | text | taxonomy",
     sec = "Family Taxonomy",
     p = "p375"
   )
@@ -601,20 +601,20 @@ sp <- bind_rows(
   s$un("funicle c. 3 mm long", "funicle | length", p = "p376"),
   s$un(
     "In Sabah, known from the Crocker Range through the interior to the east coast and southwards from Sapulut to Tawau; also in Kudat at the northern most tip of Sabah. In Sarawak, on the Rejang river from Kapit to Belaga and headwaters of the rivers to the north; also on the Balleh river south of Kapit and on the Baram river near Lobang Garam. Also known in Kalimantan.",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p376"
   ),
   s$un(
     "In Sabah, found in primary rain forest from flat and sloping ridge areas to steep-sided riverbanks, streams and gorges, and also in logged and disturbed forests.",
-    "habitat; disturbance",
+    "section | text | habitat; disturbance",
     sec = "Ecology",
     region = "Sabah",
     p = "p376"
   ),
   s$un(
     "In Sarawak, often growing along banks of swift-flowing rivers, at 20--1700 m.",
-    "habitat (riparian); altitude",
+    "section | text | habitat (riparian); altitude",
     sec = "Ecology",
     region = "Sarawak",
     p = "p376"
@@ -627,14 +627,14 @@ sp <- bind_rows(
   ),
   s$un(
     "In Sarawak, the leaves are pounded together with tuba roots and used as fish-poison.",
-    "uses (fish poison)",
+    "section | text | uses (fish poison)",
     sec = "Uses",
     region = "Sarawak",
     p = "p378"
   ),
   s$un(
     "This species can be mistaken for Flacourtia rukam (Flacourtiaceae) ... the 4-angular, zig-zag twigs, the serrulate leaf margin, and the fruit being a dehiscent fleshy capsule rather than an indehiscent drupe clearly distinguish S. borneensis from F. rukam.",
-    "differential note (twigs, leaf margin, fruit)",
+    "section | text | differential note (twigs, leaf margin, fruit)",
     sec = "Notes",
     p = "p378"
   )

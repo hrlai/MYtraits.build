@@ -249,7 +249,7 @@ desc_unmapped <- pieces |>
       map_chr(head, organ_of),
       "plant"
     ),
-    notes = paste0("UNMAPPED: ", organ, " | description clause"),
+    notes = flora_unmapped_note(organ, "description"),
     source_section = "Description"
   ) |>
   select(block, rank, trait_value_raw, pdf_page, printed_page, notes,
@@ -262,7 +262,7 @@ aside_unmapped <- own_desc |>
   distinct(block, rank, trait_value_raw, pdf_page, printed_page) |>
   mutate(
     trait_value_raw = str_extract(trait_value_raw, "\\(elsewhere[^)]*\\)"),
-    notes = "UNMAPPED: lamina | division outside the region",
+    notes = flora_unmapped_note("lamina", "division", "outside the region"),
     source_section = "Description"
   )
 
@@ -300,7 +300,7 @@ sec_unmapped <- map(seq_len(nrow(sec_paras)), \(r) {
       trait_value_raw = x,
       pdf_page = pg$pdf,
       printed_page = pg$printed,
-      notes = paste0("UNMAPPED: ", str_to_lower(p$section), " | text"),
+      notes = flora_unmapped_note("section", "text", str_to_lower(p$section)),
       source_section = p$section,
       source_id = if (length(hit)) cited[[hit[1]]] else NA_character_
     )

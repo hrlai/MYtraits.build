@@ -11,6 +11,8 @@ suppressPackageStartupMessages(library(tidyverse))
 # stats::filter and stats::lag would otherwise mask the dplyr verbs.
 filter <- dplyr::filter
 lag <- dplyr::lag
+# flora_unmapped_characters, the listed characters of unmapped notes
+source(".github/skills/extract-traits-from-floras-my/scripts/flora_assemble.R")
 
 flora_qa <- function(
   id,
@@ -248,6 +250,22 @@ flora_qa <- function(
     filter(is.na(trait)) |>
     count(source_section = str_remove(source_section, ", p\\..*"))
   out$rank_scored_from <- td |> count(rank_scored_from)
+  # unmapped notes not of the form "UNMAPPED: <organ> | <listed character>"
+  # (flora_unmapped_note()): they break the cross-dataset summaries
+  out$unmapped_note_format <- td |>
+    filter(is.na(trait)) |>
+    mutate(
+      parts = str_split(str_remove(notes, "^UNMAPPED:\\s*"), "\\s*\\|\\s*"),
+      organ = map_chr(parts, 1),
+      character = map_chr(parts, \(p) p[2])
+    ) |>
+    filter(
+      !str_detect(coalesce(notes, ""), "^UNMAPPED: ") |
+        is.na(organ) |
+        organ == "" |
+        !character %in% names(flora_unmapped_characters)
+    ) |>
+    count(notes)
 
   # 10. coverage of the core traits per taxon
   core <- intersect(

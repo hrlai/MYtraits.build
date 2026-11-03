@@ -193,14 +193,14 @@ d <- bind_rows(
   # ---- Genus clauses with no mapped trait ----
   un(
     "Without stipules.",
-    "stipules absent (negative phrase, not scored)",
+    "stipules | absent (negative phrase, not scored)",
     rank = "genus",
     sec = G1,
     p = "genus1"
   ),
   un(
     "Leaves simple, spirally arranged, pinnately veined.",
-    "venation: pinnately veined",
+    "leaf | venation: pinnately veined",
     rank = "genus",
     sec = G1,
     p = "genus1"
@@ -209,70 +209,70 @@ d <- bind_rows(
     dd(
       "Inflorescences axillary, spike-like, often developing into foliate twigs, or with only solitary flowers along foliate twigs; bracteate, bracteoles 1–2, persistent."
     ),
-    "bracts/bracteoles presence, count (1--2), persistence",
+    "inflorescence | bracts/bracteoles presence, count (1--2), persistence",
     rank = "genus",
     sec = G1,
     p = "genus1"
   ),
   un(
     "pedicel short or absent",
-    "pedicel length (qualitative)",
+    "pedicel | length (qualitative)",
     rank = "genus",
     sec = G1,
     p = "genus1"
   ),
   un(
     "sepals 5, imbricate; petals 5, imbricate, adnate with the stamens at the base",
-    "sepal and petal count, aestivation, adnation to stamens",
+    "perianth | sepal and petal count, aestivation, adnation to stamens",
     rank = "genus",
     sec = G1,
     p = "genus1"
   ),
   un(
     "filaments broadest at the base, narrowing towards the anther, anther 2-locular",
-    "filament shape; anther locule count",
+    "stamen | filament shape; anther locule count",
     rank = "genus",
     sec = G1,
     p = "genus1"
   ),
   un(
     "ovules 2 per locule, pendulous on axile placentas",
-    "ovule count per locule; ovule orientation",
+    "ovule | count per locule; ovule orientation",
     rank = "genus",
     sec = G2,
     p = "genus2"
   ),
   un(
     "splitting loculicidally in the upper half or down to the base into 5 valves detaching from a persistent central column, each valve bearing a woody septum down the centre",
-    "capsule valve count (5), columella, septum, wood texture",
+    "fruit | capsule valve count (5), columella, septum, wood texture",
     rank = "genus",
     sec = G2,
     p = "genus2"
   ),
   un(
     "Seeds laterally flattened, with a membranous wing at one end; embryo horseshoe-shaped, endosperm scarce.",
-    "seed flattening; wing texture; embryo shape; endosperm amount",
+    "seed | flattening; wing texture; embryo shape; endosperm amount",
     rank = "genus",
     sec = G2,
     p = "genus2"
   ),
   un(
     "Monogeneric family.",
-    "family circumscription; no trait",
+    "section | text | family circumscription; no trait",
     rank = "family",
     sec = "Family description",
     p = "genus1"
   ),
   un(
     "Engler (1897) described Pentaphylacaceae as a family distinct from Ternstroemiaceae based on its spirally arranged leaves and five anthers with terminal pores opening with small lids",
-    "taxonomic argument; repeats genus characters (leaf arrangement, anther count/dehiscence); small lids on pores",
+    "section | text | taxonomic argument; repeats genus characters (leaf arrangement, anther count/dehiscence); small lids on pores",
     rank = "family",
     sec = "Family Taxonomy",
     p = "genus1"
   ),
   un(
     "A genus with one widely distributed species, extending from SE China (including Hainan and Hong Kong, where it is a dominant species in montane evergreen forest), to Vietnam, N and C Sumatra, and Peninsular Malaysia.",
-    "global distribution",
+    "section | text | global distribution",
     rank = "genus",
     sec = "Genus Distribution",
     p = "gen_dist",
@@ -280,14 +280,14 @@ d <- bind_rows(
   ),
   un(
     "It is sometimes cultivated as an ornamental.",
-    "use: ornamental (qualified 'sometimes')",
+    "section | text | use: ornamental (qualified 'sometimes')",
     rank = "genus",
     sec = "Genus Uses",
     p = "gen_dist"
   ),
   un(
     "Pentaphylax is an aluminium accumulator and its leaves dry yellowish green due to their high aluminium content (Chenery, Kew Bull. (1948) 176).",
-    "aluminium accumulator (qualitative; cf. leaf_Al_per_dry_mass, no value given); dried leaf colour",
+    "leaf | aluminium accumulator (qualitative; cf. leaf_Al_per_dry_mass, no value given); dried leaf colour",
     rank = "genus",
     sec = "Genus Note",
     p = "gen_dist"
@@ -606,130 +606,130 @@ d <- bind_rows(
   # ---- Species description: unmapped ----
   un(
     "beginning to flower at 60 cm",
-    "size at first flowering (height 60 cm); not plant_height",
+    "plant | size at first flowering (height 60 cm); not plant_height",
     p = "sp1"
   ),
-  un("bole smooth, columnar", "bole surface and shape", p = "sp1"),
+  un("bole smooth, columnar", "bole | surface and shape", p = "sp1"),
   un(
     "without buttresses",
-    "buttresses absent (negative phrase; stem_base_form has no 'absent' level)",
+    "buttresses | absent (negative phrase; stem_base_form has no 'absent' level)",
     p = "sp1"
   ),
   un(
     "Sapwood pale yellow to yellow and pink-tinged.",
-    "sapwood colour",
+    "sapwood | colour",
     p = "sp1"
   ),
   un(
     "Bark ... with lenticels; inner bark ... granular, brittle",
-    "lenticels; inner bark texture",
+    "bark | lenticels; inner bark texture",
     p = "sp1"
   ),
   un(
     "Twigs black when dry, ridged lengthwise",
-    "twig colour and surface",
+    "twig | colour and surface",
     p = "sp1"
   ),
   un(
     "Leaves in life with lateral and intercostal veins dark green contrasting pale yellowish green beneath, drying khaki, young leaves red",
-    "leaf colour in life/dried/young; ambiguous which part is dark green",
+    "leaf | colour in life/dried/young; ambiguous which part is dark green",
     p = "sp1"
   ),
   un(
     "petioles slender, ... grooved above, sparsely minutely pubescent or glabrous",
-    "petiole shape, grooving, hairs",
+    "petiole | shape, grooving, hairs",
     p = "sp1"
   ),
-  un("chartaceous to thickly coriaceous", "lamina texture", p = "sp1"),
+  un("chartaceous to thickly coriaceous", "leaf blade | texture", p = "sp1"),
   un(
     "margin ... sometimes minutely ciliate",
-    "leaf margin ciliation",
+    "leaf margin | ciliation",
     p = "sp1"
   ),
-  un("tip minutely retuse", "apex tip shape", p = "sp1"),
+  un("tip minutely retuse", "leaf apex | tip shape", p = "sp1"),
   un(
     "midrib sparsely minutely pubescent, in the lower half grooved above, prominent beneath; lateral veins 7--12 pairs, fine, raised above, prominent beneath; intercostal veins finely reticulate, conspicuous, sometimes faint",
-    "midrib hairs/relief; lateral vein count (7--12 pairs); venation",
+    "leaf | midrib hairs/relief; lateral vein count (7--12 pairs); venation",
     p = "sp1"
   ),
   un(
     "rachis ridged, minutely pubescent, rarely both inflorescences and solitary flowers on the same shoot",
-    "rachis surface/hairs; inflorescence mixing",
+    "inflorescence | rachis surface/hairs; inflorescence mixing",
     p = "sp1"
   ),
   un(
     "bracts and bracteoles deltoid, keeled, ... minutely pubescent, margin ciliate",
-    "bract shape, keel, hairs, margin",
+    "bract | shape, keel, hairs, margin",
     p = "sp1"
   ),
-  un("buds light green to green, globular", "bud colour and shape", p = "sp1"),
+  un("buds light green to green, globular", "bud | colour and shape", p = "sp1"),
   un(
     "sepals deltoid, ... c. 1 mm, unequal, outside minutely pubescent, inside keeled, glabrous, margin ciliate",
-    "sepal shape, width, inequality, hairs, keel, margin",
+    "sepal | shape, width, inequality, hairs, keel, margin",
     p = "sp1"
   ),
   un(
     "petals ... obovate to oblong, ... (0.5)--1.5 mm, glabrous, margin entire, apex rounded to slightly retuse",
-    "petal shape, width, hairs, margin, apex",
+    "petal | shape, width, hairs, margin, apex",
     p = "sp1"
   ),
   un(
     "sepals deltoid, (0.5)--1 x c. 1 mm",
-    "flower_sepal_width (candidate): c. 1 mm; length read as first dimension, see metadata question",
+    "sepal | size | flower_sepal_width (candidate): c. 1 mm; length read as first dimension, see metadata question",
     p = "sp1"
   ),
   un(
     "petals ... obovate to oblong, c. 2--3 x (0.5)--1.5 mm",
-    "flower_petal_width (candidate): (0.5)--1.5 mm",
+    "petal | size | flower_petal_width (candidate): (0.5)--1.5 mm",
     p = "sp1"
   ),
   un(
     "anthers c. 0.5 mm across, pores opening by a minute beaked lid, attached at the lower end of the pore aperture",
-    "anther width (across); pore lid",
+    "anther | width (across); pore lid",
     p = "sp2"
   ),
   un(
     "ovary ovoid, c. 0.5 mm long, 0.5 mm diameter",
-    "ovary shape and size",
+    "ovary | shape and size",
     p = "sp2"
   ),
-  un("stigma 5-lobed and star-shaped", "stigma lobes and shape", p = "sp2"),
+  un("stigma 5-lobed and star-shaped", "stigma | lobes and shape", p = "sp2"),
   un(
     "Fruits green, sometimes with longitudinal light green lines",
-    "unripe fruit colour, striping",
+    "fruit | unripe fruit colour, striping",
     p = "sp2"
   ),
   un(
     "ellipsoid, rounded at both ends, ... style persistent",
-    "fruit shape, apex/base, style persistence",
+    "fruit | shape, apex/base, style persistence",
     p = "sp2"
   ),
   un(
     "Seeds 1--2 per locule",
-    "seeds per locule (not per plant; seed_count not applicable)",
+    "seed | seeds per locule (not per plant; seed_count not applicable)",
     p = "sp2"
   ),
   un(
     "wing linear-oblong, 5--6 mm long, 1--2 mm wide",
-    "seed wing shape and size (no wing traits; seed_length not scored from wing)",
+    "seed wing | shape and size (no wing traits; seed_length not scored from wing)",
     p = "sp2"
   ),
   un(
     "in Peninsular Malaysia recorded in Kedah, Perak, Kelantan, Pahang, Selangor, and Johor.",
-    "state-level distribution",
+    "section | text | state-level distribution",
     sec = "Distribution",
     p = "sp2",
     region = "Peninsular Malaysia"
   ),
   un(
     "Least concern.",
-    "conservation status",
+    "section | text | conservation status",
     sec = "Conservation status",
     p = "sp2"
   ),
   un(
     "it grows in lower to upper montane forest between 900--2000 m, mainly on rocky ridge tops.",
-    "habitat (forest type, ridge tops) and elevation 900--2000 m; no traits",
+    "section | text | habitat (forest type, ridge tops) and elevation 900--2000 m; no traits",
     sec = "Ecology",
     p = "eco",
     region = "Peninsular Malaysia"

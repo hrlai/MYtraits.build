@@ -528,17 +528,15 @@ parse_description <- function(p) {
     transmute(
       trait = NA_character_,
       trait_value_raw = text,
-      notes = paste0(
-        "UNMAPPED: ",
+      notes = flora_unmapped_note(
         if_else(organ %in% c("lamina", "base", "margin", "apex", "acumen") & sent_organ %in% "leaves",
           paste("leaf", str_replace(organ, "lamina", "blade")),
           if_else(organ %in% c("base", "apex", "wall", "scar", "stalk") & !is.na(sent_organ),
             paste(sent_organ, organ), coalesce(organ, "unknown organ")
           )
         ),
-        " | ",
         character_of(text),
-        if_else(hedged(text), " | hedged", "")
+        if_else(hedged(text), "hedged", "")
       ),
       pdf_page,
       printed_page
@@ -648,7 +646,7 @@ later_unmapped <- later |>
     rank,
     trait = NA_character_,
     trait_value_raw = sentence,
-    notes = paste0("UNMAPPED: ", str_to_lower(section), " | text"),
+    notes = flora_unmapped_note("section", "text", str_to_lower(section)),
     source_section = section,
     pdf_page,
     printed_page

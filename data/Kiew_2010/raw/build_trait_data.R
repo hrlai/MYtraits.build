@@ -199,7 +199,7 @@ family <- bind_rows(
   f$un("Fruits minute, 1-seeded achenes", "fruit | size; seed number", p = "p67"),
   f$un(
     "About 45 species in 17 genera worldwide in the tropics and subtropics. In Peninsular Malaysia, 2 genera, Balanophora represented by 6 species, one endemic (B. hansenii), and Helosis by a single endemic species, H. ruficeps.",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p67"
   ),
@@ -211,7 +211,7 @@ family <- bind_rows(
   ),
   f$un(
     "Balanophoraceae is divided into two subfamilies: Balanophoroideae has wax-like balanophorin in its tubers and an ovary with a single style; and Helosidoideae lacks balanophorin and has an ovary with 2 (rarely 2–5 styles). ... it remains unplaced among the orders of dicotyledons",
-    "taxonomy",
+    "section | text | taxonomy",
     sec = "Taxonomy",
     p = "p67"
   )
@@ -364,13 +364,13 @@ balanophora_g <- bind_rows(
   ),
   g$un(
     "About 15 species in temperate to tropical Asia, throughout Malesia, Pacific Islands, tropical Australia, Comoros, Madagascar and tropical Africa (Congo); 6 species in Peninsular Malaysia.",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p68"
   ),
   g$un(
     "In Peninsular Malaysia, most species are found in montane forest above 1000 m altitude; only Balanophora abbreviata and B. reflexa are lowland species that occur at or below 1000 m. Only one collection (B. latisepala) is from limestone at low altitude.",
-    "habitat; altitude",
+    "section | text | habitat; altitude",
     sec = "Ecology",
     p = "p68"
   ),
@@ -437,7 +437,7 @@ balanophora_g <- bind_rows(
   ),
   g$un(
     "In Java, the wax-filled tuber-branches of Balanophora elongata Blume are used as torches (Steenis, Mt. Fl. Java (1972) pl. 5.1).",
-    "uses",
+    "section | text | uses",
     sec = "Uses",
     p = "p69"
   ),
@@ -558,19 +558,19 @@ b_abbreviata <- bind_rows(
   s$un("Fruits and Seeds unknown", "fruit, seed | unknown", p = "p70"),
   s$un(
     "Tropical Africa (Congo), Comoros and Madagascar, India ... In Peninsular Malaysia, recorded only three times from N Perak (Lenggong), Pahang (Pulau Tioman) and Johor (Pulau Aur).",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p70"
   ),
   s$un(
     "Critically Endangered B1b(iii). Known from three localities, one very much disturbed while the other two occur on islands often visited by tourists. The species has not been recorded for the past fifty years.",
-    "conservation status",
+    "section | text | conservation status",
     sec = "Conservation status",
     p = "p71"
   ),
   s$un(
     "In evergreen forest, sea level to 1000 m altitude on G. Kajang, Pulau Tioman.",
-    "habitat; altitude",
+    "section | text | habitat; altitude",
     sec = "Ecology",
     p = "p71"
   )
@@ -582,31 +582,31 @@ bf_ss <- mk("Balanophora fungosa subsp. indica", "subspecies", region = PM)
 b_fungosa_higher <- bind_rows(
   bf_sp$un(
     "India, Sri Lanka, Myanmar, Thailand and Indo-China (Vietnam and Cambodia) to S China (including Hainan), Malesia, N Australia (Queensland) and Pacific Islands.",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p71"
   ),
   bf_sp$un(
     "The species is divided into two subspecies: subsp. fungosa that is monoecious with male flowers below the female on a single inflorescence, and subsp. indica that is dioecious. ...",
-    "taxonomy; sex type of subspecies (subsp. indica var. indica scored from its own description)",
+    "section | text | taxonomy; sex type of subspecies (subsp. indica var. indica scored from its own description)",
     sec = "Taxonomy",
     p = "p71"
   ),
   bf_ss$un(
     "India, Sri Lanka, Myanmar, Thailand and Indo-China (Vietnam and Cambodia) to S China (including Hainan); Malesia (Sumatra, Peninsular Malaysia, Java, one collection from Luzon, the Philippines); Micronesia (Carolina and Mariana Islands) and N Australia.",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p72"
   ),
   bf_ss$un(
     "Evergreen forest from 600 m but usually at 1200–2000 m altitude.",
-    "habitat; altitude",
+    "section | text | habitat; altitude",
     sec = "Ecology",
     p = "p72"
   ),
   bf_ss$un(
     "Hansen (1972) recognised three varieties, two rare (var. globosa ... from Java ...; and var. minor ... from India and Thailand ...); and one, var. indica, widespread.",
-    "taxonomy (varieties outside the flora region)",
+    "section | text | taxonomy (varieties outside the flora region)",
     sec = "Taxonomy",
     p = "p72"
   )
@@ -740,14 +740,14 @@ b_fungosa <- bind_rows(
   s$un("Fruits and Seeds unknown", "fruit, seed | unknown", p = "p72"),
   s$un(
     "As for the subspecies, except absent from Java. In Peninsular Malaysia, on west coast mountains from Perak to Selangor, also in Kelantan (G. Stong area), Terengganu (G. Lawit), Pahang (G. Benom, G. Tahan and G. Tapis) and Johor (G. Ledang and G. Panti).",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p72"
   ),
-  s$un("Least concern.", "conservation status", sec = "Conservation status", p = "p72"),
+  s$un("Least concern.", "section | text | conservation status", sec = "Conservation status", p = "p72"),
   s$un(
     "Lower and upper montane forest in deeply shaded, humus-rich places usually above 1200 m altitude, occasionally as low as 600 m (G. Tapis).",
-    "habitat; altitude",
+    "section | text | habitat; altitude",
     sec = "Ecology",
     p = "p72"
   ),
@@ -944,19 +944,19 @@ b_hansenii <- bind_rows(
   s$un("Fruits and Seeds unknown", "fruit, seed | unknown", p = "p74"),
   s$un(
     "Endemic in Peninsular Malaysia, known only from G. Ulu Kali, Pahang.",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p74"
   ),
   s$un(
     "Critically Endangered B1ab(iii). Although this species has been collected several times, it has not been seen in the past 20 years. Its single known locality has been severely disturbed.",
-    "conservation status",
+    "section | text | conservation status",
     sec = "Conservation status",
     p = "p75"
   ),
   s$un(
     "Upper montane forest at 1600–1800 m altitude growing in moist humus-rich soil, frequently among thickets of Pandanus klossii Ridl. (Pandanaceae).",
-    "habitat; altitude; soil; associated species",
+    "section | text | habitat; altitude; soil; associated species",
     sec = "Ecology",
     p = "p75"
   ),
@@ -997,7 +997,7 @@ b_hansenii <- bind_rows(
   ),
   s$un(
     "First reported from G. Ulu Kali as Balanophora elongata Blume (Stone, 1980), which is a completely different species with ... compared with the columnar flowering tuber-branches of B. hansenii with a very short peduncle and congested scale leaves that are flat and cover the inflorescence at and after anthesis. The inflorescences of B. hansenii are also much shorter than those of B. elongata. Balanophora hansenii was described from male plants but since then female plants have been collected (FRI 21959) and are here described for the first time.",
-    "comparison with B. elongata; female plants first described",
+    "section | text | comparison with B. elongata; female plants first described",
     sec = "Note",
     p = "p75"
   )
@@ -1157,19 +1157,19 @@ b_latisepala <- bind_rows(
   s$un("Fruits and Seeds unknown", "fruit, seed | unknown", p = "p75"),
   s$un(
     "Thailand, Indo-China, N Sumatra, Peninsular Malaysia and Borneo (Kuching Division, Sarawak). In Peninsular Malaysia recorded from Perlis (Bt. Lagi) and on west coast mountains—Taiping Hill and the Main Range from Perak (G. Korbu) to Selangor (G. Nuang).",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p76"
   ),
   s$un(
     "Vulnerable B1ab(iii). It is much rarer than the other montane balanophoras, B. fungosa and B. papuana. The limestone population is presumed extinct due to habitat destruction.",
-    "conservation status",
+    "section | text | conservation status",
     sec = "Conservation status",
     p = "p76"
   ),
   s$un(
     "In Peninsular Malaysia not common, usually in montane forest between 1200–1700 m but in Perlis, with a monsoon climate, it has been collected at low altitude on limestone (Bt. Lagi). In Thailand, it has also been collected from limestone as well as evergreen forest at 100–1700 m altitude. Host trees have not been recorded.",
-    "habitat; altitude; substrate (limestone); Thailand (outside the flora region)",
+    "section | text | habitat; altitude; substrate (limestone); Thailand (outside the flora region)",
     sec = "Ecology",
     p = "p76"
   ),
@@ -1339,14 +1339,14 @@ b_papuana <- bind_rows(
   s$un("Fruits and Seeds unknown", "fruit, seed | unknown", p = "p77"),
   s$un(
     "Peninsular Malaysia, Borneo (G. Murud, Sarawak, and G. Kinabalu, Sabah), the Philippines (Luzon, Mindoro and Mindanao), Sulawesi and New Guinea. In Peninsular Malaysia, it is recorded from Kelantan (G. Stong); Perak (Taiping Hills), Main Range from Perak (Ulu Batang Padang) to Selangor (Ulu Ampang), and south to Negeri Sembilan (G. Angsi) and Johor (G. Ledang, G. Panti and G. Belumut).",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p77"
   ),
-  s$un("Least concern.", "conservation status", sec = "Conservation status", p = "p77"),
+  s$un("Least concern.", "section | text | conservation status", sec = "Conservation status", p = "p77"),
   s$un(
     "Montane forest at 1000–2000 m, rarely as low as 300 m in the Gombak valley, Selangor.",
-    "habitat; altitude",
+    "section | text | habitat; altitude",
     sec = "Ecology",
     p = "p77"
   ),
@@ -1361,13 +1361,13 @@ b_papuana <- bind_rows(
   ),
   s$un(
     "Its bright red and slender much-branched habit led Ridley (1924) and Henderson (1959) to name it the Coral Plant.",
-    "vernacular name; plant colour and branching",
+    "section | text | vernacular name; plant colour and branching",
     sec = "Ecology",
     p = "p77"
   ),
   s$un(
     "Hansen (1972) identified one of the two specimens (Poore s.n., 1964) from Jengka Triangle ... as B. papuana, but re-examination of this specimen shows it to be a female plant of B. reflexa.",
-    "specimen identification",
+    "section | text | specimen identification",
     sec = "Note",
     p = "p77"
   ),
@@ -1531,19 +1531,19 @@ b_reflexa <- bind_rows(
   s$un("Fruits and Seeds unknown", "fruit, seed | unknown", p = "p78"),
   s$un(
     "Peninsular Malaysia, Borneo (Sarawak, Sabah (G. Kinabalu) and Kalimantan). In Peninsular Malaysia, known only from Bt. Bintang, Perak and Jengka Triangle, Pahang.",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p78"
   ),
   s$un(
     "Critically Endangered A4c. Land use change has occurred in its two known localities.",
-    "conservation status",
+    "section | text | conservation status",
     sec = "Conservation status",
     p = "p78"
   ),
   s$un(
     "In Peninsular Malaysia, it has been collected from only two localities and is extremely rare. ... It is possible that this species is now extinct in Peninsular Malaysia. Compared with Borneo, where it has been collected from 300 to 3000 m altitude, it was collected only at 30–100 m altitude from lowland forest in Peninsular Malaysia.",
-    "habitat; altitude; rarity",
+    "section | text | habitat; altitude; rarity",
     sec = "Ecology",
     p = "p78"
   ),
@@ -1559,7 +1559,7 @@ b_reflexa <- bind_rows(
 g <- mk("Helosis", "genus", "genus", sec = "Genus description")
 helosis_g <- bind_rows(
   g$row("sex_type", "Monoecious plants, without scale leaves", "monoecious", "monoecious", p = "p79"),
-  g$un("without scale leaves", "scale leaves absent (negative phrase)", p = "p79"),
+  g$un("without scale leaves", "scale leaves | absent (negative phrase)", p = "p79"),
   g$un(
     "Flowering tuber-branches produced from elongated, horizontal rhizome-like tubers",
     "tuber | shape, orientation (rhizome-like)",
@@ -1602,13 +1602,13 @@ helosis_g <- bind_rows(
   ),
   g$un(
     "Remarkable for its disjunct distribution between S America (3 species) and Peninsular Malaysia (1 endemic species).",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p79"
   ),
   g$un(
     "Steenis (1932) drew attention to Rhopalocnemis ruficeps Ridl. ... They therefore transferred Exorhopala ruficeps to Helosis.",
-    "taxonomy",
+    "section | text | taxonomy",
     sec = "Taxonomy",
     p = "p79"
   )
@@ -1693,19 +1693,19 @@ h_ruficeps <- bind_rows(
   s$un("Fruits and Seeds unknown", "fruit, seed | unknown", p = "p81"),
   s$un(
     "Narrowly endemic in Peninsular Malaysia, known only from four localities: Kedah (Baling, and G. Jerai), Penang Hill and Perak (Taiping Hill), more than half the collections are from Penang where it is recorded from at least four different places.",
-    "distribution",
+    "section | text | distribution",
     sec = "Distribution",
     p = "p81"
   ),
   s$un(
     "Endangered B1ab(iii). The four localities from where it is known are either disturbed or are vulnerable to disturbance.",
-    "conservation status",
+    "section | text | conservation status",
     sec = "Conservation status",
     p = "p81"
   ),
   s$un(
     "Hill forest between 100 m and 1300 m altitude.",
-    "habitat; altitude",
+    "section | text | habitat; altitude",
     sec = "Ecology",
     p = "p81"
   ),
@@ -1717,7 +1717,7 @@ h_ruficeps <- bind_rows(
   ),
   s$un(
     "Nothing is known about its biology, no insect visitors have been observed, nor have the host species been recorded.",
-    "flower visitors not observed; host unknown",
+    "section | text | flower visitors not observed; host unknown",
     sec = "Ecology",
     p = "p81"
   )
