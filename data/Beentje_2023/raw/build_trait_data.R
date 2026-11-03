@@ -580,7 +580,14 @@ parse_description <- function(p) {
           organ %in% c("leaves", "syncarps", "drupes", "seeds", "stems", "roots") ~ organ,
           organ %in% c("bracts", "peduncle", "spikes", "pedicels") & !is.na(sent_organ) ~
             paste(str_remove(sent_organ, "s$"), organ),
-          TRUE ~ coalesce(organ, "unknown organ")
+          !is.na(organ) ~ organ,
+          # pieces the organ tables do not name; a new one stops the build
+          str_detect(str_to_lower(piece_text), "(young|juvenile) leaves") ~ "juvenile leaves",
+          str_detect(str_to_lower(piece_text), "^seedling") ~ "seedlings",
+          str_detect(str_to_lower(piece_text), "^male flowering heads") ~ "male inflorescences",
+          str_detect(str_to_lower(piece_text), "^heads\\b") ~ "syncarps",
+          str_detect(str_to_lower(piece_text), "^flowers\\b") ~ "flowers",
+          str_detect(str_to_lower(piece_text), "^inflorescences\\b") ~ "inflorescences"
         ),
         character_of(text),
         if_else(hedged(str_to_lower(text)), "hedged", "")

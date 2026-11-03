@@ -91,6 +91,20 @@ asides_of <- function(x) {
   a[!str_detect(a, "^\\([a-z]{1,2}\\)$")]
 }
 
+# Organ of an aside: that of the last piece before it in its paragraph, named
+# as for unmapped clauses ("leaf blade")
+aside_organ <- function(x, a) {
+  before <- str_sub(x, 1, str_locate(x, fixed(a))[1, 1] - 1)
+  cl <- last(split_clauses(prep(before)))
+  stopifnot(!is.na(cl$piece_organ))
+  if_else(
+    cl$piece_organ %in% c("lamina", "base", "margin", "apex", "lower surface") &
+      cl$sent_organ %in% "leaves",
+    paste("leaf", str_replace(cl$piece_organ, "lamina", "blade")),
+    cl$piece_organ
+  )
+}
+
 num <- "\\d+(?:\\.\\d+)?"
 rng <- paste0(
   "(?:\\(", num, "–\\)\\s?)?(?:c\\.\\s?|(?:up )?to\\s)?", num,
@@ -603,7 +617,7 @@ parse_description <- function(p) {
     trait = NA_character_,
     trait_value_raw = asides[!str_detect(asides, "^\\((rarely|sometimes|occasionally) [a-z]+\\)$|^\\(immature\\)$|^\\(index ")],
     notes = flora_unmapped_note(
-      "aside",
+      map_chr(trait_value_raw, \(a) aside_organ(p$text, a)),
       "description",
       if_else(str_detect(trait_value_raw, "elsewhere"), "outside the flora region", NA_character_)
     ),
