@@ -205,6 +205,10 @@ Only skills listed here are maintained. Ignore other folders in
 
 - Work on a branch, never on `main`. For a new dataset, name the branch
   exactly as the dataset ID.
+- Run `git fetch origin` and branch from `origin/main`, not local `main`.
+- Before opening a PR, run `git fetch origin`. If
+  `git rev-list --count HEAD..origin/main` is more than 0, merge
+  `origin/main`, rerun the checks, and say in the PR that `main` was merged.
 - Stage files by path. Never `git add -A` or `git add .`.
 - Do not commit PDFs, page images, or files with machine-specific paths.
 - Open a PR to `main` and do not merge it.
@@ -225,6 +229,9 @@ traits next to real `locations:`. It runs as a Claude Code hook
 (`.claude/settings.json`) and a pre-commit hook. Other agents: run
 `python3 .github/hooks/check_metadata_yml.py data/<id>/metadata.yml` after
 editing a `metadata.yml`, and fix what it reports.
+`.github/hooks/check_main_up_to_date.py` blocks `gh pr create` while the
+branch is behind `origin/main`. It is a Claude Code hook only; other agents
+follow the [Git](#git) rules by hand.
 
 ## Ambiguity Resolution
 
