@@ -515,7 +515,7 @@ character_of <- function(x) {
     if (str_detect(x, "hairs|glabr|tomentose|pubescent|velvety|indumentum|Indumentum|glands")) "indumentum or glands",
     if (str_detect(x, "late|form|ovoid|cylindric|globose|elliptic|ovate|orbicular|shaped|oblong|angular|terete|flattened|hipped|ventricose|spathulate")) "shape"
   )
-  if (length(ch)) paste(ch, collapse = ", ") else "form"
+  if (length(ch)) paste(ch, collapse = ", ") else "description"
 }
 
 desc_unmapped <- pieces |>
@@ -537,13 +537,9 @@ desc_unmapped <- pieces |>
       map_chr(head, organ_of),
       "plant"
     ),
-    # Character hints go in the detail field so the summary stays one row per
-    # organ.
-    notes = flora_unmapped_note(
-      organ,
-      "description",
-      map_chr(trait_value_raw, character_of)
-    ),
+    # A hint naming one listed character becomes the character; others go to
+    # the detail (flora_unmapped_note()).
+    notes = flora_unmapped_note(organ, map_chr(trait_value_raw, character_of)),
     source_section = "Description"
   ) |>
   select(block, rank, trait_value_raw, pdf_page, printed_page, notes,
