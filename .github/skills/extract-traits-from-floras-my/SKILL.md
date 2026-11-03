@@ -481,6 +481,18 @@ contained infraspecific headings.
   headers must retain that parent so `flora_inherit_infraspecific()` can run.
   Count accepted blocks against the images before parsing; check keys, citations
   and figure labels for false matches as in the general checklist.
+- TFSS treats non-tree taxa only as annotations in a key, some with a short
+  description: 77 Ficus species and varieties (climbers, epiphytes,
+  stranglers) in the key to Ficus species, and the climber genera Trophis
+  and Maclura in the key to genera (Kochummen_2000). Match species headings
+  by their number ("12. Ficus chaii ...") so these stay inside the key
+  block, cancel `var.` headings that fall inside a key to species, and list
+  the annotated taxa in `taxon_flags.csv`. They are not scored (keys are not
+  trait evidence; Kochummen_2000 question 2). Annotations in a key to
+  varieties or subspecies under a species description are a separate case,
+  treated three ways so far: unmapped (Kochummen_1995, Kochummen_2000),
+  scored at variety rank (Jones_1995) and inherited (Ashton_2004);
+  Kochummen_2000 question 3 asks for one rule.
 - Segment with `flora_segment()` rather than flattening all treatment pages into
   one text string and slicing between species matches. Its line/page provenance
   and section handling preserve page turns and permit clauses in Ecology or
