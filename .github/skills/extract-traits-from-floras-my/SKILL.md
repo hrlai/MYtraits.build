@@ -125,7 +125,7 @@ Coode_2018 one.
 | `scripts/flora_assemble.R` | copy-down, species to infraspecific inheritance, duplicate merge, final column order, `data.csv`, unmapped summary |
 | `scripts/flora_hand.R` | row helpers for tiny families and single papers (`row`, `un`, `tri`, `rng`, `ext`) |
 | `scripts/flora_qa.R` | `flora_qa(id)` tables; `flora_dataset_test(id)` |
-| `assets/flora_dictionary_seed.csv` | term regex to level rows from Coode_2018, Lim_2010 and Kochummen_1995; grow it, do not fork it |
+| `assets/flora_dictionary.csv` | shared term regex to level rows, loaded by every dictionary-based family parser; `source` names the datasets that added each row; grow it, do not fork it |
 
 **Running R.** `Rscript` is not on the shell `PATH`. From the repository root,
 run a script with `uvr run <file.R>`; for a one-liner use
@@ -674,7 +674,7 @@ Bespoke checklist (decisions that changed per family):
   unscored and the clause unmapped.
 - **Glabrescent** ("becoming glabrous") describes a change with age, not a
   state: never score it, keep it unmapped (user decision, 2026-10, Jutta_2012).
-  The dictionary seed blocks it for leaf, stem and fruit hairs. Coode_2018
+  The shared dictionary blocks it for leaf, stem and fruit hairs. Coode_2018
   scored it as glabrous on 5 rows with its own parser; do not follow that.
 - **Compound colours and shapes score every word.** Score each colour word in
   text order: "greyish brown" -> `grey brown`, "reddish brown" -> `red brown`,
@@ -1063,7 +1063,7 @@ from the other source, then check:
 | Hedged statements scored in Yao, skipped in Coode | decide once per family, ask |
 | `flora_merge_duplicate_keys()` dropped repeated words from single-row values (Adema_1996 calendars "July to November January"; fixed 2026-10) | rerun the build script; single rows now keep their term |
 | `flora_qa()` compared values with `traits.yml` ranges in the source unit (false flags for mm values of cm traits; fixed 2026-10) | trust `outside_allowed`; it converts units |
-| Dictionary seed mapped glabrescent to glabrous ahead of the Adema_1996 blocking rows (fixed 2026-10) | glabrescent is never scored |
+| Shared dictionary mapped glabrescent to glabrous ahead of the Adema_1996 blocking rows (fixed 2026-10) | glabrescent is never scored |
 | Values outside `traits.yml` levels or ranges reach `excluded_data` (Coode 6 terms and 2 ranges, Lim 3 terms) | QA lists them before the build; record as questions, change `traits.yml` centrally |
 | One trait with mixed units (Coode `fruit_length` cm/mm; Lim DBH cm/m) | expected; check `unit` per row, QA lists them |
 | `dataset_process()` not run (Yao) | step 11 |
@@ -1113,7 +1113,7 @@ all FPM and TFSS treatments. An agent processing a family may edit `SKILL.md`,
 - Never edit `config/traits.yml` from a family branch.
 - Commit each logical change separately from data commits, with the prefix
   `skill:`. The commit body states the problem, the evidence (taxon and page)
-  and the change. Dictionary seed additions get their own commit.
+  and the change. Dictionary additions get their own commit.
 - After changing a script, run `scripts/test-flora-*.R`, then rerun
   `raw/build_trait_data.R` and `flora_make_data(id)` for every other
   `data/<id>/` built with these scripts. `git diff --stat data/` must show no

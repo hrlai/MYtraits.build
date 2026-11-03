@@ -56,9 +56,9 @@ stopifnot(
     trait_value_clean == "white_cream"
 )
 
-# shared dictionary seed rows
+# shared dictionary rows
 seed <- flora_load_dict(
-  ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary_seed.csv"
+  ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary.csv"
 )
 clean <- \(x, trait) flora_score_cat(x, trait, seed)$trait_value_clean
 stopifnot(

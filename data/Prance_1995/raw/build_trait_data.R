@@ -23,7 +23,7 @@ id <- "Prance_1995"
 raw_dir <- file.path("data", id, "raw")
 traits <- yaml::read_yaml("config/traits.yml")$traits$elements
 dict <- flora_load_dict(
-  ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary_seed.csv"
+  ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary.csv"
 )
 dict <- dict[names(dict) %in% names(traits)]
 # Chrysobalanaceae terms missing from the shared dictionary; first, so they
