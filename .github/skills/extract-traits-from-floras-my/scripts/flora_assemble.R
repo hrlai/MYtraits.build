@@ -380,6 +380,19 @@ flora_make_data <- function(
   invisible(data)
 }
 
+# Drop specimen numbers ("Stone 5623", "Corner SFN 29996", "Ng FRI 5646",
+# "Beentje et al. 75761") and cited years ("Corner (1978)") from a chunk, so a
+# build script's guess at its unmapped character does not read them as a
+# count. Case-sensitive: run it before lowering the case.
+# shortcut: also drops "<Capitalised word> <3+ digits>" printed as a count
+# ("Leaves 120 per crown"); tighten if a family prints counts that way.
+flora_strip_specimens <- function(x) {
+  str_remove_all(
+    x,
+    "\\b[A-Z][A-Za-z.]*(?: et al\\.)? (?:\\d{3,}(?![-\\d+])|\\(\\d{4}\\))"
+  )
+}
+
 # The listed characters of an UNMAPPED note (SKILL.md step 6), each with the
 # pattern that finds it in free wording. `description` (several characters, or
 # none listed) and `text` (a whole section paragraph) have no pattern.

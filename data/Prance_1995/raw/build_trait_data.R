@@ -452,7 +452,7 @@ leaf_hairs <- function(ch) {
 }
 
 character_of <- function(x) {
-  lx <- str_to_lower(x)
+  lx <- str_to_lower(flora_strip_specimens(x))
   case_when(
     str_detect(lx, paste0(num, "\\s?", unit_re)) ~ "size",
     str_detect(lx, "crypt") ~ "stomatal crypts",

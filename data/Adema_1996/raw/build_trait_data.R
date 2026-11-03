@@ -683,7 +683,7 @@ score_chunk <- function(
 
 # rough label for an unmapped chunk
 character_of <- function(x) {
-  lx <- str_to_lower(x)
+  lx <- str_to_lower(flora_strip_specimens(x))
   case_when(
     str_detect(lx, paste0(num, "\\s?", unit_re)) ~ "size",
     str_detect(lx, "hair|glabr|pubesc|tomentos|tomentul|velutin|sericeous|ciliate|woolly|pilose|puberul") ~ "indumentum",
