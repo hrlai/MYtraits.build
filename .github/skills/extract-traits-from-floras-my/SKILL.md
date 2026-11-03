@@ -843,7 +843,10 @@ The format is fixed so `unmapped_terms.csv` can be compared across datasets:
 
 - `<organ>` is required. Use `section` for a whole Distribution, Ecology,
   Uses, Conservation status, Taxonomy or Notes paragraph or sentence, with
-  character `text` and the section name in `<detail>`.
+  character `text` and the section name in `<detail>`. Never use a
+  placeholder (`unknown organ`, `aside`): a clause with no organ label takes
+  the organ of the sentence it opens (the first sentence is `habit`), and a
+  parenthetical aside takes the organ of its piece.
 - `<character>` is one of: `size`, `shape`, `colour`, `count`, `indumentum`,
   `texture`, `surface`, `venation`, `arrangement`, `persistence`, `armature`,
   `glands`, `fusion`, `branching`, `division`, `presence` (absence statements),
@@ -853,7 +856,14 @@ The format is fixed so `unmapped_terms.csv` can be compared across datasets:
 - `<detail>` holds everything else: candidate traits, hedges, out-of-region
   remarks, the wording of a multi-character clause. Free wording passed as
   the character is matched to one listed character (several or none:
-  `description`) and moved to `<detail>`, so nothing is lost.
+  `description`) and moved to `<detail>`, so nothing is lost. An organ noun
+  that only qualifies the character ("midrib relief", "lateral vein count",
+  "domatia presence") does not count as a second character.
+- Pass a generator's character hint as the character, not as `<detail>`
+  under `description`, so a single-character hint gets its own summary row.
+  A clause naming several characters keeps one row with `description`: it is
+  not split into one row per character, because the verbatim clause cannot
+  be divided without guessing which words belong to which character.
 
 `flora_qa()` lists notes outside this format in `unmapped_note_format`.
 A full description paragraph
