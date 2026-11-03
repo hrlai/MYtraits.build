@@ -7,6 +7,16 @@ set -euo pipefail
 
 SUDO=$(command -v sudo || true)
 
+# UTF-8 locale. Cloud images default to POSIX, under which R reads
+# config/traits.yml only up to its first non-ASCII character, with a warning.
+# Set here for this script and, through GITHUB_ENV, for later Copilot steps.
+# Claude sessions do not inherit it: .claude/settings.json sets it with a
+# SessionStart hook.
+export LANG=C.UTF-8 LC_ALL=C.UTF-8
+if [ -n "${GITHUB_ENV:-}" ]; then
+  printf 'LANG=C.UTF-8\nLC_ALL=C.UTF-8\n' >> "$GITHUB_ENV"
+fi
+
 # uvr CLI, linked onto the default PATH so later agent shells find it.
 curl -fsSL https://raw.githubusercontent.com/nbafrank/uvr/main/install.sh | UVR_VERSION=v0.4.8 sh
 $SUDO ln -sf "$HOME/.local/bin/uvr" /usr/local/bin/uvr
