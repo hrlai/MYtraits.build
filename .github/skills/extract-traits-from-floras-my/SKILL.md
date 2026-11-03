@@ -547,12 +547,14 @@ Bespoke checklist (decisions that changed per family):
 - **Adjacent organs.** Parse explicit organ shifts; young and mature bark
   separately; seed cones under fruit traits with `entity_measured = seed cone`
   (confirm per family, see Lim_2010 question 3). A compound fruiting head is
-  not a fruit: the Casuarinaceae cone (Pungga_1996) and the Pandanaceae
-  syncarp stay unmapped, and the fruitlet (samara, drupe, berry) is the
-  fruit. Provisional (Beentje_2023 questions 1 and 2): ripe syncarp colour
-  -> `fruit_colour` with `entity_measured = syncarp`; a phalange of fused
-  drupes -> `fruit_length` / `fruit_width` with `entity_measured =
-  phalange`.
+  not a fruit: the Casuarinaceae cone (Pungga_1996), the Pandanaceae and
+  Artocarpus syncarp and the Ficus fig (syconium) stay unmapped, and the
+  fruitlet (samara, drupe, berry, achene) is the fruit. Provisional
+  (Beentje_2023 questions 1 and 2; Kochummen_2000 question 1): ripe syncarp
+  or syconium colour ("Syconia ... ripening orange to red") ->
+  `fruit_colour` with `entity_measured = syncarp` or `syconium`; syncarp and
+  syconium sizes stay unmapped; a phalange of fused drupes -> `fruit_length`
+  / `fruit_width` with `entity_measured = phalange`.
 - **Unisexual flowers.** Male and female flowers as `entity_measured`;
   staminode lengths are not fertile-stamen lengths (Coode_2018 question 1).
 - **Dimension pairs `L x W`.** First dimension is length (state the assumption
