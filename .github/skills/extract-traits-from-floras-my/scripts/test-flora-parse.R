@@ -37,6 +37,12 @@ stopifnot(
   length(s) == 3,
   startsWith(s[2], "Sarawak: Bt. Raya, Sg. Pahang, 4th Div. Kapit")
 )
+# infrageneric rank abbreviations do not end a sentence (Kochummen_2000 p. 187)
+s <- flora_split_sentences(paste(
+  "Leaves spirally arranged (subgen. Artocarpus) or distichous (subgen.",
+  "Pseudojaca), simple. Inflorescences unisexual, in sect. Ficus solitary."
+))
+stopifnot(length(s) == 2, endsWith(s[1], "simple"))
 
 # flora_cat_rows() keeps a term that a blank row claimed in context, although
 # the term alone matches a level (Adema_1996 p. 324)
