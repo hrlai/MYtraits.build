@@ -808,6 +808,8 @@ Bespoke checklist (decisions that changed per family):
   Use `flora_copy_down()` when unqualified, single-level `mode` rows from the
   family, genus or group description apply to members silent on the trait,
   only if every member that scores the trait includes the value. Never numbers.
+  "Most", "many" and "in some" scope a statement and stop it, but a count
+  such as "1(--many)-seeded nuts" does not (Ashton_2004).
   The statement must name exactly one term, counting terms with no level:
   "symmetric or slightly oblique" is not "all oblique", and a statement
   naming a genus in brackets ("(Hydrocleys)") is not copied. The function
