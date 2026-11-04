@@ -202,9 +202,10 @@ respect to `data/`, apart from `flora_make_data()`, which writes
   `plant_growth_substrate` and `plant_climbing_mechanism` when stated, with
   the step 4 habit rules (qualified alternatives, stranglers as
   hemiepiphytes, root-climbers as `adventitious_roots`). Put the rows in
-  `raw/manual_rows.csv` at the taxon's printed rank with blank
-  `rank_scored_from`, `source_section` naming the key or remark, its page,
-  and a note. A genus annotation is not copied down to species the flora
+  `raw/manual_rows.csv` at the taxon's printed rank, with
+  `rank_scored_from` as on the dataset's own rows of that rank (blank for
+  species), `source_section` naming the key or remark, its page, and a
+  note. A genus annotation is not copied down to species the flora
   does not treat. Keep the whole annotation as one unmapped row on the
   same taxon. Excluded, misapplied and out-of-region taxa are not scored.
   In `taxon_flags.csv`, keep the `key annotation` status and count the new
