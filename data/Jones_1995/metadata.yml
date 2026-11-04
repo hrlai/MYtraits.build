@@ -59,7 +59,8 @@ dataset:
     the Glycosmis chlorosperma varieties inherit species values for silent
     traits. A measured range is recorded as minimum and maximum, a single or
     "c." value as a mean and "to X" as a maximum; parenthetical extremes are
-    on extreme_range rows. Keys were not used as trait evidence.
+    on extreme_range rows. Keys were not used as trait evidence, except
+    the habit of taxa annotated only in a key (raw/manual_rows.csv).
   original_file: |
     Rutaceae.pdf (Jones 1995, Tree Flora of Sabah and Sarawak vol. 1,
     pp. 351--419; electronic edition 2007)
@@ -71,10 +72,13 @@ dataset:
     Micromelum minutum, Murraya paniculata). The three Glycosmis
     chlorosperma varieties are treated inside the key to varieties; their
     descriptions are scored at variety rank. The scandent genera Toddalia,
-    Luvunga and Paramignya, the scandent Zanthoxylum scandens and
-    Z. nitidum, and the cultivated species (eight Citrus, Clausena lansium,
-    Glycosmis parviflora, Murraya koenigii, M. exotica) are annotated only
-    in keys and are not scored; they are listed in raw/taxon_flags.csv. The
+    Luvunga and Paramignya and the scandent Zanthoxylum scandens and
+    Z. nitidum are annotated only in keys: only their habit is scored (genera
+    at genus rank, not copied down), and each annotation is kept as one
+    unmapped row. The cultivated species (eight Citrus, Clausena lansium,
+    Glycosmis parviflora, Murraya koenigii, M. exotica) are also annotated
+    only in keys, with origin and uses but no habit, so nothing is scored.
+    All are listed in raw/taxon_flags.csv. The
     author notes that the occurrence of Melicope glabra in Sabah needs
     confirmation; it is scored as treated. Flowering and fruiting months are
     not given in this treatment. The clause-to-trait mapping is a scripted

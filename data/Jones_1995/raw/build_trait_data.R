@@ -945,7 +945,9 @@ rejected <- attr(copied, "rejected")
 # Manual rows are Ecology statements, not descriptions: keep their section.
 copied <- copied |>
   left_join(
-    manual |> transmute(from_block = block, trait, man_section = source_section, man_raw = trait_value_raw),
+    manual |>
+      filter(!str_detect(source_section, "^Key annotation")) |>
+      transmute(from_block = block, trait, man_section = source_section, man_raw = trait_value_raw),
     by = "trait",
     relationship = "many-to-many"
   ) |>
@@ -976,7 +978,7 @@ out <- bind_rows(
   manual |> filter(rank %in% c("family", "genus")) |> mutate(rank_scored_from = rank),
   later_unmapped |> mutate(rank_scored_from = NA_character_)
 ) |>
-  select(-any_of(c("rank", "no_copy", "partial"))) |>
+  select(-any_of(c("no_copy", "partial"))) |>
   left_join(
     bind_rows(
       taxa |> select(block, taxon_rank = rank),
@@ -986,7 +988,8 @@ out <- bind_rows(
   ) |>
   transmute(
     taxon_name = block,
-    taxon_rank,
+    # key-only taxa are not in `taxa`: keep the rank of their manual rows
+    taxon_rank = coalesce(taxon_rank, rank),
     rank_scored_from,
     commonness_qualifier = cq,
     population_region = NA_character_,
@@ -1022,23 +1025,23 @@ write_csv(flora_unmapped_summary(out), file.path(raw_dir, "unmapped_terms.csv"),
 
 annotations <- tribble(
   ~taxon_name, ~taxon_rank, ~flag,
-  "Toddalia", "genus", "Scandent genus annotated only in the key to native genera; not scored.",
-  "Luvunga", "genus", "Scandent genus annotated only in the key to native genera; not scored.",
-  "Paramignya", "genus", "Scandent genus annotated only in the key to native genera; not scored.",
-  "Citrus medica", "species", "Cultivated; annotated only in the key; not scored.",
-  "Citrus limon", "species", "Cultivated; annotated only in the key; not scored.",
-  "Citrus reticulata", "species", "Cultivated; annotated only in the key; not scored.",
-  "Citrus microcarpa", "species", "Cultivated; annotated only in the key; not scored.",
-  "Citrus grandis", "species", "Cultivated; annotated only in the key; possibly indigenous at Ulu Segama (Stone 1985) but excluded by the author; not scored.",
-  "Citrus sinensis", "species", "Cultivated; annotated only in the key; not scored.",
-  "Citrus aurantifolia", "species", "Cultivated; annotated only in the key; not scored.",
-  "Citrus hystrix", "species", "Cultivated; annotated only in the key; not scored.",
-  "Clausena lansium", "species", "Cultivated; annotated only in the key (authority printed 'Lous'); not scored.",
-  "Glycosmis parviflora", "species", "Cultivated; annotated only in the key; not scored.",
-  "Murraya koenigii", "species", "Cultivated; annotated only in the key; not scored.",
-  "Murraya exotica", "species", "Cultivated; annotated only in the key; not scored.",
-  "Zanthoxylum scandens", "species", "Scandent shrub annotated only in the key; not scored.",
-  "Zanthoxylum nitidum", "species", "Scandent shrub annotated only in the key; not scored."
+  "Toddalia", "genus", "Scandent genus annotated only in the key to native genera; habit scored at genus rank (raw/manual_rows.csv), rest of the annotation unmapped.",
+  "Luvunga", "genus", "Scandent genus annotated only in the key to native genera; habit scored at genus rank (raw/manual_rows.csv), rest of the annotation unmapped.",
+  "Paramignya", "genus", "Scandent genus annotated only in the key to native genera; habit scored at genus rank (raw/manual_rows.csv), rest of the annotation unmapped.",
+  "Citrus medica", "species", "Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score.",
+  "Citrus limon", "species", "Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score.",
+  "Citrus reticulata", "species", "Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score.",
+  "Citrus microcarpa", "species", "Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score.",
+  "Citrus grandis", "species", "Cultivated; annotated only in the key with origin and uses; possibly indigenous at Ulu Segama (Stone 1985) but excluded by the author; no habit stated, nothing to score.",
+  "Citrus sinensis", "species", "Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score.",
+  "Citrus aurantifolia", "species", "Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score.",
+  "Citrus hystrix", "species", "Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score.",
+  "Clausena lansium", "species", "Cultivated; annotated only in the key with origin and uses (authority printed 'Lous'); no habit stated, nothing to score.",
+  "Glycosmis parviflora", "species", "Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score.",
+  "Murraya koenigii", "species", "Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score.",
+  "Murraya exotica", "species", "Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score.",
+  "Zanthoxylum scandens", "species", "Scandent shrub annotated only in the key; habit scored (raw/manual_rows.csv), rest of the annotation unmapped.",
+  "Zanthoxylum nitidum", "species", "Scandent shrub annotated only in the key; habit scored (raw/manual_rows.csv), rest of the annotation unmapped."
 )
 flags <- bind_rows(
   taxa |>
@@ -1059,7 +1062,12 @@ flags <- bind_rows(
         TRUE ~ ""
       )
     ),
-  annotations |> mutate(status = "annotation only", n_mapped_rows = 0L)
+  annotations |>
+    left_join(
+      out |> filter(!is.na(trait), trait != "") |> count(taxon_name, name = "n_mapped_rows"),
+      by = "taxon_name"
+    ) |>
+    mutate(status = "annotation only", n_mapped_rows = coalesce(n_mapped_rows, 0L))
 )
 write_csv(flags, file.path(raw_dir, "taxon_flags.csv"), na = "")
 
