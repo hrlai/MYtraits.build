@@ -867,7 +867,8 @@ Bespoke checklist (decisions that changed per family):
   family, genus or group description apply to members silent on the trait,
   only if every member that scores the trait includes the value. Never numbers.
   "Most", "many" and "in some" scope a statement and stop it, but a count
-  such as "1(--many)-seeded nuts" does not (Ashton_2004).
+  such as "1(--many)-seeded nuts" does not (Ashton_2004), nor a limit such
+  as "at most 1½x the length" (Vatica).
   The statement must name exactly one term, counting terms with no level:
   "symmetric or slightly oblique" is not "all oblique", and a statement
   naming a genus in brackets ("(Hydrocleys)") is not copied. The function
@@ -880,7 +881,10 @@ Bespoke checklist (decisions that changed per family):
   the parser (Kochummen_2000 `piece_qualified`). Chunks before the word stay
   unqualified: "Leaves simple, entire, alternate, usually distichous" copies
   simple, entire and alternate (provisional, DeWilde_2018 question 11).
-  Most specific rank wins (group, genus, family). `entity_measured` is part
+  Most specific rank wins (group, genus, family), counting every row that
+  states the trait: when that rank's row is rejected, nothing is copied
+  (genus Castanopsis "spirally arranged or distichous" stops the family
+  "spirally arranged", Soepadmo_2000). `entity_measured` is part
   of the trait: male and female (or other entity) values are tested and copied
   separately, so give higher-rank rows the same `entity_measured` labels as
   the species rows. `attr(, "rejected")` lists agreement-test failures
