@@ -1,390 +1,390 @@
 taxon_name,taxon_rank,entity_type,rank_scored_from,commonness_qualifier,population_region,form,entity_measured,trait,in_traits.yml,trait_value_raw,trait_value,trait_value_clean,value_type,unit,source_section,pdf_page,printed_page,notes,source_id,value,trait_scoring_method
-Sapindaceae,family,species,,often,,,,dispersal_appendage,x,often with an arillode or a sarcotesta,arillode sarcotesta,aril sarcotesta,mode,,"Description, p.263",7,263,,Adema_1996,arillode sarcotesta,inferred_from_species
-Sapindaceae,family,species,,rarely,,,,flower_anther_attachment,x,anthers basifixed or rarely dorsifixed,dorsifixed,dorsifixed,mode,,"Description, p.263",7,263,,Adema_1996,dorsifixed,inferred_from_species
-Sapindaceae,family,species,,usually,,,,flower_anther_attachment,x,anthers basifixed or rarely dorsifixed,basifixed,basifixed,mode,,"Description, p.263",7,263,,Adema_1996,basifixed,inferred_from_species
-Sapindaceae,family,species,,,,,,flower_anther_orientation,x,introrse or latero-introrse,introrse latero-introrse,introrse,mode,,"Description, p.263",7,263,,Adema_1996,introrse latero-introrse,inferred_from_species
-Sapindaceae,family,species,,,,,,flower_ovary_position,x,ovary superior,superior,superior,mode,,"Description, p.263",7,263,,Adema_1996,superior,inferred_from_species
-Sapindaceae,family,species,,,,,,flower_perianth_symmetry,x,radially or bilaterally symmetrical,radially_symmetrical bilaterally_symmetrical,actinomorphic_general zygomorphic,mode,,"Description, p.263",7,263,,Adema_1996,radially_symmetrical bilaterally_symmetrical,inferred_from_species
-Sapindaceae,family,species,,rarely,,,,flower_structural_sex_type,x,rarely bisexual,bisexual,bisexual,mode,,"Description, p.263",7,263,,Adema_1996,bisexual,inferred_from_species
-Sapindaceae,family,species,,usually,,,,flower_structural_sex_type,x,Flowers usually unisexual,unisexual,unisexual,mode,,"Description, p.263",7,263,,Adema_1996,unisexual,inferred_from_species
-Sapindaceae,family,species,,,,,,fruit_dehiscence,x,when capsular usually loculicidal,loculicidal,dehiscent,mode,,"Description, p.263",7,263,,Adema_1996,loculicidal,inferred_from_species
-Sapindaceae,family,species,,,,,,fruit_type,x,Fruits capsular or drupaceous | or consisting of 2 or 3 samaras,capsular drupaceous samaras,capsule drupe samara,mode,,"Description, p.263",7,263,,Adema_1996,capsular drupaceous samaras,inferred_from_species
-Sapindaceae,family,species,,,,,,inflorescence_type,x,Inflorescences axillary | terminal or borne on leafless branches | corymbose | paniculate | racemose | or umbellate,axillary terminal corymb paniculate racemose umbel,axillary terminal corymb panicle raceme umbel,mode,,"Description, p.263",7,263,,Adema_1996,axillary terminal corymb paniculate racemose umbel,inferred_from_species
-Sapindaceae,family,species,,usually,,,,leaf_arrangement,x,Leaves spirally arranged,spiral,spiral,mode,,"Description, p.263",7,263,,Adema_1996,spiral,inferred_from_species
-Sapindaceae,family,species,,,,,,leaf_compoundness,x,simple | biternate | digitate | pinnate or bipinnate,simple biternate digitate pinnate,simple compound,mode,,"Description, p.263",7,263,,Adema_1996,simple biternate digitate pinnate,inferred_from_species
-Sapindaceae,family,species,,,,,,leaf_lamina_division,x,digitate | pinnate or bipinnate,digitate pinnate bipinnate,palmately_compound pinnately_compound bipinnate,mode,,"Description, p.263",7,263,,Adema_1996,digitate pinnate bipinnate,inferred_from_species
-Sapindaceae,family,species,,rarely,,,,leaf_phyllotaxis,x,rarely opposite or whorled,opposite whorled,opposite whorled,mode,,"Description, p.263",7,263,,Adema_1996,opposite whorled,inferred_from_species
-Sapindaceae,family,species,,rarely,,,,plant_growth_form,x,or rarely herbaceous climbers,herbaceous_climbers,climber_herbaceous,mode,,"Description, p.263",7,263,,Adema_1996,herbaceous_climbers,inferred_from_species
-Sapindaceae,family,species,,usually,,,,plant_growth_form,x,Trees | shrubs | or lianas,trees shrubs lianas,tree shrub climber_woody,mode,,"Description, p.263",7,263,,Adema_1996,trees shrubs lianas,inferred_from_species
-Sapindaceae,family,species,,,,,,seed_shape,x,Seeds globose to obovoid,globose,globoid,mode,,"Description, p.263",7,263,,Adema_1996,globose,inferred_from_species
-Sapindaceae,family,species,,rarely,,,,sex_type,x,rarely dioecious or polygamous,dioecious polygamous,dioecious polygamous,mode,,"Description, p.263",7,263,,Adema_1996,dioecious polygamous,inferred_from_species
-Sapindaceae,family,species,,usually,,,,sex_type,x,monoecious,monoecious,monoecious,mode,,"Description, p.263",7,263,,Adema_1996,monoecious,inferred_from_species
-Sapindaceae,family,species,,usually,,,calyx,flower_perianth_merism,x,sepals 4 or 5,4,4,minimum,{count},"Description, p.263",7,263,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_species
-Sapindaceae,family,species,,usually,,,calyx,flower_perianth_merism,x,sepals 4 or 5,5,5,maximum,{count},"Description, p.263",7,263,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
-Sapindaceae,family,species,,usually,,,,flower_fertile_stamens_count,x,stamens 5--10(--74),5,5,minimum,{count},"Description, p.263",7,263,,Adema_1996,5,inferred_from_species
-Sapindaceae,family,species,,usually,,,,flower_fertile_stamens_count,x,stamens 5--10(--74),10,10,maximum,{count},"Description, p.263",7,263,,Adema_1996,10,inferred_from_species
-Sapindaceae,family,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens 5--10(--74),74,74,maximum,{count},"Description, p.263",7,263,,Adema_1996,74,inferred_from_species
-Sapindaceae,family,species,,usually,,,,flower_structural_carpels_count,x,1--3(--8)-locular,1,1,minimum,{count},"Description, p.263",7,263,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,1,inferred_from_species
-Sapindaceae,family,species,,usually,,,,flower_structural_carpels_count,x,1--3(--8)-locular,3,3,maximum,{count},"Description, p.263",7,263,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
-Sapindaceae,family,species,,extreme_range,,,,flower_structural_carpels_count,x,1--3(--8)-locular,8,8,maximum,{count},"Description, p.263",7,263,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,8,inferred_from_species
-Alectryon,genus,species,,,,,,dispersal_appendage,x,partly covered with a red sarcotesta.,sarcotesta,sarcotesta,mode,,"Description, p.271",15,271,,Adema_1996,sarcotesta,inferred_from_species
-Alectryon,genus,species,,,,,,flower_anther_attachment,x,anthers basifixed,basifixed,basifixed,mode,,"Description, p.271",15,271,,Adema_1996,basifixed,inferred_from_species
-Alectryon,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.271",15,271,,Adema_1996,radially_symmetrical,inferred_from_species
-Alectryon,genus,species,,sometimes,,,,flower_structural_sex_type,x,Flowers unisexual or sometimes bisexual,bisexual,bisexual,mode,,"Description, p.271",15,271,,Adema_1996,bisexual,inferred_from_species
-Alectryon,genus,species,,usually,,,,flower_structural_sex_type,x,Flowers unisexual or sometimes bisexual,unisexual,unisexual,mode,,"Description, p.271",15,271,,Adema_1996,unisexual,inferred_from_species
-Alectryon,genus,species,,,,,,fruit_dehiscence,x,dehiscing by an irregular transverse break on each lobe or along the septum,dehisc,dehiscent,mode,,"Description, p.271",15,271,,Adema_1996,dehisc,inferred_from_species
-Alectryon,genus,species,,,,,,fruit_type,x,capsular,capsular,capsule,mode,,"Description, p.271",15,271,,Adema_1996,capsular,inferred_from_species
-Alectryon,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary | panicles or racemes,axillary panicles racemes,axillary panicle raceme,mode,,"Description, p.271",15,271,,Adema_1996,axillary panicles racemes,inferred_from_species
-Alectryon,genus,species,,often,,,leaflet,leaf_base_shape,x,base often oblique,oblique,oblique,mode,,"Description, p.271",15,271,,Adema_1996,oblique,inferred_from_species
-Alectryon,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.271",15,271,,Adema_1996,paripinnate,inferred_from_species
-Alectryon,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.271",15,271,,Adema_1996,paripinnate,inferred_from_species
-Alectryon,genus,species,,,,,leaflet,leaf_margin,x,margin entire or serrate | dentate or crenate,entire serrate dentate crenate,entire toothed_serrate toothed_dentate toothed_crenate,mode,,"Description, p.271",15,271,,Adema_1996,entire serrate dentate crenate,inferred_from_species
-Alectryon,genus,species,,,,,,plant_growth_form,x,Trees or shrubs,trees shrubs,tree shrub,mode,,"Description, p.271",15,271,,Adema_1996,trees shrubs,inferred_from_species
-Alectryon,genus,species,,,,,,seed_colour,x,Seeds black,black,black,mode,,"Description, p.271",15,271,,Adema_1996,black,inferred_from_species
-Alectryon,genus,species,,sometimes,,,,sex_type,x,dioecious or sometimes monoecious,monoecious,monoecious,mode,,"Description, p.271",15,271,,Adema_1996,monoecious,inferred_from_species
-Alectryon,genus,species,,usually,,,,sex_type,x,dioecious or sometimes monoecious,dioecious,dioecious,mode,,"Description, p.271",15,271,,Adema_1996,dioecious,inferred_from_species
-Alectryon,genus,species,,usually,,,calyx,flower_perianth_merism,x,sepals 4 or 5 (or 6),4,4,minimum,{count},"Description, p.271",15,271,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_species
-Alectryon,genus,species,,usually,,,calyx,flower_perianth_merism,x,sepals 4 or 5 (or 6),5,5,maximum,{count},"Description, p.271",15,271,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
-Alectryon,genus,species,,extreme_range,,,calyx,flower_perianth_merism,x,sepals 4 or 5 (or 6),6,6,maximum,{count},"Description, p.271",15,271,Sepal number scored as perianth merism.,Adema_1996,6,inferred_from_species
-Alectryon,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (5--)8,8,8,mean,{count},"Description, p.271",15,271,,Adema_1996,8,inferred_from_species
-Alectryon,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (5--)8,5,5,minimum,{count},"Description, p.271",15,271,,Adema_1996,5,inferred_from_species
-Alectryon,genus,species,,usually,,,,flower_structural_carpels_count,x,(1--)2--4(--5)-locular,2,2,minimum,{count},"Description, p.271",15,271,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_species
-Alectryon,genus,species,,usually,,,,flower_structural_carpels_count,x,(1--)2--4(--5)-locular,4,4,maximum,{count},"Description, p.271",15,271,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,4,inferred_from_species
-Alectryon,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,(1--)2--4(--5)-locular,1,1,minimum,{count},"Description, p.271",15,271,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,1,inferred_from_species
-Alectryon,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,(1--)2--4(--5)-locular,5,5,maximum,{count},"Description, p.271",15,271,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,5,inferred_from_species
-Allophylus,genus,species,,,,,,flower_perianth_symmetry,x,obliquely bilaterally symmetrical,bilaterally_symmetrical,zygomorphic,mode,,"Description, p.273",17,273,,Adema_1996,bilaterally_symmetrical,inferred_from_species
-Allophylus,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.273",17,273,,Adema_1996,unisexual,inferred_from_species
-Allophylus,genus,species,,,,,,fruit_type,x,Fruits drupaceous,drupaceous,drupe,mode,,"Description, p.273",17,273,,Adema_1996,drupaceous,inferred_from_species
-Allophylus,genus,species,,sometimes,,,,inflorescence_type,x,sometimes paniculate,paniculate,panicle,mode,,"Description, p.273",17,273,,Adema_1996,paniculate,inferred_from_species
-Allophylus,genus,species,,usually,,,,inflorescence_type,x,Inflorescences axillary | racemose thyrses,axillary racemose,axillary raceme,mode,,"Description, p.273",17,273,,Adema_1996,axillary racemose,inferred_from_species
-Allophylus,genus,species,,,,,,leaf_compoundness,x,Leaves digitate,digitate,compound,mode,,"Description, p.273",17,273,,Adema_1996,digitate,inferred_from_species
-Allophylus,genus,species,,,,,,leaf_lamina_division,x,Leaves digitate,digitate,palmately_compound,mode,,"Description, p.273",17,273,,Adema_1996,digitate,inferred_from_species
-Allophylus,genus,species,,sometimes,,,,plant_growth_form,x,or sometimes woody climbers,woody_climbers,climber_woody,mode,,"Description, p.273",17,273,,Adema_1996,woody_climbers,inferred_from_species
-Allophylus,genus,species,,usually,,,,plant_growth_form,x,Shrubs | small trees,shrubs trees,shrub tree,mode,,"Description, p.273",17,273,,Adema_1996,shrubs trees,inferred_from_species
-Allophylus,genus,species,,,,,,sex_type,x,monoecious or dioecious,monoecious dioecious,monoecious dioecious,mode,,"Description, p.273",17,273,,Adema_1996,monoecious dioecious,inferred_from_species
-Allophylus,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 4,4,4,mean,{count},"Description, p.273",17,273,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_species
-Allophylus,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens 8 (rarely fewer),8,8,mean,{count},"Description, p.273",17,273,,Adema_1996,8,inferred_from_species
-Allophylus,genus,species,,usually,,,,flower_structural_carpels_count,x,2(--3)-locular,2,2,mean,{count},"Description, p.273",17,273,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_species
-Allophylus,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,2(--3)-locular,3,3,maximum,{count},"Description, p.273",17,273,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
-Arytera,genus,species,,,,,,dispersal_appendage,x,Seeds partly covered by an arillode,arillode,aril,mode,,"Description, p.276",20,276,,Adema_1996,arillode,inferred_from_species
-Arytera,genus,species,,,,,,fruit_dehiscence,x,loculicidal,loculicidal,dehiscent,mode,,"Description, p.276",20,276,,Adema_1996,loculicidal,inferred_from_species
-Arytera,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary to pseudoterminal or borne on leafless twigs,axillary,axillary,mode,,"Description, p.276",20,276,,Adema_1996,axillary,inferred_from_species
-Arytera,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.276",20,276,,Adema_1996,paripinnate,inferred_from_species
-Arytera,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.276",20,276,,Adema_1996,paripinnate,inferred_from_species
-Arytera,genus,species,,rarely,,,,plant_growth_form,x,rarely shrubs,shrubs,shrub,mode,,"Description, p.276",20,276,,Adema_1996,shrubs,inferred_from_species
-Arytera,genus,species,,usually,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.276",20,276,,Adema_1996,trees,inferred_from_species
-Arytera,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (6--)8(--10),8,8,mean,{count},"Description, p.276",20,276,,Adema_1996,8,inferred_from_species
-Arytera,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (6--)8(--10),6,6,minimum,{count},"Description, p.276",20,276,,Adema_1996,6,inferred_from_species
-Arytera,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (6--)8(--10),10,10,maximum,{count},"Description, p.276",20,276,,Adema_1996,10,inferred_from_species
-Arytera,genus,species,,,,,,flower_structural_carpels_count,x,2--3-locular,2,2,minimum,{count},"Description, p.276",20,276,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_species
-Arytera,genus,species,,,,,,flower_structural_carpels_count,x,2--3-locular,3,3,maximum,{count},"Description, p.276",20,276,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
-Cardiospermum,genus,species,,,,,,plant_climbing_mechanism,x,Inflorescences with basal tendrils,tendrils,tendrils,mode,,"Key to genera (annotation), p.265",9,265,"Genus annotated only in the key to genera, no detailed treatment; habit scored at genus rank (standing rule: habit scored for every taxon), not copied down. Tendrils at the inflorescence base support the climbing stems.",Adema_1996,tendrils,inferred_from_species
-Cardiospermum,genus,species,,,,,,plant_growth_form,x,Herbaceous or woody climbers,climber_herbaceous climber_woody,climber_herbaceous climber_woody,mode,,"Key to genera (annotation), p.265",9,265,"Genus annotated only in the key to genera, no detailed treatment; habit scored at genus rank (standing rule: habit scored for every taxon), not copied down.",Adema_1996,climber_herbaceous climber_woody,inferred_from_species
-Cubilia,genus,species,,,,,,dispersal_appendage,x,more-or-less entire arillode,arillode,aril,mode,,"Description, p.279",23,279,,Adema_1996,arillode,inferred_from_species
-Cubilia,genus,species,,,,,,flower_anther_orientation,x,introrse,introrse,introrse,mode,,"Description, p.279",23,279,,Adema_1996,introrse,inferred_from_species
-Cubilia,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.279",23,279,,Adema_1996,radially_symmetrical,inferred_from_species
-Cubilia,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.279",23,279,,Adema_1996,unisexual,inferred_from_species
-Cubilia,genus,species,,,,,,fruit_dehiscence,x,loculicidal,loculicidal,dehiscent,mode,,"Description, p.279",23,279,,Adema_1996,loculicidal,inferred_from_species
-Cubilia,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.279",23,279,,Adema_1996,glabrous,inferred_from_species
-Cubilia,genus,species,,,,,,inflorescence_type,x,Inflorescences terminal or pseudoterminal | thyrsoid or corymbose,terminal corymb,terminal corymb,mode,,"Description, p.279",23,279,,Adema_1996,terminal corymb,inferred_from_species
-Cubilia,genus,species,,,,,leaflet,leaf_base_shape,x,base equal-sided to oblique,oblique,oblique,mode,,"Description, p.279",23,279,,Adema_1996,oblique,inferred_from_species
-Cubilia,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.279",23,279,,Adema_1996,paripinnate,inferred_from_species
-Cubilia,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.279",23,279,,Adema_1996,paripinnate,inferred_from_species
-Cubilia,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.279",23,279,,Adema_1996,entire,inferred_from_species
-Cubilia,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens 5 (or 6),5,5,mean,{count},"Description, p.279",23,279,,Adema_1996,5,inferred_from_species
-Cubilia,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens 5 (or 6),6,6,maximum,{count},"Description, p.279",23,279,,Adema_1996,6,inferred_from_species
-Cubilia,genus,species,,,,,,flower_structural_carpels_count,x,2-locular,2,2,mean,{count},"Description, p.279",23,279,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_species
-Dictyoneura,genus,species,,,,,,flower_anther_attachment,x,anthers basifixed to halfway dorsifixed,basifixed dorsifixed,basifixed dorsifixed,mode,,"Description, p.281",25,281,,Adema_1996,basifixed dorsifixed,inferred_from_species
-Dictyoneura,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.281",25,281,,Adema_1996,radially_symmetrical,inferred_from_species
-Dictyoneura,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.281",25,281,,Adema_1996,unisexual,inferred_from_species
-Dictyoneura,genus,species,,,,,,fruit_dehiscence,x,loculicidal,loculicidal,dehiscent,mode,,"Description, p.281",25,281,,Adema_1996,loculicidal,inferred_from_species
-Dictyoneura,genus,species,,,,,,fruit_type,x,Fruits capsular,capsular,capsule,mode,,"Description, p.281",25,281,,Adema_1996,capsular,inferred_from_species
-Dictyoneura,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary,axillary,axillary,mode,,"Description, p.281",25,281,,Adema_1996,axillary,inferred_from_species
-Dictyoneura,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.281",25,281,,Adema_1996,paripinnate,inferred_from_species
-Dictyoneura,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.281",25,281,,Adema_1996,paripinnate,inferred_from_species
-Dictyoneura,genus,species,,,,,,plant_growth_form,x,Shrubs to medium-sized trees,shrubs trees,shrub tree,mode,,"Description, p.281",25,281,,Adema_1996,shrubs trees,inferred_from_species
-Dictyoneura,genus,species,,,,,,seed_shape,x,Seeds ovoid to ellipsoid,ovoid ellipsoid,ovoid ellipsoid,mode,,"Description, p.281",25,281,,Adema_1996,ovoid ellipsoid,inferred_from_species
-Dictyoneura,genus,species,,,,,,sex_type,x,monoecious,monoecious,monoecious,mode,,"Description, p.281",25,281,,Adema_1996,monoecious,inferred_from_species
-Dictyoneura,genus,species,,usually,,,calyx,flower_perianth_merism,x,sepals 5(or 6),5,5,mean,{count},"Description, p.281",25,281,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
-Dictyoneura,genus,species,,extreme_range,,,calyx,flower_perianth_merism,x,sepals 5(or 6),6,6,maximum,{count},"Description, p.281",25,281,Sepal number scored as perianth merism.,Adema_1996,6,inferred_from_species
-Dictyoneura,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (4--)5(--6),5,5,mean,{count},"Description, p.281",25,281,,Adema_1996,5,inferred_from_species
-Dictyoneura,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (4--)5(--6),4,4,minimum,{count},"Description, p.281",25,281,,Adema_1996,4,inferred_from_species
-Dictyoneura,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (4--)5(--6),6,6,maximum,{count},"Description, p.281",25,281,,Adema_1996,6,inferred_from_species
-Dictyoneura,genus,species,,usually,,,,flower_structural_carpels_count,x,2(--3)-locular,2,2,mean,{count},"Description, p.281",25,281,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_species
-Dictyoneura,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,2(--3)-locular,3,3,maximum,{count},"Description, p.281",25,281,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
-Dimocarpus,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.282",26,282,,Adema_1996,paripinnate,inferred_from_species
-Dimocarpus,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.282",26,282,,Adema_1996,paripinnate,inferred_from_species
-Dimocarpus,genus,species,,,,,,plant_growth_form,x,Trees or shrubs,trees shrubs,tree shrub,mode,,"Description, p.282",26,282,,Adema_1996,trees shrubs,inferred_from_species
-Dimocarpus,genus,species,,mostly,,,,sex_type,x,mostly monoecious,monoecious,monoecious,mode,,"Description, p.282",26,282,,Adema_1996,monoecious,inferred_from_species
-Dimocarpus,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.284",28,284,,Adema_1996,radially_symmetrical,inferred_from_species
-Dimocarpus,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.284",28,284,,Adema_1996,unisexual,inferred_from_species
-Dimocarpus,genus,species,,sometimes,,,,fruit_dehiscence,x,indehiscent or sometimes loculicidal,loculicidal,dehiscent,mode,,"Description, p.284",28,284,,Adema_1996,loculicidal,inferred_from_species
-Dimocarpus,genus,species,,usually,,,,fruit_dehiscence,x,indehiscent or sometimes loculicidal,indehiscent,indehiscent,mode,,"Description, p.284",28,284,,Adema_1996,indehiscent,inferred_from_species
-Dimocarpus,genus,species,,sometimes,,,,inflorescence_type,x,terminal and sometimes in the axils of upper leaves,axils,axillary,mode,,"Description, p.284",28,284,,Adema_1996,axils,inferred_from_species
-Dimocarpus,genus,species,,,,,,inflorescence_type,x,Inflorescence a panicle | terminal and sometimes in the axils of upper leaves,panicle terminal,panicle terminal,mode,,"Description, p.284",28,284,,Adema_1996,panicle terminal,inferred_from_species
-Dimocarpus,genus,species,,,,,leaflet,leaf_margin,x,margin entire to dentate,entire dentate,entire toothed_dentate,mode,,"Description, p.284",28,284,,Adema_1996,entire dentate,inferred_from_species
-Dimocarpus,genus,species,,,,,,seed_shape,x,Seeds more or less globose,globose,globoid,mode,,"Description, p.284",28,284,,Adema_1996,globose,inferred_from_species
-Dimocarpus,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5--6,5,5,minimum,{count},"Description, p.284",28,284,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
-Dimocarpus,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5--6,6,6,maximum,{count},"Description, p.284",28,284,Sepal number scored as perianth merism.,Adema_1996,6,inferred_from_species
-Dimocarpus,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (6--)8(--10),8,8,mean,{count},"Description, p.284",28,284,,Adema_1996,8,inferred_from_species
-Dimocarpus,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (6--)8(--10),6,6,minimum,{count},"Description, p.284",28,284,,Adema_1996,6,inferred_from_species
-Dimocarpus,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (6--)8(--10),10,10,maximum,{count},"Description, p.284",28,284,,Adema_1996,10,inferred_from_species
-Ganophyllum,genus,species,,,,,,flower_anther_attachment,x,anthers basifixed,basifixed,basifixed,mode,,"Description, p.289",33,289,,Adema_1996,basifixed,inferred_from_species
-Ganophyllum,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.289",33,289,,Adema_1996,radially_symmetrical,inferred_from_species
-Ganophyllum,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.289",33,289,,Adema_1996,unisexual,inferred_from_species
-Ganophyllum,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.289",33,289,,Adema_1996,glabrous,inferred_from_species
-Ganophyllum,genus,species,,,,,,fruit_type,x,Fruit a sessile drupe,drupe,drupe,mode,,"Description, p.289",33,289,,Adema_1996,drupe,inferred_from_species
-Ganophyllum,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary thyrses,axillary,axillary,mode,,"Description, p.289",33,289,,Adema_1996,axillary,inferred_from_species
-Ganophyllum,genus,species,,,,,leaflet,leaf_base_shape,x,base slightly to strongly asymmetric,asymmetric,oblique,mode,,"Description, p.289",33,289,,Adema_1996,asymmetric,inferred_from_species
-Ganophyllum,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.289",33,289,,Adema_1996,paripinnate,inferred_from_species
-Ganophyllum,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.289",33,289,,Adema_1996,paripinnate,inferred_from_species
-Ganophyllum,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.289",33,289,,Adema_1996,entire,inferred_from_species
-Ganophyllum,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 4--6,4,4,minimum,{count},"Description, p.289",33,289,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_species
-Ganophyllum,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 4--6,6,6,maximum,{count},"Description, p.289",33,289,Sepal number scored as perianth merism.,Adema_1996,6,inferred_from_species
-Ganophyllum,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 5--7,5,5,minimum,{count},"Description, p.289",33,289,,Adema_1996,5,inferred_from_species
-Ganophyllum,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 5--7,7,7,maximum,{count},"Description, p.289",33,289,,Adema_1996,7,inferred_from_species
-Ganophyllum,genus,species,,usually,,,,flower_structural_carpels_count,x,ovary 2(--3)-locular,2,2,mean,{count},"Description, p.289",33,289,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_species
-Ganophyllum,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,ovary 2(--3)-locular,3,3,maximum,{count},"Description, p.289",33,289,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
-Glenniea,genus,species,,,,,,flower_perianth_symmetry,x,Flowers radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.291",35,291,,Adema_1996,radially_symmetrical,inferred_from_species
-Glenniea,genus,species,,,,,,flower_structural_sex_type,x,unisexual,unisexual,unisexual,mode,,"Description, p.291",35,291,,Adema_1996,unisexual,inferred_from_species
-Glenniea,genus,species,,,,,,inflorescence_type,x,Inflorescences terminal or in the axils of upper leaves | thyrsoid or paniculate,terminal axils paniculate,terminal axillary panicle,mode,,"Description, p.291",35,291,,Adema_1996,terminal axils paniculate,inferred_from_species
-Glenniea,genus,species,,,,,leaflet,leaf_apex_shape,x,apex rounded-acuminate,rounded acuminate,rounded acuminate,mode,,"Description, p.291",35,291,,Adema_1996,rounded acuminate,inferred_from_species
-Glenniea,genus,species,,,,,,leaf_arrangement,x,Leaves spirally arranged or partly decussate,spiral decussate,spiral decussate,mode,,"Description, p.291",35,291,,Adema_1996,spiral decussate,inferred_from_species
-Glenniea,genus,species,,,,,leaflet,leaf_base_shape,x,base symmetric or slightly oblique,oblique,oblique,mode,,"Description, p.291",35,291,,Adema_1996,oblique,inferred_from_species
-Glenniea,genus,species,,,,,,leaf_compoundness,x,unifoliolate or paripinnate,unifoliolate paripinnate,compound,mode,,"Description, p.291",35,291,,Adema_1996,unifoliolate paripinnate,inferred_from_species
-Glenniea,genus,species,,,,,,leaf_lamina_division,x,unifoliolate or paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.291",35,291,,Adema_1996,paripinnate,inferred_from_species
-Glenniea,genus,species,,,,,leaflet,leaf_shape,x,ovate to elliptic,ovate elliptic,ovate elliptical,mode,,"Description, p.291",35,291,,Adema_1996,ovate elliptic,inferred_from_species
-Glenniea,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.291",35,291,,Adema_1996,trees,inferred_from_species
-Glenniea,genus,species,,,,,,sex_type,x,monoecious or dioecious,monoecious dioecious,monoecious dioecious,mode,,"Description, p.291",35,291,,Adema_1996,monoecious dioecious,inferred_from_species
-Glenniea,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 4 or 5,4,4,minimum,{count},"Description, p.291",35,291,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_species
-Glenniea,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 4 or 5,5,5,maximum,{count},"Description, p.291",35,291,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
-Glenniea,genus,species,,,,,,flower_anther_attachment,x,anthers basifixed,basifixed,basifixed,mode,,"Description, p.292",36,292,,Adema_1996,basifixed,inferred_from_species
-Glenniea,genus,species,,,,,,flower_anther_orientation,x,latrorse to introrse,latrorse introrse,latrorse introrse,mode,,"Description, p.292",36,292,,Adema_1996,latrorse introrse,inferred_from_species
-Glenniea,genus,species,,,,,,fruit_dehiscence,x,Fruits indehiscent,indehiscent,indehiscent,mode,,"Description, p.292",36,292,,Adema_1996,indehiscent,inferred_from_species
-Glenniea,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 6 or 7,6,6,minimum,{count},"Description, p.292",36,292,,Adema_1996,6,inferred_from_species
-Glenniea,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 6 or 7,7,7,maximum,{count},"Description, p.292",36,292,,Adema_1996,7,inferred_from_species
-Glenniea,genus,species,,,,,,flower_structural_carpels_count,x,2-locular,2,2,mean,{count},"Description, p.292",36,292,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_species
-Guioa,genus,species,,,,,,flower_anther_attachment,x,anthers basifixed in cleft,basifixed,basifixed,mode,,"Description, p.295",39,295,,Adema_1996,basifixed,inferred_from_species
-Guioa,genus,species,,,,,,flower_anther_orientation,x,latrorse,latrorse,latrorse,mode,,"Description, p.295",39,295,,Adema_1996,latrorse,inferred_from_species
-Guioa,genus,species,,,,,,flower_perianth_symmetry,x,Flowers bilaterally symmetrical,bilaterally_symmetrical,zygomorphic,mode,,"Description, p.295",39,295,,Adema_1996,bilaterally_symmetrical,inferred_from_species
-Guioa,genus,species,,,,,,fruit_colour,x,red,red,red,mode,,"Description, p.295",39,295,,Adema_1996,red,inferred_from_species
-Guioa,genus,species,,,,,,fruit_dehiscence,x,Fruit a subcordate loculicidal capsule with 3 lobes,loculicidal,dehiscent,mode,,"Description, p.295",39,295,,Adema_1996,loculicidal,inferred_from_species
-Guioa,genus,species,,,,,,fruit_type,x,Fruit a subcordate loculicidal capsule with 3 lobes,capsule,capsule,mode,,"Description, p.295",39,295,,Adema_1996,capsule,inferred_from_species
-Guioa,genus,species,,,,,,inflorescence_type,x,axillary,axillary,axillary,mode,,"Description, p.295",39,295,,Adema_1996,axillary,inferred_from_species
-Guioa,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.295",39,295,,Adema_1996,paripinnate,inferred_from_species
-Guioa,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.295",39,295,,Adema_1996,paripinnate,inferred_from_species
-Guioa,genus,species,,,,,,plant_growth_form,x,Shrubs or trees,shrubs trees,shrub tree,mode,,"Description, p.295",39,295,,Adema_1996,shrubs trees,inferred_from_species
-Guioa,genus,species,,,,,,seed_colour,x,black,black,black,mode,,"Description, p.295",39,295,,Adema_1996,black,inferred_from_species
-Guioa,genus,species,,,,,,seed_shape,x,Seeds globose to obovoid,globose,globoid,mode,,"Description, p.295",39,295,,Adema_1996,globose,inferred_from_species
-Guioa,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5,5,5,mean,{count},"Description, p.295",39,295,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
-Guioa,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 8,8,8,mean,{count},"Description, p.295",39,295,,Adema_1996,8,inferred_from_species
-Guioa,genus,species,,,,,,flower_structural_carpels_count,x,3-locular,3,3,mean,{count},"Description, p.295",39,295,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
-Harpullia,genus,species,,,,,,flower_anther_attachment,x,anthers basifixed,basifixed,basifixed,mode,,"Description, p.305",49,305,,Adema_1996,basifixed,inferred_from_species
-Harpullia,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.305",49,305,,Adema_1996,radially_symmetrical,inferred_from_species
-Harpullia,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.305",49,305,,Adema_1996,unisexual,inferred_from_species
-Harpullia,genus,species,,,,,,fruit_dehiscence,x,Fruits loculicidal capsules,loculicidal,dehiscent,mode,,"Description, p.305",49,305,,Adema_1996,loculicidal,inferred_from_species
-Harpullia,genus,species,,,,,,fruit_type,x,Fruits loculicidal capsules,capsules,capsule,mode,,"Description, p.305",49,305,,Adema_1996,capsules,inferred_from_species
-Harpullia,genus,species,,,,,,inflorescence_type,x,axillary | or terminal,axillary terminal,axillary terminal,mode,,"Description, p.305",49,305,,Adema_1996,axillary terminal,inferred_from_species
-Harpullia,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.305",49,305,,Adema_1996,paripinnate,inferred_from_species
-Harpullia,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.305",49,305,,Adema_1996,paripinnate,inferred_from_species
-Harpullia,genus,species,,,,,leaflet,leaf_margin,x,margin entire (Malesian species),entire,entire,mode,,"Description, p.305",49,305,,Adema_1996,entire,inferred_from_species
-Harpullia,genus,species,,,,,,plant_growth_form,x,Shrubs or medium-sized trees,shrubs trees,shrub tree,mode,,"Description, p.305",49,305,,Adema_1996,shrubs trees,inferred_from_species
-Harpullia,genus,species,,,,,,sex_type,x,dioecious,dioecious,dioecious,mode,,"Description, p.305",49,305,,Adema_1996,dioecious,inferred_from_species
-Harpullia,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5,5,5,mean,{count},"Description, p.305",49,305,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
-Harpullia,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 5--8,5,5,minimum,{count},"Description, p.305",49,305,,Adema_1996,5,inferred_from_species
-Harpullia,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 5--8,8,8,maximum,{count},"Description, p.305",49,305,,Adema_1996,8,inferred_from_species
-Harpullia,genus,species,,usually,,,,flower_structural_carpels_count,x,ovary 2--3(--4)-locular,2,2,minimum,{count},"Description, p.305",49,305,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_species
-Harpullia,genus,species,,usually,,,,flower_structural_carpels_count,x,ovary 2--3(--4)-locular,3,3,maximum,{count},"Description, p.305",49,305,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
-Harpullia,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,ovary 2--3(--4)-locular,4,4,maximum,{count},"Description, p.305",49,305,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,4,inferred_from_species
-Lepisanthes,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.309",53,309,,Adema_1996,radially_symmetrical,inferred_from_species
-Lepisanthes,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.309",53,309,,Adema_1996,unisexual,inferred_from_species
-Lepisanthes,genus,species,,,,,,fruit_type,x,drupaceous,drupaceous,drupe,mode,,"Description, p.309",53,309,,Adema_1996,drupaceous,inferred_from_species
-Lepisanthes,genus,species,,,,,,inflorescence_type,x,Inflorescences terminal | axillary,terminal axillary,terminal axillary,mode,,"Description, p.309",53,309,,Adema_1996,terminal axillary,inferred_from_species
-Lepisanthes,genus,species,,sometimes,,,,leaf_compoundness,x,sometimes simple,simple,simple,mode,,"Description, p.309",53,309,,Adema_1996,simple,inferred_from_species
-Lepisanthes,genus,species,,usually,,,,leaf_compoundness,x,Leaves pari- or imparipinnate | with 1 to more than 40 pairs of leaflets,paripinnate imparipinnate pairs_of_leaflets,compound,mode,,"Description, p.309",53,309,,Adema_1996,paripinnate imparipinnate pairs_of_leaflets,inferred_from_species
-Lepisanthes,genus,species,,,,,,leaf_lamina_division,x,Leaves pari- or imparipinnate,paripinnate imparipinnate,pinnately_compound,mode,,"Description, p.309",53,309,,Adema_1996,paripinnate imparipinnate,inferred_from_species
-Lepisanthes,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.309",53,309,,Adema_1996,entire,inferred_from_species
-Lepisanthes,genus,species,,,,,,plant_growth_form,x,Trees or shrubs,trees shrubs,tree shrub,mode,,"Description, p.309",53,309,,Adema_1996,trees shrubs,inferred_from_species
-Lepisanthes,genus,species,,mostly,,,,sex_type,x,mostly monoecious,monoecious,monoecious,mode,,"Description, p.309",53,309,,Adema_1996,monoecious,inferred_from_species
-Lepisanthes,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 4 or 5 (rarely 3 or 6),4,4,minimum,{count},"Description, p.309",53,309,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_species
-Lepisanthes,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 4 or 5 (rarely 3 or 6),5,5,maximum,{count},"Description, p.309",53,309,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
-Lepisanthes,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (4--)8(--18),8,8,mean,{count},"Description, p.309",53,309,,Adema_1996,8,inferred_from_species
-Lepisanthes,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (4--)8(--18),4,4,minimum,{count},"Description, p.309",53,309,,Adema_1996,4,inferred_from_species
-Lepisanthes,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (4--)8(--18),18,18,maximum,{count},"Description, p.309",53,309,,Adema_1996,18,inferred_from_species
-Lepisanthes,genus,species,,usually,,,,flower_structural_carpels_count,x,2--3(--4)-locular,2,2,minimum,{count},"Description, p.309",53,309,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_species
-Lepisanthes,genus,species,,usually,,,,flower_structural_carpels_count,x,2--3(--4)-locular,3,3,maximum,{count},"Description, p.309",53,309,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
-Lepisanthes,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,2--3(--4)-locular,4,4,maximum,{count},"Description, p.309",53,309,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,4,inferred_from_species
-Litchi,genus,species,,,,,,leaf_arrangement,x,Leaves spirally arranged or sometimes partly,spiral,spiral,mode,,"Description, p.326",70,326,,Adema_1996,spiral,inferred_from_species
-Litchi,genus,species,,,,,,leaf_compoundness,x,paripinnate,paripinnate,compound,mode,,"Description, p.326",70,326,,Adema_1996,paripinnate,inferred_from_species
-Litchi,genus,species,,,,,,leaf_lamina_division,x,paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.326",70,326,,Adema_1996,paripinnate,inferred_from_species
-Litchi,genus,species,,,,,leaflet,leaf_margin,x,margin entire to undulate in the upper part.,entire,entire,mode,,"Description, p.326",70,326,,Adema_1996,entire,inferred_from_species
-Litchi,genus,species,,,,,,leaf_phyllotaxis,x,nearly opposite,opposite,opposite,mode,,"Description, p.326",70,326,,Adema_1996,opposite,inferred_from_species
-Litchi,genus,species,,,,,leaflet,leaf_surface_reflectivity,x,dull beneath,dull,dull,mode,,"Description, p.326",70,326,,Adema_1996,dull,inferred_from_species
-Litchi,genus,species,,,,,,dispersal_appendage,x,juicy arillode,arillode,aril,mode,,"Description, p.327",71,327,,Adema_1996,arillode,inferred_from_species
-Litchi,genus,species,,,,,,flower_perianth_symmetry,x,Flowers radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.327",71,327,,Adema_1996,radially_symmetrical,inferred_from_species
-Litchi,genus,species,,,,,,flower_structural_sex_type,x,unisexual,unisexual,unisexual,mode,,"Description, p.327",71,327,,Adema_1996,unisexual,inferred_from_species
-Litchi,genus,species,,,,,,fruit_dehiscence,x,indehiscent,indehiscent,indehiscent,mode,,"Description, p.327",71,327,,Adema_1996,indehiscent,inferred_from_species
-Litchi,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.327",71,327,,Adema_1996,glabrous,inferred_from_species
-Litchi,genus,species,,,,,,inflorescence_type,x,Inflorescences terminal and axillary,terminal axillary,terminal axillary,mode,,"Description, p.327",71,327,,Adema_1996,terminal axillary,inferred_from_species
-Litchi,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 6--11,6,6,minimum,{count},"Description, p.327",71,327,,Adema_1996,6,inferred_from_species
-Litchi,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 6--11,11,11,maximum,{count},"Description, p.327",71,327,,Adema_1996,11,inferred_from_species
-Mischocarpus,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.329",73,329,,Adema_1996,unisexual,inferred_from_species
-Mischocarpus,genus,species,,,,,,inflorescence_type,x,axillary,axillary,axillary,mode,,"Description, p.329",73,329,,Adema_1996,axillary,inferred_from_species
-Mischocarpus,genus,species,,,,,leaflet,leaf_apex_shape,x,rounded to acuminate,rounded acuminate,rounded acuminate,mode,,"Description, p.329",73,329,,Adema_1996,rounded acuminate,inferred_from_species
-Mischocarpus,genus,species,,,,,leaflet,leaf_base_shape,x,base symmetric to slightly asymmetric,asymmetric,oblique,mode,,"Description, p.329",73,329,,Adema_1996,asymmetric,inferred_from_species
-Mischocarpus,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.329",73,329,,Adema_1996,paripinnate,inferred_from_species
-Mischocarpus,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.329",73,329,,Adema_1996,paripinnate,inferred_from_species
-Mischocarpus,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.329",73,329,,Adema_1996,entire,inferred_from_species
-Mischocarpus,genus,species,,,,,,plant_growth_form,x,Shrubs or large trees,shrubs trees,shrub tree,mode,,"Description, p.329",73,329,,Adema_1996,shrubs trees,inferred_from_species
-Mischocarpus,genus,species,,,,,,sex_type,x,monoecious or dioecious,monoecious dioecious,monoecious dioecious,mode,,"Description, p.329",73,329,,Adema_1996,monoecious dioecious,inferred_from_species
-Mischocarpus,genus,species,,usually,,,,pedicel_length,x,pedicels 1--3(--5) mm long,1,1,minimum,mm,"Description, p.329",73,329,,Adema_1996,1,inferred_from_species
-Mischocarpus,genus,species,,usually,,,,pedicel_length,x,pedicels 1--3(--5) mm long,3,3,maximum,mm,"Description, p.329",73,329,,Adema_1996,3,inferred_from_species
-Mischocarpus,genus,species,,extreme_range,,,,pedicel_length,x,pedicels 1--3(--5) mm long,5,5,maximum,mm,"Description, p.329",73,329,,Adema_1996,5,inferred_from_species
-Mischocarpus,genus,species,,,,,,flower_anther_attachment,x,anthers basifixed,basifixed,basifixed,mode,,"Description, p.330",74,330,,Adema_1996,basifixed,inferred_from_species
-Mischocarpus,genus,species,,,,,,flower_anther_orientation,x,latrorse or latero-introrse,latrorse latero-introrse,latrorse introrse,mode,,"Description, p.330",74,330,,Adema_1996,latrorse latero-introrse,inferred_from_species
-Mischocarpus,genus,species,,,,,,fruit_colour,x,red,red,red,mode,,"Description, p.330",74,330,,Adema_1996,red,inferred_from_species
-Mischocarpus,genus,species,,,,,,fruit_dehiscence,x,Fruit a loculicidal capsule,loculicidal,dehiscent,mode,,"Description, p.330",74,330,,Adema_1996,loculicidal,inferred_from_species
-Mischocarpus,genus,species,,,,,,fruit_type,x,Fruit a loculicidal capsule,capsule,capsule,mode,,"Description, p.330",74,330,,Adema_1996,capsule,inferred_from_species
-Mischocarpus,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (5--)8(--9),8,8,mean,{count},"Description, p.330",74,330,,Adema_1996,8,inferred_from_species
-Mischocarpus,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (5--)8(--9),5,5,minimum,{count},"Description, p.330",74,330,,Adema_1996,5,inferred_from_species
-Mischocarpus,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (5--)8(--9),9,9,maximum,{count},"Description, p.330",74,330,,Adema_1996,9,inferred_from_species
-Mischocarpus,genus,species,,usually,,,,flower_structural_carpels_count,x,ovary (2--)3(--4)-locular,3,3,mean,{count},"Description, p.330",74,330,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
-Mischocarpus,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,ovary (2--)3(--4)-locular,2,2,minimum,{count},"Description, p.330",74,330,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_species
-Mischocarpus,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,ovary (2--)3(--4)-locular,4,4,maximum,{count},"Description, p.330",74,330,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,4,inferred_from_species
-Nephelium,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.333",77,333,,Adema_1996,radially_symmetrical,inferred_from_species
-Nephelium,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.333",77,333,,Adema_1996,unisexual,inferred_from_species
-Nephelium,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary | terminal,axillary terminal,axillary terminal,mode,,"Description, p.333",77,333,,Adema_1996,axillary terminal,inferred_from_species
-Nephelium,genus,species,,,,,,leaf_arrangement,x,Leaves spirally arranged,spiral,spiral,mode,,"Description, p.333",77,333,,Adema_1996,spiral,inferred_from_species
-Nephelium,genus,species,,,,,,leaf_compoundness,x,paripinnate,paripinnate,compound,mode,,"Description, p.333",77,333,,Adema_1996,paripinnate,inferred_from_species
-Nephelium,genus,species,,,,,,leaf_lamina_division,x,paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.333",77,333,,Adema_1996,paripinnate,inferred_from_species
-Nephelium,genus,species,,,,,leaflet,leaf_margin,x,margin entire or rarely repand,entire,entire,mode,,"Description, p.333",77,333,,Adema_1996,entire,inferred_from_species
-Nephelium,genus,species,,usually,,,calyx,flower_perianth_merism,x,sepals (4--)5(--6),5,5,mean,{count},"Description, p.333",77,333,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
-Nephelium,genus,species,,extreme_range,,,calyx,flower_perianth_merism,x,sepals (4--)5(--6),4,4,minimum,{count},"Description, p.333",77,333,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_species
-Nephelium,genus,species,,extreme_range,,,calyx,flower_perianth_merism,x,sepals (4--)5(--6),6,6,maximum,{count},"Description, p.333",77,333,Sepal number scored as perianth merism.,Adema_1996,6,inferred_from_species
-Nephelium,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 4--10,4,4,minimum,{count},"Description, p.333",77,333,,Adema_1996,4,inferred_from_species
-Nephelium,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 4--10,10,10,maximum,{count},"Description, p.333",77,333,,Adema_1996,10,inferred_from_species
-Nephelium,genus,species,,usually,,,,flower_structural_carpels_count,x,(1--)2(--4)-locular,2,2,mean,{count},"Description, p.333",77,333,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_species
-Nephelium,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,(1--)2(--4)-locular,1,1,minimum,{count},"Description, p.333",77,333,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,1,inferred_from_species
-Nephelium,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,(1--)2(--4)-locular,4,4,maximum,{count},"Description, p.333",77,333,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,4,inferred_from_species
-Paranephelium,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.352",96,352,,Adema_1996,radially_symmetrical,inferred_from_species
-Paranephelium,genus,species,,usually,,,,flower_structural_sex_type,x,Flowers unisexual or very rarely bisexual,unisexual,unisexual,mode,,"Description, p.352",96,352,,Adema_1996,unisexual,inferred_from_species
-Paranephelium,genus,species,,very rarely,,,,flower_structural_sex_type,x,Flowers unisexual or very rarely bisexual,bisexual,bisexual,mode,,"Description, p.352",96,352,,Adema_1996,bisexual,inferred_from_species
-Paranephelium,genus,species,,,,,,inflorescence_type,x,axillary or terminal,axillary terminal,axillary terminal,mode,,"Description, p.352",96,352,,Adema_1996,axillary terminal,inferred_from_species
-Paranephelium,genus,species,,,,,,leaf_compoundness,x,Leaves imparipinnate or paripinnate,imparipinnate paripinnate,compound,mode,,"Description, p.352",96,352,,Adema_1996,imparipinnate paripinnate,inferred_from_species
-Paranephelium,genus,species,,,,,,leaf_lamina_division,x,Leaves imparipinnate or paripinnate,imparipinnate paripinnate,pinnately_compound,mode,,"Description, p.352",96,352,,Adema_1996,imparipinnate paripinnate,inferred_from_species
-Paranephelium,genus,species,,,,,leaflet,leaf_margin,x,margin entire to dentate,entire dentate,entire toothed_dentate,mode,,"Description, p.352",96,352,,Adema_1996,entire dentate,inferred_from_species
-Paranephelium,genus,species,,sometimes,,,,plant_growth_form,x,Trees or sometimes shrubs,shrubs,shrub,mode,,"Description, p.352",96,352,,Adema_1996,shrubs,inferred_from_species
-Paranephelium,genus,species,,usually,,,,plant_growth_form,x,Trees or sometimes shrubs,trees,tree,mode,,"Description, p.352",96,352,,Adema_1996,trees,inferred_from_species
-Paranephelium,genus,species,,usually,,,,sex_type,x,monoecious or very rarely dioecious,monoecious,monoecious,mode,,"Description, p.352",96,352,,Adema_1996,monoecious,inferred_from_species
-Paranephelium,genus,species,,very rarely,,,,sex_type,x,monoecious or very rarely dioecious,dioecious,dioecious,mode,,"Description, p.352",96,352,,Adema_1996,dioecious,inferred_from_species
-Paranephelium,genus,species,,usually,,,calyx,flower_perianth_merism,x,sepals (4--)5(--7),5,5,mean,{count},"Description, p.352",96,352,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
-Paranephelium,genus,species,,extreme_range,,,calyx,flower_perianth_merism,x,sepals (4--)5(--7),4,4,minimum,{count},"Description, p.352",96,352,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_species
-Paranephelium,genus,species,,extreme_range,,,calyx,flower_perianth_merism,x,sepals (4--)5(--7),7,7,maximum,{count},"Description, p.352",96,352,Sepal number scored as perianth merism.,Adema_1996,7,inferred_from_species
-Paranephelium,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens 5--8(--9),5,5,minimum,{count},"Description, p.352",96,352,,Adema_1996,5,inferred_from_species
-Paranephelium,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens 5--8(--9),8,8,maximum,{count},"Description, p.352",96,352,,Adema_1996,8,inferred_from_species
-Paranephelium,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens 5--8(--9),9,9,maximum,{count},"Description, p.352",96,352,,Adema_1996,9,inferred_from_species
-Paranephelium,genus,species,,,,,,fruit_dehiscence,x,Fruits loculicidal capsules,loculicidal,dehiscent,mode,,"Description, p.353",97,353,,Adema_1996,loculicidal,inferred_from_species
-Paranephelium,genus,species,,,,,,fruit_type,x,Fruits loculicidal capsules,capsules,capsule,mode,,"Description, p.353",97,353,,Adema_1996,capsules,inferred_from_species
-Paranephelium,genus,species,,,,,,seed_shape,x,subglobose to slightly 2--3-lobed,subglobose,globoid,mode,,"Description, p.353",97,353,,Adema_1996,subglobose,inferred_from_species
-Paranephelium,genus,species,,usually,,,,flower_structural_carpels_count,x,(1--)3(--4)-locular,3,3,mean,{count},"Description, p.353",97,353,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
-Paranephelium,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,(1--)3(--4)-locular,1,1,minimum,{count},"Description, p.353",97,353,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,1,inferred_from_species
-Paranephelium,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,(1--)3(--4)-locular,4,4,maximum,{count},"Description, p.353",97,353,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,4,inferred_from_species
-Pometia,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.356",100,356,,Adema_1996,radially_symmetrical,inferred_from_species
-Pometia,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.356",100,356,,Adema_1996,unisexual,inferred_from_species
-Pometia,genus,species,,,,,,fruit_colour,x,red to black when ripe,red black,red black,mode,,"Description, p.356",100,356,,Adema_1996,red black,inferred_from_species
-Pometia,genus,species,,,,,,fruit_dehiscence,x,indehiscent,indehiscent,indehiscent,mode,,"Description, p.356",100,356,,Adema_1996,indehiscent,inferred_from_species
-Pometia,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.356",100,356,,Adema_1996,glabrous,inferred_from_species
-Pometia,genus,species,,sometimes,,,,inflorescence_type,x,Inflorescences terminal and sometimes in the axils of upper leaves,axils,axillary,mode,,"Description, p.356",100,356,,Adema_1996,axils,inferred_from_species
-Pometia,genus,species,,,,,,inflorescence_type,x,Inflorescences terminal and sometimes in the axils of upper leaves,terminal,terminal,mode,,"Description, p.356",100,356,,Adema_1996,terminal,inferred_from_species
-Pometia,genus,species,,,,,,leaf_arrangement,x,Leaves spirally arranged,spiral,spiral,mode,,"Description, p.356",100,356,,Adema_1996,spiral,inferred_from_species
-Pometia,genus,species,,,,,,leaf_compoundness,x,paripinnate,paripinnate,compound,mode,,"Description, p.356",100,356,,Adema_1996,paripinnate,inferred_from_species
-Pometia,genus,species,,,,,,leaf_lamina_division,x,paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.356",100,356,,Adema_1996,paripinnate,inferred_from_species
-Pometia,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5,5,5,mean,{count},"Description, p.356",100,356,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
-Pometia,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens 5 (6),5,5,mean,{count},"Description, p.356",100,356,,Adema_1996,5,inferred_from_species
-Pometia,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens 5 (6),6,6,maximum,{count},"Description, p.356",100,356,,Adema_1996,6,inferred_from_species
-Pometia,genus,species,,usually,,,,flower_structural_carpels_count,x,2(--3)-locular,2,2,mean,{count},"Description, p.356",100,356,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_species
-Pometia,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,2(--3)-locular,3,3,maximum,{count},"Description, p.356",100,356,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
-Pometia,genus,species,,,,,,dispersal_appendage,x,completely enveloped by a thin fleshy arillode,arillode,aril,mode,,"Description, p.357",101,357,,Adema_1996,arillode,inferred_from_species
-Pometia,genus,species,,,,,,seed_colour,x,red-brown,red brown,red_brown,mode,,"Description, p.357",101,357,,Adema_1996,red brown,inferred_from_species
-Pometia,genus,species,,,,,,seed_shape,x,Seeds oblique ovoid,ovoid,ovoid,mode,,"Description, p.357",101,357,,Adema_1996,ovoid,inferred_from_species
-Rhysotoechia,genus,species,,,,,,flower_perianth_symmetry,x,Flowers radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.360",104,360,,Adema_1996,radially_symmetrical,inferred_from_species
-Rhysotoechia,genus,species,,,,,,fruit_dehiscence,x,loculicidal,loculicidal,dehiscent,mode,,"Description, p.360",104,360,,Adema_1996,loculicidal,inferred_from_species
-Rhysotoechia,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary | paniculate or thyrsoid,axillary paniculate,axillary panicle,mode,,"Description, p.360",104,360,,Adema_1996,axillary paniculate,inferred_from_species
-Rhysotoechia,genus,species,,,,,leaflet,leaf_base_shape,x,base symmetric to slightly asymmetric,asymmetric,oblique,mode,,"Description, p.360",104,360,,Adema_1996,asymmetric,inferred_from_species
-Rhysotoechia,genus,species,,,,,,leaf_compoundness,x,Leaves imparipinnate,imparipinnate,compound,mode,,"Description, p.360",104,360,,Adema_1996,imparipinnate,inferred_from_species
-Rhysotoechia,genus,species,,,,,,leaf_lamina_division,x,Leaves imparipinnate,imparipinnate,pinnately_compound,mode,,"Description, p.360",104,360,,Adema_1996,imparipinnate,inferred_from_species
-Rhysotoechia,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.360",104,360,,Adema_1996,entire,inferred_from_species
-Rhysotoechia,genus,species,,,,,,seed_shape,x,Seeds obovoid to globose,globose,globoid,mode,,"Description, p.360",104,360,,Adema_1996,globose,inferred_from_species
-Rhysotoechia,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5,5,5,mean,{count},"Description, p.360",104,360,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
-Rhysotoechia,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (7--)8,8,8,mean,{count},"Description, p.360",104,360,,Adema_1996,8,inferred_from_species
-Rhysotoechia,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (7--)8,7,7,minimum,{count},"Description, p.360",104,360,,Adema_1996,7,inferred_from_species
-Rhysotoechia,genus,species,,usually,,,,flower_structural_carpels_count,x,ovary 2(--3)-locular,2,2,mean,{count},"Description, p.360",104,360,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_species
-Rhysotoechia,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,ovary 2(--3)-locular,3,3,maximum,{count},"Description, p.360",104,360,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
-Trigonachras,genus,species,,,,,,flower_perianth_symmetry,x,Flowers radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.362",106,362,,Adema_1996,radially_symmetrical,inferred_from_species
-Trigonachras,genus,species,,,,,,flower_structural_sex_type,x,unisexual,unisexual,unisexual,mode,,"Description, p.362",106,362,,Adema_1996,unisexual,inferred_from_species
-Trigonachras,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary or pseudoterminal,axillary,axillary,mode,,"Description, p.362",106,362,,Adema_1996,axillary,inferred_from_species
-Trigonachras,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.362",106,362,,Adema_1996,paripinnate,inferred_from_species
-Trigonachras,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.362",106,362,,Adema_1996,paripinnate,inferred_from_species
-Trigonachras,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.362",106,362,,Adema_1996,entire,inferred_from_species
-Trigonachras,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.362",106,362,,Adema_1996,trees,inferred_from_species
-Trigonachras,genus,species,,,,,,sex_type,x,monoecious,monoecious,monoecious,mode,,"Description, p.362",106,362,,Adema_1996,monoecious,inferred_from_species
-Trigonachras,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5,5,5,mean,{count},"Description, p.362",106,362,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
-Trigonachras,genus,species,,,,,,flower_anther_orientation,x,latero-introrse to latrorse,latero-introrse latrorse,introrse latrorse,mode,,"Description, p.363",107,363,,Adema_1996,latero-introrse latrorse,inferred_from_species
-Trigonachras,genus,species,,,,,,fruit_dehiscence,x,loculicidal capsules,loculicidal,dehiscent,mode,,"Description, p.363",107,363,,Adema_1996,loculicidal,inferred_from_species
-Trigonachras,genus,species,,,,,,fruit_type,x,loculicidal capsules,capsules,capsule,mode,,"Description, p.363",107,363,,Adema_1996,capsules,inferred_from_species
-Trigonachras,genus,species,,,,,,seed_shape,x,Seeds ellipsoid,ellipsoid,ellipsoid,mode,,"Description, p.363",107,363,,Adema_1996,ellipsoid,inferred_from_species
-Trigonachras,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (7--)8(--9),8,8,mean,{count},"Description, p.363",107,363,,Adema_1996,8,inferred_from_species
-Trigonachras,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (7--)8(--9),7,7,minimum,{count},"Description, p.363",107,363,,Adema_1996,7,inferred_from_species
-Trigonachras,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (7--)8(--9),9,9,maximum,{count},"Description, p.363",107,363,,Adema_1996,9,inferred_from_species
-Trigonachras,genus,species,,,,,,flower_structural_carpels_count,x,3-locular,3,3,mean,{count},"Description, p.363",107,363,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
-Tristiropsis,genus,species,,,,,,flower_anther_attachment,x,basifixed,basifixed,basifixed,mode,,"Description, p.366",110,366,,Adema_1996,basifixed,inferred_from_species
-Tristiropsis,genus,species,,,,,,flower_anther_orientation,x,anthers latrorse,latrorse,latrorse,mode,,"Description, p.366",110,366,,Adema_1996,latrorse,inferred_from_species
-Tristiropsis,genus,species,,,,,,fruit_type,x,Fruits subdrupaceous,drupaceous,drupe,mode,,"Description, p.366",110,366,,Adema_1996,drupaceous,inferred_from_species
-Tristiropsis,genus,species,,,,,,inflorescence_type,x,axillary towards the end of the branches,axillary,axillary,mode,,"Description, p.366",110,366,,Adema_1996,axillary,inferred_from_species
-Tristiropsis,genus,species,,,,,leaflet,leaf_base_shape,x,base oblique,oblique,oblique,mode,,"Description, p.366",110,366,,Adema_1996,oblique,inferred_from_species
-Tristiropsis,genus,species,,,,,,leaf_compoundness,x,Leaves bipinnate or the upper ones at least forked,pinnate,compound,mode,,"Description, p.366",110,366,,Adema_1996,pinnate,inferred_from_species
-Tristiropsis,genus,species,,,,,,leaf_lamina_division,x,Leaves bipinnate or the upper ones at least forked,bipinnate,bipinnate,mode,,"Description, p.366",110,366,,Adema_1996,bipinnate,inferred_from_species
-Tristiropsis,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.366",110,366,,Adema_1996,entire,inferred_from_species
-Tristiropsis,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.366",110,366,,Adema_1996,trees,inferred_from_species
-Tristiropsis,genus,species,,,,,,seed_colour,x,Seeds brown,brown,red_brown,mode,,"Description, p.366",110,366,,Adema_1996,brown,inferred_from_species
-Tristiropsis,genus,species,,,,,,sex_type,x,monoecious,monoecious,monoecious,mode,,"Description, p.366",110,366,,Adema_1996,monoecious,inferred_from_species
-Tristiropsis,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5,5,5,mean,{count},"Description, p.366",110,366,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
-Tristiropsis,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens 8(--13),8,8,mean,{count},"Description, p.366",110,366,,Adema_1996,8,inferred_from_species
-Tristiropsis,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens 8(--13),13,13,maximum,{count},"Description, p.366",110,366,,Adema_1996,13,inferred_from_species
-Tristiropsis,genus,species,,usually,,,,flower_structural_carpels_count,x,3(--5)-locular,3,3,mean,{count},"Description, p.366",110,366,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
-Tristiropsis,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,3(--5)-locular,5,5,maximum,{count},"Description, p.366",110,366,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,5,inferred_from_species
-Xerospermum,genus,species,,,,,,flower_anther_attachment,x,anthers dorsifixed,dorsifixed,dorsifixed,mode,,"Description, p.368",112,368,,Adema_1996,dorsifixed,inferred_from_species
-Xerospermum,genus,species,,,,,,flower_anther_orientation,x,latrorse,latrorse,latrorse,mode,,"Description, p.368",112,368,,Adema_1996,latrorse,inferred_from_species
-Xerospermum,genus,species,,,,,,flower_perianth_symmetry,x,Flowers radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.368",112,368,,Adema_1996,radially_symmetrical,inferred_from_species
-Xerospermum,genus,species,,,,,,flower_structural_sex_type,x,effectively unisexual,unisexual,unisexual,mode,,"Description, p.368",112,368,,Adema_1996,unisexual,inferred_from_species
-Xerospermum,genus,species,,,,,,inflorescence_type,x,Inflorescences usually solitary in the lower leaf axils and tufted in the upper leaf axils,axils,axillary,mode,,"Description, p.368",112,368,,Adema_1996,axils,inferred_from_species
-Xerospermum,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.368",112,368,,Adema_1996,paripinnate,inferred_from_species
-Xerospermum,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.368",112,368,,Adema_1996,paripinnate,inferred_from_species
-Xerospermum,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.368",112,368,,Adema_1996,entire,inferred_from_species
-Xerospermum,genus,species,,,,,,plant_growth_form,x,Medium-sized trees or shrubs,trees shrubs,tree shrub,mode,,"Description, p.368",112,368,,Adema_1996,trees shrubs,inferred_from_species
-Xerospermum,genus,species,,,,,,sex_type,x,androdioecious,androdioecious,androdioecious,mode,,"Description, p.368",112,368,,Adema_1996,androdioecious,inferred_from_species
-Xerospermum,genus,species,,,,,,flower_perianth_merism,x,4- or 5-merous,4,4,minimum,{count},"Description, p.368",112,368,,Adema_1996,4,inferred_from_species
-Xerospermum,genus,species,,,,,,flower_perianth_merism,x,4- or 5-merous,5,5,maximum,{count},"Description, p.368",112,368,,Adema_1996,5,inferred_from_species
-Xerospermum,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (7--)8(--9),8,8,mean,{count},"Description, p.368",112,368,,Adema_1996,8,inferred_from_species
-Xerospermum,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (7--)8(--9),7,7,minimum,{count},"Description, p.368",112,368,,Adema_1996,7,inferred_from_species
-Xerospermum,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (7--)8(--9),9,9,maximum,{count},"Description, p.368",112,368,,Adema_1996,9,inferred_from_species
-Xerospermum,genus,species,,usually,,,,flower_structural_carpels_count,x,ovary 2(--3)-locular,2,2,mean,{count},"Description, p.368",112,368,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_species
-Xerospermum,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,ovary 2(--3)-locular,3,3,maximum,{count},"Description, p.368",112,368,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_species
-Xerospermum,genus,species,,,,,,dispersal_appendage,x,completely covered by a thin sarcotesta except for the basal hilum,sarcotesta,sarcotesta,mode,,"Description, p.369",113,369,,Adema_1996,sarcotesta,inferred_from_species
-Xerospermum,genus,species,,,,,,seed_shape,x,Seeds ellipsoid to subglobose,ellipsoid subglobose,ellipsoid globoid,mode,,"Description, p.369",113,369,,Adema_1996,ellipsoid subglobose,inferred_from_species
-Zollingeria,genus,species,,rarely,,,,flower_perianth_symmetry,x,radially or rarely bilaterally symmetrical,bilaterally_symmetrical,zygomorphic,mode,,"Description, p.372",116,372,,Adema_1996,bilaterally_symmetrical,inferred_from_species
-Zollingeria,genus,species,,usually,,,,flower_perianth_symmetry,x,radially or rarely bilaterally symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.372",116,372,,Adema_1996,radially_symmetrical,inferred_from_species
-Zollingeria,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.372",116,372,,Adema_1996,unisexual,inferred_from_species
-Zollingeria,genus,species,,,,,,fruit_dehiscence,x,indehiscent,indehiscent,indehiscent,mode,,"Description, p.372",116,372,,Adema_1996,indehiscent,inferred_from_species
-Zollingeria,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary,axillary,axillary,mode,,"Description, p.372",116,372,,Adema_1996,axillary,inferred_from_species
-Zollingeria,genus,species,,,,,,leaf_arrangement,x,Leaves spirally arranged,spiral,spiral,mode,,"Description, p.372",116,372,,Adema_1996,spiral,inferred_from_species
-Zollingeria,genus,species,,,,,,leaf_compoundness,x,paripinnate,paripinnate,compound,mode,,"Description, p.372",116,372,,Adema_1996,paripinnate,inferred_from_species
-Zollingeria,genus,species,,,,,,leaf_lamina_division,x,paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.372",116,372,,Adema_1996,paripinnate,inferred_from_species
-Zollingeria,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.372",116,372,,Adema_1996,entire,inferred_from_species
-Zollingeria,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.372",116,372,,Adema_1996,trees,inferred_from_species
-Zollingeria,genus,species,,,,,,sex_type,x,monoecious,monoecious,monoecious,mode,,"Description, p.372",116,372,,Adema_1996,monoecious,inferred_from_species
-Zollingeria,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5,5,5,mean,{count},"Description, p.372",116,372,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_species
-Zollingeria,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 8,8,8,mean,{count},"Description, p.372",116,372,,Adema_1996,8,inferred_from_species
+Sapindaceae,family,species,,often,,,,dispersal_appendage,x,often with an arillode or a sarcotesta,arillode sarcotesta,aril sarcotesta,mode,,"Description, p.263",7,263,,Adema_1996,arillode sarcotesta,inferred_from_family
+Sapindaceae,family,species,,rarely,,,,flower_anther_attachment,x,anthers basifixed or rarely dorsifixed,dorsifixed,dorsifixed,mode,,"Description, p.263",7,263,,Adema_1996,dorsifixed,inferred_from_family
+Sapindaceae,family,species,,usually,,,,flower_anther_attachment,x,anthers basifixed or rarely dorsifixed,basifixed,basifixed,mode,,"Description, p.263",7,263,,Adema_1996,basifixed,inferred_from_family
+Sapindaceae,family,species,,,,,,flower_anther_orientation,x,introrse or latero-introrse,introrse latero-introrse,introrse,mode,,"Description, p.263",7,263,,Adema_1996,introrse latero-introrse,inferred_from_family
+Sapindaceae,family,species,,,,,,flower_ovary_position,x,ovary superior,superior,superior,mode,,"Description, p.263",7,263,,Adema_1996,superior,inferred_from_family
+Sapindaceae,family,species,,,,,,flower_perianth_symmetry,x,radially or bilaterally symmetrical,radially_symmetrical bilaterally_symmetrical,actinomorphic_general zygomorphic,mode,,"Description, p.263",7,263,,Adema_1996,radially_symmetrical bilaterally_symmetrical,inferred_from_family
+Sapindaceae,family,species,,rarely,,,,flower_structural_sex_type,x,rarely bisexual,bisexual,bisexual,mode,,"Description, p.263",7,263,,Adema_1996,bisexual,inferred_from_family
+Sapindaceae,family,species,,usually,,,,flower_structural_sex_type,x,Flowers usually unisexual,unisexual,unisexual,mode,,"Description, p.263",7,263,,Adema_1996,unisexual,inferred_from_family
+Sapindaceae,family,species,,,,,,fruit_dehiscence,x,when capsular usually loculicidal,loculicidal,dehiscent,mode,,"Description, p.263",7,263,,Adema_1996,loculicidal,inferred_from_family
+Sapindaceae,family,species,,,,,,fruit_type,x,Fruits capsular or drupaceous | or consisting of 2 or 3 samaras,capsular drupaceous samaras,capsule drupe samara,mode,,"Description, p.263",7,263,,Adema_1996,capsular drupaceous samaras,inferred_from_family
+Sapindaceae,family,species,,,,,,inflorescence_type,x,Inflorescences axillary | terminal or borne on leafless branches | corymbose | paniculate | racemose | or umbellate,axillary terminal corymb paniculate racemose umbel,axillary terminal corymb panicle raceme umbel,mode,,"Description, p.263",7,263,,Adema_1996,axillary terminal corymb paniculate racemose umbel,inferred_from_family
+Sapindaceae,family,species,,usually,,,,leaf_arrangement,x,Leaves spirally arranged,spiral,spiral,mode,,"Description, p.263",7,263,,Adema_1996,spiral,inferred_from_family
+Sapindaceae,family,species,,,,,,leaf_compoundness,x,simple | biternate | digitate | pinnate or bipinnate,simple biternate digitate pinnate,simple compound,mode,,"Description, p.263",7,263,,Adema_1996,simple biternate digitate pinnate,inferred_from_family
+Sapindaceae,family,species,,,,,,leaf_lamina_division,x,digitate | pinnate or bipinnate,digitate pinnate bipinnate,palmately_compound pinnately_compound bipinnate,mode,,"Description, p.263",7,263,,Adema_1996,digitate pinnate bipinnate,inferred_from_family
+Sapindaceae,family,species,,rarely,,,,leaf_phyllotaxis,x,rarely opposite or whorled,opposite whorled,opposite whorled,mode,,"Description, p.263",7,263,,Adema_1996,opposite whorled,inferred_from_family
+Sapindaceae,family,species,,rarely,,,,plant_growth_form,x,or rarely herbaceous climbers,herbaceous_climbers,climber_herbaceous,mode,,"Description, p.263",7,263,,Adema_1996,herbaceous_climbers,inferred_from_family
+Sapindaceae,family,species,,usually,,,,plant_growth_form,x,Trees | shrubs | or lianas,trees shrubs lianas,tree shrub climber_woody,mode,,"Description, p.263",7,263,,Adema_1996,trees shrubs lianas,inferred_from_family
+Sapindaceae,family,species,,,,,,seed_shape,x,Seeds globose to obovoid,globose,globoid,mode,,"Description, p.263",7,263,,Adema_1996,globose,inferred_from_family
+Sapindaceae,family,species,,rarely,,,,sex_type,x,rarely dioecious or polygamous,dioecious polygamous,dioecious polygamous,mode,,"Description, p.263",7,263,,Adema_1996,dioecious polygamous,inferred_from_family
+Sapindaceae,family,species,,usually,,,,sex_type,x,monoecious,monoecious,monoecious,mode,,"Description, p.263",7,263,,Adema_1996,monoecious,inferred_from_family
+Sapindaceae,family,species,,usually,,,calyx,flower_perianth_merism,x,sepals 4 or 5,4,4,minimum,{count},"Description, p.263",7,263,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_family
+Sapindaceae,family,species,,usually,,,calyx,flower_perianth_merism,x,sepals 4 or 5,5,5,maximum,{count},"Description, p.263",7,263,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_family
+Sapindaceae,family,species,,usually,,,,flower_fertile_stamens_count,x,stamens 5--10(--74),5,5,minimum,{count},"Description, p.263",7,263,,Adema_1996,5,inferred_from_family
+Sapindaceae,family,species,,usually,,,,flower_fertile_stamens_count,x,stamens 5--10(--74),10,10,maximum,{count},"Description, p.263",7,263,,Adema_1996,10,inferred_from_family
+Sapindaceae,family,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens 5--10(--74),74,74,maximum,{count},"Description, p.263",7,263,,Adema_1996,74,inferred_from_family
+Sapindaceae,family,species,,usually,,,,flower_structural_carpels_count,x,1--3(--8)-locular,1,1,minimum,{count},"Description, p.263",7,263,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,1,inferred_from_family
+Sapindaceae,family,species,,usually,,,,flower_structural_carpels_count,x,1--3(--8)-locular,3,3,maximum,{count},"Description, p.263",7,263,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_family
+Sapindaceae,family,species,,extreme_range,,,,flower_structural_carpels_count,x,1--3(--8)-locular,8,8,maximum,{count},"Description, p.263",7,263,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,8,inferred_from_family
+Alectryon,genus,species,,,,,,dispersal_appendage,x,partly covered with a red sarcotesta.,sarcotesta,sarcotesta,mode,,"Description, p.271",15,271,,Adema_1996,sarcotesta,inferred_from_genus
+Alectryon,genus,species,,,,,,flower_anther_attachment,x,anthers basifixed,basifixed,basifixed,mode,,"Description, p.271",15,271,,Adema_1996,basifixed,inferred_from_genus
+Alectryon,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.271",15,271,,Adema_1996,radially_symmetrical,inferred_from_genus
+Alectryon,genus,species,,sometimes,,,,flower_structural_sex_type,x,Flowers unisexual or sometimes bisexual,bisexual,bisexual,mode,,"Description, p.271",15,271,,Adema_1996,bisexual,inferred_from_genus
+Alectryon,genus,species,,usually,,,,flower_structural_sex_type,x,Flowers unisexual or sometimes bisexual,unisexual,unisexual,mode,,"Description, p.271",15,271,,Adema_1996,unisexual,inferred_from_genus
+Alectryon,genus,species,,,,,,fruit_dehiscence,x,dehiscing by an irregular transverse break on each lobe or along the septum,dehisc,dehiscent,mode,,"Description, p.271",15,271,,Adema_1996,dehisc,inferred_from_genus
+Alectryon,genus,species,,,,,,fruit_type,x,capsular,capsular,capsule,mode,,"Description, p.271",15,271,,Adema_1996,capsular,inferred_from_genus
+Alectryon,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary | panicles or racemes,axillary panicles racemes,axillary panicle raceme,mode,,"Description, p.271",15,271,,Adema_1996,axillary panicles racemes,inferred_from_genus
+Alectryon,genus,species,,often,,,leaflet,leaf_base_shape,x,base often oblique,oblique,oblique,mode,,"Description, p.271",15,271,,Adema_1996,oblique,inferred_from_genus
+Alectryon,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.271",15,271,,Adema_1996,paripinnate,inferred_from_genus
+Alectryon,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.271",15,271,,Adema_1996,paripinnate,inferred_from_genus
+Alectryon,genus,species,,,,,leaflet,leaf_margin,x,margin entire or serrate | dentate or crenate,entire serrate dentate crenate,entire toothed_serrate toothed_dentate toothed_crenate,mode,,"Description, p.271",15,271,,Adema_1996,entire serrate dentate crenate,inferred_from_genus
+Alectryon,genus,species,,,,,,plant_growth_form,x,Trees or shrubs,trees shrubs,tree shrub,mode,,"Description, p.271",15,271,,Adema_1996,trees shrubs,inferred_from_genus
+Alectryon,genus,species,,,,,,seed_colour,x,Seeds black,black,black,mode,,"Description, p.271",15,271,,Adema_1996,black,inferred_from_genus
+Alectryon,genus,species,,sometimes,,,,sex_type,x,dioecious or sometimes monoecious,monoecious,monoecious,mode,,"Description, p.271",15,271,,Adema_1996,monoecious,inferred_from_genus
+Alectryon,genus,species,,usually,,,,sex_type,x,dioecious or sometimes monoecious,dioecious,dioecious,mode,,"Description, p.271",15,271,,Adema_1996,dioecious,inferred_from_genus
+Alectryon,genus,species,,usually,,,calyx,flower_perianth_merism,x,sepals 4 or 5 (or 6),4,4,minimum,{count},"Description, p.271",15,271,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_genus
+Alectryon,genus,species,,usually,,,calyx,flower_perianth_merism,x,sepals 4 or 5 (or 6),5,5,maximum,{count},"Description, p.271",15,271,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_genus
+Alectryon,genus,species,,extreme_range,,,calyx,flower_perianth_merism,x,sepals 4 or 5 (or 6),6,6,maximum,{count},"Description, p.271",15,271,Sepal number scored as perianth merism.,Adema_1996,6,inferred_from_genus
+Alectryon,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (5--)8,8,8,mean,{count},"Description, p.271",15,271,,Adema_1996,8,inferred_from_genus
+Alectryon,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (5--)8,5,5,minimum,{count},"Description, p.271",15,271,,Adema_1996,5,inferred_from_genus
+Alectryon,genus,species,,usually,,,,flower_structural_carpels_count,x,(1--)2--4(--5)-locular,2,2,minimum,{count},"Description, p.271",15,271,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_genus
+Alectryon,genus,species,,usually,,,,flower_structural_carpels_count,x,(1--)2--4(--5)-locular,4,4,maximum,{count},"Description, p.271",15,271,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,4,inferred_from_genus
+Alectryon,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,(1--)2--4(--5)-locular,1,1,minimum,{count},"Description, p.271",15,271,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,1,inferred_from_genus
+Alectryon,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,(1--)2--4(--5)-locular,5,5,maximum,{count},"Description, p.271",15,271,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,5,inferred_from_genus
+Allophylus,genus,species,,,,,,flower_perianth_symmetry,x,obliquely bilaterally symmetrical,bilaterally_symmetrical,zygomorphic,mode,,"Description, p.273",17,273,,Adema_1996,bilaterally_symmetrical,inferred_from_genus
+Allophylus,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.273",17,273,,Adema_1996,unisexual,inferred_from_genus
+Allophylus,genus,species,,,,,,fruit_type,x,Fruits drupaceous,drupaceous,drupe,mode,,"Description, p.273",17,273,,Adema_1996,drupaceous,inferred_from_genus
+Allophylus,genus,species,,sometimes,,,,inflorescence_type,x,sometimes paniculate,paniculate,panicle,mode,,"Description, p.273",17,273,,Adema_1996,paniculate,inferred_from_genus
+Allophylus,genus,species,,usually,,,,inflorescence_type,x,Inflorescences axillary | racemose thyrses,axillary racemose,axillary raceme,mode,,"Description, p.273",17,273,,Adema_1996,axillary racemose,inferred_from_genus
+Allophylus,genus,species,,,,,,leaf_compoundness,x,Leaves digitate,digitate,compound,mode,,"Description, p.273",17,273,,Adema_1996,digitate,inferred_from_genus
+Allophylus,genus,species,,,,,,leaf_lamina_division,x,Leaves digitate,digitate,palmately_compound,mode,,"Description, p.273",17,273,,Adema_1996,digitate,inferred_from_genus
+Allophylus,genus,species,,sometimes,,,,plant_growth_form,x,or sometimes woody climbers,woody_climbers,climber_woody,mode,,"Description, p.273",17,273,,Adema_1996,woody_climbers,inferred_from_genus
+Allophylus,genus,species,,usually,,,,plant_growth_form,x,Shrubs | small trees,shrubs trees,shrub tree,mode,,"Description, p.273",17,273,,Adema_1996,shrubs trees,inferred_from_genus
+Allophylus,genus,species,,,,,,sex_type,x,monoecious or dioecious,monoecious dioecious,monoecious dioecious,mode,,"Description, p.273",17,273,,Adema_1996,monoecious dioecious,inferred_from_genus
+Allophylus,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 4,4,4,mean,{count},"Description, p.273",17,273,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_genus
+Allophylus,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens 8 (rarely fewer),8,8,mean,{count},"Description, p.273",17,273,,Adema_1996,8,inferred_from_genus
+Allophylus,genus,species,,usually,,,,flower_structural_carpels_count,x,2(--3)-locular,2,2,mean,{count},"Description, p.273",17,273,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_genus
+Allophylus,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,2(--3)-locular,3,3,maximum,{count},"Description, p.273",17,273,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_genus
+Arytera,genus,species,,,,,,dispersal_appendage,x,Seeds partly covered by an arillode,arillode,aril,mode,,"Description, p.276",20,276,,Adema_1996,arillode,inferred_from_genus
+Arytera,genus,species,,,,,,fruit_dehiscence,x,loculicidal,loculicidal,dehiscent,mode,,"Description, p.276",20,276,,Adema_1996,loculicidal,inferred_from_genus
+Arytera,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary to pseudoterminal or borne on leafless twigs,axillary,axillary,mode,,"Description, p.276",20,276,,Adema_1996,axillary,inferred_from_genus
+Arytera,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.276",20,276,,Adema_1996,paripinnate,inferred_from_genus
+Arytera,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.276",20,276,,Adema_1996,paripinnate,inferred_from_genus
+Arytera,genus,species,,rarely,,,,plant_growth_form,x,rarely shrubs,shrubs,shrub,mode,,"Description, p.276",20,276,,Adema_1996,shrubs,inferred_from_genus
+Arytera,genus,species,,usually,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.276",20,276,,Adema_1996,trees,inferred_from_genus
+Arytera,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (6--)8(--10),8,8,mean,{count},"Description, p.276",20,276,,Adema_1996,8,inferred_from_genus
+Arytera,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (6--)8(--10),6,6,minimum,{count},"Description, p.276",20,276,,Adema_1996,6,inferred_from_genus
+Arytera,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (6--)8(--10),10,10,maximum,{count},"Description, p.276",20,276,,Adema_1996,10,inferred_from_genus
+Arytera,genus,species,,,,,,flower_structural_carpels_count,x,2--3-locular,2,2,minimum,{count},"Description, p.276",20,276,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_genus
+Arytera,genus,species,,,,,,flower_structural_carpels_count,x,2--3-locular,3,3,maximum,{count},"Description, p.276",20,276,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_genus
+Cardiospermum,genus,species,,,,,,plant_climbing_mechanism,x,Inflorescences with basal tendrils,tendrils,tendrils,mode,,"Key to genera (annotation), p.265",9,265,"Genus annotated only in the key to genera, no detailed treatment; habit scored at genus rank (standing rule: habit scored for every taxon), not copied down. Tendrils at the inflorescence base support the climbing stems.",Adema_1996,tendrils,inferred_from_genus
+Cardiospermum,genus,species,,,,,,plant_growth_form,x,Herbaceous or woody climbers,climber_herbaceous climber_woody,climber_herbaceous climber_woody,mode,,"Key to genera (annotation), p.265",9,265,"Genus annotated only in the key to genera, no detailed treatment; habit scored at genus rank (standing rule: habit scored for every taxon), not copied down.",Adema_1996,climber_herbaceous climber_woody,inferred_from_genus
+Cubilia,genus,species,,,,,,dispersal_appendage,x,more-or-less entire arillode,arillode,aril,mode,,"Description, p.279",23,279,,Adema_1996,arillode,inferred_from_genus
+Cubilia,genus,species,,,,,,flower_anther_orientation,x,introrse,introrse,introrse,mode,,"Description, p.279",23,279,,Adema_1996,introrse,inferred_from_genus
+Cubilia,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.279",23,279,,Adema_1996,radially_symmetrical,inferred_from_genus
+Cubilia,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.279",23,279,,Adema_1996,unisexual,inferred_from_genus
+Cubilia,genus,species,,,,,,fruit_dehiscence,x,loculicidal,loculicidal,dehiscent,mode,,"Description, p.279",23,279,,Adema_1996,loculicidal,inferred_from_genus
+Cubilia,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.279",23,279,,Adema_1996,glabrous,inferred_from_genus
+Cubilia,genus,species,,,,,,inflorescence_type,x,Inflorescences terminal or pseudoterminal | thyrsoid or corymbose,terminal corymb,terminal corymb,mode,,"Description, p.279",23,279,,Adema_1996,terminal corymb,inferred_from_genus
+Cubilia,genus,species,,,,,leaflet,leaf_base_shape,x,base equal-sided to oblique,oblique,oblique,mode,,"Description, p.279",23,279,,Adema_1996,oblique,inferred_from_genus
+Cubilia,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.279",23,279,,Adema_1996,paripinnate,inferred_from_genus
+Cubilia,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.279",23,279,,Adema_1996,paripinnate,inferred_from_genus
+Cubilia,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.279",23,279,,Adema_1996,entire,inferred_from_genus
+Cubilia,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens 5 (or 6),5,5,mean,{count},"Description, p.279",23,279,,Adema_1996,5,inferred_from_genus
+Cubilia,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens 5 (or 6),6,6,maximum,{count},"Description, p.279",23,279,,Adema_1996,6,inferred_from_genus
+Cubilia,genus,species,,,,,,flower_structural_carpels_count,x,2-locular,2,2,mean,{count},"Description, p.279",23,279,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_genus
+Dictyoneura,genus,species,,,,,,flower_anther_attachment,x,anthers basifixed to halfway dorsifixed,basifixed dorsifixed,basifixed dorsifixed,mode,,"Description, p.281",25,281,,Adema_1996,basifixed dorsifixed,inferred_from_genus
+Dictyoneura,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.281",25,281,,Adema_1996,radially_symmetrical,inferred_from_genus
+Dictyoneura,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.281",25,281,,Adema_1996,unisexual,inferred_from_genus
+Dictyoneura,genus,species,,,,,,fruit_dehiscence,x,loculicidal,loculicidal,dehiscent,mode,,"Description, p.281",25,281,,Adema_1996,loculicidal,inferred_from_genus
+Dictyoneura,genus,species,,,,,,fruit_type,x,Fruits capsular,capsular,capsule,mode,,"Description, p.281",25,281,,Adema_1996,capsular,inferred_from_genus
+Dictyoneura,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary,axillary,axillary,mode,,"Description, p.281",25,281,,Adema_1996,axillary,inferred_from_genus
+Dictyoneura,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.281",25,281,,Adema_1996,paripinnate,inferred_from_genus
+Dictyoneura,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.281",25,281,,Adema_1996,paripinnate,inferred_from_genus
+Dictyoneura,genus,species,,,,,,plant_growth_form,x,Shrubs to medium-sized trees,shrubs trees,shrub tree,mode,,"Description, p.281",25,281,,Adema_1996,shrubs trees,inferred_from_genus
+Dictyoneura,genus,species,,,,,,seed_shape,x,Seeds ovoid to ellipsoid,ovoid ellipsoid,ovoid ellipsoid,mode,,"Description, p.281",25,281,,Adema_1996,ovoid ellipsoid,inferred_from_genus
+Dictyoneura,genus,species,,,,,,sex_type,x,monoecious,monoecious,monoecious,mode,,"Description, p.281",25,281,,Adema_1996,monoecious,inferred_from_genus
+Dictyoneura,genus,species,,usually,,,calyx,flower_perianth_merism,x,sepals 5(or 6),5,5,mean,{count},"Description, p.281",25,281,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_genus
+Dictyoneura,genus,species,,extreme_range,,,calyx,flower_perianth_merism,x,sepals 5(or 6),6,6,maximum,{count},"Description, p.281",25,281,Sepal number scored as perianth merism.,Adema_1996,6,inferred_from_genus
+Dictyoneura,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (4--)5(--6),5,5,mean,{count},"Description, p.281",25,281,,Adema_1996,5,inferred_from_genus
+Dictyoneura,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (4--)5(--6),4,4,minimum,{count},"Description, p.281",25,281,,Adema_1996,4,inferred_from_genus
+Dictyoneura,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (4--)5(--6),6,6,maximum,{count},"Description, p.281",25,281,,Adema_1996,6,inferred_from_genus
+Dictyoneura,genus,species,,usually,,,,flower_structural_carpels_count,x,2(--3)-locular,2,2,mean,{count},"Description, p.281",25,281,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_genus
+Dictyoneura,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,2(--3)-locular,3,3,maximum,{count},"Description, p.281",25,281,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_genus
+Dimocarpus,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.282",26,282,,Adema_1996,paripinnate,inferred_from_genus
+Dimocarpus,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.282",26,282,,Adema_1996,paripinnate,inferred_from_genus
+Dimocarpus,genus,species,,,,,,plant_growth_form,x,Trees or shrubs,trees shrubs,tree shrub,mode,,"Description, p.282",26,282,,Adema_1996,trees shrubs,inferred_from_genus
+Dimocarpus,genus,species,,mostly,,,,sex_type,x,mostly monoecious,monoecious,monoecious,mode,,"Description, p.282",26,282,,Adema_1996,monoecious,inferred_from_genus
+Dimocarpus,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.284",28,284,,Adema_1996,radially_symmetrical,inferred_from_genus
+Dimocarpus,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.284",28,284,,Adema_1996,unisexual,inferred_from_genus
+Dimocarpus,genus,species,,sometimes,,,,fruit_dehiscence,x,indehiscent or sometimes loculicidal,loculicidal,dehiscent,mode,,"Description, p.284",28,284,,Adema_1996,loculicidal,inferred_from_genus
+Dimocarpus,genus,species,,usually,,,,fruit_dehiscence,x,indehiscent or sometimes loculicidal,indehiscent,indehiscent,mode,,"Description, p.284",28,284,,Adema_1996,indehiscent,inferred_from_genus
+Dimocarpus,genus,species,,sometimes,,,,inflorescence_type,x,terminal and sometimes in the axils of upper leaves,axils,axillary,mode,,"Description, p.284",28,284,,Adema_1996,axils,inferred_from_genus
+Dimocarpus,genus,species,,,,,,inflorescence_type,x,Inflorescence a panicle | terminal and sometimes in the axils of upper leaves,panicle terminal,panicle terminal,mode,,"Description, p.284",28,284,,Adema_1996,panicle terminal,inferred_from_genus
+Dimocarpus,genus,species,,,,,leaflet,leaf_margin,x,margin entire to dentate,entire dentate,entire toothed_dentate,mode,,"Description, p.284",28,284,,Adema_1996,entire dentate,inferred_from_genus
+Dimocarpus,genus,species,,,,,,seed_shape,x,Seeds more or less globose,globose,globoid,mode,,"Description, p.284",28,284,,Adema_1996,globose,inferred_from_genus
+Dimocarpus,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5--6,5,5,minimum,{count},"Description, p.284",28,284,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_genus
+Dimocarpus,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5--6,6,6,maximum,{count},"Description, p.284",28,284,Sepal number scored as perianth merism.,Adema_1996,6,inferred_from_genus
+Dimocarpus,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (6--)8(--10),8,8,mean,{count},"Description, p.284",28,284,,Adema_1996,8,inferred_from_genus
+Dimocarpus,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (6--)8(--10),6,6,minimum,{count},"Description, p.284",28,284,,Adema_1996,6,inferred_from_genus
+Dimocarpus,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (6--)8(--10),10,10,maximum,{count},"Description, p.284",28,284,,Adema_1996,10,inferred_from_genus
+Ganophyllum,genus,species,,,,,,flower_anther_attachment,x,anthers basifixed,basifixed,basifixed,mode,,"Description, p.289",33,289,,Adema_1996,basifixed,inferred_from_genus
+Ganophyllum,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.289",33,289,,Adema_1996,radially_symmetrical,inferred_from_genus
+Ganophyllum,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.289",33,289,,Adema_1996,unisexual,inferred_from_genus
+Ganophyllum,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.289",33,289,,Adema_1996,glabrous,inferred_from_genus
+Ganophyllum,genus,species,,,,,,fruit_type,x,Fruit a sessile drupe,drupe,drupe,mode,,"Description, p.289",33,289,,Adema_1996,drupe,inferred_from_genus
+Ganophyllum,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary thyrses,axillary,axillary,mode,,"Description, p.289",33,289,,Adema_1996,axillary,inferred_from_genus
+Ganophyllum,genus,species,,,,,leaflet,leaf_base_shape,x,base slightly to strongly asymmetric,asymmetric,oblique,mode,,"Description, p.289",33,289,,Adema_1996,asymmetric,inferred_from_genus
+Ganophyllum,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.289",33,289,,Adema_1996,paripinnate,inferred_from_genus
+Ganophyllum,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.289",33,289,,Adema_1996,paripinnate,inferred_from_genus
+Ganophyllum,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.289",33,289,,Adema_1996,entire,inferred_from_genus
+Ganophyllum,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 4--6,4,4,minimum,{count},"Description, p.289",33,289,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_genus
+Ganophyllum,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 4--6,6,6,maximum,{count},"Description, p.289",33,289,Sepal number scored as perianth merism.,Adema_1996,6,inferred_from_genus
+Ganophyllum,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 5--7,5,5,minimum,{count},"Description, p.289",33,289,,Adema_1996,5,inferred_from_genus
+Ganophyllum,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 5--7,7,7,maximum,{count},"Description, p.289",33,289,,Adema_1996,7,inferred_from_genus
+Ganophyllum,genus,species,,usually,,,,flower_structural_carpels_count,x,ovary 2(--3)-locular,2,2,mean,{count},"Description, p.289",33,289,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_genus
+Ganophyllum,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,ovary 2(--3)-locular,3,3,maximum,{count},"Description, p.289",33,289,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_genus
+Glenniea,genus,species,,,,,,flower_perianth_symmetry,x,Flowers radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.291",35,291,,Adema_1996,radially_symmetrical,inferred_from_genus
+Glenniea,genus,species,,,,,,flower_structural_sex_type,x,unisexual,unisexual,unisexual,mode,,"Description, p.291",35,291,,Adema_1996,unisexual,inferred_from_genus
+Glenniea,genus,species,,,,,,inflorescence_type,x,Inflorescences terminal or in the axils of upper leaves | thyrsoid or paniculate,terminal axils paniculate,terminal axillary panicle,mode,,"Description, p.291",35,291,,Adema_1996,terminal axils paniculate,inferred_from_genus
+Glenniea,genus,species,,,,,leaflet,leaf_apex_shape,x,apex rounded-acuminate,rounded acuminate,rounded acuminate,mode,,"Description, p.291",35,291,,Adema_1996,rounded acuminate,inferred_from_genus
+Glenniea,genus,species,,,,,,leaf_arrangement,x,Leaves spirally arranged or partly decussate,spiral decussate,spiral decussate,mode,,"Description, p.291",35,291,,Adema_1996,spiral decussate,inferred_from_genus
+Glenniea,genus,species,,,,,leaflet,leaf_base_shape,x,base symmetric or slightly oblique,oblique,oblique,mode,,"Description, p.291",35,291,,Adema_1996,oblique,inferred_from_genus
+Glenniea,genus,species,,,,,,leaf_compoundness,x,unifoliolate or paripinnate,unifoliolate paripinnate,compound,mode,,"Description, p.291",35,291,,Adema_1996,unifoliolate paripinnate,inferred_from_genus
+Glenniea,genus,species,,,,,,leaf_lamina_division,x,unifoliolate or paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.291",35,291,,Adema_1996,paripinnate,inferred_from_genus
+Glenniea,genus,species,,,,,leaflet,leaf_shape,x,ovate to elliptic,ovate elliptic,ovate elliptical,mode,,"Description, p.291",35,291,,Adema_1996,ovate elliptic,inferred_from_genus
+Glenniea,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.291",35,291,,Adema_1996,trees,inferred_from_genus
+Glenniea,genus,species,,,,,,sex_type,x,monoecious or dioecious,monoecious dioecious,monoecious dioecious,mode,,"Description, p.291",35,291,,Adema_1996,monoecious dioecious,inferred_from_genus
+Glenniea,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 4 or 5,4,4,minimum,{count},"Description, p.291",35,291,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_genus
+Glenniea,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 4 or 5,5,5,maximum,{count},"Description, p.291",35,291,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_genus
+Glenniea,genus,species,,,,,,flower_anther_attachment,x,anthers basifixed,basifixed,basifixed,mode,,"Description, p.292",36,292,,Adema_1996,basifixed,inferred_from_genus
+Glenniea,genus,species,,,,,,flower_anther_orientation,x,latrorse to introrse,latrorse introrse,latrorse introrse,mode,,"Description, p.292",36,292,,Adema_1996,latrorse introrse,inferred_from_genus
+Glenniea,genus,species,,,,,,fruit_dehiscence,x,Fruits indehiscent,indehiscent,indehiscent,mode,,"Description, p.292",36,292,,Adema_1996,indehiscent,inferred_from_genus
+Glenniea,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 6 or 7,6,6,minimum,{count},"Description, p.292",36,292,,Adema_1996,6,inferred_from_genus
+Glenniea,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 6 or 7,7,7,maximum,{count},"Description, p.292",36,292,,Adema_1996,7,inferred_from_genus
+Glenniea,genus,species,,,,,,flower_structural_carpels_count,x,2-locular,2,2,mean,{count},"Description, p.292",36,292,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_genus
+Guioa,genus,species,,,,,,flower_anther_attachment,x,anthers basifixed in cleft,basifixed,basifixed,mode,,"Description, p.295",39,295,,Adema_1996,basifixed,inferred_from_genus
+Guioa,genus,species,,,,,,flower_anther_orientation,x,latrorse,latrorse,latrorse,mode,,"Description, p.295",39,295,,Adema_1996,latrorse,inferred_from_genus
+Guioa,genus,species,,,,,,flower_perianth_symmetry,x,Flowers bilaterally symmetrical,bilaterally_symmetrical,zygomorphic,mode,,"Description, p.295",39,295,,Adema_1996,bilaterally_symmetrical,inferred_from_genus
+Guioa,genus,species,,,,,,fruit_colour,x,red,red,red,mode,,"Description, p.295",39,295,,Adema_1996,red,inferred_from_genus
+Guioa,genus,species,,,,,,fruit_dehiscence,x,Fruit a subcordate loculicidal capsule with 3 lobes,loculicidal,dehiscent,mode,,"Description, p.295",39,295,,Adema_1996,loculicidal,inferred_from_genus
+Guioa,genus,species,,,,,,fruit_type,x,Fruit a subcordate loculicidal capsule with 3 lobes,capsule,capsule,mode,,"Description, p.295",39,295,,Adema_1996,capsule,inferred_from_genus
+Guioa,genus,species,,,,,,inflorescence_type,x,axillary,axillary,axillary,mode,,"Description, p.295",39,295,,Adema_1996,axillary,inferred_from_genus
+Guioa,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.295",39,295,,Adema_1996,paripinnate,inferred_from_genus
+Guioa,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.295",39,295,,Adema_1996,paripinnate,inferred_from_genus
+Guioa,genus,species,,,,,,plant_growth_form,x,Shrubs or trees,shrubs trees,shrub tree,mode,,"Description, p.295",39,295,,Adema_1996,shrubs trees,inferred_from_genus
+Guioa,genus,species,,,,,,seed_colour,x,black,black,black,mode,,"Description, p.295",39,295,,Adema_1996,black,inferred_from_genus
+Guioa,genus,species,,,,,,seed_shape,x,Seeds globose to obovoid,globose,globoid,mode,,"Description, p.295",39,295,,Adema_1996,globose,inferred_from_genus
+Guioa,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5,5,5,mean,{count},"Description, p.295",39,295,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_genus
+Guioa,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 8,8,8,mean,{count},"Description, p.295",39,295,,Adema_1996,8,inferred_from_genus
+Guioa,genus,species,,,,,,flower_structural_carpels_count,x,3-locular,3,3,mean,{count},"Description, p.295",39,295,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_genus
+Harpullia,genus,species,,,,,,flower_anther_attachment,x,anthers basifixed,basifixed,basifixed,mode,,"Description, p.305",49,305,,Adema_1996,basifixed,inferred_from_genus
+Harpullia,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.305",49,305,,Adema_1996,radially_symmetrical,inferred_from_genus
+Harpullia,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.305",49,305,,Adema_1996,unisexual,inferred_from_genus
+Harpullia,genus,species,,,,,,fruit_dehiscence,x,Fruits loculicidal capsules,loculicidal,dehiscent,mode,,"Description, p.305",49,305,,Adema_1996,loculicidal,inferred_from_genus
+Harpullia,genus,species,,,,,,fruit_type,x,Fruits loculicidal capsules,capsules,capsule,mode,,"Description, p.305",49,305,,Adema_1996,capsules,inferred_from_genus
+Harpullia,genus,species,,,,,,inflorescence_type,x,axillary | or terminal,axillary terminal,axillary terminal,mode,,"Description, p.305",49,305,,Adema_1996,axillary terminal,inferred_from_genus
+Harpullia,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.305",49,305,,Adema_1996,paripinnate,inferred_from_genus
+Harpullia,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.305",49,305,,Adema_1996,paripinnate,inferred_from_genus
+Harpullia,genus,species,,,,,leaflet,leaf_margin,x,margin entire (Malesian species),entire,entire,mode,,"Description, p.305",49,305,,Adema_1996,entire,inferred_from_genus
+Harpullia,genus,species,,,,,,plant_growth_form,x,Shrubs or medium-sized trees,shrubs trees,shrub tree,mode,,"Description, p.305",49,305,,Adema_1996,shrubs trees,inferred_from_genus
+Harpullia,genus,species,,,,,,sex_type,x,dioecious,dioecious,dioecious,mode,,"Description, p.305",49,305,,Adema_1996,dioecious,inferred_from_genus
+Harpullia,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5,5,5,mean,{count},"Description, p.305",49,305,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_genus
+Harpullia,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 5--8,5,5,minimum,{count},"Description, p.305",49,305,,Adema_1996,5,inferred_from_genus
+Harpullia,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 5--8,8,8,maximum,{count},"Description, p.305",49,305,,Adema_1996,8,inferred_from_genus
+Harpullia,genus,species,,usually,,,,flower_structural_carpels_count,x,ovary 2--3(--4)-locular,2,2,minimum,{count},"Description, p.305",49,305,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_genus
+Harpullia,genus,species,,usually,,,,flower_structural_carpels_count,x,ovary 2--3(--4)-locular,3,3,maximum,{count},"Description, p.305",49,305,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_genus
+Harpullia,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,ovary 2--3(--4)-locular,4,4,maximum,{count},"Description, p.305",49,305,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,4,inferred_from_genus
+Lepisanthes,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.309",53,309,,Adema_1996,radially_symmetrical,inferred_from_genus
+Lepisanthes,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.309",53,309,,Adema_1996,unisexual,inferred_from_genus
+Lepisanthes,genus,species,,,,,,fruit_type,x,drupaceous,drupaceous,drupe,mode,,"Description, p.309",53,309,,Adema_1996,drupaceous,inferred_from_genus
+Lepisanthes,genus,species,,,,,,inflorescence_type,x,Inflorescences terminal | axillary,terminal axillary,terminal axillary,mode,,"Description, p.309",53,309,,Adema_1996,terminal axillary,inferred_from_genus
+Lepisanthes,genus,species,,sometimes,,,,leaf_compoundness,x,sometimes simple,simple,simple,mode,,"Description, p.309",53,309,,Adema_1996,simple,inferred_from_genus
+Lepisanthes,genus,species,,usually,,,,leaf_compoundness,x,Leaves pari- or imparipinnate | with 1 to more than 40 pairs of leaflets,paripinnate imparipinnate pairs_of_leaflets,compound,mode,,"Description, p.309",53,309,,Adema_1996,paripinnate imparipinnate pairs_of_leaflets,inferred_from_genus
+Lepisanthes,genus,species,,,,,,leaf_lamina_division,x,Leaves pari- or imparipinnate,paripinnate imparipinnate,pinnately_compound,mode,,"Description, p.309",53,309,,Adema_1996,paripinnate imparipinnate,inferred_from_genus
+Lepisanthes,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.309",53,309,,Adema_1996,entire,inferred_from_genus
+Lepisanthes,genus,species,,,,,,plant_growth_form,x,Trees or shrubs,trees shrubs,tree shrub,mode,,"Description, p.309",53,309,,Adema_1996,trees shrubs,inferred_from_genus
+Lepisanthes,genus,species,,mostly,,,,sex_type,x,mostly monoecious,monoecious,monoecious,mode,,"Description, p.309",53,309,,Adema_1996,monoecious,inferred_from_genus
+Lepisanthes,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 4 or 5 (rarely 3 or 6),4,4,minimum,{count},"Description, p.309",53,309,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_genus
+Lepisanthes,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 4 or 5 (rarely 3 or 6),5,5,maximum,{count},"Description, p.309",53,309,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_genus
+Lepisanthes,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (4--)8(--18),8,8,mean,{count},"Description, p.309",53,309,,Adema_1996,8,inferred_from_genus
+Lepisanthes,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (4--)8(--18),4,4,minimum,{count},"Description, p.309",53,309,,Adema_1996,4,inferred_from_genus
+Lepisanthes,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (4--)8(--18),18,18,maximum,{count},"Description, p.309",53,309,,Adema_1996,18,inferred_from_genus
+Lepisanthes,genus,species,,usually,,,,flower_structural_carpels_count,x,2--3(--4)-locular,2,2,minimum,{count},"Description, p.309",53,309,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_genus
+Lepisanthes,genus,species,,usually,,,,flower_structural_carpels_count,x,2--3(--4)-locular,3,3,maximum,{count},"Description, p.309",53,309,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_genus
+Lepisanthes,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,2--3(--4)-locular,4,4,maximum,{count},"Description, p.309",53,309,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,4,inferred_from_genus
+Litchi,genus,species,,,,,,leaf_arrangement,x,Leaves spirally arranged or sometimes partly,spiral,spiral,mode,,"Description, p.326",70,326,,Adema_1996,spiral,inferred_from_genus
+Litchi,genus,species,,,,,,leaf_compoundness,x,paripinnate,paripinnate,compound,mode,,"Description, p.326",70,326,,Adema_1996,paripinnate,inferred_from_genus
+Litchi,genus,species,,,,,,leaf_lamina_division,x,paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.326",70,326,,Adema_1996,paripinnate,inferred_from_genus
+Litchi,genus,species,,,,,leaflet,leaf_margin,x,margin entire to undulate in the upper part.,entire,entire,mode,,"Description, p.326",70,326,,Adema_1996,entire,inferred_from_genus
+Litchi,genus,species,,,,,,leaf_phyllotaxis,x,nearly opposite,opposite,opposite,mode,,"Description, p.326",70,326,,Adema_1996,opposite,inferred_from_genus
+Litchi,genus,species,,,,,leaflet,leaf_surface_reflectivity,x,dull beneath,dull,dull,mode,,"Description, p.326",70,326,,Adema_1996,dull,inferred_from_genus
+Litchi,genus,species,,,,,,dispersal_appendage,x,juicy arillode,arillode,aril,mode,,"Description, p.327",71,327,,Adema_1996,arillode,inferred_from_genus
+Litchi,genus,species,,,,,,flower_perianth_symmetry,x,Flowers radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.327",71,327,,Adema_1996,radially_symmetrical,inferred_from_genus
+Litchi,genus,species,,,,,,flower_structural_sex_type,x,unisexual,unisexual,unisexual,mode,,"Description, p.327",71,327,,Adema_1996,unisexual,inferred_from_genus
+Litchi,genus,species,,,,,,fruit_dehiscence,x,indehiscent,indehiscent,indehiscent,mode,,"Description, p.327",71,327,,Adema_1996,indehiscent,inferred_from_genus
+Litchi,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.327",71,327,,Adema_1996,glabrous,inferred_from_genus
+Litchi,genus,species,,,,,,inflorescence_type,x,Inflorescences terminal and axillary,terminal axillary,terminal axillary,mode,,"Description, p.327",71,327,,Adema_1996,terminal axillary,inferred_from_genus
+Litchi,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 6--11,6,6,minimum,{count},"Description, p.327",71,327,,Adema_1996,6,inferred_from_genus
+Litchi,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 6--11,11,11,maximum,{count},"Description, p.327",71,327,,Adema_1996,11,inferred_from_genus
+Mischocarpus,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.329",73,329,,Adema_1996,unisexual,inferred_from_genus
+Mischocarpus,genus,species,,,,,,inflorescence_type,x,axillary,axillary,axillary,mode,,"Description, p.329",73,329,,Adema_1996,axillary,inferred_from_genus
+Mischocarpus,genus,species,,,,,leaflet,leaf_apex_shape,x,rounded to acuminate,rounded acuminate,rounded acuminate,mode,,"Description, p.329",73,329,,Adema_1996,rounded acuminate,inferred_from_genus
+Mischocarpus,genus,species,,,,,leaflet,leaf_base_shape,x,base symmetric to slightly asymmetric,asymmetric,oblique,mode,,"Description, p.329",73,329,,Adema_1996,asymmetric,inferred_from_genus
+Mischocarpus,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.329",73,329,,Adema_1996,paripinnate,inferred_from_genus
+Mischocarpus,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.329",73,329,,Adema_1996,paripinnate,inferred_from_genus
+Mischocarpus,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.329",73,329,,Adema_1996,entire,inferred_from_genus
+Mischocarpus,genus,species,,,,,,plant_growth_form,x,Shrubs or large trees,shrubs trees,shrub tree,mode,,"Description, p.329",73,329,,Adema_1996,shrubs trees,inferred_from_genus
+Mischocarpus,genus,species,,,,,,sex_type,x,monoecious or dioecious,monoecious dioecious,monoecious dioecious,mode,,"Description, p.329",73,329,,Adema_1996,monoecious dioecious,inferred_from_genus
+Mischocarpus,genus,species,,usually,,,,pedicel_length,x,pedicels 1--3(--5) mm long,1,1,minimum,mm,"Description, p.329",73,329,,Adema_1996,1,inferred_from_genus
+Mischocarpus,genus,species,,usually,,,,pedicel_length,x,pedicels 1--3(--5) mm long,3,3,maximum,mm,"Description, p.329",73,329,,Adema_1996,3,inferred_from_genus
+Mischocarpus,genus,species,,extreme_range,,,,pedicel_length,x,pedicels 1--3(--5) mm long,5,5,maximum,mm,"Description, p.329",73,329,,Adema_1996,5,inferred_from_genus
+Mischocarpus,genus,species,,,,,,flower_anther_attachment,x,anthers basifixed,basifixed,basifixed,mode,,"Description, p.330",74,330,,Adema_1996,basifixed,inferred_from_genus
+Mischocarpus,genus,species,,,,,,flower_anther_orientation,x,latrorse or latero-introrse,latrorse latero-introrse,latrorse introrse,mode,,"Description, p.330",74,330,,Adema_1996,latrorse latero-introrse,inferred_from_genus
+Mischocarpus,genus,species,,,,,,fruit_colour,x,red,red,red,mode,,"Description, p.330",74,330,,Adema_1996,red,inferred_from_genus
+Mischocarpus,genus,species,,,,,,fruit_dehiscence,x,Fruit a loculicidal capsule,loculicidal,dehiscent,mode,,"Description, p.330",74,330,,Adema_1996,loculicidal,inferred_from_genus
+Mischocarpus,genus,species,,,,,,fruit_type,x,Fruit a loculicidal capsule,capsule,capsule,mode,,"Description, p.330",74,330,,Adema_1996,capsule,inferred_from_genus
+Mischocarpus,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (5--)8(--9),8,8,mean,{count},"Description, p.330",74,330,,Adema_1996,8,inferred_from_genus
+Mischocarpus,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (5--)8(--9),5,5,minimum,{count},"Description, p.330",74,330,,Adema_1996,5,inferred_from_genus
+Mischocarpus,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (5--)8(--9),9,9,maximum,{count},"Description, p.330",74,330,,Adema_1996,9,inferred_from_genus
+Mischocarpus,genus,species,,usually,,,,flower_structural_carpels_count,x,ovary (2--)3(--4)-locular,3,3,mean,{count},"Description, p.330",74,330,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_genus
+Mischocarpus,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,ovary (2--)3(--4)-locular,2,2,minimum,{count},"Description, p.330",74,330,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_genus
+Mischocarpus,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,ovary (2--)3(--4)-locular,4,4,maximum,{count},"Description, p.330",74,330,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,4,inferred_from_genus
+Nephelium,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.333",77,333,,Adema_1996,radially_symmetrical,inferred_from_genus
+Nephelium,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.333",77,333,,Adema_1996,unisexual,inferred_from_genus
+Nephelium,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary | terminal,axillary terminal,axillary terminal,mode,,"Description, p.333",77,333,,Adema_1996,axillary terminal,inferred_from_genus
+Nephelium,genus,species,,,,,,leaf_arrangement,x,Leaves spirally arranged,spiral,spiral,mode,,"Description, p.333",77,333,,Adema_1996,spiral,inferred_from_genus
+Nephelium,genus,species,,,,,,leaf_compoundness,x,paripinnate,paripinnate,compound,mode,,"Description, p.333",77,333,,Adema_1996,paripinnate,inferred_from_genus
+Nephelium,genus,species,,,,,,leaf_lamina_division,x,paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.333",77,333,,Adema_1996,paripinnate,inferred_from_genus
+Nephelium,genus,species,,,,,leaflet,leaf_margin,x,margin entire or rarely repand,entire,entire,mode,,"Description, p.333",77,333,,Adema_1996,entire,inferred_from_genus
+Nephelium,genus,species,,usually,,,calyx,flower_perianth_merism,x,sepals (4--)5(--6),5,5,mean,{count},"Description, p.333",77,333,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_genus
+Nephelium,genus,species,,extreme_range,,,calyx,flower_perianth_merism,x,sepals (4--)5(--6),4,4,minimum,{count},"Description, p.333",77,333,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_genus
+Nephelium,genus,species,,extreme_range,,,calyx,flower_perianth_merism,x,sepals (4--)5(--6),6,6,maximum,{count},"Description, p.333",77,333,Sepal number scored as perianth merism.,Adema_1996,6,inferred_from_genus
+Nephelium,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 4--10,4,4,minimum,{count},"Description, p.333",77,333,,Adema_1996,4,inferred_from_genus
+Nephelium,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 4--10,10,10,maximum,{count},"Description, p.333",77,333,,Adema_1996,10,inferred_from_genus
+Nephelium,genus,species,,usually,,,,flower_structural_carpels_count,x,(1--)2(--4)-locular,2,2,mean,{count},"Description, p.333",77,333,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_genus
+Nephelium,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,(1--)2(--4)-locular,1,1,minimum,{count},"Description, p.333",77,333,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,1,inferred_from_genus
+Nephelium,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,(1--)2(--4)-locular,4,4,maximum,{count},"Description, p.333",77,333,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,4,inferred_from_genus
+Paranephelium,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.352",96,352,,Adema_1996,radially_symmetrical,inferred_from_genus
+Paranephelium,genus,species,,usually,,,,flower_structural_sex_type,x,Flowers unisexual or very rarely bisexual,unisexual,unisexual,mode,,"Description, p.352",96,352,,Adema_1996,unisexual,inferred_from_genus
+Paranephelium,genus,species,,very rarely,,,,flower_structural_sex_type,x,Flowers unisexual or very rarely bisexual,bisexual,bisexual,mode,,"Description, p.352",96,352,,Adema_1996,bisexual,inferred_from_genus
+Paranephelium,genus,species,,,,,,inflorescence_type,x,axillary or terminal,axillary terminal,axillary terminal,mode,,"Description, p.352",96,352,,Adema_1996,axillary terminal,inferred_from_genus
+Paranephelium,genus,species,,,,,,leaf_compoundness,x,Leaves imparipinnate or paripinnate,imparipinnate paripinnate,compound,mode,,"Description, p.352",96,352,,Adema_1996,imparipinnate paripinnate,inferred_from_genus
+Paranephelium,genus,species,,,,,,leaf_lamina_division,x,Leaves imparipinnate or paripinnate,imparipinnate paripinnate,pinnately_compound,mode,,"Description, p.352",96,352,,Adema_1996,imparipinnate paripinnate,inferred_from_genus
+Paranephelium,genus,species,,,,,leaflet,leaf_margin,x,margin entire to dentate,entire dentate,entire toothed_dentate,mode,,"Description, p.352",96,352,,Adema_1996,entire dentate,inferred_from_genus
+Paranephelium,genus,species,,sometimes,,,,plant_growth_form,x,Trees or sometimes shrubs,shrubs,shrub,mode,,"Description, p.352",96,352,,Adema_1996,shrubs,inferred_from_genus
+Paranephelium,genus,species,,usually,,,,plant_growth_form,x,Trees or sometimes shrubs,trees,tree,mode,,"Description, p.352",96,352,,Adema_1996,trees,inferred_from_genus
+Paranephelium,genus,species,,usually,,,,sex_type,x,monoecious or very rarely dioecious,monoecious,monoecious,mode,,"Description, p.352",96,352,,Adema_1996,monoecious,inferred_from_genus
+Paranephelium,genus,species,,very rarely,,,,sex_type,x,monoecious or very rarely dioecious,dioecious,dioecious,mode,,"Description, p.352",96,352,,Adema_1996,dioecious,inferred_from_genus
+Paranephelium,genus,species,,usually,,,calyx,flower_perianth_merism,x,sepals (4--)5(--7),5,5,mean,{count},"Description, p.352",96,352,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_genus
+Paranephelium,genus,species,,extreme_range,,,calyx,flower_perianth_merism,x,sepals (4--)5(--7),4,4,minimum,{count},"Description, p.352",96,352,Sepal number scored as perianth merism.,Adema_1996,4,inferred_from_genus
+Paranephelium,genus,species,,extreme_range,,,calyx,flower_perianth_merism,x,sepals (4--)5(--7),7,7,maximum,{count},"Description, p.352",96,352,Sepal number scored as perianth merism.,Adema_1996,7,inferred_from_genus
+Paranephelium,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens 5--8(--9),5,5,minimum,{count},"Description, p.352",96,352,,Adema_1996,5,inferred_from_genus
+Paranephelium,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens 5--8(--9),8,8,maximum,{count},"Description, p.352",96,352,,Adema_1996,8,inferred_from_genus
+Paranephelium,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens 5--8(--9),9,9,maximum,{count},"Description, p.352",96,352,,Adema_1996,9,inferred_from_genus
+Paranephelium,genus,species,,,,,,fruit_dehiscence,x,Fruits loculicidal capsules,loculicidal,dehiscent,mode,,"Description, p.353",97,353,,Adema_1996,loculicidal,inferred_from_genus
+Paranephelium,genus,species,,,,,,fruit_type,x,Fruits loculicidal capsules,capsules,capsule,mode,,"Description, p.353",97,353,,Adema_1996,capsules,inferred_from_genus
+Paranephelium,genus,species,,,,,,seed_shape,x,subglobose to slightly 2--3-lobed,subglobose,globoid,mode,,"Description, p.353",97,353,,Adema_1996,subglobose,inferred_from_genus
+Paranephelium,genus,species,,usually,,,,flower_structural_carpels_count,x,(1--)3(--4)-locular,3,3,mean,{count},"Description, p.353",97,353,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_genus
+Paranephelium,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,(1--)3(--4)-locular,1,1,minimum,{count},"Description, p.353",97,353,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,1,inferred_from_genus
+Paranephelium,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,(1--)3(--4)-locular,4,4,maximum,{count},"Description, p.353",97,353,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,4,inferred_from_genus
+Pometia,genus,species,,,,,,flower_perianth_symmetry,x,radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.356",100,356,,Adema_1996,radially_symmetrical,inferred_from_genus
+Pometia,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.356",100,356,,Adema_1996,unisexual,inferred_from_genus
+Pometia,genus,species,,,,,,fruit_colour,x,red to black when ripe,red black,red black,mode,,"Description, p.356",100,356,,Adema_1996,red black,inferred_from_genus
+Pometia,genus,species,,,,,,fruit_dehiscence,x,indehiscent,indehiscent,indehiscent,mode,,"Description, p.356",100,356,,Adema_1996,indehiscent,inferred_from_genus
+Pometia,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.356",100,356,,Adema_1996,glabrous,inferred_from_genus
+Pometia,genus,species,,sometimes,,,,inflorescence_type,x,Inflorescences terminal and sometimes in the axils of upper leaves,axils,axillary,mode,,"Description, p.356",100,356,,Adema_1996,axils,inferred_from_genus
+Pometia,genus,species,,,,,,inflorescence_type,x,Inflorescences terminal and sometimes in the axils of upper leaves,terminal,terminal,mode,,"Description, p.356",100,356,,Adema_1996,terminal,inferred_from_genus
+Pometia,genus,species,,,,,,leaf_arrangement,x,Leaves spirally arranged,spiral,spiral,mode,,"Description, p.356",100,356,,Adema_1996,spiral,inferred_from_genus
+Pometia,genus,species,,,,,,leaf_compoundness,x,paripinnate,paripinnate,compound,mode,,"Description, p.356",100,356,,Adema_1996,paripinnate,inferred_from_genus
+Pometia,genus,species,,,,,,leaf_lamina_division,x,paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.356",100,356,,Adema_1996,paripinnate,inferred_from_genus
+Pometia,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5,5,5,mean,{count},"Description, p.356",100,356,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_genus
+Pometia,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens 5 (6),5,5,mean,{count},"Description, p.356",100,356,,Adema_1996,5,inferred_from_genus
+Pometia,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens 5 (6),6,6,maximum,{count},"Description, p.356",100,356,,Adema_1996,6,inferred_from_genus
+Pometia,genus,species,,usually,,,,flower_structural_carpels_count,x,2(--3)-locular,2,2,mean,{count},"Description, p.356",100,356,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_genus
+Pometia,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,2(--3)-locular,3,3,maximum,{count},"Description, p.356",100,356,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_genus
+Pometia,genus,species,,,,,,dispersal_appendage,x,completely enveloped by a thin fleshy arillode,arillode,aril,mode,,"Description, p.357",101,357,,Adema_1996,arillode,inferred_from_genus
+Pometia,genus,species,,,,,,seed_colour,x,red-brown,red brown,red_brown,mode,,"Description, p.357",101,357,,Adema_1996,red brown,inferred_from_genus
+Pometia,genus,species,,,,,,seed_shape,x,Seeds oblique ovoid,ovoid,ovoid,mode,,"Description, p.357",101,357,,Adema_1996,ovoid,inferred_from_genus
+Rhysotoechia,genus,species,,,,,,flower_perianth_symmetry,x,Flowers radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.360",104,360,,Adema_1996,radially_symmetrical,inferred_from_genus
+Rhysotoechia,genus,species,,,,,,fruit_dehiscence,x,loculicidal,loculicidal,dehiscent,mode,,"Description, p.360",104,360,,Adema_1996,loculicidal,inferred_from_genus
+Rhysotoechia,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary | paniculate or thyrsoid,axillary paniculate,axillary panicle,mode,,"Description, p.360",104,360,,Adema_1996,axillary paniculate,inferred_from_genus
+Rhysotoechia,genus,species,,,,,leaflet,leaf_base_shape,x,base symmetric to slightly asymmetric,asymmetric,oblique,mode,,"Description, p.360",104,360,,Adema_1996,asymmetric,inferred_from_genus
+Rhysotoechia,genus,species,,,,,,leaf_compoundness,x,Leaves imparipinnate,imparipinnate,compound,mode,,"Description, p.360",104,360,,Adema_1996,imparipinnate,inferred_from_genus
+Rhysotoechia,genus,species,,,,,,leaf_lamina_division,x,Leaves imparipinnate,imparipinnate,pinnately_compound,mode,,"Description, p.360",104,360,,Adema_1996,imparipinnate,inferred_from_genus
+Rhysotoechia,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.360",104,360,,Adema_1996,entire,inferred_from_genus
+Rhysotoechia,genus,species,,,,,,seed_shape,x,Seeds obovoid to globose,globose,globoid,mode,,"Description, p.360",104,360,,Adema_1996,globose,inferred_from_genus
+Rhysotoechia,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5,5,5,mean,{count},"Description, p.360",104,360,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_genus
+Rhysotoechia,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (7--)8,8,8,mean,{count},"Description, p.360",104,360,,Adema_1996,8,inferred_from_genus
+Rhysotoechia,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (7--)8,7,7,minimum,{count},"Description, p.360",104,360,,Adema_1996,7,inferred_from_genus
+Rhysotoechia,genus,species,,usually,,,,flower_structural_carpels_count,x,ovary 2(--3)-locular,2,2,mean,{count},"Description, p.360",104,360,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_genus
+Rhysotoechia,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,ovary 2(--3)-locular,3,3,maximum,{count},"Description, p.360",104,360,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_genus
+Trigonachras,genus,species,,,,,,flower_perianth_symmetry,x,Flowers radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.362",106,362,,Adema_1996,radially_symmetrical,inferred_from_genus
+Trigonachras,genus,species,,,,,,flower_structural_sex_type,x,unisexual,unisexual,unisexual,mode,,"Description, p.362",106,362,,Adema_1996,unisexual,inferred_from_genus
+Trigonachras,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary or pseudoterminal,axillary,axillary,mode,,"Description, p.362",106,362,,Adema_1996,axillary,inferred_from_genus
+Trigonachras,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.362",106,362,,Adema_1996,paripinnate,inferred_from_genus
+Trigonachras,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.362",106,362,,Adema_1996,paripinnate,inferred_from_genus
+Trigonachras,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.362",106,362,,Adema_1996,entire,inferred_from_genus
+Trigonachras,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.362",106,362,,Adema_1996,trees,inferred_from_genus
+Trigonachras,genus,species,,,,,,sex_type,x,monoecious,monoecious,monoecious,mode,,"Description, p.362",106,362,,Adema_1996,monoecious,inferred_from_genus
+Trigonachras,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5,5,5,mean,{count},"Description, p.362",106,362,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_genus
+Trigonachras,genus,species,,,,,,flower_anther_orientation,x,latero-introrse to latrorse,latero-introrse latrorse,introrse latrorse,mode,,"Description, p.363",107,363,,Adema_1996,latero-introrse latrorse,inferred_from_genus
+Trigonachras,genus,species,,,,,,fruit_dehiscence,x,loculicidal capsules,loculicidal,dehiscent,mode,,"Description, p.363",107,363,,Adema_1996,loculicidal,inferred_from_genus
+Trigonachras,genus,species,,,,,,fruit_type,x,loculicidal capsules,capsules,capsule,mode,,"Description, p.363",107,363,,Adema_1996,capsules,inferred_from_genus
+Trigonachras,genus,species,,,,,,seed_shape,x,Seeds ellipsoid,ellipsoid,ellipsoid,mode,,"Description, p.363",107,363,,Adema_1996,ellipsoid,inferred_from_genus
+Trigonachras,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (7--)8(--9),8,8,mean,{count},"Description, p.363",107,363,,Adema_1996,8,inferred_from_genus
+Trigonachras,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (7--)8(--9),7,7,minimum,{count},"Description, p.363",107,363,,Adema_1996,7,inferred_from_genus
+Trigonachras,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (7--)8(--9),9,9,maximum,{count},"Description, p.363",107,363,,Adema_1996,9,inferred_from_genus
+Trigonachras,genus,species,,,,,,flower_structural_carpels_count,x,3-locular,3,3,mean,{count},"Description, p.363",107,363,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_genus
+Tristiropsis,genus,species,,,,,,flower_anther_attachment,x,basifixed,basifixed,basifixed,mode,,"Description, p.366",110,366,,Adema_1996,basifixed,inferred_from_genus
+Tristiropsis,genus,species,,,,,,flower_anther_orientation,x,anthers latrorse,latrorse,latrorse,mode,,"Description, p.366",110,366,,Adema_1996,latrorse,inferred_from_genus
+Tristiropsis,genus,species,,,,,,fruit_type,x,Fruits subdrupaceous,drupaceous,drupe,mode,,"Description, p.366",110,366,,Adema_1996,drupaceous,inferred_from_genus
+Tristiropsis,genus,species,,,,,,inflorescence_type,x,axillary towards the end of the branches,axillary,axillary,mode,,"Description, p.366",110,366,,Adema_1996,axillary,inferred_from_genus
+Tristiropsis,genus,species,,,,,leaflet,leaf_base_shape,x,base oblique,oblique,oblique,mode,,"Description, p.366",110,366,,Adema_1996,oblique,inferred_from_genus
+Tristiropsis,genus,species,,,,,,leaf_compoundness,x,Leaves bipinnate or the upper ones at least forked,pinnate,compound,mode,,"Description, p.366",110,366,,Adema_1996,pinnate,inferred_from_genus
+Tristiropsis,genus,species,,,,,,leaf_lamina_division,x,Leaves bipinnate or the upper ones at least forked,bipinnate,bipinnate,mode,,"Description, p.366",110,366,,Adema_1996,bipinnate,inferred_from_genus
+Tristiropsis,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.366",110,366,,Adema_1996,entire,inferred_from_genus
+Tristiropsis,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.366",110,366,,Adema_1996,trees,inferred_from_genus
+Tristiropsis,genus,species,,,,,,seed_colour,x,Seeds brown,brown,red_brown,mode,,"Description, p.366",110,366,,Adema_1996,brown,inferred_from_genus
+Tristiropsis,genus,species,,,,,,sex_type,x,monoecious,monoecious,monoecious,mode,,"Description, p.366",110,366,,Adema_1996,monoecious,inferred_from_genus
+Tristiropsis,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5,5,5,mean,{count},"Description, p.366",110,366,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_genus
+Tristiropsis,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens 8(--13),8,8,mean,{count},"Description, p.366",110,366,,Adema_1996,8,inferred_from_genus
+Tristiropsis,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens 8(--13),13,13,maximum,{count},"Description, p.366",110,366,,Adema_1996,13,inferred_from_genus
+Tristiropsis,genus,species,,usually,,,,flower_structural_carpels_count,x,3(--5)-locular,3,3,mean,{count},"Description, p.366",110,366,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_genus
+Tristiropsis,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,3(--5)-locular,5,5,maximum,{count},"Description, p.366",110,366,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,5,inferred_from_genus
+Xerospermum,genus,species,,,,,,flower_anther_attachment,x,anthers dorsifixed,dorsifixed,dorsifixed,mode,,"Description, p.368",112,368,,Adema_1996,dorsifixed,inferred_from_genus
+Xerospermum,genus,species,,,,,,flower_anther_orientation,x,latrorse,latrorse,latrorse,mode,,"Description, p.368",112,368,,Adema_1996,latrorse,inferred_from_genus
+Xerospermum,genus,species,,,,,,flower_perianth_symmetry,x,Flowers radially symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.368",112,368,,Adema_1996,radially_symmetrical,inferred_from_genus
+Xerospermum,genus,species,,,,,,flower_structural_sex_type,x,effectively unisexual,unisexual,unisexual,mode,,"Description, p.368",112,368,,Adema_1996,unisexual,inferred_from_genus
+Xerospermum,genus,species,,,,,,inflorescence_type,x,Inflorescences usually solitary in the lower leaf axils and tufted in the upper leaf axils,axils,axillary,mode,,"Description, p.368",112,368,,Adema_1996,axils,inferred_from_genus
+Xerospermum,genus,species,,,,,,leaf_compoundness,x,Leaves paripinnate,paripinnate,compound,mode,,"Description, p.368",112,368,,Adema_1996,paripinnate,inferred_from_genus
+Xerospermum,genus,species,,,,,,leaf_lamina_division,x,Leaves paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.368",112,368,,Adema_1996,paripinnate,inferred_from_genus
+Xerospermum,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.368",112,368,,Adema_1996,entire,inferred_from_genus
+Xerospermum,genus,species,,,,,,plant_growth_form,x,Medium-sized trees or shrubs,trees shrubs,tree shrub,mode,,"Description, p.368",112,368,,Adema_1996,trees shrubs,inferred_from_genus
+Xerospermum,genus,species,,,,,,sex_type,x,androdioecious,androdioecious,androdioecious,mode,,"Description, p.368",112,368,,Adema_1996,androdioecious,inferred_from_genus
+Xerospermum,genus,species,,,,,,flower_perianth_merism,x,4- or 5-merous,4,4,minimum,{count},"Description, p.368",112,368,,Adema_1996,4,inferred_from_genus
+Xerospermum,genus,species,,,,,,flower_perianth_merism,x,4- or 5-merous,5,5,maximum,{count},"Description, p.368",112,368,,Adema_1996,5,inferred_from_genus
+Xerospermum,genus,species,,usually,,,,flower_fertile_stamens_count,x,stamens (7--)8(--9),8,8,mean,{count},"Description, p.368",112,368,,Adema_1996,8,inferred_from_genus
+Xerospermum,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (7--)8(--9),7,7,minimum,{count},"Description, p.368",112,368,,Adema_1996,7,inferred_from_genus
+Xerospermum,genus,species,,extreme_range,,,,flower_fertile_stamens_count,x,stamens (7--)8(--9),9,9,maximum,{count},"Description, p.368",112,368,,Adema_1996,9,inferred_from_genus
+Xerospermum,genus,species,,usually,,,,flower_structural_carpels_count,x,ovary 2(--3)-locular,2,2,mean,{count},"Description, p.368",112,368,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,2,inferred_from_genus
+Xerospermum,genus,species,,extreme_range,,,,flower_structural_carpels_count,x,ovary 2(--3)-locular,3,3,maximum,{count},"Description, p.368",112,368,Ovary locules scored as carpels (one locule per carpel assumed).,Adema_1996,3,inferred_from_genus
+Xerospermum,genus,species,,,,,,dispersal_appendage,x,completely covered by a thin sarcotesta except for the basal hilum,sarcotesta,sarcotesta,mode,,"Description, p.369",113,369,,Adema_1996,sarcotesta,inferred_from_genus
+Xerospermum,genus,species,,,,,,seed_shape,x,Seeds ellipsoid to subglobose,ellipsoid subglobose,ellipsoid globoid,mode,,"Description, p.369",113,369,,Adema_1996,ellipsoid subglobose,inferred_from_genus
+Zollingeria,genus,species,,rarely,,,,flower_perianth_symmetry,x,radially or rarely bilaterally symmetrical,bilaterally_symmetrical,zygomorphic,mode,,"Description, p.372",116,372,,Adema_1996,bilaterally_symmetrical,inferred_from_genus
+Zollingeria,genus,species,,usually,,,,flower_perianth_symmetry,x,radially or rarely bilaterally symmetrical,radially_symmetrical,actinomorphic_general,mode,,"Description, p.372",116,372,,Adema_1996,radially_symmetrical,inferred_from_genus
+Zollingeria,genus,species,,,,,,flower_structural_sex_type,x,Flowers unisexual,unisexual,unisexual,mode,,"Description, p.372",116,372,,Adema_1996,unisexual,inferred_from_genus
+Zollingeria,genus,species,,,,,,fruit_dehiscence,x,indehiscent,indehiscent,indehiscent,mode,,"Description, p.372",116,372,,Adema_1996,indehiscent,inferred_from_genus
+Zollingeria,genus,species,,,,,,inflorescence_type,x,Inflorescences axillary,axillary,axillary,mode,,"Description, p.372",116,372,,Adema_1996,axillary,inferred_from_genus
+Zollingeria,genus,species,,,,,,leaf_arrangement,x,Leaves spirally arranged,spiral,spiral,mode,,"Description, p.372",116,372,,Adema_1996,spiral,inferred_from_genus
+Zollingeria,genus,species,,,,,,leaf_compoundness,x,paripinnate,paripinnate,compound,mode,,"Description, p.372",116,372,,Adema_1996,paripinnate,inferred_from_genus
+Zollingeria,genus,species,,,,,,leaf_lamina_division,x,paripinnate,paripinnate,pinnately_compound,mode,,"Description, p.372",116,372,,Adema_1996,paripinnate,inferred_from_genus
+Zollingeria,genus,species,,,,,leaflet,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.372",116,372,,Adema_1996,entire,inferred_from_genus
+Zollingeria,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.372",116,372,,Adema_1996,trees,inferred_from_genus
+Zollingeria,genus,species,,,,,,sex_type,x,monoecious,monoecious,monoecious,mode,,"Description, p.372",116,372,,Adema_1996,monoecious,inferred_from_genus
+Zollingeria,genus,species,,,,,calyx,flower_perianth_merism,x,sepals 5,5,5,mean,{count},"Description, p.372",116,372,Sepal number scored as perianth merism.,Adema_1996,5,inferred_from_genus
+Zollingeria,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 8,8,8,mean,{count},"Description, p.372",116,372,,Adema_1996,8,inferred_from_genus
 Alectryon glaber,species,species,family,,,,,flower_anther_orientation,x,introrse or latero-introrse,introrse latero-introrse,introrse,mode,,"Family description, p.263",7,263,Copied from the Sapindaceae description.,Adema_1996,introrse latero-introrse,inferred_from_family
 Alectryon glaber,species,species,family,,,,,flower_ovary_position,x,ovary superior,superior,superior,mode,,"Family description, p.263",7,263,Copied from the Sapindaceae description.,Adema_1996,superior,inferred_from_family
 Alectryon glaber,species,species,,,,,,bark_colour,x,pale brown to ash-grey,pale_brown grey,brown_light grey,mode,,"Description, p.271",15,271,,Adema_1996,pale_brown grey,inferred_from_species

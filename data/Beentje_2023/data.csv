@@ -1,31 +1,31 @@
 taxon_name,taxon_rank,entity_type,rank_scored_from,commonness_qualifier,population_region,form,entity_measured,trait,in_traits.yml,trait_value_raw,trait_value,trait_value_clean,value_type,unit,source_section,pdf_page,printed_page,notes,source_id,value,trait_scoring_method
-Pandanaceae,family,species,,,,,,fruit_type,x,fruits either berries (Freycinetia) or drupes or clusters of partly fused drupes (phalanges of drupes) (Pandanus),berries drupes,berry drupe,mode,,"Description, p.117",8,117,,Beentje_2023,berries drupes,inferred_from_species
-Pandanaceae,family,species,,usually,,,,leaf_arrangement,x,usually crowded towards the apex of the branch,crowded,crowded,mode,,"Description, p.117",8,117,,Beentje_2023,crowded,inferred_from_species
-Pandanaceae,family,species,,,,,,leaf_base_shape,x,base sheathing,sheathing,sheathing,mode,,"Description, p.117",8,117,,Beentje_2023,sheathing,inferred_from_species
-Pandanaceae,family,species,,,,,,leaf_compoundness,x,simple,simple,simple,mode,,"Description, p.117",8,117,,Beentje_2023,simple,inferred_from_species
-Pandanaceae,family,species,,less often,,,,plant_growth_form,x,less often climbers or lianas (Freycinetia) or epiphytic shrubs (in Benstonea),climbers lianas shrubs,climber climber_woody shrub palmoid,mode,,"Description, p.117",8,117,,Beentje_2023,climbers lianas shrubs,inferred_from_species
-Pandanaceae,family,species,,usually,,,,plant_growth_form,x,Arborescent or shrubs,arborescent shrubs,tree palmoid shrub palmoid,mode,,"Description, p.117",8,117,,Beentje_2023,arborescent shrubs,inferred_from_species
-Pandanaceae,family,species,,less often,,,,plant_growth_substrate,x,less often climbers or lianas (Freycinetia) or epiphytic shrubs (in Benstonea),epiphytic,epiphyte,mode,,"Description, p.117",8,117,,Beentje_2023,epiphytic,inferred_from_species
-Benstonea,genus,species,,,,,,fruit_type,x,Syncarps of simple drupes,drupes,drupe,mode,,"Description, p.128",19,128,,Beentje_2023,drupes,inferred_from_species
-Benstonea,genus,species,,,,,,leaf_shape,x,Leaves strap-shaped to linear,linear,linear,mode,,"Description, p.128",19,128,,Beentje_2023,linear,inferred_from_species
-Benstonea,genus,species,,rarely,,,,plant_growth_form,x,rarely tall arborescent pandans,arborescent,tree palmoid,mode,,"Description, p.128",19,128,,Beentje_2023,arborescent,inferred_from_species
-Benstonea,genus,species,,usually,,,,plant_growth_form,x,Acaulescent or short-stemmed shrubs or epiphytes,shrubs,shrub palmoid,mode,,"Description, p.128",19,128,,Beentje_2023,shrubs,inferred_from_species
-Benstonea,genus,species,,,,,,plant_growth_substrate,x,Acaulescent or short-stemmed shrubs or epiphytes,epiphytes,epiphyte,mode,,"Description, p.128",19,128,,Beentje_2023,epiphytes,inferred_from_species
-Benstonea,genus,species,,,,,,stem_growth_habit,x,Acaulescent or short-stemmed shrubs or epiphytes,acaulescent,acaulescent,mode,,"Description, p.128",19,128,,Beentje_2023,acaulescent,inferred_from_species
-Freycinetia,genus,species,,,,,,fruit_type,x,baccate when ripe | Syncarps berry-like with soft juicy pulp in which the many seeds are embedded,baccate berry-like,berry,mode,,"Description, p.155",46,155,,Beentje_2023,baccate berry-like,inferred_from_species
-Freycinetia,genus,species,,usually,,,,leaf_base_shape,x,usually with caducous or more-or-less fragile auricles,auricles,auriculate,mode,,"Description, p.155",46,155,,Beentje_2023,auricles,inferred_from_species
-Freycinetia,genus,species,,,,,,leaf_base_shape,x,base sheathing the stem,sheathing,sheathing,mode,,"Description, p.155",46,155,,Beentje_2023,sheathing,inferred_from_species
-Freycinetia,genus,species,,,,,,leaf_compoundness,x,Leaves simple,simple,simple,mode,,"Description, p.155",46,155,,Beentje_2023,simple,inferred_from_species
-Freycinetia,genus,species,,,,,,leaf_shape,x,linear or oblong or elliptic,linear oblong elliptic,linear oblong elliptical,mode,,"Description, p.155",46,155,,Beentje_2023,linear oblong elliptic,inferred_from_species
-Freycinetia,genus,species,,,,,,plant_climbing_mechanism,x,adventitious roots clasping or rarely a shrub (in F. kamiana),adventitious roots clasping,adventitious_roots,mode,,"Description, p.155",46,155,,Beentje_2023,adventitious roots clasping,inferred_from_species
-Freycinetia,genus,species,,rarely,,,,plant_growth_form,x,adventitious roots clasping or rarely a shrub (in F. kamiana),shrub,shrub palmoid,mode,,"Description, p.155",46,155,,Beentje_2023,shrub,inferred_from_species
-Freycinetia,genus,species,,usually,,,,plant_growth_form,x,Woody climbers,woody_climbers,climber_woody,mode,,"Description, p.155",46,155,,Beentje_2023,woody_climbers,inferred_from_species
-Freycinetia,genus,species,,,,,,seed_shape,x,more-or-less ellipsoid-flattened,ellipsoid-flattened,ellipsoid_flattened,mode,,"Description, p.155",46,155,,Beentje_2023,ellipsoid-flattened,inferred_from_species
-Freycinetia,genus,species,,,,,,sex_type,x,dioecious,dioecious,dioecious,mode,,"Description, p.155",46,155,,Beentje_2023,dioecious,inferred_from_species
-Pandanus,genus,species,,,,,male inflorescence,flower_scent_production,x,fragrant,fragrant,scent_produced,mode,,"Description, p.169",60,169,,Beentje_2023,fragrant,inferred_from_species
-Pandanus,genus,species,,,,,,fruit_type,x,Syncarp woody or drupaceous,drupaceous,drupe,mode,,"Description, p.169",60,169,,Beentje_2023,drupaceous,inferred_from_species
-Pandanus,genus,species,,,,,,plant_growth_form,x,Arborescent or shrubby,arborescent shrubby,tree palmoid shrub palmoid,mode,,"Description, p.169",60,169,,Beentje_2023,arborescent shrubby,inferred_from_species
-Pandanus,genus,species,,rarely,,,,stem_growth_habit,x,rarely acaulescent,acaulescent,acaulescent,mode,,"Description, p.169",60,169,,Beentje_2023,acaulescent,inferred_from_species
+Pandanaceae,family,species,,,,,,fruit_type,x,fruits either berries (Freycinetia) or drupes or clusters of partly fused drupes (phalanges of drupes) (Pandanus),berries drupes,berry drupe,mode,,"Description, p.117",8,117,,Beentje_2023,berries drupes,inferred_from_family
+Pandanaceae,family,species,,usually,,,,leaf_arrangement,x,usually crowded towards the apex of the branch,crowded,crowded,mode,,"Description, p.117",8,117,,Beentje_2023,crowded,inferred_from_family
+Pandanaceae,family,species,,,,,,leaf_base_shape,x,base sheathing,sheathing,sheathing,mode,,"Description, p.117",8,117,,Beentje_2023,sheathing,inferred_from_family
+Pandanaceae,family,species,,,,,,leaf_compoundness,x,simple,simple,simple,mode,,"Description, p.117",8,117,,Beentje_2023,simple,inferred_from_family
+Pandanaceae,family,species,,less often,,,,plant_growth_form,x,less often climbers or lianas (Freycinetia) or epiphytic shrubs (in Benstonea),climbers lianas shrubs,climber climber_woody shrub palmoid,mode,,"Description, p.117",8,117,,Beentje_2023,climbers lianas shrubs,inferred_from_family
+Pandanaceae,family,species,,usually,,,,plant_growth_form,x,Arborescent or shrubs,arborescent shrubs,tree palmoid shrub palmoid,mode,,"Description, p.117",8,117,,Beentje_2023,arborescent shrubs,inferred_from_family
+Pandanaceae,family,species,,less often,,,,plant_growth_substrate,x,less often climbers or lianas (Freycinetia) or epiphytic shrubs (in Benstonea),epiphytic,epiphyte,mode,,"Description, p.117",8,117,,Beentje_2023,epiphytic,inferred_from_family
+Benstonea,genus,species,,,,,,fruit_type,x,Syncarps of simple drupes,drupes,drupe,mode,,"Description, p.128",19,128,,Beentje_2023,drupes,inferred_from_genus
+Benstonea,genus,species,,,,,,leaf_shape,x,Leaves strap-shaped to linear,linear,linear,mode,,"Description, p.128",19,128,,Beentje_2023,linear,inferred_from_genus
+Benstonea,genus,species,,rarely,,,,plant_growth_form,x,rarely tall arborescent pandans,arborescent,tree palmoid,mode,,"Description, p.128",19,128,,Beentje_2023,arborescent,inferred_from_genus
+Benstonea,genus,species,,usually,,,,plant_growth_form,x,Acaulescent or short-stemmed shrubs or epiphytes,shrubs,shrub palmoid,mode,,"Description, p.128",19,128,,Beentje_2023,shrubs,inferred_from_genus
+Benstonea,genus,species,,,,,,plant_growth_substrate,x,Acaulescent or short-stemmed shrubs or epiphytes,epiphytes,epiphyte,mode,,"Description, p.128",19,128,,Beentje_2023,epiphytes,inferred_from_genus
+Benstonea,genus,species,,,,,,stem_growth_habit,x,Acaulescent or short-stemmed shrubs or epiphytes,acaulescent,acaulescent,mode,,"Description, p.128",19,128,,Beentje_2023,acaulescent,inferred_from_genus
+Freycinetia,genus,species,,,,,,fruit_type,x,baccate when ripe | Syncarps berry-like with soft juicy pulp in which the many seeds are embedded,baccate berry-like,berry,mode,,"Description, p.155",46,155,,Beentje_2023,baccate berry-like,inferred_from_genus
+Freycinetia,genus,species,,usually,,,,leaf_base_shape,x,usually with caducous or more-or-less fragile auricles,auricles,auriculate,mode,,"Description, p.155",46,155,,Beentje_2023,auricles,inferred_from_genus
+Freycinetia,genus,species,,,,,,leaf_base_shape,x,base sheathing the stem,sheathing,sheathing,mode,,"Description, p.155",46,155,,Beentje_2023,sheathing,inferred_from_genus
+Freycinetia,genus,species,,,,,,leaf_compoundness,x,Leaves simple,simple,simple,mode,,"Description, p.155",46,155,,Beentje_2023,simple,inferred_from_genus
+Freycinetia,genus,species,,,,,,leaf_shape,x,linear or oblong or elliptic,linear oblong elliptic,linear oblong elliptical,mode,,"Description, p.155",46,155,,Beentje_2023,linear oblong elliptic,inferred_from_genus
+Freycinetia,genus,species,,,,,,plant_climbing_mechanism,x,adventitious roots clasping or rarely a shrub (in F. kamiana),adventitious roots clasping,adventitious_roots,mode,,"Description, p.155",46,155,,Beentje_2023,adventitious roots clasping,inferred_from_genus
+Freycinetia,genus,species,,rarely,,,,plant_growth_form,x,adventitious roots clasping or rarely a shrub (in F. kamiana),shrub,shrub palmoid,mode,,"Description, p.155",46,155,,Beentje_2023,shrub,inferred_from_genus
+Freycinetia,genus,species,,usually,,,,plant_growth_form,x,Woody climbers,woody_climbers,climber_woody,mode,,"Description, p.155",46,155,,Beentje_2023,woody_climbers,inferred_from_genus
+Freycinetia,genus,species,,,,,,seed_shape,x,more-or-less ellipsoid-flattened,ellipsoid-flattened,ellipsoid_flattened,mode,,"Description, p.155",46,155,,Beentje_2023,ellipsoid-flattened,inferred_from_genus
+Freycinetia,genus,species,,,,,,sex_type,x,dioecious,dioecious,dioecious,mode,,"Description, p.155",46,155,,Beentje_2023,dioecious,inferred_from_genus
+Pandanus,genus,species,,,,,male inflorescence,flower_scent_production,x,fragrant,fragrant,scent_produced,mode,,"Description, p.169",60,169,,Beentje_2023,fragrant,inferred_from_genus
+Pandanus,genus,species,,,,,,fruit_type,x,Syncarp woody or drupaceous,drupaceous,drupe,mode,,"Description, p.169",60,169,,Beentje_2023,drupaceous,inferred_from_genus
+Pandanus,genus,species,,,,,,plant_growth_form,x,Arborescent or shrubby,arborescent shrubby,tree palmoid shrub palmoid,mode,,"Description, p.169",60,169,,Beentje_2023,arborescent shrubby,inferred_from_genus
+Pandanus,genus,species,,rarely,,,,stem_growth_habit,x,rarely acaulescent,acaulescent,acaulescent,mode,,"Description, p.169",60,169,,Beentje_2023,acaulescent,inferred_from_genus
 Benstonea affinis,species,species,family,,,,,leaf_compoundness,x,simple,simple,simple,mode,,"Family description, p.117",8,117,Copied from the Pandanaceae description.,Beentje_2023,simple,inferred_from_family
 Benstonea affinis,species,species,,,Peninsular Malaysia,,syncarp,fruit_colour,x,maturing red-orange to brick red,red orange brick_red,red orange,mode,,"Description, p.131",22,131,,Beentje_2023,red orange brick_red,inferred_from_species
 Benstonea affinis,species,species,,,Peninsular Malaysia,,,fruit_type,x,drupes many (several hundreds),drupes,drupe,mode,,"Description, p.131",22,131,,Beentje_2023,drupes,inferred_from_species

@@ -1,92 +1,92 @@
 taxon_name,taxon_rank,entity_type,rank_scored_from,commonness_qualifier,population_region,form,entity_measured,trait,in_traits.yml,trait_value_raw,trait_value,trait_value_clean,value_type,unit,source_section,pdf_page,printed_page,notes,source_id,value,trait_scoring_method
-Myristicaceae,family,species,,,,,,flower_anther_dehiscence,x,opening by longitudinal slits,longitudinal_slit,longitudinal_slit,mode,,"Description, p.127",7,127,,DeWilde_2018,longitudinal_slit,inferred_from_species
-Myristicaceae,family,species,,,,,,flower_anther_orientation,x,extrorse,extrorse,extrorse,mode,,"Description, p.127",7,127,,DeWilde_2018,extrorse,inferred_from_species
-Myristicaceae,family,species,,,,,,flower_ovary_position,x,superior,superior,superior,mode,,"Description, p.127",7,127,,DeWilde_2018,superior,inferred_from_species
-Myristicaceae,family,species,,,,,,flower_shape,x,globose to rotate,rotate,rotate,mode,,"Description, p.127",7,127,,DeWilde_2018,rotate,inferred_from_species
-Myristicaceae,family,species,,,,,,flower_structural_sex_type,x,unisexual | more swollen than the male,unisexual male,unisexual,mode,,"Description, p.127",7,127,,DeWilde_2018,unisexual male,inferred_from_species
-Myristicaceae,family,species,,rarely,,,,fruit_dehiscence,x,rarely indehiscent,indehiscent,indehiscent,mode,,"Description, p.127",7,127,,DeWilde_2018,indehiscent,inferred_from_species
-Myristicaceae,family,species,,usually,,,,fruit_dehiscence,x,dehiscing by a single longitudinal circumferential suture into 2 valves,dehisc,dehiscent,mode,,"Description, p.127",7,127,,DeWilde_2018,dehisc,inferred_from_species
-Myristicaceae,family,species,,,,,,inflorescence_type,x,Inflorescences axillary or cauliflorous,axillary,axillary,mode,,"Description, p.127",7,127,,DeWilde_2018,axillary,inferred_from_species
-Myristicaceae,family,species,,usually,,,,leaf_arrangement,x,usually distichous on plagiotropic shoots,distichous,distichous,mode,,"Description, p.127",7,127,,DeWilde_2018,distichous,inferred_from_species
-Myristicaceae,family,species,,,,,,leaf_compoundness,x,Leaves simple,simple,simple,mode,,"Description, p.127",7,127,,DeWilde_2018,simple,inferred_from_species
-Myristicaceae,family,species,,,,,,leaf_margin,x,entire,entire,entire,mode,,"Description, p.127",7,127,,DeWilde_2018,entire,inferred_from_species
-Myristicaceae,family,species,,,,,,leaf_phyllotaxis,x,alternate,alternate,alternate,mode,,"Description, p.127",7,127,,DeWilde_2018,alternate,inferred_from_species
-Myristicaceae,family,species,,often,,,,plant_canopy_form,x,the crown often pyramidal,pyramidal,pyramidal,mode,,"Description, p.127",7,127,,DeWilde_2018,pyramidal,inferred_from_species
-Myristicaceae,family,species,,,,,,plant_growth_form,x,Dioecious or monoecious monopodial shrubs or trees,shrubs trees,shrub tree,mode,,"Description, p.127",7,127,,DeWilde_2018,shrubs trees,inferred_from_species
-Myristicaceae,family,species,,sometimes,,,,root_system_type,x,stilt-roots sometimes present,stilt-root,stilt_roots,mode,,"Description, p.127",7,127,,DeWilde_2018,stilt-root,inferred_from_species
-Myristicaceae,family,species,,,,,,sex_type,x,Dioecious or monoecious monopodial shrubs or trees,dioecious monoecious,dioecious monoecious,mode,,"Description, p.127",7,127,,DeWilde_2018,dioecious monoecious,inferred_from_species
-Myristicaceae,family,species,,usually,,,,plant_height,x,(2--)5--15(--40) m tall,5,5,minimum,m,"Description, p.127",7,127,,DeWilde_2018,5,inferred_from_species
-Myristicaceae,family,species,,usually,,,,plant_height,x,(2--)5--15(--40) m tall,15,15,maximum,m,"Description, p.127",7,127,,DeWilde_2018,15,inferred_from_species
-Myristicaceae,family,species,,extreme_range,,,,plant_height,x,(2--)5--15(--40) m tall,2,2,minimum,m,"Description, p.127",7,127,,DeWilde_2018,2,inferred_from_species
-Myristicaceae,family,species,,extreme_range,,,,plant_height,x,(2--)5--15(--40) m tall,40,40,maximum,m,"Description, p.127",7,127,,DeWilde_2018,40,inferred_from_species
-Myristicaceae,family,species,,usually,,,,flower_perianth_merism,x,(2--)3(--5)-merous,3,3,mean,{count},"Description, p.127",7,127,,DeWilde_2018,3,inferred_from_species
-Myristicaceae,family,species,,extreme_range,,,,flower_perianth_merism,x,(2--)3(--5)-merous,2,2,minimum,{count},"Description, p.127",7,127,,DeWilde_2018,2,inferred_from_species
-Myristicaceae,family,species,,extreme_range,,,,flower_perianth_merism,x,(2--)3(--5)-merous,5,5,maximum,{count},"Description, p.127",7,127,,DeWilde_2018,5,inferred_from_species
-Myristicaceae,family,species,,,,,,flower_perianth_whorls_count,x,perianth uniseriate,1,1,mean,{count},"Description, p.127",7,127,'uniseriate' scored as one perianth whorl.,DeWilde_2018,1,inferred_from_species
-Myristicaceae,family,species,,,,,,flower_structural_carpels_count,x,ovary monocarpellate,1,1,mean,{count},"Description, p.127",7,127,'monocarpellate' scored as one carpel.,DeWilde_2018,1,inferred_from_species
-Myristicaceae,family,species,,,,,,seed_count,x,Seed one,1,1,mean,{count},"Description, p.127",7,127,,DeWilde_2018,1,inferred_from_species
-Myristicaceae,family,species,,,,,,dispersers,x,"The blackish seed contrasting with the red aril and the red, pink, or white inner surface of the opened pericarp attracts birds like fruit pigeons and doves, hornbills, and elsewhere birds of paradise, which disperse the seeds (Sinclair, 1958).",birds,birds,mode,,"Ecology, p.128",8,128,Family Ecology statement citing Sinclair (1958); birds of paradise are outside the region and not scored. Not copied down to species.,Sinclair_1958,birds,inferred_from_species
-Myristicaceae,family,species,,generally,,,,flowering_time,x,Flowering and fruiting is generally throughout the year.,throughout the year,yyyyyyyyyyyy,mode,,"Ecology, p.128",8,128,"Family Ecology statement; 'throughout the year' scored as every month, noted. Not copied down to species.",DeWilde_2018,yyyyyyyyyyyy,inferred_from_species
-Myristicaceae,family,species,,generally,,,,fruiting_time,x,Flowering and fruiting is generally throughout the year.,throughout the year,yyyyyyyyyyyy,mode,,"Ecology, p.128",8,128,"Family Ecology statement; 'throughout the year' scored as every month, noted. Not copied down to species.",DeWilde_2018,yyyyyyyyyyyy,inferred_from_species
-Endocomia,genus,species,,,,,male flower,flower_shape,x,perianth rotate,rotate,rotate,mode,,"Description, p.131",11,131,,DeWilde_2018,rotate,inferred_from_species
-Endocomia,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.131",11,131,,DeWilde_2018,trees,inferred_from_species
-Endocomia,genus,species,,,,,male flower,flower_perianth_merism,x,lobes 3--5,3,3,minimum,{count},"Description, p.131",11,131,Number of perianth lobes scored as perianth merism.,DeWilde_2018,3,inferred_from_species
-Endocomia,genus,species,,,,,male flower,flower_perianth_merism,x,lobes 3--5,5,5,maximum,{count},"Description, p.131",11,131,Number of perianth lobes scored as perianth merism.,DeWilde_2018,5,inferred_from_species
-Endocomia,genus,species,,,,,,dispersal_appendage,x,aril yellowish or red,aril,aril,mode,,"Description, p.132",12,132,Aril stated in the description; scored as an aril dispersal appendage.,DeWilde_2018,aril,inferred_from_species
-Endocomia,genus,species,,,,,,fruit_colour,x,yellowish or purplish,yellow purplish,yellow purple,mode,,"Description, p.132",12,132,,DeWilde_2018,yellow purplish,inferred_from_species
-Endocomia,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.132",12,132,,DeWilde_2018,glabrous,inferred_from_species
-Gymnacranthera,genus,species,,,,,,dispersal_appendage,x,aril laciniate to near the base,aril,aril,mode,,"Description, p.137",17,137,Aril stated in the description; scored as an aril dispersal appendage.,DeWilde_2018,aril,inferred_from_species
-Gymnacranthera,genus,species,,,,,male flower,flower_shape,x,perianth urceolate,urceolate,urceolate,mode,,"Description, p.137",17,137,,DeWilde_2018,urceolate,inferred_from_species
-Gymnacranthera,genus,species,,,,,,inflorescence_type,x,Inflorescences paniculate,paniculate,panicle,mode,,"Description, p.137",17,137,,DeWilde_2018,paniculate,inferred_from_species
-Gymnacranthera,genus,species,,,,,,plant_growth_form,x,Shrubs or trees,shrubs trees,shrub tree,mode,,"Description, p.137",17,137,,DeWilde_2018,shrubs trees,inferred_from_species
-Gymnacranthera,genus,species,,,,,,sex_type,x,dioecious,dioecious,dioecious,mode,,"Description, p.137",17,137,,DeWilde_2018,dioecious,inferred_from_species
-Gymnacranthera,genus,species,,usually,,,male flower,flower_perianth_merism,x,lobes (2--)3--4,3,3,minimum,{count},"Description, p.137",17,137,Number of perianth lobes scored as perianth merism.,DeWilde_2018,3,inferred_from_species
-Gymnacranthera,genus,species,,usually,,,male flower,flower_perianth_merism,x,lobes (2--)3--4,4,4,maximum,{count},"Description, p.137",17,137,Number of perianth lobes scored as perianth merism.,DeWilde_2018,4,inferred_from_species
-Gymnacranthera,genus,species,,extreme_range,,,male flower,flower_perianth_merism,x,lobes (2--)3--4,2,2,minimum,{count},"Description, p.137",17,137,Number of perianth lobes scored as perianth merism.,DeWilde_2018,2,inferred_from_species
-Gymnacranthera,genus,species,,,,,male flower,flower_fertile_stamens_count,x,with 5--12 linear anthers,5,5,minimum,{count},"Description, p.137",17,137,Number of (fused) anthers scored as fertile stamen count (question 3).,DeWilde_2018,5,inferred_from_species
-Gymnacranthera,genus,species,,,,,male flower,flower_fertile_stamens_count,x,with 5--12 linear anthers,12,12,maximum,{count},"Description, p.137",17,137,Number of (fused) anthers scored as fertile stamen count (question 3).,DeWilde_2018,12,inferred_from_species
-Gymnacranthera,genus,species,,,,,,fruit_length,x,1.5--3.5 cm long,1.5,1.5,minimum,cm,"Description, p.137",17,137,,DeWilde_2018,1.5,inferred_from_species
-Gymnacranthera,genus,species,,,,,,fruit_length,x,1.5--3.5 cm long,3.5,3.5,maximum,cm,"Description, p.137",17,137,,DeWilde_2018,3.5,inferred_from_species
-Horsfieldia,genus,species,,,,,,dispersal_appendage,x,aril entire or only shallowly lobed,aril,aril,mode,,"Description, p.145",25,145,Aril stated in the description; scored as an aril dispersal appendage.,DeWilde_2018,aril,inferred_from_species
-Horsfieldia,genus,species,,,,,male flower,flower_shape,x,perianth more-or-less globose or cup-shaped,cup-shaped,cup-shaped,mode,,"Description, p.145",25,145,,DeWilde_2018,cup-shaped,inferred_from_species
-Horsfieldia,genus,species,,,,,,flower_style_differentiation,x,style absent,style_absent,absent,mode,,"Description, p.145",25,145,,DeWilde_2018,style_absent,inferred_from_species
-Horsfieldia,genus,species,,,,,,inflorescence_type,x,Inflorescences paniculate,paniculate,panicle,mode,,"Description, p.145",25,145,,DeWilde_2018,paniculate,inferred_from_species
-Horsfieldia,genus,species,,sometimes,,,,leaf_arrangement,x,Leaves sometimes spirally arranged,spiral,spiral,mode,,"Description, p.145",25,145,,DeWilde_2018,spiral,inferred_from_species
-Horsfieldia,genus,species,,,,,,plant_growth_form,x,Dioecious shrubs or trees,shrubs trees,shrub tree,mode,,"Description, p.145",25,145,,DeWilde_2018,shrubs trees,inferred_from_species
-Horsfieldia,genus,species,,rarely,,,,seed_shape,x,rarely globose,globose,globoid,mode,,"Description, p.145",25,145,,DeWilde_2018,globose,inferred_from_species
-Horsfieldia,genus,species,,usually,,,,seed_shape,x,Seed ellipsoid,ellipsoid,ellipsoid,mode,,"Description, p.145",25,145,,DeWilde_2018,ellipsoid,inferred_from_species
-Horsfieldia,genus,species,,,,,,sex_type,x,Dioecious shrubs or trees,dioecious,dioecious,mode,,"Description, p.145",25,145,,DeWilde_2018,dioecious,inferred_from_species
-Horsfieldia,genus,species,,occasionally,,,,stem_base_form,x,bole occasionally buttressed,buttress,buttressed,mode,,"Description, p.145",25,145,,DeWilde_2018,buttress,inferred_from_species
-Horsfieldia,genus,species,,,,,male flower,flower_perianth_merism,x,lobes 2--3,2,2,minimum,{count},"Description, p.145",25,145,Number of perianth lobes scored as perianth merism.,DeWilde_2018,2,inferred_from_species
-Horsfieldia,genus,species,,,,,male flower,flower_perianth_merism,x,lobes 2--3,3,3,maximum,{count},"Description, p.145",25,145,Number of perianth lobes scored as perianth merism.,DeWilde_2018,3,inferred_from_species
-Horsfieldia,genus,species,,,,,,fruit_length,x,1--8 cm long,1,1,minimum,cm,"Description, p.145",25,145,,DeWilde_2018,1,inferred_from_species
-Horsfieldia,genus,species,,,,,,fruit_length,x,1--8 cm long,8,8,maximum,cm,"Description, p.145",25,145,,DeWilde_2018,8,inferred_from_species
-Knema,genus,species,,,,,,dispersal_appendage,x,aril completely covering the seed or laciniate at the apex only,aril,aril,mode,,"Description, p.184",64,184,Aril stated in the description; scored as an aril dispersal appendage.,DeWilde_2018,aril,inferred_from_species
-Knema,genus,species,,,,,male flower,flower_shape,x,perianth more-or-less rotate,rotate,rotate,mode,,"Description, p.184",64,184,,DeWilde_2018,rotate,inferred_from_species
-Knema,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.184",64,184,,DeWilde_2018,trees,inferred_from_species
-Knema,genus,species,,sometimes,,,,root_system_type,x,stilt-roots or buttresses sometimes present,stilt-root,stilt_roots,mode,,"Description, p.184",64,184,,DeWilde_2018,stilt-root,inferred_from_species
-Knema,genus,species,,,,,,seed_shape,x,Seeds ellipsoid,ellipsoid,ellipsoid,mode,,"Description, p.184",64,184,,DeWilde_2018,ellipsoid,inferred_from_species
-Knema,genus,species,,,,,,sex_type,x,dioecious,dioecious,dioecious,mode,,"Description, p.184",64,184,,DeWilde_2018,dioecious,inferred_from_species
-Knema,genus,species,,sometimes,,,,stem_base_form,x,stilt-roots or buttresses sometimes present,buttress,buttressed,mode,,"Description, p.184",64,184,,DeWilde_2018,buttress,inferred_from_species
-Knema,genus,species,,usually,,,male flower,flower_perianth_merism,x,lobes 3(--5),3,3,mean,{count},"Description, p.184",64,184,Number of perianth lobes scored as perianth merism.,DeWilde_2018,3,inferred_from_species
-Knema,genus,species,,extreme_range,,,male flower,flower_perianth_merism,x,lobes 3(--5),5,5,maximum,{count},"Description, p.184",64,184,Number of perianth lobes scored as perianth merism.,DeWilde_2018,5,inferred_from_species
-Knema,genus,species,,,,,male flower,flower_fertile_stamens_count,x,androecium flat or convex with at the margin 3--25 stellately attached ellipsoid anthers,3,3,minimum,{count},"Description, p.184",64,184,Number of (fused) anthers scored as fertile stamen count (question 3).,DeWilde_2018,3,inferred_from_species
-Knema,genus,species,,,,,male flower,flower_fertile_stamens_count,x,androecium flat or convex with at the margin 3--25 stellately attached ellipsoid anthers,25,25,maximum,{count},"Description, p.184",64,184,Number of (fused) anthers scored as fertile stamen count (question 3).,DeWilde_2018,25,inferred_from_species
-Knema,genus,species,,,,,,fruit_length,x,2--5 cm long,2,2,minimum,cm,"Description, p.184",64,184,,DeWilde_2018,2,inferred_from_species
-Knema,genus,species,,,,,,fruit_length,x,2--5 cm long,5,5,maximum,cm,"Description, p.184",64,184,,DeWilde_2018,5,inferred_from_species
-Myristica,genus,species,,sometimes,,,,bark_colour,x,Bark sometimes coal black,black,black,mode,,"Description, p.233",113,233,,DeWilde_2018,black,inferred_from_species
-Myristica,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.233",113,233,,DeWilde_2018,trees,inferred_from_species
-Myristica,genus,species,,,,,,sex_type,x,dioecious,dioecious,dioecious,mode,,"Description, p.233",113,233,,DeWilde_2018,dioecious,inferred_from_species
-Myristica,genus,species,,,,,,dispersal_appendage,x,aril red,aril,aril,mode,,"Description, p.234",114,234,Aril stated in the description; scored as an aril dispersal appendage.,DeWilde_2018,aril,inferred_from_species
-Myristica,genus,species,,,,,male flower,flower_shape,x,perianth urceolate or tubular,urceolate tubular,urceolate tubulate,mode,,"Description, p.234",114,234,,DeWilde_2018,urceolate tubular,inferred_from_species
-Myristica,genus,species,,,,,,flower_style_differentiation,x,style absent,style_absent,absent,mode,,"Description, p.234",114,234,,DeWilde_2018,style_absent,inferred_from_species
-Myristica,genus,species,,,,,,fruit_fleshiness,x,fleshy but firm,fleshy,fleshy,mode,,"Description, p.234",114,234,,DeWilde_2018,fleshy,inferred_from_species
-Myristica,genus,species,,,,,,fruit_surface_hairs,x,glabrous | tomentose or woolly,glabrous tomentose woolly,glabrous hairy,mode,,"Description, p.234",114,234,,DeWilde_2018,glabrous tomentose woolly,inferred_from_species
-Myristica,genus,species,,,,,male flower,flower_perianth_merism,x,lobes 3,3,3,mean,{count},"Description, p.234",114,234,Number of perianth lobes scored as perianth merism.,DeWilde_2018,3,inferred_from_species
-Myristica,genus,species,,,,,male flower,flower_fertile_stamens_count,x,androecium elongated stalked column with 8--30 completely fused linear anthers,8,8,minimum,{count},"Description, p.234",114,234,Number of (fused) anthers scored as fertile stamen count (question 3).,DeWilde_2018,8,inferred_from_species
-Myristica,genus,species,,,,,male flower,flower_fertile_stamens_count,x,androecium elongated stalked column with 8--30 completely fused linear anthers,30,30,maximum,{count},"Description, p.234",114,234,Number of (fused) anthers scored as fertile stamen count (question 3).,DeWilde_2018,30,inferred_from_species
-Myristica,genus,species,,,,,,fruit_length,x,1--10 cm long,1,1,minimum,cm,"Description, p.234",114,234,,DeWilde_2018,1,inferred_from_species
-Myristica,genus,species,,,,,,fruit_length,x,1--10 cm long,10,10,maximum,cm,"Description, p.234",114,234,,DeWilde_2018,10,inferred_from_species
+Myristicaceae,family,species,,,,,,flower_anther_dehiscence,x,opening by longitudinal slits,longitudinal_slit,longitudinal_slit,mode,,"Description, p.127",7,127,,DeWilde_2018,longitudinal_slit,inferred_from_family
+Myristicaceae,family,species,,,,,,flower_anther_orientation,x,extrorse,extrorse,extrorse,mode,,"Description, p.127",7,127,,DeWilde_2018,extrorse,inferred_from_family
+Myristicaceae,family,species,,,,,,flower_ovary_position,x,superior,superior,superior,mode,,"Description, p.127",7,127,,DeWilde_2018,superior,inferred_from_family
+Myristicaceae,family,species,,,,,,flower_shape,x,globose to rotate,rotate,rotate,mode,,"Description, p.127",7,127,,DeWilde_2018,rotate,inferred_from_family
+Myristicaceae,family,species,,,,,,flower_structural_sex_type,x,unisexual | more swollen than the male,unisexual male,unisexual,mode,,"Description, p.127",7,127,,DeWilde_2018,unisexual male,inferred_from_family
+Myristicaceae,family,species,,rarely,,,,fruit_dehiscence,x,rarely indehiscent,indehiscent,indehiscent,mode,,"Description, p.127",7,127,,DeWilde_2018,indehiscent,inferred_from_family
+Myristicaceae,family,species,,usually,,,,fruit_dehiscence,x,dehiscing by a single longitudinal circumferential suture into 2 valves,dehisc,dehiscent,mode,,"Description, p.127",7,127,,DeWilde_2018,dehisc,inferred_from_family
+Myristicaceae,family,species,,,,,,inflorescence_type,x,Inflorescences axillary or cauliflorous,axillary,axillary,mode,,"Description, p.127",7,127,,DeWilde_2018,axillary,inferred_from_family
+Myristicaceae,family,species,,usually,,,,leaf_arrangement,x,usually distichous on plagiotropic shoots,distichous,distichous,mode,,"Description, p.127",7,127,,DeWilde_2018,distichous,inferred_from_family
+Myristicaceae,family,species,,,,,,leaf_compoundness,x,Leaves simple,simple,simple,mode,,"Description, p.127",7,127,,DeWilde_2018,simple,inferred_from_family
+Myristicaceae,family,species,,,,,,leaf_margin,x,entire,entire,entire,mode,,"Description, p.127",7,127,,DeWilde_2018,entire,inferred_from_family
+Myristicaceae,family,species,,,,,,leaf_phyllotaxis,x,alternate,alternate,alternate,mode,,"Description, p.127",7,127,,DeWilde_2018,alternate,inferred_from_family
+Myristicaceae,family,species,,often,,,,plant_canopy_form,x,the crown often pyramidal,pyramidal,pyramidal,mode,,"Description, p.127",7,127,,DeWilde_2018,pyramidal,inferred_from_family
+Myristicaceae,family,species,,,,,,plant_growth_form,x,Dioecious or monoecious monopodial shrubs or trees,shrubs trees,shrub tree,mode,,"Description, p.127",7,127,,DeWilde_2018,shrubs trees,inferred_from_family
+Myristicaceae,family,species,,sometimes,,,,root_system_type,x,stilt-roots sometimes present,stilt-root,stilt_roots,mode,,"Description, p.127",7,127,,DeWilde_2018,stilt-root,inferred_from_family
+Myristicaceae,family,species,,,,,,sex_type,x,Dioecious or monoecious monopodial shrubs or trees,dioecious monoecious,dioecious monoecious,mode,,"Description, p.127",7,127,,DeWilde_2018,dioecious monoecious,inferred_from_family
+Myristicaceae,family,species,,usually,,,,plant_height,x,(2--)5--15(--40) m tall,5,5,minimum,m,"Description, p.127",7,127,,DeWilde_2018,5,inferred_from_family
+Myristicaceae,family,species,,usually,,,,plant_height,x,(2--)5--15(--40) m tall,15,15,maximum,m,"Description, p.127",7,127,,DeWilde_2018,15,inferred_from_family
+Myristicaceae,family,species,,extreme_range,,,,plant_height,x,(2--)5--15(--40) m tall,2,2,minimum,m,"Description, p.127",7,127,,DeWilde_2018,2,inferred_from_family
+Myristicaceae,family,species,,extreme_range,,,,plant_height,x,(2--)5--15(--40) m tall,40,40,maximum,m,"Description, p.127",7,127,,DeWilde_2018,40,inferred_from_family
+Myristicaceae,family,species,,usually,,,,flower_perianth_merism,x,(2--)3(--5)-merous,3,3,mean,{count},"Description, p.127",7,127,,DeWilde_2018,3,inferred_from_family
+Myristicaceae,family,species,,extreme_range,,,,flower_perianth_merism,x,(2--)3(--5)-merous,2,2,minimum,{count},"Description, p.127",7,127,,DeWilde_2018,2,inferred_from_family
+Myristicaceae,family,species,,extreme_range,,,,flower_perianth_merism,x,(2--)3(--5)-merous,5,5,maximum,{count},"Description, p.127",7,127,,DeWilde_2018,5,inferred_from_family
+Myristicaceae,family,species,,,,,,flower_perianth_whorls_count,x,perianth uniseriate,1,1,mean,{count},"Description, p.127",7,127,'uniseriate' scored as one perianth whorl.,DeWilde_2018,1,inferred_from_family
+Myristicaceae,family,species,,,,,,flower_structural_carpels_count,x,ovary monocarpellate,1,1,mean,{count},"Description, p.127",7,127,'monocarpellate' scored as one carpel.,DeWilde_2018,1,inferred_from_family
+Myristicaceae,family,species,,,,,,seed_count,x,Seed one,1,1,mean,{count},"Description, p.127",7,127,,DeWilde_2018,1,inferred_from_family
+Myristicaceae,family,species,,,,,,dispersers,x,"The blackish seed contrasting with the red aril and the red, pink, or white inner surface of the opened pericarp attracts birds like fruit pigeons and doves, hornbills, and elsewhere birds of paradise, which disperse the seeds (Sinclair, 1958).",birds,birds,mode,,"Ecology, p.128",8,128,Family Ecology statement citing Sinclair (1958); birds of paradise are outside the region and not scored. Not copied down to species.,Sinclair_1958,birds,inferred_from_family
+Myristicaceae,family,species,,generally,,,,flowering_time,x,Flowering and fruiting is generally throughout the year.,throughout the year,yyyyyyyyyyyy,mode,,"Ecology, p.128",8,128,"Family Ecology statement; 'throughout the year' scored as every month, noted. Not copied down to species.",DeWilde_2018,yyyyyyyyyyyy,inferred_from_family
+Myristicaceae,family,species,,generally,,,,fruiting_time,x,Flowering and fruiting is generally throughout the year.,throughout the year,yyyyyyyyyyyy,mode,,"Ecology, p.128",8,128,"Family Ecology statement; 'throughout the year' scored as every month, noted. Not copied down to species.",DeWilde_2018,yyyyyyyyyyyy,inferred_from_family
+Endocomia,genus,species,,,,,male flower,flower_shape,x,perianth rotate,rotate,rotate,mode,,"Description, p.131",11,131,,DeWilde_2018,rotate,inferred_from_genus
+Endocomia,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.131",11,131,,DeWilde_2018,trees,inferred_from_genus
+Endocomia,genus,species,,,,,male flower,flower_perianth_merism,x,lobes 3--5,3,3,minimum,{count},"Description, p.131",11,131,Number of perianth lobes scored as perianth merism.,DeWilde_2018,3,inferred_from_genus
+Endocomia,genus,species,,,,,male flower,flower_perianth_merism,x,lobes 3--5,5,5,maximum,{count},"Description, p.131",11,131,Number of perianth lobes scored as perianth merism.,DeWilde_2018,5,inferred_from_genus
+Endocomia,genus,species,,,,,,dispersal_appendage,x,aril yellowish or red,aril,aril,mode,,"Description, p.132",12,132,Aril stated in the description; scored as an aril dispersal appendage.,DeWilde_2018,aril,inferred_from_genus
+Endocomia,genus,species,,,,,,fruit_colour,x,yellowish or purplish,yellow purplish,yellow purple,mode,,"Description, p.132",12,132,,DeWilde_2018,yellow purplish,inferred_from_genus
+Endocomia,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.132",12,132,,DeWilde_2018,glabrous,inferred_from_genus
+Gymnacranthera,genus,species,,,,,,dispersal_appendage,x,aril laciniate to near the base,aril,aril,mode,,"Description, p.137",17,137,Aril stated in the description; scored as an aril dispersal appendage.,DeWilde_2018,aril,inferred_from_genus
+Gymnacranthera,genus,species,,,,,male flower,flower_shape,x,perianth urceolate,urceolate,urceolate,mode,,"Description, p.137",17,137,,DeWilde_2018,urceolate,inferred_from_genus
+Gymnacranthera,genus,species,,,,,,inflorescence_type,x,Inflorescences paniculate,paniculate,panicle,mode,,"Description, p.137",17,137,,DeWilde_2018,paniculate,inferred_from_genus
+Gymnacranthera,genus,species,,,,,,plant_growth_form,x,Shrubs or trees,shrubs trees,shrub tree,mode,,"Description, p.137",17,137,,DeWilde_2018,shrubs trees,inferred_from_genus
+Gymnacranthera,genus,species,,,,,,sex_type,x,dioecious,dioecious,dioecious,mode,,"Description, p.137",17,137,,DeWilde_2018,dioecious,inferred_from_genus
+Gymnacranthera,genus,species,,usually,,,male flower,flower_perianth_merism,x,lobes (2--)3--4,3,3,minimum,{count},"Description, p.137",17,137,Number of perianth lobes scored as perianth merism.,DeWilde_2018,3,inferred_from_genus
+Gymnacranthera,genus,species,,usually,,,male flower,flower_perianth_merism,x,lobes (2--)3--4,4,4,maximum,{count},"Description, p.137",17,137,Number of perianth lobes scored as perianth merism.,DeWilde_2018,4,inferred_from_genus
+Gymnacranthera,genus,species,,extreme_range,,,male flower,flower_perianth_merism,x,lobes (2--)3--4,2,2,minimum,{count},"Description, p.137",17,137,Number of perianth lobes scored as perianth merism.,DeWilde_2018,2,inferred_from_genus
+Gymnacranthera,genus,species,,,,,male flower,flower_fertile_stamens_count,x,with 5--12 linear anthers,5,5,minimum,{count},"Description, p.137",17,137,Number of (fused) anthers scored as fertile stamen count (question 3).,DeWilde_2018,5,inferred_from_genus
+Gymnacranthera,genus,species,,,,,male flower,flower_fertile_stamens_count,x,with 5--12 linear anthers,12,12,maximum,{count},"Description, p.137",17,137,Number of (fused) anthers scored as fertile stamen count (question 3).,DeWilde_2018,12,inferred_from_genus
+Gymnacranthera,genus,species,,,,,,fruit_length,x,1.5--3.5 cm long,1.5,1.5,minimum,cm,"Description, p.137",17,137,,DeWilde_2018,1.5,inferred_from_genus
+Gymnacranthera,genus,species,,,,,,fruit_length,x,1.5--3.5 cm long,3.5,3.5,maximum,cm,"Description, p.137",17,137,,DeWilde_2018,3.5,inferred_from_genus
+Horsfieldia,genus,species,,,,,,dispersal_appendage,x,aril entire or only shallowly lobed,aril,aril,mode,,"Description, p.145",25,145,Aril stated in the description; scored as an aril dispersal appendage.,DeWilde_2018,aril,inferred_from_genus
+Horsfieldia,genus,species,,,,,male flower,flower_shape,x,perianth more-or-less globose or cup-shaped,cup-shaped,cup-shaped,mode,,"Description, p.145",25,145,,DeWilde_2018,cup-shaped,inferred_from_genus
+Horsfieldia,genus,species,,,,,,flower_style_differentiation,x,style absent,style_absent,absent,mode,,"Description, p.145",25,145,,DeWilde_2018,style_absent,inferred_from_genus
+Horsfieldia,genus,species,,,,,,inflorescence_type,x,Inflorescences paniculate,paniculate,panicle,mode,,"Description, p.145",25,145,,DeWilde_2018,paniculate,inferred_from_genus
+Horsfieldia,genus,species,,sometimes,,,,leaf_arrangement,x,Leaves sometimes spirally arranged,spiral,spiral,mode,,"Description, p.145",25,145,,DeWilde_2018,spiral,inferred_from_genus
+Horsfieldia,genus,species,,,,,,plant_growth_form,x,Dioecious shrubs or trees,shrubs trees,shrub tree,mode,,"Description, p.145",25,145,,DeWilde_2018,shrubs trees,inferred_from_genus
+Horsfieldia,genus,species,,rarely,,,,seed_shape,x,rarely globose,globose,globoid,mode,,"Description, p.145",25,145,,DeWilde_2018,globose,inferred_from_genus
+Horsfieldia,genus,species,,usually,,,,seed_shape,x,Seed ellipsoid,ellipsoid,ellipsoid,mode,,"Description, p.145",25,145,,DeWilde_2018,ellipsoid,inferred_from_genus
+Horsfieldia,genus,species,,,,,,sex_type,x,Dioecious shrubs or trees,dioecious,dioecious,mode,,"Description, p.145",25,145,,DeWilde_2018,dioecious,inferred_from_genus
+Horsfieldia,genus,species,,occasionally,,,,stem_base_form,x,bole occasionally buttressed,buttress,buttressed,mode,,"Description, p.145",25,145,,DeWilde_2018,buttress,inferred_from_genus
+Horsfieldia,genus,species,,,,,male flower,flower_perianth_merism,x,lobes 2--3,2,2,minimum,{count},"Description, p.145",25,145,Number of perianth lobes scored as perianth merism.,DeWilde_2018,2,inferred_from_genus
+Horsfieldia,genus,species,,,,,male flower,flower_perianth_merism,x,lobes 2--3,3,3,maximum,{count},"Description, p.145",25,145,Number of perianth lobes scored as perianth merism.,DeWilde_2018,3,inferred_from_genus
+Horsfieldia,genus,species,,,,,,fruit_length,x,1--8 cm long,1,1,minimum,cm,"Description, p.145",25,145,,DeWilde_2018,1,inferred_from_genus
+Horsfieldia,genus,species,,,,,,fruit_length,x,1--8 cm long,8,8,maximum,cm,"Description, p.145",25,145,,DeWilde_2018,8,inferred_from_genus
+Knema,genus,species,,,,,,dispersal_appendage,x,aril completely covering the seed or laciniate at the apex only,aril,aril,mode,,"Description, p.184",64,184,Aril stated in the description; scored as an aril dispersal appendage.,DeWilde_2018,aril,inferred_from_genus
+Knema,genus,species,,,,,male flower,flower_shape,x,perianth more-or-less rotate,rotate,rotate,mode,,"Description, p.184",64,184,,DeWilde_2018,rotate,inferred_from_genus
+Knema,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.184",64,184,,DeWilde_2018,trees,inferred_from_genus
+Knema,genus,species,,sometimes,,,,root_system_type,x,stilt-roots or buttresses sometimes present,stilt-root,stilt_roots,mode,,"Description, p.184",64,184,,DeWilde_2018,stilt-root,inferred_from_genus
+Knema,genus,species,,,,,,seed_shape,x,Seeds ellipsoid,ellipsoid,ellipsoid,mode,,"Description, p.184",64,184,,DeWilde_2018,ellipsoid,inferred_from_genus
+Knema,genus,species,,,,,,sex_type,x,dioecious,dioecious,dioecious,mode,,"Description, p.184",64,184,,DeWilde_2018,dioecious,inferred_from_genus
+Knema,genus,species,,sometimes,,,,stem_base_form,x,stilt-roots or buttresses sometimes present,buttress,buttressed,mode,,"Description, p.184",64,184,,DeWilde_2018,buttress,inferred_from_genus
+Knema,genus,species,,usually,,,male flower,flower_perianth_merism,x,lobes 3(--5),3,3,mean,{count},"Description, p.184",64,184,Number of perianth lobes scored as perianth merism.,DeWilde_2018,3,inferred_from_genus
+Knema,genus,species,,extreme_range,,,male flower,flower_perianth_merism,x,lobes 3(--5),5,5,maximum,{count},"Description, p.184",64,184,Number of perianth lobes scored as perianth merism.,DeWilde_2018,5,inferred_from_genus
+Knema,genus,species,,,,,male flower,flower_fertile_stamens_count,x,androecium flat or convex with at the margin 3--25 stellately attached ellipsoid anthers,3,3,minimum,{count},"Description, p.184",64,184,Number of (fused) anthers scored as fertile stamen count (question 3).,DeWilde_2018,3,inferred_from_genus
+Knema,genus,species,,,,,male flower,flower_fertile_stamens_count,x,androecium flat or convex with at the margin 3--25 stellately attached ellipsoid anthers,25,25,maximum,{count},"Description, p.184",64,184,Number of (fused) anthers scored as fertile stamen count (question 3).,DeWilde_2018,25,inferred_from_genus
+Knema,genus,species,,,,,,fruit_length,x,2--5 cm long,2,2,minimum,cm,"Description, p.184",64,184,,DeWilde_2018,2,inferred_from_genus
+Knema,genus,species,,,,,,fruit_length,x,2--5 cm long,5,5,maximum,cm,"Description, p.184",64,184,,DeWilde_2018,5,inferred_from_genus
+Myristica,genus,species,,sometimes,,,,bark_colour,x,Bark sometimes coal black,black,black,mode,,"Description, p.233",113,233,,DeWilde_2018,black,inferred_from_genus
+Myristica,genus,species,,,,,,plant_growth_form,x,Trees,trees,tree,mode,,"Description, p.233",113,233,,DeWilde_2018,trees,inferred_from_genus
+Myristica,genus,species,,,,,,sex_type,x,dioecious,dioecious,dioecious,mode,,"Description, p.233",113,233,,DeWilde_2018,dioecious,inferred_from_genus
+Myristica,genus,species,,,,,,dispersal_appendage,x,aril red,aril,aril,mode,,"Description, p.234",114,234,Aril stated in the description; scored as an aril dispersal appendage.,DeWilde_2018,aril,inferred_from_genus
+Myristica,genus,species,,,,,male flower,flower_shape,x,perianth urceolate or tubular,urceolate tubular,urceolate tubulate,mode,,"Description, p.234",114,234,,DeWilde_2018,urceolate tubular,inferred_from_genus
+Myristica,genus,species,,,,,,flower_style_differentiation,x,style absent,style_absent,absent,mode,,"Description, p.234",114,234,,DeWilde_2018,style_absent,inferred_from_genus
+Myristica,genus,species,,,,,,fruit_fleshiness,x,fleshy but firm,fleshy,fleshy,mode,,"Description, p.234",114,234,,DeWilde_2018,fleshy,inferred_from_genus
+Myristica,genus,species,,,,,,fruit_surface_hairs,x,glabrous | tomentose or woolly,glabrous tomentose woolly,glabrous hairy,mode,,"Description, p.234",114,234,,DeWilde_2018,glabrous tomentose woolly,inferred_from_genus
+Myristica,genus,species,,,,,male flower,flower_perianth_merism,x,lobes 3,3,3,mean,{count},"Description, p.234",114,234,Number of perianth lobes scored as perianth merism.,DeWilde_2018,3,inferred_from_genus
+Myristica,genus,species,,,,,male flower,flower_fertile_stamens_count,x,androecium elongated stalked column with 8--30 completely fused linear anthers,8,8,minimum,{count},"Description, p.234",114,234,Number of (fused) anthers scored as fertile stamen count (question 3).,DeWilde_2018,8,inferred_from_genus
+Myristica,genus,species,,,,,male flower,flower_fertile_stamens_count,x,androecium elongated stalked column with 8--30 completely fused linear anthers,30,30,maximum,{count},"Description, p.234",114,234,Number of (fused) anthers scored as fertile stamen count (question 3).,DeWilde_2018,30,inferred_from_genus
+Myristica,genus,species,,,,,,fruit_length,x,1--10 cm long,1,1,minimum,cm,"Description, p.234",114,234,,DeWilde_2018,1,inferred_from_genus
+Myristica,genus,species,,,,,,fruit_length,x,1--10 cm long,10,10,maximum,cm,"Description, p.234",114,234,,DeWilde_2018,10,inferred_from_genus
 Endocomia canarioides,species,species,family,,,,,flower_anther_dehiscence,x,opening by longitudinal slits,longitudinal_slit,longitudinal_slit,mode,,"Family description, p.127",7,127,Copied from the Myristicaceae description.,DeWilde_2018,longitudinal_slit,inferred_from_family
 Endocomia canarioides,species,species,family,,,,,flower_anther_orientation,x,extrorse,extrorse,extrorse,mode,,"Family description, p.127",7,127,Copied from the Myristicaceae description.,DeWilde_2018,extrorse,inferred_from_family
 Endocomia canarioides,species,species,family,,,,,flower_structural_sex_type,x,unisexual,unisexual,unisexual,mode,,"Family description, p.127",7,127,Copied from the Myristicaceae description.,DeWilde_2018,unisexual,inferred_from_family
