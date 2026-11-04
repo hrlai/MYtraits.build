@@ -1,0 +1,687 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Alphonsea borneensis,holotype,K,K000580481,Church et al.,1344,1994-05-06,"Sintang, HPH km 83–87, along old logging road east of camp. (0°49’25.8’’, 112°3’38.8’’)",C Kalimantan,Indonesia,"Type, p.12",Borneo; A barcode 'A0029548' has 7 digits (others 8)
+Alphonsea borneensis,isotype,A,A00295747; A0029548; A0029549,Church et al.,1344,1994-05-06,"Sintang, HPH km 83–87, along old logging road east of camp. (0°49’25.8’’, 112°3’38.8’’)",C Kalimantan,Indonesia,"Type, p.12",Borneo; A barcode 'A0029548' has 7 digits (others 8)
+Alphonsea borneensis,isotype,BO,,Church et al.,1344,1994-05-06,"Sintang, HPH km 83–87, along old logging road east of camp. (0°49’25.8’’, 112°3’38.8’’)",C Kalimantan,Indonesia,"Type, p.12",Borneo; A barcode 'A0029548' has 7 digits (others 8)
+Alphonsea borneensis,isotype,L,L0045016,Church et al.,1344,1994-05-06,"Sintang, HPH km 83–87, along old logging road east of camp. (0°49’25.8’’, 112°3’38.8’’)",C Kalimantan,Indonesia,"Type, p.12",Borneo; A barcode 'A0029548' has 7 digits (others 8)
+Alphonsea havilandii,holotype,L,,Haviland,2105,1893-03-09,near Kuching,Sarawak,Malaysia,"Type, p.12",Borneo
+Alphonsea havilandii,isotype,BM,BM000946058; BM000946059,Haviland,2105,1893-03-09,near Kuching,Sarawak,Malaysia,"Type, p.12",Borneo
+Alphonsea havilandii,isotype,K,K000574890,Haviland,2105,1893-03-09,near Kuching,Sarawak,Malaysia,"Type, p.12",Borneo
+Alphonsea havilandii,isotype,SAR,,Haviland,2105,1893-03-09,near Kuching,Sarawak,Malaysia,"Type, p.12",Borneo
+Alphonsea havilandii,isotype,SING,SING0108009,Haviland,2105,1893-03-09,near Kuching,Sarawak,Malaysia,"Type, p.12",Borneo
+Alphonsea javanica,holotype,BO,,Teijsmann,s.n.,,cultivated in Bogor Botanic Gardens,Java,Indonesia,"Type, p.13",
+Alphonsea johorensis,holotype,SING,SING0048650,Kiah,SFN 32139,1936-10-24,Sg. Kayu,Johore,Malaysia,"Type, p.15",Peninsular Malaysia
+Alphonsea johorensis,isotype,BO,,Kiah,SFN 32139,1936-10-24,Sg. Kayu,Johore,Malaysia,"Type, p.15",Peninsular Malaysia
+Alphonsea johorensis,isotype,E,,Kiah,SFN 32139,1936-10-24,Sg. Kayu,Johore,Malaysia,"Type, p.15",Peninsular Malaysia
+Alphonsea johorensis,isotype,K,K000574901,Kiah,SFN 32139,1936-10-24,Sg. Kayu,Johore,Malaysia,"Type, p.15",Peninsular Malaysia
+Alphonsea johorensis,isotype,L,L0037869,Kiah,SFN 32139,1936-10-24,Sg. Kayu,Johore,Malaysia,"Type, p.15",Peninsular Malaysia
+Alphonsea johorensis,isotype,SING,SING0048651,Kiah,SFN 32139,1936-10-24,Sg. Kayu,Johore,Malaysia,"Type, p.15",Peninsular Malaysia
+Alphonsea kinabaluensis,holotype,K,K000574886,Carr,SFN 26931,1933-04-04,Mt. Kinabalu,Sabah,Malaysia,"Type, p.15",Borneo
+Anaxagorea borneensis,holotype,FI-B,,Beccari,PB 3936,1865,,Sarawak,Malaysia,"Type, p.18",Borneo
+Anaxagorea borneensis,isotype,K,K000691739,Beccari,PB 3936,1865,,Sarawak,Malaysia,"Type, p.18",Borneo
+Anaxagorea javanica,lectotype,L,L0037879,Reinwardt,s.n.,,coastal forest near Batavia (Jakarta),Java,Indonesia,"Type, p.19","Lectotype (Maas & Westra, 1985)"
+Anaxagorea javanica,isolectotype,A,A00039238,Reinwardt,s.n.,,coastal forest near Batavia (Jakarta),Java,Indonesia,"Type, p.19","Lectotype (Maas & Westra, 1985)"
+Anaxagorea javanica,isolectotype,L,L0037880,Reinwardt,s.n.,,coastal forest near Batavia (Jakarta),Java,Indonesia,"Type, p.19","Lectotype (Maas & Westra, 1985)"
+Cananga odorata,lectotype,P-LAM,P00286083,Sonnerat,s.n.,,?China,,,"Type, p.22","Lectotype (Turner & Veldkamp, 2009); locality printed '?China' (uncertain); country left blank"
+Cyathocalyx magnifructus,holotype,L,L0197651,Kessler et al.,1432,,,E Kalimantan,Indonesia,"Type, p.24",Borneo
+Cyathocalyx magnifructus,isotype,A,A00135500,Kessler et al.,1432,,,E Kalimantan,Indonesia,"Type, p.24",Borneo
+Cyathocalyx magnifructus,isotype,L,L0197650,Kessler et al.,1432,,,E Kalimantan,Indonesia,"Type, p.24",Borneo
+Cyathocalyx magnifructus,isotype,SAN,,Kessler et al.,1432,,,E Kalimantan,Indonesia,"Type, p.24",Borneo
+Dasymaschalon dasymaschalum,lectotype,L,L0186230,Blume,s.n.,,,Java,Indonesia,"Type, p.27","Lectotype (Nurmawati, 2003)"
+Dasymaschalon dasymaschalum,isolectotype,BO,,Blume,s.n.,,,Java,Indonesia,"Type, p.27","Lectotype (Nurmawati, 2003)"
+Dasymaschalon ellipticum,holotype,L,L0196599,Arifin Kalat et al.,BRUN 15734,1993-06-26,"Tutong, Tasek Merimbun",,Brunei,"Type, p.28",Borneo
+Dasymaschalon ellipticum,isotype,BRUN,,Arifin Kalat et al.,BRUN 15734,1993-06-26,"Tutong, Tasek Merimbun",,Brunei,"Type, p.28",Borneo
+Dasymaschalon ellipticum,isotype,K,K000380697,Arifin Kalat et al.,BRUN 15734,1993-06-26,"Tutong, Tasek Merimbun",,Brunei,"Type, p.28",Borneo
+Dasymaschalon ellipticum,isotype,SING,SING108014,Arifin Kalat et al.,BRUN 15734,1993-06-26,"Tutong, Tasek Merimbun",,Brunei,"Type, p.28",Borneo
+Dasymaschalon minutiflorum,holotype,L,L00181849,J. Ampuria,SAN 32614,1962-11-18,"Sandakan, Mamahat camp, K.F. Loang’s logging area",Sabah,Malaysia,"Type, p.28",Borneo; type of basionym Dasymaschalon clusiflorum var. minutiflorum; L barcode 'L00181849' has 8 digits (usual L0 + 7); citation split across printed pp.28-29
+Dasymaschalon minutiflorum,isotype,BO,,J. Ampuria,SAN 32614,1962-11-18,"Sandakan, Mamahat camp, K.F. Loang’s logging area",Sabah,Malaysia,"Type, p.28",Borneo; type of basionym Dasymaschalon clusiflorum var. minutiflorum; L barcode 'L00181849' has 8 digits (usual L0 + 7); citation split across printed pp.28-29
+Dasymaschalon minutiflorum,isotype,K,K000380698,J. Ampuria,SAN 32614,1962-11-18,"Sandakan, Mamahat camp, K.F. Loang’s logging area",Sabah,Malaysia,"Type, p.28",Borneo; type of basionym Dasymaschalon clusiflorum var. minutiflorum; L barcode 'L00181849' has 8 digits (usual L0 + 7); citation split across printed pp.28-29
+Dasymaschalon minutiflorum,isotype,SAR,,J. Ampuria,SAN 32614,1962-11-18,"Sandakan, Mamahat camp, K.F. Loang’s logging area",Sabah,Malaysia,"Type, p.28",Borneo; type of basionym Dasymaschalon clusiflorum var. minutiflorum; L barcode 'L00181849' has 8 digits (usual L0 + 7); citation split across printed pp.28-29
+Dasymaschalon minutiflorum,isotype,SING,,J. Ampuria,SAN 32614,1962-11-18,"Sandakan, Mamahat camp, K.F. Loang’s logging area",Sabah,Malaysia,"Type, p.28",Borneo; type of basionym Dasymaschalon clusiflorum var. minutiflorum; L barcode 'L00181849' has 8 digits (usual L0 + 7); citation split across printed pp.28-29
+Disepalum aciculare,holotype,K,K000691428,Beccari,PB 756,,,Sarawak,Malaysia,"Type, p.31",Borneo
+Disepalum aciculare,isotype,FI-B,,Beccari,PB 756,,,Sarawak,Malaysia,"Type, p.31",Borneo
+Disepalum aciculare,isotype,G,,Beccari,PB 756,,,Sarawak,Malaysia,"Type, p.31",Borneo
+Disepalum aciculare,isotype,M,,Beccari,PB 756,,,Sarawak,Malaysia,"Type, p.31",Borneo
+Disepalum aciculare,isotype,P,,Beccari,PB 756,,,Sarawak,Malaysia,"Type, p.31",Borneo
+Disepalum anomalum,holotype,K,K000691426,Lobb,s.n.,1857,,Sarawak,Malaysia,"Type, p.32",Borneo
+Disepalum coronatum,holotype,FI-B,,Beccari,PB 1722,1866-05/1866-06,Mt. Matang,Sarawak,Malaysia,"Type, p.32",Borneo; printed 'PB 1722 [1732 in publication]'; NY isotype is a fragment
+Disepalum coronatum,isotype,A,A00039300,Beccari,PB 1722,1866-05/1866-06,Mt. Matang,Sarawak,Malaysia,"Type, p.32",Borneo; printed 'PB 1722 [1732 in publication]'; NY isotype is a fragment
+Disepalum coronatum,isotype,B,,Beccari,PB 1722,1866-05/1866-06,Mt. Matang,Sarawak,Malaysia,"Type, p.32",Borneo; printed 'PB 1722 [1732 in publication]'; NY isotype is a fragment
+Disepalum coronatum,isotype,BO,,Beccari,PB 1722,1866-05/1866-06,Mt. Matang,Sarawak,Malaysia,"Type, p.32",Borneo; printed 'PB 1722 [1732 in publication]'; NY isotype is a fragment
+Disepalum coronatum,isotype,C,,Beccari,PB 1722,1866-05/1866-06,Mt. Matang,Sarawak,Malaysia,"Type, p.32",Borneo; printed 'PB 1722 [1732 in publication]'; NY isotype is a fragment
+Disepalum coronatum,isotype,G,,Beccari,PB 1722,1866-05/1866-06,Mt. Matang,Sarawak,Malaysia,"Type, p.32",Borneo; printed 'PB 1722 [1732 in publication]'; NY isotype is a fragment
+Disepalum coronatum,isotype,K,K000691429,Beccari,PB 1722,1866-05/1866-06,Mt. Matang,Sarawak,Malaysia,"Type, p.32",Borneo; printed 'PB 1722 [1732 in publication]'; NY isotype is a fragment
+Disepalum coronatum,isotype,M,,Beccari,PB 1722,1866-05/1866-06,Mt. Matang,Sarawak,Malaysia,"Type, p.32",Borneo; printed 'PB 1722 [1732 in publication]'; NY isotype is a fragment
+Disepalum coronatum,isotype,NY,,Beccari,PB 1722,1866-05/1866-06,Mt. Matang,Sarawak,Malaysia,"Type, p.32",Borneo; printed 'PB 1722 [1732 in publication]'; NY isotype is a fragment
+Disepalum coronatum,isotype,P,,Beccari,PB 1722,1866-05/1866-06,Mt. Matang,Sarawak,Malaysia,"Type, p.32",Borneo; printed 'PB 1722 [1732 in publication]'; NY isotype is a fragment
+Drepananthus angustipetalus,holotype,A,A00135498,Perumal & LaFrankie,527,1992-04-30,"Miri district, Lambir Hills National Park",Sarawak,Malaysia,"Type, p.35",Borneo
+Drepananthus biovulatus,lectotype,BO,,Teijsmann,s.n.,1860-10-10,Pontianak,Kalimantan Barat,Indonesia,"Type, p.36","Borneo; Lectotype (Wang & Saunders, 2006); lectotype and isolectotype both printed as BO"
+Drepananthus biovulatus,isolectotype,BO,,Teijsmann,s.n.,1860-10-10,Pontianak,Kalimantan Barat,Indonesia,"Type, p.36","Borneo; Lectotype (Wang & Saunders, 2006); lectotype and isolectotype both printed as BO"
+Drepananthus deltoideus,lectotype,SING,SING0026190,Synge,1651,1932-09-09,Mt. Dulit Ridge near Long Kapa,Sarawak,Malaysia,"Type, p.36","Borneo; Lectotype (Wang & Saunders, 2006)"
+Drepananthus deltoideus,isolectotype,BO,,Synge,1651,1932-09-09,Mt. Dulit Ridge near Long Kapa,Sarawak,Malaysia,"Type, p.36","Borneo; Lectotype (Wang & Saunders, 2006)"
+Drepananthus deltoideus,isolectotype,K,K000691212,Synge,1651,1932-09-09,Mt. Dulit Ridge near Long Kapa,Sarawak,Malaysia,"Type, p.36","Borneo; Lectotype (Wang & Saunders, 2006)"
+Drepananthus deltoideus,isolectotype,SING,SING0065793,Synge,1651,1932-09-09,Mt. Dulit Ridge near Long Kapa,Sarawak,Malaysia,"Type, p.36","Borneo; Lectotype (Wang & Saunders, 2006)"
+Drepananthus havilandii,holotype,BO,Sheet No. BO-1404683,Haviland (Garai),1902,1892-10,near Kuching,Sarawak,Malaysia,"Type, p.37",Borneo
+Drepananthus havilandii,isotype,GH,GH00135499,Haviland (Garai),1902,1892-10,near Kuching,Sarawak,Malaysia,"Type, p.37",Borneo
+Drepananthus havilandii,isotype,K,K000691317; K000691318,Haviland (Garai),1902,1892-10,near Kuching,Sarawak,Malaysia,"Type, p.37",Borneo
+Drepananthus havilandii,isotype,SING,SING0065788,Haviland (Garai),1902,1892-10,near Kuching,Sarawak,Malaysia,"Type, p.37",Borneo
+Drepananthus magnificus,holotype,B,,Winkler,1461,1925-02-06,Bt. Tilung,Kalimantan Barat,Indonesia,"Type, p.39",Borneo
+Drepananthus magnificus,isotype,BO,,Winkler,1461,1925-02-06,Bt. Tilung,Kalimantan Barat,Indonesia,"Type, p.39",Borneo
+Drepananthus magnificus,isotype,HBG,,Winkler,1461,1925-02-06,Bt. Tilung,Kalimantan Barat,Indonesia,"Type, p.39",Borneo
+Drepananthus ramuliflorus,holotype,K,K000691215,Maingay,1586,1867-03-09,,Malacca,Malaysia,"Type, p.39",Peninsular Malaysia; Kew Distribution No. 91
+Drepananthus ramuliflorus,isotype,GH,GH00039304,Maingay,1586,1867-03-09,,Malacca,Malaysia,"Type, p.39",Peninsular Malaysia; Kew Distribution No. 91
+Drepananthus ramuliflorus,isotype,K,K000691214,Maingay,1586,1867-03-09,,Malacca,Malaysia,"Type, p.39",Peninsular Malaysia; Kew Distribution No. 91
+Drepananthus ridleyi,lectotype,K,K000691224,Ridley,4711,1892,Changi,,Singapore,"Type, p.40","Lectotype (Wang & Saunders, 2006)"
+Drepananthus ridleyi,isolectotype,CAL,,Ridley,4711,1892,Changi,,Singapore,"Type, p.40","Lectotype (Wang & Saunders, 2006)"
+Drepananthus ridleyi,isolectotype,SING,SING0049720,Ridley,4711,1892,Changi,,Singapore,"Type, p.40","Lectotype (Wang & Saunders, 2006)"
+Goniothalamus andersonii,holotype,SING,SING0048669,"Ashton, Smythies & Wood",S 5901,1957-04-18,Seria,,Brunei,"Type, p.45",Borneo
+Goniothalamus andersonii,isotype,BO,,"Ashton, Smythies & Wood",S 5901,1957-04-18,Seria,,Brunei,"Type, p.45",Borneo
+Goniothalamus andersonii,isotype,K,K000691830,"Ashton, Smythies & Wood",S 5901,1957-04-18,Seria,,Brunei,"Type, p.45",Borneo
+Goniothalamus andersonii,isotype,KEP,KEP65434,"Ashton, Smythies & Wood",S 5901,1957-04-18,Seria,,Brunei,"Type, p.45",Borneo
+Goniothalamus andersonii,isotype,L,L0037944,"Ashton, Smythies & Wood",S 5901,1957-04-18,Seria,,Brunei,"Type, p.45",Borneo
+Goniothalamus andersonii,isotype,SAR,,"Ashton, Smythies & Wood",S 5901,1957-04-18,Seria,,Brunei,"Type, p.45",Borneo
+Goniothalamus borneensis,holotype,SING,SING00486670,Othman Ismawi,S 32600,1972-11-03,"Kuching, Semengoh Arboretum",Sarawak,Malaysia,"Type, p.45",Borneo; SING barcode 'SING00486670' has 8 digits (others 7); SAN given as Acc. No.
+Goniothalamus borneensis,isotype,K,K000691829,Othman Ismawi,S 32600,1972-11-03,"Kuching, Semengoh Arboretum",Sarawak,Malaysia,"Type, p.45",Borneo; SING barcode 'SING00486670' has 8 digits (others 7); SAN given as Acc. No.
+Goniothalamus borneensis,isotype,L,L0100671,Othman Ismawi,S 32600,1972-11-03,"Kuching, Semengoh Arboretum",Sarawak,Malaysia,"Type, p.45",Borneo; SING barcode 'SING00486670' has 8 digits (others 7); SAN given as Acc. No.
+Goniothalamus borneensis,isotype,SAN,SAN0115491,Othman Ismawi,S 32600,1972-11-03,"Kuching, Semengoh Arboretum",Sarawak,Malaysia,"Type, p.45",Borneo; SING barcode 'SING00486670' has 8 digits (others 7); SAN given as Acc. No.
+Goniothalamus borneensis,isotype,SAR,,Othman Ismawi,S 32600,1972-11-03,"Kuching, Semengoh Arboretum",Sarawak,Malaysia,"Type, p.45",Borneo; SING barcode 'SING00486670' has 8 digits (others 7); SAN given as Acc. No.
+Goniothalamus bracteosus,holotype,NY,NY00025929,J. & M.S. Clemens,27378,1931-12-01,"Tenompok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.46",Borneo
+Goniothalamus bracteosus,isotype,A,A00039346,J. & M.S. Clemens,27378,1931-12-01,"Tenompok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.46",Borneo
+Goniothalamus bracteosus,isotype,BM,BM000906868,J. & M.S. Clemens,27378,1931-12-01,"Tenompok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.46",Borneo
+Goniothalamus bracteosus,isotype,K,K000691828,J. & M.S. Clemens,27378,1931-12-01,"Tenompok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.46",Borneo
+Goniothalamus bracteosus,isotype,L,L0064814,J. & M.S. Clemens,27378,1931-12-01,"Tenompok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.46",Borneo
+Goniothalamus bracteosus,isotype,M,,J. & M.S. Clemens,27378,1931-12-01,"Tenompok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.46",Borneo
+Goniothalamus bygravei,holotype,K,K000381647,Ilias Paie,S 16627,1962-07-08,"Miri district, Lambir Hills National Park",Sarawak,Malaysia,"Type, p.47",Borneo; SING barcode 'SING098868' has 6 digits; SAN given as Acc. No.
+Goniothalamus bygravei,isotype,A,,Ilias Paie,S 16627,1962-07-08,"Miri district, Lambir Hills National Park",Sarawak,Malaysia,"Type, p.47",Borneo; SING barcode 'SING098868' has 6 digits; SAN given as Acc. No.
+Goniothalamus bygravei,isotype,BO,,Ilias Paie,S 16627,1962-07-08,"Miri district, Lambir Hills National Park",Sarawak,Malaysia,"Type, p.47",Borneo; SING barcode 'SING098868' has 6 digits; SAN given as Acc. No.
+Goniothalamus bygravei,isotype,L,L0101121,Ilias Paie,S 16627,1962-07-08,"Miri district, Lambir Hills National Park",Sarawak,Malaysia,"Type, p.47",Borneo; SING barcode 'SING098868' has 6 digits; SAN given as Acc. No.
+Goniothalamus bygravei,isotype,SAN,SAN0103962,Ilias Paie,S 16627,1962-07-08,"Miri district, Lambir Hills National Park",Sarawak,Malaysia,"Type, p.47",Borneo; SING barcode 'SING098868' has 6 digits; SAN given as Acc. No.
+Goniothalamus bygravei,isotype,SAR,,Ilias Paie,S 16627,1962-07-08,"Miri district, Lambir Hills National Park",Sarawak,Malaysia,"Type, p.47",Borneo; SING barcode 'SING098868' has 6 digits; SAN given as Acc. No.
+Goniothalamus bygravei,isotype,SING,SING098868,Ilias Paie,S 16627,1962-07-08,"Miri district, Lambir Hills National Park",Sarawak,Malaysia,"Type, p.47",Borneo; SING barcode 'SING098868' has 6 digits; SAN given as Acc. No.
+Goniothalamus calcareus,holotype,SAR,,Chai,S 30357,1970-09-09,G. Api,Sarawak,Malaysia,"Type, p.47",Borneo
+Goniothalamus calcareus,isotype,K,K000691831,Chai,S 30357,1970-09-09,G. Api,Sarawak,Malaysia,"Type, p.47",Borneo
+Goniothalamus clemensii,holotype,NY,NY00025933,J. & M.S. Clemens,32761,1933-04-14,"Mt. Nunkok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.48",Borneo
+Goniothalamus clemensii,isotype,A,A00039347,J. & M.S. Clemens,32761,1933-04-14,"Mt. Nunkok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.48",Borneo
+Goniothalamus clemensii,isotype,BO,,J. & M.S. Clemens,32761,1933-04-14,"Mt. Nunkok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.48",Borneo
+Goniothalamus clemensii,isotype,L,,J. & M.S. Clemens,32761,1933-04-14,"Mt. Nunkok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.48",Borneo
+Goniothalamus clemensii,isotype,SING,,J. & M.S. Clemens,32761,1933-04-14,"Mt. Nunkok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.48",Borneo
+Goniothalamus crockerensis,holotype,MSC,,Mat-Salleh,KMS 1323,1986-11-11,Hulu Kimanis,Sabah,Malaysia,"Type, p.49",Borneo
+Goniothalamus dolichocarpus,holotype,K,K000691914,M. Ramos,1623,1922-09/1922-12,Sandakan,Sabah,Malaysia,"Type, p.49",Borneo; citation split across printed pp.49-50
+Goniothalamus dolichocarpus,isotype,A,A00056214,M. Ramos,1623,1922-09/1922-12,Sandakan,Sabah,Malaysia,"Type, p.49",Borneo; citation split across printed pp.49-50
+Goniothalamus gigantifolius,lectotype,K,K000683071,Miranda,For. Bur. 18958,1912-09,Basilan Island,,Philippines,"Type, p.50",Lectotype (Turner 2011)
+Goniothalamus gigantifolius,isolectotype,US,US00098753,Miranda,For. Bur. 18958,1912-09,Basilan Island,,Philippines,"Type, p.50",Lectotype (Turner 2011)
+Goniothalamus kamarudinii,holotype,BM,BM000906870,J. & M.S. Clemens,34406,1933-08-08,"Keebambang [Kibambangan] River, Mt. Kinabalu",Sabah,Malaysia,"Type, p.51",Borneo
+Goniothalamus kamarudinii,isotype,BO,,J. & M.S. Clemens,34406,1933-08-08,"Keebambang [Kibambangan] River, Mt. Kinabalu",Sabah,Malaysia,"Type, p.51",Borneo
+Goniothalamus kamarudinii,isotype,L,,J. & M.S. Clemens,34406,1933-08-08,"Keebambang [Kibambangan] River, Mt. Kinabalu",Sabah,Malaysia,"Type, p.51",Borneo
+Goniothalamus kamarudinii,isotype,M,,J. & M.S. Clemens,34406,1933-08-08,"Keebambang [Kibambangan] River, Mt. Kinabalu",Sabah,Malaysia,"Type, p.51",Borneo
+Goniothalamus kinabaluensis,holotype,BM,BM000547160,J. & M.S. Clemens,31235,1933-02-01,"Penibukan, Mt. Kinabalu",Sabah,Malaysia,"Type, p.51",Borneo
+Goniothalamus macrophyllus,holotype,L,,Blume,s.n.,,,Java,Indonesia,"Type, p.52",n.v.
+Goniothalamus malayanus,lectotype,K,K000691867,Griffith,s.n.,,,Malacca,Malaysia,"Type, p.53",Lectotype (Turner 2011); Peninsular Malaysia
+Goniothalamus malayanus,isolectotype,K,K000691866,Griffith,s.n.,,,Malacca,Malaysia,"Type, p.53",Lectotype (Turner 2011); Peninsular Malaysia
+Goniothalamus megalocalyx,holotype,K,K000381650,J.A.R. Anderson & Ilias Paie,S 28634,1969-07-11,"Kapit district, extreme headwaters of Balleh River, western slope of Bt. Tibang, near Indonesian Border",Sarawak,Malaysia,"Type, p.55",Borneo
+Goniothalamus megalocalyx,isotype,SAR,,J.A.R. Anderson & Ilias Paie,S 28634,1969-07-11,"Kapit district, extreme headwaters of Balleh River, western slope of Bt. Tibang, near Indonesian Border",Sarawak,Malaysia,"Type, p.55",Borneo
+Goniothalamus megalocalyx,isotype,SING,SING109465,J.A.R. Anderson & Ilias Paie,S 28634,1969-07-11,"Kapit district, extreme headwaters of Balleh River, western slope of Bt. Tibang, near Indonesian Border",Sarawak,Malaysia,"Type, p.55",Borneo
+Goniothalamus nitidus,holotype,NY,NY00025946,Ramos,1668,1920-09/1920-12,Sandakan,Sabah,Malaysia,"Type, p.56",Borneo; NY specimen not explicitly called holotype in the text ('NY Barcode ...; isotypes ...')
+Goniothalamus nitidus,isotype,A,A00039348,Ramos,1668,1920-09/1920-12,Sandakan,Sabah,Malaysia,"Type, p.56",Borneo; NY specimen not explicitly called holotype in the text ('NY Barcode ...; isotypes ...')
+Goniothalamus nitidus,isotype,BM,BM000946069,Ramos,1668,1920-09/1920-12,Sandakan,Sabah,Malaysia,"Type, p.56",Borneo; NY specimen not explicitly called holotype in the text ('NY Barcode ...; isotypes ...')
+Goniothalamus nitidus,isotype,BO,,Ramos,1668,1920-09/1920-12,Sandakan,Sabah,Malaysia,"Type, p.56",Borneo; NY specimen not explicitly called holotype in the text ('NY Barcode ...; isotypes ...')
+Goniothalamus nitidus,isotype,K,K000691905,Ramos,1668,1920-09/1920-12,Sandakan,Sabah,Malaysia,"Type, p.56",Borneo; NY specimen not explicitly called holotype in the text ('NY Barcode ...; isotypes ...')
+Goniothalamus nitidus,isotype,L,L0037954,Ramos,1668,1920-09/1920-12,Sandakan,Sabah,Malaysia,"Type, p.56",Borneo; NY specimen not explicitly called holotype in the text ('NY Barcode ...; isotypes ...')
+Goniothalamus nitidus,isotype,P,,Ramos,1668,1920-09/1920-12,Sandakan,Sabah,Malaysia,"Type, p.56",Borneo; NY specimen not explicitly called holotype in the text ('NY Barcode ...; isotypes ...')
+Goniothalamus nitidus,isotype,US,US00098759,Ramos,1668,1920-09/1920-12,Sandakan,Sabah,Malaysia,"Type, p.56",Borneo; NY specimen not explicitly called holotype in the text ('NY Barcode ...; isotypes ...')
+Goniothalamus parallelivenius,holotype,K,K000691904,Beccari,PB 3772,,,Sarawak,Malaysia,"Type, p.56",Borneo
+Goniothalamus parallelivenius,isotype,FI-B,,Beccari,PB 3772,,,Sarawak,Malaysia,"Type, p.56",Borneo
+Goniothalamus parallelivenius,isotype,P,,Beccari,PB 3772,,,Sarawak,Malaysia,"Type, p.56",Borneo
+Goniothalamus phaeotrichus,holotype,K,K000381649,B. Lee,S 45382,1982-10-31,"Belaga district, Sg. Iban",Sarawak,Malaysia,"Type, p.57",Borneo
+Goniothalamus phaeotrichus,isotype,KEP,KEP11263,B. Lee,S 45382,1982-10-31,"Belaga district, Sg. Iban",Sarawak,Malaysia,"Type, p.57",Borneo
+Goniothalamus phaeotrichus,isotype,L,L0192166,B. Lee,S 45382,1982-10-31,"Belaga district, Sg. Iban",Sarawak,Malaysia,"Type, p.57",Borneo
+Goniothalamus phaeotrichus,isotype,SAR,,B. Lee,S 45382,1982-10-31,"Belaga district, Sg. Iban",Sarawak,Malaysia,"Type, p.57",Borneo
+Goniothalamus puncticulifolius,lectotype,P,P00369319,Ramos,Bur. Sci. 39660,1921-04,"Mindoro, Paluan",Mindoro Occidental,Philippines,"Type, p.58",Lectotype (Turner 2011)
+Goniothalamus puncticulifolius,isolectotype,US,US00098763,Ramos,Bur. Sci. 39660,1921-04,"Mindoro, Paluan",Mindoro Occidental,Philippines,"Type, p.58",Lectotype (Turner 2011)
+Goniothalamus ridleyi,lectotype,K,K000691858,J.S. Goodenough,2118,1890-02-15,Sungei Murai,,Singapore,"Type, p.60","Lectotype (Saunders, 2002); SING barcode printed 'SING003203' (6 digits)"
+Goniothalamus ridleyi,isolectotype,CAL,,J.S. Goodenough,2118,1890-02-15,Sungei Murai,,Singapore,"Type, p.60","Lectotype (Saunders, 2002); SING barcode printed 'SING003203' (6 digits)"
+Goniothalamus ridleyi,isolectotype,SING,SING003203,J.S. Goodenough,2118,1890-02-15,Sungei Murai,,Singapore,"Type, p.60","Lectotype (Saunders, 2002); SING barcode printed 'SING003203' (6 digits)"
+Goniothalamus roseus,holotype,K,K000691903,Haviland,1217,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.61",Borneo
+Goniothalamus roseus,isotype,SAR,,Haviland,1217,,Mt. Kinabalu,Sabah,Malaysia,"Type, p.61",Borneo
+Goniothalamus rostellatus,holotype,MSC,,Mat-Salleh,KMS 2423,1988-07-31,Sipitang,Sabah,Malaysia,"Type, p.61",Borneo
+Goniothalamus rufus,lectotype,LE,,Korthals,s.n.,,G. Rantau,Kalimantan,Indonesia,"Type, p.62",Borneo; Lectotype (Bân 1974)
+Goniothalamus stenopetalus,holotype,K,K000691901,Haviland,1312,,"Penokok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.64",Borneo
+Goniothalamus stenopetalus,isotype,SAR,,Haviland,1312,,"Penokok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.64",Borneo
+Goniothalamus stenophyllus,lectotype,K,K000691900,Native Collector,2423,,Siol,Sarawak,Malaysia,"Type, p.64",Borneo; Lectotype (Turner 2011)
+Goniothalamus stenophyllus,isolectotype,A,A00295752,Native Collector,2423,,Siol,Sarawak,Malaysia,"Type, p.64",Borneo; Lectotype (Turner 2011)
+Goniothalamus stenophyllus,isolectotype,K,K000691899,Native Collector,2423,,Siol,Sarawak,Malaysia,"Type, p.64",Borneo; Lectotype (Turner 2011)
+Goniothalamus suaveolens,holotype,FI-B,,Beccari,PB 2327,,G. Gading,Sarawak,Malaysia,"Type, p.65",Borneo
+Goniothalamus suaveolens,isotype,K,K000779805,Beccari,PB 2327,,G. Gading,Sarawak,Malaysia,"Type, p.65",Borneo
+Goniothalamus suaveolens,isotype,P,,Beccari,PB 2327,,G. Gading,Sarawak,Malaysia,"Type, p.65",Borneo
+Goniothalamus tapisoides,holotype,SAR,,Sibat,S 22539,,Bt. Mersing,Sarawak,Malaysia,"Type, p.66",Borneo
+Goniothalamus tapisoides,isotype,K,K000691889,Sibat,S 22539,,Bt. Mersing,Sarawak,Malaysia,"Type, p.66",Borneo
+Goniothalamus tapisoides,isotype,L,L0101215,Sibat,S 22539,,Bt. Mersing,Sarawak,Malaysia,"Type, p.66",Borneo
+Goniothalamus tapisoides,isotype,SING,SING108016,Sibat,S 22539,,Bt. Mersing,Sarawak,Malaysia,"Type, p.66",Borneo
+Goniothalamus velutinus,lectotype,K,K000691888,P.W. Richards,1559,1932-08-31,Mt. Dulit,Sarawak,Malaysia,"Type, p.68",Borneo; Lectotype (Turner 2011)
+Goniothalamus velutinus,isolectotype,K,K000691887,P.W. Richards,1559,1932-08-31,Mt. Dulit,Sarawak,Malaysia,"Type, p.68",Borneo; Lectotype (Turner 2011)
+Goniothalamus velutinus,isolectotype,SING,SING0043521,P.W. Richards,1559,1932-08-31,Mt. Dulit,Sarawak,Malaysia,"Type, p.68",Borneo; Lectotype (Turner 2011)
+Goniothalamus woodii,holotype,A,A00040588,Ramos,1726,1922-06-22,Sandakan,Sabah,Malaysia,"Type, p.68",Borneo
+Goniothalamus woodii,isotype,B,,Ramos,1726,1922-06-22,Sandakan,Sabah,Malaysia,"Type, p.68",Borneo
+Goniothalamus woodii,isotype,K,K000691890,Ramos,1726,1922-06-22,Sandakan,Sabah,Malaysia,"Type, p.68",Borneo
+Goniothalamus woodii,isotype,P,,Ramos,1726,1922-06-22,Sandakan,Sabah,Malaysia,"Type, p.68",Borneo
+Goniothalamus woodii,isotype,SAN,,Ramos,1726,1922-06-22,Sandakan,Sabah,Malaysia,"Type, p.68",Borneo
+Goniothalamus woodii,isotype,US,US00432680,Ramos,1726,1922-06-22,Sandakan,Sabah,Malaysia,"Type, p.68",Borneo
+Hubera jenkinsii,lectotype,K,K000691481,F. Jenkins,s.n.,,,Assam,India,"Type, p.71",Lectotype (Turner 2011); date printed 's. dat.'
+Maasia glauca,lectotype,L,L0188666,Hasskarl,s.n.,,,W Java,Indonesia,"Type, p.74","Lectotype (Turner 2011); also epitype (Turner 2011): Kostermans et al. UNESCO 165, W Java, Ujung Kulon Nature Reserve, Mt. Payung, 17 November 1960 (L Barcode L0188665; isoepitypes A, BO, G, K Barcode K000779810)"
+Maasia hypoleuca,lectotype,K,K000691444,Maingay,1516A,1867-09,,,Singapore,"Type, p.75","Lectotype (Rogstad, 1989); Kew Distrib. no. 50"
+Maasia ovalifolia,holotype,A,A00039597,Buwalda (Endert),7797,1925-09-20,Sampit,Kalimantan,Indonesia,"Type, p.76",Borneo
+Maasia ovalifolia,isotype,BO,,Buwalda (Endert),7797,1925-09-20,Sampit,Kalimantan,Indonesia,"Type, p.76",Borneo
+Maasia ovalifolia,isotype,K,K000691610,Buwalda (Endert),7797,1925-09-20,Sampit,Kalimantan,Indonesia,"Type, p.76",Borneo
+Maasia ovalifolia,isotype,L,L0183778,Buwalda (Endert),7797,1925-09-20,Sampit,Kalimantan,Indonesia,"Type, p.76",Borneo
+Maasia ovalifolia,isotype,SING,SING108000,Buwalda (Endert),7797,1925-09-20,Sampit,Kalimantan,Indonesia,"Type, p.76",Borneo
+Maasia sumatrana,lectotype,U,U0000372,Diepenhorst,HB 2432,,Priaman Province,Sumatra,Indonesia,"Type, p.76",Lectotype (Rogstad 1989)
+Marsypopetalum pallidum,holotype,L,L0037981,Blume,s.n.,,"Buitenzorg (= Bogor) Prov., G. Seribu",Java,Indonesia,"Type, p.78",
+Meiogyne beccarii,holotype,FI-B,,Beccari,PB 2562,1866-08,"Kuching district, Mt. Mattan (= Matang)",Sarawak,Malaysia,"Type, p.81",Borneo
+Meiogyne cylindrocarpa,holotype,U,U0000339,Branderhorst,107,1907-09-27,south coast near Okaba,SW New Guinea,Indonesia,"Type, p.81",A isotype is a fragment; country inferred (SW New Guinea)
+Meiogyne cylindrocarpa,isotype,A,,Branderhorst,107,1907-09-27,south coast near Okaba,SW New Guinea,Indonesia,"Type, p.81",A isotype is a fragment; country inferred (SW New Guinea)
+Meiogyne cylindrocarpa,isotype,B,,Branderhorst,107,1907-09-27,south coast near Okaba,SW New Guinea,Indonesia,"Type, p.81",A isotype is a fragment; country inferred (SW New Guinea)
+Meiogyne cylindrocarpa,isotype,BO,,Branderhorst,107,1907-09-27,south coast near Okaba,SW New Guinea,Indonesia,"Type, p.81",A isotype is a fragment; country inferred (SW New Guinea)
+Meiogyne cylindrocarpa,isotype,K,K000701115,Branderhorst,107,1907-09-27,south coast near Okaba,SW New Guinea,Indonesia,"Type, p.81",A isotype is a fragment; country inferred (SW New Guinea)
+Meiogyne cylindrocarpa,isotype,L,L0037985,Branderhorst,107,1907-09-27,south coast near Okaba,SW New Guinea,Indonesia,"Type, p.81",A isotype is a fragment; country inferred (SW New Guinea)
+Meiogyne monosperma,lectotype,CAL,,Maingay,s.n.,,Government Hill,Penang,Malaysia,"Type, p.82","Lectotype (Sinclair, 1951); Peninsular Malaysia; Kew distribution no. 100"
+Meiogyne monosperma,isolectotype,K,,Maingay,s.n.,,Government Hill,Penang,Malaysia,"Type, p.82","Lectotype (Sinclair, 1951); Peninsular Malaysia; Kew distribution no. 100"
+Meiogyne monosperma,isolectotype,L,L0037992,Maingay,s.n.,,Government Hill,Penang,Malaysia,"Type, p.82","Lectotype (Sinclair, 1951); Peninsular Malaysia; Kew distribution no. 100"
+Meiogyne virgata,holotype,L,L0037998,Blume,s.n.,,,Java,Indonesia,"Type, p.83",
+Mezzettia havilandii,holotype,BO,Sheet No. BO-0101108,Haviland,2335,1893-05-17,,Sarawak,Malaysia,"Type, p.86",Borneo
+Mezzettia havilandii,isotype,A,A00039449,Haviland,2335,1893-05-17,,Sarawak,Malaysia,"Type, p.86",Borneo
+Mezzettia havilandii,isotype,B,,Haviland,2335,1893-05-17,,Sarawak,Malaysia,"Type, p.86",Borneo
+Mezzettia havilandii,isotype,CGE,,Haviland,2335,1893-05-17,,Sarawak,Malaysia,"Type, p.86",Borneo
+Mezzettia havilandii,isotype,GH,GH00039448,Haviland,2335,1893-05-17,,Sarawak,Malaysia,"Type, p.86",Borneo
+Mezzettia havilandii,isotype,K,K000574870,Haviland,2335,1893-05-17,,Sarawak,Malaysia,"Type, p.86",Borneo
+Mezzettia havilandii,isotype,L,L0038003; L0038004,Haviland,2335,1893-05-17,,Sarawak,Malaysia,"Type, p.86",Borneo
+Mezzettia havilandii,isotype,P,,Haviland,2335,1893-05-17,,Sarawak,Malaysia,"Type, p.86",Borneo
+Mezzettia macrocarpa,holotype,L,L00380005,G.H.S. Wood,SAN 17069,1957-03-26,"Temburong, Sungei Belalong, ½ mile above Kuala Belalong",,Brunei,"Type, p.86",Borneo; L barcode 'L00380005' has 8 digits (usual L0 + 7)
+Mezzettia macrocarpa,isotype,A,,G.H.S. Wood,SAN 17069,1957-03-26,"Temburong, Sungei Belalong, ½ mile above Kuala Belalong",,Brunei,"Type, p.86",Borneo; L barcode 'L00380005' has 8 digits (usual L0 + 7)
+Mezzettia macrocarpa,isotype,BO,,G.H.S. Wood,SAN 17069,1957-03-26,"Temburong, Sungei Belalong, ½ mile above Kuala Belalong",,Brunei,"Type, p.86",Borneo; L barcode 'L00380005' has 8 digits (usual L0 + 7)
+Mezzettia macrocarpa,isotype,BRI,,G.H.S. Wood,SAN 17069,1957-03-26,"Temburong, Sungei Belalong, ½ mile above Kuala Belalong",,Brunei,"Type, p.86",Borneo; L barcode 'L00380005' has 8 digits (usual L0 + 7)
+Mezzettia macrocarpa,isotype,K,K000574908,G.H.S. Wood,SAN 17069,1957-03-26,"Temburong, Sungei Belalong, ½ mile above Kuala Belalong",,Brunei,"Type, p.86",Borneo; L barcode 'L00380005' has 8 digits (usual L0 + 7)
+Mezzettia macrocarpa,isotype,KEP,KEP168432,G.H.S. Wood,SAN 17069,1957-03-26,"Temburong, Sungei Belalong, ½ mile above Kuala Belalong",,Brunei,"Type, p.86",Borneo; L barcode 'L00380005' has 8 digits (usual L0 + 7)
+Mezzettia macrocarpa,isotype,SING,SING107994,G.H.S. Wood,SAN 17069,1957-03-26,"Temburong, Sungei Belalong, ½ mile above Kuala Belalong",,Brunei,"Type, p.86",Borneo; L barcode 'L00380005' has 8 digits (usual L0 + 7)
+Mezzettia parviflora,lectotype,FI-B,,Beccari,PB 2558,1866-09,Mt. Matang,Sarawak,Malaysia,"Type, p.87",Borneo; Lectotype (Turner 2011)
+Mezzettia parviflora,isolectotype,A,A00039446,Beccari,PB 2558,1866-09,Mt. Matang,Sarawak,Malaysia,"Type, p.87",Borneo; Lectotype (Turner 2011)
+Mezzettia parviflora,isolectotype,B,,Beccari,PB 2558,1866-09,Mt. Matang,Sarawak,Malaysia,"Type, p.87",Borneo; Lectotype (Turner 2011)
+Mezzettia parviflora,isolectotype,BO,,Beccari,PB 2558,1866-09,Mt. Matang,Sarawak,Malaysia,"Type, p.87",Borneo; Lectotype (Turner 2011)
+Mezzettia parviflora,isolectotype,G,,Beccari,PB 2558,1866-09,Mt. Matang,Sarawak,Malaysia,"Type, p.87",Borneo; Lectotype (Turner 2011)
+Mezzettia parviflora,isolectotype,K,K000574878,Beccari,PB 2558,1866-09,Mt. Matang,Sarawak,Malaysia,"Type, p.87",Borneo; Lectotype (Turner 2011)
+Mezzettia parviflora,isolectotype,M,,Beccari,PB 2558,1866-09,Mt. Matang,Sarawak,Malaysia,"Type, p.87",Borneo; Lectotype (Turner 2011)
+Mezzettia parviflora,isolectotype,NY,NY00026112,Beccari,PB 2558,1866-09,Mt. Matang,Sarawak,Malaysia,"Type, p.87",Borneo; Lectotype (Turner 2011)
+Mezzettia parviflora,isolectotype,P,,Beccari,PB 2558,1866-09,Mt. Matang,Sarawak,Malaysia,"Type, p.87",Borneo; Lectotype (Turner 2011)
+Mezzettia umbellata,holotype,FI,,Beccari,PB 1421,,,Sarawak,Malaysia,"Type, p.89",Borneo
+Mezzettia umbellata,isotype,B,,Beccari,PB 1421,,,Sarawak,Malaysia,"Type, p.89",Borneo
+Mezzettia umbellata,isotype,G,,Beccari,PB 1421,,,Sarawak,Malaysia,"Type, p.89",Borneo
+Mezzettia umbellata,isotype,K,K000574872,Beccari,PB 1421,,,Sarawak,Malaysia,"Type, p.89",Borneo
+Mezzettia umbellata,isotype,P,,Beccari,PB 1421,,,Sarawak,Malaysia,"Type, p.89",Borneo
+Miliusa macropoda,lectotype,L,L0048580,Korthals,s.n.,,G. Baluran,Kalimantan,Indonesia,"Type, p.90","Borneo; Lectotype (Mols & Kessler, Blumea 48 (2003) 447); citation parenthesis unclosed in print"
+Miliusa macropoda,isolectotype,L,L0048579; L0048581,Korthals,s.n.,,G. Baluran,Kalimantan,Indonesia,"Type, p.90","Borneo; Lectotype (Mols & Kessler, Blumea 48 (2003) 447); citation parenthesis unclosed in print"
+Mitrephora amdjahii,holotype,L,L0484285,Nedi,774,1955-04-20,"Samarinda, G. Kelopok, Tabang, Belayan River",E Kalimantan,Indonesia,"Type, p.94",Borneo; SING barcode 'SING000962' has 6 digits
+Mitrephora amdjahii,isotype,BO,,Nedi,774,1955-04-20,"Samarinda, G. Kelopok, Tabang, Belayan River",E Kalimantan,Indonesia,"Type, p.94",Borneo; SING barcode 'SING000962' has 6 digits
+Mitrephora amdjahii,isotype,K,K000691965,Nedi,774,1955-04-20,"Samarinda, G. Kelopok, Tabang, Belayan River",E Kalimantan,Indonesia,"Type, p.94",Borneo; SING barcode 'SING000962' has 6 digits
+Mitrephora amdjahii,isotype,SING,SING000962,Nedi,774,1955-04-20,"Samarinda, G. Kelopok, Tabang, Belayan River",E Kalimantan,Indonesia,"Type, p.94",Borneo; SING barcode 'SING000962' has 6 digits
+Mitrephora clemensiorum,holotype,NY,,J. & M.S. Clemens,34355,1933-08-06,"Keebambang [Kibambangan] river, Mt. Kinabalu",Sabah,Malaysia,"Type, p.94",Borneo; holotype NY n.v.; citation split across printed pp.94-95
+Mitrephora clemensiorum,isotype,A,A00112696,J. & M.S. Clemens,34355,1933-08-06,"Keebambang [Kibambangan] river, Mt. Kinabalu",Sabah,Malaysia,"Type, p.94",Borneo; holotype NY n.v.; citation split across printed pp.94-95
+Mitrephora clemensiorum,isotype,B,,J. & M.S. Clemens,34355,1933-08-06,"Keebambang [Kibambangan] river, Mt. Kinabalu",Sabah,Malaysia,"Type, p.94",Borneo; holotype NY n.v.; citation split across printed pp.94-95
+Mitrephora clemensiorum,isotype,BM,BM000560240,J. & M.S. Clemens,34355,1933-08-06,"Keebambang [Kibambangan] river, Mt. Kinabalu",Sabah,Malaysia,"Type, p.94",Borneo; holotype NY n.v.; citation split across printed pp.94-95
+Mitrephora clemensiorum,isotype,BO,,J. & M.S. Clemens,34355,1933-08-06,"Keebambang [Kibambangan] river, Mt. Kinabalu",Sabah,Malaysia,"Type, p.94",Borneo; holotype NY n.v.; citation split across printed pp.94-95
+Mitrephora clemensiorum,isotype,K,K000691961,J. & M.S. Clemens,34355,1933-08-06,"Keebambang [Kibambangan] river, Mt. Kinabalu",Sabah,Malaysia,"Type, p.94",Borneo; holotype NY n.v.; citation split across printed pp.94-95
+Mitrephora clemensiorum,isotype,M,,J. & M.S. Clemens,34355,1933-08-06,"Keebambang [Kibambangan] river, Mt. Kinabalu",Sabah,Malaysia,"Type, p.94",Borneo; holotype NY n.v.; citation split across printed pp.94-95
+Mitrephora clemensiorum,isotype,SING,SING107996,J. & M.S. Clemens,34355,1933-08-06,"Keebambang [Kibambangan] river, Mt. Kinabalu",Sabah,Malaysia,"Type, p.94",Borneo; holotype NY n.v.; citation split across printed pp.94-95
+Mitrephora fragrans,lectotype,K,K000691994,Merrill,9217,1913-04-20,"Palawan, Taytay",,Philippines,"Type, p.95","Lectotype (Weerasooriya & Saunders, 2010)"
+Mitrephora fragrans,isolectotype,BM,BM000560277,Merrill,9217,1913-04-20,"Palawan, Taytay",,Philippines,"Type, p.95","Lectotype (Weerasooriya & Saunders, 2010)"
+Mitrephora fragrans,isolectotype,GH,GH00039493,Merrill,9217,1913-04-20,"Palawan, Taytay",,Philippines,"Type, p.95","Lectotype (Weerasooriya & Saunders, 2010)"
+Mitrephora fragrans,isolectotype,L,L0038020,Merrill,9217,1913-04-20,"Palawan, Taytay",,Philippines,"Type, p.95","Lectotype (Weerasooriya & Saunders, 2010)"
+Mitrephora fragrans,isolectotype,NY,NY00026129,Merrill,9217,1913-04-20,"Palawan, Taytay",,Philippines,"Type, p.95","Lectotype (Weerasooriya & Saunders, 2010)"
+Mitrephora fragrans,isolectotype,P,,Merrill,9217,1913-04-20,"Palawan, Taytay",,Philippines,"Type, p.95","Lectotype (Weerasooriya & Saunders, 2010)"
+Mitrephora fragrans,isolectotype,SING,SING0098942; SING0098943,Merrill,9217,1913-04-20,"Palawan, Taytay",,Philippines,"Type, p.95","Lectotype (Weerasooriya & Saunders, 2010)"
+Mitrephora glabra,lectotype,L,L0064595,Teijsmann,HB 10841,,near Sebulouw,W Kalimantan,Indonesia,"Type, p.96","Borneo; Lectotype (Weerasooriya & Saunders, 2010)"
+Mitrephora glabra,isolectotype,B,,Teijsmann,HB 10841,,near Sebulouw,W Kalimantan,Indonesia,"Type, p.96","Borneo; Lectotype (Weerasooriya & Saunders, 2010)"
+Mitrephora glabra,isolectotype,BO,,Teijsmann,HB 10841,,near Sebulouw,W Kalimantan,Indonesia,"Type, p.96","Borneo; Lectotype (Weerasooriya & Saunders, 2010)"
+Mitrephora glabra,isolectotype,K,K000691958,Teijsmann,HB 10841,,near Sebulouw,W Kalimantan,Indonesia,"Type, p.96","Borneo; Lectotype (Weerasooriya & Saunders, 2010)"
+Mitrephora glabra,isolectotype,L,L0064594; L0064596,Teijsmann,HB 10841,,near Sebulouw,W Kalimantan,Indonesia,"Type, p.96","Borneo; Lectotype (Weerasooriya & Saunders, 2010)"
+Mitrephora korthalsiana,holotype,L,L0038023,Korthals,s.n.,,G. Sakumbang,S Kalimantan,Indonesia,"Type, p.98",Borneo
+Mitrephora korthalsiana,isotype,A,A00105851,Korthals,s.n.,,G. Sakumbang,S Kalimantan,Indonesia,"Type, p.98",Borneo
+Mitrephora korthalsiana,isotype,B,,Korthals,s.n.,,G. Sakumbang,S Kalimantan,Indonesia,"Type, p.98",Borneo
+Mitrephora korthalsiana,isotype,GH,GH00105827,Korthals,s.n.,,G. Sakumbang,S Kalimantan,Indonesia,"Type, p.98",Borneo
+Mitrephora korthalsiana,isotype,L,L0038024; L0038025,Korthals,s.n.,,G. Sakumbang,S Kalimantan,Indonesia,"Type, p.98",Borneo
+Mitrephora longipetala,holotype,L,L0064588,Korthals,s.n.,,G. Sakumbang,S Kalimantan,Indonesia,"Type, p.99",Borneo; date printed 's. dat.'
+Mitrephora longipetala,isotype,A,A00105850,Korthals,s.n.,,G. Sakumbang,S Kalimantan,Indonesia,"Type, p.99",Borneo; date printed 's. dat.'
+Mitrephora longipetala,isotype,B,,Korthals,s.n.,,G. Sakumbang,S Kalimantan,Indonesia,"Type, p.99",Borneo; date printed 's. dat.'
+Mitrephora longipetala,isotype,L,L0064589,Korthals,s.n.,,G. Sakumbang,S Kalimantan,Indonesia,"Type, p.99",Borneo; date printed 's. dat.'
+Mitrephora maingayi,lectotype,K,K000691975,Maingay,1590A,1868-01-27,,Malacca,Malaysia,"Type, p.100","Lectotype (Weerasooriya & Saunders, 2010); Peninsular Malaysia; Kew Distr. No. 65"
+Mitrephora maingayi,isolectotype,BM,BM000560359,Maingay,1590A,1868-01-27,,Malacca,Malaysia,"Type, p.100","Lectotype (Weerasooriya & Saunders, 2010); Peninsular Malaysia; Kew Distr. No. 65"
+Mitrephora maingayi,isolectotype,CAL,,Maingay,1590A,1868-01-27,,Malacca,Malaysia,"Type, p.100","Lectotype (Weerasooriya & Saunders, 2010); Peninsular Malaysia; Kew Distr. No. 65"
+Mitrephora maingayi,isolectotype,GH,,Maingay,1590A,1868-01-27,,Malacca,Malaysia,"Type, p.100","Lectotype (Weerasooriya & Saunders, 2010); Peninsular Malaysia; Kew Distr. No. 65"
+Mitrephora maingayi,isolectotype,L,L0038026,Maingay,1590A,1868-01-27,,Malacca,Malaysia,"Type, p.100","Lectotype (Weerasooriya & Saunders, 2010); Peninsular Malaysia; Kew Distr. No. 65"
+Mitrephora uniflora,holotype,K,K000574547,Haviland,1714,1892-09-22,Mt. Koum limestone,Sarawak,Malaysia,"Type, p.102",Borneo
+Mitrephora uniflora,isotype,BM,BM000560263,Haviland,1714,1892-09-22,Mt. Koum limestone,Sarawak,Malaysia,"Type, p.102",Borneo
+Mitrephora uniflora,isotype,K,K000574554,Haviland,1714,1892-09-22,Mt. Koum limestone,Sarawak,Malaysia,"Type, p.102",Borneo
+Mitrephora uniflora,isotype,L,L0064608; L0064609,Haviland,1714,1892-09-22,Mt. Koum limestone,Sarawak,Malaysia,"Type, p.102",Borneo
+Mitrephora uniflora,isotype,SAR,,Haviland,1714,1892-09-22,Mt. Koum limestone,Sarawak,Malaysia,"Type, p.102",Borneo
+Mitrephora uniflora,isotype,SING,,Haviland,1714,1892-09-22,Mt. Koum limestone,Sarawak,Malaysia,"Type, p.102",Borneo
+Mitrephora vittata,holotype,SING,SING0000940,Carr,SFN 26689,1933-03-21,"Tawau district, Menetendok [Minitinduk] Gorge",Sabah,Malaysia,"Type, p.103",Borneo
+Mitrephora woodii,holotype,L,L0064614,G.H.S. Wood,SAN A 4613,1954-07-21,Kinabatangan district,Sabah,Malaysia,"Type, p.103",Borneo
+Mitrephora woodii,isotype,A,A00105860,G.H.S. Wood,SAN A 4613,1954-07-21,Kinabatangan district,Sabah,Malaysia,"Type, p.103",Borneo
+Mitrephora woodii,isotype,KEP,KEP145428,G.H.S. Wood,SAN A 4613,1954-07-21,Kinabatangan district,Sabah,Malaysia,"Type, p.103",Borneo
+Mitrephora woodii,isotype,MEL,,G.H.S. Wood,SAN A 4613,1954-07-21,Kinabatangan district,Sabah,Malaysia,"Type, p.103",Borneo
+Mitrephora woodii,isotype,SING,SING0000948,G.H.S. Wood,SAN A 4613,1954-07-21,Kinabatangan district,Sabah,Malaysia,"Type, p.103",Borneo
+Monocarpia borneensis,holotype,L,L0048235,Ashton & Whitmore,BRUN 660,1957-09-27,"Belait, Labi Hills FR, Sg. Mendaram",,Brunei,"Type, p.105",Borneo
+Monocarpia borneensis,isotype,A,A00112688,Ashton & Whitmore,BRUN 660,1957-09-27,"Belait, Labi Hills FR, Sg. Mendaram",,Brunei,"Type, p.105",Borneo
+Monocarpia borneensis,isotype,K,K000691316,Ashton & Whitmore,BRUN 660,1957-09-27,"Belait, Labi Hills FR, Sg. Mendaram",,Brunei,"Type, p.105",Borneo
+Monocarpia borneensis,isotype,L,L0048236,Ashton & Whitmore,BRUN 660,1957-09-27,"Belait, Labi Hills FR, Sg. Mendaram",,Brunei,"Type, p.105",Borneo
+Monocarpia borneensis,isotype,SAR,,Ashton & Whitmore,BRUN 660,1957-09-27,"Belait, Labi Hills FR, Sg. Mendaram",,Brunei,"Type, p.105",Borneo
+Monocarpia borneensis,isotype,SING,SING108017; SING108018,Ashton & Whitmore,BRUN 660,1957-09-27,"Belait, Labi Hills FR, Sg. Mendaram",,Brunei,"Type, p.105",Borneo
+Monocarpia euneura,holotype,L,L0048220,Korthals,s.n.,,G. Sakumbang,Kalimantan,Indonesia,"Type, p.106",Borneo
+Monocarpia euneura,isotype,BO,,Korthals,s.n.,,G. Sakumbang,Kalimantan,Indonesia,"Type, p.106",Borneo
+Monocarpia euneura,isotype,K,K000691265,Korthals,s.n.,,G. Sakumbang,Kalimantan,Indonesia,"Type, p.106",Borneo
+Monocarpia euneura,isotype,L,L0048221; L0048222,Korthals,s.n.,,G. Sakumbang,Kalimantan,Indonesia,"Type, p.106",Borneo
+Monocarpia kalimantanensis,holotype,L,L0048402,Ambriansyah & Arifin,W670,1991-02-13,"Wanariset Research Area, km 5 Samboja-Semoi Road",E Kalimantan,Indonesia,"Type, p.106",Borneo
+Monocarpia kalimantanensis,isotype,BO,,Ambriansyah & Arifin,W670,1991-02-13,"Wanariset Research Area, km 5 Samboja-Semoi Road",E Kalimantan,Indonesia,"Type, p.106",Borneo
+Monocarpia kalimantanensis,isotype,K,,Ambriansyah & Arifin,W670,1991-02-13,"Wanariset Research Area, km 5 Samboja-Semoi Road",E Kalimantan,Indonesia,"Type, p.106",Borneo
+Monocarpia kalimantanensis,isotype,WAN,,Ambriansyah & Arifin,W670,1991-02-13,"Wanariset Research Area, km 5 Samboja-Semoi Road",E Kalimantan,Indonesia,"Type, p.106",Borneo
+Monoon anomalum,holotype,FI-B,,Beccari,PB 1605,1866-05,Mt. Mattan (= Matang),Sarawak,Malaysia,"Type, p.110",Borneo
+Monoon congestum,holotype,K,K000691591,Beccari,PB 2654,,,Sarawak,Malaysia,"Type, p.111",Borneo
+Monoon congestum,isotype,A,A00295757,Beccari,PB 2654,,,Sarawak,Malaysia,"Type, p.111",Borneo
+Monoon congestum,isotype,BM,BM000753831,Beccari,PB 2654,,,Sarawak,Malaysia,"Type, p.111",Borneo
+Monoon congestum,isotype,P,,Beccari,PB 2654,,,Sarawak,Malaysia,"Type, p.111",Borneo
+Monoon coriaceum,lectotype,K,K000691411,Haviland (Garai),2002,1892-12-15,Mt. Buan limestone,Sarawak,Malaysia,"Type, p.111","Borneo; Lectotype (Turner, Gard. Bull. Sing. 64, 1 (2012) 240)"
+Monoon coriaceum,isolectotype,SING,SING0059441,Haviland (Garai),2002,1892-12-15,Mt. Buan limestone,Sarawak,Malaysia,"Type, p.111","Borneo; Lectotype (Turner, Gard. Bull. Sing. 64, 1 (2012) 240)"
+Monoon erianthoides,holotype,K,K000691409,P.W. Richards,1353,1892-12-15,Mt. Dulit,Sarawak,Malaysia,"Type, p.112",Borneo; date printed '15 December 1892' (same as Haviland's Mt. Buan date; Richards collected on Mt. Dulit in 1932 - probable printing error); holotype K and isotype K carry different barcodes
+Monoon erianthoides,isotype,A,A00039310,P.W. Richards,1353,1892-12-15,Mt. Dulit,Sarawak,Malaysia,"Type, p.112",Borneo; date printed '15 December 1892' (same as Haviland's Mt. Buan date; Richards collected on Mt. Dulit in 1932 - probable printing error); holotype K and isotype K carry different barcodes
+Monoon erianthoides,isotype,K,K000691410,P.W. Richards,1353,1892-12-15,Mt. Dulit,Sarawak,Malaysia,"Type, p.112",Borneo; date printed '15 December 1892' (same as Haviland's Mt. Buan date; Richards collected on Mt. Dulit in 1932 - probable printing error); holotype K and isotype K carry different barcodes
+Monoon erianthoides,isotype,SING,SING0059442,P.W. Richards,1353,1892-12-15,Mt. Dulit,Sarawak,Malaysia,"Type, p.112",Borneo; date printed '15 December 1892' (same as Haviland's Mt. Buan date; Richards collected on Mt. Dulit in 1932 - probable printing error); holotype K and isotype K carry different barcodes
+Monoon grandiflorum,lectotype,FI-B,,Beccari,PB 2541,1866-10,Mt. Matang,Sarawak,Malaysia,"Type, p.113",Borneo; Lectotype (Turner 2011)
+Monoon grandiflorum,isolectotype,K,K000691408,Beccari,PB 2541,1866-10,Mt. Matang,Sarawak,Malaysia,"Type, p.113",Borneo; Lectotype (Turner 2011)
+Monoon hookerianum,lectotype,K,K000691563,King's Collector (Kunstler),5550,1884-02,Larut,Perak,Malaysia,"Type, p.115",Lectotype (Turner 2011); Peninsular Malaysia
+Monoon hookerianum,isolectotype,CAL,,King's Collector (Kunstler),5550,1884-02,Larut,Perak,Malaysia,"Type, p.115",Lectotype (Turner 2011); Peninsular Malaysia
+Monoon hookerianum,isolectotype,CGE,,King's Collector (Kunstler),5550,1884-02,Larut,Perak,Malaysia,"Type, p.115",Lectotype (Turner 2011); Peninsular Malaysia
+Monoon hookerianum,isolectotype,P,,King's Collector (Kunstler),5550,1884-02,Larut,Perak,Malaysia,"Type, p.115",Lectotype (Turner 2011); Peninsular Malaysia
+Monoon hypogaeum,lectotype,K,K000691555,King's Collector [H.H. Kunstler],2437,1881,Larut,Perak,Malaysia,"Type, p.115",Lectotype (Turner 2011); Peninsular Malaysia
+Monoon hypogaeum,isolectotype,CAL,,King's Collector [H.H. Kunstler],2437,1881,Larut,Perak,Malaysia,"Type, p.115",Lectotype (Turner 2011); Peninsular Malaysia
+Monoon lateriflorum,holotype,L,L0188880,Blume,s.n.,,Mt. Salak,Java,Indonesia,"Type, p.116",
+Monoon paradoxum,holotype,FI-B,,Beccari,PB 3770,,Tubau,Sarawak,Malaysia,"Type, p.117",Borneo
+Monoon sympetalum,lectotype,K,K000691315,Ramos,1562,1920-09/1920-12,Sandakan and vicinity,Sabah,Malaysia,"Type, p.118",Borneo; Lectotype (Turner 2011)
+Monoon sympetalum,isolectotype,A,A00063039,Ramos,1562,1920-09/1920-12,Sandakan and vicinity,Sabah,Malaysia,"Type, p.118",Borneo; Lectotype (Turner 2011)
+Monoon sympetalum,isolectotype,BM,BM000554082,Ramos,1562,1920-09/1920-12,Sandakan and vicinity,Sabah,Malaysia,"Type, p.118",Borneo; Lectotype (Turner 2011)
+Monoon sympetalum,isolectotype,L,L0191093,Ramos,1562,1920-09/1920-12,Sandakan and vicinity,Sabah,Malaysia,"Type, p.118",Borneo; Lectotype (Turner 2011)
+Monoon sympetalum,isolectotype,US,US00098692,Ramos,1562,1920-09/1920-12,Sandakan and vicinity,Sabah,Malaysia,"Type, p.118",Borneo; Lectotype (Turner 2011)
+Monoon xanthopetalum,holotype,K,K000691618,Ramos,1705,1920-09/1920-12,Batu Lima near Sandakan,Sabah,Malaysia,"Type, p.118",Borneo; inconsistent: printed 'Type ... (holotype K ...; isolectotypes ...)'
+Monoon xanthopetalum,isolectotype,A,A00242651,Ramos,1705,1920-09/1920-12,Batu Lima near Sandakan,Sabah,Malaysia,"Type, p.118",Borneo; inconsistent: printed 'Type ... (holotype K ...; isolectotypes ...)'
+Monoon xanthopetalum,isolectotype,BM,BM000754105,Ramos,1705,1920-09/1920-12,Batu Lima near Sandakan,Sabah,Malaysia,"Type, p.118",Borneo; inconsistent: printed 'Type ... (holotype K ...; isolectotypes ...)'
+Monoon xanthopetalum,isolectotype,BO,,Ramos,1705,1920-09/1920-12,Batu Lima near Sandakan,Sabah,Malaysia,"Type, p.118",Borneo; inconsistent: printed 'Type ... (holotype K ...; isolectotypes ...)'
+Monoon xanthopetalum,isolectotype,L,L0189515,Ramos,1705,1920-09/1920-12,Batu Lima near Sandakan,Sabah,Malaysia,"Type, p.118",Borneo; inconsistent: printed 'Type ... (holotype K ...; isolectotypes ...)'
+Monoon xanthopetalum,isolectotype,US,US00098685,Ramos,1705,1920-09/1920-12,Batu Lima near Sandakan,Sabah,Malaysia,"Type, p.118",Borneo; inconsistent: printed 'Type ... (holotype K ...; isolectotypes ...)'
+Neo-uvaria acuminatissima,lectotype,L,L0038045,Korthals,s.n.,,Doesoen,S Kalimantan,Indonesia,"Type, p.122",Borneo; Lectotype (Turner 2011)
+Neo-uvaria acuminatissima,isolectotype,L,L0038044; L0038046; L0038047; L0038048,Korthals,s.n.,,Doesoen,S Kalimantan,Indonesia,"Type, p.122",Borneo; Lectotype (Turner 2011)
+Orophea alba,holotype,L,L0038051,P. Lassan,SAN 70680,1970-05-20,"Sandakan district, Tenegang Besar",Sabah,Malaysia,"Type, p.126",Borneo
+Orophea alba,isotype,K,K000574863,P. Lassan,SAN 70680,1970-05-20,"Sandakan district, Tenegang Besar",Sabah,Malaysia,"Type, p.126",Borneo
+Orophea alba,isotype,SAN,,P. Lassan,SAN 70680,1970-05-20,"Sandakan district, Tenegang Besar",Sabah,Malaysia,"Type, p.126",Borneo
+Orophea clemensiana,holotype,L,L0038060,J. & M.S. Clemens,20239,1929-09,"Lundu district, G. Pueh (“Poi”)",Sarawak,Malaysia,"Type, p.127",Borneo
+Orophea clemensiana,isotype,A,A00039478,J. & M.S. Clemens,20239,1929-09,"Lundu district, G. Pueh (“Poi”)",Sarawak,Malaysia,"Type, p.127",Borneo
+Orophea clemensiana,isotype,B,,J. & M.S. Clemens,20239,1929-09,"Lundu district, G. Pueh (“Poi”)",Sarawak,Malaysia,"Type, p.127",Borneo
+Orophea clemensiana,isotype,BM,BM000553882,J. & M.S. Clemens,20239,1929-09,"Lundu district, G. Pueh (“Poi”)",Sarawak,Malaysia,"Type, p.127",Borneo
+Orophea clemensiana,isotype,BO,,J. & M.S. Clemens,20239,1929-09,"Lundu district, G. Pueh (“Poi”)",Sarawak,Malaysia,"Type, p.127",Borneo
+Orophea clemensiana,isotype,G,,J. & M.S. Clemens,20239,1929-09,"Lundu district, G. Pueh (“Poi”)",Sarawak,Malaysia,"Type, p.127",Borneo
+Orophea clemensiana,isotype,K,K000574865,J. & M.S. Clemens,20239,1929-09,"Lundu district, G. Pueh (“Poi”)",Sarawak,Malaysia,"Type, p.127",Borneo
+Orophea clemensiana,isotype,MO,,J. & M.S. Clemens,20239,1929-09,"Lundu district, G. Pueh (“Poi”)",Sarawak,Malaysia,"Type, p.127",Borneo
+Orophea clemensiana,isotype,NY,NY00026155,J. & M.S. Clemens,20239,1929-09,"Lundu district, G. Pueh (“Poi”)",Sarawak,Malaysia,"Type, p.127",Borneo
+Orophea clemensiana,isotype,P,,J. & M.S. Clemens,20239,1929-09,"Lundu district, G. Pueh (“Poi”)",Sarawak,Malaysia,"Type, p.127",Borneo
+Orophea clemensiana,isotype,S,,J. & M.S. Clemens,20239,1929-09,"Lundu district, G. Pueh (“Poi”)",Sarawak,Malaysia,"Type, p.127",Borneo
+Orophea clemensiana,isotype,SAR,,J. & M.S. Clemens,20239,1929-09,"Lundu district, G. Pueh (“Poi”)",Sarawak,Malaysia,"Type, p.127",Borneo
+Orophea clemensiana,isotype,Z,,J. & M.S. Clemens,20239,1929-09,"Lundu district, G. Pueh (“Poi”)",Sarawak,Malaysia,"Type, p.127",Borneo
+Orophea corymbosa,lectotype,L,L0038061,Reinwardt,s.n.,,Tjeremai,Java,Indonesia,"Type, p.128","Lectotype (Kessler, 1988)"
+Orophea corymbosa,isolectotype,B,,Reinwardt,s.n.,,Tjeremai,Java,Indonesia,"Type, p.128","Lectotype (Kessler, 1988)"
+Orophea creaghii,holotype,K,K000574862,Creagh,s.n.,1895-04,Tinkayo,Sabah,Malaysia,"Type, p.128",Borneo
+Orophea creaghii,isotype,BM,BM000547317,Creagh,s.n.,1895-04,Tinkayo,Sabah,Malaysia,"Type, p.128",Borneo
+Orophea dodecandra,lectotype,L,L0038075,Korthals,s.n.,,,Kalimantan,Indonesia,"Type, p.129","Borneo; Lectotype (Kessler, 1988)"
+Orophea dodecandra,isolectotype,GH,GH00039479,Korthals,s.n.,,,Kalimantan,Indonesia,"Type, p.129","Borneo; Lectotype (Kessler, 1988)"
+Orophea dodecandra,isolectotype,L,L0038076; L0038077,Korthals,s.n.,,,Kalimantan,Indonesia,"Type, p.129","Borneo; Lectotype (Kessler, 1988)"
+Orophea dodecandra,isolectotype,U,U0000354,Korthals,s.n.,,,Kalimantan,Indonesia,"Type, p.129","Borneo; Lectotype (Kessler, 1988)"
+Orophea kostermansiana,holotype,L,L0038085,Sibat ak Luang,S 22369,1964-09-25,"Anap district, Bt. Mersing",Sarawak,Malaysia,"Type, p.130",Borneo
+Orophea kostermansiana,isotype,A,A00135397,Sibat ak Luang,S 22369,1964-09-25,"Anap district, Bt. Mersing",Sarawak,Malaysia,"Type, p.130",Borneo
+Orophea kostermansiana,isotype,K,K000574860,Sibat ak Luang,S 22369,1964-09-25,"Anap district, Bt. Mersing",Sarawak,Malaysia,"Type, p.130",Borneo
+Orophea kostermansiana,isotype,SAN,,Sibat ak Luang,S 22369,1964-09-25,"Anap district, Bt. Mersing",Sarawak,Malaysia,"Type, p.130",Borneo
+Orophea kostermansiana,isotype,SAR,,Sibat ak Luang,S 22369,1964-09-25,"Anap district, Bt. Mersing",Sarawak,Malaysia,"Type, p.130",Borneo
+Orophea kostermansiana,isotype,SING,SING0046128,Sibat ak Luang,S 22369,1964-09-25,"Anap district, Bt. Mersing",Sarawak,Malaysia,"Type, p.130",Borneo
+Orophea merrillii,holotype,L,L0188240,Merrill,9212,1913-04,"Palawan, Taytay",,Philippines,"Type, p.130",
+Orophea merrillii,isotype,A,A00039491,Merrill,9212,1913-04,"Palawan, Taytay",,Philippines,"Type, p.130",
+Orophea merrillii,isotype,BM,BM000553938,Merrill,9212,1913-04,"Palawan, Taytay",,Philippines,"Type, p.130",
+Orophea merrillii,isotype,GH,,Merrill,9212,1913-04,"Palawan, Taytay",,Philippines,"Type, p.130",
+Orophea merrillii,isotype,K,K000574855,Merrill,9212,1913-04,"Palawan, Taytay",,Philippines,"Type, p.130",
+Orophea merrillii,isotype,L,L0188242,Merrill,9212,1913-04,"Palawan, Taytay",,Philippines,"Type, p.130",
+Orophea merrillii,isotype,NY,NY00026162,Merrill,9212,1913-04,"Palawan, Taytay",,Philippines,"Type, p.130",
+Orophea merrillii,isotype,P,,Merrill,9212,1913-04,"Palawan, Taytay",,Philippines,"Type, p.130",
+Orophea merrillii,isotype,US,US00050679,Merrill,9212,1913-04,"Palawan, Taytay",,Philippines,"Type, p.130",
+Orophea myriantha,lectotype,P,P00391149,Agama,544,1918-08,"Tawau district, Brantion River",Sabah,Malaysia,"Type, p.132","Borneo; Lectotype (Kessler, 1988); K barcode 'K00057464' has 8 digits (usual K + 9)"
+Orophea myriantha,isolectotype,A,A00039481,Agama,544,1918-08,"Tawau district, Brantion River",Sabah,Malaysia,"Type, p.132","Borneo; Lectotype (Kessler, 1988); K barcode 'K00057464' has 8 digits (usual K + 9)"
+Orophea myriantha,isolectotype,K,K00057464,Agama,544,1918-08,"Tawau district, Brantion River",Sabah,Malaysia,"Type, p.132","Borneo; Lectotype (Kessler, 1988); K barcode 'K00057464' has 8 digits (usual K + 9)"
+Orophea myriantha,isolectotype,US,US00098720,Agama,544,1918-08,"Tawau district, Brantion River",Sabah,Malaysia,"Type, p.132","Borneo; Lectotype (Kessler, 1988); K barcode 'K00057464' has 8 digits (usual K + 9)"
+Orophea rubra,holotype,L,L0038095,Kostermans,5901,1951-07-27,"South of Sangkulirang, E Kutei, G. Sekrat",E Kalimantan,Indonesia,"Type, p.134",Borneo
+Orophea rubra,isotype,A,A00039483,Kostermans,5901,1951-07-27,"South of Sangkulirang, E Kutei, G. Sekrat",E Kalimantan,Indonesia,"Type, p.134",Borneo
+Orophea rubra,isotype,BO,,Kostermans,5901,1951-07-27,"South of Sangkulirang, E Kutei, G. Sekrat",E Kalimantan,Indonesia,"Type, p.134",Borneo
+Orophea rubra,isotype,K,K000574861,Kostermans,5901,1951-07-27,"South of Sangkulirang, E Kutei, G. Sekrat",E Kalimantan,Indonesia,"Type, p.134",Borneo
+Orophea rubra,isotype,P,,Kostermans,5901,1951-07-27,"South of Sangkulirang, E Kutei, G. Sekrat",E Kalimantan,Indonesia,"Type, p.134",Borneo
+Orophea rubra,isotype,SING,SING0046129,Kostermans,5901,1951-07-27,"South of Sangkulirang, E Kutei, G. Sekrat",E Kalimantan,Indonesia,"Type, p.134",Borneo
+Orophea sarawakensis,holotype,L,L0038096,J.A.R. Anderson,S 16042,1962-06-06,"Miri district, G. Subis",Sarawak,Malaysia,"Type, p.134",Borneo; SING barcode 'SING00107993' has 8 digits (others 7)
+Orophea sarawakensis,isotype,K,K000574856,J.A.R. Anderson,S 16042,1962-06-06,"Miri district, G. Subis",Sarawak,Malaysia,"Type, p.134",Borneo; SING barcode 'SING00107993' has 8 digits (others 7)
+Orophea sarawakensis,isotype,SAR,,J.A.R. Anderson,S 16042,1962-06-06,"Miri district, G. Subis",Sarawak,Malaysia,"Type, p.134",Borneo; SING barcode 'SING00107993' has 8 digits (others 7)
+Orophea sarawakensis,isotype,SING,SING00107993,J.A.R. Anderson,S 16042,1962-06-06,"Miri district, G. Subis",Sarawak,Malaysia,"Type, p.134",Borneo; SING barcode 'SING00107993' has 8 digits (others 7)
+Orophea trigyna,lectotype,L,L0038099,Korthals,s.n.,,G. Sakumbang,S Kalimantan,Indonesia,"Type, p.135","Borneo; Lectotype (Kessler, 1988); L barcodes 'L00380100' etc. have 8 digits"
+Orophea trigyna,isolectotype,A,,Korthals,s.n.,,G. Sakumbang,S Kalimantan,Indonesia,"Type, p.135","Borneo; Lectotype (Kessler, 1988); L barcodes 'L00380100' etc. have 8 digits"
+Orophea trigyna,isolectotype,B,,Korthals,s.n.,,G. Sakumbang,S Kalimantan,Indonesia,"Type, p.135","Borneo; Lectotype (Kessler, 1988); L barcodes 'L00380100' etc. have 8 digits"
+Orophea trigyna,isolectotype,GH,,Korthals,s.n.,,G. Sakumbang,S Kalimantan,Indonesia,"Type, p.135","Borneo; Lectotype (Kessler, 1988); L barcodes 'L00380100' etc. have 8 digits"
+Orophea trigyna,isolectotype,K,K000574767,Korthals,s.n.,,G. Sakumbang,S Kalimantan,Indonesia,"Type, p.135","Borneo; Lectotype (Kessler, 1988); L barcodes 'L00380100' etc. have 8 digits"
+Orophea trigyna,isolectotype,L,L0038098; L00380100; L00380101; L00380102,Korthals,s.n.,,G. Sakumbang,S Kalimantan,Indonesia,"Type, p.135","Borneo; Lectotype (Kessler, 1988); L barcodes 'L00380100' etc. have 8 digits"
+Phaeanthus impressinervius,lectotype,K,K000574613,M. Ramos,1792,1920-09/1920-12,Sibuya near Sandakan,Sabah,Malaysia,"Type, p.137",Borneo; Lectotype (Turner 2011)
+Phaeanthus impressinervius,isolectotype,A,A00039572,M. Ramos,1792,1920-09/1920-12,Sibuya near Sandakan,Sabah,Malaysia,"Type, p.137",Borneo; Lectotype (Turner 2011)
+Phaeanthus impressinervius,isolectotype,P,,M. Ramos,1792,1920-09/1920-12,Sibuya near Sandakan,Sabah,Malaysia,"Type, p.137",Borneo; Lectotype (Turner 2011)
+Phaeanthus impressinervius,isolectotype,US,US00098706,M. Ramos,1792,1920-09/1920-12,Sibuya near Sandakan,Sabah,Malaysia,"Type, p.137",Borneo; Lectotype (Turner 2011)
+Phaeanthus ophthalmicus,lectotype,BR,BR681033,Roxburgh,s.n.,1805-01,Cult. Hort. Bot. Calc.,,India,"Type, p.137","Lectotype (Turner & Veldkamp 2012); also epitype (Turner & Veldkamp 2012): Wallich s.n., India, Cult. Hort. Bot. Calc., 1815 (BM Barcode BM00099459)"
+Phaeanthus splendens,holotype,L,L0045058,Korthals,s.n.,,G. Sakoembang,S Kalimantan,Indonesia,"Type, p.138",Borneo; U barcode U0008089 also printed for an isolectotype of Phaeanthus tephrocarpus
+Phaeanthus splendens,isotype,A,A00073469; A00073470; A00073473,Korthals,s.n.,,G. Sakoembang,S Kalimantan,Indonesia,"Type, p.138",Borneo; U barcode U0008089 also printed for an isolectotype of Phaeanthus tephrocarpus
+Phaeanthus splendens,isotype,B,,Korthals,s.n.,,G. Sakoembang,S Kalimantan,Indonesia,"Type, p.138",Borneo; U barcode U0008089 also printed for an isolectotype of Phaeanthus tephrocarpus
+Phaeanthus splendens,isotype,L,L0045059,Korthals,s.n.,,G. Sakoembang,S Kalimantan,Indonesia,"Type, p.138",Borneo; U barcode U0008089 also printed for an isolectotype of Phaeanthus tephrocarpus
+Phaeanthus splendens,isotype,U,U0008089,Korthals,s.n.,,G. Sakoembang,S Kalimantan,Indonesia,"Type, p.138",Borneo; U barcode U0008089 also printed for an isolectotype of Phaeanthus tephrocarpus
+Phaeanthus tephrocarpus,lectotype,BM,BM000099289,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,A,A00039573,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,B,,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,BM,BM000099290,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,BO,,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,CM,,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,DS,,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,GH,GH00056905,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,K,K000574610,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,L,L0045051,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,M,,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,MICH,,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,NY,NY00026194,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,P,,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,SING,SING108004,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,U,U0008089,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,UC,,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,US,US00603839,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Phaeanthus tephrocarpus,isolectotype,Z,,Elmer,21860,1922-10/1923-03,Tawau,Sabah,Malaysia,"Type, p.140",Borneo; Lectotype (Turner 2011); U barcode U0008089 also printed for Phaeanthus splendens
+Polyalthia borneensis,lectotype,K,K000691600,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia borneensis,isolectotype,A,A00039593,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia borneensis,isolectotype,BM,BM000553978,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia borneensis,isolectotype,BO,,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia borneensis,isolectotype,C,,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia borneensis,isolectotype,DS,,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia borneensis,isolectotype,L,L0038108,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia borneensis,isolectotype,M,,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia borneensis,isolectotype,MICH,,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia borneensis,isolectotype,NY,NY00022700,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia borneensis,isolectotype,P,,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia borneensis,isolectotype,PH,,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia borneensis,isolectotype,S,,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia borneensis,isolectotype,SING,SING108010,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia borneensis,isolectotype,U,,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia borneensis,isolectotype,UC,,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia borneensis,isolectotype,Z,,Elmer,21378,1922-10/1923-03,near Tawau,Sabah,Malaysia,"Type, p.144",Borneo; Lectotype (Turner 2011)
+Polyalthia bullata,lectotype,CAL,,King's Collector [Kunstler],4804,1883-08,"Gopeng, Kinta",Perak,Malaysia,"Type, p.145","Lectotype (Turner, 2009); Peninsular Malaysia"
+Polyalthia bullata,isolectotype,K,K000691434,King's Collector [Kunstler],4804,1883-08,"Gopeng, Kinta",Perak,Malaysia,"Type, p.145","Lectotype (Turner, 2009); Peninsular Malaysia"
+Polyalthia cauliflora,holotype,K-W,,Wallich,s.n.,1822-10,,,Singapore,"Type, p.145",= Herb. EIC 6476
+Polyalthia charitopoda,holotype,K,K000381536,D. Kirkup,242,1990-11-08,"Labi, Bukit Telingan",,Brunei,"Type, p.146",Borneo; citation parenthesis unclosed in print
+Polyalthia charitopoda,isotype,A,A00295751,D. Kirkup,242,1990-11-08,"Labi, Bukit Telingan",,Brunei,"Type, p.146",Borneo; citation parenthesis unclosed in print
+Polyalthia charitopoda,isotype,L,L0047668,D. Kirkup,242,1990-11-08,"Labi, Bukit Telingan",,Brunei,"Type, p.146",Borneo; citation parenthesis unclosed in print
+Polyalthia charitopoda,isotype,SAR,,D. Kirkup,242,1990-11-08,"Labi, Bukit Telingan",,Brunei,"Type, p.146",Borneo; citation parenthesis unclosed in print
+Polyalthia charitopoda,isotype,SING,,D. Kirkup,242,1990-11-08,"Labi, Bukit Telingan",,Brunei,"Type, p.146",Borneo; citation parenthesis unclosed in print
+Polyalthia chrysotricha,holotype,K,K000691577,C.B. Kloss,s.n.,1912-02,"Menuang Gasing, Ulu Langat",Selangor,Malaysia,"Type, p.147",Peninsular Malaysia
+Polyalthia cinnamomea,lectotype,K-W,,Anon. [?N. Wallich],s.n.,,,,Singapore,"Type, p.148",Lectotype (Airy Shaw 1939); = Herb. EIC no. 6444
+Polyalthia dolichopoda,lectotype,K,K000691603,M. Ramos,1501,1920-09/1920-12,near Sandakan,Sabah,Malaysia,"Type, p.148",Borneo; Lectotype (Turner 2007)
+Polyalthia dolichopoda,isolectotype,US,US00098681,M. Ramos,1501,1920-09/1920-12,near Sandakan,Sabah,Malaysia,"Type, p.148",Borneo; Lectotype (Turner 2007)
+Polyalthia elliptica,lectotype,L,L0189236,Anon.,868,,G. Seribu,Java,Indonesia,"Type, p.149","Lectotype (Turner, 2009)"
+Polyalthia flagellaris,holotype,FI,,Beccari,PB 3864,,Entabei,Sarawak,Malaysia,"Type, p.150",Borneo
+Polyalthia flagellaris,isotype,K,K000691593,Beccari,PB 3864,,Entabei,Sarawak,Malaysia,"Type, p.150",Borneo
+Polyalthia ichthyosma,holotype,L,L0189858; L0189859; L0189860,Veldkamp,8298,1983-01-18,Tumbang Tapi,C Kalimantan,Indonesia,"Type, p.150",Borneo
+Polyalthia igniflora,holotype,A,A00295759,J. & M.S. Clemens,32841,1933-04-13,"Mt. Nunkok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.151",Borneo
+Polyalthia igniflora,isotype,BM,,J. & M.S. Clemens,32841,1933-04-13,"Mt. Nunkok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.151",Borneo
+Polyalthia igniflora,isotype,BO,,J. & M.S. Clemens,32841,1933-04-13,"Mt. Nunkok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.151",Borneo
+Polyalthia igniflora,isotype,L,L0183884,J. & M.S. Clemens,32841,1933-04-13,"Mt. Nunkok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.151",Borneo
+Polyalthia igniflora,isotype,NY,,J. & M.S. Clemens,32841,1933-04-13,"Mt. Nunkok, Mt. Kinabalu",Sabah,Malaysia,"Type, p.151",Borneo
+Polyalthia insignis,holotype,K,K000691584,T. Lobb,s.n.,1857,,Kalimantan,Indonesia,"Type, p.152",Borneo
+Polyalthia kinabaluensis,holotype,SING,SING0108703,Chew & Corner,RSNB 7065,1964-05-02,"Mt. Kinabalu, Mesilau River, alt. 1,500 m",Sabah,Malaysia,"Type, p.152",Borneo
+Polyalthia kinabaluensis,isotype,K,K000691680,Chew & Corner,RSNB 7065,1964-05-02,"Mt. Kinabalu, Mesilau River, alt. 1,500 m",Sabah,Malaysia,"Type, p.152",Borneo
+Polyalthia kinabaluensis,isotype,L,,Chew & Corner,RSNB 7065,1964-05-02,"Mt. Kinabalu, Mesilau River, alt. 1,500 m",Sabah,Malaysia,"Type, p.152",Borneo
+Polyalthia lasioclada,holotype,SING,,G. Shea & Aban,SAN 77174,1973-05-25,"Ranau district, west of Kg Takutan, 2500 ft",Sabah,Malaysia,"Type, p.154",Borneo
+Polyalthia lasioclada,isotype,K,K000691682,G. Shea & Aban,SAN 77174,1973-05-25,"Ranau district, west of Kg Takutan, 2500 ft",Sabah,Malaysia,"Type, p.154",Borneo
+Polyalthia lasioclada,isotype,L,,G. Shea & Aban,SAN 77174,1973-05-25,"Ranau district, west of Kg Takutan, 2500 ft",Sabah,Malaysia,"Type, p.154",Borneo
+Polyalthia microtus,lectotype,L,L0189033,Korthals,s.n.,,G. Sakoembang,Kalimantan,Indonesia,"Type, p.155",Borneo; Lectotype (Turner 2011)
+Polyalthia microtus,isolectotype,K,K000691616,Korthals,s.n.,,G. Sakoembang,Kalimantan,Indonesia,"Type, p.155",Borneo; Lectotype (Turner 2011)
+Polyalthia microtus,isolectotype,L,L0189031; L0189032; L0189034,Korthals,s.n.,,G. Sakoembang,Kalimantan,Indonesia,"Type, p.155",Borneo; Lectotype (Turner 2011)
+Polyalthia miliusoides,holotype,K,K000691669,L. Madani,SAN 92592,1980-09-03,"Keningau district, Labau Interprise Bornion Timber, Nabawan",Sabah,Malaysia,"Type, p.156",Borneo
+Polyalthia miliusoides,isotype,L,,L. Madani,SAN 92592,1980-09-03,"Keningau district, Labau Interprise Bornion Timber, Nabawan",Sabah,Malaysia,"Type, p.156",Borneo
+Polyalthia miliusoides,isotype,SAN,,L. Madani,SAN 92592,1980-09-03,"Keningau district, Labau Interprise Bornion Timber, Nabawan",Sabah,Malaysia,"Type, p.156",Borneo
+Polyalthia miliusoides,isotype,SAR,,L. Madani,SAN 92592,1980-09-03,"Keningau district, Labau Interprise Bornion Timber, Nabawan",Sabah,Malaysia,"Type, p.156",Borneo
+Polyalthia montis-silam,holotype,L,L0189078,Muin Chai,SAN 29400,1962-04-23,Mt. Silam,Sabah,Malaysia,"Type, p.156",Borneo
+Polyalthia montis-silam,isotype,K,K000691679,Muin Chai,SAN 29400,1962-04-23,Mt. Silam,Sabah,Malaysia,"Type, p.156",Borneo
+Polyalthia montis-silam,isotype,SAN,,Muin Chai,SAN 29400,1962-04-23,Mt. Silam,Sabah,Malaysia,"Type, p.156",Borneo
+Polyalthia motleyana,lectotype,K,K000691612,Barber,228,,,Labuan,Malaysia,"Type, p.157",Borneo; Lectotype (Turner 2011)
+Polyalthia motleyana,isolectotype,K,K000691613,Barber,228,,,Labuan,Malaysia,"Type, p.157",Borneo; Lectotype (Turner 2011)
+Polyalthia obliqua,lectotype,K,K000691437,Griffith,s.n.,,,Malacca,Malaysia,"Type, p.159",Lectotype (Turner 2011); Peninsular Malaysia
+Polyalthia obliqua,isolectotype,GH,GH00039596,Griffith,s.n.,,,Malacca,Malaysia,"Type, p.159",Lectotype (Turner 2011); Peninsular Malaysia
+Polyalthia obliqua,isolectotype,NY,NY00026197,Griffith,s.n.,,,Malacca,Malaysia,"Type, p.159",Lectotype (Turner 2011); Peninsular Malaysia
+Polyalthia oblonga,lectotype,K,K000739191,King's Collector [H. H. Kunstler],7671,1885-05,Larut,Perak,Malaysia,"Type, p.160",Lectotype (Turner 2011); Peninsular Malaysia
+Polyalthia oblonga,isolectotype,CAL,,King's Collector [H. H. Kunstler],7671,1885-05,Larut,Perak,Malaysia,"Type, p.160",Lectotype (Turner 2011); Peninsular Malaysia
+Polyalthia oblonga,isolectotype,DD,,King's Collector [H. H. Kunstler],7671,1885-05,Larut,Perak,Malaysia,"Type, p.160",Lectotype (Turner 2011); Peninsular Malaysia
+Polyalthia oblonga,isolectotype,SING,,King's Collector [H. H. Kunstler],7671,1885-05,Larut,Perak,Malaysia,"Type, p.160",Lectotype (Turner 2011); Peninsular Malaysia
+Polyalthia polyphlebia,holotype,FI-B,,Beccari,PB 1409,1866-04,Mt. Matang,Sarawak,Malaysia,"Type, p.160",Borneo; B isotype is a fragment
+Polyalthia polyphlebia,isotype,B,,Beccari,PB 1409,1866-04,Mt. Matang,Sarawak,Malaysia,"Type, p.160",Borneo; B isotype is a fragment
+Polyalthia polyphlebia,isotype,K,K000691608,Beccari,PB 1409,1866-04,Mt. Matang,Sarawak,Malaysia,"Type, p.160",Borneo; B isotype is a fragment
+Polyalthia saprosma,holotype,K,K000380547,Suah Tingguan,SAN 36315,1963-04-24,"Beluran district, K.B. Dev. Camp, Sungai Sapi",Sabah,Malaysia,"Type, p.161",Borneo
+Polyalthia saprosma,isotype,SAN,,Suah Tingguan,SAN 36315,1963-04-24,"Beluran district, K.B. Dev. Camp, Sungai Sapi",Sabah,Malaysia,"Type, p.161",Borneo
+Polyalthia stenopetala,lectotype,K,K000691463,Lobb,414,,,Java,Indonesia,"Type, p.162","Lectotype (Sinclair, 1955); printed ""Java [probably actually from Singapore]"""
+Polyalthia stenopetala,isolectotype,CGE,,Lobb,414,,,Java,Indonesia,"Type, p.162","Lectotype (Sinclair, 1955); printed ""Java [probably actually from Singapore]"""
+Polyalthia sympetala,holotype,K,K000381645,"J.A.R. Anderson, Sonny Tan & E. Wright",S 26053,1966-11-26,"Miri district, Niah River, Ulu Sungei Sekaloh",Sarawak,Malaysia,"Type, p.162",Borneo
+Polyalthia sympetala,isotype,A,A00295750,"J.A.R. Anderson, Sonny Tan & E. Wright",S 26053,1966-11-26,"Miri district, Niah River, Ulu Sungei Sekaloh",Sarawak,Malaysia,"Type, p.162",Borneo
+Polyalthia sympetala,isotype,L,L0184836,"J.A.R. Anderson, Sonny Tan & E. Wright",S 26053,1966-11-26,"Miri district, Niah River, Ulu Sungei Sekaloh",Sarawak,Malaysia,"Type, p.162",Borneo
+Polyalthia sympetala,isotype,SAR,,"J.A.R. Anderson, Sonny Tan & E. Wright",S 26053,1966-11-26,"Miri district, Niah River, Ulu Sungei Sekaloh",Sarawak,Malaysia,"Type, p.162",Borneo
+Polyalthia sympetala,isotype,SING,,"J.A.R. Anderson, Sonny Tan & E. Wright",S 26053,1966-11-26,"Miri district, Niah River, Ulu Sungei Sekaloh",Sarawak,Malaysia,"Type, p.162",Borneo
+Polyalthia trochilia,holotype,K,K000582054,Haviland,413,,near Kuching,Sarawak,Malaysia,"Type, p.163",Borneo
+Polyalthia trochilia,isotype,SAR,,Haviland,413,,near Kuching,Sarawak,Malaysia,"Type, p.163",Borneo
+Polyalthia trochilia,isotype,SING,,Haviland,413,,near Kuching,Sarawak,Malaysia,"Type, p.163",Borneo
+Popowia alata,holotype,SAN,,Henry Tai Sin,SAN 58049,1967-04-21,"Lahad Datu district, Silabukan FR",Sabah,Malaysia,"Type, p.166",Borneo
+Popowia alata,isotype,L,L0195349,Henry Tai Sin,SAN 58049,1967-04-21,"Lahad Datu district, Silabukan FR",Sabah,Malaysia,"Type, p.166",Borneo
+Popowia hirta,holotype,,,Korthals,s.n.,,,West Sumatra,Indonesia,"Type, p.166",holotype n.v.; no institution printed
+Popowia odoardi,holotype,FI-B,,Beccari,PB 1529,,Mattan (= Matang),Sarawak,Malaysia,"Type, p.167",Borneo
+Popowia pisocarpa,lectotype,L,L0190172,Blume,s.n.,,G. Parang,Java,Indonesia,"Type, p.168","Lectotype (Ganesan in Turner 2011); printed ""s.n. ['1247']"""
+Popowia pisocarpa,isolectotype,K,K000691710,Blume,s.n.,,G. Parang,Java,Indonesia,"Type, p.168","Lectotype (Ganesan in Turner 2011); printed ""s.n. ['1247']"""
+Popowia pisocarpa,isolectotype,L,L0190174,Blume,s.n.,,G. Parang,Java,Indonesia,"Type, p.168","Lectotype (Ganesan in Turner 2011); printed ""s.n. ['1247']"""
+Pseuduvaria bruneiensis,holotype,L,L0046964,M. Jacobs,5642,1958-10-04,"junction of Temburong and Belalong Rivers, Temburong district",,Brunei,"Type, p.171",Borneo; species is treated within the genus key (no numbered heading) as an only-known-from-Brunei species
+Pseuduvaria bruneiensis,isotype,B,,M. Jacobs,5642,1958-10-04,"junction of Temburong and Belalong Rivers, Temburong district",,Brunei,"Type, p.171",Borneo; species is treated within the genus key (no numbered heading) as an only-known-from-Brunei species
+Pseuduvaria bruneiensis,isotype,K,K000574577,M. Jacobs,5642,1958-10-04,"junction of Temburong and Belalong Rivers, Temburong district",,Brunei,"Type, p.171",Borneo; species is treated within the genus key (no numbered heading) as an only-known-from-Brunei species
+Pseuduvaria bruneiensis,isotype,SING,SING0001078,M. Jacobs,5642,1958-10-04,"junction of Temburong and Belalong Rivers, Temburong district",,Brunei,"Type, p.171",Borneo; species is treated within the genus key (no numbered heading) as an only-known-from-Brunei species
+Pseuduvaria bruneiensis,isotype,US,US00901685,M. Jacobs,5642,1958-10-04,"junction of Temburong and Belalong Rivers, Temburong district",,Brunei,"Type, p.171",Borneo; species is treated within the genus key (no numbered heading) as an only-known-from-Brunei species
+Pseuduvaria borneensis,holotype,BO,Sheet No. BO-1306027,Kuswata,850,1971-11-17,"Jaro Dam, 19 km north-east of Muara Uya, Cape Selatan",S Kalimantan,Indonesia,"Type, p.171",Borneo
+Pseuduvaria borneensis,isotype,BO,,Kuswata,850,1971-11-17,"Jaro Dam, 19 km north-east of Muara Uya, Cape Selatan",S Kalimantan,Indonesia,"Type, p.171",Borneo
+Pseuduvaria borneensis,isotype,KEP,KEP17180,Kuswata,850,1971-11-17,"Jaro Dam, 19 km north-east of Muara Uya, Cape Selatan",S Kalimantan,Indonesia,"Type, p.171",Borneo
+Pseuduvaria borneensis,isotype,L,L0046967,Kuswata,850,1971-11-17,"Jaro Dam, 19 km north-east of Muara Uya, Cape Selatan",S Kalimantan,Indonesia,"Type, p.171",Borneo
+Pseuduvaria calliura,lectotype,K,K000574576,P.W. Richards,1571,1932-08-31,Mt. Dulit,Sarawak,Malaysia,"Type, p.173",Borneo; Lectotype (Turner 2011); printed 'hololectotype K'
+Pseuduvaria calliura,isolectotype,K,K000574575,P.W. Richards,1571,1932-08-31,Mt. Dulit,Sarawak,Malaysia,"Type, p.173",Borneo; Lectotype (Turner 2011); printed 'hololectotype K'
+Pseuduvaria calliura,isolectotype,SING,SING0049730,P.W. Richards,1571,1932-08-31,Mt. Dulit,Sarawak,Malaysia,"Type, p.173",Borneo; Lectotype (Turner 2011); printed 'hololectotype K'
+Pseuduvaria obliqua,holotype,U,U0017012,Dayang Awa & Ilias Paie,S 45584,,"Tebakang, Bukit Tawan",Sarawak,Malaysia,"Type, p.173",Borneo
+Pseuduvaria obliqua,isotype,K,K000574572,Dayang Awa & Ilias Paie,S 45584,,"Tebakang, Bukit Tawan",Sarawak,Malaysia,"Type, p.173",Borneo
+Pseuduvaria obliqua,isotype,KEP,KEP17184,Dayang Awa & Ilias Paie,S 45584,,"Tebakang, Bukit Tawan",Sarawak,Malaysia,"Type, p.173",Borneo
+Pseuduvaria obliqua,isotype,L,L0046934,Dayang Awa & Ilias Paie,S 45584,,"Tebakang, Bukit Tawan",Sarawak,Malaysia,"Type, p.173",Borneo
+Pseuduvaria obliqua,isotype,SAR,,Dayang Awa & Ilias Paie,S 45584,,"Tebakang, Bukit Tawan",Sarawak,Malaysia,"Type, p.173",Borneo
+Pseuduvaria pamattonis,lectotype,L,L0038169,Korthals,s.n.,,G. Pamatton,S Kalimantan,Indonesia,"Type, p.174","Borneo; Lectotype (Kessler, Blumea 33 (1988) 69)"
+Pseuduvaria pamattonis,isolectotype,B,,Korthals,s.n.,,G. Pamatton,S Kalimantan,Indonesia,"Type, p.174","Borneo; Lectotype (Kessler, Blumea 33 (1988) 69)"
+Pseuduvaria pamattonis,isolectotype,GH,,Korthals,s.n.,,G. Pamatton,S Kalimantan,Indonesia,"Type, p.174","Borneo; Lectotype (Kessler, Blumea 33 (1988) 69)"
+Pseuduvaria pamattonis,isolectotype,K,K000574573,Korthals,s.n.,,G. Pamatton,S Kalimantan,Indonesia,"Type, p.174","Borneo; Lectotype (Kessler, Blumea 33 (1988) 69)"
+Pseuduvaria pamattonis,isolectotype,L,L0038168,Korthals,s.n.,,G. Pamatton,S Kalimantan,Indonesia,"Type, p.174","Borneo; Lectotype (Kessler, Blumea 33 (1988) 69)"
+Pseuduvaria parvipetala,holotype,L,L0046950,Wright,S 24701,1965-10-26,"Kapit district, Bt. Raya",Sarawak,Malaysia,"Type, p.174",Borneo; SING barcode 'SING001068' has 6 digits
+Pseuduvaria parvipetala,isotype,BO,,Wright,S 24701,1965-10-26,"Kapit district, Bt. Raya",Sarawak,Malaysia,"Type, p.174",Borneo; SING barcode 'SING001068' has 6 digits
+Pseuduvaria parvipetala,isotype,SING,SING001068,Wright,S 24701,1965-10-26,"Kapit district, Bt. Raya",Sarawak,Malaysia,"Type, p.174",Borneo; SING barcode 'SING001068' has 6 digits
+Pseuduvaria reticulata,holotype,L,L0038157,van Hasselt,s.n.,,"Bantam Prov., Suda-Manik",Java,Indonesia,"Type, p.175",
+Sageraea lanceolata,lectotype,L,L0038176,Korthals,s.n.,,near Danau Bahay,S Kalimantan,Indonesia,"Type, p.178",Borneo; Lectotype (van Heusden 1997)
+Sageraea lanceolata,isolectotype,K,K000691197,Korthals,s.n.,,near Danau Bahay,S Kalimantan,Indonesia,"Type, p.178",Borneo; Lectotype (van Heusden 1997)
+Sageraea lanceolata,isolectotype,L,L0038177; L0038178; L0038179; L0038180,Korthals,s.n.,,near Danau Bahay,S Kalimantan,Indonesia,"Type, p.178",Borneo; Lectotype (van Heusden 1997)
+Sageraea lanceolata,isolectotype,U,U0000411,Korthals,s.n.,,near Danau Bahay,S Kalimantan,Indonesia,"Type, p.178",Borneo; Lectotype (van Heusden 1997)
+Sageraea sarawakensis,holotype,K,K000739201,Haviland,2215,1893-02-22,near Kuching,Sarawak,Malaysia,"Type, p.180",Borneo
+Sageraea sarawakensis,isotype,BM,BM000884715,Haviland,2215,1893-02-22,near Kuching,Sarawak,Malaysia,"Type, p.180",Borneo
+Sageraea sarawakensis,isotype,BO,,Haviland,2215,1893-02-22,near Kuching,Sarawak,Malaysia,"Type, p.180",Borneo
+Sageraea sarawakensis,isotype,GH,GH00112689,Haviland,2215,1893-02-22,near Kuching,Sarawak,Malaysia,"Type, p.180",Borneo
+Sageraea sarawakensis,isotype,L,L0038182,Haviland,2215,1893-02-22,near Kuching,Sarawak,Malaysia,"Type, p.180",Borneo
+Sageraea sarawakensis,isotype,SAR,,Haviland,2215,1893-02-22,near Kuching,Sarawak,Malaysia,"Type, p.180",Borneo
+Sageraea sarawakensis,isotype,SING,SING0107997,Haviland,2215,1893-02-22,near Kuching,Sarawak,Malaysia,"Type, p.180",Borneo
+Stelechocarpus burahol,lectotype,L,L0038185,Blume,s.n.,,,Java,Indonesia,"Type, p.181","Lectotype (van Heusden, 1995)"
+Stelechocarpus burahol,isolectotype,K,K000691195,Blume,s.n.,,,Java,Indonesia,"Type, p.181","Lectotype (van Heusden, 1995)"
+Stelechocarpus burahol,isolectotype,L,L0038186,Blume,s.n.,,,Java,Indonesia,"Type, p.181","Lectotype (van Heusden, 1995)"
+Stelechocarpus cauliflorus,holotype,BO,,Teijsmann,s.n.,,"Cult. Hort. Bog. IV-H-58, origin Sumatra, Prov. Lampong",,Indonesia,"Type, p.182",holotype BO n.v.
+Stelechocarpus cauliflorus,isotype,L,L0038174; L0038175,Teijsmann,s.n.,,"Cult. Hort. Bog. IV-H-58, origin Sumatra, Prov. Lampong",,Indonesia,"Type, p.182",holotype BO n.v.
+Trivalvaria macrophylla,holotype,L,L0038204,Blume,1026,,"Prov. Buitenzorg (= Bogor), on limestone hill near Kuripan",W Java,Indonesia,"Type, p.184","citation parentheses unbalanced in print: isotypes L Barcode L0038205, P"
+Trivalvaria macrophylla,isotype,L,L0038205,Blume,1026,,"Prov. Buitenzorg (= Bogor), on limestone hill near Kuripan",W Java,Indonesia,"Type, p.184","citation parentheses unbalanced in print: isotypes L Barcode L0038205, P"
+Trivalvaria macrophylla,isotype,P,,Blume,1026,,"Prov. Buitenzorg (= Bogor), on limestone hill near Kuripan",W Java,Indonesia,"Type, p.184","citation parentheses unbalanced in print: isotypes L Barcode L0038205, P"
+Xylopia caudata,lectotype,K,K000574707,Griffith,s.n.,1845,,Malacca,Malaysia,"Type, p.188","Lectotype (Turner, 2011); Peninsular Malaysia"
+Xylopia coriifolia,lectotype,K,K000574692,Haviland & Hose,3337,1894-11-06,near Kuching,Sarawak,Malaysia,"Type, p.188",Borneo; Lectotype (Turner 2012)
+Xylopia coriifolia,isolectotype,CGE,,Haviland & Hose,3337,1894-11-06,near Kuching,Sarawak,Malaysia,"Type, p.188",Borneo; Lectotype (Turner 2012)
+Xylopia coriifolia,isolectotype,SAR,,Haviland & Hose,3337,1894-11-06,near Kuching,Sarawak,Malaysia,"Type, p.188",Borneo; Lectotype (Turner 2012)
+Xylopia dehiscens,neotype,K,K000574757,Vidal,949,,"Tarlac Prov., La Paz",,Philippines,"Type, p.190",Neotype (Turner 2011)
+Xylopia dehiscens,isoneotype,L,L0191119,Vidal,949,,"Tarlac Prov., La Paz",,Philippines,"Type, p.190",Neotype (Turner 2011)
+Xylopia dehiscens,isoneotype,MA,,Vidal,949,,"Tarlac Prov., La Paz",,Philippines,"Type, p.190",Neotype (Turner 2011)
+Xylopia densifolia,lectotype,NY,NY00066788,Elmer,12471,1910-05,"Magallanes (Mt. Giting-Giting), Capiz, Sibuyuan",,Philippines,"Type, p.192",Lectotype (Turner 2011)
+Xylopia densifolia,isolectotype,A,A00039730,Elmer,12471,1910-05,"Magallanes (Mt. Giting-Giting), Capiz, Sibuyuan",,Philippines,"Type, p.192",Lectotype (Turner 2011)
+Xylopia densifolia,isolectotype,BO,,Elmer,12471,1910-05,"Magallanes (Mt. Giting-Giting), Capiz, Sibuyuan",,Philippines,"Type, p.192",Lectotype (Turner 2011)
+Xylopia densifolia,isolectotype,K,K000574756,Elmer,12471,1910-05,"Magallanes (Mt. Giting-Giting), Capiz, Sibuyuan",,Philippines,"Type, p.192",Lectotype (Turner 2011)
+Xylopia densifolia,isolectotype,L,L0191170,Elmer,12471,1910-05,"Magallanes (Mt. Giting-Giting), Capiz, Sibuyuan",,Philippines,"Type, p.192",Lectotype (Turner 2011)
+Xylopia densifolia,isolectotype,US,US00098776,Elmer,12471,1910-05,"Magallanes (Mt. Giting-Giting), Capiz, Sibuyuan",,Philippines,"Type, p.192",Lectotype (Turner 2011)
+Xylopia elliptica,lectotype,K,K000574709,Maingay,2376,1867-05-09,,Malacca,Malaysia,"Type, p.192",Lectotype (Turner 2011); Peninsular Malaysia; Kew Distr. no. 82
+Xylopia elliptica,isolectotype,K,K000574712,Maingay,2376,1867-05-09,,Malacca,Malaysia,"Type, p.192",Lectotype (Turner 2011); Peninsular Malaysia; Kew Distr. no. 82
+Xylopia ferruginea,lectotype,K,K000574700,Griffith,s.n.,,,Malacca,Malaysia,"Type, p.193",Lectotype (Turner 2011); Peninsular Malaysia
+Xylopia ferruginea,isolectotype,GH,GH00062419,Griffith,s.n.,,,Malacca,Malaysia,"Type, p.193",Lectotype (Turner 2011); Peninsular Malaysia
+Xylopia ferruginea,isolectotype,K,K000574699; K000574702,Griffith,s.n.,,,Malacca,Malaysia,"Type, p.193",Lectotype (Turner 2011); Peninsular Malaysia
+Xylopia fusca,lectotype,K,K000574708,Maingay,1583,1867-04-22,,Malacca,Malaysia,"Type, p.195",Lectotype (Turner 2011); Peninsular Malaysia; Kew distribution no. 86
+Xylopia fusca,isolectotype,K,K000574710,Maingay,1583,1867-04-22,,Malacca,Malaysia,"Type, p.195",Lectotype (Turner 2011); Peninsular Malaysia; Kew distribution no. 86
+Xylopia kuchingensis,holotype,K,K000580220,Haviland,1966,1892-11-30,near Kuching,Sarawak,Malaysia,"Type, p.195",Borneo
+Xylopia kuchingensis,isotype,SAR,,Haviland,1966,1892-11-30,near Kuching,Sarawak,Malaysia,"Type, p.195",Borneo
+Xylopia malayana,lectotype,K,K000574721,Griffith,s.n.,1845,,Malacca,Malaysia,"Type, p.196",Lectotype (Turner 2011); Peninsular Malaysia
+Xylopia mucronata,lectotype,BO,Sheet No. BO-0105367,Jaheri,729,1896/1897,Bloe- oe,Kalimantan,Indonesia,"Type, p.197",Borneo; Lectotype (Turner 2011); locality printed 'Bloe- oe' (line break)
+Xylopia mucronata,isolectotype,BO,Sheet Nos. BO-1350670;  BO-1350671,Jaheri,729,1896/1897,Bloe- oe,Kalimantan,Indonesia,"Type, p.197",Borneo; Lectotype (Turner 2011); locality printed 'Bloe- oe' (line break)
+Xylopia orestera,holotype,K,K000580219,Ilias Paie,S 36314,1975-03-12,"Kapit district, summit of Bt. Bakar between Ulu Sg. Janan, Katibas, Song and Ulu Sg. Yong",Sarawak,Malaysia,"Type, p.198",Borneo
+Xylopia orestera,isotype,ASU,,Ilias Paie,S 36314,1975-03-12,"Kapit district, summit of Bt. Bakar between Ulu Sg. Janan, Katibas, Song and Ulu Sg. Yong",Sarawak,Malaysia,"Type, p.198",Borneo
+Xylopia orestera,isotype,CAN,,Ilias Paie,S 36314,1975-03-12,"Kapit district, summit of Bt. Bakar between Ulu Sg. Janan, Katibas, Song and Ulu Sg. Yong",Sarawak,Malaysia,"Type, p.198",Borneo
+Xylopia orestera,isotype,KEP,KEP145438,Ilias Paie,S 36314,1975-03-12,"Kapit district, summit of Bt. Bakar between Ulu Sg. Janan, Katibas, Song and Ulu Sg. Yong",Sarawak,Malaysia,"Type, p.198",Borneo
+Xylopia orestera,isotype,L,L0196209,Ilias Paie,S 36314,1975-03-12,"Kapit district, summit of Bt. Bakar between Ulu Sg. Janan, Katibas, Song and Ulu Sg. Yong",Sarawak,Malaysia,"Type, p.198",Borneo
+Xylopia orestera,isotype,MO,,Ilias Paie,S 36314,1975-03-12,"Kapit district, summit of Bt. Bakar between Ulu Sg. Janan, Katibas, Song and Ulu Sg. Yong",Sarawak,Malaysia,"Type, p.198",Borneo
+Xylopia orestera,isotype,SAR,,Ilias Paie,S 36314,1975-03-12,"Kapit district, summit of Bt. Bakar between Ulu Sg. Janan, Katibas, Song and Ulu Sg. Yong",Sarawak,Malaysia,"Type, p.198",Borneo
+Xylopia pulchella,holotype,K,K00057461,Haviland,2101,1893-01-16,near Kuching,Sarawak,Malaysia,"Type, p.198",Borneo; K barcode 'K00057461' has 8 digits (usual K + 9); citation split across printed pp.198-199
+Xylopia pulchella,isotype,SAR,,Haviland,2101,1893-01-16,near Kuching,Sarawak,Malaysia,"Type, p.198",Borneo; K barcode 'K00057461' has 8 digits (usual K + 9); citation split across printed pp.198-199
+Xylopia stenopetala,lectotype,K,K000574714,Curtis,857,1886-06,Government Hill,Penang,Malaysia,"Type, p.199",Lectotype (Turner 2011); Peninsular Malaysia
+Xylopia stenopetala,isolectotype,CAL,,Curtis,857,1886-06,Government Hill,Penang,Malaysia,"Type, p.199",Lectotype (Turner 2011); Peninsular Malaysia
+Xylopia stenopetala,isolectotype,SING,SING0049722,Curtis,857,1886-06,Government Hill,Penang,Malaysia,"Type, p.199",Lectotype (Turner 2011); Peninsular Malaysia
+Alphonsea javanica,figure specimen,,,,SAN 68384,,,,,"Fig. 1, p.14","panels A, K–L"
+Alphonsea javanica,figure specimen,,,,SAN 43105,,,,,"Fig. 1, p.14",panels B–J
+Alphonsea kinabaluensis,figure specimen,,,S.K. Yap,408,,,,,"Fig. 2, p.16",panels A & C–J
+Alphonsea kinabaluensis,figure specimen,,,Nooteboom,999,,,,,"Fig. 2, p.16",panels B
+Alphonsea kinabaluensis,figure specimen,,,,S 28238,,,,,"Fig. 2, p.16",panels K
+Alphonsea kinabaluensis,figure specimen,,,,S 36848,,,,,"Fig. 2, p.16",panels L–O
+Anaxagorea javanica,figure specimen,,,,SAN 96056,,,,,"Fig. 3, p.20","panels A, H–K"
+Anaxagorea javanica,figure specimen,,,,SAN 95801,,,,,"Fig. 3, p.20",panels B–G
+Cananga odorata,figure specimen,,,,SAN 89160,,,,,"Fig. 4, p.23",panels A
+Cananga odorata,figure specimen,,,Reza,RA 583,,,,,"Fig. 4, p.23",panels I–M
+Cyathocalyx magnifructus,figure specimen,,,,SAN 90876,,,,,"Fig. 5, p.25",panels A
+Cyathocalyx magnifructus,figure specimen,,,,SAN 90060,,,,,"Fig. 5, p.25",panels B–J
+Cyathocalyx magnifructus,figure specimen,,,,SAN 80990,,,,,"Fig. 5, p.25",panels K–N
+Dasymaschalon ellipticum,figure specimen,,,,S 72656,,,,,"Fig. 6, p.29",panels A–C
+Dasymaschalon ellipticum,figure specimen,,,,S 27873,,,,,"Fig. 6, p.29",panels D
+Dasymaschalon ellipticum,figure specimen,,,,S 61146,,,,,"Fig. 6, p.29",panels E–I
+Dasymaschalon ellipticum,figure specimen,,,Hansen,970,,,,,"Fig. 6, p.29",panels J
+Disepalum coronatum,figure specimen,,,,S 38355,,,,,"Fig. 7, p.33",panels A
+Disepalum coronatum,figure specimen,,,,S 39984,,,,,"Fig. 7, p.33","panels B–H, J"
+Disepalum coronatum,figure specimen,,,Dransfield,JD 7283,,,,,"Fig. 7, p.33",panels I
+Drepananthus magnificus,figure specimen,,,,S 84046,,,,,"Fig. 8, p.38",panels A–C
+Drepananthus magnificus,figure specimen,,,,S 48280,,,,,"Fig. 8, p.38",panels D
+Drepananthus magnificus,figure specimen,,,,S 70015,,,,,"Fig. 8, p.38",panels E–I
+Drepananthus magnificus,figure specimen,,,Sands,MJS 5339,,,,,"Fig. 8, p.38",panels J–M
+Drepananthus ridleyi,figure specimen,,,,S 38682,,,,,"Fig. 9, p.41",panels A–C
+Drepananthus ridleyi,figure specimen,,,Perromat,KL 4742,,,,,"Fig. 9, p.41",panels D–L
+Drepananthus ridleyi,figure specimen,,,,S 37663,,,,,"Fig. 9, p.41",panels M–N
+Goniothalamus malayanus,figure specimen,,,,S 82305,,,,,"Fig. 10, p.54",panels A
+Goniothalamus malayanus,figure specimen,,,,S 84580,,,,,"Fig. 10, p.54",panels B–H
+Goniothalamus malayanus,figure specimen,,,,S 93082,,,,,"Fig. 10, p.54",panels I–M
+Goniothalamus ridleyi,figure specimen,,,,SAN 143331,,,,,"Fig. 11, p.59",panels A & J
+Goniothalamus ridleyi,figure specimen,,,,SAN 132897,,,,,"Fig. 11, p.59",panels B–I
+Goniothalamus ridleyi,figure specimen,,,,S 54079,,,,,"Fig. 11, p.59",panels K
+Goniothalamus rufus,figure specimen,,,,S 73804,,,,,"Fig. 12, p.63",panels A–C
+Goniothalamus rufus,figure specimen,,,Haviland,404,,,,,"Fig. 12, p.63",panels D
+Goniothalamus rufus,figure specimen,,,,S 35055,,,,,"Fig. 12, p.63",panels E–J
+Goniothalamus rufus,figure specimen,,,,S 60161,,,,,"Fig. 12, p.63",panels K–O
+Goniothalamus tapisoides,figure specimen,,,,SAN 106114,,,,,"Fig. 13, p.67",panels A–B
+Goniothalamus tapisoides,figure specimen,,,Kessler,PK 414,,,,,"Fig. 13, p.67",panels C–J
+Goniothalamus woodii,figure specimen,,,,SAN 148869,,,,,"Fig. 14, p.69","panels A, C–E"
+Goniothalamus woodii,figure specimen,,,,SAN 148050,,,,,"Fig. 14, p.69",panels B
+Goniothalamus woodii,figure specimen,,,Gregson et al.,121,,,,,"Fig. 14, p.69",panels F–J
+Hubera rumphii,figure specimen,,,,SAN 128790,,,,,"Fig. 15, p.73",panels A–K
+Hubera rumphii,figure specimen,,,,SAN 93278,,,,,"Fig. 15, p.73",panels L & M
+Maasia sumatrana,figure specimen,,,,SAN 107178,,,,,"Fig. 16, p.77",panels A–G
+Maasia sumatrana,figure specimen,,,,S 22955,,,,,"Fig. 16, p.77",panels H–J
+Marsypopetalum pallidum,figure specimen,,,,S 47179,,,,,"Fig. 17, p.79",panels A–F
+Marsypopetalum pallidum,figure specimen,,,,SAN 115053,,,,,"Fig. 17, p.79",panels G
+Marsypopetalum pallidum,figure specimen,,,,SAN 29397,,,,,"Fig. 17, p.79",panels H–M
+Meiogyne virgata,figure specimen,,,,SAN 26318,,,,,"Fig. 18, p.84",panels A
+Meiogyne virgata,figure specimen,,,,SAN 32917,,,,,"Fig. 18, p.84",panels B–I
+Meiogyne virgata,figure specimen,,,,SAN 91464,,,,,"Fig. 18, p.84",panels J
+Mezzettia parviflora,figure specimen,,,,S 47096,,,,,"Fig. 19, p.88",panels A
+Mezzettia parviflora,figure specimen,,,,S 37860,,,,,"Fig. 19, p.88",panels B–D
+Mezzettia parviflora,figure specimen,,,,SAN 24331,,,,,"Fig. 19, p.88",panels E–L
+Miliusa macropoda,figure specimen,,,,SAN 124230,,,,,"Fig. 20, p.91",all panels
+Mitrephora glabra,figure specimen,,,,S 56067,,,,,"Fig. 21, p.97",panels A
+Mitrephora glabra,figure specimen,,,,S 49355,,,,,"Fig. 21, p.97",panels B
+Mitrephora glabra,figure specimen,,,,S 45135,,,,,"Fig. 21, p.97",panels C–K
+Mitrephora maingayi,figure specimen,,,,SAN 110932,,,,,"Fig. 22, p.101",panels A
+Mitrephora maingayi,figure specimen,,,,SAN 91696,,,,,"Fig. 22, p.101",panels B
+Mitrephora maingayi,figure specimen,,,Wong,WKM 380,,,,,"Fig. 22, p.101",panels C–J
+Monocarpia kalimantanensis,figure specimen,,,,S 46738,,,,,"Fig. 23, p.107",panels A–C
+Monocarpia kalimantanensis,figure specimen,,,,S 14723,,,,,"Fig. 23, p.107",panels D
+Monocarpia kalimantanensis,figure specimen,,,,S 83003,,,,,"Fig. 23, p.107",panels E–I
+Monocarpia kalimantanensis,figure specimen,,,,S 43863,,,,,"Fig. 23, p.107",panels J
+Monocarpia kalimantanensis,figure specimen,,,,S 63783,,,,,"Fig. 23, p.107",panels K–M
+Monoon grandiflorum,figure specimen,,,,S 84350,,,,,"Fig. 24, p.114",panels A–C
+Monoon grandiflorum,figure specimen,,,,ITTO/BA 953,,,,,"Fig. 24, p.114",panels D
+Monoon grandiflorum,figure specimen,,,,S 89321,,,,,"Fig. 24, p.114",panels E–J
+Monoon grandiflorum,figure specimen,,,,S 17626,,,,,"Fig. 24, p.114",panels K–N
+Monoon sympetalum,figure specimen,,,Tay & Mohd. Shad,183,,,,,"Fig. 25, p.119",panels A–B
+Monoon sympetalum,figure specimen,,,,SAN 118920,,,,,"Fig. 25, p.119",panels C–F
+Monoon sympetalum,figure specimen,,,M.J. Sands,5362,,,,,"Fig. 25, p.119",panels G–L
+Monoon xanthopetalum,figure specimen,,,,S 24735,,,,,"Fig. 26, p.120",panels A–C & K–L
+Monoon xanthopetalum,figure specimen,,,,SAN 10465,,,,,"Fig. 26, p.120",panels D–J
+Monoon xanthopetalum,figure specimen,,,,S 64988,,,,,"Fig. 26, p.120",panels M
+Neo-uvaria acuminatissima,figure specimen,,,,S 27056,,,,,"Fig. 27, p.123",panels A–D
+Neo-uvaria acuminatissima,figure specimen,,,,SAN 147289,,,,,"Fig. 27, p.123",panels E
+Orophea kostermansiana,figure specimen,,,,SAN 120774,,,,,"Fig. 28, p.131",panels A–B
+Orophea kostermansiana,figure specimen,,,Coode,MC 6728,,,,,"Fig. 28, p.131",panels C–O
+Orophea myriantha,figure specimen,,,,SAN 22415,,,,,"Fig. 29, p.133",panels A
+Orophea myriantha,figure specimen,,,,SAN 123958,,,,,"Fig. 29, p.133",panels B–I
+Orophea myriantha,figure specimen,,,,SAN 85275,,,,,"Fig. 29, p.133",panels J
+Phaeanthus splendens,figure specimen,,,,S 95529,,,,,"Fig. 30, p.139",panels A–D
+Phaeanthus splendens,figure specimen,,,,S 45699,,,,,"Fig. 30, p.139",panels E
+Polyalthia insignis,figure specimen,,,,SAN 80445,,,,,"Fig. 31, p.153",panels A
+Polyalthia insignis,figure specimen,,,,SAN 81098,,,,,"Fig. 31, p.153",panels B
+Polyalthia insignis,figure specimen,,,,SAN 108948,,,,,"Fig. 31, p.153",panels C–J
+Polyalthia insignis,figure specimen,,,,SAN 143620,,,,,"Fig. 31, p.153",panels K–L
+Polyalthia motleyana,figure specimen,,,,SAN 115492,,,,,"Fig. 32, p.158",panels A–C
+Polyalthia motleyana,figure specimen,,,,SAN 87026,,,,,"Fig. 32, p.158",panels D–P
+Polyalthia trochilia,figure specimen,,,,S 81891,,,,,"Fig. 33, p.164",panels A–C & M–Q
+Polyalthia trochilia,figure specimen,,,,ITTO/BB 0188,,,,,"Fig. 33, p.164",panels D–L
+Popowia pisocarpa,figure specimen,,,,S 36509,,,,,"Fig. 34, p.169",panels A–G
+Popowia pisocarpa,figure specimen,,,,S 47378,,,,,"Fig. 34, p.169",panels H–P
+Pseuduvaria borneensis,figure specimen,,,,S 52588,,,,,"Fig. 35, p.172",panels A–J
+Pseuduvaria borneensis,figure specimen,,,,S 31535,,,,,"Fig. 35, p.172",panels K–M
+Pseuduvaria reticulata,figure specimen,,,G.H.S. Wood,A 2948,,,,,"Fig. 36, p.176",panels A–H
+Pseuduvaria reticulata,figure specimen,,,G.H.S. Wood,A 4029,,,,,"Fig. 36, p.176",panels I–N
+Pseuduvaria reticulata,figure specimen,,,,SAN 31278,,,,,"Fig. 36, p.176",panels O–R
+Sageraea lanceolata,figure specimen,,,,SAN 127552,,,,,"Fig. 37, p.179",panels A–K
+Sageraea lanceolata,figure specimen,,,J.B. Sugau,224,,,,,"Fig. 37, p.179",panels L–P
+Stelechocarpus cauliflorus,figure specimen,,,,S 22870,,,,,"Fig. 38, p.183","panels A, P–S"
+Stelechocarpus cauliflorus,figure specimen,,,,S 38292,,,,,"Fig. 38, p.183",panels B–O
+Trivalvaria macrophylla,figure specimen,,,,S 65401,,,,,"Fig. 39, p.185",panels A–E
+Trivalvaria macrophylla,figure specimen,,,,SAN 149453,,,,,"Fig. 39, p.185",panels F–P
+Xylopia coriifolia,figure specimen,,,,S 26604,,,,,"Fig. 40, p.189",panels A–F
+Xylopia coriifolia,figure specimen,,,,S 5848,,,,,"Fig. 40, p.189",panels G–M
+Xylopia dehiscens,figure specimen,,,Harvey,A 120,,,,,"Fig. 41, p.191",panels A–L
+Xylopia dehiscens,figure specimen,,,G.H.S. Wood,A 3671,,,,,"Fig. 41, p.191",panels M–Q
+Xylopia ferruginea,figure specimen,,,,S 76572,,,,,"Fig. 42, p.194",panels A–B & D–K
+Xylopia ferruginea,figure specimen,,,,S 41687,,,,,"Fig. 42, p.194",panels C
+Xylopia ferruginea,figure specimen,,,,S 63670,,,,,"Fig. 42, p.194",panels L–O
