@@ -12,8 +12,9 @@
 # starts with, else the organ of its piece or sentence. Scorers run per organ;
 # every chunk that scores nothing stays as an unmapped row. Later sections
 # (Distribution, Ecology, Uses, Notes, vernacular names) are kept one sentence
-# per row. Keys (and the climbing genera annotated in the key to genera) and
-# figure captions are not read. Names are as printed.
+# per row. Keys and figure captions are not read. The habit of the climbing
+# genera annotated in the key to genera is scored by hand in
+# raw/manual_rows.csv. Names are as printed.
 #
 # Annonaceae specifics:
 # - The fruit is apocarpous: each monocarp is the fruitlet and is scored as
@@ -727,6 +728,15 @@ out <- bind_rows(
     source_id = NA_character_
   )
 
+# habit of the climbing genera annotated only in the key to genera
+manual <- read_csv(
+  file.path(raw_dir, "manual_rows.csv"),
+  col_types = cols(.default = "c"),
+  na = ""
+) |>
+  mutate(across(c(pdf_page, printed_page), as.integer))
+out <- bind_rows(out, manual)
+
 out <- out |>
   flora_merge_duplicate_keys() |>
   flora_drop_redundant_ranks() |>
@@ -756,13 +766,20 @@ flags <- taxa |>
       TRUE ~ ""
     )
   ) |>
-  bind_rows(tibble(
-    taxon_name = climbers,
-    taxon_rank = "genus",
-    status = "key annotation",
-    n_mapped_rows = 0L,
-    flag = "Climbing genus described only as an annotation in the key to genera (pp. 7--10); keys are not trait evidence, not scored."
-  )) |>
+  bind_rows(
+    tibble(taxon_name = climbers) |>
+      left_join(
+        out |> filter(!is.na(trait), trait != "") |> count(taxon_name, name = "n_mapped_rows"),
+        by = "taxon_name"
+      ) |>
+      transmute(
+        taxon_name,
+        taxon_rank = "genus",
+        status = "key annotation",
+        n_mapped_rows = coalesce(n_mapped_rows, 0L),
+        flag = "Climbing genus described only as an annotation in the key to genera (pp. 7--10); only its habit is scored, at genus rank, from raw/manual_rows.csv; the annotation is kept as one unmapped row."
+      )
+  ) |>
   bind_rows(tibble(
     taxon_name = "Pseuduvaria bruneiensis",
     taxon_rank = "species",

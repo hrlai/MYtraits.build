@@ -159,12 +159,12 @@ Xylopia mucronata,species,accepted,28,
 Xylopia orestera,species,accepted,35,
 Xylopia pulchella,species,accepted,26,
 Xylopia stenopetala,species,accepted,26,
-Uvaria,genus,key annotation,0,"Climbing genus described only as an annotation in the key to genera (pp. 7--10); keys are not trait evidence, not scored."
-Artabotrys,genus,key annotation,0,"Climbing genus described only as an annotation in the key to genera (pp. 7--10); keys are not trait evidence, not scored."
-Desmos,genus,key annotation,0,"Climbing genus described only as an annotation in the key to genera (pp. 7--10); keys are not trait evidence, not scored."
-Sphaerocoryne,genus,key annotation,0,"Climbing genus described only as an annotation in the key to genera (pp. 7--10); keys are not trait evidence, not scored."
-Friesodielsia,genus,key annotation,0,"Climbing genus described only as an annotation in the key to genera (pp. 7--10); keys are not trait evidence, not scored."
-Fissistigma,genus,key annotation,0,"Climbing genus described only as an annotation in the key to genera (pp. 7--10); keys are not trait evidence, not scored."
-Pyramidanthe,genus,key annotation,0,"Climbing genus described only as an annotation in the key to genera (pp. 7--10); keys are not trait evidence, not scored."
-Mitrella,genus,key annotation,0,"Climbing genus described only as an annotation in the key to genera (pp. 7--10); keys are not trait evidence, not scored."
+Uvaria,genus,key annotation,1,"Climbing genus described only as an annotation in the key to genera (pp. 7--10); only its habit is scored, at genus rank, from raw/manual_rows.csv; the annotation is kept as one unmapped row."
+Artabotrys,genus,key annotation,2,"Climbing genus described only as an annotation in the key to genera (pp. 7--10); only its habit is scored, at genus rank, from raw/manual_rows.csv; the annotation is kept as one unmapped row."
+Desmos,genus,key annotation,1,"Climbing genus described only as an annotation in the key to genera (pp. 7--10); only its habit is scored, at genus rank, from raw/manual_rows.csv; the annotation is kept as one unmapped row."
+Sphaerocoryne,genus,key annotation,1,"Climbing genus described only as an annotation in the key to genera (pp. 7--10); only its habit is scored, at genus rank, from raw/manual_rows.csv; the annotation is kept as one unmapped row."
+Friesodielsia,genus,key annotation,1,"Climbing genus described only as an annotation in the key to genera (pp. 7--10); only its habit is scored, at genus rank, from raw/manual_rows.csv; the annotation is kept as one unmapped row."
+Fissistigma,genus,key annotation,1,"Climbing genus described only as an annotation in the key to genera (pp. 7--10); only its habit is scored, at genus rank, from raw/manual_rows.csv; the annotation is kept as one unmapped row."
+Pyramidanthe,genus,key annotation,1,"Climbing genus described only as an annotation in the key to genera (pp. 7--10); only its habit is scored, at genus rank, from raw/manual_rows.csv; the annotation is kept as one unmapped row."
+Mitrella,genus,key annotation,1,"Climbing genus described only as an annotation in the key to genera (pp. 7--10); only its habit is scored, at genus rank, from raw/manual_rows.csv; the annotation is kept as one unmapped row."
 Pseuduvaria bruneiensis,species,key annotation,0,"Annotated in the key to Pseuduvaria (p. 171) with nomenclature only; known only from Brunei, outside the treatment's region; no description, not scored."
