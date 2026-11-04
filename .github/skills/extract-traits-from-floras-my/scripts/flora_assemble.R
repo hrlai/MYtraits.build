@@ -382,8 +382,9 @@ flora_vein_count_note <- function(notes, raw) {
 #   value                trait_value_clean for numeric traits and the y/n
 #                        calendars, else the source term trait_value (mapped to
 #                        levels by `substitutions:` in metadata.yml)
-#   trait_scoring_method from rank_scored_from
-#   source_id            the `source_id` column of trait_data.csv, else `id`
+#   trait_scoring_method from rank_scored_from; a blank or `own` value takes
+#                        the row's taxon_rank (family, genus, else species)
+#   source_id           the `source_id` column of trait_data.csv, else `id`
 # Unmapped rows (blank trait) stay in trait_data.csv only. Writes only
 # data/<id>/data.csv; the build never reads raw/.
 flora_make_data <- function(
@@ -404,6 +405,8 @@ flora_make_data <- function(
   if (!"source_id" %in% names(td)) {
     td$source_id <- NA_character_
   }
+  # A taxon's own description is labelled by its own rank (genus, family)
+  own <- is.na(td$rank_scored_from) | td$rank_scored_from %in% c("", "own")
   data <- td |>
     mutate(
       value = if_else(
@@ -412,8 +415,9 @@ flora_make_data <- function(
         trait_value
       ),
       trait_scoring_method = case_when(
-        is.na(rank_scored_from) |
-          rank_scored_from %in% c("", "own") ~ "inferred_from_species",
+        own & taxon_rank %in% "family" ~ "inferred_from_family",
+        own & taxon_rank %in% "genus" ~ "inferred_from_genus",
+        own ~ "inferred_from_species",
         rank_scored_from == "family" ~ "inferred_from_family",
         rank_scored_from == "genus" ~ "inferred_from_genus",
         rank_scored_from == "species_group" ~ "inferred_from_species_group",
