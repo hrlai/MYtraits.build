@@ -44,7 +44,8 @@ dataset:
     electronic version has embedded fonts and no page images on its text
     pages, so the text layer is what renders; every text page was checked
     against a page render. It is a retyped text, and no scan of the 1995
-    print was available to check it. Keys were not used; figure captions
+    print was available to check it. Keys were not used, except the habit
+    of the key-only genus Nyctocalos; figure captions
     were used for vouchers only. Each value keeps the clause it came from
     (trait_value_raw), the source term (trait_value) and the page. Several
     values are listed in text order, and alternatives qualified by a
@@ -67,8 +68,10 @@ dataset:
     as copied to member taxa. Radermachera pinnata has one infraspecific
     taxon in the region (subsp. acuminata), which carries the description
     (TFSS guide); its values are recorded at subspecies rank. Radermachera
-    sp. A has no description (differential note only) and Nyctocalos is
-    treated only as an annotation in the key to genera; neither is scored
+    sp. A has no description (differential note only) and is not scored.
+    Nyctocalos is treated only as an annotation in the key to genera: only
+    its habit (woody climbers) is scored, at genus rank and not copied down,
+    in raw/manual_rows.csv; the rest of the annotation is one unmapped row
     (raw/taxon_flags.csv). Species description values have population
     region Sabah and Sarawak; copied family and genus values, the family
     Ecology statements about Oroxylum indicum and the Dolichandrone
