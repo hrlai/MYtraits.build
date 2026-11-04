@@ -490,7 +490,12 @@ contained infraspecific headings.
   by their number ("12. Ficus chaii ...") so these stay inside the key
   block, cancel `var.` headings that fall inside a key to species, and list
   the annotated taxa in `taxon_flags.csv`. They are not scored (keys are not
-  trait evidence; Kochummen_2000 question 2). Annotations in a key to
+  trait evidence; Kochummen_2000 question 2). The same holds for whole
+  genera: Annonaceae prints full genus descriptions of its eight climbing
+  genera (about 68 species) only inside the key to genera, and a species
+  outside the region inside a key to species (Turner_2014 question 3).
+  Skip the key with a `key` heading so these annotations are never
+  segmented as genus blocks. Annotations in a key to
   varieties or subspecies under a species description are a separate case,
   treated three ways so far: unmapped (Kochummen_1995, Kochummen_2000),
   scored at variety rank (Jones_1995) and inherited (Ashton_2004);
