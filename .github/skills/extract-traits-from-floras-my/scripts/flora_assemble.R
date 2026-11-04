@@ -378,6 +378,25 @@ flora_vein_count_note <- function(notes, raw) {
   )
 }
 
+# trait_scoring_method of a row: inferred_from_<rank_scored_from>. A taxon's
+# own description (blank or `own`) takes its own taxon_rank: family, genus,
+# else species. Unknown ranks give NA. Shared by flora_make_data() and
+# flora_qa(), so QA keys match the built data.
+flora_scoring_method <- function(rank_scored_from, taxon_rank) {
+  own <- is.na(rank_scored_from) | rank_scored_from %in% c("", "own")
+  own_rank <- if_else(
+    taxon_rank %in% c("family", "genus"),
+    taxon_rank,
+    "species"
+  )
+  rank <- if_else(own, own_rank, rank_scored_from)
+  if_else(
+    rank %in% c("family", "genus", "species_group", "species"),
+    paste0("inferred_from_", rank),
+    NA_character_
+  )
+}
+
 # trait_data.csv -> data.csv for a flora dataset. Adds the three build columns:
 #   value                trait_value_clean for numeric traits and the y/n
 #                        calendars, else the source term trait_value (mapped to
@@ -405,8 +424,6 @@ flora_make_data <- function(
   if (!"source_id" %in% names(td)) {
     td$source_id <- NA_character_
   }
-  # A taxon's own description is labelled by its own rank (genus, family)
-  own <- is.na(td$rank_scored_from) | td$rank_scored_from %in% c("", "own")
   data <- td |>
     mutate(
       value = if_else(
@@ -414,16 +431,7 @@ flora_make_data <- function(
         trait_value_clean,
         trait_value
       ),
-      trait_scoring_method = case_when(
-        own & taxon_rank %in% "family" ~ "inferred_from_family",
-        own & taxon_rank %in% "genus" ~ "inferred_from_genus",
-        own ~ "inferred_from_species",
-        rank_scored_from == "family" ~ "inferred_from_family",
-        rank_scored_from == "genus" ~ "inferred_from_genus",
-        rank_scored_from == "species_group" ~ "inferred_from_species_group",
-        rank_scored_from == "species" ~ "inferred_from_species",
-        .default = NA_character_
-      ),
+      trait_scoring_method = flora_scoring_method(rank_scored_from, taxon_rank),
       source_id = coalesce(source_id, id)
     )
   write_csv(data, out_file, na = "")
