@@ -46,6 +46,7 @@ Worked examples, all in this repository:
 | `data/Kochummen_2000` | Moraceae, TFSS vol. 3 | 2007 electronic text, scripted clause parser after Soepadmo_2000, 99 species and 5 single-infra taxa | figs and syncarps are not fruits (colour only); 77 Ficus taxa annotated only in the key not scored; stranglers as hemiepiphytes; genus Ecology pollinator copied down |
 | `data/DeWilde_2018` | Myristicaceae, FPM vol. 7 | born-digital PDF, scripted clause parser after Prance_2012, 65 species and 24 infraspecific taxa | unisexual flowers described by their buds; fused anthers counted; aril and pericarp; hair lengths inside organ clauses; single-infra taxa carry the description; Sinclair-cited organs get `source_id` |
 | `data/Ashton_2004` | Dipterocarpaceae, TFSS vol. 5 | 2008 electronic text (";" as U+037E), scripted clause parser after Soepadmo_2000, 267 species and 40 subspecies | largest family so far, one run; nut is the fruit, calyx wings unmapped; subspecies in key annotations inherit; descriptions split by figure pages; family Ecology by hand |
+| `data/Turner_2014` | Annonaceae, TFSS vol. 8 | born-digital PDF, scripted clause parser after Ashton_2004, 160 species | monocarp is the fruit; colours on drying not scored; outer and inner petals by `entity_measured`; climbing genera annotated in the key to genera not scored; male and female flower sentences |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
@@ -490,7 +491,12 @@ contained infraspecific headings.
   by their number ("12. Ficus chaii ...") so these stay inside the key
   block, cancel `var.` headings that fall inside a key to species, and list
   the annotated taxa in `taxon_flags.csv`. They are not scored (keys are not
-  trait evidence; Kochummen_2000 question 2). Annotations in a key to
+  trait evidence; Kochummen_2000 question 2). The same holds for whole
+  genera: Annonaceae prints full genus descriptions of its eight climbing
+  genera (about 68 species) only inside the key to genera, and a species
+  outside the region inside a key to species (Turner_2014 question 3).
+  Skip the key with a `key` heading so these annotations are never
+  segmented as genus blocks. Annotations in a key to
   varieties or subspecies under a species description are a separate case,
   treated three ways so far: unmapped (Kochummen_1995, Kochummen_2000),
   scored at variety rank (Jones_1995) and inherited (Ashton_2004);
@@ -575,6 +581,11 @@ Bespoke checklist (decisions that changed per family):
   `fruit_colour` with `entity_measured = syncarp` or `syconium`; syncarp and
   syconium sizes stay unmapped; a phalange of fused drupes -> `fruit_length`
   / `fruit_width` with `entity_measured = phalange`.
+  An apocarpous fruit of free, often stalked monocarps (Annonaceae) is
+  scored on the monocarp: size, ripe colour, indumentum, wall thickness and
+  seeds per monocarp (`seeds_per_fruit`) with `entity_measured = monocarp`;
+  the number of monocarps and the monocarp stipe stay unmapped
+  (provisional, Turner_2014 question 1).
 - **Unisexual flowers.** Male and female flowers as `entity_measured`;
   staminode lengths are not fertile-stamen lengths (Coode_2018 question 1).
 - **Dimension pairs `L x W`.** First dimension is length (state the assumption
@@ -685,6 +696,12 @@ Bespoke checklist (decisions that changed per family):
   `fruit_wall_thickness`. A perianth colour after an "inside" clause
   ("inside glabrous, greenish creamy") stays unmapped: its surface is
   unclear.
+  Provisional (Turner_2014 questions 4, 6 and 7): petal whorls described
+  apart ("outer petals ...; inner petals ...") -> `flower_petal_length` and
+  `flower_colour` with `entity_measured = outer petals` or `inner petals`;
+  fruiting pedicels stay unmapped (flower pedicels -> `pedicel_length`);
+  seed "c. 4 mm thick" -> `seed_height` (the shortest dimension), seed
+  diameter -> `seed_width`.
   Provisional (Prance_1995 question 2): leaves "with stomatal crypts"
   -> `leaf_stomatal_position = encrypted`; "without stomatal crypts" has no
   level and stays unmapped.
@@ -713,6 +730,11 @@ Bespoke checklist (decisions that changed per family):
   only the ground colour. Stripes, spots, blotches, veins, "-tinged",
   "suffused", "flushed" and part-of-organ colours ("basally reddish", "red
   at the tip") stay in `trait_value_raw` and an unmapped row.
+  Colours of dried specimens ("drying black", "grey-brown when dry") are
+  herbarium colours, not the living colour: never score them for any
+  organ. The fruit colour is the ripe colour: "green ripening red" ->
+  red (provisional, Turner_2014 question 2; DeWilde_2018 and
+  Kochummen_1995 already drop the dried part).
 - **Australian precedent.** For a family that also grows in Australia, check
   how the AusTraits flora datasets score it (`ABRS_2023`, `NHNSW_2023`,
   `NTH_2023`, `RBGV_2023` in traitecoevo/austraits.build) before asking a
