@@ -575,6 +575,11 @@ Bespoke checklist (decisions that changed per family):
   `fruit_colour` with `entity_measured = syncarp` or `syconium`; syncarp and
   syconium sizes stay unmapped; a phalange of fused drupes -> `fruit_length`
   / `fruit_width` with `entity_measured = phalange`.
+  An apocarpous fruit of free, often stalked monocarps (Annonaceae) is
+  scored on the monocarp: size, ripe colour, indumentum, wall thickness and
+  seeds per monocarp (`seeds_per_fruit`) with `entity_measured = monocarp`;
+  the number of monocarps and the monocarp stipe stay unmapped
+  (provisional, Turner_2014 question 1).
 - **Unisexual flowers.** Male and female flowers as `entity_measured`;
   staminode lengths are not fertile-stamen lengths (Coode_2018 question 1).
 - **Dimension pairs `L x W`.** First dimension is length (state the assumption
