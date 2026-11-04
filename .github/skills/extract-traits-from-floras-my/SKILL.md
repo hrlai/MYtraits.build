@@ -127,6 +127,7 @@ Coode_2018 one.
 | `scripts/flora_assemble.R` | copy-down, species to infraspecific inheritance, duplicate merge, final column order, `data.csv`, unmapped summary |
 | `scripts/flora_hand.R` | row helpers for tiny families and single papers (`row`, `un`, `tri`, `rng`, `ext`) |
 | `scripts/flora_qa.R` | `flora_qa(id)` tables; `flora_dataset_test(id)` |
+| `scripts/flora_rerun.R` | `flora_unmapped_find(pattern)` across datasets; `flora_rebuild(ids)` reruns builds |
 | `assets/flora_dictionary.csv` | shared term regex to level rows, loaded by every dictionary-based family parser; `source` names the datasets that added each row; grow it, do not fork it |
 
 **Running R.** `Rscript` is not on the shell `PATH`. From the repository root,
@@ -1124,6 +1125,32 @@ from the other source, then check:
 5. Report: taxa, rows by mapped and unmapped, rows by `rank_scored_from`,
    exclusions, numbered questions.
 
+## Rerunning processed datasets for a new trait
+
+`scripts/flora_rerun.R` has `flora_unmapped_find(pattern)`, which searches
+the unmapped rows of every flora dataset, and `flora_rebuild(ids)`, which
+reruns `build_trait_data.R` and `flora_make_data()` for each dataset and
+reports failures. Find the cheapest case that holds for the new trait:
+
+1. **Only the level changes.** The term is already scored: edit
+   `substitutions:` in each `metadata.yml`. No rebuild.
+2. **The clauses are parsed but unmapped.** `flora_unmapped_find()` returns
+   them. Add dictionary rows (own commit), then `flora_rebuild()`. Parsers
+   resegment from the source, so fetch missing PDFs first (`flora_fetch()`).
+3. **The text is kept but needs reading** (Ecology, annotations, remarks):
+   take taxon, page and text from `flora_unmapped_find()` and add
+   `raw/manual_rows.csv` rows. No PDF needed.
+4. **The text was never kept** (keys, captions, nomenclature are skipped).
+   Read the PDF, and keep that text as unmapped rows this time, so the next
+   rerun is case 2 or 3. Habit of undescribed taxa was this case
+   (2026-11-04).
+
+Keep this true for every family: each statement that could carry a trait
+reaches `raw/trait_data.csv`, mapped or unmapped. `trait_data.csv` is then
+the searchable index of the floras, and new traits rarely need the PDFs.
+For a trait that touches many datasets, use one branch, one commit per
+dataset, and check `git diff --stat data/` after `flora_rebuild()`.
+
 ## Known inconsistencies (do not repeat)
 
 | Observed | Do instead |
@@ -1193,7 +1220,7 @@ all FPM and TFSS treatments. An agent processing a family may edit `SKILL.md`,
   and the change. Dictionary additions get their own commit.
 - After changing a script, run `scripts/test-flora-*.R`, then rerun
   `raw/build_trait_data.R` and `flora_make_data(id)` for every other
-  `data/<id>/` built with these scripts. `git diff --stat data/` must show no
+  `data/<id>/` built with these scripts (`flora_rebuild()`, next section). `git diff --stat data/` must show no
   changes outside the current family; explain any intended change in the
   commit, otherwise revert. Report datasets that could not be rebuilt (for
   example a missing local PDF).
