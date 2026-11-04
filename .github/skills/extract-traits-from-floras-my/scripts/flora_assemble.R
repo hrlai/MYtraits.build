@@ -103,9 +103,9 @@ flora_trait_data_cols <- c(
 #   - copy only if every member that scores the trait itself includes the level;
 #   - entity_measured (e.g. male / female flowers) is part of the trait: test
 #     and copy each entity separately, so male and female values never mix;
-#   - when several ranks give a value, the most specific rank wins
-#     (group > genus > family), so family and genus alternatives are not both
-#     copied.
+#   - when several ranks state the trait, only the most specific rank
+#     (group > genus > family) is copied, even when its row failed a rule
+#     above; then nothing is copied (Castanopsis, Soepadmo_2000).
 # Returns the copied rows plus attr(, "rejected"): higher-rank rows that failed
 # the agreement test (reason "agreement") or name an alternative term
 # (reason "alternative"), to be read in the QA step.
@@ -121,11 +121,12 @@ flora_copy_down <- function(higher_rows, own_rows, members) {
       !is.na(trait_value_clean),
       trait_value_clean != "",
       !str_detect(trait_value_clean, " ") | coalesce(single_term, FALSE),
-      # "many" as a count ("1(-many)-seeded nuts", Ashton_2004) does not
-      # scope the statement
+      # "many" as a count ("1(-many)-seeded nuts", Ashton_2004) and "at most"
+      # as a limit ("appendage at most 1½x the length", Vatica) do not scope
+      # the statement
       !str_detect(
         trait_value_raw,
-        "\\b(in some|most|(?<![(\\x{2013}-])many|some species)\\b"
+        "\\b(in some|(?<!at )most|(?<![(\\x{2013}-])many|some species)\\b"
       ),
       !str_detect(trait_value_raw, "\\([A-Z][a-z]+\\)")
     )
@@ -196,6 +197,19 @@ flora_copy_down <- function(higher_rows, own_rows, members) {
       printed_page
     ) |>
     distinct(from, from_rank, trait, entity_measured, value, .keep_all = TRUE)
+  # Most specific rank that states the trait for each member, counting rows
+  # rejected above: a genus "spiral or distichous" stops the family "spiral"
+  # (Castanopsis, Soepadmo_2000).
+  stated <- higher_rows |>
+    filter(rank %in% c("family", "genus", "infrageneric_group")) |>
+    distinct(from = block, rank, trait, entity_measured) |>
+    mutate(block = map2(from, rank, \(b, r) .flora_members_of(members, b, r))) |>
+    unnest(block) |>
+    mutate(lvl = match(rank, c("infrageneric_group", "genus", "family"))) |>
+    summarise(
+      lvl = min(lvl),
+      .by = c(block, trait, entity_measured)
+    )
   copied <- tests |>
     filter(ok) |>
     unnest(copied_to) |>
@@ -207,9 +221,10 @@ flora_copy_down <- function(higher_rows, own_rows, members) {
     mutate(
       lvl = match(from_rank, c("infrageneric_group", "genus", "family"))
     ) |>
-    group_by(block, trait, entity_measured) |>
-    filter(lvl == min(lvl)) |>
-    ungroup() |>
+    inner_join(
+      stated,
+      by = c("block", "trait", "entity_measured", "lvl")
+    ) |>
     transmute(
       block,
       trait,

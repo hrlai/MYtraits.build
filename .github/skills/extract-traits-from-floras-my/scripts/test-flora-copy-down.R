@@ -41,7 +41,9 @@ stopifnot(nrow(o4) == 0)
 stopifnot(
   nrow(flora_copy_down(mutate(h2, trait_value_raw = "axillary in many species"), own2, mem)) == 0,
   nrow(flora_copy_down(mutate(h2, trait_value_raw = "axillary, 1(–many)-flowered"), own2, mem)) == 1,
-  nrow(flora_copy_down(mutate(h2, trait_value_raw = "axillary, 1-many-flowered"), own2, mem)) == 1
+  nrow(flora_copy_down(mutate(h2, trait_value_raw = "axillary, 1-many-flowered"), own2, mem)) == 1,
+  nrow(flora_copy_down(mutate(h2, trait_value_raw = "axillary in most species"), own2, mem)) == 0,
+  nrow(flora_copy_down(mutate(h2, trait_value_raw = "axillary, at most 2 cm"), own2, mem)) == 1
 )
 # one printed term mapped to two levels: copied only with single_term
 # (Jaman_2020 "Scaly tree ferns"), and only when members agree on all levels
@@ -56,6 +58,20 @@ stopifnot(
   nrow(flora_copy_down(mutate(h5, single_term = TRUE),
     mutate(own5, trait_value_clean = "fern"), mem)) == 0
 )
+# a more specific rank that states the trait blocks a less specific one, even
+# when its own row is rejected (Castanopsis, Soepadmo_2000)
+h6 <- tibble(block = c("F", "G"), rank = c("family", "genus"),
+  value_type = "mode", cq = NA_character_, trait = "leaf_arrangement",
+  trait_value = c("spiral", "spiral distichous"),
+  trait_value_clean = trait_value,
+  trait_value_raw = c("spirally arranged", "spirally arranged or distichous"),
+  entity_measured = NA_character_, pdf_page = 1, printed_page = 1)
+own6 <- tibble(block = "s1", trait = "leaf_arrangement",
+  trait_value_clean = "spiral distichous", entity_measured = NA_character_)
+mem6 <- tibble(block = c("s1", "s2", "x1"), genus = c("G", "G", "H"),
+  group = NA)
+o6 <- flora_copy_down(h6, own6, mem6)
+stopifnot(nrow(o6) == 1, o6$block == "x1", o6$rank_scored_from == "family")
 # flora_merge_duplicate_keys(): shared keys merge words; a single row keeps a
 # repeated word (Jutta_2012).
 m <- tibble(taxon_name = c("A", "A", "B"), trait = "t", value_type = "mode",
