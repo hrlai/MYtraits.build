@@ -52,20 +52,20 @@ Severinia paniculata,species,accepted,30,
 Tetractomia tetrandrum,species,accepted,37,
 Zanthoxylum avicennae,species,accepted,33,
 Zanthoxylum myriacanthum,species,accepted,37,
-Toddalia,genus,annotation only,0,Scandent genus annotated only in the key to native genera; not scored.
-Luvunga,genus,annotation only,0,Scandent genus annotated only in the key to native genera; not scored.
-Paramignya,genus,annotation only,0,Scandent genus annotated only in the key to native genera; not scored.
-Citrus medica,species,annotation only,0,Cultivated; annotated only in the key; not scored.
-Citrus limon,species,annotation only,0,Cultivated; annotated only in the key; not scored.
-Citrus reticulata,species,annotation only,0,Cultivated; annotated only in the key; not scored.
-Citrus microcarpa,species,annotation only,0,Cultivated; annotated only in the key; not scored.
-Citrus grandis,species,annotation only,0,Cultivated; annotated only in the key; possibly indigenous at Ulu Segama (Stone 1985) but excluded by the author; not scored.
-Citrus sinensis,species,annotation only,0,Cultivated; annotated only in the key; not scored.
-Citrus aurantifolia,species,annotation only,0,Cultivated; annotated only in the key; not scored.
-Citrus hystrix,species,annotation only,0,Cultivated; annotated only in the key; not scored.
-Clausena lansium,species,annotation only,0,Cultivated; annotated only in the key (authority printed 'Lous'); not scored.
-Glycosmis parviflora,species,annotation only,0,Cultivated; annotated only in the key; not scored.
-Murraya koenigii,species,annotation only,0,Cultivated; annotated only in the key; not scored.
-Murraya exotica,species,annotation only,0,Cultivated; annotated only in the key; not scored.
-Zanthoxylum scandens,species,annotation only,0,Scandent shrub annotated only in the key; not scored.
-Zanthoxylum nitidum,species,annotation only,0,Scandent shrub annotated only in the key; not scored.
+Toddalia,genus,annotation only,1,"Scandent genus annotated only in the key to native genera; habit scored at genus rank (raw/manual_rows.csv), rest of the annotation unmapped."
+Luvunga,genus,annotation only,1,"Scandent genus annotated only in the key to native genera; habit scored at genus rank (raw/manual_rows.csv), rest of the annotation unmapped."
+Paramignya,genus,annotation only,2,"Scandent genus annotated only in the key to native genera; habit scored at genus rank (raw/manual_rows.csv), rest of the annotation unmapped."
+Citrus medica,species,annotation only,0,"Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score."
+Citrus limon,species,annotation only,0,"Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score."
+Citrus reticulata,species,annotation only,0,"Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score."
+Citrus microcarpa,species,annotation only,0,"Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score."
+Citrus grandis,species,annotation only,0,"Cultivated; annotated only in the key with origin and uses; possibly indigenous at Ulu Segama (Stone 1985) but excluded by the author; no habit stated, nothing to score."
+Citrus sinensis,species,annotation only,0,"Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score."
+Citrus aurantifolia,species,annotation only,0,"Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score."
+Citrus hystrix,species,annotation only,0,"Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score."
+Clausena lansium,species,annotation only,0,"Cultivated; annotated only in the key with origin and uses (authority printed 'Lous'); no habit stated, nothing to score."
+Glycosmis parviflora,species,annotation only,0,"Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score."
+Murraya koenigii,species,annotation only,0,"Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score."
+Murraya exotica,species,annotation only,0,"Cultivated; annotated only in the key with origin and uses; no habit stated, nothing to score."
+Zanthoxylum scandens,species,annotation only,1,"Scandent shrub annotated only in the key; habit scored (raw/manual_rows.csv), rest of the annotation unmapped."
+Zanthoxylum nitidum,species,annotation only,1,"Scandent shrub annotated only in the key; habit scored (raw/manual_rows.csv), rest of the annotation unmapped."

@@ -4,7 +4,7 @@ Deplanchea,genus,accepted,24,
 Deplanchea bancana,species,accepted,53,
 Dolichandrone,genus,accepted,17,
 Dolichandrone spathacea,species,accepted,52,
-Nyctocalos,genus,key annotation,0,"Woody climbers; annotation inside the key to genera (4 unnamed species in Sabah and Sarawak), no detailed treatment; not scored."
+Nyctocalos,genus,key annotation,2,"Woody climbers; annotation inside the key to genera (4 unnamed species in Sabah and Sarawak), no detailed treatment; habit scored at genus rank (raw/manual_rows.csv), rest of the annotation unmapped."
 Oroxylum,genus,accepted,18,Monotypic genus.
 Oroxylum indicum,species,accepted,58,
 Radermachera,genus,accepted,18,

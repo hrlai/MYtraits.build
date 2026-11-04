@@ -82,8 +82,10 @@ dataset:
     incompletely known sections. The eight climbing genera (Uvaria,
     Artabotrys, Desmos, Sphaerocoryne, Friesodielsia, Fissistigma,
     Pyramidanthe, Mitrella; about 68 species, family Distribution) are
-    described only by genus annotations in the key to genera (pp. 7--10) and
-    are not scored (question 3). Pseuduvaria bruneiensis is annotated in the
+    described only by genus annotations in the key to genera (pp. 7--10).
+    Only their habit is scored, at genus rank and not copied down
+    (raw/manual_rows.csv; standing rule, user 2026-11-04); each annotation
+    is kept as one unmapped row. Pseuduvaria bruneiensis is annotated in the
     key to Pseuduvaria (p. 171), known only from Brunei, and is not scored.
     All are listed in raw/taxon_flags.csv. Family and genus descriptions are
     kept as family- and genus-rank records as well as copied to member taxa.
@@ -466,7 +468,16 @@ traits:
     basis_of_value: expert_score
     replicates: .na
     methods: |
-      Growth form noun from the habit sentence; treelet scored as tree.
+      Growth form noun from the habit sentence; treelet scored as tree. The eight climbing genera annotated only in the key to genera are scored at genus rank from their annotation ('Woody climbers' -> climber_woody; 'scandent shrubs' -> shrub beside climber_woody), not copied down.
+  - var_in: plant_climbing_mechanism
+    unit_in: .na
+    trait_name: plant_climbing_mechanism
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Artabotrys genus annotation in the key to genera: inflorescence peduncles forming reflexed hooks 'that assist with climbing' -> hooks.
   - var_in: plant_height
     unit_in: unit
     trait_name: plant_height
@@ -1016,11 +1027,15 @@ questions:
     Artabotrys, Desmos, Sphaerocoryne, Friesodielsia, Fissistigma,
     Pyramidanthe, Mitrella; about 68 species in Sabah and Sarawak) have a
     full genus description printed only as an annotation in the key to
-    genera (pp. 7--10), with no species treatment. Keys are not trait
-    evidence, so nothing is scored for them. Decide whether these genus
-    descriptions should be scored at genus rank (e.g. "Woody climbers" ->
-    plant_growth_form climber_woody). Pseuduvaria bruneiensis (key
-    annotation, p. 171) has nomenclature only and is known only from
+    genera (pp. 7--10), with no species treatment. Under the standing rule
+    (user, 2026-11-04) their habit is now scored at genus rank
+    (plant_growth_form climber_woody; Desmos and Sphaerocoryne "or scandent
+    shrubs" -> climber_woody shrub); other clauses stay unmapped. Artabotrys
+    "thick woody peduncles that form reflexed ... hooks that assist with
+    climbing" (p. 8) is scored plant_climbing_mechanism hooks, although the
+    traits.yml level describes hooks as stem outgrowths and these are
+    inflorescence axes. Confirm the hooks mapping. Pseuduvaria bruneiensis
+    (key annotation, p. 171) has nomenclature only and is known only from
     Brunei; it is listed but not scored.
   question4: |
     Outer and inner petals. Annonaceae have two petal whorls described

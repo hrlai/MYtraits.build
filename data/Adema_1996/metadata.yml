@@ -65,8 +65,10 @@ dataset:
   notes: |
     Taxon names are kept as printed, including Trigonachras sp. A and sp. B.
     Descriptions in this flora refer to Sabah and Sarawak (or Borneo).
-    Cardiospermum and Dodonaea are annotated only in the generic key and are
-    not scored. Four species are represented by their single local
+    Cardiospermum and Dodonaea are annotated only in the generic key. Only
+    their habit is scored, from raw/manual_rows.csv (Cardiospermum climbers
+    with tendrils at genus rank, Dodonaea viscosa a shrub); the rest of each
+    annotation is kept as an unmapped row. Four species are represented by their single local
     infraspecific taxon, which carries the description (Dictyoneura acuminata,
     Dimocarpus fumatus, Lepisanthes falcata, Litchi chinensis); the two
     Lepisanthes divaricata formae have no description. The transcription was
@@ -496,7 +498,15 @@ traits:
     value_type: value_type
     basis_of_value: expert_score
     replicates: .na
-    methods: 'Habit words opening the description.'
+    methods: 'Habit words opening the description; for the key-only Cardiospermum and Dodonaea viscosa, the habit in their key annotation.'
+  - var_in: plant_climbing_mechanism
+    unit_in: .na
+    trait_name: plant_climbing_mechanism
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Cardiospermum key annotation: inflorescences with basal tendrils that support the climbing stems.'
   - var_in: plant_height
     unit_in: unit
     trait_name: plant_height

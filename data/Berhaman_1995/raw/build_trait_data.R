@@ -13,6 +13,7 @@
 # and are already applied to the verbatim clauses below. Higher-rank values are
 # copied down by hand under the flora_copy_down() rules (unqualified, single
 # level, every member that scores the trait agrees, most specific rank wins).
+# Manual rows (key-only taxa) are read from raw/manual_rows.csv.
 # Writes trait_data.csv, unmapped_terms.csv and taxon_flags.csv.
 
 source(".github/skills/extract-traits-from-floras-my/scripts/flora_hand.R")
@@ -1713,7 +1714,15 @@ stopifnot(
   nrow(semi_join(copied, own, by = c("taxon_name", "trait"))) == 0
 )
 
-d <- bind_rows(higher, own, copied, radermachera_sp_a) |>
+# Habit of the key-only genus Nyctocalos and its whole annotation (unmapped),
+# per the rule on taxa without their own description.
+manual <- read_csv(
+  "data/Berhaman_1995/raw/manual_rows.csv",
+  col_types = cols(.default = "c", pdf_page = "i", printed_page = "i"),
+  na = character() # blanks stay "", as in the hand rows
+)
+
+d <- bind_rows(higher, own, copied, radermachera_sp_a, manual) |>
   flora_merge_duplicate_keys() |>
   flora_finalise(traits)
 
@@ -1729,7 +1738,7 @@ tribble(
   "Deplanchea bancana", "species", "accepted", "",
   "Dolichandrone", "genus", "accepted", "",
   "Dolichandrone spathacea", "species", "accepted", "",
-  "Nyctocalos", "genus", "key annotation", "Woody climbers; annotation inside the key to genera (4 unnamed species in Sabah and Sarawak), no detailed treatment; not scored.",
+  "Nyctocalos", "genus", "key annotation", "Woody climbers; annotation inside the key to genera (4 unnamed species in Sabah and Sarawak), no detailed treatment; habit scored at genus rank (raw/manual_rows.csv), rest of the annotation unmapped.",
   "Oroxylum", "genus", "accepted", "Monotypic genus.",
   "Oroxylum indicum", "species", "accepted", "",
   "Radermachera", "genus", "accepted", "",

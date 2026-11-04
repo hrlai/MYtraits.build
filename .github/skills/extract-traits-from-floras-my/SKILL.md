@@ -127,6 +127,7 @@ Coode_2018 one.
 | `scripts/flora_assemble.R` | copy-down, species to infraspecific inheritance, duplicate merge, final column order, `data.csv`, unmapped summary |
 | `scripts/flora_hand.R` | row helpers for tiny families and single papers (`row`, `un`, `tri`, `rng`, `ext`) |
 | `scripts/flora_qa.R` | `flora_qa(id)` tables; `flora_dataset_test(id)` |
+| `scripts/flora_rerun.R` | `flora_unmapped_find(pattern)` across datasets; `flora_rebuild(ids)` reruns builds |
 | `assets/flora_dictionary.csv` | shared term regex to level rows, loaded by every dictionary-based family parser; `source` names the datasets that added each row; grow it, do not fork it |
 
 **Running R.** `Rscript` is not on the shell `PATH`. From the repository root,
@@ -191,6 +192,24 @@ respect to `data/`, apart from `flora_make_data()`, which writes
   flowers "not seen in Peninsular Malaysia") are scored with a blank
   `population_region` and a note. Sizes of harvested or pruned plants are
   scored with a note saying so (Beentje_2023 question 8).
+- **Habit is scored for every taxon the treatment names, described or not**
+  (user, 2026-11-04: growth form is in `traits.yml` and must not be lost).
+  A taxon with no description of its own still gets the habit the
+  treatment states for it: a species or whole genus annotated only in a key
+  ("Woody climbers", "Dioecious root-climber"), a taxon named in a family or
+  genus remark ("one species, a pantropical shrub (D. viscosa)") or a
+  cultivated taxon named in a key. Score `plant_growth_form`, and
+  `plant_growth_substrate` and `plant_climbing_mechanism` when stated, with
+  the step 4 habit rules (qualified alternatives, stranglers as
+  hemiepiphytes, root-climbers as `adventitious_roots`). Put the rows in
+  `raw/manual_rows.csv` at the taxon's printed rank, with
+  `rank_scored_from` as on the dataset's own rows of that rank (blank for
+  species), `source_section` naming the key or remark, its page, and a
+  note. A genus annotation is not copied down to species the flora
+  does not treat. Keep the whole annotation as one unmapped row on the
+  same taxon. Excluded, misapplied and out-of-region taxa are not scored.
+  In `taxon_flags.csv`, keep the `key annotation` status and count the new
+  rows.
 - **Regional counterparts.** Do not score a value borrowed from another FPM or
   TFSS treatment, even when quoted in the current treatment. That flora will be
   ingested as its own source; retaining the borrowed value would duplicate it.
@@ -227,8 +246,9 @@ invent an unprinted character.
   silent species has every higher-rank character.
 - Ignore keys as trait evidence. Their couplets are identification devices,
   not descriptions. Use them to detect taxon order and boundaries only. Do not
-  parse a key lead, an annotation for a taxon omitted from detailed treatment,
-  or its dotted indicator line into `trait_data.csv`.
+  parse a key lead or its dotted indicator line into `trait_data.csv`. The
+  one exception is the habit of a taxon omitted from detailed treatment
+  (standing rule "Habit is scored for every taxon").
 - Identify labelled blocks before parsing: `Distribution.`, `Ecology.`,
   `Uses.`, and `Taxonomy.` begin on the heading line. Species treatments also
   contain nomenclatural matter (`Basionym:`, `Type:`, `Synonym:` or
@@ -490,13 +510,17 @@ contained infraspecific headings.
   and Maclura in the key to genera (Kochummen_2000). Match species headings
   by their number ("12. Ficus chaii ...") so these stay inside the key
   block, cancel `var.` headings that fall inside a key to species, and list
-  the annotated taxa in `taxon_flags.csv`. They are not scored (keys are not
-  trait evidence; Kochummen_2000 question 2). The same holds for whole
+  the annotated taxa in `taxon_flags.csv`. Only their habit is scored, by
+  hand in `raw/manual_rows.csv` (standing rule "Habit is scored for every
+  taxon"; answers Kochummen_2000 question 2). The same holds for whole
   genera: Annonaceae prints full genus descriptions of its eight climbing
-  genera (about 68 species) only inside the key to genera, and a species
-  outside the region inside a key to species (Turner_2014 question 3).
-  Skip the key with a `key` heading so these annotations are never
-  segmented as genus blocks. Annotations in a key to
+  genera (about 68 species) only inside the key to genera (habit scored at
+  genus rank), and a species outside the region inside a key to species
+  (not scored; Turner_2014 question 3). Skip the key with a `key` heading
+  so these annotations are never segmented as genus blocks. A key-only
+  genus or species can also be missed entirely (Adema_1996 Cardiospermum
+  and Dodonaea had no flag): list every name after a dot leader in the
+  keys and check each is in `taxon_flags.csv`. Annotations in a key to
   varieties or subspecies under a species description are a separate case,
   treated three ways so far: unmapped (Kochummen_1995, Kochummen_2000),
   scored at variety rank (Jones_1995) and inherited (Ashton_2004);
@@ -1102,6 +1126,32 @@ from the other source, then check:
 5. Report: taxa, rows by mapped and unmapped, rows by `rank_scored_from`,
    exclusions, numbered questions.
 
+## Rerunning processed datasets for a new trait
+
+`scripts/flora_rerun.R` has `flora_unmapped_find(pattern)`, which searches
+the unmapped rows of every flora dataset, and `flora_rebuild(ids)`, which
+reruns `build_trait_data.R` and `flora_make_data()` for each dataset and
+reports failures. Find the cheapest case that holds for the new trait:
+
+1. **Only the level changes.** The term is already scored: edit
+   `substitutions:` in each `metadata.yml`. No rebuild.
+2. **The clauses are parsed but unmapped.** `flora_unmapped_find()` returns
+   them. Add dictionary rows (own commit), then `flora_rebuild()`. Parsers
+   resegment from the source, so fetch missing PDFs first (`flora_fetch()`).
+3. **The text is kept but needs reading** (Ecology, annotations, remarks):
+   take taxon, page and text from `flora_unmapped_find()` and add
+   `raw/manual_rows.csv` rows. No PDF needed.
+4. **The text was never kept** (keys, captions, nomenclature are skipped).
+   Read the PDF, and keep that text as unmapped rows this time, so the next
+   rerun is case 2 or 3. Habit of undescribed taxa was this case
+   (2026-11-04).
+
+Keep this true for every family: each statement that could carry a trait
+reaches `raw/trait_data.csv`, mapped or unmapped. `trait_data.csv` is then
+the searchable index of the floras, and new traits rarely need the PDFs.
+For a trait that touches many datasets, use one branch, one commit per
+dataset, and check `git diff --stat data/` after `flora_rebuild()`.
+
 ## Known inconsistencies (do not repeat)
 
 | Observed | Do instead |
@@ -1171,7 +1221,7 @@ all FPM and TFSS treatments. An agent processing a family may edit `SKILL.md`,
   and the change. Dictionary additions get their own commit.
 - After changing a script, run `scripts/test-flora-*.R`, then rerun
   `raw/build_trait_data.R` and `flora_make_data(id)` for every other
-  `data/<id>/` built with these scripts. `git diff --stat data/` must show no
+  `data/<id>/` built with these scripts (`flora_rebuild()`, next section). `git diff --stat data/` must show no
   changes outside the current family; explain any intended change in the
   commit, otherwise revert. Report datasets that could not be rebuilt (for
   example a missing local PDF).

@@ -62,7 +62,9 @@ dataset:
     listing alternatives are not copied. Family and Ficus genus Ecology
     statements on pollination and dispersal are in raw/manual_rows.csv; the
     Ficus fig-wasp statement is copied to the described Ficus species. Keys
-    and figure captions are not trait evidence.
+    and figure captions are not trait evidence, except the habit of taxa
+    annotated only in keys, which is scored by hand in raw/manual_rows.csv
+    (standing rule, user 2026-11-04).
   original_file: |
     Moraceae.pdf (Kochummen & Go 2000, Tree Flora of Sabah and Sarawak vol.
     3, pp. 181--334; electronic edition 2007)
@@ -75,10 +77,16 @@ dataset:
     infraspecific taxon in the region carries the description (TFSS guide):
     Artocarpus melinoxylus subsp. brevipedunculatus, Ficus racemosa var.
     elongata, F. scortechinii var. lanceata, F. tinctoria subsp. gibbosa and
-    F. virens var. glabella, scored at their own rank. Not scored, and listed
-    in raw/taxon_flags.csv: 77 Ficus species and varieties and the climber
-    genera Trophis and Maclura, which are annotated only inside keys
-    (question 2); the cultivated Artocarpus altilis and A. heterophyllus,
+    F. virens var. glabella, scored at their own rank. 77 Ficus species and
+    varieties and the climber genera Trophis and Maclura are annotated only
+    inside keys (pp. 182--183, 216--256): only their habit is scored
+    (plant_growth_form, plant_growth_substrate, plant_climbing_mechanism; for
+    Trophis and Maclura on their one species in the region), by hand in
+    raw/manual_rows.csv, and each annotation is kept as one unmapped row;
+    5 Ficus 'creepers' have no habit scored (question 2). The habit of 8
+    varieties in keys to varieties ('Shrub up to 2 m tall', 'Small tree') is
+    scored the same way. Not scored, and listed in raw/taxon_flags.csv: the
+    cultivated Artocarpus altilis and A. heterophyllus,
     annotated in the key with name and origin only; Artocarpus sp. 'A'
     (incompletely known); and 44 varieties and subspecies printed in keys to
     varieties after a species description, kept as unmapped annotation rows
@@ -91,11 +99,12 @@ dataset:
     their ripe colour is fruit_colour with entity_measured syconium or
     syncarp, their sizes are unmapped (question 1); Ficus achenes are the
     measured fruits. Source repairs are in raw/source_fixes.csv (question 7).
-    Of 7,676 rows in raw/trait_data.csv, 2,760 are mapped (2,501 from the
-    taxa's own descriptions, Ecology months and the manual Ecology rows, and
-    259 copied from genus) and 4,916 are unmapped: 3,871 description clauses
-    and 1,045 sentences of Distribution, Ecology, Uses, vernacular names,
-    notes and infraspecific annotations. The most frequent unmapped
+    Of 7,844 rows in raw/trait_data.csv, 2,849 are mapped (2,590 from the
+    taxa's own descriptions, Ecology months, the manual Ecology rows and the
+    key-annotation habit rows, and 259 copied from genus) and 4,995 are
+    unmapped: 3,871 description clauses, 79 key annotations and 1,045
+    sentences of Distribution, Ecology, Uses, vernacular names, notes and
+    infraspecific annotations. The most frequent unmapped
     characters are lateral vein number and relief, midrib relief,
     intercostal venation, stipules, twig thickness and colour, tepal shape
     and indumentum, leaf texture, fig size, shape, bracts, bristles, apex and
@@ -480,6 +489,15 @@ traits:
     replicates: .na
     methods: |
       'petiole X cm long'.
+  - var_in: plant_climbing_mechanism
+    unit_in: .na
+    trait_name: plant_climbing_mechanism
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: |
+      Key annotations only: 'root-climber' as adventitious_roots; 'twining climbers' (Trophis) as twining.
   - var_in: plant_diameter_breast_height
     unit_in: unit
     trait_name: plant_diameter_breast_height
@@ -497,7 +515,7 @@ traits:
     basis_of_value: expert_score
     replicates: .na
     methods: |
-      Habit noun ('tree', 'shrub', 'treelet', 'climber').
+      Habit noun ('tree', 'shrub', 'treelet', 'climber'); in key annotations also 'woody climber' as climber_woody, 'root-climber' as climber and 'scandent shrub' as shrub and climber.
   - var_in: plant_growth_substrate
     unit_in: .na
     trait_name: plant_growth_substrate
@@ -1043,17 +1061,16 @@ questions:
     frugivores. Should fig and syncarp sizes be scored as fruit_length /
     fruit_width with entity_measured syconium / syncarp?
   question2: |
-    Taxa described only in keys. TFSS gives full treatments to trees only.
-    77 Ficus species and varieties (climbers, root-climbers, epiphytes and
-    stranglers; for example F. sundaica, F. punctata, F. villosa) and the
-    climber genera Trophis (T. scandens) and Maclura (M. cochinchinensis)
-    are annotated inside the keys (pp. 182--183, 216--256), many with a
-    short description ("Dioecious root-climber. Twigs pale yellow, hollow
-    ... Syconia ... ripening dark brown ..., c. 7 x 6 cm"). Following the
-    TFSS guide (keys are not trait evidence) they are not scored or
-    segmented; they are listed in raw/taxon_flags.csv. This leaves about
-    half of the 143 Ficus species of Sabah and Sarawak without data. Should
-    these key annotations be parsed and scored at their own rank?
+    'Creeper' in key annotations. The habit of taxa annotated only in keys
+    is now scored (user, 2026-11-04). Five Ficus annotations open with
+    'creeper': F. disticha ('Dioecious creeper', p. 244), F. punctata
+    ('Dioecious woody creeper', p. 244), F. ruginervia ('Dioecious creeper,
+    with flat stem', p. 248), F. subsidens ('Dioecious creeper with long
+    internodes', p. 235) and F. tulipifera ('Dioecious creeper', p. 235).
+    Corner's Ficus creepers climb trunks by adventitious roots, but the text
+    does not say they climb, and plant_growth_form has no creeper level, so
+    no habit is scored for them (the annotation is kept unmapped). Should
+    'creeper' be scored as climber (and adventitious_roots)?
   question3: |
     Annotations in keys to varieties and subspecies. 44 varieties and
     subspecies printed in a "Key to varieties / subspecies" after a species
@@ -1106,3 +1123,12 @@ questions:
     inflorescence_length and the second as inflorescence_diameter (19 rows,
     noted "Head width scored as inflorescence_diameter"). Confirm the width
     as diameter.
+  question10: |
+    Trophis and Maclura habit rank. Both genera are annotated only in the
+    key to genera ("Dioecious, unarmed twining climbers (in Sabah)", p. 182;
+    "Dioecious climbers (in Sabah)", p. 183), with a genus remark naming one
+    species in Sabah and Sarawak (T. scandens, M. cochinchinensis). The
+    standing rule scores habit at the printed rank, but here the habit is
+    scored on that one species instead (3 rows), because outside Sabah the
+    genera are also trees or shrubs, so a genus row would mislead. Should
+    these rows stay at species rank or move to genus rank?

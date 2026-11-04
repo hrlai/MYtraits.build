@@ -16,7 +16,8 @@
 # vernacular names, notes, infraspecific annotations) are kept one sentence
 # per row; months in Ecology are scored; family and genus Ecology statements
 # on pollination and dispersal are in raw/manual_rows.csv. Keys and figures
-# are not read. Names are as printed.
+# are not read; the habit of taxa annotated only in keys is scored by hand in
+# raw/manual_rows.csv. Names are as printed.
 #
 # Figs (syconia) and Artocarpus syncarps are compound fruiting structures,
 # not fruits (SKILL.md step 4, "Adjacent organs"): their ripe colour is
@@ -829,7 +830,7 @@ out <- bind_rows(
 write_csv(out, file.path(raw_dir, "trait_data.csv"), na = "")
 write_csv(flora_unmapped_summary(out), file.path(raw_dir, "unmapped_terms.csv"), na = "")
 
-# Taxa printed only inside keys (not segmented, not scored)
+# Taxa printed only inside keys (not segmented; habit rows in manual_rows.csv)
 key_only <- read_csv(file.path(raw_dir, "key_only_taxa.csv"), col_types = cols(.default = "c"))
 flags <- taxa |>
   left_join(
@@ -847,11 +848,18 @@ flags <- taxa |>
       rank == "species" & !has_description ~
         "Species heading only; the description belongs to its one infraspecific taxon in the region.",
       rank %in% c("subspecies", "variety") ~
-        "Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995); species values not inherited. Kochummen_2000 question 3.",
+        "Annotation in a key to varieties or subspecies; kept as unmapped rows (as in Kochummen_1995), habit scored where stated; species values not inherited. Kochummen_2000 question 3.",
       block == "Ficus cumingii" ~
         "One variety in the region (var. terminalifolia), printed as a short note after the species description; the note is kept unmapped.",
       TRUE ~ ""
     )
   ) |>
-  bind_rows(key_only |> mutate(n_mapped_rows = 0L))
+  bind_rows(
+    key_only |>
+      left_join(
+        out |> filter(!is.na(trait), trait != "") |> count(taxon_name, name = "n_mapped_rows"),
+        by = "taxon_name"
+      ) |>
+      mutate(n_mapped_rows = coalesce(n_mapped_rows, 0L))
+  )
 write_csv(flags, file.path(raw_dir, "taxon_flags.csv"), na = "")

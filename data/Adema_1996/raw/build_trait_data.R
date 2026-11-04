@@ -1006,6 +1006,11 @@ out <- bind_rows(
     notes,
     source_id = NA_character_
   ) |>
+  # habit of the key-only genera Cardiospermum and Dodonaea (standing rule)
+  bind_rows(
+    read_csv("data/Adema_1996/raw/manual_rows.csv", col_types = cols(.default = "c"), na = "") |>
+      mutate(across(c(pdf_page, printed_page), as.integer))
+  ) |>
   flora_merge_duplicate_keys() |>
   flora_drop_redundant_ranks() |>
   arrange(match(taxon_rank, c("family", "genus", "species", "subspecies", "variety", "subvariety", "form")), taxon_name, pdf_page) |>
@@ -1034,6 +1039,24 @@ flags <- taxa |>
       rank %in% c("variety", "subvariety", "subspecies") & str_detect(block, paste(in_key_species, collapse = "|")) ~ "Infraspecific treatment printed inside a key; its description is scored at its own rank.",
       TRUE ~ ""
     )
+  ) |>
+  bind_rows(
+    tibble(
+      taxon_name = c("Cardiospermum", "Cardiospermum halicacabum", "Dodonaea", "Dodonaea viscosa"),
+      taxon_rank = c("genus", "species", "genus", "species"),
+      status = "key annotation",
+      flag = c(
+        "Climbing genus annotated only in the key to genera (p. 265); habit scored at genus rank, rest of the annotation unmapped.",
+        "Only local species of Cardiospermum, named in the genus annotation in the key; no habit stated for it, genus habit (two alternatives) not copied down.",
+        "Genus annotated only in the key to genera (p. 265); no habit at genus rank; annotation unmapped.",
+        "Only local species of Dodonaea, named in the genus annotation in the key ('a pantropical shrub'); habit scored."
+      )
+    ) |>
+      left_join(
+        out |> filter(!is.na(trait), trait != "") |> count(taxon_name, name = "n_mapped_rows"),
+        by = "taxon_name"
+      ) |>
+      mutate(n_mapped_rows = coalesce(n_mapped_rows, 0L))
   )
 write_csv(flags, "data/Adema_1996/raw/taxon_flags.csv", na = "")
 
