@@ -718,6 +718,11 @@ Bespoke checklist (decisions that changed per family):
   only the ground colour. Stripes, spots, blotches, veins, "-tinged",
   "suffused", "flushed" and part-of-organ colours ("basally reddish", "red
   at the tip") stay in `trait_value_raw` and an unmapped row.
+  Colours of dried specimens ("drying black", "grey-brown when dry") are
+  herbarium colours, not the living colour: never score them for any
+  organ. The fruit colour is the ripe colour: "green ripening red" ->
+  red (provisional, Turner_2014 question 2; DeWilde_2018 and
+  Kochummen_1995 already drop the dried part).
 - **Australian precedent.** For a family that also grows in Australia, check
   how the AusTraits flora datasets score it (`ABRS_2023`, `NHNSW_2023`,
   `NTH_2023`, `RBGV_2023` in traitecoevo/austraits.build) before asking a
