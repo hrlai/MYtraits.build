@@ -39,18 +39,27 @@ flora_unmapped_find <- function(pattern, ids = flora_ids()) {
 # `git diff --stat data/` afterwards: only intended changes may remain.
 flora_rebuild <- function(ids = flora_ids()) {
   res <- map(ids, \(id) {
-    msg <- tryCatch(
-      {
-        # Each build script sets its own globals; keep them apart.
-        source(
-          file.path("data", id, "raw", "build_trait_data.R"),
-          local = new.env()
-        )
-        flora_make_data(id)
-        "ok"
-      },
-      error = \(e) conditionMessage(e)
+    # A fresh R process per build: scripts edit helper globals
+    # (Kochummen_2000 extends flora_qual_words), which a local environment
+    # hides from the helpers and a shared session leaks to the next script.
+    # The project .Rprofile links the uvr library in the child process.
+    status <- system2(
+      file.path(R.home("bin"), "Rscript"),
+      file.path("data", id, "raw", "build_trait_data.R"),
+      stdout = FALSE,
+      stderr = FALSE
     )
+    msg <- if (status != 0) {
+      paste("build_trait_data.R exited with status", status)
+    } else {
+      tryCatch(
+        {
+          flora_make_data(id)
+          "ok"
+        },
+        error = \(e) conditionMessage(e)
+      )
+    }
     message(id, ": ", msg)
     tibble(dataset_id = id, result = msg)
   })
