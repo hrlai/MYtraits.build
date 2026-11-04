@@ -50,10 +50,12 @@ flora_qa <- function(
     # flora_merge_duplicate_keys() (Kiew_2010 B. fungosa flower_visitor)
     "source_id"
   )
-  # trait_scoring_method is built from rank_scored_from (flora_make_data), so
-  # rows that differ only in rank_scored_from are distinct keys at build time.
+  # trait_scoring_method as flora_make_data() builds it: a genus row with blank
+  # and one with `genus` rank_scored_from are the same key at build time.
   mapped2 <- mapped |>
-    mutate(trait_scoring_method = rank_scored_from)
+    mutate(
+      trait_scoring_method = flora_scoring_method(rank_scored_from, taxon_rank)
+    )
   key <- intersect(key, names(mapped2))
   out$duplicate_keys <- mapped2 |>
     group_by(across(all_of(key))) |>
@@ -100,7 +102,7 @@ flora_qa <- function(
       trait,
       entity_measured,
       form,
-      trait_scoring_method = rank_scored_from
+      trait_scoring_method = flora_scoring_method(rank_scored_from, taxon_rank)
     ) |>
     summarise(
       lo = suppressWarnings(min(v[value_type == "minimum"])),
@@ -208,7 +210,9 @@ flora_qa <- function(
       entity_measured,
       trait_value_clean
     ) |>
-    filter(n_distinct(rank_scored_from, na.rm = FALSE) > 1) |>
+    filter(
+      n_distinct(flora_scoring_method(rank_scored_from, taxon_rank)) > 1
+    ) |>
     ungroup() |>
     count(trait, name = "n_rows")
 

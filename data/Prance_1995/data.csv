@@ -1,64 +1,64 @@
 taxon_name,taxon_rank,entity_type,rank_scored_from,commonness_qualifier,population_region,form,entity_measured,trait,in_traits.yml,trait_value_raw,trait_value,trait_value_clean,value_type,unit,source_section,pdf_page,printed_page,notes,source_id,value,trait_scoring_method
-Chrysobalanaceae,family,species,,,,,,flower_perianth_symmetry,x,Flowers actinomorphic (with a regular symmetry) to zygomorphic (with an irregular symmetry),actinomorphic zygomorphic,actinomorphic_general zygomorphic,mode,,"Description, p.155",7,155,,Prance_1995,actinomorphic zygomorphic,inferred_from_species
-Chrysobalanaceae,family,species,,,,,,flower_structural_sex_type,x,"bisexual or unisexual (in Parastemon, plant sometimes polygamo-dioecious)",bisexual unisexual,bisexual unisexual,mode,,"Description, p.155",7,155,,Prance_1995,bisexual unisexual,inferred_from_species
-Chrysobalanaceae,family,species,,,,,,fruit_fleshiness,x,Fruit a dry or fleshy drupe,dry fleshy,dry fleshy,mode,,"Description, p.155",7,155,,Prance_1995,dry fleshy,inferred_from_species
-Chrysobalanaceae,family,species,,,,,,fruit_type,x,Fruit a dry or fleshy drupe,drupe,drupe,mode,,"Description, p.155",7,155,,Prance_1995,drupe,inferred_from_species
-Chrysobalanaceae,family,species,,,,,,inflorescence_type,x,Inflorescences racemose,racemose paniculate cymose,raceme panicle cyme,mode,,"Description, p.155",7,155,,Prance_1995,racemose paniculate cymose,inferred_from_species
-Chrysobalanaceae,family,species,,,,,,leaf_compoundness,x,Leaves simple,simple,simple,mode,,"Description, p.155",7,155,,Prance_1995,simple,inferred_from_species
-Chrysobalanaceae,family,species,,,,,,leaf_margin,x,entire,entire,entire,mode,,"Description, p.155",7,155,,Prance_1995,entire,inferred_from_species
-Chrysobalanaceae,family,species,,,,,,leaf_phyllotaxis,x,alternate,alternate,alternate,mode,,"Description, p.155",7,155,,Prance_1995,alternate,inferred_from_species
-Chrysobalanaceae,family,species,,,,,,plant_growth_form,x,Trees or shrubs,trees shrubs,tree shrub,mode,,"Description, p.155",7,155,,Prance_1995,trees shrubs,inferred_from_species
-Atuna,genus,species,,,,,,flower_structural_sex_type,x,Flowers bisexual,bisexual,bisexual,mode,,"Description, p.157",9,157,,Prance_1995,bisexual,inferred_from_species
-Atuna,genus,species,,,,,,fruit_surface_hairs,x,epicarp glabrous,glabrous,glabrous,mode,,"Description, p.157",9,157,,Prance_1995,glabrous,inferred_from_species
-Atuna,genus,species,,,,,,inflorescence_type,x,Inflorescence a raceme,raceme panicle,raceme panicle,mode,,"Description, p.157",9,157,,Prance_1995,raceme panicle,inferred_from_species
-Atuna,genus,species,,,,,,plant_growth_form,x,Small to large trees,trees,tree,mode,,"Description, p.157",9,157,,Prance_1995,trees,inferred_from_species
-Atuna,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 10--20,10,10,minimum,{count},"Description, p.157",9,157,,Prance_1995,10,inferred_from_species
-Atuna,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 10--20,20,20,maximum,{count},"Description, p.157",9,157,,Prance_1995,20,inferred_from_species
-Kostermanthus,genus,species,,,,,,flower_perianth_symmetry,x,strongly zygomorphic,zygomorphic,zygomorphic,mode,,"Description, p.163",15,163,,Prance_1995,zygomorphic,inferred_from_species
-Kostermanthus,genus,species,,,,,,flower_structural_sex_type,x,Flowers bisexual,bisexual,bisexual,mode,,"Description, p.163",15,163,,Prance_1995,bisexual,inferred_from_species
-Kostermanthus,genus,species,,,,,,fruit_surface_hairs,x,epicarp glabrous,glabrous,glabrous,mode,,"Description, p.163",15,163,,Prance_1995,glabrous,inferred_from_species
-Kostermanthus,genus,species,,,,,,inflorescence_type,x,Inflorescence an unbranched or little-branched terminal or axillary raceme with shortly stalked congested cymules proximally and singly inserted flowers distally,raceme terminal axillary,raceme terminal axillary,mode,,"Description, p.163",15,163,,Prance_1995,raceme terminal axillary,inferred_from_species
-Kostermanthus,genus,species,,,,,,leaf_hairs_adult_leaves,x,Leaves glabrous on both surfaces with minute papillae on veins giving a beaded appearance,glabrous,glabrous,mode,,"Description, p.163",15,163,,Prance_1995,glabrous,inferred_from_species
-Kostermanthus,genus,species,,,,,,plant_growth_form,x,Large trees,trees,tree,mode,,"Description, p.163",15,163,,Prance_1995,trees,inferred_from_species
-Kostermanthus,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 8--30,8,8,minimum,{count},"Description, p.163",15,163,,Prance_1995,8,inferred_from_species
-Kostermanthus,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 8--30,30,30,maximum,{count},"Description, p.163",15,163,,Prance_1995,30,inferred_from_species
-Kostermanthus,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,unilocular with 2 ovules,2,2,mean,{count},"Description, p.163",15,163,,Prance_1995,2,inferred_from_species
-Licania,genus,species,,,,,,flower_structural_sex_type,x,Flowers bisexual,bisexual,bisexual,mode,,"Description, p.165",17,165,,Prance_1995,bisexual,inferred_from_species
-Licania,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.165",17,165,,Prance_1995,glabrous,inferred_from_species
-Licania,genus,species,,,,,,inflorescence_type,x,Inflorescence a panicle of cymules,panicle,panicle,mode,,"Description, p.165",17,165,,Prance_1995,panicle,inferred_from_species
-Licania,genus,species,,,,,,leaf_hairs_adult_leaves,x,Leaves glabrous on both surfaces,glabrous,glabrous,mode,,"Description, p.165",17,165,,Prance_1995,glabrous,inferred_from_species
-Licania,genus,species,,,,,,plant_growth_form,x,Small to large trees,trees,tree,mode,,"Description, p.165",17,165,,Prance_1995,trees,inferred_from_species
-Licania,genus,species,,,,,bract and bracteole,flower_bract_length,x,bracts and bracteoles to 1.5 mm long,1.5,1.5,maximum,mm,"Description, p.165",17,165,,Prance_1995,1.5,inferred_from_species
-Licania,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 7--10,7,7,minimum,{count},"Description, p.165",17,165,,Prance_1995,7,inferred_from_species
-Licania,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 7--10,10,10,maximum,{count},"Description, p.165",17,165,,Prance_1995,10,inferred_from_species
-Licania,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,with 2 ovules,2,2,mean,{count},"Description, p.165",17,165,,Prance_1995,2,inferred_from_species
-Maranthes,genus,species,,,,,,flower_structural_sex_type,x,Flowers bisexual,bisexual,bisexual,mode,,"Description, p.167",19,167,,Prance_1995,bisexual,inferred_from_species
-Maranthes,genus,species,,,,,,fruit_fleshiness,x,Fruit a large fleshy drupe,fleshy,fleshy,mode,,"Description, p.167",19,167,,Prance_1995,fleshy,inferred_from_species
-Maranthes,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.167",19,167,,Prance_1995,glabrous,inferred_from_species
-Maranthes,genus,species,,,,,,fruit_type,x,Fruit a large fleshy drupe,drupe,drupe,mode,,"Description, p.167",19,167,,Prance_1995,drupe,inferred_from_species
-Maranthes,genus,species,,,,,,inflorescence_type,x,Inflorescence a many-flowered corymbose panicle,corymb panicle,corymb panicle,mode,,"Description, p.167",19,167,,Prance_1995,corymb panicle,inferred_from_species
-Maranthes,genus,species,,,,,,leaf_hairs_adult_leaves,x,Leaves glabrous on both surfaces when mature,glabrous,glabrous,mode,,"Description, p.167",19,167,,Prance_1995,glabrous,inferred_from_species
-Maranthes,genus,species,,,,,,plant_growth_form,x,Medium-sized to large trees,trees,tree,mode,,"Description, p.167",19,167,,Prance_1995,trees,inferred_from_species
-Maranthes,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 25--40,25,25,minimum,{count},"Description, p.167",19,167,,Prance_1995,25,inferred_from_species
-Maranthes,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 25--40,40,40,maximum,{count},"Description, p.167",19,167,,Prance_1995,40,inferred_from_species
-Parastemon,genus,species,,,,,,flower_structural_sex_type,x,Flowers bisexual or unisexual,bisexual unisexual,bisexual unisexual,mode,,"Description, p.169",21,169,,Prance_1995,bisexual unisexual,inferred_from_species
-Parastemon,genus,species,,,,,,fruit_type,x,Fruit a drupe,drupe,drupe,mode,,"Description, p.169",21,169,,Prance_1995,drupe,inferred_from_species
-Parastemon,genus,species,,rarely,,,,inflorescence_type,x,Inflorescences axillary or rarely terminal simple or sparsely branched racemes,terminal,terminal,mode,,"Description, p.169",21,169,,Prance_1995,terminal,inferred_from_species
-Parastemon,genus,species,,usually,,,,inflorescence_type,x,Inflorescences axillary or rarely terminal simple or sparsely branched racemes,raceme axillary,raceme axillary,mode,,"Description, p.169",21,169,,Prance_1995,raceme axillary,inferred_from_species
-Parastemon,genus,species,,,,,,leaf_hairs_adult_leaves,x,Leaves glabrous on both surfaces,glabrous,glabrous,mode,,"Description, p.169",21,169,,Prance_1995,glabrous,inferred_from_species
-Parastemon,genus,species,,,,,,plant_growth_form,x,Trees or shrubs,trees shrubs,tree shrub,mode,,"Description, p.169",21,169,,Prance_1995,trees shrubs,inferred_from_species
-Parastemon,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,with 2 ovules,2,2,mean,{count},"Description, p.169",21,169,,Prance_1995,2,inferred_from_species
-Parastemon,genus,species,,,,,,fruit_length,x,1.5--3 cm long,1.5,1.5,minimum,cm,"Description, p.169",21,169,,Prance_1995,1.5,inferred_from_species
-Parastemon,genus,species,,,,,,fruit_length,x,1.5--3 cm long,3,3,maximum,cm,"Description, p.169",21,169,,Prance_1995,3,inferred_from_species
-Parinari,genus,species,,,,,,flower_structural_sex_type,x,Flowers bisexual,bisexual,bisexual,mode,,"Description, p.172",24,172,,Prance_1995,bisexual,inferred_from_species
-Parinari,genus,species,,,,,,fruit_fleshiness,x,Fruit a fleshy drupe,fleshy,fleshy,mode,,"Description, p.172",24,172,,Prance_1995,fleshy,inferred_from_species
-Parinari,genus,species,,,,,,fruit_type,x,Fruit a fleshy drupe,drupe,drupe,mode,,"Description, p.172",24,172,,Prance_1995,drupe,inferred_from_species
-Parinari,genus,species,,,,,,inflorescence_type,x,Inflorescence a many-flowered complex cyme or cymose panicle,cyme cymose panicle,cyme panicle,mode,,"Description, p.172",24,172,,Prance_1995,cyme cymose panicle,inferred_from_species
-Parinari,genus,species,,usually,,,,leaf_stomatal_position,x,Leaves usually with stomatal crypts,stomatal_crypts,encrypted,mode,,"Description, p.172",24,172,"Stomatal crypts scored as leaf_stomatal_position 'encrypted' (provisional, question 2).",Prance_1995,stomatal_crypts,inferred_from_species
-Parinari,genus,species,,rarely,,,,plant_growth_form,x,Small or large trees or rarely shrubs,shrubs,shrub,mode,,"Description, p.172",24,172,,Prance_1995,shrubs,inferred_from_species
-Parinari,genus,species,,usually,,,,plant_growth_form,x,Small or large trees or rarely shrubs,trees,tree,mode,,"Description, p.172",24,172,,Prance_1995,trees,inferred_from_species
-Parinari,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 6--10,6,6,minimum,{count},"Description, p.172",24,172,,Prance_1995,6,inferred_from_species
-Parinari,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 6--10,10,10,maximum,{count},"Description, p.172",24,172,,Prance_1995,10,inferred_from_species
+Chrysobalanaceae,family,species,,,,,,flower_perianth_symmetry,x,Flowers actinomorphic (with a regular symmetry) to zygomorphic (with an irregular symmetry),actinomorphic zygomorphic,actinomorphic_general zygomorphic,mode,,"Description, p.155",7,155,,Prance_1995,actinomorphic zygomorphic,inferred_from_family
+Chrysobalanaceae,family,species,,,,,,flower_structural_sex_type,x,"bisexual or unisexual (in Parastemon, plant sometimes polygamo-dioecious)",bisexual unisexual,bisexual unisexual,mode,,"Description, p.155",7,155,,Prance_1995,bisexual unisexual,inferred_from_family
+Chrysobalanaceae,family,species,,,,,,fruit_fleshiness,x,Fruit a dry or fleshy drupe,dry fleshy,dry fleshy,mode,,"Description, p.155",7,155,,Prance_1995,dry fleshy,inferred_from_family
+Chrysobalanaceae,family,species,,,,,,fruit_type,x,Fruit a dry or fleshy drupe,drupe,drupe,mode,,"Description, p.155",7,155,,Prance_1995,drupe,inferred_from_family
+Chrysobalanaceae,family,species,,,,,,inflorescence_type,x,Inflorescences racemose,racemose paniculate cymose,raceme panicle cyme,mode,,"Description, p.155",7,155,,Prance_1995,racemose paniculate cymose,inferred_from_family
+Chrysobalanaceae,family,species,,,,,,leaf_compoundness,x,Leaves simple,simple,simple,mode,,"Description, p.155",7,155,,Prance_1995,simple,inferred_from_family
+Chrysobalanaceae,family,species,,,,,,leaf_margin,x,entire,entire,entire,mode,,"Description, p.155",7,155,,Prance_1995,entire,inferred_from_family
+Chrysobalanaceae,family,species,,,,,,leaf_phyllotaxis,x,alternate,alternate,alternate,mode,,"Description, p.155",7,155,,Prance_1995,alternate,inferred_from_family
+Chrysobalanaceae,family,species,,,,,,plant_growth_form,x,Trees or shrubs,trees shrubs,tree shrub,mode,,"Description, p.155",7,155,,Prance_1995,trees shrubs,inferred_from_family
+Atuna,genus,species,,,,,,flower_structural_sex_type,x,Flowers bisexual,bisexual,bisexual,mode,,"Description, p.157",9,157,,Prance_1995,bisexual,inferred_from_genus
+Atuna,genus,species,,,,,,fruit_surface_hairs,x,epicarp glabrous,glabrous,glabrous,mode,,"Description, p.157",9,157,,Prance_1995,glabrous,inferred_from_genus
+Atuna,genus,species,,,,,,inflorescence_type,x,Inflorescence a raceme,raceme panicle,raceme panicle,mode,,"Description, p.157",9,157,,Prance_1995,raceme panicle,inferred_from_genus
+Atuna,genus,species,,,,,,plant_growth_form,x,Small to large trees,trees,tree,mode,,"Description, p.157",9,157,,Prance_1995,trees,inferred_from_genus
+Atuna,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 10--20,10,10,minimum,{count},"Description, p.157",9,157,,Prance_1995,10,inferred_from_genus
+Atuna,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 10--20,20,20,maximum,{count},"Description, p.157",9,157,,Prance_1995,20,inferred_from_genus
+Kostermanthus,genus,species,,,,,,flower_perianth_symmetry,x,strongly zygomorphic,zygomorphic,zygomorphic,mode,,"Description, p.163",15,163,,Prance_1995,zygomorphic,inferred_from_genus
+Kostermanthus,genus,species,,,,,,flower_structural_sex_type,x,Flowers bisexual,bisexual,bisexual,mode,,"Description, p.163",15,163,,Prance_1995,bisexual,inferred_from_genus
+Kostermanthus,genus,species,,,,,,fruit_surface_hairs,x,epicarp glabrous,glabrous,glabrous,mode,,"Description, p.163",15,163,,Prance_1995,glabrous,inferred_from_genus
+Kostermanthus,genus,species,,,,,,inflorescence_type,x,Inflorescence an unbranched or little-branched terminal or axillary raceme with shortly stalked congested cymules proximally and singly inserted flowers distally,raceme terminal axillary,raceme terminal axillary,mode,,"Description, p.163",15,163,,Prance_1995,raceme terminal axillary,inferred_from_genus
+Kostermanthus,genus,species,,,,,,leaf_hairs_adult_leaves,x,Leaves glabrous on both surfaces with minute papillae on veins giving a beaded appearance,glabrous,glabrous,mode,,"Description, p.163",15,163,,Prance_1995,glabrous,inferred_from_genus
+Kostermanthus,genus,species,,,,,,plant_growth_form,x,Large trees,trees,tree,mode,,"Description, p.163",15,163,,Prance_1995,trees,inferred_from_genus
+Kostermanthus,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 8--30,8,8,minimum,{count},"Description, p.163",15,163,,Prance_1995,8,inferred_from_genus
+Kostermanthus,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 8--30,30,30,maximum,{count},"Description, p.163",15,163,,Prance_1995,30,inferred_from_genus
+Kostermanthus,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,unilocular with 2 ovules,2,2,mean,{count},"Description, p.163",15,163,,Prance_1995,2,inferred_from_genus
+Licania,genus,species,,,,,,flower_structural_sex_type,x,Flowers bisexual,bisexual,bisexual,mode,,"Description, p.165",17,165,,Prance_1995,bisexual,inferred_from_genus
+Licania,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.165",17,165,,Prance_1995,glabrous,inferred_from_genus
+Licania,genus,species,,,,,,inflorescence_type,x,Inflorescence a panicle of cymules,panicle,panicle,mode,,"Description, p.165",17,165,,Prance_1995,panicle,inferred_from_genus
+Licania,genus,species,,,,,,leaf_hairs_adult_leaves,x,Leaves glabrous on both surfaces,glabrous,glabrous,mode,,"Description, p.165",17,165,,Prance_1995,glabrous,inferred_from_genus
+Licania,genus,species,,,,,,plant_growth_form,x,Small to large trees,trees,tree,mode,,"Description, p.165",17,165,,Prance_1995,trees,inferred_from_genus
+Licania,genus,species,,,,,bract and bracteole,flower_bract_length,x,bracts and bracteoles to 1.5 mm long,1.5,1.5,maximum,mm,"Description, p.165",17,165,,Prance_1995,1.5,inferred_from_genus
+Licania,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 7--10,7,7,minimum,{count},"Description, p.165",17,165,,Prance_1995,7,inferred_from_genus
+Licania,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 7--10,10,10,maximum,{count},"Description, p.165",17,165,,Prance_1995,10,inferred_from_genus
+Licania,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,with 2 ovules,2,2,mean,{count},"Description, p.165",17,165,,Prance_1995,2,inferred_from_genus
+Maranthes,genus,species,,,,,,flower_structural_sex_type,x,Flowers bisexual,bisexual,bisexual,mode,,"Description, p.167",19,167,,Prance_1995,bisexual,inferred_from_genus
+Maranthes,genus,species,,,,,,fruit_fleshiness,x,Fruit a large fleshy drupe,fleshy,fleshy,mode,,"Description, p.167",19,167,,Prance_1995,fleshy,inferred_from_genus
+Maranthes,genus,species,,,,,,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.167",19,167,,Prance_1995,glabrous,inferred_from_genus
+Maranthes,genus,species,,,,,,fruit_type,x,Fruit a large fleshy drupe,drupe,drupe,mode,,"Description, p.167",19,167,,Prance_1995,drupe,inferred_from_genus
+Maranthes,genus,species,,,,,,inflorescence_type,x,Inflorescence a many-flowered corymbose panicle,corymb panicle,corymb panicle,mode,,"Description, p.167",19,167,,Prance_1995,corymb panicle,inferred_from_genus
+Maranthes,genus,species,,,,,,leaf_hairs_adult_leaves,x,Leaves glabrous on both surfaces when mature,glabrous,glabrous,mode,,"Description, p.167",19,167,,Prance_1995,glabrous,inferred_from_genus
+Maranthes,genus,species,,,,,,plant_growth_form,x,Medium-sized to large trees,trees,tree,mode,,"Description, p.167",19,167,,Prance_1995,trees,inferred_from_genus
+Maranthes,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 25--40,25,25,minimum,{count},"Description, p.167",19,167,,Prance_1995,25,inferred_from_genus
+Maranthes,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 25--40,40,40,maximum,{count},"Description, p.167",19,167,,Prance_1995,40,inferred_from_genus
+Parastemon,genus,species,,,,,,flower_structural_sex_type,x,Flowers bisexual or unisexual,bisexual unisexual,bisexual unisexual,mode,,"Description, p.169",21,169,,Prance_1995,bisexual unisexual,inferred_from_genus
+Parastemon,genus,species,,,,,,fruit_type,x,Fruit a drupe,drupe,drupe,mode,,"Description, p.169",21,169,,Prance_1995,drupe,inferred_from_genus
+Parastemon,genus,species,,rarely,,,,inflorescence_type,x,Inflorescences axillary or rarely terminal simple or sparsely branched racemes,terminal,terminal,mode,,"Description, p.169",21,169,,Prance_1995,terminal,inferred_from_genus
+Parastemon,genus,species,,usually,,,,inflorescence_type,x,Inflorescences axillary or rarely terminal simple or sparsely branched racemes,raceme axillary,raceme axillary,mode,,"Description, p.169",21,169,,Prance_1995,raceme axillary,inferred_from_genus
+Parastemon,genus,species,,,,,,leaf_hairs_adult_leaves,x,Leaves glabrous on both surfaces,glabrous,glabrous,mode,,"Description, p.169",21,169,,Prance_1995,glabrous,inferred_from_genus
+Parastemon,genus,species,,,,,,plant_growth_form,x,Trees or shrubs,trees shrubs,tree shrub,mode,,"Description, p.169",21,169,,Prance_1995,trees shrubs,inferred_from_genus
+Parastemon,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,with 2 ovules,2,2,mean,{count},"Description, p.169",21,169,,Prance_1995,2,inferred_from_genus
+Parastemon,genus,species,,,,,,fruit_length,x,1.5--3 cm long,1.5,1.5,minimum,cm,"Description, p.169",21,169,,Prance_1995,1.5,inferred_from_genus
+Parastemon,genus,species,,,,,,fruit_length,x,1.5--3 cm long,3,3,maximum,cm,"Description, p.169",21,169,,Prance_1995,3,inferred_from_genus
+Parinari,genus,species,,,,,,flower_structural_sex_type,x,Flowers bisexual,bisexual,bisexual,mode,,"Description, p.172",24,172,,Prance_1995,bisexual,inferred_from_genus
+Parinari,genus,species,,,,,,fruit_fleshiness,x,Fruit a fleshy drupe,fleshy,fleshy,mode,,"Description, p.172",24,172,,Prance_1995,fleshy,inferred_from_genus
+Parinari,genus,species,,,,,,fruit_type,x,Fruit a fleshy drupe,drupe,drupe,mode,,"Description, p.172",24,172,,Prance_1995,drupe,inferred_from_genus
+Parinari,genus,species,,,,,,inflorescence_type,x,Inflorescence a many-flowered complex cyme or cymose panicle,cyme cymose panicle,cyme panicle,mode,,"Description, p.172",24,172,,Prance_1995,cyme cymose panicle,inferred_from_genus
+Parinari,genus,species,,usually,,,,leaf_stomatal_position,x,Leaves usually with stomatal crypts,stomatal_crypts,encrypted,mode,,"Description, p.172",24,172,"Stomatal crypts scored as leaf_stomatal_position 'encrypted' (provisional, question 2).",Prance_1995,stomatal_crypts,inferred_from_genus
+Parinari,genus,species,,rarely,,,,plant_growth_form,x,Small or large trees or rarely shrubs,shrubs,shrub,mode,,"Description, p.172",24,172,,Prance_1995,shrubs,inferred_from_genus
+Parinari,genus,species,,usually,,,,plant_growth_form,x,Small or large trees or rarely shrubs,trees,tree,mode,,"Description, p.172",24,172,,Prance_1995,trees,inferred_from_genus
+Parinari,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 6--10,6,6,minimum,{count},"Description, p.172",24,172,,Prance_1995,6,inferred_from_genus
+Parinari,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 6--10,10,10,maximum,{count},"Description, p.172",24,172,,Prance_1995,10,inferred_from_genus
 Atuna cordata,species,species,family,,,,,fruit_type,x,Fruit a dry or fleshy drupe,drupe,drupe,mode,,"Family description, p.155",7,155,Copied from the Chrysobalanaceae description.,Prance_1995,drupe,inferred_from_family
 Atuna cordata,species,species,family,,,,,leaf_compoundness,x,Leaves simple,simple,simple,mode,,"Family description, p.155",7,155,Copied from the Chrysobalanaceae description.,Prance_1995,simple,inferred_from_family
 Atuna cordata,species,species,family,,,,,leaf_margin,x,entire,entire,entire,mode,,"Family description, p.155",7,155,Copied from the Chrysobalanaceae description.,Prance_1995,entire,inferred_from_family

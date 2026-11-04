@@ -203,8 +203,8 @@ respect to `data/`, apart from `flora_make_data()`, which writes
   the step 4 habit rules (qualified alternatives, stranglers as
   hemiepiphytes, root-climbers as `adventitious_roots`). Put the rows in
   `raw/manual_rows.csv` at the taxon's printed rank, with
-  `rank_scored_from` as on the dataset's own rows of that rank (blank for
-  species), `source_section` naming the key or remark, its page, and a
+  `rank_scored_from` blank (`flora_make_data()` labels it by
+  `taxon_rank`), `source_section` naming the key or remark, its page, and a
   note. A genus annotation is not copied down to species the flora
   does not treat. Keep the whole annotation as one unmapped row on the
   same taxon. Excluded, misapplied and out-of-region taxa are not scored.
@@ -1042,8 +1042,10 @@ figure caption that contradicts the heading, as in Coode_2018 question 8).
 the source term (`trait_value`) mapped by `substitutions:` in metadata;
 `trait_scoring_method` comes from `rank_scored_from`
 (`inferred_from_family|genus|species_group|species`). A taxon's own rows
-(blank or `own` `rank_scored_from`) also get `inferred_from_species`: the value
-was read from that taxon's own description. Check that no row in `data.csv`
+(blank or `own` `rank_scored_from`) take the method of their own
+`taxon_rank`: `inferred_from_family` for a family, `inferred_from_genus` for a
+genus, else `inferred_from_species`. The value was read from that taxon's own
+description. Check that no row in `data.csv`
 has a blank `trait_scoring_method`; an empty scoring-method context can make
 `dataset_test()` fail with an unnamed-column error. Unmapped rows stay out.
 Do not use `convert-raw-data-file-into-data-csv`: floras stay long.

@@ -1,259 +1,259 @@
 taxon_name,taxon_rank,entity_type,rank_scored_from,commonness_qualifier,population_region,form,entity_measured,trait,in_traits.yml,trait_value_raw,trait_value,trait_value_clean,value_type,unit,source_section,pdf_page,printed_page,notes,source_id,value,trait_scoring_method
-Annonaceae,family,species,,mostly,,,,flower_colour,x,petals mostly green,green,green,mode,,"Description, p.1",12,1,,Turner_2014,green,inferred_from_species
-Annonaceae,family,species,,sometimes,,,,flower_colour,x,sometimes orange,orange,yellow_orange,mode,,"Description, p.1",12,1,,Turner_2014,orange,inferred_from_species
-Annonaceae,family,species,,usually,,,,flower_colour,x,white or yellow | red or purple,white yellow red purple,white_cream yellow_orange red_brown blue_purple,mode,,"Description, p.1",12,1,,Turner_2014,white yellow red purple,inferred_from_species
-Annonaceae,family,species,,often,,,,flower_orientation,x,often nodding or pendulous,nodding pendulous,down,mode,,"Description, p.1",12,1,,Turner_2014,nodding pendulous,inferred_from_species
-Annonaceae,family,species,,rarely,,,,flower_perianth_merism,x,rarely dimerous,dimerous,2,mode,{count},"Description, p.1",12,1,,Turner_2014,2,inferred_from_species
-Annonaceae,family,species,,usually,,,,flower_perianth_merism,x,trimerous,trimerous,3,mode,{count},"Description, p.1",12,1,,Turner_2014,3,inferred_from_species
-Annonaceae,family,species,,,,,,flower_perianth_symmetry,x,regular and actinomorphic,actinomorphic,actinomorphic_general,mode,,"Description, p.1",12,1,,Turner_2014,actinomorphic,inferred_from_species
-Annonaceae,family,species,,often,,,,flower_scent_production,x,often fragrant,fragrant,scent_produced,mode,,"Description, p.1",12,1,,Turner_2014,fragrant,inferred_from_species
-Annonaceae,family,species,,rarely,,,,flower_structural_sex_type,x,or more rarely unisexual,unisexual,unisexual,mode,,"Description, p.1",12,1,,Turner_2014,unisexual,inferred_from_species
-Annonaceae,family,species,,usually,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.1",12,1,,Turner_2014,bisexual,inferred_from_species
-Annonaceae,family,species,,,,,,inflorescence_type,x,inflorescences terminal | axillary,terminal axillary,terminal axillary,mode,,"Description, p.1",12,1,,Turner_2014,terminal axillary,inferred_from_species
-Annonaceae,family,species,,generally,,,,leaf_arrangement,x,generally alternate and distichous,distichous,distichous,mode,,"Description, p.1",12,1,,Turner_2014,distichous,inferred_from_species
-Annonaceae,family,species,,rarely,,,,leaf_arrangement,x,rarely spiral,spiral,spiral,mode,,"Description, p.1",12,1,,Turner_2014,spiral,inferred_from_species
-Annonaceae,family,species,,,,,,leaf_compoundness,x,Leaves simple,simple,simple,mode,,"Description, p.1",12,1,,Turner_2014,simple,inferred_from_species
-Annonaceae,family,species,,generally,,,,leaf_phyllotaxis,x,generally alternate and distichous,alternate,alternate,mode,,"Description, p.1",12,1,,Turner_2014,alternate,inferred_from_species
-Annonaceae,family,species,,rarely,,,,plant_growth_form,x,rarely shrubs and shrublets but never truly herbaceous,shrubs,shrub,mode,,"Description, p.1",12,1,,Turner_2014,shrubs,inferred_from_species
-Annonaceae,family,species,,usually,,,,plant_growth_form,x,trees | treelets and woody climbers,trees treelets woody_climbers,tree climber_woody,mode,,"Description, p.1",12,1,,Turner_2014,trees treelets woody_climbers,inferred_from_species
-Annonaceae,family,species,,rarely,,,monocarp,fruit_dehiscence,x,indehiscent or rarely dehiscent,dehiscent,dehiscent,mode,,"Description, p.2",13,2,,Turner_2014,dehiscent,inferred_from_species
-Annonaceae,family,species,,usually,,,monocarp,fruit_dehiscence,x,indehiscent or rarely dehiscent,indehiscent,indehiscent,mode,,"Description, p.2",13,2,,Turner_2014,indehiscent,inferred_from_species
-Alphonsea,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.11",22,11,,Turner_2014,bisexual,inferred_from_species
-Alphonsea,genus,species,,less commonly,,,,inflorescence_type,x,less commonly supra-axillary or axillary,axillary,axillary,mode,,"Description, p.11",22,11,,Turner_2014,axillary,inferred_from_species
-Alphonsea,genus,species,,,,,,plant_growth_form,x,trees or treelets,trees treelets,tree,mode,,"Description, p.11",22,11,,Turner_2014,trees treelets,inferred_from_species
-Anaxagorea,genus,species,,rarely,,,,flower_perianth_merism,x,trimerous (rarely dimerous),trimerous,3,mode,{count},"Description, p.18",29,18,,Turner_2014,3,inferred_from_species
-Anaxagorea,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.18",29,18,,Turner_2014,bisexual,inferred_from_species
-Anaxagorea,genus,species,,,,,monocarp,fruit_dehiscence,x,dehiscent along ventral suture,dehiscent,dehiscent,mode,,"Description, p.18",29,18,,Turner_2014,dehiscent,inferred_from_species
-Anaxagorea,genus,species,,,,,,inflorescence_type,x,inflorescences axillary or leaf-opposed or terminal | 1–several-flowered rhipidia or small panicles,axillary terminal panicle,axillary terminal panicle,mode,,"Description, p.18",29,18,,Turner_2014,axillary terminal panicle,inferred_from_species
-Anaxagorea,genus,species,,,,,,leaf_arrangement,x,leaves distichous,distichous,distichous,mode,,"Description, p.18",29,18,,Turner_2014,distichous,inferred_from_species
-Anaxagorea,genus,species,,,,,,plant_growth_form,x,shrubs to small trees,shrubs trees,shrub tree,mode,,"Description, p.18",29,18,,Turner_2014,shrubs trees,inferred_from_species
-Anaxagorea,genus,species,,,,,,seed_surface_reflectivity,x,shiny black,shiny,shiny,mode,,"Description, p.18",29,18,,Turner_2014,shiny,inferred_from_species
-Anaxagorea,genus,species,,,,,,flower_structural_carpels_count,x,carpels 5--45,5,5,minimum,{count},"Description, p.18",29,18,,Turner_2014,5,inferred_from_species
-Anaxagorea,genus,species,,,,,,flower_structural_carpels_count,x,carpels 5--45,45,45,maximum,{count},"Description, p.18",29,18,,Turner_2014,45,inferred_from_species
-Artabotrys,genus,species,,,,,,plant_climbing_mechanism,x,"Inflorescences extra-axillary, borne on thick woody peduncles that form reflexed, often laterally compressed, hooks that assist with climbing",hooks,hooks,mode,,"Key to genera (annotation), p.8",19,8,"Hooked woody peduncles that assist with climbing; genus annotation in the key to genera (standing rule, user 2026--11--04).",Turner_2014,hooks,inferred_from_species
-Artabotrys,genus,species,,,,,,plant_growth_form,x,Woody climbers,climber_woody,climber_woody,mode,,"Key to genera (annotation), p.8",19,8,"Genus described only as an annotation in the key to genera; habit scored at genus rank, not copied down (standing rule, user 2026--11--04).",Turner_2014,climber_woody,inferred_from_species
-Cananga,genus,species,,,,,,flower_scent_production,x,very fragrant,fragrant,scent_produced,mode,,"Description, p.21",32,21,,Turner_2014,fragrant,inferred_from_species
-Cananga,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.21",32,21,,Turner_2014,bisexual,inferred_from_species
-Cananga,genus,species,,,,,,inflorescence_type,x,inflorescences axillary,axillary,axillary,mode,,"Description, p.21",32,21,,Turner_2014,axillary,inferred_from_species
-Cananga,genus,species,,,,,,plant_growth_form,x,trees,trees,tree,mode,,"Description, p.21",32,21,,Turner_2014,trees,inferred_from_species
-Cyathocalyx,genus,species,,often,,,,flower_scent_production,x,often fragrant,fragrant,scent_produced,mode,,"Description, p.24",35,24,,Turner_2014,fragrant,inferred_from_species
-Cyathocalyx,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.24",35,24,,Turner_2014,bisexual,inferred_from_species
-Cyathocalyx,genus,species,,,,,,inflorescence_type,x,inflorescences extra-axillary or leaf-opposed fascicles,axillary,axillary,mode,,"Description, p.24",35,24,,Turner_2014,axillary,inferred_from_species
-Cyathocalyx,genus,species,,,,,,leaf_arrangement,x,leaves distichous,distichous,distichous,mode,,"Description, p.24",35,24,,Turner_2014,distichous,inferred_from_species
-Cyathocalyx,genus,species,,,,,,plant_growth_form,x,trees,trees,tree,mode,,"Description, p.24",35,24,,Turner_2014,trees,inferred_from_species
-Cyathocalyx,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 8--38 per carpel,8,8,minimum,{count},"Description, p.24",35,24,,Turner_2014,8,inferred_from_species
-Cyathocalyx,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 8--38 per carpel,38,38,maximum,{count},"Description, p.24",35,24,,Turner_2014,38,inferred_from_species
-Dasymaschalon,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.26",37,26,,Turner_2014,bisexual,inferred_from_species
-Dasymaschalon,genus,species,,occasionally,,,,inflorescence_type,x,inflorescences single-flowered or occasionally few-flowered racemes,raceme,raceme,mode,,"Description, p.26",37,26,,Turner_2014,raceme,inferred_from_species
-Dasymaschalon,genus,species,,usually,,,,inflorescence_type,x,axillary or terminal,axillary terminal,axillary terminal,mode,,"Description, p.26",37,26,,Turner_2014,axillary terminal,inferred_from_species
-Dasymaschalon,genus,species,,usually,,,,plant_growth_form,x,shrubs or small trees,shrubs trees,shrub tree,mode,,"Description, p.26",37,26,,Turner_2014,shrubs trees,inferred_from_species
-Dasymaschalon,genus,species,,very rarely,,,,plant_growth_form,x,very rarely climbers,climbers,climber,mode,,"Description, p.26",37,26,,Turner_2014,climbers,inferred_from_species
-Dasymaschalon,genus,species,,,,,,seed_shape,x,globose to ellipsoidal,globose ellipsoid,globoid ellipsoid,mode,,"Description, p.26",37,26,,Turner_2014,globose ellipsoid,inferred_from_species
-Dasymaschalon,genus,species,,occasionally,,,,flowers_per_inflorescence,x,Inflorescences single-flowered or occasionally few-flowered racemes,1,1,mean,{count}/{count},"Description, p.26",37,26,,Turner_2014,1,inferred_from_species
-Dasymaschalon,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--2 in each monocarp (or more in species with moniliform monocarps),1,1,minimum,{count}/{count},"Description, p.26",37,26,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_species
-Dasymaschalon,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--2 in each monocarp (or more in species with moniliform monocarps),2,2,maximum,{count}/{count},"Description, p.26",37,26,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,2,inferred_from_species
-Desmos,genus,species,,,,,,plant_growth_form,x,Woody climbers or scandent shrubs,climber_woody shrub,climber_woody shrub,mode,,"Key to genera (annotation), p.8",19,8,"Genus described only as an annotation in the key to genera; habit scored at genus rank, not copied down (standing rule, user 2026--11--04). Scandent shrubs scored as shrub beside climber_woody.",Turner_2014,climber_woody shrub,inferred_from_species
-Disepalum,genus,species,,,,,,flower_orientation,x,pendent on long slender ebracteolate pedicels,pendent,down,mode,,"Description, p.30",41,30,,Turner_2014,pendent,inferred_from_species
-Disepalum,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.30",41,30,,Turner_2014,bisexual,inferred_from_species
-Disepalum,genus,species,,,,,,inflorescence_type,x,inflorescences terminal,terminal,terminal,mode,,"Description, p.30",41,30,,Turner_2014,terminal,inferred_from_species
-Disepalum,genus,species,,,,,,plant_growth_form,x,shrubs or small trees,shrubs trees,shrub tree,mode,,"Description, p.30",41,30,,Turner_2014,shrubs trees,inferred_from_species
-Disepalum,genus,species,,,,,,seed_shape,x,ellipsoidal,ellipsoid,ellipsoid,mode,,"Description, p.30",41,30,,Turner_2014,ellipsoid,inferred_from_species
-Disepalum,genus,species,,,,,,flowers_per_inflorescence,x,1--3-flowered,1,1,minimum,{count}/{count},"Description, p.30",41,30,,Turner_2014,1,inferred_from_species
-Disepalum,genus,species,,,,,,flowers_per_inflorescence,x,1--3-flowered,3,3,maximum,{count}/{count},"Description, p.30",41,30,,Turner_2014,3,inferred_from_species
-Disepalum,genus,species,,usually,,,,flower_ovules_per_functional_carpel_count,x,ovules (1--)2(--3) in each carpel,2,2,mean,{count},"Description, p.30",41,30,,Turner_2014,2,inferred_from_species
-Disepalum,genus,species,,extreme_range,,,,flower_ovules_per_functional_carpel_count,x,ovules (1--)2(--3) in each carpel,1,1,minimum,{count},"Description, p.30",41,30,,Turner_2014,1,inferred_from_species
-Disepalum,genus,species,,generally,,,monocarp,seeds_per_fruit,x,Seeds generally 2 in each monocarp,2,2,mean,{count}/{count},"Description, p.30",41,30,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,2,inferred_from_species
-Drepananthus,genus,species,,often,,,,flower_scent_production,x,often fragrant,fragrant,scent_produced,mode,,"Description, p.34",45,34,,Turner_2014,fragrant,inferred_from_species
-Drepananthus,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.34",45,34,,Turner_2014,bisexual,inferred_from_species
-Drepananthus,genus,species,,,,,,inflorescence_type,x,inflorescences extra-axillary | fascicled or cymose,axillary cymose,axillary cyme,mode,,"Description, p.34",45,34,,Turner_2014,axillary cymose,inferred_from_species
-Drepananthus,genus,species,,,,,,leaf_arrangement,x,leaves distichous,distichous,distichous,mode,,"Description, p.34",45,34,,Turner_2014,distichous,inferred_from_species
-Drepananthus,genus,species,,,,,,plant_growth_form,x,monopodial trees or treelets,trees treelets,tree,mode,,"Description, p.34",45,34,,Turner_2014,trees treelets,inferred_from_species
-Drepananthus,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--10(--20) per carpel,1,1,minimum,{count},"Description, p.34",45,34,,Turner_2014,1,inferred_from_species
-Drepananthus,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--10(--20) per carpel,10,10,maximum,{count},"Description, p.34",45,34,,Turner_2014,10,inferred_from_species
-Fissistigma,genus,species,,,,,,plant_growth_form,x,Woody climbers,climber_woody,climber_woody,mode,,"Key to genera (annotation), p.10",21,10,"Genus described only as an annotation in the key to genera; habit scored at genus rank, not copied down (standing rule, user 2026--11--04).",Turner_2014,climber_woody,inferred_from_species
-Friesodielsia,genus,species,,,,,,plant_growth_form,x,Woody climbers,climber_woody,climber_woody,mode,,"Key to genera (annotation), p.9",20,9,"Genus described only as an annotation in the key to genera; habit scored at genus rank, not copied down (standing rule, user 2026--11--04).",Turner_2014,climber_woody,inferred_from_species
-Goniothalamus,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.42",53,42,,Turner_2014,bisexual,inferred_from_species
-Goniothalamus,genus,species,,,,,monocarp,fruit_dehiscence,x,monocarps indehiscent,indehiscent,indehiscent,mode,,"Description, p.42",53,42,,Turner_2014,indehiscent,inferred_from_species
-Goniothalamus,genus,species,,,,,,inflorescence_type,x,inflorescences axillary or fascicled on woody tubercles of branches and trunk,axillary,axillary,mode,,"Description, p.42",53,42,,Turner_2014,axillary,inferred_from_species
-Goniothalamus,genus,species,,,,,,plant_growth_form,x,treelets or trees,treelets trees,tree,mode,,"Description, p.42",53,42,,Turner_2014,treelets trees,inferred_from_species
-Goniothalamus,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--2 (rarely 4) in each carpels,1,1,minimum,{count},"Description, p.42",53,42,,Turner_2014,1,inferred_from_species
-Goniothalamus,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--2 (rarely 4) in each carpels,2,2,maximum,{count},"Description, p.42",53,42,,Turner_2014,2,inferred_from_species
-Hubera,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.70",81,70,,Turner_2014,bisexual,inferred_from_species
-Hubera,genus,species,,,,,monocarp,fruit_colour,x,generally ripening red,red,red,mode,,"Description, p.70",81,70,,Turner_2014,red,inferred_from_species
-Hubera,genus,species,,,,,,inflorescence_type,x,inflorescences axillary and 1- or 2-flowered or in few-flowered fascicles on main stem and branches,axillary,axillary,mode,,"Description, p.70",81,70,,Turner_2014,axillary,inferred_from_species
-Hubera,genus,species,,generally,,,,leaf_base_shape,x,base generally cuneate and symmetric,cuneate,cuneate,mode,,"Description, p.70",81,70,,Turner_2014,cuneate,inferred_from_species
-Hubera,genus,species,,rarely,,,,leaf_base_shape,x,rarely cordate or asymmetric,cordate asymmetric,cordate oblique,mode,,"Description, p.70",81,70,,Turner_2014,cordate asymmetric,inferred_from_species
-Hubera,genus,species,,,,,,plant_growth_form,x,shrubs | treelets or trees,shrubs treelets trees,shrub tree,mode,,"Description, p.70",81,70,,Turner_2014,shrubs treelets trees,inferred_from_species
-Hubera,genus,species,,,,,,flowers_per_inflorescence,x,Inflorescences axillary and 1- or 2-flowered or in few-flowered fascicles on main stem and branches,1,1,minimum,{count}/{count},"Description, p.70",81,70,,Turner_2014,1,inferred_from_species
-Hubera,genus,species,,,,,,flowers_per_inflorescence,x,Inflorescences axillary and 1- or 2-flowered or in few-flowered fascicles on main stem and branches,2,2,maximum,{count}/{count},"Description, p.70",81,70,,Turner_2014,2,inferred_from_species
-Hubera,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1 in each carpel,1,1,mean,{count},"Description, p.70",81,70,,Turner_2014,1,inferred_from_species
-Hubera,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1 in each monocarp,1,1,mean,{count}/{count},"Description, p.70",81,70,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_species
-Maasia,genus,species,,,,,,bark_colour,x,white,white,white,mode,,"Description, p.74",85,74,,Turner_2014,white,inferred_from_species
-Maasia,genus,species,,,,,,bark_texture,x,bark smooth,smooth,smooth,mode,,"Description, p.74",85,74,,Turner_2014,smooth,inferred_from_species
-Maasia,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.74",85,74,,Turner_2014,bisexual,inferred_from_species
-Maasia,genus,species,,,,,,inflorescence_type,x,inflorescences axillary or arising from tubercles behind leaves,axillary,axillary,mode,,"Description, p.74",85,74,,Turner_2014,axillary,inferred_from_species
-Maasia,genus,species,,,,,,plant_growth_form,x,trees,trees,tree,mode,,"Description, p.74",85,74,,Turner_2014,trees,inferred_from_species
-Maasia,genus,species,,usually,,,monocarp,seeds_per_fruit,x,Seeds 1(--2) in each monocarp,1,1,mean,{count}/{count},"Description, p.74",85,74,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_species
-Maasia,genus,species,,extreme_range,,,monocarp,seeds_per_fruit,x,Seeds 1(--2) in each monocarp,2,2,maximum,{count}/{count},"Description, p.74",85,74,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,2,inferred_from_species
-Marsypopetalum,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.78",89,78,,Turner_2014,bisexual,inferred_from_species
-Marsypopetalum,genus,species,,,,,,inflorescence_type,x,inflorescences supra-axillary,axillary,axillary,mode,,"Description, p.78",89,78,,Turner_2014,axillary,inferred_from_species
-Marsypopetalum,genus,species,,,,,,leaf_arrangement,x,leaves distichous,distichous,distichous,mode,,"Description, p.78",89,78,,Turner_2014,distichous,inferred_from_species
-Marsypopetalum,genus,species,,,,,,plant_growth_form,x,shrubs and small trees,shrubs trees,shrub tree,mode,,"Description, p.78",89,78,,Turner_2014,shrubs trees,inferred_from_species
-Marsypopetalum,genus,species,,,,,,seed_shape,x,ovoid | ellipsoid or fusiform,ovoid ellipsoid,ovoid ellipsoid,mode,,"Description, p.78",89,78,,Turner_2014,ovoid ellipsoid,inferred_from_species
-Marsypopetalum,genus,species,,,,,,flowers_per_inflorescence,x,single-flowered,1,1,mean,{count}/{count},"Description, p.78",89,78,,Turner_2014,1,inferred_from_species
-Marsypopetalum,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1 in each monocarp,1,1,mean,{count}/{count},"Description, p.78",89,78,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_species
-Meiogyne,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.80",91,80,,Turner_2014,bisexual,inferred_from_species
-Meiogyne,genus,species,,sometimes,,,,inflorescence_type,x,sometimes terminal or borne on branches or trunk,terminal,terminal,mode,,"Description, p.80",91,80,,Turner_2014,terminal,inferred_from_species
-Meiogyne,genus,species,,usually,,,,inflorescence_type,x,inflorescences axillary,axillary,axillary,mode,,"Description, p.80",91,80,,Turner_2014,axillary,inferred_from_species
-Meiogyne,genus,species,,,,,,plant_growth_form,x,trees,trees,tree,mode,,"Description, p.80",91,80,,Turner_2014,trees,inferred_from_species
-Meiogyne,genus,species,,,,,,flowers_per_inflorescence,x,1--4-flowered,1,1,minimum,{count}/{count},"Description, p.80",91,80,,Turner_2014,1,inferred_from_species
-Meiogyne,genus,species,,,,,,flowers_per_inflorescence,x,1--4-flowered,4,4,maximum,{count}/{count},"Description, p.80",91,80,,Turner_2014,4,inferred_from_species
-Meiogyne,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--9 in each monocarp,1,1,minimum,{count}/{count},"Description, p.80",91,80,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_species
-Meiogyne,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--9 in each monocarp,9,9,maximum,{count}/{count},"Description, p.80",91,80,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,9,inferred_from_species
-Mezzettia,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.85",96,85,,Turner_2014,bisexual,inferred_from_species
-Mezzettia,genus,species,,,,,,inflorescence_type,x,inflorescences axillary,axillary,axillary,mode,,"Description, p.85",96,85,,Turner_2014,axillary,inferred_from_species
-Mezzettia,genus,species,,,,,,leaf_hairs_adult_leaves,x,"Leaves glabrous, often shiny above",glabrous,glabrous,mode,,"Description, p.85",96,85,,Turner_2014,glabrous,inferred_from_species
-Mezzettia,genus,species,,,,,,plant_growth_form,x,large trees,trees,tree,mode,,"Description, p.85",96,85,,Turner_2014,trees,inferred_from_species
-Mezzettia,genus,species,,,,,,seed_surface_texture,x,smooth,smooth,smooth,mode,,"Description, p.85",96,85,,Turner_2014,smooth,inferred_from_species
-Mezzettia,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 9--21 in 2 or 3 whorls,9,9,minimum,{count},"Description, p.85",96,85,,Turner_2014,9,inferred_from_species
-Mezzettia,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 9--21 in 2 or 3 whorls,21,21,maximum,{count},"Description, p.85",96,85,,Turner_2014,21,inferred_from_species
-Mezzettia,genus,species,,,,,,flower_structural_carpels_count,x,carpel 1,1,1,mean,{count},"Description, p.85",96,85,,Turner_2014,1,inferred_from_species
-Mezzettia,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 2 in each carpel,2,2,mean,{count},"Description, p.85",96,85,,Turner_2014,2,inferred_from_species
-Mezzettia,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--2 in each monocarp,1,1,minimum,{count}/{count},"Description, p.85",96,85,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_species
-Mezzettia,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--2 in each monocarp,2,2,maximum,{count}/{count},"Description, p.85",96,85,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,2,inferred_from_species
-Miliusa,genus,species,,occasionally,,,,flower_structural_sex_type,x,occasionally unisexual,unisexual,unisexual,mode,,"Description, p.90",101,90,,Turner_2014,unisexual,inferred_from_species
-Miliusa,genus,species,,usually,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.90",101,90,,Turner_2014,bisexual,inferred_from_species
-Miliusa,genus,species,,,,,,inflorescence_type,x,inflorescences axillary | solitary or in few-flowered fascicles,axillary solitary,axillary solitary,mode,,"Description, p.90",101,90,,Turner_2014,axillary solitary,inferred_from_species
-Miliusa,genus,species,,,,,,plant_growth_form,x,shrubs or small trees,shrubs trees,shrub tree,mode,,"Description, p.90",101,90,,Turner_2014,shrubs trees,inferred_from_species
-Miliusa,genus,species,,,,,,seed_shape,x,ellipsoidal,ellipsoid,ellipsoid,mode,,"Description, p.90",101,90,,Turner_2014,ellipsoid,inferred_from_species
-Miliusa,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--10 in each carpel,1,1,minimum,{count},"Description, p.90",101,90,,Turner_2014,1,inferred_from_species
-Miliusa,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--10 in each carpel,10,10,maximum,{count},"Description, p.90",101,90,,Turner_2014,10,inferred_from_species
-Miliusa,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--9 in each monocarp,1,1,minimum,{count}/{count},"Description, p.90",101,90,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_species
-Miliusa,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--9 in each monocarp,9,9,maximum,{count}/{count},"Description, p.90",101,90,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,9,inferred_from_species
-Mitrella,genus,species,,,,,,plant_growth_form,x,Woody climbers,climber_woody,climber_woody,mode,,"Key to genera (annotation), p.10",21,10,"Genus described only as an annotation in the key to genera; habit scored at genus rank, not copied down (standing rule, user 2026--11--04).",Turner_2014,climber_woody,inferred_from_species
-Mitrephora,genus,species,,,,,inner petals,flower_colour,x,yellow,yellow,yellow_orange,mode,,"Description, p.92",103,92,,Turner_2014,yellow,inferred_from_species
-Mitrephora,genus,species,,,,,outer petals,flower_colour,x,white or yellow,white yellow,white_cream yellow_orange,mode,,"Description, p.92",103,92,,Turner_2014,white yellow,inferred_from_species
-Mitrephora,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.92",103,92,,Turner_2014,bisexual,inferred_from_species
-Mitrephora,genus,species,,,,,monocarp,fruit_dehiscence,x,monocarps indehiscent,indehiscent,indehiscent,mode,,"Description, p.92",103,92,,Turner_2014,indehiscent,inferred_from_species
-Mitrephora,genus,species,,generally,,,,inflorescence_type,x,inflorescences terminal but generally appearing leaf-opposed or extra-axillary,terminal axillary,terminal axillary,mode,,"Description, p.92",103,92,,Turner_2014,terminal axillary,inferred_from_species
-Mitrephora,genus,species,,rarely,,,,inflorescence_type,x,rarely flowers solitary,solitary,solitary,mode,,"Description, p.92",103,92,,Turner_2014,solitary,inferred_from_species
-Mitrephora,genus,species,,usually,,,,inflorescence_type,x,thyrsoid bearing 2--3(–several) flowers at any one time,thyrsoid,panicle,mode,,"Description, p.92",103,92,,Turner_2014,thyrsoid,inferred_from_species
-Mitrephora,genus,species,,,,,,plant_growth_form,x,treelets to large trees,treelets trees,tree,mode,,"Description, p.92",103,92,,Turner_2014,treelets trees,inferred_from_species
-Monocarpia,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.104",115,104,,Turner_2014,bisexual,inferred_from_species
-Monocarpia,genus,species,,,,,,plant_growth_form,x,medium-sized or large trees,trees,tree,mode,,"Description, p.104",115,104,,Turner_2014,trees,inferred_from_species
-Monocarpia,genus,species,,,,,,flowers_per_inflorescence,x,Inflorescences 1--3-flowered,1,1,minimum,{count}/{count},"Description, p.104",115,104,,Turner_2014,1,inferred_from_species
-Monocarpia,genus,species,,,,,,flowers_per_inflorescence,x,Inflorescences 1--3-flowered,3,3,maximum,{count}/{count},"Description, p.104",115,104,,Turner_2014,3,inferred_from_species
-Monocarpia,genus,species,,,,,,flower_structural_carpels_count,x,carpels 1--3,1,1,minimum,{count},"Description, p.104",115,104,,Turner_2014,1,inferred_from_species
-Monocarpia,genus,species,,,,,,flower_structural_carpels_count,x,carpels 1--3,3,3,maximum,{count},"Description, p.104",115,104,,Turner_2014,3,inferred_from_species
-Monocarpia,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 8--13 in each monocarp,8,8,minimum,{count}/{count},"Description, p.104",115,104,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,8,inferred_from_species
-Monocarpia,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 8--13 in each monocarp,13,13,maximum,{count}/{count},"Description, p.104",115,104,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,13,inferred_from_species
-Monoon,genus,species,,rarely,,,,flower_colour,x,rarely pink or red,pink red,pink red_brown,mode,,"Description, p.108",119,108,,Turner_2014,pink red,inferred_from_species
-Monoon,genus,species,,typically,,,,flower_colour,x,typically white to yellow at anthesis,white yellow,white_cream yellow_orange,mode,,"Description, p.108",119,108,,Turner_2014,white yellow,inferred_from_species
-Monoon,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.108",119,108,,Turner_2014,bisexual,inferred_from_species
-Monoon,genus,species,,,,,,leaf_base_shape,x,base acute to rounded cordate),acute rounded cordate,acute rounded cordate,mode,,"Description, p.108",119,108,,Turner_2014,acute rounded cordate,inferred_from_species
-Monoon,genus,species,,,,,,plant_growth_form,x,trees,trees,tree,mode,,"Description, p.108",119,108,,Turner_2014,trees,inferred_from_species
-Monoon,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1 in each carpel,1,1,mean,{count},"Description, p.108",119,108,,Turner_2014,1,inferred_from_species
-Monoon,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1 in each monocarp,1,1,mean,{count}/{count},"Description, p.108",119,108,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_species
-Neo-uvaria,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.121",132,121,,Turner_2014,bisexual,inferred_from_species
-Neo-uvaria,genus,species,,,,,monocarp,fruit_surface_hairs,x,hairy,hairy,hairy,mode,,"Description, p.121",132,121,,Turner_2014,hairy,inferred_from_species
-Neo-uvaria,genus,species,,,,,,inflorescence_type,x,inflorescences axillary,axillary,axillary,mode,,"Description, p.121",132,121,,Turner_2014,axillary,inferred_from_species
-Neo-uvaria,genus,species,,often,,,,leaf_apex_shape,x,apex often markedly acuminate,acuminate,acuminate,mode,,"Description, p.121",132,121,,Turner_2014,acuminate,inferred_from_species
-Neo-uvaria,genus,species,,,,,,plant_growth_form,x,trees,trees,tree,mode,,"Description, p.121",132,121,,Turner_2014,trees,inferred_from_species
-Neo-uvaria,genus,species,,,,,,stem_hairs,x,hairy,hairy,hairy,mode,,"Description, p.121",132,121,,Turner_2014,hairy,inferred_from_species
-Neo-uvaria,genus,species,,,,,,flowers_per_inflorescence,x,1--3-flowered,1,1,minimum,{count}/{count},"Description, p.121",132,121,,Turner_2014,1,inferred_from_species
-Neo-uvaria,genus,species,,,,,,flowers_per_inflorescence,x,1--3-flowered,3,3,maximum,{count}/{count},"Description, p.121",132,121,,Turner_2014,3,inferred_from_species
-Neo-uvaria,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 20--30,20,20,minimum,{count},"Description, p.121",132,121,,Turner_2014,20,inferred_from_species
-Neo-uvaria,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 20--30,30,30,maximum,{count},"Description, p.121",132,121,,Turner_2014,30,inferred_from_species
-Neo-uvaria,genus,species,,,,,,flower_structural_carpels_count,x,carpels 4--12,4,4,minimum,{count},"Description, p.121",132,121,,Turner_2014,4,inferred_from_species
-Neo-uvaria,genus,species,,,,,,flower_structural_carpels_count,x,carpels 4--12,12,12,maximum,{count},"Description, p.121",132,121,,Turner_2014,12,inferred_from_species
-Neo-uvaria,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--2 in each carpel,1,1,minimum,{count},"Description, p.121",132,121,,Turner_2014,1,inferred_from_species
-Neo-uvaria,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--2 in each carpel,2,2,maximum,{count},"Description, p.121",132,121,,Turner_2014,2,inferred_from_species
-Neo-uvaria,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1 in each monocarp,1,1,mean,{count}/{count},"Description, p.121",132,121,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_species
-Orophea,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.125",136,125,,Turner_2014,bisexual,inferred_from_species
-Orophea,genus,species,,,,,monocarp,fruit_dehiscence,x,indehiscent,indehiscent,indehiscent,mode,,"Description, p.125",136,125,,Turner_2014,indehiscent,inferred_from_species
-Orophea,genus,species,,,,,,inflorescence_type,x,inflorescences axillary or supra-axillary | few- to many-flowered fascicles or cymes,axillary cyme,axillary cyme,mode,,"Description, p.125",136,125,,Turner_2014,axillary cyme,inferred_from_species
-Orophea,genus,species,,,,,,plant_growth_form,x,small trees,trees,tree,mode,,"Description, p.125",136,125,,Turner_2014,trees,inferred_from_species
-Orophea,genus,species,,,,,,seed_shape,x,globose,globose,globoid,mode,,"Description, p.125",136,125,,Turner_2014,globose,inferred_from_species
-Orophea,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 3,3,3,mean,{count},"Description, p.125",136,125,,Turner_2014,3,inferred_from_species
-Orophea,genus,species,,,,,,flower_structural_carpels_count,x,carpels 3,3,3,mean,{count},"Description, p.125",136,125,,Turner_2014,3,inferred_from_species
-Orophea,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--8 in each monocarp,1,1,minimum,{count}/{count},"Description, p.125",136,125,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_species
-Orophea,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--8 in each monocarp,8,8,maximum,{count}/{count},"Description, p.125",136,125,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,8,inferred_from_species
-Phaeanthus,genus,species,,,,,,flower_orientation,x,pendulous on slender pedicels,pendulous,down,mode,,"Description, p.136",147,136,,Turner_2014,pendulous,inferred_from_species
-Phaeanthus,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.136",147,136,,Turner_2014,bisexual,inferred_from_species
-Phaeanthus,genus,species,,occasionally,,,,inflorescence_type,x,occasionally terminal,terminal,terminal,mode,,"Description, p.136",147,136,,Turner_2014,terminal,inferred_from_species
-Phaeanthus,genus,species,,usually,,,,inflorescence_type,x,inflorescences extra-axillary | cymose,axillary cymose,axillary cyme,mode,,"Description, p.136",147,136,,Turner_2014,axillary cymose,inferred_from_species
-Phaeanthus,genus,species,,,,,,plant_growth_form,x,treelets or trees,treelets trees,tree,mode,,"Description, p.136",147,136,,Turner_2014,treelets trees,inferred_from_species
-Phaeanthus,genus,species,,,,,,flowers_per_inflorescence,x,1--4-flowered,1,1,minimum,{count}/{count},"Description, p.136",147,136,,Turner_2014,1,inferred_from_species
-Phaeanthus,genus,species,,,,,,flowers_per_inflorescence,x,1--4-flowered,4,4,maximum,{count}/{count},"Description, p.136",147,136,,Turner_2014,4,inferred_from_species
-Phaeanthus,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--2 in each carpel,1,1,minimum,{count},"Description, p.136",147,136,,Turner_2014,1,inferred_from_species
-Phaeanthus,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--2 in each carpel,2,2,maximum,{count},"Description, p.136",147,136,,Turner_2014,2,inferred_from_species
-Phaeanthus,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1 or 2 in each monocarp,1,1,minimum,{count}/{count},"Description, p.136",147,136,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_species
-Phaeanthus,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1 or 2 in each monocarp,2,2,maximum,{count}/{count},"Description, p.136",147,136,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,2,inferred_from_species
-Polyalthia,genus,species,,,,,,flower_colour,x,white | yellow | green | orange or red,white yellow green orange red,white_cream yellow_orange green red_brown,mode,,"Description, p.141",152,141,,Turner_2014,white yellow green orange red,inferred_from_species
-Polyalthia,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.141",152,141,,Turner_2014,bisexual,inferred_from_species
-Polyalthia,genus,species,,,,,,inflorescence_type,x,inflorescences ramiflorous or axillary fascicles arising from woody tubercles,axillary,axillary,mode,,"Description, p.141",152,141,,Turner_2014,axillary,inferred_from_species
-Polyalthia,genus,species,,,,,,leaf_base_shape,x,base acute | cuneate | obtuse | rounded or asymmetrically subcordate | cordate to auriculate,acute cuneate obtuse rounded asymmetric cordate auriculate,acute cuneate obtuse rounded oblique cordate auriculate,mode,,"Description, p.141",152,141,,Turner_2014,acute cuneate obtuse rounded asymmetric cordate auriculate,inferred_from_species
-Polyalthia,genus,species,,,,,,plant_growth_form,x,small treelets to trees,treelets trees,tree,mode,,"Description, p.141",152,141,,Turner_2014,treelets trees,inferred_from_species
-Polyalthia,genus,species,,,,,,seed_shape,x,ellipsoidal,ellipsoid,ellipsoid,mode,,"Description, p.141",152,141,,Turner_2014,ellipsoid,inferred_from_species
-Polyalthia,genus,species,,,,,monocarp,fruit_length,x,0.5--5 cm long,0.5,0.5,minimum,cm,"Description, p.141",152,141,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,0.5,inferred_from_species
-Polyalthia,genus,species,,,,,monocarp,fruit_length,x,0.5--5 cm long,5,5,maximum,cm,"Description, p.141",152,141,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,5,inferred_from_species
-Popowia,genus,species,,,,,,flower_colour,x,white or yellow,white yellow,white_cream yellow_orange,mode,,"Description, p.165",176,165,,Turner_2014,white yellow,inferred_from_species
-Popowia,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.165",176,165,,Turner_2014,bisexual,inferred_from_species
-Popowia,genus,species,,,,,,inflorescence_type,x,inflorescences extra-axillary,axillary,axillary,mode,,"Description, p.165",176,165,,Turner_2014,axillary,inferred_from_species
-Popowia,genus,species,,,,,,leaf_base_shape,x,base cuneate | obtuse or rounded | slightly unequal,cuneate obtuse rounded unequal,cuneate obtuse rounded oblique,mode,,"Description, p.165",176,165,,Turner_2014,cuneate obtuse rounded unequal,inferred_from_species
-Popowia,genus,species,,,,,,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.165",176,165,,Turner_2014,entire,inferred_from_species
-Popowia,genus,species,,,,,,plant_growth_form,x,shrubs or trees,shrubs trees,shrub tree,mode,,"Description, p.165",176,165,,Turner_2014,shrubs trees,inferred_from_species
-Popowia,genus,species,,,,,,seed_surface_texture,x,rugose or pitted and with or without a circumferential ridge,rugose,rough,mode,,"Description, p.165",176,165,,Turner_2014,rugose,inferred_from_species
-Popowia,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 2--4 in each carpel,2,2,minimum,{count},"Description, p.165",176,165,,Turner_2014,2,inferred_from_species
-Popowia,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 2--4 in each carpel,4,4,maximum,{count},"Description, p.165",176,165,,Turner_2014,4,inferred_from_species
-Popowia,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--4 in each monocarp,1,1,minimum,{count}/{count},"Description, p.165",176,165,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_species
-Popowia,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--4 in each monocarp,4,4,maximum,{count}/{count},"Description, p.165",176,165,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,4,inferred_from_species
-Pseuduvaria,genus,species,,,,,,flower_structural_sex_type,x,flowers unisexual,unisexual,unisexual,mode,,"Description, p.170",181,170,,Turner_2014,unisexual,inferred_from_species
-Pseuduvaria,genus,species,,,,,monocarp,fruit_dehiscence,x,indehiscent,indehiscent,indehiscent,mode,,"Description, p.170",181,170,,Turner_2014,indehiscent,inferred_from_species
-Pseuduvaria,genus,species,,,,,,inflorescence_type,x,inflorescences axillary | solitary,axillary solitary,axillary solitary,mode,,"Description, p.170",181,170,,Turner_2014,axillary solitary,inferred_from_species
-Pseuduvaria,genus,species,,typically,,,,leaf_apex_shape,x,apex typically acuminate,acuminate,acuminate,mode,,"Description, p.170",181,170,,Turner_2014,acuminate,inferred_from_species
-Pseuduvaria,genus,species,,,,,,leaf_shape,x,blades elliptic | ovate or obovate,elliptic ovate obovate,elliptical ovate obovate,mode,,"Description, p.170",181,170,,Turner_2014,elliptic ovate obovate,inferred_from_species
-Pseuduvaria,genus,species,,,,,,plant_growth_form,x,treelets or trees,treelets trees,tree,mode,,"Description, p.170",181,170,,Turner_2014,treelets trees,inferred_from_species
-Pseuduvaria,genus,species,,mostly,,,,sex_type,x,mostly dioecious,dioecious,dioecious,mode,,"Description, p.170",181,170,,Turner_2014,dioecious,inferred_from_species
-Pseuduvaria,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--20 in each monocarp,1,1,minimum,{count}/{count},"Description, p.170",181,170,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_species
-Pseuduvaria,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--20 in each monocarp,20,20,maximum,{count}/{count},"Description, p.170",181,170,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,20,inferred_from_species
-Pyramidanthe,genus,species,,,,,,plant_growth_form,x,Woody climbers,climber_woody,climber_woody,mode,,"Key to genera (annotation), p.10",21,10,"Genus described only as an annotation in the key to genera; habit scored at genus rank, not copied down (standing rule, user 2026--11--04).",Turner_2014,climber_woody,inferred_from_species
-Sageraea,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.177",188,177,,Turner_2014,bisexual,inferred_from_species
-Sageraea,genus,species,,,,,monocarp,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.177",188,177,,Turner_2014,glabrous,inferred_from_species
-Sageraea,genus,species,,,,,,inflorescence_type,x,inflorescences ramiflorous or axillary fascicles arising from woody tubercles,axillary,axillary,mode,,"Description, p.177",188,177,,Turner_2014,axillary,inferred_from_species
-Sageraea,genus,species,,,,,,leaf_hairs_adult_leaves,x,"Leaves coriaceous or subcoriaceous, glabrous on both sides or sometimes sparsely pubescent beneath",glabrous,glabrous,mode,,"Description, p.177",188,177,,Turner_2014,glabrous,inferred_from_species
-Sageraea,genus,species,,,,,,plant_growth_form,x,trees,trees,tree,mode,,"Description, p.177",188,177,,Turner_2014,trees,inferred_from_species
-Sageraea,genus,species,,,,,,seed_shape,x,ellipsoid,ellipsoid,ellipsoid,mode,,"Description, p.177",188,177,,Turner_2014,ellipsoid,inferred_from_species
-Sageraea,genus,species,,,,,,stem_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.177",188,177,,Turner_2014,glabrous,inferred_from_species
-Sageraea,genus,species,,,,,,flower_structural_carpels_count,x,carpels 2--10,2,2,minimum,{count},"Description, p.177",188,177,,Turner_2014,2,inferred_from_species
-Sageraea,genus,species,,,,,,flower_structural_carpels_count,x,carpels 2--10,10,10,maximum,{count},"Description, p.177",188,177,,Turner_2014,10,inferred_from_species
-Sageraea,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 2--12 in each carpel,2,2,minimum,{count},"Description, p.177",188,177,,Turner_2014,2,inferred_from_species
-Sageraea,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 2--12 in each carpel,12,12,maximum,{count},"Description, p.177",188,177,,Turner_2014,12,inferred_from_species
-Sageraea,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 2--12 in each monocarp,2,2,minimum,{count}/{count},"Description, p.177",188,177,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,2,inferred_from_species
-Sageraea,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 2--12 in each monocarp,12,12,maximum,{count}/{count},"Description, p.177",188,177,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,12,inferred_from_species
-Sphaerocoryne,genus,species,,,,,,plant_growth_form,x,"Woody climbers or scandent shrubs, sometimes erect shrubs",climber_woody shrub,climber_woody shrub,mode,,"Key to genera (annotation), p.9",20,9,"Genus described only as an annotation in the key to genera; habit scored at genus rank, not copied down (standing rule, user 2026--11--04). Scandent shrubs scored as shrub beside climber_woody.",Turner_2014,climber_woody shrub,inferred_from_species
-Stelechocarpus,genus,species,,,,,,flower_structural_sex_type,x,flowers unisexual,unisexual,unisexual,mode,,"Description, p.180",191,180,,Turner_2014,unisexual,inferred_from_species
-Stelechocarpus,genus,species,,,,,,plant_growth_form,x,monoecious trees,trees,tree,mode,,"Description, p.180",191,180,,Turner_2014,trees,inferred_from_species
-Stelechocarpus,genus,species,,,,,,seed_shape,x,ellipsoid,ellipsoid,ellipsoid,mode,,"Description, p.180",191,180,,Turner_2014,ellipsoid,inferred_from_species
-Stelechocarpus,genus,species,,,,,,sex_type,x,monoecious trees,monoecious,monoecious,mode,,"Description, p.180",191,180,,Turner_2014,monoecious,inferred_from_species
-Stelechocarpus,genus,species,,,,,,stem_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.180",191,180,,Turner_2014,glabrous,inferred_from_species
-Stelechocarpus,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 2--11 in each monocarp,2,2,minimum,{count}/{count},"Description, p.180",191,180,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,2,inferred_from_species
-Stelechocarpus,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 2--11 in each monocarp,11,11,maximum,{count}/{count},"Description, p.180",191,180,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,11,inferred_from_species
-Trivalvaria,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.184",195,184,,Turner_2014,bisexual,inferred_from_species
-Trivalvaria,genus,species,,,,,,inflorescence_type,x,inflorescences extra-axillary,axillary,axillary,mode,,"Description, p.184",195,184,,Turner_2014,axillary,inferred_from_species
-Trivalvaria,genus,species,,,,,,leaf_hairs_adult_leaves,x,"Leaves chartaceous to subcoriaceous, glabrous on both sides or glabrous above, sparsely pubescent beneath",hairy,hairy,mode,,"Description, p.184",195,184,,Turner_2014,hairy,inferred_from_species
-Trivalvaria,genus,species,,,,,,plant_growth_form,x,treelets or trees,treelets trees,tree,mode,,"Description, p.184",195,184,,Turner_2014,treelets trees,inferred_from_species
-Trivalvaria,genus,species,,,,,,seed_surface_reflectivity,x,shiny,shiny,shiny,mode,,"Description, p.184",195,184,,Turner_2014,shiny,inferred_from_species
-Trivalvaria,genus,species,,,,,,seed_surface_texture,x,smooth,smooth,smooth,mode,,"Description, p.184",195,184,,Turner_2014,smooth,inferred_from_species
-Trivalvaria,genus,species,,,,,,flower_petal_length,x,to 1.5 cm long,1.5,1.5,maximum,cm,"Description, p.184",195,184,,Turner_2014,1.5,inferred_from_species
-Trivalvaria,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovule 1 in each carpel,1,1,mean,{count},"Description, p.184",195,184,,Turner_2014,1,inferred_from_species
-Trivalvaria,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1 in each monocarp,1,1,mean,{count}/{count},"Description, p.184",195,184,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_species
-Uvaria,genus,species,,,,,,plant_growth_form,x,Woody climbers,climber_woody,climber_woody,mode,,"Key to genera (annotation), p.7",18,7,"Genus described only as an annotation in the key to genera; habit scored at genus rank, not copied down (standing rule, user 2026--11--04).",Turner_2014,climber_woody,inferred_from_species
-Xylopia,genus,species,,often,,,,flower_scent_production,x,often fragrant,fragrant,scent_produced,mode,,"Description, p.186",197,186,,Turner_2014,fragrant,inferred_from_species
-Xylopia,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.186",197,186,,Turner_2014,bisexual,inferred_from_species
-Xylopia,genus,species,,,,,,inflorescence_type,x,fascicled or cymose | axillary,cymose axillary,cyme axillary,mode,,"Description, p.186",197,186,,Turner_2014,cymose axillary,inferred_from_species
-Xylopia,genus,species,,,,,,plant_growth_form,x,shrubs or trees,shrubs trees,shrub tree,mode,,"Description, p.186",197,186,,Turner_2014,shrubs trees,inferred_from_species
-Xylopia,genus,species,,,,,,flowers_per_inflorescence,x,Inflorescences single-flowered,1,1,mean,{count}/{count},"Description, p.186",197,186,,Turner_2014,1,inferred_from_species
+Annonaceae,family,species,,mostly,,,,flower_colour,x,petals mostly green,green,green,mode,,"Description, p.1",12,1,,Turner_2014,green,inferred_from_family
+Annonaceae,family,species,,sometimes,,,,flower_colour,x,sometimes orange,orange,yellow_orange,mode,,"Description, p.1",12,1,,Turner_2014,orange,inferred_from_family
+Annonaceae,family,species,,usually,,,,flower_colour,x,white or yellow | red or purple,white yellow red purple,white_cream yellow_orange red_brown blue_purple,mode,,"Description, p.1",12,1,,Turner_2014,white yellow red purple,inferred_from_family
+Annonaceae,family,species,,often,,,,flower_orientation,x,often nodding or pendulous,nodding pendulous,down,mode,,"Description, p.1",12,1,,Turner_2014,nodding pendulous,inferred_from_family
+Annonaceae,family,species,,rarely,,,,flower_perianth_merism,x,rarely dimerous,dimerous,2,mode,{count},"Description, p.1",12,1,,Turner_2014,2,inferred_from_family
+Annonaceae,family,species,,usually,,,,flower_perianth_merism,x,trimerous,trimerous,3,mode,{count},"Description, p.1",12,1,,Turner_2014,3,inferred_from_family
+Annonaceae,family,species,,,,,,flower_perianth_symmetry,x,regular and actinomorphic,actinomorphic,actinomorphic_general,mode,,"Description, p.1",12,1,,Turner_2014,actinomorphic,inferred_from_family
+Annonaceae,family,species,,often,,,,flower_scent_production,x,often fragrant,fragrant,scent_produced,mode,,"Description, p.1",12,1,,Turner_2014,fragrant,inferred_from_family
+Annonaceae,family,species,,rarely,,,,flower_structural_sex_type,x,or more rarely unisexual,unisexual,unisexual,mode,,"Description, p.1",12,1,,Turner_2014,unisexual,inferred_from_family
+Annonaceae,family,species,,usually,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.1",12,1,,Turner_2014,bisexual,inferred_from_family
+Annonaceae,family,species,,,,,,inflorescence_type,x,inflorescences terminal | axillary,terminal axillary,terminal axillary,mode,,"Description, p.1",12,1,,Turner_2014,terminal axillary,inferred_from_family
+Annonaceae,family,species,,generally,,,,leaf_arrangement,x,generally alternate and distichous,distichous,distichous,mode,,"Description, p.1",12,1,,Turner_2014,distichous,inferred_from_family
+Annonaceae,family,species,,rarely,,,,leaf_arrangement,x,rarely spiral,spiral,spiral,mode,,"Description, p.1",12,1,,Turner_2014,spiral,inferred_from_family
+Annonaceae,family,species,,,,,,leaf_compoundness,x,Leaves simple,simple,simple,mode,,"Description, p.1",12,1,,Turner_2014,simple,inferred_from_family
+Annonaceae,family,species,,generally,,,,leaf_phyllotaxis,x,generally alternate and distichous,alternate,alternate,mode,,"Description, p.1",12,1,,Turner_2014,alternate,inferred_from_family
+Annonaceae,family,species,,rarely,,,,plant_growth_form,x,rarely shrubs and shrublets but never truly herbaceous,shrubs,shrub,mode,,"Description, p.1",12,1,,Turner_2014,shrubs,inferred_from_family
+Annonaceae,family,species,,usually,,,,plant_growth_form,x,trees | treelets and woody climbers,trees treelets woody_climbers,tree climber_woody,mode,,"Description, p.1",12,1,,Turner_2014,trees treelets woody_climbers,inferred_from_family
+Annonaceae,family,species,,rarely,,,monocarp,fruit_dehiscence,x,indehiscent or rarely dehiscent,dehiscent,dehiscent,mode,,"Description, p.2",13,2,,Turner_2014,dehiscent,inferred_from_family
+Annonaceae,family,species,,usually,,,monocarp,fruit_dehiscence,x,indehiscent or rarely dehiscent,indehiscent,indehiscent,mode,,"Description, p.2",13,2,,Turner_2014,indehiscent,inferred_from_family
+Alphonsea,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.11",22,11,,Turner_2014,bisexual,inferred_from_genus
+Alphonsea,genus,species,,less commonly,,,,inflorescence_type,x,less commonly supra-axillary or axillary,axillary,axillary,mode,,"Description, p.11",22,11,,Turner_2014,axillary,inferred_from_genus
+Alphonsea,genus,species,,,,,,plant_growth_form,x,trees or treelets,trees treelets,tree,mode,,"Description, p.11",22,11,,Turner_2014,trees treelets,inferred_from_genus
+Anaxagorea,genus,species,,rarely,,,,flower_perianth_merism,x,trimerous (rarely dimerous),trimerous,3,mode,{count},"Description, p.18",29,18,,Turner_2014,3,inferred_from_genus
+Anaxagorea,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.18",29,18,,Turner_2014,bisexual,inferred_from_genus
+Anaxagorea,genus,species,,,,,monocarp,fruit_dehiscence,x,dehiscent along ventral suture,dehiscent,dehiscent,mode,,"Description, p.18",29,18,,Turner_2014,dehiscent,inferred_from_genus
+Anaxagorea,genus,species,,,,,,inflorescence_type,x,inflorescences axillary or leaf-opposed or terminal | 1–several-flowered rhipidia or small panicles,axillary terminal panicle,axillary terminal panicle,mode,,"Description, p.18",29,18,,Turner_2014,axillary terminal panicle,inferred_from_genus
+Anaxagorea,genus,species,,,,,,leaf_arrangement,x,leaves distichous,distichous,distichous,mode,,"Description, p.18",29,18,,Turner_2014,distichous,inferred_from_genus
+Anaxagorea,genus,species,,,,,,plant_growth_form,x,shrubs to small trees,shrubs trees,shrub tree,mode,,"Description, p.18",29,18,,Turner_2014,shrubs trees,inferred_from_genus
+Anaxagorea,genus,species,,,,,,seed_surface_reflectivity,x,shiny black,shiny,shiny,mode,,"Description, p.18",29,18,,Turner_2014,shiny,inferred_from_genus
+Anaxagorea,genus,species,,,,,,flower_structural_carpels_count,x,carpels 5--45,5,5,minimum,{count},"Description, p.18",29,18,,Turner_2014,5,inferred_from_genus
+Anaxagorea,genus,species,,,,,,flower_structural_carpels_count,x,carpels 5--45,45,45,maximum,{count},"Description, p.18",29,18,,Turner_2014,45,inferred_from_genus
+Artabotrys,genus,species,,,,,,plant_climbing_mechanism,x,"Inflorescences extra-axillary, borne on thick woody peduncles that form reflexed, often laterally compressed, hooks that assist with climbing",hooks,hooks,mode,,"Key to genera (annotation), p.8",19,8,"Hooked woody peduncles that assist with climbing; genus annotation in the key to genera (standing rule, user 2026--11--04).",Turner_2014,hooks,inferred_from_genus
+Artabotrys,genus,species,,,,,,plant_growth_form,x,Woody climbers,climber_woody,climber_woody,mode,,"Key to genera (annotation), p.8",19,8,"Genus described only as an annotation in the key to genera; habit scored at genus rank, not copied down (standing rule, user 2026--11--04).",Turner_2014,climber_woody,inferred_from_genus
+Cananga,genus,species,,,,,,flower_scent_production,x,very fragrant,fragrant,scent_produced,mode,,"Description, p.21",32,21,,Turner_2014,fragrant,inferred_from_genus
+Cananga,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.21",32,21,,Turner_2014,bisexual,inferred_from_genus
+Cananga,genus,species,,,,,,inflorescence_type,x,inflorescences axillary,axillary,axillary,mode,,"Description, p.21",32,21,,Turner_2014,axillary,inferred_from_genus
+Cananga,genus,species,,,,,,plant_growth_form,x,trees,trees,tree,mode,,"Description, p.21",32,21,,Turner_2014,trees,inferred_from_genus
+Cyathocalyx,genus,species,,often,,,,flower_scent_production,x,often fragrant,fragrant,scent_produced,mode,,"Description, p.24",35,24,,Turner_2014,fragrant,inferred_from_genus
+Cyathocalyx,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.24",35,24,,Turner_2014,bisexual,inferred_from_genus
+Cyathocalyx,genus,species,,,,,,inflorescence_type,x,inflorescences extra-axillary or leaf-opposed fascicles,axillary,axillary,mode,,"Description, p.24",35,24,,Turner_2014,axillary,inferred_from_genus
+Cyathocalyx,genus,species,,,,,,leaf_arrangement,x,leaves distichous,distichous,distichous,mode,,"Description, p.24",35,24,,Turner_2014,distichous,inferred_from_genus
+Cyathocalyx,genus,species,,,,,,plant_growth_form,x,trees,trees,tree,mode,,"Description, p.24",35,24,,Turner_2014,trees,inferred_from_genus
+Cyathocalyx,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 8--38 per carpel,8,8,minimum,{count},"Description, p.24",35,24,,Turner_2014,8,inferred_from_genus
+Cyathocalyx,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 8--38 per carpel,38,38,maximum,{count},"Description, p.24",35,24,,Turner_2014,38,inferred_from_genus
+Dasymaschalon,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.26",37,26,,Turner_2014,bisexual,inferred_from_genus
+Dasymaschalon,genus,species,,occasionally,,,,inflorescence_type,x,inflorescences single-flowered or occasionally few-flowered racemes,raceme,raceme,mode,,"Description, p.26",37,26,,Turner_2014,raceme,inferred_from_genus
+Dasymaschalon,genus,species,,usually,,,,inflorescence_type,x,axillary or terminal,axillary terminal,axillary terminal,mode,,"Description, p.26",37,26,,Turner_2014,axillary terminal,inferred_from_genus
+Dasymaschalon,genus,species,,usually,,,,plant_growth_form,x,shrubs or small trees,shrubs trees,shrub tree,mode,,"Description, p.26",37,26,,Turner_2014,shrubs trees,inferred_from_genus
+Dasymaschalon,genus,species,,very rarely,,,,plant_growth_form,x,very rarely climbers,climbers,climber,mode,,"Description, p.26",37,26,,Turner_2014,climbers,inferred_from_genus
+Dasymaschalon,genus,species,,,,,,seed_shape,x,globose to ellipsoidal,globose ellipsoid,globoid ellipsoid,mode,,"Description, p.26",37,26,,Turner_2014,globose ellipsoid,inferred_from_genus
+Dasymaschalon,genus,species,,occasionally,,,,flowers_per_inflorescence,x,Inflorescences single-flowered or occasionally few-flowered racemes,1,1,mean,{count}/{count},"Description, p.26",37,26,,Turner_2014,1,inferred_from_genus
+Dasymaschalon,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--2 in each monocarp (or more in species with moniliform monocarps),1,1,minimum,{count}/{count},"Description, p.26",37,26,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_genus
+Dasymaschalon,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--2 in each monocarp (or more in species with moniliform monocarps),2,2,maximum,{count}/{count},"Description, p.26",37,26,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,2,inferred_from_genus
+Desmos,genus,species,,,,,,plant_growth_form,x,Woody climbers or scandent shrubs,climber_woody shrub,climber_woody shrub,mode,,"Key to genera (annotation), p.8",19,8,"Genus described only as an annotation in the key to genera; habit scored at genus rank, not copied down (standing rule, user 2026--11--04). Scandent shrubs scored as shrub beside climber_woody.",Turner_2014,climber_woody shrub,inferred_from_genus
+Disepalum,genus,species,,,,,,flower_orientation,x,pendent on long slender ebracteolate pedicels,pendent,down,mode,,"Description, p.30",41,30,,Turner_2014,pendent,inferred_from_genus
+Disepalum,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.30",41,30,,Turner_2014,bisexual,inferred_from_genus
+Disepalum,genus,species,,,,,,inflorescence_type,x,inflorescences terminal,terminal,terminal,mode,,"Description, p.30",41,30,,Turner_2014,terminal,inferred_from_genus
+Disepalum,genus,species,,,,,,plant_growth_form,x,shrubs or small trees,shrubs trees,shrub tree,mode,,"Description, p.30",41,30,,Turner_2014,shrubs trees,inferred_from_genus
+Disepalum,genus,species,,,,,,seed_shape,x,ellipsoidal,ellipsoid,ellipsoid,mode,,"Description, p.30",41,30,,Turner_2014,ellipsoid,inferred_from_genus
+Disepalum,genus,species,,,,,,flowers_per_inflorescence,x,1--3-flowered,1,1,minimum,{count}/{count},"Description, p.30",41,30,,Turner_2014,1,inferred_from_genus
+Disepalum,genus,species,,,,,,flowers_per_inflorescence,x,1--3-flowered,3,3,maximum,{count}/{count},"Description, p.30",41,30,,Turner_2014,3,inferred_from_genus
+Disepalum,genus,species,,usually,,,,flower_ovules_per_functional_carpel_count,x,ovules (1--)2(--3) in each carpel,2,2,mean,{count},"Description, p.30",41,30,,Turner_2014,2,inferred_from_genus
+Disepalum,genus,species,,extreme_range,,,,flower_ovules_per_functional_carpel_count,x,ovules (1--)2(--3) in each carpel,1,1,minimum,{count},"Description, p.30",41,30,,Turner_2014,1,inferred_from_genus
+Disepalum,genus,species,,generally,,,monocarp,seeds_per_fruit,x,Seeds generally 2 in each monocarp,2,2,mean,{count}/{count},"Description, p.30",41,30,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,2,inferred_from_genus
+Drepananthus,genus,species,,often,,,,flower_scent_production,x,often fragrant,fragrant,scent_produced,mode,,"Description, p.34",45,34,,Turner_2014,fragrant,inferred_from_genus
+Drepananthus,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.34",45,34,,Turner_2014,bisexual,inferred_from_genus
+Drepananthus,genus,species,,,,,,inflorescence_type,x,inflorescences extra-axillary | fascicled or cymose,axillary cymose,axillary cyme,mode,,"Description, p.34",45,34,,Turner_2014,axillary cymose,inferred_from_genus
+Drepananthus,genus,species,,,,,,leaf_arrangement,x,leaves distichous,distichous,distichous,mode,,"Description, p.34",45,34,,Turner_2014,distichous,inferred_from_genus
+Drepananthus,genus,species,,,,,,plant_growth_form,x,monopodial trees or treelets,trees treelets,tree,mode,,"Description, p.34",45,34,,Turner_2014,trees treelets,inferred_from_genus
+Drepananthus,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--10(--20) per carpel,1,1,minimum,{count},"Description, p.34",45,34,,Turner_2014,1,inferred_from_genus
+Drepananthus,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--10(--20) per carpel,10,10,maximum,{count},"Description, p.34",45,34,,Turner_2014,10,inferred_from_genus
+Fissistigma,genus,species,,,,,,plant_growth_form,x,Woody climbers,climber_woody,climber_woody,mode,,"Key to genera (annotation), p.10",21,10,"Genus described only as an annotation in the key to genera; habit scored at genus rank, not copied down (standing rule, user 2026--11--04).",Turner_2014,climber_woody,inferred_from_genus
+Friesodielsia,genus,species,,,,,,plant_growth_form,x,Woody climbers,climber_woody,climber_woody,mode,,"Key to genera (annotation), p.9",20,9,"Genus described only as an annotation in the key to genera; habit scored at genus rank, not copied down (standing rule, user 2026--11--04).",Turner_2014,climber_woody,inferred_from_genus
+Goniothalamus,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.42",53,42,,Turner_2014,bisexual,inferred_from_genus
+Goniothalamus,genus,species,,,,,monocarp,fruit_dehiscence,x,monocarps indehiscent,indehiscent,indehiscent,mode,,"Description, p.42",53,42,,Turner_2014,indehiscent,inferred_from_genus
+Goniothalamus,genus,species,,,,,,inflorescence_type,x,inflorescences axillary or fascicled on woody tubercles of branches and trunk,axillary,axillary,mode,,"Description, p.42",53,42,,Turner_2014,axillary,inferred_from_genus
+Goniothalamus,genus,species,,,,,,plant_growth_form,x,treelets or trees,treelets trees,tree,mode,,"Description, p.42",53,42,,Turner_2014,treelets trees,inferred_from_genus
+Goniothalamus,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--2 (rarely 4) in each carpels,1,1,minimum,{count},"Description, p.42",53,42,,Turner_2014,1,inferred_from_genus
+Goniothalamus,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--2 (rarely 4) in each carpels,2,2,maximum,{count},"Description, p.42",53,42,,Turner_2014,2,inferred_from_genus
+Hubera,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.70",81,70,,Turner_2014,bisexual,inferred_from_genus
+Hubera,genus,species,,,,,monocarp,fruit_colour,x,generally ripening red,red,red,mode,,"Description, p.70",81,70,,Turner_2014,red,inferred_from_genus
+Hubera,genus,species,,,,,,inflorescence_type,x,inflorescences axillary and 1- or 2-flowered or in few-flowered fascicles on main stem and branches,axillary,axillary,mode,,"Description, p.70",81,70,,Turner_2014,axillary,inferred_from_genus
+Hubera,genus,species,,generally,,,,leaf_base_shape,x,base generally cuneate and symmetric,cuneate,cuneate,mode,,"Description, p.70",81,70,,Turner_2014,cuneate,inferred_from_genus
+Hubera,genus,species,,rarely,,,,leaf_base_shape,x,rarely cordate or asymmetric,cordate asymmetric,cordate oblique,mode,,"Description, p.70",81,70,,Turner_2014,cordate asymmetric,inferred_from_genus
+Hubera,genus,species,,,,,,plant_growth_form,x,shrubs | treelets or trees,shrubs treelets trees,shrub tree,mode,,"Description, p.70",81,70,,Turner_2014,shrubs treelets trees,inferred_from_genus
+Hubera,genus,species,,,,,,flowers_per_inflorescence,x,Inflorescences axillary and 1- or 2-flowered or in few-flowered fascicles on main stem and branches,1,1,minimum,{count}/{count},"Description, p.70",81,70,,Turner_2014,1,inferred_from_genus
+Hubera,genus,species,,,,,,flowers_per_inflorescence,x,Inflorescences axillary and 1- or 2-flowered or in few-flowered fascicles on main stem and branches,2,2,maximum,{count}/{count},"Description, p.70",81,70,,Turner_2014,2,inferred_from_genus
+Hubera,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1 in each carpel,1,1,mean,{count},"Description, p.70",81,70,,Turner_2014,1,inferred_from_genus
+Hubera,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1 in each monocarp,1,1,mean,{count}/{count},"Description, p.70",81,70,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_genus
+Maasia,genus,species,,,,,,bark_colour,x,white,white,white,mode,,"Description, p.74",85,74,,Turner_2014,white,inferred_from_genus
+Maasia,genus,species,,,,,,bark_texture,x,bark smooth,smooth,smooth,mode,,"Description, p.74",85,74,,Turner_2014,smooth,inferred_from_genus
+Maasia,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.74",85,74,,Turner_2014,bisexual,inferred_from_genus
+Maasia,genus,species,,,,,,inflorescence_type,x,inflorescences axillary or arising from tubercles behind leaves,axillary,axillary,mode,,"Description, p.74",85,74,,Turner_2014,axillary,inferred_from_genus
+Maasia,genus,species,,,,,,plant_growth_form,x,trees,trees,tree,mode,,"Description, p.74",85,74,,Turner_2014,trees,inferred_from_genus
+Maasia,genus,species,,usually,,,monocarp,seeds_per_fruit,x,Seeds 1(--2) in each monocarp,1,1,mean,{count}/{count},"Description, p.74",85,74,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_genus
+Maasia,genus,species,,extreme_range,,,monocarp,seeds_per_fruit,x,Seeds 1(--2) in each monocarp,2,2,maximum,{count}/{count},"Description, p.74",85,74,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,2,inferred_from_genus
+Marsypopetalum,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.78",89,78,,Turner_2014,bisexual,inferred_from_genus
+Marsypopetalum,genus,species,,,,,,inflorescence_type,x,inflorescences supra-axillary,axillary,axillary,mode,,"Description, p.78",89,78,,Turner_2014,axillary,inferred_from_genus
+Marsypopetalum,genus,species,,,,,,leaf_arrangement,x,leaves distichous,distichous,distichous,mode,,"Description, p.78",89,78,,Turner_2014,distichous,inferred_from_genus
+Marsypopetalum,genus,species,,,,,,plant_growth_form,x,shrubs and small trees,shrubs trees,shrub tree,mode,,"Description, p.78",89,78,,Turner_2014,shrubs trees,inferred_from_genus
+Marsypopetalum,genus,species,,,,,,seed_shape,x,ovoid | ellipsoid or fusiform,ovoid ellipsoid,ovoid ellipsoid,mode,,"Description, p.78",89,78,,Turner_2014,ovoid ellipsoid,inferred_from_genus
+Marsypopetalum,genus,species,,,,,,flowers_per_inflorescence,x,single-flowered,1,1,mean,{count}/{count},"Description, p.78",89,78,,Turner_2014,1,inferred_from_genus
+Marsypopetalum,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1 in each monocarp,1,1,mean,{count}/{count},"Description, p.78",89,78,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_genus
+Meiogyne,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.80",91,80,,Turner_2014,bisexual,inferred_from_genus
+Meiogyne,genus,species,,sometimes,,,,inflorescence_type,x,sometimes terminal or borne on branches or trunk,terminal,terminal,mode,,"Description, p.80",91,80,,Turner_2014,terminal,inferred_from_genus
+Meiogyne,genus,species,,usually,,,,inflorescence_type,x,inflorescences axillary,axillary,axillary,mode,,"Description, p.80",91,80,,Turner_2014,axillary,inferred_from_genus
+Meiogyne,genus,species,,,,,,plant_growth_form,x,trees,trees,tree,mode,,"Description, p.80",91,80,,Turner_2014,trees,inferred_from_genus
+Meiogyne,genus,species,,,,,,flowers_per_inflorescence,x,1--4-flowered,1,1,minimum,{count}/{count},"Description, p.80",91,80,,Turner_2014,1,inferred_from_genus
+Meiogyne,genus,species,,,,,,flowers_per_inflorescence,x,1--4-flowered,4,4,maximum,{count}/{count},"Description, p.80",91,80,,Turner_2014,4,inferred_from_genus
+Meiogyne,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--9 in each monocarp,1,1,minimum,{count}/{count},"Description, p.80",91,80,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_genus
+Meiogyne,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--9 in each monocarp,9,9,maximum,{count}/{count},"Description, p.80",91,80,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,9,inferred_from_genus
+Mezzettia,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.85",96,85,,Turner_2014,bisexual,inferred_from_genus
+Mezzettia,genus,species,,,,,,inflorescence_type,x,inflorescences axillary,axillary,axillary,mode,,"Description, p.85",96,85,,Turner_2014,axillary,inferred_from_genus
+Mezzettia,genus,species,,,,,,leaf_hairs_adult_leaves,x,"Leaves glabrous, often shiny above",glabrous,glabrous,mode,,"Description, p.85",96,85,,Turner_2014,glabrous,inferred_from_genus
+Mezzettia,genus,species,,,,,,plant_growth_form,x,large trees,trees,tree,mode,,"Description, p.85",96,85,,Turner_2014,trees,inferred_from_genus
+Mezzettia,genus,species,,,,,,seed_surface_texture,x,smooth,smooth,smooth,mode,,"Description, p.85",96,85,,Turner_2014,smooth,inferred_from_genus
+Mezzettia,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 9--21 in 2 or 3 whorls,9,9,minimum,{count},"Description, p.85",96,85,,Turner_2014,9,inferred_from_genus
+Mezzettia,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 9--21 in 2 or 3 whorls,21,21,maximum,{count},"Description, p.85",96,85,,Turner_2014,21,inferred_from_genus
+Mezzettia,genus,species,,,,,,flower_structural_carpels_count,x,carpel 1,1,1,mean,{count},"Description, p.85",96,85,,Turner_2014,1,inferred_from_genus
+Mezzettia,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 2 in each carpel,2,2,mean,{count},"Description, p.85",96,85,,Turner_2014,2,inferred_from_genus
+Mezzettia,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--2 in each monocarp,1,1,minimum,{count}/{count},"Description, p.85",96,85,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_genus
+Mezzettia,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--2 in each monocarp,2,2,maximum,{count}/{count},"Description, p.85",96,85,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,2,inferred_from_genus
+Miliusa,genus,species,,occasionally,,,,flower_structural_sex_type,x,occasionally unisexual,unisexual,unisexual,mode,,"Description, p.90",101,90,,Turner_2014,unisexual,inferred_from_genus
+Miliusa,genus,species,,usually,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.90",101,90,,Turner_2014,bisexual,inferred_from_genus
+Miliusa,genus,species,,,,,,inflorescence_type,x,inflorescences axillary | solitary or in few-flowered fascicles,axillary solitary,axillary solitary,mode,,"Description, p.90",101,90,,Turner_2014,axillary solitary,inferred_from_genus
+Miliusa,genus,species,,,,,,plant_growth_form,x,shrubs or small trees,shrubs trees,shrub tree,mode,,"Description, p.90",101,90,,Turner_2014,shrubs trees,inferred_from_genus
+Miliusa,genus,species,,,,,,seed_shape,x,ellipsoidal,ellipsoid,ellipsoid,mode,,"Description, p.90",101,90,,Turner_2014,ellipsoid,inferred_from_genus
+Miliusa,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--10 in each carpel,1,1,minimum,{count},"Description, p.90",101,90,,Turner_2014,1,inferred_from_genus
+Miliusa,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--10 in each carpel,10,10,maximum,{count},"Description, p.90",101,90,,Turner_2014,10,inferred_from_genus
+Miliusa,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--9 in each monocarp,1,1,minimum,{count}/{count},"Description, p.90",101,90,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_genus
+Miliusa,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--9 in each monocarp,9,9,maximum,{count}/{count},"Description, p.90",101,90,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,9,inferred_from_genus
+Mitrella,genus,species,,,,,,plant_growth_form,x,Woody climbers,climber_woody,climber_woody,mode,,"Key to genera (annotation), p.10",21,10,"Genus described only as an annotation in the key to genera; habit scored at genus rank, not copied down (standing rule, user 2026--11--04).",Turner_2014,climber_woody,inferred_from_genus
+Mitrephora,genus,species,,,,,inner petals,flower_colour,x,yellow,yellow,yellow_orange,mode,,"Description, p.92",103,92,,Turner_2014,yellow,inferred_from_genus
+Mitrephora,genus,species,,,,,outer petals,flower_colour,x,white or yellow,white yellow,white_cream yellow_orange,mode,,"Description, p.92",103,92,,Turner_2014,white yellow,inferred_from_genus
+Mitrephora,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.92",103,92,,Turner_2014,bisexual,inferred_from_genus
+Mitrephora,genus,species,,,,,monocarp,fruit_dehiscence,x,monocarps indehiscent,indehiscent,indehiscent,mode,,"Description, p.92",103,92,,Turner_2014,indehiscent,inferred_from_genus
+Mitrephora,genus,species,,generally,,,,inflorescence_type,x,inflorescences terminal but generally appearing leaf-opposed or extra-axillary,terminal axillary,terminal axillary,mode,,"Description, p.92",103,92,,Turner_2014,terminal axillary,inferred_from_genus
+Mitrephora,genus,species,,rarely,,,,inflorescence_type,x,rarely flowers solitary,solitary,solitary,mode,,"Description, p.92",103,92,,Turner_2014,solitary,inferred_from_genus
+Mitrephora,genus,species,,usually,,,,inflorescence_type,x,thyrsoid bearing 2--3(–several) flowers at any one time,thyrsoid,panicle,mode,,"Description, p.92",103,92,,Turner_2014,thyrsoid,inferred_from_genus
+Mitrephora,genus,species,,,,,,plant_growth_form,x,treelets to large trees,treelets trees,tree,mode,,"Description, p.92",103,92,,Turner_2014,treelets trees,inferred_from_genus
+Monocarpia,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.104",115,104,,Turner_2014,bisexual,inferred_from_genus
+Monocarpia,genus,species,,,,,,plant_growth_form,x,medium-sized or large trees,trees,tree,mode,,"Description, p.104",115,104,,Turner_2014,trees,inferred_from_genus
+Monocarpia,genus,species,,,,,,flowers_per_inflorescence,x,Inflorescences 1--3-flowered,1,1,minimum,{count}/{count},"Description, p.104",115,104,,Turner_2014,1,inferred_from_genus
+Monocarpia,genus,species,,,,,,flowers_per_inflorescence,x,Inflorescences 1--3-flowered,3,3,maximum,{count}/{count},"Description, p.104",115,104,,Turner_2014,3,inferred_from_genus
+Monocarpia,genus,species,,,,,,flower_structural_carpels_count,x,carpels 1--3,1,1,minimum,{count},"Description, p.104",115,104,,Turner_2014,1,inferred_from_genus
+Monocarpia,genus,species,,,,,,flower_structural_carpels_count,x,carpels 1--3,3,3,maximum,{count},"Description, p.104",115,104,,Turner_2014,3,inferred_from_genus
+Monocarpia,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 8--13 in each monocarp,8,8,minimum,{count}/{count},"Description, p.104",115,104,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,8,inferred_from_genus
+Monocarpia,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 8--13 in each monocarp,13,13,maximum,{count}/{count},"Description, p.104",115,104,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,13,inferred_from_genus
+Monoon,genus,species,,rarely,,,,flower_colour,x,rarely pink or red,pink red,pink red_brown,mode,,"Description, p.108",119,108,,Turner_2014,pink red,inferred_from_genus
+Monoon,genus,species,,typically,,,,flower_colour,x,typically white to yellow at anthesis,white yellow,white_cream yellow_orange,mode,,"Description, p.108",119,108,,Turner_2014,white yellow,inferred_from_genus
+Monoon,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.108",119,108,,Turner_2014,bisexual,inferred_from_genus
+Monoon,genus,species,,,,,,leaf_base_shape,x,base acute to rounded cordate),acute rounded cordate,acute rounded cordate,mode,,"Description, p.108",119,108,,Turner_2014,acute rounded cordate,inferred_from_genus
+Monoon,genus,species,,,,,,plant_growth_form,x,trees,trees,tree,mode,,"Description, p.108",119,108,,Turner_2014,trees,inferred_from_genus
+Monoon,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1 in each carpel,1,1,mean,{count},"Description, p.108",119,108,,Turner_2014,1,inferred_from_genus
+Monoon,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1 in each monocarp,1,1,mean,{count}/{count},"Description, p.108",119,108,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_genus
+Neo-uvaria,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.121",132,121,,Turner_2014,bisexual,inferred_from_genus
+Neo-uvaria,genus,species,,,,,monocarp,fruit_surface_hairs,x,hairy,hairy,hairy,mode,,"Description, p.121",132,121,,Turner_2014,hairy,inferred_from_genus
+Neo-uvaria,genus,species,,,,,,inflorescence_type,x,inflorescences axillary,axillary,axillary,mode,,"Description, p.121",132,121,,Turner_2014,axillary,inferred_from_genus
+Neo-uvaria,genus,species,,often,,,,leaf_apex_shape,x,apex often markedly acuminate,acuminate,acuminate,mode,,"Description, p.121",132,121,,Turner_2014,acuminate,inferred_from_genus
+Neo-uvaria,genus,species,,,,,,plant_growth_form,x,trees,trees,tree,mode,,"Description, p.121",132,121,,Turner_2014,trees,inferred_from_genus
+Neo-uvaria,genus,species,,,,,,stem_hairs,x,hairy,hairy,hairy,mode,,"Description, p.121",132,121,,Turner_2014,hairy,inferred_from_genus
+Neo-uvaria,genus,species,,,,,,flowers_per_inflorescence,x,1--3-flowered,1,1,minimum,{count}/{count},"Description, p.121",132,121,,Turner_2014,1,inferred_from_genus
+Neo-uvaria,genus,species,,,,,,flowers_per_inflorescence,x,1--3-flowered,3,3,maximum,{count}/{count},"Description, p.121",132,121,,Turner_2014,3,inferred_from_genus
+Neo-uvaria,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 20--30,20,20,minimum,{count},"Description, p.121",132,121,,Turner_2014,20,inferred_from_genus
+Neo-uvaria,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 20--30,30,30,maximum,{count},"Description, p.121",132,121,,Turner_2014,30,inferred_from_genus
+Neo-uvaria,genus,species,,,,,,flower_structural_carpels_count,x,carpels 4--12,4,4,minimum,{count},"Description, p.121",132,121,,Turner_2014,4,inferred_from_genus
+Neo-uvaria,genus,species,,,,,,flower_structural_carpels_count,x,carpels 4--12,12,12,maximum,{count},"Description, p.121",132,121,,Turner_2014,12,inferred_from_genus
+Neo-uvaria,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--2 in each carpel,1,1,minimum,{count},"Description, p.121",132,121,,Turner_2014,1,inferred_from_genus
+Neo-uvaria,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--2 in each carpel,2,2,maximum,{count},"Description, p.121",132,121,,Turner_2014,2,inferred_from_genus
+Neo-uvaria,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1 in each monocarp,1,1,mean,{count}/{count},"Description, p.121",132,121,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_genus
+Orophea,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.125",136,125,,Turner_2014,bisexual,inferred_from_genus
+Orophea,genus,species,,,,,monocarp,fruit_dehiscence,x,indehiscent,indehiscent,indehiscent,mode,,"Description, p.125",136,125,,Turner_2014,indehiscent,inferred_from_genus
+Orophea,genus,species,,,,,,inflorescence_type,x,inflorescences axillary or supra-axillary | few- to many-flowered fascicles or cymes,axillary cyme,axillary cyme,mode,,"Description, p.125",136,125,,Turner_2014,axillary cyme,inferred_from_genus
+Orophea,genus,species,,,,,,plant_growth_form,x,small trees,trees,tree,mode,,"Description, p.125",136,125,,Turner_2014,trees,inferred_from_genus
+Orophea,genus,species,,,,,,seed_shape,x,globose,globose,globoid,mode,,"Description, p.125",136,125,,Turner_2014,globose,inferred_from_genus
+Orophea,genus,species,,,,,,flower_fertile_stamens_count,x,stamens 3,3,3,mean,{count},"Description, p.125",136,125,,Turner_2014,3,inferred_from_genus
+Orophea,genus,species,,,,,,flower_structural_carpels_count,x,carpels 3,3,3,mean,{count},"Description, p.125",136,125,,Turner_2014,3,inferred_from_genus
+Orophea,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--8 in each monocarp,1,1,minimum,{count}/{count},"Description, p.125",136,125,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_genus
+Orophea,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--8 in each monocarp,8,8,maximum,{count}/{count},"Description, p.125",136,125,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,8,inferred_from_genus
+Phaeanthus,genus,species,,,,,,flower_orientation,x,pendulous on slender pedicels,pendulous,down,mode,,"Description, p.136",147,136,,Turner_2014,pendulous,inferred_from_genus
+Phaeanthus,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.136",147,136,,Turner_2014,bisexual,inferred_from_genus
+Phaeanthus,genus,species,,occasionally,,,,inflorescence_type,x,occasionally terminal,terminal,terminal,mode,,"Description, p.136",147,136,,Turner_2014,terminal,inferred_from_genus
+Phaeanthus,genus,species,,usually,,,,inflorescence_type,x,inflorescences extra-axillary | cymose,axillary cymose,axillary cyme,mode,,"Description, p.136",147,136,,Turner_2014,axillary cymose,inferred_from_genus
+Phaeanthus,genus,species,,,,,,plant_growth_form,x,treelets or trees,treelets trees,tree,mode,,"Description, p.136",147,136,,Turner_2014,treelets trees,inferred_from_genus
+Phaeanthus,genus,species,,,,,,flowers_per_inflorescence,x,1--4-flowered,1,1,minimum,{count}/{count},"Description, p.136",147,136,,Turner_2014,1,inferred_from_genus
+Phaeanthus,genus,species,,,,,,flowers_per_inflorescence,x,1--4-flowered,4,4,maximum,{count}/{count},"Description, p.136",147,136,,Turner_2014,4,inferred_from_genus
+Phaeanthus,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--2 in each carpel,1,1,minimum,{count},"Description, p.136",147,136,,Turner_2014,1,inferred_from_genus
+Phaeanthus,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 1--2 in each carpel,2,2,maximum,{count},"Description, p.136",147,136,,Turner_2014,2,inferred_from_genus
+Phaeanthus,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1 or 2 in each monocarp,1,1,minimum,{count}/{count},"Description, p.136",147,136,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_genus
+Phaeanthus,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1 or 2 in each monocarp,2,2,maximum,{count}/{count},"Description, p.136",147,136,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,2,inferred_from_genus
+Polyalthia,genus,species,,,,,,flower_colour,x,white | yellow | green | orange or red,white yellow green orange red,white_cream yellow_orange green red_brown,mode,,"Description, p.141",152,141,,Turner_2014,white yellow green orange red,inferred_from_genus
+Polyalthia,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.141",152,141,,Turner_2014,bisexual,inferred_from_genus
+Polyalthia,genus,species,,,,,,inflorescence_type,x,inflorescences ramiflorous or axillary fascicles arising from woody tubercles,axillary,axillary,mode,,"Description, p.141",152,141,,Turner_2014,axillary,inferred_from_genus
+Polyalthia,genus,species,,,,,,leaf_base_shape,x,base acute | cuneate | obtuse | rounded or asymmetrically subcordate | cordate to auriculate,acute cuneate obtuse rounded asymmetric cordate auriculate,acute cuneate obtuse rounded oblique cordate auriculate,mode,,"Description, p.141",152,141,,Turner_2014,acute cuneate obtuse rounded asymmetric cordate auriculate,inferred_from_genus
+Polyalthia,genus,species,,,,,,plant_growth_form,x,small treelets to trees,treelets trees,tree,mode,,"Description, p.141",152,141,,Turner_2014,treelets trees,inferred_from_genus
+Polyalthia,genus,species,,,,,,seed_shape,x,ellipsoidal,ellipsoid,ellipsoid,mode,,"Description, p.141",152,141,,Turner_2014,ellipsoid,inferred_from_genus
+Polyalthia,genus,species,,,,,monocarp,fruit_length,x,0.5--5 cm long,0.5,0.5,minimum,cm,"Description, p.141",152,141,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,0.5,inferred_from_genus
+Polyalthia,genus,species,,,,,monocarp,fruit_length,x,0.5--5 cm long,5,5,maximum,cm,"Description, p.141",152,141,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,5,inferred_from_genus
+Popowia,genus,species,,,,,,flower_colour,x,white or yellow,white yellow,white_cream yellow_orange,mode,,"Description, p.165",176,165,,Turner_2014,white yellow,inferred_from_genus
+Popowia,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.165",176,165,,Turner_2014,bisexual,inferred_from_genus
+Popowia,genus,species,,,,,,inflorescence_type,x,inflorescences extra-axillary,axillary,axillary,mode,,"Description, p.165",176,165,,Turner_2014,axillary,inferred_from_genus
+Popowia,genus,species,,,,,,leaf_base_shape,x,base cuneate | obtuse or rounded | slightly unequal,cuneate obtuse rounded unequal,cuneate obtuse rounded oblique,mode,,"Description, p.165",176,165,,Turner_2014,cuneate obtuse rounded unequal,inferred_from_genus
+Popowia,genus,species,,,,,,leaf_margin,x,margin entire,entire,entire,mode,,"Description, p.165",176,165,,Turner_2014,entire,inferred_from_genus
+Popowia,genus,species,,,,,,plant_growth_form,x,shrubs or trees,shrubs trees,shrub tree,mode,,"Description, p.165",176,165,,Turner_2014,shrubs trees,inferred_from_genus
+Popowia,genus,species,,,,,,seed_surface_texture,x,rugose or pitted and with or without a circumferential ridge,rugose,rough,mode,,"Description, p.165",176,165,,Turner_2014,rugose,inferred_from_genus
+Popowia,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 2--4 in each carpel,2,2,minimum,{count},"Description, p.165",176,165,,Turner_2014,2,inferred_from_genus
+Popowia,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 2--4 in each carpel,4,4,maximum,{count},"Description, p.165",176,165,,Turner_2014,4,inferred_from_genus
+Popowia,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--4 in each monocarp,1,1,minimum,{count}/{count},"Description, p.165",176,165,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_genus
+Popowia,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--4 in each monocarp,4,4,maximum,{count}/{count},"Description, p.165",176,165,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,4,inferred_from_genus
+Pseuduvaria,genus,species,,,,,,flower_structural_sex_type,x,flowers unisexual,unisexual,unisexual,mode,,"Description, p.170",181,170,,Turner_2014,unisexual,inferred_from_genus
+Pseuduvaria,genus,species,,,,,monocarp,fruit_dehiscence,x,indehiscent,indehiscent,indehiscent,mode,,"Description, p.170",181,170,,Turner_2014,indehiscent,inferred_from_genus
+Pseuduvaria,genus,species,,,,,,inflorescence_type,x,inflorescences axillary | solitary,axillary solitary,axillary solitary,mode,,"Description, p.170",181,170,,Turner_2014,axillary solitary,inferred_from_genus
+Pseuduvaria,genus,species,,typically,,,,leaf_apex_shape,x,apex typically acuminate,acuminate,acuminate,mode,,"Description, p.170",181,170,,Turner_2014,acuminate,inferred_from_genus
+Pseuduvaria,genus,species,,,,,,leaf_shape,x,blades elliptic | ovate or obovate,elliptic ovate obovate,elliptical ovate obovate,mode,,"Description, p.170",181,170,,Turner_2014,elliptic ovate obovate,inferred_from_genus
+Pseuduvaria,genus,species,,,,,,plant_growth_form,x,treelets or trees,treelets trees,tree,mode,,"Description, p.170",181,170,,Turner_2014,treelets trees,inferred_from_genus
+Pseuduvaria,genus,species,,mostly,,,,sex_type,x,mostly dioecious,dioecious,dioecious,mode,,"Description, p.170",181,170,,Turner_2014,dioecious,inferred_from_genus
+Pseuduvaria,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--20 in each monocarp,1,1,minimum,{count}/{count},"Description, p.170",181,170,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_genus
+Pseuduvaria,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1--20 in each monocarp,20,20,maximum,{count}/{count},"Description, p.170",181,170,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,20,inferred_from_genus
+Pyramidanthe,genus,species,,,,,,plant_growth_form,x,Woody climbers,climber_woody,climber_woody,mode,,"Key to genera (annotation), p.10",21,10,"Genus described only as an annotation in the key to genera; habit scored at genus rank, not copied down (standing rule, user 2026--11--04).",Turner_2014,climber_woody,inferred_from_genus
+Sageraea,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.177",188,177,,Turner_2014,bisexual,inferred_from_genus
+Sageraea,genus,species,,,,,monocarp,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.177",188,177,,Turner_2014,glabrous,inferred_from_genus
+Sageraea,genus,species,,,,,,inflorescence_type,x,inflorescences ramiflorous or axillary fascicles arising from woody tubercles,axillary,axillary,mode,,"Description, p.177",188,177,,Turner_2014,axillary,inferred_from_genus
+Sageraea,genus,species,,,,,,leaf_hairs_adult_leaves,x,"Leaves coriaceous or subcoriaceous, glabrous on both sides or sometimes sparsely pubescent beneath",glabrous,glabrous,mode,,"Description, p.177",188,177,,Turner_2014,glabrous,inferred_from_genus
+Sageraea,genus,species,,,,,,plant_growth_form,x,trees,trees,tree,mode,,"Description, p.177",188,177,,Turner_2014,trees,inferred_from_genus
+Sageraea,genus,species,,,,,,seed_shape,x,ellipsoid,ellipsoid,ellipsoid,mode,,"Description, p.177",188,177,,Turner_2014,ellipsoid,inferred_from_genus
+Sageraea,genus,species,,,,,,stem_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.177",188,177,,Turner_2014,glabrous,inferred_from_genus
+Sageraea,genus,species,,,,,,flower_structural_carpels_count,x,carpels 2--10,2,2,minimum,{count},"Description, p.177",188,177,,Turner_2014,2,inferred_from_genus
+Sageraea,genus,species,,,,,,flower_structural_carpels_count,x,carpels 2--10,10,10,maximum,{count},"Description, p.177",188,177,,Turner_2014,10,inferred_from_genus
+Sageraea,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 2--12 in each carpel,2,2,minimum,{count},"Description, p.177",188,177,,Turner_2014,2,inferred_from_genus
+Sageraea,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovules 2--12 in each carpel,12,12,maximum,{count},"Description, p.177",188,177,,Turner_2014,12,inferred_from_genus
+Sageraea,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 2--12 in each monocarp,2,2,minimum,{count}/{count},"Description, p.177",188,177,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,2,inferred_from_genus
+Sageraea,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 2--12 in each monocarp,12,12,maximum,{count}/{count},"Description, p.177",188,177,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,12,inferred_from_genus
+Sphaerocoryne,genus,species,,,,,,plant_growth_form,x,"Woody climbers or scandent shrubs, sometimes erect shrubs",climber_woody shrub,climber_woody shrub,mode,,"Key to genera (annotation), p.9",20,9,"Genus described only as an annotation in the key to genera; habit scored at genus rank, not copied down (standing rule, user 2026--11--04). Scandent shrubs scored as shrub beside climber_woody.",Turner_2014,climber_woody shrub,inferred_from_genus
+Stelechocarpus,genus,species,,,,,,flower_structural_sex_type,x,flowers unisexual,unisexual,unisexual,mode,,"Description, p.180",191,180,,Turner_2014,unisexual,inferred_from_genus
+Stelechocarpus,genus,species,,,,,,plant_growth_form,x,monoecious trees,trees,tree,mode,,"Description, p.180",191,180,,Turner_2014,trees,inferred_from_genus
+Stelechocarpus,genus,species,,,,,,seed_shape,x,ellipsoid,ellipsoid,ellipsoid,mode,,"Description, p.180",191,180,,Turner_2014,ellipsoid,inferred_from_genus
+Stelechocarpus,genus,species,,,,,,sex_type,x,monoecious trees,monoecious,monoecious,mode,,"Description, p.180",191,180,,Turner_2014,monoecious,inferred_from_genus
+Stelechocarpus,genus,species,,,,,,stem_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.180",191,180,,Turner_2014,glabrous,inferred_from_genus
+Stelechocarpus,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 2--11 in each monocarp,2,2,minimum,{count}/{count},"Description, p.180",191,180,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,2,inferred_from_genus
+Stelechocarpus,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 2--11 in each monocarp,11,11,maximum,{count}/{count},"Description, p.180",191,180,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,11,inferred_from_genus
+Trivalvaria,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.184",195,184,,Turner_2014,bisexual,inferred_from_genus
+Trivalvaria,genus,species,,,,,,inflorescence_type,x,inflorescences extra-axillary,axillary,axillary,mode,,"Description, p.184",195,184,,Turner_2014,axillary,inferred_from_genus
+Trivalvaria,genus,species,,,,,,leaf_hairs_adult_leaves,x,"Leaves chartaceous to subcoriaceous, glabrous on both sides or glabrous above, sparsely pubescent beneath",hairy,hairy,mode,,"Description, p.184",195,184,,Turner_2014,hairy,inferred_from_genus
+Trivalvaria,genus,species,,,,,,plant_growth_form,x,treelets or trees,treelets trees,tree,mode,,"Description, p.184",195,184,,Turner_2014,treelets trees,inferred_from_genus
+Trivalvaria,genus,species,,,,,,seed_surface_reflectivity,x,shiny,shiny,shiny,mode,,"Description, p.184",195,184,,Turner_2014,shiny,inferred_from_genus
+Trivalvaria,genus,species,,,,,,seed_surface_texture,x,smooth,smooth,smooth,mode,,"Description, p.184",195,184,,Turner_2014,smooth,inferred_from_genus
+Trivalvaria,genus,species,,,,,,flower_petal_length,x,to 1.5 cm long,1.5,1.5,maximum,cm,"Description, p.184",195,184,,Turner_2014,1.5,inferred_from_genus
+Trivalvaria,genus,species,,,,,,flower_ovules_per_functional_carpel_count,x,ovule 1 in each carpel,1,1,mean,{count},"Description, p.184",195,184,,Turner_2014,1,inferred_from_genus
+Trivalvaria,genus,species,,,,,monocarp,seeds_per_fruit,x,Seeds 1 in each monocarp,1,1,mean,{count}/{count},"Description, p.184",195,184,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,1,inferred_from_genus
+Uvaria,genus,species,,,,,,plant_growth_form,x,Woody climbers,climber_woody,climber_woody,mode,,"Key to genera (annotation), p.7",18,7,"Genus described only as an annotation in the key to genera; habit scored at genus rank, not copied down (standing rule, user 2026--11--04).",Turner_2014,climber_woody,inferred_from_genus
+Xylopia,genus,species,,often,,,,flower_scent_production,x,often fragrant,fragrant,scent_produced,mode,,"Description, p.186",197,186,,Turner_2014,fragrant,inferred_from_genus
+Xylopia,genus,species,,,,,,flower_structural_sex_type,x,flowers bisexual,bisexual,bisexual,mode,,"Description, p.186",197,186,,Turner_2014,bisexual,inferred_from_genus
+Xylopia,genus,species,,,,,,inflorescence_type,x,fascicled or cymose | axillary,cymose axillary,cyme axillary,mode,,"Description, p.186",197,186,,Turner_2014,cymose axillary,inferred_from_genus
+Xylopia,genus,species,,,,,,plant_growth_form,x,shrubs or trees,shrubs trees,shrub tree,mode,,"Description, p.186",197,186,,Turner_2014,shrubs trees,inferred_from_genus
+Xylopia,genus,species,,,,,,flowers_per_inflorescence,x,Inflorescences single-flowered,1,1,mean,{count}/{count},"Description, p.186",197,186,,Turner_2014,1,inferred_from_genus
 Alphonsea borneensis,species,species,family,,,,,leaf_compoundness,x,Leaves simple,simple,simple,mode,,"Family description, p.1",12,1,Copied from the Annonaceae description.,Turner_2014,simple,inferred_from_family
 Alphonsea borneensis,species,species,,,Sabah and Sarawak,,,leaf_apex_shape,x,apex acuminate,acuminate,acuminate,mode,,"Description, p.12",23,12,,Turner_2014,acuminate,inferred_from_species
 Alphonsea borneensis,species,species,,,Sabah and Sarawak,,,leaf_base_shape,x,base acute to obtuse,acute obtuse,acute obtuse,mode,,"Description, p.12",23,12,,Turner_2014,acute obtuse,inferred_from_species
