@@ -46,6 +46,7 @@ Worked examples, all in this repository:
 | `data/Kochummen_2000` | Moraceae, TFSS vol. 3 | 2007 electronic text, scripted clause parser after Soepadmo_2000, 99 species and 5 single-infra taxa | figs and syncarps are not fruits (colour only); 77 Ficus taxa annotated only in the key not scored; stranglers as hemiepiphytes; genus Ecology pollinator copied down |
 | `data/DeWilde_2018` | Myristicaceae, FPM vol. 7 | born-digital PDF, scripted clause parser after Prance_2012, 65 species and 24 infraspecific taxa | unisexual flowers described by their buds; fused anthers counted; aril and pericarp; hair lengths inside organ clauses; single-infra taxa carry the description; Sinclair-cited organs get `source_id` |
 | `data/Ashton_2004` | Dipterocarpaceae, TFSS vol. 5 | 2008 electronic text (";" as U+037E), scripted clause parser after Soepadmo_2000, 267 species and 40 subspecies | largest family so far, one run; nut is the fruit, calyx wings unmapped; subspecies in key annotations inherit; descriptions split by figure pages; family Ecology by hand |
+| `data/Turner_2014` | Annonaceae, TFSS vol. 8 | born-digital PDF, scripted clause parser after Ashton_2004, 160 species | monocarp is the fruit; colours on drying not scored; outer and inner petals by `entity_measured`; climbing genera annotated in the key to genera not scored; male and female flower sentences |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
@@ -695,6 +696,12 @@ Bespoke checklist (decisions that changed per family):
   `fruit_wall_thickness`. A perianth colour after an "inside" clause
   ("inside glabrous, greenish creamy") stays unmapped: its surface is
   unclear.
+  Provisional (Turner_2014 questions 4, 6 and 7): petal whorls described
+  apart ("outer petals ...; inner petals ...") -> `flower_petal_length` and
+  `flower_colour` with `entity_measured = outer petals` or `inner petals`;
+  fruiting pedicels stay unmapped (flower pedicels -> `pedicel_length`);
+  seed "c. 4 mm thick" -> `seed_height` (the shortest dimension), seed
+  diameter -> `seed_width`.
   Provisional (Prance_1995 question 2): leaves "with stomatal crypts"
   -> `leaf_stomatal_position = encrypted`; "without stomatal crypts" has no
   level and stays unmapped.
