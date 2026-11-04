@@ -1123,3 +1123,12 @@ questions:
     inflorescence_length and the second as inflorescence_diameter (19 rows,
     noted "Head width scored as inflorescence_diameter"). Confirm the width
     as diameter.
+  question10: |
+    Trophis and Maclura habit rank. Both genera are annotated only in the
+    key to genera ("Dioecious, unarmed twining climbers (in Sabah)", p. 182;
+    "Dioecious climbers (in Sabah)", p. 183), with a genus remark naming one
+    species in Sabah and Sarawak (T. scandens, M. cochinchinensis). The
+    standing rule scores habit at the printed rank, but here the habit is
+    scored on that one species instead (3 rows), because outside Sabah the
+    genera are also trees or shrubs, so a genus row would mislead. Should
+    these rows stay at species rank or move to genus rank?
