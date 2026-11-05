@@ -606,6 +606,14 @@ Bespoke checklist (decisions that changed per family):
   subcordate or subcuneate at base, acuminate at apex"): the unlabelled
   alternatives before an "at base" or "at apex" chunk belong to it
   (Prance_1995).
+- **Comma lists of alternatives.** "Twigs glabrous, pubescent or
+  tomentose" lists three states of one character; the first chunk is not a
+  state of its own. A chunk parser scores it as glabrous unless it checks
+  the piece: score one chunk only when no other chunk of the piece gives
+  an alternative for the same character, or when each later alternative
+  carries a commonness word ("Twigs appressed long-hairy, rarely
+  glabrous"). Otherwise keep the piece unmapped (Nooteboom_2010: 3 false
+  "glabrous" twigs before the fix).
 - **Adjacent organs.** Parse explicit organ shifts; young and mature bark
   separately; seed cones under fruit traits with `entity_measured = seed cone`
   (confirm per family, see Lim_2010 question 3). A compound fruiting head is
