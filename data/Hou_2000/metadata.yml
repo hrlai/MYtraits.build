@@ -83,13 +83,13 @@ dataset:
     Sarawak (TFSS guide); copied and inherited values have none. One source
     repair (raw/source_fixes.csv): letter 'l' printed for the digit 1 in the
     young seed of Saraca hullettii. Young, immature and unripe fruits and
-    seeds are not scored. Of 4,097 rows in raw/trait_data.csv, 2,108 are
-    mapped (1,728 from the taxa's own descriptions and Ecology months, 254
-    copied from genus, 126 inherited by key-annotated varieties) and 1,989
-    are unmapped: 1,663 description clauses and 326 sentences of
+    seeds are not scored. Of 4,142 rows in raw/trait_data.csv, 2,187 are
+    mapped (1,799 from the taxa's own descriptions and Ecology months, 254
+    copied from genus, 134 inherited by key-annotated varieties) and 1,955
+    are unmapped: 1,630 description clauses and 325 sentences of
     Distribution, Ecology, Uses, vernacular names and key annotations. The
     most frequent unmapped characters are stipule shape, size and
-    persistence; bract shape and persistence; pedicel and petiolule length;
+    persistence; bract shape and persistence; petiolule length;
     'petiole and rachis' length; calyx lobe and petal shape, number and
     indumentum; ovary indumentum and length; lateral vein number;
     hypanthium shape; inner bark and sapwood colour; fruit texture, valves
@@ -483,6 +483,15 @@ traits:
     replicates: .na
     methods: |
       Second dimension of the leaflet size 'L x W', entity_measured leaflet.
+  - var_in: pedicel_length
+    unit_in: unit
+    trait_name: pedicel_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: |
+      Flower pedicel length from the inflorescence or flower sentence ('pedicel 4.5--5.5 mm long'); 'flowers subsessile or pedicel 1--2 mm long' and fruiting stalks not scored.
   - var_in: petiole_length
     unit_in: unit
     trait_name: petiole_length
@@ -1130,7 +1139,7 @@ questions:
     Varieties in a key. Dialium indum var. indum and var. bursa and D.
     kunstleri var. kunstleri and var. trifoliolatum appear only as
     annotations in a key to varieties (distribution and ecology). They
-    inherit the species rows (126 rows, inferred_from_species), as in
+    inherit the species rows (134 rows, inferred_from_species), as in
     Ashton_2004; Kochummen_1995 and Kochummen_2000 kept such taxa unmapped
     (Kochummen_2000 question 3 asks for one rule). Confirm.
   question7: |

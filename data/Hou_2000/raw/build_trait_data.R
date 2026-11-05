@@ -393,6 +393,11 @@ score_chunk <- function(cl) {
         add(num_rows("inflorescence_length", l, em = "inflorescence rachis", notes = "Rachis length scored as inflorescence_length (provisional, Ashton_2004 question 3).", cq_text = x))
       }
     },
+    # flower pedicels (Turner_2014 rule); "articulated at the apex" is not a size
+    pedicel = if (so %in% c("inflorescences", "flowers")) {
+      l <- grab(x, "long")
+      if (!is.na(l)) add(num_rows("pedicel_length", l, cq_text = x))
+    },
     bracts = if (so == "inflorescences") {
       b <- str_extract(str_to_lower(cl$organ_text), "^(bracts and bracteoles|bracts?|bracteoles?)\\b")
       em <- case_when(

@@ -5,7 +5,6 @@ calyx lobes,description,41,Caesalpinioideae,usually imbricate,119
 flowers,description,36,Caesalpinioideae,rarely sessile,119
 seeds,description,34,Caesalpinioideae,Seeds varying in form,119
 bracts,description,32,Caesalpinioideae,bracts and bracteoles usually present,119
-pedicel,size,30,Afzelia rhomboidea,pedicel 4.5--5.5 mm long,124
 stipules,description,29,Caesalpinioideae,Stipules usually present,119
 calyx lobes,indumentum,28,Afzelia,puberulous and smooth on both surfaces,124
 stipules,persistence,27,Caesalpinioideae,often caducous,119
@@ -71,7 +70,6 @@ bole,description,5,Dialium,bole columnar,144
 habit,description,5,Crudia,rarely scramblers,131
 leaflet intercostal venation,description,5,Koompassia,often obscure or indistinct,153
 leaflet lateral veins,venation,5,Crudia,lateral veins ascending and archingly anastomosing towards the margins,131
-pedicel,count,5,Leucostegane,pedicel articulated above the 2 bracteoles,156
 petiole and rachis,indumentum,5,Crudia ornata,minutely puberulous,134
 petiolules,indumentum,5,Crudia bantamensis,glabrous,132
 rachis,size,5,Cynometra elmeri,Rachis of infructescence c. 4.5 cm long,141
@@ -151,6 +149,7 @@ leaflet midrib,size,1,Cynometra mirabilis,midrib 10--18 mm from the upper margin
 leaflet upper surface,indumentum,1,Peltophorum racemosum,upper surface glabrous except sometimes slightly hairy on the midrib,162
 leaflets,size,1,Cynometra ramiflora var. ramiflora,(1.2--)4.5--(6.5--)20 x (0.5--)2.5--(3.5--)7 cm,142
 new leaves,colour,1,Cynometra,New leaves developing in bright pink tassels,140
+pedicel,count,1,Leucostegane,pedicel articulated above the 2 bracteoles,156
 peduncle,size,1,Cassia javanica subsp. nodosa,peduncle 2--3 cm long,128
 petals,texture,1,Sindora,usually fleshy,166
 petiole and rachis,persistence,1,Crudia,petiole and rachis often prolonged beyond the upper petiolule into a very short (deciduous) tip,131
