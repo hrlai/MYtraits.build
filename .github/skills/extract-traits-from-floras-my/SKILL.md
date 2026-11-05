@@ -45,6 +45,7 @@ Worked examples, all in this repository:
 | `data/Jones_1995` | Rutaceae, TFSS vol. 1 | 2007 electronic text; transcription drafted from the layer; chunk parser after Adema_1996, 43 species | key-only genera and cultivated species flagged; in-key varieties scored; copy-down skips alternatives; dispersal from Ecology by hand |
 | `data/Kochummen_2000` | Moraceae, TFSS vol. 3 | 2007 electronic text, scripted clause parser after Soepadmo_2000, 99 species and 5 single-infra taxa | figs and syncarps are not fruits (colour only); 77 Ficus taxa annotated only in the key not scored; stranglers as hemiepiphytes; genus Ecology pollinator copied down |
 | `data/DeWilde_2018` | Myristicaceae, FPM vol. 7 | born-digital PDF, scripted clause parser after Prance_2012, 65 species and 24 infraspecific taxa | unisexual flowers described by their buds; fused anthers counted; aril and pericarp; hair lengths inside organ clauses; single-infra taxa carry the description; Sinclair-cited organs get `source_id` |
+| `data/Hou_2000` | Leguminosae-Caesalpinioideae, TFSS vol. 3 | 2007 electronic text, scripted clause parser after Ashton_2004, 42 species and 6 infraspecific taxa | compound leaves (leaf vs leaflet sentence, leaflet pairs, bipinnate pinnae); pods; subfamily as the family rank; key-only genera; varieties in a key inherit |
 | `data/Ashton_2004` | Dipterocarpaceae, TFSS vol. 5 | 2008 electronic text (";" as U+037E), scripted clause parser after Soepadmo_2000, 267 species and 40 subspecies | largest family so far, one run; nut is the fruit, calyx wings unmapped; subspecies in key annotations inherit; descriptions split by figure pages; family Ecology by hand |
 | `data/Turner_2014` | Annonaceae, TFSS vol. 8 | born-digital PDF, scripted clause parser after Ashton_2004, 160 species | monocarp is the fruit; colours on drying not scored; outer and inner petals by `entity_measured`; climbing genera annotated in the key to genera not scored; male and female flower sentences |
 
@@ -726,6 +727,20 @@ Bespoke checklist (decisions that changed per family):
   fruiting pedicels stay unmapped (flower pedicels -> `pedicel_length`);
   seed "c. 4 mm thick" -> `seed_height` (the shortest dimension), seed
   diameter -> `seed_width`.
+  Provisional (Hou_2000 questions 1 and 2): compound leaves. The leaf
+  sentence is the whole leaf: "Leaves 10--14 cm long" -> `leaf_length`
+  with `entity_measured = compound leaf`; "each with 3--5 pairs of
+  leaflets" (paripinnate) -> `leaflet_count` with `unit = pairs`, as for
+  fern pinna pairs; "each with 2--4 leaflets" -> `leaflet_count`
+  `{count}`; bipinnate "pinnae 5--9 pairs" and "Leaflets 6--16 pairs per
+  pinna" -> `leaflet_count` with `entity_measured = pinnae` / `leaflets
+  per pinna`. The "Leaflets ..." sentence is the leaflet: shape, base,
+  apex and hairs on the leaf traits with `entity_measured = leaflet`, size
+  on `leaflet_length` / `leaflet_width`. "petiole and rachis" together is
+  not `petiole_length`. A size "including the wing" is scored with a note
+  (Hou_2000 question 4). A Leguminosae subfamily treatment is the family
+  rank: `taxon_rank = subfamily`, scored `inferred_from_family`
+  (Hou_2000 question 7).
   Provisional (Prance_1995 question 2): leaves "with stomatal crypts"
   -> `leaf_stomatal_position = encrypted`; "without stomatal crypts" has no
   level and stays unmapped.
