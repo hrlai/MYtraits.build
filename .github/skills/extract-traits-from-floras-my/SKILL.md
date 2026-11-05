@@ -416,6 +416,17 @@ misreads; image checking is for scans.
     differences and measurements it misses against page images. It ignores
     dash, x-sign and line-break differences, so what remains are real OCR
     slips such as split decimals ("1. 75", Kiew_2010).
+  - In the FPM 2010 vol. 1 scans the OCR layer is close to the print, so a
+    draft cleaned by script and then read against the full-page image
+    (legible at 220 dpi) is enough. Script the systematic slips first: every
+    en dash between numbers is a hyphen, "x" stands for "×", and the bare
+    page numbers and running heads are in the layer. Then look for the
+    slips a script cannot settle: a degree sign read as a final zero
+    ("90-1000," for "90–100°", "25°-1800 angle", "40-900 angle"), "I" for
+    "1" ("I-celled", "lateral veins I 0-17"), split decimals ("7 .5"),
+    dots joining words ("with.fine"), key labels ("Sa." for "8a.",
+    "lla." for "11a.") and garbled map frames and compass letters
+    (Nooteboom_2010, 22 OCR pages).
 - Keep errors visible in the draft. Record repairs in `raw/source_fixes.csv`
   (`pattern, replacement, page, reason`) and apply them with
   `flora_apply_fixes()` using printed pages. The transcription fed to the
