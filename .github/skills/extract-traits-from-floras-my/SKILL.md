@@ -726,7 +726,9 @@ Bespoke checklist (decisions that changed per family):
   candidate trait. A named connectival appendage ->
   `flower_anther_connective_extension = present_general`. Inflorescence
   "rachis to 8 cm long" -> `inflorescence_length` with `entity_measured =
-  inflorescence rachis`. Leaf (terminal) and flower bud sizes -> `bud_length` /
+  inflorescence rachis`; an "axis 2--6 cm long" the same way with
+  `entity_measured = inflorescence axis`, but not an axis length "in
+  fruit" (Nooteboom_2010 question 4). Leaf (terminal) and flower bud sizes -> `bud_length` /
   `bud_width` with `entity_measured = leaf bud` or `flower bud`. Crown shape
   ("crown hemispherical, dense") -> `plant_canopy_form`.
   Provisional (DeWilde_2018 questions 3--7): fused anthers of a
