@@ -595,7 +595,9 @@ Bespoke checklist (decisions that changed per family):
   "leaf bud ..., hairs appressed, 0.1 mm long" the length is the hairs',
   not the fruit's or bud's. Do not score an unlabelled number that follows
   a hair, stalk, base or apex clause in the same piece (DeWilde_2018:
-  Myristica fruits and leaf buds, 25 false sizes before the fix).
+  Myristica fruits and leaf buds, 25 false sizes before the fix). The same
+  holds for an inflorescence axis "with long ... hairs, 1--4 mm long"
+  (Nooteboom_2010, S. crassipes).
 - **Comparisons.** In any section, drop sentences and clauses that compare
   taxa ("differs from ...", "similar to ...", "unlike ...") or name another
   binomial before scoring, so another taxon's characters are not attributed
