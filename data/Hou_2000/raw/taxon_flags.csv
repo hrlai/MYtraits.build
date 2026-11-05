@@ -1,0 +1,52 @@
+taxon_name,taxon_rank,status,n_mapped_rows,flag
+Afzelia rhomboidea,species,accepted,55,Only species of its genus in the region; heading unnumbered.
+Cassia javanica,species,accepted,0,No species description: the one infraspecific taxon in Sabah and Sarawak carries the description.
+Cassia javanica subsp. nodosa,subspecies,accepted,35,Only infraspecific taxon in Sabah and Sarawak; its description is the local description of the species.
+Copaifera palustris,species,accepted,45,Only species of its genus in the region; heading unnumbered.
+Crudia bantamensis,species,accepted,50,
+Crudia beccarii,species,accepted,38,
+Crudia caudata,species,accepted,46,
+Crudia ornata,species,accepted,51,
+Crudia reticulata,species,accepted,39,
+Crudia subsimplicifolia,species,accepted,34,
+Crudia tenuipes,species,accepted,55,
+Crudia velutina,species,accepted,39,
+Crudia venenosa,species,accepted,31,
+Crudia wrayi,species,accepted,47,
+Cynometra elmeri,species,accepted,21,
+Cynometra mirabilis,species,accepted,31,
+Cynometra ramiflora,species,accepted,0,No species description: the one infraspecific taxon in Sabah and Sarawak carries the description.
+Cynometra ramiflora var. ramiflora,variety,accepted,30,Only infraspecific taxon in Sabah and Sarawak; its description is the local description of the species.
+Dialium hydnocarpoides,species,accepted,46,
+Dialium indum,species,accepted,40,
+Dialium indum var. bursa,variety,accepted,40,Variety treated in a key annotation (distribution and ecology only); species rows inherited.
+Dialium indum var. indum,variety,accepted,40,Variety treated in a key annotation (distribution and ecology only); species rows inherited.
+Dialium kunstleri,species,accepted,40,
+Dialium kunstleri var. kunstleri,variety,accepted,40,Variety treated in a key annotation (distribution and ecology only); species rows inherited.
+Dialium kunstleri var. trifoliolatum,variety,accepted,40,Variety treated in a key annotation (distribution and ecology only); species rows inherited.
+Dialium platysepalum,species,accepted,43,
+Dialium procerum,species,accepted,39,
+Intsia bijuga,species,accepted,55,
+Intsia palembanica,species,accepted,60,
+Koompassia excelsa,species,accepted,47,
+Koompassia malaccensis,species,accepted,44,
+Leucostegane grandis,species,accepted,36,Only species of its genus in the region; heading unnumbered.
+Peltophorum dasyrhachis,species,accepted,51,
+Peltophorum pterocarpum,species,accepted,49,
+Peltophorum racemosum,species,accepted,45,
+Saraca declinata,species,accepted,56,
+Saraca hullettii,species,accepted,43,
+Sindora affinis,species,accepted,38,
+Sindora beccariana,species,accepted,46,
+Sindora coriacea,species,accepted,46,
+Sindora echinocalyx,species,accepted,40,
+Sindora irpicina,species,accepted,49,
+Sindora leiocarpa,species,accepted,51,
+Sindora velutina,species,accepted,55,
+Sindora wallichii,species,accepted,42,
+Sympetalandra borneensis,species,accepted,29,
+Sympetalandra unijuga,species,accepted,42,
+Uittienia modesta,species,accepted,29,Only species of its genus in the region; heading unnumbered.
+Bauhinia,genus,key only,0,"Genus described only inside the key to genera (pp. 120--121); keys are not trait evidence, not scored."
+Caesalpinia,genus,key only,0,"Genus described only inside the key to genera (pp. 120--121); keys are not trait evidence, not scored."
+Pterolobium,genus,key only,0,"Genus described only inside the key to genera (pp. 120--121); keys are not trait evidence, not scored."

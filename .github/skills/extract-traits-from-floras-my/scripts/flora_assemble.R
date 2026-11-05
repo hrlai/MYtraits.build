@@ -380,14 +380,15 @@ flora_vein_count_note <- function(notes, raw) {
 
 # trait_scoring_method of a row: inferred_from_<rank_scored_from>. A taxon's
 # own description (blank or `own`) takes its own taxon_rank: family, genus,
-# else species. Unknown ranks give NA. Shared by flora_make_data() and
-# flora_qa(), so QA keys match the built data.
+# else species. A subfamily treated as the family rank (Leguminosae
+# subfamilies, Hou_2000) counts as family. Unknown ranks give NA. Shared by
+# flora_make_data() and flora_qa(), so QA keys match the built data.
 flora_scoring_method <- function(rank_scored_from, taxon_rank) {
   own <- is.na(rank_scored_from) | rank_scored_from %in% c("", "own")
-  own_rank <- if_else(
-    taxon_rank %in% c("family", "genus"),
-    taxon_rank,
-    "species"
+  own_rank <- case_when(
+    taxon_rank %in% c("family", "genus") ~ taxon_rank,
+    taxon_rank == "subfamily" ~ "family",
+    TRUE ~ "species"
   )
   rank <- if_else(own, own_rank, rank_scored_from)
   if_else(

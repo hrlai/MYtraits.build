@@ -1,0 +1,91 @@
+taxon_name,specimen_status,institution_code,catalog_number,collector,record_number,collection_date,locality,state,country,source_section,notes
+Afzelia rhomboidea,holotype,L,,Merrill,Sp. Blanc. no. 862,,"the Philippines, Luzon, Laguna Prov.",,Philippines,"Type, p.124","Printed 'Neotype (Ding Hou, 1994)' followed by 'holotype L; isotype BO'; status recorded as printed, inconsistent. Basionym Eperua rhomboidea Blanco"
+Afzelia rhomboidea,isotype,BO,,Merrill,Sp. Blanc. no. 862,,"the Philippines, Luzon, Laguna Prov.",,Philippines,"Type, p.124","Printed 'Neotype (Ding Hou, 1994)' followed by 'holotype L; isotype BO'; status recorded as printed, inconsistent. Basionym Eperua rhomboidea Blanco"
+Cassia javanica,,,,Commelin,s.n.,,"Hort. Med. Amst. 1 (1697) 217, t. 111",,,"Type, p.128","Printed 'Type (de Wit, 1955)'; illustration, not a specimen"
+Cassia javanica subsp. nodosa,,K-W,5331,,,,"Wallich Herb. no. 5331 (authentic collection from Hort. Bot. Calcutta., a native of Chittagong, India)",,India,"Type, p.128","Printed 'Type (Irwin & Barneby, 1982): Authentic collection from Hort. Bot. Calcutta., distributed as Wallich Herb. no. 5331 (K-W)'; no holotype/lectotype status printed so status blank; collector not printed; type of basionym Cassia nodosa Buch.-Ham. ex Roxb."
+Copaifera palustris,holotype,KEP,,Flemmich,FMS 32600,,"Borneo, Brunei",,Brunei,"Type, p.129",Type of basionym Pseudosindora palustris Symington
+Crudia bantamensis,holotype,BO,,Hasskarl,s.n.,1925-03,"Java, Bantam (cult. in Hort. Bog. sub no. I-I-38)",,Indonesia,"Type, p.132","Printed as 'Lectotype (de Wit, 1950)' followed by 'holotype'; status recorded as printed, inconsistent. Cultivated material, coll. in March 1925. Basionym Touchiroa bantamensis Hassk."
+Crudia bantamensis,isotype,L,,Hasskarl,s.n.,1925-03,"Java, Bantam (cult. in Hort. Bog. sub no. I-I-38)",,Indonesia,"Type, p.132","Printed as 'Lectotype (de Wit, 1950)' followed by 'holotype'; status recorded as printed, inconsistent. Cultivated material, coll. in March 1925. Basionym Touchiroa bantamensis Hassk."
+Crudia beccarii,holotype,K,,Beccari,PB 3903,,"Borneo, Sarawak",Sarawak,Malaysia,"Type, p.133",
+Crudia beccarii,isotype,FI,,Beccari,PB 3903,,"Borneo, Sarawak",Sarawak,Malaysia,"Type, p.133",
+Crudia caudata,holotype,K,,Ridley,6399,,"Peninsular Malaysia, Johore",Johore,Malaysia,"Type, p.134",
+Crudia caudata,isotype,BM,,Ridley,6399,,"Peninsular Malaysia, Johore",Johore,Malaysia,"Type, p.134",
+Crudia ornata,holotype,BO,,Elmer,20708,,"Borneo, Sabah, near Tawau",Sabah,Malaysia,"Type, p.134",
+Crudia ornata,isotype,BM,,Elmer,20708,,"Borneo, Sabah, near Tawau",Sabah,Malaysia,"Type, p.134",
+Crudia ornata,isotype,K,,Elmer,20708,,"Borneo, Sabah, near Tawau",Sabah,Malaysia,"Type, p.134",
+Crudia ornata,isotype,L,,Elmer,20708,,"Borneo, Sabah, near Tawau",Sabah,Malaysia,"Type, p.134",
+Crudia reticulata,isotype,K,,Villamil,393,,"Borneo, Sabah, Sandakan",Sabah,Malaysia,"Type, p.136",
+Crudia subsimplicifolia,isotype,K,,Klemme,FB 4287,,"the Philippines, Luzon",,Philippines,"Type, p.137",
+Crudia tenuipes,isotype,K,,Native Collector (Bur. Sci.),1358,,"Borneo, Sarawak",Sarawak,Malaysia,"Type, p.137",Number printed 'err. as 1385'
+Crudia velutina,holotype,K,,Haviland,3071,,"Borneo, Sarawak, Sri Aman district",Sarawak,Malaysia,"Type, p.138",
+Crudia velutina,isotype,BM,,Haviland,3071,,"Borneo, Sarawak, Sri Aman district",Sarawak,Malaysia,"Type, p.138",
+Crudia velutina,isotype,L,,Haviland,3071,,"Borneo, Sarawak, Sri Aman district",Sarawak,Malaysia,"Type, p.138",
+Crudia venenosa,holotype,BO,,Maidin,(SAN A) 1692,,"Borneo, Sabah, Sg. Kinabatangan",Sabah,Malaysia,"Type, p.139",Printed 'Maidin (SAN A) 1692'
+Crudia venenosa,isotype,K,,Maidin,(SAN A) 1692,,"Borneo, Sabah, Sg. Kinabatangan",Sabah,Malaysia,"Type, p.139",Printed 'Maidin (SAN A) 1692'
+Crudia wrayi,holotype,K,,Wray Jr.,2874,,"Peninsular Malaysia, Perak, Larut",Perak,Malaysia,"Type, p.139",
+Cynometra elmeri,isotype,L,,Elmer,21386,,"Borneo, Sabah, Tawau",Sabah,Malaysia,"Type, p.141",Number printed 'err. as 21368'
+Cynometra elmeri,isotype,U,,Elmer,21386,,"Borneo, Sabah, Tawau",Sabah,Malaysia,"Type, p.141",Number printed 'err. as 21368'
+Cynometra mirabilis,holotype,L,,Miranda,FB 20528,,the Philippines,,Philippines,"Type, p.141",
+Cynometra mirabilis,isotype,BO,,Miranda,FB 20528,,the Philippines,,Philippines,"Type, p.141",
+Cynometra mirabilis,isotype,UC,,Miranda,FB 20528,,the Philippines,,Philippines,"Type, p.141",
+Cynometra mirabilis,isotype,US,,Miranda,FB 20528,,the Philippines,,Philippines,"Type, p.141",
+Cynometra ramiflora,,,,,,,"Cynomorium sylvestre Rumph., Herb. Amb. 1 (1741) t. 63",,,"Type, p.142","Printed 'Type: Cynomorium sylvestre Rumph., Herb. Amb. 1 (1741) t. 63'; illustration, not a specimen"
+Dialium hydnocarpoides,holotype,L,,,NIFS 185T. 3P. 541,,"Sumatra, Palembang",,Indonesia,"Type, p.145",
+Dialium hydnocarpoides,isotype,BO,,,NIFS 185T. 3P. 541,,"Sumatra, Palembang",,Indonesia,"Type, p.145",
+Dialium indum,holotype,LINN,23.1,,,,no exact locality,,,"Type, p.145",Printed 'Linn. Herb. 23.1'; collector not printed
+Dialium indum var. bursa,holotype,L,,,NIFS. 186T. 1P. 197,,"Sumatra, Palembang",,Indonesia,"Type, p.146",Basionym Dialium laurinum Baker var. bursa de Wit
+Dialium indum var. bursa,isotype,K,,,NIFS. 186T. 1P. 197,,"Sumatra, Palembang",,Indonesia,"Type, p.146",Basionym Dialium laurinum Baker var. bursa de Wit
+Dialium kunstleri,holotype,K,,Kunstler,4415,,Peninsular Malaysia,,Malaysia,"Type, p.146",
+Dialium kunstleri,isotype,BM,,Kunstler,4415,,Peninsular Malaysia,,Malaysia,"Type, p.146",
+Dialium kunstleri var. trifoliolatum,holotype,BO,,,NIFS bb 19826,,Kalimantan,,Indonesia,"Type, p.147",Basionym Dialium trifoliolatum de Wit
+Dialium kunstleri var. trifoliolatum,isotype,L,,,NIFS bb 19826,,Kalimantan,,Indonesia,"Type, p.147",Basionym Dialium trifoliolatum de Wit
+Dialium kunstleri var. trifoliolatum,isotype,SING,,,NIFS bb 19826,,Kalimantan,,Indonesia,"Type, p.147",Basionym Dialium trifoliolatum de Wit
+Dialium platysepalum,holotype,K,,Griffith,1847,,"Peninsular Malaysia, Malacca",Malacca,Malaysia,"Type, p.147","Printed as 'Lectotype (Rojo, 1996)' followed by 'holotype'; status recorded as printed, inconsistent"
+Dialium procerum,holotype,L,,,NIFS. 117T. 3P. 390,,"Sumatra, Palembang",,Indonesia,"Type, p.149",Type of basionym Dansera procera Steenis
+Dialium procerum,isotype,BO,,,NIFS. 117T. 3P. 390,,"Sumatra, Palembang",,Indonesia,"Type, p.149",Type of basionym Dansera procera Steenis
+Intsia bijuga,,,,,,,Based on Colebrooke's desc. & pl.,,,"Type, p.150","Printed 'Type: Based on Colebrooke's desc. & pl.' (basionym Macrolobium bijugum Colebr., t. 17); illustration, not a specimen"
+Intsia palembanica,holotype,U,,Teijsmann,4535,,"Sumatra, Lampong",,Indonesia,"Type, p.152","Printed as 'Lectotype (Ding Hou, 1994)' followed by 'holotype'; status recorded as printed, inconsistent"
+Koompassia excelsa,holotype,FI,,Beccari,1818,,"Sarawak, Mt. Matang near Kuching",Sarawak,Malaysia,"Type, p.154",Type of basionym Abauria excelsa Becc.
+Koompassia malaccensis,holotype,K,,Maingay,604,,"Peninsular Malaysia, Malacca",Malacca,Malaysia,"Type, p.156","Printed as 'Lectotype (de Wit, 1947)' followed by 'holotype'; status recorded as printed, inconsistent"
+Koompassia malaccensis,isotype,L,,Maingay,604,,"Peninsular Malaysia, Malacca",Malacca,Malaysia,"Type, p.156","Printed as 'Lectotype (de Wit, 1947)' followed by 'holotype'; status recorded as printed, inconsistent"
+Leucostegane grandis,holotype,K,,Haviland,1799,,"Borneo, Sarawak, Kuching",Sarawak,Malaysia,"Type, p.158",
+Leucostegane grandis,isotype,L,,Haviland,1799,,"Borneo, Sarawak, Kuching",Sarawak,Malaysia,"Type, p.158",
+Peltophorum dasyrhachis,holotype,L,,Teijsmann,s.n.,,"Sumatra, Lampong",,Indonesia,"Type, p.159",Type of basionym Caesalpinia dasyrhachis Miq.
+Peltophorum dasyrhachis,isotype,K,,Teijsmann,s.n.,,"Sumatra, Lampong",,Indonesia,"Type, p.159",Type of basionym Caesalpinia dasyrhachis Miq.
+Peltophorum pterocarpum,holotype,P,,S. coll.,s.n.,,in ins. Timor. Fl. ign. (v.s. comm. a Mus. Par.),,,"Type, p.160","Type of basionym Inga pterocarpa DC.; collector printed 'S. coll.'; Timor, country not given"
+Peltophorum pterocarpum,isotype,K,,S. coll.,s.n.,,in ins. Timor. Fl. ign. (v.s. comm. a Mus. Par.),,,"Type, p.160","Type of basionym Inga pterocarpa DC.; collector printed 'S. coll.'; Timor, country not given"
+Peltophorum racemosum,isotype,L,,Hubert Winkler,2424,,"Borneo, Kalimantan",,Indonesia,"Type, p.162",
+Saraca declinata,possible isotype,G,,Jack,s.n.,,Sumatra,,Indonesia,"Type, p.162",Printed 'isotype G?'; type of basionym Jonesia declinata Jack
+Saraca hullettii,syntype,CAL,,Hullett,312,,Sarawak,Sarawak,Malaysia,"Type, p.163","Printed 'Syntypes: Hullett 312 and Haviland s.n. (CAL), and Beccari PB 916 (K), all from Sarawak'; (CAL) may apply to Haviland s.n. only"
+Saraca hullettii,syntype,CAL,,Haviland,s.n.,,Sarawak,Sarawak,Malaysia,"Type, p.163","Printed 'Syntypes: Hullett 312 and Haviland s.n. (CAL), and Beccari PB 916 (K), all from Sarawak'; (CAL) may apply to Haviland s.n. only"
+Saraca hullettii,syntype,K,,Beccari,PB 916,,Sarawak,Sarawak,Malaysia,"Type, p.163","Printed 'Syntypes: Hullett 312 and Haviland s.n. (CAL), and Beccari PB 916 (K), all from Sarawak'"
+Sindora affinis,holotype,BO,,,bb 19774,,"Kalimantan, Tidung lands near Nunukan",,Indonesia,"Type, p.168",
+Sindora affinis,isotype,L,,,bb 19774,,"Kalimantan, Tidung lands near Nunukan",,Indonesia,"Type, p.168",
+Sindora beccariana,holotype,BO,,Beccari,529,,Borneo (no precise locality),,,"Type, p.169","Borneo, state not given; printed 'cf. de Wit, 1949, f. 2g, based on the type'"
+Sindora coriacea,holotype,K,,Maingay,566,,"Peninsular Malaysia, Malacca",Malacca,Malaysia,"Type, p.169",Type of basionym Afzelia ?coriacea Baker
+Sindora echinocalyx,holotype,K,,Griffith,Kew Distr. no. 1848,,"Peninsular Malaysia, Malacca",Malacca,Malaysia,"Type, p.170","Printed as 'Lectotype (Symington, 1938)' followed by 'holotype'; status recorded as printed, inconsistent. Type of basionym Echinocalyx Benth."
+Sindora echinocalyx,isotype,L,,Griffith,Kew Distr. no. 1848,,"Peninsular Malaysia, Malacca",Malacca,Malaysia,"Type, p.170","Printed as 'Lectotype (Symington, 1938)' followed by 'holotype'; status recorded as printed, inconsistent. Type of basionym Echinocalyx Benth."
+Sindora irpicina,holotype,BO,,Nieuwenhuis & Jaheri,908,1941-05-13,"Borneo, Kalimantan (cult. in Hort. Bog. sub no. I-E-4a)",,Indonesia,"Type, p.171","Printed '(24-4-1896), cult. in Hort. Bog. sub no. I-E-4a, coll. 13-5-1941'; date given is the cultivated-material collection, original 1896 date in parentheses"
+Sindora leiocarpa,holotype,L,,Grashoff,667,,"Sumatra, Kubulands",,Indonesia,"Type, p.172",
+Sindora velutina,holotype,K,,Maingay,607,,"Peninsular Malaysia, Malacca",Malacca,Malaysia,"Type, p.172-173",
+Sindora wallichii,holotype,K,,Wallich,5805,,Singapore,,Singapore,"Type, p.175","Printed as 'Lectotype (de Wit, 1949)' followed by 'holotype'; status recorded as printed, inconsistent"
+Sindora wallichii,isotype,BM,,Wallich,5805,,Singapore,,Singapore,"Type, p.175","Printed as 'Lectotype (de Wit, 1949)' followed by 'holotype'; status recorded as printed, inconsistent"
+Sympetalandra borneensis,holotype,K,,Haviland & Hose,1628,,"Borneo, Sarawak, Kuching",Sarawak,Malaysia,"Type, p.176",
+Sympetalandra borneensis,isotype,L,,Haviland & Hose,1628,,"Borneo, Sarawak, Kuching",Sarawak,Malaysia,"Type, p.176",
+Sympetalandra borneensis,isotype,SAR,,Haviland & Hose,1628,,"Borneo, Sarawak, Kuching",Sarawak,Malaysia,"Type, p.176",
+Sympetalandra unijuga,holotype,K,,Agullana,1780,,"Borneo, Sabah",Sabah,Malaysia,"Type, p.178",Type of basionym Erythrophleum unijugum Airy Shaw
+Sympetalandra unijuga,isotype,L,,Agullana,1780,,"Borneo, Sabah",Sabah,Malaysia,"Type, p.178",Type of basionym Erythrophleum unijugum Airy Shaw
+Uittienia modesta,holotype,BO,,,bb 19274,,"Borneo, E Kalimantan",,Indonesia,"Type, p.180",
+Uittienia modesta,isotype,L,,,bb 19274,,"Borneo, E Kalimantan",,Indonesia,"Type, p.180",
+Cassia javanica subsp. nodosa,figure specimen,,,Hamid FD.,FMS 36038,,,,,"Fig. 2 caption, p.127",Fig. 2A-C
+Cassia javanica subsp. nodosa,figure specimen,,,Kochummen,FRI 2942,,,,,"Fig. 2 caption, p.127",Fig. 2D-E
+Cynometra elmeri,figure specimen,,,Ignasius & Clement,SAN 139763,,,,,"Fig. 5 caption, p.143",Fig. 5A-B
+Cynometra mirabilis,figure specimen,,,Nordin,SAN 46321,,,,,"Fig. 5 caption, p.143",Fig. 5C-D
+Cynometra ramiflora,figure specimen,,,Sugau et al.,JBS 176,,,,,"Fig. 5 caption, p.143",Fig. 5E-F
+Leucostegane grandis,figure specimen,,,Haviland,1799,,,,,"Fig. 9 caption, p.157","Fig. 9 (whole plate, 'From Haviland 1799'); same collection as the holotype"
+Peltophorum dasyrhachis,figure specimen,,,Pitty,SAN 63180,,,,,"Fig. 10 caption, p.161",Fig. 10A-C
+Peltophorum racemosum,figure specimen,,,Chai S.,39741,,,,,"Fig. 10 caption, p.161",Fig. 10D-E; collector printed 'Chai S.'
+Saraca declinata,figure specimen,,,Brand,SAN 24451,,,,,"Fig. 11 caption, p.164",Fig. 11A-C
+Saraca declinata,figure specimen,,,Sigin et al.,SAN 56754,,,,,"Fig. 11 caption, p.164",Fig. 11D
+Saraca declinata,figure specimen,,,Buntar,SAN 27259,,,,,"Fig. 11 caption, p.164",Fig. 11E
+Saraca hullettii,figure specimen,,,Jamaat FD.,FMS 39673,,,,,"Fig. 11 caption, p.164",Fig. 11F
