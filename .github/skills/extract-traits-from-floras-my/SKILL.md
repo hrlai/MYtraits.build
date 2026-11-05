@@ -47,11 +47,12 @@ Worked examples, all in this repository:
 | `data/DeWilde_2018` | Myristicaceae, FPM vol. 7 | born-digital PDF, scripted clause parser after Prance_2012, 65 species and 24 infraspecific taxa | unisexual flowers described by their buds; fused anthers counted; aril and pericarp; hair lengths inside organ clauses; single-infra taxa carry the description; Sinclair-cited organs get `source_id` |
 | `data/Hou_2000` | Leguminosae-Caesalpinioideae, TFSS vol. 3 | 2007 electronic text, scripted clause parser after Ashton_2004, 42 species and 6 infraspecific taxa | compound leaves (leaf vs leaflet sentence, leaflet pairs, bipinnate pinnae); pods; subfamily as the family rank; key-only genera; varieties in a key inherit |
 | `data/Ashton_2004` | Dipterocarpaceae, TFSS vol. 5 | 2008 electronic text (";" as U+037E), scripted clause parser after Soepadmo_2000, 267 species and 40 subspecies | largest family so far, one run; nut is the fruit, calyx wings unmapped; subspecies in key annotations inherit; descriptions split by figure pages; family Ecology by hand |
+| `data/Nooteboom_2010` | Symplocaceae, FPM vol. 1 | scanned PDF, OCR draft cleaned by script and every page image-checked, scripted clause parser after Prance_2012, 22 species and 18 infraspecific taxa | single-variety species carry the description at variety rank; varieties with no description inherit; calyx lobes as sepals; comma lists of alternatives not scored; a Singapore-only species flagged |
 | `data/Turner_2014` | Annonaceae, TFSS vol. 8 | born-digital PDF, scripted clause parser after Ashton_2004, 160 species | monocarp is the fruit; colours on drying not scored; outer and inner petals by `entity_measured`; climbing genera annotated in the key to genera not scored; male and female flower sentences |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
-inline source fixes. Only Lim, Yao and Kiew_2010 are scanned. Hughes was
+inline source fixes. Only Lim, Yao, Kiew_2010 and Nooteboom_2010 are scanned. Hughes was
 transcribed from page images before its PDF was found to be born-digital;
 born-digital sources no longer need that (step 2). Nor-Ezzawanis_2010 was too,
 and was rebuilt from the text layer in 2026-11.
