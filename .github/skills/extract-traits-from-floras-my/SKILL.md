@@ -744,6 +744,13 @@ Bespoke checklist (decisions that changed per family):
   `fruit_wall_thickness`. A perianth colour after an "inside" clause
   ("inside glabrous, greenish creamy") stays unmapped: its surface is
   unclear.
+  Provisional (Nooteboom_2010 questions 2 and 8): a calyx printed as a
+  whole and by its lobes ("calyx glabrous, 1.5--2.5 mm long, lobes 1--1.5
+  mm long") -> calyx lobe length as `flower_sepal_length` with
+  `entity_measured = calyx lobe`; the whole calyx length stays unmapped.
+  The hypanthium enclosing an inferior ovary ("hypanthium ... 1--1.5 mm
+  high, completely covering the fruit", Symplocaceae) stays unmapped; it
+  is not the free receptacle tube of Prance_2012.
   Provisional (Turner_2014 questions 4, 6 and 7): petal whorls described
   apart ("outer petals ...; inner petals ...") -> `flower_petal_length` and
   `flower_colour` with `entity_measured = outer petals` or `inner petals`;
