@@ -24,7 +24,17 @@ import json
 import re
 import sys
 
-import yaml
+try:
+    import yaml
+except ImportError:
+    # Skip, do not crash: a missing optional dependency must not block edits
+    # or commits.
+    print(
+        "check_metadata_yml.py: skipped, PyYAML is not installed "
+        "(pip install pyyaml).",
+        file=sys.stderr,
+    )
+    sys.exit(0)
 
 BOOL_WHITELIST = {"dataset.data_is_long_format"}
 METADATA_PATH = re.compile(r"(^|/)data/[^/]+/metadata\.yml$")

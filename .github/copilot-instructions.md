@@ -236,7 +236,8 @@ that build without error: bare `y`/`n`/`yes`/`no` read as booleans,
 traits next to real `locations:`. It runs as a Claude Code hook
 (`.claude/settings.json`) and a pre-commit hook. Other agents: run
 `python3 .github/hooks/check_metadata_yml.py data/<id>/metadata.yml` after
-editing a `metadata.yml`, and fix what it reports.
+editing a `metadata.yml`, and fix what it reports. It needs PyYAML
+(`pip install pyyaml`); without it, it prints a message and skips the check.
 `.github/hooks/check_main_up_to_date.py` blocks `gh pr create` while the
 branch is behind `origin/main`. It is a Claude Code hook only; other agents
 follow the [Git](#git) rules by hand.
