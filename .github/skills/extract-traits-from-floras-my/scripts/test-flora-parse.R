@@ -73,6 +73,17 @@ stopifnot(
   clean("arachnoid when young", "stem_hairs") == "hairy"
 )
 
+# negation blocks the aril, wing and glaucous rows (Hou_2000, Turner_2014)
+stopifnot(
+  is.null(flora_cat_rows("dispersal_appendage", "seeds without aril", seed)),
+  is.null(flora_cat_rows("dispersal_appendage", "pods not winged", seed)),
+  flora_cat_rows("dispersal_appendage", "seeds with a red aril", seed)$
+    trait_value_clean == "aril",
+  is.null(flora_cat_rows("leaf_glaucousness", "not white or glaucous beneath",
+    seed)),
+  # papery only when stated (Hou_2000 p. 134)
+  is.null(flora_cat_rows("bark_texture", "only slightly peeling", seed))
+)
 # a leading "to" applies to both dimensions (Jaman_2020 p. 83)
 d1 <- flora_parse_dims("pinnules to 9 × 1.5 cm")
 d2 <- flora_parse_dims("5 to 9 × 2 cm")

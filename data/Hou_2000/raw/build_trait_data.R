@@ -464,7 +464,7 @@ score_chunk <- function(cl) {
       add(cat_rows("fruit_type", lx))
       add(cat_rows("fruit_dehiscence", lx))
       # "(including the wing)" in a size is not the wing statement
-      if (!negative(lx) && !str_detect(lx, "including")) add(cat_rows("dispersal_appendage", str_remove(lx, "^fruits?\\b")))
+      if (!str_detect(lx, "including")) add(cat_rows("dispersal_appendage", str_remove(lx, "^fruits?\\b")))
       wing <- if (str_detect(lx, "including")) " Size includes the wing." else ""
       if (!is.null(grab_dims(x))) {
         add(dim_rows(c("fruit_length", "fruit_width", "fruit_height"), x) |> mutate(notes = paste0(notes, wing)))
@@ -494,7 +494,7 @@ score_chunk <- function(cl) {
     seeds = if (so == "seeds") {
       core <- str_squish(str_remove(lx, "^seeds?\\b"))
       add(cat_rows("seed_shape", lx))
-      if (!negative(lx)) add(cat_rows("dispersal_appendage", lx))
+      add(cat_rows("dispersal_appendage", lx))
       add(cat_rows("seed_surface_texture", lx))
       add(cat_rows("seed_surface_reflectivity", lx))
       # seed colour, not the aril's ("black with a rich orange aril")

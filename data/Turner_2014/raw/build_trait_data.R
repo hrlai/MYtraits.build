@@ -299,7 +299,7 @@ score_chunk <- function(cl) {
       }
       # "not white or glaucous", "pale or glaucous", papillae "giving a
       # glaucous appearance" (not wax) are not scored
-      if (!str_detect(lx, "when fresh|appearance| or ") && !negative(lx)) {
+      if (!str_detect(lx, "when fresh|appearance| or ")) {
         add(cat_rows("leaf_glaucousness", lx))
       }
       if (str_detect(lx, "\\bsimple\\b")) add(row("leaf_compoundness", "simple", raw = x))
