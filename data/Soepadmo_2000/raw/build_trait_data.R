@@ -516,7 +516,7 @@ parse_description <- function(p) {
   scored <- map_lgl(cl$rows, \(r) !is.null(r) && nrow(r) > 0)
   mapped <- cl |>
     filter(scored) |>
-    select(id, sentence, piece, pdf_page, printed_page, rows) |>
+    select(id, sentence, piece, pdf_page, printed_page, piece_text, rows) |>
     unnest(rows) |>
     # "base rounded, rarely acute": the unqualified alternative is `usually`
     group_by(sentence, piece, trait, entity_measured) |>

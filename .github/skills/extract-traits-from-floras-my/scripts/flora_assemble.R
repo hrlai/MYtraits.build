@@ -66,8 +66,12 @@ flora_trait_data_cols <- c(
 # starts with it ("pari-" for "paripinnate"). An adverb between is skipped,
 # and an adverb range ("slightly to strongly asymmetric") is one term. Words joined only to each
 # other ("imparipinnate or paripinnate", both scored) are not alternatives.
-# shortcut: comma lists ("flat, terete or triquetrous" scored flat) are not
-# caught, because commas also separate characters; read the copy-down table.
+# Comma lists ("spirally arranged, distichous (...) or crowded") are caught
+# by flora_copy_down() from the `piece_text` column, not here.
+# shortcut: a comma list with only one scored chunk ("flat, terete or
+# triquetrous" scored flat) is not caught, because commas also separate
+# characters; read the copy-down table, or score the chunks that are
+# alternatives so the piece has two rows of the trait.
 .flora_names_alt <- function(raw, value) {
   words <- str_split_1(str_to_lower(coalesce(value, "")), "\\s+")
   pairs <- str_match_all(
@@ -106,6 +110,20 @@ flora_trait_data_cols <- c(
 #   - when several ranks state the trait, only the most specific rank
 #     (group > genus > family) is copied, even when its row failed a rule
 #     above; then nothing is copied (Castanopsis, Soepadmo_2000).
+# Optional columns of higher_rows, filled by the parser:
+#   piece_qualified  TRUE when a commonness word earlier in the piece
+#                    qualifies the row ("Bark generally greyish, smooth":
+#                    smooth; Kochummen_2000); not copied;
+#   piece_text       the ";" piece the row came from. Two or more rows of one
+#                    trait from a piece holding a comma list that ends in
+#                    "or" are alternatives ("spirally arranged, distichous
+#                    (...) or crowded", Soepadmo_2000); none is copied.
+#                    shortcut: two characters scored to one trait also
+#                    count ("Inflorescences axillary, cymose, ... or
+#                    capitate": position and kind; Streblus, Kochummen_2000,
+#                    axillary not copied); split such traits by chunk if
+#                    the lost copies matter.
+# Rows barred by either still state the trait for the rank rule above.
 # Returns the copied rows plus attr(, "rejected"): higher-rank rows that failed
 # the agreement test (reason "agreement") or name an alternative term
 # (reason "alternative"), to be read in the QA step.
@@ -113,8 +131,40 @@ flora_copy_down <- function(higher_rows, own_rows, members) {
   if (!"single_term" %in% names(higher_rows)) {
     higher_rows$single_term <- FALSE
   }
-  higher <- higher_rows |>
+  if (!"piece_qualified" %in% names(higher_rows)) {
+    higher_rows$piece_qualified <- FALSE
+  }
+  if (!"piece_text" %in% names(higher_rows)) {
+    higher_rows$piece_text <- NA_character_
+  }
+  # rows of one trait from one comma-list piece, counted over every row
+  # scored from it (own_rows can hold rows the caller kept out of
+  # higher_rows, such as statements naming a genus)
+  list_rows <- bind_rows(
+    higher_rows |> select(block, trait, entity_measured, piece_text, trait_value_raw),
+    if ("piece_text" %in% names(own_rows)) {
+      own_rows |> select(block, trait, entity_measured, piece_text, trait_value_raw)
+    }
+  ) |>
     filter(
+      !is.na(trait),
+      !is.na(piece_text),
+      str_detect(piece_text, ",[^,]*\\bor\\b")
+    ) |>
+    distinct() |>
+    count(block, trait, entity_measured, piece_text, name = "n_rows") |>
+    filter(n_rows > 1)
+  in_list <- higher_rows |>
+    left_join(
+      list_rows,
+      by = c("block", "trait", "entity_measured", "piece_text")
+    ) |>
+    pull(n_rows) |>
+    (\(n) !is.na(n))()
+  higher <- higher_rows |>
+    mutate(.in_list = in_list) |>
+    filter(
+      !coalesce(piece_qualified, FALSE),
       rank %in% c("family", "genus", "infrageneric_group"),
       value_type == "mode",
       is.na(cq),
@@ -130,7 +180,9 @@ flora_copy_down <- function(higher_rows, own_rows, members) {
       ),
       !str_detect(trait_value_raw, "\\([A-Z][a-z]+\\)")
     )
-  alt <- map2_lgl(higher$trait_value_raw, higher$trait_value, .flora_names_alt)
+  alt <- map2_lgl(higher$trait_value_raw, higher$trait_value, .flora_names_alt) |
+    higher$.in_list
+  higher$.in_list <- NULL
   alt_rejected <- higher[alt, ] |>
     transmute(
       from = block,

@@ -975,13 +975,17 @@ Bespoke checklist (decisions that changed per family):
   The statement must name exactly one term, counting terms with no level:
   "symmetric or slightly oblique" is not "all oblique", and a statement
   naming a genus in brackets ("(Hydrocleys)") is not copied. The function
-  catches "or"/"to" alternatives, not comma lists ("flat, terete or
-  triquetrous" scored flat; "syconia ... solitary, in pairs or clustered"
-  scored solitary, copied to 70 Ficus species before the fix in
-  Kochummen_2000): check those in the parser. A commonness word earlier in
+  catches "or"/"to" alternatives in a row's own clause. For a comma list,
+  give each higher-rank row a `piece_text` column (its ";" piece): two or
+  more rows of one trait from a piece with a list ending in "or" are
+  alternatives and none is copied ("spirally arranged, distichous (...)
+  or crowded", Soepadmo_2000 family). A list with only one scored chunk
+  ("syconia ... solitary, in pairs or clustered" scored solitary, copied to
+  70 Ficus species before the fix in Kochummen_2000) is not caught: check
+  those in the parser. A commonness word earlier in
   the piece also qualifies the unqualified chunks after it ("Bark generally
-  greyish, smooth": smooth is not universal); bar such rows from copy-down in
-  the parser (Kochummen_2000 `piece_qualified`). Chunks before the word stay
+  greyish, smooth": smooth is not universal); set the row's
+  `piece_qualified` column to TRUE and `flora_copy_down()` bars it. Chunks before the word stay
   unqualified: "Leaves simple, entire, alternate, usually distichous" copies
   simple, entire and alternate (provisional, DeWilde_2018 question 11).
   Most specific rank wins (group, genus, family), counting every row that
