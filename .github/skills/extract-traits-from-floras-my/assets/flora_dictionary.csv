@@ -296,7 +296,6 @@
 "inflorescence_type","corymbose racemes?","raceme","Jones_1995","a raceme; not also a corymb"
 "leaf_margin","subcrenulate|subentire","","Jones_1995","sub- terms not scored"
 "leaf_base_shape","subcuneate|subcordate","","Jones_1995","sub- terms not scored"
-"leaf_shape","(oblong|elliptic|ovate|obovate|lanceolate)-(oblanceolate|lanceolate|ovate|elliptic|obovate|oblong)","","Jones_1995","compound shape term; no single level"
 "leaf_phyllotaxis","\bwhorled\b","whorled","Jones_1995",""
 "seed_colour","reddish[- ]black|blackish","black","Jones_1995","must precede 'reddish'"
 "seed_surface_reflectivity","glossy|shiny","shiny","Jones_1995",""
