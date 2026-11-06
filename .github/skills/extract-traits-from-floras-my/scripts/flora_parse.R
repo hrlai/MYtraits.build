@@ -76,6 +76,12 @@ flora_norm <- function(x) {
       ),
       " or \\2 "
     ) |>
+    # "up to 45 m (rarely more) tall": the aside after the keyword, so a
+    # size grabber reads "45 m tall" (Hou_2000, Intsia palembanica p. 152)
+    str_replace_all(
+      "(\\d\\s?(?:mm|cm|m)) (\\((?:rarely|or) more\\)) (tall|high|diameter)",
+      "\\1 \\3 \\2"
+    ) |>
     str_replace_all("\u2013 ", "\u2013") |>
     str_replace_all("(?<=\\d)\\s?\u2013\\s?(?=\\d)", "\u2013") |>
     str_replace_all(

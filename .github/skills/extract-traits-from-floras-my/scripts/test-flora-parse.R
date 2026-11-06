@@ -100,6 +100,12 @@ stopifnot(
     "apex acuminate or rarely caudate",
   flora_norm("acuminate, rarely caudate") == "acuminate, rarely caudate"
 )
+# "(rarely more)" moves after the keyword (Hou_2000 p. 152)
+stopifnot(
+  flora_norm("up to 45 m (rarely more) tall") ==
+    "up to 45 m tall (rarely more)",
+  flora_norm("100 cm (or more) diameter") == "100 cm diameter (or more)"
+)
 # a count takes the commonness word of its chunk (Turner_2014,
 # Polyalthia dolichopoda "generally single-flowered, occasionally 2-flowered")
 stopifnot(

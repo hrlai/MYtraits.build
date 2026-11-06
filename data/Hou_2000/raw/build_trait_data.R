@@ -78,12 +78,6 @@ prep <- function(x) {
     }) |>
     # "basi- or dorsifixed" -> "basifixed or dorsifixed"
     str_replace_all("\\b([a-z]+)- or ([a-z]+)(fixed)\\b", "\\1\\3 or \\2\\3") |>
-    # "45 m (rarely more) tall", "100 cm (or more) diameter": the aside after
-    # the keyword, so the size is read
-    str_replace_all(
-      "(\\d\\s?(?:mm|cm|m)) (\\((?:rarely|or) more\\)) (tall|high|diameter)",
-      "\\1 \\3 \\2"
-    ) |>
     or_extremes() |>
     flora_norm()
 }
