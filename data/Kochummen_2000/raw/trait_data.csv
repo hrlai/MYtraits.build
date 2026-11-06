@@ -1511,7 +1511,7 @@ Artocarpus obtusus,species,species,,,Sabah and Sarawak,,,leaf_margin,x,margin en
 Artocarpus obtusus,species,species,,,Sabah and Sarawak,,,leaf_margin_posture,x,plane,plane,flat,mode,,"Description, p.204",30,204,,
 Artocarpus obtusus,species,species,,,Sabah and Sarawak,,,leaf_shape,x,elliptic or obovate,elliptic obovate,elliptical obovate,mode,,"Description, p.204",30,204,,
 Artocarpus obtusus,species,species,,,Sabah and Sarawak,,,plant_growth_form,x,Tree up to 35 m tall,tree,tree,mode,,"Description, p.204",30,204,,
-Artocarpus obtusus,species,species,,,Sabah and Sarawak,,,seed_shape,x,Seeds reniform to subglobose,subglobose,globoid,mode,,"Description, p.204",30,204,,
+Artocarpus obtusus,species,species,,,Sabah and Sarawak,,,seed_shape,x,Seeds reniform to subglobose,reniform subglobose,reniform globoid,mode,,"Description, p.204",30,204,,
 Artocarpus obtusus,species,species,,,Sabah and Sarawak,,,plant_height,x,Tree up to 35 m tall,35,35,maximum,m,"Description, p.204",30,204,,
 Artocarpus obtusus,species,species,,,Sabah and Sarawak,,,plant_diameter_breast_height,x,60 cm diameter,60,60,maximum,cm,"Description, p.204",30,204,,
 Artocarpus obtusus,species,species,,,Sabah and Sarawak,,,leaf_length,x,8--23 x 4--8 cm,8,8,minimum,cm,"Description, p.204",30,204,Dimension 1 of '8--23 × 4--8 cm' interpreted as length.,
