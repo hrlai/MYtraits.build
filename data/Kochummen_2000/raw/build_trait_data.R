@@ -36,9 +36,6 @@ dict <- flora_load_dict(
   ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary.csv"
 )
 dict <- dict[names(dict) %in% names(traits)]
-# "or more frequently strangler" (F. xylophylla); not yet in the shared list
-flora_qual_words <- c(flora_qual_words, "more frequently")
-flora_qual_re <- paste0("\\b(", paste(flora_qual_words, collapse = "|"), ")\\b")
 # Moraceae terms missing from the shared dictionary; first, so they win over
 # shorter shared terms
 local_terms <- list(

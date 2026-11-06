@@ -88,5 +88,10 @@ stopifnot(
 stopifnot(str_detect("leaves; twigs", .flora_bad_glyph_re))
 # "more often" is its own commonness word (Jaman_2020 p. 89)
 stopifnot(str_match("more often c. 45 cm", flora_qual_re)[, 2] == "more often")
+# "or more frequently strangler" (Kochummen_2000, Ficus xylophylla p. 317)
+stopifnot(
+  str_match("or more frequently strangler", flora_qual_re)[, 2] ==
+    "more frequently"
+)
 
 cat("ok\n")
