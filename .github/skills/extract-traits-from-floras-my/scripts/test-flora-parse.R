@@ -88,6 +88,16 @@ stopifnot(
 stopifnot(str_detect("leaves; twigs", .flora_bad_glyph_re))
 # "more often" is its own commonness word (Jaman_2020 p. 89)
 stopifnot(str_match("more often c. 45 cm", flora_qual_re)[, 2] == "more often")
+# a count takes the commonness word of its chunk (Turner_2014,
+# Polyalthia dolichopoda "generally single-flowered, occasionally 2-flowered")
+stopifnot(
+  flora_count_rows("t", "occasionally 2-flowered", "2")$cq == "occasionally",
+  is.na(flora_count_rows("t", "2-flowered", "2")$cq),
+  flora_count_rows("t", "generally single-flowered", "1")$cq == "generally",
+  # a later word qualifies another value (Adema_1996 p. 273, p. 344)
+  all(is.na(flora_count_rows("t", "stamens 8 (rarely fewer)", "8")$cq)),
+  all(is.na(flora_count_rows("t", "ovary 2- rarely 3-locular", "2")$cq))
+)
 # "seemingly" is a hedge (Turner_2014, Polyalthia dolichopoda)
 stopifnot(
   is.null(flora_cat_rows("flower_colour", "seemingly darkening to red", seed))

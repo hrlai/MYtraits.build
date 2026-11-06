@@ -329,10 +329,7 @@ score_chunk <- function(cl) {
       m <- str_match(lf, paste0("\\b(", cnt, "|single)[- ]flowered\\b"))
       if (!is.na(m[1, 1]) && !str_detect(lf, "\\d[–-](few|several|many)")) {
         v <- if (m[1, 2] == "single") "1" else m[1, 2]
-        add(mut(
-          count_rows("flowers_per_inflorescence", x, v, unit = "{count}/{count}"),
-          cq = coalesce(cq, qualifier(lx))
-        ))
+        add(count_rows("flowers_per_inflorescence", x, v, unit = "{count}/{count}"))
       }
     },
     flowers = if (so == "flowers" && !str_detect(lx, "^(male|female|staminate|pistillate)")) {
@@ -428,10 +425,7 @@ score_chunk <- function(cl) {
       lx <- str_replace(lx, "^(seeds? )(\\d+) or (\\d+)\\b", "\\1\\2–\\3")
       m <- str_match(lx, paste0("^seeds? ((c\\.|generally|usually|mostly|typically) )?(", cnt, ")\\s+(in|per)\\s+(each )?monocarp"))
       if (!is.na(m[1, 1])) {
-        add(mut(
-          count_rows("seeds_per_fruit", x, paste0(if_else(coalesce(m[1, 3], "") == "c.", "c. ", ""), m[1, 4]), em = mono, unit = "{count}/{count}", notes = mono_note),
-          cq = coalesce(cq, if (!is.na(m[1, 3]) && m[1, 3] != "c.") m[1, 3] else NA_character_)
-        ))
+        add(count_rows("seeds_per_fruit", x, paste0(if_else(coalesce(m[1, 3], "") == "c.", "c. ", ""), m[1, 4]), em = mono, unit = "{count}/{count}", notes = mono_note))
       }
       if (!dried) {
         l <- grab(x, "long")

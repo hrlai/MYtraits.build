@@ -445,20 +445,29 @@ flora_value_rows <- function(
     })
 }
 
-# Rows for a count ("4-5"). `unit` is "{count}" unless set.
+# Rows for a count ("4-5"). `unit` is "{count}" unless set. A commonness word
+# of `cq_text` (default the clause) before its first digit and outside
+# parentheses qualifies the rows: "generally single-flowered, occasionally
+# 2-flowered" gives two keys, not a duplicate (Turner_2014). A later word
+# qualifies another value ("stamens 8 (rarely fewer)", "ovary 2- rarely
+# 3-locular"; Adema_1996).
 flora_count_rows <- function(
   trait,
   raw,
   value_txt,
   em = NA_character_,
   notes = NA_character_,
-  unit = "{count}"
+  unit = "{count}",
+  cq_text = raw
 ) {
   r <- flora_parse_range(paste(value_txt, "mm"))
   if (is.null(r)) {
     return(NULL)
   }
+  lead <- str_remove(str_remove_all(str_to_lower(cq_text), "\\([^)]*\\)"), "\\d.*$")
+  q <- str_match(lead, flora_qual_re)[, 2]
   flora_num_rows(r) |>
+    mutate(cq = if_else(is.na(cq) & !is.na(q), q, cq)) |>
     pmap_dfr(\(value, value_type, cq, unit_) {
       flora_row(trait, value, value, value_type, unit, cq, em, notes, raw)
     })
