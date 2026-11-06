@@ -3,7 +3,9 @@ Template for one family issue. An agent drafting an issue copies everything
 below this comment into the issue body and fills every <...> field in the
 Source block from assets/myflora_metadata.csv (series and volume, author,
 year) and the repo's dataset ID convention (<Author>_<Year>, `_2` suffix on
-collision). Leave no <...> placeholder unfilled.
+collision). Fill <Filename> from the row's `filename` column (for example
+`pdf/TFSS/LeguminosaeCaesalpinioideae.pdf`); do not build it from the family
+name. Leave no <...> placeholder unfilled.
 -->
 
 Extract traits from one Malaysian flora family treatment using the
@@ -25,17 +27,17 @@ Before starting, check these fields against the PDF's row in
 disagrees with that row, stop and ask me.
 
 Get the PDF with `flora_fetch("<Family>", "<Flora>")`
-(`scripts/flora_fetch.R`). It returns
-`inst/extdata/myflora/pdf/<Flora>/<Family>.pdf` and downloads only if the file
-is missing. If it fails, stop and report to me. Do not retry or fetch any other
+(`scripts/flora_fetch.R`). It returns `inst/extdata/myflora/<Filename>` and
+downloads only if the file is missing. If it fails, stop and report to me. Do not retry or fetch any other
 family. Confirm the text layer in `assets/myflora_metadata.csv` and with
 `flora_layer_flags()`.
 
 ## Branch
 
-1. Start from an up-to-date, clean `main`. If `main` has uncommitted changes to
-   tracked files, stop and ask me.
-2. Create a branch named exactly as the dataset ID: `git switch -c <ID>`.
+1. Run `git fetch origin` and branch from `origin/main`, not local `main`. If
+   the working tree has uncommitted changes to tracked files, stop and ask me.
+2. Create a branch named exactly as the dataset ID:
+   `git switch -c <ID> origin/main`.
 3. If `data/<ID>/` or a branch with that name already exists, stop and ask me
    for a distinct ID (the repo convention is a `_2` suffix).
 4. Do all work and commits on this branch. Do not merge to `main`.
