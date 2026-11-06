@@ -88,6 +88,12 @@ stopifnot(
 stopifnot(str_detect("leaves; twigs", .flora_bad_glyph_re))
 # "more often" is its own commonness word (Jaman_2020 p. 89)
 stopifnot(str_match("more often c. 45 cm", flora_qual_re)[, 2] == "more often")
+# a full stop with no space ends a sentence (DeWilde_2018 p. 161), but not
+# after a capital ("E.glaber")
+stopifnot(
+  flora_norm("bark pinkish.Twigs grey") == "bark pinkish. Twigs grey",
+  flora_norm("as in E.glaber") == "as in E.glaber"
+)
 # a count takes the commonness word of its chunk (Turner_2014,
 # Polyalthia dolichopoda "generally single-flowered, occasionally 2-flowered")
 stopifnot(

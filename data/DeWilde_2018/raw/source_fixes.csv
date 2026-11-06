@@ -1,5 +1,4 @@
 pattern,replacement,page,reason
-"pinkish\.Twigs","pinkish. Twigs",,"text layer: no space after the full stop ending the H. irya bark sentence (printed 161), so the bark and twig sentences were one; punctuation only."
 "smaller incisions\)\. Fruits","smaller incisions. Fruits",,"source typo: unmatched ')' in K. curtisii var. paludosa (printed 198); punctuation only."
 "split a quarter to a third\), lobes","split a quarter to a third, lobes",,"source typo: unmatched ')' in M. lowiana male flowers (printed 248); punctuation only."
 "^Tree 9–23 cm tall","Tree 9–23 m tall",255,"source typo: M. wyatt-smithii habit printed 'Tree 9–23 cm tall' (printed 255); a tree, so the unit is m. Changes a value: question 2."

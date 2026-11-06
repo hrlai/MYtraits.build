@@ -64,6 +64,9 @@ flora_norm <- function(x) {
       "\\1 \\3 to \\2 \\3"
     ) |>
     str_replace_all("\u00ad", "") |>
+    # a full stop with no space after it ("pinkish.Twigs", DeWilde_2018
+    # p. 161); a capital before the stop ("E.glaber") is left alone
+    str_replace_all("(?<=[a-z])\\.(?=[A-Z][a-z])", ". ") |>
     str_replace_all("\u2013 ", "\u2013") |>
     str_replace_all("(?<=\\d)\\s?\u2013\\s?(?=\\d)", "\u2013") |>
     str_replace_all(
