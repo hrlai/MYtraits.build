@@ -256,7 +256,7 @@
 "bark_colour","(?<![a-z])(reddish|red)\b","red","Adema_1996",""
 "bark_colour","(?<![a-z])(yellowish|yellow)\b","yellow","Adema_1996",""
 "bark_colour","\bgreenish\b","green","DeWilde_2018","the green row needs a word end and misses greenish"
-"bark_texture","peeling|papery","papery","Adema_1996",""
+"bark_texture","\bpapery\b","papery","Adema_1996","papery only when stated: peeling is not papery (Crudia caudata, Hou_2000)"
 "bark_texture","\bscaly\b|lenticell|dippled|pustulate|warty","","Adema_1996",""
 "leaf_shape","sickle-shaped|falcate","falcate","Adema_1996",""
 "leaf_shape","rhomb|trullate|deltoid|cordiform","","Adema_1996",""
