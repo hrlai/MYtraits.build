@@ -1028,7 +1028,9 @@ The format is fixed so `unmapped_terms.csv` can be compared across datasets:
   `glands`, `fusion`, `branching`, `division`, `presence` (absence statements),
   `phenology`, `sex`, `description` (several characters, or none of these),
   `text` (section text). The list and its matching patterns are
-  `flora_unmapped_characters`.
+  `flora_unmapped_characters`. An angle is `shape` ("narrowed into the
+  petiole at a 20--50° angle", 27 Nooteboom_2010 taxa); put the angle
+  wording in `<detail>`.
 - `<detail>` holds everything else: candidate traits, hedges, out-of-region
   remarks, the wording of a multi-character clause. Free wording passed as
   the character is matched to one listed character (several or none:
