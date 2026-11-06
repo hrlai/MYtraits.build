@@ -407,7 +407,10 @@ misreads; image checking is for scans.
   assignment against the rendered page before accepting it. Rendering alone is
   not review. If verification is incomplete, label the extraction provisional;
   do not call unverified rows complete or release-ready. Render the treatment
-  pages (`flora_render_pages()`, 220 dpi, top and bottom halves). Check the OCR
+  pages (`flora_render_pages()`, 220 dpi) and read the full-page image
+  (`p<NN>_full.png`) by default; it was legible on all 39 text pages of
+  Nooteboom_2010. Read the top and bottom halves it also writes only where
+  the type is too small to read on the full page. Check the OCR
   draft against the page images, save corrected, image-checked text in
   `raw/<Family>_transcription.txt`, and feed `flora_read_transcription()` to
   `flora_segment()`. Do not discard useful OCR text just because it needs

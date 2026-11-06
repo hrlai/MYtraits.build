@@ -81,8 +81,8 @@ flora_layer_flags <- function(file, pages = NULL, min_chars = 500) {
     select(pdf_page, printed_page, chars, bad_glyphs, low_text, odd_page_number)
 }
 
-# Render pdf pages to PNG, each split into top and bottom halves (about one read
-# per half page when transcribing). `outdir` must be outside the tracked tree
+# Render pdf pages to PNG: the full page (read this by default) plus top and
+# bottom halves (read these only where the type is too small on the full page). `outdir` must be outside the tracked tree
 # (for example a scratch folder); nothing is deleted.
 flora_render_pages <- function(file, pages, outdir, dpi = 220) {
   dir.create(outdir, showWarnings = FALSE, recursive = TRUE)
