@@ -1294,10 +1294,55 @@ all FPM and TFSS treatments. An agent processing a family may edit `SKILL.md`,
   `new`, `generalised`, `confirmed` or `removed`, reason, evidence, regression
   result) and unfixed problems under "Skill issues not fixed".
 
-## Open question for the user
+## Open questions for the user
 
-Hedged statements: confirm whether accepted Yao_2010 hedges should remain
-scored; default for new families is not scored.
+This is the register of undecided skill questions; the GitHub issues that
+raised them are closed. When a family meets one of these cases, apply the
+current treatment, record a metadata question, and raise the decision in
+the PR. When the user decides, change the rule and delete the item here.
+Rules marked `provisional (<ID> question N)` are tracked by that marker
+(`grep -n provisional SKILL.md`), not listed here.
 
-Kiew_2015 questions 4, 17, 18 and 19 settle the aquatic, cultivated-plant
-and pollinator rules in step 4. Update those rules when the user answers.
+- **Hedged statements.** Confirm whether accepted Yao_2010 hedges should
+  remain scored; default for new families is not scored.
+- **Kiew_2015 questions 4, 17, 18 and 19** settle the aquatic,
+  cultivated-plant and pollinator rules in step 4.
+- **Values per subspecies inside a species clause** ("10--15 x 6--10 cm
+  (subsp. agamii) or ... (subsp. diminuta)", Shorea agamii p. 220,
+  Ashton_2004). Now unmapped. Options: route each value to the named
+  subspecies as its own rows (blocking inheritance of that trait), or keep
+  unmapped (#171).
+- **One piece giving two sizes for two forms** (Shorea ovalis p. 302,
+  Ashton_2004). Now the first size is scored. Options: first size, both
+  as separate observations with a `form` context, or unmapped (#171).
+- **Indumentum sentences listing several organs** ("Twig, inflorescence,
+  petiole and leaf bud persistently pubescent", about 700 Ashton_2004 rows,
+  question 10). Now unmapped. Options: split into `stem_hairs` and
+  `leaf_hairs_adult_leaves` when the organ is listed and the hairs are
+  persistent, or keep unmapped (#171).
+- **Scabrid, lepidote, epilose** have no hair level (Ashton_2004
+  "cream-lepidote below": peltate scales). Now unmapped or blocked.
+  Decide whether, and to which levels, they map (#171).
+- **"Fruits eaten by" an animal.** DeWilde_2018 family Ecology (p. 128,
+  primates, elephants, squirrels) is not scored; Nooteboom_2010 question 5
+  scored "eaten by birds" as `dispersers = birds`. Options: eating is not
+  dispersal unless the text says the animal disperses the seed, or a named
+  eater is a disperser (#177; user, 2026-11-06: decide later).
+- **"As in var. X"** in an infraspecific description ("Inflorescences and
+  flowers as in var. brandiana", S. crassipes var. crassipes p. 240,
+  Nooteboom_2010 question 9). Now the species values are inherited.
+  Options: copy the named sibling's values for the named organs, or keep
+  inheriting (#190).
+- **Glomerule and fascicle** have no `inflorescence_type` level (S.
+  glomerata, S. fasciculata, S. tricoccata, Nooteboom_2010; a blocking
+  fascicle row exists). Options: leave unmapped, or map fascicle to `head`
+  (#190).
+- **Trait candidates with no unmapped organ + character pair**, so not in
+  `inst/notes/upstream_traits/decisions.csv`: canopy position (emergent,
+  main canopy, understorey; Ashton_2004), aril division (entire,
+  laciniate) and perianth split depth (DeWilde_2018), seed storage
+  behaviour, a dried-colour context (Turner_2014 question 2), hypanthium
+  shape and flowering interval in years (Koompassia excelsa, Hou_2000), and
+  a `flower_bract_length` minimum below 1 mm (DeWilde_2018 question 8,
+  Nooteboom_2010 question 10). Give them a pair (an unmapped note) or
+  raise them upstream by hand (#171, #177, #183, #188).
