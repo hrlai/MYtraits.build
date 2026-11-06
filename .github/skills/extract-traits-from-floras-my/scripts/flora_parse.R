@@ -320,6 +320,36 @@ flora_load_dict <- function(file) {
     map(\(x) set_names(x$level, x$term_regex))
 }
 
+# A commonness word qualifies the unqualified chunks after it in a list of
+# alternatives: "petals mostly green, white or yellow, sometimes orange, red
+# or purple" (Annonaceae, Turner_2014 p. 1). The list is the run of chunks
+# that score this trait, up to the next qualified chunk, and it must end in
+# an "or" alternative. Not carried: past a chunk with no term of the trait
+# ("Flowers usually bisexual, ..., petals white", Coode_2018), or to a list
+# with no "or" ("base often unequal, rounded to broadly cuneate",
+# Kochummen_1995; "often sulcate ..., finally ... glabrous", Coode_2018).
+# `ci` and `cq` are the chunk index and own qualifier of each matched term.
+.flora_carry_qual <- function(chunks, ci, cq) {
+  n <- length(chunks)
+  matched <- seq_len(n) %in% ci
+  own <- rep(NA_character_, n)
+  own[ci] <- cq
+  eff <- own
+  for (i in which(!is.na(own))) {
+    j <- i + 1
+    # a chunk starting "some ..." is its own alternative ("base mostly
+    # cuneate, some broadly cuneate or even rounded", Coode_2018 p. 85)
+    while (j <= n && matched[j] && is.na(own[j]) &&
+      !str_detect(chunks[j], "^(?i)some\\b")) {
+      j <- j + 1
+    }
+    if (j - 1 > i && str_detect(chunks[j - 1], "\\bor\\b")) {
+      eff[(i + 1):(j - 1)] <- own[i]
+    }
+  }
+  eff[ci]
+}
+
 # Score one clause for one trait. Alternatives split on commas and on
 # "or/and/to <commonness word>". Values keep text order. Any commonness word
 # moves that chunk to its own row; the unqualified chunk then becomes `usually`.
@@ -366,7 +396,9 @@ flora_score_cat <- function(txt, trait, dict) {
   if (!length(out)) {
     return(NULL)
   }
-  out <- bind_rows(out) |>
+  out <- bind_rows(out)
+  out$cq <- .flora_carry_qual(chunks, out$ci, out$cq)
+  out <- out |>
     arrange(ci, pos) |>
     mutate(
       term = str_replace_all(str_to_lower(term), " ", "_"),

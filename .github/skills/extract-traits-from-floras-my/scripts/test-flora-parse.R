@@ -124,6 +124,23 @@ stopifnot(
   all(is.na(flora_count_rows("t", "stamens 8 (rarely fewer)", "8")$cq)),
   all(is.na(flora_count_rows("t", "ovary 2- rarely 3-locular", "2")$cq))
 )
+# a qualifier carries over the rest of a comma list (Turner_2014 p. 1)
+pc <- flora_score_cat(
+  "petals mostly green, white or yellow, sometimes orange, red or purple",
+  "flower_colour", seed
+)
+stopifnot(
+  setequal(pc$cq, c("mostly", "sometimes")),
+  str_detect(pc$trait_value_clean[pc$cq == "sometimes"], "purple")
+)
+# ... but not past a chunk with no term of the trait (Coode_2018), nor to a
+# list with no "or" (Kochummen_1995 p. 71)
+stopifnot(
+  is.na(flora_score_cat("Flowers usually bisexual, petals white",
+    "flower_colour", seed)$cq),
+  setequal(flora_score_cat("base often unequal, rounded to broadly cuneate",
+    "leaf_base_shape", seed)$cq, c("often", "usually"))
+)
 # "seemingly" is a hedge (Turner_2014, Polyalthia dolichopoda)
 stopifnot(
   is.null(flora_cat_rows("flower_colour", "seemingly darkening to red", seed))
