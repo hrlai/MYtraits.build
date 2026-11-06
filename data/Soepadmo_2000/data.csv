@@ -4550,7 +4550,7 @@ Quercus treubiana,species,species,genus,,,,,flower_anther_attachment,x,anthers b
 Quercus treubiana,species,species,genus,,,,,fruit_type,x,Fruits (acorns) ovoid,acorns,nut,mode,,"Genus description, p.95",101,95,Copied from the Quercus description.,Soepadmo_2000,acorns,inferred_from_genus
 Quercus treubiana,species,species,genus,,,,,inflorescence_type,x,Inflorescences male or female spikes,spikes,spike,mode,,"Genus description, p.95",101,95,Copied from the Quercus description.,Soepadmo_2000,spikes,inferred_from_genus
 Quercus treubiana,species,species,,,Sabah and Sarawak,,,bark_colour,x,Bark greyish brown,greyish brown,grey brown,mode,,"Description, p.113",119,113,,Soepadmo_2000,greyish brown,inferred_from_species
-Quercus treubiana,species,species,,,Sabah and Sarawak,,,bark_texture,x,rough | peeling off into rectangular pieces,rough peeling,rough papery,mode,,"Description, p.113",119,113,,Soepadmo_2000,rough peeling,inferred_from_species
+Quercus treubiana,species,species,,,Sabah and Sarawak,,,bark_texture,x,rough,rough,rough,mode,,"Description, p.113",119,113,,Soepadmo_2000,rough,inferred_from_species
 Quercus treubiana,species,species,,,Sabah and Sarawak,,,leaf_apex_shape,x,apex acute to acuminate,acute acuminate,acute acuminate,mode,,"Description, p.113",119,113,,Soepadmo_2000,acute acuminate,inferred_from_species
 Quercus treubiana,species,species,,,Sabah and Sarawak,,,leaf_arrangement,x,Leaves spirally arranged,spiral,spiral,mode,,"Description, p.113",119,113,,Soepadmo_2000,spiral,inferred_from_species
 Quercus treubiana,species,species,,sometimes,Sabah and Sarawak,,,leaf_base_shape,x,sometimes asymmetrical,asymmetric,oblique,mode,,"Description, p.113",119,113,,Soepadmo_2000,asymmetric,inferred_from_species
