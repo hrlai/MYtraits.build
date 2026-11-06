@@ -136,9 +136,12 @@ Coode_2018 one.
 run a script with `uvr run <file.R>`; for a one-liner use
 `~/.uvr/r-versions/4.6.0/bin/Rscript.exe -e '...'` (the project `.Rprofile`
 selects the `.uvr/library`). Check `.r-version` if the version path fails.
-On Windows, prefer a scratch `.R` file with `uvr run` over `-e`: `Rscript.exe
--e` breaks on `&` inside strings, and bash heredocs collapse `\\` in regexes
-(use `[.]` instead of `\\.`).
+On Windows, write a scratch `.R` (or `.py`) file with the file-writing tool
+and run it (`uvr run <file.R>`) instead of using `-e` or a heredoc:
+`Rscript.exe -e` breaks on `&` inside strings, and Git Bash heredocs collapse
+`\\` to `\` in R and Python code alike, so regexes and Windows paths break
+silently (Kochummen_2000). Where a heredoc cannot be avoided, use `[.]`
+instead of `\\.`.
 On Linux (cloud sessions) R needs a UTF-8 locale. The project `.Rprofile`
 sets `LC_CTYPE` to `C.UTF-8` when the session is not UTF-8; if it warns that
 it could not, set `LANG=C.UTF-8` first. Under the C locale `yaml::read_yaml("config/traits.yml")` stops at the first
