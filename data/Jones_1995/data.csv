@@ -1255,6 +1255,7 @@ Merope angulata,species,species,,,,,,plant_growth_form,x,Erect shrub or small tr
 Merope angulata,species,species,,,,,,plant_height,x,Erect shrub or small tree to 3 m tall and 10 cm diameter,3,3,maximum,m,"Description, p.395",51,395,,Jones_1995,3,inferred_from_species
 Merope angulata,species,species,,,,,,seed_length,x,Seeds 2--3 cm long,2,2,minimum,cm,"Description, p.395",51,395,,Jones_1995,2,inferred_from_species
 Merope angulata,species,species,,,,,,seed_length,x,Seeds 2--3 cm long,3,3,maximum,cm,"Description, p.395",51,395,,Jones_1995,3,inferred_from_species
+Merope angulata,species,species,,,,,,seed_shape,x,somewhat reniform,reniform,reniform,mode,,"Description, p.395",51,395,,Jones_1995,reniform,inferred_from_species
 Merope angulata,species,species,,,,,,seed_surface_texture,x,testa rough,rough,rough,mode,,"Description, p.395",51,395,,Jones_1995,rough,inferred_from_species
 Merrillia caloxylon,species,species,,,,,petals,flower_colour,x,greenish-white,greenish white,green white_cream,mode,,"Description, p.398",54,398,,Jones_1995,greenish white,inferred_from_species
 Merrillia caloxylon,species,species,family,,,,,flower_ovary_position,x,ovary superior,superior,superior,mode,,"Family description, p.351",7,351,Copied from the Rutaceae description.,Jones_1995,superior,inferred_from_family
