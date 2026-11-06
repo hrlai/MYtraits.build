@@ -67,6 +67,15 @@ flora_norm <- function(x) {
     # a full stop with no space after it ("pinkish.Twigs", DeWilde_2018
     # p. 161); a capital before the stop ("E.glaber") is left alone
     str_replace_all("(?<=[a-z])\\.(?=[A-Z][a-z])", ". ") |>
+    # "apex acuminate rarely caudate": a commonness word between two
+    # adjectives with no "or" qualifies the second (Hou_2000 p. 165)
+    str_replace_all(
+      paste0(
+        "(?<=[a-z](ate|ous|ic|ed)) (sometimes|rarely|occasionally) ",
+        "(?=[a-z]+(ate|ous|ic)\\b)"
+      ),
+      " or \\2 "
+    ) |>
     str_replace_all("\u2013 ", "\u2013") |>
     str_replace_all("(?<=\\d)\\s?\u2013\\s?(?=\\d)", "\u2013") |>
     str_replace_all(

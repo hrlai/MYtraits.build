@@ -78,11 +78,6 @@ prep <- function(x) {
     }) |>
     # "basi- or dorsifixed" -> "basifixed or dorsifixed"
     str_replace_all("\\b([a-z]+)- or ([a-z]+)(fixed)\\b", "\\1\\3 or \\2\\3") |>
-    # "acuminate rarely caudate": the qualifier is the second state's
-    str_replace_all(
-      "(?<=[a-z](ate|ous|ic|ed)) (sometimes|rarely|occasionally) (?=[a-z]+(ate|ous|ic)\\b)",
-      " or \\2 "
-    ) |>
     # "45 m (rarely more) tall", "100 cm (or more) diameter": the aside after
     # the keyword, so the size is read
     str_replace_all(

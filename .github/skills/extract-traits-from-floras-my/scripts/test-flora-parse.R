@@ -94,6 +94,12 @@ stopifnot(
   flora_norm("bark pinkish.Twigs grey") == "bark pinkish. Twigs grey",
   flora_norm("as in E.glaber") == "as in E.glaber"
 )
+# "A rarely B" is "A or rarely B" (Hou_2000, Saraca hullettii p. 165)
+stopifnot(
+  flora_norm("apex acuminate rarely caudate") ==
+    "apex acuminate or rarely caudate",
+  flora_norm("acuminate, rarely caudate") == "acuminate, rarely caudate"
+)
 # a count takes the commonness word of its chunk (Turner_2014,
 # Polyalthia dolichopoda "generally single-flowered, occasionally 2-flowered")
 stopifnot(
