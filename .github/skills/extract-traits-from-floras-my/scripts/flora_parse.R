@@ -159,7 +159,7 @@ flora_qual_words <- c(
   "typically"
 )
 flora_qual_re <- paste0("\\b(", paste(flora_qual_words, collapse = "|"), ")\\b")
-flora_hedge_re <- "\\b(probably|perhaps|apparently|possibly|presumably)\\b"
+flora_hedge_re <- "\\b(probably|perhaps|apparently|possibly|presumably|seemingly)\\b"
 
 # ---- numbers ------------------------------------------------------------------------
 

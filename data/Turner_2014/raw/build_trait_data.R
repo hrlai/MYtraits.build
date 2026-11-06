@@ -223,7 +223,7 @@ perianth_colour_ok <- function(lx) {
     !str_detect(lx, paste0(
       hair_re, "|", dry_re, "|\\bat (the )?(base|apex)\\b|tinge|stripe|",
       "spot|blotch|fleck|streak|mark|veins?|outside|inside|exposed|margin|",
-      "surface|tip|flushed|suffused|mottled|when|covered|seemingly|appear"
+      "surface|tip|flushed|suffused|mottled|when|covered|appear"
     ))
 }
 # ripe colour: after "ripening" or "turning", or before "when ripe"
