@@ -106,6 +106,14 @@ stopifnot(
     "up to 45 m tall (rarely more)",
   flora_norm("100 cm (or more) diameter") == "100 cm diameter (or more)"
 )
+# shared grabber: two or three dimensions (Hou_2000)
+g2 <- flora_grab_dims("Leaflets 5–9 × 2–3 cm, glabrous")
+g3 <- flora_grab_dims("Pods (4–)6–8 × c. 3 × 0.5 cm")
+stopifnot(
+  identical(g2$parts, c("5–9", "2–3")), g2$unit == "cm",
+  length(g3$parts) == 3, g3$parts[1] == "(4–)6–8", g3$parts[3] == "0.5",
+  is.null(flora_grab_dims("Leaves 5 cm long"))
+)
 # a count takes the commonness word of its chunk (Turner_2014,
 # Polyalthia dolichopoda "generally single-flowered, occasionally 2-flowered")
 stopifnot(

@@ -115,17 +115,7 @@ unit_re <- "(mm|cm|m)\\b"
 grab <- function(x, keyword) {
   str_extract(x, paste0(rng, "\\s?", unit_re, "\\s?", keyword))
 }
-grab_dims <- function(x) {
-  m <- str_match(
-    x,
-    paste0("(", rng, ")\\s?×\\s?(", rng, ")(?:\\s?×\\s?(", rng, "))?\\s?", unit_re)
-  )
-  if (is.na(m[1, 1])) {
-    return(NULL)
-  }
-  parts <- m[1, 2:4]
-  list(raw = m[1, 1], parts = parts[!is.na(parts)], unit = m[1, 5])
-}
+grab_dims <- flora_grab_dims
 
 hedged <- \(x) {
   str_detect(x, flora_hedge_re) |

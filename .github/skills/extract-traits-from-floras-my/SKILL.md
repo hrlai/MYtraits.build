@@ -515,6 +515,9 @@ contained infraspecific headings.
   `flora_count_rows()`, `flora_dim_rows()`, `flora_cat_rows()` and
   `flora_term_level()` in `flora_parse.R`. Bind the dictionary and
   dimension grabber in thin local wrappers (Adema_1996, Soepadmo_2000).
+  `flora_grab_dims()` is the shared grabber for "a × b" and "a × b × c"
+  sizes (the third part is thickness: `fruit_height`, `seed_height`); use
+  it rather than writing another (Hou_2000, Beentje_2023).
 - Treat figure and map captions as non-treatment text unless they supply a
   separately transcribed voucher. With `flora_read_pdf_lines()`, configure
   `caption_re`, `side_caption_re` and `side_indent`, and inspect dropped lines;

@@ -93,18 +93,7 @@ cnt <- "(?:\\(\\d+–\\)\\s?)?\\d+(?:–\\d+)?(?:\\s?\\(–\\d+\\))?"
 grab <- function(x, keyword) {
   str_extract(x, paste0(rng, "\\s?", unit_re, "\\s?", keyword))
 }
-# "a × b unit" or "a × b × c unit" (length, width, thickness)
-grab_dims <- function(x) {
-  m <- str_match(
-    x,
-    paste0("(", rng, ")\\s?×\\s?(", rng, ")(?:\\s?×\\s?(", rng, "))?\\s?", unit_re)
-  )
-  if (is.na(m[1, 1])) {
-    return(NULL)
-  }
-  parts <- m[1, 2:4]
-  list(raw = m[1, 1], parts = parts[!is.na(parts)], unit = m[1, 5])
-}
+grab_dims <- flora_grab_dims
 
 # "more or less" and "almost" qualify the state they precede: not scored
 hedged <- \(x) str_detect(x, flora_hedge_re) | str_detect(str_to_lower(x), "\\bmore or less\\b|\\balmost\\b|\\(\\?\\)")

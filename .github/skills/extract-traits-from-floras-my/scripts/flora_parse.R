@@ -286,6 +286,30 @@ flora_parse_dims <- function(s) {
   list(len = flora_num_rows(a, m[, 4]), wid = flora_num_rows(b, m[, 4]))
 }
 
+# Dimension grabber for flora_dim_rows(): "a × b unit" or "a × b × c unit"
+# (length, width, thickness; the third part goes to fruit_height /
+# seed_height). Each part may carry "(a–)", "c.", "to" and "(–d)". Text must
+# already use en dashes and "×". Moved from data/Hou_2000 and Beentje_2023.
+.flora_dim_part <- paste0(
+  "(?:\\(", .flora_num, "–\\)\\s?)?(?:c\\.\\s?|to\\s)?", .flora_num,
+  "(?:–", .flora_num, ")?(?:\\s?\\(–", .flora_num, "\\))?"
+)
+flora_grab_dims <- function(x) {
+  p <- .flora_dim_part
+  m <- str_match(
+    x,
+    paste0(
+      "(", p, ")\\s?×\\s?(", p, ")(?:\\s?×\\s?(", p, "))?",
+      "\\s?(mm|cm|m)\\b"
+    )
+  )
+  if (is.na(m[1, 1])) {
+    return(NULL)
+  }
+  parts <- m[1, 2:4]
+  list(raw = m[1, 1], parts = parts[!is.na(parts)], unit = m[1, 5])
+}
+
 # ---- categorical dictionary ------------------------------------------------------------
 
 # Dictionary CSV columns: trait, term_regex, level, source, note. Row order is
