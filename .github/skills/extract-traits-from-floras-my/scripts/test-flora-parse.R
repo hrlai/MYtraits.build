@@ -84,6 +84,8 @@ stopifnot(
   identical(d3$len$value_type, c("minimum", "maximum")),
   identical(d3$wid$value, c(3, 4))
 )
+# U+037E for ";" is a bad glyph (Ashton_2004, TFSS vol. 5)
+stopifnot(str_detect("leaves; twigs", .flora_bad_glyph_re))
 # "more often" is its own commonness word (Jaman_2020 p. 89)
 stopifnot(str_match("more often c. 45 cm", flora_qual_re)[, 2] == "more often")
 

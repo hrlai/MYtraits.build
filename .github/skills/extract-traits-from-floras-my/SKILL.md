@@ -385,8 +385,10 @@ misreads; image checking is for scans.
     a picture.
   - `bad_glyphs`: characters the layer could not map (often an en dash or
     multiplication sign from an unembedded font), plus the Symbol-font dot
-    operator `⋅` (U+22C5) used for the multiplication sign in Adema_1996.
-    Read the image and repair them in `raw/source_fixes.csv`. Other
+    operator `⋅` (U+22C5) used for the multiplication sign in Adema_1996,
+    and the Greek question mark U+037E printed for ";" (TFSS segmentation,
+    below; `flora_read_pdf_lines()` converts it, so it needs no repair).
+    Read the image and repair the others in `raw/source_fixes.csv`. Other
     substitutes may exist: if a page image shows a sign that the layer gives as
     an unexpected character, add it to `.flora_bad_glyph_re` in
     `flora_source.R`.
