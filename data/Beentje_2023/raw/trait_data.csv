@@ -2864,7 +2864,7 @@ Pandanus kedahensis,species,species,,,Peninsular Malaysia,,,fruit_width,x,40--45
 Pandanus kedahensis,species,species,,,Peninsular Malaysia,,,seed_length,x,Seeds 15--16 x c. 2 mm,15,15,minimum,mm,"Description, p.192",83,192,Dimension 1 of '15--16 × c. 2 mm' interpreted as length.,
 Pandanus kedahensis,species,species,,,Peninsular Malaysia,,,seed_length,x,Seeds 15--16 x c. 2 mm,16,16,maximum,mm,"Description, p.192",83,192,Dimension 1 of '15--16 × c. 2 mm' interpreted as length.,
 Pandanus kedahensis,species,species,,,Peninsular Malaysia,,,seed_width,x,Seeds 15--16 x c. 2 mm,2,2,mean,mm,"Description, p.192",83,192,Dimension 2 of '15--16 × c. 2 mm' interpreted as width.,
-Pandanus kedahensis,species,species,,,,,,,,Clustering or seemingly solitary,,,mode,,"Description, p.192",83,192,UNMAPPED: habit | description,
+Pandanus kedahensis,species,species,,,,,,,,Clustering or seemingly solitary,,,mode,,"Description, p.192",83,192,UNMAPPED: habit | description | hedged,
 Pandanus kedahensis,species,species,,,,,,,,Stems erect or decumbent,,,mode,,"Description, p.192",83,192,UNMAPPED: stems | description,
 Pandanus kedahensis,species,species,,,,,,,,1.8--6 m long,,,mode,,"Description, p.192",83,192,UNMAPPED: stems | size,
 Pandanus kedahensis,species,species,,,,,,,,decumbent part to 4 m,,,mode,,"Description, p.192",83,192,UNMAPPED: stems | size,
