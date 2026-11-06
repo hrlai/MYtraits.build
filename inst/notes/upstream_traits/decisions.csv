@@ -62,3 +62,21 @@ pistillode,size,ignore,,,,,,,Too fine-grained.
 lateral veins,size,ignore,,,,,,,Vein spacing; rarely given.
 fruits,count,ignore,,,,,,,"Wording is lobes per fruit, not fruit count."
 leaf pleats,armature,ignore,,,,,,,Pandanaceae only.
+fruit calyx,size,propose,easy,fruit_length,fruit_wing_length,numeric (cm),draft,,"Dipterocarp fruit wings (enlarged calyx lobes); main dispersal character (Ashton_2004 q1, #171)."
+fruit calyx,count,propose,easy,flower_perianth_parts_count,fruit_wing_count,numeric ({count}),draft,,Number of wing-like calyx lobes (#171).
+buttresses,size,propose,easy,plant_height,buttress_height,numeric (m),draft,,Buttress height (#171).
+buttress,size,propose,easy,plant_height,buttress_height,numeric (m),draft,,
+resin,colour,propose,medium,,exudate_colour,categorical,draft,,Dammar or resin colour (#171).
+exudate,colour,propose,medium,,exudate_colour,categorical,draft,,
+aril,colour,propose,medium,flower_colour,aril_colour,categorical,draft,,Aril colour (DeWilde_2018 q6; #177).
+arillode,colour,propose,medium,flower_colour,aril_colour,categorical,draft,,
+male flower anther locules,count,propose,easy,flower_fertile_stamens_count,flower_anther_locule_count,numeric ({count}),draft,,Myristicaceae anther locules (DeWilde_2018 q3; #177).
+fruit,shape,propose,medium,seed_shape,fruit_shape,categorical,draft,,Needs a level set.
+monocarps,count,propose,easy,seeds_per_fruit,fruit_monocarp_count,numeric ({count}),draft,,Monocarps per apocarpous fruit (Turner_2014 q1; #183).
+monocarp stipe,size,propose,easy,pedicel_length,fruit_monocarp_stipe_length,numeric (mm),draft,,Stipe of each monocarp (Turner_2014 q1; #183).
+petiole,size,propose,easy,petiole_length,petiole_thickness,numeric (mm),draft,,"Unmapped petiole sizes are mostly thickness (Turner_2014, 115 taxa; #183); check for lengths missed."
+leaflet glands,glands,propose,medium,,leaflet_glands,categorical (absent / present),draft,,Leguminosae (Hou_2000; #188).
+leaflets,glands,propose,medium,,leaflet_glands,categorical (absent / present),draft,,
+leaflet,glands,propose,medium,,leaflet_glands,categorical (absent / present),draft,,
+valves,texture,propose,medium,,fruit_valve_texture,categorical,draft,,Pod valve texture; twisting during dehiscence (Hou_2000; #188).
+fruits,armature,propose,medium,,fruit_spines,categorical (absent / present),draft,,Sindora pods (Hou_2000; #188).
