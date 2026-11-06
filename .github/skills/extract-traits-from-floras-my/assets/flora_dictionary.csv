@@ -347,3 +347,5 @@
 "seed_shape","\bdiscoid\b","discoid","Hou_2000",""
 "seed_surface_reflectivity","\bshining\b","shiny","Hou_2000",""
 "stem_base_form","\bfluted\b","fluted","Hou_2000","'with fluted bole' (Crudia wrayi)"
+"leaf_arrangement","\bdistichously\b","distichous","Nooteboom_2010","adverb form ('Leaves distichously arranged', S. laeteviridis); the distichous row needs the adjective"
+"flower_scent_production","\bscent (strong|sweet)\b|\bstrong(ly)? scent","scent_produced","Nooteboom_2010","noun form ('Flowers white, scent strong', S. fasciculata); the scented row needs the participle"

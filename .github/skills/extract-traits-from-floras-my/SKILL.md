@@ -47,11 +47,12 @@ Worked examples, all in this repository:
 | `data/DeWilde_2018` | Myristicaceae, FPM vol. 7 | born-digital PDF, scripted clause parser after Prance_2012, 65 species and 24 infraspecific taxa | unisexual flowers described by their buds; fused anthers counted; aril and pericarp; hair lengths inside organ clauses; single-infra taxa carry the description; Sinclair-cited organs get `source_id` |
 | `data/Hou_2000` | Leguminosae-Caesalpinioideae, TFSS vol. 3 | 2007 electronic text, scripted clause parser after Ashton_2004, 42 species and 6 infraspecific taxa | compound leaves (leaf vs leaflet sentence, leaflet pairs, bipinnate pinnae); pods; subfamily as the family rank; key-only genera; varieties in a key inherit |
 | `data/Ashton_2004` | Dipterocarpaceae, TFSS vol. 5 | 2008 electronic text (";" as U+037E), scripted clause parser after Soepadmo_2000, 267 species and 40 subspecies | largest family so far, one run; nut is the fruit, calyx wings unmapped; subspecies in key annotations inherit; descriptions split by figure pages; family Ecology by hand |
+| `data/Nooteboom_2010` | Symplocaceae, FPM vol. 1 | scanned PDF, OCR draft cleaned by script and every page image-checked, scripted clause parser after Prance_2012, 22 species and 18 infraspecific taxa | single-variety species carry the description at variety rank; varieties with no description inherit; calyx lobes as sepals; comma lists of alternatives not scored; a Singapore-only species flagged |
 | `data/Turner_2014` | Annonaceae, TFSS vol. 8 | born-digital PDF, scripted clause parser after Ashton_2004, 160 species | monocarp is the fruit; colours on drying not scored; outer and inner petals by `entity_measured`; climbing genera annotated in the key to genera not scored; male and female flower sentences |
 
 Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
-inline source fixes. Only Lim, Yao and Kiew_2010 are scanned. Hughes was
+inline source fixes. Only Lim, Yao, Kiew_2010 and Nooteboom_2010 are scanned. Hughes was
 transcribed from page images before its PDF was found to be born-digital;
 born-digital sources no longer need that (step 2). Nor-Ezzawanis_2010 was too,
 and was rebuilt from the text layer in 2026-11.
@@ -416,6 +417,17 @@ misreads; image checking is for scans.
     differences and measurements it misses against page images. It ignores
     dash, x-sign and line-break differences, so what remains are real OCR
     slips such as split decimals ("1. 75", Kiew_2010).
+  - In the FPM 2010 vol. 1 scans the OCR layer is close to the print, so a
+    draft cleaned by script and then read against the full-page image
+    (legible at 220 dpi) is enough. Script the systematic slips first: every
+    en dash between numbers is a hyphen, "x" stands for "×", and the bare
+    page numbers and running heads are in the layer. Then look for the
+    slips a script cannot settle: a degree sign read as a final zero
+    ("90-1000," for "90–100°", "25°-1800 angle", "40-900 angle"), "I" for
+    "1" ("I-celled", "lateral veins I 0-17"), split decimals ("7 .5"),
+    dots joining words ("with.fine"), key labels ("Sa." for "8a.",
+    "lla." for "11a.") and garbled map frames and compass letters
+    (Nooteboom_2010, 22 OCR pages).
 - Keep errors visible in the draft. Record repairs in `raw/source_fixes.csv`
   (`pattern, replacement, page, reason`) and apply them with
   `flora_apply_fixes()` using printed pages. The transcription fed to the
@@ -584,7 +596,9 @@ Bespoke checklist (decisions that changed per family):
   "leaf bud ..., hairs appressed, 0.1 mm long" the length is the hairs',
   not the fruit's or bud's. Do not score an unlabelled number that follows
   a hair, stalk, base or apex clause in the same piece (DeWilde_2018:
-  Myristica fruits and leaf buds, 25 false sizes before the fix).
+  Myristica fruits and leaf buds, 25 false sizes before the fix). The same
+  holds for an inflorescence axis "with long ... hairs, 1--4 mm long"
+  (Nooteboom_2010, S. crassipes).
 - **Comparisons.** In any section, drop sentences and clauses that compare
   taxa ("differs from ...", "similar to ...", "unlike ...") or name another
   binomial before scoring, so another taxon's characters are not attributed
@@ -595,6 +609,14 @@ Bespoke checklist (decisions that changed per family):
   subcordate or subcuneate at base, acuminate at apex"): the unlabelled
   alternatives before an "at base" or "at apex" chunk belong to it
   (Prance_1995).
+- **Comma lists of alternatives.** "Twigs glabrous, pubescent or
+  tomentose" lists three states of one character; the first chunk is not a
+  state of its own. A chunk parser scores it as glabrous unless it checks
+  the piece: score one chunk only when no other chunk of the piece gives
+  an alternative for the same character, or when each later alternative
+  carries a commonness word ("Twigs appressed long-hairy, rarely
+  glabrous"). Otherwise keep the piece unmapped (Nooteboom_2010: 3 false
+  "glabrous" twigs before the fix).
 - **Adjacent organs.** Parse explicit organ shifts; young and mature bark
   separately; seed cones under fruit traits with `entity_measured = seed cone`
   (confirm per family, see Lim_2010 question 3). A compound fruiting head is
@@ -705,7 +727,9 @@ Bespoke checklist (decisions that changed per family):
   candidate trait. A named connectival appendage ->
   `flower_anther_connective_extension = present_general`. Inflorescence
   "rachis to 8 cm long" -> `inflorescence_length` with `entity_measured =
-  inflorescence rachis`. Leaf (terminal) and flower bud sizes -> `bud_length` /
+  inflorescence rachis`; an "axis 2--6 cm long" the same way with
+  `entity_measured = inflorescence axis`, but not an axis length "in
+  fruit" (Nooteboom_2010 question 4). Leaf (terminal) and flower bud sizes -> `bud_length` /
   `bud_width` with `entity_measured = leaf bud` or `flower bud`. Crown shape
   ("crown hemispherical, dense") -> `plant_canopy_form`.
   Provisional (DeWilde_2018 questions 3--7): fused anthers of a
@@ -721,6 +745,13 @@ Bespoke checklist (decisions that changed per family):
   `fruit_wall_thickness`. A perianth colour after an "inside" clause
   ("inside glabrous, greenish creamy") stays unmapped: its surface is
   unclear.
+  Provisional (Nooteboom_2010 questions 2 and 8): a calyx printed as a
+  whole and by its lobes ("calyx glabrous, 1.5--2.5 mm long, lobes 1--1.5
+  mm long") -> calyx lobe length as `flower_sepal_length` with
+  `entity_measured = calyx lobe`; the whole calyx length stays unmapped.
+  The hypanthium enclosing an inferior ovary ("hypanthium ... 1--1.5 mm
+  high, completely covering the fruit", Symplocaceae) stays unmapped; it
+  is not the free receptacle tube of Prance_2012.
   Provisional (Turner_2014 questions 4, 6 and 7): petal whorls described
   apart ("outer petals ...; inner petals ...") -> `flower_petal_length` and
   `flower_colour` with `entity_measured = outer petals` or `inner petals`;

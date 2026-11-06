@@ -1,0 +1,41 @@
+taxon_name,taxon_rank,status,n_mapped_rows,flag
+Symplocos adenophylla,species,accepted,0,Single variety in the region carries the description; species not scored separately.
+Symplocos adenophylla var. adenophylla,variety,accepted,38,
+Symplocos anomala,species,accepted,32,
+Symplocos barringtoniifolia,species,accepted,33,
+Symplocos calycodactylos,species,accepted,31,
+Symplocos celastrifolia,species,accepted,40,
+Symplocos cerasifolia,species,accepted,0,Single variety in the region carries the description; species not scored separately.
+Symplocos cerasifolia var. cerasifolia,variety,accepted,32,
+Symplocos cochinchinensis,species,accepted,15,
+Symplocos cochinchinensis subsp. cochinchinensis var. cochinchinensis,variety,accepted,36,
+Symplocos cochinchinensis subsp. laurina var. laurina,variety,accepted,42,
+Symplocos crassipes,species,accepted,28,
+Symplocos crassipes var. brandiana,variety,accepted,34,
+Symplocos crassipes var. crassipes,variety,accepted,29,Inflorescences and flowers 'as in var. brandiana'; not copied (question 4).
+Symplocos crassipes var. curtisii,variety,accepted,36,
+Symplocos crassipes var. ernae,variety,accepted,35,
+Symplocos crassipes var. penangiana,variety,accepted,32,
+Symplocos fasciculata,species,accepted,39,
+Symplocos glomerata,species,accepted,30,
+Symplocos henschelii,species,accepted,26,
+Symplocos henschelii var. henschelii,variety,accepted,29,
+Symplocos henschelii var. maingayi,variety,accepted,28,
+Symplocos laeteviridis,species,accepted,0,Single variety in the region carries the description; species not scored separately.
+Symplocos laeteviridis var. laeteviridis,variety,accepted,33,
+Symplocos nivea,species,accepted,31,Fruit unknown; fruit traits not copied down.
+Symplocos odoratissima,species,accepted,0,Single variety in the region carries the description; species not scored separately.
+Symplocos odoratissima var. odoratissima,variety,accepted,37,
+Symplocos ophirensis,species,accepted,35,
+Symplocos ophirensis subsp. ophirensis var. densireticulata,variety,accepted,35,
+Symplocos ophirensis subsp. ophirensis var. ophirensis,variety,accepted,38,
+Symplocos ophirensis subsp. perakensis var. perakensis,variety,accepted,38,
+Symplocos pendula,species,accepted,28,
+Symplocos pendula var. hirtistylis,variety,accepted,28,No description of its own (varieties differ only in the key); traits inherited from the species description.
+Symplocos pendula var. pendula,variety,accepted,28,No description of its own (varieties differ only in the key); traits inherited from the species description.
+Symplocos pyriflora,species,accepted,33,
+Symplocos rubiginosa,species,accepted,38,
+Symplocos sumuntia,species,accepted,37,
+Symplocos theifolia,species,accepted,31,Recorded only from Singapore (Kranji); not yet collected from Peninsular Malaysia. Scored with no population region (question 1).
+Symplocos tricoccata,species,accepted,30,
+Symplocos wikstroemifolia,species,accepted,35,

@@ -1,0 +1,560 @@
+source:
+  primary:
+    key: Nooteboom_2010
+    bibtype: InBook
+    year: 2010
+    author: H. P. Nooteboom
+    title: Symplocaceae
+    booktitle: 'Flora of Peninsular Malaysia, Series II: Seed Plants, Volume 1'
+    editor: R. Kiew and R. C. K. Chung and L. G. Saw and E. Soepadmo and P. C. Boyce
+    series: Malayan Forest Records No. 49
+    publisher: Forest Research Institute Malaysia
+    place: Kepong, Selangor, Malaysia
+    pages: 219--264
+    isbn: 978-967-5221-32-3
+    doi: 10.26525/FPM21022
+contributors:
+  data_collectors:
+    - last_name: Nooteboom
+      given_name: H. P.
+      ORCID: .na
+      affiliation: Netherlands Centre for Biodiversity Naturalis (section NHN), Leiden University, Leiden, The Netherlands
+  dataset_curators: Hao Ran Lai
+dataset:
+  data_is_long_format: yes
+  custom_R_code: .na
+  collection_date: '2010'
+  taxon_name: taxon_name
+  trait_name: trait
+  value: value
+  source_id: source_id
+  description: |
+    Morphological traits of the Symplocaceae of Peninsular Malaysia (one
+    genus, Symplocos: 22 species, 7 with infraspecific taxa), extracted from
+    the family treatment in the Flora of Peninsular Malaysia.
+  basis_of_record: preserved_specimen
+  life_stage: adult
+  sampling_strategy: |
+    Scanned PDF with an OCR layer (scanned_ocr in assets/myflora_metadata.csv;
+    pdf pages 8--53, printed 219--264, and Plate 16, printed 308). The OCR
+    layer was used only to draft raw/Symplocaceae_transcription.txt, which
+    was then checked against every page image rendered at 220 dpi (all 47
+    pages, including figure, map and plate pages); rows come from this
+    image-checked transcription, segmented by raw/segment_source.R. OCR slips
+    corrected from the images are listed in the transcription header
+    (en dashes, multiplication signs, degree signs read as zeros, '1-celled',
+    '10--17', '2--7.5', 'Twigs', 'Erna'). raw/build_trait_data.R splits the
+    genus, species and infraspecific descriptions into sentences, ';' pieces
+    and ',' clauses, assigns each clause to an organ and scores configured
+    traits; every other clause stays verbatim as an unmapped row.
+    Parenthetical asides that are not numbers are taken out before scoring
+    and kept as unmapped rows. The family has no description ('A monogeneric
+    family'); unqualified single-level genus values are copied to member
+    taxa silent on the trait when every member that states the trait agrees
+    (inferred_from_genus); infraspecific taxa silent on a trait inherit their
+    species description. Ranges are minimum and maximum, parenthetical
+    extremes are extreme_range rows, a single or "c." value is a mean and
+    "to" values are maxima. Hedged statements are not scored. Population
+    region is Peninsular Malaysia for species and infraspecific descriptions
+    (FPM guide), except S. theifolia (question 1); copied genus values and
+    cited observations have none. Keys and figure captions are not trait
+    evidence.
+  original_file: |
+    Symplocaceae.pdf (Nooteboom 2010, Flora of Peninsular Malaysia Series
+    II vol. 1, pp. 219--264)
+  notes: |
+    data.csv is raw/trait_data.csv with the columns added by
+    flora_make_data(). Taxon names are as printed; the Addendum (p. 264)
+    notes that Fritsch et al. (2008) raise subgen. Cordyloblaste to genus,
+    so S. henschelii and S. pendula become Cordyloblaste henschelii and
+    C. pendula (left to taxonomic alignment). All 22 numbered species and
+    18 infraspecific headings are processed. Four species (S. adenophylla,
+    S. cerasifolia, S. laeteviridis, S. odoratissima) have a single variety
+    in the region, which carries the description. S. cochinchinensis,
+    S. crassipes, S. henschelii and S. ophirensis have a species description
+    and described infraspecific taxa; S. pendula var. hirtistylis and
+    var. pendula differ only in the key and inherit the species description.
+    S. nivea fruit is unknown, so no fruit values are copied to it.
+    S. theifolia is known in the region only from Singapore (question 1).
+    S. crassipes var. crassipes is known only from the type (question 9).
+    Of 2,501 rows in raw/trait_data.csv, 1,195 are mapped (896 from the
+    taxa's own descriptions and 2 hand rows, 171 copied from the genus and
+    128 inherited from species) and 1,306 are unmapped: 1,134 description
+    clauses and 172 sentences of Distribution, Ecology, Conservation status,
+    Taxonomy, Uses, Note and vernacular names. Most frequent unmapped
+    characters: lateral vein number, hypanthium indumentum and height,
+    calyx indumentum and length, disc, style and bract indumentum, bract
+    persistence, leaf base angle, acumen length, fruit shape, stamen
+    fusion, intercostal venation, twig indumentum 'at least when young',
+    altitude, habitat and conservation status (summary in
+    raw/unmapped_terms.csv). Fruits eaten by birds (S. celastrifolia) and
+    androdioecy of S. wikstroemifolia are hand rows (raw/manual_rows.csv;
+    questions 5 and 6). Not scored: night flowering of S. fasciculata
+    (Corner 1988; flowers open at dusk and fall by about 9 a.m.), buoyant
+    fruits of S. celastrifolia (Thailand, outside the region), aromatic cut
+    wood, aluminium accumulation and dye uses. Printed slips kept as
+    printed and not scored: '(4--)6--8(--110) pairs' (S. fasciculata
+    lateral veins, p. 243), 'axis 0--1--2 cm long' (var. curtisii, p. 240),
+    'at a 20--30--60 angle' (S. sumuntia, p. 261); raw/source_fixes.csv is
+    empty. Types, types of synonyms and figure specimens (Figures 2--4) are
+    in raw/Nooteboom_2010_vouchers.csv; Figures 1 and 5--8 are reproduced
+    from other floras and give no specimens. Every page was image-checked;
+    no page or clause is left unchecked. A born-digital copy would not add
+    coverage, only confirm the transcription.
+identifiers: .na
+locations: .na
+contexts:
+  - context_property: commonness qualifier
+    category: entity_context
+    var_in: commonness_qualifier
+  - context_property: population region
+    category: entity_context
+    var_in: population_region
+  - context_property: entity measured
+    category: method_context
+    var_in: entity_measured
+  - context_property: trait scoring method
+    category: method_context
+    var_in: trait_scoring_method
+traits:
+  - var_in: dispersers
+    unit_in: .na
+    trait_name: dispersers
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Fruits ''observed to be eaten by birds'' (S. celastrifolia Ecology, Kochummen FRI 23118) scored as birds (question 5).'
+  - var_in: flower_anther_colour
+    unit_in: .na
+    trait_name: flower_anther_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Anther colour as printed (''anthers orange'').'
+  - var_in: flower_anther_dehiscence
+    unit_in: .na
+    trait_name: flower_anther_dehiscence
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''dehiscing longitudinally'' in the genus description, copied to the species.'
+  - var_in: flower_bract_length
+    unit_in: unit
+    trait_name: flower_bract_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Length of bracts and bracteoles, named in entity_measured (bract, bracteole, or both when printed together).'
+  - var_in: flower_colour
+    unit_in: .na
+    trait_name: flower_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Flower (corolla) colour as printed; ''greenish white'' scored white only (standing rule).'
+  - var_in: flower_fertile_stamens_count
+    unit_in: unit
+    trait_name: flower_fertile_stamens_count
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Stamen number (''stamens 20--50 in 5 bundles''); no staminodes are described.'
+  - var_in: flower_length
+    unit_in: unit
+    trait_name: flower_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Corolla length (''corolla 2--5 mm long'') with entity_measured corolla; the flower itself is not measured (user rule, 2026-10-30; question 7).'
+  - var_in: flower_perianth_symmetry
+    unit_in: .na
+    trait_name: flower_perianth_symmetry
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''Flowers actinomorphic'' in the genus description, copied to the species.'
+  - var_in: flower_scent_production
+    unit_in: .na
+    trait_name: flower_scent_production
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''fragrant'', ''scented'', ''scent strong'' scored scent_produced; the genus ''fragrant'' copied to species silent on it.'
+  - var_in: flower_sepal_length
+    unit_in: unit
+    trait_name: flower_sepal_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Calyx lobe length (''lobes 0.5--1 mm long'') with entity_measured calyx lobe; the whole calyx length is unmapped (question 2).'
+  - var_in: flower_structural_sex_type
+    unit_in: .na
+    trait_name: flower_structural_sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus ''bisexual, rarely by reduction unisexual''; S. wikstroemifolia ''bisexual and male''.'
+  - var_in: fruit_colour
+    unit_in: .na
+    trait_name: fruit_colour
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Ripe fruit colour only (''green ripening dark purple or blue'' scored purple blue); dried colours (''drying pale yellow'') and young fruits not scored.'
+  - var_in: fruit_fleshiness
+    unit_in: .na
+    trait_name: fruit_fleshiness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''mesocarp fleshy'' scored fleshy; ''shrunken when dry'' is the herbarium state and not scored.'
+  - var_in: fruit_length
+    unit_in: unit
+    trait_name: fruit_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Fruit length (''6--12 mm long''; first dimension of ''a x b mm'', question 3).'
+  - var_in: fruit_surface_hairs
+    unit_in: .na
+    trait_name: fruit_surface_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Fruit indumentum (''densely brown long-hairy'', ''glabrous'').'
+  - var_in: fruit_type
+    unit_in: .na
+    trait_name: fruit_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''Fruit a drupe'' in the genus description, copied to the species.'
+  - var_in: fruit_wall_thickness
+    unit_in: unit
+    trait_name: fruit_wall_thickness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Mesocarp thickness (''mesocarp crustaceous, c. 0.5 mm thick'') with entity_measured mesocarp, as in Prance_2012.'
+  - var_in: fruit_width
+    unit_in: unit
+    trait_name: fruit_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Fruit diameter (''3--5 mm diameter'') scored as fruit_width (user rule, 2026-10-30); second dimension of ''a x b mm'' (question 3).'
+  - var_in: inflorescence_length
+    unit_in: unit
+    trait_name: inflorescence_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Length of the inflorescence axis (''axis 2--6 cm long'') with entity_measured inflorescence axis (question 4), or of the inflorescence itself (''spike to 1(--2) cm long''). Axis lengths ''in fruit'' and hair lengths printed after the axis not scored.'
+  - var_in: inflorescence_type
+    unit_in: .na
+    trait_name: inflorescence_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Inflorescence kind and position (''a (branched) spike or raceme'', ''axillary''); ''glomerule'' and ''fascicle'' have no level.'
+  - var_in: leaf_apex_shape
+    unit_in: .na
+    trait_name: leaf_apex_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Leaf apex (''acuminate'', ''acute'', ''rounded''); ''caudate'', ''mucronate'' and acumen length unmapped.'
+  - var_in: leaf_arrangement
+    unit_in: .na
+    trait_name: leaf_arrangement
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''spirally arranged'', ''distichously arranged'', ''crowded at the end of the branchlets''.'
+  - var_in: leaf_base_shape
+    unit_in: .na
+    trait_name: leaf_base_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Leaf base shape; ''attenuate-cuneate'' scored attenuate and cuneate; the angle at which the base narrows into the petiole is unmapped.'
+  - var_in: leaf_compoundness
+    unit_in: .na
+    trait_name: leaf_compoundness
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''Leaves simple'' in the genus description, copied to the species.'
+  - var_in: leaf_hairs_adult_leaves
+    unit_in: .na
+    trait_name: leaf_hairs_adult_leaves
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Per-surface indumentum of the lamina: hairy when a surface is hairy, glabrous only when both are; not scored for young leaves, glabrescent, alternatives (''glabrous or appressed-pubescent beneath''), nearly glabrous or midrib-only hairs.'
+  - var_in: leaf_length
+    unit_in: unit
+    trait_name: leaf_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Lamina length, first dimension of ''a x b cm'' (question 3).'
+  - var_in: leaf_margin
+    unit_in: .na
+    trait_name: leaf_margin
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Leaf margin (''glandular dentate, denticulate, or crenate''); ''almost entire'', recurved and revolute margins and gland density not scored.'
+  - var_in: leaf_phenology
+    unit_in: .na
+    trait_name: leaf_phenology
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Genus ''evergreen (exceptionally deciduous)''; not copied.'
+  - var_in: leaf_shape
+    unit_in: .na
+    trait_name: leaf_shape
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Lamina shape words in text order.'
+  - var_in: leaf_width
+    unit_in: unit
+    trait_name: leaf_width
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Lamina width, second dimension of ''a x b cm'' (question 3).'
+  - var_in: pedicel_length
+    unit_in: unit
+    trait_name: pedicel_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Pedicel length (''pedicels articulate, 1--5 mm long'').'
+  - var_in: petiole_length
+    unit_in: unit
+    trait_name: petiole_length
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Petiole length.'
+  - var_in: plant_diameter_breast_height
+    unit_in: unit
+    trait_name: plant_diameter_breast_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Bole or stem diameter (''bole to 40 cm diameter'', ''to 15 m tall and 15 cm diameter'') scored as diameter at breast height; a leading ''to'' makes it a maximum.'
+  - var_in: plant_growth_form
+    unit_in: .na
+    trait_name: plant_growth_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Habit words (''Shrub or small tree'', ''Bushy treelet'' scored tree).'
+  - var_in: plant_height
+    unit_in: unit
+    trait_name: plant_height
+    entity_type: species
+    value_type: value_type
+    basis_of_value: measurement
+    replicates: .na
+    methods: 'Plant height (''2--10(--20) m tall'', ''to 12 m''); parenthetical extremes on extreme_range rows.'
+  - var_in: sex_type
+    unit_in: .na
+    trait_name: sex_type
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'S. wikstroemifolia named as androdioecious in the genus description (question 6).'
+  - var_in: stem_base_form
+    unit_in: .na
+    trait_name: stem_base_form
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: '''with small buttresses'' scored buttressed.'
+  - var_in: stem_hairs
+    unit_in: .na
+    trait_name: stem_hairs
+    entity_type: species
+    value_type: value_type
+    basis_of_value: expert_score
+    replicates: .na
+    methods: 'Twig indumentum when stated without age (''Twigs glabrous''); comma lists of alternatives (''glabrous, pubescent or tomentose'') and ''at least when young'' not scored.'
+substitutions:
+  - trait_name: flower_anther_dehiscence
+    find: 'dehiscing_longitudinally'
+    replace: 'longitudinal_slit'
+  - trait_name: flower_colour
+    find: 'creamy white'
+    replace: 'white_cream'
+  - trait_name: flower_colour
+    find: 'white'
+    replace: 'white_cream'
+  - trait_name: flower_colour
+    find: 'yellow'
+    replace: 'yellow_orange'
+  - trait_name: flower_colour
+    find: 'yellow green'
+    replace: 'yellow_orange green'
+  - trait_name: flower_perianth_symmetry
+    find: 'actinomorphic'
+    replace: 'actinomorphic_general'
+  - trait_name: flower_scent_production
+    find: 'fragrant'
+    replace: 'scent_produced'
+  - trait_name: flower_scent_production
+    find: 'scent_strong fragrant'
+    replace: 'scent_produced'
+  - trait_name: flower_scent_production
+    find: 'scented'
+    replace: 'scent_produced'
+  - trait_name: flower_structural_sex_type
+    find: 'bisexual male'
+    replace: 'bisexual unisexual'
+  - trait_name: fruit_colour
+    find: 'purplish'
+    replace: 'purple'
+  - trait_name: fruit_surface_hairs
+    find: 'pubescent'
+    replace: 'hairy'
+  - trait_name: inflorescence_type
+    find: 'axillary spikes'
+    replace: 'axillary spike'
+  - trait_name: leaf_arrangement
+    find: 'distichously'
+    replace: 'distichous'
+  - trait_name: leaf_arrangement
+    find: 'spiral distichously'
+    replace: 'spiral distichous'
+  - trait_name: leaf_margin
+    find: 'crenate'
+    replace: 'toothed_crenate'
+  - trait_name: leaf_margin
+    find: 'dentate'
+    replace: 'toothed_dentate'
+  - trait_name: leaf_margin
+    find: 'dentate denticulate crenate'
+    replace: 'toothed_dentate toothed_crenate'
+  - trait_name: leaf_margin
+    find: 'dentate denticulate crenate entire'
+    replace: 'toothed_dentate toothed_crenate entire'
+  - trait_name: leaf_margin
+    find: 'dentate entire'
+    replace: 'toothed_dentate entire'
+  - trait_name: leaf_margin
+    find: 'denticulate'
+    replace: 'toothed_dentate'
+  - trait_name: leaf_margin
+    find: 'entire crenate'
+    replace: 'entire toothed_crenate'
+  - trait_name: leaf_margin
+    find: 'entire dentate'
+    replace: 'entire toothed_dentate'
+  - trait_name: leaf_margin
+    find: 'entire denticulate'
+    replace: 'entire toothed_dentate'
+  - trait_name: leaf_margin
+    find: 'entire serrate'
+    replace: 'entire toothed_serrate'
+  - trait_name: leaf_shape
+    find: 'elliptic'
+    replace: 'elliptical'
+  - trait_name: leaf_shape
+    find: 'elliptic narrowly_elliptic'
+    replace: 'elliptical narrowly_elliptical'
+  - trait_name: leaf_shape
+    find: 'elliptic narrowly_elliptic obovate narrowly_obovate'
+    replace: 'elliptical narrowly_elliptical obovate narrowly_obovate'
+  - trait_name: leaf_shape
+    find: 'elliptic narrowly_elliptic ovate'
+    replace: 'elliptical narrowly_elliptical ovate'
+  - trait_name: leaf_shape
+    find: 'elliptic narrowly_elliptic ovate narrowly_ovate'
+    replace: 'elliptical narrowly_elliptical ovate narrowly_ovate'
+  - trait_name: leaf_shape
+    find: 'elliptic obovate'
+    replace: 'elliptical obovate'
+  - trait_name: leaf_shape
+    find: 'elliptic obovate narrowly_elliptic'
+    replace: 'elliptical obovate narrowly_elliptical'
+  - trait_name: leaf_shape
+    find: 'elliptic obovate narrowly_elliptic narrowly_obovate'
+    replace: 'elliptical obovate narrowly_elliptical narrowly_obovate'
+  - trait_name: leaf_shape
+    find: 'elliptic ovate'
+    replace: 'elliptical ovate'
+  - trait_name: leaf_shape
+    find: 'elliptic ovate obovate'
+    replace: 'elliptical ovate obovate'
+  - trait_name: leaf_shape
+    find: 'narrowly_elliptic'
+    replace: 'narrowly_elliptical'
+  - trait_name: leaf_shape
+    find: 'narrowly_elliptic obovate'
+    replace: 'narrowly_elliptical obovate'
+  - trait_name: leaf_shape
+    find: 'ovate elliptic'
+    replace: 'ovate elliptical'
+  - trait_name: plant_growth_form
+    find: 'shrubs trees'
+    replace: 'shrub tree'
+  - trait_name: plant_growth_form
+    find: 'treelet'
+    replace: 'tree'
+  - trait_name: stem_base_form
+    find: 'buttress'
+    replace: 'buttressed'
+taxonomic_updates: .na
+exclude_observations: .na
+questions:
+  question1: 'Symplocos theifolia is described in full but ''Not yet collected from Peninsular Malaysia''; it is known in the flora region only from Singapore (Kranji), and the family Distribution says it ''is also included in this account''. Its rows (31 mapped) are scored with a blank population_region and a note. Decide: keep them so, give them population_region Singapore, or drop them as outside the region.'
+  question2: 'Calyx. The calyx is printed as a whole (''calyx glabrous, 1.5--2.5 mm long'') and by its lobes (''lobes 1--1.5 mm long''). The lobe length is scored as flower_sepal_length with entity_measured calyx lobe (47 rows); the whole calyx (limb) length stays unmapped (25 rows). Confirm, or score the calyx length instead.'
+  question3: 'Dimension pairs. ''a x b'' sizes are read as length x width for the lamina (all taxa with a lamina size) and for the fruits of S. cochinchinensis subsp. laurina var. laurina (''4--6 x 3--5 mm'') and S. laeteviridis var. laeteviridis (''7--12 x 3--5(--6) mm''). Confirm.'
+  question4: 'Inflorescence axis. ''axis 2--6 cm long'' is scored as inflorescence_length with entity_measured inflorescence axis (43 rows), as the rachis is in Ashton_2004. Lengths of the axis ''in fruit'' (S. cerasifolia var. cerasifolia) and hair lengths printed after the axis are not scored; ''axis 0--1--2 cm long'' (S. crassipes var. curtisii, p. 240, a printed slip) is unmapped. Confirm the mapping.'
+  question5: 'Dispersers. ''The fruits were observed to be eaten by birds (Kochummen FRI 23118)'' (S. celastrifolia Ecology, p. 230) is scored dispersers = birds with no population region (1 row, raw/manual_rows.csv). Eating is not stated as dispersal. Confirm, or keep the sentence unmapped.'
+  question6: 'Sex type. The genus description says ''rarely by reduction unisexual and the plant androdioecious (e.g., S. wikstroemifolia)''; the species description says ''Flowers white, bisexual and male, probably all flowers on a plant the same''. S. wikstroemifolia is scored sex_type androdioecious from the genus statement (1 row, raw/manual_rows.csv) and flower_structural_sex_type bisexual unisexual from its own description. Confirm, or drop the sex_type row because the species statement is hedged (''probably'').'
+  question7: 'Corolla length. ''corolla 2--5 mm long'' is scored as flower_length with entity_measured corolla (67 rows), by the user rule for corolla length. In subgen. Symplocos the corolla is ''divided nearly to the base'' and petals are ''connate only at the very base'', so the corolla length is in effect the petal length. Confirm flower_length, or score these as flower_petal_length.'
+  question8: 'Hypanthium. Symplocos has an inferior ovary enclosed by the hypanthium (''hypanthium broadly funnel-shaped, glabrous, 1--1.5 mm high, completely covering the fruit''). Its height (26 rows, 1 per taxon) is unmapped. Prance_2012 scores the free receptacle tube of Chrysobalanaceae as flower_tube_length (Prance_2012 question 2). Decide: score the hypanthium height as flower_tube_length with entity_measured hypanthium, or keep it unmapped.'
+  question9: 'S. crassipes var. crassipes is known only from the type and its description ends ''Inflorescences and flowers as in var. brandiana''. The brandiana inflorescence and flower values (bract length, pedicel length, calyx lobe length, stamen count) are not copied to var. crassipes, which instead inherits the species values where it is silent. Decide whether to copy the var. brandiana values.'
+  question10: 'Bract length below the traits.yml range. flower_bract_length allows 1--100 mm, but bracts and bracteoles of S. ophirensis and its varieties, S. sumuntia and S. cochinchinensis subsp. laurina var. laurina are printed as 0.5 or 0.8 mm (9 rows, minima of ranges such as ''bracts 0.5--2 mm long''). They will be excluded at build. Decide whether to lower the trait minimum in traits.yml (upstream, AusTraits Plant Dictionary).'
