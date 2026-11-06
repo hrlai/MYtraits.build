@@ -967,7 +967,7 @@ copied <- flora_copy_down(
 rejected <- attr(copied, "rejected")
 # a subvariety inherits from its species, whose description covers it
 inherited <- flora_inherit_infraspecific(
-  own_rows = own |> filter(!is.na(trait), rank != "genus", rank != "family"),
+  own_rows = own |> filter(rank != "genus", rank != "family"),
   members = members
 ) |>
   select(-rank)

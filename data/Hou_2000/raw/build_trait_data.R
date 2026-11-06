@@ -860,7 +860,7 @@ copied <- flora_copy_down(
 rejected <- attr(copied, "rejected")
 
 inherited <- flora_inherit_infraspecific(
-  own |> filter(!is.na(trait)),
+  own,
   members |> filter(!block %in% desc_paras$block)
 )
 

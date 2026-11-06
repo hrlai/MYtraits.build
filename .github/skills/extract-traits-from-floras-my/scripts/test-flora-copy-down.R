@@ -99,6 +99,13 @@ h8 <- bind_rows(mutate(h6[1, ], block = "F"),
   mutate(h6[1, ], block = "G", rank = "genus", piece_qualified = TRUE))
 o8 <- flora_copy_down(h8, own6[0, ], mem6)
 stopifnot(identical(sort(o8$block), "x1"))
+# flora_inherit_infraspecific() passes on mapped rows only (Ashton_2004)
+sp <- tibble(block = "S", rank = "species", trait = c("leaf_shape", NA),
+  trait_value = c("ovate", "Leaves odd"), notes = NA_character_)
+inh <- flora_inherit_infraspecific(sp,
+  tibble(block = c("S", "S var. b"), species = "S",
+    rank = c("species", "variety")))
+stopifnot(nrow(inh) == 1, inh$trait == "leaf_shape", inh$block == "S var. b")
 # flora_merge_duplicate_keys(): shared keys merge words; a single row keeps a
 # repeated word (Jutta_2012).
 m <- tibble(taxon_name = c("A", "A", "B"), trait = "t", value_type = "mode",

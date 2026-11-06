@@ -316,7 +316,10 @@ flora_inherit_infraspecific <- function(own_rows, members) {
   infra <- members |> filter(rank != "species") |> select(block, species)
   infra |>
     inner_join(
-      own_rows |> filter(rank == "species") |> rename(species = block),
+      # mapped rows only: an unmapped clause is not inherited (Ashton_2004)
+      own_rows |>
+        filter(rank == "species", !is.na(trait)) |>
+        rename(species = block),
       by = "species",
       relationship = "many-to-many"
     ) |>
