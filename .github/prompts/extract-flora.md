@@ -41,14 +41,18 @@ family. Confirm the text layer in `assets/myflora_metadata.csv` and with
 3. If `data/<ID>/` or a branch with that name already exists, stop and ask me
    for a distinct ID (the repo convention is a `_2` suffix).
 4. Do all work and commits on this branch. Do not merge to `main`.
-5. Stage files by path: only `data/<ID>/` and
-   `.github/skills/extract-traits-from-floras-my/`. Never `git add -A` or
-   `git add .`.
+5. Stage files by path: `data/<ID>/` and
+   `.github/skills/extract-traits-from-floras-my/`, plus a regenerated
+   `data/<other_id>/` when a skill change gives it an intended regression
+   change (see Scope). Never `git add -A` or `git add .`.
 
 ## Scope
 
 - This one treatment only. Do not touch other datasets, except to rerun their
-  builds for the regression check below.
+  builds for the regression check below. When a skill change gives another
+  dataset an intended change, commit its regenerated `data/<other_id>/`
+  files, one commit per dataset, after the `skill:` commit that caused it,
+  and list it in the "Skill changes made" table. Revert unintended changes.
 - Never commit PDFs, rendered page images, or files with machine-specific
   paths (e.g. review manifests).
 - Do not edit `config/traits.yml`. Put candidate traits and levels in
