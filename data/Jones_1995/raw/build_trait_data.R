@@ -965,7 +965,7 @@ copied <- copied |>
 # The three Glycosmis chlorosperma varieties have their own descriptions in
 # the key; silent traits are inherited from the species description.
 inherited <- flora_inherit_infraspecific(
-  own_rows = species_rows |> filter(!is.na(trait)),
+  own_rows = species_rows,
   members = members
 ) |>
   select(-rank)

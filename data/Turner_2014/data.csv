@@ -875,6 +875,7 @@ Drepananthus ridleyi,species,species,genus,,,,,flower_structural_sex_type,x,flow
 Drepananthus ridleyi,species,species,genus,,,,,leaf_arrangement,x,leaves distichous,distichous,distichous,mode,,"Genus description, p.34",45,34,Copied from the Drepananthus description.,Turner_2014,distichous,inferred_from_genus
 Drepananthus ridleyi,species,species,,,Sabah and Sarawak,,,leaf_shape,x,blades ovate to ovate-lanceolate,ovate lanceolate,ovate lanceolate,mode,,"Description, p.40",51,40,,Turner_2014,ovate lanceolate,inferred_from_species
 Drepananthus ridleyi,species,species,,,Sabah and Sarawak,,,plant_growth_form,x,tree,tree,tree,mode,,"Description, p.40",51,40,,Turner_2014,tree,inferred_from_species
+Drepananthus ridleyi,species,species,,,Sabah and Sarawak,,,seed_shape,x,lenticular,lenticular,lenticular,mode,,"Description, p.40",51,40,,Turner_2014,lenticular,inferred_from_species
 Drepananthus ridleyi,species,species,,,Sabah and Sarawak,,,seed_surface_texture,x,smooth,smooth,smooth,mode,,"Description, p.40",51,40,,Turner_2014,smooth,inferred_from_species
 Drepananthus ridleyi,species,species,,,Sabah and Sarawak,,,plant_height,x,to 25 m tall,25,25,maximum,m,"Description, p.40",51,40,,Turner_2014,25,inferred_from_species
 Drepananthus ridleyi,species,species,,,Sabah and Sarawak,,,leaf_length,x,7.5--21.5 cm,7.5,7.5,minimum,cm,"Description, p.40",51,40,Dimension 1 of '7.5--21.5 × 4--11.5 cm' interpreted as length.,Turner_2014,7.5,inferred_from_species
@@ -1980,6 +1981,7 @@ Meiogyne cylindrocarpa,species,species,,,Sabah and Sarawak,,,leaf_apex_shape,x,a
 Meiogyne cylindrocarpa,species,species,,,Sabah and Sarawak,,,leaf_base_shape,x,base rounded to acute,rounded acute,rounded acute,mode,,"Description, p.82",93,82,,Turner_2014,rounded acute,inferred_from_species
 Meiogyne cylindrocarpa,species,species,,,Sabah and Sarawak,,,leaf_shape,x,blades ovate to elliptic,ovate elliptic,ovate elliptical,mode,,"Description, p.82",93,82,,Turner_2014,ovate elliptic,inferred_from_species
 Meiogyne cylindrocarpa,species,species,,,Sabah and Sarawak,,,plant_growth_form,x,tree,tree,tree,mode,,"Description, p.82",93,82,,Turner_2014,tree,inferred_from_species
+Meiogyne cylindrocarpa,species,species,,,Sabah and Sarawak,,,seed_shape,x,discoid,discoid,discoid,mode,,"Description, p.82",93,82,,Turner_2014,discoid,inferred_from_species
 Meiogyne cylindrocarpa,species,species,,,Sabah and Sarawak,,,plant_height,x,to 20 m tall,20,20,maximum,m,"Description, p.82",93,82,,Turner_2014,20,inferred_from_species
 Meiogyne cylindrocarpa,species,species,,,Sabah and Sarawak,,,leaf_length,x,3--14 cm,3,3,minimum,cm,"Description, p.82",93,82,Dimension 1 of '3--14 × 1--7 cm' interpreted as length.,Turner_2014,3,inferred_from_species
 Meiogyne cylindrocarpa,species,species,,,Sabah and Sarawak,,,leaf_length,x,3--14 cm,14,14,maximum,cm,"Description, p.82",93,82,Dimension 1 of '3--14 × 1--7 cm' interpreted as length.,Turner_2014,14,inferred_from_species
@@ -2040,6 +2042,7 @@ Meiogyne monosperma,species,species,,,Sabah and Sarawak,,,flower_structural_carp
 Meiogyne monosperma,species,species,,,Sabah and Sarawak,,monocarp,fruit_length,x,15--20 mm long,15,15,minimum,mm,"Description, p.82",93,82,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,15,inferred_from_species
 Meiogyne monosperma,species,species,,,Sabah and Sarawak,,monocarp,fruit_length,x,15--20 mm long,20,20,maximum,mm,"Description, p.82",93,82,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,20,inferred_from_species
 Meiogyne monosperma,species,species,,,Sabah and Sarawak,,monocarp,fruit_surface_hairs,x,pubescent,pubescent,hairy,mode,,"Description, p.83",94,83,,Turner_2014,pubescent,inferred_from_species
+Meiogyne monosperma,species,species,,,Sabah and Sarawak,,,seed_shape,x,discoid,discoid,discoid,mode,,"Description, p.83",94,83,,Turner_2014,discoid,inferred_from_species
 Meiogyne monosperma,species,species,,,Sabah and Sarawak,,monocarp,fruit_width,x,7--11 mm,7,7,minimum,mm,"Description, p.83",94,83,Diameter scored as fruit_width. Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,7,inferred_from_species
 Meiogyne monosperma,species,species,,,Sabah and Sarawak,,monocarp,fruit_width,x,7--11 mm,11,11,maximum,mm,"Description, p.83",94,83,Diameter scored as fruit_width. Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,11,inferred_from_species
 Meiogyne monosperma,species,species,,,Sabah and Sarawak,,monocarp,seeds_per_fruit,x,Seeds 2--5 in each monocarp,2,2,minimum,{count}/{count},"Description, p.83",94,83,Monocarp (fruitlet of the apocarpous fruit) scored as the fruit.,Turner_2014,2,inferred_from_species
@@ -2090,6 +2093,7 @@ Mezzettia havilandii,species,species,,generally,Sabah and Sarawak,,,leaf_shape,x
 Mezzettia havilandii,species,species,,rarely,Sabah and Sarawak,,,leaf_shape,x,more rarely elliptic,elliptic,elliptical,mode,,"Description, p.86",97,86,,Turner_2014,elliptic,inferred_from_species
 Mezzettia havilandii,species,species,,usually,Sabah and Sarawak,,,leaf_shape,x,lanceolate or oblanceolate,lanceolate oblanceolate,lanceolate oblanceolate,mode,,"Description, p.86",97,86,,Turner_2014,lanceolate oblanceolate,inferred_from_species
 Mezzettia havilandii,species,species,,,Sabah and Sarawak,,,plant_growth_form,x,tree,tree,tree,mode,,"Description, p.86",97,86,,Turner_2014,tree,inferred_from_species
+Mezzettia havilandii,species,species,,,Sabah and Sarawak,,,seed_shape,x,lenticular,lenticular,lenticular,mode,,"Description, p.86",97,86,,Turner_2014,lenticular,inferred_from_species
 Mezzettia havilandii,species,species,,,Sabah and Sarawak,,,stem_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.86",97,86,,Turner_2014,glabrous,inferred_from_species
 Mezzettia havilandii,species,species,,,Sabah and Sarawak,,,plant_height,x,to 35 m tall,35,35,maximum,m,"Description, p.86",97,86,,Turner_2014,35,inferred_from_species
 Mezzettia havilandii,species,species,,,Sabah and Sarawak,,,leaf_length,x,5--13 cm,5,5,minimum,cm,"Description, p.86",97,86,Dimension 1 of '5--13 × 2--5 cm' interpreted as length.,Turner_2014,5,inferred_from_species
@@ -2131,6 +2135,7 @@ Mezzettia macrocarpa,species,species,,,Sabah and Sarawak,,,leaf_length,x,8--16 c
 Mezzettia macrocarpa,species,species,,,Sabah and Sarawak,,,leaf_width,x,4--6 cm,4,4,minimum,cm,"Description, p.86",97,86,Dimension 2 of '8--16 × 4--6 cm' interpreted as width.,Turner_2014,4,inferred_from_species
 Mezzettia macrocarpa,species,species,,,Sabah and Sarawak,,,leaf_width,x,4--6 cm,6,6,maximum,cm,"Description, p.86",97,86,Dimension 2 of '8--16 × 4--6 cm' interpreted as width.,Turner_2014,6,inferred_from_species
 Mezzettia macrocarpa,species,species,,,Sabah and Sarawak,,,leaf_apex_shape,x,apex acuminate,acuminate,acuminate,mode,,"Description, p.87",98,87,,Turner_2014,acuminate,inferred_from_species
+Mezzettia macrocarpa,species,species,,,Sabah and Sarawak,,,seed_shape,x,lenticular,lenticular,lenticular,mode,,"Description, p.87",98,87,,Turner_2014,lenticular,inferred_from_species
 Mezzettia macrocarpa,species,species,,,Sabah and Sarawak,,,petiole_length,x,6--12 mm long,6,6,minimum,mm,"Description, p.87",98,87,,Turner_2014,6,inferred_from_species
 Mezzettia macrocarpa,species,species,,,Sabah and Sarawak,,,petiole_length,x,6--12 mm long,12,12,maximum,mm,"Description, p.87",98,87,,Turner_2014,12,inferred_from_species
 Mezzettia macrocarpa,species,species,,,Sabah and Sarawak,,,flowers_per_inflorescence,x,2--4-flowered,2,2,minimum,{count}/{count},"Description, p.87",98,87,,Turner_2014,2,inferred_from_species
@@ -2163,6 +2168,7 @@ Mezzettia parviflora,species,species,,,Sabah and Sarawak,,,leaf_base_shape,x,bas
 Mezzettia parviflora,species,species,,,Sabah and Sarawak,,,leaf_hairs_adult_leaves,x,"Leaves chartaceous to more commonly coriaceous, glabrous, drying various shades of brown, often rather dark, shiny above, dull but not glaucous beneath",glabrous,glabrous,mode,,"Description, p.87",98,87,,Turner_2014,glabrous,inferred_from_species
 Mezzettia parviflora,species,species,,,Sabah and Sarawak,,,leaf_shape,x,blades oblong to elliptic or lanceolate,oblong elliptic lanceolate,oblong elliptical lanceolate,mode,,"Description, p.87",98,87,,Turner_2014,oblong elliptic lanceolate,inferred_from_species
 Mezzettia parviflora,species,species,,,Sabah and Sarawak,,,plant_growth_form,x,tree,tree,tree,mode,,"Description, p.87",98,87,,Turner_2014,tree,inferred_from_species
+Mezzettia parviflora,species,species,,,Sabah and Sarawak,,,seed_shape,x,lenticular,lenticular,lenticular,mode,,"Description, p.87",98,87,,Turner_2014,lenticular,inferred_from_species
 Mezzettia parviflora,species,species,,,Sabah and Sarawak,,,stem_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.87",98,87,,Turner_2014,glabrous,inferred_from_species
 Mezzettia parviflora,species,species,,,Sabah and Sarawak,,,plant_height,x,to 40 m tall,40,40,maximum,m,"Description, p.87",98,87,,Turner_2014,40,inferred_from_species
 Mezzettia parviflora,species,species,,,Sabah and Sarawak,,,leaf_length,x,4--11 cm,4,4,minimum,cm,"Description, p.87",98,87,Dimension 1 of '4--11 × 2--4.5 cm' interpreted as length.,Turner_2014,4,inferred_from_species
@@ -2201,6 +2207,7 @@ Mezzettia umbellata,species,species,,,Sabah and Sarawak,,,leaf_base_shape,x,base
 Mezzettia umbellata,species,species,,,Sabah and Sarawak,,,leaf_glaucousness,x,below glaucous,glaucous,glaucous,mode,,"Description, p.89",100,89,,Turner_2014,glaucous,inferred_from_species
 Mezzettia umbellata,species,species,,,Sabah and Sarawak,,,leaf_shape,x,blades elliptic | ovate or obovate,elliptic ovate obovate,elliptical ovate obovate,mode,,"Description, p.89",100,89,,Turner_2014,elliptic ovate obovate,inferred_from_species
 Mezzettia umbellata,species,species,,,Sabah and Sarawak,,,plant_growth_form,x,tree,tree,tree,mode,,"Description, p.89",100,89,,Turner_2014,tree,inferred_from_species
+Mezzettia umbellata,species,species,,,Sabah and Sarawak,,,seed_shape,x,lenticular,lenticular,lenticular,mode,,"Description, p.89",100,89,,Turner_2014,lenticular,inferred_from_species
 Mezzettia umbellata,species,species,,,Sabah and Sarawak,,,plant_height,x,to 30 m tall,30,30,maximum,m,"Description, p.89",100,89,,Turner_2014,30,inferred_from_species
 Mezzettia umbellata,species,species,,,Sabah and Sarawak,,,leaf_length,x,5--16.5 cm,5,5,minimum,cm,"Description, p.89",100,89,Dimension 1 of '5--16.5 × 2.5--6 cm' interpreted as length.,Turner_2014,5,inferred_from_species
 Mezzettia umbellata,species,species,,,Sabah and Sarawak,,,leaf_length,x,5--16.5 cm,16.5,16.5,maximum,cm,"Description, p.89",100,89,Dimension 1 of '5--16.5 × 2.5--6 cm' interpreted as length.,Turner_2014,16.5,inferred_from_species
@@ -3000,7 +3007,8 @@ Monoon xanthopetalum,species,species,,,Sabah and Sarawak,,,flower_colour,x,petal
 Monoon xanthopetalum,species,species,,,Sabah and Sarawak,,,leaf_apex_shape,x,apex acute to acuminate,acute acuminate,acute acuminate,mode,,"Description, p.121",132,121,,Turner_2014,acute acuminate,inferred_from_species
 Monoon xanthopetalum,species,species,,,Sabah and Sarawak,,,leaf_base_shape,x,base obtuse to rounded,obtuse rounded,obtuse rounded,mode,,"Description, p.121",132,121,,Turner_2014,obtuse rounded,inferred_from_species
 Monoon xanthopetalum,species,species,,,Sabah and Sarawak,,,leaf_hairs_adult_leaves,x,"Leaves chartaceous, drying dark brown above, reddish brown beneath, sparsely short-tomentose on both surfaces",hairy,hairy,mode,,"Description, p.121",132,121,,Turner_2014,hairy,inferred_from_species
-Monoon xanthopetalum,species,species,,frequently,Sabah and Sarawak,,,leaf_shape,x,blades ovate to more frequently obovate,ovate obovate,ovate obovate,mode,,"Description, p.121",132,121,,Turner_2014,ovate obovate,inferred_from_species
+Monoon xanthopetalum,species,species,,more frequently,Sabah and Sarawak,,,leaf_shape,x,blades ovate to more frequently obovate,obovate,obovate,mode,,"Description, p.121",132,121,,Turner_2014,obovate,inferred_from_species
+Monoon xanthopetalum,species,species,,usually,Sabah and Sarawak,,,leaf_shape,x,blades ovate to more frequently obovate,ovate,ovate,mode,,"Description, p.121",132,121,,Turner_2014,ovate,inferred_from_species
 Monoon xanthopetalum,species,species,,,Sabah and Sarawak,,,plant_growth_form,x,tree,tree,tree,mode,,"Description, p.121",132,121,,Turner_2014,tree,inferred_from_species
 Monoon xanthopetalum,species,species,,,Sabah and Sarawak,,,stem_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.121",132,121,,Turner_2014,glabrous,inferred_from_species
 Monoon xanthopetalum,species,species,,,Sabah and Sarawak,,,plant_height,x,to 20 m tall,20,20,maximum,m,"Description, p.121",132,121,,Turner_2014,20,inferred_from_species
@@ -3861,7 +3869,7 @@ Polyalthia kinabaluensis,species,species,,,Sabah and Sarawak,,,leaf_width,x,2--5
 Polyalthia kinabaluensis,species,species,,,Sabah and Sarawak,,,flower_colour,x,petals yellow or yellowish green,yellow green,yellow_orange green,mode,,"Description, p.154",165,154,,Turner_2014,yellow green,inferred_from_species
 Polyalthia kinabaluensis,species,species,,,Sabah and Sarawak,,monocarp,fruit_surface_hairs,x,glabrous,glabrous,glabrous,mode,,"Description, p.154",165,154,,Turner_2014,glabrous,inferred_from_species
 Polyalthia kinabaluensis,species,species,,,Sabah and Sarawak,,,leaf_apex_shape,x,apex acuminate,acuminate,acuminate,mode,,"Description, p.154",165,154,,Turner_2014,acuminate,inferred_from_species
-Polyalthia kinabaluensis,species,species,,,Sabah and Sarawak,,,seed_shape,x,ellipsoidal or plano-lenticular,ellipsoid,ellipsoid,mode,,"Description, p.154",165,154,,Turner_2014,ellipsoid,inferred_from_species
+Polyalthia kinabaluensis,species,species,,,Sabah and Sarawak,,,seed_shape,x,ellipsoidal or plano-lenticular,ellipsoid lenticular,ellipsoid lenticular,mode,,"Description, p.154",165,154,,Turner_2014,ellipsoid lenticular,inferred_from_species
 Polyalthia kinabaluensis,species,species,,,Sabah and Sarawak,,,petiole_length,x,7--10 mm long,7,7,minimum,mm,"Description, p.154",165,154,,Turner_2014,7,inferred_from_species
 Polyalthia kinabaluensis,species,species,,,Sabah and Sarawak,,,petiole_length,x,7--10 mm long,10,10,maximum,mm,"Description, p.154",165,154,,Turner_2014,10,inferred_from_species
 Polyalthia kinabaluensis,species,species,,,Sabah and Sarawak,,,pedicel_length,x,2--2.5 cm long,2,2,minimum,cm,"Description, p.154",165,154,,Turner_2014,2,inferred_from_species
@@ -4010,7 +4018,7 @@ Polyalthia motleyana,species,species,,,Sabah and Sarawak,,,leaf_width,x,3--15 cm
 Polyalthia motleyana,species,species,,,Sabah and Sarawak,,,leaf_width,x,3--15 cm,15,15,maximum,cm,"Description, p.157",168,157,Dimension 2 of '10--40 × 3--15 cm' interpreted as width.,Turner_2014,15,inferred_from_species
 Polyalthia motleyana,species,species,,,Sabah and Sarawak,,,petiole_length,x,3--12 mm long,3,3,minimum,mm,"Description, p.157",168,157,,Turner_2014,3,inferred_from_species
 Polyalthia motleyana,species,species,,,Sabah and Sarawak,,,petiole_length,x,3--12 mm long,12,12,maximum,mm,"Description, p.157",168,157,,Turner_2014,12,inferred_from_species
-Polyalthia motleyana,species,species,,occasionally,Sabah and Sarawak,,,flowers_per_inflorescence,x,Inflorescences single-flowered (occasionally flowers in pairs),1,1,mean,{count}/{count},"Description, p.157",168,157,,Turner_2014,1,inferred_from_species
+Polyalthia motleyana,species,species,,,Sabah and Sarawak,,,flowers_per_inflorescence,x,Inflorescences single-flowered (occasionally flowers in pairs),1,1,mean,{count}/{count},"Description, p.157",168,157,,Turner_2014,1,inferred_from_species
 Polyalthia motleyana,species,species,,,Sabah and Sarawak,,,pedicel_length,x,3--10 mm long,3,3,minimum,mm,"Description, p.157",168,157,,Turner_2014,3,inferred_from_species
 Polyalthia motleyana,species,species,,,Sabah and Sarawak,,,pedicel_length,x,3--10 mm long,10,10,maximum,mm,"Description, p.157",168,157,,Turner_2014,10,inferred_from_species
 Polyalthia motleyana,species,species,,,Sabah and Sarawak,,,flower_sepal_length,x,c. 5 mm,5,5,mean,mm,"Description, p.157",168,157,Dimension 1 of 'c. 5 × 5 mm' interpreted as length.,Turner_2014,5,inferred_from_species

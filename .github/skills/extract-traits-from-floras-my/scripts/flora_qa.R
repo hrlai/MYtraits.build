@@ -237,8 +237,16 @@ flora_qa <- function(
     count(trait)
 
   # 8. measurement misses: an organ named with a number, but no numeric row on that clause
+  # Expected misses are skipped: section text (Ecology altitudes "to 2500 m")
+  # and organs with no size trait (acumen; Nooteboom_2010, 132 rows).
   clauses_with_numbers <- td |>
-    filter(str_detect(trait_value_raw, "\\d+(\\.\\d+)?\\s?(mm|cm|m)\\b")) |>
+    filter(
+      str_detect(trait_value_raw, "\\d+(\\.\\d+)?\\s?(mm|cm|m)\\b"),
+      !str_detect(
+        coalesce(notes, ""),
+        "^UNMAPPED: (section|[a-z ]*\\bacumen) \\|"
+      )
+    ) |>
     distinct(taxon_name, trait_value_raw, source_section)
   scored <- td |>
     filter(!is.na(trait), value_type %in% c("minimum", "maximum", "mean")) |>

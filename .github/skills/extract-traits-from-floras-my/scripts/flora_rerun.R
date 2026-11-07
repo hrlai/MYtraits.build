@@ -39,8 +39,8 @@ flora_unmapped_find <- function(pattern, ids = flora_ids()) {
 # `git diff --stat data/` afterwards: only intended changes may remain.
 flora_rebuild <- function(ids = flora_ids()) {
   res <- map(ids, \(id) {
-    # A fresh R process per build: scripts edit helper globals
-    # (Kochummen_2000 extends flora_qual_words), which a local environment
+    # A fresh R process per build: scripts may edit helper globals
+    # (flora_qual_words, flora_qual_re), which a local environment
     # hides from the helpers and a shared session leaks to the next script.
     # The project .Rprofile links the uvr library in the child process.
     status <- system2(

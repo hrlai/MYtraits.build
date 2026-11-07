@@ -22,7 +22,6 @@ petiole,description,21,Rutaceae,petioles sometimes winged,351
 seeds,count,21,Rutaceae,Seeds usually 1 per carpel,351
 disc,description,20,Rutaceae,disc surrounding base of ovary,351
 fruit wall,texture,20,Rutaceae,pericarp leathery to woody or fleshy,351
-leaflets,description,20,Burkillanthus,becoming stiff when older,361
 anthers,description,19,Acronychia,anthers ovoid to ellipsoid,358
 petals,count,19,Rutaceae,petals 4--5,351
 stigma,count,18,Acronychia,stigma shallowly 4-lobed,358
@@ -30,6 +29,7 @@ filaments,description,17,Rutaceae,filaments free or fused basally,351
 inflorescences,indumentum,17,Pleiospermium,hairy,407
 trichomes,indumentum,17,Lunasia,All vegetative and reproductive parts with grey to reddish brown scale-like and/or star-shaped hairs,379
 fruit wall,glands,16,Rutaceae,usually glandular,351
+leaflets,description,15,Burkillanthus,becoming stiff when older,361
 leaflets,texture,15,Burkillanthus,leaflets thinly leathery,361
 style,indumentum,15,Burkillanthus,glabrous,361
 disc,indumentum,14,Clausena,glabrous,369
@@ -100,7 +100,6 @@ acumen,description,2,Pleiospermium longisepalum,acumen rounded or retuse,410
 armature,description,2,Monanthocitrus,unequal in length,402
 bark,description,2,Murraya,often pale,405
 base,description,2,Maclurodendron parviflorum,base narrow,381
-blade,description,2,Lunasia,becoming stiff when older,379
 blade,venation,2,Lunasia,leaf blades pinnately veined,379
 bole,description,2,Merrillia caloxylon,bole short,398
 branches,size,2,Pleiospermium latialatum,and main branches armed with paired spines to 3 cm long,409
@@ -127,6 +126,7 @@ apex,glands,1,Glycosmis superba,apex glandular-apiculate,379
 apex,indumentum,1,Melicope triphylla,apex sometimes sparsely hairy,394
 base,colour,1,Severinia paniculata,base gradually tapered,412
 base,indumentum,1,Acronychia pedunculata,base with a ring of dense hairs,361
+blade,description,1,Lunasia,becoming stiff when older,379
 blade,size,1,Lunasia amara var. amara,6--60 x (up to) 18 cm,380
 bracts,description,1,Micromelum minutum var. minutum,bracts short deltoid-linear,400
 branches,colour,1,Merope angulata,with paired,395

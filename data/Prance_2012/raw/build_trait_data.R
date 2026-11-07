@@ -685,7 +685,7 @@ copied <- flora_copy_down(
 )
 rejected <- attr(copied, "rejected")
 inherited <- flora_inherit_infraspecific(
-  own_rows = own |> filter(!is.na(trait), !rank %in% c("genus", "family")),
+  own_rows = own |> filter(!rank %in% c("genus", "family")),
   members = members
 ) |>
   select(-rank)

@@ -78,17 +78,6 @@ prep <- function(x) {
     }) |>
     # "basi- or dorsifixed" -> "basifixed or dorsifixed"
     str_replace_all("\\b([a-z]+)- or ([a-z]+)(fixed)\\b", "\\1\\3 or \\2\\3") |>
-    # "acuminate rarely caudate": the qualifier is the second state's
-    str_replace_all(
-      "(?<=[a-z](ate|ous|ic|ed)) (sometimes|rarely|occasionally) (?=[a-z]+(ate|ous|ic)\\b)",
-      " or \\2 "
-    ) |>
-    # "45 m (rarely more) tall", "100 cm (or more) diameter": the aside after
-    # the keyword, so the size is read
-    str_replace_all(
-      "(\\d\\s?(?:mm|cm|m)) (\\((?:rarely|or) more\\)) (tall|high|diameter)",
-      "\\1 \\3 \\2"
-    ) |>
     or_extremes() |>
     flora_norm()
 }
@@ -104,18 +93,7 @@ cnt <- "(?:\\(\\d+–\\)\\s?)?\\d+(?:–\\d+)?(?:\\s?\\(–\\d+\\))?"
 grab <- function(x, keyword) {
   str_extract(x, paste0(rng, "\\s?", unit_re, "\\s?", keyword))
 }
-# "a × b unit" or "a × b × c unit" (length, width, thickness)
-grab_dims <- function(x) {
-  m <- str_match(
-    x,
-    paste0("(", rng, ")\\s?×\\s?(", rng, ")(?:\\s?×\\s?(", rng, "))?\\s?", unit_re)
-  )
-  if (is.na(m[1, 1])) {
-    return(NULL)
-  }
-  parts <- m[1, 2:4]
-  list(raw = m[1, 1], parts = parts[!is.na(parts)], unit = m[1, 5])
-}
+grab_dims <- flora_grab_dims
 
 # "more or less" and "almost" qualify the state they precede: not scored
 hedged <- \(x) str_detect(x, flora_hedge_re) | str_detect(str_to_lower(x), "\\bmore or less\\b|\\balmost\\b|\\(\\?\\)")
@@ -486,7 +464,7 @@ score_chunk <- function(cl) {
       add(cat_rows("fruit_type", lx))
       add(cat_rows("fruit_dehiscence", lx))
       # "(including the wing)" in a size is not the wing statement
-      if (!negative(lx) && !str_detect(lx, "including")) add(cat_rows("dispersal_appendage", str_remove(lx, "^fruits?\\b")))
+      if (!str_detect(lx, "including")) add(cat_rows("dispersal_appendage", str_remove(lx, "^fruits?\\b")))
       wing <- if (str_detect(lx, "including")) " Size includes the wing." else ""
       if (!is.null(grab_dims(x))) {
         add(dim_rows(c("fruit_length", "fruit_width", "fruit_height"), x) |> mutate(notes = paste0(notes, wing)))
@@ -516,7 +494,7 @@ score_chunk <- function(cl) {
     seeds = if (so == "seeds") {
       core <- str_squish(str_remove(lx, "^seeds?\\b"))
       add(cat_rows("seed_shape", lx))
-      if (!negative(lx)) add(cat_rows("dispersal_appendage", lx))
+      add(cat_rows("dispersal_appendage", lx))
       add(cat_rows("seed_surface_texture", lx))
       add(cat_rows("seed_surface_reflectivity", lx))
       # seed colour, not the aril's ("black with a rich orange aril")
@@ -882,7 +860,7 @@ copied <- flora_copy_down(
 rejected <- attr(copied, "rejected")
 
 inherited <- flora_inherit_infraspecific(
-  own |> filter(!is.na(trait)),
+  own,
   members |> filter(!block %in% desc_paras$block)
 )
 

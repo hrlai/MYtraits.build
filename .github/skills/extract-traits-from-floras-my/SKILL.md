@@ -136,9 +136,12 @@ Coode_2018 one.
 run a script with `uvr run <file.R>`; for a one-liner use
 `~/.uvr/r-versions/4.6.0/bin/Rscript.exe -e '...'` (the project `.Rprofile`
 selects the `.uvr/library`). Check `.r-version` if the version path fails.
-On Windows, prefer a scratch `.R` file with `uvr run` over `-e`: `Rscript.exe
--e` breaks on `&` inside strings, and bash heredocs collapse `\\` in regexes
-(use `[.]` instead of `\\.`).
+On Windows, write a scratch `.R` (or `.py`) file with the file-writing tool
+and run it (`uvr run <file.R>`) instead of using `-e` or a heredoc:
+`Rscript.exe -e` breaks on `&` inside strings, and Git Bash heredocs collapse
+`\\` to `\` in R and Python code alike, so regexes and Windows paths break
+silently (Kochummen_2000). Where a heredoc cannot be avoided, use `[.]`
+instead of `\\.`.
 On Linux (cloud sessions) R needs a UTF-8 locale. The project `.Rprofile`
 sets `LC_CTYPE` to `C.UTF-8` when the session is not UTF-8; if it warns that
 it could not, set `LANG=C.UTF-8` first. Under the C locale `yaml::read_yaml("config/traits.yml")` stops at the first
@@ -382,8 +385,10 @@ misreads; image checking is for scans.
     a picture.
   - `bad_glyphs`: characters the layer could not map (often an en dash or
     multiplication sign from an unembedded font), plus the Symbol-font dot
-    operator `⋅` (U+22C5) used for the multiplication sign in Adema_1996.
-    Read the image and repair them in `raw/source_fixes.csv`. Other
+    operator `⋅` (U+22C5) used for the multiplication sign in Adema_1996,
+    and the Greek question mark U+037E printed for ";" (TFSS segmentation,
+    below; `flora_read_pdf_lines()` converts it, so it needs no repair).
+    Read the image and repair the others in `raw/source_fixes.csv`. Other
     substitutes may exist: if a page image shows a sign that the layer gives as
     an unexpected character, add it to `.flora_bad_glyph_re` in
     `flora_source.R`.
@@ -404,7 +409,10 @@ misreads; image checking is for scans.
   assignment against the rendered page before accepting it. Rendering alone is
   not review. If verification is incomplete, label the extraction provisional;
   do not call unverified rows complete or release-ready. Render the treatment
-  pages (`flora_render_pages()`, 220 dpi, top and bottom halves). Check the OCR
+  pages (`flora_render_pages()`, 220 dpi) and read the full-page image
+  (`p<NN>_full.png`) by default; it was legible on all 39 text pages of
+  Nooteboom_2010. Read the top and bottom halves it also writes only where
+  the type is too small to read on the full page. Check the OCR
   draft against the page images, save corrected, image-checked text in
   `raw/<Family>_transcription.txt`, and feed `flora_read_transcription()` to
   `flora_segment()`. Do not discard useful OCR text just because it needs
@@ -507,6 +515,9 @@ contained infraspecific headings.
   `flora_count_rows()`, `flora_dim_rows()`, `flora_cat_rows()` and
   `flora_term_level()` in `flora_parse.R`. Bind the dictionary and
   dimension grabber in thin local wrappers (Adema_1996, Soepadmo_2000).
+  `flora_grab_dims()` is the shared grabber for "a × b" and "a × b × c"
+  sizes (the third part is thickness: `fruit_height`, `seed_height`); use
+  it rather than writing another (Hou_2000, Beentje_2023).
 - Treat figure and map captions as non-treatment text unless they supply a
   separately transcribed voucher. With `flora_read_pdf_lines()`, configure
   `caption_re`, `side_caption_re` and `side_indent`, and inspect dropped lines;
@@ -964,13 +975,17 @@ Bespoke checklist (decisions that changed per family):
   The statement must name exactly one term, counting terms with no level:
   "symmetric or slightly oblique" is not "all oblique", and a statement
   naming a genus in brackets ("(Hydrocleys)") is not copied. The function
-  catches "or"/"to" alternatives, not comma lists ("flat, terete or
-  triquetrous" scored flat; "syconia ... solitary, in pairs or clustered"
-  scored solitary, copied to 70 Ficus species before the fix in
-  Kochummen_2000): check those in the parser. A commonness word earlier in
+  catches "or"/"to" alternatives in a row's own clause. For a comma list,
+  give each higher-rank row a `piece_text` column (its ";" piece): two or
+  more rows of one trait from a piece with a list ending in "or" are
+  alternatives and none is copied ("spirally arranged, distichous (...)
+  or crowded", Soepadmo_2000 family). A list with only one scored chunk
+  ("syconia ... solitary, in pairs or clustered" scored solitary, copied to
+  70 Ficus species before the fix in Kochummen_2000) is not caught: check
+  those in the parser. A commonness word earlier in
   the piece also qualifies the unqualified chunks after it ("Bark generally
-  greyish, smooth": smooth is not universal); bar such rows from copy-down in
-  the parser (Kochummen_2000 `piece_qualified`). Chunks before the word stay
+  greyish, smooth": smooth is not universal); set the row's
+  `piece_qualified` column to TRUE and `flora_copy_down()` bars it. Chunks before the word stay
   unqualified: "Leaves simple, entire, alternate, usually distichous" copies
   simple, entire and alternate (provisional, DeWilde_2018 question 11).
   Most specific rank wins (group, genus, family), counting every row that
@@ -1022,7 +1037,9 @@ The format is fixed so `unmapped_terms.csv` can be compared across datasets:
   `glands`, `fusion`, `branching`, `division`, `presence` (absence statements),
   `phenology`, `sex`, `description` (several characters, or none of these),
   `text` (section text). The list and its matching patterns are
-  `flora_unmapped_characters`.
+  `flora_unmapped_characters`. An angle is `shape` ("narrowed into the
+  petiole at a 20--50° angle", 27 Nooteboom_2010 taxa); put the angle
+  wording in `<detail>`.
 - `<detail>` holds everything else: candidate traits, hedges, out-of-region
   remarks, the wording of a multi-character clause. Free wording passed as
   the character is matched to one listed character (several or none:
@@ -1277,10 +1294,55 @@ all FPM and TFSS treatments. An agent processing a family may edit `SKILL.md`,
   `new`, `generalised`, `confirmed` or `removed`, reason, evidence, regression
   result) and unfixed problems under "Skill issues not fixed".
 
-## Open question for the user
+## Open questions for the user
 
-Hedged statements: confirm whether accepted Yao_2010 hedges should remain
-scored; default for new families is not scored.
+This is the register of undecided skill questions; the GitHub issues that
+raised them are closed. When a family meets one of these cases, apply the
+current treatment, record a metadata question, and raise the decision in
+the PR. When the user decides, change the rule and delete the item here.
+Rules marked `provisional (<ID> question N)` are tracked by that marker
+(`grep -n provisional SKILL.md`), not listed here.
 
-Kiew_2015 questions 4, 17, 18 and 19 settle the aquatic, cultivated-plant
-and pollinator rules in step 4. Update those rules when the user answers.
+- **Hedged statements.** Confirm whether accepted Yao_2010 hedges should
+  remain scored; default for new families is not scored.
+- **Kiew_2015 questions 4, 17, 18 and 19** settle the aquatic,
+  cultivated-plant and pollinator rules in step 4.
+- **Values per subspecies inside a species clause** ("10--15 x 6--10 cm
+  (subsp. agamii) or ... (subsp. diminuta)", Shorea agamii p. 220,
+  Ashton_2004). Now unmapped. Options: route each value to the named
+  subspecies as its own rows (blocking inheritance of that trait), or keep
+  unmapped (#171).
+- **One piece giving two sizes for two forms** (Shorea ovalis p. 302,
+  Ashton_2004). Now the first size is scored. Options: first size, both
+  as separate observations with a `form` context, or unmapped (#171).
+- **Indumentum sentences listing several organs** ("Twig, inflorescence,
+  petiole and leaf bud persistently pubescent", about 700 Ashton_2004 rows,
+  question 10). Now unmapped. Options: split into `stem_hairs` and
+  `leaf_hairs_adult_leaves` when the organ is listed and the hairs are
+  persistent, or keep unmapped (#171).
+- **Scabrid, lepidote, epilose** have no hair level (Ashton_2004
+  "cream-lepidote below": peltate scales). Now unmapped or blocked.
+  Decide whether, and to which levels, they map (#171).
+- **"Fruits eaten by" an animal.** DeWilde_2018 family Ecology (p. 128,
+  primates, elephants, squirrels) is not scored; Nooteboom_2010 question 5
+  scored "eaten by birds" as `dispersers = birds`. Options: eating is not
+  dispersal unless the text says the animal disperses the seed, or a named
+  eater is a disperser (#177; user, 2026-11-06: decide later).
+- **"As in var. X"** in an infraspecific description ("Inflorescences and
+  flowers as in var. brandiana", S. crassipes var. crassipes p. 240,
+  Nooteboom_2010 question 9). Now the species values are inherited.
+  Options: copy the named sibling's values for the named organs, or keep
+  inheriting (#190).
+- **Glomerule and fascicle** have no `inflorescence_type` level (S.
+  glomerata, S. fasciculata, S. tricoccata, Nooteboom_2010; a blocking
+  fascicle row exists). Options: leave unmapped, or map fascicle to `head`
+  (#190).
+- **Trait candidates with no unmapped organ + character pair**, so not in
+  `inst/notes/upstream_traits/decisions.csv`: canopy position (emergent,
+  main canopy, understorey; Ashton_2004), aril division (entire,
+  laciniate) and perianth split depth (DeWilde_2018), seed storage
+  behaviour, a dried-colour context (Turner_2014 question 2), hypanthium
+  shape and flowering interval in years (Koompassia excelsa, Hou_2000), and
+  a `flower_bract_length` minimum below 1 mm (DeWilde_2018 question 8,
+  Nooteboom_2010 question 10). Give them a pair (an unmapped note) or
+  raise them upstream by hand (#171, #177, #183, #188).

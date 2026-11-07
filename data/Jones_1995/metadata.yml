@@ -430,7 +430,7 @@ traits:
     value_type: value_type
     basis_of_value: expert_score
     replicates: .na
-    methods: 'Leaf or leaflet shape (entity_measured); compound shape terms (e.g. elliptic-oblong) have no level.'
+    methods: 'Leaf or leaflet shape (entity_measured); a hyphenated shape (e.g. elliptic-oblong) scores both levels.'
   - var_in: leaf_surface_reflectivity
     unit_in: .na
     trait_name: leaf_surface_reflectivity
@@ -828,6 +828,27 @@ substitutions:
   - trait_name: leaf_shape
     find: 'elliptic obovate'
     replace: 'elliptical obovate'
+  - trait_name: leaf_shape
+    find: 'elliptic oblong obovate oblanceolate'
+    replace: 'elliptical oblong obovate oblanceolate'
+  - trait_name: leaf_shape
+    find: 'lanceolate elliptic'
+    replace: 'lanceolate elliptical'
+  - trait_name: leaf_shape
+    find: 'oblong elliptic lanceolate'
+    replace: 'oblong elliptical lanceolate'
+  - trait_name: leaf_shape
+    find: 'oblong oblanceolate elliptic'
+    replace: 'oblong oblanceolate elliptical'
+  - trait_name: leaf_shape
+    find: 'ovate elliptic'
+    replace: 'ovate elliptical'
+  - trait_name: leaf_shape
+    find: 'ovate elliptic lanceolate'
+    replace: 'ovate elliptical lanceolate'
+  - trait_name: leaf_shape
+    find: 'ovate lanceolate elliptic'
+    replace: 'ovate lanceolate elliptical'
   - trait_name: leaf_shape
     find: 'elliptic obovate oblanceolate'
     replace: 'elliptical obovate oblanceolate'

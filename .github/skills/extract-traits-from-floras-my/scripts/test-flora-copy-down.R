@@ -72,6 +72,40 @@ mem6 <- tibble(block = c("s1", "s2", "x1"), genus = c("G", "G", "H"),
   group = NA)
 o6 <- flora_copy_down(h6, own6, mem6)
 stopifnot(nrow(o6) == 1, o6$block == "x1", o6$rank_scored_from == "family")
+# a comma list ending in "or" with two rows of the trait is alternatives
+# (Soepadmo_2000 family "spirally arranged, distichous (...) or crowded"),
+# counting a row the caller kept out of higher_rows
+pt <- "Leaves spirally arranged, distichous (a few species) or crowded"
+h7 <- mutate(h6[1, ], piece_text = pt)
+own7 <- bind_rows(
+  mutate(h7, trait_value = "distichous", trait_value_clean = "distichous",
+    trait_value_raw = "distichous (a few species)"),
+  tibble(block = "s1", trait = "leaf_arrangement",
+    trait_value_clean = "spiral", entity_measured = NA_character_)
+)
+mem7 <- tibble(block = c("s1", "s2"), genus = "G", group = NA)
+o7 <- flora_copy_down(h7, own7, mem7)
+stopifnot(nrow(o7) == 0, "alternative" %in% attr(o7, "rejected")$reason)
+# one row only, or no "or": copied as before ("Leaves simple, entire,
+# alternate or opposite" for leaf_compoundness)
+stopifnot(
+  nrow(flora_copy_down(h7, own7[2, ], mem7)) == 1,
+  nrow(flora_copy_down(mutate(h7, piece_text = "Leaves spiral, distichous"),
+    own7, mem7)) == 1
+)
+# piece_qualified bars a row, which still states the trait for its rank
+# (Kochummen_2000 "Bark generally greyish, smooth")
+h8 <- bind_rows(mutate(h6[1, ], block = "F"),
+  mutate(h6[1, ], block = "G", rank = "genus", piece_qualified = TRUE))
+o8 <- flora_copy_down(h8, own6[0, ], mem6)
+stopifnot(identical(sort(o8$block), "x1"))
+# flora_inherit_infraspecific() passes on mapped rows only (Ashton_2004)
+sp <- tibble(block = "S", rank = "species", trait = c("leaf_shape", NA),
+  trait_value = c("ovate", "Leaves odd"), notes = NA_character_)
+inh <- flora_inherit_infraspecific(sp,
+  tibble(block = c("S", "S var. b"), species = "S",
+    rank = c("species", "variety")))
+stopifnot(nrow(inh) == 1, inh$trait == "leaf_shape", inh$block == "S var. b")
 # flora_merge_duplicate_keys(): shared keys merge words; a single row keeps a
 # repeated word (Jutta_2012).
 m <- tibble(taxon_name = c("A", "A", "B"), trait = "t", value_type = "mode",

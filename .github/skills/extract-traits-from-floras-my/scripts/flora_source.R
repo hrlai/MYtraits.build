@@ -20,8 +20,9 @@ lag <- dplyr::lag
 # sign, so n_x_times is not an OCR sign. bad_glyphs counts characters the layer
 # could not map (U+FFFD, private use), common with unembedded fonts, plus the
 # dot operator U+22C5 that a Symbol font gave for the multiplication sign
-# (Adema_1996).
-.flora_bad_glyph_re <- "[\ufffd\ue000-\uf8ff\u22c5]"
+# (Adema_1996), and the Greek question mark U+037E printed for every ";" in
+# four TFSS PDFs (Ashton_2004; flora_read_pdf_lines() converts it).
+.flora_bad_glyph_re <- "[\ufffd\ue000-\uf8ff\u22c5\u037e]"
 
 flora_pdf_check <- function(file) {
   info <- pdftools::pdf_info(file)
@@ -81,8 +82,8 @@ flora_layer_flags <- function(file, pages = NULL, min_chars = 500) {
     select(pdf_page, printed_page, chars, bad_glyphs, low_text, odd_page_number)
 }
 
-# Render pdf pages to PNG, each split into top and bottom halves (about one read
-# per half page when transcribing). `outdir` must be outside the tracked tree
+# Render pdf pages to PNG: the full page (read this by default) plus top and
+# bottom halves (read these only where the type is too small on the full page). `outdir` must be outside the tracked tree
 # (for example a scratch folder); nothing is deleted.
 flora_render_pages <- function(file, pages, outdir, dpi = 220) {
   dir.create(outdir, showWarnings = FALSE, recursive = TRUE)

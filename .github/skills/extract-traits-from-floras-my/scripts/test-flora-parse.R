@@ -73,6 +73,17 @@ stopifnot(
   clean("arachnoid when young", "stem_hairs") == "hairy"
 )
 
+# negation blocks the aril, wing and glaucous rows (Hou_2000, Turner_2014)
+stopifnot(
+  is.null(flora_cat_rows("dispersal_appendage", "seeds without aril", seed)),
+  is.null(flora_cat_rows("dispersal_appendage", "pods not winged", seed)),
+  flora_cat_rows("dispersal_appendage", "seeds with a red aril", seed)$
+    trait_value_clean == "aril",
+  is.null(flora_cat_rows("leaf_glaucousness", "not white or glaucous beneath",
+    seed)),
+  # papery only when stated (Hou_2000 p. 134)
+  is.null(flora_cat_rows("bark_texture", "only slightly peeling", seed))
+)
 # a leading "to" applies to both dimensions (Jaman_2020 p. 83)
 d1 <- flora_parse_dims("pinnules to 9 × 1.5 cm")
 d2 <- flora_parse_dims("5 to 9 × 2 cm")
@@ -84,7 +95,71 @@ stopifnot(
   identical(d3$len$value_type, c("minimum", "maximum")),
   identical(d3$wid$value, c(3, 4))
 )
+# U+037E for ";" is a bad glyph (Ashton_2004, TFSS vol. 5)
+stopifnot(str_detect("leaves; twigs", .flora_bad_glyph_re))
 # "more often" is its own commonness word (Jaman_2020 p. 89)
 stopifnot(str_match("more often c. 45 cm", flora_qual_re)[, 2] == "more often")
+# a full stop with no space ends a sentence (DeWilde_2018 p. 161), but not
+# after a capital ("E.glaber")
+stopifnot(
+  flora_norm("bark pinkish.Twigs grey") == "bark pinkish. Twigs grey",
+  flora_norm("as in E.glaber") == "as in E.glaber"
+)
+# "A rarely B" is "A or rarely B" (Hou_2000, Saraca hullettii p. 165)
+stopifnot(
+  flora_norm("apex acuminate rarely caudate") ==
+    "apex acuminate or rarely caudate",
+  flora_norm("acuminate, rarely caudate") == "acuminate, rarely caudate"
+)
+# "(rarely more)" moves after the keyword (Hou_2000 p. 152)
+stopifnot(
+  flora_norm("up to 45 m (rarely more) tall") ==
+    "up to 45 m tall (rarely more)",
+  flora_norm("100 cm (or more) diameter") == "100 cm diameter (or more)"
+)
+# shared grabber: two or three dimensions (Hou_2000)
+g2 <- flora_grab_dims("Leaflets 5–9 × 2–3 cm, glabrous")
+g3 <- flora_grab_dims("Pods (4–)6–8 × c. 3 × 0.5 cm")
+stopifnot(
+  identical(g2$parts, c("5–9", "2–3")), g2$unit == "cm",
+  length(g3$parts) == 3, g3$parts[1] == "(4–)6–8", g3$parts[3] == "0.5",
+  is.null(flora_grab_dims("Leaves 5 cm long"))
+)
+# a count takes the commonness word of its chunk (Turner_2014,
+# Polyalthia dolichopoda "generally single-flowered, occasionally 2-flowered")
+stopifnot(
+  flora_count_rows("t", "occasionally 2-flowered", "2")$cq == "occasionally",
+  is.na(flora_count_rows("t", "2-flowered", "2")$cq),
+  flora_count_rows("t", "generally single-flowered", "1")$cq == "generally",
+  # a later word qualifies another value (Adema_1996 p. 273, p. 344)
+  all(is.na(flora_count_rows("t", "stamens 8 (rarely fewer)", "8")$cq)),
+  all(is.na(flora_count_rows("t", "ovary 2- rarely 3-locular", "2")$cq))
+)
+# a qualifier carries over the rest of a comma list (Turner_2014 p. 1)
+pc <- flora_score_cat(
+  "petals mostly green, white or yellow, sometimes orange, red or purple",
+  "flower_colour", seed
+)
+stopifnot(
+  setequal(pc$cq, c("mostly", "sometimes")),
+  str_detect(pc$trait_value_clean[pc$cq == "sometimes"], "purple")
+)
+# ... but not past a chunk with no term of the trait (Coode_2018), nor to a
+# list with no "or" (Kochummen_1995 p. 71)
+stopifnot(
+  is.na(flora_score_cat("Flowers usually bisexual, petals white",
+    "flower_colour", seed)$cq),
+  setequal(flora_score_cat("base often unequal, rounded to broadly cuneate",
+    "leaf_base_shape", seed)$cq, c("often", "usually"))
+)
+# "seemingly" is a hedge (Turner_2014, Polyalthia dolichopoda)
+stopifnot(
+  is.null(flora_cat_rows("flower_colour", "seemingly darkening to red", seed))
+)
+# "or more frequently strangler" (Kochummen_2000, Ficus xylophylla p. 317)
+stopifnot(
+  str_match("or more frequently strangler", flora_qual_re)[, 2] ==
+    "more frequently"
+)
 
 cat("ok\n")

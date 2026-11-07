@@ -30,7 +30,7 @@ Symplocos,genus,species,,,,,,,,rarely several bracts and bracteoles by abortion 
 Symplocos,genus,species,,,,,,,,calyx lobes (3--)5,,,mode,,"Description, p.219",8,219,UNMAPPED: calyx | count,
 Symplocos,genus,species,,,,,,,,imbricate,,,mode,,"Description, p.219",8,219,UNMAPPED: calyx | description,
 Symplocos,genus,species,,,,,,,,persistent,,,mode,,"Description, p.219",8,219,UNMAPPED: calyx | persistence,
-Symplocos,genus,species,,,,,,,,sometimes split into two parts and seemingly 2-lobed,,,mode,,"Description, p.219",8,219,UNMAPPED: calyx | count,
+Symplocos,genus,species,,,,,,,,sometimes split into two parts and seemingly 2-lobed,,,mode,,"Description, p.219",8,219,UNMAPPED: calyx | count | hedged,
 Symplocos,genus,species,,,,,,,,in subgen. Symplocos corolla glabrous but the lobes sometimes ciliolate,,,mode,,"Description, p.219",8,219,UNMAPPED: flowers | indumentum,
 Symplocos,genus,species,,,,,,,,(rarely),,,mode,,"Description, p.219",8,219,UNMAPPED: habit | description,
 Symplocos,genus,species,,,,,,,,(or rarely intermittent and the buds are often protected by leathery scales),,,mode,,"Description, p.219",8,219,UNMAPPED: growth | description,

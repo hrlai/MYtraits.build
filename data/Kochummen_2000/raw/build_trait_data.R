@@ -36,9 +36,6 @@ dict <- flora_load_dict(
   ".github/skills/extract-traits-from-floras-my/assets/flora_dictionary.csv"
 )
 dict <- dict[names(dict) %in% names(traits)]
-# "or more frequently strangler" (F. xylophylla); not yet in the shared list
-flora_qual_words <- c(flora_qual_words, "more frequently")
-flora_qual_re <- paste0("\\b(", paste(flora_qual_words, collapse = "|"), ")\\b")
 # Moraceae terms missing from the shared dictionary; first, so they win over
 # shorter shared terms
 local_terms <- list(
@@ -583,7 +580,7 @@ parse_description <- function(p) {
     # a commonness word anywhere in the piece ("Bark generally greyish,
     # smooth") bars its values from copy-down
     mutate(piece_qualified = str_detect(str_to_lower(piece_text), flora_qual_re)) |>
-    select(id, sentence, piece, pdf_page, printed_page, piece_qualified, rows) |>
+    select(id, sentence, piece, pdf_page, printed_page, piece_text, piece_qualified, rows) |>
     unnest(rows) |>
     bind_rows(row(NA_character_, NA, raw = NA_character_)[0, ]) |>
     # "base rounded, rarely acute": the unqualified alternative is `usually`
@@ -773,7 +770,7 @@ higher_manual <- manual |>
     pdf_page, printed_page, source_section)
 copied <- flora_copy_down(
   higher_rows = bind_rows(own, higher_manual) |>
-    filter(!str_detect(coalesce(trait_value_raw, ""), named_genus), !coalesce(piece_qualified, FALSE)),
+    filter(!str_detect(coalesce(trait_value_raw, ""), named_genus)),
   own_rows = own,
   members = members
 )

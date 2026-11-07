@@ -64,6 +64,24 @@ flora_norm <- function(x) {
       "\\1 \\3 to \\2 \\3"
     ) |>
     str_replace_all("\u00ad", "") |>
+    # a full stop with no space after it ("pinkish.Twigs", DeWilde_2018
+    # p. 161); a capital before the stop ("E.glaber") is left alone
+    str_replace_all("(?<=[a-z])\\.(?=[A-Z][a-z])", ". ") |>
+    # "apex acuminate rarely caudate": a commonness word between two
+    # adjectives with no "or" qualifies the second (Hou_2000 p. 165)
+    str_replace_all(
+      paste0(
+        "(?<=[a-z](ate|ous|ic|ed)) (sometimes|rarely|occasionally) ",
+        "(?=[a-z]+(ate|ous|ic)\\b)"
+      ),
+      " or \\2 "
+    ) |>
+    # "up to 45 m (rarely more) tall": the aside after the keyword, so a
+    # size grabber reads "45 m tall" (Hou_2000, Intsia palembanica p. 152)
+    str_replace_all(
+      "(\\d\\s?(?:mm|cm|m)) (\\((?:rarely|or) more\\)) (tall|high|diameter)",
+      "\\1 \\3 \\2"
+    ) |>
     str_replace_all("\u2013 ", "\u2013") |>
     str_replace_all("(?<=\\d)\\s?\u2013\\s?(?=\\d)", "\u2013") |>
     str_replace_all(
@@ -149,6 +167,7 @@ flora_qual_words <- c(
   "frequently",
   "less often",
   "more often",
+  "more frequently",
   "less frequently",
   "less commonly",
   "commonly",
@@ -158,7 +177,7 @@ flora_qual_words <- c(
   "typically"
 )
 flora_qual_re <- paste0("\\b(", paste(flora_qual_words, collapse = "|"), ")\\b")
-flora_hedge_re <- "\\b(probably|perhaps|apparently|possibly|presumably)\\b"
+flora_hedge_re <- "\\b(probably|perhaps|apparently|possibly|presumably|seemingly)\\b"
 
 # ---- numbers ------------------------------------------------------------------------
 
@@ -267,6 +286,30 @@ flora_parse_dims <- function(s) {
   list(len = flora_num_rows(a, m[, 4]), wid = flora_num_rows(b, m[, 4]))
 }
 
+# Dimension grabber for flora_dim_rows(): "a × b unit" or "a × b × c unit"
+# (length, width, thickness; the third part goes to fruit_height /
+# seed_height). Each part may carry "(a–)", "c.", "to" and "(–d)". Text must
+# already use en dashes and "×". Moved from data/Hou_2000 and Beentje_2023.
+.flora_dim_part <- paste0(
+  "(?:\\(", .flora_num, "–\\)\\s?)?(?:c\\.\\s?|to\\s)?", .flora_num,
+  "(?:–", .flora_num, ")?(?:\\s?\\(–", .flora_num, "\\))?"
+)
+flora_grab_dims <- function(x) {
+  p <- .flora_dim_part
+  m <- str_match(
+    x,
+    paste0(
+      "(", p, ")\\s?×\\s?(", p, ")(?:\\s?×\\s?(", p, "))?",
+      "\\s?(mm|cm|m)\\b"
+    )
+  )
+  if (is.na(m[1, 1])) {
+    return(NULL)
+  }
+  parts <- m[1, 2:4]
+  list(raw = m[1, 1], parts = parts[!is.na(parts)], unit = m[1, 5])
+}
+
 # ---- categorical dictionary ------------------------------------------------------------
 
 # Dictionary CSV columns: trait, term_regex, level, source, note. Row order is
@@ -275,6 +318,36 @@ flora_load_dict <- function(file) {
   d <- read_csv(file, col_types = cols(.default = "c"), na = character())
   split(d, factor(d$trait, levels = unique(d$trait))) |>
     map(\(x) set_names(x$level, x$term_regex))
+}
+
+# A commonness word qualifies the unqualified chunks after it in a list of
+# alternatives: "petals mostly green, white or yellow, sometimes orange, red
+# or purple" (Annonaceae, Turner_2014 p. 1). The list is the run of chunks
+# that score this trait, up to the next qualified chunk, and it must end in
+# an "or" alternative. Not carried: past a chunk with no term of the trait
+# ("Flowers usually bisexual, ..., petals white", Coode_2018), or to a list
+# with no "or" ("base often unequal, rounded to broadly cuneate",
+# Kochummen_1995; "often sulcate ..., finally ... glabrous", Coode_2018).
+# `ci` and `cq` are the chunk index and own qualifier of each matched term.
+.flora_carry_qual <- function(chunks, ci, cq) {
+  n <- length(chunks)
+  matched <- seq_len(n) %in% ci
+  own <- rep(NA_character_, n)
+  own[ci] <- cq
+  eff <- own
+  for (i in which(!is.na(own))) {
+    j <- i + 1
+    # a chunk starting "some ..." is its own alternative ("base mostly
+    # cuneate, some broadly cuneate or even rounded", Coode_2018 p. 85)
+    while (j <= n && matched[j] && is.na(own[j]) &&
+      !str_detect(chunks[j], "^(?i)some\\b")) {
+      j <- j + 1
+    }
+    if (j - 1 > i && str_detect(chunks[j - 1], "\\bor\\b")) {
+      eff[(i + 1):(j - 1)] <- own[i]
+    }
+  }
+  eff[ci]
 }
 
 # Score one clause for one trait. Alternatives split on commas and on
@@ -323,7 +396,9 @@ flora_score_cat <- function(txt, trait, dict) {
   if (!length(out)) {
     return(NULL)
   }
-  out <- bind_rows(out) |>
+  out <- bind_rows(out)
+  out$cq <- .flora_carry_qual(chunks, out$ci, out$cq)
+  out <- out |>
     arrange(ci, pos) |>
     mutate(
       term = str_replace_all(str_to_lower(term), " ", "_"),
@@ -444,20 +519,29 @@ flora_value_rows <- function(
     })
 }
 
-# Rows for a count ("4-5"). `unit` is "{count}" unless set.
+# Rows for a count ("4-5"). `unit` is "{count}" unless set. A commonness word
+# of `cq_text` (default the clause) before its first digit and outside
+# parentheses qualifies the rows: "generally single-flowered, occasionally
+# 2-flowered" gives two keys, not a duplicate (Turner_2014). A later word
+# qualifies another value ("stamens 8 (rarely fewer)", "ovary 2- rarely
+# 3-locular"; Adema_1996).
 flora_count_rows <- function(
   trait,
   raw,
   value_txt,
   em = NA_character_,
   notes = NA_character_,
-  unit = "{count}"
+  unit = "{count}",
+  cq_text = raw
 ) {
   r <- flora_parse_range(paste(value_txt, "mm"))
   if (is.null(r)) {
     return(NULL)
   }
+  lead <- str_remove(str_remove_all(str_to_lower(cq_text), "\\([^)]*\\)"), "\\d.*$")
+  q <- str_match(lead, flora_qual_re)[, 2]
   flora_num_rows(r) |>
+    mutate(cq = if_else(is.na(cq) & !is.na(q), q, cq)) |>
     pmap_dfr(\(value, value_type, cq, unit_) {
       flora_row(trait, value, value, value_type, unit, cq, em, notes, raw)
     })

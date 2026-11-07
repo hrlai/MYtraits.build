@@ -652,7 +652,7 @@ copied <- copied |>
 # the taxon's own and copied rows block inheritance.
 inherited <- flora_inherit_infraspecific(
   own_rows = bind_rows(
-    own |> filter(!is.na(trait)),
+    own,
     copied |> left_join(taxa |> select(block, rank), by = "block")
   ) |>
     filter(rank != "genus"),
