@@ -68,3 +68,6 @@ rsconnect/
 # uvr files
 /.uvr/library/
 /.uvr/activate*
+
+# Local rebuild only (uvr run build.R)
+/export/data/curr/MYtraits.rds
