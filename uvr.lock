@@ -1,4 +1,4 @@
-manifest_fingerprint = "sha256:d3a4d1f25b81fc0e38b3ca9453f1550a497b3ff48f5d1e4f424c552d63905dd4"
+manifest_fingerprint = "sha256:7bfb7a60c97558e69842bc92a3da10a0a1ef99133a9ad64ff59e738036ff7930"
 
 [r]
 version = "4.6.0"
@@ -629,11 +629,11 @@ requires = [
 
 [[package]]
 name = "gdtools"
-version = "0.5.2"
+version = "0.5.3"
 source = "cran"
-raw_version = "0.5.2"
-url = "https://cran.r-project.org/src/contrib/gdtools_0.5.2.tar.gz"
-checksum = "md5:e907a613c135c7ab52adfbe1173972d5"
+raw_version = "0.5.3"
+url = "https://cran.r-project.org/src/contrib/gdtools_0.5.3.tar.gz"
+checksum = "md5:a013d03fb7f73640b0ef5aebd3b26e2e"
 requires = [
     "fontquiver",
     "htmltools",
@@ -1181,20 +1181,20 @@ requires = [
 
 [[package]]
 name = "openssl"
-version = "2.4.2"
+version = "2.5.0"
 source = "cran"
-raw_version = "2.4.2"
-url = "https://cran.r-project.org/src/contrib/openssl_2.4.2.tar.gz"
-checksum = "md5:748b0fa601173da477706803783b6943"
+raw_version = "2.5.0"
+url = "https://cran.r-project.org/src/contrib/openssl_2.5.0.tar.gz"
+checksum = "md5:70a9af88c771af0cec26fec55a5c780c"
 requires = ["askpass"]
 
 [[package]]
 name = "otel"
-version = "0.2.0"
+version = "0.3.0"
 source = "cran"
-raw_version = "0.2.0"
-url = "https://cran.r-project.org/src/contrib/otel_0.2.0.tar.gz"
-checksum = "md5:cecd0f434a6327dcf5ca0bc2da494d06"
+raw_version = "0.3.0"
+url = "https://cran.r-project.org/src/contrib/otel_0.3.0.tar.gz"
+checksum = "md5:b9c41923305ec69ba71e80b63e86ec02"
 
 [[package]]
 name = "pdftools"

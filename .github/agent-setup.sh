@@ -22,6 +22,11 @@ curl -fsSL https://raw.githubusercontent.com/nbafrank/uvr/main/install.sh | UVR_
 $SUDO ln -sf "$HOME/.local/bin/uvr" /usr/local/bin/uvr
 
 uvr r install "$(cat .r-version)"
+# Link R and Rscript onto the default PATH so Quarto finds the pinned R.
+for bin in R Rscript; do
+  $SUDO ln -sf "$HOME/.uvr/r-versions/$(cat .r-version)/bin/$bin" \
+    "/usr/local/bin/$bin"
+done
 # Packages come as P3M Linux binaries; uvr installs the system libraries they
 # link against (from uvr.lock) instead of a hand-kept apt list.
 # Retry: CRAN downloads sometimes fail with a transient 503.
