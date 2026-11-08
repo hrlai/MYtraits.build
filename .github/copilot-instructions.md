@@ -190,6 +190,10 @@ unless requested.
   Dictionary. Edit `decisions.csv` only, then run
   `uvr run inst/notes/upstream_traits/make_report.R` to regenerate
   `requests.md` and `unmapped_pooled.csv`. Read its `README.md` first.
+- `inst/notes/coverage/`: one-page coverage summary for taxonomists and
+  botanists. After `uvr run build.R`, run
+  `uvr run inst/notes/coverage/make_summary.R` to regenerate `summary.md`.
+  Never edit `summary.md` by hand.
 - `inst/extdata/myflora/`: flora PDFs downloaded by `flora_fetch()`.
   Git-ignored. Never commit PDFs or rendered page images.
 - `inst/extdata/` (other files) and `inst/taxonomy/`: local taxonomy inputs and
