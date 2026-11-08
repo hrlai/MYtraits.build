@@ -37,8 +37,8 @@ Work primarily in:
 - `data/<Dataset_Name>/raw/` for wrangling logic
 - `data/<Dataset_Name>/metadata.yml` for dataset mapping and provenance
 - `build.R` is regenerated to register the dataset; do not edit it by hand.
-  Run `traits.build::build_setup_pipeline(method = "furrr",
-  database_name = "MYtraits", workers = 1)`
+  Run `traits.build::build_setup_pipeline(method = "base",
+  database_name = "MYtraits")`
 
 ### Add reusable parsing or helper logic
 

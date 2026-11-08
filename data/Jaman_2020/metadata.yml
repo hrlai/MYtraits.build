@@ -72,7 +72,7 @@ dataset:
     are unmapped. C. oosora has no trunk record ("not seen"). Cyathea
     podophylla (excluded species) is listed in raw/taxon_flags.csv and not
     scored. Types, types of synonyms and figure specimens are in
-    raw/Jaman_2020_vouchers.csv. Compared with Nor-Ezzawanis_2010
+    raw/Jaman_2020_vouchers.csv. Compared with NorEzzawanis_2010
     (Cibotiaceae, the first fern dataset, built before the fern rules): it
     scores "deeply tripinnatifid" as leaf_compoundness compound, counts pinna
     pairs with unit {count} rather than pairs, and has no
@@ -316,7 +316,7 @@ questions:
     costulets or veins are scored leaf_hairs_adult_leaves = hairy with
     entity_measured "pinna axes and veins" (10 species, e.g. C. sumatrana
     "lower surface of costa covered throughout with short flexuous brown
-    hairs", p. 104), following the per-surface rule and Nor-Ezzawanis_2010
+    hairs", p. 104), following the per-surface rule and NorEzzawanis_2010
     (vein hairs). Not scored: rachis hairs ("appressed hairy above"),
     hairs on scale margins, glabrescent axes, and C. moluccana "Scales and
     hairs lacking on lower surface" (upper surface not stated). Confirm.'
@@ -362,12 +362,12 @@ questions:
     based, so not used); pneumathodes; lamina texture; trunk branching. All
     unmapped. Decide whether any should become traits centrally.'
   question10:
-    'Nor-Ezzawanis_2010 (Cibotiaceae) was rebuilt to the current fern rules
+    'NorEzzawanis_2010 (Cibotiaceae) was rebuilt to the current fern rules
     (issue 144): pinna pairs now use unit pairs, entity labels match this
     dataset, and growth form stays fern (no trunk). One difference is still
     open there: "deeply tripinnatifid" is scored leaf_lamina_division
     bipinnate plus leaf_compoundness compound, since tripinnatifid has no
-    level (Nor-Ezzawanis_2010 question 1; no Jaman_2020 lamina is
+    level (NorEzzawanis_2010 question 1; no Jaman_2020 lamina is
     tripinnatifid). Confirm that rule, or add a tripinnatifid level to
     config/traits.yml centrally.'
   question11:

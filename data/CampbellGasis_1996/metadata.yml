@@ -1,6 +1,6 @@
 source:
   primary:
-    key: Campbell-Gasis_1996
+    key: CampbellGasis_1996
     bibtype: InBook
     year: 1996
     author: E. J. F. Campbell-Gasis
@@ -76,7 +76,7 @@ dataset:
     fruit ribs and dehiscence pattern, seed hairs and base, funicle, inner
     bark and wood colour, altitude, habitat, distribution, phenology (see
     questions), uses (fish poison), taxonomy and the differential note.
-    Type and figure specimens are listed in raw/Campbell-Gasis_1996_vouchers.csv.
+    Type and figure specimens are listed in raw/CampbellGasis_1996_vouchers.csv.
 identifiers: .na
 locations: .na
 contexts:

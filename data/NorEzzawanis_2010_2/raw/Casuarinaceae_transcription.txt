@@ -1,4 +1,4 @@
-# Nor-Ezzawanis_2010_2: transcription of A.T. Nor-Ezzawanis (2010) Casuarinaceae,
+# NorEzzawanis_2010_2: transcription of A.T. Nor-Ezzawanis (2010) Casuarinaceae,
 # Flora of Peninsular Malaysia Series II vol. 1: 87--91
 # (inst/extdata/myflora/pdf/FPM/Casuarinaceae.pdf, PDF pages 8--12; Plate 11A&B on
 # PDF p. 22, printed 303). scanned_ocr source: every line below was checked against

@@ -25,7 +25,7 @@ Do not hand-edit generated files.
 
 Regenerate pipeline files with:
 
-`traits.build::build_setup_pipeline(method = "furrr", database_name = "MYtraits", workers = 1)`
+`traits.build::build_setup_pipeline(method = "base", database_name = "MYtraits")`
 
 Do not change trait definitions in `config/traits.yml`. Raise the change
 upstream, then copy the updated file in.
