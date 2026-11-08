@@ -1,6 +1,6 @@
 source:
   primary:
-    key: Nor-Ezzawanis_2010
+    key: NorEzzawanis_2010
     bibtype: InBook
     year: 2010
     author: A. T. Nor-Ezzawanis
@@ -69,7 +69,7 @@ dataset:
     Ecology (habitat, altitude, rocky places, the hedged spread by invading
     landslides), Conservation status, Uses, Taxonomy and Notes (uncertain
     trunk, cited from other works) are kept as unmapped sentences. Types and
-    the figure specimen are in raw/Nor-Ezzawanis_2010_vouchers.csv.
+    the figure specimen are in raw/NorEzzawanis_2010_vouchers.csv.
 identifiers: .na
 locations: .na
 contexts:

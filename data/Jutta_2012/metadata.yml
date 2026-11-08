@@ -576,7 +576,7 @@ questions:
     individual pinnae ("pinnae 30 to more than 150"), scored as
     leaflet_count minimum 30 (upper bound open, not scored). Decide whether
     pair counts should be doubled into leaflet_count, stored as pairs as in
-    Nor-Ezzawanis_2010 (entity_measured = pinna pairs), or stay unmapped.
+    NorEzzawanis_2010 (entity_measured = pinna pairs), or stay unmapped.
   question4: |
     Probable source typo. C. clivicola subsp. clivicola pinnae are printed
     "to 27 x 12 mm" (p. 156), but its leaves are to 200 cm, the genus gives

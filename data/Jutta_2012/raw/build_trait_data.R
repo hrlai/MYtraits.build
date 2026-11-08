@@ -10,7 +10,7 @@
 # unscored (metadata question).
 #
 # Monogeneric family with no family description ("Monogeneric family."), so
-# the genus description is the higher rank (Campbell-Gasis_1996 rule); the
+# the genus description is the higher rank (CampbellGasis_1996 rule); the
 # family Taxonomy paragraph is kept as one unmapped row. Four species; C.
 # clivicola is represented locally by subsp. clivicola only, so its
 # description is scored at subspecies rank (single infraspecific taxon rule).

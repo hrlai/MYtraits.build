@@ -2,7 +2,7 @@ organ,character,n_taxa,n_datasets,n_families,datasets,families,example_text,exam
 leaves,texture,554,8,8,Ashton_2004; Beentje_2023; DeWilde_2018; Jones_1995; Kochummen_2000; Prance_1995; Soepadmo_2000; Turner_2014,Annonaceae; Chrysobalanaceae; Dipterocarpaceae; Fagaceae; Moraceae; Myristicaceae; Pandanaceae; Rutaceae,Leaves coriaceous,Ashton_2004,127,propose,medium,,leaf_texture,categorical,draft,,"Needs levels, e.g. membranous / chartaceous / coriaceous.",FALSE
 twigs,size,441,6,6,Adema_1996; Ashton_2004; DeWilde_2018; Kochummen_2000; Nooteboom_2010; Turner_2014,Annonaceae; Dipterocarpaceae; Moraceae; Myristicaceae; Sapindaceae; Symplocaceae,Twigs c. 3 mm diameter apically,Ashton_2004,92,,,,,,,,,FALSE
 leaves,colour,427,9,9,Adema_1996; Ashton_2004; Beentje_2023; DeWilde_2018; Jones_1995; Kochummen_2000; Nooteboom_2010; Soepadmo_2000; Turner_2014,Annonaceae; Dipterocarpaceae; Fagaceae; Moraceae; Myristicaceae; Pandanaceae; Rutaceae; Sapindaceae; Symplocaceae,Leaves drying mauve-grey,Ashton_2004,184,existing,,leaf_surface_colour,,,,,,FALSE
-stipules,size,400,7,5,Ashton_2004; Campbell-Gasis_1996; Hou_2000; Kochummen_2000; Prance_1995; Prance_2012; Soepadmo_2000,Chrysobalanaceae; Dipterocarpaceae; Fagaceae; Moraceae; Scyphostegiaceae,Stipules to 5 x 0.8 cm,Ashton_2004,92,propose,easy,petiole_length,stipule_length,numeric (mm),draft,,Width often given too.,FALSE
+stipules,size,400,7,5,Ashton_2004; CampbellGasis_1996; Hou_2000; Kochummen_2000; Prance_1995; Prance_2012; Soepadmo_2000,Chrysobalanaceae; Dipterocarpaceae; Fagaceae; Moraceae; Scyphostegiaceae,Stipules to 5 x 0.8 cm,Ashton_2004,92,propose,easy,petiole_length,stipule_length,numeric (mm),draft,,Width often given too.,FALSE
 leaf lateral veins,count,392,2,2,Ashton_2004; Turner_2014,Annonaceae; Dipterocarpaceae,lateral veins 8--22 pairs,Ashton_2004,73,propose,easy,leaflet_count,leaf_lateral_vein_pairs_count,numeric ({count}),draft,,,FALSE
 lateral veins,count,389,8,7,Adema_1996; DeWilde_2018; Jones_1995; Kochummen_2000; Nooteboom_2010; Prance_1995; Prance_2012; Soepadmo_2000,Chrysobalanaceae; Fagaceae; Moraceae; Myristicaceae; Rutaceae; Sapindaceae; Symplocaceae,lateral veins 7--12 pairs,Kochummen_2000,185,propose,easy,leaflet_count,leaf_lateral_vein_pairs_count,numeric ({count}),draft,,Pairs of secondary veins.,FALSE
 twigs,indumentum,389,12,10,Adema_1996; Ashton_2004; DeWilde_2018; Hou_2000; Jones_1995; Kochummen_1995; Kochummen_2000; Nooteboom_2010; Prance_1995; Prance_2012; Soepadmo_2000; Turner_2014,Annonaceae; Burseraceae; Chrysobalanaceae; Dipterocarpaceae; Fagaceae; Moraceae; Myristicaceae; Rutaceae; Sapindaceae; Symplocaceae,medullary rays widening outwards generally obvious to the naked-eye as a stellate pattern in cross-section,Turner_2014,1,existing,,stem_hairs,,,,,Skill already maps stem_hairs; check why these rows stayed unmapped.,FALSE
@@ -10,7 +10,7 @@ petiole,indumentum,293,12,10,Adema_1996; Ashton_2004; Berhaman_1995; DeWilde_201
 leaf intercostal venation,venation,291,2,2,Ashton_2004; Turner_2014,Annonaceae; Dipterocarpaceae,intercostal venation scalariform or reticulate,Ashton_2004,63,,,,,,,,,FALSE
 fruit calyx,size,254,1,1,Ashton_2004,Dipterocarpaceae,calyx tube to 1.2 cm diameter,Ashton_2004,73,propose,easy,fruit_length,fruit_wing_length,numeric (cm),draft,,"Dipterocarp fruit wings (enlarged calyx lobes); main dispersal character (Ashton_2004 q1, #171).",FALSE
 ovary,indumentum,243,10,8,Adema_1996; Ashton_2004; Coode_2018; Hou_2000; Jones_1995; Kochummen_2000; Nooteboom_2010; Prance_1995; Prance_2012; Soepadmo_2000,Chrysobalanaceae; Dipterocarpaceae; Elaeocarpaceae; Fagaceae; Moraceae; Rutaceae; Sapindaceae; Symplocaceae,pubescent around base,Ashton_2004,79,propose,easy,fruit_surface_hairs,flower_ovary_hairs,categorical (glabrous / hairy),draft,,,FALSE
-twigs,colour,243,10,10,Adema_1996; Ashton_2004; Campbell-Gasis_1996; DeWilde_2018; Jones_1995; Kochummen_2000; Nooteboom_2010; Prance_1995; Soepadmo_2000; Turner_2014,Annonaceae; Chrysobalanaceae; Dipterocarpaceae; Fagaceae; Moraceae; Myristicaceae; Rutaceae; Sapindaceae; Scyphostegiaceae; Symplocaceae,Twigs often blackish,Turner_2014,1,,,,,,,,,FALSE
+twigs,colour,243,10,10,Adema_1996; Ashton_2004; CampbellGasis_1996; DeWilde_2018; Jones_1995; Kochummen_2000; Nooteboom_2010; Prance_1995; Soepadmo_2000; Turner_2014,Annonaceae; Chrysobalanaceae; Dipterocarpaceae; Fagaceae; Moraceae; Myristicaceae; Rutaceae; Sapindaceae; Scyphostegiaceae; Symplocaceae,Twigs often blackish,Turner_2014,1,,,,,,,,,FALSE
 inner bark,colour,239,7,5,Adema_1996; Ashton_2004; Hou_2000; Kochummen_2000; Prance_1995; Prance_2012; Soepadmo_2000,Chrysobalanaceae; Dipterocarpaceae; Fagaceae; Moraceae; Sapindaceae,inner bark homogeneous pale brown,Ashton_2004,79,propose,easy,bark_colour,bark_inner_colour,categorical,draft,,Slash colour of tree floras; levels as bark_colour.,FALSE
 lateral veins,venation,228,9,9,Adema_1996; Ashton_2004; DeWilde_2018; Jones_1995; Kochummen_2000; Nooteboom_2010; Prance_2012; Soepadmo_2000; Turner_2014,Annonaceae; Chrysobalanaceae; Dipterocarpaceae; Fagaceae; Moraceae; Myristicaceae; Rutaceae; Sapindaceae; Symplocaceae,lateral veins thin,Soepadmo_2000,37,ignore,,,,,,,"Venation pattern, spacing and relief; pair counts are now under count. Not worth requesting yet.",FALSE
 sapwood,colour,222,10,7,Adema_1996; Ashton_2004; DeWilde_2018; Hou_2000; Kochummen_1995; Kochummen_2000; Prance_1995; Prance_2012; Soepadmo_2000; Yao_2010,Burseraceae; Chrysobalanaceae; Dipterocarpaceae; Fagaceae; Moraceae; Myristicaceae; Sapindaceae,Sapwood yellowish,Soepadmo_2000,7,propose,easy,bark_colour,sapwood_colour,categorical,draft,,Slash colour of tree floras; levels as bark_colour.,FALSE
@@ -58,7 +58,7 @@ inflorescences,size,82,9,7,Adema_1996; Ashton_2004; DeWilde_2018; Hou_2000; Jone
 cupules,indumentum,80,1,1,Soepadmo_2000,Fagaceae,densely pubescent,Soepadmo_2000,7,ignore,,,,,,,Fagaceae only.,FALSE
 pistillode,size,79,2,2,Adema_1996; Soepadmo_2000,Fagaceae; Sapindaceae,pistillode 1--1.5 mm diameter,Soepadmo_2000,7,ignore,,,,,,,Too fine-grained.,FALSE
 fruit calyx,indumentum,78,1,1,Ashton_2004,Dipterocarpaceae,puberulent,Ashton_2004,74,,,,,,,,,FALSE
-leaves,count,78,7,6,Adema_1996; Beentje_2023; DeWilde_2018; Hou_2000; Kochummen_1995; Kochummen_2000; Nor-Ezzawanis_2010_2,Burseraceae; Casuarinaceae; Moraceae; Myristicaceae; Pandanaceae; Sapindaceae,Leaves with 3--4 pairs of leaflets,Kochummen_1995,50,existing,,leaflet_count,,,,,"Example is leaflet pairs: ""3--4 pairs of leaflets"".",FALSE
+leaves,count,78,7,6,Adema_1996; Beentje_2023; DeWilde_2018; Hou_2000; Kochummen_1995; Kochummen_2000; NorEzzawanis_2010_2,Burseraceae; Casuarinaceae; Moraceae; Myristicaceae; Pandanaceae; Sapindaceae,Leaves with 3--4 pairs of leaflets,Kochummen_1995,50,existing,,leaflet_count,,,,,"Example is leaflet pairs: ""3--4 pairs of leaflets"".",FALSE
 rachis,indumentum,75,7,5,Adema_1996; Ashton_2004; Hou_2000; Jaman_2020; Jones_1995; Prance_1995; Prance_2012,Chrysobalanaceae; Cyatheaceae; Dipterocarpaceae; Rutaceae; Sapindaceae,hairy when young,Adema_1996,277,propose,easy,stem_hairs,petiole_hairs,categorical (glabrous / hairy),draft,,,FALSE
 syncarps,size,75,2,2,Beentje_2023; Kochummen_2000,Moraceae; Pandanaceae,in flower 1.8--2 x 1--1.4 cm,Beentje_2023,131,ignore,,,,,,,Annonaceae and Pandanaceae only.,FALSE
 monocarps,colour,74,1,1,Turner_2014,Annonaceae,drying black or dark brown,Turner_2014,136,,,,,,,,,FALSE
@@ -75,7 +75,7 @@ flowers apex,indumentum,66,1,1,Turner_2014,Annonaceae,sparsely covered with shor
 nuts,size,66,1,1,Ashton_2004,Dipterocarpaceae,c. 0.6 cm across,Ashton_2004,83,,,,,,,,,FALSE
 seeds,count,66,7,6,Adema_1996; Beentje_2023; Coode_2018; Hou_2000; Jones_1995; Nooteboom_2010; Turner_2014,Annonaceae; Elaeocarpaceae; Pandanaceae; Rutaceae; Sapindaceae; Symplocaceae,Seeds 2 or more in each monocarp,Turner_2014,18,existing,,seeds_per_fruit,,,,,Some counts are per carpel.,FALSE
 leaf midrib,venation,64,3,3,Ashton_2004; Beentje_2023; Turner_2014,Annonaceae; Dipterocarpaceae; Pandanaceae,midrib and lateral veins furrowed or flush above,Turner_2014,136,,,,,,,,,FALSE
-male inflorescences,count,64,4,4,Beentje_2023; DeWilde_2018; Kochummen_2000; Nor-Ezzawanis_2010_2,Casuarinaceae; Moraceae; Myristicaceae; Pandanaceae,male inflorescences 3--4 times branched,DeWilde_2018,151,,,,,,,,,FALSE
+male inflorescences,count,64,4,4,Beentje_2023; DeWilde_2018; Kochummen_2000; NorEzzawanis_2010_2,Casuarinaceae; Moraceae; Myristicaceae; Pandanaceae,male inflorescences 3--4 times branched,DeWilde_2018,151,,,,,,,,,FALSE
 male flower pedicel,size,63,1,1,DeWilde_2018,Myristicaceae,pedicel 1.5--2.5 mm long,DeWilde_2018,133,,,,,,,,,FALSE
 male flower bud,shape,62,1,1,DeWilde_2018,Myristicaceae,ellipsoid,DeWilde_2018,131,,,,,,,,,FALSE
 outer petals,indumentum,62,1,1,Turner_2014,Annonaceae,densely adpressed brown hairy outside,Turner_2014,12,,,,,,,,,FALSE
@@ -102,14 +102,14 @@ leaf lower surface,indumentum,52,2,2,DeWilde_2018; Prance_2012,Chrysobalanaceae;
 carpels,indumentum,51,2,2,Jones_1995; Turner_2014,Annonaceae; Rutaceae,hairy,Turner_2014,121,,,,,,,,,FALSE
 female flower ovary,size,51,1,1,DeWilde_2018,Myristicaceae,c. 1 mm diameter,DeWilde_2018,140,,,,,,,,,FALSE
 fruit stalk,size,51,2,2,Adema_1996; Coode_2018,Elaeocarpaceae; Sapindaceae,stalk 9--14 mm long,Coode_2018,52,existing,,pedicel_length,,,,,Fruiting pedicel; check life stage.,FALSE
-stamens,fusion,51,6,5,Campbell-Gasis_1996; Hou_2000; Kiew_2010; Kiew_2015; Kochummen_1995; Nooteboom_2010,Balanophoraceae; Burseraceae; Nymphaeaceae; Scyphostegiaceae; Symplocaceae,joined in a long monadelphous tube in subgen. Cordyloblaste,Nooteboom_2010,220,,,,,,,,,FALSE
+stamens,fusion,51,6,5,CampbellGasis_1996; Hou_2000; Kiew_2010; Kiew_2015; Kochummen_1995; Nooteboom_2010,Balanophoraceae; Burseraceae; Nymphaeaceae; Scyphostegiaceae; Symplocaceae,joined in a long monadelphous tube in subgen. Cordyloblaste,Nooteboom_2010,220,,,,,,,,,FALSE
 female flower ovary,shape,50,1,1,DeWilde_2018,Myristicaceae,ovary ovoid,DeWilde_2018,132,,,,,,,,,FALSE
 female flower pedicel,size,50,1,1,DeWilde_2018,Myristicaceae,pedicel c. 1 mm long,DeWilde_2018,138,,,,,,,,,FALSE
 fruits scar,size,50,1,1,Soepadmo_2000,Fagaceae,0.8--1.3 cm diameter,Soepadmo_2000,37,ignore,,,,,,,Fagaceae only.,FALSE
 style,count,50,6,5,Adema_1996; Ashton_2004; Jones_1995; Nooteboom_2010; Prance_1995; Prance_2012,Chrysobalanaceae; Dipterocarpaceae; Rutaceae; Sapindaceae; Symplocaceae,to 3x the length of ovary,Ashton_2004,127,,,,,,,,,FALSE
 lateral veins,size,49,2,2,Adema_1996; DeWilde_2018,Myristicaceae; Sapindaceae,lateral veins 0.5--2 cm apart,Adema_1996,273,ignore,,,,,,,Vein spacing; rarely given.,FALSE
 mesocarp,texture,49,4,3,Beentje_2023; Nooteboom_2010; Prance_1995; Prance_2012,Chrysobalanaceae; Pandanaceae; Symplocaceae,mesocarp fibrous with spongy pith,Beentje_2023,117,propose,hard,,fruit_mesocarp_texture,categorical,draft,,,FALSE
-ovary,size,49,5,4,Adema_1996; Campbell-Gasis_1996; Hou_2000; Jones_1995; Soepadmo_2000,Fagaceae; Rutaceae; Sapindaceae; Scyphostegiaceae,ovary c. 3 mm long,Hou_2000,133,,,,,,,,,FALSE
+ovary,size,49,5,4,Adema_1996; CampbellGasis_1996; Hou_2000; Jones_1995; Soepadmo_2000,Fagaceae; Rutaceae; Sapindaceae; Scyphostegiaceae,ovary c. 3 mm long,Hou_2000,133,,,,,,,,,FALSE
 cupules,count,47,1,1,Soepadmo_2000,Fagaceae,at maturity indehiscent or splitting into 2--8 (or more) equal or unequal segments,Soepadmo_2000,2,ignore,,,,,,,Fagaceae only.,FALSE
 inflorescence,arrangement,47,2,2,Coode_2018; Kiew_2010,Balanophoraceae; Elaeocarpaceae,Racemes mostly in the axils of current leaves,Coode_2018,36,propose,medium,,inflorescence_position,categorical,draft,,Axillary / terminal / cauliflorous.,FALSE
 monocarps,indumentum,47,1,1,Turner_2014,Annonaceae,covered with very short brown or golden brown hairs,Turner_2014,13,,,,,,,,,FALSE
@@ -128,7 +128,7 @@ female flower stigma,count,40,1,1,DeWilde_2018,Myristicaceae,2‑lobed,DeWilde_2
 inflorescences,colour,40,9,8,Adema_1996; Ashton_2004; Beentje_2023; DeWilde_2018; Hou_2000; Jones_1995; Kochummen_2000; Nooteboom_2010; Turner_2014,Annonaceae; Dipterocarpaceae; Moraceae; Myristicaceae; Pandanaceae; Rutaceae; Sapindaceae; Symplocaceae,usually few-flowered,Adema_1996,295,,,,,,,,,FALSE
 lamina,texture,40,2,2,Coode_2018; Lim_2010,Araucariaceae; Elaeocarpaceae,"lamina coriaceous, ovate to elliptic, 2--2.8 times as long as wide, 8--19 x 3--9 cm, base narrowly cuneate to broadly cuneate, margin entire to more-or-less entire, apex narrowly acute to acute, ti...",Coode_2018,52,propose,medium,,leaf_texture,categorical,draft,,,FALSE
 leaf upper surface,colour,40,1,1,DeWilde_2018,Myristicaceae,upper surface dark brown,DeWilde_2018,133,,,,,,,,,FALSE
-buttresses,size,39,7,5,Ashton_2004; Hou_2000; Kochummen_2000; Nor-Ezzawanis_2010_2; Prance_2012; Pungga_1996; Soepadmo_2000,Casuarinaceae; Chrysobalanaceae; Dipterocarpaceae; Fagaceae; Moraceae,to 4 m tall and continuing as ribs up bole to 10 m,Ashton_2004,73,propose,easy,plant_height,buttress_height,numeric (m),draft,,Buttress height (#171).,FALSE
+buttresses,size,39,7,5,Ashton_2004; Hou_2000; Kochummen_2000; NorEzzawanis_2010_2; Prance_2012; Pungga_1996; Soepadmo_2000,Casuarinaceae; Chrysobalanaceae; Dipterocarpaceae; Fagaceae; Moraceae,to 4 m tall and continuing as ribs up bole to 10 m,Ashton_2004,73,propose,easy,plant_height,buttress_height,numeric (m),draft,,Buttress height (#171).,FALSE
 leaf lower surface,colour,39,1,1,DeWilde_2018,Myristicaceae,lower surface grey-brown,DeWilde_2018,138,,,,,,,,,FALSE
 sepals,persistence,39,3,3,Ashton_2004; Coode_2018; Turner_2014,Annonaceae; Dipterocarpaceae; Elaeocarpaceae,"sepals persistent after petals and stamens, 5--6 mm long, glabrous to sparsely hairy outside, glabrous inside, verrucose outside at anthesis",Coode_2018,52,,,,,,,,,FALSE
 syconia bracts,count,39,1,1,Kochummen_2000,Moraceae,basal bracts 3,Kochummen_2000,257,,,,,,,,,FALSE
@@ -149,7 +149,7 @@ lamina,indumentum,34,3,3,Ashton_2004; Kiew_2015; Turner_2014,Annonaceae; Diptero
 leaf bud,size,34,1,1,DeWilde_2018,Myristicaceae,with densebrown hairs 0.1--0.2 mm long or less,DeWilde_2018,133,,,,,,,,,FALSE
 leaf lower surface,size,34,1,1,DeWilde_2018,Myristicaceae,0.5--1 mm long,DeWilde_2018,138,,,,,,,,,FALSE
 domatia,presence,33,1,1,Coode_2018,Elaeocarpaceae,without domatia,Coode_2018,52,propose,easy,,leaf_domatia,categorical (absent / present),draft,,,FALSE
-female flowers,count,33,3,3,Kochummen_2000; Nor-Ezzawanis_2010_2; Soepadmo_2000,Casuarinaceae; Fagaceae; Moraceae,solitary or in dichasial clusters of 3--15 along the rachis,Soepadmo_2000,1,existing,,flowers_per_inflorescence,,,,,Sex-specific; check how to record.,FALSE
+female flowers,count,33,3,3,Kochummen_2000; NorEzzawanis_2010_2; Soepadmo_2000,Casuarinaceae; Fagaceae; Moraceae,solitary or in dichasial clusters of 3--15 along the rachis,Soepadmo_2000,1,existing,,flowers_per_inflorescence,,,,,Sex-specific; check how to record.,FALSE
 leaf pleats,armature,33,1,1,Beentje_2023,Pandanaceae,"apical pleats with a few remote toothlets (in both sexes, unlike what Stone reports!)",Beentje_2023,132,ignore,,,,,,,Pandanaceae only.,FALSE
 perianth,size,33,2,2,DeWilde_2018; Soepadmo_2000,Fagaceae; Myristicaceae,c. 1.5 mm across,Soepadmo_2000,10,,,,,,,,,FALSE
 petiole,glands,33,3,2,Nooteboom_2010; Prance_1995; Prance_2012,Chrysobalanaceae; Symplocaceae,petioles eglandular,Prance_1995,157,,,,,,,,,FALSE
@@ -188,7 +188,7 @@ male flower staminal disc,size,27,1,1,DeWilde_2018,Myristicaceae,c. 1.5 mm diame
 perianth,colour,27,1,1,DeWilde_2018,Myristicaceae,drying often with a grey bluish tinge,DeWilde_2018,180,,,,,,,,,FALSE
 perianth,indumentum,27,3,3,Ashton_2004; DeWilde_2018; Soepadmo_2000,Dipterocarpaceae; Fagaceae; Myristicaceae,densely tomentose,Soepadmo_2000,95,,,,,,,,,FALSE
 hypanthium,size,26,2,1,Hou_2000; Nooteboom_2010,Symplocaceae,0.8--1.2 mm high,Nooteboom_2010,225,,,,,,,,,FALSE
-leaf apex,size,26,4,4,Ashton_2004; Beentje_2023; Campbell-Gasis_1996; DeWilde_2018,Dipterocarpaceae; Myristicaceae; Pandanaceae; Scyphostegiaceae,apex gradually narrowed into caudate tip 5 cm long,Beentje_2023,132,,,,,,,,,FALSE
+leaf apex,size,26,4,4,Ashton_2004; Beentje_2023; CampbellGasis_1996; DeWilde_2018,Dipterocarpaceae; Myristicaceae; Pandanaceae; Scyphostegiaceae,apex gradually narrowed into caudate tip 5 cm long,Beentje_2023,132,,,,,,,,,FALSE
 leaf midrib,size,26,2,2,Ashton_2004; Beentje_2023,Dipterocarpaceae; Pandanaceae,midrib above base with few reflexed prickles 3--3.5 mm long,Beentje_2023,131,,,,,,,,,FALSE
 leaflet lateral veins,count,26,1,0,Hou_2000,,usually more than 20 per side,Hou_2000,166,,,,,,,,,FALSE
 ovules,count,26,4,4,Adema_1996; Ashton_2004; Kochummen_2000; Turner_2014,Annonaceae; Dipterocarpaceae; Moraceae; Sapindaceae,ovules 1 or 2 per locule,Adema_1996,263,,,,,,,,,FALSE
@@ -294,7 +294,7 @@ short shoot,count,14,1,1,DeWilde_2018,Myristicaceae,simple or 2- to 3-branched,D
 styles,indumentum,14,2,2,Kochummen_2000; Soepadmo_2000,Fagaceae; Moraceae,densely hairy at the base,Soepadmo_2000,4,,,,,,,,,FALSE
 stylopodium,indumentum,14,1,1,Ashton_2004,Dipterocarpaceae,densely pubescent,Ashton_2004,73,,,,,,,,,FALSE
 testa,texture,14,3,2,Adema_1996; Hou_2000; Jones_1995,Rutaceae; Sapindaceae,testa firm or membranous,Jones_1995,351,,,,,,,,,FALSE
-twigs,surface,14,3,3,Berhaman_1995; Campbell-Gasis_1996; Prance_1995,Bignoniaceae; Chrysobalanaceae; Scyphostegiaceae,inconspicuously lenticellate,Prance_1995,158,,,,,,,,,FALSE
+twigs,surface,14,3,3,Berhaman_1995; CampbellGasis_1996; Prance_1995,Bignoniaceae; Chrysobalanaceae; Scyphostegiaceae,inconspicuously lenticellate,Prance_1995,158,,,,,,,,,FALSE
 anthers,glands,13,1,1,Jones_1995,Rutaceae,often gland-tipped,Jones_1995,351,,,,,,,,,FALSE
 cupules base,indumentum,13,1,1,Soepadmo_2000,Fagaceae,pubescent on both surfaces,Soepadmo_2000,100,,,,,,,,,FALSE
 inner petals,colour,13,1,1,Turner_2014,Annonaceae,sometimes marked with or entirely red,Turner_2014,92,,,,,,,,,FALSE
@@ -369,7 +369,7 @@ acumen,size,8,2,2,Adema_1996; Jones_1995,Rutaceae; Sapindaceae,acumen to 5 cm lo
 bark,texture,8,5,4,Berhaman_1995; DeWilde_2018; Hou_2000; Prance_1995; Turner_2014,Annonaceae; Bignoniaceae; Chrysobalanaceae; Myristicaceae,brittle,DeWilde_2018,236,,,,,,,,,FALSE
 corolla,fusion,8,1,1,Nooteboom_2010,Symplocaceae,only connate at the very base,Nooteboom_2010,228,,,,,,,,,FALSE
 endocarp,colour,8,1,1,Beentje_2023,Pandanaceae,pale brown,Beentje_2023,138,,,,,,,,,FALSE
-flower,phenology,8,3,3,Berhaman_1995; Campbell-Gasis_1996; Kiew_2015,Bignoniaceae; Nymphaeaceae; Scyphostegiaceae,"night flowering species, some of which, e.g. Victoria spp., are thermogenic",Kiew_2015,207,,,,,,,,,FALSE
+flower,phenology,8,3,3,Berhaman_1995; CampbellGasis_1996; Kiew_2015,Bignoniaceae; Nymphaeaceae; Scyphostegiaceae,"night flowering species, some of which, e.g. Victoria spp., are thermogenic",Kiew_2015,207,,,,,,,,,FALSE
 flower,shape,8,1,0,Cheek_2012,,ovate,Cheek_2012,259,,,,,,,,,FALSE
 fruit,shape,8,2,2,Berhaman_1995; Kiew_2015,Bignoniaceae; Nymphaeaceae,subcylindric,Berhaman_1995,37,propose,medium,seed_shape,fruit_shape,categorical,draft,,Needs a level set.,FALSE
 inner petals,texture,8,1,1,Turner_2014,Annonaceae,fleshy,Turner_2014,136,,,,,,,,,FALSE
@@ -408,7 +408,7 @@ fruits,arrangement,7,1,1,Kochummen_1995,Burseraceae,with apical stigma,Kochummen
 heartwood,colour,7,2,2,Adema_1996; Prance_1995,Chrysobalanaceae; Sapindaceae,heartwood red-brown,Prance_1995,160,,,,,,,,,FALSE
 infructescences,size,7,2,2,Ashton_2004; DeWilde_2018,Dipterocarpaceae; Myristicaceae,to 30 cm long,DeWilde_2018,132,,,,,,,,,FALSE
 leaf,arrangement,7,3,3,Berhaman_1995; Jutta_2012; Kiew_2015,Bignoniaceae; Cycadaceae; Nymphaeaceae,"floating, submerged or rarely emergent (B. rotundifolia)",Kiew_2015,207,,,,,,,,,FALSE
-leaf,shape,7,2,1,Campbell-Gasis_1996; Cheek_2012,Scyphostegiaceae,"chartaceous or coriaceous, petiolate or sessile, midrib extended into an unbranched tendril, the distal part expanded into an elaborate, animal-trapping receptacle (pitcher) containing digestive fluid",Cheek_2012,249,,,,,,,,,FALSE
+leaf,shape,7,2,1,CampbellGasis_1996; Cheek_2012,Scyphostegiaceae,"chartaceous or coriaceous, petiolate or sessile, midrib extended into an unbranched tendril, the distal part expanded into an elaborate, animal-trapping receptacle (pitcher) containing digestive fluid",Cheek_2012,249,,,,,,,,,FALSE
 leaf apex,indumentum,7,2,2,DeWilde_2018; Turner_2014,Annonaceae; Myristicaceae,covered with brown hairs on both surface,Turner_2014,68,,,,,,,,,FALSE
 leaf blade,count,7,5,5,Ashton_2004; DeWilde_2018; Kochummen_2000; Soepadmo_2000; Turner_2014,Annonaceae; Dipterocarpaceae; Fagaceae; Moraceae; Myristicaceae,4--6(--10) x 2--3.5(--4. 5) cm,Ashton_2004,104,,,,,,,,,FALSE
 leaf blade,glands,7,2,1,Prance_1995; Prance_2012,Chrysobalanaceae,lamina with a pair of glands on the midrib at or near its base on lower surface,Prance_2012,15,,,,,,,,,FALSE
@@ -446,7 +446,7 @@ male flower,size,6,1,1,DeWilde_2018,Myristicaceae,1--1.5 mm long,DeWilde_2018,15
 male flower apex,size,6,1,1,DeWilde_2018,Myristicaceae,2--3 mm long,DeWilde_2018,158,,,,,,,,,FALSE
 male flower pedicel,count,6,1,1,DeWilde_2018,Myristicaceae,0.8--1.5(--2) mm long,DeWilde_2018,167,,,,,,,,,FALSE
 ovary,persistence,6,1,1,Ashton_2004,Dipterocarpaceae,and inflorescence persistently so,Ashton_2004,114,,,,,,,,,FALSE
-pedicel,size,6,4,3,Berhaman_1995; Campbell-Gasis_1996; DeWilde_2018; Yao_2010,Bignoniaceae; Myristicaceae; Scyphostegiaceae,hairs 0.1--0.2 mm long,DeWilde_2018,151,,,,,,,,,FALSE
+pedicel,size,6,4,3,Berhaman_1995; CampbellGasis_1996; DeWilde_2018; Yao_2010,Bignoniaceae; Myristicaceae; Scyphostegiaceae,hairs 0.1--0.2 mm long,DeWilde_2018,151,,,,,,,,,FALSE
 peduncle,indumentum,6,1,1,Turner_2014,Annonaceae,pubescent,Turner_2014,86,,,,,,,,,FALSE
 pinnules,shape,6,1,1,Jaman_2020,Cyatheaceae,"pinnules almost symmetrical at the base, many on each pinna subequal, distal ones more-or-less abruptly decreasing",Jaman_2020,78,,,,,,,,,FALSE
 pulp,colour,6,2,2,Adema_1996; Jones_1995,Rutaceae; Sapindaceae,pale yellow,Jones_1995,361,,,,,,,,,FALSE
@@ -560,7 +560,7 @@ female inflorescence,shape,3,2,2,Kiew_2010; Pungga_1996,Balanophoraceae; Casuari
 female inflorescence bracts,count,3,1,1,Beentje_2023,Pandanaceae,bracts 3--6,Beentje_2023,147,,,,,,,,,FALSE
 female inflorescence bracts,texture,3,1,1,Beentje_2023,Pandanaceae,the inner white and fleshy,Beentje_2023,159,,,,,,,,,FALSE
 female inflorescence peduncle,colour,3,1,1,Beentje_2023,Pandanaceae,those surrounding the heads clear yellow,Beentje_2023,136,,,,,,,,,FALSE
-female inflorescences,shape,3,2,2,DeWilde_2018; Nor-Ezzawanis_2010_2,Casuarinaceae; Myristicaceae,"Female inflorescence a globose or ovoid head, terminal or subterminal on both brown and green twigs, flowers arranged in whorls, each subtended by a bract.",Nor-Ezzawanis_2010_2,87,,,,,,,,,FALSE
+female inflorescences,shape,3,2,2,DeWilde_2018; NorEzzawanis_2010_2,Casuarinaceae; Myristicaceae,"Female inflorescence a globose or ovoid head, terminal or subterminal on both brown and green twigs, flowers arranged in whorls, each subtended by a bract.",NorEzzawanis_2010_2,87,,,,,,,,,FALSE
 female inflorescences,texture,3,3,3,Beentje_2023; DeWilde_2018; Kochummen_2000,Moraceae; Myristicaceae; Pandanaceae,with a rigid or fleshy pileus,Beentje_2023,155,,,,,,,,,FALSE
 female inflorescences peduncle,size,3,1,1,Kochummen_2000,Moraceae,peduncle 1--2 cm long,Kochummen_2000,331,,,,,,,,,FALSE
 filaments,fusion,3,1,0,Hou_2000,,filaments free or variously connate at the base,Hou_2000,119,,,,,,,,,FALSE
@@ -573,9 +573,9 @@ hypanthium,count,3,2,1,Hou_2000; Nooteboom_2010,Symplocaceae,hypanthium 0,Hou_20
 indumentum,colour,3,3,3,Adema_1996; Ashton_2004; Kochummen_2000,Dipterocarpaceae; Moraceae; Sapindaceae,sometimes silvery grey,Adema_1996,323,,,,,,,,,FALSE
 infructescences,count,3,2,2,Ashton_2004; DeWilde_2018,Dipterocarpaceae; Myristicaceae,with 1 or 2 fruits,DeWilde_2018,241,,,,,,,,,FALSE
 juvenile leaves,colour,3,1,1,Beentje_2023,Pandanaceae,Label on Stone 5623 records juvenile leaves are slightly pink-brown,Beentje_2023,162,,,,,,,,,FALSE
-lamina,division,3,3,3,Coode_2018; Jaman_2020; Nor-Ezzawanis_2010,Cibotiaceae; Cyatheaceae; Elaeocarpaceae,"lamina narrowly cuneate at base, margins with teeth 10 mm apart",Coode_2018,84,,,,,,,,,FALSE
+lamina,division,3,3,3,Coode_2018; Jaman_2020; NorEzzawanis_2010,Cibotiaceae; Cyatheaceae; Elaeocarpaceae,"lamina narrowly cuneate at base, margins with teeth 10 mm apart",Coode_2018,84,,,,,,,,,FALSE
 lamina,venation,3,1,1,Ashton_2004,Dipterocarpaceae,and venation below,Ashton_2004,270,,,,,,,,,FALSE
-leaf,venation,3,3,2,Campbell-Gasis_1996; Kiew_2015; Yao_2010,Nymphaeaceae; Scyphostegiaceae,pinnately veined,Campbell-Gasis_1996,375,,,,,,,,,FALSE
+leaf,venation,3,3,2,CampbellGasis_1996; Kiew_2015; Yao_2010,Nymphaeaceae; Scyphostegiaceae,pinnately veined,CampbellGasis_1996,375,,,,,,,,,FALSE
 leaf base,indumentum,3,2,2,Ashton_2004; Prance_1995,Chrysobalanaceae; Dipterocarpaceae,glabrous,Prance_1995,171,,,,,,,,,FALSE
 leaf lateral veins,colour,3,1,1,Ashton_2004,Dipterocarpaceae,with prominent pored,Ashton_2004,148,,,,,,,,,FALSE
 leaf margin,colour,3,1,1,Beentje_2023,Pandanaceae,glaucous beneath,Beentje_2023,211,,,,,,,,,FALSE
@@ -657,16 +657,16 @@ female flower lobes,texture,2,1,1,DeWilde_2018,Myristicaceae,lobes rather coriac
 female flower ovary,count,2,1,1,DeWilde_2018,Myristicaceae,ovary 3(--4) mm long,DeWilde_2018,238,,,,,,,,,FALSE
 female flower pedicel,count,2,1,1,DeWilde_2018,Myristicaceae,pedicel 1--2(--4) mm long,DeWilde_2018,246,,,,,,,,,FALSE
 female flower tube,size,2,1,1,DeWilde_2018,Myristicaceae,0.7--1.5 mm long,DeWilde_2018,140,,,,,,,,,FALSE
-female flowers,indumentum,2,2,2,Nor-Ezzawanis_2010_2; Soepadmo_2000,Casuarinaceae; Fagaceae,"Female flowers with bracts 0.8--1 mm long, creamy white, with white hairs on margin; ovary white, c. 0.5--1 x 0.2 mm, stigmatic arms red, 1.5--5 mm long.",Nor-Ezzawanis_2010_2,90,,,,,,,,,FALSE
-female flowers,presence,2,2,2,Kiew_2010; Nor-Ezzawanis_2010_2,Balanophoraceae; Casuarinaceae,Female flowers without a perianth or distinct carpel,Kiew_2010,68,,,,,,,,,FALSE
-female flowers,size,2,2,2,Kiew_2010; Nor-Ezzawanis_2010_2,Balanophoraceae; Casuarinaceae,0.2--0.7 x 0.15--0.4 mm,Kiew_2010,68,,,,,,,,,FALSE
+female flowers,indumentum,2,2,2,NorEzzawanis_2010_2; Soepadmo_2000,Casuarinaceae; Fagaceae,"Female flowers with bracts 0.8--1 mm long, creamy white, with white hairs on margin; ovary white, c. 0.5--1 x 0.2 mm, stigmatic arms red, 1.5--5 mm long.",NorEzzawanis_2010_2,90,,,,,,,,,FALSE
+female flowers,presence,2,2,2,Kiew_2010; NorEzzawanis_2010_2,Balanophoraceae; Casuarinaceae,Female flowers without a perianth or distinct carpel,Kiew_2010,68,,,,,,,,,FALSE
+female flowers,size,2,2,2,Kiew_2010; NorEzzawanis_2010_2,Balanophoraceae; Casuarinaceae,0.2--0.7 x 0.15--0.4 mm,Kiew_2010,68,,,,,,,,,FALSE
 flower,colour,2,2,2,Berhaman_1995; Kiew_2015,Bignoniaceae; Nymphaeaceae,O. indicum has flowers with lurid colour,Berhaman_1995,33,,,,,,,,,FALSE
 flowers,fusion,2,2,1,Hou_2000; Nooteboom_2010,Symplocaceae,pistil stipitate and often partly adnate to the hypanthium,Hou_2000,119,,,,,,,,,FALSE
 flowers,texture,2,2,2,Adema_1996; Turner_2014,Annonaceae; Sapindaceae,fleshy or the inner ones partly petaloid,Adema_1996,371,,,,,,,,,FALSE
 flowers base,persistence,2,1,1,Turner_2014,Annonaceae,not persistent in fruit,Turner_2014,70,,,,,,,,,FALSE
 flowers margin,texture,2,1,1,Turner_2014,Annonaceae,fleshy,Turner_2014,177,,,,,,,,,FALSE
 fruit,count,2,2,2,Berhaman_1995; Kiew_2015,Bignoniaceae; Nymphaeaceae,Fruit a 2-valved capsule,Berhaman_1995,36,,,,,,,,,FALSE
-fruit,persistence,2,2,2,Campbell-Gasis_1996; Kiew_2015,Nymphaeaceae; Scyphostegiaceae,"crowned by persistent styles and stigmas, 9--12-ribbed, at maturity breaking up at the mouth into 9--12 segments",Campbell-Gasis_1996,376,,,,,,,,,FALSE
+fruit,persistence,2,2,2,CampbellGasis_1996; Kiew_2015,Nymphaeaceae; Scyphostegiaceae,"crowned by persistent styles and stigmas, 9--12-ribbed, at maturity breaking up at the mouth into 9--12 segments",CampbellGasis_1996,376,,,,,,,,,FALSE
 fruiting pedicels,colour,2,1,1,Turner_2014,Annonaceae,drying brown,Turner_2014,117,,,,,,,,,FALSE
 fruiting pedicels,texture,2,1,1,Turner_2014,Annonaceae,Fruiting pedicels woody,Turner_2014,115,,,,,,,,,FALSE
 fruits,glands,2,1,1,Jones_1995,Rutaceae,with or without oil-droplets,Jones_1995,351,,,,,,,,,FALSE
@@ -683,7 +683,7 @@ inflorescence bracts,size,2,1,1,Beentje_2023,Pandanaceae,13--17.5 cm long,Beentj
 inflorescences bracts,indumentum,2,1,1,Kochummen_2000,Moraceae,short-hairy,Kochummen_2000,320,,,,,,,,,FALSE
 lamina,shape,2,1,1,Jaman_2020,Cyatheaceae,"the apical pinna usually like the others, and all pinnae articulate to the rachis",Jaman_2020,96,,,,,,,,,FALSE
 lateral leaves,colour,2,1,0,Wong_2010,,drying with a coppery tint,Wong_2010,58,,,,,,,,,FALSE
-leaf,texture,2,2,2,Berhaman_1995; Campbell-Gasis_1996,Bignoniaceae; Scyphostegiaceae,chartaceous to coriaceous,Berhaman_1995,36,,,,,,,,,FALSE
+leaf,texture,2,2,2,Berhaman_1995; CampbellGasis_1996,Bignoniaceae; Scyphostegiaceae,chartaceous to coriaceous,Berhaman_1995,36,,,,,,,,,FALSE
 leaf apex,armature,2,1,1,Beentje_2023,Pandanaceae,leaf apex often adaxially spinulose along the two main pleats (spines rarely absent),Beentje_2023,128,,,,,,,,,FALSE
 leaf apex,count,2,1,1,Beentje_2023,Pandanaceae,apex long-attenuate for 20+ cm,Beentje_2023,139,,,,,,,,,FALSE
 leaf base,texture,2,1,1,Beentje_2023,Pandanaceae,the base with a rigid lobe (sometimes purplish) on the sheath on each side,Beentje_2023,139,,,,,,,,,FALSE
@@ -705,8 +705,8 @@ male flower lobes,texture,2,1,1,DeWilde_2018,Myristicaceae,lobes membranous,DeWi
 male flower staminal disc,count,2,1,1,DeWilde_2018,Myristicaceae,0.5--1(--1.5) mm diameter,DeWilde_2018,216,,,,,,,,,FALSE
 male flower staminal disc,venation,2,1,1,DeWilde_2018,Myristicaceae,finely papillose,DeWilde_2018,232,,,,,,,,,FALSE
 male flower stigma,count,2,1,1,DeWilde_2018,Myristicaceae,stigma 6--8-lobulate,DeWilde_2018,196,,,,,,,,,FALSE
-male flowers,indumentum,2,2,2,Nor-Ezzawanis_2010_2; Soepadmo_2000,Casuarinaceae; Fagaceae,"Male flowers: bracts 0.8--1 mm long, transparent with white hairs; stamens with filaments 1.2--3 mm long, translucent in life, drying mid-brown, anthers broadly oblong, c. 0.5 mm long, golden brown...",Nor-Ezzawanis_2010_2,90,,,,,,,,,FALSE
-male flowers,size,2,2,2,Kochummen_2000; Nor-Ezzawanis_2010_2,Casuarinaceae; Moraceae,in hairy receptacle cavities 4--5 x 3--4 mm,Kochummen_2000,321,,,,,,,,,FALSE
+male flowers,indumentum,2,2,2,NorEzzawanis_2010_2; Soepadmo_2000,Casuarinaceae; Fagaceae,"Male flowers: bracts 0.8--1 mm long, transparent with white hairs; stamens with filaments 1.2--3 mm long, translucent in life, drying mid-brown, anthers broadly oblong, c. 0.5 mm long, golden brown...",NorEzzawanis_2010_2,90,,,,,,,,,FALSE
+male flowers,size,2,2,2,Kochummen_2000; NorEzzawanis_2010_2,Casuarinaceae; Moraceae,in hairy receptacle cavities 4--5 x 3--4 mm,Kochummen_2000,321,,,,,,,,,FALSE
 male inflorescence,shape,2,1,1,Kiew_2010,Balanophoraceae,Male inflorescences ovoid to ellipsoid,Kiew_2010,72,,,,,,,,,FALSE
 male inflorescence bracts,texture,2,1,1,Beentje_2023,Pandanaceae,somewhat fleshy,Beentje_2023,149,,,,,,,,,FALSE
 male inflorescences bracts,size,2,1,1,Kochummen_2000,Moraceae,2--3 mm wide,Kochummen_2000,333,,,,,,,,,FALSE
@@ -726,10 +726,10 @@ pseudostipules,count,2,1,1,Adema_1996,Sapindaceae,1--3(--8.5) x 0.8--2.2(--5) cm
 roots,armature,2,1,1,Beentje_2023,Pandanaceae,spiny,Beentje_2023,169,,,,,,,,,FALSE
 samara,surface,2,1,1,Pungga_1996,Casuarinaceae,dull,Pungga_1996,120,,,,,,,,,FALSE
 sarcotesta,count,2,1,1,Adema_1996,Sapindaceae,sarcotesta cupular on the ventral side and covering 25--100% of the seed,Adema_1996,281,,,,,,,,,FALSE
-scale leaves,count,2,1,1,Nor-Ezzawanis_2010_2,Casuarinaceae,"Scale leaves 5--18 per node, apex narrowly acute.",Nor-Ezzawanis_2010_2,88,,,,,,,,,FALSE
+scale leaves,count,2,1,1,NorEzzawanis_2010_2,Casuarinaceae,"Scale leaves 5--18 per node, apex narrowly acute.",NorEzzawanis_2010_2,88,,,,,,,,,FALSE
 scales and hairs,indumentum,2,1,1,Jaman_2020,Cyatheaceae,Scales and hairs: scales on costules and costulets beneath sparse,Jaman_2020,89,,,,,,,,,FALSE
 seed,phenology,2,1,1,Kiew_2015,Nymphaeaceae,and produce many seeds that readily germinate,Kiew_2015,211,,,,,,,,,FALSE
-seed,presence,2,2,2,Kiew_2015; Nor-Ezzawanis_2010_2,Casuarinaceae; Nymphaeaceae,without an aril,Kiew_2015,209,,,,,,,,,FALSE
+seed,presence,2,2,2,Kiew_2015; NorEzzawanis_2010_2,Casuarinaceae; Nymphaeaceae,without an aril,Kiew_2015,209,,,,,,,,,FALSE
 seedlings,colour,2,1,1,Beentje_2023,Pandanaceae,Seedling and young plant apparently without pink tinge at base,Beentje_2023,193,,,,,,,,,FALSE
 seeds,venation,2,1,1,Jones_1995,Rutaceae,surface minutely reticulate,Jones_1995,382,,,,,,,,,FALSE
 sporangia,shape,2,1,1,Jaman_2020,Cyatheaceae,in some species of subgenus Sphaeropteris scales present round base of receptacle more-or-less covering young sporangia,Jaman_2020,78,,,,,,,,,FALSE
@@ -747,7 +747,7 @@ syncarp spikes,count,2,1,1,Beentje_2023,Pandanaceae,spikes 3,Beentje_2023,165,,,
 syncarp spikes,size,2,1,1,Beentje_2023,Pandanaceae,25--35 mm long,Beentje_2023,165,,,,,,,,,FALSE
 syncarps pulp,texture,2,1,1,Kochummen_2000,Moraceae,pulp (fleshy perianth) orange,Kochummen_2000,192,,,,,,,,,FALSE
 syncarps surface,texture,2,1,1,Kochummen_2000,Moraceae,fleshy perianth surrounding fruit yellow,Kochummen_2000,199,,,,,,,,,FALSE
-tepals,size,2,2,2,Campbell-Gasis_1996; Kochummen_2000,Moraceae; Scyphostegiaceae,lobes c. 6 x 4 mm,Campbell-Gasis_1996,376,,,,,,,,,FALSE
+tepals,size,2,2,2,CampbellGasis_1996; Kochummen_2000,Moraceae; Scyphostegiaceae,lobes c. 6 x 4 mm,CampbellGasis_1996,376,,,,,,,,,FALSE
 testa,indumentum,2,2,1,Adema_1996; Hou_2000,Sapindaceae,glabrous.,Adema_1996,293,,,,,,,,,FALSE
 throat,indumentum,2,1,1,Prance_2012,Chrysobalanaceae,throat blocked by long retrorse hairs,Prance_2012,15,,,,,,,,,FALSE
 trunk,shape,2,1,1,Jaman_2020,Cyatheaceae,"sometimes with lateral buds forming small crowns of fronds, old fronds persistent and hanging down over the trunk",Jaman_2020,87,,,,,,,,,FALSE
@@ -757,7 +757,7 @@ wall,size,2,1,1,Turner_2014,Annonaceae,c. 1 mm,Turner_2014,113,,,,,,,,,FALSE
 wood,colour,2,1,1,Adema_1996,Sapindaceae,Wood reddish brown,Adema_1996,368,,,,,,,,,FALSE
 achenes,colour,1,1,1,Kochummen_2000,Moraceae,with pink dots,Kochummen_2000,288,,,,,,,,,FALSE
 all leaves,shape,1,1,0,Wong_2010,,all leaves with distinct pale margin,Wong_2010,56,,,,,,,,,FALSE
-anther,count,1,1,1,Campbell-Gasis_1996,Scyphostegiaceae,anthers 4-locular,Campbell-Gasis_1996,375,,,,,,,,,FALSE
+anther,count,1,1,1,CampbellGasis_1996,Scyphostegiaceae,anthers 4-locular,CampbellGasis_1996,375,,,,,,,,,FALSE
 anther,size,1,1,0,Yao_2010,,"anthers c. 0.5 mm across, pores opening by a minute beaked lid, attached at the lower end of the pore aperture",Yao_2010,164,,,,,,,,,FALSE
 anther locules,division,1,1,1,Kiew_2010,Balanophoraceae,sometimes transversely divided into smaller locules,Kiew_2010,68,,,,,,,,,FALSE
 arillode,count,1,1,1,Adema_1996,Sapindaceae,2-layered,Adema_1996,277,,,,,,,,,FALSE
@@ -771,7 +771,7 @@ blade,indumentum,1,1,1,Kochummen_1995,Burseraceae,blade glabrous,Kochummen_1995,
 blade,size,1,1,1,Jones_1995,Rutaceae,6--60 x (up to) 18 cm,Jones_1995,380,,,,,,,,,FALSE
 bole,count,1,1,1,DeWilde_2018,Myristicaceae,50(--150) cm out,DeWilde_2018,246,,,,,,,,,FALSE
 bole,presence,1,1,1,Lim_2010,Araucariaceae,without buttresses,Lim_2010,62,,,,,,,,,FALSE
-bract,size,1,1,1,Campbell-Gasis_1996,Scyphostegiaceae,bracts ... 2--3 mm wide,Campbell-Gasis_1996,376,,,,,,,,,FALSE
+bract,size,1,1,1,CampbellGasis_1996,Scyphostegiaceae,bracts ... 2--3 mm wide,CampbellGasis_1996,376,,,,,,,,,FALSE
 bracteoles,venation,1,1,1,Ashton_2004,Dipterocarpaceae,more sparsely so on venation below and midrib above,Ashton_2004,226,,,,,,,,,FALSE
 bracts,venation,1,1,1,Turner_2014,Annonaceae,longitudinal veins visible,Turner_2014,117,,,,,,,,,FALSE
 branchlets,colour,1,1,1,Ashton_2004,Dipterocarpaceae,"branches with distichous leaf arrangement clustered in false whorls owing to intermittent growth of the vertical leader (compare, e.g., with Diospyros)",Ashton_2004,128,,,,,,,,,FALSE
@@ -790,9 +790,9 @@ cotyledons,colour,1,1,1,Prance_1995,Chrysobalanaceae,pale green,Prance_1995,168,
 cotyledons,size,1,1,1,Prance_1995,Chrysobalanaceae,c. 1.5 x 3 cm,Prance_1995,163,,,,,,,,,FALSE
 cupules wall,count,1,1,1,Soepadmo_2000,Fagaceae,usually containing 2--3 nuts,Soepadmo_2000,116,,,,,,,,,FALSE
 cymules,indumentum,1,1,1,Adema_1996,Sapindaceae,sparsely hairy,Adema_1996,286,,,,,,,,,FALSE
-disc,presence,1,1,1,Campbell-Gasis_1996,Scyphostegiaceae,"disc present, disc-glands absent",Campbell-Gasis_1996,376,,,,,,,,,FALSE
+disc,presence,1,1,1,CampbellGasis_1996,Scyphostegiaceae,"disc present, disc-glands absent",CampbellGasis_1996,376,,,,,,,,,FALSE
 disc,texture,1,1,1,Adema_1996,Sapindaceae,thinly fleshy,Adema_1996,352,,,,,,,,,FALSE
-disc glands,size,1,1,1,Campbell-Gasis_1996,Scyphostegiaceae,disc-glands c. 0.75 x 0.4 mm,Campbell-Gasis_1996,376,,,,,,,,,FALSE
+disc glands,size,1,1,1,CampbellGasis_1996,Scyphostegiaceae,disc-glands c. 0.75 x 0.4 mm,CampbellGasis_1996,376,,,,,,,,,FALSE
 disk,indumentum,1,1,0,Hou_2000,,hairy,Hou_2000,178,,,,,,,,,FALSE
 disk,size,1,1,0,Hou_2000,,disk c. 2 mm diameter,Hou_2000,180,,,,,,,,,FALSE
 dots,colour,1,1,1,DeWilde_2018,Myristicaceae,but scattered minute blackish points often present,DeWilde_2018,178,,,,,,,,,FALSE
@@ -802,8 +802,8 @@ endosperm,colour,1,1,1,Jones_1995,Rutaceae,endosperm white,Jones_1995,416,,,,,,,
 eophylls,count,1,1,1,Prance_1995,Chrysobalanaceae,first 2 eophylls opposite,Prance_1995,168,,,,,,,,,FALSE
 exocarp,indumentum,1,1,0,Hou_2000,,usually hairy,Hou_2000,144,,,,,,,,,FALSE
 exudate,colour,1,1,1,Adema_1996,Sapindaceae,with a red exudate when cut,Adema_1996,356,propose,medium,,exudate_colour,categorical,draft,,,FALSE
-exudate,presence,1,1,1,Campbell-Gasis_1996,Scyphostegiaceae,without exudate,Campbell-Gasis_1996,375,,,,,,,,,FALSE
-family,count,1,1,1,Campbell-Gasis_1996,Scyphostegiaceae,A monogeneric family with one species endemic to Borneo.,Campbell-Gasis_1996,375,,,,,,,,,FALSE
+exudate,presence,1,1,1,CampbellGasis_1996,Scyphostegiaceae,without exudate,CampbellGasis_1996,375,,,,,,,,,FALSE
+family,count,1,1,1,CampbellGasis_1996,Scyphostegiaceae,A monogeneric family with one species endemic to Borneo.,CampbellGasis_1996,375,,,,,,,,,FALSE
 female flower,branching,1,1,1,Pungga_1996,Casuarinaceae,"with 2-branched, divergent stigmas, subtended by a bract and two bracteoles",Pungga_1996,119,,,,,,,,,FALSE
 female flower bracteole,size,1,1,1,DeWilde_2018,Myristicaceae,4 mm wide,DeWilde_2018,255,,,,,,,,,FALSE
 female flower bud,texture,1,1,1,DeWilde_2018,Myristicaceae,bud coriaceous,DeWilde_2018,138,,,,,,,,,FALSE
@@ -814,11 +814,11 @@ female flowers,colour,1,1,1,Kochummen_2000,Moraceae,Female flowers solitary or p
 female inflorescence,count,1,1,1,Kiew_2010,Balanophoraceae,"Among flowering plants, the female flowers and fruits of Balanophora are the smallest. Hansen (1972) estimated there are between 10^5--10^7 flowers in a single female inflorescence and the fruits w...",Kiew_2010,69,,,,,,,,,FALSE
 female inflorescence pedicels,colour,1,1,1,Beentje_2023,Pandanaceae,pedicels reddish pink,Beentje_2023,159,,,,,,,,,FALSE
 female inflorescence peduncle,texture,1,1,1,Beentje_2023,Pandanaceae,peduncle woody,Beentje_2023,135,,,,,,,,,FALSE
-female inflorescences,arrangement,1,1,1,Nor-Ezzawanis_2010_2,Casuarinaceae,"Female inflorescence a globose or ovoid head, terminal or subterminal on both brown and green twigs, flowers arranged in whorls, each subtended by a bract.",Nor-Ezzawanis_2010_2,87,,,,,,,,,FALSE
+female inflorescences,arrangement,1,1,1,NorEzzawanis_2010_2,Casuarinaceae,"Female inflorescence a globose or ovoid head, terminal or subterminal on both brown and green twigs, flowers arranged in whorls, each subtended by a bract.",NorEzzawanis_2010_2,87,,,,,,,,,FALSE
 female inflorescences,venation,1,1,1,Beentje_2023,Pandanaceae,striate-veined,Beentje_2023,199,,,,,,,,,FALSE
 female inflorescences bracts,colour,1,1,1,Kochummen_2000,Moraceae,scattered,Kochummen_2000,185,,,,,,,,,FALSE
 female inflorescences bracts,indumentum,1,1,1,Kochummen_2000,Moraceae,densely or sparsely hairy,Kochummen_2000,329,,,,,,,,,FALSE
-female raceme unit,size,1,1,1,Campbell-Gasis_1996,Scyphostegiaceae,raceme units 5--8 mm long,Campbell-Gasis_1996,376,,,,,,,,,FALSE
+female raceme unit,size,1,1,1,CampbellGasis_1996,Scyphostegiaceae,raceme units 5--8 mm long,CampbellGasis_1996,376,,,,,,,,,FALSE
 females,count,1,1,1,Kochummen_2000,Moraceae,females similar to the males but the processes mostly connate at the base in groups of 2--4,Kochummen_2000,323,,,,,,,,,FALSE
 filaments,shape,1,1,1,Kiew_2015,Nymphaeaceae,filaments narrowly triangular,Kiew_2015,219,,,,,,,,,FALSE
 fleshy,indumentum,1,1,1,Ashton_2004,Dipterocarpaceae,Fleshy exposed parts pale tawny puberulent,Ashton_2004,176,,,,,,,,,FALSE
@@ -826,7 +826,7 @@ fleshy,persistence,1,1,1,Ashton_2004,Dipterocarpaceae,indumentum persistent on y
 fleshy,venation,1,1,1,Ashton_2004,Dipterocarpaceae,caducous on leaf venation below and calyx,Ashton_2004,176,,,,,,,,,FALSE
 flower,arrangement,1,1,1,Kiew_2015,Nymphaeaceae,The flowers of all species are held and open above the water surface,Kiew_2015,209,,,,,,,,,FALSE
 flowers,glands,1,1,1,Nooteboom_2010,Symplocaceae,intrastaminal disc glandular,Nooteboom_2010,220,,,,,,,,,FALSE
-flowers,phenology,1,1,1,Nor-Ezzawanis_2010_2,Casuarinaceae,"At anthesis, the filaments elongate exposing the anthers, and the stigmatic arms also project out from the subtending bracteoles.",Nor-Ezzawanis_2010_2,87,,,,,,,,,FALSE
+flowers,phenology,1,1,1,NorEzzawanis_2010_2,Casuarinaceae,"At anthesis, the filaments elongate exposing the anthers, and the stigmatic arms also project out from the subtending bracteoles.",NorEzzawanis_2010_2,87,,,,,,,,,FALSE
 flowers,presence,1,1,1,Kiew_2010,Balanophoraceae,Flowers pedicellate or sessile,Kiew_2010,68,,,,,,,,,FALSE
 flowers apex,persistence,1,1,1,Turner_2014,Annonaceae,not persistent in fruit,Turner_2014,26,,,,,,,,,FALSE
 flowers apex,venation,1,1,1,Turner_2014,Annonaceae,venation distinct,Turner_2014,55,,,,,,,,,FALSE
@@ -834,7 +834,7 @@ flowers base,count,1,1,1,Turner_2014,Annonaceae,base truncate with 3 longitudina
 flowers base,size,1,1,1,Turner_2014,Annonaceae,base spathulate to 6 mm wide,Turner_2014,64,,,,,,,,,FALSE
 fruit,arrangement,1,1,1,Berhaman_1995,Bignoniaceae,hanging in clusters at the end of branches,Berhaman_1995,42,,,,,,,,,FALSE
 fruit,colour,1,1,0,Yao_2010,,"Fruits green, sometimes with longitudinal light green lines",Yao_2010,164,,,,,,,,,FALSE
-fruit,size,1,1,1,Nor-Ezzawanis_2010_2,Casuarinaceae,"Samaroid nut with the wing pair connate, broadly elliptic, transparent, pale yellow-brown, c. 3.5 cm long, pointed at apex.",Nor-Ezzawanis_2010_2,90,,,,,,,,,FALSE
+fruit,size,1,1,1,NorEzzawanis_2010_2,Casuarinaceae,"Samaroid nut with the wing pair connate, broadly elliptic, transparent, pale yellow-brown, c. 3.5 cm long, pointed at apex.",NorEzzawanis_2010_2,90,,,,,,,,,FALSE
 fruit,texture,1,1,1,Kiew_2015,Nymphaeaceae,Fruit a spongy berry,Kiew_2015,207,,,,,,,,,FALSE
 fruit calyx,colour,1,1,1,Ashton_2004,Dipterocarpaceae,more or less reflexed distally giving a collared appearance,Ashton_2004,241,,,,,,,,,FALSE
 fruit cone,count,1,1,1,Pungga_1996,Casuarinaceae,"each cone with 20--30 fertile fruitlets, and whorls of sterile, undeveloped fruitlets at its upper and basal parts; bracteoles slightly projecting, rounded-acute at the tips",Pungga_1996,125,,,,,,,,,FALSE
@@ -853,7 +853,7 @@ fruits peduncle,size,1,1,1,Kochummen_2000,Moraceae,less than 1 cm long,Kochummen
 fruits surface,indumentum,1,1,1,Kochummen_2000,Moraceae,surface velvety,Kochummen_2000,185,,,,,,,,,FALSE
 fruits surface,texture,1,1,1,Kochummen_2000,Moraceae,fleshy,Kochummen_2000,185,,,,,,,,,FALSE
 fruits wall,size,1,1,1,Soepadmo_2000,Fagaceae,wall thinner than 0.5 mm,Soepadmo_2000,115,,,,,,,,,FALSE
-funicle,size,1,1,1,Campbell-Gasis_1996,Scyphostegiaceae,funicle c. 3 mm long,Campbell-Gasis_1996,376,,,,,,,,,FALSE
+funicle,size,1,1,1,CampbellGasis_1996,Scyphostegiaceae,funicle c. 3 mm long,CampbellGasis_1996,376,,,,,,,,,FALSE
 gametophyte,colour,1,1,1,Jaman_2020,Cyatheaceae,"Gametophytes green, cordate",Jaman_2020,77,,,,,,,,,FALSE
 genus,branching,1,1,0,Wong_2010,,"Shoot system basically dichotomous, mostly with anisotomous branching and inconspicuously to recognisably zigzag main stems formed by sympodial series of shorter and more robust branches of repeate...",Wong_2010,49,,,,,,,,,FALSE
 genus,shape,1,1,0,Wong_2010,,"sporophylls ligulate, either all similar and arranged spirally or in four rows giving a radially symmetrical cylindric-quadrangular strobilus, or in four rows with the upper-plane sporophylls longe...",Wong_2010,49,,,,,,,,,FALSE
@@ -872,10 +872,10 @@ indusia,colour,1,1,1,Jaman_2020,Cyatheaceae,"indusium firm, shining brown when o
 inflorescence,colour,1,1,1,Kiew_2010,Balanophoraceae,Male inflorescences yellow or pale yellow,Kiew_2010,74,,,,,,,,,FALSE
 inflorescence,shape,1,1,0,Cheek_2012,,appearing lateral by subsequent growth,Cheek_2012,250,,,,,,,,,FALSE
 inflorescences base,colour,1,1,1,Kochummen_2000,Moraceae,base of the receptacle sometimes tapered and stalk-like,Kochummen_2000,213,,,,,,,,,FALSE
-infructescence,texture,1,1,1,Nor-Ezzawanis_2010_2,Casuarinaceae,Infructescence a globose or ellipsoid cone-like structure comprising alternate whorls of woody bracts and bracteole-pairs with each of the bracteole-pair tightly enclosing one fruit; at maturity th...,Nor-Ezzawanis_2010_2,87,,,,,,,,,FALSE
+infructescence,texture,1,1,1,NorEzzawanis_2010_2,Casuarinaceae,Infructescence a globose or ellipsoid cone-like structure comprising alternate whorls of woody bracts and bracteole-pairs with each of the bracteole-pair tightly enclosing one fruit; at maturity th...,NorEzzawanis_2010_2,87,,,,,,,,,FALSE
 "inner bark, sapwood",colour,1,1,1,Berhaman_1995,Bignoniaceae,inner bark pale yellow. Sapwood white.,Berhaman_1995,42,,,,,,,,,FALSE
 "inner bark, sapwood, twigs",colour,1,1,1,Berhaman_1995,Bignoniaceae,"inner bark whitish, turning yellowish on exposure. Sapwood yellowish white. Twigs with corky bark.",Berhaman_1995,42,,,,,,,,,FALSE
-"inner bark, wood",colour,1,1,1,Campbell-Gasis_1996,Scyphostegiaceae,inner bark yellow to brown or grey. Wood white or slightly yellowish.,Campbell-Gasis_1996,376,,,,,,,,,FALSE
+"inner bark, wood",colour,1,1,1,CampbellGasis_1996,Scyphostegiaceae,inner bark yellow to brown or grey. Wood white or slightly yellowish.,CampbellGasis_1996,376,,,,,,,,,FALSE
 inner stamens or filaments,size,1,1,1,Kiew_2015,Nymphaeaceae,inner ones 6--17 x 1--9 mm,Kiew_2015,219,,,,,,,,,FALSE
 intercostal veins,count,1,1,1,DeWilde_2018,Myristicaceae,veins 12--24 pairs,DeWilde_2018,191,,,,,,,,,FALSE
 intercostal veins,indumentum,1,1,1,DeWilde_2018,Myristicaceae,obscured by the persistent indumentum on lower surface,DeWilde_2018,156,,,,,,,,,FALSE
@@ -898,7 +898,7 @@ leaf bud,colour,1,1,1,DeWilde_2018,Myristicaceae,light brown,DeWilde_2018,242,,,
 leaf bud,shape,1,1,1,DeWilde_2018,Myristicaceae,leaf bud ovoid-ellipsoid,DeWilde_2018,181,,,,,,,,,FALSE
 leaf buds,persistence,1,1,1,Ashton_2004,Dipterocarpaceae,usually hidden in subpersistent stipules,Ashton_2004,314,,,,,,,,,FALSE
 leaf intercostal venation,indumentum,1,1,1,Ashton_2004,Dipterocarpaceae,intercostal venation obscured by tomentum,Ashton_2004,133,,,,,,,,,FALSE
-leaf margin,division,1,1,1,Campbell-Gasis_1996,Scyphostegiaceae,the teeth with thickened tips,Campbell-Gasis_1996,376,,,,,,,,,FALSE
+leaf margin,division,1,1,1,CampbellGasis_1996,Scyphostegiaceae,the teeth with thickened tips,CampbellGasis_1996,376,,,,,,,,,FALSE
 leaf margin,texture,1,1,1,Beentje_2023,Pandanaceae,margins thin-membranous,Beentje_2023,163,,,,,,,,,FALSE
 leaf sheath,armature,1,1,1,Beentje_2023,Pandanaceae,sheath clasping,Beentje_2023,176,,,,,,,,,FALSE
 leaf sheath,colour,1,1,1,Beentje_2023,Pandanaceae,sheath white,Beentje_2023,182,,,,,,,,,FALSE
@@ -929,8 +929,8 @@ male flower column,count,1,1,1,DeWilde_2018,Myristicaceae,narrow hollow 0.2(--0.
 male flower lobes,colour,1,1,1,DeWilde_2018,Myristicaceae,bright red inside,DeWilde_2018,237,,,,,,,,,FALSE
 male flower margin,persistence,1,1,1,DeWilde_2018,Myristicaceae,caducous or persistent,DeWilde_2018,251,,,,,,,,,FALSE
 male flower pedicel,indumentum,1,1,1,DeWilde_2018,Myristicaceae,hairy in the lower half,DeWilde_2018,177,,,,,,,,,FALSE
-male flowers,phenology,1,1,1,Nor-Ezzawanis_2010_2,Casuarinaceae,Male flowers: at anthesis with filaments elongating and exposing the anthers.,Nor-Ezzawanis_2010_2,88,,,,,,,,,FALSE
-male flowers,presence,1,1,1,Nor-Ezzawanis_2010_2,Casuarinaceae,"Male flowers: bracteoles 2, small, scale-like, perianth absent; stamen 1, filaments long with small, basifixed anthers.",Nor-Ezzawanis_2010_2,87,,,,,,,,,FALSE
+male flowers,phenology,1,1,1,NorEzzawanis_2010_2,Casuarinaceae,Male flowers: at anthesis with filaments elongating and exposing the anthers.,NorEzzawanis_2010_2,88,,,,,,,,,FALSE
+male flowers,presence,1,1,1,NorEzzawanis_2010_2,Casuarinaceae,"Male flowers: bracteoles 2, small, scale-like, perianth absent; stamen 1, filaments long with small, basifixed anthers.",NorEzzawanis_2010_2,87,,,,,,,,,FALSE
 male flowers,shape,1,1,1,Kiew_2010,Balanophoraceae,"tepals ovate to lanceolate, acute or almost square and truncate",Kiew_2010,68,,,,,,,,,FALSE
 male inflorescence,branching,1,1,1,Pungga_1996,Casuarinaceae,simple or compound spikes,Pungga_1996,123,,,,,,,,,FALSE
 male inflorescence,size,1,1,1,Kiew_2010,Balanophoraceae,as compared with up to 5.5 cm elsewhere,Kiew_2010,72,,,,,,,,,FALSE
@@ -944,7 +944,7 @@ male inflorescences,armature,1,1,1,Beentje_2023,Pandanaceae,minutely prickly on 
 male inflorescences apex,size,1,1,1,Kochummen_2000,Moraceae,c. 0.4 mm across,Kochummen_2000,212,,,,,,,,,FALSE
 male inflorescences peduncle,colour,1,1,1,Kochummen_2000,Moraceae,red when fresh,Kochummen_2000,331,,,,,,,,,FALSE
 male inflorescences surface,size,1,1,1,Kochummen_2000,Moraceae,solid processes c. 3 x 2 mm,Kochummen_2000,210,,,,,,,,,FALSE
-male raceme unit,size,1,1,1,Campbell-Gasis_1996,Scyphostegiaceae,raceme units 1--2 cm long,Campbell-Gasis_1996,376,,,,,,,,,FALSE
+male raceme unit,size,1,1,1,CampbellGasis_1996,Scyphostegiaceae,raceme units 1--2 cm long,CampbellGasis_1996,376,,,,,,,,,FALSE
 males,count,1,1,1,Kochummen_2000,Moraceae,the males in groups of 2--4,Kochummen_2000,185,,,,,,,,,FALSE
 margin,armature,1,1,1,Beentje_2023,Pandanaceae,margins and midrib with small prickles,Beentje_2023,192,,,,,,,,,FALSE
 margin,colour,1,1,1,Adema_1996,Sapindaceae,white,Adema_1996,298,,,,,,,,,FALSE
@@ -1002,7 +1002,7 @@ pulp,texture,1,1,1,Adema_1996,Sapindaceae,fleshy,Adema_1996,311,,,,,,,,,FALSE
 receptacle,shape,1,1,1,Jaman_2020,Cyatheaceae,"receptacle erect, club-shaped to spherical",Jaman_2020,78,,,,,,,,,FALSE
 rhizome,texture,1,1,1,Kiew_2015,Nymphaeaceae,"rhizome fleshy, creeping",Kiew_2015,209,,,,,,,,,FALSE
 roots,colour,1,1,1,Beentje_2023,Pandanaceae,green to brown,Beentje_2023,149,,,,,,,,,FALSE
-scale leaves,indumentum,1,1,1,Nor-Ezzawanis_2010_2,Casuarinaceae,"Scale leaves (6--)7(--8) per node, broadest at base, apex narrowly acute; on woody twigs to 4 mm long, base hairy, apex recurved; on green twigs 0.5--1 mm long, base glabrous, apex erect.",Nor-Ezzawanis_2010_2,90,,,,,,,,,FALSE
+scale leaves,indumentum,1,1,1,NorEzzawanis_2010_2,Casuarinaceae,"Scale leaves (6--)7(--8) per node, broadest at base, apex narrowly acute; on woody twigs to 4 mm long, base hairy, apex recurved; on green twigs 0.5--1 mm long, base glabrous, apex erect.",NorEzzawanis_2010_2,90,,,,,,,,,FALSE
 scale leaves,presence,1,1,1,Kiew_2010,Balanophoraceae,without scale leaves,Kiew_2010,79,,,,,,,,,FALSE
 scales and hairs,shape,1,1,1,Jaman_2020,Cyatheaceae,without bullate scales,Jaman_2020,89,,,,,,,,,FALSE
 seed,shape,1,1,1,Jutta_2012,Cycadaceae,"obovoid, ... laterally flattened, base slightly stalked",Jutta_2012,159,,,,,,,,,FALSE
@@ -1021,7 +1021,7 @@ sporangia,division,1,1,1,Jaman_2020,Cyatheaceae,"Sporangia many, always short-st
 sporophylls,presence,1,1,1,Lim_2010,Araucariaceae,"megasporophylls laterally flattened, without an apical appendage",Lim_2010,62,,,,,,,,,FALSE
 stamens,texture,1,1,1,Turner_2014,Annonaceae,fleshy,Turner_2014,177,,,,,,,,,FALSE
 "stamens, disc",shape,1,1,1,Berhaman_1995,Bignoniaceae,stamens strongly exserted ... didynamous; disc annular to lobed,Berhaman_1995,36,,,,,,,,,FALSE
-staminal column,size,1,1,1,Campbell-Gasis_1996,Scyphostegiaceae,staminal column 2--3 mm long,Campbell-Gasis_1996,376,,,,,,,,,FALSE
+staminal column,size,1,1,1,CampbellGasis_1996,Scyphostegiaceae,staminal column 2--3 mm long,CampbellGasis_1996,376,,,,,,,,,FALSE
 staminodes,colour,1,1,1,Adema_1996,Sapindaceae,staminodes in female flowers strongly reduced,Adema_1996,291,,,,,,,,,FALSE
 stem,armature,1,1,1,Jones_1995,Rutaceae,hollow prickles usually housing ants,Jones_1995,419,,,,,,,,,FALSE
 stem,colour,1,1,1,Jones_1995,Rutaceae,trunk and main branches covered with pale fissured bark,Jones_1995,396,,,,,,,,,FALSE

@@ -1,6 +1,6 @@
 source:
   primary:
-    key: Nor-Ezzawanis_2010_2
+    key: NorEzzawanis_2010_2
     bibtype: InBook
     year: 2010
     author: A. T. Nor-Ezzawanis
@@ -80,7 +80,7 @@ dataset:
     Species description values have population region Peninsular Malaysia
     (FPM guide). The Plate 11 photographs, Figure 1 (reproduced from Tree
     Flora of Sabah and Sarawak vol. 2, 1996) and the type illustration cite
-    no specimen (raw/Nor-Ezzawanis_2010_2_vouchers.csv). Three species named
+    no specimen (raw/NorEzzawanis_2010_2_vouchers.csv). Three species named
     as planted ornamentals in the family Distribution are not treated and
     not scored (raw/taxon_flags.csv). The printed text marks diagnostic
     characters in italics; this does not change any value. Every clause

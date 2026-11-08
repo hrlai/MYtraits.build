@@ -683,10 +683,10 @@ d <- bind_rows(family, genus, sp, copied) |>
   flora_finalise(traits)
 
 stopifnot(all(d$trait[d$trait != ""] %in% names(traits)))
-write_csv(d, "data/Campbell-Gasis_1996/raw/trait_data.csv", na = "")
+write_csv(d, "data/CampbellGasis_1996/raw/trait_data.csv", na = "")
 write_csv(
   flora_unmapped_summary(d),
-  "data/Campbell-Gasis_1996/raw/unmapped_terms.csv",
+  "data/CampbellGasis_1996/raw/unmapped_terms.csv",
   na = ""
 )
 
@@ -700,4 +700,4 @@ tribble(
   left_join(n_rows, by = "taxon_name") |>
   mutate(n_rows = coalesce(n, 0L), .before = flag) |>
   select(-n) |>
-  write_csv("data/Campbell-Gasis_1996/raw/taxon_flags.csv", na = "")
+  write_csv("data/CampbellGasis_1996/raw/taxon_flags.csv", na = "")

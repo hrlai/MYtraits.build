@@ -428,10 +428,10 @@ d <- bind_rows(higher, sp, copied) |>
   flora_finalise(traits)
 
 stopifnot(all(d$trait[d$trait != ""] %in% names(traits)))
-write_csv(d, "data/Nor-Ezzawanis_2010_2/raw/trait_data.csv", na = "")
+write_csv(d, "data/NorEzzawanis_2010_2/raw/trait_data.csv", na = "")
 write_csv(
   flora_unmapped_summary(d),
-  "data/Nor-Ezzawanis_2010_2/raw/unmapped_terms.csv",
+  "data/NorEzzawanis_2010_2/raw/unmapped_terms.csv",
   na = ""
 )
 
@@ -448,4 +448,4 @@ tribble(
   left_join(n_rows, by = "taxon_name") |>
   mutate(n_rows = coalesce(n, 0L), .before = flag) |>
   select(-n) |>
-  write_csv("data/Nor-Ezzawanis_2010_2/raw/taxon_flags.csv", na = "")
+  write_csv("data/NorEzzawanis_2010_2/raw/taxon_flags.csv", na = "")

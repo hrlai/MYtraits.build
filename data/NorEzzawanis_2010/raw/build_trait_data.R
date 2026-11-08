@@ -10,7 +10,7 @@
 # unmapped row (consecutive unscored pieces of one clause form one row). Fern
 # mappings follow SKILL.md step 4 "Ferns". Hedged statements are not scored.
 # Writes trait_data.csv, unmapped_terms.csv and taxon_flags.csv.
-source("data/Nor-Ezzawanis_2010/raw/segment_source.R")
+source("data/NorEzzawanis_2010/raw/segment_source.R")
 source(".github/skills/extract-traits-from-floras-my/scripts/flora_assemble.R")
 
 traits <- yaml::read_yaml("config/traits.yml")$traits$elements
@@ -119,7 +119,7 @@ n_st <- "Stipe length scored as petiole length (SKILL.md step 4, Ferns)."
 n_la <- "Lamina scored as leaf; excludes the stipe (SKILL.md step 4, Ferns)."
 n_lobe <- "Pinnule lobes cut almost to the vein scored as segments (leaflet traits; Jaman_2020 question 3)."
 n_hair <- "Hairs (not scales) on the costa, costules, costulets or veins scored as leaf hairs (Jaman_2020 question 2)."
-n_tri <- "'tripinnatifid' (bipinnate with pinnatifid pinnules) has no level; scored as bipinnate, the nearest level, since the description gives pinnae and stalked or sessile pinnules (Nor-Ezzawanis_2010 question 1)."
+n_tri <- "'tripinnatifid' (bipinnate with pinnatifid pinnules) has no level; scored as bipinnate, the nearest level, since the description gives pinnae and stalked or sessile pinnules (NorEzzawanis_2010 question 1)."
 tri_rows <- function(piece, notes = n_tri) {
   bind_rows(
     k(piece, "leaf_lamina_division", "tripinnatifid", "bipinnate",
@@ -166,10 +166,10 @@ scored <- list(
        notes = "Printed 'to c.': scored as a maximum."),
     lw("the largest pinnules 5–20 × 3–4 mm", "5–20 mm", "3–4 mm",
        em = "largest pinnules",
-       notes = "Values as printed; see Nor-Ezzawanis_2010 question 3."),
+       notes = "Values as printed; see NorEzzawanis_2010 question 3."),
     k("margin shallowly toothed and more deeply so towards apex",
       "leaf_margin", "toothed", em = "pinnule lobes",
-      notes = paste(n_lobe, "The margin follows 'lobes' in the same clause (Nor-Ezzawanis_2010 question 2)."))
+      notes = paste(n_lobe, "The margin follows 'lobes' in the same clause (NorEzzawanis_2010 question 2)."))
   )
 )
 
@@ -270,7 +270,7 @@ aside_unmapped <- own_desc |>
 
 # One unmapped row per sentence of every labelled section (Wong_2010
 # pattern). Nomenclature and vernacular names are not trait text; the figure
-# specimen is in raw/Nor-Ezzawanis_2010_vouchers.csv. Sentences reporting
+# specimen is in raw/NorEzzawanis_2010_vouchers.csv. Sentences reporting
 # another work's observation carry its source_id.
 cited <- c(
   "^The golden hairs on the rhizome" = "Praptosuwiryo_2003",
@@ -369,10 +369,10 @@ out <- bind_rows(
   arrange(taxon_name, is.na(trait), trait)
 
 stopifnot(all(out$trait[!is.na(out$trait)] %in% names(traits)))
-write_csv(out, "data/Nor-Ezzawanis_2010/raw/trait_data.csv", na = "")
+write_csv(out, "data/NorEzzawanis_2010/raw/trait_data.csv", na = "")
 write_csv(
   flora_unmapped_summary(out),
-  "data/Nor-Ezzawanis_2010/raw/unmapped_terms.csv",
+  "data/NorEzzawanis_2010/raw/unmapped_terms.csv",
   na = ""
 )
 
@@ -395,4 +395,4 @@ tibble(
       .default = ""
     )
   ) |>
-  write_csv("data/Nor-Ezzawanis_2010/raw/taxon_flags.csv", na = "")
+  write_csv("data/NorEzzawanis_2010/raw/taxon_flags.csv", na = "")

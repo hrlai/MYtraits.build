@@ -198,7 +198,7 @@
 "leaf_lamina_division","tripinnate|\b3-pinnate","tripinnate","Jaman_2020","fern laminae (C. tripinnata); above the pinnate rows, which claim the pinnate inside tripinnate as pinnately_compound"
 "leaf_lamina_division","\b2-pinnate","bipinnate","Jaman_2020","SKILL.md step 4 Ferns: 2-pinnate is bipinnate"
 "leaf_lamina_division","bipinnatifid","bipinnatifid","Jaman_2020","fern laminae (C. obscura, C. squamulata); no pinnate row matches it"
-"leaf_lamina_division","tripinnatifid","bipinnate","Nor-Ezzawanis_2010","provisional (Nor-Ezzawanis_2010 question 1): no tripinnatifid level; bipinnate with pinnatifid pinnules. Above the pinnatifid row, which would claim it as pinnatifid"
+"leaf_lamina_division","tripinnatifid","bipinnate","NorEzzawanis_2010","provisional (NorEzzawanis_2010 question 1): no tripinnatifid level; bipinnate with pinnatifid pinnules. Above the pinnatifid row, which would claim it as pinnatifid"
 "leaf_lamina_division","(?<!bi)pinnatifid","pinnatifid","Jaman_2020",""
 "leaf_lamina_division","imparipinnate|pinnately compound|\bpinnate\b","pinnately_compound","Kochummen_1995",""
 "leaf_lamina_division","trifoliolate","trifoliate","Kochummen_1995",""

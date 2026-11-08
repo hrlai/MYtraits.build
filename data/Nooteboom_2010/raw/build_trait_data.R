@@ -638,7 +638,7 @@ members <- taxa |>
   transmute(block, genus, group = NA_character_, species, rank)
 
 # A monogeneric family with no description of its own: the genus
-# description holds everything (Campbell-Gasis_1996).
+# description holds everything (CampbellGasis_1996).
 copied <- flora_copy_down(
   higher_rows = own |> filter(rank == "genus"),
   own_rows = own,

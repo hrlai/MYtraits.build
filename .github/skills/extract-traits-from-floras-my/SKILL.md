@@ -8,7 +8,9 @@ description: Extract or resume trait data from Malaysian Flora family treatments
 One family treatment becomes one dataset `data/<Author_Year>/`. Treat FPM
 and TFSS treatments as separate sources and datasets, even when they cover the
 same family: different authors require distinct source citations. Use each
-treatment's own author and year as its dataset ID; if IDs collide, agree on
+treatment's own author and year as its dataset ID; drop hyphens from the
+surname (`CampbellGasis_1996`), because `build_setup_pipeline()` turns the ID
+into R object names; if IDs collide, agree on
 distinct IDs before writing data. Process one family at a time; report results
 after each unless the user requests a pause. Process a large family in one
 run; stop partway only when the prompt or the user asks for a pause
@@ -29,7 +31,7 @@ Worked examples, all in this repository:
 | `data/Coode_2018` | Elaeocarpaceae, FPM vol. 7 | born-digital PDF, 59 taxa | scripted parser, groups, infraspecific taxa, informal forms, excluded species |
 | `data/Lim_2010` | Araucariaceae, FPM vol. 1 | scanned PDF, hand transcription, 2 taxa | transcription workflow, conifer organs, genus over family |
 | `data/Yao_2010` | Pentaphylacaceae, FPM vol. 1 | scanned PDF, 1 taxon | `flora_hand()`, monogeneric copy-down, hedges |
-| `data/Nor-Ezzawanis_2010` | Cibotiaceae, FPM ferns vol. 1 | born-digital PDF, 1 taxon, hand-scored pieces | ground fern (`fern`, not `fern palmoid`); monogeneric family with no description; tripinnatifid lamina; rebuilt 2026-11 to the fern rules |
+| `data/NorEzzawanis_2010` | Cibotiaceae, FPM ferns vol. 1 | born-digital PDF, 1 taxon, hand-scored pieces | ground fern (`fern`, not `fern palmoid`); monogeneric family with no description; tripinnatifid lamina; rebuilt 2026-11 to the fern rules |
 | `data/Hughes_2013` | Memecylaceae, FPM vol. 4 | born-digital PDF, image-checked transcription | **PROVISIONAL** for two curator questions in its `notes`; its `source_fixes.csv` repairs are typos in the published text, not OCR slips |
 | `data/Kochummen_1995` | Burseraceae, TFSS vol. 1 | 2007 electronic text (unembedded fonts, no scan); scripted parser, 59 taxa | first TFSS parser; infra annotations under a species description; single-infra taxa; family exceptions by hand; missing-dash source fixes |
 | `data/Berhaman_1995` | Bignoniaceae, TFSS vol. 1 | 2007 electronic text, 5 described taxa | `flora_hand()` for a multi-genus family; hand copy-down table; single-infra taxon; undescribed species and key-only genus flagged |
@@ -54,7 +56,7 @@ Treat the first four as precedents, not completeness benchmarks: Lim, Yao and
 Nor-Ezzawanis cover only 1--2 taxa. Coode and Lim still have copied parsers and
 inline source fixes. Only Lim, Yao, Kiew_2010 and Nooteboom_2010 are scanned. Hughes was
 transcribed from page images before its PDF was found to be born-digital;
-born-digital sources no longer need that (step 2). Nor-Ezzawanis_2010 was too,
+born-digital sources no longer need that (step 2). NorEzzawanis_2010 was too,
 and was rebuilt from the text layer in 2026-11.
 
 ## Resumable scanned-source review
@@ -716,7 +718,7 @@ Bespoke checklist (decisions that changed per family):
   ovary locules -> carpels (one locule per carpel) only when placentation is
   axile or not stated. A 1-locular ovary with parietal placentation has
   several fused carpels: count stigma lobes, placentas or fruit valves when
-  the text gives them, otherwise leave carpels unscored (Campbell-Gasis_1996).
+  the text gives them, otherwise leave carpels unscored (CampbellGasis_1996).
   Provisional (Cheek_2012 question 4): tepal length of a flower with one
   perianth whorl and no petals -> `flower_sepal_length`; capsule valve
   length ("Fruits: valves 25--29 x 2.2--2 mm") -> `fruit_length`; tepal
@@ -942,8 +944,8 @@ Bespoke checklist (decisions that changed per family):
   `leaf_lamina_division = pinnately_compound`, "2-pinnate" -> `bipinnate`,
   "3-pinnate" -> `tripinnate`, "pinnatifid" / "bipinnatifid" as printed;
   expand "2--3-pinnate" to both. Sori, indusia, scales and spores have no
-  trait: keep them unmapped. Nor-Ezzawanis_2010 (Cibotiaceae) was rebuilt
-  to these rules (Jaman_2020 question 10). Provisional (Nor-Ezzawanis_2010
+  trait: keep them unmapped. NorEzzawanis_2010 (Cibotiaceae) was rebuilt
+  to these rules (Jaman_2020 question 10). Provisional (NorEzzawanis_2010
   question 1): "tripinnatifid" has no level; score `bipinnate` (bipinnate
   with pinnatifid pinnules) and `leaf_compoundness = compound`.
   Provisional (Jaman_2020 questions 1--5): trunk diameter ->
@@ -954,7 +956,7 @@ Bespoke checklist (decisions that changed per family):
   costule are segments, shallower lobes stay unmapped; reduced basal,
   lowest, fertile and sterile pinnae or pinnules are leaflet rows kept
   apart by `entity_measured`; a single "largest" or "longest" size is a
-  maximum. Nor-Ezzawanis_2010 also applies questions 2 and 3.
+  maximum. NorEzzawanis_2010 also applies questions 2 and 3.
 - **Lycophytes** (Selaginellaceae, Wong_2010; provisional, Wong_2010
   questions 2, 3 and 8). Score every leaf kind (lateral, median, axillary,
   main-stem and basal stem leaves) into the leaf traits and name it in
@@ -1012,7 +1014,7 @@ Bespoke checklist (decisions that changed per family):
 - Monogeneric family: both family and genus are copied down
   (`rank_scored_from` = `genus` or `family`; Yao_2010). If the family has no
   description of its own, ignore the family rank: the genus and species
-  descriptions hold everything (Campbell-Gasis_1996).
+  descriptions hold everything (CampbellGasis_1996).
 - Keep unscored family and genus clauses (qualified, numeric, hedged,
   "most species") as unmapped rows at their own rank. Preserve scored
   higher-rank rows even when they fail the copy-down agreement test.
@@ -1124,7 +1126,7 @@ from the other source, then check:
   (FPM Series I: Ferns and Lycophytes vol. N, FPM Series II: Seed Plants
   vol. N, or TFSS vol. N), editors, series, publisher, pages. Check the series
   in `assets/myflora_metadata.csv`: "vol. 1 (2010)" exists in both FPM series
-  (Nor-Ezzawanis_2010 is Series I, Malayan Forest Records No. 48; Lim_2010 is
+  (NorEzzawanis_2010 is Series I, Malayan Forest Records No. 48; Lim_2010 is
   Series II, No. 49).
   Keep FPM and TFSS primary citations in separate datasets even for the same
   family. Add every cited secondary source (for example `Yii_1995`) as its
