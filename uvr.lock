@@ -1,7 +1,28 @@
-manifest_fingerprint = "sha256:d3a4d1f25b81fc0e38b3ca9453f1550a497b3ff48f5d1e4f424c552d63905dd4"
+manifest_fingerprint = "sha256:d0381835cf70f497bfd3368952e2d84049c003ce8c7c676c4695d494a29ebc3c"
 
 [r]
 version = "4.6.0"
+
+[[package]]
+name = "APCalign"
+version = "2.0.1"
+source = "github"
+url = "https://api.github.com/repos/traitecoevo/APCalign/tarball/6050b445dab47c0d5956bf7a961dfdb9dfc78b9c"
+checksum = "git:6050b445dab47c0d5956bf7a961dfdb9dfc78b9c"
+requires = [
+    "readr",
+    "purrr",
+    "dplyr",
+    "stringr",
+    "stringi",
+    "stringdist",
+    "crayon",
+    "httr",
+    "jsonlite",
+    "curl",
+    "arrow",
+    "rlang",
+]
 
 [[package]]
 name = "DBI"
@@ -120,12 +141,23 @@ url = "https://cran.r-project.org/src/contrib/S7_0.2.2.tar.gz"
 checksum = "md5:6a40d3eae470be0f06a03737b9391269"
 
 [[package]]
-name = "WorldFlora"
-version = "1.14.5"
+name = "arrow"
+version = "26.0.0"
 source = "cran"
-raw_version = "1.14-5"
-url = "https://cran.r-project.org/src/contrib/WorldFlora_1.14-5.tar.gz"
-checksum = "md5:0eb915a7336bb1cffc81d81ba82de0a9"
+raw_version = "26.0.0"
+url = "https://cran.r-project.org/src/contrib/arrow_26.0.0.tar.gz"
+checksum = "md5:856f159373ecc6746d3eef6e963993b0"
+requires = [
+    "assertthat",
+    "bit64",
+    "glue",
+    "purrr",
+    "R6",
+    "rlang",
+    "tidyselect",
+    "vctrs",
+    "cpp11",
+]
 
 [[package]]
 name = "askpass"
@@ -135,6 +167,14 @@ raw_version = "1.2.1"
 url = "https://cran.r-project.org/src/contrib/askpass_1.2.1.tar.gz"
 checksum = "md5:fc2c6a61b6a354707586b01950366f37"
 requires = ["sys"]
+
+[[package]]
+name = "assertthat"
+version = "0.2.1"
+source = "cran"
+raw_version = "0.2.1"
+url = "https://cran.r-project.org/src/contrib/assertthat_0.2.1.tar.gz"
+checksum = "md5:9f2eae3d20a9d6b40856a6fed013cb05"
 
 [[package]]
 name = "austraits"
@@ -373,6 +413,24 @@ url = "https://cran.r-project.org/src/contrib/crayon_1.5.3.tar.gz"
 checksum = "md5:bb290c70d23b2200006187ac7839116f"
 
 [[package]]
+name = "crul"
+version = "1.6.0"
+source = "cran"
+raw_version = "1.6.0"
+url = "https://cran.r-project.org/src/contrib/crul_1.6.0.tar.gz"
+checksum = "md5:45ec93d574be7b82777b1d2922be1886"
+requires = [
+    "curl",
+    "R6",
+    "urltools",
+    "httpcode",
+    "jsonlite",
+    "mime",
+    "rlang",
+    "lifecycle",
+]
+
+[[package]]
 name = "curl"
 version = "8.1.0"
 source = "cran"
@@ -497,11 +555,11 @@ requires = [
 
 [[package]]
 name = "ellmer"
-version = "0.5.0"
+version = "0.5.1"
 source = "cran"
-raw_version = "0.5.0"
-url = "https://cran.r-project.org/src/contrib/ellmer_0.5.0.tar.gz"
-checksum = "md5:27f61f130720d7b77af84ded6a3afdba"
+raw_version = "0.5.1"
+url = "https://cran.r-project.org/src/contrib/ellmer_0.5.1.tar.gz"
+checksum = "md5:d7607a9400f5945d6d58143629b756f9"
 requires = [
     "cli",
     "coro",
@@ -629,11 +687,11 @@ requires = [
 
 [[package]]
 name = "gdtools"
-version = "0.5.2"
+version = "0.5.3"
 source = "cran"
-raw_version = "0.5.2"
-url = "https://cran.r-project.org/src/contrib/gdtools_0.5.2.tar.gz"
-checksum = "md5:e907a613c135c7ab52adfbe1173972d5"
+raw_version = "0.5.3"
+url = "https://cran.r-project.org/src/contrib/gdtools_0.5.3.tar.gz"
+checksum = "md5:a013d03fb7f73640b0ef5aebd3b26e2e"
 requires = [
     "fontquiver",
     "htmltools",
@@ -933,6 +991,14 @@ requires = [
 ]
 
 [[package]]
+name = "httpcode"
+version = "0.3.0"
+source = "cran"
+raw_version = "0.3.0"
+url = "https://cran.r-project.org/src/contrib/httpcode_0.3.0.tar.gz"
+checksum = "md5:50695b63da6ea32fdffca37cda307fc6"
+
+[[package]]
 name = "httr"
 version = "1.4.9"
 source = "cran"
@@ -1096,6 +1162,15 @@ url = "https://cran.r-project.org/src/contrib/lattice_0.23-1.tar.gz"
 checksum = "md5:e449ab6441f74836e93869dd34cdf3ba"
 
 [[package]]
+name = "lazyeval"
+version = "0.2.3"
+source = "cran"
+raw_version = "0.2.3"
+url = "https://cran.r-project.org/src/contrib/lazyeval_0.2.3.tar.gz"
+checksum = "md5:4389f7decad5f4418c3288c7f6101adb"
+requires = ["rlang"]
+
+[[package]]
 name = "lifecycle"
 version = "1.0.5"
 source = "cran"
@@ -1180,21 +1255,36 @@ requires = [
 ]
 
 [[package]]
-name = "openssl"
-version = "2.4.2"
+name = "oai"
+version = "0.4.0"
 source = "cran"
-raw_version = "2.4.2"
-url = "https://cran.r-project.org/src/contrib/openssl_2.4.2.tar.gz"
-checksum = "md5:748b0fa601173da477706803783b6943"
+raw_version = "0.4.0"
+url = "https://cran.r-project.org/src/contrib/oai_0.4.0.tar.gz"
+checksum = "md5:054ced336542744a74a4403d016fe568"
+requires = [
+    "xml2",
+    "httr",
+    "plyr",
+    "stringr",
+    "tibble",
+]
+
+[[package]]
+name = "openssl"
+version = "2.5.0"
+source = "cran"
+raw_version = "2.5.0"
+url = "https://cran.r-project.org/src/contrib/openssl_2.5.0.tar.gz"
+checksum = "md5:70a9af88c771af0cec26fec55a5c780c"
 requires = ["askpass"]
 
 [[package]]
 name = "otel"
-version = "0.2.0"
+version = "0.3.0"
 source = "cran"
-raw_version = "0.2.0"
-url = "https://cran.r-project.org/src/contrib/otel_0.2.0.tar.gz"
-checksum = "md5:cecd0f434a6327dcf5ca0bc2da494d06"
+raw_version = "0.3.0"
+url = "https://cran.r-project.org/src/contrib/otel_0.3.0.tar.gz"
+checksum = "md5:b9c41923305ec69ba71e80b63e86ec02"
 
 [[package]]
 name = "pdftools"
@@ -1484,6 +1574,27 @@ requires = [
 ]
 
 [[package]]
+name = "rgbif"
+version = "3.8.5"
+source = "cran"
+raw_version = "3.8.5"
+url = "https://cran.r-project.org/src/contrib/Archive/rgbif/rgbif_3.8.5.tar.gz"
+checksum = "md5:c6a845bbd87761b6deb1ff67d7dd801e"
+requires = [
+    "R6",
+    "crul",
+    "data.table",
+    "ggplot2",
+    "jsonlite",
+    "lazyeval",
+    "magrittr",
+    "oai",
+    "tibble",
+    "whisker",
+    "xml2",
+]
+
+[[package]]
 name = "rlang"
 version = "1.3.0"
 source = "cran"
@@ -1651,6 +1762,14 @@ requires = [
 ]
 
 [[package]]
+name = "stringdist"
+version = "0.9.17"
+source = "cran"
+raw_version = "0.9.17"
+url = "https://cran.r-project.org/src/contrib/stringdist_0.9.17.tar.gz"
+checksum = "md5:45b2d8cdf50b9bdee705207a180deea1"
+
+[[package]]
 name = "stringi"
 version = "1.8.9"
 source = "cran"
@@ -1740,6 +1859,42 @@ requires = [
     "jsonlite",
     "lifecycle",
     "cpp11",
+]
+
+[[package]]
+name = "taxonAlign"
+version = "0.0.0-4.9000"
+source = "git:https://github.com/traitecoevo/taxonAlign.git"
+checksum = "git:a9d74f7327ee4cee0faf18c3ffc9c92085729f0c"
+requires = [
+    "APCalign",
+    "arrow",
+    "curl",
+    "dplyr",
+    "jsonlite",
+    "purrr",
+    "readr",
+    "stringdist",
+    "stringr",
+]
+
+[[package]]
+name = "taxonAlign.dataprep"
+version = "0.0.0-4.9000"
+source = "git:https://github.com/traitecoevo/taxonAlign.dataprep.git"
+checksum = "git:8c1e1cef10a5646c1cf3a481c93e83d38a08a79e"
+requires = [
+    "APCalign",
+    "arrow",
+    "curl",
+    "dplyr",
+    "jsonlite",
+    "purrr",
+    "readr",
+    "rgbif",
+    "rlang",
+    "stringr",
+    "taxonAlign",
 ]
 
 [[package]]
@@ -1925,6 +2080,18 @@ requires = [
 ]
 
 [[package]]
+name = "triebeard"
+version = "0.4.1"
+source = "cran"
+raw_version = "0.4.1"
+url = "https://cran.r-project.org/src/contrib/triebeard_0.4.1.tar.gz"
+checksum = "md5:be7e460cf4fd404b9f2a37b1bbf094be"
+requires = [
+    "Rcpp",
+    "Rcpp",
+]
+
+[[package]]
 name = "tzdb"
 version = "0.5.0"
 source = "cran"
@@ -1942,6 +2109,19 @@ url = "https://cran.r-project.org/src/contrib/units_1.0-1.tar.gz"
 checksum = "md5:6aeee90a7f0b2f63a37f69407bbcca63"
 requires = [
     "Rcpp",
+    "Rcpp",
+]
+
+[[package]]
+name = "urltools"
+version = "1.7.3-4.1"
+source = "cran"
+raw_version = "1.7.3.1"
+url = "https://cran.r-project.org/src/contrib/urltools_1.7.3.1.tar.gz"
+checksum = "md5:1d39d6a71f071294bc11c7128acbb065"
+requires = [
+    "Rcpp",
+    "triebeard",
     "Rcpp",
 ]
 

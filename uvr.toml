@@ -2,11 +2,11 @@
 name = "MYtraits.build"
 
 [dependencies]
-WorldFlora = "*"
 ellmer = "*"
 hexSticker = "*"
 pdftools = "*"
 readxl = "*"
+rgbif = "<3.9.0"
 rlang = "*"
 sf = "*"
 stringr = "*"
@@ -19,3 +19,9 @@ git = "git::https://github.com/traitecoevo/traits.build.git"
 
 [dependencies.austraits]
 git = "git::https://github.com/traitecoevo/austraits.git"
+
+[dependencies.taxonAlign]
+git = "git::https://github.com/traitecoevo/taxonAlign.git"
+
+[dependencies."taxonAlign.dataprep"]
+git = "git::https://github.com/traitecoevo/taxonAlign.dataprep.git"
