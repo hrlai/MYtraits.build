@@ -301,7 +301,12 @@ substitutions:
   - trait_name: plant_growth_form
     find: tree_ferns
     replace: fern palmoid
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Cyathea bunnemeijeri
+    replace: Cyathea buennemeijeri
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions:
   question1:

@@ -918,7 +918,37 @@ substitutions:
   - trait_name: stem_hairs
     find: 'glabrous velvety'
     replace: 'glabrous hairy'
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Citrus macroptera var. macroptera
+    replace: Citrus macroptera
+    reason: Exact match of the first two words of the taxon name to a synonymous canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
+  - find: Clausena excavata var. excavata
+    replace: Clausena excavata
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
+  - find: Glycosmis sapindoides var. sapindoides
+    replace: Glycosmis sapindoides
+    reason: Exact match of the first two words of the taxon name to a synonymous canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
+  - find: Lunasia amara var. amara
+    replace: Lunasia amara
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
+  - find: Murraya paniculata var. paniculata
+    replace: Murraya paniculata
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
+  - find: Tetractomia tetrandrum
+    replace: Tetractomia tetrandra
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions:
   question1: |

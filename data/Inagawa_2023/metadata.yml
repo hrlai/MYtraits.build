@@ -279,6 +279,11 @@ traits:
       ISO 3131:1975 (E) Wood - Determination of Density for Physical and
       Mechanical Tests. Dry mass divided by fresh volume.
 substitutions: .na
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Trema orientalis
+    replace: Trema orientale
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions: .na

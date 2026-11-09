@@ -682,7 +682,81 @@ traits:
     replicates: unknown
     methods: ANKOM
 substitutions: .na
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Actinodaphne borneesis
+    replace: Actinodaphne borneensis
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Beilschmiedia cuadrae
+    replace: Beilschmiedia sp. [Beilschmiedia cuadrae; Both_2019]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Chisocheton sarawakensis
+    replace: Chisocheton sarawakanus
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Diospyros demona
+    replace: Diospyros daemona
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Dipterocarpus caudiferus
+    replace: Dipterocarpus caudifer
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Glochidion borneensis
+    replace: Glochidion borneense
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Hydnocarpus anomala
+    replace: Hydnocarpus anomalus
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Hydnocarpus polypetala
+    replace: Hydnocarpus polypetalus
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Lithocarpus orocola
+    replace: Lithocarpus sp. [Lithocarpus orocola; Both_2019]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Memecylon oleaefolium
+    replace: Memecylon oleifolium
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Mesua borneensis
+    replace: Mesua sp. [Mesua borneensis; Both_2019]
+    reason: 'Manual alignment: fuzzy match was to a different taxon (MYtraits curation,
+      2026-11-09)'
+    taxonomic_resolution: genus
+  - find: Neouvaria acuminatissima
+    replace: Neo-uvaria acuminatissima
+    reason: 'Manual alignment: no automatic match (MYtraits curation, 2026-11-09)'
+    taxonomic_resolution: species
+  - find: Shorea agami
+    replace: Shorea agamae
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Sindora iripicina
+    replace: Sindora irpicina
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Trema orientalis
+    replace: Trema orientale
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations:
   - variable: taxon_name
     find: Cleistanthus indet

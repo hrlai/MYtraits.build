@@ -557,6 +557,11 @@ traits:
       multiplied by LMA (see above) to convert concentrations from a mass- to
       area-basis.
 substitutions: .na
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Dipterocarpus caudiferus
+    replace: Dipterocarpus caudifer
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions: .na

@@ -545,7 +545,42 @@ substitutions:
   - trait_name: stem_base_form
     find: 'buttress'
     replace: 'buttressed'
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Symplocos cochinchinensis subsp. cochinchinensis var. cochinchinensis
+    replace: Symplocos cochinchinensis subsp. cochinchinensis
+    reason: Exact match of the first three words of the taxon name to an accepted
+      canonical name (2026-11-09)
+    taxonomic_resolution: subspecies
+  - find: Symplocos cochinchinensis subsp. laurina var. laurina
+    replace: Symplocos cochinchinensis subsp. laurina
+    reason: Exact match of the first three words of the taxon name to a synonymous
+      canonical name (2026-11-09)
+    taxonomic_resolution: subspecies
+  - find: Symplocos ophirensis subsp. ophirensis var. densireticulata
+    replace: Symplocos ophirensis subsp. ophirensis
+    reason: Exact match of the first three words of the taxon name to an accepted
+      canonical name (2026-11-09)
+    taxonomic_resolution: subspecies
+  - find: Symplocos ophirensis subsp. ophirensis var. ophirensis
+    replace: Symplocos ophirensis subsp. ophirensis
+    reason: Exact match of the first three words of the taxon name to an accepted
+      canonical name (2026-11-09)
+    taxonomic_resolution: subspecies
+  - find: Symplocos ophirensis subsp. perakensis var. perakensis
+    replace: Symplocos ophirensis subsp. perakensis
+    reason: Exact match of the first three words of the taxon name to an accepted
+      canonical name (2026-11-09)
+    taxonomic_resolution: subspecies
+  - find: Symplocos pendula var. pendula
+    replace: Symplocos pendula
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
+  - find: Symplocos wikstroemifolia
+    replace: Symplocos wikstroemiifolia
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions:
   question1: 'Symplocos theifolia is described in full but ''Not yet collected from Peninsular Malaysia''; it is known in the flora region only from Singapore (Kranji), and the family Distribution says it ''is also included in this account''. Its rows (31 mapped) are scored with a blank population_region and a note. Decide: keep them so, give them population_region Singapore, or drop them as outside the region.'

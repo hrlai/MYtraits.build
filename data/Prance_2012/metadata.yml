@@ -643,7 +643,12 @@ substitutions:
   - trait_name: stem_base_form
     find: 'fluted buttress'
     replace: 'fluted buttressed'
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Atuna racemosa subsp. racemosa
+    replace: Atuna racemosa
+    reason: Exact match of the first two words of the taxon name to a synonymous canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions:
   question1: 'Dimension pairs. ''a x b'' sizes are read as length x width for the lamina (all species and subspecies with a size) and the receptacle tube of Maranthes corymbosa (''2.5--4 x 2.5--4 mm''). Confirm.'

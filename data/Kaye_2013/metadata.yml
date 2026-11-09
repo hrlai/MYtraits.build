@@ -129,7 +129,126 @@ traits:
       hours at 55oC. We calculated SLA as leaf surface area (cm2) divided by the
       dry mass (g).
 substitutions: .na
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Alangium javanica
+    replace: Alangium javanicum
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Anisophyllea beccarianum
+    replace: Anisophyllea beccariana
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Beilschmiedia cuadrae
+    replace: Beilschmiedia sp. [Beilschmiedia cuadrae; Kaye_2013]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Buchanania sessilifolia
+    replace: Buchanania sessifolia
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Canthium confertus
+    replace: Canthium confertum
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Casearia grewiaefolia
+    replace: Casearia grewiifolia
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Chisocheton sarawakensis
+    replace: Chisocheton sarawakanus
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Cleistanthus hirsutus
+    replace: Cleistanthus hirsutulus
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Crateva cochinchinense
+    replace: Crateva sp. [Crateva cochinchinense; Kaye_2013]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Crypteronia pulchrinervia
+    replace: Crypteronia sp. [Crypteronia pulchrinervia; Kaye_2013]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Dysoxylum excelsium
+    replace: Dysoxylum excelsum
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Dysoxylum patens
+    replace: Dysoxylum sp. [Dysoxylum patens; Kaye_2013]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Glochidion lanceisepalum
+    replace: Glochidion lancisepalum
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Magnolia candolii
+    replace: Magnolia candollei
+    reason: 'Manual alignment: fuzzy match was to a different taxon (MYtraits curation,
+      2026-11-09)'
+    taxonomic_resolution: species
+  - find: Neouvaria acuminatissima
+    replace: Neo-uvaria acuminatissima
+    reason: 'Manual alignment: no automatic match (MYtraits curation, 2026-11-09)'
+    taxonomic_resolution: species
+  - find: Phoebe miquelianus
+    replace: Phoebe sp. [Phoebe miquelianus; Kaye_2013]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Pleiocarpidia sandakanica
+    replace: Pleiocarpidia sandahanica
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Popowia hirtum
+    replace: Popowia hirta
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Popowia odoardoi
+    replace: Popowia odoardi
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Semecarpus bunburyana
+    replace: Semecarpus bunburyanus
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Shorea agamii
+    replace: Shorea agamae
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Stemonurus scorpiodes
+    replace: Stemonurus scorpioides
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Sterculia coccinia
+    replace: Sterculia coccinea
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Zizyphus angustifolius
+    replace: Ziziphus angustifolia
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations:
   - variable: individual_id
     find: "62614, 70034, 140138"

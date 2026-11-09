@@ -99,6 +99,16 @@ traits:
     replicates: See the 'n' column
     methods: The fruit fresh mass were measured for each fruit.
 substitutions: .na
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Hopea sp.
+    replace: Hopea sp. [Smith_2016]
+    reason: Exact match of taxon name ending with `sp.` to a acceptedgenus in WCVP
+      v16 (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Shorea mexistopteryx
+    replace: Shorea mecistopteryx
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions: .na

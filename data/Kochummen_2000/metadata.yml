@@ -1042,7 +1042,52 @@ substitutions:
   - trait_name: stem_hairs
     find: 'pubescent'
     replace: 'hairy'
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Artocarpus primackiana
+    replace: Artocarpus primackii
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Ficus allutacea
+    replace: Ficus alutacea
+    reason: 'Manual alignment: exact match in WCVP v16 outside MY/BN/SG after spelling
+      correction (MYtraits curation, 2026-11-09)'
+    taxonomic_resolution: species
+  - find: Ficus carri
+    replace: Ficus carrii
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Ficus cornerii
+    replace: Ficus corneri
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Ficus iliaspaiei
+    replace: Ficus ilias-paiei
+    reason: 'Manual alignment: exact match in WCVP v16 outside MY/BN/SG after spelling
+      correction (MYtraits curation, 2026-11-09)'
+    taxonomic_resolution: species
+  - find: Ficus oleifolia var. dodonaeifolia
+    replace: Ficus oleifolia
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
+  - find: Ficus oleifolia var. linearifolia
+    replace: Ficus oleifolia
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
+  - find: Ficus oleifolia var. valida
+    replace: Ficus oleifolia
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
+  - find: Ficus pellucido-punctata
+    replace: Ficus pellucidopunctata
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions:
   question1: |

@@ -969,7 +969,77 @@ substitutions:
   - trait_name: stem_hairs
     find: 'tomentose'
     replace: 'hairy'
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Dipterocarpus caudiferus
+    replace: Dipterocarpus caudifer
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Dipterocarpus eurynchus
+    replace: Dipterocarpus eurhynchus
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Hopea mengerawan
+    replace: Hopea mengarawan
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Hopea vaccinifolia
+    replace: Hopea vacciniifolia
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Hopea wyatt-smithii
+    replace: Hopea wyattsmithii
+    reason: 'Manual alignment: exact match in WCVP v16 outside MY/BN/SG after spelling
+      correction (MYtraits curation, 2026-11-09)'
+    taxonomic_resolution: species
+  - find: Shorea agamii
+    replace: Shorea agamae
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Shorea agamii subsp. agamii
+    replace: Shorea sp. [Shorea agamii subsp. agamii; Ashton_2004]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Shorea agamii subsp. diminuta
+    replace: Shorea agamae subsp. diminuta
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: subspecies
+  - find: Shorea asahii
+    replace: Shorea asahi
+    reason: 'Manual alignment: exact match in WCVP v16 outside MY/BN/SG after spelling
+      correction (MYtraits curation, 2026-11-09)'
+    taxonomic_resolution: species
+  - find: Shorea curtisii subsp. curtisii
+    replace: Shorea curtisii
+    reason: Exact match of the first two words of the taxon name to a synonymous canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
+  - find: Shorea parvifolia subsp. parvifolia
+    replace: Shorea parvifolia
+    reason: Exact match of the first two words of the taxon name to a synonymous canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
+  - find: Shorea waltonii
+    replace: Shorea waltoni
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Vatica oblongifolia subsp. oblongifolius
+    replace: Vatica oblongifolia
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
+  - find: Vatica umbonata subsp. umbonata
+    replace: Vatica umbonata
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions:
   question1: |

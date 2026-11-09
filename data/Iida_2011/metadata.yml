@@ -74,6 +74,91 @@ traits:
       maximum diameter of a population (King, Davies & Noor 2006). We used the
       stem diameter data set of the 50-ha plot in 2000 to obtain upper-diameter.
 substitutions: .na
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Aporusa globifera
+    replace: Aporosa globifera
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Aporusa nigricans
+    replace: Aporosa nigricans
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Aporusa symplocoides
+    replace: Aporosa symplocoides
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Canarium littorale var.tomentosa
+    replace: Canarium littorale
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
+  - find: Chasalia curviflora
+    replace: Chassalia curviflora
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Glochidion wallichiana
+    replace: Glochidion wallichianum
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Gomphandra ovalifolia
+    replace: Gomphandra sp. [Gomphandra ovalifolia; Iida_2011]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Heritiera  simplicifolia
+    replace: Heritiera simplicifolia
+    reason: Exact match of taxon name to an accepted/valid canonical name in WCVP
+      v16 once punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Kayea  grandis
+    replace: Kayea grandis
+    reason: Exact match of taxon name to an accepted/valid canonical name in WCVP
+      v16 once punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Microcos  blattaefolia
+    replace: Microcos blattaefolia
+    reason: Exact match of taxon name to a synonymous canonical name in WCVP v16,
+      once punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Pavetta species 1'
+    replace: Pavetta sp. [Pavetta species 1'; Iida_2011]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Prismatomeris species 1'
+    replace: Prismatomeris sp. [Prismatomeris species 1'; Iida_2011]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Psydrax species 8
+    replace: Psydrax sp. [Psydrax species 8; Iida_2011]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Scaphium  macropodum
+    replace: Scaphium macropodum
+    reason: Exact match of taxon name to an accepted/valid canonical name in WCVP
+      v16 once punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Schoutenia  accrescens
+    replace: Schoutenia accrescens
+    reason: Exact match of taxon name to an accepted/valid canonical name in WCVP
+      v16 once punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Sterculia  parviflora
+    replace: Sterculia parviflora
+    reason: Exact match of taxon name to an accepted/valid canonical name in WCVP
+      v16 once punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Sterculia  rubiginosa
+    replace: Sterculia rubiginosa
+    reason: Exact match of taxon name to an accepted/valid canonical name in WCVP
+      v16 once punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions: .na

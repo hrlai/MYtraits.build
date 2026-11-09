@@ -188,6 +188,21 @@ traits:
       SMRL was calculated by dividing the length of the longest root by dry root
       mass
 substitutions: .na
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Agelaea sp.
+    replace: Agelaea sp. [Burslem_2022]
+    reason: Exact match of taxon name ending with `sp.` to a acceptedgenus in WCVP
+      v16 (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Buchanania sessilifolia
+    replace: Buchanania sessifolia
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Spatholobus sp.
+    replace: Spatholobus sp. [Burslem_2022]
+    reason: Exact match of taxon name ending with `sp.` to a acceptedgenus in WCVP
+      v16 (2026-11-09)
+    taxonomic_resolution: genus
 exclude_observations: .na
 questions: .na

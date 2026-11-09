@@ -554,7 +554,12 @@ substitutions:
   - trait_name: stem_growth_habit
     find: 'prostrate-pendulous pendulous'
     replace: 'prostrate pendulous'
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Cycas clivicola subsp. clivicola
+    replace: Cycas clivicola
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions:
   question1: |
