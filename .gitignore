@@ -10,9 +10,9 @@ data/Thomas_1995/raw/Thomas-OntogeneticChangesLeaf-1995.pdf
 data/Sterck_2001/raw/A_1017507723365.pdf
 
 # large flora or backbone datasets
-# World Flora Online
-inst/extdata/classification.csv  
-# intermediate files
+# World Flora Online backbone (retired WFO workflow; safe to delete locally)
+inst/extdata/classification.csv
+# taxonomic reference and review files; rebuild with build_mytraits_reference()
 inst/taxonomy/
 
 # History files

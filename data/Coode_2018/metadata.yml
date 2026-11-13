@@ -895,7 +895,12 @@ substitutions:
   - trait_name: stem_hairs
     find: 'velvety'
     replace: 'hairy'
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Elaeocarpus sp. nov.
+    replace: Elaeocarpus sp. [Elaeocarpus sp. nov.; Coode_2018]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
 exclude_observations: .na
 questions:
   question1:

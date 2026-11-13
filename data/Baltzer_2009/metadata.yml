@@ -337,6 +337,41 @@ traits:
       Gas-exchange leaves were harvested, measured for fresh leaf area, dried at
       60 C, and weighed for calculation of leaf mass per area (LMA).
 substitutions: .na
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Lithocarpus wrayii
+    replace: Lithocarpus wrayi
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Millettia atropurpurea (t)
+    replace: Millettia atropurpurea
+    reason: Exact match of the first two words of the taxon name to a synonymous canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
+  - find: Millettia atropurpurea(m)
+    replace: Millettia atropurpurea
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Neoscortechenia kingii
+    replace: Neoscortechinia kingii
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Palaquium sumatrana
+    replace: Palaquium sumatranum
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Sindora coriacea (m)
+    replace: Sindora coriacea
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
+  - find: Sindora coriacea (t)
+    replace: Sindora coriacea
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions: .na

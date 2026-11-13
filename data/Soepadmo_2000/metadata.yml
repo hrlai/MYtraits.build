@@ -800,7 +800,12 @@ substitutions:
   - trait_name: stem_hairs
     find: 'tomentose'
     replace: 'hairy'
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Lithocarpus sericobalanus
+    replace: Lithocarpus sericobalanos
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions:
   question1: |

@@ -968,7 +968,22 @@ substitutions:
   - trait_name: stem_hairs
     find: 'woolly hairy'
     replace: 'hairy'
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Canarium asperum subsp. asperum var. asperum
+    replace: Canarium asperum subsp. asperum
+    reason: Exact match of the first three words of the taxon name to an accepted
+      canonical name (2026-11-09)
+    taxonomic_resolution: subspecies
+  - find: Canarium fusco-calycinum
+    replace: Canarium fuscocalycinum
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Canarium kinabaluensis
+    replace: Canarium kinabaluense
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions:
   question1: |

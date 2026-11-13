@@ -232,7 +232,7 @@ Result: 1 accepted taxon (*Pentaphylax euryoides*), 112 rows in
 
 | Topic | Austraits convention | Malaysian flora |
 | --- | --- | --- |
-| Names | APC / APNI, `taxonomic_updates` from APCalign | None of these taxa are in APC. Keep names as printed; align to WFO/backbone as a **separate step** (user instruction). Do not match names during extraction. |
+| Names | APC / APNI, `taxonomic_updates` from APCalign | None of these taxa are in APC. Keep names as printed; align with taxonAlign as a **separate step** (user instruction; `taxonomic_updates` as in AusTraits, see `inst/notes/taxonomy/README.md`). Do not match names during extraction. |
 | Seasons | "spring = Sep–Nov" (southern hemisphere) | Aseasonal tropics: Ecology text gives months or "several times a year"; never convert seasons. |
 | Habit | Shrubs, herbs, geophytes, fire, mallee | Mostly trees: buttresses, stilt roots, bole diameter, "beginning to flower at N m" |
 | Fire traits | Many (post-fire flowering, resprouting, cues) | None in this family. Skip that whole block of the skill. |

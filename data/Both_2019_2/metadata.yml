@@ -99,6 +99,218 @@ traits:
     replicates: See the replicate column in the original file
     methods: Combustion analysis
 substitutions: .na
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Actinodaphne borneesis
+    replace: Actinodaphne borneensis
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Antidesma stipulane
+    replace: Antidesma stipulare
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Aporusa illustris
+    replace: Aporosa illustris
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Bauccaurea latifolia
+    replace: Baccaurea latifolia
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Beilschmidia micrantha
+    replace: Beilschmiedia micrantha
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Beilschmiedia cudrea
+    replace: Beilschmiedia sp. [Beilschmiedia cudrea; Both_2019_2]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Chisocheton sarawakensis
+    replace: Chisocheton sarawakanus
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Chisocheton seramic
+    replace: Chisocheton sp. [Chisocheton seramic; Both_2019_2]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Cleisanthus spec
+    replace: Cleistanthus sp. [Cleisanthus spec; Both_2019_2]
+    reason: 'Manual alignment: no automatic match (MYtraits curation, 2026-11-09)'
+    taxonomic_resolution: genus
+  - find: Cleistanthus myricanthus
+    replace: Cleistanthus myrianthus
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Cratoxylum chochinchinense
+    replace: Cratoxylum cochinchinense
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Diospyrus pilosanthera
+    replace: Diospyros pilosanthera
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Dipterocarpus caudiferus
+    replace: Dipterocarpus caudifer
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Dysoxylum cauliflora
+    replace: Dysoxylum cauliflorum
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Glochidion borneensis
+    replace: Glochidion borneense
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Glochidion elmari
+    replace: Glochidion elmeri
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Hydnocarpus anomala
+    replace: Hydnocarpus anomalus
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Hydnocarpus polypetala
+    replace: Hydnocarpus polypetalus
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Knema pulcha
+    replace: Knema pulchra
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Licania spendens
+    replace: Licania splendens
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Lithocarpus orocola
+    replace: Lithocarpus sp. [Lithocarpus orocola; Both_2019_2]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Lithocarpus ureolaris
+    replace: Lithocarpus urceolaris
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Massia sumatrana
+    replace: Maasia sumatrana
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Mesua borneensis
+    replace: Mesua sp. [Mesua borneensis; Both_2019_2]
+    reason: 'Manual alignment: fuzzy match was to a different taxon (MYtraits curation,
+      2026-11-09)'
+    taxonomic_resolution: genus
+  - find: Naotaphoebe umbelliflora
+    replace: Nothaphoebe umbelliflora
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Neouvaria acuminatissima
+    replace: Neo-uvaria acuminatissima
+    reason: 'Manual alignment: no automatic match (MYtraits curation, 2026-11-09)'
+    taxonomic_resolution: species
+  - find: Parinaria oblongifolia
+    replace: Parinari oblongifolia
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Payena microphyla
+    replace: Payena microphylla
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Pleiocarpus polyneura
+    replace: Pleiocarpidia polyneura
+    reason: 'Manual alignment: no automatic match (MYtraits curation, 2026-11-09)'
+    taxonomic_resolution: species
+  - find: Psydrax dicoccos.
+    replace: Psydrax dicoccos
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Shorea agamii
+    replace: Shorea agamae
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Shorea dasphylla
+    replace: Shorea dasyphylla
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Shorea macrophyla
+    replace: Shorea macrophylla
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Shorea parviflora
+    replace: Shorea sp. [Shorea parviflora; Both_2019_2]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Sindora iripicina
+    replace: Sindora irpicina
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Spathiostemon javanensis
+    replace: Spathiostemon javensis
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Stercularia rubiginosa
+    replace: Sterculia rubiginosa
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Syzygium caudatilimbum.
+    replace: Syzygium caudatilimbum
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Syzygium murtifolium
+    replace: Syzygium myrtifolium
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Syzygium napiformi.
+    replace: Syzygium napiforme
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Syzygium perpuncticulata
+    replace: Syzygium perpuncticulatum
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Syzygium tenuicandatum
+    replace: Syzygium tenuicaudatum
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Trema orientalis
+    replace: Trema orientale
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions: Need to double check any publication from this dataset

@@ -1084,7 +1084,11 @@ substitutions:
   - trait_name: stem_base_form
     find: 'buttress'
     replace: 'buttressed'
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Caesalpinioideae
+    replace: Fabaceae sp. [Caesalpinioideae; Hou_2000]
+    reason: 'Manual alignment: no automatic match (MYtraits curation, 2026-11-09)'
+    taxonomic_resolution: family
 exclude_observations: .na
 questions:
   question1: |

@@ -216,7 +216,16 @@ substitutions:
   - trait_name: flower_colour
     find: white_cream
     replace: white_cream
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Memecylaceae
+    replace: Melastomataceae sp. [Memecylaceae; Hughes_2013]
+    reason: 'Manual alignment: no automatic match (MYtraits curation, 2026-11-09)'
+    taxonomic_resolution: family
+  - find: Memecylon coeruleum
+    replace: Memecylon caeruleum
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions:
   question1:

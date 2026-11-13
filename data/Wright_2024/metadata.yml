@@ -199,7 +199,127 @@ traits:
       average, where area refers to the annulus represented by each piece,
       assuming a circular trunk (Wright et al. 2010).
 substitutions: .na
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Anisophylla corneri
+    replace: Anisophyllea corneri
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Ardisia hulettia
+    replace: Ardisia hullettii
+    reason: 'Manual alignment: exact match in WCVP v16 outside MY/BN/SG after spelling
+      correction (MYtraits curation, 2026-11-09)'
+    taxonomic_resolution: species
+  - find: Barringtonia macrostaychya
+    replace: Barringtonia macrostachya
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Canarrium littorale var. littorale
+    replace: Canarium sp. [Canarrium littorale var. littorale; Wright_2024]
+    reason: Fuzzy match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Canarrium littorale var. rufum
+    replace: Canarium littorale f. rufum
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: form
+  - find: Gaertnera oblanceollata
+    replace: Gaertnera oblanceolata
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Garcinia eugeniiefolia
+    replace: Garcinia eugeniifolia
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Goniothalamus tortilipetalum
+    replace: Goniothalamus tortilipetalus
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Litsea mangnifica
+    replace: Litsea magnifica
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Mallotus leocodermis
+    replace: Mallotus leucodermis
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Memecylon sichotomum
+    replace: Memecylon sp. [Memecylon sichotomum; Wright_2024]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Mesua cornerii
+    replace: Mesua sp. [Mesua cornerii; Wright_2024]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Microdesmis casearifolia
+    replace: Microdesmis caseariifolia
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Neobalanocarpus Heimii
+    replace: Neobalanocarpus heimii
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Neoscortechinia nocobarica
+    replace: Neoscortechinia nicobarica
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Pavetta sp1
+    replace: Pavetta sp. [Pavetta sp1; Wright_2024]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Phaeanthus ophthalamicus
+    replace: Phaeanthus ophthalmicus
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Pseudovaria macrophylla
+    replace: Pseuduvaria macrophylla
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Reinwardtiodendron cinerum
+    replace: Reinwardtiodendron cinereum
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Sarprosma scortechinii
+    replace: Saprosma scortechinii
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Sindora coroacea
+    replace: Sindora coriacea
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Tarenna sp8
+    replace: Tarenna sp. [Tarenna sp8; Wright_2024]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Xanthophyllum grffithii
+    replace: Xanthophyllum griffithii
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Xylopia malayana var. malayana
+    replace: Xylopia malayana
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions:
   The README and notes repeatedly mention that the traits were collected during

@@ -839,7 +839,12 @@ substitutions:
   - trait_name: stem_hairs
     find: 'hairs'
     replace: 'hairy'
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Knema oblongifolia var. oblongifolia
+    replace: Knema oblongifolia
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions:
   question1: 'Dimension pairs. ''a x b'' sizes are read as length x width for the lamina (''8--30 x 4--13.5 cm'') in all taxa that give one. Confirm.'

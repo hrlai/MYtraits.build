@@ -99,7 +99,87 @@ traits:
       measurements using an electronic leaf area meter (LI-3100 Li-Cor Inc.,
       Lincoln, Nebraska, U.S.A.).
 substitutions: .na
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Aporusa "sessile-flowered" sp nov
+    replace: Aporosa sp. [Aporusa "sessile-flowered" sp. nov; Thomas_1995]
+    reason: Fuzzy match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Aporusa "swamp" sp nov
+    replace: Aporosa sp. [Aporusa "swamp" sp. nov; Thomas_1995]
+    reason: Fuzzy match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Aporusa aurea
+    replace: Aporosa aurea
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Aporusa bracteosa
+    replace: Aporosa bracteosa
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Aporusa falcifera
+    replace: Aporosa falcifera
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Aporusa globifera
+    replace: Aporosa globifera
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Aporusa lunata
+    replace: Aporosa lunata
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Aporusa microstachya
+    replace: Aporosa microstachya
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Aporusa nigricans
+    replace: Aporosa nigricans
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Aporusa prainiana
+    replace: Aporosa prainiana
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Aporusa symplocoides
+    replace: Aporosa symplocoides
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Diospyros "brown-barked" sp nov
+    replace: Diospyros sp. [Diospyros "brown-barked" sp. nov; Thomas_1995]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Garcinia "dark" sp nov
+    replace: Garcinia sp. [Garcinia "dark" sp. nov; Thomas_1995]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Garcinia "small" sp nov
+    replace: Garcinia sp. [Garcinia "small" sp. nov; Thomas_1995]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Ixora "lanceolate-leaved" sp nov
+    replace: Ixora sp. [Ixora "lanceolate-leaved" sp. nov; Thomas_1995]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Polyalthia laterifolia
+    replace: Polyalthia lateriflora
+    reason: 'Manual alignment: fuzzy match was to a different taxon (MYtraits curation,
+      2026-11-09)'
+    taxonomic_resolution: species
 exclude_observations:
   - variable: taxon_name
     find:

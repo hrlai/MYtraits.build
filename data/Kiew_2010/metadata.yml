@@ -468,7 +468,12 @@ substitutions:
   - trait_name: pollination_syndrome
     find: insect pollinated
     replace: insect
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Balanophora fungosa subsp. indica var. indica
+    replace: Balanophora fungosa subsp. indica
+    reason: Exact match of the first three words of the taxon name to an accepted
+      canonical name (2026-11-09)
+    taxonomic_resolution: subspecies
 exclude_observations: .na
 questions:
   question1: |

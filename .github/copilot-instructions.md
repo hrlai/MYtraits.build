@@ -61,9 +61,13 @@ function's arguments or an upstream trait definition.
   `config/traits.yml` is a manual copy of its `config/traits.yml` (built
   there from the AusTraits Plant Dictionary). Some descriptions still say
   "AusTraits"; leave them.
-- Taxonomy: names are aligned to World Flora Online with WorldFlora in
-  `R/align_to_wfo.R`, not with APCalign. We plan to migrate to the
-  `taxonAlign` package. Do not extend the WFO code beyond fixes until then.
+- `taxonAlign` and `taxonAlign.dataprep`: align taxon names and build the
+  taxonomic reference. There is no complete checklist of the Malaysian flora
+  yet, so the reference is the WCVP restricted to taxa GBIF records in
+  Malaysia, Brunei and Singapore. As in AusTraits, spelling fixes go in each
+  dataset's `metadata.yml` `taxonomic_updates`, and synonym updates go in
+  `config/taxon_list.csv`. Read `inst/notes/taxonomy/README.md` before any
+  taxonomy work. The old World Flora Online code is retired.
 
 ## Version and Dependency Posture
 
@@ -87,11 +91,17 @@ Packages are managed with [uvr](https://github.com/nbafrank/uvr). Do not use
 - Add a package: add it to `uvr.toml`, run `uvr lock`, and commit `uvr.toml`
   and `uvr.lock` together. Cloud agents install with `uvr sync --frozen`,
   which fails on a stale lockfile.
-- `traits.build` and `austraits` track their default branch (no `rev` in
-  `uvr.toml`). `uvr.lock` still fixes the commit. Move to the latest commits
-  with `uvr lock -P traits.build -P austraits`, then commit `uvr.lock`.
+- `traits.build`, `austraits`, `taxonAlign` and `taxonAlign.dataprep` track
+  their default branch (no `rev` in `uvr.toml`). `uvr.lock` still fixes the
+  commit. Move to the latest commits with
+  `uvr lock -P traits.build -P austraits` (or
+  `-P taxonAlign -P taxonAlign.dataprep`), then commit `uvr.lock`.
+- `rgbif` is pinned below 3.9.0: with 3.9.0,
+  `taxonAlign.dataprep::filter_to_country()` keeps no records. See
+  `inst/notes/taxonomy/README.md`.
 - A bump of `traits.build` or `austraits` can change the compiled data with
-  no error. Copy `export/data/curr/MYtraits.rds` aside before the bump,
+  no error. A bump of `taxonAlign` can change name matches: rerun the
+  taxonomy rebuild in `inst/notes/taxonomy/README.md`. Copy `export/data/curr/MYtraits.rds` aside before the bump,
   rebuild after it, then compare with `waldo::compare(old, new)`. Report any
   change in the PR.
 - Cloud agents (Copilot and Claude) set up with `.github/agent-setup.sh`.
@@ -199,8 +209,12 @@ unless requested.
   hand.
 - `inst/extdata/myflora/`: flora PDFs downloaded by `flora_fetch()`.
   Git-ignored. Never commit PDFs or rendered page images.
-- `inst/extdata/` (other files) and `inst/taxonomy/`: local taxonomy inputs and
-  alignment outputs, not tracked.
+- `inst/notes/taxonomy/`: how to align names and rebuild
+  `config/taxon_list.csv`. Read its `README.md` first.
+- `inst/taxonomy/`: the taxonomic reference
+  (`taxonomic_reference.parquet`) and review files. Git-ignored; rebuild with
+  `build_mytraits_reference()`.
+- `inst/extdata/` (other files): local inputs, not tracked.
 
 ## Skills
 

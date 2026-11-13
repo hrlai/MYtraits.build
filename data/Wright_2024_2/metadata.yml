@@ -167,7 +167,77 @@ traits:
       end of this document. Unfortunately, the original laboratory report
       includes just one significant digit for many phosphorus concentrations.
 substitutions: .na
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Ardisia hulettia
+    replace: Ardisia hullettii
+    reason: 'Manual alignment: exact match in WCVP v16 outside MY/BN/SG after spelling
+      correction (MYtraits curation, 2026-11-09)'
+    taxonomic_resolution: species
+  - find: Barringtonia macrostaychya
+    replace: Barringtonia macrostachya
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Canarrium littorale var. littorale
+    replace: Canarium sp. [Canarrium littorale var. littorale; Wright_2024_2]
+    reason: Fuzzy match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Canarrium littorale var. rufum
+    replace: Canarium littorale f. rufum
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: form
+  - find: Litsea mangnifica
+    replace: Litsea magnifica
+    reason: Fuzzy match of taxon name to a synonymous canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Mesua cornerii
+    replace: Mesua sp. [Mesua cornerii; Wright_2024_2]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Microdesmis casearifolia
+    replace: Microdesmis caseariifolia
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Neobalanocarpus Heimii
+    replace: Neobalanocarpus heimii
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Phaeanthus ophthalamicus
+    replace: Phaeanthus ophthalmicus
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Pseudovaria macrophylla
+    replace: Pseuduvaria macrophylla
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Sindora coroacea
+    replace: Sindora coriacea
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Tarenna sp8
+    replace: Tarenna sp. [Tarenna sp8; Wright_2024_2]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Xanthophyllum grffithii
+    replace: Xanthophyllum griffithii
+    reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once
+      punctuation and filler words are removed (2026-11-09)
+    taxonomic_resolution: species
+  - find: Xylopia malayana var. malayana
+    replace: Xylopia malayana
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
 exclude_observations: .na
 questions:
   The README and notes repeatedly mention that the traits were collected during

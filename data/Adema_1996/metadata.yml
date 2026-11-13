@@ -1024,7 +1024,42 @@ substitutions:
   - trait_name: seed_shape
     find: 'subglobose ellipsoid'
     replace: 'globoid ellipsoid'
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Dimocarpus longan subsp. longan var. longan
+    replace: Dimocarpus longan subsp. longan
+    reason: Exact match of the first three words of the taxon name to an accepted
+      canonical name (2026-11-09)
+    taxonomic_resolution: subspecies
+  - find: Dimocarpus longan subsp. malesianus var. echinatus
+    replace: Dimocarpus longan subsp. malesianus
+    reason: Exact match of the first three words of the taxon name to an accepted
+      canonical name (2026-11-09)
+    taxonomic_resolution: subspecies
+  - find: Dimocarpus longan subsp. malesianus var. malesianus
+    replace: Dimocarpus longan subsp. malesianus
+    reason: Exact match of the first three words of the taxon name to an accepted
+      canonical name (2026-11-09)
+    taxonomic_resolution: subspecies
+  - find: Nephelium cuspidatum var. cuspidatum subvar. cuspidatum
+    replace: Nephelium cuspidatum var. cuspidatum
+    reason: Exact match of the first three words of the taxon name to an accepted
+      canonical name (2026-11-09)
+    taxonomic_resolution: variety
+  - find: Nephelium cuspidatum var. ophioides subvar. beccarianum
+    replace: Nephelium cuspidatum
+    reason: Exact match of the first two words of the taxon name to an accepted canonical
+      name (2026-11-09)
+    taxonomic_resolution: species
+  - find: Trigonachras sp. A
+    replace: Trigonachras sp. [Trigonachras sp. A; Adema_1996]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
+  - find: Trigonachras sp. B
+    replace: Trigonachras sp. [Trigonachras sp. B; Adema_1996]
+    reason: Exact match of the first word of the taxon name to a genus in WCVP v16
+      (2026-11-09)
+    taxonomic_resolution: genus
 exclude_observations: .na
 questions:
   question1: >-

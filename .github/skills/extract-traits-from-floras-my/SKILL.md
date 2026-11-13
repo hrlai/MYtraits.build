@@ -170,8 +170,8 @@ respect to `data/`, apart from `flora_make_data()`, which writes
   with the digest, follow the guide and tell the user so the digest can be
   corrected.
 - **Names as printed.** Do not match to a taxonomic backbone during extraction;
-  alignment is a separate step. Keep `sp. nov.` under its printed label and
-  flag it.
+  alignment is a separate step (step 11). Keep `sp. nov.` under its printed
+  label and flag it.
 - **Do not invent traits.** Only traits in `config/traits.yml` (MYtraits' own
   copy; re-read it each time) get a `trait`. Everything else is an unmapped
   row (below).
@@ -1186,12 +1186,21 @@ from the other source, then check:
    `excluded_data`. Schema tests pass even when allowed-value mismatches exist.
    It also catches build failures after the schema checks. Yao_2010 was never
    processed.
-4. Check completeness independently of schema tests: compare all accepted
+4. Align taxon names (after `dataset_process()` passes; names stay as
+   printed in `data.csv`). Follow "Add a new dataset's names" in
+   `inst/notes/taxonomy/README.md`, passing the `dataset_process()` output as
+   `database`: `build_align_taxon_names()` writes `taxonomic_updates` in
+   `metadata.yml`; review every fuzzy and unmatched name, and fix or delete a
+   wrong entry by hand (a fuzzy match that changes the genus is often wrong).
+   Rerun `dataset_process()`, then `build_update_taxon_list()` adds the new
+   aligned names to `config/taxon_list.csv`. Report unmatched names and the
+   fuzzy matches kept.
+5. Check completeness independently of schema tests: compare all accepted
    species and infraspecific headings, description and later sections, unmapped
    clauses, and type/figure vouchers against the source. Passing QA does not
    establish completeness.
-5. Report: taxa, rows by mapped and unmapped, rows by `rank_scored_from`,
-   exclusions, numbered questions.
+6. Report: taxa, rows by mapped and unmapped, rows by `rank_scored_from`,
+   exclusions, name alignments, numbered questions.
 
 ## Rerunning processed datasets for a new trait
 
