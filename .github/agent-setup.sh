@@ -22,6 +22,11 @@ curl -fsSL https://raw.githubusercontent.com/nbafrank/uvr/main/install.sh | UVR_
 $SUDO ln -sf "$HOME/.local/bin/uvr" /usr/local/bin/uvr
 
 uvr r install "$(cat .r-version)"
+# Link R and Rscript onto the default PATH so Quarto finds the pinned R.
+for bin in R Rscript; do
+  $SUDO ln -sf "$HOME/.uvr/r-versions/$(cat .r-version)/bin/$bin" \
+    "/usr/local/bin/$bin"
+done
 # Packages come as P3M Linux binaries; uvr installs the system libraries they
 # link against (from uvr.lock) instead of a hand-kept apt list.
 # Retry: CRAN downloads sometimes fail with a transient 503.
@@ -30,3 +35,13 @@ for attempt in 1 2 3; do
   [ "$attempt" -lt 3 ] || exit 1
   sleep $((attempt * 15))
 done
+
+# Quarto CLI, for rendering README.qmd and other .qmd pages. The tarball
+# bundles its own pandoc and deno, so no apt packages are needed.
+QUARTO_VERSION=1.8.25
+curl -fsSL -o /tmp/quarto.tar.gz \
+  "https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.tar.gz"
+$SUDO mkdir -p /opt/quarto
+$SUDO tar -xzf /tmp/quarto.tar.gz -C /opt/quarto --strip-components=1
+$SUDO ln -sf /opt/quarto/bin/quarto /usr/local/bin/quarto
+rm -f /tmp/quarto.tar.gz

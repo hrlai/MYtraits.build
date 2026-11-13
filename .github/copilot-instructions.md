@@ -106,6 +106,8 @@ Packages are managed with [uvr](https://github.com/nbafrank/uvr). Do not use
   change in the PR.
 - Cloud agents (Copilot and Claude) set up with `.github/agent-setup.sh`.
   Change system libraries there, not in each agent's config.
+  It also installs the Quarto CLI (`quarto render README.qmd`); bump
+  `QUARTO_VERSION` there.
 - Cloud images default to the POSIX locale, under which R reads
   `config/traits.yml` only up to its first non-ASCII character. A UTF-8
   locale is set in `.github/agent-setup.sh` (Copilot), a SessionStart hook
@@ -200,6 +202,11 @@ unless requested.
   Dictionary. Edit `decisions.csv` only, then run
   `uvr run inst/notes/upstream_traits/make_report.R` to regenerate
   `requests.md` and `unmapped_pooled.csv`. Read its `README.md` first.
+- `inst/notes/coverage/`: one-page coverage summary for taxonomists and
+  botanists. After `uvr run build.R`, run
+  `quarto render inst/notes/coverage/summary.qmd` from the project root to
+  regenerate `summary.md`. Edit `summary.qmd`; never edit `summary.md` by
+  hand.
 - `inst/extdata/myflora/`: flora PDFs downloaded by `flora_fetch()`.
   Git-ignored. Never commit PDFs or rendered page images.
 - `inst/notes/taxonomy/`: how to align names and rebuild
