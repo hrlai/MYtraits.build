@@ -1,69 +1,69 @@
 # What MYtraits holds: a coverage summary
 
 
-Generated 2026-11-08 by `inst/notes/coverage/summary.qmd` from `export/data/curr/MYtraits.rds` (version 0.0.1, commit 450d116). Do not edit by hand.
+Generated 2026-11-13 by `inst/notes/coverage/summary.qmd` from `export/data/curr/MYtraits.rds` (version 0.0.1, commit 4f3f4fc). Do not edit by hand.
 
-MYtraits compiles plant trait data for Malaysia from two kinds of source. **Flora** data are characters transcribed from family treatments (Flora of Peninsular Malaysia, Tree Flora of Sabah and Sarawak) and taxon descriptions, so each value describes a species from herbarium specimens. **Field-measured** data come from studies that measured plants in plots, gardens or nurseries. Taxon names are aligned to World Flora Online; a taxon is one aligned name, which may be a species, an infraspecific taxon or a genus.
+MYtraits compiles plant trait data for Malaysia from two kinds of source. **Flora** data are characters transcribed from family treatments (Flora of Peninsular Malaysia, Tree Flora of Sabah and Sarawak) and taxon descriptions, so each value describes a species from herbarium specimens. **Field-measured** data come from studies that measured plants in plots, gardens or nurseries. Taxon names are aligned with taxonAlign to the World Checklist of Vascular Plants (WCVP), restricted to taxa with GBIF records in Malaysia, Brunei and Singapore; a taxon is one aligned name, which may be a species, an infraspecific taxon, or a genus or family placeholder (`Genus sp. [...]`).
 
 ## Overview
 
 | Source         | Datasets |  Taxa | Species-rank taxa | Families | Traits |   Rows |
 |:---------------|---------:|------:|------------------:|---------:|-------:|-------:|
-| Flora          |       28 | 1,522 |               184 |       13 |    141 | 44,949 |
-| Field-measured |       18 |   723 |               676 |       76 |     62 | 41,741 |
-| All            |       46 | 2,053 |               676 |       76 |    200 | 86,690 |
+| Flora          |       28 | 1,476 |             1,167 |       25 |    141 | 44,949 |
+| Field-measured |       18 |   739 |               671 |       75 |     62 | 41,741 |
+| All            |       46 | 2,018 |             1,648 |       85 |    200 | 86,690 |
 
-1,338 taxa are not yet aligned to World Flora Online, so they have no family and are counted under their original name. Family counts and the family table understate coverage until they are.
+Every taxon has a family.
 
 A further 12,309 values were read from the sources but excluded during the build and are not counted above: missing unit conversion (10,393); value out of allowable range (1,728); observation excluded in metadata (169); unsupported trait value (19).
 
 ## Overlap between flora and field data
 
-- **192** taxa have both flora and field-measured data (27% of field-measured taxa, 13% of flora taxa).
-- **63** taxon × trait combinations have values from both sources, so flora and field values can be compared directly.
-- For taxa in both, the median taxon has 27 flora traits and 16.5 field-measured traits.
+- **197** taxa have both flora and field-measured data (27% of field-measured taxa, 13% of flora taxa).
+- **66** taxon × trait combinations have values from both sources, so flora and field values can be compared directly.
+- For taxa in both, the median taxon has 27 flora traits and 17 field-measured traits.
 
 Families with the most taxa in both:
 
 | Family           | Taxa in both |
 |:-----------------|-------------:|
-| Dipterocarpaceae |           54 |
-| Annonaceae       |           35 |
+| Dipterocarpaceae |           56 |
+| Annonaceae       |           38 |
 | Fagaceae         |           15 |
 | Sapindaceae      |           15 |
 | Fabaceae         |           14 |
-| Moraceae         |           13 |
-| Burseraceae      |           12 |
-| Melastomataceae  |           10 |
+| Burseraceae      |           13 |
+| Moraceae         |           12 |
 | Myristicaceae    |           10 |
-| Elaeocarpaceae   |            4 |
+| Melastomataceae  |            9 |
+| Rutaceae         |            5 |
 
 ## Coverage by family
 
-The 20 families with the most taxa, of 76. *Taxon × trait* counts the combinations with at least one value. *Fill* is that count as a share of taxa × traits recorded for the family.
+The 20 families with the most taxa, of 85. *Taxon × trait* counts the combinations with at least one value. *Fill* is that count as a share of taxa × traits recorded for the family.
 
-| Family | Taxa | Flora taxa | Field taxa | Traits | Taxon × trait | Rows | Fill (%) |
-|:---|---:|---:|---:|---:|---:|---:|---:|
-| (no family: name not aligned) | 1338 | 1330 | 8 | 150 | 28538 | 38279 | 14 |
-| Dipterocarpaceae | 67 | 54 | 67 | 92 | 2822 | 17096 | 46 |
-| Annonaceae | 49 | 35 | 49 | 78 | 1283 | 2727 | 34 |
-| Phyllanthaceae | 47 | 0 | 47 | 35 | 639 | 1947 | 39 |
-| Meliaceae | 42 | 0 | 42 | 36 | 569 | 1572 | 38 |
-| Lauraceae | 40 | 0 | 40 | 34 | 598 | 2051 | 44 |
-| Rubiaceae | 38 | 0 | 38 | 44 | 357 | 854 | 21 |
-| Myrtaceae | 35 | 0 | 35 | 37 | 471 | 1645 | 36 |
-| Euphorbiaceae | 31 | 0 | 31 | 45 | 543 | 3218 | 39 |
-| Ebenaceae | 29 | 0 | 29 | 34 | 332 | 1059 | 34 |
-| Fabaceae | 25 | 14 | 25 | 88 | 795 | 1766 | 36 |
-| Myristicaceae | 20 | 10 | 20 | 77 | 540 | 1076 | 35 |
-| Malvaceae | 20 | 0 | 20 | 47 | 306 | 875 | 33 |
-| Fagaceae | 19 | 15 | 19 | 85 | 850 | 1537 | 53 |
-| Sapindaceae | 18 | 15 | 18 | 86 | 701 | 1516 | 45 |
-| Anacardiaceae | 17 | 0 | 17 | 40 | 226 | 589 | 33 |
-| Moraceae | 16 | 13 | 16 | 79 | 602 | 955 | 48 |
-| Sapotaceae | 14 | 0 | 14 | 35 | 240 | 524 | 49 |
-| Melastomataceae | 13 | 10 | 13 | 48 | 167 | 321 | 27 |
-| Burseraceae | 12 | 12 | 12 | 72 | 521 | 1091 | 60 |
+| Family           | Taxa | Flora taxa | Field taxa | Traits | Taxon × trait |  Rows | Fill (%) |
+|:-----------------|-----:|-----------:|-----------:|-------:|--------------:|------:|---------:|
+| Dipterocarpaceae |  310 |        297 |         69 |    102 |          9045 | 24728 |       29 |
+| Annonaceae       |  206 |        195 |         49 |     83 |          4304 |  6819 |       25 |
+| Moraceae         |  175 |        171 |         16 |     85 |          2508 |  3425 |       17 |
+| Fagaceae         |  112 |        105 |         22 |     89 |          3593 |  5506 |       36 |
+| Sapindaceae      |   98 |         95 |         18 |     94 |          2709 |  4261 |       29 |
+| Myristicaceae    |   92 |         82 |         20 |     90 |          2664 |  4520 |       32 |
+| Burseraceae      |   70 |         68 |         15 |     92 |          1763 |  2568 |       27 |
+| Fabaceae         |   69 |         58 |         25 |     94 |          1838 |  3293 |       28 |
+| Rutaceae         |   68 |         68 |          5 |     86 |          1506 |  2036 |       26 |
+| Elaeocarpaceae   |   59 |         58 |          5 |     90 |          2112 |  3157 |       40 |
+| Pandanaceae      |   54 |         54 |          0 |     33 |           635 |   938 |       36 |
+| Phyllanthaceae   |   48 |          0 |         48 |     35 |           638 |  1933 |       38 |
+| Melastomataceae  |   46 |         43 |         12 |     48 |           545 |   815 |       25 |
+| Meliaceae        |   43 |          0 |         43 |     36 |           571 |  1572 |       37 |
+| Lauraceae        |   41 |          0 |         41 |     34 |           601 |  2051 |       43 |
+| Rubiaceae        |   40 |          0 |         40 |     44 |           357 |   854 |       20 |
+| Selaginellaceae  |   36 |         36 |          0 |     18 |           359 |   503 |       55 |
+| Symplocaceae     |   35 |         34 |          4 |     68 |           816 |  1305 |       34 |
+| Myrtaceae        |   35 |          0 |         35 |     37 |           471 |  1645 |       36 |
+| Euphorbiaceae    |   31 |          0 |         31 |     45 |           543 |  3218 |       39 |
 
 ## Traits with the most taxa
 
@@ -71,38 +71,38 @@ The 20 traits with the most taxa, of 200.
 
 | Trait                          | Taxa | Flora taxa | Field taxa | Families | Datasets |
 |:-------------------------------|-----:|-----------:|-----------:|---------:|---------:|
-| `plant_growth_form`            | 1449 |       1449 |          0 |       13 |       28 |
-| `plant_height`                 | 1204 |       1126 |        104 |       39 |       26 |
-| `leaf_shape`                   | 1192 |       1192 |          0 |       13 |       25 |
-| `leaf_base_shape`              | 1119 |       1119 |          0 |       13 |       23 |
-| `leaf_apex_shape`              | 1090 |       1090 |          0 |       12 |       26 |
-| `petiole_length`               | 1027 |       1027 |          0 |       12 |       22 |
-| `leaf_compoundness`            |  994 |        994 |          0 |       11 |       23 |
-| `inflorescence_type`           |  991 |        991 |          0 |       13 |       22 |
-| `leaf_length`                  |  983 |        983 |          0 |       10 |       25 |
-| `leaf_width`                   |  949 |        949 |          0 |       10 |       21 |
-| `plant_diameter_breast_height` |  948 |        729 |        256 |       56 |       22 |
-| `flower_structural_sex_type`   |  935 |        935 |          0 |        9 |       17 |
-| `fruit_type`                   |  934 |        934 |          0 |       11 |       22 |
-| `fruit_length`                 |  896 |        896 |          0 |       13 |       22 |
-| `fruit_width`                  |  842 |        842 |          0 |       12 |       20 |
-| `inflorescence_length`         |  677 |        677 |          0 |       11 |       20 |
-| `flower_perianth_symmetry`     |  662 |        662 |          0 |        6 |       12 |
-| `flower_fertile_stamens_count` |  631 |        631 |          0 |       11 |       20 |
-| `leaf_margin`                  |  617 |        617 |          0 |       10 |       22 |
-| `leaf_phyllotaxis`             |  602 |        602 |          0 |        7 |       17 |
+| `plant_growth_form`            | 1412 |       1412 |          0 |       25 |       28 |
+| `plant_height`                 | 1179 |       1101 |        106 |       47 |       26 |
+| `leaf_shape`                   | 1164 |       1164 |          0 |       23 |       25 |
+| `leaf_base_shape`              | 1091 |       1091 |          0 |       22 |       23 |
+| `leaf_apex_shape`              | 1062 |       1062 |          0 |       24 |       26 |
+| `petiole_length`               | 1001 |       1001 |          0 |       20 |       22 |
+| `leaf_compoundness`            |  977 |        977 |          0 |       21 |       23 |
+| `inflorescence_type`           |  969 |        969 |          0 |       20 |       22 |
+| `leaf_length`                  |  963 |        963 |          0 |       22 |       25 |
+| `leaf_width`                   |  929 |        929 |          0 |       20 |       21 |
+| `plant_diameter_breast_height` |  929 |        708 |        259 |       60 |       22 |
+| `flower_structural_sex_type`   |  916 |        916 |          0 |       16 |       17 |
+| `fruit_type`                   |  910 |        910 |          0 |       20 |       22 |
+| `fruit_length`                 |  879 |        879 |          0 |       21 |       22 |
+| `fruit_width`                  |  824 |        824 |          0 |       19 |       20 |
+| `inflorescence_length`         |  658 |        658 |          0 |       18 |       20 |
+| `flower_perianth_symmetry`     |  644 |        644 |          0 |       11 |       12 |
+| `flower_fertile_stamens_count` |  613 |        613 |          0 |       18 |       20 |
+| `leaf_margin`                  |  605 |        605 |          0 |       20 |       22 |
+| `leaf_phyllotaxis`             |  586 |        586 |          0 |       15 |       17 |
 
 The 10 traits with the most field-measured taxa:
 
 | Trait                     | Field taxa | Flora taxa | Datasets |
 |:--------------------------|-----------:|-----------:|---------:|
-| `leaf_mass_per_area`      |        565 |          0 |        7 |
-| `leaf_area`               |        553 |          0 |        6 |
-| `leaf_dry_matter_content` |        542 |          0 |        3 |
-| `leaf_P_per_dry_mass`     |        378 |          0 |        4 |
-| `leaf_N_per_dry_mass`     |        377 |          0 |        6 |
-| `leaf_thickness`          |        374 |          0 |        4 |
-| `wood_density`            |        360 |          1 |        6 |
-| `leaf_dry_mass`           |        348 |          0 |        2 |
-| `leaf_Ca_per_dry_mass`    |        295 |          0 |        3 |
-| `leaf_K_per_dry_mass`     |        295 |          0 |        3 |
+| `leaf_mass_per_area`      |        572 |          0 |        7 |
+| `leaf_area`               |        558 |          0 |        6 |
+| `leaf_dry_matter_content` |        549 |          0 |        3 |
+| `leaf_P_per_dry_mass`     |        384 |          0 |        4 |
+| `leaf_N_per_dry_mass`     |        383 |          0 |        6 |
+| `leaf_thickness`          |        380 |          0 |        4 |
+| `wood_density`            |        363 |          1 |        6 |
+| `leaf_dry_mass`           |        352 |          0 |        2 |
+| `leaf_Ca_per_dry_mass`    |        297 |          0 |        3 |
+| `leaf_K_per_dry_mass`     |        297 |          0 |        3 |

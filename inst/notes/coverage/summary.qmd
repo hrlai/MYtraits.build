@@ -157,9 +157,11 @@ MYtraits compiles plant trait data for Malaysia from two kinds of source.
 Peninsular Malaysia, Tree Flora of Sabah and Sarawak) and taxon
 descriptions, so each value describes a species from herbarium specimens.
 **Field-measured** data come from studies that measured plants in plots,
-gardens or nurseries. Taxon names are aligned to World Flora Online; a taxon
-is one aligned name, which may be a species, an infraspecific taxon or a
-genus.
+gardens or nurseries. Taxon names are aligned with taxonAlign to the World
+Checklist of Vascular Plants (WCVP), restricted to taxa with GBIF records in
+Malaysia, Brunei and Singapore; a taxon is one aligned name, which may be a
+species, an infraspecific taxon, or a genus or family placeholder
+(`Genus sp. [...]`).
 
 ## Overview
 
@@ -167,9 +169,7 @@ genus.
 knitr::kable(overview, align = c("l", rep("r", 6)))
 ```
 
-`r fmt(n_unaligned)` taxa are not yet aligned to World Flora Online, so
-they have no family and are counted under their original name. Family
-counts and the family table understate coverage until they are.
+`r if (n_unaligned > 0) paste(fmt(n_unaligned), "taxa have no family because their names are not aligned, so they are counted under their original name. Family counts and the family table understate coverage until they are.") else "Every taxon has a family."`
 
 A further `r fmt(nrow(db$excluded_data))` values were read from the sources
 but excluded during the build and are not counted above: `r excluded`.
