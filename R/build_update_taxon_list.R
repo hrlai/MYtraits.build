@@ -8,10 +8,11 @@
 #'
 #' Names aligned only to genus or family (`taxonomic_resolution`) keep their
 #' aligned name (e.g. `Cleistanthus sp. [Cleistanthus indet; Both_2019]`) as
-#' `taxon_name`, with the genus identifiers. WCVP has no family records, so
-#' family-level names get no identifiers. Names with no exact
-#' match in the references are left out: align them first with
-#' `build_align_taxon_names()`.
+#' `taxon_name`, with the identifiers of their genus or family. WCVP has no
+#' family records; taxonAlign adds one per family when it prepares the
+#' resources (`taxon_ID` `"<taxonomic_dataset>_family_<family>"`), and family
+#' names are matched to those. Names with no exact match in the references are
+#' left out: align them first with `build_align_taxon_names()`.
 #'
 #' @param database A compiled MYtraits database, e.g.
 #'   `readRDS("export/data/curr/MYtraits.rds")`.
@@ -46,8 +47,12 @@ build_update_taxon_list <- function(database, resources, replace = FALSE,
       )
     )
 
-  # One record per name: regional before global, then accepted first
+  # One record per name: regional before global, then accepted first. Family
+  # records exist only in the prepared resources.
+  families <- resources$combined$family |>
+    dplyr::mutate(source = "family")
   reference <- resources$reference |>
+    dplyr::bind_rows(families) |>
     dplyr::arrange(
       .data$canonical_name, .data$source != "regional",
       .data$taxonomic_status != "accepted"
@@ -64,14 +69,11 @@ build_update_taxon_list <- function(database, resources, replace = FALSE,
       by = "name_to_match_to"
     )
 
-  accepted <- reference |>
-    dplyr::filter(.data$taxonomic_status == "accepted") |>
-    dplyr::distinct(.data$canonical_name, .data$taxon_rank, .keep_all = TRUE)
-  id_of_rank <- function(name, rank) {
-    x <- accepted[accepted$taxon_rank == rank, ]
-    x$taxon_ID[match(name, x$canonical_name)]
-  }
+  accepted_families <- families |>
+    dplyr::filter(.data$taxonomic_status == "accepted")
 
+  # update_taxa() returns the accepted record's `taxon_ID` and keeps the
+  # matched record's (joined above) as `aligned_taxon_ID`
   updated <- matched |>
     dplyr::rename(match_name = "aligned_name", aligned_name = "name_to_match_to") |>
     taxonAlign::update_taxa(resources = resources$combined) |>
@@ -88,6 +90,12 @@ build_update_taxon_list <- function(database, resources, replace = FALSE,
       ),
       taxon_rank = ifelse(.data$is_higher, .data$taxonomic_resolution,
                           .data$taxon_rank),
+      # family records have no `family` of their own
+      family = ifelse(
+        .data$taxon_rank == "family",
+        dplyr::coalesce(.data$accepted_name, .data$name_to_match_to),
+        .data$family
+      ),
       taxon_name_alternatives = .data$alternative_possible_names,
       genus = ifelse(.data$taxon_rank == "family", NA_character_,
                      stringr::word(.data$taxon_name, 1)),
@@ -97,21 +105,22 @@ build_update_taxon_list <- function(database, resources, replace = FALSE,
       ),
       trinomial = ifelse(.data$taxon_rank %in% infraspecific,
                          .data$taxon_name, NA_character_),
-      # shortcut: WCVP has distributions, but the reference does not carry
-      # them; fill these if needed
-      taxon_distribution = NA_character_,
+      # shortcut: load_WCVP() does not read WCVP's distributions, so
+      # update_taxa() returns NA; fill these if needed
+      taxon_distribution = .data$taxon_distribution,
       establishment_means = NA_character_,
-      accepted_id = ifelse(.data$is_higher, NA_character_,
-                           .data$accepted_name_usage_ID),
-      scientific_name = reference$scientific_name[
-        match(.data$accepted_id, reference$taxon_ID)
+      # A `Genus sp. [...]` name is not the genus itself: only the genus and
+      # family identifiers apply
+      scientific_name = ifelse(.data$is_higher, NA_character_,
+                               .data$scientific_name),
+      taxon_id = ifelse(.data$is_higher, NA_character_, .data$taxon_ID),
+      taxon_id_genus = .data$taxon_ID_genus,
+      taxon_id_family = accepted_families$taxon_ID[
+        match(.data$family, accepted_families$canonical_name)
       ],
-      taxon_id = .data$accepted_id,
-      taxon_id_genus = id_of_rank(.data$genus, "genus"),
-      taxon_id_family = id_of_rank(.data$family, "family"),
-      # shortcut: load_WCVP() drops the IPNI ID; add it once upstream keeps it
-      scientific_name_id = NA_character_,
-      aligned_name_taxon_id = .data$taxon_ID,
+      scientific_name_id = ifelse(.data$is_higher, NA_character_,
+                                  .data$scientific_name_ID),
+      aligned_name_taxon_id = .data$aligned_taxon_ID,
       aligned_name_taxonomic_status = .data$taxonomic_status_aligned
     ) |>
     dplyr::select(dplyr::all_of(c(
@@ -122,23 +131,6 @@ build_update_taxon_list <- function(database, resources, replace = FALSE,
       "scientific_name_id", "aligned_name_taxon_id",
       "aligned_name_taxonomic_status"
     )))
-
-  # WCVP has no family records, only a `family` column, so family-level
-  # names are listed directly
-  families <- all_taxa |>
-    dplyr::filter(
-      !.data$aligned_name %in% taxon_list_new$aligned_name,
-      .data$name_to_match_to %in% reference$family
-    ) |>
-    dplyr::transmute(
-      aligned_name = .data$aligned_name,
-      taxon_name = .data$aligned_name,
-      taxon_rank = "family",
-      taxonomic_status = "accepted",
-      taxonomic_dataset = unique(reference$taxonomic_dataset)[1],
-      family = .data$name_to_match_to
-    )
-  taxon_list_new <- dplyr::bind_rows(taxon_list_new, families)
 
   if (replace) {
     taxon_list <- taxon_list_new

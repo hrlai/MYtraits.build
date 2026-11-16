@@ -822,7 +822,12 @@ substitutions:
   - trait_name: vegetative_reproduction_ability
     find: 'propagate vegetatively'
     replace: 'vegetative'
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Nymphaeaceae
+    replace: Nymphaeaceae sp. [Nymphaeaceae; Kiew_2015]
+    reason: Exact match of the first word of the taxon name to a family in WCVP v16
+      (WCVP v16 version 16)
+    taxonomic_resolution: family
 exclude_observations: .na
 questions:
   question1: |

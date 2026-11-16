@@ -801,6 +801,11 @@ substitutions:
     find: 'tomentose'
     replace: 'hairy'
 taxonomic_updates:
+  - find: Fagaceae
+    replace: Fagaceae sp. [Fagaceae; Soepadmo_2000]
+    reason: Exact match of the first word of the taxon name to a family in WCVP v16
+      (WCVP v16 version 16)
+    taxonomic_resolution: family
   - find: Lithocarpus sericobalanus
     replace: Lithocarpus sericobalanos
     reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once

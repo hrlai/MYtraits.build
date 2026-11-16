@@ -944,6 +944,11 @@ taxonomic_updates:
     reason: Exact match of the first two words of the taxon name to an accepted canonical
       name (2026-11-09)
     taxonomic_resolution: species
+  - find: Rutaceae
+    replace: Rutaceae sp. [Rutaceae; Jones_1995]
+    reason: Exact match of the first word of the taxon name to a family in WCVP v16
+      (WCVP v16 version 16)
+    taxonomic_resolution: family
   - find: Tetractomia tetrandrum
     replace: Tetractomia tetrandra
     reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once

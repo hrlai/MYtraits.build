@@ -497,7 +497,12 @@ substitutions:
   - trait_name: stem_base_form
     find: 'buttresses'
     replace: 'buttressed'
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Casuarinaceae
+    replace: Casuarinaceae sp. [Casuarinaceae; NorEzzawanis_2010_2]
+    reason: Exact match of the first word of the taxon name to a family in WCVP v16
+      (WCVP v16 version 16)
+    taxonomic_resolution: family
 exclude_observations: .na
 questions:
   question1: |

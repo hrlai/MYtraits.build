@@ -47,7 +47,7 @@ build_align_taxon_names <- function(database, dataset_id, resources,
     )))
   }
 
-  pass_1 <- safe_align_taxa(
+  pass_1 <- taxonAlign::align_taxa(
     names_to_align$original_name,
     resources = resources$regional,
     identifier = dataset_id
@@ -59,7 +59,7 @@ build_align_taxon_names <- function(database, dataset_id, resources,
   exact <- pass_1[0, ]
   if (any(retry)) {
     # With fuzzy matching off, any match differs only in formatting
-    exact <- safe_align_taxa(
+    exact <- taxonAlign::align_taxa(
       pass_1$original_name[retry],
       resources = resources$combined,
       identifier = dataset_id,

@@ -969,6 +969,11 @@ substitutions:
     find: 'woolly hairy'
     replace: 'hairy'
 taxonomic_updates:
+  - find: Burseraceae
+    replace: Burseraceae sp. [Burseraceae; Kochummen_1995]
+    reason: Exact match of the first word of the taxon name to a family in WCVP v16
+      (WCVP v16 version 16)
+    taxonomic_resolution: family
   - find: Canarium asperum subsp. asperum var. asperum
     replace: Canarium asperum subsp. asperum
     reason: Exact match of the first three words of the taxon name to an accepted

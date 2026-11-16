@@ -532,7 +532,12 @@ substitutions:
   - trait_name: vegetative_reproduction_ability
     find: stolons
     replace: vegetative
-taxonomic_updates: .na
+taxonomic_updates:
+  - find: Pandanaceae
+    replace: Pandanaceae sp. [Pandanaceae; Beentje_2023]
+    reason: Exact match of the first word of the taxon name to a family in WCVP v16
+      (WCVP v16 version 16)
+    taxonomic_resolution: family
 exclude_observations: .na
 questions:
   question1: 'Syncarp versus fruit. Benstonea and Pandanus fruits are drupes (or phalanges of fused drupes) packed into a syncarp (compound fruiting head); Freycinetia berries likewise. Following the Casuarinaceae cone rule (Pungga_1996), syncarp size, shape and drupe number are unmapped (57 rows, 46 taxa) and the drupe or berry is scored as the fruit (fruit_length, fruit_width). Ripe syncarp colour (e.g. B. affinis "maturing red-orange to brick red", 11 rows) is scored as fruit_colour with entity_measured = syncarp, because the syncarp surface is the exposed drupe tops. Confirm, or decide on an infructescence trait for syncarp size.'

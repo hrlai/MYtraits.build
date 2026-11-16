@@ -167,20 +167,14 @@ uvr sync
 
 Then run the full rebuild above and report any change in names.
 
-Known upstream issues (as of 2026-11-09). Recheck after each bump:
+Known upstream issues (as of 2026-11-16). Recheck after each bump:
 
-- `rgbif` is pinned below 3.9.0 in `uvr.toml`. In `rgbif` 3.9.0,
-  `name_backbone()` returns GBIF's new backbone IDs (for example `"TP"` for
-  Tracheophyta), which `taxonAlign.dataprep::filter_to_country()` reads as
-  `NA`, and then it keeps no records. Remove the pin once taxonAlign.dataprep
-  supports the new IDs.
-- `taxonAlign::align_taxa("Neo-uvaria")` stops with "Can't assign rows with
-  `i`" (a hyphenated genus). `safe_align_taxa()` in
-  `R/build_taxonomic_reference.R` works around it by aligning name by name.
-- `load_WCVP()` drops the IPNI ID, so `scientific_name_id` in the taxon list
-  is blank. WCVP has no family records, so family-level names and
-  `taxon_id_family` have no identifiers.
-- The taxon list has no `taxon_distribution` or `establishment_means`.
+- `load_WCVP()` does not read WCVP's distributions, so the taxon list has no
+  `taxon_distribution`. It has no `establishment_means` either.
+- WCVP has no family records. taxonAlign adds one per family when it
+  prepares the resources, with `taxon_ID`
+  `"<taxonomic_dataset>_family_<family>"` (here `WCVP v16_family_Lauraceae`)
+  and no IPNI ID.
 
 ## To explore: World Flora Online
 
@@ -190,4 +184,4 @@ exploring as a reference source for taxonAlign: it is the global consensus
 flora, and regional treatments (such as the Flora of Peninsular Malaysia) may
 feed into it. Proposal to the taxonAlign maintainers: add a
 `load_WFO()` to taxonAlign.dataprep, alongside `load_WCVP()` and
-`load_CoL()`.
+`load_CatalogueOfLife()`.

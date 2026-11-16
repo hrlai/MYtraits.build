@@ -970,6 +970,11 @@ substitutions:
     find: 'tomentose'
     replace: 'hairy'
 taxonomic_updates:
+  - find: Dipterocarpaceae
+    replace: Dipterocarpaceae sp. [Dipterocarpaceae; Ashton_2004]
+    reason: Exact match of the first word of the taxon name to a family in WCVP v16
+      (WCVP v16 version 16)
+    taxonomic_resolution: family
   - find: Dipterocarpus caudiferus
     replace: Dipterocarpus caudifer
     reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once

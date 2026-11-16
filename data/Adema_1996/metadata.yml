@@ -1050,6 +1050,11 @@ taxonomic_updates:
     reason: Exact match of the first two words of the taxon name to an accepted canonical
       name (2026-11-09)
     taxonomic_resolution: species
+  - find: Sapindaceae
+    replace: Sapindaceae sp. [Sapindaceae; Adema_1996]
+    reason: Exact match of the first word of the taxon name to a family in WCVP v16
+      (WCVP v16 version 16)
+    taxonomic_resolution: family
   - find: Trigonachras sp. A
     replace: Trigonachras sp. [Trigonachras sp. A; Adema_1996]
     reason: Exact match of the first word of the taxon name to a genus in WCVP v16

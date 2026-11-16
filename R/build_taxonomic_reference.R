@@ -78,34 +78,3 @@ load_mytraits_resources <- function(
     canonical_names = unique(c(regional$canonical_name, global$canonical_name))
   )
 }
-
-#' Align names, crash-safe.
-#'
-#' `taxonAlign::align_taxa()` stops on some names (e.g. the hyphenated genus
-#' "Neo-uvaria"). If the whole call fails, align names one at a time and
-#' return `NA` for those that fail.
-#'
-#' @param original_name Names to align.
-#' @param ... Passed to `taxonAlign::align_taxa()`.
-#'
-#' @return The output of `taxonAlign::align_taxa()`, one row per name.
-#' @keywords internal
-safe_align_taxa <- function(original_name, ...) {
-  tryCatch(
-    taxonAlign::align_taxa(original_name, ...),
-    error = function(e) {
-      # shortcut: name-by-name is slow; remove once taxonAlign fixes the crash
-      rows <- lapply(original_name, function(x) {
-        tryCatch(
-          taxonAlign::align_taxa(x, ...),
-          error = function(e) {
-            warning("taxonAlign::align_taxa() failed on '", x, "': ",
-                    conditionMessage(e), call. = FALSE)
-            dplyr::tibble(original_name = x)
-          }
-        )
-      })
-      dplyr::bind_rows(rows)
-    }
-  )
-}
