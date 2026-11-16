@@ -96,9 +96,6 @@ Packages are managed with [uvr](https://github.com/nbafrank/uvr). Do not use
   commit. Move to the latest commits with
   `uvr lock -P traits.build -P austraits` (or
   `-P taxonAlign -P taxonAlign.dataprep`), then commit `uvr.lock`.
-- `rgbif` is pinned below 3.9.0: with 3.9.0,
-  `taxonAlign.dataprep::filter_to_country()` keeps no records. See
-  `inst/notes/taxonomy/README.md`.
 - A bump of `traits.build` or `austraits` can change the compiled data with
   no error. A bump of `taxonAlign` can change name matches: rerun the
   taxonomy rebuild in `inst/notes/taxonomy/README.md`. Copy `export/data/curr/MYtraits.rds` aside before the bump,

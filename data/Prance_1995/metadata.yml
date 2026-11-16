@@ -546,6 +546,11 @@ substitutions:
     find: 'polygamo-dioecious'
     replace: 'polygamodioecious'
 taxonomic_updates:
+  - find: Chrysobalanaceae
+    replace: Chrysobalanaceae sp. [Chrysobalanaceae; Prance_1995]
+    reason: Exact match of the first word of the taxon name to a family in WCVP v16
+      (WCVP v16 version 16)
+    taxonomic_resolution: family
   - find: Parinari argenteo-sericea
     replace: Parinari argenteosericea
     reason: Fuzzy match of taxon name to an accepted canonical name in WCVP v16 once

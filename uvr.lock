@@ -1,4 +1,4 @@
-manifest_fingerprint = "sha256:d0381835cf70f497bfd3368952e2d84049c003ce8c7c676c4695d494a29ebc3c"
+manifest_fingerprint = "sha256:f7e74f49c6316284fd18fbbabadc7bc1ea46e6141c36439b1d8e0d5fec5ff357"
 
 [r]
 version = "4.6.0"
@@ -1255,6 +1255,14 @@ requires = [
 ]
 
 [[package]]
+name = "nanoparquet"
+version = "0.5.2"
+source = "cran"
+raw_version = "0.5.2"
+url = "https://cran.r-project.org/src/contrib/nanoparquet_0.5.2.tar.gz"
+checksum = "md5:2daef8e6f96c5a5fdc0507c17896ba72"
+
+[[package]]
 name = "oai"
 version = "0.4.0"
 source = "cran"
@@ -1575,23 +1583,23 @@ requires = [
 
 [[package]]
 name = "rgbif"
-version = "3.8.5"
+version = "3.9.0"
 source = "cran"
-raw_version = "3.8.5"
-url = "https://cran.r-project.org/src/contrib/Archive/rgbif/rgbif_3.8.5.tar.gz"
-checksum = "md5:c6a845bbd87761b6deb1ff67d7dd801e"
+raw_version = "3.9.0"
+url = "https://cran.r-project.org/src/contrib/rgbif_3.9.0.tar.gz"
+checksum = "md5:078b7bb1fa0731085aed1e0ae348006b"
 requires = [
-    "R6",
+    "xml2",
+    "ggplot2",
     "crul",
     "data.table",
-    "ggplot2",
-    "jsonlite",
-    "lazyeval",
+    "whisker",
     "magrittr",
+    "jsonlite",
     "oai",
     "tibble",
-    "whisker",
-    "xml2",
+    "lazyeval",
+    "R6",
 ]
 
 [[package]]
@@ -1863,26 +1871,25 @@ requires = [
 
 [[package]]
 name = "taxonAlign"
-version = "0.0.0-4.9000"
+version = "0.1.0"
 source = "git:https://github.com/traitecoevo/taxonAlign.git"
-checksum = "git:a9d74f7327ee4cee0faf18c3ffc9c92085729f0c"
+checksum = "git:10aa2d7138b143aabb5101afe9b29d758a5982c2"
 requires = [
     "APCalign",
-    "arrow",
+    "cli",
     "curl",
     "dplyr",
     "jsonlite",
-    "purrr",
-    "readr",
+    "nanoparquet",
+    "rlang",
     "stringdist",
-    "stringr",
 ]
 
 [[package]]
 name = "taxonAlign.dataprep"
 version = "0.0.0-4.9000"
 source = "git:https://github.com/traitecoevo/taxonAlign.dataprep.git"
-checksum = "git:8c1e1cef10a5646c1cf3a481c93e83d38a08a79e"
+checksum = "git:f0e55971de93892c761fbd4ac4b20104e4b89d81"
 requires = [
     "APCalign",
     "arrow",
